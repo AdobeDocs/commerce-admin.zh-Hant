@@ -1,0 +1,109 @@
+---
+title: 型錄價格規則的排程變更
+description: 瞭解如何依排程套用目錄價格規則，作為行銷活動的一部分並與其他內容變更分組。
+exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
+feature: Merchandising, Price Rules, Catalog Management
+source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 0%
+
+---
+
+# 型錄價格規則的排程變更
+
+{{ee-feature}}
+
+儲存或更新新價格規則時，「排定變更」方塊會顯示在頁面頂端。 型錄價格規則可以排程套用為促銷活動的一部分，並和其他內容變更一起分組。 您可以根據價格規則的排程變更來建立行銷活動，或將變更套用至現有行銷活動。
+
+>[!NOTE]
+>
+>所有排定的更新都會連續套用。 這表示任何實體在某個時間點只能有一個排程更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的不同排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
+
+如果相同促銷活動中執行了多個價格規則，則價格規則的「優先順序」設定會決定哪一個規則優先。 若要深入瞭解，請參閱 [內容分段](../content-design/content-staging.md).
+
+>[!IMPORTANT]
+>
+>如果最初建立的行銷活動包含價格規則，但沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 建議您在建立行銷活動時新增結束日期，或建立現有行銷活動的重複版本，並根據需要新增結束日期至重複。
+
+![型錄價格規則 — 排程變更](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## 排程型錄價格規則的更新
+
+1. 在 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**目錄價格規則**.
+
+1. 在編輯模式中開啟規則。
+
+1. 在 **[!UICONTROL Scheduled Changes]** 方塊中，按一下 **[!UICONTROL Schedule New Update]**.
+
+1. 使用 **[!UICONTROL Save as a New Update]** 已選取選項，請執行下列動作：
+
+   - 的 **[!UICONTROL Update Name]**，輸入規則更新的名稱。
+
+   - 輸入簡報 **[!UICONTROL Description]** 更新，包括套用方式或原因。
+
+   - 使用 _行事曆_ (![行事曆圖示](../assets/icon-calendar.png))以選擇 **[!DNL Start Date]** 和 **[!UICONTROL End Date]** 以使排程的變更生效。 若要建立未完成的變更，請將結束日期保留空白。
+
+   ![型錄價格規則 — 新排程變更](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >開始和結束日期/時間由預設的「管理員」面板日期/時間和時區決定，而不是由特定網站的時區決定。 考量網站的時區，正確判斷開始和結束時間。 針對位於不同時區、需要在特定本機時間啟動和/或停止的網站，建立個別規則。
+
+1. 向下捲動至 **[!UICONTROL Rule Information]** 區段，並視需要變更規則。
+
+   您可以排程任何規則引數的變更，包括規則的網站（範圍）/客戶群組、規則的條件，以及規則套用的動作。 如需詳細資訊，請參閱 [建立型錄價格規則](price-rules-catalog-create.md).
+
+   >[!NOTE]
+   >
+   >如果您變更任何規則資訊引數，請確定 _[!UICONTROL Status]_已正確設定。 如果您希望變更產生主動套用的規則，狀態應為`Active`.
+
+1. 完成後，按一下 **[!UICONTROL Save]**.
+
+   排程變更會顯示在頁面頂端，其中包含行銷活動的開始和結束日期。
+
+## 編輯排定的規則變更
+
+1. 在 **[!UICONTROL Scheduled Changes]** 方塊中，按一下 **[!UICONTROL View/Edit]**.
+
+1. 進行排程更新所需的任何變更。
+
+1. 按一下 **[!UICONTROL Save]**.
+
+## 預覽排定的規則變更
+
+1. 在 **[!UICONTROL Scheduled Changes]** 方塊中，按一下 **[!UICONTROL Preview]**.
+
+   「預覽」會開啟新的瀏覽器標籤，載入已套用排程變更的店面。 導覽至受變更影響的產品。
+
+   ![預覽排定的變更](./assets/price-rule-catalog-scheduled-update-preview.png){width="600" zoomable="yes"}
+
+1. 在「預覽」視窗的左上角，按一下 **[!UICONTROL Calendar]**.
+
+   行事曆詳細資料會顯示排程在同一天的其他行銷活動。 清單中的每個記錄都是個別的規則更新。
+
+   ![特定日期的已排程更新清單](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
+
+1. 若要預覽不同的日期或時間，請按一下 **[!UICONTROL Date & Time]** 行事曆 ![行事曆圖示](../assets/icon-calendar.png) 並執行下列動作：
+
+   - 選擇不同的日期和/或時間。
+
+   - 按一下 **[!UICONTROL Preview]**.
+
+1. 若要返回行事曆，請按一下 **[!UICONTROL Calendar]** 在「預覽」頁面的標頭中。
+
+   從這裡，您可以進行以下操作：
+
+   **分享預覽連結**
+
+   若要與同事共用商店預覽的連結，請按一下 **[!UICONTROL Share]**. 將連結複製到剪貼簿，然後貼到電子郵件內文中。
+
+   >[!NOTE]
+   >
+   >必須有Admin使用者帳戶才能檢視共用預覽。 若您的 [角色具有存取權](../systems/permissions-user-roles.md) 若要建立Admin使用者帳戶，您必須在共用之前為新使用者建立帳戶。
+
+   **變更預覽範圍**
+
+   若要檢視不同商店檢視的已排程變更，請按一下 **[!UICONTROL Scope]** 在「預覽」頁面的標頭中。 選擇您要預覽的網站、商店或商店檢視。
+
+1. 如有必要，請返回行事曆並按一下 **[!UICONTROL View/Edit]** 在 _[!UICONTROL Action]_欄，以開啟另一個排定的更新。
