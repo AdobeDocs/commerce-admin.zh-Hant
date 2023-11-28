@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予您的有限存取許可權 [!DNL Commerce] 其他帳戶 [!DNL Commerce] 帳戶持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 4c16436d9fd756ed33ca4b90924be58714f971d4
+source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ ht-degree: 0%
 
 ## 設定共用帳戶
 
-1. 開始之前，請先從 [!DNL Commerce] 的帳戶 **新使用者**：
+1. 開始之前，請先從 [!DNL Commerce] 的帳戶 **新的共用存取許可權受權者**：
 
+   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。
    - 此 `Account ID` 顯示在左上角的 _[!UICONTROL Magento]_標籤，在正上方&#x200B;**登出**連結。
    - 此 `Email` 與帳戶相關聯的地址。
 
