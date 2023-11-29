@@ -3,10 +3,10 @@ title: 『[!UICONTROL Security] &gt； [!UICONTROL 2FA]『
 description: 檢閱上的組態設定 [!UICONTROL Security] &gt； [!UICONTROL 2FA] 商務管理員頁面。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 7%
+source-wordcount: '265'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 | [!UICONTROL Providers to use] | 全域 | 指示您需要的雙因素驗證方法。 如果您選取多個提供者，則每個使用者在下次登入時都必須設定每個2FA方法。 |
 | [!UICONTROL Configuration Email URL for Web API] | 全域 | 對於自訂實施，為傳送至的備用電子郵件設定連結提供URL _管理員_ 初次登入的使用者。 在電子郵件範本中，使用預留位置 `:tfat` 以指出代號插入的位置。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | 全域 | Google Authenticator產生的每個一次性密碼(OTP)的期限（以秒為單位）。 預設： `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 | [!UICONTROL Secret Key] | 全域 | 您電腦中的秘密金鑰 [!DNL Duo Security] 帳戶。 |
 | [!UICONTROL API Hostname] | 全域 | 來自您的 [!DNL Duo Security] 帳戶。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 | [!UICONTROL API Key] | 全域 | 來自您的 [!DNL Authy] 帳戶。 |
 | [!UICONTROL OneTouch Message] | 全域 | 顯示在「 」中的 [!DNL Authy] 登入時驗證者。 預設： `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ ht-degree: 7%
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | 全域 | 用來發出和處理內容的網域 [!DNL WebAuthn] 自訂WebAPI實作的挑戰。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

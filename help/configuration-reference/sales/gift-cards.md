@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Gift Cards]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Gift Cards] 商務管理員頁面。
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 4%
+source-wordcount: '334'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 | [!UICONTROL Gift Card Notification Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 顯示為禮品卡通知電子郵件寄件者。 預設值： `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | 存放區檢視 | 決定 [範本](../../systems/email-templates.md) 用於禮品卡通知電子郵件。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 | [!UICONTROL Gift Message Maximum Length] | 存放區檢視 | 決定禮卡訊息中允許的最大字元數。 預設值： 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 全域 | 決定客戶下訂單時或開立訂單商業發票時是否產生禮品卡帳戶。 選項： `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 | [!UICONTROL Gift Card Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 顯示為禮品卡電子郵件寄件者。 預設值： `General Contact` |
 | [!UICONTROL Gift Card Template] | 存放區檢視 | 決定 [範本](../../systems/email-templates.md) 用於禮卡電子郵件。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 4%
 | [!UICONTROL Low Code Pool Threshold] | 全域 | 決定程式碼集區中觸發需要補充集區之警示的記錄數。 |
 | [!UICONTROL Generate] | 全域 | 按一下以產生禮品卡代碼清單。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

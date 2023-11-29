@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Reward Points]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Reward Points] 商務管理員頁面。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 全域 | 決定是否從退款金額中自動扣除獎勵積分。 選項： `Yes` / `No`. |
 | [!UICONTROL Landing Page] | 存放區檢視 | 指定說明您的獎勵積分方案的CMS頁面。 預設「獎勵」頁面的連結會出現在商店中可以取得點數的位置。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 | [!UICONTROL Review Submission] | 網站 | 決定客戶提交核准發佈的稽核所獲得的點數。 |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | 網站 | 限制可用於取得每位客戶點數的評論數量。 保留空白則無限制。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 1%
 | [!UICONTROL Reward Points Expiry Warning Email] | 存放區檢視 | 決定當達到批次點的到期警告限制時，客戶收到的電子郵件範本。 預設範本： `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | 全域 | 指定在點到期之前傳送通知的天數。 留空將不傳送到期通知。 如果輸入的天數大於點的剩餘存留期，則不會傳送通知。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

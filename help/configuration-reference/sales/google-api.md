@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Google API]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Google API] 商務管理員頁面。
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 2%
+source-wordcount: '978'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 | [!UICONTROL Anonymize IP] | 存放區檢視 | 決定是否從出現的IP位址中移除識別資訊 [!DNL Google Analytics] 個結果。 |
 | [!UICONTROL Enable Content Experiments] | 存放區檢視 | 啟用 [Google內容實驗](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，可用來測試相同頁面最多十個不同版本。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 | [!UICONTROL List property for the search results page] | 存放區檢視 | 識別 [!DNL Google Tag Manager] 與搜尋結果頁面關聯的屬性。 預設值： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 存放區檢視 | 識別 [!DNL Google Tag Manager] 與內部促銷活動標籤關聯的屬性。 預設值： `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 | [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於 _[!UICONTROL Constant]_轉換值型別。 |
 | [!UICONTROL Send Order Currency] | 存放區檢視 | 啟用AdWords中的交易特定貨幣轉換值（適用於使用不同基本貨幣的網站）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 | [!UICONTROL Anonymize IP] | 存放區檢視 | 決定是否從Google Analytics結果中顯示的IP位址中移除識別資訊。 |
 | [!UICONTROL Enable Content Experiments] | 存放區檢視 | 啟用 [Google內容實驗](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)，可用來測試相同頁面最多十個不同版本。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ ht-degree: 2%
 | [!UICONTROL List property for the search results page] | 存放區檢視 | 識別 [!DNL Google Tag Manager] 與搜尋結果頁面關聯的屬性。 預設值： `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 存放區檢視 | 識別 [!DNL Google Tag Manager] 與內部促銷活動標籤關聯的屬性。 預設值： `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ ht-degree: 2%
 | [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於 _[!UICONTROL Constant]_轉換值型別。 |
 | [!UICONTROL Send Order Currency] | 存放區檢視 | 啟用AdWords中的交易特定貨幣轉換值（適用於使用不同基本貨幣的網站）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

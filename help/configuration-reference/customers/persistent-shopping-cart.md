@@ -3,9 +3,9 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Persistent Shopping Cart]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Persistent Shopping Cart] 商務管理員頁面。
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)決定是否會在工作階段結束時保留最近檢視產品的狀態。 選項： <br/>**`Yes`**— 工作階段結束時，會儲存最近檢視過的產品的狀態。<br/>**`No`**  — 工作階段結束時未儲存最近檢視過的產品的狀態。 |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)決定在工作階段結束時，是否保留客戶群組成員資格和細分條件的狀態。 選項： <br/>**`Yes`**— 在工作階段結束時，會儲存客戶的群組成員資格和細分資料的狀態。<br/>**`No`**  — 工作階段結束時，不會儲存客戶的群組成員資格狀態和細分資料。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

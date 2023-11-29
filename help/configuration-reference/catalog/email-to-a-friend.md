@@ -3,10 +3,10 @@ title: 『[!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend]『
 description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL Email to a Friend] 商務管理員頁面。
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 2%
 | [!UICONTROL Max Products Sent in 1  Hour] | 存放區檢視 | 限制單一使用者在一小時期間內可共用的產品數量。 |
 | [!UICONTROL Limit Sending By] | 存放區檢視 | 決定用來識別傳送者的方法。 選項包括： <br/>**`IP Address`**- （建議）依用來傳送產品電子郵件之電腦的IP位址識別寄件者。<br/>**`Cookie (unsafe)`**  — 透過瀏覽器Cookie識別寄件者。 此方法不安全，因為使用者可以刪除Cookie以避免限制。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

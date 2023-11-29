@@ -2,10 +2,10 @@
 title: 設定範圍
 description: 瞭解如何在Commerce管理員中設定組態設定的範圍。
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 | [!UICONTROL Default Store View] | 與上層存放區相關聯的預設存放區檢視名稱。 |
 | [!UICONTROL Stores Configuration] | 跳至「商店」格線，與選擇 [!UICONTROL Stores] > [!UICONTROL All Stores] 從管理員側邊欄。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![使用選取的系統值核取方塊](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Use Default] | 當設定範圍設定為[主要]時，就會出現此核取方塊 `Website`，且是指指派給網站的預設商店。 |
 | [!UICONTROL Use Website] | 當設定範圍設定為特定存放區檢視時，此核取方塊就會顯示。 選取後，系統會使用與商店檢視相關聯的父網站設定。 在此情況下，系統會略過商店層級，因為系統理解此層級會套用至與網站相關聯的預設商店。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 設定範圍
 
@@ -94,4 +94,4 @@ ht-degree: 1%
 | 語言 | 若要支援多種語言，所有內容（包括產品說明）必須 [已翻譯](../stores-purchase/store-localize.md#localize-products) 適用於每個商店檢視。 |
 | 顯示貨幣 | 不同的 [顯示貨幣](../stores-purchase/currency-configuration.md) 可用於每個商店檢視，不過交易是在網站層級使用基本貨幣處理。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

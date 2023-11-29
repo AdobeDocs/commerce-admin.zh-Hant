@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Tax]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Tax] 商務管理員頁面。
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 2%
+source-wordcount: '1363'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 | [!UICONTROL Default Tax Class for Product] | 全域 | 識別用於產品的預設稅捐類別。 |
 | [!UICONTROL Default Tax Class for Customer] | 全域 | 識別用於客戶的預設稅捐類別。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 | [!UICONTROL Apply Tax On] | 網站 | 決定稅捐是套用至原始價格，還是套用至自訂價格（若有的話）。 選項： `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | 網站 | 啟用時，會跨不同稅率的地區套用一致的定價。 選項： `Yes` / `No` <br/><br/>**_注意：_**使用跨境交易會依稅率調整利潤率。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 | [!UICONTROL Default State] | 存放區檢視 | 決定稅捐計算所依據的州。 星號(*)可作為萬用字元來表示所選國家/地區內的所有狀態。 |
 | [!UICONTROL Default Post Code] | 存放區檢視 | 識別稅捐計算所依據的郵遞區號。 星號(*)可作為萬用字元來表示所選州內的所有郵遞區號。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 | [!UICONTROL Display Product Prices in Catalog] | 存放區檢視 | 決定目錄中所發佈的產品價格是否包含或排除稅捐，或顯示兩個版本的價格；一個包含稅捐，另一個不含稅捐。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**如果您將「顯示產品價格」欄位設為 `Including Tax`，只有當有符合稅捐來源的稅捐規則，或是有符合稅捐規則的客戶地址時，才會顯示稅捐。 可觸發比對的事件包括客戶帳戶建立、登入，或在購物車中使用稅務和送貨預估工具。 |
 | [!UICONTROL Display Shipping Prices] | 存放區檢視 | 決定出貨價格是否包含或排除稅捐，或顯示兩個版本的出貨價格；一個包含稅捐，另一個不含稅捐。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 | [!UICONTROL Display Full Tax Summary] | 存放區檢視 | 決定購物車是否包含完整的稅捐彙總。 選項： `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | 存放區檢視 | 決定稅捐為零時，購物車是否包含稅捐小計。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 | [!UICONTROL Display Gift Wrapping Prices] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)決定是否將禮品包裝價格納入小計。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅適用於Adobe Commerce)決定小計中是否包含印刷卡價。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ ht-degree: 2%
 | [!UICONTROL FPT Tax Configuration] | 網站 | 決定如何計算FPT稅捐。 選項： <br/>**`Not Taxed`**— 如果您的課稅管轄區不對FPT課稅，請選取此選項。 （例如，加州。）<br/>**`Taxed`**  — 如果您的稅捐管轄區對稅捐課稅起始點徵稅，請選取此選項。 （例如，加拿大。） <br/>**`Loaded and Displayed with Tax`**— 如果在套用稅捐之前將FPT加入訂單總計，請按一下此選項。 （例如，歐盟國家。） |
 | [!UICONTROL Include FPT in Subtotal] | 網站 | 判斷購物車小計中是否包含FPT。 選項： <br/>**`Yes`**— 在購物車小計中包含FPT。<br/>**`No`** - FPT不包含在小計中，而是放置在購物車中的小計之後。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

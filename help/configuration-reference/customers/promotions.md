@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Promotions]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Promotions] 商務管理員頁面。
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 2%
+source-wordcount: '323'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 | [!UICONTROL Email Send Failure Threshold] | 全域 | 提醒嘗試將通知傳送至特定電子郵件地址並失敗的次數。 當值設為0時，沒有臨界值，並且儘管發生任何失敗，仍會繼續傳送通知。 |
 | [!UICONTROL Reminder Email Sender] | 存放區檢視 | 顯示為電子郵件寄件者的商店身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 2%
 | [!UICONTROL Code Suffix] | 全域 | 附加至所有程式碼結尾的值。 如果您不想使用尾碼，請將此欄位留空。 |
 | [!UICONTROL Dash Every X Characters] | 全域 | 在所有優惠券代碼中插入破折號(-)的間隔。 如果您不想使用破折號，請將此欄位留空。 <br/>_**注意：**_ 只有破折號不同的抵用券代碼被視為不同的代碼。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

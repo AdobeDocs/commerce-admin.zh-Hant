@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Requisition Lists] 商務管理員頁面。
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Number of Requisition Lists] | 存放區檢視 | 決定每個客戶帳戶可維護的請購單清單數目上限。 最小數量為 `2`，最大數字為 `999`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: 『[!UICONTROL Catalog] &gt； [!UICONTROL Catalog]『
 description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL Catalog] 商務管理員頁面。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
-ht-degree: 2%
+source-wordcount: '3095'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 | [!UICONTROL Mask for Meta Keywords] | 全域 | 決定預設值 _中繼關鍵字_ 欄位，根據其他欄位中的預留位置值和輸入的任何其他文字。 預設預留位置： <br/>產品名稱 —  `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | 全域 | 根據其他欄位的預留位置值和輸入的任何其他文字來決定「中繼說明」欄位的預設值。 預設預留位置： <br/>產品名稱 —  `{{name}}` <br/>說明 —  `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用產品評論。 選項： `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | 網站 | 決定客戶是否必須在您的商店開立帳戶才能撰寫產品評論。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 | [!UICONTROL Show Swatches in Product List] | 存放區檢視 | 決定色票是否出現在「產品清單」中。 選項： `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | 存放區檢視 | 決定是否顯示色票工具提示。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 | [!UICONTROL Stock Alert Email Template] | 存放區檢視 | 識別用於庫存警示電子郵件通知的範本。 預設範本： `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | 存放區檢視 | 決定商店聯絡人，顯示為產品警示電子郵件訊息的寄件者。 選項： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 2%
 | [!UICONTROL Error Email Sender] | 全域 | 選取電子郵件的角色 `from`. |
 | [!UICONTROL Error Email Template] | 全域 | 選取用於產品警示錯誤通知的電子郵件範本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 | [!UICONTROL Thumbnail] | 存放區檢視 | 識別為縮圖選擇的預留位置檔案。 |
 | [!UICONTROL Choose File] |  | 導覽至檔案，並將其上傳為型別的預留位置影像。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 2%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | 全域 | 決定已檢視產品在最近檢視的清單中顯示的時間長度（以秒為單位）。 |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | 全域 | 決定最近比較的產品清單中顯示比較產品的時間（秒）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 | [!UICONTROL Show related video] | 存放區檢視 | 若要顯示相關影片，請將設為 `Yes`. |
 | [!UICONTROL Auto restart video] | 存放區檢視 | 若要啟用自動重播視訊，請將設為 `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 2%
 | [!UICONTROL Catalog Price Scope] | 全域 | 決定基本貨幣的範圍。 選項： `Global` / `Website` |
 | [!UICONTROL Default Product Price] | 全域 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)定義預設產品價格（如適用）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 | [!UICONTROL Default Price Navigation Step] | 存放區檢視 | 決定每個步驟中包含的產品數量。 |
 | [!UICONTROL Maximum Number of Price Intervals] | 存放區檢視 | 建立出現在分層導覽的價格間隔數限制。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 2%
 | [!UICONTROL Allow Adding to Cart] | 網站 | 決定誰可以從類別購買產品。 選項： <br/>`Yes, for Everyone`  — 讓每個人都可以將類別中的產品放入購物車中。 <br/>`Yes, for Specified Customer Groups`  — 僅允許所選客戶群組的成員將產品從類別放入其購物車。 <br/>`No`  — 不允許任何人將類別中的產品放入購物車。 |
 | [!UICONTROL Disallow Catalog Search by] | 網站 | 識別不允許在類別中搜尋產品的客戶群組。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 2%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 存放區檢視 | 如果有多個URL指向相同的類別頁面，此選項會使用標準中繼標籤來識別搜尋引擎應編制索引的類別URL。 URL包含使用meta標籤的類別的完整名稱。 如此可減少重複內容並改善SEO。 選項： `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | 存放區檢視 | 如果有多個URL指向相同的產品頁面，此選項會使用標準中繼標籤來識別搜尋引擎應編制索引的產品URL。 URL包含使用meta標籤的產品全名。 如此可減少重複內容並改善SEO。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | 全域 | 決定頂端導覽列中的子類別層級數目。 預設值 `0` 層級數目沒有限制。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ ht-degree: 2%
 | [!UICONTROL Number of top search results to cache] | 存放區檢視 | 快取以加快回應的熱門搜尋字詞和結果數目。 輸入值 `0` 第二次輸入時會快取所有搜尋字詞和結果。 預設值： `100` |
 | [!UICONTROL Autocomplete Limit] | 存放區檢視 | 決定 [店面彈出視窗] 頁面。 預設值可以在安裝「即時搜尋」時變更，並在稍後透過變更此組態設定進行更新。 預設值： `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce與Elasticsearch
 
@@ -289,7 +289,7 @@ ht-degree: 2%
 | [!UICONTROL Show Results Count for Each Suggestion] | 存放區檢視 | 決定是否顯示每個建議的搜尋結果數目。 根據主題，數字通常出現在建議後的方括弧中。 選項： `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 存放區檢視 | 指定一個值，該值對應於查詢中搜尋結果應相符才能傳回的字詞數。 這可確保為購物者帶來最佳結果相關性。 百分比值與數字相關，如有需要，會向下舍入，並做為查詢中相符字詞的最小數量。 該值可以是負整數或正整數、負或正百分比、兩者的組合或多個組合。 若要深入瞭解，請參閱 [minimum_should_match引數](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) 在Elasticsearch檔案中。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ ht-degree: 2%
 | [!UICONTROL Use Content Disposition] | 存放區檢視 | 決定如何將可下載內容的連結傳遞為電子郵件附件或瀏覽器視窗中的內嵌連結。 選項： <br/>**`Attachment`**— 下載連結會以電子郵件附件的形式傳送。<br/>**`Inline`**  — 下載連結會在網頁上以內嵌連結的形式傳送。 |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 網站 | 決定購買可下載產品的來賓是否必須註冊帳戶並登入以完成結帳程式。 選項： <br/>**`Yes`**— 如果購物車包含可下載的產品，訪客必須註冊帳戶或登入現有帳戶才能完成購買。<br/>**`No`**  — 下載連結會在電子郵件內文中以內嵌連結的形式傳送。  <br/> _**注意：**_ 如果「可共用」設為，則訪客簽出僅適用於下載產品 `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ ht-degree: 2%
 | [!UICONTROL Time Format] | 存放區檢視 | 將時間格式設定為12或24小時時鐘。 選項： `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | 存放區檢視 | 定義出現於「 」中的開始和結束年份範圍 _年_ 欄位。 必須以YYYY格式輸入值。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ ht-degree: 2%
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | 存放區檢視 | 決定類別頁面上事件滑桿Widget中出現的事件數。 若要覆寫，請使用 `limit="x"` 變數中。 |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | 存放區檢視 | 決定CMS頁面（例如首頁）上事件滑桿Widget中出現的事件數。 若要覆寫，請使用 `scroll="x"` 變數中。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ ht-degree: 2%
 | [!UICONTROL Show Upsell Products] | 全域 | 決定商店中顯示的追加銷售產品清單。 它可以是在「產品資訊」中手動選取的清單、為回應產品關係規則而產生的清單，或兩者的組合。 選項： `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | 全域 | 決定追加銷售產品清單中產品的顯示順序。 選項： `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

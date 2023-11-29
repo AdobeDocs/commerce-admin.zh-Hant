@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL Store Email Addresses]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL Store Email Addresses] 商務管理員頁面。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 9%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示的名稱，是由所傳送之電子郵件的寄件者 `General Contact` 身分。 |
 | [!UICONTROL Sender Email] | 存放區檢視 | 與關聯的電子郵件地址 `General Contact` 身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示的名稱，是由所傳送之電子郵件的寄件者 `Sales Representative` 身分。 |
 | [!UICONTROL Sender Email] | 存放區檢視 | 與關聯的電子郵件地址 `Sales Representative` 身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ ht-degree: 9%
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示的名稱，是由所傳送之電子郵件的寄件者 `Customer Support` 身分。 |
 | [!UICONTROL Sender Email] | 存放區檢視 | 與關聯的電子郵件地址 `Customer Support` 身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 自訂電子郵件1
 
@@ -58,7 +58,7 @@ ht-degree: 9%
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示的名稱，是由所傳送之電子郵件的寄件者 `Custom 1` 身分。 |
 | [!UICONTROL Sender Email] | 存放區檢視 | 與關聯的電子郵件地址 `Custom 1` 身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 自訂電子郵件2
 
@@ -69,4 +69,4 @@ ht-degree: 9%
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示的名稱，是由所傳送之電子郵件的寄件者 `Custom 2` 身分。 |
 | [!UICONTROL Sender Email] | 存放區檢視 | 與關聯的電子郵件地址 `Custom 2` 身分。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

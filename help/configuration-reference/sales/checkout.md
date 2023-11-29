@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Checkout]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Checkout] 商務管理員頁面。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 3%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 | [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)判斷客戶是否可使用 [地址搜尋](../../stores-purchase/checkout-address-search.md) 送貨功能，以及檢閱與付款步驟。 啟用後，請使用「客戶地址數限制」來設定在結帳期間啟用此功能所需的儲存地址數。 選項： `Yes` / `No` |
 | 客戶地址數量限制 | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)啟用地址搜尋時，會決定結帳期間啟用此功能所需的儲存地址數量。 當客戶的儲存地址數目符合或超過此數目時，只會在 _送貨_ 和 _稽核與付款_ 步驟。 客戶可使用搜尋功能來變更選取的地址。 預設值為 `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | 存放區檢視 | 決定從購物車預覽報價時最長使用時間（分鐘）。 |
 | [!UICONTROL Enable Clear Shopping Cart] | 網站 | 決定購物車是否顯示選項，讓使用者在單一動作中清除購物車內容。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | 網站 | 決定出現在「我的購物車」連結後方括弧中的值。 選項： `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 迷你購物車
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 | [!UICONTROL Number of Items to Display Scrollbar] | 存放區檢視 | 決定觸發卷軸之前可以出現在迷你購物車中的專案數量。 預設： `5` |
 | [!UICONTROL Maximum Number of Items to Display] | 存放區檢視 | 決定迷你購物車中可顯示的專案最大數量。 預設： `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 3%
 | [!UICONTROL Send Payment Failed Copy To] | 存放區檢視 | 提供任何人收到「付款失敗」電子郵件復本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Payment Failed Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項： <br />**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br />**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

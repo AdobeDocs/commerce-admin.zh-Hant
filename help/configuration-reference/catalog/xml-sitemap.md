@@ -3,10 +3,10 @@ title: 『[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]『
 description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap] 商務管理員頁面。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 | [!UICONTROL Frequency] | 存放區檢視 | 決定Sitemap類別的更新頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定類別Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 | [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定產品網站地圖更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 | [!UICONTROL Add Images into Sitemap] | 存放區檢視 | 決定影像包含在網站地圖中的範圍。 選項： `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 7%
 | [!UICONTROL Frequency] | 存放區檢視 | 決定網站地圖CMS頁面的更新頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定CMS頁面Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 7%
 | [!UICONTROL Frequency] | 存放區檢視 | 決定儲存URL更新的頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 可決定存放區URL更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 | [!UICONTROL Error Email Sender] | 網站 | 識別顯示為錯誤通知寄件者的商店聯絡人。 選項： `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | 網站 | 識別用於錯誤通知的電子郵件範本。 預設範本： `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 7%
 | [!UICONTROL Maximum No of URLs Per File] | 存放區檢視 | 決定單一Sitemap可包含的URL數量上限。 |
 | [!UICONTROL Maximum File Size] | 存放區檢視 | 決定產生的Sitemap大小上限（位元組）。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 7%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | 存放區檢視 | 啟用為robots.txt檔案提交的指令。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

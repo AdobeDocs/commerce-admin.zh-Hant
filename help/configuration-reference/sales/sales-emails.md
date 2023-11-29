@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Sales Emails]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Sales Emails] 商務管理員頁面。
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 2%
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | 全域 | 判斷是否以非同步方式傳送銷售電子郵件。 建議您啟用非同步傳送。 選項： <br/>**`Disable`**- （預設）事件觸發時會傳送銷售電子郵件。<br/>**`Enable`** - （建議）銷售電子郵件會定期以預先決定的間隔傳送。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 | [!UICONTROL Send Order Email Copy To] | 存放區檢視 | 提供任何人收到訂單電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 | [!UICONTROL Send Order Email Copy To|Store View] | 提供任何人收到訂單評論電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 | [!UICONTROL Send Invoice Email Copy To] | 存放區檢視 | 提供任何人接收發票電子郵件復本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Invoice Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 | [!UICONTROL Send Invoice Comment Email Copy To] | 存放區檢視 | 提供任何人收到發票註解電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 2%
 | [!UICONTROL Send Shipment Email Copy To] | 存放區檢視 | 提供應接收運送電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Shipment Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 2%
 | [!UICONTROL Send Shipment Comment Email Copy To] | 存放區檢視 | 提供接收出貨評論電子郵件副本之所有人的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 2%
 | [!UICONTROL Send Credit Memo Email Copy To] | 存放區檢視 | 提供應接收銷退折讓單電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Credit Memo Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 2%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | 存放區檢視 | 指定任何人收到銷退折讓單評論電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 2%
 | 將訂單準備取貨電子郵件副本傳送至 | 存放區檢視 | 指定任何接收副本之人員的電子郵件地址 _訂單準備取貨_ 電子郵件。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 2%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | 存放區檢視 | 通知建立者將採購單轉換為訂單時發生錯誤。 |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | 存放區檢視 | 傳送電子郵件，通知核准者採購單需要其核准。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 2%
 | [!UICONTROL Send Quote Email Copy To] | 存放區檢視 | 指定每個要接收報價電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send Quote Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 2%
 | [!UICONTROL Send RMA Email Copy To] | 存放區檢視 | 提供應接收RMA電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send RMA  Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 2%
 | [!UICONTROL Send RMA Authorization Email Copy To] | 存放區檢視 | 提供任何人收到RMA授權電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 2%
 | [!UICONTROL Send RMA Comment Email Copy To] | 存放區檢視 | 提供任何人接收通知復本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 2%
 | [!UICONTROL Send RMA Comment Email Copy To] | 存放區檢視 | 提供任何人接收通知復本的電子郵件地址。 請使用逗號分隔多個地址。 |
 | [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

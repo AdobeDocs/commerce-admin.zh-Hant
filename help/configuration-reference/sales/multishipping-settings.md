@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Multishipping Settings] 商務管理員頁面。
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 | [!UICONTROL Allow Shipping to Multiple Addresses] | 網站 | 決定是否允許單一訂單運送至多個地址（僅限註冊客戶）。 選項： `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | 網站 | 設定可運送至多個地址的產品單位數限制。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

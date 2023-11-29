@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt；  [!UIC
 description: 檢閱中的組態設定 [!UICONTROL PayPal Payflow Pro] 區段於 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商務管理員頁面。
 exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 | [!UICONTROL Enable this Solution] | 網站 | 決定PayPal Payflow Pro是否可作為付款方式提供給您的客戶。 |
 | [!UICONTROL Enable PayPal Credit] | 網站 | 決定您的客戶是否可將PayPal信用作為付款選項。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 | [!UICONTROL Catalog Product Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 產品頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 購物車頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payflow Pro]
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 | **[!UICONTROL Credit Card Settings]** |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | 網站 | 決定客戶在結帳時可使用的信用卡。 選取每個支援的卡片。 選項： `American Express` （需要額外的合約） / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -80,4 +80,4 @@ ht-degree: 2%
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 顯示PayPal網站上客戶購物車的條列專案完整摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 網站 | 決定客戶是否可以從PayPal網站完成交易，或是必須返回您的商店並在提交訂單前完成「訂單複查」步驟。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

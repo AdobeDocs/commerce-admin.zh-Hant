@@ -3,10 +3,10 @@ title: 產品清單
 description: 瞭解如何修改產品清單設定（這會決定每個頁面要顯示多少產品），以及使用哪個屬性來排序清單。
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 1%
+source-wordcount: '792'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 | ![每頁顯示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page]  — 決定每頁要顯示多少產品。 |
 | ![分頁連結](./assets/control-pagination.png) | 分頁連結 — 導覽連結至其他頁面。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 設定分頁控制項
 

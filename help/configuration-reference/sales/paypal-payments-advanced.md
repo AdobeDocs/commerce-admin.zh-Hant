@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt； [!UICON
 description: 檢閱中的組態設定 [!UICONTROL PayPal Payments Advanced] 區段於 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商務管理員頁面。
 exl-id: c9159408-fbdf-4146-8292-9952cd5d01fa
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 2%
+source-wordcount: '1286'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 | [!UICONTROL Enable this Solution] | 網站 | 決定客戶是否可以使用「PayPal付款進階管理系統」作為付款方式。 |
 | [!UICONTROL Enable PayPal Credit] | 網站 | 決定您的客戶是否可將PayPal信用作為付款選項。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 | [!UICONTROL Catalog Product Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 產品頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 購物車頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 | [!UICONTROL Sort Order] | 存放區檢視 | 一個數字，當在結帳期間與其他付款方式一起列出時，決定「PayPal付款進階」出現的順序。 |
 | [!UICONTROL Payment Action] | 網站 | 決定PayPal在提交訂單時所採取的動作。 選項： <br/>**`Authorization`**— 核准購買，但保留資金。 此金額必須等到商家「擷取」後才會提取。<br/>**`Sale`**  — 採購金額已獲授權，並立即從客戶帳戶中提取。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 | [!UICONTROL Send Email Confirmation] | 網站 | 決定客戶是否收到付款的電子郵件確認。 選項： `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel URL and Return URL] | 網站 | 決定在交易期間與PayPal伺服器交換資訊的方法。 選項： <br/>**`GET`**— 擷取程式結果的資訊。 （這是預設方法。）<br/>**`POST`**  — 將資料區塊（例如輸入表單中的資料）傳送至資料處理流程。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 | [!UICONTROL Schedule] | 全域 | 決定PayPal產生結算報表的頻率。 選項： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 全域 | 決定產生結算報表的小時、分鐘和秒。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 | [!UICONTROL Header Image Border Color] | 存放區檢視 | 標頭周圍兩畫素邊框的六字元十六進位色彩代碼。 |
 | [!UICONTROL Page Background Color] | 存放區檢視 | 結帳頁面背景顏色的六字元十六進位顏色代碼，會顯示在頁首與付款表單後面。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -127,7 +127,7 @@ ht-degree: 2%
 | [!UICONTROL Payment Action] | 網站 | 決定PayPal收到訂單時所採取的動作。 選項： <br/>**`Authorization`**— 核准購買，但保留資金。 此金額必須等到商家「擷取」後才會提取。<br/>**`Sale`**  — 採購金額已獲授權，並立即從客戶帳戶中提取。 <br/>**`Order`**— 代表與PayPal的合約，可讓商家在定義的時段內，從客戶的買方帳戶擷取一或多項金額，最多可達到訂購總額。 最多可達29天。 必須從Commerce管理員產生一或多張商業發票，才能擷取資金。 |
 | [!UICONTROL URL Display on Product Details Page] | 存放區檢視 | 決定「使用PayPal結帳」按鈕是否出現在產品頁面上。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Express Checkout - Advanced Settings]
 
@@ -143,4 +143,4 @@ ht-degree: 2%
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 顯示PayPal網站上客戶購物車的條列專案完整摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 網站 | 決定客戶是否可以從PayPal網站完成交易，或是必須返回您的商店並在提交訂單前完成「訂單複查」步驟。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

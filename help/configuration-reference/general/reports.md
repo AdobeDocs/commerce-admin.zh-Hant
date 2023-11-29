@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL Reports]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL Reports] 商務管理員頁面。
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 | [!UICONTROL Year-to-Date Starts] | 全域 | 指定年初至今計算所依據的月份與日期。 |
 | [!UICONTROL Current Month Starts] | 全域 | 指定用於計算以標示本月初的月份日期。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 4%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | 全域 | 啟用或停用新增至希望清單之產品的統計資料的收集。 |
 | [!UICONTROL Enable "Share WishList" Report] | 全域 | 啟用或停用共用希望清單統計資料的收集。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

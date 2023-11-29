@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Login As Customer]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Login As Customer] 商務管理員頁面。
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 4%
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | 網站 | 為新增標題 `Login as customer` 核取方塊。 |
 | [!UICONTROL Login as Customer checkbox tooltip] | 網站 | 新增的工具提示 `Log in as customer` 核取方塊。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

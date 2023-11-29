@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Newsletter]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Newsletter] 商務管理員頁面。
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 決定是否為存放區檢視範圍啟用電子報。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 3%
 | [!UICONTROL Unsubscription Email Sender] | 存放區檢視 | 識別商店聯絡人，顯示為傳送給要求結束其電子報訂閱者的電子郵件的寄件者。 |
 | [!UICONTROL Unsubscription Email Template] | 存放區檢視 | 決定傳送通知給要求結束其電子報訂閱者的電子郵件範本。 預設範本： `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

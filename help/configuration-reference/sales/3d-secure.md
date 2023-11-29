@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL 3D Secure]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL 3D Secure] 商務管理員頁面。
 exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
 feature: Configuration, Security, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 3%
 | [!UICONTROL API Identifier] | 網站 | 來自您的 [!DNL CardinalCommerce] 商家帳戶。 |
 | [!UICONTROL Debug] | 網站 | 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

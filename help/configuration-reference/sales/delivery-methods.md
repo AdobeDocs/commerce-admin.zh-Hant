@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods] 商務管理員頁面。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
-ht-degree: 2%
+source-wordcount: '3812'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 | [!UICONTROL Show Method if Not Applicable] | 網站 | 若方法不適用於購買，則決定結帳期間是否顯示「統一費率」為選項。 選項： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定結帳期間與其他傳遞方式一起列出「統一費率」時的顯示順序。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 | 顯示方法（若不適用） | 網站 | 若方法不適用於購買，則決定結帳期間是否顯示「免運費」為選項。 選項： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定「免運費」在結帳期間與其他交貨方式一起列出時的顯示順序。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 | [!UICONTROL Show Method if Not Applicable] | 網站 | 如果方法不適用於購買，則決定在結帳期間表格費率是否顯示為選項。 選項： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，決定在結帳期間與其他傳遞方法一起列出表格費率時的顯示順序。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 | [!UICONTROL Search Radius] | 網站 | 搜尋取車位置時使用的半徑（以公里為單位）。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | 當客戶選擇店內取貨時，但無法使用交貨方式時顯示的訊息。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 2%
 | [!UICONTROL Origin of the Shipment] | 網站 | （僅限UPS XML）產品出貨來源的國家/地區。 |
 | [!UICONTROL Password] | 存放區檢視 | 您的UPS託運人帳戶密碼。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS封裝資訊](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 2%
 | [!UICONTROL Handling Applied] | 網站 | 指定處理費是套用至每個訂單，還是套用至訂單中的每個套件。 |
 | [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**如果輸入百分比量，請使用小數點格式 `0.25` 25%。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS允許的方法](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 2%
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 設定訂單達到免費送貨資格所需達到的最低總金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | 當此送貨方法因任何原因而無法使用時所顯示的錯誤訊息。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS適用的國家/地區和其他設定](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 | [!UICONTROL Debug] | 網站 | 指定系統是否記錄您存放區與UPS之間的資料傳輸以進行偵錯。 除非發生必須追蹤和記錄的問題，否則此選項應設為 `No`. |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定UPS在結帳期間與其他傳遞方法一起列出時的顯示順序。 輸入 `0` ，位於清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 2%
 | [!UICONTROL Password] | 網站 | 您的USPS託運人帳戶密碼。 |
 | [!UICONTROL Mode] | 網站 | 決定傳送至USPS系統之資料所使用的傳輸模式。 選項包括： <br/>**`Development`**- USPS不會驗證從Commerce伺服器收到的資料是否透過SSL傳送。<br/>**`Live`** - USPS會驗證從Commerce伺服器收到的資料是否已透過安全通訊端層(SSL)傳送。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS封裝設定](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 2%
 | [!UICONTROL Machinable] | 網站 | 指定電腦是否可以處理封裝。 此選項會影響運費的計算。 |
 | [!UICONTROL Maximum Package Weight] | 網站 | 設定封裝可以由USPS指定的最大重量。 如果訂購的產品超過最大包裝重量，則無法使用此送貨選項。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS處理費設定](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 2%
 | [!UICONTROL Handling Applied] | 網站 | 指定處理費是套用至每個訂單，還是套用至訂單中的每個套件。 |
 | [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**輸入百分比量時，請使用小數點格式 `0.25` 25%。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS允許的方法](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 2%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 網站 | 設定符合免費送貨資格的最低訂單金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | USPS由於任何原因無法使用時顯示的錯誤訊息。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS適用的國家/地區](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 2%
 | [!UICONTROL Debug] | 網站 | 決定系統是否維護您存放區與USPS之間的資料傳輸記錄以進行偵錯。 除非發生必須追蹤和記錄的問題，否則此選項應設為 `No`. |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定USPS在結帳期間與其他傳送方法一起列出時的顯示順序。 輸入 `0` ，位於清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 2%
 | [!UICONTROL Sandbox Mode] | 網站 | 若要在測試環境中執行FedEx交易，請將「沙箱模式」設定為 `Yes`. 選項： `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | 網站 | 所需的URL取決於沙箱模式設定。 選項： <br/>**`Production`**— 當存放區上線時用來存取FedEx Web服務的URL。<br/>**`Sandbox`**  — 存取FedEx Web服務測試環境的URL。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx封裝](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 2%
 | [!UICONTROL Dropoff] | 網站 | 從清單中選取收取方式： <br/>**`Regular Pickup`**- （預設）如果出貨量很大，安排定期取貨會符合成本效益。<br/>**`Request Courier`**  — 您必須致電並請求FedEx快遞，才能取貨。 <br/>**`Drop Box`**— 您必須在當地FedEx託運方塊卸貨。<br/>**`Business Service Center`**  — 您必須在當地的FedEx商務服務中心卸貨。 <br/>**`Station`**— 您必須在當地聯邦快遞站卸貨。 |
 | [!UICONTROL Maximum Package Weight] | 網站 | FedEx的預設值為150磅。 如需支援的最大重量，請洽詢您的運送公司。 除非您與FedEx有特殊安排，否則建議使用預設值。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx處理費](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 2%
 | [!UICONTROL Handling Applied] | 網站 | 決定如何套用處理費用。 選項： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 網站 | 根據用來計算金額的方法，指定收取處理費的金額。 如果費用是以固定費用為基礎，請以小數點輸入金額，例如 `4.90`. 如果處理費是以訂單的百分比為基準，請以百分比輸入金額。 例如，若要對訂單的6%計費，請輸入下列值 `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx傳遞方法](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 2%
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 指定免費送貨所需的最小訂單金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | 當FedEx由於任何原因無法使用時顯示的訊息。 您可以使用預設訊息或輸入其他訊息。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx適用國家/地區](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 2%
 | [!UICONTROL Show Method if Not Applicable] | 網站 | 決定結帳期間FedEx何時顯示為送貨方法。 選項： <br/>**`Yes`**— 無論訂單是否符合使用條件，FedEx出貨選項都會顯示在交貨方式清單中。<br/>**`No`**  — 如果交貨方式清單不適用訂單（例如，訂單重量超過最大重量金額），則不會顯示FedEx出貨選項。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，決定在結帳期間與其他傳遞方法一起列出時，FedEx出現的順序。 輸入 `0` ，位於清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 2%
 | [!UICONTROL Password] | 網站 | 您的DHL託運人帳戶密碼。 |
 | [!UICONTROL Account Number] | 網站 | 您的DHL託運人帳號。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL封裝設定](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 2%
 | [!UICONTROL Weight Unit] | 存放區檢視 | 決定用於出貨計算的重量測量單位。 選項： `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | 存放區檢視 | 決定封裝的大小。 選項： <br/>**`Regular`**— 寄出的套件符合DHL標準封裝方法。 在 [!UICONTROL Allowed Methods] 清單中，選取從商店出貨時所使用的各種包裝方式。<br/>**`Specific`**  — 如果寄出的套件有自訂維度，請完成下列作業： [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL允許的方法](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 2%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | 網站 | 設定為下列其中一項： <br/>**`Enable`**— 允許符合最低金額的訂單免費DHL運送。<br/>**`Disable`**  — 不提供免費DHL送貨及最低訂單。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 網站 | 如果您啟用 [!UICONTROL Free Shipping with Minimum Order]，在欄位中輸入最小訂購金額值。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL適用國家/地區](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 2%
 | [!UICONTROL Debug] | 網站 | 建立包含錯誤資訊的記錄檔。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，用來決定結帳期間DHL與其他傳遞方法一起列出時的顯示順序。 若要將其放在清單頂端，請輸入 `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Sales]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商務管理員頁面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 5%
+source-wordcount: '1066'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | 存放區檢視 | 決定客戶IP位址是否出現在訂單、商業發票、出貨及銷退折讓單上。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 | [!UICONTROL Fixed Product Tax] | 網站 | 決定何時計算與其他結帳總計相關之固定產品稅捐的數字。 預設值： `50` |
 | [!UICONTROL Grand Total] | 網站 | 決定總計與其他結帳總計之計算時間的數字。 預設值： `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | 存放區檢視 | 決定客戶是否可以從其帳戶重新排序。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | 存放區檢視 | 決定以零總計建立銷退折讓單的可能性。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 | [!UICONTROL Logo for HTML Print View] | 存放區檢視 | 識別出現在商業發票與包裝單HTML列印檢視表頭中的標誌檔案。 允許的檔案型別： <br/>JPG/JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | 存放區檢視 | 您要顯示在商業發票與包裝單上的商店地址。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 5%
 | [!UICONTROL Multi-address Description Message] | 存放區檢視 | 針對多地址訂單，如果傳送至地址的專案小於最小訂購量，則會決定顯示在購物車中的訊息。 |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | 存放區檢視 | 針對多地址訂單，當訂單金額小於所需的最小訂單金額時，會決定從迷你購物車或結帳連結顯示的訊息。 如果保留為空白，則會顯示預設訊息。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | 全域 | 決定是否使用即時彙總的銷售資料來產生儀表板快照報表。 如果您要處理大量資料，關閉即時資料的顯示可以改善效能。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | 網站 | 決定擱置訂單的期限（分鐘）。 預設設定： `480` 分鐘（8小時） |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 5%
 | [!UICONTROL Allow Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定是否可以為訂單新增列印卡片。 |
 | [!UICONTROL Default Price for Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定列印卡片的預設價格。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 | [!UICONTROL Default "What's This" Text Message] | 存放區檢視 | 客戶按一下「這是什麼？」時顯示的文字訊息。 從產品檢視頁面連結。 |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | 全域 | 製造商建議的零售價(MSRP)。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 5%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | 網站 | 決定客戶帳戶儀表板中是否提供「依SKU排序」。 選項： <br/>**`Yes, for Everyone`**— 「依SKU排序」標籤會出現在所有客戶的帳戶控制面板中。<br/>**`Yes, for Specified Customer Groups`**  — 指定群組或共用目錄成員的帳戶控制面板中會顯示「依SKU排序」標籤。 <br/>**`No`**— 客戶帳戶中無法使用「依SKU排序」頁標。 |
 | [!UICONTROL Customer Groups] | 網站 | 決定客戶群組。 選項： `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 5%
 | [!UICONTROL Enabled] | 存放區檢視 | 如果付款方式(例如Braintree)已啟用儲存庫，則為商店檢視啟用「立即購買」。 選項： `Yes` / `No` |
 | [!UICONTROL Button Text] | 存放區檢視 | 指定立即購買按鈕上顯示的文字。 預設文字為 `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ ht-degree: 5%
 | [!UICONTROL Archive Orders Purchased] | 全域 | 決定完成訂單存檔前的天數。 預設值： `30` |
 | [!UICONTROL Order  Statuses to be Archived] | 全域 | 決定 [狀態](../../stores-purchase/order-status.md) 要封存的訂單數量。 依預設，系統會封存狀態為「完成」或「已結」的訂單。 選項： `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ ht-degree: 5%
 | [!UICONTROL Enable RMA on Product Level] | 網站 | 決定產品資訊中「啟用RMA」欄位的預設值。 |
 | [!UICONTROL Use Store Address] | 網站 | 決定用於退回商品出貨的聯絡人名稱與地址。 選項： <br/>**`Yes`**— 使用 [原點](../../stores-purchase/shipping-settings.md#point-of-origin) 來自「送貨設定」的地址。<br/>**`No`**  — 開啟地址表單，以便輸入替代地址。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

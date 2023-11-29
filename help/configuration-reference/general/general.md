@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL General]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL General] 商務管理員頁面。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 2%
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 | [!UICONTROL European Union Countries] | 全域 | 歐盟成員國家/地區。 |
 | [!UICONTROL Top Destinations] | 存放區檢視 | 您鎖定銷售目標的主要國家/地區。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 | [!UICONTROL State is required for] | 全域 | 要求將地區或州納入郵寄地址的國家/地區（您經營業務的地方）。 |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | 全域 | 若為不需要的國家/地區，會確定 _地區/州_ 欄位包含在客戶的郵寄地址中。<br /> <br />**`Yes`**— 包含 _地區/州_ 客戶地址中的欄位，即使該國家/地區不要求也是如此。<br />**`No`**  — 若國家/地區不需要，則省略客戶地址中的「地區/州」欄位。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 | [!UICONTROL First Day of Week] | 存放區檢視 | 這天會被視為商店檢視所提供的市場一週中的第一天。 |
 | [!UICONTROL Weekend Days] | 存放區檢視 | 週末在商店景點提供的市場中的日子。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 | [!UICONTROL HTTP Response] | 網站 | 決定當網站關閉且機器人、編目程式或爬蟲程式嘗試連線時傳送的HTTP回應。<br /> <br />**`503 Service unavailable`**— 頁面無法使用，但爬蟲程式不應更新索引。<br />**`200 OK`**  — 登入頁面正確，且應該被爬蟲視為網站上的唯一頁面。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 網站 | 決定欄位 _登入_ 和 _忘記密碼_ 表格會自動從先前的專案填入。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 | [!UICONTROL VAT Number] | 網站 | 擁有Commerce安裝之企業的「增值稅」編號（如果適用）。 |
 | [!UICONTROL Validate VAT Number] |  | 驗證增值稅識別碼。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | 全域 | 啟用單一存放區安裝時，會隱藏設定範圍方塊和相關欄位標籤選項： `Yes` / `No` <br/>**_注意：_**具有多個檢視的存放區會忽略單一存放區模式。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

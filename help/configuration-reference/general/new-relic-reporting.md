@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL New Relic Reporting]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL New Relic Reporting] 商務管理員頁面。
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 4%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 4%
 | [!UICONTROL New Relic Application Name] | 存放區檢視 | 您指派給您的名稱 [!DNL New Relic] 整合。 |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | 存放區檢視 | 可選擇將店面和管理人員所收集的報表資料以個別應用程式的形式傳送至New Relic。 此選項需要為輸入名稱 [!UICONTROL New Relic Application Name]. 此功能會在收集的應用程式資料中附加底線中的應用程式名稱。 例如： `MyStore_Adminhtml`， `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 4%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | 存放區檢視 | 決定是否 [!DNL New Relic] 報告可以透過以下方式依排程執行 [Cron](../../systems/cron.md). 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

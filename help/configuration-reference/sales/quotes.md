@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Quotes]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Quotes] 商務管理員頁面。
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 3%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 | [!UICONTROL Minimum Amount Message] | 存放區檢視 | 當客戶嘗試提交報價請求，但未達到所需的最小金額時，顯示在購物車中的訊息。 |
 | [!UICONTROL Default Expiration Period] | 網站 | 決定a的預設生命週期 [引用](../../b2b/quote-price-negotiation.md) 作為提交報價請求日期起的時間期間。 選項： `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 3%
 | [!UICONTROL File formats for upload] | 全域 | 決定可附加至報價的檔案格式。 支援的預設值： `doc`， `docx`， `xls`， `xlsx`， `pdf`， `txt`， `jpg`， `png`、和 `jpeg` |
 | [!UICONTROL Maximum file size] | 全域 | 決定附加至引號的檔案大小上限。 伺服器組態可以覆寫此設定。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

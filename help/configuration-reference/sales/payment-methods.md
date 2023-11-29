@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商務管理員頁面。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 1%
+source-wordcount: '1667'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | 網站 | 識別商家註冊以從事業務的國家/地區。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 建議的解決方案
 
@@ -86,7 +86,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Maximum Order Total] | 網站 | 支票或匯票可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單符合總計在最小或最大訂單總計之間，或是符合訂單總計的最大值。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，當在結帳期間與其他付款方式一起列出時，此數字可決定以支票或匯票付款的順序。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單符合總計在最小或最大訂單總計之間，或是符合訂單總計的最大值。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Maximum Order Total] | 網站 | 可借記至公司帳戶的最大訂單金額。 <br/><br/>**_注意：_**訂單符合總計在最小或最大訂單總計之間，或是符合訂單總計的最大值。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定結帳期間與其他付款方式一起列出時顯示的分期付款順序。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單符合總計在最小或最大訂單總計之間，或是符合訂單總計的最大值。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別可套用「零小計結帳」的特定國家/地區。 |
 | [!UICONTROL Sort Order] | 網站 | 在結帳期間與其他付款方式一起列出時，決定標題（例如「不需要付款資訊」）順序的數字。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Order] | 代表與PayPal的合約，可讓商家在定義的時間期間（最長29天）內，從客戶的買方帳戶擷取一或多項最高至訂單總金額的金額。 |
 | [!UICONTROL Sale] | 已授權並立即從客戶帳戶中提取的購買金額。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Maximum Order Total] | 網站 | 採購單可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單符合總計在最小或最大訂單總計之間，或是符合訂單總計的最大值。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，依採購單付款的順序。 輸入 `0` 以將其放在清單頂端。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

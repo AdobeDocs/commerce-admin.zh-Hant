@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Company Configuration] 商務管理員頁面。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '856'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 網站 | 判斷您商店的訪客是否可選擇 [註冊](../../customers/customer-sign-in.md) 適用於公司帳戶或個人帳戶。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 | [!UICONTROL Send Email Copy Method] | 存放區檢視 | 用來傳送註冊電子郵件副本的電子郵件方法。 選項： `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | 存放區檢視 | 預設用於公司註冊通知的電子郵件範本。 預設範本： `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 | [!UICONTROL Default 'Customer Status Active' Email] | 存放區檢視 | 客戶的狀態變為使用中時，預設會使用的電子郵件範本。 此電子郵件僅傳送給客戶。 預設範本： `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | 存放區檢視 | 當客戶的狀態變為非使用中時，預設會使用的電子郵件範本。 此電子郵件僅傳送給客戶。 預設範本： `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | 存放區檢視 | 公司狀態變更為時預設使用的電子郵件範本 _已封鎖_. 預設範本： `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | 存放區檢視 | 公司狀態變更為時預設使用的電子郵件範本 _未決核准_. 預設範本： `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ ht-degree: 2%
 | [!UICONTROL Refunded Email Template] | 存放區檢視 | 將訂單中的金額退款給公司銷退折讓時，預設會使用的電子郵件範本。 此電子郵件會傳送給公司管理員。 預設範本： `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | 存放區檢視 | 將訂單恢復為公司信用時預設使用的電子郵件範本。 此電子郵件會傳送給公司管理員。 預設範本： `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: 『[!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser]『
 description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser] 商務管理員頁面。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 4%
 | [!UICONTROL Color Attribute Code] | 全域 | 指定用來依色綵排序產品的屬性。 預設值： `color` |
 | [!UICONTROL Color Order] | 全域 | 決定產品依顏色排序時的排序順序。 在個別的列上輸入每個顏色。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

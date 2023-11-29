@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL B2B Features]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL B2B Features] 商務管理員頁面。
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | 網站 | 啟用後，可讓客戶和來賓根據SKU或產品名稱快速下訂單。 選項： `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | 網站 | 啟用後，可讓客戶從其帳戶儀表板建立和管理請購單清單。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![啟用公司和共用目錄的B2B功能](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ ht-degree: 5%
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | 網站 | 當 _[!UICONTROL Enable Shared Catalog]_欄位已設為 `Yes`，此選項可供使用。 啟用時，只有指派給共用目錄的產品才會儲存在價格索引中。 未指派給共用目錄的產品不會顯示在店面上。 選項： `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 網站 | 啟用後，可讓公司買家從購物車提交詢價。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ ht-degree: 5%
 | [!UICONTROL Applicable Payment Methods] | 全域 | 決定B2B買家可用的付款方式選擇。 選項： `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | 全域 | 指定B2B買家可用的各種付款方式。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ ht-degree: 5%
 | [!UICONTROL Applicable Shipping Methods] | 全域 | 決定預設可供B2B買家使用的送貨方式選項。 選項： `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | 全域 | 指定B2B買家預設可用的各種送貨方法。 <br/>**_注意：_**您也可以限制特定產品的送貨方法 [公司帳戶](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ ht-degree: 5%
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | 網站 | 啟用時，可讓公司建立採購單。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

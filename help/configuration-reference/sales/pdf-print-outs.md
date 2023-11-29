@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs] 商務管理員頁面。
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 14%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在商業發票表頭中包含訂單識別碼以供參考。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -34,7 +34,7 @@ ht-degree: 14%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在出貨包裝單表頭中包含訂單識別碼以供參考。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -44,4 +44,4 @@ ht-degree: 14%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在銷退折讓單表頭中包含「訂單識別碼」以供參考。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

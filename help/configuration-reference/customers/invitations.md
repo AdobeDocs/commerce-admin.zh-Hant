@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Invitations]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Invitations] 商務管理員頁面。
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 3%
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | 存放區檢視 | 決定邀請表單中是否有欄位邀請者可新增透過電子郵件傳送給邀請者的自訂訊息。 這不會影響管理員新增訊息至邀請的功能。 選項： `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | 存放區檢視 | 決定邀請者一次可傳送的最大邀請數量。 系統會傳送不同的邀請給邀請者在表單中包含的每個電子郵件地址。 這可以防止一次傳送大量邀請，並會降低邀請以垃圾訊息傳送的可能性，藉此保護伺服器資源。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 | [!UICONTROL Customer Invitation Email Sender] | 存放區檢視 | 決定受邀者在傳送邀請電子郵件時收到之電子郵件的寄件者。 預設值： `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | 存放區檢視 | 決定受邀者在傳送邀請電子郵件時所收到電子郵件的範本。 預設範本： `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -4,10 +4,10 @@ description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL Cu
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 | [!UICONTROL Default Display Currency] | 存放區檢視 | 用來顯示價格的主要貨幣。 |
 | [!UICONTROL Allowed Currencies] | 存放區檢視 | 商店接受的付款貨幣。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 7%
 | [!UICONTROL API key] | 全域 | 用於透過您的網站存取轉換服務的金鑰 [!DNL fixer.io] 帳戶。 如需詳細資訊，請參閱 [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | 全域 | 決定Fixer.io工作階段逾時前的閒置秒數。 預設值： `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 | [!UICONTROL API key] | 全域 | 用於透過您的網站存取轉換服務的金鑰 [!DNL APILayer] 帳戶。 如需詳細資訊，請參閱 [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | 全域 | 決定閒置的秒數，超過此秒數後 [!DNL APILayer] 工作階段逾時。 預設值為 `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 7%
 | [!UICONTROL API key] | 全域 | 用來存取轉換服務的金鑰。 如需詳細資訊，請參閱 [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | 全域 | 決定閒置的秒數(在 [!DNL Currency Converter] 工作階段逾時。 預設值：`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 7%
 | [!UICONTROL Error Email Sender] | 網站 | 識別顯示為錯誤電子郵件通知寄件者的商店聯絡人。 預設寄件者： `General Contact` |
 | [!UICONTROL Error Email Template] | 網站 | 指定作為錯誤電子郵件通知基礎的範本。 預設範本： `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

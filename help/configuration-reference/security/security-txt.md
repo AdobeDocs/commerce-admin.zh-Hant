@@ -3,10 +3,10 @@ title: 『[!UICONTROL Security] &gt； [!UICONTROL Security.txt]『
 description: 檢閱上的組態設定 [!UICONTROL Security] &gt； [!UICONTROL Security.txt] 商務管理員頁面。
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Enable] | 網站 | 啟用時， `security.txt` 儲存的檔案包含安全研究人員所需的資訊，以便向您報告潛在的漏洞。 選項：<br />**`Yes`**— 建立 `security.txt` 根據中輸入的資訊的檔案 _連絡資訊_ 和 _其他資訊_ 區段。<br />**`No`** - （預設）不會建立 `security.txt` 檔案。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 | [!UICONTROL Phone] | 網站 | 可用來回報安全性問題的電話號碼。 |
 | [!UICONTROL Contact Page] | 網站 | 您網站上列出安全性連絡人的頁面URL，或您的 _聯絡我們_ 頁面。 範例: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ ht-degree: 3%
 | [!UICONTROL Policy] | 網站 | 說明您的安全性原則和弱點報告作法的頁面URL。 範例： `https://mystore.com/security-reporting.html` 預設： `https://mystore.com/security` |
 | [!UICONTROL Signature] | 網站 | 數位簽名檔案的連結。 數位簽章必須從命令列產生，並儲存在 `.well-known` 檔案夾。 如需詳細資訊，請參閱 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) 在GitHub上。 範例： `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

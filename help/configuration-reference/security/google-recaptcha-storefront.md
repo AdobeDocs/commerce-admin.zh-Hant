@@ -3,10 +3,10 @@ title: 『[!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront]�
 description: 檢閱上的組態設定 [!UICONTROL Security] &gt； [!UICONTROL Google reCAPTCHA Storefront] 商務管理員頁面。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 1%
+source-wordcount: '1299'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 | [!UICONTROL Theme] | 網站 | 決定Google reCAPTCHA方塊的樣式。 選項： `Light Theme` （預設） / `Dark Theme` |
 | [!UICONTROL Language Code] | 存放區檢視 | 此 [雙字元代碼](https://developers.google.com/recaptcha/docs/language) 指定用於Google reCAPTCHA文字和訊息傳送的語言。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 | [!UICONTROL Theme] | 全域 | 決定Google reCAPTCHA方塊的樣式。 選項： `Light Theme` （預設） / `Dark Theme` |
 | [!UICONTROL Language Code] | 存放區檢視 | A [雙字元代碼](https://developers.google.com/recaptcha/docs/language) 指定用於Google reCAPTCHA文字和訊息傳送的語言。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Theme] | 網站 | 決定Google reCAPTCHA方塊的樣式。 選項： `Light Theme` （預設） / `Dark Theme` |
 | [!UICONTROL Language Code] | 存放區檢視 | A [雙字元代碼](https://developers.google.com/recaptcha/docs/language) 指定用於Google reCAPTCHA文字和訊息傳送的語言。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ ht-degree: 1%
 | [!UICONTROL reCAPTCHA Validation Failure Message] | 存放區檢視 | 驗證失敗時顯示在店面中的訊息。 預設文字： `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | 存放區檢視 | 如果reCAPTCHA無法傳回驗證結果，在店面中顯示的訊息。 預設文字： `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 | [!UICONTROL Enable for Coupon Codes] | 網站 | 指定客戶輸入 [抵用券代碼](../../merchandising-promotions/price-rules-cart-coupon.md). 選項：<br/>**`No`**- （預設）不會驗證優惠券代碼提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取 _我不是機器人_ 核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，而不需要根據分數互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | 網站 | 指定客戶使用支付購買費用時，所使用的reCAPTCHA型別 [PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md). 選項：<br/>**`No`**- （預設）不會驗證密碼重設要求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取 _我不是機器人_ 核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，而不需要根據分數互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

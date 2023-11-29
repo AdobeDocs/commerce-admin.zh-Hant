@@ -3,10 +3,10 @@ title: 『[!UICONTROL Services] &gt； [!UICONTROL Magento Web API]『
 description: 檢閱上的組態設定 [!UICONTROL Services] &gt； [!UICONTROL Magento Web API] 商務管理員頁面。
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 5%
+source-wordcount: '324'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Default Response Charset] | 存放區檢視 | 決定預設字元集。 如果為空，則使用UTF-8。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL GraphQl Input Limits]
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 | [!UICONTROL Enable Input Limits] | 存放區檢視 | 決定是否為GraphQL呼叫啟用輸入限制。 預設值： `No`. |
 | [!UICONTROL Maximum Page Size] | 存放區檢視 | 設定GraphQL回應中分頁搜尋結果允許的專案數上限。 此選項在以下情況下無法使用： _啟用輸入限制_ = `No`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web Api Input Limits]
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 | [!UICONTROL Maximum Page Size] | 存放區檢視 | 設定網頁API回應中分頁搜尋結果允許的專案數上限。 此選項在以下情況下無法使用： _啟用輸入限制_ = `No`. |
 | [!UICONTROL Default Page Size] | 存放區檢視 | 設定網頁API回應中分頁搜尋結果的預設專案數。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Web API Security]
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 |--- |--- |--- |
 | [!UICONTROL Allow Anonymous Guest Access] | 全域 | 決定來賓是否可以從SOAP和REST API匿名存取CMS、目錄和存放資源。 依預設，不允許匿名訪客存取。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JWT Authentication]
 
@@ -71,4 +71,4 @@ ht-degree: 5%
 | [!UICONTROL Customer JWT Expires In] | 全域 | 設定客戶JWT持有人權杖過期之前的時間長度（以分鐘為單位）。 如果此欄位空白或具有負值，則客戶JWT持有人權杖將在30分鐘後到期。 預設值： `60` |
 | [!UICONTROL Admin User JWT Expires In] | 全域 | 設定Admin JWT持有人權杖過期之前的時間長度（以分鐘為單位）。 如果此欄位空白或具有負值，則管理員JWT持有人權杖將在30分鐘後到期。 預設值： `60` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

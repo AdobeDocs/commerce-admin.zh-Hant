@@ -3,10 +3,10 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL Web]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL Web] 商務管理員頁面。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 1%
+source-wordcount: '1795'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 | [!UICONTROL Auto-redirect to Base URL] | 存放區檢視 | （針對單一商店設定）如果您的網站上有中斷的連結，會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要：_**請勿針對多商店設定使用自動重新導向至基底URL。 |
 | [!UICONTROL Catalog media URL format] | 全域 | 定義 [URL格式](../../catalog/catalog-urls.md) 指派給產品和類別。 選項：「每個影像變體的唯一雜湊」（舊版模式）會將轉換的檔案名稱定義為唯一的雜湊值。 根據查詢引數定義的影像最佳化 [影像最佳化](../../content-design/media-gallery-image-optimization.md) 根據查詢引數處理。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Web Server Rewrites] | 存放區檢視 | 基於PHP的系統通常包括名為的檔案 `index.php` 在根資料夾中。 依預設，檔案名稱會在URL中顯示在根資料夾名稱后面。 啟用時，系統會省略 `index.php` 從URL. 此可用性最佳實務可讓每個URL更加簡潔，並且不會影響效能或網站排名。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Base URL for Static View Files] | 存放區檢視 | 指向佈景主題所使用的靜態檔案（例如css、字型、影像和JavaScript）位置的路徑。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的資料夾。 在輸入靜態檢視檔案的基本URL之前，將設定範圍設定為正確的站台。 您也可以在Commerce安裝外部指定資料夾。 |
 | [!UICONTROL Base URL for User Media Files] | 存放區檢視 | 指向目錄影像和其他媒體檔案位置的路徑。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則可以為每個網站使用不同的媒體資料夾。 如此一來，您就可以分別備份與復原每個媒體資料夾。 您也可以在Commerce安裝之外指定媒體資料夾。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs (Secure)]
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 | [!UICONTROL Upgrade Insecure Requests] | 存放區檢視 | 啟用時，會轉換不安全的(`HTTP`)從瀏覽器收到的要求以保全(`HTTPS`)通訊協定。 選項： `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 全域 | 指定 `offloader_header` 伺服器設定中的值，用於識別使用者端與負載平衡器之間的通訊協定。 大部分的Commerce安裝都使用預設值， `X-Forwarded-Proto` (XFP)將通訊協定識別為 `HTTP` 或 `HTTPS`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Pages]
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 | [!UICONTROL CMS No Cookies Page] | 存放區檢視 | 識別未針對瀏覽器啟用Cookie時所顯示的特定CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為啟用Cookie。 |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | 存放區檢視 | 決定階層連結軌跡是否出現在目錄中的所有CMS頁面上。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Layouts]
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 | [!UICONTROL Default Category Layout] | 全域 | 決定 [版面](../../content-design/page-layout.md) 類別頁面的預設值。 選項： <br/>**`No layout updates`**— 依預設，配置更新不適用於類別頁面。<br/>**`Empty`**  — 預設情況下，類別頁面使用空白版面。 <br/>**`1 column`**— 預設情況下，類別頁面使用單一欄配置。<br/>**`2 columns with left bar`**  — 預設情況下，對於類別頁面，使用左側邊欄的雙欄配置。 <br/>**`2 columns with right bar`**— 預設情況下，對於類別頁面，使用右側具側欄的雙欄配置。<br/>**`3 columns`**  — 預設情況下，類別頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- (需要 [!DNL Page Builder])依預設，類別頁面會使用「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - (需要 [!DNL Page Builder])依預設，類別頁面會使用「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- (需要 [!DNL Page Builder])依預設，類別頁面會使用「產品 — 全寬」配置。 |
 | 預設頁面配置 | 全域 | 決定 [版面](../../content-design/page-layout.md) 預設用於CMS頁面。 選項： <br/>**`No layout updates`**— 依預設，CMS頁面不提供版面更新。<br/>**`Empty`**  — 預設情況下，對CMS頁面使用空白版面。 <br/>**`1 column`**— 依預設，會對CMS頁面使用單一欄配置。<br/>**`2 columns with left bar`**  — 依預設，CMS頁面會使用左側邊欄的兩欄式配置。<br/>**`2 columns with right bar`**— 依預設，CMS頁面會使用右側具側欄的雙欄版面配置。<br/>**`3 columns`**  — 依預設，CMS頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- (需要 [!UICONTROL Page Builder])依預設，會使用「頁面 — 全寬」版面配置進行CMS頁面。<br/>**`Category - Full Width`** - (需要 [!UICONTROL Page Builder])依預設，會使用CMS頁面的「類別 — 全寬」版面配置。 <br/>**`Product - Full Width`**- (需要 [!DNL Page Builder])依預設，會使用CMS頁面的「產品 — 全寬」版面配置。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Cookie Settings]
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 | [!UICONTROL Use HTTP Only] | 存放區檢視 | 決定Commerce Cookie是否只能透過不安全的通道(http)使用，或也可透過加密的通道(https)使用。 選項： `Yes` / `No` |
 | [!UICONTROL Cookie Restriction Mode] | 網站 | 判斷是否已啟用Cookie限制模式。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Session Validation Settings]
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 | [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | 全域 | 驗證傳出的Proxy資料，並檢查要求的轉送位址是否相符  `$_SESSION` 資料。 如果偵測到不同的轉送地址，工作階段會終止。 選項： `Yes` / `No` |
 | [!UICONTROL Validate HTTP_USER_AGENT] | 全域 | `USER_AGENT` 指用來存取網站的瀏覽器或裝置。 它會驗證瀏覽器的名稱和版本以及作業系統是否相符 `$_SESSION` 資料。 如果在同一工作階段中從一個請求到另一個請求偵測到不同的使用者代理，工作階段會終止。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Browser Capabilities Detection]
 
@@ -149,6 +149,6 @@ ht-degree: 1%
 | [!UICONTROL Show Notice if JavaScript is Disabled] | 存放區檢視 | 如果瀏覽器停用JavaScript，它會顯示通知以提示使用者啟用「JavaScript選項」： `Yes` / `No` （停用） |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | 存放區檢視 | 如果本機快取已停用，則顯示訊息。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

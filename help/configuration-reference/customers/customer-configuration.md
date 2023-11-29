@@ -3,10 +3,10 @@ title: 『[!UICONTROL Customers]  &gt； [!UICONTROL Customer Configuration]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration] 商務管理員頁面。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 2%
+source-wordcount: '1862'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | 全域 | 決定商店階層中客戶帳戶的範圍。 選項： <br/>**`Global`**— 客戶帳戶資訊會與Commerce安裝中的每個網站和商店共用。<br/>**`Per Website`**  — 客戶帳戶資訊僅限於建立帳戶的網站。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 | [!UICONTROL Online Minutes Interval] | 全域 | 決定可從管理員存取客戶線上活動的時長。 留空則預設間隔為15分鐘。 |
 | [!UICONTROL Customer Data Lifetime] | 全域 | 決定客戶輸入的未儲存資料過期前的分鐘數。 依預設，未儲存的資料會在60分鐘後到期。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 | [!UICONTROL Welcome Email] | 存放區檢視 | 識別在帳戶確認後傳送之歡迎訊息所使用的電子郵件範本。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全域 | 判斷是否可從店面看到用來輸入及儲存VAT ID號碼的欄位。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 | [!UICONTROL Minimum Password Length] | 全域 | 決定密碼中允許的最小字元數。 數字必須大於零(`0`)。 |
 | [!UICONTROL Lockout Time (minutes)] | 全域 | 決定嘗試登入失敗太多後，客戶帳戶鎖定的分鐘數。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 | [!UICONTROL Change Email Template] | 存放區檢視 | 識別客戶變更電子郵件地址時所使用的預設電子郵件範本。 |
 | [!UICONTROL Change Email and Password Template] | 存放區檢視 | 識別客戶變更其電子郵件地址和密碼時使用的預設電子郵件範本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 2%
 | [!UICONTROL Show Company] | 網站 | 判斷名稱和地址表單中是否包含客戶的公司。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 網站 | 決定名稱與地址表單中是否包含客戶的傳真號碼。 選項： `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce選項
 
@@ -144,7 +144,7 @@ ht-degree: 2%
 | [!UICONTROL Show Company] | 網站 | 判斷名稱和地址表單中是否包含客戶的公司。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 網站 | 決定名稱與地址表單中是否包含客戶的傳真號碼。 選項： `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 2%
 | [!UICONTROL Store Credit Update Email Sender] | 存放區檢視 | 決定要顯示為傳送給客戶的信用更新通知寄件者的商店身分。 |
 | [!UICONTROL Store Credit Update Email Template] | 存放區檢視 | 決定用於信用更新的電子郵件範本。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | 網站 | 決定客戶登入帳戶後會發生什麼事。 若要將客戶重新導向至其帳戶儀表板，請選取 `Yes`. 選項： <br/>**`Yes`**— 客戶登入帳戶時，帳戶儀表板會出現。<br/>**`No`**  — 客戶登入帳戶後，可繼續購物。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 | [!UICONTROL HTML] | 存放區檢視 | 此範本定義位於 _客戶地址_ 區域([!UICONTROL Customers] > [!UICONTROL Manage Customers])。 這也會影響以下專案的使用者： _新增地址_ 客戶在其帳戶頁面上建立帳單或送貨地址時的頁面。 |
 | [!UICONTROL PDF] | 存放區檢視 | 樣版會定義在列印的商業發票、出貨及銷退折讓單中，帳單與出貨地址的顯示。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 2%
 | [!UICONTROL Enable Customer Segment Functionality] | 全域 | 判斷是否可使用客戶區段來建立目標促銷活動。 選項： `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | 全域 | 決定是否即時驗證客戶區段。 選項： <br/>**[!UICONTROL Yes]**— 客戶區段會即時驗證（預設值）。<br/>**[!UICONTROL No]**  — 客戶區段會透過單一合併條件SQL查詢進行驗證。 如果系統中有許多客戶區段，這會改善區段驗證的效能。 但是，分割資料庫或沒有註冊客戶時，驗證無法運作。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 2%
 | [!UICONTROL Symbols Used in CAPTCHA] | 網站 | 決定驗證碼中顯示的字母（a-z和A-Z）和數字(0-9)。 難以與其他符號區分的符號，例如 `i`， `l`，或 `1`的預設驗證碼符號集中不包含。 |
 | [!UICONTROL Case Sensitive] | 網站 | 判斷驗證碼字元是否區分大小寫。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

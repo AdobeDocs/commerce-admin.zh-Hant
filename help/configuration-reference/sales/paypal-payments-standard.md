@@ -3,10 +3,10 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt； [!UICON
 description: 檢閱中的組態設定 [!UICONTROL PayPal Payments Standard] 區段於 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商務管理員頁面。
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 2%
+source-wordcount: '1293'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 | [!UICONTROL Enable this Solution] | 網站 | 決定PayPal Payments Pro是否可作為付款方式提供給您的客戶。 |
 | [!UICONTROL Enable PayPal Credit] | 網站 | 決定您的客戶是否可將PayPal信用作為付款選項。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 廣告PayPal點數
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 | [!UICONTROL Catalog Product Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 產品頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 網站 | 決定位置與大小 [!DNL PayPal Credit] 購物車頁面上的橫幅。 選項： (與相同 [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | 網站 | 決定客戶在結帳時可使用的信用卡。 選取每個支援的卡片。 選項： `American Express` （需要額外的合約） / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 | [!UICONTROL Billing Agreement Signup] | 網站 | 判斷客戶能否進入 [帳單協定](../../stores-purchase/paypal-billing-agreements.md) 與您的商店。 選項： <br/>**`Auto`**— 客戶可在快速結帳時註冊帳單合約。<br/>**`Ask Customer`**  — 詢問客戶是否要註冊帳單合約。 <br/>**`Never`**— 不提供客戶註冊帳單協定的選項。 |
 | [!UICONTROL Skip Order Review Step] | 網站 | 決定客戶是否可以從PayPal網站完成交易，或是必須返回您的商店並在提交訂單前完成「訂單複查」步驟。 選項： `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 2%
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 啟用後，會在您的PayPal付款頁面上顯示購物車的明細專案摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 網站 | 啟用後，客戶可以從其客戶帳戶的儀表板啟動帳單協定。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 | [!UICONTROL Schedule] | 全域 | 決定PayPal產生結算報表的頻率。 選項： `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 全域 | 決定產生結算報表的小時、分鐘和秒。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 2%
 | [!UICONTROL Header Image Border Color] | 存放區檢視 | 標頭周圍兩畫素邊框的六字元十六進位色彩代碼。 |
 | [!UICONTROL Page Background Color] | 存放區檢視 | 結帳頁面背景顏色的六字元十六進位顏色代碼，會顯示在頁首與付款表單後面。 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
