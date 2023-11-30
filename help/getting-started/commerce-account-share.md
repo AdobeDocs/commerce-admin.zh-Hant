@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予您的有限存取許可權 [!DNL Commerce] 其他帳戶 [!DNL Commerce] 帳戶持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Shared Information]_，請執行下列動作：
 
-   - 若要識別共用帳戶，請輸入 **[!UICONTROL Share Name]**. 此名稱僅供內部參考，僅供您及共用您帳戶的人檢視。
+   - 若要識別共用帳戶，請輸入 **[!UICONTROL Share Name]**. 此名稱僅供內部參考，僅供您及共用您帳戶的人檢視。 (請勿輸入開頭為的共用名稱 `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - 如果您想要與新使用者共用您的個人聯絡資訊，請輸入 **[!UICONTROL Your Email]** 和 **[!UICONTROL Your Phone]**.
 
 1. 在 _[!UICONTROL Grant Account Permissions]_，勾選每個核取方塊 [!DNL Commerce] 您要共用的產品和服務。
@@ -95,6 +95,10 @@ ht-degree: 0%
 1. 在左側導覽面板中，按一下 **[!UICONTROL Shared Access]**.
 
 1. 尋找要撤銷的帳戶 _[!UICONTROL Managing Users & Permissions]_並按一下&#x200B;**[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > 如果  **[!UICONTROL Delete]** 不會顯示，檢查是否會 **[!UICONTROL Share Name]** 開頭為 `Cloud Shared Access from MAG XYZ`  — 通常 [這些帳戶](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 無法刪除。
 
 1. 提示確認時，按一下 **[!UICONTROL Delete User]**.
 
