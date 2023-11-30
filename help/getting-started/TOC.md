@@ -5,7 +5,7 @@ breadcrumb-title: 快速入門
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [客戶報表](customer-reports.md)
    + [產品報表](product-reports.md)
    + [私人銷售報表](private-sales-reports.md)
-   + [商業智慧工具](business-intelligence.md)
+   + [Commerce Intelligence工具](business-intelligence.md)
    + [New Relic報告](new-relic-reporting.md)
 + 資源 {#resources}
    + [生態系統](resources.md)

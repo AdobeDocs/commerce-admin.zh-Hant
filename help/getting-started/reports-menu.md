@@ -3,7 +3,7 @@ title: 『[!UICONTROL Reports] 功能表
 description: Adobe Commerce和Magento Open Source提供多種報表，讓您掌握行銷工作、銷售產品和客戶活動的相關資訊。
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 [統計資料](sales-reports.md#refresh-statistics) 是一種工具，可計算並儲存統計資料，以降低產生報表對效能的影響。 儲存的統計資料會一直使用到您重新整理統計資料為止，而不是在每次產生報表時重新計算統計資料。
 
-### [!DNL Business Intelligence]
+### [!DNL Commerce Intelligence]
 
-整合 [[!DNL Business Intelligence]](business-intelligence.md) 工具提供您進行策略性業務決策所需的深入分析。
+整合 [[!DNL Commerce Intelligence]](business-intelligence.md) 工具提供您進行策略性業務決策所需的深入分析。
