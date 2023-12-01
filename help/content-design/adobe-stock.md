@@ -3,7 +3,7 @@ title: Adobe Stock整合
 description: 將Adobe Stock與您的整合 [!DNL Commerce] 例項，可存取無數用於商店的媒體資產。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 1. 按一下 **[!UICONTROL Next]**.
 
-1. 檢閱可用的範圍並按一下 **[!UICONTROL Save configured API]**.
+1. 檢閱可用的範圍，然後按一下 **[!UICONTROL Save configured API]**.
 
 1. 在接下來的頁面上，複製 **[!UICONTROL Client ID]** （API金鑰）和 **[!UICONTROL Client secret]**.
 
