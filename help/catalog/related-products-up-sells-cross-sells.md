@@ -3,9 +3,9 @@ title: 產品設定 —  [!UICONTROL Related Products, Up-Sells, and Cross-Sells
 description: 對於產品， [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 設定會定義產品頁面上的簡單促銷區塊，以強調您選擇的其他產品。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 0%
    ![追加銷售產品](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. 完成後，按一下 **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>父套裝產品一律自動顯示為其所有子產品的向上銷售產品。
 
 ## 交叉銷售
 

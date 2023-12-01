@@ -3,9 +3,9 @@ title: 搭售產品
 description: 瞭解如何建立套裝產品，讓購物者能夠在您的商店中建立自訂產品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >使用動態定價的套件組合產品無法使用最低廣告價格(MAP)。
+
+>[!NOTE]
+>
+>父套裝產品一律自動顯示為其所有子產品的向上銷售產品。
 
 如果 [立即購買](../stores-purchase/checkout-instant-purchase.md) 可用， _立即購買_ 按鈕會出現在 _加入購物車_ 束中每個專案的按鈕。
 
@@ -276,3 +280,5 @@ ht-degree: 0%
 ![核取方塊](../assets/checkbox.png) 量值可以是預設值或使用者定義的值。 不過，請勿指派 _[!UICONTROL User Defined]_屬性核取方塊或多選輸入型別。
 
 ![核取方塊](../assets/checkbox.png) 組合專案可以一起或單獨出貨。
+
+![核取方塊](../assets/checkbox.png) 父套裝產品一律自動顯示為其所有子產品的向上銷售產品。
