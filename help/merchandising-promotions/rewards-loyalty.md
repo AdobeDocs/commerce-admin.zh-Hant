@@ -3,9 +3,9 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ ht-degree: 0%
 
 1. 如果您想要自動退款可用的獎勵積分，請設定 **[!UICONTROL Refund Reward Points Automatically]** 至 `Yes`.
 
-1. 如果要自動扣除獎勵積分，請設定 **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** 至 `Yes`.
+1. 若要在取得積分的訂單已全部或部分退款時，作廢透過採購所取得的獎勵積分，請設定 **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** 至 `Yes`.
+
+   >[!NOTE]
+   >
+   >只有使用正在退款的訂單所取得的點數會受到影響。
 
 1. 設定 **[!UICONTROL Landing Page]** 前往說明您的獎勵積分計畫的內容頁面。
 

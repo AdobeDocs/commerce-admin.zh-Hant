@@ -3,9 +3,9 @@ title: 『[!UICONTROL Customers] &gt； [!UICONTROL Reward Points]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Reward Points] 商務管理員頁面。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | 全域 | 啟用或停用獎勵點數。 選項： `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | 網站 | 啟用後，客戶可透過其活動取得點數，並在結帳時兌換點數。 如果停用，只有管理員使用者可以代表客戶指派和兌換點數。 選項： `Yes` / `No`. |
 | [!UICONTROL Customers May See Reward Points History] | 網站 | 啟用後，客戶可以在帳戶儀表板中檢視每個應計、贖回和獎勵點數到期的詳細歷史記錄。 選項： `Yes` / `No` |
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expire in (days)] | 網站 | 表示獎勵點數的期限（以天為單位）。 在個別活動中獲得的每一批次點數都有個別的生命週期。 「獎勵點數」記錄中的每一批次會指出點數到期前的剩餘天數。 歷史紀錄可從客戶的帳戶控制面板（若已啟用）以及管理員檢視。 保留空白則不會過期。 |
 | [!UICONTROL Reward Points Expiry Calculation] | 網站 | 決定用來決定獎勵點數何時過期的方法。 選項： <br/>**`Static`**— 根據設定中所設定的天數決定獎勵分數的剩餘期限。 如果設定中的到期限制變更，則現有點的到期日不會變更。<br/>**`Dynamic`**  — 計算獎勵點餘額增加時的剩餘天數。 如果組態中的到期限制變更，則所有現有點的到期計算都會隨之更新。 |
 | [!UICONTROL Refund Reward Points Automatically] | 全域 | 決定是否自動退款可用的獎勵積分。 選項： `Yes` / `No` |
-| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 全域 | 決定是否從退款金額中自動扣除獎勵積分。 選項： `Yes` / `No`. |
+| [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 全域 | 當啟用此功能時，這會決定透過採購取得的獎勵點數是完全或部分作廢訂單退款。 當訂單退款時，只會影響已取得之訂單的獎勵積分。 選項： `Yes` / `No`. |
 | [!UICONTROL Landing Page] | 存放區檢視 | 指定說明您的獎勵積分方案的CMS頁面。 預設「獎勵」頁面的連結會出現在商店中可以取得點數的位置。 |
 
 {style="table-layout:auto"}
@@ -48,8 +48,8 @@ ht-degree: 0%
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
-|--- |--- |--- |
-| [!UICONTROL Purchase] | 網站 | 判斷購物車中是否顯示訊息，該訊息顯示購買獲得的獎勵點數和客戶目前的獎勵點餘額。 選項： `Yes` / `No` |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Purchase] | 網站 | 決定是否根據設定的獎勵點數為購買取得獎勵點 [獎勵匯率](../../merchandising-promotions/reward-exchange-rates.md). 選項： `Yes` / `No` |
 | [!UICONTROL Registration] | 網站 | 指定開立客戶帳戶所獲得的點數。 |
 | [!UICONTROL Newsletter Signup] | 網站 | 指定訂閱電子報的註冊客戶獲得的點數。 （訪客的訂閱無法使用點數。） 如果客戶取消訂閱，然後再次訂閱，則不會獲得第二個訂閱的點數。 |
 | [!UICONTROL Converting Invitation to Customer] | 網站 | 指定當收件者接著開啟客戶帳戶時，傳送邀請的客戶獲得點數。 |
