@@ -3,9 +3,9 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![客戶設定 — 客戶取得獎勵分數的動作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. 若要在購物車中顯示訊息，其中包含購買所獲得的獎勵點數和客戶目前的獎勵點餘額，請設定 **[!UICONTROL Purchase]** 至 `Yes`.
+1. 若要允許根據設定的獎勵點數取得採購的獎勵點數 [獎勵匯率](reward-exchange-rates.md)，設定 **[!UICONTROL Purchase]** 至 `Yes`.
 
    >[!NOTE]
    >
