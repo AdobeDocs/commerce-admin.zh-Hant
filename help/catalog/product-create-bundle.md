@@ -3,9 +3,9 @@ title: 搭售產品
 description: 瞭解如何建立套裝產品，讓購物者能夠在您的商店中建立自訂產品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ ht-degree: 0%
    - 若要讓價格反映客戶選擇的選項，請設定 **[!UICONTROL Dynamic Price]** 至 `Yes` 並離開 **[!UICONTROL Price]** 空白。
 
    - 若要對套件收取固定價格，請設定 **[!UICONTROL Dynamic Price]** 至 `No` 並輸入 **[!UICONTROL Price]** 您想要對套件收費。
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] 和 [!UICONTROL Customer Group Price] （層級價格）一律設為所有搭售產品型別的折扣百分比。
 
 1. 由於產品尚未準備好發佈，請設定 **[!UICONTROL Enable Product]** 至 `No`.
 
@@ -282,3 +286,5 @@ ht-degree: 0%
 ![核取方塊](../assets/checkbox.png) 組合專案可以一起或單獨出貨。
 
 ![核取方塊](../assets/checkbox.png) 父套裝產品一律自動顯示為其所有子產品的向上銷售產品。
+
+![核取方塊](../assets/checkbox.png) [!UICONTROL Special Price] 和 [!UICONTROL Customer Group Price] （層級價格）一律設為所有搭售產品型別的折扣百分比。
