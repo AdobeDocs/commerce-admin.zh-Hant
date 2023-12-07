@@ -3,9 +3,9 @@ title: 安全性
 description: 瞭解可用於保護存放區和資料的工具，以及在偵測到危害時安全性行動計畫的准則。
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 - 實作 [驗證碼](security-captcha.md) 或 [reCAPTCHA](security-google-recaptcha.md)
 - 設定 [安全性掃描](security-scan.md) Adobe Commerce或Magento Open Source安裝中每個網域的資訊。
 
-造訪 [安全中心](https://helpx.adobe.com/security.html){：target=&quot;_blank&quot;}並加入安全性警報登入，取得有關潛在漏洞的最新消息。 如需安全性最佳實務的相關資訊，請參閱 [保護您的Commerce網站和基礎架構](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 在 _實施行動手冊_.
-
 >[!NOTE]
 >
 >已啟用的存放區 [!DNL Adobe Identity Management Services] (IMS)驗證已停用原生Adobe Commerce和Magento Open Source 2FA。 使用Adobe憑證登入其Commerce執行個體的管理員使用者不需要重新驗證許多管理員工作。 當管理員使用者登入目前的工作階段時，驗證會由Adobe IMS處理。 另請參閱 [[!DNL Adobe Identity Management Service] (IMS)整合概述](../getting-started/adobe-ims-integration-overview.md).
 
+造訪 [安全中心](https://helpx.adobe.com/security.html){：target=&quot;_blank&quot;}以取得有關潛在漏洞的最新消息、註冊Adobe安全通知並存取Adobe信任中心。
+
 ![安全中心](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+如需安全性最佳實務的相關資訊，請參閱 [保護您的Commerce網站和基礎架構](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 在 _實施行動手冊_.
 
 ## 安全性行動計畫
 

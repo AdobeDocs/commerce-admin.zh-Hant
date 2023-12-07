@@ -3,9 +3,9 @@ title: 儲存URL
 description: 瞭解商店URL以及如何設定基本URL和商店程式碼。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,8 @@ Adobe Commerce和Magento Open Source可設定為透過以下路徑傳送所有�
 
 1. 設定 **[!UICONTROL Add Store Code]** 依您的偏好設定：
 
-   - **[!UICONTROL URL with Store Code]**: `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
-   - **[!UICONTROL URL without Store Code]**: `http://www.yourdomain.com/magento/index.php/url-identifier`
+   - **[!UICONTROL URL with Store Code]**： `http://www.yourdomain.com/magento/[store-code]/index.php/url-identifier`
+   - **[!UICONTROL URL without Store Code]**： `http://www.yourdomain.com/magento/index.php/url-identifier`
 
    ![一般設定 — 網頁URL選項](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
@@ -137,7 +137,7 @@ Adobe Commerce和Magento Open Source可設定為透過以下路徑傳送所有�
 
 ## 使用自訂管理員URL
 
-作為 [安全性最佳實務](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)，Adobe建議您使用唯一的管理員URL，而非預設值 _管理員_ 或常用辭彙，例如 _後端_. 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
+作為 [安全性最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，Adobe建議您使用唯一的管理員URL，而非預設值 _管理員_ 或常用辭彙，例如 _後端_. 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Adobe Commerce和Magento Open Source可設定為透過以下路徑傳送所有�
 
 >[!NOTE]
 >
->除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。
+>除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。 針對雲端基礎結構上部署的Adobe Commerce專案，請遵循下列步驟來變更管理員URL [指示](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) 在 *雲端基礎結構上的Adobe Commerce指南*.
 
 ### 方法1：從管理員變更
 
