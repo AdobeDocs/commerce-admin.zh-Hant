@@ -3,16 +3,21 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL New Relic Reporting]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL New Relic Reporting] 商務管理員頁面。
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 1aec5c618d1f3f7f083523956d2aee62b777faca
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 1%
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL General] > [!UICONTROL New Relic Reporting]
 
 {{config}}
+
+>[!NOTE]
+>這些設定選項不適用於雲端基礎結構上的Adobe Commerce。
+>
+>如果您在Pro計畫上，New Relic已經在 [已預先設定且預設為啟用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 如果您在入門計畫上，您必須完成 [New Relic設定步驟](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) 屬於設定程式的一部分。
 
 ## [!UICONTROL General]
 

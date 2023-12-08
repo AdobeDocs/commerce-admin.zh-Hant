@@ -1,12 +1,12 @@
 ---
-title: ' [!DNL New Relic] 報告'
-description: ' [!DNL New Relic] 瞭解 Adobe Systems Commerce on 雲端基礎結構 帳戶可用的報告，其中包括 新 Relic APM 服務的軟體。'
+title: 『[!DNL New Relic] 報告
+description: 瞭解 [!DNL New Relic] 適用於雲端基礎結構上Adobe Commerce帳戶的報表，其中包括New Relic APM服務的軟體。
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## 步驟1：註冊 [!DNL New Relic] 帳戶
 
-1. 訪問 [[!DNL New Relic]][1] 網站並註冊帳戶。
+1. 前往 [[!DNL New Relic]][1] 網站並註冊帳戶。
 
-   您還可以註冊免費試用帳戶。
+   您也可以註冊免費試用帳戶。
 
 1. 按照網站上的說明進行操作。 出現提示時，選擇要首先安裝的產品。
 
@@ -28,8 +28,8 @@ ht-degree: 0%
    | 選項 | 說明 |
    | ------ | ----------- |
    | 帳戶 ID | 從您的 [!DNL New Relic] account dashboard中，Account ID是URL中位於以下位置的號碼： `/accounts` |
-   | 應用程式ID | 從您的 [!DNL New Relic] 帳戶儀表板，按一下 **[!UICONTROL New Relic APM]**. 在功能表中，選擇 **[!UICONTROL Applications]**. 然後，選擇您的應用程式。 應用程式ID是URL中位於下列位置後的數字： `/applications/` |
-   | New Relic API金鑰 | 從您的 [!DNL New Relic] 帳戶儀表板，按一下 **[!UICONTROL Account Settings]**. 在左側功能表的「整合」下方，選擇 **[!UICONTROL Data Sharing]**. 您可以在此頁面建立、重新產生或刪除您的API金鑰。 |
+   | 應用程式ID | 從您的 [!DNL New Relic] 帳戶儀表板，按一下 **[!UICONTROL New Relic APM]**. 在功能表中，選擇 **[!UICONTROL Applications]**. 然後，選擇您的應用程式。 應用程式 ID 是以下之後URL中的數位： `/applications/` |
+   | 新遺物 API 金鑰 | 從您的 [!DNL New Relic] 帳戶儀表板，按一下 **[!UICONTROL Account Settings]**. 在左側功能表的「整合」下方，選擇 **[!UICONTROL Data Sharing]**. 您可以在此頁面建立、重新產生或刪除您的API金鑰。 |
    | Insights API金鑰 | 從您的 [!DNL New Relic] 帳戶儀表板，按一下 **[!UICONTROL Insights]**. 在左側「管理」下的功能表中，選擇 **[!UICONTROL API Keys]**. 您的前瞻分析API金鑰會出現在本頁上。 如有必要，請按一下加號(**+**)來產生金鑰。 |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ ht-degree: 0%
    若要深入瞭解，請參閱 [設定並執行cron][5] 在開發人員檔案中。
 
 ## 步驟3：設定您的存放區
+
+>[!NOTE]
+>這些設定選項不適用於雲端基礎結構上的Adobe Commerce。
+>
+>如果您在Pro計畫上，New Relic已經在 [已預先設定且預設為啟用](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 如果您在入門計畫上，您必須完成 [New Relic設定步驟](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) 屬於設定程式的一部分。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 1. （選用） For **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]**，選取 `Yes` 將店面和管理員收集到的資料以個別應用程式的形式傳送至New Relic。
 
-   此選項要求為 . **[!UICONTROL New Relic Application Name]**
+   此選項需要為輸入名稱 **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ ht-degree: 0%
 
 ## 步驟4：啟用Cron [!DNL New Relic] 報告
 
-1. 展開 ![ 該部分選擇器 ](../assets/icon-display-expand.png) **[!UICONTROL Cron]** 展開。
+1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Cron]** 區段。
 
    ![New Relic Cron設定](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -104,14 +109,14 @@ ht-degree: 0%
     FROM交易
     其中appName=&#39;&lt;your_app_name>&#39;從15分鐘前
 
-#### 當前有效的管理員使用者
+#### 目前有效的管理員使用者
 
-返回活動管理員使用者的名稱。
+傳回作用中管理員使用者的名稱。
 
-    SELECT uniques（AdminName） 
-     FROM 交易 
-     其中 appName=&#39;&lt;your_app_name>&#39; SINCE 15 分鐘前 
- &lt;/your_app_name>
+    SELECT uniques(AdminName)
+    FROM交易
+    其中appName=&#39;&lt;your_app_name>&#39;從15分鐘前
+
 #### 最近的管理活動
 
 傳回最近的管理員動作數。
@@ -133,7 +138,7 @@ ht-degree: 0%
 
 #### 類別計數
 
-傳回指定時段內依類別分類的應用程式事件數目。
+返回指定時段期間按類別列出的應用程式事件數。
 
     SELECT average(CatalogCategoryCount)
     從Cron
@@ -144,13 +149,13 @@ ht-degree: 0%
 
 傳回指定時段內依類別分類之目錄中的應用程式事件平均數目。
 
-    SELECT average(CatalogCategoryCount)
-    從Cron
-    其中CatalogCategoryCount不是NULL
-    AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39;由於2分鐘前限制1
-
-#### 使用中的產品
+    選擇平均值（CatalogCategoryCount） 
+     FROM Cron 
+     其中 CatalogCategoryCount 非空 
+     值且 CatalogCategoryCount > 0 
+     且 appName = &#39;&lt;your_app_name>&#39; 自 2 分鐘前開始 限制 1 
+ &lt;/your_app_name>
+#### 活動產品
 
 傳回指定時段內依產品分類的應用程式事件數。
 
@@ -281,12 +286,12 @@ ht-degree: 0%
 
 #### 活躍客戶
 
-返回指定時段期間的活動客戶名稱。
+傳回指定時段內活躍客戶的名稱。
 
-    選擇獨特值 （CustomerName） 
-     FROM 交易 
-     位置 appName=&#39;&lt;your_app_name>&#39; SINCE 15 分鐘前 
- &lt;/your_app_name>
+    SELECT uniques(CustomerName)
+    FROM交易
+    其中appName=&#39;&lt;your_app_name>&#39;從15分鐘前
+
 #### 主要客戶
 
 傳回指定時段內排名最前的客戶。
@@ -297,7 +302,7 @@ ht-degree: 0%
 
 #### 最近的管理活動
 
-返回定義數量的最近活動記錄，其中包括客戶名稱和造訪持續時間。
+傳回最近活動的已定義記錄數，包括客戶名稱和造訪持續時間。
 
     選擇「客戶名稱」、「持續時間」、「 
      來自交易 
@@ -311,19 +316,19 @@ ht-degree: 0%
 
 返回在指定時段期間的訂購次數。
 
-    SELECT count(Order)
-    從1天前開始的FROM交易
+    選擇計數（訂單） 
+     來自 交易自 1 天前
 
 #### 訂單值總計
 
 傳回指定時段內訂購的行專案總數。
 
-    SELECT sum(orderValue)
-    從1天前開始的FROM交易
+    選擇 sum（orderValue） 
+     FROM 交易開始時間 1 天前
 
-#### 訂購的行專案總數
+#### 訂購的訂單項總數
 
-傳回指定時段內訂購的行專案總數。
+傳回在指定行時段期間排序的行專案總數。
 
     SELECT sum(lineItemCount)
     從1天前開始的FROM交易
