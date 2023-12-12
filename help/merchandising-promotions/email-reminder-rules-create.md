@@ -3,16 +3,16 @@ title: 建立電子郵件提醒
 description: 瞭解如何設定使用現有購物車價格規則的電子郵件提醒規則。
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # 建立電子郵件提醒
 
-設定電子郵件提醒規則之前，您必須先設定購物車價格規則，以定義正在提供的促銷活動。 觸發電子郵件提醒的規則條件可以根據購物車屬性、願望清單屬性或兩者。
+設定電子郵件提醒規則之前，您必須先 [設定購物車價格規則](price-rules-cart-create.md) 以定義所提供的促銷活動。 觸發電子郵件提醒的規則條件可以根據購物車屬性、願望清單屬性或兩者。
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用 _[!UICONTROL Repeat Schedule]_欄位以設定電子郵件之間的天數。
+   >如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用 _[!UICONTROL Repeat Schedule]_欄位以設定電子郵件之間的天數。 <br/>
+   >
+   >相同的電子郵件提醒為 **_未重新觸發_** 針對相同客戶，用於 **_新_** 放棄的購物車和願望清單 **_晚於_** 此 _[!UICONTROL Repeat Schedule]_期間已結束。
 
    完成條件以說明觸發電子郵件提醒的情境。
 
