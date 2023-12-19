@@ -3,10 +3,10 @@ title: 媒體集資料夾管理
 description: 瞭解如何使用資料夾來組織您的媒體資產。
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 使用檔案夾在新檔案夾中組織影像 [媒體集](media-gallery.md). 隨著媒體資產數量增加，資料夾可讓您更輕鬆地找到和管理媒體集中的現有資產。
 
 ## 建立資料夾
+
+>[!NOTE]
+>
+>您只能在 `pub/media/wysywig` 和 `pub/media/catalog/category` 資料夾。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->刪除資料夾會移除該資料夾中的所有影像。
+>刪除資料夾會移除該資料夾中的所有影像。 您只能刪除 `pub/media/wysywig` 和 `pub/media/catalog/category` 資料夾。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
