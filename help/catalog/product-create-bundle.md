@@ -3,9 +3,9 @@ title: 搭售產品
 description: 瞭解如何建立套裝產品，讓購物者能夠在您的商店中建立自訂產品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 套件組合是 _建置您自己的_，可自訂的產品。 套件組合中的每個專案都可以以下列其中一種產品型別為基礎：
 
 - [簡單產品](product-create-simple.md)
-- [虛擬產品](product-create-virtual.md)
-- [可下載的產品](product-create-downloadable.md)
 - [虛擬產品](product-create-virtual.md)
 
 ![搭售產品](./assets/product-bundle.png){width="700" zoomable="yes"}
