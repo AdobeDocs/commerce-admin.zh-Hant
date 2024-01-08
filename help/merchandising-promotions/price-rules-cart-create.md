@@ -3,9 +3,9 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ ht-degree: 0%
    | `Percent of product price discount` | 從原始價格減去百分比，以折扣料號。 折扣適用於購物車中的每個合格專案。 例如：輸入 `10` 在 [!UICONTROL Discount Amount] 更新後的價格，較原始價格低10%。 |
    | `Fixed amount discount` | 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：輸入 `10` 在 [!UICONTROL Discount Amount] 更新後的價格比原始價格低10美元。 |
    | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：輸入10於 [!UICONTROL Discount Amount] 以從購物車總計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計與運送，請使用 _[!UICONTROL Apply to Shipping Amount]_選項。 |
-   | `Buy X get Y free` | 定義客戶必須購買才能免費接收數量的數量。 (此 [!UICONTROL Discount Amount] 是Y。) |
+   | `Buy X get Y free` | 定義客戶必須採購以接收數量Y的數量X **相同產品/變數的** 免費。 (此 [!UICONTROL Discount Amount] 為Y。)該相同專案的X+Y總數量必須存在於購物車中/新增到購物車中，才能套用折扣。 |
 
    {style="table-layout:auto"}
 
    - 輸入 **[!UICONTROL Discount Amount]** 作為數字，不含符號。 例如，根據選取的折扣選項，數字10可能表示百分比、固定金額或料號數量。
 
-   - 針對 _購買X得到Y免費_ 折扣，請在下列欄位中輸入數量： **[!UICONTROL Discount Qty Step (Buy X)]** 客戶必須購買才能收到折扣的欄位。
+   - 針對 _購買X得到Y免費_ 折扣，請在下列欄位中輸入數量： **[!UICONTROL Discount Qty Step (Buy X)]** 單一產品/SKU/明細專案欄位，客戶必須購買該欄位才能接收Y數量的折扣。 X和Y都代表相同SKU的數量，而且必須手動將專案的特定數量（可設定產品的變化分別計算）新增到購物車中。
 
    - 在 **[!UICONTROL Maximum Qty Discount is Applied To]** 欄位，輸入相同採購中符合折扣條件的相同產品最大數量。
 
