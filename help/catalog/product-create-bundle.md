@@ -3,9 +3,9 @@ title: 搭售產品
 description: 瞭解如何建立套裝產品，讓購物者能夠在您的商店中建立自訂產品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 若要決定套裝的價格，請執行下列任一項作業：
 
-   - 若要讓價格反映客戶選擇的選項，請設定 **[!UICONTROL Dynamic Price]** 至 `Yes` 並離開 **[!UICONTROL Price]** 空白。
+   - 若要讓價格反映客戶選擇的選項，請設定 **[!UICONTROL Dynamic Price]** 至 `Yes` 並離開 **[!UICONTROL Price]** 空白。 在這種情況下，套裝產品在目錄中沒有自己的價格，而產品價格是從套裝中包含的個別產品的價格衍生而來的。
 
    - 若要對套件收取固定價格，請設定 **[!UICONTROL Dynamic Price]** 至 `No` 並輸入 **[!UICONTROL Price]** 您想要對套件收費。
 

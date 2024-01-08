@@ -3,9 +3,9 @@ title: 禮卡產品
 description: 瞭解如何建立禮品卡產品，該產品會產生唯一代碼，以供收件者客戶在結帳時兌換。
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ ht-degree: 0%
    - 若要定義最小與最大可接受值的範圍，請輸入 **[!UICONTROL Open Amount From]** 和 **[!UICONTROL To]** 值。
 
    您可以建立固定訂價、未結金額訂價或兩者的禮品卡。
+
+   >[!NOTE]
+   >
+   >禮品卡產品在目錄中沒有自己的價格。 禮品卡價格是從購買期間所選取的禮品卡金額衍生而得。
 
    ![禮卡金額](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ ht-degree: 0%
 - 禮品卡的存留期可以不受限制，或設為指定的天數。
 
 - 禮卡值可以設定為固定金額，或設定為最小值和最大值之未結金額。
+
+- 禮品卡產品在目錄中沒有自己的價格。 禮品卡價格是從購買期間所選取的禮品卡金額衍生而得。
 
 - 您可以在下訂單或開立商業發票時，建立客戶的禮品卡帳戶。

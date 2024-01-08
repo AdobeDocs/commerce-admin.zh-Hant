@@ -3,9 +3,9 @@ title: 已分組的產品
 description: 瞭解如何建立包含簡單獨立產品（以群組呈現）的群組產品。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 1. 接受預設值 **[!UICONTROL SKU]** 根據產品名稱或輸入其他名稱。
 
    請注意 **[!UICONTROL Quantity]** 欄位無法使用，因為值衍生自組成群組的個別產品。
+
+   群組的產品在目錄中沒有自己的價格。 群組產品價格衍生自群組中所包含個別產品的價格。
 
 1. 由於產品尚未準備好發佈，請設定 **[!UICONTROL Enable Product]** 至 `No` ( ![切換否](../assets/toggle-no.png) )。
 
@@ -189,5 +191,7 @@ ht-degree: 0%
 - 分組的子產品可以是簡單、可下載或虛擬產品 **[!UICONTROL without custom options]**.
 
 - 每個購買的專案都會個別出現在購物車中，而不是群組的一部分。
+
+- 群組的產品在目錄中沒有自己的價格。 群組產品價格衍生自群組中所包含個別產品的價格。
 
 - 購物車中的縮圖影像可設定為顯示來自分組的父項產品或相關產品的影像。

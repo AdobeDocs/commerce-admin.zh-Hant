@@ -3,9 +3,9 @@ title: 可設定的產品
 description: 瞭解如何建立可設定的產品，為購物者提供各種選擇。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ ht-degree: 0%
 
 使用下列其中一種方法來設定 **[!UICONTROL prices]**：
 
+>[!NOTE]
+>
+>可設定的產品在目錄中並沒有自己的價格。 可設定的產品價格衍生自其 [!UICONTROL In Stock] 子產品。
+
 **方法1：** 對所有SKU套用相同價格
 
 1. 如果所有變數的價格都相同，請選取 **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ _多來源商家使用 [Inventory management](../inventory-management/introducti
 - [庫存狀態](../inventory-management/sources-stocks.md) 對於可配置產品，則是半手動控制的設定。 它與簡單產品的庫存狀態不同，在這種庫存狀態中，它是產品可用性的直接表示。 對於可設定產品，庫存狀態是多條件庫存狀態計算的一部分。
 
 - 可設定的子產品可以是簡單或虛擬產品 **沒有自訂選項**. 若要讓自訂子產品成為虛擬，您必須選取 `Тhis item has no weight` 針對 **[!UICONTROL Weight]** 分別設定。
+
+- 可設定的產品在目錄中並沒有自己的價格。 可設定的產品價格衍生自其 [!UICONTROL In Stock] 子產品。
 
 - 用於產品變異的屬性必須具有全域範圍，且必須要求客戶選擇值。 產品變數屬性必須包含在用作可設定產品範本的屬性集中。
 
