@@ -3,9 +3,9 @@ title: 銷售類別規則
 description: 瞭解如何建立規則，以根據一組條件動態變更產品選擇。
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    ![自動排序](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   排序是根據目前的條件：
+   排序順序選項會全域定義，並根據目前條件套用。 您無法針對網站、商店或商店檢視層級設定不同的排序順序。
 
    | 排序選項 | 說明 |
    |-----------| -----------|
