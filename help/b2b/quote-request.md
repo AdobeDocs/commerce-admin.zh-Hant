@@ -4,9 +4,9 @@ description: 瞭解與公司帳戶相關聯的客戶如何提交報價請求。
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 1. 客戶以購買者的身分登入其使用者帳戶， [許可權](account-company-roles-permissions.md) 以請求報價。
 
 1. 將他們要納入報價的產品新增至購物車。
+
+   >[!TIP]
+   > 
+   >如果您有要訂購的產品SKU清單，請使用以更快速地將其新增到購物車 [快速訂購](quick-order.md).
 
 1. 選取 **[!UICONTROL Request a Quote]**.
 
