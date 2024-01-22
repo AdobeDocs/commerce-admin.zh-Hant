@@ -4,9 +4,9 @@ description: 瞭解與公司帳戶相關聯的客戶如何提交報價請求。
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 1. 客戶以購買者的身分登入其使用者帳戶， [許可權](account-company-roles-permissions.md) 以請求報價。
 
-1. 將他們要納入報價的產品新增至購物車。
+1. 新增要包含在報價中的產品至購物車。
 
    >[!TIP]
    > 
-   >如果您有要訂購的產品SKU清單，請使用以更快速地將其新增到購物車 [快速訂購](quick-order.md).
+   >客戶可以使用將產品SKU清單更快速地新增到購物車 [快速訂購](quick-order.md).
 
 1. 選取 **[!UICONTROL Request a Quote]**.
 
    ![向購物車要求報價](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. 在 **[!UICONTROL Add your comment]** 方塊中，輸入描述請求的簡短備註。
+1. 在 **[!UICONTROL Add your comment]** 方塊中，客戶輸入簡短的附註以說明請求。
 
 1. 輸入 **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ ht-degree: 0%
    - 將報價傳送給賣家，方法是選取 **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0測試版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅供測試版計畫參與者使用"}**[!UICONTROL Save as Draft]**.
 
-     如果採購員將報價單另存為草稿，則報價單可在 [!UICONTROL My Quotes] 在 `Draft` 州別。 在買方開啟草稿報價並提交之前，賣方無法看到它。
+     如果採購員將報價單另存為草稿，則可在以下位置找到報價： [!UICONTROL My Quotes] 在 `Draft` 州別。 在買方傳送草擬報價以供複查之前，賣方無法看到草擬報價。
