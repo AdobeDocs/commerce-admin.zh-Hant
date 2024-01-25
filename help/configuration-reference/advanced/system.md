@@ -4,9 +4,9 @@ description: 檢閱上的組態設定 [!UICONTROL Advanced] &gt； [!UICONTROL S
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![進階組態 — 排程備份設定](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-如需有關變更這些設定的詳細資訊，請參閱 [系統備份](../../systems/backups.md) 在 _Admin System指南_.
+![進階設定 — 備份設定](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+如需有關變更這些設定的詳細資訊，請參閱 [系統備份](../../systems/backups.md) 在 _Admin System指南_.
+
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | 全域 | 判斷是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
-| [!UICONTROL Backup Type] | 全域 | 決定備份中包含的Commerce例項元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 全域 | 指定排程備份開始的時間（小時、分鐘和秒）。 |
-| [!UICONTROL Frequency] | 全域 | 決定進行排程備份的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 全域 | 決定在排程備份期間是否將存放區置於維護模式。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Backup] | 全域 | 決定Commerce執行個體是否允許備份。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 全域 | (顯示時機 _[!UICONTROL Enable Backup]_設為 `Yes`.) 判斷是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 全域 | (顯示時機 _[!UICONTROL Enable Scheduled Backup]_設為 `Yes`.) 決定備份中包含的Commerce例項元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 全域 | (顯示時機 [!UICONTROL Enable Scheduled Backup] 設為 `Yes`.) 指定排程備份開始的時間（小時、分鐘和秒）。 |
+| [!UICONTROL Frequency] | 全域 | (顯示時機 [!UICONTROL Enable Scheduled Backup] 設為 `Yes`.) 決定進行排程備份的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 全域 | (顯示時機 [!UICONTROL Enable Scheduled Backup] 設為 `Yes`.) 決定在排程備份期間是否將存放區置於維護模式。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
