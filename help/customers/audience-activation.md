@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 _2023年8月15日_
 
-![修正](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 以簡化篩選。
+![修正](../assets/fix.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 以簡化篩選。
 
 _2023年6月27日_
 
@@ -49,6 +49,22 @@ _2023年5月30日_
 ![新增](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 包含在Adobe Commerce例項中排序、搜尋及篩選作用中對象的能力。
 
 +++
+
+### 2.1.0
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2024年1月24日_
+
+![新增](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 以納入包含對象的網站，並指定要將哪些動態區塊和購物車價格規則設定為使用這些對象。
+
+### 2.0.1
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2023年11月16日_
+
+![修正](../assets/fix.svg)  — 改善穩定性。
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ composer require magento/audiences
 
 1. 按一下 **儲存設定**.
 
-將對象啟動至您的Adobe Commerce執行個體後，您可以：
+## 在Commerce中的何處使用Real-Time CDP受眾
+
+使用 [!DNL Audience Activation] 擴充功能已啟用，您可以：
 
 - [建立購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受眾通知
 - [建立動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受眾通知
 
 ## Real-Time CDP受眾控制面板
 
-您可以使用檢視可在Adobe Commerce執行個體中個人化的所有作用中對象 **Real-Time CDP受眾** 儀表板。 您的任何對象 [已啟用](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 在Real-Time CDP的Adobe Commerce目的地中，會顯示在此控制面板中。
+您可以檢視全部 [主要](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 可在您的Adobe Commerce執行個體中使用 **Real-Time CDP受眾** 儀表板。
 
 若要存取 **Real-Time CDP受眾** 儀表板，前往 _管理員_ 側欄，然後前往 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP受眾控制面板](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 儀表板包含下列欄位：
 
@@ -156,9 +176,12 @@ composer require magento/audiences
 | `Search` | 可讓您在商務例項中搜尋作用中對象。 |
 | `Name` | 在Real-Time CDP中提供給對象的名稱。 |
 | `Origin` | 指出受眾來源，例如 `Experience Platform`. |
+| `Websites` | 指出哪些網站已設定為可使用對象。 |
+| `Dynamic Blocks` | 指出哪些動態區塊已設定為可使用對象。 |
+| `Cart Price Rules` | 指出哪些購物車價格規則已設定為使用對象。 |
 | `Last updated` | 表示對象在Real-Time CDP中的修改時間。 |
 | `Sync now` | 從Real-Time CDP擷取新的或更新對象。 |
-| `Customize table` | 可讓您顯示或隱藏 `Origin` 和 `Last updated` 欄。 |
+| `Customize table` | 可讓您顯示或隱藏 `Origin`， `Websites`， `Dynamic Blocks`， `Cart Price Rules`、和 `Last updated` 欄。 |
 
 {style="table-layout:auto"}
 
