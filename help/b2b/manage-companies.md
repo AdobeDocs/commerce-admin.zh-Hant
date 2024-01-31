@@ -6,9 +6,9 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,34 @@ ht-degree: 0%
 
 [!BADGE 1.5.0測試版]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅供測試版計畫參與者使用"}
 
-公司管理功能可簡化具有複雜組織結構的公司的業務營運。 管理員使用者可以建立公司階層，將相關公司指派給指定的母公司，以便將公司作為一個群組來管理。 此指定可讓母公司管理員管理所有指定公司的個人帳戶與公司帳戶。
+公司管理可簡化具有複雜組織結構的公司的業務營運。 管理員使用者可以將公司指派給指定的母公司，藉此建立公司階層以映象B2B組織。 此指派可讓母公司管理員檢視及管理組織內的公司。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+從啟動公司管理任務 *[!UICONTROL Companies]* 檢視。 從管理員，前往  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. 在母公司的「公司」網格中開啟公司詳細資訊頁面，方法是選取 **[!UICONTROL Edit]** 動作。
+![B2B管理公司格線](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-![公司格線](./assets/company-detail-view.png){width="700" zoomable="yes"}
+在 *[!UICONTROL Companies grid]*，則 *[!UICONTROL Company Type]* 欄指出公司是作為組織的一部分進行管理，還是作為單獨的公司管理。
 
-請參閱 [管理公司帳戶](account-company-manage.md) 以取得公司格線的詳細資訊。
+- `Parent` 是擁有一或多個指定公司的企業組織。 母公司不能被指派為其他公司的子公司。
 
-## [!UICONTROL Company Hierarchy]
+- `Child` 是指派給組織的公司。 公司只能指派給一家母公司。
 
-初次建立公司時， [!UICONTROL Company Hierarchy] 當您展開格線時，格線是空的。 公司建立後，具有適當許可權的管理員使用者可以使用 [!UICONTROL Company Hierarchy] 編輯指定的母公司並指派相關公司，以建立母公司組織。
+- `Company` 代表單一公司。 單一公司可以成為組織的一部分，方法是將其設為母公司，或將其指派給現有的母公司。
 
-![公司階層格線](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+編輯父項或子項公司時，請展開 *[!UICONTROL Company Hierarchy]* 以檢視組織中的所有公司。 A `Current` 旗標會指出您正在編輯的公司。
 
-另請參閱 [指派和取消指派公司](assign-companies.md) 以取得中可用動作的詳細資訊 [!UICONTROL Company Hierarchy] 格線。
+![B2B公司階層格線](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+
+
+## 檢視和設定 [!UICONTROL Company Hierarchy]
+
+初次建立公司時， [!UICONTROL Company Hierarchy] 格線是空的。 如果公司是單一公司，則此區域也是空的。
+
+![B2B公司階層格線](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
+對於母公司，具有適當許可權的Admin使用者可以完成以下工作：
+
+- 藉由建立新的上階組織或更新現有的組織來建立公司階層。
+- 管理現有組織以新增或移除公司。
+
+如需詳細資訊，請參閱 [管理公司階層](assign-companies.md).
