@@ -3,9 +3,9 @@ title: 媒體集影像最佳化
 description: 瞭解如何針對您的使用影像最佳化 [!DNL Commerce] 媒體資產。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ ht-degree: 0%
 當 _最大寬度_ 和 _最大高度_ 值在設定中變更，會更新先前插入的所有現有最佳化影像。
 
 媒體集影像最佳化需要 `media.gallery.renditions.update` 當組態變更時，佇列取用者正在執行以重新產生最佳化的影像。 另請參閱 [管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 在 _設定指南_ 以取得更多詳細資料。
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}

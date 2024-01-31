@@ -3,7 +3,7 @@ title: 媒體集資產管理
 description: 瞭解如何管理已上傳的媒體檔案，以及您透過Adobe Stock整合取得的資產。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ ht-degree: 0%
 1. 從可讓您使用媒體資產的區域存取新的「媒體集」 。
 
 1. 選取資產並按一下 **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## 刪除資產
 
