@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予您的有限存取許可權 [!DNL Commerce] 其他帳戶 [!DNL Commerce] 帳戶持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果  **[!UICONTROL Delete]** 不會顯示，檢查是否會 **[!UICONTROL Share Name]** 開頭為 `Cloud Shared Access from MAG XYZ`  — 通常 [這些帳戶](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 無法刪除。
+   > 如果  **[!UICONTROL Delete]** 不會顯示，檢查是否會 **[!UICONTROL Share Name]** 開頭為 `Cloud Shared Access from MAG XYZ` - [這些帳戶](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 無法刪除。
+   > 
+   > 若是如此，請要求帳戶擁有者修改共用存取帳戶並清除帳戶許可權。 更新後，使用者將無法共用任何資源的存取權。
+   >
+   > 此外，請確定已將使用者從專案移除，以便他們不再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. 提示確認時，按一下 **[!UICONTROL Delete User]**.
 
