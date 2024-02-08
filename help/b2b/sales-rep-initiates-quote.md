@@ -4,9 +4,9 @@ description: 瞭解賣家如何為特定買方建立報價單，以開始議價�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ ht-degree: 0%
 
    將報價單另存為草稿，或傳送給採購員。
 
-   如果您將報價單傳送給採購員，則狀態會變更為 `Submitted`，而且報價會鎖定到買方報價，狀態會更新為草擬並顯示確認訊息：
+   - 如果您將報價單另存為草稿，則狀態會更新為 `Draft` 且會顯示確認訊息：
 
-   ![已提交給買家的確認草稿報價](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![已提交給買家的確認草稿報價](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-採購員會收到電子郵件通知，要求複查報價單。 在採購員退回報價以供進一步議價之前，報價會被鎖定。 賣方可從報價格或客戶格檢視報價。
+   - 如果您將報價單傳送給採購員，則狀態會變更為 `Submitted`. 採購員會收到電子郵件通知，要求複查報價單。 在採購員退回報價以供進一步議價之前，報價會被鎖定。 賣家可以從「報價」網格或「客戶」網格檢視報價。
 
 ## 從「客戶網格」檢視及建立報價單
 
