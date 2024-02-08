@@ -4,9 +4,9 @@ description: 瞭解賣家如何為特定買方建立報價單，以開始議價�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 藉由選取將專案新增至報價單 **[!UICONTROL Add Product By SKU]**. 輸入SKU編號與數量，然後選取 **[!UICONTROL Add Product]**.
 
-![賣家新增專案至買方草擬報價單](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![賣家新增專案至買方草擬報價單](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. 視需要對產品套用明細專案折扣。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    - 在 [!UICONTROL Discount Line item] 表單，選取 **[!UICONTROL Discount Type]**.
 
-   ![將明細專案折扣套用至報價單](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![將明細專案折扣套用至報價單](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - 在 [!UICONTROL Discount] 欄位，輸入折扣型態的值。 例如，如果您選取了百分比折扣，請輸入10以套用10%折扣至明細行專案。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 1. 新增採購員的額外資訊。
 
-   在 [!UICONTROL Negotiation - Comments]，新增附註，並附加購買者所需的任何支援檔案 [!UICONTROL Negotiation - Comments]
+   在 **[!UICONTROL Negotiation - Comments]** 標籤，新增註記並附加購買者所需的任何支援檔案。
 
    ![賣家新增買家的資訊](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ ht-degree: 0%
 
    將報價單另存為草稿，或傳送給採購員。
 
-   - 如果您將報價單另存為草稿，則狀態會更新為 `Draft` 且會顯示確認訊息：
-
-     ![已提交給買家的確認草稿報價](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - 如果您將報價單另存為草稿，則狀態會更新為 `Draft` 且會顯示確認訊息。
 
    - 如果您將報價單傳送給採購員，則狀態會變更為 `Submitted`. 採購員會收到電子郵件通知，要求複查報價單。 在採購員退回報價以供進一步議價之前，報價會被鎖定。 賣家可以從「報價」網格或「客戶」網格檢視報價。
 
