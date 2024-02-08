@@ -2,12 +2,10 @@
 title: Adobe Commerce的HIPAA整備程度
 description: 瞭解如何新增Adobe Commerce HIPAA就緒模組，並取得可讓您遵守HIPAA義務的其他功能。
 feature: Security, Compliance
-hide: true
-hidefromtoc: true
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -106,7 +104,7 @@ Adobe的HIPAA就緒服務在技術上是撰寫器中繼套件 `magento/hipaa-ee`
    - ***來源***：顯示動作的執行位置。\
      值： `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***使用者端型別***：顯示使用者端型別。\
-     值：客戶 |管理員 |整合
+     值：客戶 | 管理員 | 整合
 
 
 2. 重新命名 ***使用者名稱*** 至 ***使用者端識別碼***
