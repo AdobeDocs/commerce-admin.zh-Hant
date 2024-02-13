@@ -3,9 +3,9 @@ title: 目錄和產品URL
 description: 瞭解目錄產品的URL格式型別，以及如何進行設定。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ URL索引鍵是說明產品或類別的靜態URL的一部分。 當您建立產�
 
 >[!NOTE]
 >
->在URL索引鍵中，帶重音的特殊字元會自動取代為其一般不帶重音的版本。 例如， `ñ` 自動取代為 `n`.
+>根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如， `ñ` 自動取代為 `n`. 可透過設定 _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_組態選項至 `No`. 另請參閱 [設定目錄URL](#configure-catalog-urls).
 
 URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨連字型大小以分隔字詞。 URL索引鍵的開頭或結尾不允許使用連字型大小。 設計良好的「方便搜尋引擎」URL索引鍵可能包含產品名稱和關鍵字，以改進搜尋引擎編制索引的方式。 URL金鑰可設定為在URL金鑰變更時建立自動重新導向。
 
