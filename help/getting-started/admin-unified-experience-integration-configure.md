@@ -6,16 +6,14 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
 
 # 使用Commerce管理員設定Experience Cloud整合
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 透過設定Commerce應用程式使用Commerce Admin Unified Experience and Commerce Events擴充功能，開始與Commerce Admin整合Experience Cloud。
 

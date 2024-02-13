@@ -3,9 +3,9 @@ title: 適用於Commerce管理員的Adobe Experience Cloud整合
 description: 瞭解Admin Unified Experience擴充功能，其將Commerce與Experience Cloud整合，以便客戶可從Experience Cloud首頁存取Commerce專案。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 適用於商務的Adobe Experience Cloud整合
 
 {{ee-feature}}
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 啟用Admin Unified Experience擴充功能，將Adobe Commerce專案與Experience Cloud整合。 當整合作用中時，管理員可以從Adobe Experience Cloud存取Commerce專案。
 
