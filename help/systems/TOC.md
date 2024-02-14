@@ -5,9 +5,9 @@ breadcrumb-title: Admin System指南
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6bc66517b7075e3abe57eec2a229cfa14bbd0633
+source-git-commit: c7ba2f0e75a730a8beb235b07fced8367bb87462
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 2%
       - [匯入可下載的產品](data-transfer-downloadable-products.md)
       - [匯入層級價格資料](data-import-price-tier.md)
    - [已排程的匯入和匯出](data-scheduled-import-export.md)
-   - [資料管理控制面板](data-dashboard.md)
 - 動作記錄 {#action-logs}
    - [概觀](action-log.md)
    - [動作記錄檔報告](action-log-report.md)
