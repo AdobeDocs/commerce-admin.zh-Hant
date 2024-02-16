@@ -1,9 +1,9 @@
 ---
 title: Adobe Commerce B2B 1.5.0-beta
 description: 重複使用B2B擴充功能測試版的相關備註
-source-git-commit: 9ecf9a2b61353a6862d4d9ba6ea8455d9390d0cb
+source-git-commit: d071d7e5908623d56766f91d2a6168a6762a6870
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->1.5.0 Beta版僅供參與Beta計畫的客戶存取。 如果您有興趣加入測試版，請傳送電子郵件至 `AdobeB2BCommerce@adobe.com`. 納入專案的Commerce管理員帳戶的Commerce帳戶(MAGEID)。
+>1.5.0 Beta版僅供參與Beta計畫的客戶存取。 Beta版計畫現已關閉。 不過，已測試的進階公司管理和報價功能即將在Adobe Commerce B2B 1.5.0的即將正式發行中推出。<br><br>如果您有興趣進一步瞭解進階公司管理以及支援多個B2B或B2B2X業務模式，請聯絡您的Adobe客戶代表，或傳送電子郵件至 `AdobeB2BCommerce@adobe.com`.
