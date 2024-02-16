@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _2023年5月30日_
 ![新增](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 包含在Adobe Commerce例項中排序、搜尋及篩選作用中對象的能力。
 
 +++
+
+### 2.2.0-beta1
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2024年2月16日_
+
+![新增](../assets/new.svg)  — 如果您正在參與Beta版測試，請確定您的 `composer.json` 檔案的根層級如下： ` "minimum-stability": "beta"`.
+![新增](../assets/new.svg) - (**測試版**)已新增建立功能 [相關產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知。
 
 ### 2.1.0
 
@@ -147,11 +156,7 @@ composer require magento/audiences
 
 1. 展開 **[!UICONTROL Services]** 並選取 **[!UICONTROL [!DNL Data Connection]]**.
 
-1. 在 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) 指南，請遵循步驟1： **在Adobe Developer Console中建立專案**&#x200B;和2： **下載設定檔**. 結果會產生一個檔案，您可將其複製並貼到 **[!UICONTROL [!DNL Data Connection]]** 設定頁面：
-
-   ![Real-Time CDP對象管理設定](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. 按一下 **儲存設定**.
+1. [新增](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) 服務帳戶和認證詳細資料。
 
 ## 在Commerce中的何處使用Real-Time CDP受眾
 
@@ -159,6 +164,7 @@ composer require magento/audiences
 
 - [建立購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受眾通知
 - [建立動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受眾通知
+- [(**測試版**)建立相關的產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知
 
 ## Real-Time CDP受眾控制面板
 
@@ -187,11 +193,11 @@ composer require magento/audiences
 
 ## Headless支援
 
-您可以在Headless Adobe Commerce例項(例如AEM和PWA)中啟用對象，以根據對象顯示購物車價格規則或動態區塊。
+您可以在Headless Adobe Commerce例項(例如AEM和PWA)中啟用對象，以根據對象顯示購物車價格規則、相關產品規則或動態區塊。
 
-### 購物車價格規則
+### 購物車價格規則和相關產品規則
 
-Experience Platform針對購物車價格規則，Headless店面會透過 [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 此架構提供使用GraphQL實作的伺服器端API。 對象資訊（例如購物者的區段）會透過名為的GraphQL標題引數傳遞至Commerce： `aep-segments-membership`.
+Experience Platform針對購物車價格規則和相關產品規則，Headless店面會透過 [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 此架構提供使用GraphQL實作的伺服器端API。 對象資訊（例如購物者的區段）會透過名為的GraphQL標題引數傳遞至Commerce： `aep-segments-membership`.
 
 整體架構如下：
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-擷取資料後，您可使用資料建立受眾資訊 [購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 和 [動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 在商務應用程式中。
+擷取資料後，您可使用資料建立受眾資訊 [購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences)， [動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 和  [相關產品規則](../merchandising-promotions/product-related-rule-create.md) 在商務應用程式中。
+
+## 對象不會顯示在商務中
+
+如果Real-Time CDP對象未顯示在Commerce中，原因可能是：
+
+- 在中選取的驗證型別不正確 **資料連線** 設定頁面
+- 產生的權杖上的許可權不足
+
+以下兩節說明如何疑難排解任一案例。
+
+### 設定中選取的驗證型別不正確
+
+1. 開啟您的Commerce例項。
+1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 展開 **[!UICONTROL Services]** 並選取 **[!UICONTROL [!DNL Data Connection]]**.
+1. 確定您指定的伺服器對伺服器授權方法 **[!UICONTROL Authentication Type]** 欄位正確。 Adobe建議使用 **OAuth**. 已棄用JWT。 [瞭解更多](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### 產生的權杖上的許可權不足
+
+此問題可能是由於所產生Token的API許可權不足所導致。 若要確保權杖具有正確的許可權：
+
+1. 識別組織中Adobe Experience Platform的系統管理員。
+1. 尋找您將使用的專案和認證。
+1. 識別技術帳戶電子郵件，例如： `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. 請系統管理員啟動Adobe Experience Platform並前往 **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. 使用上方的技術帳戶電子郵件，搜尋要修改的認證。
+1. 開啟認證，然後選取 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. 新增 **全部生產存取權**.
+1. 按一下 **[!UICONTROL Save]**.
+1. [重新產生](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) 控制檯中的存取權杖。
+1. 使用，驗證權杖是否提供有效的回應 [Target連線API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

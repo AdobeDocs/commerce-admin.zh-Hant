@@ -3,9 +3,9 @@ title: 建立相關的產品規則
 description: 瞭解如何建立可觸發的相關產品規則，以顯示相關產品、向上銷售和交叉銷售。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 0%
    - 的 **[!UICONTROL Result Limit]**，輸入要出現在結果清單中的記錄數。 最大數目為20。
 
    - 如果規則套用至特定 [客戶區段](../customers/customer-segments.md)，設定 **[!UICONTROL Customer Segments]** 至 `Specified` 並從清單中選擇客戶區段。
+
+   - (**測試版**)如果規則套用至特定 [Real-Time CDP對象](../customers/audience-activation.md)，設定 **[!UICONTROL Real-Time CDP Audience]** 至 `Specified` 並從清單中選擇Real-Time CDP對象。 此功能為測試版。 如果您想要加入Beta版計畫，請傳送要求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![相關產品規則 — Real-Time CDP對象](./assets/rtcdp-related-products.png){width="500"}
 
 1. 在左側面板中，選擇 **[!UICONTROL Products to Match]** 並建置條件，就像您對 [型錄價格規則](price-rules-catalog.md).
 

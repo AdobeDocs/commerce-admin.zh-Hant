@@ -3,9 +3,9 @@ title: 相關產品規則
 description: 瞭解相關的產品規則，以及如何使用這些規則來動態向您的客戶呈現相關產品、向上銷售和交叉銷售。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ ht-degree: 0%
 | [!UICONTROL Weighted Random] | 產品會隨機化，所以優先順序較高的規則所屬產品會比優先順序較低的規則所屬產品出現的可能性更高。 然後，產品會減少到可設定的最大限制，並按優先順序重新分組。 此模式讓較低優先順序的產品有機會偶爾出現，即使剩餘的插槽中可能已有較高優先順序的規則產品填滿 |
 
 {style="table-layout:auto"}
+
+## 使用Real-Time CDP受眾來通知相關的產品規則
+
+>[!NOTE]
+>
+>此功能為測試版。 如果您想要加入Beta版計畫，請傳送要求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+瞭解如何 [啟用](../customers/audience-activation.md) 將Real-Time CDP對象放入您的Adobe Commerce例項，以告知相關的產品規則。
