@@ -3,10 +3,10 @@ title: 使用ID設定Commerce管理整合
 description: 請依照此選擇性程式，將Adobe Commerce管理員使用者帳戶登入與Adobe ID整合。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 
 * 從取得Adobe組織ID [Adobe Admin Console](https://adminconsole.adobe.com/)
 * 從產生新專案、IMS API金鑰和密碼 [Adobe Developer Console](https://developer.adobe.com/)
-* 啟用 `AdminAdobeIms` 模組
-* 在Adobe Admin Console中設定Adobe Commerce使用者。
+* 在Adobe Admin Console中設定Adobe Commerce使用者
+* 啟用 `AdminAdobeIms` 模組。
 
 若要成功整合，所有Adobe Commerce使用者都必須擁有具有相同名稱和主要電子郵件地址的管理員使用者帳戶。 如果相符的Admin使用者帳戶不存在，則具有所需許可權（通常被指派為Administrator角色）的使用者必須手動進行 [建立管理員使用者帳戶](../systems/permissions-users-all.md#create-a-user) 和電子郵件相同名稱。
 
@@ -69,7 +69,29 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 1. 按一下 **[!UICONTROL Save configured API]**.
 1. 複製 [!UICONTROL Client ID] 和 [!UICONTROL Client Secret] 金鑰從建立的專案中。
 
-### 步驟3：啟用AdminAdobeIms模組
+### 步驟3：在Adobe Admin Console中設定Adobe Commerce使用者
+
+在啟用整合之前，請確認每個Adobe Commerce管理員使用者帳戶都有對應的Adobe IMS帳戶。 Adobe Commerce使用者必須屬於特定的Adobe組織，才能使用Adobe ID登入。
+
+>[!TIP]
+>
+>您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 另請參閱 [管理多個使用者](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. 在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)，導覽至 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. 按一下 **[!UICONTROL Add User]**.
+
+1. 輸入使用者的電子郵件地址。
+
+   如果適用，系統會自動填入建議的ID型別。 您可以根據貴組織的購買計畫，將此設定變更為清單中的其中一個產品ID。
+
+   您一次最多可以新增10個使用者。 若要新增更多變更，請在儲存變更後重複上述步驟。
+
+1. 按一下 **[!UICONTROL Save]**.
+
+使用者新增並顯示在 [!UICONTROL Users] 清單。
+
+### 步驟4：啟用AdminAdobeIms模組
 
 此 `AdminAdobeIms` 模組負責Adobe Commerce/Adobe IMS整合。 設定新專案並複製組織ID、使用者端ID和使用者端密碼後，您可以啟用 `AdminAdobeIms` 模組。
 
@@ -83,21 +105,3 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 Adobe Commerce會顯示訊息，指出啟用是成功還是失敗。
 
 成功啟用此功能後，您可以將其他Adobe Commerce使用者帳戶轉移至Adobe IMS帳戶。 Adobe Commerce使用者必須屬於已設定的Adobe組織，才能使用Adobe ID登入。
-
-### 步驟4：在Adobe Admin Console中設定Adobe Commerce使用者
-
-成功啟用此功能後，您可以將其他Adobe Commerce使用者帳戶轉移至Adobe IMS帳戶。 Adobe Commerce使用者必須至少屬於一個Adobe組織，才能使用Adobe ID登入。
-
-1. 在 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)，導覽至 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. 按一下 **[!UICONTROL Add User]**.
-
-1. 輸入使用者的電子郵件地址。
-
-   如果適用，系統會自動填入建議的ID型別。 您可以根據貴組織的購買計畫，將此設定變更為清單中的其中一個產品ID。
-
-   您一次最多可以新增10個使用者。 若要新增更多變更，請在儲存變更後重複上述步驟。
-
-1. 按一下 **[!UICONTROL Save]**.
-
-使用者新增並顯示在 [!UICONTROL Users] 清單。
