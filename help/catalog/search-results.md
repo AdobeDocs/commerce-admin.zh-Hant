@@ -3,9 +3,9 @@ title: 搜尋結果
 description: 瞭解如何設定產品如何符合在快速搜尋方塊或進階搜尋表單中輸入的搜尋條件。
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,10 @@ ht-degree: 0%
 ## 加權搜尋
 
 為目錄搜尋啟用的產品屬性可指定權重，以便在搜尋結果中提供較高的值。 較重量的屬性會先傳回，再傳回較重量的屬性。 例如，如果系統中有兩個屬性， _顏色_ 搜尋權重為3且 _說明_ 搜尋權重為1。 搜尋單字 _紅色_ 傳回色彩屬性值為的產品清單 `red` 搜尋結果頂端並傳回描述包含單字的產品 _紅色_ 位於搜尋結果底部。 在此範例中， `color` 屬性的定義權重大於 `description` 屬性。
+
+>[!IMPORTANT]
+>
+>依關聯性排序受 **_多個_** 條件以及它們之間的關係 **_同時_**. [!UICONTROL Search Weight] 只是其中一個條件。 這表示有時候搜尋權重較低的屬性可能仍比搜尋權重較高的屬性有更多的關聯性。 其他條件可能包括任何給定屬性中的相符數、找到的搜尋詞位置以及搜尋詞前後的整體文字結構。
 
 **_若要設定屬性的搜尋權重屬性：_**
 
