@@ -4,9 +4,9 @@ description: Adobe Commerce和Magento Open Source管理員適用的客戶帳戶�
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
 | [簡介](customers-introduction.md) | 在Commerce Admin中使用客戶管理功能的概觀。 |
 | 客戶管理工具 | 瞭解如何使用 [[!UICONTROL Customers] 格線](customers-all.md) 和 [[!UICONTROL Now Online] 功能](now-online.md) 在可用來管理商店客戶的Commerce Admin中。 |
 | 客戶帳戶 | 瞭解如何為店面的註冊客戶提供最佳體驗，從 [登入](login-landing-page.md) 至 [密碼休息](password-reset.md)、和 [為購物者提供協助](login-as-customer.md). |
-| [[!DNL Audience Activation]](audience-activation.md) | 瞭解新的 [!DNL Audience Activation] 擴充功能可讓您在Adobe Commerce中啟用Real-Time CDP對象，以在購物車中建立唯一優惠方案。 |
+| [大規模個人化](personalize-scale.md) | 瞭解根據即時上下文和先前觀察到的行為為每個客戶接觸點個人化購物體驗可用的功能。 |
+| [[!DNL Audience Activation]](audience-activation.md) | 瞭解 [!DNL Audience Activation] 擴充功能可讓您在Adobe Commerce中啟用Real-Time CDP對象，以通知購物車、動態區塊和相關產品中的不重複選件。 |
 | [客戶群組](customer-groups.md) | 瞭解如何使用客戶群組來決定哪些折扣可供指派給群組的客戶使用，以及與群組相關聯的稅捐類別。 |
 | [客戶區段](customer-segments.md) | 根據各種屬性，定義可用於動態顯示特定客戶內容和促銷的客戶區段。 |
 

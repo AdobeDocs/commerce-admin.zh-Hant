@@ -2,9 +2,9 @@
 user-guide-title: 客戶管理指南
 breadcrumb-title: 客戶管理
 feature: Customers
-source-git-commit: 093df1c806443dee29e604cc4229aaa9304dbec4
+source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 2%
 + 客戶管理工具 {#customers-menu}
    + [客戶清單](customers-all.md)
    + [現在已上線](now-online.md)
+   + [大規模個人化](personalize-scale.md)
 + 客戶帳戶 {#customer-accounts}
    + [帳戶範圍](customer-account-scope.md)
    + 帳戶選項 {#configure}
