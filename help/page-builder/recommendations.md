@@ -3,20 +3,20 @@ title: 新增內容 — 產品Recommendations
 description: 瞭解產品Recommendations內容型別，用於新增建議清單至 [!DNL Page Builder] 階段。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 新增內容 — 產品Recommendations
 
-使用 _產品Recommendations_ 內容型別，用於新增現有的、作用中的 [推薦單位](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) 至 [[!DNL Page Builder] 階段](workspace.md#stage) CMS頁面、區塊或動態區塊。
+使用 _產品Recommendations_ 內容型別，用於新增現有的、作用中的 [推薦單位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) 至 [[!DNL Page Builder] 階段](workspace.md#stage) CMS頁面、區塊或動態區塊。
 
 >[!NOTE]
 >
->此 [!DNL Page Builder] _產品Recommendations_ Adobe Commerce 2.4.4及更高版本支援內容型別，並且可在以下位置取得： [產品Recommendations中繼套件3.0.x版或更新版本](https://marketplace.magento.com/magento-product-recommendations.html). 新增 [!DNL Page Builder] 支援產品Recommendations， [請參閱安裝資訊](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **此內容型別不適用於Magento Open Source。**
+>此 [!DNL Page Builder] _產品Recommendations_ Adobe Commerce 2.4.4及更高版本支援內容型別，並且可在以下位置取得： [產品Recommendations中繼套件3.0.x版或更新版本](https://commercemarketplace.adobe.com/magento-product-recommendations.html). 新增 [!DNL Page Builder] 支援產品Recommendations， [請參閱安裝資訊](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **此內容型別不適用於Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 新增現有的建議單位
 
-1. 確定您已擁有 [已建立建議單位](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) 針對 [!DNL Page Builder] 頁面型別。
+1. 確定您已擁有 [已建立建議單位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) 針對 [!DNL Page Builder] 頁面型別。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 執行下列任一項作業：
 
    - 按一下 **[!UICONTROL Edit Product Recommendation]**.
-   - 將滑鼠懸停在空白容器上以顯示工具箱，然後按一下 _設定_ (![設定圖示](./assets/pb-icon-settings.png){width="20"} )圖示。
+   - 將滑鼠懸停在空白容器上以顯示工具箱，然後按一下 _設定_ (![設定圖示](./assets/pb-icon-settings.png))圖示。
 
    ![編輯產品推薦](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 編輯建議單位設定
 
-1. 將滑鼠停留在建議單位容器上以顯示工具箱，然後按一下 _設定_ (![設定圖示](./assets/pb-icon-settings.png){width="20"} )圖示。
+1. 將滑鼠停留在建議單位容器上以顯示工具箱，然後按一下 _設定_ (![設定圖示](./assets/pb-icon-settings.png))圖示。
 
    ![建議工具箱](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 複製建議單位
 
-1. 將滑鼠停留在建議單位容器上以顯示工具箱，然後按一下 _複製_ ( ![複製摘要](./assets/pb-icon-duplicate.png){width="20"} )圖示。
+1. 將滑鼠停留在建議單位容器上以顯示工具箱，然後按一下 _複製_ (![「複製」圖示](./assets/pb-icon-duplicate.png))圖示。
 
    重複專案會出現在原始專案的正下方。
 
-1. 若要將重複的建議單位移至新位置，請將游標移至容器上，然後按一下 _移動_ ( ![移動圖示](./assets/pb-icon-move.png){width="20"} )圖示。
+1. 若要將重複的建議單位移至新位置，請將游標移至容器上，然後按一下 _移動_ (![移動圖示](./assets/pb-icon-move.png))圖示。
 
 1. 選取並拖曳建議單位，直到紅色指引出現在新位置為止。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 從階段中移除建議單位
 
-1. 將游標停留在建議單位容器上，然後按一下 _移除_ ( ![移除圖示](./assets/pb-icon-remove.png){width="20"} )圖示。
+1. 將游標停留在建議單位容器上，然後按一下 _移除_ ( ![移除圖示](./assets/pb-icon-remove.png))圖示。
 
 1. 提示確認時，按一下 **[!UICONTROL OK]**.
 
