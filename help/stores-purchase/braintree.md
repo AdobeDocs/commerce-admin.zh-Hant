@@ -3,9 +3,9 @@ title: Braintree
 description: 瞭解如何將Braintree設定為商店上的線上付款解決方案。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: dba610f53893a8698d2c52fe92fd0266f1cfa0cb
+source-git-commit: fcd08ea5d8c3bd498eb4beae41bdf2f078a89f55
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 >
 >如果您要從舊版Adobe Commerce升級至2.4.x，或安裝了來自Magento Open Source的Braintree擴充功能的Commerce Marketplace，請參閱 [2.4升級注意事項](#24-upgrade-notes) 在本頁結尾處。
 
-{{beta2-updates}}
 
 ## 步驟1：取得您的Braintree認證
 
@@ -34,7 +33,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
    - 在 _[!UICONTROL Merchant Location]_區段，確認&#x200B;**[!UICONTROL Merchant Country]**設為企業的所在位置。
 
-1. 在 _[!UICONTROL Recommended Solutions]_，在_[!UICONTROL Braintree Payments (by GENE Commerce v4.5.0)]_ 區段，按一下 **[!UICONTROL Configure]**.
+1. 在 _[!UICONTROL Recommended Solutions]_，在_[!UICONTROL Braintree Payments] (作者： [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 - [發行說明](https://support.gene.co.uk/support/solutions/articles/35000228529)_區段，按一下&#x200B;**[!UICONTROL Configure]**.
 
    ![設定Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -81,6 +80,8 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 輸入 **[!UICONTROL Merchant Account ID]** 從您的Braintree帳戶。
 
    如果您未指定要使用的貿易商科目，則Braintree會使用您的預設貿易商科目來處理交易。
+
+1. 為了在結帳程式開始時使用「快速付款」選項(包括PayPal、PayLater、Apple Pay和Google Pay)提供更快速的結帳體驗，請設定 **[!UICONTROL Enable Checkout Express Payments]** 至 `Yes`.
 
 1. 如果您要防止在進階詐騙工具檢查時傳送交易以進行評估，請透過管理員下達的訂單上設定 **[!UICONTROL Skip Fraud Checks on Admin Orders]** 至 `Yes`.
 
@@ -145,6 +146,8 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 若要將ACH納入為Braintree的付款選項，請設定 **[!UICONTROL Enable ACH Direct Debit]** 至 `Yes`.
 
+1. 客戶可儲存其單次使用的ACH Direct Debit支付方式，並將其儲存以供日後使用。 一旦儲存起來，客戶就可以重複使用ACH Direct Debit直接扣款，不需要重新輸入或驗證其付款資訊（若已設定） **[!UICONTROL Enable Vault for ACH Direct Debit]** 至 `Yes`.
+
 1. 的 **[!UICONTROL Sort Order]**，請輸入數字，以決定結帳期間與其他付款選項一起列出時，BraintreeACH付款選項出現的順序。
 
 ## 步驟7：完成 [!UICONTROL Apple Pay] 透過Braintree設定
@@ -154,6 +157,8 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 要包含 [!DNL Apple Pay] 作為Braintree的付款選項，請設定 **[!UICONTROL Enable ApplePay through Braintree]** 至 `Yes`.
 
    確定 [驗證您的網域名稱](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) 在您的Braintree帳戶中。
+
+1. 如果您想要能夠安全地儲存客戶資訊，以便客戶每次使用Apple Pay購買時都不需要重新輸入，請設定 **[!UICONTROL Enable Vault for ApplePay]** 至 `Yes`.
 
 1. 設定 **[!UICONTROL Payment Action]** 變更為下列其中一項：
 
@@ -169,6 +174,10 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 若要將當地付款方式納入為Braintree的付款選項，請設定 **[!UICONTROL Enable Local Payment Methods]** 至 `Yes`.
 
 1. 的 **[!UICONTROL Title]**，輸入用於顯示在「結帳付款方式」區段上的標籤的文字(預設值： `Local Payments`)。
+
+1. 的 **[!UICONTROL Fallback Button Text]**，輸入用於後援Braintree頁面上顯示的按鈕的文字，以將客戶帶回網站(例如， `Complete Checkout`)。
+
+1. 的 **[!UICONTROL Redirect on Fail]**，輸入當本機付款方式交易取消、失敗或發生錯誤時，應重新導向客戶的URL。 它應該是結帳付款頁面(例如， `https://www.domain.com/checkout#payment`)。
 
 1. 的 **[!UICONTROL Allowed Payment Methods]**，選取要啟用的本機付款方式。
 
@@ -188,6 +197,8 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 要包含 [!DNL Google Pay] 作為Braintree的付款選項，請設定 **[!UICONTROL Enable GooglePay Through Braintree]** 至 `Yes`.
 
+1. 如果您想要能夠安全地儲存客戶資訊，以便客戶每次使用Google Pay購買時都不需要重新輸入，請設定 **[!UICONTROL Enable Vault for GooglePay]** 至 `Yes`.
+
 1. 設定 **[!UICONTROL Payment Action]** 變更為下列其中一項：
 
    - `Authorize Only`  — 核准購買並保留資金。 在銷售完成之前，不會從客戶的銀行帳戶提取金額 _已擷取_ 由商家提供。
@@ -206,6 +217,8 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 ## 步驟10：透過Braintree設定完成Venmo
 
 1. 若要包含Venmo作為Braintree的付款選項，請設定 **[!UICONTROL Enable Venmo through Braintree]** 至 `Yes`.
+
+1. 設定 **[!UICONTROL Enable Vault for Venmo]** 至 `Yes` 啟用安全儲存庫來儲存客戶的Venmo帳戶，這樣客戶就不需要再次登入其Venmo帳戶即可進行未來的交易。
 
    ![Venmo透過Braintree](../configuration-reference/sales/assets/payment-methods-braintree-venmo-config.png){width="600" zoomable="yes"}
 
@@ -244,7 +257,9 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 的 **[!UICONTROL Title]**，輸入標題，以在結帳時識別透過PayPal選項的Braintree付款。
 
-1. 設定 **[!UICONTROL Vault Title]** 至 `Yes` 以使用安全儲存庫來儲存客戶的信用卡資訊。
+1. 設定 **[!UICONTROL Vault Enabled]** 至 `Yes` 以使用安全儲存庫來儲存客戶的PayPal帳戶。 存放的PayPal帳戶可用於未來的交易，減少客戶的步驟數。
+
+1. 設定 **[!UICONTROL Send Cart Line Items for PayPal]** 至 `Yes` 將明細專案（訂購專案）連同禮品卡、專案禮品包裝、訂購禮品包裝、商店退款、送貨和稅捐一起傳送至PayPal。
 
 1. 的 **[!UICONTROL Sort Order]**，請輸入數字，以決定結帳期間BraintreePayPal付款選項與其他付款選項一起列出時的顯示順序。
 
@@ -294,7 +309,11 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 的 **[!UICONTROL Shape]**，選取PayPal按鈕形狀： `Pill` 或 `Rectangle`
 
-1. 的 **[!UICONTROL Size]**，選取PayPal按鈕大小： `Medium`， `Large`，或 `Responsive`
+1. 的 **[!UICONTROL Size (Deprecated)]**，選取PayPal按鈕大小： `Medium`， `Large`，或 `Responsive`
+
+>[!NOTE]
+>
+>此 **[!DNL Size(Deprecated)]** 設定欄位已過時，不用於設定PayPal按鈕的樣式。
 
 **[!UICONTROL PayLater Messaging]**
 
@@ -373,9 +392,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 ## 2.4升級注意事項
 
-從2.3升級至Commerce 2.4之前，建議商家以的官方Braintree擴充功能取代核心的CommerceBraintree整合 [Commerce Marketplace](https://commercemarketplace.adobe.com/catalogsearch/result/?q=braintree). 從Adobe Commerce和Magento Open Source2.4.0開始，Braintree擴充功能已包含在發行版本中。
-
-如果您要從已安裝MarketplaceBraintree擴充功能的2.4.0之前版本移轉至Commerce 2.4.x，您必須解除安裝該擴充功能(`paypal/module-braintree` 或 `gene/module-braintree`)並更新任何程式碼自訂，以使用 `PayPal_Braintree` 名稱空間而非 `Magento_Braintree`. 來自核心「商務Braintree付款」套件擴充功能的組態設定以及在Commerce Marketplace上散佈的擴充功能會持續存在，而且仍可正常擷取、作廢或退款這些舊版本的付款。
+從Adobe Commerce和Magento Open Source2.4.0開始，Braintree擴充功能已包含在發行版本中。 如果您要從已安裝MarketplaceBraintree擴充功能的2.4.0之前版本移轉至Commerce 2.4.x，您必須解除安裝該擴充功能(`paypal/module-braintree` 或 `gene/module-braintree`)並更新任何程式碼自訂，以使用 `PayPal_Braintree` 名稱空間而非 `Magento_Braintree`. 來自核心「商務Braintree付款」套件擴充功能的組態設定以及在Commerce Marketplace上散佈的擴充功能會持續存在，而且仍可正常擷取、作廢或退款這些舊版本的付款。
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php
