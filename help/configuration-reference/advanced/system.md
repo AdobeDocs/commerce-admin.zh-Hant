@@ -4,9 +4,9 @@ description: 檢閱上的組態設定 [!UICONTROL Advanced] &gt； [!UICONTROL S
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -178,8 +178,6 @@ ht-degree: 1%
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![進階設定 — 整頁快取](./assets/system-full-page-cache.png)<!-- zoom -->
 
 如需有關變更這些設定的詳細資訊，請參閱 [全頁快取](../../systems/cache-management.md#full-page-caching) 在 _Admin System指南_.
@@ -190,11 +188,12 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全域 | 決定用來管理整頁快取的應用程式。 選項： <br/>**`Built-in Application`**— 不建議用於生產環境。<br/>**`Varnish Caching`**  — 建議用於生產環境。 |
 | [!UICONTROL TTL for public content] | 全域 | 決定公用內容快取的期限（以秒為單位）。 預設值： `120` |
+| [!UICONTROL Handles param size] | 全域 | 指定最大數量： [配置控點](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 處理 [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) http端點。 限制大小可以改善安全性和效能。 預設值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全域 | 指定可以清除清漆組態以產生組態檔的IP位址。 請使用逗號分隔多個專案。 預設值： `localhost` |
 | [!UICONTROL Backend host] | 全域 | 指定產生設定檔的後端主機。 預設值： `localhost` |
 | [!UICONTROL Backend port] | 全域 | 指定用來產生設定檔的後端連線埠。 預設值： `8080` |
-| [!UICONTROL Grace period] | 全域 | 指定產生設定檔的寬限期（以秒為單位）。 預設值： `300` |
+| [!UICONTROL Grace period] | 全域 | 決定如果後端沒有回應，Varnish提供過時內容的時間長度。 預設值： `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | 全域 | 匯出 `varnish.vcl` 版本4的檔案。 |
 | [!UICONTROL Export VCL for Varnish 5] | 全域 | 匯出 `varnish.vcl` 第5版的檔案。 |

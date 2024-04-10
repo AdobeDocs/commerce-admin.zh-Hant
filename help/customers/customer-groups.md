@@ -3,9 +3,9 @@ title: 客戶群組
 description: 使用客戶群組來決定哪些折扣可供指定至群組的客戶使用，以及與群組相關聯的稅捐類別。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ ht-degree: 0%
 1. 完成後，按一下 **[!UICONTROL Apply Filters]**.
 
 ## 建立客戶群組
+
+>[!NOTE]
+>
+>無權存取所有網站的管理員使用者（已指派具有「自訂」角色） [!UICONTROL Role Scope])無法建立、修改或刪除客戶群組。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

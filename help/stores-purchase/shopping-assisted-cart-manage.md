@@ -3,10 +3,10 @@ title: 管理購物車
 description: 瞭解如何直接從管理員協助客戶處理購物車。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 1. 按一下 **[!UICONTROL Add selections to my cart]**.
 
-1. 套用優惠券代碼（如果可用）：
+1. 套用一或多個優惠券代碼（若有）：
 
    - 的 **[!UICONTROL Apply Coupon Code]**，請輸入有效的抵用券代碼。
 

@@ -3,10 +3,10 @@ title: 分層導覽
 description: 瞭解階層式導覽如何讓購物者根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ _範例：無結果顯示的可篩選色票值_
    ![店面屬性](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 對要包含在分層導覽中的每個屬性重複這些步驟。
+
+>[!NOTE]
+>
+>當 _[!UICONTROL Use in Search]_設定已設為 `No`，則_[!UICONTROL Use in Search Results Layered Navigation]_ 不會顯示設定，且產品屬性不會用於任何的搜尋 [!UICONTROL Use in Layered Navigation] 設定值。
 
 >[!NOTE]
 >
@@ -132,7 +136,7 @@ _範例：無結果顯示的可篩選色票值_
 | $150.00 - $159.99 (1) |   |
 | $180.00 - $189.99 (1) |   |
 | $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| 440.00美元 — 449.99美元(1) |   |
 | $710.00及以上(1) |   |
 
 {style="table-layout:auto"}

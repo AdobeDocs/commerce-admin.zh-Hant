@@ -3,9 +3,9 @@ title: 聯合包裹服務(UPS)
 description: 瞭解如何將UPS設定為您的商店的運送業者。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 ## 步驟2：為商店啟用UPS
 
-{{beta2-updates}}
-
 1. 在 _管理員側邊欄_，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 在左側的面板中，在 **[!UICONTROL Sales]**，選擇 **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 1. 設定 **[!UICONTROL Enabled for Checkout]** 至 `Yes`.
 
-1. 針對UPS XML帳戶（預設），設定 **[!UICONTROL UPS Type]** 至 `United Parcel Service XML` 並執行下列動作：
+1. 對於UPS REST帳戶（預設），請執行下列動作：
 
-   - 輸入您的UPS認證： **[!UICONTROL User ID]**， **[!UICONTROL Access License Number]** (16位數的UPS帳戶 `Access Key`)，以及 **[!UICONTROL Password]**
+   - 輸入您的UPS認證：UPS使用者端ID為 **[!UICONTROL User ID]**，UPS使用者端密碼為 **[!UICONTROL Password]**
 
    - 設定 **[!UICONTROL Mode]** 至 `Live` 透過安全連線將資料傳送至UPS運送系統。 （開發模式不會透過安全連線傳送資料。）
 
-   - 驗證 **[!UICONTROL Gateway XML URL]** 以XML檔案傳送要求時所需的專案。
+   - 驗證 **[!UICONTROL Gateway URL]** 傳送請求所需的屬性。 將沙箱URL用於測試模式，將生產URL用於即時請求。
+
+   - 驗證 **[!UICONTROL Tracking URL]** 這是取得追蹤資訊的必要許可權。 將沙箱URL用於測試模式，將生產URL用於即時請求。
 
    - 設定 **[!UICONTROL Origin of the Shipment]** 至出貨來源區域。
 
    - 如果您的UPS費率特殊，請設定 **[!UICONTROL Enable Negotiated Rates]** 至 `Yes` 並輸入6位數 **[!UICONTROL Shipper Number]** 由UPS指派給您。
-
-1. 對於標準UPS帳戶，請設定 **[!UICONTROL UPS Type]** 至 `United Parcel Service` 並執行下列動作：
-
-   >[!NOTE]
-   >
-   >標準United Parcel Service型別已排定淘汰。 若為新設定，您應使用預設值  `United Parcel Service XML` 型別。 還需要有XML型別才能產生 [送貨標籤](shipping-labels.md).
 
    - 設定 **[!UICONTROL Live Account]** 變更為下列其中一項：
 
       - `Yes`  — 以生產模式執行UPS，並提供UPS作為配送方式給您的客戶。
       - `No`  — 以測試模式執行UPS。
 
-   - 在 **[!UICONTROL Gateway URL]** 欄位，輸入用於計算UPS運費的URL。
+   >[!NOTE]
+   >
+   >標準United Parcel Service型別已排定淘汰。 若為新組態，則使用預設值 `United Parcel Service REST` 型別。 還需要有REST型別才能產生 [送貨標籤](shipping-labels.md).<br/>
+   >對於2.4.7版， **[!UICONTROL UPS Type]**  已移除，因為 `UPS` 和 `UPS XML` 型別已排定淘汰，並且 `UPS REST` 是預設值。 原生Adobe Commerce整合所使用的United Parcel Service (UPS) API暫時被取代，因為它目前不支援OAuth 2.0安全性模型。
 
-     >[!IMPORTANT]
-     >
-     >UPS將停止支援HTTP，目前預設值（系統值）會使用它。 清除 **[!UICONTROL Use system value]** 核取方塊，並修改URL以使用HTTPS。 範例： `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS將停止支援HTTP，目前預設值（系統值）會使用它。 清除 **[!UICONTROL Use system value]** 核取方塊，並修改URL以使用HTTPS。 範例： `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. 的 **[!UICONTROL Title]**，輸入此送貨選項的名稱，以方便您在結帳時顯示。
 

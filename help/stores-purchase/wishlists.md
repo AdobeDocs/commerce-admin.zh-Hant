@@ -3,9 +3,9 @@ title: 希望清單
 description: 瞭解希望清單，以及這些清單如何新增到購物體驗和促銷更多銷售。
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![店面範例 — 我的願望清單](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-將具有多個選項的產品加入希望清單時，客戶選取的任何選項都會包含在希望清單專案說明中。 例如，如果客戶以三種不同顏色加入同一雙鞋子，每雙鞋子都會顯示為個別的願望清單專案。 但是，如果客戶將相同產品多次新增至希望清單，該產品只會出現一次，但會以更新數量反映新增產品的次數。
+將具有多個選項的產品加入希望清單時，客戶選取的任何選項都會包含在希望清單專案說明中。 例如，如果客戶以三種不同顏色加入同一雙鞋子，每雙鞋子都會顯示為個別的願望清單專案。 但是，如果客戶將相同產品多次新增至希望清單，產品只會出現一次，但會從產品頁面選取數量。
 
 ## 希望清單協助管理員
 

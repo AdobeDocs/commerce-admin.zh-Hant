@@ -3,9 +3,9 @@ title: 建立送貨標籤和封裝
 description: 瞭解如何以訂單封裝專案並建立送貨標籤。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ United Parcel Service在國內及國際皆有出貨。 不過，只能針對源�
 ### FedEx設定
 
 FedEx在國內和國際上銷售。 位於美國境外的商店只能建立適用於國際出貨的FedEx標籤。
-
-{{beta2-updates}}
 
 1. 在中繼續 **[!UICONTROL Delivery Methods]** 設定，展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL FedEx]** 區段。
 

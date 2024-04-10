@@ -3,9 +3,9 @@ title: 『[!UICONTROL General] &gt； [!UICONTROL General]『
 description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL General] 商務管理員頁面。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ ht-degree: 0%
 
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | 全域 | 啟用單一存放區安裝時，會隱藏設定範圍方塊和相關欄位標籤選項： `Yes` / `No` <br/>**_注意：_**具有多個檢視的存放區會忽略單一存放區模式。 |
+| [!UICONTROL Enable Single-Store Mode] | 全域 | 啟用單一存放區安裝時，會隱藏設定範圍方塊和相關欄位標籤選項： `Yes` / `No` <br/>**_注意：_**具有多個檢視的存放區會忽略單一存放區模式。<br/> 啟用單一存放區模式會將所有目錄和產品存放區特定資料，從預設存放區檢視複製到所有存放區檢視範圍。 如果商店僅有一個商店，它只會複製目錄和產品資料。 如果商店有一個停用的商店和一個啟用的商店，它將不會複製目錄和產品資料。<br/> 啟用單一存放區模式會忽略內容特定資料的存放區特定組態設定。 而是使用全域層級範圍中定義的組態設定，以確保管理員UI和店面之間的一致性。 |
 
 {style="table-layout:auto"}

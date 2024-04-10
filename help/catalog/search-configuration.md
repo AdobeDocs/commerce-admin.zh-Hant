@@ -3,9 +3,9 @@ title: 設定目錄搜尋
 description: 瞭解如何設定商店的目錄搜尋。
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >由於 [!DNL Elasticsearch 7] 2023年8月支援終止公告，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱 [移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) 在 _升級指南_.
-
-{{beta2-updates}}
 
 ### 步驟1：設定一般搜尋選項
 

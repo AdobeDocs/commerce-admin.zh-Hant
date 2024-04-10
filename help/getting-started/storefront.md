@@ -3,9 +3,9 @@ title: 什麼是店面？
 description: 瞭解您的商店可以提供的頁面和功能元素，以支援客戶的購物體驗。
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ ht-degree: 0%
 1. 送貨資訊
 
    結帳程式的第一個步驟是讓客戶完成送貨地址資訊，並選擇送貨方式。 如果客戶有帳戶，則系統會自動輸入送貨地址，但如有需要，也可以進行變更。
+如果訪客客戶輸入的電子郵件地址辨識為先前已註冊，則當 [!UICONTROL Enable Guest Checkout Login] 存放區設定中的欄位設為 `Yes` (請參閱 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 在 _設定參考指南_)。 不過，此設定可能會將客戶資訊公開給未經驗證的使用者。
 
    ![店面結帳頁面範例](./assets/storefront-checkout-shipping-full.png){width="700"}
 

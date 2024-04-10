@@ -3,28 +3,28 @@ title: 快取管理
 description: 瞭解如何使用快取管理工具，這些工具可讓您輕鬆改善網站效能。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
 # 快取管理
 
-Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網站的效能。 每當快取需要重新整理時，工作區頂端都會出現通知，引導您完成整個程式。 請依照「快取管理」的連結操作，重新整理無效的快取。
+Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網站的效能。 每當快取需要重新整理時，都會在工作區頂端顯示通知，內含連結至 [!UICONTROL Cache Management] 您可以檢視和重新整理快取的頁面。
 
 ![儲存產品屬性 — 更新快取訊息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
->[!NOTE]
->
->變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 當您檢閱快取管理頁面時，可能會看到需要重新整理的無效專案 _**未直接編輯**_. 例如，當您編輯目錄中的任何產品並將其指派給任何類別時，或當您變更任何相關的產品規則時，就會發生這種失效。
+此 _[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
 
-此 _[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，有其他按鈕可清除目錄產品影像快取和JavaScript/CSS快取。
+>[!IMPORTANT]
+>
+>變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 當您檢閱快取管理頁面時，可能會看到需要重新整理的無效專案 _**未直接編輯**_. 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
 
 清除快取後，請一律重新整理瀏覽器，以確保您可以看到最新的檔案。 清除Commerce快取不會清除您的網頁瀏覽器快取。 您可能需要清除瀏覽器快取才能檢視更新的內容。
 
-如需其他技術資訊，請參閱 [快取概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/){：target=&quot;_blank&quot;}於 _Commerce前端開發指南_.
+有關Adobe Commerce快取的其他技術資訊，請參閱 [快取概述](https://developer.adobe.com/commerce/frontend-core/guide/caching/){：target=&quot;_blank&quot;}於 _Commerce前端開發指南_.
 
 存取 _[!UICONTROL Cache Management]_執行下列任一項作業來建立頁面：
 
@@ -102,12 +102,12 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 ## 使用命令列排清
 
-Commerce使用命令列提供其他排清快取選項。 這些選項可能需要開發人員支援才能完成。 如需完整的詳細資訊和命令選項，請參閱 [管理快取](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html){：target=&quot;_blank&quot;}於 _設定指南_.
+有權存取Commerce應用程式伺服器的系統管理員和開發人員也可以使用Commerce CLI從命令列管理快取和快取設定。 另請參閱 [管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) 在 _設定指南_.{：target=&quot;_blank&quot;}。
 
 ## 控制項
 
 | 控制 | 說明 |
-|--- |--- |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Mass Actions] | 選取多個快取的核取方塊。 選項： <br/>**[!UICONTROL Select All]**— 選取所有快取的核取方塊。<br/>**&#x200B;取消全選&#x200B;**— 清除所有快取的核取方塊。<br/>**[!UICONTROL Select Visible]**  — 選取所有可見快取的核取方塊。 <br/>**[!UICONTROL Unselect Visible]**— 清除所有可見快取的核取方塊。 |
 | [!UICONTROL Actions] | 決定要套用至所有所選快取的動作。 選項： <br/>**[!UICONTROL Enable]**— 啟用所有選取的快取。<br/>**[!UICONTROL Disable]**  — 停用所有選取的快取。 <br/>**[!UICONTROL Refresh]**— 重新整理所有選取的快取。 |
 | [!UICONTROL Submit] | 將動作套用至所有選取的快取。 |
@@ -117,7 +117,7 @@ Commerce使用命令列提供其他排清快取選項。 這些選項可能需�
 ### 按鈕
 
 | 按鈕 | 說明 |
-|--- |--- |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Flush Magento Cache] | 移除預設Commerce快取中的所有專案(`var/cache`)，根據他們相關聯的Commerce標籤。 |
 | [!UICONTROL Flush Cache Storage] | 不論Commerce標籤為何，都會從快取中移除所有專案。 如果您的系統使用替代快取位置，則其他應用程式使用的任何快取檔案都會在程式中移除。 |
 | [!UICONTROL Flush Catalog Images Cache] | 移除所有儲存在中的自動調整大小和加水印的目錄影像 `media/catalog/product/cache`. 如果最近上傳的影像未反映在目錄中，請嘗試清除目錄並重新整理瀏覽器。 |
@@ -128,23 +128,42 @@ Commerce使用命令列提供其他排清快取選項。 這些選項可能需�
 
 ### 快取
 
-| 快取 | 說明 | 關聯的標籤 |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | 跨模組收集並合併的各種XML設定。<br>**[!UICONTROL System]**-  `config.xml`，`local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | 配置建置指示。 | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | 頁面區塊HTML。 | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | 集合資料檔案。 | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data] | 清除API介面反射資料，這些資料通常會在執行階段產生。 | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | DDL查詢的結果，例如描述表格或索引。 | `DB_DDL` |
-| [!UICONTROL Compiled Config] | 程式碼編譯的結果。 | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | 實體型別宣告快取。 | `EAV` |
-| [!UICONTROL Customer Notification] | 顯示在使用者介面中的臨時通知。 | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | 整合設定檔。 | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | 整合API設定檔。 | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | 全頁快取。 | `FPC` |
-| [!UICONTROL Translations] | 翻譯檔案。 | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | REST和SOAP組態，產生的WSDL檔案。 | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | 目標規則索引 | `TARGET_RULE` |
+此 [!UICONTROL Cache Management] 頁面會列出您可從管理員管理的快取型別及其目前狀態。 本節說明Adobe Commerce支援的預設快取型別。 此 _快取標籤_ 和 _快取ID_ 欄說明Commerce應用程式程式碼中使用的值：
+
+- `cache_type_id` 會定義快取型別的唯一識別碼。
+
+- `%CACHE_TYPE_TAG%` 定義快取型別範圍設定中使用的唯一標籤。
+
+開發人員和系統整合經銷商在自訂或與Adobe Commerce整合時(例如使用GraphQL API開發整合)，可使用這些值來設定和管理快取。 此 `cache type id` 也用於快取管理，例如使用Commerce CLI從應用程式伺服器命令列執行 ` bin/magento cache:status config` 顯示組態快取的目前狀態。
+
+>[!NOTE]
+>
+>開發人員和系統整合經銷商可以自訂和擴充Commerce快取管理系統，以支援自訂模組和整合。 如需詳細資訊，請參閱 [設定快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) 在 _Adobe Commerce設定指南_.
+
+<!-- prettier-ignore -->
+
+#### 快取清單詳細資料
+
+| 快取 | 說明 | 快取標籤 | 快取ID |
+|-------|------------|----------|----------|
+| [!UICONTROL Configuration] | Commerce會從所有模組收集XML設定、將其合併，並將合併的結果儲存至快取。<br>**[!UICONTROL System]**-  `config.xml`，`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>此快取也包含儲存在檔案系統和資料庫中的存放區特定設定。 修改組態檔後，請清除或排清此快取型別。 | `CONFIG` | `config` |
+| [!UICONTROL Layouts] | 編譯的頁面配置，也就是來自所有元件的配置元件。 在修改版面配置檔案後，清除或排清此快取型別。 | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
+| [!UICONTROL Blocks HTML output] | 每個區塊的頁面片段HTML。 修改檢視圖層後，請清除或排清此快取型別。 | `BLOCK_HTML` | `block_html` |
+| [!UICONTROL Collections Data] | 儲存資料庫查詢結果的集合資料檔案。 如有必要，Commerce會自動清理此快取，但第三方開發人員可以將任何資料放入快取的任何區段中。 如果您的自訂模組使用邏輯而導致Commerce無法清除的快取專案，請清除或清除此快取型別。 | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Reflections] | 清除API介面反射資料，這些資料通常會在執行階段產生。 | `REFLECTION` | `reflection` |
+| `Database DDL operations` | 資料庫結構描述。 如有必要，Commerce會自動清理此快取，但第三方開發人員可以將任何資料放入快取的任何區段中。 在自訂變更資料庫結構描述後，清除或排清此快取型別。 （換言之，這些是Commerce本身不提供的更新。） 自動更新資料庫架構的一種方法是使用magento設定:db-schema:upgrade命令。 | `DB_DDL` | `db_ddl` |
+| [!UICONTROL Compiled Config] | 程式碼編譯的結果。 | `COMPILED_CONFIG` | `compiled_config` |
+| [!UICONTROL Webhooks Response Cache] | 快取對webhook請求的回應。 如需詳細資訊，請參閱 [Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) （位於Commerce開發人員檔案中）。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL EAV types and attributes] | 與EAV屬性相關之中繼資料的實體型別宣告快取（例如存放區標籤、相關PHP程式碼的連結、屬性轉譯、搜尋設定等）。 您通常不需要清除或排清此快取型別。 | `EAV` | `eav` |
+| [!UICONTROL Customer Notification] | 顯示在使用者介面中的臨時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
+| [!UICONTROL GraphQL Query Resolver Results] | 快取客戶、CMS頁面、CMS區塊和產品媒體收藏集實體的GraphQL查詢解析器的結果。 讓此快取保持啟用，以改善GraphQL效能。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
+| [!UICONTROL Integrations Configuration] | 整合設定檔。 變更或新增整合後，請清除或排清此快取。 | `INTEGRATION` | `config_integration` |
+| [!UICONTROL Integrations API Configuration] | 已編譯的整合API設定以進行存放區整合。 | `INTEGRATION_API_CONFIG` | `config_integration_api` |
+| [!UICONTROL Admin UI SDK Cache] | 將自訂內容快取給管理員。 另請參閱 [管理員設定和測試](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) 在 _管理UI SDK指南_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Page Cache] | 全頁快取。 | `FPC` | `full_page` |
+| [!UICONTROL Target Rule] | 目標規則索引 | `TARGET_RULE` | `target_rule` |
+| [!UICONTROL Web Services Configuration] | 快取Web API結構。 | `WEBSERVICE` | `config_webservice` |
+| [!UICONTROL Translations] | 翻譯檔案。 | `TRANSLATE` | `translate` |
 
 {style="table-layout:auto"}
 
@@ -180,6 +199,8 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
    - `Varnish Caching`
 
 1. 若要設定頁面快取的逾時，請輸入 **[!UICONTROL TTL for public content]**. (預設值為 `86400`)
+
+1. 若要指定 [配置控點](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 處理 [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP端點，輸入 **[!UICONTROL Handles param size]**. 限制大小可以改善安全性和效能。 (預設值為 `100`)
 
 1. 如果使用清漆，請完成 **[!UICONTROL Varnish Configuration]** 區段如下所示：
 

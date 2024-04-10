@@ -3,9 +3,9 @@ title: 優惠券代碼
 description: 瞭解如何將優惠券代碼與購物車價格規則搭配使用，以在符合一組條件時套用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 - 為行動使用者建立店內優惠券
 
 優惠券代碼可以透過電子郵件傳送，或納入電子報、目錄和廣告中。 優惠券代碼清單可匯出並傳送至商業印表機。 您也可以使用快速回應代碼來建立店內優惠券，讓購物者可以用智慧型手機掃描這些代碼。 QR碼可連結至網站上包含促銷活動詳細資訊的頁面。
+
+截至Commerce 2.4.7，購物者可對購物車套用多張優惠券。 商戶也可以使用購物協助來套用多張優惠券。
 
 ## 設定優惠券代碼
 

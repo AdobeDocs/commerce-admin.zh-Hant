@@ -3,9 +3,9 @@ title: 建立個別客戶帳戶
 description: 訪客可輕鬆建立個別客戶帳戶以管理其購買。
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 身為商店管理員，您也可以設定 [新帳戶選項](../customers/account-options-new.md) 傳送確認電子郵件給新的註冊客戶，有助於確保註冊帳戶有效。
 
-{{beta-updates}}
+>[!NOTE]
+>
+>從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入其帳戶。
 
 ## 從店面建立帳戶
 

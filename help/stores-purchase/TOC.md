@@ -5,9 +5,9 @@ breadcrumb-title: 商店和購買體驗
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 3%
    + [比較產品](product-compare.md)
    + [最近檢視或比較的專案](products-viewed-compared.md)
    + [允許重新排序](reorders-allow.md)
+   + [允許取消訂單](cancel-allow.md)
 + 付款 {#payments}
    + [概觀](payments.md)
    + PayPal支付解決方案 {#paypal}

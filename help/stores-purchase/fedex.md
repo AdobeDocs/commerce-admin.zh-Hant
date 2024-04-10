@@ -3,9 +3,9 @@ title: FedEx
 description: 瞭解如何將FedEx設定為您的商店的運送業者。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [FedEx商家帳戶][1] 需要註冊FedEx Web服務生產存取。 建立FedEx�
 
 ## 步驟2：為您的存放區啟用FedEx
 
-{{beta2-updates}}
-
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 在左側面板中，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [FedEx商家帳戶][1] 需要註冊FedEx Web服務生產存取。 建立FedEx�
 1. 從您的FedEx帳戶輸入下列資訊：
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. 如果您已設定FedEx沙箱且想要在測試環境中工作，請設定 **[!UICONTROL Sandbox Mode]** 至 `Yes`.
 
@@ -57,26 +54,24 @@ A [FedEx商家帳戶][1] 需要註冊FedEx Web服務生產存取。 建立FedEx�
 
    ![FedEx帳戶設定](../configuration-reference/sales/assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
 
-## 步驟3：套件說明和手續費
+## 步驟3：套件說明和處理費用
 
-1. 選取 **[!UICONTROL Packages Request Type]** 若要在分割訂單為多筆出貨時，最能描述您偏好設定的選項，請執行下列步驟：
+1. 設定 **[!UICONTROL Pickup Type]** 至用於出貨的取貨方式。
+
+   - `DropOff at Fedex Location` - （預設）表示您在本地FedEx站卸貨。
+   - `Contact Fedex to Schedule`  — 表示您聯絡FedEx要求取車。
+   - `Use Scheduled Pickup`  — 表示出貨已作為定期排程取貨的一部分進行取貨。
+   - `On Call`  — 表示已透過呼叫FedEx排程取車。
+   - `Package Return Program`  — 表示出貨是由FedEx Ground Package Returns Program取貨。
+   - `Regular Stop`  — 表示出貨是以定期取貨排程取貨。
+   - `Tag`  — 表示出貨取貨是特供Express貨簽或Ground電話貨簽取貨請求。 這僅適用於回程送貨標籤。
+
+1. 的 **[!UICONTROL Packages Request Type]**，選取將訂單分割為多筆出貨時，最能描述您偏好設定的請求型態：
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. 選擇型別 **[!UICONTROL Packaging]** 通常用於從您的商店出貨產品。
-
-1. 設定 **[!UICONTROL Dropoff]** 至用於交貨的取貨方式。
-
-   - `Regular Pickup`  — 如果出貨量很大，與FedEx安排定期取貨會符合成本效益。
-
-   - `Request Courier`  — 您必須致電並請求FedEx快遞，才能取貨。
-
-   - `Drop Box`  — 您必須在附近的FedEx託運方塊卸貨。
-
-   - `Business Service Center`  — 您必須在當地的FedEx商務服務中心卸貨。
-
-   - `Station`  — 您必須在當地聯邦快遞站卸貨。
+1. 的 **[!UICONTROL Packaging]**，選取您通常用來從商店出貨的FedEx包裝型別。
 
 1. 設定 **[!UICONTROL Weight Unit]** 至您的地區設定中所使用的測量單位。
 

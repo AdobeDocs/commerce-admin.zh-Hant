@@ -3,9 +3,9 @@ title: 將屬性新增至產品
 description: 瞭解如何將屬性新增至目錄中的產品。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ ht-degree: 0%
 
    - `Filterable (no results)`  — 階層式導覽包含所有可用屬性值的篩選器及其產品計數，包括零(0)產品相符的產品。 如果屬性值是色票，則該值會顯示為篩選條件，但會被劃掉。
 
-1. 若要在搜尋結果頁面上用於分層導覽，請設定 **[!UICONTROL Use in Search Results Navigation]** 至 `Yes` 並在 **[!UICONTROL Position]** 欄位。
+   >[!NOTE]
+   >
+   >當 _[!UICONTROL Use in Search]_設定已設為 `No`，則_[!UICONTROL Use in Search Results Layered Navigation]_ 不會顯示設定，且產品屬性不會用於任何的搜尋 [!UICONTROL Use in Layered Navigation] 設定值。
+
+1. 若要在搜尋結果頁面的階層式導覽中使用屬性，請設定 **[!UICONTROL Use in Search Results Layered Navigation]** 至 `Yes` 並在 **[!UICONTROL Position]** 欄位。
 
    位置編號表示屬性在分層導覽區塊中的相對位置。
+
+   >[!NOTE]
+   >
+   >此 _[!UICONTROL Position]_欄位預設為暗灰色，您必須先儲存屬性，才能修改此設定。
 
 1. 若要在價格規則中使用屬性，請設定 **[!UICONTROL Use for Promo Rule Conditions]** 至 `Yes`.
 

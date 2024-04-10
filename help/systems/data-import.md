@@ -3,9 +3,9 @@ title: 匯入資料
 description: 瞭解資料匯入准則及如何使用資料匯入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 - 如果所有列都無效，則無法匯入檔案。
 - 在匯入檔案中指定了不存在的服務資料或複雜的資料名稱，例如 `_<non-existing name>` 標題。
+
+Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤(BOM)的UTF-8編碼檔案。 包含BOM的檔案可能會在匯入過程中導致問題或失敗。
 
 ## 匯入作業
 

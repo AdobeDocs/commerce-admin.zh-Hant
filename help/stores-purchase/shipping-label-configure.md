@@ -3,9 +3,9 @@ title: 設定送貨標籤
 description: 瞭解如何設定商店以產生配送標籤。
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ USPS和FedEx國際出貨的所有產品都需要有製造國家/地區。 如果
 1. 按一下 **[!UICONTROL Save]**.
 
 ## 步驟2驗證商店資訊
-
-{{beta2-updates}}
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

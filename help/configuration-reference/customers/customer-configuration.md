@@ -3,9 +3,9 @@ title: 『[!UICONTROL Customers]  &gt； [!UICONTROL Customer Configuration]『
 description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration] 商務管理員頁面。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![建立新帳戶選項](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![建立新帳戶選項（VAT欄位）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -59,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 存放區檢視 | 識別用於預設的電子郵件範本 _歡迎_ 電子郵件。 |
 | [!UICONTROL Default Welcome Email Without Password] | 存放區檢視 | 替代歡迎電子郵件範本，用於管理員建立但尚未指派密碼的新客戶帳戶。 |
 | [!UICONTROL Email Sender] | 存放區檢視 | 識別顯示為歡迎電子郵件寄件者的商店聯絡人。 |
-| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No`. <br/><br/> _**注意：**_ 從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入其帳戶。 |
 | [!UICONTROL Confirmation Link Email] | 存放區檢視 | 識別用於確認電子郵件的電子郵件範本。 預設範本： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 存放區檢視 | 識別在帳戶確認後傳送之歡迎訊息所使用的電子郵件範本。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全域 | 判斷是否可從店面看到用來輸入及儲存VAT ID號碼的欄位。 選項： `Yes` / `No` |

@@ -3,9 +3,9 @@ title: 店面訂單管理
 description: 瞭解客戶如何在Commerce店面檢視和管理其訂單歷史記錄。
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ ht-degree: 0%
 >[!TIP]
 >
 >如果購物車非空白且客戶點按 **[!UICONTROL Reorder]** (來自 [!UICONTROL My Orders] 或 [!UICONTROL Order View] 頁面)，現有產品會保留在購物車中，並新增重新訂購產品。
+
+## 取消訂單
+
+客戶可在發生下列情況時取消： [_允許取消_](cancel-allow.md) 組態選項已啟用。
+
+客戶可以從下列三個頁面啟動特定訂單的取消功能：
+
+- 我的訂單頁面
+- 訂單檢視頁面
+- 我的帳戶頁面
+
+此 _[!UICONTROL Cancel Order]_連結會顯示在_[!UICONTROL Reorder]_ 連結。 如果訂單無法取消，則不會顯示連結。
+
+![我的訂單頁面上的取消連結](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+若要執行取消，客戶：
+
+1. 點按次數 **[!UICONTROL Cancel Order]**
+
+1. 提供取消原因
+
+   ![取消訂單原因](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   您可以在上自訂取消原因 [_允許取消_](cancel-allow.md) 頁面。
+
+1. 點按次數 **[!UICONTROL Confirm]**
+
+   ![在我的訂單頁面上取消](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   取消後，訂單位於 _[!UICONTROL Pending]_狀態，變更為_[!UICONTROL Canceled]_ 狀態，當時在的訂單 _[!UICONTROL Processing]_狀態，變更為_[!UICONTROL Closed]_ 將處理狀態和退款。
+
+   取消完成後，系統會傳送電子郵件給客戶。
+
+   ![取消訂單電子郵件](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   取消資訊會新增至客戶的訂單歷史記錄。 它會出現在順序的註記內和註解歷史記錄標籤中。
+
+   ![取消訂單備註](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![取消評論歷史記錄](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   如果訂單由於某些原因而變更為無法取消的狀態，且客戶未重新整理頁面，則仍會顯示取消訂單的連結。 但是，當他們嘗試取消時，會顯示錯誤訊息。
+
+   ![取消訂單錯誤訊息](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   重新整理頁面後，您可以看到訂單已完成，這就是取消無法運作的原因。
+
+   ![重新整理後取消訂單](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

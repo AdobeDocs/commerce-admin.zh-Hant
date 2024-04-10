@@ -3,9 +3,9 @@ title: 公司的採購單
 description: 瞭解可讓公司追蹤及控制支出的採購單工作流程。
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 根據其角色和順序，公司使用者可能需要遵守數個核准規則。 而根據使用線上或離線付款方式，流程會略有不同。 公司管理員可繞過核准規則，自動建立訂單。 因為在核准處理期間儲存線上付款詳細資料會產生安全性風險，所以這些詳細資料會在核准後新增，然後採購單會轉換為實際訂單。
 
 ![採購單流程](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>如果採購單中的一或多個產品目前停用或無庫存，則無法下訂單。
 
 公司的採購單工作流程可能以幾種方式改變：
 

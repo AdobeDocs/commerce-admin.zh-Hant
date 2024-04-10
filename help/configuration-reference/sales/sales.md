@@ -3,9 +3,9 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Sales]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商務管理員頁面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![多份抵用券設定](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | 網站 | 決定每筆訂單允許的優惠券數目上限 |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 如果付款方式(例如Braintree)已啟用儲存庫，則為商店檢視啟用「立即購買」。 選項： `Yes` / `No` |
 | [!UICONTROL Button Text] | 存放區檢視 | 指定立即購買按鈕上顯示的文字。 預設文字為 `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![速率限制](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | 存放區檢視 | 決定從商店檢視下訂單時是否使用費率限制(預設為 `No`)。 選項： `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | 存放區檢視 | 已驗證身分的客戶在期間內可以提出的購買要求數目。 預設限製為 `10`. |
+| [!UICONTROL Requests limit per guest] | 存放區檢視 | 未驗證客戶在指定期間內可以提出的購買要求數目。 預設值為 `50`. |
+| [!UICONTROL Counter resets in a ...] | 存放區檢視 | 已驗證/未驗證的客戶可以提出特定數量購買請求的時段(預設為 `Minute`)。 選項： `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

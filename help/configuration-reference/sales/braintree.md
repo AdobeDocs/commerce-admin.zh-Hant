@@ -3,9 +3,9 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] &gt； [!UICONT
 description: 檢閱的組態設定 [!UICONTROL Braintree] 區段於 [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods] 商務管理員頁面。
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2603'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
 >如果您升級至Commerce 2.4.0，且未使用先前2.3.x版中建議的Commerce Marketplace擴充功能，則Braintree 2.4.0版無法運用多位址功能。 當購物者選取 _傳遞至多個地址_ ，Braintree付款方式不會出現。 先前建議用於2.3.x的Commerce Marketplace擴充功能有多個位址問題。
 
 {{config}}
-
-{{beta2-updates}}
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -54,6 +52,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | 網站 | 描述性標題供您參考，可識別儲存客戶卡資訊的儲存庫。 |
 | [!UICONTROL Merchant Account ID] | 網站 | 與此網站的Braintree交易相關聯的商家帳戶ID。 如果保留為空白，則會使用您Braintree帳戶的預設商家帳戶。 |
+| [!UICONTROL Enable Checkout Express Payments] | 網站 | 在結帳程式開始時使用「快速付款」選項(包括PayPal、PayLater、Apple Pay和Google Pay)，提供更快速的結帳體驗。 選項： `Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | 網站 | 防止將交易當作的一部分傳送以進行評估 [!DNL Advanced Fraud Tools] 核取，僅在透過管理員下單的訂單上設定為 `Yes`.<br/>選項： `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | 網站 | `Advanced Fraud Protection` 當達到或超過臨界值時，會略過檢查。 將此欄位保留空白會停用此選項。 |
 | [!UICONTROL Debug] | 網站 | 決定Braintree系統與存放區之間的通訊是否記錄在記錄檔中。 選項： `Yes` / `No` |
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Webhook] | 網站 | 啟用webhook功能以防範詐騙、ACH付款及本機付款方法。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Webhook] | 網站 | 啟用webhook功能以進行詐騙保護、ACH付款、當地付款方法和爭議。 選項： `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | 網站 | 將此URL新增至您的Braintree帳戶，做為 [!UICONTROL Webhook Destination URL]. **此URL必須是安全的並可公開存取。** |
 | [!UICONTROL Fraud Protection Approve Order Status] | 網站 | 當Braintree核准防詐騙功能時，系統會將選取的訂單狀態指派給商務訂單。 此狀態是用來更新使用ACH付款方式的訂單狀態以及訂單移至 `SETTLED` 在Braintree中。 |
 | [!UICONTROL Fraud Protection Reject Order Status] | 網站 | 當Braintree拒絕詐騙保護時，會將選取的訂單狀態指派給商務訂單。 此狀態是用來更新使用ACH付款方式的訂單狀態，以及當 `SETTLEMENT` 是 `DECLINED` 在Braintree中。 |
@@ -94,6 +93,7 @@ ht-degree: 0%
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | 網站 | 決定是否 [!DNL ACH Direct Debit] 是透過Braintree以付款方式納入。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | 網站 | 客戶可以儲存/儲存單次使用的ACH Direct Debit支付方式，以供日後使用。 一旦付款明細存入儲存庫，客戶就可以使用ACH Direct Debit付款方式，無需重新輸入資料或重新驗證其付款資訊。 選項： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 網站 | 決定順序 [!DNL ACH Direct Debit] 在結帳期間與其他付款方法一起列出。 |
 
 {style="table-layout:auto"}
@@ -105,6 +105,7 @@ ht-degree: 0%
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable ApplePay through Braintree] | 網站 | 決定是否透過Braintree將Apple Pay納入付款方式。 選項： `Yes` / `No` <br/><br/> 網域必須 [先在Braintree帳戶中驗證](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | 網站 | 客戶可以儲存/儲存其Apple Pay付款方式，以供日後使用。 一旦付款詳細資料存入儲存庫，客戶就可以使用Apple Pay，無需重新輸入資料或重新驗證其付款資訊。 選項： `Yes` / `No` |
 | [!UICONTROL Payment Action] | 網站 | 決定Braintree在處理付款時所採取的動作。 選項： <br/>**`Authorize`**— 客戶卡上的資金已獲授權，但並未從客戶帳戶轉帳。 系統會在您的商店管理員中建立訂單。 您稍後可以擷取銷售，並建立發票。<br/>**`Intent Sale`**  — 客戶卡上的資金由Braintree授權並擷取，而訂單與商業發票則建立於您的商店管理員中。 **_注意：_** 這是 `Authorize and Capture` （在2.3.x及舊版中）。 |
 | [!UICONTROL Merchant Name] | 存放區檢視 | 顯示在ApplePay快顯視窗中的標籤給客戶。 |
 | [!UICONTROL Sort Order] | 網站 | 決定結帳期間Apple Pay與其他付款方法一起列出的順序。 |
@@ -119,6 +120,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | 網站 | 決定是否透過Braintree將「當地付款方式」納入為付款方式。 選項： `Yes` / `No` |
 | [!UICONTROL Title] | 網站 | 顯示在結帳付款方式區段上的標籤。 預設值： `Local Payments` |
+| [!UICONTROL Fallback Button Text] | 網站 | 輸入要用於按鈕的文字，此按鈕會顯示在將客戶帶回網站的遞補Braintree頁面上。 預設值： `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | 網站 | 指定當本機付款方式交易取消、失敗或發生錯誤時，應該將客戶重新導向的URL。 它應該是結帳付款頁面(例如， `https://www.domain.com/checkout#payment`)。 |
 | [!UICONTROL Allowed Payment Method] | 網站 | 選取要啟用的本機「付款」方式。 選項： `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` （尚未支援） |
 | [!UICONTROL Sort Order] | 網站 | 決定結帳期間本機付款方式與其他付款方式一起列出的順序。 |
 
@@ -135,6 +138,7 @@ ht-degree: 0%
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | 網站 | 決定是否 [!DNL Google Pay] 透過Braintree以付款方式包含付款。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | 網站 | 客戶可以儲存/儲存其Google Pay付款方式，以供日後使用。 一旦付款詳細資料存入儲存庫，客戶就可以使用Google Pay，無需重新輸入資料或重新驗證其付款資訊。 選項： `Yes` / `No` |
 | [!UICONTROL Payment Action] | 網站 | 決定Braintree在處理付款時所採取的動作。 選項： <br/>**`Authorize`**— 客戶卡上的資金已獲授權，但並未從客戶帳戶轉帳。 系統會在您的商店管理員中建立訂單。 您稍後可以擷取銷售，並建立發票。<br/>**`Intent Sale`**  — 客戶卡上的資金由Braintree授權並擷取，而訂單與商業發票則建立於您的商店管理員中。 **_注意：_** 這是 `Authorize and Capture` （在2.3.x及舊版中）。 |
 | [!UICONTROL Button Color] | 網站 | 決定 [!DNL Google Pay] 按鈕。 選項： `White` / `Black` |
 | [!UICONTROL Merchant ID] | 存放區檢視 | 必須在這裡輸入Google提供的ID。 |
@@ -150,6 +154,7 @@ ht-degree: 0%
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | 網站 | 決定是否 [!DNL Venmo] 是透過Braintree以付款方式納入。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | 網站 | 客戶可以儲存/儲存他們的Venmo付款方式，以供日後使用。 一旦付款明細存入儲存庫，客戶就可以使用「Venmo」付款方式，而不需重新輸入資料或重新驗證其付款資訊。 選項： `Yes` / `No` |
 | [!UICONTROL Payment Action] | 網站 | 決定Braintree在處理付款時所採取的動作。 選項： <br/>**`Authorize`**— 客戶卡上的資金已獲授權，但並未從客戶帳戶轉帳。 系統會在您的商店管理員中建立訂單。 您稍後可以擷取銷售，並建立發票。<br/>**`Intent Sale`**  — 客戶卡上的資金由Braintree授權並擷取，而訂單與商業發票則建立於您的商店管理員中。 **_注意：_** 這是  _授權與擷取_ （在2.3.x及舊版中）。 |
 | [!UICONTROL Sort Order] | 網站 | 決定結帳期間Venmo與其他付款方法一起列出的順序。 |
 
@@ -166,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Enable PayPal PayLater through Braintree] | 網站 | 決定是否透過Braintree將PayPal PayLater納入為付款方式。 選項： `Yes` / `No`. 此欄位出現於 `Enable PayPal through Braintree` 設為 `Yes` |
 | [!UICONTROL Title] | 存放區檢視 | 透過結帳期間對客戶的Braintree識別PayPal的標籤。 預設值： `PayPal` |
 | [!UICONTROL Vault Enabled] | 網站 | 啟用後，可為客戶付款資訊提供安全的儲存，因此客戶不必在每次購買時都重新輸入其PayPal資訊。 選項： `Yes` / `No` |
+| [!UICONTROL Send Cart Line Items for PayPal] | 網站 | 將明細專案（訂購專案）連同禮品卡、專案禮品包裝、訂購禮品包裝、商店退款、送貨和稅捐一起傳送至PayPal。 選項： `Yes` / `No` |
 | [!UICONTROL Sort Order] | 網站 | 決定PayPal透過Braintree在結帳期間與其他付款方式一起列出之順序的數字。 |
 | [!UICONTROL Override Merchant Name] | 存放區檢視 | 可用來針對每個商店檢視識別商家的其他名稱。 |
 | [!UICONTROL Payment Action] | 網站 | 決定PayPal在處理付款時透過Braintree採取的動作。 選項： <br/>**`Authorize`**— 客戶卡上的資金已獲授權，但並未從客戶帳戶轉帳。 系統會在您的商店管理員中建立訂單。 您稍後可以擷取銷售，並建立發票。<br/>**`Authorize and Capture`**  — 客戶卡上的資金由PayPal透過Braintree授權並擷取，而訂單與發票則建立於您的商店管理員中。 |
@@ -176,6 +182,10 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 網站 | 決定PayPal按鈕是否出現在 [迷你購物車](../../stores-purchase/cart-configuration.md#mini-cart) 並在 [購物車](../../stores-purchase/cart.md) 頁面。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>兩者之一 **[!DNL PayPal Credit]** 或 **[!DNL PayPal PayLater]** 可以啟用。 無法同時啟用這兩種方法。
 
 ### [!UICONTROL Styling]
 
@@ -205,9 +215,13 @@ ht-degree: 0%
 | [!UICONTROL Button Label] | 網站 | 決定PayPal按鈕的標籤。 選項： `Paypal` / `Checkout` / `Buy Now` / `Pay` |
 | [!UICONTROL Color] | 網站 | 決定PayPal按鈕的色彩。 選項： `Blue` / `Black` / `Gold` / `Silver` |
 | [!UICONTROL Shape] | 網站 | 決定PayPal按鈕的形狀。 選項： `Pill` / `Rectangle` |
-| [!UICONTROL Size] | 網站 | 決定PayPal按鈕的大小。 選項： `Medium` / `Large` / `Responsive` |
+| [!UICONTROL Size(Deprecated)] | 網站 | 決定PayPal按鈕的大小。 選項： `Medium` / `Large` / `Responsive` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>此 **[!DNL Size(Deprecated)]** 設定欄位已過時，不用於設定PayPal按鈕的樣式。
 
 **[!UICONTROL PayLater Messaging]**
 
