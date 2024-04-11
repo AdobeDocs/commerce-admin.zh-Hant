@@ -1,29 +1,29 @@
 ---
 title: 雙因素驗證(2FA)
-description: 瞭解雙因素驗證支援，以確保您的存放區和資料的安全。
+description: 瞭解雙因素驗證支援，以確保您的系統和資料的安全。
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # 雙因素驗證(2FA)
 
-商務 _管理員_ 用於您的Adobe Commerce或Magento Open Source安裝，可讓您存取商店、訂單和客戶資料。 為避免未經授權存取您的資料，所有嘗試登入 _管理員_ 必須完成驗證程式以驗證其身分。
+Commerce _管理員_ 用於您的Adobe Commerce或Magento Open Source安裝，可讓您存取商店、訂單和客戶資料。 為避免未經授權存取您的資料，所有嘗試登入 _管理員_ 必須完成驗證程式以驗證其身分。
 
 >[!NOTE]
 >
->此雙因素驗證(2FA)的實作適用於 _管理員_ 僅限，且不適用於客戶帳戶。 保護您的Commerce帳戶的雙因素驗證具有單獨的設定。 若要進一步瞭解，請前往 [保護您的Commerce帳戶](../getting-started/commerce-account-secure.md).
+>此雙因素驗證(2FA)的實作適用於 _管理員_ 僅限，且不適用於客戶帳戶。 保護您Commerce帳戶的雙因素驗證具有獨立的設定。 若要進一步瞭解，請前往 [保護您的Commerce帳戶](../getting-started/commerce-account-secure.md).
 
-雙因素驗證被廣泛使用，且通常會在相同應用程式上產生不同網站的存取代碼。 這樣可確保只有您才能登入使用者帳戶。 如果您遺失密碼或機器人猜到密碼，雙因素驗證會增加一層保護。 例如，您可以使用Google Authenticator產生商店、Commerce帳戶和Google帳戶管理員的代碼。
+雙因素驗證被廣泛使用，且通常會在相同應用程式上產生不同網站的存取代碼。 此額外驗證可確保只有您才能登入使用者帳戶。 如果您遺失密碼或機器人猜到密碼，雙因素驗證會增加一層保護。 例如，您可以使用Google Authenticator產生商店管理員、Commerce帳戶和Google帳戶的程式碼。
 
 ![安全性設定iphone - 2FA](./assets/google-authenticator-iphone.png){width="300"}
 
-Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可產生一次性密碼(OTP)的應用程式，讓使用者在登入時輸入以驗證其身分。 通用次要因數(U2F)裝置類似金鑰組，並產生唯一金鑰以驗證身分。 其他裝置在插入USB連線埠時驗證身分。 身為商店管理員，您可以要求一或多個可用的2FA方法來驗證使用者身分。 您的2FA設定會套用至與Adobe Commerce安裝相關聯的所有網站和商店。
+Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可產生一次性密碼(OTP)的應用程式，讓使用者在登入時輸入以驗證其身分。 通用次要因數(U2F)裝置類似金鑰組，並產生唯一的金鑰以驗證身分。 其他裝置在插入USB連線埠時驗證身分。 身為商店管理員，您可以要求一或多個可用的2FA方法來驗證使用者身分。 您的2FA設定會套用至與Adobe Commerce安裝相關聯的所有網站和商店。
 
 使用者第一次登入 _管理員_，他們必須設定 [2FA](../configuration-reference/security/2fa.md) 所需的方法，並使用相關聯的應用程式或裝置驗證其身分。 進行此初始設定後，使用者每次登入時都必須使用其中一個已設定方法進行驗證。 每個使用者的2FA資訊都會記錄在 _管理員_ 帳戶，可以是 [重設](security-two-factor-authentication-manage.md) 如有需要。 若要進一步瞭解登入程式，請前往 [_管理員_ 登入](../getting-started/admin-signin.md).
 
@@ -39,7 +39,7 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 1. 在左側面板中，展開 **[!UICONTROL Security]** 並選擇 **[!UICONTROL 2FA]**.
 
-1. 在 _[!UICONTROL General]_區段，選取每個&#x200B;**[!UICONTROL Provider to use]**.
+1. 在 _[!UICONTROL General]_區段，選取要使用的提供者。
 
    | 提供者 | 函式 |
    |--- |--- |
@@ -66,7 +66,9 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 若要變更一次性密碼(OTP)在登入期間可用的時間，請清除 **[!UICONTROL Use system value]** 核取方塊。 然後，輸入您想要的 **[!UICONTROL OTP Window]** 才有效。
 
-![安全性設定 — Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+>[!NOTE]
+>
+>在Adobe Commerce 2.4.7和更新版本中，OTP視窗組態設定會控制系統接受管理員的一次性密碼(OTP)過期後的時間（以秒為單位）。 此值必須少於30秒。 系統預設設定為 `1`.<br><br> 在2.4.6版中，OTP視窗設定會決定維持有效之過去和未來的OTP代碼數目。 值 `1` 表示目前的OTP程式碼加上過去的一個程式碼和將來一個程式碼在任何時間點都保持有效。
 
 ### [!DNL Duo Security]
 
