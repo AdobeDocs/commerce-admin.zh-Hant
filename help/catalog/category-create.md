@@ -3,9 +3,9 @@ title: 建立類別
 description: 您可以根據組態中設定的最大選單深度，視需要建立任意數量的其他子類別。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 如果您希望類別頁面包含 _`Filter by Attribute`_分層導覽的區段，設定&#x200B;**[!UICONTROL Anchor]**至 `Yes`.
 
-1. 對於 **[!UICONTROL Available Product Listing Sort By]** 選項，選取一或多個可供客戶排序清單的可用值。
+1. 對於 **[!UICONTROL Available Product Listing Sort By]** 選項，選取一或多個可供客戶排序清單的可用值。 此設定不適用於 [!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    依預設，會包含所有可用的值。 取消選取 **[!UICONTROL Use All]** 核取方塊以變更選取專案。 例如，值可能包括：
 
@@ -122,7 +122,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 若要設定類別的預設排序順序，請選擇 **[!UICONTROL Default Product Listing Sort By]** 值。
+1. 若要設定類別的預設排序順序，請選擇 **[!UICONTROL Default Product Listing Sort By]** 值。 此設定不適用於 [!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. 變更預設圖層導覽 [價格步驟](navigation-layered.md#configure-price-navigation) 設定，請執行下列動作：
 

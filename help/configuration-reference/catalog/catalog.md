@@ -3,9 +3,9 @@ title: 『[!UICONTROL Catalog] &gt； [!UICONTROL Catalog]『
 description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL Catalog] 商務管理員頁面。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 存放區檢視 | 決定網格檢視中預設每頁顯示的產品數目。 |
 | [!UICONTROL Products per Page on List Allowed Values] | 存放區檢視 | 決定清單檢視中顯示的產品數目。 若要提供選項選擇，請輸入多個值，並以逗號分隔。 |
 | [!UICONTROL Products per Page on List Default Value] | 存放區檢視 | 決定清單檢視中預設每頁顯示的產品數目。 |
-| 產品清單排序依據 | 存放區檢視 | 決定搜尋結果清單的排序順序。 選項的選取是由類別的「顯示設定」和設定為的可用屬性所決定 `Used for Sorting in Product Listing`. 預設值設為 `Use All Available Attributes` 通常會包括最佳價值、名稱、價格 |
+| 產品清單排序依據 | 存放區檢視 | 決定搜尋結果清單的排序順序。 選項的選取是由類別的「顯示設定」和設定為的可用屬性所決定 `Used for Sorting in Product Listing`. 預設值設為 `Use All Available Attributes` 通常會包括最佳價值、名稱、價格。 此設定不適用於 [!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | 存放區檢視 | 如果設為 `Yes`，包括 `ALL` 「每頁顯示」控制項中的選項。 |
 | [!UICONTROL Remember Category Pagination] | 全域 | 如果設為 `Yes`，則目前的類別分頁值會儲存為客戶在中的不同類別間瀏覽 [產品清單](../../catalog/navigation-product-listings.md). 儲存此值會使用更多快取儲存空間，並可能影響搜尋引擎為頁面編制索引的方式。 選項： `Yes` / `No` （預設） |
 | [!UICONTROL Use Flat Catalog Category] | 全域 | 啟用 [平面類別結構](../../catalog/catalog-flat.md) （不建議使用）。 選項： `Yes` / `No` |
