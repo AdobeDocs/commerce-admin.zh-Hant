@@ -3,16 +3,16 @@ title: 快取管理
 description: 瞭解如何使用快取管理工具，這些工具可讓您輕鬆改善網站效能。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # 快取管理
 
-Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網站的效能。 每當快取需要重新整理時，都會在工作區頂端顯示通知，內含連結至 [!UICONTROL Cache Management] 您可以檢視和重新整理快取的頁面。
+Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網站的效能。 每當快取需要重新整理時，就會顯示通知，其中包含 [!UICONTROL Cache Management] 頁面以完成重新整理。
 
 ![儲存產品屬性 — 更新快取訊息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 - 安裝擴充功能/模組後，請務必清除快取。 您可以安裝一或多個擴充功能，然後清除快取。
 - 安裝Commerce後排清快取。 若是全新安裝，您也應該重新編列索引。
 - 從開放原始碼或商務的一個版本升級至另一個版本後，請排清快取。
-- 排清快取時，請考慮快取型別，並排程在非尖峰期進行排清。 例如，挑選有少數客戶可存取網站的時間，例如深夜或清晨。 在高峰期間清除某些快取型別會導致管理員負載過高，並可能使網站停止運作，直到完成為止。
-- 時間 [重新索引](index-management.md)，您不需要同時執行排清快取。
+- 排清快取時，請考慮快取型別，並排程在非尖峰期進行排清。 例如，挑選有少數客戶使用網站的時間，例如深夜或清晨。 在需求尖峰期間清除快取型別可能會增加管理員的負載，並導致網站停止運作，直到作業完成。
+- 時間 [重新索引](index-management.md)，您不需要排清快取。
 
 ## 快取管理角色資源
 
-特定快取維護動作的存取權可依角色指派給使用者，包括檢視、切換和排清快取的選項。 Adobe建議僅對管理員層級的使用者啟用排清動作。 存取所有快取管理功能可能會影響店面的效能。
+您可以依角色將特定快取維護動作的存取權指派給使用者，包括檢視、切換和排清快取的選項。 Adobe建議僅對管理員層級的使用者啟用排清動作。 存取所有快取管理功能可能會影響店面的效能。
 
 ![角色資源 — 快取管理](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
    - `Select All`
    - `Select Visible`
 
-1. 選取動作要鎖定之每個快取的核取方塊。
+1. 選取每個要重新整理之快取的核取方塊。
 
 1. 設定 **[!UICONTROL Actions]** 至 `Refresh` 並按一下 **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 ## 排清JavaScript/CSS快取
 
-1. 在 _[!UICONTROL Additional Cache Management]_，按一下&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**以清除已合併至單一檔案的任何JavaScript和CSS檔案。
+1. 在 _[!UICONTROL Additional Cache Management]_，按一下以清除已合併至單一檔案的Javascript和CSS檔案&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    此 `The JavaScript/CSS cache has been cleaned` 訊息會顯示在工作區頂端。
 
@@ -102,7 +102,7 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 ## 使用命令列排清
 
-有權存取Commerce應用程式伺服器的系統管理員和開發人員也可以使用Commerce CLI從命令列管理快取和快取設定。 另請參閱 [管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) 在 _設定指南_.{：target=&quot;_blank&quot;}。
+有權存取Commerce應用程式伺服器的系統管理員和開發人員也可以使用Commerce CLI從命令列管理快取和快取設定。 另請參閱 [管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){：target=&quot;_blank&quot;}於 _設定指南_.
 
 ## 控制項
 
@@ -134,7 +134,7 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 - `%CACHE_TYPE_TAG%` 定義快取型別範圍設定中使用的唯一標籤。
 
-開發人員和系統整合經銷商在自訂或與Adobe Commerce整合時(例如使用GraphQL API開發整合)，可使用這些值來設定和管理快取。 此 `cache type id` 也用於快取管理，例如使用Commerce CLI從應用程式伺服器命令列執行 ` bin/magento cache:status config` 顯示組態快取的目前狀態。
+開發人員和系統整合經銷商在自訂或與Adobe Commerce整合時(例如使用GraphQL API開發整合)，可使用這些值來設定和管理快取。 此 `cache type id` 也可用於使用Commerce CLI從應用程式伺服器命令列進行快取管理。 例如， ` bin/magento cache:status config` 顯示組態快取的目前狀態。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 | `Database DDL operations` | 資料庫結構描述。 如有必要，Commerce會自動清理此快取，但第三方開發人員可以將任何資料放入快取的任何區段中。 在自訂變更資料庫結構描述後，清除或排清此快取型別。 （換言之，這些是Commerce本身不提供的更新。） 自動更新資料庫架構的一種方法是使用magento設定:db-schema:upgrade命令。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | 程式碼編譯的結果。 | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | 快取對webhook請求的回應。 如需詳細資訊，請參閱 [Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) （位於Commerce開發人員檔案中）。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | 與EAV屬性相關之中繼資料的實體型別宣告快取（例如存放區標籤、相關PHP程式碼的連結、屬性轉譯、搜尋設定等）。 您通常不需要清除或排清此快取型別。 | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | 快取實體型別宣告以取得與實體屬性值(EAV)屬性相關的中繼資料。 屬性包括存放區標籤、相關PHP程式碼的連結、屬性呈現、搜尋設定等。 您通常不需要清除或排清此快取型別。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | 顯示在使用者介面中的臨時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 快取客戶、CMS頁面、CMS區塊和產品媒體收藏集實體的GraphQL查詢解析器的結果。 讓此快取保持啟用，以改善GraphQL效能。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 整合設定檔。 變更或新增整合後，請清除或排清此快取。 | `INTEGRATION` | `config_integration` |
@@ -175,11 +175,11 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 >
 >建議您 [清漆快取](https://varnish-cache.org/){：target=&quot;_blank&quot;}僅用於生產環境。
 
-快取內容可用於處理類似造訪型別的請求。 因此，向臨時訪客顯示的頁面可能與向客戶顯示的頁面不同。 就快取目的而言，每次造訪都是下列三種型別之一：
+快取內容可用於處理類似造訪型別的請求。 因此，向臨時訪客顯示的頁面可能會與客戶顯示的頁面不同。 就快取目的而言，每次造訪都是下列三種型別之一：
 
 - `Non-sessioned`  — 在非工作階段瀏覽期間，購物者會檢視頁面，但不會與商店互動。 系統會快取每個已檢視頁面的內容，並將內容提供給其他無工作階段的購物者。
-- `Sessioned`  — 在工作階段瀏覽期間，與商店互動的購物者（透過比較產品或新增產品至購物車等活動）會獲得一個工作階段ID。 在工作階段期間產生的快取頁面僅供該購物者在工作階段期間使用。
-- `Customer`  — 系統會為登入帳戶並在商店和商店註冊帳戶的使用者建立客戶工作階段。 在會議期間，系統會根據指派的客戶群組，向客戶呈現特殊優惠、促銷和價格。
+- `Sessioned`  — 在工作階段瀏覽期間，會為與商店互動的購物者指派工作階段ID。 互動包括比較產品或新增產品至購物車等活動。 在工作階段期間產生的快取頁面僅供該購物者在工作階段期間使用。
+- `Customer`  — 客戶工作階段是為使用註冊帳戶登入和購物的客戶所建立。 在會議期間，系統會根據指派的客戶群組，向客戶顯示特殊優惠、促銷和價格。
 
 如需技術資訊，請參閱 [設定及使用清漆](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){：target=&quot;_blank&quot;}和 [Commerce頁面和預設快取使用Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){：target=&quot;_blank&quot;}於 _設定指南_.
 
