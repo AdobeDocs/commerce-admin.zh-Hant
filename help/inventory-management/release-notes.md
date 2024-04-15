@@ -3,9 +3,9 @@ title: 『[!DNL Inventory Management] 版本注意事項
 description: 檢閱發行說明以瞭解全部資訊 [!DNL Inventory Management] 發行版本。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 [!DNL Inventory Management] 是Magento Open Source社群工程特別專案，開放給貢獻者參加。 若要參與並貢獻，請參閱 [github專案](https://github.com/magento/inventory) 存放庫和 [Wiki](https://github.com/magento/inventory/wiki) 以開始使用。 若要討論專案，請加入 [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) 頻道([自我註冊](https://opensource.magento.com/slack))。
 
 [發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} 以取得支援和相容的發行版本。
+
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7版本注意事項包含在 [core 2.4.7發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -112,7 +116,7 @@ Inventory management 1.2.4 (模組版本： `magento/inventory-metapackage = 1.2
 
 ![已修正的問題](../assets/fix.svg) 改善購物車與結帳動作的效能，例如在部署中有許多（約10,000個）庫存來源時將產品新增到購物車。 <!--- MC-42570-->
 
-![已修正的問題](../assets/fix.svg) 此 `bin/magento inventory:reservation:list-inconsistencies` 現在，即使從資料庫遺漏預留且已清除快取，命令仍可正確處理具有部分出貨的訂單。 先前，當使用預先清除的快取執行此命令時，Commerce顯示以下錯誤： `Area code is not set`. <!--- MC-42142-->
+![已修正的問題](../assets/fix.svg) 此 `bin/magento inventory:reservation:list-inconsistencies` 現在，即使從資料庫遺漏預留且已清除快取，命令仍可正確處理具有部分出貨的訂單。 先前，當以預先清除的快取執行此命令時，Commerce會顯示下列錯誤： `Area code is not set`. <!--- MC-42142-->
 
 ![已修正的問題](../assets/fix.svg) 當子項共用時，已分組產品子產品的增量索引不再導致其他已分組產品的索引不正確。 <!--- MC-41963-->
 
