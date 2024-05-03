@@ -3,9 +3,9 @@ title: 頁面工作區控制項
 description: 瞭解用於尋找和更新內容頁面的工作區工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 | 欄 | 說明 |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | 指定將所選設計套用至產品頁面時的開始和結束日期 |
+| [!UICONTROL Custom design from/to] | 指定將所選設計套用至頁面時的開始和結束日期。 ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)。 |
 | [!UICONTROL Custom Theme] | 套用自訂主題至頁面 |
 | [!UICONTROL Custom Layout] | 決定頁面的自訂配置 |
 | [!UICONTROL Meta Title] | 頁面的中繼標題 |
@@ -111,7 +111,7 @@ ht-degree: 0%
 | [!UICONTROL Store View] | 根據商店檢視篩選搜尋。 選項： `All available` / `Store Views` |
 | [!UICONTROL Layout] | 根據頁面版面配置篩選搜尋。 選項： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | 篩選頁面狀態上的搜尋。 選項： `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | 將所選設計套用至產品頁面時，依開始和結束日期篩選搜尋 |
+| [!UICONTROL Custom design from / to] | 將所選設計套用至頁面時，依開始和結束日期篩選搜尋。 ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)。 |
 | [!UICONTROL Asset] | 依頁面標題資產篩選搜尋 |
 | [!UICONTROL Custom Layout] | 根據自訂配置篩選搜尋。 選項： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | 根據自訂主題篩選搜尋。 預設選項： `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 頁面變更可以依排程套用，並和其他內容變更一起分組。 您可以根據排程變更至頁面來建立行銷活動，或將變更套用至現有的行銷活動。 如需詳細資訊，請參閱 [內容分段](content-staging.md).
+
+>[!NOTE]
+>
+>此 [!UICONTROL Custom Design Update] 標籤已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在頁面上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >

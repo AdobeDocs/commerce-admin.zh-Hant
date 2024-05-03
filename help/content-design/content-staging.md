@@ -3,9 +3,9 @@ title: 內容分段
 description: 內容測試讓您的業務團隊能夠直接從管理員輕鬆建立、預覽和排程您商店的各種內容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 詞語 _行銷活動_ 是指已排程變更的記錄，或是從「測試控制面板」管理的變更集合。 您可在行事曆或時間軸上檢視變更。 條款 _排定的變更_ 和 _排程更新_ 可互換，且是指單一變更。
 
 當您排程特定時段內的內容變更時，排程的變更過期時內容會回復到先前的版本。 您可以建立相同基準內容的多個版本，以供日後更新使用。 您也可以在時間軸中後退以檢視內容的舊版本。 若要儲存草稿版本，只需在時間軸上指派太遠，以至於永遠不會投入生產的日期。
+
+>[!NOTE]
+>
+>與開始日期和結束日期相關的欄位已移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce和無法直接在購物車價格規則、目錄價格規則、產品、類別和CMS頁面上修改。 您必須為這些啟用建立排定的更新。
 
 ## 內容暫存物件與行銷活動
 

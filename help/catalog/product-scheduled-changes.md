@@ -3,9 +3,9 @@ title: 排程的產品更新
 description: 瞭解如何排程產品清單變更，以支援行銷活動和促銷方案。
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 產品更新可依排程套用，並隨其他內容變更分組。 您可以使用 [內容分段](../content-design/content-staging.md) ，以根據排程的產品變更建立行銷活動，或將變更套用至現有的行銷活動。
+
+>[!NOTE]
+>
+>此 [!UICONTROL Set Product as New From] 和 [!UICONTROL To] 欄位和 [!UICONTROL Schedule Design Update] 標籤已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在產品上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >

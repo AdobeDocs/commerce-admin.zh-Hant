@@ -3,9 +3,9 @@ title: 類別的已排程變更
 description: 瞭解如何排程類別變更以支援行銷活動和商店促銷活動。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 類別更新可以依排程套用，並和其他內容變更一起分組。 您可以根據類別已排程的變更來建立行銷活動，或將變更套用至現有的行銷活動。 若要深入瞭解，請參閱 [內容分段](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>此 [!UICONTROL Schedule Design Update] 標籤已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在類別上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >

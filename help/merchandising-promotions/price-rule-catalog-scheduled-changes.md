@@ -3,9 +3,9 @@ title: 型錄價格規則的排程變更
 description: 瞭解如何依排程套用目錄價格規則，作為行銷活動的一部分並與其他內容變更分組。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 儲存或更新新價格規則時，「排定變更」方塊會顯示在頁面頂端。 型錄價格規則可以排程套用為促銷活動的一部分，並和其他內容變更一起分組。 您可以根據價格規則的排程變更來建立行銷活動，或將變更套用至現有行銷活動。
+
+>[!NOTE]
+>
+>此 [!UICONTROL From] 和 [!UICONTROL To] 欄位已移除於 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在目錄價格規則上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >

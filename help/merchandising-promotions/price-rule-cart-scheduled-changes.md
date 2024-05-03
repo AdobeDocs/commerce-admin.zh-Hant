@@ -3,9 +3,9 @@ title: 購物車價格規則的排程變更
 description: 瞭解如何在行銷活動中依排程套用購物車價格規則，並搭配其他內容變更分組。
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 購物車價格規則可作為行銷活動的一部分依排程套用，並與其他內容變更一起分組。 您可以根據價格規則的排程變更來建立行銷活動，或將變更套用至現有行銷活動。
+
+>[!NOTE]
+>
+>此 [!UICONTROL From] 和 [!UICONTROL To] 欄位已移除於 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在購物車價格規則上修改。 您必須為這些啟用建立排定的更新。
 
 ![購物車價格規則 — 排程變更](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
