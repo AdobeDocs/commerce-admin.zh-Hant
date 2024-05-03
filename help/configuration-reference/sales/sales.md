@@ -3,9 +3,9 @@ title: 『[!UICONTROL Sales] &gt； [!UICONTROL Sales]『
 description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Sales] 商務管理員頁面。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1186'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | 網站 | 決定每筆訂單允許的優惠券數目上限 |
+| [!UICONTROL Maximum number of coupons per order] | 網站 | 決定每筆訂單允許的優惠券數目上限。 此功能僅適用於Admin、GraphQL和REST API。 確實如此 **_不可用_** 在店面。 |
 
 {style="table-layout:auto"}
 
