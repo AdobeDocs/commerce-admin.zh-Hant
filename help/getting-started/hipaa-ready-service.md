@@ -3,9 +3,9 @@ title: Adobe Commerce的HIPAA整備程度
 description: 瞭解如何新增Adobe Commerce HIPAA就緒模組，並取得可讓您遵守HIPAA義務的其他功能。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe的HIPAA就緒服務在技術上是撰寫器中繼套件 `magento/hipaa-ee`
 
 ## HIPAA整備的增強功能
 
-此 `magento/hipaa-ee` 套件引進了基礎Commerce產品的一些變更和增強功能。 以下各節提供這些變更的詳細資訊，以及變更基礎產品的方式。
+此 `magento/hipaa-ee` 此套件引進了基礎Commerce產品的一些變更和增強功能。 以下各節提供這些變更的詳細資訊，以及變更基礎產品的方式。
 
 ### 動作記錄檔
 
@@ -182,7 +182,7 @@ Adobe Commerce的SaaS服務均不提供HIPAA整備服務。 這包含但不限�
 ### 預設為停用來賓簽出
 
 - 訪客結帳會對HIPAA的各個層面帶來潛在風險，包括記錄、存取控制、PHI衛生和譜系等等。
-- HIPAA整備模組中預設會停用訪客結帳，但我的商家可能會自行承擔啟用風險。
+- HIPAA整備模組中預設會停用訪客簽出，但商家可能會自行承擔啟用風險。
 
 ### 預設為停用Newsletter功能
 
@@ -191,3 +191,7 @@ Adobe Commerce的SaaS服務均不提供HIPAA整備服務。 這包含但不限�
 ### 預設為停用進階報表服務設定
 
 進階報告服務設定預設為停用，以防止將PHI用於分析和報告，但商家可以自行承擔啟用風險。
+
+### 預設為停用Sendgrid服務
+
+Sendgrid服務預設為停用，因為應用程式不符合HIPAA標準。 商家可以提交支援要求來啟用Sendgrid，但是他們必須確認將會承擔使用此服務的風險。
