@@ -3,9 +3,9 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 0%
    | `Name` | 對象名稱，例如 `Orders over $50` |
    | `Description` | 對象說明，例如 `People who placed an order over $50 in the last month.`. |
    | `Source` | 指出受眾來源，例如 `Experience Platform`. |
-   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過將您的Commerce執行個體連線到Experience Platform時，會建立此連結 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 副檔名。 |
+   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過將Commerce執行個體連結至Experience Platform，即可建立此連結 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 副檔名。 |
 
    {style="table-layout:auto"}
 
@@ -328,7 +328,7 @@ ht-degree: 0%
 
 1. 測試規則以確保其正常運作。
 
-   價格規則每晚都會與其他系統規則一起自動處理。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 同時測試規則以確保其可正常運作。 當加入新規則時，Commerce會據此重新計算價格和優先順序。
+   價格規則每晚都會與其他系統規則一起自動處理。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 同時測試規則以確保其可正常運作。 新增規則後，Commerce會據此重新計算價格和優先順序。
 
 ## 購物車價格規則示範
 
@@ -360,6 +360,31 @@ ht-degree: 0%
 ### [!UICONTROL Conditions]
 
 指定在購物車價格規則生效之前必須符合的條件。 若保留為空白，規則會套用至購物車中的所有產品。 條件能以購物車和產品屬性的任意組合為基礎。 不過， [可自訂的選項](../catalog/settings-advanced-custom-options.md) 無法在購物車價格規則條件中參考。
+
+| 欄位 | 說明 |
+|--- |--- |
+| [!UICONTROL **購物車專案屬性**] |  |
+| [!UICONTROL Price in cart] | 產品價格。 如果符合購物車中的產品價格條件，則套用規則。 |
+| [!UICONTROL Quantity in cart] | 產品數量。 如果符合購物車條件中的產品數量，則套用規則。 |
+| [!UICONTROL Row total in cart] | 產品列總計。 如果符合購物車中的產品列總計條件，則會套用規則。 |
+| [!UICONTROL **產品屬性**] |  |
+| [!UICONTROL Attribute Set] | 產品屬性集。 如果產品符合產品屬性條件，則套用規則。 |
+| [!UICONTROL Category] | 產品類別。 如果產品本身或其子產品符合類別條件，則套用規則。 |
+| [!UICONTROL Category (Children Only)] | 子產品類別。 如果只有產品子項符合類別條件（此處未核取產品本身），則套用規則。 |
+| [!UICONTROL Category (Parent Only)] | 父級產品類別。 如果只有產品本身符合類別條件（此處不勾選子產品），則套用規則。 |
+| [!UICONTROL **購物車屬性**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | 購物車小計（不含稅捐）。 如果購物車符合小計（不含稅）條件，則套用規則。 |
+| [!UICONTROL Subtotal (Incl. Tax)] | 購物車小計（含稅）。 如果購物車符合小計（包括稅捐）條件，則套用規則。 |
+| [!UICONTROL Subtotal] | 購物車小計。 如果購物車符合小計條件，則會套用規則。 根據目前的稅捐設定，檢查包含或排除稅捐。 |
+| [!UICONTROL Total Items Quantity] | 購物車中所有產品的總數量。 如果購物車符合總計專案數量條件，則套用規則。 |
+| [!UICONTROL Total Weight] | 購物車中所有產品的總重量。 如果購物車符合總重量條件，則套用規則。 |
+| [!UICONTROL Payment Method] | 結帳時選取的付款方式。 如果符合付款方式條件，則套用規則。 |
+| [!UICONTROL Shipping Method] | 結帳時選取的送貨方法。 如果符合送貨方法條件，則套用規則。 |
+| [!UICONTROL Shipping Postcode] | 送貨地址郵遞區號。 如果送貨地址符合郵遞區號條件，則套用規則。 |
+| [!UICONTROL Shipping Region] | 送貨地址區域。 如果送貨地址符合地區條件，則套用規則。 |
+| [!UICONTROL Shipping State/Province] | 送貨地址州/省。 如果送貨地址符合州/省條件，則套用規則。 |
+| [!UICONTROL Shipping Country] | 運送地址國家/地區。 如果送貨地址符合國家/地區條件，則套用規則。 |
+| [!UICONTROL Customer Segment] | 如果註冊客戶或來賓客戶符合客戶區段條件，則適用此規則。 |
 
 ### [!UICONTROL Actions]
 
