@@ -3,9 +3,9 @@ title: 來自Adobe的擴充功能
 description: 檢閱Adobe所發行Adobe Commerce擴充功能和Magento Open Source的相關資訊。
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -83,18 +83,13 @@ Google reCAPTCHA提供的店面和管理員UI的安全性比標準CAPTCHA更高�
 
 [!DNL Payment services] Adobe Commerce和Magento Open Source是完全整合的支付解決方案，可簡化管理支付的流程，並為客戶提供以自己的方式付款的機會。 在Adobe Commerce管理員內安全地調解所有付款和交易資料 — 允許您在一個地方管理訂單和付款，同時提供順暢的結帳。 請參閱 [[!DNL Payment Services] 使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) 以取得詳細資訊。
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] for Adobe Commerce提供順暢的結帳體驗，將單次訪客購物者轉換為忠誠的帳戶持有者。
-請參閱 [[!DNL Quick Checkout] 使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) 以取得詳細資訊。
-
 ### [!DNL Store Fulfillment]
 
 適用於Adobe Commerce和Magento Open Source的Store Fulfillment可提供優異的線上購買、到店取貨(BOPIS)客戶體驗，以及透過行動裝置啟用的完整履行工作流程，讓員工的工作效率最大化。 請參閱 [[!DNL Store Fulfillment] 使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) 以取得詳細資訊。
 
 ### [!DNL Amazon Sales Channel]
 
-此 [!DNL Amazon Sales Channel] 適用於Adobe Commerce的，可讓您將您的Amazon Seller Central清單資料庫與 [!DNL Commerce] 在Commerce Admin中建立產品目錄並管理您的Amazon清單和銷售。 請參閱 [[!DNL Amazon Sales] 指南使用手冊](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 以取得詳細資訊。
+此 [!DNL Amazon Sales Channel] 適用於Adobe Commerce的，可讓您將您的Amazon Seller Central清單資料庫與 [!DNL Commerce] 在Commerce管理員中為您的Amazon清單和銷售建立產品目錄並進行管理。 請參閱 [[!DNL Amazon Sales] 指南使用手冊](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 以取得詳細資訊。
 
 ### [!DNL Channel Manager]
 
