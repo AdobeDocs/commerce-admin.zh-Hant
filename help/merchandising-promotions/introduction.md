@@ -1,15 +1,15 @@
 ---
-title: Commerce銷售和促銷活動簡介
-description: 瞭解建立目標促銷活動和客戶參與機會的商務工具。
+title: Commerce銷售與促銷活動簡介
+description: 瞭解Commerce工具以建立目標式促銷活動和客戶參與機會。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
-# Commerce銷售和促銷活動簡介
+# Commerce銷售與促銷活動簡介
 
 鎖定促銷活動，創造客戶參與的機會，並將購物者變成買家。 透過支援購買後活動並為回頭的客戶提供特別折扣來管理客戶關係。 瞭解最佳實務和技術，以支援您的SEO方案。
 

@@ -2,7 +2,8 @@
 title: 大規模個人化
 description: 瞭解Adobe Commerce中的哪些功能可讓您為購物者建立個人化體驗。
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -92,11 +93,11 @@ ht-degree: 0%
 - [帳戶已更新](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 - [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
 
-店面、後台和設定檔資料構成了Commerce客戶和訂單內容的基礎，可幫助您瞭解客戶正在檢視和最終購買的產品。 接著，您就可以鎖定他們的興趣，並個人化他們的體驗。 在下一節中，您將瞭解可與購物者互動的個人化體驗型別。
+店面、後台和設定檔資料構成了Commerce客戶和訂單內容的基礎，可幫助您瞭解客戶正在檢視哪些產品以及最終購買哪些產品。 接著，您就可以鎖定他們的興趣，並個人化他們的體驗。 在下一節中，您將瞭解可與購物者互動的個人化體驗型別。
 
 ## 個人化體驗的型別
 
-Commerce中的客戶和訂單內容資料支援下列型別的個人化體驗：
+Commerce中的客戶和訂單內容資料可促進下列型別的個人化體驗：
 
 | 體驗 | 說明 |
 |---|---|
@@ -109,7 +110,7 @@ Commerce中的客戶和訂單內容資料支援下列型別的個人化體驗：
 
 ## 在Adobe Experience Platform中使用Commerce資料
 
-若要跨所有管道為購物者建立個人化體驗，請使用將您的商務資料傳送至Experience Platform邊緣網路 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 副檔名。
+若要跨所有管道為購物者建立個人化體驗，請使用將您的Commerce資料傳送至Experience PlatformEdge Network [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 副檔名。
 
 ![資料如何流向Experience Platform邊緣](assets/commerce-edge.png){width="700" zoomable="yes"}
 
@@ -124,11 +125,11 @@ Commerce中的客戶和訂單內容資料支援下列型別的個人化體驗：
 | **優惠方案和行銷活動** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce行為和後台資料可做為個人化全頻道歷程的觸發因子，包括電子郵件行銷活動、簡訊、推播通知等&#x200B;。 |
 | **測量** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 和 [客戶 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce會將店面和後台資料傳送給客戶 [!DNL Journey Analytics] (且只要Adobe店面資料) [!DNL Analytics])，以允許更豐富的分析，而不僅限於Adobe Commerce Intelligence中的基本量度，例如收入、商品和促銷&#x200B;。 |
 
-要瞭解有關如何將Commerce資料傳送到Experience Platform的詳細資訊，請參閱 [資料連線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+若要深入瞭解如何將Commerce資料傳送至Experience Platform，請參閱 [資料連線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
 ## 在原生Commerce功能中使用Commerce資料
 
-在下節中，您將瞭解如何使用原生Commerce功能(例如Product Recommendations和Live Search)來建立個人化的購物體驗。 您也會瞭解名為的功能 [!DNL Audience Activation]，會使用名為Real-Time CDP的Experience Platform中可用產品中的資料，如所述 [先前](#using-commerce-data-in-adobe-experience-platform). 雖然Real-Time CDP並非Commerce的原生專案，但您可透過 [[!DNL Audience Activation]](../customers/audience-activation.md) 副檔名。
+在下節中，您將瞭解如何使用原生Commerce功能(例如「產品Recommendations」和「即時搜尋」)來建立個人化的購物體驗。 您也會瞭解名為的功能 [!DNL Audience Activation]，會使用名為Real-Time CDP的Experience Platform中可用產品中的資料，如所述 [先前](#using-commerce-data-in-adobe-experience-platform). 雖然Real-Time CDP並非CommerceCommerce的原生專案，但您可透過 [[!DNL Audience Activation]](../customers/audience-activation.md) 副檔名。
 
 下表強調Commerce可用功能，可將Commerce客戶和訂單內容資料轉換為可操作的深入分析。
 
@@ -137,9 +138,9 @@ Commerce中的客戶和訂單內容資料支援下列型別的個人化體驗：
 | **產品探索** | [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | 使用AI排名演演算法，根據購物者的網站行為動作來個人化和最佳化搜尋結果，提高搜尋相關性和轉換。 |
 |  | [產品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | 根據購物者的行為、趨勢、產品相似性等來顯示AI支援的產品推薦。 與您的Adobe Commerce目錄結合時，產品推薦可提供高度吸引人、相關且個人化的體驗。 |
 |  | [類別銷售](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | 從「即時搜尋管理員」存取，類別銷售會使用AI自動重新排名每個類別頁面上的產品順序，以提高每個購物者的相關性和轉換。 您可以建立和管理AI支援的規則，以根據購物者的動作和相似性自動在類別頁面上重新排名產品排序。 |
-| **網站內容** | [原生Commerce功能通知的動態區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 可讓您根據價格規則和客戶區段中設定的邏輯，提供個人化網站內容。 |
+| **網站內容** | [原生Commerce功能通知動態區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 可讓您根據價格規則和客戶區段中設定的邏輯，提供個人化網站內容。 |
 |  | [Real-Time CDP受眾通知的動態區塊](../customers/audience-activation.md) | 可讓商家根據Real-Time CDP中設定的受眾提供個人化網站內容。 |
 | **優惠方案和行銷活動** | [購物車價格規則](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | 可讓您根據一組條件將折扣套用至購物車中的專案。 |
-|  | [原生Commerce功能通知的動態區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 可讓您根據在Commerce中原生設定的客戶區段，顯示個人化橫幅促銷活動。 |
+|  | [原生Commerce功能通知動態區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 可讓您根據在Commerce中原生設定的客戶區段，顯示個人化橫幅促銷活動。 |
 |  | [Real-Time CDP受眾通知的動態區塊](../customers/audience-activation.md) | 可讓您根據Real-Time CDP中設定的對象顯示個人化促銷活動。 |
 | **測量** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (先前稱為Magento Business Intelligence)是雲端平台，提供最佳實務深入分析，協助您制定資料導向式決策，以及採取明確且明智的動作。 Adobe Commerce Intelligence可分析您的資料，協助您回答有關訂單增長、客戶行為和促銷策略有效性的問題。 |

@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe的願景是提供體驗導向、資料推動、技術支援的商務平台
 這個全新的高效能店面已經由數家Adobe Commerce商家成功試用，例如 [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world)，HanesBrands的屬性。 結果本身就說明問題。 Maidenform頁面一致地提供Google Lighthouse分數為 [100和Core Web Vitals結果](https://treo.sh/sitespeed/www.maidenform.com) 遠高於業界平均水準。
 
 ![網站速度結果](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![核心Web Vitals圖表](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![核心Web Vitals圖表](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Adobe Commerce及其他Adobe Experience Cloud解決方案已推出數百種實�
 
 Adobe也在Adobe Experience Platform中新增Commerce專用控制面板，協助行銷人員分析其Commerce資料並找出個人化的機會。
 
-![捨棄的購物車行銷活動的圖表](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![捨棄的購物車行銷活動的圖表](assets/use-case-playbook.png){zoomable="yes"}
 
 #### 使用Adobe Real-time CDP中的受眾啟動個人化
 

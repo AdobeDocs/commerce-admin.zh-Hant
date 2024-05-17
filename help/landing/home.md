@@ -7,8 +7,8 @@ breadcrumb-title: 商家檔案
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -119,16 +119,16 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 
 >[!TIP]
 >
->您也可以檢閱 [Commerce Services檔案的新增功能](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 和 [作業指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>您也可以檢閱 [Commerce服務檔案的新增功能](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 和 [作業指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | 說明 | 型別 | 日期 |
 | ----------- | ---- | ---- |
 | **1.4.0 B2B版本** - Adobe Commerce的B2B版本注意事項說明 [1.4.0版本](../b2b/release-notes.md#b2b-v140). | 更新 | 06/13/23 |
 | **1.4.0 B2B版本** - [啟動採購員的報價單](../b2b/sales-rep-initiates-quote.md) 主題現已納入 _Adobe Commerce的B2B指南_. 它說明賣方如何為特定採購員建立報價單，以開始議價處理。 | 新增 | 06/13/23 |
 | **1.4.0 B2B版本** - [交涉報價](../b2b/quote-price-negotiation.md)， [可協商的報價](../b2b/quotes.md)、和 [啟用B2B功能](../b2b/enable-basic-features.md) 主題會更新，以反映賣家提出的報價和預設功能的變更。 | 更新 | 06/13/23 |
-| **2.2.0 Adobe IMS整合版本** - [停用Commerce管理員與Adobe ID的整合](../getting-started/adobe-ims-disable.md) 主題現已納入 _快速入門手冊_. 它說明停用Adobe Commerce管理員與Adobe IMS整合的選用程式。 | 新增 | 06/13/23 |
+| **2.2.0 Adobe IMS整合版本** - [停用Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-disable.md) 主題現已納入 _快速入門手冊_. 它說明停用Adobe Commerce管理員與Adobe IMS整合的選用程式。 | 新增 | 06/13/23 |
 | **2.2.0 Adobe IMS整合版本**  — 中的變更 [AdobeIdentity Management服務(IMS)整合概述](../getting-started/adobe-ims-integration-overview.md) 和 [使用Adobe ID設定Commerce管理整合](../getting-started/adobe-ims-config.md) 主題以反映更新的功能。 | 更新 | 06/13/23 |
-| **[!DNL Audience Activation]**  — 最新和更新及改善的資訊包含在 [[!DNL Audience Activation]](../customers/audience-activation.md) 反映 [!DNL Experience Platform Connector] 設定UI以及如何將Headless Commerce執行個體與購物車價格規則及動態區塊搭配使用。 | 更新 | 06/13/23 |
+| **[!DNL Audience Activation]**  — 最新和更新及改善的資訊包含在 [[!DNL Audience Activation]](../customers/audience-activation.md) 反映 [!DNL Experience Platform Connector] 設定UI以及如何將headless Commerce執行個體與購物車價格規則及動態區塊搭配使用。 | 更新 | 06/13/23 |
 | **UPS API淘汰**  — 已更新 [聯合包裹服務(UPS)](../stores-purchase/ups.md) 主題與 [傳遞方法](../configuration-reference/sales/delivery-methods.md#ups) 設定參考頁面，反映暫時淘汰UPS API以產生新API金鑰。 | 更新 | 06/08/23 |
 | **2.4.6版**  — 已更新 [產品清單](../catalog/products-list.md) 和 [管理員設定參考資料](../configuration-reference/advanced/admin.md) 包含產品顯示限制相關資訊的主題，這些資訊可用於改善大型目錄的效能。 | 更新 | 03/14/23 |
 | **2.4.6版**  — 已更新 [建立和刪除客戶區段](../customers/customer-segment-create.md) 和 [客戶設定參考資料](../configuration-reference/customers/customer-configuration.md) 主題以包含區段即時驗證的相關資訊。 | 更新 | 03/14/23 |
