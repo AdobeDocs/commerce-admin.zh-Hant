@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce商家檔案
-description: 瀏覽Adobe Commerce產品檔案
+description: 瀏覽 Adobe Commerce 產品文件
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 商家檔案
