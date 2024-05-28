@@ -4,9 +4,9 @@ description: 瞭解如何執行增強式安全性掃描，並監控每個Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 0%
 - 存取追蹤及監控網站進度的歷史安全性報告。
 - 存取顯示成功和失敗檢查的掃描報告，並附上任何建議的動作。
 
-您可以從您的控制面板免費使用安全性掃描工具， [Commerce帳戶](../getting-started/commerce-account-create.md). 如需技術資訊，請參閱 [設定安全性掃描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 在 _雲端基礎結構上的Commerce指南_.
+您可以從您的控制面板免費使用安全性掃描工具， [Commerce/Magento帳戶](../getting-started/commerce-account-create.md). 如需技術資訊，請參閱 [設定安全性掃描工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 在 _雲端基礎結構上的Commerce指南_.
 
 ![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## 執行安全性掃描
 
-1. 前往Commerce首頁，然後登入您的 [Commerce帳戶](../getting-started/commerce-account-create.md) 並執行下列動作：
+1. 從Commerce首頁，登入您的 [Commerce/Magento帳戶](../getting-started/commerce-account-create.md).
+
+1. 檢閱並接受使用安全性掃描工具的條款。
 
    - 在左側面板中，選擇 **[!UICONTROL Security Scan]**.
    - 按一下 **[!UICONTROL Go to Security Scan]**.
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Monitored Websites]_頁面，按一下&#x200B;**[!UICONTROL +Add Site]**.
 
-   如果您有多個網站具有不同的網域，則必須為每個網域設定個別的掃描。
+   如果您有多個網站具有不同的網域，請為每個網域設定個別的掃描。
 
    ![受監視的網站](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -102,7 +104,7 @@ ht-degree: 0%
 
         建置流程完成後，變更將會部署至您的PWA存放區前端。
 
-1. 返回 _[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立您對網域的所有權。
+1. 返回 _[!UICONTROL Security Scan]_Commerce頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
 
 1. 成功確認後，請設定 **[!UICONTROL Set Automatic Security Scan]** 下列其中一種型別的選項：
 
