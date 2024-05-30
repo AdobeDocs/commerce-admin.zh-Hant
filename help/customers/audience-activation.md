@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 此 [!DNL Audience Activation] 擴充功能可讓您在Adobe Commerce中啟用Real-Time CDP對象，以在購物車中建立唯一優惠方案。 這些優惠和獎勵包括常見的電子商務銷售技術，例如 _購買2得到1免費_、以該客戶為目標的英雄橫幅，以及透過各種選件修改產品定價。 在Real-Time CDP中建立的受眾是以來自各種企業系統的資料為基礎，例如企業資源規劃(ERP)、客戶關係管理(CRM)、銷售點和行銷系統。 由於客戶區段資訊會持續更新，因此當客戶在您的商店購物時，他們可能會與區段建立關聯或解除關聯。
 
-您可以在Luma店面中啟用受眾或 [headless](#headless-support) 店面。 在Luma店面中，對象資訊（區段會籍）會儲存在商務端的Cookie中。 在Headless店面中，受眾資訊會作為引數傳遞到GraphQL API標題，命名為： `aep-segments-membership`.
+您可以在Luma店面中啟用受眾或 [headless](#headless-support) 店面。 在Luma店面中，對象資訊（區段會籍）會儲存在Commerce側的Cookie中。 在Headless店面中，受眾資訊會作為引數傳遞到GraphQL API標題，命名為： `aep-segments-membership`.
 
 ## 發行說明
 
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### 設定擴充功能
 
-安裝之後 [!DNL Audience Activation] 擴充功能上，您必須登入Commerce管理員並完成下列專案：
+安裝之後 [!DNL Audience Activation] 擴充功能上，您必須登入Commerce管理員，並完成下列工作：
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -154,7 +154,7 @@ composer require magento/audiences
 
 1. 在 **[!UICONTROL Datastream ID]** 欄位，貼上您建立之資料流的ID。 [已啟用](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce作為Real-Time CDP中的目的地。
 
-   此資料流會從您的Commerce網站傳送資料至Real-Time CDP，以判斷購物者是否屬於對象。 如果您尚未建立資料串流， [建立](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) 一個Experience Platform， [新增](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 前往Real-Time CDP中的Commerce目的地，然後前往 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) Admin中的擴充功能。
+   此資料流會將資料從您的Commerce網站傳送至Real-Time CDP，以判斷購物者是否屬於受眾。 如果您尚未建立資料串流， [建立](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) 一個Experience Platform， [新增](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 連結到Real-Time CDP中的Commerce目的地，以及 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) Admin中的擴充功能。
 
    >[!NOTE]
    >
@@ -174,6 +174,8 @@ composer require magento/audiences
 - [建立動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受眾通知
 - [(**測試版**)建立相關的產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知
 
+如需有關如何匯出的完整端對端使用案例 [!DNL Commerce] 資料至Real-Time CDP、建立受眾，然後將該受眾啟用至 [!DNL Commerce]，請參閱 [使用以下專案在Real-Time CDP中建立受眾 [!DNL Commerce] 事件資料](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## Real-Time CDP受眾控制面板
 
 您可以檢視全部 [主要](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 可在您的Adobe Commerce執行個體中使用 **Real-Time CDP受眾** 儀表板。
@@ -187,7 +189,7 @@ composer require magento/audiences
 | 欄 | 說明 |
 |--- |--- |
 | `Hide filters` | 可讓您顯示或隱藏可套用至控制面板的任何篩選器。 目前，您唯一可套用的篩選器是 `Last updated`. 此篩選器可讓您根據上次更新對象的時間來選取對象的日期範圍。 |
-| `Search` | 可讓您在商務例項中搜尋作用中對象。 |
+| `Search` | 可讓您在Commerce例項中搜尋作用中對象。 |
 | `Name` | 在Real-Time CDP中提供給對象的名稱。 |
 | `Origin` | 指出受眾來源，例如 `Experience Platform`. |
 | `Websites` | 指出哪些網站已設定為可使用對象。 |
@@ -340,9 +342,9 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-擷取資料後，您可使用資料建立受眾資訊 [購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences)， [動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 和  [相關產品規則](../merchandising-promotions/product-related-rule-create.md) 在商務應用程式中。
+擷取資料後，您可使用資料建立受眾資訊 [購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences)， [動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 和  [相關產品規則](../merchandising-promotions/product-related-rule-create.md) (在Commerce應用程式中)。
 
-## 對象不會顯示在商務中
+## 對象不會顯示在Commerce中
 
 如果Real-Time CDP對象未顯示在Commerce中，原因可能是：
 
@@ -353,7 +355,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 ### 設定中選取的驗證型別不正確
 
-1. 開啟您的Commerce例項。
+1. 開啟您的Commerce執行個體。
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. 展開 **[!UICONTROL Services]** 並選取 **[!UICONTROL [!DNL Data Connection]]**.
 1. 確定您指定的伺服器對伺服器授權方法 **[!UICONTROL Authentication Type]** 欄位正確。 Adobe建議使用 **OAuth**. 已棄用JWT。 [瞭解更多](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
