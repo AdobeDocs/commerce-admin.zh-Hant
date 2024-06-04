@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce的HIPAA整備程度
-description: 瞭解如何新增Adobe Commerce HIPAA就緒擴充功能，並取得可讓您遵守HIPAA義務的其他功能。
+description: 了解如何新增 Adobe Commerce HIPAA-Ready 擴充功能並取得其他特性和功能，讓您可以遵守 HIPAA 義務。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
