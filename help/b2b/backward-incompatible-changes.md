@@ -1,0 +1,23 @@
+---
+title: Adobe Commerce B2B與回溯不相容的變更
+description: 瞭解Adobe Commerce B2B發行版本中的變更，這些變更可能需要您更新自訂程式碼。
+source-git-commit: d794e7891d9c15d8a106535ba2fdc93fdc5515ea
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 0%
+
+---
+
+# Adobe Commerce B2B與回溯不相容的變更
+
+本主題列出Adobe Commerce B2B中無法回溯相容的變更。
+
+{{$include /help/_includes/backward-incompatible-changes/1.4.1-1.4.2.md}}
+
+{{$include /help/_includes/backward-incompatible-changes/1.4.0-1.4.1.md}}
+
+{{$include /help/_includes/backward-incompatible-changes/1.3.5-1.4.0.md}}
+
+{{$include /help/_includes/backward-incompatible-changes/1.3.4-1.3.5.md}}
+
+{{$include /help/_includes/backward-incompatible-changes/1.3.3-1.3.4.md}}
