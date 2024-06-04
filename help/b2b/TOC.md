@@ -1,11 +1,11 @@
 ---
-user-guide-title: 「[!DNL B2B for Adobe Commerce] 指南」
+user-guide-title: 「[!DNL Adobe Commerce B2B] 指南」
 user-guide-description: 瞭解如何使用Adobe Commerce提供的整合B2B功能，
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 6%
@@ -13,9 +13,9 @@ ht-degree: 6%
 ---
 
 
-# [!DNL B2B for Adobe Commerce] 指南 {#b2b}
+# [!DNL Adobe Commerce B2B] 指南 {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] 指南](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] 指南](guide-overview.md)
 + [B2B功能簡介](introduction.md)
 + [發行說明](release-notes.md)
 + [安裝](install.md)

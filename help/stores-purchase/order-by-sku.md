@@ -3,9 +3,9 @@ title: 依SKU排序
 description: 瞭解如何設定您的商店，方便客戶透過SKU訂購。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _依SKU排序_ 是 [Widget](../content-design/widgets.md) 這些區段可在商�
 
 1. 按一下 **[!UICONTROL Save Config]**.
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (B2B僅適用於Adobe Commerce) _**若要啟用「依SKU排序」功能，請停用「快速排序」功能：**_
+![Adobe Commerce B2B](../assets/b2b.svg) (僅限Adobe Commerce B2B) _**若要啟用「依SKU排序」功能，請停用「快速排序」功能：**_
 
 1. 前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -65,7 +65,7 @@ _依SKU排序_ 是 [Widget](../content-design/widgets.md) 這些區段可在商�
 
 1. 若要新增其他專案，請按一下 **[!UICONTROL Add Row]** 並重複此程式。
 
-1. 點擊數 **[!UICONTROL Add to Cart]**.
+1. 點按次數 **[!UICONTROL Add to Cart]**.
 
 ### 客戶帳戶的SKU訂單
 
@@ -81,7 +81,7 @@ _依SKU排序_ 是 [Widget](../content-design/widgets.md) 這些區段可在商�
 
    - 若要視需要新增其他專案，請按一下 _新增列_ ![加號按鈕](../assets/button-add-item.png) 並視需要重複以上專案。
 
-   - 點擊數 **[!UICONTROL Add to Cart]**.
+   - 點按次數 **[!UICONTROL Add to Cart]**.
 
    _**上傳包含多個專案的CSV檔案：**_
 
@@ -91,7 +91,7 @@ _依SKU排序_ 是 [Widget](../content-design/widgets.md) 這些區段可在商�
 
    - 若要上傳CSV檔案，請按一下 **[!UICONTROL Choose File]** 並選取要上傳的檔案。
 
-   - 點擊數 **[!UICONTROL Add to Cart]**.
+   - 點按次數 **[!UICONTROL Add to Cart]**.
 
    如果有任何產品有其他選項，則會從購物車提示客戶，告知產品需要注意。
 

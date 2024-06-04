@@ -3,9 +3,9 @@ title: 增強的店面體驗
 description: 瞭解旨在協助您最大化客戶參與度、保留率和忠誠度的許多工具。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 - **自動化業務規則**  — 設定 [自動化業務規則](../merchandising-promotions/price-rules-cart.md) 定義產品關係，並使用根據各種條件觸發折扣的價格規則。
 
-- **整合式B2B和B2C**  — 具有 [適用於Adobe Commerce的B2B](../b2b/introduction.md)，即可同時為B2C和B2B客戶提供服務。 透過易於使用的客戶入口網站，B2B客戶可以設定具有特定角色和許可權的多層購買者、追蹤報價和訂單、定義購買核准規則，以及線上管理其信用。
+- **整合式B2B和B2C**  — 具有 [Adobe Commerce B2B](../b2b/introduction.md)，即可同時為B2C和B2B客戶提供服務。 透過易於使用的客戶入口網站，B2B客戶可以設定具有特定角色和許可權的多層購買者、追蹤報價和訂單、定義購買核准規則，以及線上管理其信用。
 
 ## 購買時刻
 

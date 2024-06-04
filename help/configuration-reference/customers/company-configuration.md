@@ -1,11 +1,11 @@
 ---
 title: 『[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]『
-description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Company Configuration] 商務管理員頁面。
+description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Company Configuration] Commerce管理員的頁面。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->安裝及啟用Adobe Commerce適用的B2B後，即可使用公司專屬的功能提供個人化的購買體驗。 Adobe Commerce適用的B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce適用的B2B使用指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >B2B功能的這些組態選項存取權是由 [角色資源](../../systems/permissions-user-roles.md#role-resources). 必須為指派給管理員使用者的使用者角色設定這些角色資源。
 
-如需有關配置這些設定的詳細資訊，請參閱 [啟用基本B2B功能](../../b2b/enable-basic-features.md) 在 _Adobe Commerce適用的B2B使用指南_.
+如需有關配置這些設定的詳細資訊，請參閱 [啟用基本B2B功能](../../b2b/enable-basic-features.md) 在 _Adobe Commerce B2B使用手冊_.
 
 ## [!UICONTROL General]
 

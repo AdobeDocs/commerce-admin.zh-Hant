@@ -3,9 +3,9 @@ title: 簽發銷退折讓單
 description: 瞭解如何產生並列印已開立商業發票訂單的銷退折讓單。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 必須先為產生銷退折讓單，才能列印銷退折讓單 [已開立商業發票的訂單](invoices.md#create-an-invoice). 您可以根據付款方式，從未結銷退折讓單中發放線上與離線退款（部分或全部）。
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)退款可套用至商店點數。
-- ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)退款可套用至公司信貸。
+- ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)退款可套用至公司信貸。
 - 信用卡購物可線上上或離線退款。
 - 支票或匯票的購買必須離線退款。
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)若要將金額退還給客戶的商店貸方，請選取 **[!UICONTROL Refund to Store Credit]** 核取方塊。
 
-   - ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B)若要將金額退還給客戶的公司信用額度，請選取 **[!UICONTROL Refund to Company Credit]** 核取方塊。
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)若要將金額退還給客戶的公司信用額度，請選取 **[!UICONTROL Refund to Company Credit]** 核取方塊。
 
    - 若要發出離線退款，請按一下 **[!UICONTROL Refund Offline]**.
 
    - 若要發出線上退款，請按一下 **[!UICONTROL Refund]**.
 
-   - ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)如果購買是以公司信用支付，請按一下 **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)如果購買是以公司信用支付，請按一下 **[!UICONTROL Refund to Company Credit]**.
 
    另請參閱 [銷退折讓單](credit-memos.md) 以取得離線和線上退款的詳細資訊。
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下訂單的客戶或採購員名稱。 客戶名稱會連結至客戶設定檔。 |
 | [!UICONTROL Email] | 客戶或購買者的電子郵件地址。 電子郵件地址已連結，以開啟新的電子郵件訊息。 |
 | [!UICONTROL Customer Group] | 將客戶指派給之客戶群組或共用目錄的名稱。 |
-| [!UICONTROL Company Name] | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)與購買者相關聯且代表其下訂單的公司名稱。 公司名稱會連結至公司設定檔。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)與購買者相關聯且代表其下訂單的公司名稱。 公司名稱會連結至公司設定檔。 |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Product] | 產品名稱、SKU和選項（如果適用）。 |
-| [!UICONTROL Price] | 專案的購買價格。 對於Adobe Commerce的B2B，此值反映從共用目錄套用至專案的任何折扣（如適用）。 |
+| [!UICONTROL Price] | 專案的購買價格。 若為Adobe Commerce B2B，此值會反映從共用目錄套用至專案的所有折扣（若適用）。 |
 | [!UICONTROL Qty] | 訂購數量。 |
 | [!UICONTROL Return to Stock] | 表示是否要將傳回的專案退回到庫存的核取方塊。 |
 | [!UICONTROL Qty to Refund] | 表示產品傳回的單位數。 |
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Append Comments] | 決定銷退折讓單中是否包含備註的核取方塊。 |
 | [!UICONTROL Email Copy of Credit Memo] | 決定銷退折讓單是否以電子郵件寄出的核取方塊。 |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)決定是否將總計退款的核取方塊 [商店點數](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)要退款的所有明細專案總計。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)要退款的所有明細專案總計。 |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 如果原始購買是由信用卡透過付款閘道支付，則退款金額由付款處理者管理。 若要管理退款，請參閱付款提供者提供的檔案。 |
 | **[!UICONTROL Refund Offline]** | 如果原先的購買是以支票或匯票支付，則退款會直接支付給客戶，如果您有實體店面，則發行支票、禮品卡或現金。 銷退折讓單會作為離線交易的記錄。 |
-| **[!UICONTROL Refund to Company Credit]** | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B)若將購買費用計入公司貸方，則退款會退回至 [公司帳戶](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)若將購買費用計入公司貸方，則退款會退回至 [公司帳戶](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

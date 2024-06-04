@@ -1,18 +1,18 @@
 ---
 title: 共用目錄概觀
-description: 瞭解B2B為Adobe Commerce提供的共用目錄，以及如何使用共用目錄，以自訂價格維護不同公司帳戶的閘道目錄。
+description: 瞭解Adobe Commerce B2B提供的共用目錄，以及如何使用共用目錄，以自訂價格維護不同公司帳戶的閘道目錄。
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # 共用目錄概觀
 
-Adobe Commerce適用的B2B可讓您維持閘道 _已共用_ 不同公司的自訂定價目錄。 除了標準以外， _主要_，產品目錄，它可讓客戶存取具有不同定價結構的兩種共用目錄。
+Adobe Commerce B2B可讓您維持閘道 _已共用_ 不同公司的自訂定價目錄。 除了標準以外， _主要_，產品目錄，它可讓客戶存取具有不同定價結構的兩種共用目錄。
 
 如果 [共用目錄功能](enable-basic-features.md) 在設定中啟用時，原始主要目錄在管理員中仍然可見，但在店面中只能看到「預設（一般）」公用共用目錄。 此外，可建立僅對特定成員可見的自訂目錄 [公司](account-companies.md) 帳戶。
 
@@ -56,7 +56,7 @@ Adobe Commerce適用的B2B可讓您維持閘道 _已共用_ 不同公司的自�
 | [!UICONTROL Select] | 選取共用目錄記錄以套用動作。 標頭中的控制項可用來選取網格中的所有共用目錄記錄，或取消選取網格中的所有共用目錄記錄。 若要選取個別共用目錄，請選取核取方塊。 |
 | [!UICONTROL ID] | 建立目錄時依序指派的唯一數值識別碼。 |
 | [!UICONTROL Name] | 共用目錄的名稱。 依預設，可使用預設（一般）共用目錄。 |
-| [!UICONTROL Type] | 識別共用目錄型別，如下所示： <br/>**[!UICONTROL Public]**— 安裝Adobe Commerce的B2B時，會自動建立預設的公共共用目錄。 它最初指派給 `General` 和 `Not Logged In` 客戶群組，且在與公司無關聯的來賓和個人登入客戶中可見。 系統一次僅支援一個公用共用目錄。<br/>**[!UICONTROL Custom]**  — 自訂共用目錄包含的定價僅對已指派公司帳戶的登入關聯可見。 您可以視需要建立儘可能多的自訂共用目錄。 |
+| [!UICONTROL Type] | 識別共用目錄型別，如下所示： <br/>**[!UICONTROL Public]**— 安裝Adobe Commerce B2B時，會自動建立預設的公用共用目錄。 它最初指派給 `General` 和 `Not Logged In` 客戶群組，且在與公司無關聯的來賓和個人登入客戶中可見。 系統一次僅支援一個公用共用目錄。<br/>**[!UICONTROL Custom]**  — 自訂共用目錄包含的定價僅對已指派公司帳戶的登入關聯可見。 您可以視需要建立儘可能多的自訂共用目錄。 |
 | [!UICONTROL Customer Tax Class] | 指定給對應客戶群組的稅捐類別。 此欄不會出現在預設格線中，但可以透過變更欄版面配置來新增。 |
 | [!UICONTROL Created At] | 建立共用目錄的日期和時間。 |
 | [!UICONTROL Created By] | 建立共用目錄之存放區管理員的名字和姓氏。 |

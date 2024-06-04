@@ -3,9 +3,9 @@ title: 結帳時的地址搜尋
 description: 瞭解如何在商店結帳時包含地址搜尋。
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 引號的鎖定位址搜尋
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
 啟用地址搜尋也會影響從報價建立的訂單結帳，其中客戶的儲存地址數目符合或超過設定的限制。 當報價單完成且客戶進行結帳時，只會顯示選取的送貨地址。 此頁面也會顯示訊息，指出送貨地址已鎖定，且只能在報價單中變更。
 

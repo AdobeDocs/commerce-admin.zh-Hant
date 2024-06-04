@@ -3,9 +3,9 @@ title: 社群媒體和RSS摘要
 description: 瞭解如何新增社群媒體和其他RSS摘要整合，以建立品牌和產品知名度。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    例如： `facebook_like_button`.
 
-1. 如果您的Commerce執行個體有多個商店檢視，請選擇每個 **[!UICONTROL Store View]** 區塊可用的位置。
+1. 如果您的Commerce執行個體有多個商店檢視，請選擇各個 **[!UICONTROL Store View]** 區塊可用的位置。
 
 1. 視您的內容工具而定，將程式碼片段新增至區塊內容：
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 在右上角，按一下 **[!UICONTROL Add Widget]** 並執行下列動作：
 
-   - ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B) _設定_ 部分，設定 **[!UICONTROL Type]** 至 `CMS Static Block` 並按一下 **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B) _設定_ 部分，設定 **[!UICONTROL Type]** 至 `CMS Static Block` 並按一下 **[!UICONTROL Continue]**.
 
    - 確認 **[!UICONTROL Design Theme]** 設定為目前佈景主題。
 

@@ -2,9 +2,9 @@
 title: 『[!UICONTROL Catalog] 功能表
 description: 使用 [!UICONTROL Catalog] 功能表以存取產品建立、類別和庫存管理工具。
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-對於已安裝並啟用Adobe Commerce適用的B2B的商店， [共用目錄](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 讓您能夠讓不同的公司使用自訂價格。
+對於已安裝並啟用Adobe Commerce B2B的商店， [共用目錄](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 讓您能夠讓不同的公司使用自訂價格。
 
 ![共用的目錄產品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

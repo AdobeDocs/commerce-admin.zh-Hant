@@ -4,9 +4,9 @@ description: 瞭解如何設定驗證碼以供管理員存取及註冊客戶所�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在右上角，設定 **[!UICONTROL Store View]** 至 `Default`.
 
-   如果 [範圍](../getting-started/websites-stores-views.md#scope-settings) ，請選擇您要套用驗證碼設定的網站。
+   如果 [範圍](../getting-started/websites-stores-views.md#scope-settings) Commerce ，請選擇您要套用驗證碼設定的網站。
 
 1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL CAPTCHA]** 區段。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    - 輸入 **[!UICONTROL Font]** 用於驗證碼符號(預設： `LinLibertine`)。
 
-     若要新增您自己的字型，字型檔案必須位於與您的Commerce安裝相同的目錄中，並且必須在中宣告 `config.xml` 驗證碼模組的檔案，位於 `app/code/Magento/Captcha/etc`.
+     若要新增您自己的字型，字型檔案必須位於與Commerce安裝相同的目錄中，且必須在中宣告 `config.xml` 驗證碼模組的檔案，位於 `app/code/Magento/Captcha/etc`.
 
    - 選取下列任一項 **[!UICONTROL Forms]** 將使用CAPTCHA的位置。 若要選擇多個表單，請按住Ctrl鍵(PC)或Command鍵(Mac)。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    - 輸入 **[!UICONTROL Font]** 用於驗證碼符號(預設： `LinLibertine`)。
 
-     若要新增您自己的字型，字型檔案必須位於與您的Commerce安裝相同的目錄中，並且必須在中宣告 `config.xml` 驗證碼模組的檔案。
+     若要新增您自己的字型，字型檔案必須位於與Commerce安裝相同的目錄中，且必須在中宣告 `config.xml` 驗證碼模組的檔案。
 
    - 選取下列任一項 **[!UICONTROL Forms]** 將使用CAPTCHA的位置。 若要選擇多個表單，請按住Ctrl鍵(PC)或Command鍵(Mac)。
 
@@ -100,7 +100,7 @@ ht-degree: 0%
       - `Payflow Pro` (請參閱 [安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _知識庫_ article)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
-      - `Create company` ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
    - 設定 **[!UICONTROL Displaying Mode]** 變更為下列其中一項：
 

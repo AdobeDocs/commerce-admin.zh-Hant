@@ -3,9 +3,9 @@ title: 購物車設定
 description: 瞭解您可以設定的購物車功能，以支援商店中的購買體驗。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ## 報價期限
 
-針對Adobe Commerce安裝及啟用B2B後，您就可以新增對 _引號_ 功能。 此功能可讓授權採購員透過從購物車提交請求來啟動價格議價處理。 此 _引號_ grid會列出收到的每一份報價，並維護買賣雙方之間的通訊記錄。 如需有關B2B功能的詳細資訊，請參閱 [交涉報價](../b2b/quotes.md) 在 _Adobe Commerce適用的B2B使用指南_.
+在安裝及啟用Adobe Commerce B2B後，您可以新增 _引號_ 功能。 此功能可讓授權採購員透過從購物車提交請求來啟動價格議價處理。 此 _引號_ grid會列出收到的每一份報價，並維護買賣雙方之間的通訊記錄。 如需有關B2B功能的詳細資訊，請參閱 [交涉報價](../b2b/quotes.md) 在 _Adobe Commerce B2B使用手冊_.
 
 您可以在設定中設定購物車報價期限，藉此判斷價格的有效時間。 例如，如果購物者在幾天後離開購物車而無人看管，則某些商品的報價可能不再相同。 報價期限預設為30天。
 

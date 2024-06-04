@@ -1,11 +1,11 @@
 ---
 title: 『[!UICONTROL General] &gt； [!UICONTROL B2B Features]『
-description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL B2B Features] 商務管理員頁面。
+description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL B2B Features] Commerce管理員的頁面。
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->安裝及啟用Adobe Commerce適用的B2B後，即可使用公司專屬的功能提供個人化的購買體驗。 Adobe Commerce適用的B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱 [_Adobe Commerce適用的B2B使用指南_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱 [_Adobe Commerce B2B使用手冊_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## [!UICONTROL B2B Features]
 

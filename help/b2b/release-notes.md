@@ -1,16 +1,16 @@
 ---
-title: 『[!DNL B2B for Adobe Commerce] 版本注意事項
-description: 檢閱發行說明，瞭解中變更的相關資訊 [!DNL B2B for Adobe Commerce] 擴充功能發行版本。
+title: 『[!DNL Adobe Commerce B2B] 版本注意事項
+description: 檢閱發行說明，瞭解中變更的相關資訊 [!DNL Adobe Commerce B2B] 發行版本。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] 發行說明
+# [!DNL Adobe Commerce B2B] 發行說明
 
 以下是B2B擴充功能發行說明，擷取Adobe在發行週期中新增的新增功能和修正，包括：
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->另請參閱 [產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 瞭解現有Adobe Commerce版本支援的B2B Commerce擴充功能版本相關資訊。
+>另請參閱 [產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 瞭解現有Adobe Commerce發行版本支援的B2B Commerce擴充功能版本相關資訊。
 
 ## B2B 1.5.0-beta
 
@@ -118,7 +118,7 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 ![已修正的問題](../assets/fix.svg) <!--ACP2E-1664--> 在「共用型錄」與訂價結構中包含雙引號的產品SKU不會再導致「管理員」發生錯誤。
 
-![已修正的問題](../assets/fix.svg) <!--ACP2E-1498--> 更新Commerce應用程式的Varnish設定，以防止訪客使用者看到來自其他客戶群組的資料。
+![已修正的問題](../assets/fix.svg) <!--ACP2E-1498--> 更新Commerce應用程式的塗漆設定，以防止訪客使用者看到來自其他客戶群組的資料。
 
 ### 已知問題
 
@@ -148,7 +148,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->將Commerce從2.4.6升級至之後 [最新版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
+>將Commerce從2.4.6升級至 [最新版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
 
 ![新增](../assets/new.svg) 新增對Adobe Commerce 2.4.6的支援。
 

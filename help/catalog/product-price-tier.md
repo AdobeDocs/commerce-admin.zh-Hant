@@ -3,9 +3,9 @@ title: 層級定價
 description: 瞭解如何使用層級定價，從產品清單或產品頁面提供數量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 如果您的商店有多個網站，請選擇 **[!UICONTROL Website]** 適用於的層級定價。
 
-1. 如有必要，請選取 **[!UICONTROL Customer Group]** 或 **[!UICONTROL Shared Catalog]** (![適用於Adobe Commerce的B2B](../assets/b2b.svg) 提供方式 [適用於Adobe Commerce的B2B](./b2b/../introduction.md) 僅限)。
+1. 如有必要，請選取 **[!UICONTROL Customer Group]** 或 **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) 提供方式 [Adobe Commerce B2B](./b2b/../introduction.md) 僅限)。
 
 1. 的 **[!UICONTROL Qty]**，輸入必須訂購才能收到折扣的數量。
 

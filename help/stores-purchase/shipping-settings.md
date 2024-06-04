@@ -3,9 +3,9 @@ title: 送貨設定
 description: 瞭解如何設定出貨設定，以定義商店的原點和出貨政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![適用於Adobe Commerce的B2B](../assets/b2b.svg) (Adobe Commerce的B2B)對於具有多個送貨地址的訂單， [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 結帳期間無法使用付款方法（即使已啟用）。
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B)對於具有多個送貨地址的訂單， [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 結帳期間無法使用付款方法（即使已啟用）。

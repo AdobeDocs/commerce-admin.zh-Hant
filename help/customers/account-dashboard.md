@@ -3,9 +3,9 @@ title: 客戶帳戶儀表板
 description: 客戶可以從其客戶帳戶控制面板管理及監控自己的資訊和活動。
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 安裝及啟用Adobe Commerce適用的B2B後，即可使用公司專屬的功能提供個人化的購買體驗。 您可以為與公司有關聯的客戶啟用B2B帳戶儀表板選項（採購單、請購單清單及議價報價）的完整範圍。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce適用的B2B使用指南](../b2b/introduction.md).
+> 在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 您可以為與公司有關聯的客戶啟用B2B帳戶儀表板選項（採購單、請購單清單及議價報價）的完整範圍。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](../b2b/introduction.md).
 
 ![店面上的公司帳戶儀表板](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
@@ -44,14 +44,14 @@ ht-degree: 0%
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Reward Points]**](../merchandising-promotions/rewards-loyalty.md) | 列出客戶已取得且適用於購買的所有獎勵積分。 |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Gift Registry]**](../merchandising-promotions/gift-registries.md) | 用於列出及維護禮品登記簿，以及新增禮品登記簿。 |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL My Invitations]**](../merchandising-promotions/invitations.md) | 列出客戶針對排程活動建立和傳送的所有邀請。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | （僅限公司）列出客戶提交或控制的所有採購單，並附有詳細資訊的連結。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | （僅限公司）列出客戶提交的所有報價單，並附有詳細資訊的連結。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | （僅限公司）維護客戶建立的所有請購單清單。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | （僅限公司）指定的公司管理員可以管理公司資訊，包括公司名稱和地址、公司管理員聯絡資訊以及付款資訊。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | （僅限公司）顯示目前未結餘額、可用貸方及配置給科目的貸方限制，後面接著未結商業發票清單。 「公司業績」區段僅在下列情況下才會出現在控制面板中 [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 在設定中啟用。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | （僅限公司）由公司管理員用來定義公司的業務結構。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | （僅限公司）由公司管理員用來建立公司購買者的使用者帳戶。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | （僅限公司）由公司管理員用來定義具有各種許可權層級之公司使用者的角色。 |
-| ![適用於Adobe Commerce的B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | （僅限公司）用於定義採購單的核准規則。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | （僅限公司）列出客戶提交或控制的所有採購單，並附有詳細資訊的連結。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | （僅限公司）列出客戶提交的所有報價單，並附有詳細資訊的連結。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | （僅限公司）維護客戶建立的所有請購單清單。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | （僅限公司）指定的公司管理員可以管理公司資訊，包括公司名稱和地址、公司管理員聯絡資訊以及付款資訊。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | （僅限公司）顯示目前未結餘額、可用貸方及配置給科目的貸方限制，後面接著未結商業發票清單。 「公司業績」區段僅在下列情況下才會出現在控制面板中 [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) 在設定中啟用。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | （僅限公司）由公司管理員用來定義公司的業務結構。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | （僅限公司）由公司管理員用來建立公司購買者的使用者帳戶。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | （僅限公司）由公司管理員用來定義具有各種許可權層級之公司使用者的角色。 |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | （僅限公司）用於定義採購單的核准規則。 |
 
 {style="table-layout:auto"}

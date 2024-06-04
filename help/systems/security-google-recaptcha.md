@@ -4,9 +4,9 @@ description: 瞭解如何設定Google reCAPTCHA以進行管理員存取及註冊
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA已針對管理員和店面分別設定。
 
-- 對於管理員，Google reCAPTCHA可用於 [登入](../getting-started/admin-signin.md) 頁面，以及使用者要求重設密碼時。 如果標準商務 [驗證碼](security-captcha.md) Google reCAPTCHA亦可順利同時使用。
+- 對於管理員，Google reCAPTCHA可用於 [登入](../getting-started/admin-signin.md) 頁面，以及使用者要求重設密碼時。 如果標準Commerce [驗證碼](security-captcha.md) Google reCAPTCHA亦可順利同時使用。
 
 - 對於店面，Google reCAPTCHA可用於登入 [客戶帳戶](../customers/customer-sign-in.md)，傳送來自 [聯絡我們](../getting-started/store-details.md#contact-us-form) 頁面，以及許多其他店面位置。
 
@@ -160,7 +160,7 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

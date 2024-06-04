@@ -3,9 +3,9 @@ title: 價格範圍
 description: 瞭解用於產品價格的範圍，其可設定為在全域或網站層級套用。
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 不同的因素可能會影響同一產品在不同地點的價格，而非不同地點。 例如，產品可能有額外的銷售成本，以及其他會影響特定商店中銷售產品價格的考量因素。 下圖顯示將基本貨幣設定為網站層級的多站台安裝。 與每個網站相關聯的商店和商店檢視會反映在網站層級設定的產品定價。
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) 如果您使用共用目錄，也請參閱 [設定共用目錄定價與結構](../b2b/catalog-shared-pricing-structure.md) 在 _Adobe Commerce的B2B指南_.
+![Adobe Commerce B2B](../assets/b2b.svg) 如果您使用共用目錄，也請參閱 [設定共用目錄定價與結構](../b2b/catalog-shared-pricing-structure.md) 在 _Adobe Commerce B2B指南_.
 
 ![價格範圍圖表](./assets/catalog-price-scope.svg){width="550"}
 

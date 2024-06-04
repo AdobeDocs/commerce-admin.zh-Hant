@@ -3,9 +3,9 @@ title: 訂購
 description: 瞭解在Admin中用於尋找訂單的「訂單」工作區及搜尋功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Method] | 用於訂單的付款方式。 |
 | [!UICONTROL Total Refunded] | 訂單中要退款給客戶的任何金額。 |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)訂單中要退款至客戶商店貸方的任何金額。 |
-| [!UICONTROL Company Name] | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供) [公司](../b2b/account-companies.md) 下訂單的人。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用) [公司](../b2b/account-companies.md) 下訂單的人。 |
 
 {style="table-layout:auto"}
 

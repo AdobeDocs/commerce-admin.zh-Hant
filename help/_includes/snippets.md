@@ -1,9 +1,9 @@
 ---
 title: 代碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 僅限B2B功能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce的B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 獨家功能僅適用於 <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">適用於Adobe Commerce的B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 獨家功能僅適用於 <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## 僅限CE的功能 {#ce-feature}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->擁有Adobe ID且想要簡化登入Adobe Commerce和Adobe業務產品的Adobe Commerce商家可整合Commerce管理員驗證與Adobe IMS驗證工作流程。 為您的Commerce商店啟用此整合後，每個管理員使用者必須使用其Adobe認證（而不是其Commerce帳戶認證）才能登入。 另請參閱 [將Adobe Commerce與Adobe IMS整合概覽](/help/getting-started/adobe-ims-integration-overview.md).
+>擁有Adobe ID且想要簡化登入Adobe Commerce和Adobe業務產品的Adobe Commerce商家可整合Commerce管理員驗證與Adobe IMS驗證工作流程。 為您的Commerce商店啟用此整合後，每個管理員使用者都必須使用其Adobe認證(而非其Commerce帳戶認證)才能登入。 另請參閱 [將Adobe Commerce與Adobe IMS整合概覽](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## GTag API注意事項 {#gtag-api-note}
 

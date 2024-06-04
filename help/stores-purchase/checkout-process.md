@@ -3,9 +3,9 @@ title: 結帳程式與選項
 description: 瞭解Adobe Commerce和Magento Open Source結帳程式如何收集完成交易所需的資訊，以及「結帳」頁面如何引導客戶完成程式的每個步驟。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 若要將新地址儲存在通訊錄中，客戶會選取表單底部的核取方塊。
 
-1. 點擊數 **[!UICONTROL Save Address]**.
+1. 點按次數 **[!UICONTROL Save Address]**.
 
    新地址現在被選為送貨地址。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ### 複查與付款 — 採購單
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
 當客戶與已啟用的公司相關聯時 [採購單](../b2b/purchase-order-flow.md)，則所有訂單都會以採購單處理。 可用的付款方式取決於公司帳戶設定。
 

@@ -1,20 +1,20 @@
 ---
-title: 安裝 [!DNL B2B for Adobe Commerce] 副檔名
-description: 瞭解如何安裝 [!DNL B2B for Adobe Commerce] 中繼封裝。
+title: 安裝 [!DNL Adobe Commerce B2B] 副檔名
+description: 瞭解如何安裝 [!DNL Adobe Commerce B2B] 中繼封裝。
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# 安裝 [!DNL B2B for Adobe Commerce] 副檔名
+# 安裝 [!DNL Adobe Commerce B2B] 副檔名
 
-Adobe Commerce適用的B2B擴充功能僅適用於Adobe Commerce v2.2.0或更新版本。 它會在安裝Adobe Commerce之後安裝。
+Adobe Commerce B2B擴充功能僅適用於Adobe Commerce v2.2.0或更新版本。 它會在安裝Adobe Commerce之後安裝。
 
 安裝已部署Adobe Commerce版本支援的最新版B2B擴充功能。
 
@@ -81,7 +81,7 @@ Adobe Commerce適用的B2B擴充功能僅適用於Adobe Commerce v2.2.0或更新
 
 ## 訊息消費者
 
-Adobe Commerce擴充功能的B2B使用MySQL進行訊息佇列管理。 下表列出支援B2B功能的訊息消費者。 安裝擴充功能後，針對您的Commerce店面所需的B2B功能啟動訊息消費者。
+Adobe Commerce B2B擴充功能使用MySQL進行訊息佇列管理。 下表列出支援B2B功能的訊息消費者。 安裝擴充功能後，針對您的Commerce店面所需的B2B功能啟動訊息消費者。
 
 | 消費者 | 說明 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ Adobe Commerce擴充功能的B2B使用MySQL進行訊息佇列管理。 下表列
 
 ## 在管理員中啟用B2B功能
 
-安裝適用於Adobe Commerce擴充功能的B2B並啟動訊息消費者後，您也必須 [在管理員中啟用B2B功能](enable-basic-features.md).
+安裝Adobe Commerce B2B擴充功能並啟動訊息消費者後，您也必須 [在管理員中啟用B2B功能](enable-basic-features.md).

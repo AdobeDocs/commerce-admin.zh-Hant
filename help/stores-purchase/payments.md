@@ -3,9 +3,9 @@ title: 付款總覽
 description: 瞭解Adobe Commerce和Magento Open Source本機支援的付款方法與服務。
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce和Magento Open Source包含多種內建的離線付款方法，�
 - [銀行轉帳付款](bank-transfer.md)
 - [支票/匯票](check-money-order.md)
 - [採購單](purchase-order.md)
-- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)
+- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
 
 ## 線上付款方法
 
@@ -78,7 +78,7 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 >[!NOTE]
 >
->為了支援安全性法規遵循的更新，從2.4.0版開始，已從Commerce中移除欺詐保護。 如果您一直在2.3.x或舊版中使用Signifyd整合，建議您轉換至 [顯著的詐騙和借項衝回保護延伸功能](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}。 請務必根據供應商指引維護擴充功能的更新。
+>為了支援安全性法規遵循的更新，從2.4.0版開始，Commerce已移除詐騙防護功能。 如果您一直在2.3.x或舊版中使用Signifyd整合，建議您轉換至 [顯著的詐騙和借項衝回保護延伸功能](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}。 請務必根據供應商指引維護擴充功能的更新。
 
 ## 疑難排解資源
 

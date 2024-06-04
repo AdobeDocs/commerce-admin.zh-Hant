@@ -3,9 +3,9 @@ title: 建立類別
 description: 您可以根據組態中設定的最大選單深度，視需要建立任意數量的其他子類別。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. 選擇 **[!UICONTROL Customer Group]** 類別許可權適用的位置。
 
-   ![適用於Adobe Commerce的B2B](../assets/b2b.svg) ([適用於Adobe Commerce的B2B](../b2b/introduction.md) 僅限)如有需要，您可以選擇 **[!UICONTROL Shared Catalog]** 而非。
+   ![Adobe Commerce B2B](../assets/b2b.svg) ([Adobe Commerce B2B](../b2b/introduction.md) 僅限)如有需要，您可以選擇 **[!UICONTROL Shared Catalog]** 而非。
 
 1. 視需要設定下列許可權：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 1. 視需要設定設計設定：
 
-   - ([適用於Adobe Commerce的B2B](../b2b/introduction.md) 僅限)若要將父類別設計設定套用至此類別，請設定 **[!UICONTROL Use Parent Category Settings]** 至 `Yes`.
+   - ([Adobe Commerce B2B](../b2b/introduction.md) 僅限)若要將父類別設計設定套用至此類別，請設定 **[!UICONTROL Use Parent Category Settings]** 至 `Yes`.
 
    - 若要變更類別頁面的設計，請選擇 **[!UICONTROL Theme]** 要套用的資訊。
 

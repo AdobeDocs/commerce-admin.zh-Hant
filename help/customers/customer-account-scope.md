@@ -3,9 +3,9 @@ title: 客戶帳戶範圍
 description: 客戶帳戶的範圍可以限於建立帳戶的網站，或與商店階層中的所有網站和商店共用。
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 您商店中每個頁面的頁首都會邀請購物者前往 _登入或註冊_ 以取得您商店的帳戶。 開立帳戶的客戶可享有一系列權益，包括：
 
 * **建立客戶帳戶**  — 訪客可建立客戶帳戶，以便使用該店面作為註冊客戶。
-* **建立公司帳戶** 您商店的訪客可選擇建立公司帳戶，視設定而定。 如需詳細資訊，請參閱 [適用於Adobe Commerce的B2B](../b2b/introduction.md).
+* **建立公司帳戶** 您商店的訪客可選擇建立公司帳戶，視設定而定。 如需詳細資訊，請參閱 [Adobe Commerce B2B](../b2b/introduction.md).
 * **更快速的結帳**  — 註冊客戶結帳的速度更快，因為帳戶中已有許多資訊。
 * **自助服務**  — 註冊客戶可以更新其資訊、檢查訂單狀態，甚至從其帳戶重新排序。
 

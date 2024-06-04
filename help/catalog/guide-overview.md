@@ -4,9 +4,9 @@ description: 有關適用於Adobe Commerce和Magento Open Source管理員以及�
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce的B2B可讓您使用不同公司的自訂價格，維護閘道共用目錄。 除了標準、主要產品目錄之外，它還可以讓客戶存取具有不同定價結構的兩種共用目錄。 如需關於共用目錄功能的詳細資訊，請參閱 [Adobe Commerce適用的B2B使用指南](../b2b/catalog-shared.md).
+>Adobe Commerce B2B可讓您使用不同公司的自訂價格，維護閘道共用目錄。 除了標準、主要產品目錄之外，它還可以讓客戶存取具有不同定價結構的兩種共用目錄。 如需關於共用目錄功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](../b2b/catalog-shared.md).
 
 ## 可用檔案
 

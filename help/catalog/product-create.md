@@ -3,9 +3,9 @@ title: 建立產品
 description: 瞭解您可以為目錄建立的產品型別。
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | 根據商店階層識別可使用該產品的每個網站。 |
 | [[!UICONTROL Design]](settings-advanced-design.md) | 用於將不同的主題套用至產品頁面、變更欄版面配置、決定產品選項出現的位置，以及輸入自訂XML程式碼。 |
 | [[!UICONTROL Gift options]](product-gift-options.md) | 用於在產品層級結帳時啟用或停用禮品訊息選項。 |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (可搭配 [適用於Adobe Commerce的B2B](../b2b/introduction.md) 僅限)啟用以不同公司的自訂價格維護共用目錄的功能。 |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce B2B](../assets/b2b.svg) (可搭配 [Adobe Commerce B2B](../b2b/introduction.md) 僅限)啟用以不同公司的自訂價格維護共用目錄的功能。 |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | 用於定義產品下載的引數。 |
 
 {style="table-layout:auto"}

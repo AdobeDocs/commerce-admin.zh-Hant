@@ -3,9 +3,9 @@ title: 索引管理
 description: 瞭解索引管理，包括觸發重新索引和最佳實務的動作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 當一或多個專案變更時，Adobe Commerce和Magento Open Source會自動重新索引。 觸發重新索引的動作包括價格變更、建立目錄或購物車價格規則、新增類別等。 為了最佳化效能，Commerce使用索引器將資料累積到特殊表格中。 當資料變更時，必須更新索引資料表，或重新編制索引。 Commerce會重新索引作為背景程式，而您的存放區在程式期間仍可存取。
 
-重新索引資料可加快處理速度，並減少客戶必須等候的時間。 例如，如果您將某個專案的價格從$4.99變更為$3.99，Commerce會對資料重新編制索引，以顯示商店中的價格變更。 如果沒有索引，Commerce必須即時計算每個產品的價格；處理購物車價格規則、搭售定價、折扣、層級定價等。 載入產品價格所需的時間，可能會超過客戶願意等候的時間。
+重新索引資料可加快處理速度，並減少客戶必須等候的時間。 例如，如果您將某個專案的價格從$4.99變更為$3.99，Commerce會對資料重新編制索引，以顯示商店中的價格變更。 如果沒有索引，Commerce必須即時計算每個產品的價格；處理購物車價格規則、套件定價、折扣、層級定價等。 載入產品價格所需的時間，可能會超過客戶願意等候的時間。
 
 索引子可以設定為在儲存時或依排程更新。 除了只支援儲存的Customer Grid外，所有索引都可以使用任一選項。 在儲存時建立索引時，Commerce會在儲存動作時開始重新索引。 「索引管理」頁面會完成更新並排清快取，而重新索引訊息會在一兩分鐘內顯示。 依排程重新索引時，重新索引會根據排程執行，作為cron作業。 系統訊息會顯示於 [cron工作](cron.md) 無法更新任何變成無效的索引子。 重新索引程式進行期間，您的存放區仍可存取。
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 ## 重新索引的最佳實務
 
-在Commerce中，重新索引和快取具有不同的目的。 索引會追蹤資料庫資訊，以提升搜尋效能、加快儲存區域的資料擷取速度等等。 [快取](cache-management.md) 儲存已載入的資料、影像、格式等，以提高載入和存取店面的效能。
+在Commerce中，重新索引和快取具有不同的用途。 索引會追蹤資料庫資訊，以提升搜尋效能、加快儲存區域的資料擷取速度等等。 [快取](cache-management.md) 儲存已載入的資料、影像、格式等，以提高載入和存取店面的效能。
 
-- 通常，在Commerce中更新資料時想要重新索引。
+- 通常，在Commerce中更新資料時，您會想要重新索引。
 - 如果您有大型商店或多個商店，可能會因為重新索引回圈的可能性，而想要將索引器（例如類別和產品）設定為已排程的cron工作。 您可能會想要在非尖峰時段依排程設定重新索引。
 - 重新索引時，您不需要同時執行排清快取。
 - 對於全新的Commerce安裝，您必須清除快取並重新索引。
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->針對使用的商店 [適用於Adobe Commerce的B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) 並將Elasticsearch設為全文(`catalogsearch_fulltext`)索引器：在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時，必須重新執行全文檢索索引。
+>針對使用的商店 [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) 並將Elasticsearch設為全文(`catalogsearch_fulltext`)索引器：在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時，必須重新執行全文檢索索引。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -103,7 +103,7 @@ Commerce使用命令列提供其他重新索引選項。 如需完整的詳細�
 | 動作 | 結果 | 控制項 |
 | ------ | ------ | -------- |
 | 建立商店、新客戶群組或中列出的任何動作 `Actions that Cause a Full Reindex` | 完整重新索引 | 按照您的Adobe Commerce或Magento Open Sourcecron工作決定的排程執行完整的重新索引。 |
-| 大量載入專案（Commerce匯入/匯出、直接SQL查詢，以及直接新增、變更或刪除資料的任何其他方法） | 部分重新索引（只有變更的專案才會重新索引） | 頻率由您的Commerce cron工作決定。 |
+| 大量載入專案(Commerce匯入/匯出、直接SQL查詢，以及其他直接新增、變更或刪除資料的方法) | 部分重新索引（只有變更的專案才會重新索引） | 頻率由您的Commerce cron工作決定。 |
 | 變更範圍（例如，從全域變更為網站） | 部分重新索引（只有變更的專案才會重新索引） | 頻率由您的Commerce cron工作決定。 |
 
 {style="table-layout:auto"}

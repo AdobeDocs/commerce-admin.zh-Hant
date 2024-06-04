@@ -2,9 +2,9 @@
 title: 商店和購買體驗簡介
 description: 瞭解用於建構和管理您的線上商店的功能，以及客戶的購買體驗。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Commerce和Magento Open Source在提交訂單前，會自動驗證所有�
 
 >[!TIP]
 >
->![適用於Adobe Commerce的B2B](../assets/b2b.svg) 安裝及啟用Adobe Commerce適用的B2B後，您可以設定 _快速訂購_ 適用於與公司帳戶相關聯的客戶。 當客戶知道要訂購產品的名稱或SKU時，此函式會將訂購流程簡化為幾次點按。 您也可以為公司帳戶設定可轉讓報價的支援。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce適用的B2B使用指南](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) 在安裝及啟用Adobe Commerce B2B後，您可以設定 _快速訂購_ 適用於與公司帳戶相關聯的客戶。 當客戶知道要訂購產品的名稱或SKU時，此函式會將訂購流程簡化為幾次點按。 您也可以為公司帳戶設定可轉讓報價的支援。 如需B2B功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## 購物協助
 

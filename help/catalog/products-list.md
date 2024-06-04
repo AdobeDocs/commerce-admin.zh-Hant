@@ -3,9 +3,9 @@ title: 產品清單
 description: 瞭解_[!UICONTROL Products]_管理中的頁面，您可以在此建立產品及編輯現有產品。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 目錄中的所有產品都可從以下位置存取： _[!UICONTROL Products]_頁面，您可在此建立產品及編輯現有產品。 針對多網站安裝，每個網站都可從相同目錄提供不同產品選項，以供銷售。
 
-此 _[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用的網站，以及目前是否啟用銷售功能。 Adobe Commerce安裝的B2B中，具有 [共用目錄](../b2b/catalog-shared.md) 啟用時，網格會包含一欄，指出哪些產品在共用型錄中有替代折扣定價。
+此 _[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用的網站，以及目前是否啟用銷售功能。 在Adobe Commerce B2B安裝中使用 [共用目錄](../b2b/catalog-shared.md) 啟用時，網格會包含一欄，指出哪些產品在共用型錄中有替代折扣定價。
 
 您可以逐頁瀏覽清單頁面，或搜尋特定產品。 使用標準 [控制項](../getting-started/admin-grid-controls.md) 排序及篩選清單，並套用 [動作](../getting-started/admin-actions-control.md) 至選取的產品。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 表示產品的狀態。 選項： `Enabled` 和 `Disabled` |
 | [!UICONTROL Websites] | 表示產品可用的網站。 |
 | [!UICONTROL Action] | 以編輯模式開啟產品。 |
-| [!UICONTROL Shared Catalog] | ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (可搭配 [適用於Adobe Commerce的B2B](./b2b/../introduction.md) 僅限)表示包含產品自訂定價的共用目錄。 |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (可搭配 [Adobe Commerce B2B](./b2b/../introduction.md) 僅限)表示包含產品自訂定價的共用目錄。 |
 
 {style="table-layout:auto"}
 

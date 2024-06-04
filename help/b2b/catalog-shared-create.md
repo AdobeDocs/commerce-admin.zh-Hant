@@ -4,9 +4,9 @@ description: 瞭解如何建立共用目錄及複製現有的共用目錄。
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Name] | 在整個管理員以及可用目錄的客戶帳戶中識別共用目錄。 目錄名稱應為描述性的，且長度不得超過32個字元。 您無法擁有兩個名稱相同的共用目錄。 字元數上限： 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]**  — 識別具有自訂定價的目錄，該目錄僅供指派給該目錄的特定公司使用。<br/>**[!UICONTROL Public]**— 識別可供所有訪客使用的共用目錄，以及可供與公司無關聯的登入客戶使用。 預設的公用共用目錄建立於 [!DNL B2B for Adobe Commerce] 已安裝，但必須由存放區管理員設定。 一次只能有一個公用共用目錄。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]**  — 識別具有自訂定價的目錄，該目錄僅供指派給該目錄的特定公司使用。<br/>**[!UICONTROL Public]**— 識別可供所有訪客使用的共用目錄，以及可供與公司無關聯的登入客戶使用。 預設的公用共用目錄建立於 [!DNL Adobe Commerce B2B] 已安裝，但必須由存放區管理員設定。 一次只能有一個公用共用目錄。 |
 | [!UICONTROL Customer Tax Class] | 決定從型錄採購時所使用的稅捐類別。 這些選項包含所有可用的稅捐類別。 |
 | [!UICONTROL Description] | 如何使用目錄的簡短說明。 |
 

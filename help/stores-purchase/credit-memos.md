@@ -3,9 +3,9 @@ title: 銷退折讓單
 description: 瞭解銷退折讓單，以及如何使用銷退折讓單發出部分或全部退款。
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ A _銷退折讓單_ 是一份檔案，顯示客戶全額或部分退款的應付
 
 - 帳戶銷退折讓 — 使用銷退折讓帳戶支付的訂單可以退款為帳戶銷退折讓：
    - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [商店點數](../customers/store-credit-using.md)
-   - ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供) [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
-   - ![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供) [公司評價](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B) [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B) [公司評價](../b2b/credit-company.md)
 - [線上退款](payments.md#online-payment-methods) — 信用卡透過付款閘道(例如PayPal或Braintree)支付的訂單，會透過付款處理程式線上退款。
 - [離線退款](payments.md#offline-payment-methods) — 以貨到付款([代碼](cash-on-delivery.md))或由 [支票或匯票](check-money-order.md) 離線退款。
 

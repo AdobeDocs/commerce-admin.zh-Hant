@@ -4,9 +4,9 @@ description: Adobe Commerce和Magento Open Source管理員適用的客戶帳戶�
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Adobe Commerce客戶管理指南
 
-本指南適用於在Adobe Commerce和Magento Open Source工作的客戶服務人員。 它提供商務管理員中客戶管理功能和店面客戶帳戶體驗的詳細資訊。 它假定您對核心Commerce設定和功能有基本的瞭解。
+本指南適用於在Adobe Commerce和Magento Open Source工作的客戶服務人員。 它提供有關Commerce管理員中的客戶管理功能以及店面的客戶帳戶體驗的詳細資訊。 它假定您對核心Commerce設定和功能有基本的瞭解。
 
 | 主旨 | 說明 |
 | ------- | ----------- |
-| [簡介](customers-introduction.md) | 在Commerce Admin中使用客戶管理功能的概觀。 |
+| [簡介](customers-introduction.md) | 在Commerce管理員中使用客戶管理功能的概觀。 |
 | 客戶管理工具 | 瞭解如何使用 [[!UICONTROL Customers] 格線](customers-all.md) 和 [[!UICONTROL Now Online] 功能](now-online.md) 在可用來管理商店客戶的Commerce Admin中。 |
 | 客戶帳戶 | 瞭解如何為店面的註冊客戶提供最佳體驗，從 [登入](login-landing-page.md) 至 [密碼休息](password-reset.md)、和 [為購物者提供協助](login-as-customer.md). |
 | [大規模個人化](personalize-scale.md) | 瞭解根據即時上下文和先前觀察到的行為為每個客戶接觸點個人化購物體驗可用的功能。 |
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->適用於Adobe Commerce的B2B可讓您維護與個別店面客戶帳戶相連結的公司帳戶。 如需公司帳戶功能的詳細資訊，請參閱 [Adobe Commerce適用的B2B使用指南](../b2b/account-companies.md).
+>Adobe Commerce B2B可讓您維護與個別店面客戶帳戶相連結的公司帳戶。 如需公司帳戶功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](../b2b/account-companies.md).
 
 ## 其他檔案
 

@@ -3,9 +3,9 @@ title: 可協商的報價
 description: 瞭解報價工作流程，以及如何為公司帳戶提供此服務。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 只有在Adobe Commerce具有下列組態設定時，才能使用可轉讓引號：
 
-- [已安裝Adobe Commerce適用的B2B擴充功能](install.md)
+- [已安裝Adobe Commerce B2B擴充功能](install.md)
 - [已設定的B2B功能](enable-basic-features.md)
    - 啟用公司帳戶
    - 啟用B2B報價
@@ -134,7 +134,7 @@ ht-degree: 0%
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | 傳送更新後的報價作為買家查詢的回覆。 如果賣家正在等待買家的回覆，此按鈕會停用。 |
 | [!UICONTROL Back] | 返回至 _引號_ 頁面，而不儲存變更。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅供測試版計畫參與者使用"}`<original quote name> (copy)`. 編輯中的值以變更名稱 [!UICONTROL Name] 欄位並儲存報價為草稿。 |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informational url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;僅適用於Beta版計畫的參與者&quot;}請複製並重新命名目前的報價，以建立新的報價。 當新報價開啟時，預設名稱為 `<original quote name> (copy)`. 編輯中的值以變更名稱 [!UICONTROL Name] 欄位並儲存報價為草稿。 |
 | [!UICONTROL Print] | 將報價傳送至印表機或儲存為PDF檔案。 |
 | [!UICONTROL Create a copy] | 建立報價單復本，並命名為 `<original quote name> (copy)` 並開啟它。 視需要重新命名並更新新報價單，然後儲存為草稿或傳送給買家。 |
 | [!UICONTROL Save as Draft] | 儲存對報價所做的任何變更，但不會將其傳送回購買者。 |

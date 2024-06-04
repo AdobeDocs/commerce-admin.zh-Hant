@@ -3,9 +3,9 @@ title: 群組定價
 description: 瞭解如何使用群組定價，根據您商店中的客戶群組來設定折扣專案的價格。
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在 _[!UICONTROL Customer Group Price]_區段，按一下&#x200B;**[!UICONTROL Add]**.
 
-   如果您的商店包括 [適用於Adobe Commerce的B2B](../b2b/introduction.md) 和 [共用目錄](../b2b/catalog-shared.md) 已啟用，此區段標示為 _[!UICONTROL Catalog and Tier Price]_.
+   如果您的商店包括 [Adobe Commerce B2B](../b2b/introduction.md) 和 [共用目錄](../b2b/catalog-shared.md) 已啟用，此區段標示為 _[!UICONTROL Catalog and Tier Price]_.
 
    ![進階定價](./assets/product-price-group.png){width="600" zoomable="yes"}
 

@@ -3,7 +3,7 @@ title: 電子郵件範本
 description: 瞭解電子郵件範本，以及如何使用這些範本支援與客戶溝通並強化您的品牌。
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Commerce包含一組回應式電子郵件範本，這些範本是由商店運作期間發生的各種事件所觸發。 每個範本皆已針對任何熒幕大小進行最佳化，且可從桌上型電腦、平板電腦及行動裝置檢視。 您可以準備各種與客戶活動、銷售、產品警示、管理員動作和系統訊息相關的電子郵件範本 [自訂](email-template-custom.md) 以反映您的品牌。
 
-商務電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使用者端之間呈現電子郵件的方式可能有一些差異。
+Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使用者端之間呈現電子郵件的方式可能有一些差異。
 
 ## 準備您的電子郵件標誌
 
@@ -98,7 +98,7 @@ Commerce包含一組回應式電子郵件範本，這些範本是由商店運作
 
 ### [!DNL Magento_Company]
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
 | 範本 | 設定路徑 |
 |--- |--- |
@@ -121,7 +121,7 @@ Commerce包含一組回應式電子郵件範本，這些範本是由商店運作
 
 ### [!DNL Magento_CompanyCredit]
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
 | 範本 | 設定路徑 |
 |--- |--- |
@@ -233,7 +233,7 @@ Commerce包含一組回應式電子郵件範本，這些範本是由商店運作
 
 ### [!DNL Magento_NegotiableQuote]
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (僅適用於Adobe Commerce的B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)
 
 | 範本 | 設定路徑 |
 |--- |--- |

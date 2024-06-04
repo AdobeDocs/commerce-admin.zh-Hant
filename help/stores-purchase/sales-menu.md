@@ -1,10 +1,10 @@
 ---
 title: 『[!UICONTROL Sales] 功能表
-description: 商務管理員包含 [!UICONTROL Sales] 功能表，可讓您根據訂單在工作流程中的位置來存取用於處理訂單的工具。
+description: Commerce管理員包含 [!UICONTROL Sales] 功能表，可讓您根據訂單在工作流程中的位置來存取用於處理訂單的工具。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Quotes]
 
-![適用於Adobe Commerce的B2B](../assets/b2b.svg) (適用於Adobe Commerce的B2B提供)
+![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
 
 授權購買者可以 [議價](../b2b/quotes.md) 傳送訊息給賣家 [請求](../b2b/quote-request.md) 從購物車中。
 
