@@ -3,9 +3,9 @@ title: 什麼是Adobe Commerce
 description: Adobe Commerce 是一個企業電子商務平台。閱讀推動全球電子商務團隊發展的最新功能。
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 0774e2d0af7c3e33c726da8ae72012d97f42adb1
 workflow-type: tm+mt
-source-wordcount: '3320'
+source-wordcount: '3150'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe的願景是提供體驗導向、資料推動、技術支援的商務平台
 
 研究顯示關於 [64%的購物者](https://techreport.com/statistics/website-load-time-statistics-data) 如果競爭者的網站體驗不佳，請前往競爭者的網站購買類似的專案。 相反地，每改善0.1秒的網站速度，企業就能獲得 [平均訂購值增加9.2%](https://techreport.com/statistics/website-load-time-statistics-data).
 
-[Adobe Commerce中的Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/) 是一組可組合服務，可在內容建立和客戶體驗中提供卓越體驗，藉此推動業務價值。 它結合商務型功能（例如檔案式內容製作和內建A/B測試），以及Adobe Commerce的下拉式元件，以及快如閃電的店面邊緣的內容傳送（例如需要提及邊緣傳送）。
+[Adobe Commerce中的Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/) 是一組可組合服務，可在內容建立和客戶體驗中提供卓越體驗，藉此推動業務價值。 其結合業務型功能（例如檔案型內容製作和內建A/B測試）與Adobe Commerce dropin元件，以實現核心商務功能。 所有這一切都是從邊緣提供，提供快如閃電的店面體驗。
 
 這個全新的高效能店面已經由數家Adobe Commerce商家成功試用，例如 [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world)，HanesBrands的屬性。 結果本身就說明問題。 Maidenform頁面一致地提供Google Lighthouse分數為 [100和Core Web Vitals結果](https://treo.sh/sitespeed/www.maidenform.com) 遠高於業界平均水準。
 
@@ -62,13 +62,14 @@ Adobe的願景是提供體驗導向、資料推動、技術支援的商務平台
 
 Commerce中的轉換與您能將客戶連結至您場外產品的能力，以及您以有效率但目標明確的方式在網站上個人化其體驗的能力有關。 Commerce中的Edge Delivery Service採納了核心網頁重要元素的原則，藉此推動這兩個量度的發展。
 
-這表示速度更快、體驗導向的網站在搜尋引擎中排名較高，因此可降低SEO成本，同時提高您的自然和關鍵字流量。 這不僅會增加您的訪客計數，還會比以往更順暢地將您的客戶和產品連線在一起，從而加快產品位置、選擇和結帳速度。
+這表示速度更快、體驗導向的網站在搜尋引擎中排名較高，因此可降低SEO成本，同時提高您的自然和關鍵字流量。 這不僅會增加您的訪客計數，還會比以往更順暢地將您的客戶和產品連線在一起，以便更快速地發現、選擇和結帳。
 
-同時降低內容建立成本，讓您的商務管理員提供整合式Commerce功能時，企業內容擁有者可快速輕鬆地提供內容，讓您受益匪淺。 合作團隊不會再有運作障礙！
+此外，由於您的業務內容擁有者可快速輕鬆地改善您的店面體驗，同時您的商務管理員可提供整合的Commerce功能，因此您可以受益於較低的內容建立成本。 合作團隊不會再有運作障礙！
 
-內容建立團隊的Velocity、將內容提供給客戶的速度，以及客戶透過體驗導向的高效能新店面體驗的速度。
+這一切皆透過可撰寫的架構達成，將內容管理系統(CMS)和發佈功能與Adobe Commerce Dropin元件整合在一起，打造出真正有彈性的Commerce店面。 Adobe提供了一系列的核心商務功能作為拖曳，包括產品清單頁面、產品詳細資料頁面和新的單步驟結帳拖曳，讓您以隨插即用方式為客戶的歷程新增順暢的結帳體驗。 客戶可以開始搭配現有技術，使用店面關鍵部分的Edge Delivery Services，並隨著時間推移從那時起進行擴展。
 
-這一切皆透過可撰寫的架構達成，將您的CMS和發佈功能與Adobe Commerce Dropin元件整合在一起，打造出真正靈活的Commerce店面。 其中一個絕佳範例是全新的一步結帳拖曳，可讓您以隨插即用方式，為客戶歷程新增順暢的結帳體驗。
+成果：內容建立團隊的Velocity、將內容提供給客戶的Velocity，以及客戶透過體驗導向的高效能新店面以數位方式與您互動的Velocity。
+
 
 >[!TIP]
 >
@@ -80,9 +81,9 @@ Adobe將Adobe Experience Manager Assets與Adobe Commerce整合在一起，利用
 
 這可讓組織使用Experience Manager AssetsCloud Service，作為資產建立與管理的單一信任來源，並作為中心DAM，為Adobe Commerce提供更強大的資產擴充能力。
 
-新的規則引擎服務會根據SKU或根據您Experience Manager Assets策略的其他關鍵屬性，將Commerce中的資產提供給Adobe Commerce中的相符產品。 系統會自動共用更新，以確保您的網站擁有最新的產品資產和資產變數。
+新的規則引擎服務會根據SKU或其他關鍵屬性(視您的Experience Manager Assets策略而定)，將Commerce中的資產提供給Adobe Commerce中的相符產品。 系統會自動共用更新，以確保您的網站擁有最新的產品資產和資產變數。
 
-使用Experience Manager Assets中的GenAI服務，針對個人化Commerce體驗產生數百萬種產品變數，以為新產品推出或提高速度的季節性行銷活動建立店面。
+使用Experience Manager Assets中的GenAI服務產生數百萬種產品資產變數，進而個人化您的客戶體驗，並透過提高的速度支援新產品推出、市場擴展或季節性行銷活動。
 
 ### B2B Commerce
 
@@ -108,7 +109,7 @@ Adobe很高興與大家分享將於2024年下半年推出的新報價和公司�
 
 [Adobe Commerce的支付服務](https://business.adobe.com/products/magento/payment-services.html) 是一項SaaS服務，可簡化付款並增加轉換次數和銷售收入。 由Toyota North America等公司所使用，它支援多種支付方式，並可在多個市場提供選用的防欺詐及濫用保護功能。 它可讓商戶在單一管理員體驗中安全地管理付款和訂單資料，以提升效率。
 
-最新版本以2023年的一系列更新為基礎，這些更新新增了Apple Pay、與Signifyd的整合、在英國、法國和澳洲的國際支援、針對企業數量進行的基礎架構擴充以及交易報告。 無論使用何種店面技術，新功能都能擴充付款選項，讓使用者更輕鬆地開始使用。
+最新版本以2023年的一系列更新為基礎，這些更新新增了Apple Pay、與Signifyd的整合以保護詐騙、為英國和法國提供國際支援、針對企業數量進行基礎架構擴充以及交易報告。 無論使用何種店面技術，新功能都能擴充付款選項，讓使用者更輕鬆地開始使用。
 
 >[!TIP]
 >
@@ -118,7 +119,7 @@ Adobe很高興與大家分享將於2024年下半年推出的新報價和公司�
 
 [!BADGE 現在可用]{type=Informative tooltip="現在可用"}
 
-在最新版本中，Payment Services現在包含GraphQL支援，讓商家可以接受及處理Headless店面實作的付款，例如Adobe Experience Manager和其他自訂前端。
+Payment Services現在包含GraphQL支援，讓商家可以接受及處理Headless店面實作(例如Adobe Experience Manager和其他自訂前端)的付款。
 
 Payment Services也提供您專屬的定價選項，包括Interchange++，提供更具競爭力的付款處理費率，以及 [自助上線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/get-started/production) 至Payment Services Basic，提供支付處理功能給全球近200個地區。
 
@@ -128,7 +129,7 @@ Payment Services也提供您專屬的定價選項，包括Interchange++，提供
 
 #### Google Pay for Payment服務
 
-[!BADGE 現在可用]{type=Informative tooltip="2024年上半年推出"}
+[!BADGE 現在可用]{type=Informative tooltip="現在可用"}
 
 Adobe Commerce現在支援Google Pay，這是領先的數位錢包，預計可觸及範圍 [3600萬消費者](https://forecasts-na1.emarketer.com/591373e4aeb8830e3829e400/5efc402eac4d4d07841472f9?_gl=1*qmtm8x*_ga*OTEwMjg4NjExLjE3MDY2MzQ2MTk.*_ga_XXYLHB9SXG*MTcwNjk3NjkzNS44LjAuMTcwNjk3NjkzNS42MC4wLjA。*_gcl_au*MTkwNzgzOTY5OS4xNzA2NjM0NjE5LjQ3MzE4MjY5LjE3MDY3MTcyMjUuMTcwNjcxNzIyNQ.) 全球消費者。 新增Google Pay後，熱門數位錢包開始支援使用，包括Apple Pay和PayPal。
 
@@ -138,7 +139,7 @@ Adobe Commerce現在支援Google Pay，這是領先的數位錢包，預計可�
 >
 >若要瞭解如何設定Google Pay，請參閱我們的 [檔案](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/payments-checkout/payments-options#google-pay-button).
 
-### 使用Live Search的AI支援個人化
+### 即時搜尋，Adobe Sensei提供
 
 [!BADGE 現在可用]{type=Informative tooltip="現在可用"}
 
@@ -150,13 +151,13 @@ Adobe最新版本的Live Search著重於讓這些功能簡單易用，並可讓�
 
 例如，銷售人員可以設定規則，任何包含片語「dress」的搜尋查詢都應依 _趨勢專案_ 演演算法。 該名銷售商隨後可使用 _購買最多_ 適用於所有其他搜尋查詢的演演算法。 透過這項更新，品牌可以針對每個搜尋展示其頂尖產品，進而簡化個人化銷售。
 
-![搜尋引擎的熒幕擷圖](assets/default-search-rule.png){align="center" zoomable="yes"}
+![搜尋引擎的熒幕擷圖](assets/default-search-rule.png){align=center zoomable=&quot;yes&quot;}
 
 Adobe也為Live Search引進了新的自訂選項。 使用「即時搜尋」 [PLP Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling) 和 [彈出視窗Widget](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover)，您可使用低程式碼設定工具來設計即時搜尋UI功能，包括色票、產品詳細資料頁面版面配置選項、新增到購物車按鈕、價格滑塊等。 Adobe透過 [開啟程式碼存放庫](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)，可作為最佳實務參考實作。
 
 >[!TIP]
 >
->若要瞭解如何開始使用即時搜尋，請閱讀我們的 [檔案](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)：
+>若要瞭解如何開始使用即時搜尋，請閱讀我們的 [說明檔案和更新的安裝指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
 
 #### 資料管理控制面板
 
@@ -172,7 +173,7 @@ Adobe Commerce提供一組高效能的軟體即服務(SaaS)功能，以支援銷
 
 去年，Adobe Commerce發行了 [資料連線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)，會自動收集、對應及共用一系列Commerce資料，包括店面點按次數、後端辦公室訂單狀態及訂單歷史記錄資訊。 現今，數位商務領導者正在使用Data Connection來劃分資料獨立單位、建立統一的客戶個人檔案和對象、個人化客戶歷程，以及提供強大的分析功能。
 
-在今年上半年，Adobe將共用更多資料，包括 [Commerce客戶設定檔](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account)、行動應用程式行為以及後台事件的自訂屬性，以大規模個人化行銷活動和體驗。
+今年，Adobe將會分享更多資料，包括 [Commerce客戶設定檔](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/update-account)、行動應用程式行為以及後台事件的自訂屬性，以大規模個人化行銷活動和體驗。
 
 例如，客戶將能夠使用即時Commerce客戶註冊來觸發中的歡迎電子郵件行銷活動 [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started).
 
@@ -184,7 +185,7 @@ Adobe Commerce及其他Adobe Experience Cloud解決方案已推出數百種實�
 
 初始Adobe Commerce Playbook可透過引導客戶完成資料設定程式，讓他們輕鬆啟動放棄的購物車行銷活動。 連線之後，客戶可以快速啟動行銷活動，節省時間並協助提高銷售量。 一家全球零售商取得1.9倍的點選轉換率、每週增加1,000人重新參與，以及透過Adobe Commerce和Adobe Journey Optimizer推出放棄行銷活動的雙位數收入提升。
 
-Adobe也在Adobe Experience Platform中新增Commerce專用控制面板，協助行銷人員分析其Commerce資料並找出個人化的機會。
+Adobe也在Adobe Experience Platform中新增Commerce專用控制面板（例如造訪間隔、頻率和營利報表），協助行銷人員分析其Commerce資料，並找出細分策略和個人化機會。
 
 ![捨棄的購物車行銷活動的圖表](assets/use-case-playbook.png){zoomable="yes"}
 
@@ -192,20 +193,20 @@ Adobe也在Adobe Experience Platform中新增Commerce專用控制面板，協助
 
 去年，Adobe Commerce也推出了 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)，可運用Real-Time CDP的統一客戶設定檔和受眾來個人化購物者歷程。 具體來說， [Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started) 將Commerce資料與其他來源資料拼接，以建立詳細的客戶設定檔和受眾區段，以便在Adobe Commerce中鎖定內容和促銷優惠方案。
 
-在上半年，Adobe正在擴充下列專案 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) 功能可讓行銷人員和銷售人員使用Adobe Real-Time CDP中定義的對象，以個人化Adobe Commerce購物體驗的更多層面，包括 [相關產品](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules)， [促銷活動](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart)、和 [內容區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
+Adobe已展開這些專案 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) 功能可讓行銷人員和銷售人員使用Adobe Real-Time CDP中定義的對象，以個人化Adobe Commerce購物體驗的更多層面，包括 [相關產品規則](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) 對於追加銷售和交叉銷售建議，以及 [促銷活動](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) 和 [內容區塊](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).
 
 #### 在原生行動應用程式中追蹤並個人化商務
 
-Adobe為行動應用程式商務帶來超個人化的體驗。 使用 [資料連線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)，您可以將行動應用程式事件從Adobe Commerce傳送至其他Adobe Experience Cloud應用程式，包括Adobe Real-Time CDP、Adobe Journey Optimizer、Customer Journey Analytics、Adobe Analytics和Adobe Target。 使用 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)，您就可以根據Adobe Real-Time CDP內建立和管理的audiences，個人化應用程式體驗，包括動態內容、促銷活動和相關產品規則。
+Adobe也將超個人化體驗帶入行動應用程式商務。 使用 [資料連線](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)，您可以將行動應用程式事件從Adobe Commerce傳送至其他Adobe Experience Cloud應用程式，包括Adobe Real-Time CDP、Adobe Journey Optimizer、Customer Journey Analytics、Adobe Analytics和Adobe Target。 使用 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)，您就可以根據Adobe Real-Time CDP內建立和管理的Audiences，個人化行動應用程式體驗，包括動態內容、促銷活動和相關產品規則。
 
 ![行動應用程式資料](assets/mobile-app-data.png)
 
 >[!TIP]
 >
 >- 若要瞭解如何開始使用Adobe Commerce Data Connection，請參閱我們的 [檔案](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
->- 若要開始您的個人化歷程，請檢閱 [大規模個人化檔案](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
+>- 若要開始您的個人化歷程並瞭解常見個人化使用案例，請檢閱 [大規模個人化檔案](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale).
 
-探索可口可樂的數位轉型歷程，利用Adobe Commerce的Adobe Journey Optimizer Data Connection和Real-time CDP大規模建立個人化購物體驗。 [可口可樂：釋放資料以打造以消費者為中心的Commerce體驗](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
+探索可口可樂的數位轉型歷程，利用Adobe Commerce的Data Connection與Adobe Journey Optimizer和Real-time CDP大規模建立個人化購物體驗。 [可口可樂：釋放資料以打造以消費者為中心的Commerce體驗](https://business.adobe.com/summit/2024/sessions/cocacola-unlocking-data-to-create-consumercentric-s434.html).
 
 ## 啟用技術的Commerce
 
@@ -215,55 +216,22 @@ Adobe Commerce是可組合的電子商務平台，專為更快速地啟動電子
 
 傳統可撰寫的應用程式是使用多項服務之間的點對點整合所建置。 此方法會導致技術債務增加，導致整合層變得脆弱。 Adobe Commerce為開發人員提供完整的擴充點以及可擴充的平台，以便協調API、事件和資料，進而建立彈性的可撰寫架構。 Adobe Commerce平台包含：
 
-- 全面 [API](https://developer.adobe.com/commerce/webapi/) 涵蓋範圍
-- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) 自訂原生商務程式
-- [管理員UI](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) 擴充性
-- 超過700 [事件](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+- 全面 [API](https://developer.adobe.com/commerce/webapi/) 涵蓋範圍和API協調，使用 [API網格](https://developer.adobe.com/graphql-mesh-gateway/)
+- [Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/) 自訂原生商務程式，例如新增到購物車和結帳
+- 可擴充Commerce的精細控制項 [管理員UI](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) 自訂商家功能
+- 超過700 [事件](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events) 建置可擴充的事件導向整合
 
 ![Adobe Commerce擴充性圖表](assets/comprehensive-extensibility.png)
 
-### Webhook和管理UI SDK增強功能
-
-[!BADGE 現在可用]{type=Informative tooltip="現在可用"}
-
-在最新版本中，Adobe在簡化電子商務企業的可撰寫開發方面持續領先。 您現在可以 [透過Admin UI設定webhook](https://developer.adobe.com/commerce/extensibility/webhooks/admin-configuration/) 讓擴充原生商務程式（例如結帳、加入購物車等）變得更簡單。 Webhook現在也可以有條件地觸發。 例如，您只能針對特定郵遞區號的結帳程式，觸發出貨計算webhook。
-
-開發人員現在擁有更精細的控制功能以擴充管理員UI，例如新增其他 [欄](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/product/grid-columns/)， [按鈕](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/view-button/)、和 [大量動作](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/extension-points/order/mass-action/) 至現有的管理員面板。
-
-今年晚些時候，Adobe會將API Mesh的可用性增加至超過200個全球位置，以降低網路延遲並提供更佳的計算時間；為購物者提供更佳的整體體驗。
-
->[!TIP]
->
->若要瞭解如何開始使用Webhook，請閱讀我們的 [檔案](https://developer.adobe.com/commerce/extensibility/webhooks/).
-
 ### 整合入門套件與預先建立的ERP整合
 
-[!BADGE 2024年6月推出]{type=Informative tooltip="2024年6月推出"}
-
-將電子商務平台與ERP、OMS或CRM整合是一項關鍵任務需求。 公司可能花費數萬美元建置這些整合。 為了降低與後台系統整合的成本，並改善即時連線的可靠性，Adobe推出整合入門套件。
-
-此套件包含常用商業資料的參考整合，包括訂單、產品和客戶。 其中也包括入門指令碼和標準化架構，供開發人員建置在下列最佳實務上。 入門套件（目前為Beta版）可預期減少最多50%的整合工作。
-
-今年晚些時候，Adobe也將發行使用整合入門套件預先建置的兩個常見ERP整合：
-
-- [Microsoft Dynamics Finance &amp; Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance)
-- [SAP S/4HANA](https://www.sap.com/products/erp/s4hana.html)
-
-開發人員可輕鬆自訂這些參考資料整合，滿足業務需求，縮短上市時間，降低整合成本。
-
-#### 由Zuora提供支援的訂閱商務
-
 [!BADGE 現在可用]{type=Informative tooltip="現在可用"}
 
-根據金融服務公司UBS的統計，訂閱經濟有望達到1.5萬億美元，高於2021年的6,500億美元。 消費者和企業都因為便利性和價值而越來越願意購買訂閱產品和服務。
+將電子商務平台與ERP、OMS或CRM整合是一項關鍵任務需求。 公司可能花費數萬美元建置這些整合。 為了降低與後台系統整合的成本，並提高即時連線的可靠性，Adobe提供 [整合入門套件](https://developer.adobe.com/commerce/extensibility/starter-kit/create-integration/) 適用於Adobe Commerce。
 
-為了讓企業增加訂閱收入來源至其業務，並支援現有的經常性收入業務模式，Adobe Commerce已與Zuora （業界領先的訂閱管理平台）合作，推出 [Adobe Commerce的Zuora訂閱管理](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) 副檔名。
+此套件包含常用商業資料的參考整合，包括訂單、產品和客戶。  其中也包括入門指令碼和標準化架構，供開發人員建置在下列最佳實務上。 入門套件預計最多可減少50%的整合工作。 開發人員可輕鬆自訂這些參考資料整合，滿足業務需求，縮短上市時間，降低整合成本。
 
-以Adobe的App Builder架構為基礎， [Zuora擴充功能](https://commercemarketplace.adobe.com/zuora-revenue-management-with-subcriptions.html) 已接收 [Adobe Commerce應用程式保證計畫](https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance/) 對於下列簡化的可撰寫開發最佳實務的認可，包括React原生前端架構，以及使用Adobe I/O事件和AdobeAPI網狀架構來限制核心Adobe Commerce平台內的自訂。
-
->[!TIP]
->
->若要瞭解如何開始使用Zuora擴充功能，請參閱 [檔案](https://commercemarketplace.adobe.com/media/catalog/product/zuora-revenue-management-with-subcriptions-1-0-0-ece/installation_guides.pdf?1708112475).
+2024年6月，Adobe將發行第一個使用此整合入門套件建置的ERP整合加速器 [Microsoft Dynamics Finance &amp; Operations](https://www.microsoft.com/en-us/dynamics-365/products/finance). Microsoft ERP的整合加速器可用於處理訂單、更新產品資料和客戶記錄，以及從Microsoft Dynamics Finance &amp; Operations與Adobe Commerce同步存貨層次。 Microsoft Dynamics Finance &amp; Operations Accelerator將適用於 [Commerce Marketplace](https://commercemarketplace.adobe.com/).
 
 ### Adobe Commerce的HIPAA就緒解決方案
 
