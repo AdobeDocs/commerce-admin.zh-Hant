@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 1. 請系統管理員啟動Adobe Experience Platform並前往 **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. 使用上方的技術帳戶電子郵件，搜尋要修改的認證。
 1. 開啟認證，然後選取 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. 新增 **全部生產存取權**.
+1. 新增包含 **[!UICONTROL Manage destinations]** 許可權。
 1. 按一下 **[!UICONTROL Save]**.
 1. [重新產生](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) 控制檯中的存取權杖。
 1. 使用，驗證權杖是否提供有效的回應 [Target連線API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
