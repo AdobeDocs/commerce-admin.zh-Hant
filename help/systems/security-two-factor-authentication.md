@@ -4,9 +4,9 @@ description: 瞭解雙因素驗證支援，以確保您的系統和資料的安�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 若要變更一次性密碼(OTP)在登入期間可用的時間，請清除 **[!UICONTROL Use system value]** 核取方塊。 然後，輸入您想要的 **[!UICONTROL OTP Window]** 才有效。
 
+![安全性設定 — Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->在Adobe Commerce 2.4.7和更新版本中，OTP視窗組態設定會控制系統接受管理員的一次性密碼(OTP)過期後的時間（以秒為單位）。 此值必須少於30秒。 系統預設設定為 `1`.<br><br> 在2.4.6版中，OTP視窗設定會決定維持有效之過去和未來的OTP代碼數目。 值 `1` 表示目前的OTP程式碼加上過去的一個程式碼和將來一個程式碼在任何時間點都保持有效。
+>在Adobe Commerce 2.4.7和更新版本中，OTP視窗組態設定會控制系統接受管理員的一次性密碼(OTP)過期後的時間（以秒為單位）。 此值必須少於30秒。 系統預設設定為 `29`.<br><br> 在2.4.6版中，OTP視窗設定會決定維持有效之過去和未來的OTP代碼數目。 值 `1` 表示目前的OTP程式碼加上過去的一個程式碼和將來一個程式碼在任何時間點都保持有效。
 
 ### [!DNL Duo Security]
 
