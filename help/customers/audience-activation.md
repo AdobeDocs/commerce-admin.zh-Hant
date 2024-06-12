@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新增](../assets/new.svg)  — 已更新 [Real-Time CDP Audiences控制面板](#real-time-cdp-audiences-dashboard) 包含在Adobe Commerce例項中排序、搜尋及篩選作用中對象的能力。
 
 +++
+
+### 2.2.0
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2024年6月12日_
+
+![新增](../assets/new.svg) - GA版本 —  [相關產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知。
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ composer require magento/audiences
 
 - [建立購物車價格規則](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 由受眾通知
 - [建立動態區塊](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 由受眾通知
-- [(**測試版**)建立相關的產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知
+- [建立相關的產品規則](../merchandising-promotions/product-related-rule-create.md) 由受眾通知
 
-如需有關如何匯出的完整端對端使用案例 [!DNL Commerce] 資料至Real-Time CDP、建立受眾，然後將該受眾啟用至 [!DNL Commerce]，請參閱 [使用以下專案在Real-Time CDP中建立受眾 [!DNL Commerce] 事件資料](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>如需有關如何匯出的完整端對端使用案例 [!DNL Commerce] 資料至Real-Time CDP、建立受眾，然後將該受眾啟用至 [!DNL Commerce]，請參閱 [使用以下專案在Real-Time CDP中建立受眾 [!DNL Commerce] 事件資料](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP受眾控制面板
 
@@ -195,6 +205,7 @@ composer require magento/audiences
 | `Websites` | 指出哪些網站已設定為可使用對象。 |
 | `Dynamic Blocks` | 指出哪些動態區塊已設定為可使用對象。 |
 | `Cart Price Rules` | 指出哪些購物車價格規則已設定為使用對象。 |
+| `Related Product Rules` | 指出哪些相關產品規則已設定為使用對象。 |
 | `Last updated` | 表示對象在Real-Time CDP中的修改時間。 |
 | `Sync now` | 從Real-Time CDP擷取新的或更新對象。 |
 | `Customize table` | 可讓您顯示或隱藏 `Origin`， `Websites`， `Dynamic Blocks`， `Cart Price Rules`、和 `Last updated` 欄。 |

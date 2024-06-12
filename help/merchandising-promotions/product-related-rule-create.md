@@ -3,9 +3,9 @@ title: 建立相關的產品規則
 description: 瞭解如何建立可觸發的相關產品規則，以顯示相關產品、向上銷售和交叉銷售。
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    - 如果規則套用至特定 [客戶區段](../customers/customer-segments.md)，設定 **[!UICONTROL Customer Segments]** 至 `Specified` 並從清單中選擇客戶區段。
 
-   - (**測試版**)如果規則套用至特定 [Real-Time CDP對象](../customers/audience-activation.md)，設定 **[!UICONTROL Real-Time CDP Audience]** 至 `Specified` 並從清單中選擇Real-Time CDP對象。 此功能為測試版。 如果您想要加入Beta版計畫，請傳送要求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - 如果規則套用至特定 [Real-Time CDP對象](../customers/audience-activation.md)，設定 **[!UICONTROL Real-Time CDP Audience]** 至 `Specified` 並從清單中選擇Real-Time CDP對象。 此功能為測試版。 如果您想要加入Beta版計畫，請傳送要求至 [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![相關產品規則 — Real-Time CDP對象](./assets/rtcdp-related-products.png){width="500"}
 
