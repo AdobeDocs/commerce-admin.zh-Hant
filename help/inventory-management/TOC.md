@@ -1,18 +1,18 @@
 ---
-user-guide-title: "[!DNL Inventory Management] 使用者指南"
+user-guide-title: '"[!DNL Inventory Management] 使用手冊」'
 user-guide-description: 瞭解如何使用 [!DNL Inventory Management] 維護銷售數量並處理出貨以完成的功能 [!DNL Commerce] 訂購。
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 10%
+source-wordcount: '137'
+ht-degree: 5%
 
 ---
 
 
-# [!DNL Inventory Management] 使用者指南 {#inventory}
+# [!DNL Inventory Management] 使用手冊 {#inventory}
 
 - [Inventory management指南](guide-overview.md)
 - [簡介 [!DNL Inventory Management]](introduction.md)
@@ -58,3 +58,5 @@ ht-degree: 10%
    - [概觀](shipments.md)
    - [建立出貨](shipments-create.md)
 - [CLI參考](cli.md)
+- [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
