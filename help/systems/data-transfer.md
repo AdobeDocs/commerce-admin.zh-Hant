@@ -3,9 +3,9 @@ title: 資料傳輸
 description: 瞭解資料傳輸支援，包括資料驗證。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: 62978d10bc1b53d3a7983b0a37ccd64e6ab0f740
+source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 例如，您可以將新產品新增至詳細目錄、更新產品資料和進階價格資料，以及用新產品取代一組現有產品。 匯入和匯出工具可協助您更有效率地管理大型產品目錄，因為您可以匯出資料、在試算表中編輯資料，以及將資料匯回您的存放區，而不必在「管理員」中執行多項作業。
 
-除了匯入和匯出工具外，Adobe Commerce還具備類似以下的程式 [目錄同步](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/data-services/catalog-sync.html) 可將產品資料從Commerce伺服器匯出至SaaS服務。 針對如下的功能 [產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)，此同步可讓您以正確的名稱、價格和可用性準確傳回建議。
+除了匯入和匯出工具外，Adobe Commerce還具備類似以下的程式 [SaaS資料匯出](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) 可將產品資料從Commerce伺服器匯出至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括 [產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)， [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)， [目錄服務](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)、和 [SaaS價格索引](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
 
 ## 資料驗證
 

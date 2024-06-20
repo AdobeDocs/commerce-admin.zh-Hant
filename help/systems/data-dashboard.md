@@ -3,9 +3,9 @@ title: 資料管理控制面板
 description: 瞭解如何存取資料串流的深入分析 [!DNL Catalog Service]， [!DNL Live Search]、和 [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ ht-degree: 0%
 >完成同步所需的時間會因目錄大小和更新資料的數量而異。
 
 當處理的產品數目與更新的產品數目相符時，表示同步已完成。
+
+>[!NOTE]
+>
+>Adobe也提供命令列介面和系統記錄，供開發人員和系統整合經銷商用來管理和追蹤同步作業，以及Commerce SaaS服務的疑難排解錯誤。 如需詳細資訊，請參閱 [SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### 同步的產品清單
 
