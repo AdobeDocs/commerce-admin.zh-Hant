@@ -3,9 +3,9 @@ title: 客戶報表
 description: Adobe Commerce和Magento Open Source中可用的客戶報表，可讓您深入分析指定時段或日期範圍內的客戶活動。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 訂單總計間隔，依據 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 下訂單的客戶名稱。 |
 | [!UICONTROL Orders] | 指定間隔的訂單數。 |
-| [!UICONTROL Average] | 平均訂單金額。 |
-| [!UICONTROL Total] | 該期間所有訂單的總和。 |
+| [!UICONTROL Average] | 平均訂單金額。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
+| [!UICONTROL Total] | 該期間所有訂單的總和。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，如果訂單總計包含稅捐，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 訂單計數間隔，依據 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 下訂單的客戶。 |
 | [!UICONTROL Orders] | 指定間隔的訂單數。 |
-| [!UICONTROL Average] | 平均訂單金額。 |
-| [!UICONTROL Total] | 該期間所有訂單的總和。 |
+| [!UICONTROL Average] | 平均訂單金額。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
+| [!UICONTROL Total] | 該期間所有訂單的總和。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，如果訂單總計包含總計，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
 
 {style="table-layout:auto"}
 
