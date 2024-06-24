@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予您的有限存取許可權 [!DNL Commerce] 其他帳戶 [!DNL Commerce] 帳戶持有人。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
    新使用者資訊會出現在 _[!UICONTROL Manage Permissions]_「共用存取」頁面的區段，以及內含存取共用帳戶指示的電子郵件邀請會傳送給新使用者。
 
    ![管理共用存取許可權](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>不需要共用對的存取權 _[!UICONTROL Security Tool]_— 任何具有MAGE ID的使用者都可使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權來變更網站，並使用其中一個驗證網域的所有權。 [必要方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan))。
 
 ## 存取共用帳戶
 
