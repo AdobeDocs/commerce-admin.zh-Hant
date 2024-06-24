@@ -3,9 +3,9 @@ title: 客戶群組
 description: 使用客戶群組來決定哪些折扣可供指定至群組的客戶使用，以及與群組相關聯的稅捐類別。
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
+source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
 1. 完成後，按一下 **[!UICONTROL Save Customer Group]**.
 
 ## 將客戶指派至其他群組
+
+>[!NOTE]
+>
+>變更公司群組後，公司使用者必須登出並登入店面，才能在目錄中檢視新價格。
 
 1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 

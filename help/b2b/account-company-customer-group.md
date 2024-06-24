@@ -4,9 +4,9 @@ description: 瞭解如何在您的Adobe Commerce商店中指派客戶群組至�
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
    >此 [!UICONTROL Customer Group] 清單會包含所有現有的共用目錄，即使組態中停用共用目錄亦然。
 
    變更指派給公司的客戶群組會更新所有公司成員的設定檔。
+
+   >[!NOTE]
+   >
+   >變更公司群組後，公司使用者必須登出並登入店面，才能在目錄中檢視新價格。
 
    ![變更客戶群組或共用目錄](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
