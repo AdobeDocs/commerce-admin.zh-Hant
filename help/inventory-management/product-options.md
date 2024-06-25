@@ -3,9 +3,9 @@ title: '"設定 [!DNL Inventory Management] 產品選項」'
 description: 瞭解如何設定 [!DNL Inventory Management] 產品組態選項。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ ht-degree: 0%
 
    例如，以6為增量銷售的專案可以以6、12、18等數量購買。
 
+   **[!UICONTROL Qty Increments]** 欄位會設定作為單一產品以及可設定、分組和套件產品的子項必須購買的產品專案數量。
+
 1. 完成後，按一下 **[!UICONTROL Done]** 然後 **[!UICONTROL Save]**.
 
 ### 欄位說明
@@ -113,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Uses Decimals] | 全域 | 決定客戶在輸入訂購數量時，是否可以使用小數值而非整數。 選項：<br />`Yes`  — 允許以小數輸入值，而非整數。 小數位數適用於以重量、體積或長度出售的產品。<br />`No`  — 要求以整數輸入數量值。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 全域 | 決定產品的零件是否可以單獨出貨。 出現以下情況時可看見此選項： **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | 全域 | 決定如何管理延期交貨。 延交訂單不會變更訂單的處理狀態。 無論產品是否有庫存，下訂單時仍會立即授權或擷取資金。 產品一推出即開始出貨。 啟用時，建議您為「缺貨臨界值」輸入負值。 選項：<br/>`No Backorders`  — 產品無庫存時，不接受延期交貨。<br />`Allow Qty Below 0`  — 當數量低於零時，接受延期交貨。<br />`Allow Qty Below 0 and Notify Customer`  — 在數量低於零時接受延期交貨，但通知客戶仍可下訂單。 |
-| [!UICONTROL Enable Qty Increments] | 全域 | 決定產品是否可以數量遞增方式銷售。 |
+| [!UICONTROL Enable Qty Increments] | 全域 | 決定產品是否可以數量遞增方式銷售。 增量可設定必須作為單一產品購買的產品專案數量，以及作為可配置、分組和捆綁產品的子產品的數量。 |
 
 >[!NOTE]
 >
