@@ -3,9 +3,9 @@ title: 『[!DNL Adobe Commerce B2B] 版本注意事項
 description: 檢閱發行說明，瞭解中變更的相關資訊 [!DNL Adobe Commerce B2B] 發行版本。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ B2B v1.5.0 Beta版包含新功能、品質改善和錯誤修正。
 ![已修正的問題](../assets/fix.svg) <!--ACP2E-1825-->公司遭到封鎖後，與公司相關聯的使用者就無法再下採購單。 以前，與公司相關聯的使用者可以在公司遭到封鎖時下訂單。
 
 ![已修正的問題](../assets/fix.svg)<!--ACP2E-1933-->公司管理員現在可以從店面新增公司使用者。 以前，當管理員使用者嘗試新增使用者時，Commerce會記錄錯誤： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新增](../assets/new.svg) 新增與Adobe Commerce 2.4.7-p1和2.4.6-p6安全性修補程式版本的相容性。
+
 
 ## B2B v1.4.2
 
