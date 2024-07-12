@@ -1,22 +1,22 @@
 ---
 title: 產品清單
-description: 瞭解_[!UICONTROL Products]_管理中的頁面，您可以在此建立產品及編輯現有產品。
+description: 瞭解Admin中的_[!UICONTROL Products]_頁面，您可在此建立產品並編輯現有產品。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # 產品清單
 
-目錄中的所有產品都可從以下位置存取： _[!UICONTROL Products]_頁面，您可在此建立產品及編輯現有產品。 針對多網站安裝，每個網站都可從相同目錄提供不同產品選項，以供銷售。
+目錄中的所有產品都可從「管理員」的&#x200B;_[!UICONTROL Products]_頁面存取，您可在此建立產品並編輯現有產品。 針對多網站安裝，每個網站都可從相同目錄提供不同產品選項，以供銷售。
 
-此 _[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用的網站，以及目前是否啟用銷售功能。 在Adobe Commerce B2B安裝中使用 [共用目錄](../b2b/catalog-shared.md) 啟用時，網格會包含一欄，指出哪些產品在共用型錄中有替代折扣定價。
+_[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用的網站，以及是否目前啟用銷售這些產品。 在啟用[共用目錄](../b2b/catalog-shared.md)的Adobe Commerce B2B安裝中，網格包含一欄，指出哪些產品在共用目錄中具有替代折扣定價。
 
-您可以逐頁瀏覽清單頁面，或搜尋特定產品。 使用標準 [控制項](../getting-started/admin-grid-controls.md) 排序及篩選清單，並套用 [動作](../getting-started/admin-actions-control.md) 至選取的產品。
+您可以逐頁瀏覽清單頁面，或搜尋特定產品。 使用標準[控制項](../getting-started/admin-grid-controls.md)來排序及篩選清單，並將[動作](../getting-started/admin-actions-control.md)套用至選取的產品。
 
 ![產品格線](./assets/products-grid.png){width="700" zoomable="yes"}
 
@@ -34,23 +34,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不希望產品格線受到限制，請更精確地使用篩選器，以產生專案數少於中指定的數量的集合。 _[!UICONTROL Records Limit]_欄位。
+>如果您不希望產品格線受到限制，請更精確地使用篩選器，以產生專案數少於&#x200B;_[!UICONTROL Records Limit]_欄位中所指定數目的集合。
 
 **_若要設定產品顯示限制：_**
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 展開 **[!UICONTROL Advanced]** 並選擇 **[!UICONTROL Admin]**.
+1. 展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL Admin]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Admin Grids]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Admin Grids]**&#x200B;區段，然後執行下列動作：
 
-   - 設定 **[!UICONTROL Limit Number of Products in Grid]** 至 `Yes`.
+   - 將&#x200B;**[!UICONTROL Limit Number of Products in Grid]**&#x200B;設為`Yes`。
 
-   - （選擇性）在 **[!UICONTROL Records Limit]** 將格線中的產品數量限製為特定值的欄位。 預設最小值為 `20000`.
+   - （選擇性）在&#x200B;**[!UICONTROL Records Limit]**&#x200B;欄位中輸入值，將格線中的產品數目限製為特定值。 預設最小值為`20000`。
 
    ![管理網格組態設定](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 頁面控制項
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 | 欄 | 說明 |
 |--- |--- |
-| （核取方塊） | 選取要接受動作的多個記錄。 每個選定記錄的第一欄中的核取方塊都會標示。 選項： <br/>**[!UICONTROL Select All]**— 選取符合目前篩選設定值的所有記錄。<br/>**[!UICONTROL Select All on This Page]**  — 僅選取在目前頁面上找到的符合篩選器設定的記錄。 |
+| （核取方塊） | 選取要接受動作的多個記錄。 每個選定記錄的第一欄中的核取方塊都會標示。 選項： <br/>**[!UICONTROL Select All]**— 選取找到的所有符合目前篩選設定的記錄。<br/>**[!UICONTROL Select All on This Page]** — 僅選取在目前頁面上找到的符合篩選器設定的記錄。 |
 | [!UICONTROL ID] | 首次儲存新產品時指派的唯一循序編號。 |
 | [!UICONTROL Thumbnail] | 顯示主要產品影像的縮圖。 |
 | [!UICONTROL Name] | 產品名稱。 |
@@ -81,10 +81,11 @@ ht-degree: 0%
 | [!UICONTROL Quantity] | 有庫存的數量。 |
 | [!UICONTROL Salable Quantity] | 此產品所有可用單位的總和。 |
 | [!UICONTROL Visibility] | 表示產品在目錄中的可見位置。 選項： `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
-| [!UICONTROL Status] | 表示產品的狀態。 選項： `Enabled` 和 `Disabled` |
+| [!UICONTROL Status] | 表示產品的狀態。 選項： `Enabled`和`Disabled` |
 | [!UICONTROL Websites] | 表示產品可用的網站。 |
+| [!UICONTROL Remote Media URL] | 如果產品媒體資產是使用Commerce的[AEM Assets整合](../content-design/aem-assets.md)來管理，此欄位會顯示URL，以在AEM Assets Digital Asset Management存放區（儲存資產的集中式存放庫）中檢視Commerce資產。 此欄位僅在啟用AEM Assets整合時顯示。 |
 | [!UICONTROL Action] | 以編輯模式開啟產品。 |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (可搭配 [Adobe Commerce B2B](./b2b/../introduction.md) 僅限)表示包含產品自訂定價的共用目錄。 |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於[Adobe Commerce B2B](./b2b/../introduction.md))表示包含產品自訂定價的共用目錄。 |
 
 {style="table-layout:auto"}
 
