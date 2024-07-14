@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括 [產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)， [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)、和 [目錄服務](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 如需詳細資訊，請參閱 [SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括[產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)、[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[目錄服務](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
 
 ## 資料驗證
 
-所有資料都必須通過驗證，以確保值的品質、正確性和完整性，才能將其匯入存放區。 當您按一下「 」，驗證就會開始 **[!UICONTROL Check Data]**. 在程式進行期間，匯入檔案中的所有圖元都會被驗證為符合下列情況：
+所有資料都必須通過驗證，以確保值的品質、正確性和完整性，才能將其匯入存放區。 當您按一下&#x200B;**[!UICONTROL Check Data]**&#x200B;時，驗證即會開始。 在程式進行期間，匯入檔案中的所有圖元都會被驗證為符合下列情況：
 
-- **屬性**  — 驗證欄標題名稱，確保它們符合系統資料庫中對應的屬性。 每個屬性的值都會受到檢查，以確保其符合資料型別（小數、整數、varchar、文字和日期時間）的需求。
-- **複雜資料**  — 驗證來自已定義集合的值（例如下拉式清單或多重選取輸入型別），以確保這些值存在於已定義集合中。
-- **服務資料**  — 會驗證服務資料欄中的值，以確保屬性或複雜資料值與系統資料庫中已定義的值一致。
-- **必要值**  — 對於新實體，會檢查檔案中是否存在必要的屬性值。 對於現有實體，不需要重新檢查必要屬性值的存在。
-- **分隔符號**  — 雖然在試算表中檢視分隔符號時不會顯示，但CSV檔案中的資料值會以逗號分隔，且文字值會以雙引號括住。 在驗證程式中，會驗證分隔符號的格式以及包含字元字串的每一組引號。
+- **屬性** — 已驗證資料行標頭名稱，以確保它們符合系統資料庫中對應的屬性。 每個屬性的值都會受到檢查，以確保其符合資料型別（小數、整數、varchar、文字和日期時間）的需求。
+- **複雜資料** — 驗證來自已定義集合的值（例如下拉式清單或多重選取輸入型別），以確保這些值存在於已定義的集合中。
+- **服務資料** — 驗證服務資料欄中的值，以確保屬性或複雜資料值與系統資料庫中已定義的值一致。
+- **必要的值** — 對於新實體，會檢查檔案中是否有必要的屬性值。 對於現有實體，不需要重新檢查必要屬性值的存在。
+- **分隔符號** — 雖然在試算表中檢視分隔符號時不會顯示，但CSV檔案中的資料值會以逗號分隔，且文字值會以雙引號括住。 在驗證程式中，會驗證分隔符號的格式以及包含字元字串的每一組引號。
 
 驗證結果會顯示在「驗證結果」區段中，並包含下列資訊：
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 - 無效列數
 - 找到的錯誤數
 
-如果資料有效，則 _匯入成功_ 訊息便會出現。
+如果資料有效，會顯示&#x200B;_匯入成功_&#x200B;訊息。
 
 ![系統訊息 — 檔案有效](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 

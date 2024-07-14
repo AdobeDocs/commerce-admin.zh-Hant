@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 您可以使用組態設定的組合，來控制產品頁面上以及目錄頁面上產品清單中的庫存可用性訊息。
 
-![「無庫存」訊息的已分組產品](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![含有「無庫存」訊息的群組產品](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
 ## 產品頁面庫存訊息
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 視產品可用性和組態設定而定，類別和搜尋結果清單可能會出現下列顯示選項。
 
-![類別頁面上的無庫存訊息](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+類別頁面](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}上的![無庫存訊息
 
 ### 範例1：顯示帶有「無庫存」訊息的產品
 

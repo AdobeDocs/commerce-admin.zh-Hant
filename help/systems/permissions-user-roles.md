@@ -18,17 +18,17 @@ ht-degree: 0%
 
 ## 定義角色
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
-1. 在右上角，按一下 **[!UICONTROL Add New Role]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Add New Role]**。
 
 1. 完成步驟以定義角色：
 
 ### 步驟1：新增角色名稱
 
-1. 在 _[!UICONTROL Role Information]_，輸入描述性&#x200B;**[!UICONTROL Role Name]**.
+1. 在&#x200B;_[!UICONTROL Role Information]_底下，輸入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在 _[!UICONTROL Current User Identity Verification]_，輸入您的密碼。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，輸入您的密碼。
 
    ![系統許可權 — 角色資訊](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -38,24 +38,24 @@ ht-degree: 0%
 >
 >指派資源時，如果您限制指定角色的存取權，請務必停用許可權工具的存取權。 否則，使用者可以修改自己的許可權。
 
-1. 設定 **[!UICONTROL Role Scopes]** 變更為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Role Scopes]**&#x200B;設定為下列其中一項：
 
    - `All`
    - `Custom`
 
-   如果設為 `Custom` 若為多站台安裝，請選取要使用角色的網站和存放區核取方塊。
+   如果針對多站台安裝設定為`Custom`，請選取要使用角色的網站和商店的核取方塊。
 
    ![使用者角色資源 — 自訂範圍](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >使用者具有 `Custom` 角色範圍無法建立網站和類別、將產品指派至類別，或在 _[!UICONTROL All Store Views]_當它們被指派至受限制的存放區時的範圍。 這些使用者也無法執行其他作業_&#x200B;全域&#x200B;_會影響他們無權存取之範圍的動作。
+   >當具有`Custom`角色範圍的使用者被指派至受限制的存放區時，無法建立網站和類別、將產品指派至類別或編輯位於&#x200B;_[!UICONTROL All Store Views]_範圍中的產品。 這些使用者也無法執行其他_&#x200B;全域&#x200B;_動作，這些動作會影響他們無權存取的領域。
 
-1. 在 _[!UICONTROL Roles Resources]_，設定&#x200B;**[!UICONTROL Resource Access]**至 `Custom`.
+1. 在&#x200B;_[!UICONTROL Roles Resources]_底下，將&#x200B;**[!UICONTROL Resource Access]**設定為`Custom`。
 
-1. 在 **[!UICONTROL Resource]** 樹狀結構中，選取角色可存取之每個管理員權能的核取方塊。
+1. 在&#x200B;**[!UICONTROL Resource]**&#x200B;樹狀結構中，選取角色可存取之每個管理員功能的核取方塊。
 
-   若要建立可存取稅捐設定的「管理員」角色，請選擇「銷售/稅捐」與「系統/稅捐」資源。 如果為不同於預設值的區域設定網站 [出貨地點來源](../stores-purchase/shipping-settings.md#point-of-origin)，您必須允許角色存取系統/送貨資源。 出貨設定會決定用於型錄價格的商店稅率。
+   若要建立可存取稅捐設定的「管理員」角色，請選擇「銷售/稅捐」與「系統/稅捐」資源。 如果為不同於您預設[送貨地點](../stores-purchase/shipping-settings.md#point-of-origin)的區域設定網站，您必須允許存取角色的系統/送貨資源。 出貨設定會決定用於型錄價格的商店稅率。
 
    ![已指派的使用者角色資源](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
@@ -63,37 +63,37 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >管理員使用者必須具備 **[!UICONTROL Sales / Archive]** 其角色範圍的許可權，以檢視 _[!UICONTROL Invoices]_，_[!UICONTROL Credit Memos]_、和 _[!UICONTROL Shipments]_訂購 [索引標籤](../stores-purchase/order-processing.md).
+   >系統管理員使用者必須對其角色範圍具有&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;許可權，才能檢視&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_順序[索引標籤](../stores-purchase/order-processing.md)。
 
-1. 完成後，按一下 **[!UICONTROL Save Role]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Role]**。
 
    角色現在會顯示在網格中，並可指派給使用者帳戶。
 
 ## 指派角色給使用者
 
-1. 從 _[!UICONTROL Roles]_格線中，以編輯模式開啟記錄。
+1. 從&#x200B;_[!UICONTROL Roles]_格線，以編輯模式開啟記錄。
 
-1. 在 _[!UICONTROL Current User Identity Verification]_，輸入您的使用者帳戶密碼。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，輸入您的使用者帳戶密碼。
 
-1. 在左側面板中，選擇 **[!UICONTROL Role Users]**.
+1. 在左側面板中選擇&#x200B;**[!UICONTROL Role Users]**。
 
-   此 _[!UICONTROL Role Users]_選項僅在儲存新角色後顯示。
+   _[!UICONTROL Role Users]_選項只有在儲存新角色之後才會出現。
 
    ![指派給角色的使用者帳戶](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. 若要搜尋特定使用者記錄，請執行下列動作：
 
-   - 在欄頂端的搜尋篩選器中輸入值，然後按 **輸入**.
+   - 在欄頂端的搜尋篩選中輸入值，然後按&#x200B;**Enter**。
 
-   - 當您準備好返回完整清單時，請按一下 **[!UICONTROL Reset Filter]**.
+   - 當您準備好返回完整清單時，請按一下&#x200B;**[!UICONTROL Reset Filter]**。
 
 1. 選取要指派給角色的任何使用者的核取方塊。
 
-1. 按一下 **[!UICONTROL Save Role]**.
+1. 按一下&#x200B;**[!UICONTROL Save Role]**。
 
 ## 編輯角色
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
 1. 使用格線上方的篩選條件來找出角色，然後按一下角色名稱。
 
@@ -103,17 +103,17 @@ ht-degree: 0%
 
 1. 出現提示時，請輸入您的密碼以確認您的身分。
 
-1. 按一下 **[!UICONTROL Save Role]**.
+1. 按一下&#x200B;**[!UICONTROL Save Role]**。
 
 ## 刪除角色
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**。
 
 1. 使用格線上方的篩選條件來找出角色，並在編輯模式下開啟。
 
-1. 在右上角，按一下 **[!UICONTROL Delete Role]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Delete Role]**。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 使用者角色示範
 
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 可將下列資源的存取權指派給自訂角色。 請參閱連結的頁面，以進一步瞭解與每個資源相關聯的功能。
 
-![Adobe Commerce](../assets/adobe-logo.svg)  — 僅限Adobe Commerce
+![Adobe Commerce](../assets/adobe-logo.svg) — 僅限Adobe Commerce
 
-![Adobe Commerce B2B](../assets/b2b.svg)  — 僅適用於Adobe Commerce B2B
+![Adobe Commerce B2B](../assets/b2b.svg) — 僅適用於Adobe Commerce B2B
 
 | 資源 |   |   |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ ht-degree: 0%
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [內容分段](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [正在暫存內容](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

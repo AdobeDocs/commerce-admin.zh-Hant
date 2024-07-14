@@ -18,57 +18,57 @@ ht-degree: 0%
 
 ## 設定朋友電子郵件
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Catalog]** 並選擇 **[!UICONTROL Email to a Friend]**.
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Email to a Friend]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Email Templates]** 並設定選項：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Email Templates]**&#x200B;區段並設定選項：
 
    ![目錄設定 — 電子郵件範本](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
-   如需這些組態設定的詳細說明，請參閱 [電子郵件範本](../configuration-reference/catalog/email-to-a-friend.md) 在 _設定參考指南_.
+   如需這些組態設定的詳細說明，請參閱&#x200B;_組態參考指南_&#x200B;中的[電子郵件範本](../configuration-reference/catalog/email-to-a-friend.md)。
 
-   若要變更任何欄位的預設設定，請清除 **[!UICONTROL Use system value]** 核取方塊，讓欄位可編輯。
+   若要變更任何欄位的預設設定，請清除「**[!UICONTROL Use system value]**」核取方塊以使欄位可編輯。
 
-   - 設定 **[!UICONTROL Enabled]** 至 `Yes`.
+   - 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-   - 設定 **[!UICONTROL Select Email Template]** 至要作為訊息基礎的範本。
+   - 將&#x200B;**[!UICONTROL Select Email Template]**&#x200B;設定為您要做為訊息基礎的範本。
 
-   - 如果您想要要求只有註冊客戶才能傳送電子郵件給朋友，請設定 **[!UICONTROL Allow for Guests]** 至 `No`.
+   - 如果您想要要求只有註冊客戶才能傳送電子郵件給朋友，請將&#x200B;**[!UICONTROL Allow for Guests]**&#x200B;設為`No`。
 
-   - 的 **[!UICONTROL Max Recipients]**，輸入單一訊息的通訊群組清單可包含的朋友數目上限。
+   - 針對&#x200B;**[!UICONTROL Max Recipients]**，輸入單一訊息可加入通訊群組清單的朋友數目上限。
 
-   - 的 **[!UICONTROL Max Products Sent in 1 Hour]**，輸入單一使用者可在一小時內，與好友分享的產品數量上限。
+   - 針對&#x200B;**[!UICONTROL Max Products Sent in 1 Hour]**，輸入單一使用者在一小時期間內可與朋友共用的產品數量上限。
 
-   - 設定 **[!UICONTROL Limit Sending By]** 透過下列其中一種方法識別電子郵件的寄件者：
+   - 將&#x200B;**[!UICONTROL Limit Sending By]**&#x200B;設為下列其中一個方法，以識別電子郵件的寄件者：
 
-     `IP Address`  - （建議）依用來傳送電子郵件之電腦的IP位址識別寄件者。
+     `IP Address` - （建議）依用來傳送電子郵件之電腦的IP位址識別寄件者。
 
-     `Cookie (unsafe)`  — 透過瀏覽器Cookie識別寄件者。 此方法效果較差，因為傳送者可以刪除Cookie以略過限制。
+     `Cookie (unsafe)` — 透過瀏覽器Cookie識別寄件者。 此方法效果較差，因為傳送者可以刪除Cookie以略過限制。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 傳送電子郵件給店面的朋友
 
 設定此功能後，商店客戶將依照這些步驟與朋友分享產品資訊。
 
-1. 在目錄頁面上，客戶按一下 **[!UICONTROL Email]** 連結。
+1. 客戶在目錄頁面上按一下&#x200B;**[!UICONTROL Email]**&#x200B;連結。
 
 1. 如果功能僅針對註冊使用者設定，則執行下列任一項作業：
 
    - 登入您的客戶帳戶。
    - 註冊新帳戶。
 
-1. 完成 **[!UICONTROL Message]** 並輸入收件者 **[!UICONTROL Name]** 和 **[!UICONTROL Email Address]**.
+1. 完成&#x200B;**[!UICONTROL Message]**&#x200B;並輸入收件者&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Email Address]**。
 
    如有需要，客戶可以新增更多收件者：
 
-   - 點擊數 **[!UICONTROL Add Invitee]**.
+   - 按一下&#x200B;**[!UICONTROL Add Invitee]**。
 
-   - 輸入 **[!UICONTROL Name]** 和 **[!UICONTROL Email Address]** 其他人員的。
+   - 輸入其他人員的&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Email Address]**。
 
-     他們可以傳送訊息給設定允許的其他人，數量不限。 他們可以按一下 **[!DNL Remove]** 連結。
+     他們可以傳送訊息給設定允許的其他人，數量不限。 他們可以按一下&#x200B;**[!DNL Remove]**&#x200B;連結來移除新增的被邀請者。
 
-1. 準備好傳送訊息時，請按一下 **[!UICONTROL Send Email]**.
+1. 準備傳送訊息時，請按一下&#x200B;**[!UICONTROL Send Email]**。
 
    ![店面範例 — 傳送電子郵件給朋友](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

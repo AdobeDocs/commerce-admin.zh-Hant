@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL Customers] &gt； [!UICONTROL Newsletter]『
-description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Newsletter] 商務管理員頁面。
+title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Newsletter]'
+description: 檢閱Commerce管理員的[!UICONTROL Customers] &amp；gt； [!UICONTROL Newsletter]頁面上的組態設定。
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->電子報是行銷工具的一部分，可傳送新聞、折扣和其他行銷電子郵件給客戶。 註冊客戶可從以下網址管理其訂閱： [帳戶儀表板](../../customers/account-dashboard-my-account.md).
+>電子報是行銷工具的一部分，可傳送新聞、折扣和其他行銷電子郵件給客戶。 註冊客戶可以從其[帳戶儀表板](../../customers/account-dashboard-my-account.md)管理其訂閱。
 
 ## [!UICONTROL General Options]
 
 ![一般選項](./assets/newsletter-general-options.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 決定是否為存放區檢視範圍啟用電子報。 選項： `Yes` / `No` |
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Guest Subscription] | 存放區檢視 | 決定未註冊的來賓是否可以訂閱電子報。 選項： `Yes` / `No` |
 | [!UICONTROL Need to Confirm] | 存放區檢視 | 決定是否必須確認訂閱要求。 這種雙重加入方法是一種驗證測量，可防止人們在未經同意的情況下進行訂閱。 選項： `Yes` / `No` |

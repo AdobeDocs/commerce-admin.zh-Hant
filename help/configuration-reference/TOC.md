@@ -1,6 +1,6 @@
 ---
 user-guide-title: 設定參考指南
-user-guide-description: 本指南提供所有存放區組態設定的參考資訊，這些設定可從**的_Admin_側邊欄存取[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**。
+user-guide-description: 本指南針對從**[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**的_Admin_側邊欄存取的所有商店組態設定，提供參考資訊。
 breadcrumb-title: 設定參考
 hide: false
 role: Admin, Developer, User
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 - [設定參考](guide-overview.md)
 - [設定範圍](scope-change.md)
-- 一般 {#general}
+- 一般{#general}
    - [一般](./general/general.md)
    - [B2B功能](./general/b2b-features.md)
    - [Web](./general/web.md)
@@ -28,19 +28,19 @@ ht-degree: 1%
    - [內容管理](./general/content-management.md)
    - [New Relic報告](./general/new-relic-reporting.md)
    - [進階報告](./general/advanced-reporting.md)
-- 目錄 {#catalog}
+- 目錄{#catalog}
    - [目錄](./catalog/catalog.md)
    - [Visual Merchandiser](./catalog/visual-merchandiser.md)
    - [詳細目錄](./catalog/inventory.md)
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [RSS摘要](./catalog/rss-feeds.md)
    - [傳送電子郵件給朋友](./catalog/email-to-a-friend.md)
-- 安全性 {#security}
+- 安全性{#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA管理面板](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA店面](./security/google-recaptcha-storefront.md)
    - [Security.txt](./security/security-txt.md)
-- 客戶 {#customers}
+- 客戶{#customers}
    - [客戶登入](./customers/login-as-customer.md)
    - [電子報](./customers/newsletter.md)
    - [公司設定](./customers/company-configuration.md)
@@ -52,7 +52,7 @@ ht-degree: 1%
    - [促銷活動](./customers/promotions.md)
    - [贈品登入](./customers/gift-registry.md)
    - [永久購物車](./customers/persistent-shopping-cart.md)
-- 銷售 {#sales}
+- 銷售{#sales}
    - [銷售](./sales/sales.md)
    - [銷售電子郵件](./sales/sales-emails.md)
    - [引號](./sales/quotes.md)
@@ -65,7 +65,7 @@ ht-degree: 1%
    - [GOOGLE API](./sales/google-api.md)
    - [3D安全](./sales/3d-secure.md)
    - [禮品卡](./sales/gift-cards.md)
-   - 付款方法 {#payment-methods}
+   - 付款方法{#payment-methods}
       - [付款方法設定](./sales/payment-methods.md)
       - [付款服務](./sales/payment-services.md)
       - [Braintree](./sales/braintree.md)
@@ -76,11 +76,11 @@ ht-degree: 1%
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal Payflow連結](./sales/paypal-payflow-link.md)
 - [Sales Channel](./sales-channels.md)
-- 服務 {#services}
+- 服務{#services}
    - [Web API](./services/magento-web-api.md)
    - [Commerce服務](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- 進階 {#advanced}
+- 進階{#advanced}
    - [管理員](./advanced/admin.md)
    - [系統](./advanced/system.md)
    - [開發人員](./advanced/developer.md)

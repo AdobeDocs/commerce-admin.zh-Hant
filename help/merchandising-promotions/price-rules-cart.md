@@ -22,19 +22,19 @@ ht-degree: 0%
 
 ## 存取購物車價格規則
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**。
 
    ![購物車價格規則](./assets/price-rule-cart.png){width="700" zoomable="yes"}
 
-1. 如果您有許多規則，請使用每欄頂端的篩選選項來簡化清單，然後按一下 **[!UICONTROL Search]** 以套用篩選器。
+1. 如果您有許多規則，請使用每欄頂端的篩選選項來簡化清單，然後按一下&#x200B;**[!UICONTROL Search]**&#x200B;以套用篩選器。
 
-1. 若要清除所有篩選選項並顯示完整清單，請按一下 **[!UICONTROL Reset Filter]**.
+1. 若要清除所有篩選選項並顯示完整清單，請按一下&#x200B;**[!UICONTROL Reset Filter]**。
 
 1. 更新規則的屬性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下 **[!UICONTROL Edit]** 以顯示「規則資訊」頁面。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示「規則資訊」頁面。
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則，以顯示「規則資訊」頁面。
+   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則以顯示[規則資訊]頁面。
 
    您可以在此處變更規則的設定（類似於建立規則）。
 
@@ -46,14 +46,14 @@ ht-degree: 0%
 | [!UICONTROL Rule] | 輸入文字，以根據建立規則時定義的規則名稱來篩選清單。 |
 | [!UICONTROL Coupon Code] | 輸入文字，以根據建立規則時定義的程式碼名稱來篩選清單。 |
 | [!UICONTROL Priority] | 根據為規則定義的優先順序篩選清單的自由文字欄位。 |
-| [!UICONTROL Status] | 使用此選項可依據規則狀態來篩選清單(`Active` 或 `Inactive`)。 |
+| [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
 | [!UICONTROL Web Site] | 使用此選項可依據針對規則定義的網站來篩選清單。 |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下 **[!UICONTROL Edit]** 以顯示 _[!UICONTROL Rule Information]_並更新規則設定（類似於建立規則）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位(_[!UICONTROL To:]_和_[!UICONTROL From:]_)，以根據建立規則時定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位(_[!UICONTROL To:]_和_[!UICONTROL From:]_)，以根據建立規則時定義的規則結束日期來篩選清單。 |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示「_[!UICONTROL Rule Information]_」頁面並更新規則設定（類似於建立規則）。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），依據建立規則時所定義的規則結束日期來篩選清單。 |
 
 {style="table-layout:auto"}
 
 ## 使用Real-Time CDP受眾來通知購物車價格規則
 
-瞭解如何 [啟用](../customers/audience-activation.md) 將Real-Time CDP對象放入您的Adobe Commerce例項，以告知購物車價格規則。
+瞭解如何在您的Adobe Commerce執行個體中[啟用](../customers/audience-activation.md)個Real-Time CDP對象，以告知購物車價格規則。

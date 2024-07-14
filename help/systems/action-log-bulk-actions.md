@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-大量動作記錄會記錄背景執行之非同步大量操作的詳細資訊，例如匯入/匯出或指派 [自訂價格](../b2b/catalog-shared-manage.md#update-custom-pricing) 至中的多個產品 [共用目錄](../b2b/catalog-shared.md).
+大量動作記錄會記錄背景執行的非同步大量操作的詳細資訊，例如匯入/匯出或將[自訂價格](../b2b/catalog-shared-manage.md#update-custom-pricing)指派給[共用目錄](../b2b/catalog-shared.md)中的多個產品。
 
 ![大量動作記錄](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 設定大量動作
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Advanced]** 並選擇 **[!UICONTROL System]**.
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL System]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Bulk Actions]** 並設定記錄儲存選項：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Bulk Actions]**&#x200B;區段並設定記錄儲存選項：
 
-   **[!UICONTROL Days Saved in Log]**  — 輸入大量動作儲存在記錄中的天數。
+   **[!UICONTROL Days Saved in Log]** — 輸入大量動作儲存在記錄檔中的天數。
 
    ![進階設定 — 大量動作](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   如需組態設定的詳細清單，請參閱 [_大量動作_](../configuration-reference/advanced/system.md) 在 _設定參考_.
+   如需組態設定的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的&#x200B;[_大量動作_](../configuration-reference/advanced/system.md)。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 檢視大量動作
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**。
 
 1. 在記錄中找到所需的動作。
 
-1. 在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Details]**.
+1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL Details]**。

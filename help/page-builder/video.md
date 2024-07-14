@@ -1,20 +1,20 @@
 ---
 title: 媒體 — 影片
-description: 瞭解影片內容型別，用來將託管於YouTube或Vimeo的影片新增至 [!DNL Page Builder] 階段。
+description: 瞭解視訊內容型別，其用於將託管於YouTube或Vimeo的視訊新增至 [!DNL Page Builder] 階段。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # 媒體 — 影片
 
-使用 _視訊_ 內容型別，用於新增託管於的視訊 [YouTube][1] 或 [Vimeo][2] 至 [[!DNL Page Builder] 階段](workspace.md#stage). 將視訊嵌入頁面或區塊，或產品與類別說明中相當容易。
+使用&#x200B;_視訊_&#x200B;內容型別將託管於[YouTube][1]或[Vimeo][2]的視訊新增至[[!DNL Page Builder] 階段](workspace.md#stage)。 將視訊嵌入頁面或區塊，或產品與類別說明中相當容易。
 
-![店面首頁上的影片](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+店面首頁上的![影片](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移動 | ![移動圖示](./assets/pb-icon-move.png){width="25"} | 將視訊移至舞台上的另一個位置。 |
 | （標籤） | [!UICONTROL Video] | 將目前的內容容器識別為視訊。 將滑鼠停留在影像容器上可檢視工具箱。 |
-| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟 _[!UICONTROL Edit Video]_頁面，您可在此變更視訊和容器的屬性。 |
+| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Video]_頁面，您可以在此變更視訊和容器的屬性。 |
 | 隱藏 | ![隱藏圖示](./assets/pb-icon-hide.png){width="25"} | 隱藏目前的視訊。 |
 | 顯示 | ![顯示圖示](./assets/pb-icon-show.png){width="25"} | 顯示隱藏的視訊。 |
-| 複製 | ![「複製」圖示](./assets/pb-icon-duplicate.png){width="25"} | 製作視訊副本。 |
+| 複製 | ![圖示重複](./assets/pb-icon-duplicate.png){width="25"} | 製作視訊副本。 |
 | 移除 | ![移除圖示](./assets/pb-icon-remove.png){width="25"} | 從舞台刪除視訊。 |
 
 {style="table-layout:auto"}
@@ -38,66 +38,66 @@ ht-degree: 0%
 
 ## 新增視訊
 
-1. 開始之前，請導覽至 [YouTube][1] 或 [Vimeo][2] 內嵌的視訊並複製連結。
+1. 開始之前，請導覽至您要內嵌的[YouTube][1]或[Vimeo][2]影片，並複製連結。
 
-   另外，您也可以複製有效視訊檔案的直接連結。 另請參閱 [基本視訊設定](#basic-video-settings) 的有效連結。
+   另外，您也可以複製有效視訊檔案的直接連結。 如需有效的連結，請參閱[基本視訊設定](#basic-video-settings)。
 
-1. 在 [!DNL Commerce] 管理員，返回 [!DNL Page Builder] 您想要新增視訊的工作區。
+1. 在[!DNL Commerce]管理員中，返回您要新增視訊的[!DNL Page Builder]工作區。
 
-1. 在 [!DNL Page Builder] 面板，展開 **[!UICONTROL Media]** 並拖曳 **[!UICONTROL Video]** 舞台的預留位置。
+1. 在[!DNL Page Builder]面板中，展開&#x200B;**[!UICONTROL Media]**&#x200B;並將&#x200B;**[!UICONTROL Video]**&#x200B;預留位置拖曳到舞台。
 
    ![將視訊預留位置拖曳到舞台](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. 將滑鼠停留在視訊容器上以顯示工具箱，然後選擇 _設定_ ( ![設定圖示](./assets/pb-icon-settings.png){width="20"} )圖示。
+1. 將滑鼠懸停在視訊容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 的 **[!UICONTROL Video URL]**，貼上您複製之視訊的URL。
+1. 針對&#x200B;**[!UICONTROL Video URL]**，貼上您複製之視訊的URL。
 
-   的URL [!DNL Page Builder] 此範例中使用的視訊為： `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
+   此範例中使用的[!DNL Page Builder]視訊的URL是： `https://www.youtube.com/watch?v=Y0KNS7C5dZA`。
 
-1. 若要限制 **[!UICONTROL Maximum Width]** 在視訊中，輸入最大寬度（畫素）。
+1. 若要限制視訊的&#x200B;**[!UICONTROL Maximum Width]**，請輸入最大寬度（畫素）。
 
    如果留白，視訊寬度將和容器一樣寬，可允許邊界和邊框間距。
 
-1. 在右上角，按一下 **[!UICONTROL Save]** 以套用設定並返回 [!DNL Page Builder] 工作區。
+1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
 ## 變更視訊設定
 
-1. 將滑鼠停留在視訊容器上以顯示工具箱，然後選擇 _設定_ ( ![設定圖示](./assets/pb-icon-settings.png){width="20"} )圖示。
+1. 將滑鼠懸停在視訊容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
 1. 請依照下列章節修改設定：
 
    - [基本](#basic-video-settings)
    - [進階](#advanced)
 
-1. 在右上角，按一下 **[!UICONTROL Save]** 以套用設定並返回 [!DNL Page Builder] 工作區。
+1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
 ### 基本視訊設定
 
-1. 若要變更目前的視訊，請更新 **[!UICONTROL Video URL]**.
+1. 若要變更目前的視訊，請更新&#x200B;**[!UICONTROL Video URL]**。
 
    請輸入有效的視訊URL。 有效的視訊URL可以連結至：
 
    - YouTube影片： `https://youtu.be/CoDhMRUUjeI`
    - Vimeo影片： `https://vimeo.com/190156113`
-   - 有效的視訊檔案(`.mp4` 建議使用)： `https://myvideos.com/spiral.mp4`
+   - 有效的視訊檔案（建議使用`.mp4`）： `https://myvideos.com/spiral.mp4`
 
-1. 若要變更店面中視訊允許的寬度，請輸入新的 **[!UICONTROL Maximum Width]** 以畫素為單位。
+1. 若要變更店面中視訊允許的寬度，請輸入新的&#x200B;**[!UICONTROL Maximum Width]**&#x200B;畫素。
 
    如果留白，視訊會延伸容器的完整寬度，減去邊界和邊框間距的裕量。
 
-1. 若要在頁面載入後自動啟動視訊，請設定 **[!UICONTROL Autoplay]** 至 `Yes`.
+1. 若要在頁面載入後自動啟動視訊，請將&#x200B;**[!UICONTROL Autoplay]**&#x200B;設為`Yes`。
 
-   如果自動播放設為 `Yes`，視訊會根據原則在播放時設為靜音。 不過，即使使用此設定，行動裝置也無法自動播放您的視訊。 如需這些原則的詳細資訊，請參閱下列開發人員資源：
+   如果「自動播放」設定為`Yes`，則視訊會根據原則在播放時設為靜音。 不過，即使使用此設定，行動裝置也無法自動播放您的視訊。 如需這些原則的詳細資訊，請參閱下列開發人員資源：
 
-   - [Vimeo的自動播放原則](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [來自Vimeo的自動播放原則](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Google (Chrome/YouTube)的自動播放原則](https://developer.chrome.com/blog/autoplay/)
    - [本機視訊的自動播放原則](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-   如果自動播放設為 `No`，影片只會根據使用者需求播放。
+   如果「自動播放」設定為`No`，則視訊只會依使用者要求播放。
 
 ### [!UICONTROL Advanced]
 
-1. 若要控制視訊在容器中的水平位置，請選擇 **[!UICONTROL Alignment]**：
+1. 若要控制視訊在容器中的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
    | 選項 | 說明 |
    | ------ | ----------- |
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-- 設定 **[!UICONTROL Border]** 套用至視訊容器所有四個邊的樣式：
+- 設定套用至視訊容器所有四個側面的&#x200B;**[!UICONTROL Border]**&#x200B;樣式：
 
   | 選項 | 說明 |
   | ------ | ----------- |
@@ -125,7 +125,7 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- 如果您設定的邊框樣式不是 `None`，完成邊框顯示選項：
+- 如果您設定了`None`以外的框線樣式，請完成框線顯示選項：
 
   ![邊框顏色](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- （選擇性）指定下列專案的名稱： **[!UICONTROL CSS classes]** 目前的樣式表以套用至視訊容器。
+- （選擇性）從目前的樣式表中指定要套用至視訊容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;名稱。
 
   以空格分隔多個類別名稱。
 
-- 以畫素為單位，輸入 **[!UICONTROL Margins and Padding]** 指定視訊容器的外邊界和內邊距。
+- 輸入&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;的值（以畫素為單位），以指定視訊容器的外部邊界和內邊距。
 
   在視訊容器圖表中輸入每個對應的值。
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 ## 移動視訊
 
-1. 將滑鼠停留在視訊容器上以顯示工具箱，然後選擇 _移動_ ( ![移動圖示](./assets/pb-icon-move.png){width="20"} )圖示。
+1. 將滑鼠懸停在視訊容器上以顯示工具箱，然後選擇&#x200B;_移動_ （ ![移動圖示](./assets/pb-icon-move.png){width="20"} ）圖示。
 
    ![移動視訊](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
@@ -164,9 +164,9 @@ ht-degree: 0%
 
 ## 從舞台移除影片
 
-1. 將滑鼠停留在視訊容器上以顯示工具箱，然後選擇 _移除_ (![移除圖示](./assets/pb-icon-remove.png))圖示。
+1. 將滑鼠懸停在視訊容器上以顯示工具箱，然後選擇&#x200B;_移除_ （![移除圖示](./assets/pb-icon-remove.png)）圖示。
 
-1. 提示確認時，按一下 **[!UICONTROL OK]**.
+1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

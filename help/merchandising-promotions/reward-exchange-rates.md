@@ -5,7 +5,7 @@ exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 **1**：套用至特定網站和特定客戶群組。
 
-**2**：套用至所有網站和特定客戶群組。
+**2**：適用於所有網站和特定客戶群組。
 
-**3**：套用至特定網站和所有客戶群組。
+**3**：適用於特定網站和所有客戶群組。
 
 **4**：適用於所有網站和所有客戶群組。
 
@@ -32,47 +32,47 @@ ht-degree: 0%
 
 ![獎勵匯率](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**。
 
-1. 在右上角，按一下 **[!UICONTROL Add New Rate]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Add New Rate]**。
 
-1. 在 **[!UICONTROL Reward Exchange Rate Information]** 區段，請執行下列動作：
+1. 在&#x200B;**[!UICONTROL Reward Exchange Rate Information]**&#x200B;區段中，執行下列動作：
 
    ![獎勵匯率 — 資訊](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
-   - 設定 **[!UICONTROL Website]** 至獎勵匯率適用的網站。
+   - 將&#x200B;**[!UICONTROL Website]**&#x200B;設定為套用獎勵匯率的網站。
 
-   - 設定 **[!UICONTROL Customer Group]** 套用獎勵匯率的群組。
+   - 將&#x200B;**[!UICONTROL Customer Group]**&#x200B;設定為套用獎勵匯率的群組。
 
-   - 設定 **[!UICONTROL Direction]** 變更為下列其中一項：
+   - 將&#x200B;**[!UICONTROL Direction]**&#x200B;設定為下列其中一項：
 
       - `Points to Currency`
       - `Currency to Points`
 
    無論是哪一個「方向」設定，金額都會以網站的基本貨幣表示。
 
-1. 輸入 **[!UICONTROL Rate]** 根據 _[!UICONTROL Direction]_設定。
+1. 根據&#x200B;_[!UICONTROL Direction]_設定輸入&#x200B;**[!UICONTROL Rate]**值。
 
    | 方向 | 費率設定 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 在第一個 _[!UICONTROL Rate]_欄位，輸入點數。 在第二個_[!UICONTROL Rate]_ 欄位，輸入點的貨幣值。 |
-   | [!UICONTROL Currency to Points] | 在第一個  _[!UICONTROL Rate]_欄位，輸入貨幣值。 在第二個_[!UICONTROL Rate]_ 欄位，輸入貨幣值所代表的點數。 |
+   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。 |
+   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
 
    將點數轉換為貨幣時，點數無法劃分。 例如，如果10點轉換為$2.00，則必須在以10點為單位的群組中兌換點。 因此，25點可兌換$4.00，剩餘5點則歸客戶結餘。
 
-   建議您為兩者設定轉換 `Points to Currency` 和 `Currency to Points`.
+   建議您同時為`Points to Currency`和`Currency to Points`設定轉換。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 刪除獎勵匯率
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**。
 
 1. 尋找要刪除的獎勵匯率，並在編輯模式中開啟。
 
-1. 在功能表列中，按一下 **[!UICONTROL Delete]**.
+1. 在功能表列中，按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 欄位說明
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 套用回報率的網站。 |
 | [!UICONTROL Customer Group] | 套用回報率的客戶群組。 |
-| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額之點數的點數。 在第一個 _[!UICONTROL Rate]_欄位，輸入點數。 在第二個_[!UICONTROL Rate]_ 欄位，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]**  — 定義可取得客戶點的訂單金額。 在第一個  _[!UICONTROL Rate]_欄位，輸入貨幣值。 在第二個_[!UICONTROL Rate]_ 欄位，輸入貨幣值所代表的點數。 |
+| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額的點數的數量。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_欄位中，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]** — 定義可取得客戶點的訂單金額。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |

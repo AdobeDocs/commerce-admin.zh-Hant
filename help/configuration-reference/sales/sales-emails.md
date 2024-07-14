@@ -1,11 +1,11 @@
 ---
-title: 『[!UICONTROL Sales] &gt； [!UICONTROL Sales Emails]『
-description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL Sales Emails] 商務管理員頁面。
+title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales Emails]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales Emails]頁面上的組態設定。
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,26 @@ ht-degree: 0%
 
 <!-- [General Settings](https://docs.magento.com/user-guide/system/email-communications.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous sending] | 全域 | 判斷是否以非同步方式傳送銷售電子郵件。 建議您啟用非同步傳送。 選項： <br/>**`Disable`**- （預設）事件觸發時會傳送銷售電子郵件。<br/>**`Enable`** - （建議）銷售電子郵件會定期以預先決定的間隔傳送。 |
+| [!UICONTROL Asynchronous sending] | 全域 | 判斷是否以非同步方式傳送銷售電子郵件。 建議您啟用非同步傳送。 選項： <br/>**`Disable`**- （預設）事件觸發時會傳送銷售電子郵件。<br/>**`Enable`** - （建議）銷售電子郵件會以預先決定的固定間隔傳送。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
-![訂購](./assets/sales-emails-order.png)<!-- zoom -->
+![訂單](./assets/sales-emails-order.png)<!-- zoom -->
 
 <!-- [Order](https://docs.magento.com/user-guide/sales/orders.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個下訂單傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL New Order Confirmation Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL New Order Confirmation Template] | 存放區檢視 | 識別會傳送以確認客戶下新訂單的範本。 預設範本： `New Order` |
 | [!UICONTROL New Order Confirmation Template for Guest] | 存放區檢視 | 識別傳送以確認來賓下新訂單的範本。 預設範本： `New Order for Guest` |
 | [!UICONTROL Send Order Email Copy To] | 存放區檢視 | 提供任何人收到訂單電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -49,14 +49,14 @@ ht-degree: 0%
 
 <!-- [Order Comments](https://docs.magento.com/user-guide/sales/order-processing.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個訂單註解傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Order Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Order Comment Email Template] | 存放區檢視 | 識別將註解新增至客戶訂單時傳送的範本。 預設範本： `Order Update` |
 | [!UICONTROL New Order Confirmation Template for Guest] | 存放區檢視 | 識別將註解新增至客體訂單時所傳送的範本。 預設範本： `Order Update for Guest` |
 | [!UICONTROL Send Order Email Copy To|Store View] | 提供任何人收到訂單評論電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Order Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -66,31 +66,31 @@ ht-degree: 0%
 
 <!-- [Invoice](https://docs.magento.com/user-guide/sales/invoices.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個產生的商業發票傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Invoice Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Invoice Email Template] | 存放區檢視 | 識別產生客戶的商業發票時所傳送的範本。 預設範本： `New Invoice` |
 | [!UICONTROL Invoice Email Template for Guest] | 存放區檢視 | 識別在為來賓產生發票時傳送的範本。 預設範本： `New Invoice for Guest` |
 | [!UICONTROL Send Invoice Email Copy To] | 存放區檢視 | 提供任何人接收發票電子郵件復本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Invoice Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Invoice Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
-![商業發票註解](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
+![發票註解](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
 <!-- [Invoice Comments](https://docs.magento.com/user-guide/sales/invoice-create.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個商業發票註解傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Invoice Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Invoice Comment Email Template] | 存放區檢視 | 識別將註解新增至客戶商業發票時所傳送的範本。 預設範本： `Invoice Update` |
 | [!UICONTROL Invoice Comment Email Template for Guest] | 存放區檢視 | 識別將註解新增至來賓發票時所傳送的範本。 預設範本： `Invoice Update for Guest` |
 | [!UICONTROL Send Invoice Comment Email Copy To] | 存放區檢視 | 提供任何人收到發票註解電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Invoice Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Invoice Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -100,14 +100,14 @@ ht-degree: 0%
 
 <!-- [Shipment](https://docs.magento.com/user-guide/sales/shipments.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對產生的每次出貨傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Shipment Email Sender] | 存放區檢視 | 識別顯示為訊息寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Shipment Email Template] | 存放區檢視 | 識別產生客戶的出貨時所傳送的範本。 預設範本： `New Shipment` |
 | [!UICONTROL Shipment Email Template for Guest] | 存放區檢視 | 識別在為來賓產生出貨時傳送的範本。 預設範本： `New Shipment for Guest` |
 | [!UICONTROL Send Shipment Email Copy To] | 存放區檢視 | 提供應接收運送電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Shipment Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Shipment Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -117,14 +117,14 @@ ht-degree: 0%
 
 <!-- [Shipment Comments](https://docs.magento.com/user-guide/sales/shipments.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個出貨註解傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Shipment Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Shipment Comment Email Template] | 存放區檢視 | 識別將註解新增至客戶出貨時所傳送的範本。 預設範本： `Shipment Update` |
 | [!UICONTROL Shipment Comment Email Template for Guest] | 存放區檢視 | 識別將註解新增至來賓出貨時所傳送的範本。 預設範本： `Shipment Update for Guest` |
 | [!UICONTROL Send Shipment Comment Email Copy To] | 存放區檢視 | 提供接收出貨評論電子郵件副本之所有人的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Shipment Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Shipment Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -134,48 +134,48 @@ ht-degree: 0%
 
 <!-- [Credit Memo](https://docs.magento.com/user-guide/sales/credit-memos.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 針對產生的每個銷退折讓單，啟用交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Credit Memo Email Sender] | 存放區檢視 | 識別顯示為訊息寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Credit Memo Email Template] | 存放區檢視 | 識別產生客戶的銷退折讓單時所傳送的範本。 預設範本： `New Credit Memo` |
 | [!UICONTROL Credit Memo Email Template for Guest] | 存放區檢視 | 識別在為來賓產生銷退折讓單時傳送的範本。 預設範本： `New Credit Memo for Guest` |
 | [!UICONTROL Send Credit Memo Email Copy To] | 存放區檢視 | 提供應接收銷退折讓單電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Credit Memo Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Credit Memo Email Copy Method] | 存放區檢視 | 指示用來傳送副本的方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
-![銷退折讓單備註](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
+![銷退折讓單註解](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
 <!-- [Credit Memo Comments](https://docs.magento.com/user-guide/sales/credit-memo-create.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個銷退折讓單註解傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Credit Memo Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `Sales Representative` |
 | [!UICONTROL Credit Memo Comment Email Template] | 存放區檢視 | 識別將註解新增至客戶銷退折讓單時所傳送的範本。 預設範本： `Credit Memo Update` |
 | [!UICONTROL Credit Memo Comment Email Template for Guest] | 存放區檢視 | 識別將註解新增至來賓銷退折讓單時所傳送的範本。 預設範本： `Credit Memo Update for Guest` |
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | 存放區檢視 | 指定任何人收到銷退折讓單評論電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Credit Memo Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Credit Memo Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
-![準備到店取貨的訂單](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
+![已準備好到商店取貨的訂單](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
 <!-- [Order Ready For Pickup in Store](https://docs.magento.com/user-guide/shipping/shipping-in-store-delivery.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會在訂單準備好在店內取貨時傳送交易式電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Order Ready For Pickup Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的商店聯絡人。 預設寄件者： `General Contact` |
 | [!UICONTROL Order Ready For Pickup Email Template] | 存放區檢視 | 識別用於交易式電子郵件的範本，適用於已準備好在店內為註冊客戶取貨的每份訂單。 預設範本： `Order is Ready for Pickup` |
 | [!UICONTROL Order Ready For Pickup Email Template for Guest] | 存放區檢視 | 識別用於交易式電子郵件的範本，適用於已準備好在店內為來賓收取的每份訂單。 預設範本： `Order is Ready for Pickup for Guest` |
-| 將訂單準備取貨電子郵件副本傳送至 | 存放區檢視 | 指定任何接收副本之人員的電子郵件地址 _訂單準備取貨_ 電子郵件。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Order Ready For Pickup Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| 將訂單準備取貨電子郵件副本傳送至 | 存放區檢視 | 指定任何人收到&#x200B;_訂單準備取貨_&#x200B;電子郵件復本的電子郵件地址。 請使用逗號分隔多個地址。 |
+| [!UICONTROL Send Order Ready For Pickup Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 ![採購單核准](./assets/sales-emails-purchase-order-approval.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會在採購單處理期間傳送電子郵件。 選項： `Yes` / `No` |
 | [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] | 存放區檢視 | 傳送電子郵件確認給採購單建立者。 |
@@ -202,11 +202,11 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-![引用](./assets/sales-emails-quote.png)<!-- zoom -->
+![報價](./assets/sales-emails-quote.png)<!-- zoom -->
 
 <!-- [Quotes](https://docs.magento.com/user-guide/customers/account-dashboard-quotes.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用從目前商店檢視傳送報價電子郵件訊息。 選項： `Yes` / `No` |
 | [!UICONTROL Updated Quote Template (to Buyer)] | 存放區檢視 | 決定當有更新的報價可用時，用於傳送給買家的通知的電子郵件範本。 預設範本： `Updated Quote` |
@@ -217,7 +217,7 @@ ht-degree: 0%
 | [!UICONTROL Quote Expiration (in 24 hrs)] | 存放區檢視 | 指定在報價到期前24小時傳送之到期通知所使用的電子郵件範本。 預設範本： `Expiration Warning 1` |
 | [!UICONTROL Expiration Date Reset] | 存放區檢視 | 指定在到期日變更時傳送之通知所使用的電子郵件範本。 預設範本： `Expiration Date Reset` |
 | [!UICONTROL Send Quote Email Copy To] | 存放區檢視 | 指定每個要接收報價電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send Quote Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send Quote Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -229,14 +229,14 @@ ht-degree: 0%
 
 <!-- [RMA](https://docs.magento.com/user-guide/sales/returns.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 為每個產生的RMA啟用電子郵件通知。 選項： `Yes` / `No` |
-| [!UICONTROL RMA Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 即訊息的寄件者。 預設值： `Sales Representative` |
-| [!UICONTROL RMA Email Template] | 存放區檢視 | 決定 [電子郵件范](../../systems/email-templates.md) 用於向客戶產生RMA時傳送的通知。 預設範本： `New RMA` |
+| [!UICONTROL RMA Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的[商店連絡人](../../getting-started/store-details.md#store-email-addresses)。 預設值： `Sales Representative` |
+| [!UICONTROL RMA Email Template] | 存放區檢視 | 決定當客戶產生RMA時，用於傳送通知的[電子郵件範本](../../systems/email-templates.md)。 預設範本： `New RMA` |
 | [!UICONTROL RMA Email Template for Guest] | 存放區檢視 | 決定為來賓產生RMA時傳送的範本。 預設範本： `New RMA for Guest` |
 | [!UICONTROL Send RMA Email Copy To] | 存放區檢視 | 提供應接收RMA電子郵件副本之人員的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send RMA  Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send RMA  Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -248,14 +248,14 @@ ht-degree: 0%
 
 <!-- [RMA Authorization](https://docs.magento.com/user-guide/sales/rma-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個RMA授權傳送電子郵件通知。 選項： `Yes` / `No` |
-| [!UICONTROL RMA Authorization Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 顯示為郵件寄件者。 預設值： `Sales Representative` |
-| [!UICONTROL RMA Authorization Email Template] | 存放區檢視 | 決定 [電子郵件范](../../systems/email-templates.md) 用於傳送RMA授權通知時。 預設範本： `RMA Authorization` |
+| [!UICONTROL RMA Authorization Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的[商店連絡人](../../getting-started/store-details.md#store-email-addresses)。 預設值： `Sales Representative` |
+| [!UICONTROL RMA Authorization Email Template] | 存放區檢視 | 決定傳送RMA授權通知時所使用的[電子郵件範本](../../systems/email-templates.md)。 預設範本： `RMA Authorization` |
 | [!UICONTROL RMA Authorization Email Template for Guest] | 存放區檢視 | 決定將RMA授權通知傳送給來賓時所使用的範本。 預設範本： `RMA Authorization for Guest` |
 | [!UICONTROL Send RMA Authorization Email Copy To] | 存放區檢視 | 提供任何人收到RMA授權電子郵件副本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send RMA Authorization Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send RMA Authorization Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -265,14 +265,14 @@ ht-degree: 0%
 
 ![RMA管理註解](./assets/sales-emails-rma-admin-comments.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個RMA管理員註解傳送電子郵件通知。 選項： `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 顯示為郵件寄件者。 預設值： `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | 存放區檢視 | 決定 [電子郵件范](../../systems/email-templates.md) 當管理員為客戶在RMA中新增註解時，就會使用這個選項。 預設範本： `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的[商店連絡人](../../getting-started/store-details.md#store-email-addresses)。 預設值： `Sales Representative` |
+| [!UICONTROL RMA Comment Email Template] | 存放區檢視 | 決定管理員將註解新增至客戶的RMA時所使用的[電子郵件範本](../../systems/email-templates.md)。 預設範本： `RMA Admin Comments` |
 | [!UICONTROL RMA Comment Email Template for Guest] | 存放區檢視 | 決定管理員將訪客的評論新增至RMA時所使用的範本。 預設範本： `RMA Admin Comments for Guest` |
 | [!UICONTROL Send RMA Comment Email Copy To] | 存放區檢視 | 提供任何人接收通知復本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}
 
@@ -280,17 +280,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-![RMA客戶註解](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
+![RMA客戶意見](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
 <!-- [RMA Customer Comments](https://docs.magento.com/user-guide/sales/returns.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 啟用時，會針對每個RMA客戶註解傳送電子郵件通知。 選項： `Yes` / `No` |
-| [!UICONTROL RMA Comment Email Sender] | 存放區檢視 | 識別 [商店聯絡人](../../getting-started/store-details.md#store-email-addresses) 顯示為郵件寄件者。 預設值： `Customer Support` |
+| [!UICONTROL RMA Comment Email Sender] | 存放區檢視 | 識別顯示為郵件寄件者的[商店連絡人](../../getting-started/store-details.md#store-email-addresses)。 預設值： `Customer Support` |
 | [!UICONTROL RMA Comment Email Recipient] | 存放區檢視 | 識別商店聯絡人，其為客戶評論電子郵件的收件者。 預設值： `Sales Representative` |
-| [!UICONTROL RMA Comment Email Template] | 存放區檢視 | 決定 [電子郵件范](../../systems/email-templates.md) 當客戶將註解新增至RMA時使用該選項。 預設範本： `RMA Admin Comments` |
+| [!UICONTROL RMA Comment Email Template] | 存放區檢視 | 決定客戶將註解新增至RMA時所使用的[電子郵件範本](../../systems/email-templates.md)。 預設範本： `RMA Admin Comments` |
 | [!UICONTROL Send RMA Comment Email Copy To] | 存放區檢視 | 提供任何人接收通知復本的電子郵件地址。 請使用逗號分隔多個地址。 |
-| [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的同一封電子郵件的標題中包含收件者，以傳送簡明的禮貌副本。 客戶看不到密件副本收件者。<br/>**`Separate Email`**  — 以個別電子郵件的形式傳送副本。 |
+| [!UICONTROL Send RMA Comments Email Copy Method] | 存放區檢視 | 表示用於傳送副本的電子郵件方法。 選項包括： <br/>**`Bcc`**— 在傳送給客戶的相同電子郵件的標題中包含收件者，以傳送不公開的禮貌復本。 客戶看不到密件副本收件者。<br/>**`Separate Email`** — 以個別電子郵件的形式傳送復本。 |
 
 {style="table-layout:auto"}

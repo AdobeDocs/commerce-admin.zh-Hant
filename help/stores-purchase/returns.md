@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 傳回
 
-A _退貨商品授權_ (RMA)可授與要求退回料號以進行更換或退款的客戶。 通常客戶會聯絡商家要求退款。 如果核准，則會指派唯一的RMA編號，以識別傳回的產品。 在設定中，您可以為所有產品啟用RMA，或僅允許特定產品使用RMA。 此 _[!UICONTROL Returns]_grid會列出目前退回的商品請求(RMA)，並用來輸入新的退回請求。
+可以將&#x200B;_退回的商品授權_ (RMA)授與要求退回專案以進行更換或退款的客戶。 通常客戶會聯絡商家要求退款。 如果核准，則會指派唯一的RMA編號，以識別傳回的產品。 在設定中，您可以為所有產品啟用RMA，或僅允許特定產品使用RMA。 _[!UICONTROL Returns]_方格列出目前傳回的商品請求(RMA)，並用來輸入新的退貨請求。
 
 ![傳回格線](./assets/return.png){width="600" zoomable="yes"}
 
@@ -29,17 +29,17 @@ RMA可針對簡單、分組、可設定和套裝產品型別發行。 不過，R
 | [!UICONTROL Ordered] | 下訂單的日期和時間 |
 | [!UICONTROL Customer] | 下訂單的客戶或採購員名稱 |
 | [!UICONTROL Status] | 傳回狀態。 選項： `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** 在編輯模式中開啟傳回。 |
+| [!UICONTROL Action] | **[!UICONTROL View]**&#x200B;會以編輯模式開啟傳回。 |
 
 {style="table-layout:auto"}
 
 ## RMA與退貨工作流程
 
-1. **接收要求**  — 如果 [已啟用](rma-configure.md#enable-rmas-for-your-store) 對於店面，註冊客戶和來賓都可以要求RMA。 您也可以 [在管理員中提交RMA請求](#create-a-return-request-in-the-admin).
+1. **接收要求** — 如果店面[已啟用](rma-configure.md#enable-rmas-for-your-store)，則已註冊的客戶和來賓都可以要求RMA。 您也可以[在Admin](#create-a-return-request-in-the-admin)中提交RMA要求。
 
-2. **RMA已核發**  — 考慮請求後，您可以部分、完整地授權它，或取消請求。 如果您授權退貨，並同意支付退貨出貨，則可以使用支援的承運商，從「管理員」建立出貨單。
+2. **已發出RMA** — 考慮要求之後，您可以授權其部分、完整或取消要求。 如果您授權退貨，並同意支付退貨出貨，則可以使用支援的承運商，從「管理員」建立出貨單。
 
-3. **收到的商品及處理的產品退貨**  — 下列流程圖說明完成退貨處理的作業順序：
+3. **已接收商品並處理產品退貨** — 下列流程圖說明完成退貨程式的作業順序：
 
    ![產品退貨工作流程](./assets/workflow-customer-returns.png){width="500"}
 
@@ -64,45 +64,45 @@ RMA可針對簡單、分組、可設定和套裝產品型別發行。 不過，R
 
 ## 在Admin中建立傳回要求
 
-商家可以從管理員代客戶建立退貨請求。 客戶可以 [建立退貨要求](rma-customer-experience.md) Adobe Commerce商店的店面。
+商家可以從管理員代客戶建立退貨請求。 客戶可以[在店面為Adobe Commerce商店](rma-customer-experience.md)建立退貨要求。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Returns]**。
 
-1. 按一下 **[!UICONTROL New Return Request]**.
+1. 按一下&#x200B;**[!UICONTROL New Return Request]**。
 
-1. 若要建立退貨請求，請按一下訂單，並附上 `Complete` 狀態。
+1. 若要建立退貨要求，請按一下狀態為`Complete`的訂單。
 
-1. 在 _[!UICONTROL Return Information]_區段，選取&#x200B;**[!UICONTROL Return Items]**標籤。
+1. 在&#x200B;_[!UICONTROL Return Information]_區段下，選取&#x200B;**[!UICONTROL Return Items]**標籤。
 
-1. 若要新增要傳回的專案，請按一下 **[!UICONTROL Add Items]**.
+1. 若要新增要傳回的專案，請按一下&#x200B;**[!UICONTROL Add Items]**。
 
-1. 選取所需產品的核取方塊，然後按一下 **[!UICONTROL Add Selected Product to returns]**.
+1. 選取所需產品的核取方塊，然後按一下&#x200B;**[!UICONTROL Add Selected Product to returns]**。
 
-1. 的 **[!UICONTROL Requested]**，輸入要傳回的專案數。
+1. 針對&#x200B;**[!UICONTROL Requested]**，輸入要傳回的專案數。
 
-1. 設定 **[!UICONTROL Return Reason]** 變更為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Return Reason]**&#x200B;設定為下列其中一項：
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   如果退貨的原因與列出的選擇不同，您可以輸入您自己的選擇 `Other` 選項。
+   如果退貨的原因與列出的選擇不同，您可以選取`Other`選項，輸入您自己的選擇。
 
-1. 設定 **[!UICONTROL Item Condition]** 變更為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Item Condition]**&#x200B;設定為下列其中一項：
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. 設定 **[!UICONTROL Resolution]** 變更為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Resolution]**&#x200B;設定為下列其中一項：
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. 若要建立退貨，請按一下 **[!UICONTROL Submit Returns]**.
+1. 若要建立傳回，請按一下&#x200B;**[!UICONTROL Submit Returns]**。
 
-   ![已要求RMA專案](./assets/return-item-request.png){width="600" zoomable="yes"}
+   已要求![個RMA專案](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   新提交的RMA請求會顯示在 **[!UICONTROL Returns]** 頁面具有 `Pending` 狀態。
+   新提交的RMA要求會以`Pending`狀態顯示在&#x200B;**[!UICONTROL Returns]**&#x200B;頁面上。

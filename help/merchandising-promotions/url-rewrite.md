@@ -5,7 +5,7 @@ exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ URL重寫工具可讓您變更與產品、類別或CMS頁面相關聯的任何UR
 
 >[!NOTE]
 >
->若要同時更新多個或所有產品的URL重寫，請參閱 [多個URL重寫](url-rewrite-product.md#multiple-url-rewrites).
+>若要同時更新多個或所有產品的URL重寫，請參考[多個URL重寫](url-rewrite-product.md#multiple-url-rewrites)。
 
-條款 _重寫_ 和 _重新導向_ 通常可互換使用，但指的流程稍有不同。 URL重寫會變更URL在瀏覽器中的顯示方式。 URL重新導向會更新儲存在伺服器上的URL。 URL重新導向可以是暫時的或永久的。 您的商店會使用URL重寫和重新導向，讓您輕鬆變更產品、類別或頁面的URL金鑰，並保留現有連結。
+術語&#x200B;_rewrite_&#x200B;和&#x200B;_重新導向_&#x200B;通常可互換使用，但參考的流程稍有不同。 URL重寫會變更URL在瀏覽器中的顯示方式。 URL重新導向會更新儲存在伺服器上的URL。 URL重新導向可以是暫時的或永久的。 您的商店會使用URL重寫和重新導向，讓您輕鬆變更產品、類別或頁面的URL金鑰，並保留現有連結。
 
-根據預設， [自動URL重新導向](url-redirect-product-automatic.md) 已為您的商店啟用，且 **為舊URL建立永久重新導向** 勾選每個產品的URL鍵欄位下的核取方塊。
+預設會針對您的商店啟用[自動URL重新導向](url-redirect-product-automatic.md)，並且在每個產品的URL索引鍵欄位下會選取&#x200B;**為舊URL建立永久重新導向**&#x200B;核取方塊。
 
 {{url-rewrite-skip}}
 
@@ -44,11 +44,11 @@ Google如果您未明確指出哪個URL是標準網址，系統會為您做出�
     https://example.com
     https://www.example.com/index.html
 
-若要指定標準頁面，請參閱 [Google Search Central檔案](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+若要指定標準頁面，請參閱[Google Search Central檔案](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)。
 
 ## 設定URL重寫
 
-啟用網頁伺服器Apache Rewrites是初始Commerce設定的一部分。 Commerce會定期使用URL重寫來移除檔案名稱 `index.php` 通常顯示在根資料夾之後的URL中。 啟用Web伺服器重寫時，系統會重寫每個URL以省略 `index.php`. 重寫作業會移除對搜尋引擎或客戶毫無價值的字詞，對效能或網站排名沒有影響。
+啟用Web伺服器Apache Rewrites是初始Commerce設定的一部分。 Commerce會定期使用URL重寫來移除通常出現在URL根資料夾之後的檔案名稱`index.php`。 啟用Web伺服器重寫時，系統會重寫每個URL以省略`index.php`。 重寫作業會移除對搜尋引擎或客戶毫無價值的字詞，對效能或網站排名沒有影響。
 
 不重寫網頁伺服器的URL
 
@@ -58,17 +58,17 @@ Google如果您未明確指出哪個URL是標準網址，系統會為您做出�
 
     http://www.yourdomain.com/magento/storeview/url-identifier
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，其中 **[!UICONTROL General]** 展開，請選擇 **[!UICONTROL Web]**.
+1. 在展開&#x200B;**[!UICONTROL General]**&#x200B;的左側面板中，選擇&#x200B;**[!UICONTROL Web]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Search Engine Optimization]** 區段。
+1. 展開&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   ![一般設定 — 網頁搜尋引擎最佳化](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![一般設定 — Web搜尋引擎最佳化](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Use Web Server Rewrites]** 依您的偏好設定。
+1. 將&#x200B;**[!UICONTROL Use Web Server Rewrites]**&#x200B;設定為您的偏好設定。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 建立URL重寫
 

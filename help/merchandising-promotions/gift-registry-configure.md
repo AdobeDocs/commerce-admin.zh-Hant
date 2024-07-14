@@ -5,7 +5,7 @@ exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 feature: Gift, Storefront, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -24,47 +24,47 @@ Adobe Commerce針對這些可針對您的品牌自訂的電子郵件訊息，分
 
 ## 步驟1. 啟用贈品登記簿
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Customers]** 並選擇 **[!UICONTROL Gift Registry]**
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Gift Registry]**
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL General Options]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL General Options]**&#x200B;區段，然後執行下列動作：
 
-   ![客戶組態 — 贈品登入一般](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![客戶組態 — 禮品登入一般](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - 禮品登入預設為啟用。 如有必要，請設定 **[!UICONTROL Enable Gift Registry]** 至 `Yes`.
+   - 禮品登入預設為啟用。 如有必要，請將&#x200B;**[!UICONTROL Enable Gift Registry]**&#x200B;設為`Yes`。
 
-   - 的 **[!UICONTROL Maximum Registrants]**，輸入受邀參與贈品註冊活動的人數上限。
+   - 針對&#x200B;**[!UICONTROL Maximum Registrants]**，輸入可受邀參與贈品註冊活動的人數上限。
 
 ## 步驟2. 設定電子郵件通知
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Owner Notification]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Owner Notification]**&#x200B;區段，然後執行下列動作：
 
-   ![客戶設定 — 禮品登入擁有者通知](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![客戶組態 — 禮品登入擁有者通知](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - 選擇 **[!UICONTROL Email Template]** 會在建立贈品註冊時通知贈品註冊擁有者。
+   - 選擇在建立禮品註冊時通知其擁有者的&#x200B;**[!UICONTROL Email Template]**。
 
-   - 選擇 [商店聯絡人](../getting-started/store-details.md#store-email-addresses) 顯示為 **[!UICONTROL Email Sender]** 訊息的。
+   - 選擇顯示為郵件&#x200B;**[!UICONTROL Email Sender]**&#x200B;的[商店連絡人](../getting-started/store-details.md#store-email-addresses)。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Gift Registry Sharing]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Gift Registry Sharing]**&#x200B;區段，然後執行下列動作：
 
-   ![客戶設定 — 贈品登入共用](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![客戶組態 — 贈品登入共用](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - 選擇 **[!UICONTROL Email Template]** 會在共用登入時通知贈品登入收件者。
+   - 選擇在與贈品登入收件者共用登入時，通知贈品登入收件者的&#x200B;**[!UICONTROL Email Template]**。
 
-   - 選擇顯示的存放區識別碼 **[!UICONTROL Email Sender]** 訊息的。
+   - 選擇顯示為郵件&#x200B;**[!UICONTROL Email Sender]**&#x200B;的存放區識別碼。
 
-   - 的 **[!UICONTROL Maximum Sent Emails Threshold]**，輸入一次可傳送的最大電子郵件數量。
+   - 針對&#x200B;**[!UICONTROL Maximum Sent Emails Threshold]**，輸入一次可傳送的最大電子郵件數量。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Gift Registry Update]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Gift Registry Update]**&#x200B;區段，然後執行下列動作：
 
-   ![客戶設定 — 禮品登入更新](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
+   ![客戶組態 — 禮品登入更新](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - 選擇 **[!UICONTROL Email Template]** 會通知贈品登入擁有者登入的變更。
+   - 選擇通知贈品登入擁有者登入變更的&#x200B;**[!UICONTROL Email Template]**。
 
-   - 選擇顯示的存放區識別碼 **[!UICONTROL Email Sender]** 訊息的。
+   - 選擇顯示為郵件&#x200B;**[!UICONTROL Email Sender]**&#x200B;的存放區識別碼。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 1. 出現提示時，請更新快取。
 

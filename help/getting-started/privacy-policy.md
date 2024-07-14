@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 存放區隱私權原則
 
-您的商店包含必須使用您自己的資訊更新的範例隱私權原則。 您的隱私權政策應說明貴公司收集的資訊型別及使用方式。 它應該也會列出檔案名稱 [Cookie](compliance-cookie-law.md#default-cookies) 放在造訪您商店之人員的電腦上。 與協力廠商擴充功能和附加元件相關聯的任何其他Cookie都應包含在清單中。
+您的商店包含必須使用您自己的資訊更新的範例隱私權原則。 您的隱私權政策應說明貴公司收集的資訊型別及使用方式。 它應該也會列出放在造訪您商店之使用者電腦上的[Cookie](compliance-cookie-law.md#default-cookies)檔案名稱。 與協力廠商擴充功能和附加元件相關聯的任何其他Cookie都應包含在清單中。
 
 ## 個人資料
 
@@ -34,18 +34,18 @@ ht-degree: 0%
 >
 >Luma範例資料包含範例隱私權原則，您可加以修改以供使用。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在格線中，尋找 **[!UICONTROL Privacy Policy]**. 然後，在 _[!UICONTROL Action]_欄，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**.
+1. 在格線中，尋找&#x200B;**[!UICONTROL Privacy Policy]**。 然後，在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
    >[!NOTE]
    >
-   >如果您變更隱私權原則頁面的URL金鑰，您也必須建立 [自訂URL重寫](../merchandising-promotions/url-rewrite-custom.md) 將流量重新導向至新的URL金鑰。 否則，頁尾中的連結會傳回 `404 Page Not Found`.
+   >如果您變更隱私權原則頁面的URL金鑰，您也必須建立[自訂URL重寫](../merchandising-promotions/url-rewrite-custom.md)，以將流量重新導向至新的URL金鑰。 否則，頁尾中的連結會傳回`404 Page Not Found`。
 
-1. 展開 **[!UICONTROL Content]** 並對內容進行必要的變更。
+1. 展開&#x200B;**[!UICONTROL Content]**&#x200B;區段並對內容進行必要的變更。
 
-   若要進一步瞭解使用頁面內容工具，請參閱 [完成內容](../content-design/page-add.md#step-2-complete-the-content) 在 _內容與設計手冊_.
+   若要進一步瞭解如何使用頁面內容工具，請參閱&#x200B;_內容與設計手冊_&#x200B;中的[完成內容](../content-design/page-add.md#step-2-complete-the-content)。
 
    ![隱私權原則頁面 — 編輯內容](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. 完成後，按一下 **[!UICONTROL Save Page]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Page]**。

@@ -5,41 +5,41 @@ exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
 # PayPal支付解決方案
 
-PayPal是全球線上支付的領先業者，也是客戶線上付款的快速安全方式。 可用的PayPal解決方案選擇因商家所在地而異。 PayPal Express Checkout和PayPal Payments Standard適用於全球各地。 若要深入瞭解，請參閱 [各國的PayPal解決方案](#paypal-solutions-by-country).
+PayPal是全球線上支付的領先業者，也是客戶線上付款的快速安全方式。 可用的PayPal解決方案選擇因商家所在地而異。 PayPal Express Checkout和PayPal Payments Standard適用於全球各地。 若要瞭解更多資訊，請參閱[依國家/地區的PayPal解決方案](#paypal-solutions-by-country)。
 
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->從2019年9月14日開始，歐洲銀行可能會拒絕不符合規定的付款 [PSD2](../getting-started/compliance-payment-services-directive.md) 需求。 對於大多數PayPal解決方案，無需採取任何動作即可遵守PSD2，因為這些要求是由PayPal處理。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 對於大多數PayPal解決方案，無需採取任何動作即可遵守PSD2，因為這些要求是由PayPal處理。
 
 ## PayPal企業帳戶
 
-若要在商店中提供PayPal付款方式，您必須擁有PayPal [商業帳戶][1] 和/或 [PayPal Payflow帳戶][2]. 帳戶需求會在每個PayPal解決方案的說明中指定。 您的PayPal商家帳戶也用於管理任何 [欺詐篩選器](#paypal-fraud-management-filters) 套用至商店購買的專案。
+若要在商店提供PayPal付款方式，您必須擁有PayPal [企業帳戶][1]和/或[PayPal Payflow帳戶][2]。 帳戶需求會在每個PayPal解決方案的說明中指定。 您的PayPal商家帳戶也可用來管理任何[欺詐篩選器](#paypal-fraud-management-filters)，這些篩選器套用到從您的商店進行的購買。
 
-使用PayPal Express Checkout或Express Checkout for Payflow Pro的客戶必須擁有PayPal購買者帳戶。 PayPal Payments Standard （某些國家的網站支付標準）可直接使用，或透過買方帳戶使用，但商家必須啟用 _PayPal帳戶（選擇性）_. 預設會啟用此引數，讓客戶可以選擇輸入信用卡資訊，或使用PayPal建立採購員帳戶。 停用時，客戶必須先建立PayPal購買者帳戶，才能進行購買。
+使用PayPal Express Checkout或Express Checkout for Payflow Pro的客戶必須擁有PayPal購買者帳戶。 當商家啟用&#x200B;_PayPal帳戶選擇性_&#x200B;時，PayPal付款標準（某些國家/地區的網站付款標準）可直接使用或透過買家帳戶使用。 預設會啟用此引數，讓客戶可以選擇輸入信用卡資訊，或使用PayPal建立採購員帳戶。 停用時，客戶必須先建立PayPal購買者帳戶，才能進行購買。
 
 Website Payments Pro、Website Payments Pro Payflow Edition、Payflow Pro Gateway和Payflow Link會要求客戶在結帳時輸入信用卡資訊。
 
 ## PayPal點數和PayLater
 
-PayPal PayLater讓您的客戶能夠快速取得融資，因此他們現在就可以購買產品，並隨著時間付費，您無需支付額外費用。 客戶選擇PayPal信用額度選項時不會向您收費，您只需支付一般的PayPal交易費用。 若要進一步瞭解，請參閱 [PayPal網站][3].
+PayPal PayLater讓您的客戶能夠快速取得融資，因此他們現在就可以購買產品，並隨著時間付費，您無需支付額外費用。 客戶選擇PayPal信用額度選項時不會向您收費，您只需支付一般的PayPal交易費用。 若要深入瞭解，請參閱[PayPal網站][3]。
 
-廣告融資時，可大幅提升銷售額。 PayPal有助於將瀏覽器變成以PayPal PayLater融資的買家。 您的客戶可隨時間付費，而您則可獲得預先付費，不需額外付費。 使用PayPal免費橫幅廣告，在客戶透過PayPal結帳時，宣傳PayPal融資為付款選項。 PayPal廣告計畫已經顯示可以產生額外的購買，並將平均購買量增加15%或更多。
+廣告融資時，可大幅提升銷售額。 PayPal有助於將瀏覽器變成以PayPal PayLater融資的買家。 您的客戶可隨時間付費，而您則可獲得預先付費，不需額外付費。 使用PayPal免費橫幅廣告，在客戶透過PayPal結帳時，宣傳PayPal融資為付款選項。 PayPal Advertising計畫已經顯示可產生額外的購買，並將平均購買量增加15%或更多。
 
-您可以輕鬆將免費且現成的橫幅廣告新增至網站和 _PayPal點數_ 結帳時購物車的按鈕，提醒您的客戶有現成的融資。
+您可以在結帳期間輕鬆新增免費的現成橫幅廣告至您的網站頁面，並將&#x200B;_PayPal點數_&#x200B;按鈕新增至您的購物車，以提醒您的客戶有現成的融資。
 
 >[!NOTE]
 >
 >從2.4.3版開始，在包含PayPal的部署中支援PayPal PayLater。 此功能可讓購物者以雙週分期付款的方式支付訂單，而不需在購買時支付全額。 已棄用PayPal點數體驗。
 
-對於美國商家，預設會針對以下專案啟用PayPal信用： [PayPal Express簽出](paypal-express-checkout.md) 付款選項。 若要針對此付款方式將其停用，請參閱 _功能_ 部分 [PayPal Express簽出設定](paypal-express-checkout.md#features).
+對於美國商家，預設會針對[PayPal Express結帳](paypal-express-checkout.md)付款選項啟用PayPal信用額度。 若要針對此付款方式停用它，請參閱[PayPal Express結帳設定](paypal-express-checkout.md#features)的&#x200B;_功能_&#x200B;區段。
 
 其他PayPal付款解決方案預設會停用PayPal信用額度，但支援解決方案的付款方式設定可啟用：
 
@@ -73,7 +73,7 @@ PayPal PayLater讓您的客戶能夠快速取得融資，因此他們現在就�
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal支付標準](paypal-payments-standard.md)
 
-![PayPal多合一支付解決方案](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
+![PayPal多合一付款解決方案](./assets/paypal-all-in-one.png){width="600" zoomable="yes"}
 
 ### PayPal付款閘道
 
@@ -97,13 +97,13 @@ PayPal為您的企業提供兩種支付閘道解決方案供您選擇。 您可�
 
 ## PayPal詐騙管理篩選器
 
-PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，並可設定為標幟、保留以供稽核或拒絕風險較高的付款。 與商務相關的動作 [訂單狀態](order-status.md) 值已根據詐騙篩選設定而變更：
+PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，並可設定為標幟、保留以供稽核或拒絕風險較高的付款。 與Commerce [訂單狀態](order-status.md)值相關的動作已根據詐騙篩選設定變更：
 
 | 動作 | 結果 |
 | --- | --- |
-| [!UICONTROL Review] | 可疑的訂單會收到狀態 _付款複查_ 下單時。 您可以在管理員或PayPal端檢閱訂單並核准或取消付款。 當您按一下 **[!UICONTROL Accept Payment]** 或 **[!UICONTROL Deny Payment]**，不會建立訂單的新交易。 <br/><br/>如果您在PayPal網站上變更交易的狀態，則必須按一下 **[!UICONTROL Get Payment Update]** ，在管理員的「順序」頁面套用變更。 如果您按一下 **[!UICONTROL Accept Payment]** 或 **[!UICONTROL Deny Payment]**，則會套用PayPal網站所做的變更。 |
-| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員的付款，請按一下 **[!UICONTROL Deny Payment]** 在頁面的右上角。 訂單狀態變更為 `Canceled`，即會還原交易，並在客戶帳戶上核發資金。 對應的資訊會新增至 _[!UICONTROL Comments History]_區段。 |
-| [!UICONTROL Flag] | 可疑的訂單會取得狀態 `Processing` 放置時。 對應的交易會在商家帳戶交易清單中標示旗標。 |
+| [!UICONTROL Review] | 可疑的訂單在下單時會收到&#x200B;_付款稽核_&#x200B;狀態。 您可以在管理員或PayPal端檢閱訂單並核准或取消付款。 當您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;時，不會建立訂單的新交易。 <br/><br/>如果您在PayPal網站上變更交易狀態，則必須按一下管理員訂單頁面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以套用變更。 如果您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，則會套用PayPal網站所做的變更。 |
+| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員付款，請按一下頁面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 訂單狀態變更為`Canceled`，交易已還原，並在客戶帳戶上核發資金。 對應的資訊已新增至訂單檢視的&#x200B;_[!UICONTROL Comments History]_區段中。 |
+| [!UICONTROL Flag] | 可疑的訂單在放置時取得狀態`Processing`。 對應的交易會在商家帳戶交易清單中標示旗標。 |
 
 {style="table-layout:auto"}
 
@@ -112,7 +112,7 @@ PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，�
 | 國家 | PayPal支付解決方案 |
 |--- |--- |
 | 澳洲 | [!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[!DNL PayPal Website Payments Pro Hosted Solution]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
-| 加拿大 | [!DNL PayPal Website Payments Standard]<br/>[!DNL PayPal Website Payments Pro]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) （包括「快速簽出」）<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
+| 加拿大 | [!DNL PayPal Website Payments Standard]<br/>[!DNL PayPal Website Payments Pro]<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) （包括Express簽出）<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | 法國 | [!DNL PayPal Integral Evolution]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | 德國 | [[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | 中國香港特別行政區 | [!DNL PayPal Website Payments Pro Hosted Solution]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
@@ -120,8 +120,8 @@ PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，�
 | 日本 | [!DNL PayPal Website Payments Plus]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | 紐西蘭 | [[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md)<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 | 西班牙 | [!DNL PayPal Pasarela Integral]<br/>[!DNL PayPal Website Payments Standard]<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
-| 英國 | [!DNL PayPal Payments Pro Hosted Solution] （包括「快速簽出」）<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
-| 美國 | [[!DNL PayPal Payments Advanced]](paypal-payments-advanced.md) （包括「快速簽出」）<br/>[[!DNL PayPal Payments Pro]](paypal-payments-pro.md) （包括「快速簽出」）<br/>[[!DNL PayPal Payments Standard+]](paypal-payments-standard.md)<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md) （包括「快速簽出」）<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) （包括「快速簽出」）<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
+| 英國 | [!DNL PayPal Payments Pro Hosted Solution] （包括Express簽出）<br/>[[!DNL PayPal Payments Standard]](paypal-payments-standard.md)<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
+| 美國 | [[!DNL PayPal Payments Advanced]](paypal-payments-advanced.md) （包含快速簽出）<br/>[[!DNL PayPal Payments Pro]](paypal-payments-pro.md) （包含快速簽出）<br/>[[!DNL PayPal Payments Standard+]](paypal-payments-standard.md)<br/>[[!DNL PayPal Payflow Pro]](paypal-payflow-pro.md) （包含快速簽出）<br/>[[!DNL PayPal Payflow Link]](paypal-payflow-link.md) （包含快速簽出）<br/>[[!DNL PayPal Express Checkout]](paypal-express-checkout.md) |
 
 {style="table-layout:auto"}
 

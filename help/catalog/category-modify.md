@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 移動類別
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 若要移動類別，請將類別拖放至樹狀結構中的新位置。
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 
    已刪除的類別無法還原，因此請確定您已選取正確的類別，然後再繼續。
 
-1. 按一下 **[!UICONTROL Delete Category]**.
+1. 按一下&#x200B;**[!UICONTROL Delete Category]**。
 
-1. 提示確認時，按一下 **[!UICONTROL OK]**.
+1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
-您也可以 [更新事件](../merchandising-promotions/event-create.md#create-and-update-events) 與類別相關聯，該類別來自 **[!UICONTROL Events]** 頁面或 **[!UICONTROL Category]** 頁面。
+您也可以從&#x200B;**[!UICONTROL Events]**&#x200B;頁面或&#x200B;**[!UICONTROL Category]**&#x200B;頁面[更新與類別關聯的事件](../merchandising-promotions/event-create.md#create-and-update-events)。

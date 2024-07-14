@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # 最近檢視或比較的產品
 
-此 _最近檢視和最近比較的專案_ 區塊通常會顯示在目錄頁面的右側邊欄中。 可針對每個網站、商店或商店檢視設定每個專案中所列產品的數量。
+_最近檢視和最近比較_&#x200B;區塊通常出現在目錄頁面的右側邊欄中。 可針對每個網站、商店或商店檢視設定每個專案中所列產品的數量。
 
 **_若要設定最近檢視和比較的產品：_**
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Catalog]** 並選擇 **[!UICONTROL Catalog]** 底下。
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Recently Viewed/Compared Products]** 區段。
+1. 展開&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   ![目錄設定 — 最近檢視/比較的產品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
+   ![目錄組態 — 最近檢視/比較的產品](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   如需這些組態設定的詳細說明，請參閱 [最近檢視/比較的產品](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products) 在 _設定參考指南_.
+   如需這些組態設定的詳細說明，請參閱&#x200B;_組態參考指南_&#x200B;中的[最近檢視/比較的產品](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)。
 
-1. 設定 **[!UICONTROL Synchronize widget products with backend storage]** 將產品Widget資訊（例如產品ID）與資料庫中目前的產品儲存可用性同步化，並在不同裝置上重複使用這項資訊。
+1. 設定&#x200B;**[!UICONTROL Synchronize widget products with backend storage]**&#x200B;將產品Widget資訊（例如產品ID）與資料庫中目前產品儲存可用性同步化，並在不同裝置上重複使用這項資訊。
 
-1. 設定 **[!UICONTROL Show for Current]** 套用設定的網站、商店或商店檢視。
+1. 將&#x200B;**[!UICONTROL Show for Current]**&#x200B;設定為套用設定的網站、商店或商店檢視。
 
-1. 的 **[!UICONTROL Default Recently Viewed Products Count]**，輸入最近檢視的產品數目，以顯示在清單中。
+1. 針對&#x200B;**[!UICONTROL Default Recently Viewed Products Count]**，輸入要出現在清單中的最近檢視的產品數目。
 
-1. 的 **[!UICONTROL Default Recently Compared Products Count]**，輸入要在清單中顯示之最近比較的產品數量。
+1. 針對&#x200B;**[!UICONTROL Default Recently Compared Products Count]**，輸入要出現在清單中的最近比較產品數目。
 
-1. 的 **[!UICONTROL Lifetime of products in Recently Viewed Widget]**，輸入大於零的任何時間範圍（以秒為單位）。
+1. 針對&#x200B;**[!UICONTROL Lifetime of products in Recently Viewed Widget]**，輸入大於零的任何時間範圍（以秒為單位）。
 
    此設定會決定已檢視產品在最近已檢視清單中顯示的時間長度。
 
-1. 的 **[!UICONTROL Lifetime of products in Recently Compared Widget]**，輸入大於零的任何時間範圍（以秒為單位）。
+1. 針對&#x200B;**[!UICONTROL Lifetime of products in Recently Compared Widget]**，輸入大於零的任何時間範圍（以秒為單位）。
 
    此設定會決定比較的產品會在最近比較的清單中顯示多久。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。

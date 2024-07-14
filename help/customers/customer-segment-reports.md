@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 「客戶區段」報表提供有關每個區段中的客戶人數資訊。
 
-![客戶區段報表](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![客戶區段報告](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | 欄 | 說明 |
 |--- |--- |
@@ -30,16 +30,16 @@ ht-degree: 1%
 
 您可以向下展開至區段中的客戶清單，並匯出資料。
 
-![深入研究客戶資料](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
+![向下展開至客戶資料](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-為確保您擁有最新資料，必須重新整理區段資料。 如果區段資料無法使用或已過時，請按一下 **[!UICONTROL Refresh Segment Data]** 按鈕列進行更新。
+為確保您擁有最新資料，必須重新整理區段資料。 如果區段資料無法使用或已過時，請按一下按鈕列中的&#x200B;**[!UICONTROL Refresh Segment Data]**&#x200B;進行更新。
 
-1. 的 **[!UICONTROL Export to]**，選擇匯出格式：
+1. 針對&#x200B;**[!UICONTROL Export to]**，選擇匯出格式：
 
    * CSV — 包含純文字資料的逗號分隔值檔案。
    * Excel XML — 以XML為基礎的試算表資料格式。
 
-1. 按一下 **[!UICONTROL Export]**.
+1. 按一下&#x200B;**[!UICONTROL Export]**。
 
    | 欄 | 說明 |
    |--- |--- |

@@ -1,5 +1,5 @@
 ---
-title: 設定來源優先順序演演算法
+title: 設定Source優先順序演演算法
 description: 瞭解如何設定用於庫存中指派來源順序的來源優先順序，以便提出建議。
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 設定來源優先順序演演算法
+# 設定Source優先順序演演算法
 
 自訂庫存包括指定的來源清單，以透過您的店面銷售及出貨可用的產品庫存。 此演演算法會使用庫存中的指派來源順序來提出建議。
 
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 - 如果在清單中找到已停用的來源，則會略過
 
-若要設定，請以優先順序從上到下排列這些來源，以履行訂單。 「來源選取演演算法」(SSA)會在決定出貨與存貨扣除額時，使用此訂單提供演演算法「優先順序」。 另請參閱 [排定庫存來源的優先順序](stocks-prioritize-sources.md).
+若要設定，請以優先順序從上到下排列這些來源，以履行訂單。 Source選擇演演算法(SSA)在決定出貨與存貨扣除額時，會使用此訂單提供演演算法「優先順序」。 請參閱[排定庫存的來源優先順序](stocks-prioritize-sources.md)。
 
 ## 設定來源的優先順序
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**。
 
-1. 在編輯模式中開啟庫存，並導覽至 _[!UICONTROL Sources]_區域。
+1. 在編輯模式中開啟庫存，並導覽至&#x200B;_[!UICONTROL Sources]_區域。
 
-1. 按一下 **[!UICONTROL Assign Sources]**.
+1. 按一下&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在 _[!UICONTROL Assign Sources]_檢視，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**將來源指定給庫存。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_檢視中，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**將來源指派給庫存。
 
 >[!NOTE]
 >
->使用時 [距離優先順序](distance-priority-algorithm.md) 如果路由和資料未針對選取的傳回，則為出貨演演算法 [計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或徒步）對於出貨，SSA預設為使用「來源優先順序」。
+>使用[距離優先順序](distance-priority-algorithm.md)演演算法出貨時，如果路由和資料未針對所選取的出貨[運算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）傳回，則SSA預設為使用Source優先順序。
 
-![優先順序之後的來源順序](assets/inventory-stock-priority-after.png)
+優先順序設定後的![Source訂單](assets/inventory-stock-priority-after.png)
 
 | 圖示 | 說明 |
 |----------------------------------------------|----------------------------------------------------------------|

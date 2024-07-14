@@ -16,40 +16,40 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要啟用商店的請購單清單，請參閱 [啟用B2B功能](enable-basic-features.md). 它最多可允許為每個客戶帳戶維護999份請購單清單，具體取決於 [設定](configure-requisition-lists.md).
+>若要啟用商店的請購單清單，請參閱[啟用B2B功能](enable-basic-features.md)。 視[組態](configure-requisition-lists.md)而定，可為每個客戶帳戶維護最多999個請購單清單。
 
 請購單清單功能與願望清單類似，但有以下差異：
 
 - 將專案傳送至購物車後，未清除請購單清單。 可多次使用。
 - 請購單清單的使用者介面使用精簡檢視來顯示許多料號。
 
-![店面顯示的請購單清單](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
+店面顯示的![請購單清單](./assets/account-dashboard-my-requisition-lists.png){width="600" zoomable="yes"}
 
 ## 從帳戶儀表板建立請購單清單
 
 與公司帳戶關聯的登入客戶可以從其帳戶儀表板建立請購單清單。
 
-1. 在其帳戶的側邊欄中，選擇 **[!UICONTROL My Requisition Lists]**.
+1. 在其帳戶的側邊欄中，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在 _[!UICONTROL Requisition Lists]_頁面，點按&#x200B;**[!UICONTROL Create New Requisition List]**.
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_頁面上，按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
 
-1. 輸入 **[!UICONTROL Requisition List Name]** 和 **[!UICONTROL Description]**.
+1. 輸入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
    ![建立請購單清單](./assets/requisition-list-create.png){width="300"}
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成後，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 從產品頁面建立請購單清單
 
 與公司帳戶關聯的登入客戶可以從產品頁面建立請購單清單。 此方法提供建立清單和新增產品的簡單捷徑。
 
-1. 在產品詳細資料頁面中，客戶按一下 **[!UICONTROL Add to Requisition List]**.
+1. 從產品詳細資料頁面，客戶按一下&#x200B;**[!UICONTROL Add to Requisition List]**。
 
-1. 點擊數 **[!UICONTROL Create New Requisition List]**.
+1. 按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
 
-1. 輸入 **[!UICONTROL Requisition List Name]** 和 **[!UICONTROL Description]**.
+1. 輸入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成後，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 將產品新增至請購單清單
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 從店面，客戶前往要加入請購單清單之產品的詳細資訊頁面。
 
-1. 點按次數 **[!UICONTROL Add to Requisition List]** 並執行下列任一項作業：
+1. 按一下&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;並執行下列任一項作業：
 
    - 選擇現有的請購單清單。
    - 建立請購單清單。
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 1. 將滑鼠停留在產品上。
 
-1. 點按次數 **[!UICONTROL Add to Requisition List]** 並執行下列任一項作業：
+1. 按一下&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;並執行下列任一項作業：
 
    - 選擇現有的請購單清單。
    - 建立請購單清單。
@@ -86,9 +86,9 @@ ht-degree: 0%
 
 ### 從現有訂單
 
-1. 在其帳戶控制面板的側邊欄中，客戶選擇 **[!UICONTROL My Orders]**.
+1. 在其帳戶儀表板的側邊欄中，客戶選擇&#x200B;**[!UICONTROL My Orders]**。
 
-1. 在訂單頂端，按一下 **[!UICONTROL Add to Requisition List]** 並執行下列任一項作業：
+1. 在訂單頂端，按一下&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;並執行下列任一項作業：
 
    - 選擇現有的請購單清單。
    - 建立請購單清單。
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ### 從購物車
 
-1. 在專案底下，客戶按一下 **[!UICONTROL Add to Requisition List]** 功能表，並執行下列任一項作業：
+1. 在專案底下，客戶按一下&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;功能表並執行下列任一項作業：
 
    - 選擇現有的請購單清單。
    - 建立請購單清單。
@@ -112,12 +112,12 @@ ht-degree: 0%
 
 ### 從帳戶儀表板
 
-1. 在其帳戶儀表板的側邊欄中，選擇 **[!UICONTROL My Requisition Lists]**.
+1. 在其帳戶儀表板的側邊欄中，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在請購單清單中，按一下 **[!UICONTROL View]** 在 _動作_ 欄。
+1. 在請購單清單中，按一下&#x200B;_動作_&#x200B;欄中的&#x200B;**[!UICONTROL View]**。
 
 ### 從任何店面頁面
 
 1. 在頁面頂端的快速連結列中，按一下其使用者名稱。
 
-1. 在功能表上，選擇 **[!UICONTROL My Requisition Lists]**.
+1. 在功能表上，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。

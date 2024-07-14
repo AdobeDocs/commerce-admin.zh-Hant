@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser]『
-description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL Visual Merchandiser] 商務管理員頁面。
+title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Visual Merchandiser]'
+description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Visual Merchandiser]頁面上的組態設定。
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 <!-- [General Options](https://docs.magento.com/user-guide/marketing/visual-merchandiser-configuration.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Visible Attributes for Category Rules] | 全域 | 識別可與類別規則搭配使用的其他屬性。 使用多重選取（Ctrl或Command鍵）來選取您要使其可用的所有屬性。 |
 | [!UICONTROL Minimum Stock Threshold] | 全域 | 決定產品的最低庫存臨界值，以依庫存層次排序產品。 預設值： `1` |

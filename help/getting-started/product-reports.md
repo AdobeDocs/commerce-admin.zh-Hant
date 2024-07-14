@@ -16,40 +16,40 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-此 [!UICONTROL Product Views Report] 顯示在一段時間間隔或日期範圍內檢視過的產品。 此報表包含產品名稱、價格和檢視次數。
+[!UICONTROL Product Views Report]會顯示在一段時間間隔或日期範圍內檢視過的產品。 此報表包含產品名稱、價格和檢視次數。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**。
 
 ![產品檢視報告](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
-此 [!UICONTROL Bestsellers Report] 顯示一段間隔時間或日期範圍內最暢銷的五個。 此報表包含產品名稱、價格及訂購數量。
+[!UICONTROL Bestsellers Report]會顯示一段時間或日期範圍內五個最暢銷的五個。 此報表包含產品名稱、價格及訂購數量。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**。
 
-![最暢銷商品報表](./assets/bestsellers.png){width="600"}
+![最暢銷商品報告](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
-此 [!UICONTROL Low Stock Report] 列出存貨層次在指定範圍內的所有產品。 替換為 [[!DNL Inventory Management]](../inventory-management/introduction.md) 啟用，報表會包含每個來源的低庫存存貨量，以及列出的來原始碼。
+[!UICONTROL Low Stock Report]列出存貨層次在指定範圍內的所有產品。 啟用[[!DNL Inventory Management]](../inventory-management/introduction.md)後，報表會包含列出原始碼的每個來源的低庫存存貨量。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**。
 
-![低庫存報表](./assets/low-stock.png){width="600"}
+![低庫存報告](./assets/low-stock.png){width="600"}
 
 ## [!UICONTROL Ordered Products Report]
 
-此 [!UICONTROL Ordered Products Report] 列出在指定的時間間隔或日期範圍內訂購的所有產品。 報表包含產品名稱與訂購數量。
+[!UICONTROL Ordered Products Report]列出在指定的時間間隔或日期範圍內訂購的所有產品。 報表包含產品名稱與訂購數量。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**。
 
-![訂購產品報表](./assets/products-ordered.png){width="600"}
+![訂購產品報告](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
-此 [!UICONTROL Downloads Report] 列出指定時間間隔或日期範圍內的所有下載專案。 此報表包含產品名稱、下載連結和SKU，以及購買和下載次數。
+[!UICONTROL Downloads Report]會列出指定時間間隔或日期範圍內的所有下載專案。 此報表包含產品名稱、下載連結和SKU，以及購買和下載次數。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**。
 
 ![下載報告](./assets/downloads.png){width="600"}

@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ## 快速更新頁面屬性
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 1. 按一下網格中的任何列。
 
-   ![頁面屬性可在「頁面」格線中編輯](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
+   ![頁面屬性可在頁面格線中編輯](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
 
    若要選取多個記錄，請選取要更新的每一列的核取方塊。
 
@@ -32,9 +32,9 @@ ht-degree: 0%
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-## 工作區控制項
+## Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |
@@ -57,10 +57,10 @@ ht-degree: 0%
 | [!UICONTROL URL Key] | URL金鑰類似於檔案名稱，可識別URL中的頁面。 |
 | [!UICONTROL Layout] | 決定頁面在主內容區域的右邊或左邊顯示側邊欄。 選項： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Store View] | 用於將頁面與特定商店檢視相關聯。 |
-| [!UICONTROL Status] | 指示頁面是線上還是離線。 選項： `Enabled` / `Disabled` |
+| [!UICONTROL Status] | 指示頁面是線上還是離線。 選項： `Enabled` / `Disabled` |
 | [!UICONTROL Created] | 建立頁面的日期。 |
 | [!UICONTROL Modified] | 上次修改頁面的日期。 |
-| [!UICONTROL Action] | 可套用至個別記錄的動作包括：<br/>**[!UICONTROL Edit]**— 以編輯模式開啟頁面。<br/>**[!UICONTROL Delete]**  — 刪除頁面。<br/>**[!UICONTROL View]**— 以預覽模式顯示頁面。 |
+| [!UICONTROL Action] | 可套用至個別記錄的動作包括： <br/>**[!UICONTROL Edit]**— 以編輯模式開啟頁面。<br/>**[!UICONTROL Delete]** — 刪除頁面。<br/>**[!UICONTROL View]**— 以預覽模式顯示頁面。 |
 
 {style="table-layout:auto"}
 
@@ -79,25 +79,25 @@ ht-degree: 0%
 
 ## 頁面搜尋
 
-左上方的搜尋方塊 _[!UICONTROL Pages]_格線可用來依關鍵字尋找特定頁面。 如需進階搜尋，您可以 [篩選](../getting-started/admin-grid-controls.md) 依多個引數搜尋。
+_[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特定頁面。 若要進行更進階的搜尋，您可以[篩選](../getting-started/admin-grid-controls.md)多個引數的搜尋。
 
 ### 依關鍵字搜尋
 
 1. 在頁面搜尋方塊中輸入搜尋字詞。
 
-1. 若要顯示結果，請按一下搜尋(![放大鏡圖示](../assets/icon-magnify-search.png))圖示。
+1. 若要顯示結果，請按一下[搜尋] （![放大鏡圖示](../assets/icon-magnify-search.png)）圖示。
 
    結果包括包含關鍵字的所有頁面。
 
 ### 篩選搜尋結果
 
-1. 如有必要，請按一下 **[!UICONTROL Clear All]** 以清除先前的搜尋條件。
+1. 必要時，按一下&#x200B;**[!UICONTROL Clear All]**&#x200B;以清除先前的搜尋條件。
 
-1. 若要顯示搜尋篩選的選取專案，請按一下 **[!UICONTROL Filters]** ！([漏斗圖示](../assets/icon-filter-search.png))索引標籤內。
+1. 若要顯示選取的搜尋篩選器，請按一下&#x200B;**[!UICONTROL Filters]**！（[漏斗圖示](../assets/icon-filter-search.png)）標籤。
 
 1. 請視需要填寫許多篩選器，以說明您要尋找的頁面。
 
-1. 按一下 **[!UICONTROL Apply Filters]** 以顯示結果。
+1. 按一下&#x200B;**[!UICONTROL Apply Filters]**&#x200B;以顯示結果。
 
 ### 搜尋篩選器
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Modified] | 根據上次修改頁面的日期篩選搜尋。 |
 | [!UICONTROL Store View] | 根據商店檢視篩選搜尋。 選項： `All available` / `Store Views` |
 | [!UICONTROL Layout] | 根據頁面版面配置篩選搜尋。 選項： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Status] | 篩選頁面狀態上的搜尋。 選項： `Disabled` / `Published` |
+| [!UICONTROL Status] | 篩選頁面狀態上的搜尋。 選項： `Disabled` / `Published` |
 | [!UICONTROL Custom design from / to] | 將所選設計套用至頁面時，依開始和結束日期篩選搜尋。 ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)。 |
 | [!UICONTROL Asset] | 依頁面標題資產篩選搜尋 |
 | [!UICONTROL Custom Layout] | 根據自訂配置篩選搜尋。 選項： `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
@@ -139,22 +139,22 @@ ht-degree: 0%
 
 ### 單一動作
 
-使用 _[!UICONTROL Action]_欄，將下列任一動作套用至個別頁面：
+使用最右邊的&#x200B;_[!UICONTROL Action]_欄，將下列任何動作套用至個別頁面：
 
-- [!UICONTROL Edit]  — 以編輯模式開啟頁面
-- [!UICONTROL Delete]  — 刪除頁面（需要確認）
-- [!UICONTROL View]  — 直接在店面開啟頁面
+- [!UICONTROL Edit] — 以編輯模式開啟頁面
+- [!UICONTROL Delete] — 刪除頁面（需要確認）
+- [!UICONTROL View] — 直接在店面開啟頁面
 
 ![單頁動作](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### 整批動作
 
-使用將下列任一動作同時套用至數個選取的頁面 _[!UICONTROL Action]_左上角的選擇器：
+使用左上角的&#x200B;_[!UICONTROL Action]_選取器，將下列任一動作同時套用至數個選取的頁面：
 
-- [!UICONTROL Delete]  — 刪除頁面（需要確認）
-- [!UICONTROL Disable]  — 停用店面頁面
-- [!UICONTROL Enable]  — 啟用店面頁面
-- [!UICONTROL Edit]  — 以編輯模式開啟格線上的欄(**[!UICONTROL Title]**， **[!UICONTROL URL Key]**， **[!UICONTROL Layout]**、和 **[!UICONTROL Status]**)
+- [!UICONTROL Delete] — 刪除頁面（需要確認）
+- [!UICONTROL Disable] — 停用店面上的頁面
+- [!UICONTROL Enable] — 啟用店面頁面
+- [!UICONTROL Edit] — 以編輯模式（**[!UICONTROL Title]**、**[!UICONTROL URL Key]**、**[!UICONTROL Layout]**&#x200B;和&#x200B;**[!UICONTROL Status]**）開啟格線上的欄
 
 ## 頁面格線配置
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 ### 變更欄的選擇
 
-在右上角，按一下 _欄_ (![欄圖示](../assets/icon-columns.png))控制並執行下列動作：
+按一下右上角的&#x200B;_欄_ （![欄圖示](../assets/icon-columns.png)）控制項，然後執行下列動作：
 
 - 選取您要新增至格線之任何欄的核取方塊。
 
@@ -176,42 +176,42 @@ ht-degree: 0%
 
 ### 儲存檢視
 
-1. 按一下 _檢視_ (![眼睛圖示](../assets/icon-view-eye.png))控制項，然後按一下 **[!UICONTROL Save View As]**.
+1. 按一下&#x200B;_檢視_ （![眼睛圖示](../assets/icon-view-eye.png)）控制項，然後按一下&#x200B;**[!UICONTROL Save View As]**。
 
 1. 輸入檢視的名稱。
 
-1. 若要儲存檢視，請按一下 _箭頭_ (![箭頭圖示](../assets/icon-arrow-save.png))。
+1. 若要儲存檢視，請按一下&#x200B;_箭頭_ （![箭頭圖示](../assets/icon-arrow-save.png)）。
 
    檢視的名稱現在會顯示為目前的檢視。
 
 ### 變更檢視
 
-按一下 _檢視_ (![眼睛圖示](../assets/icon-view-eye.png))控制並執行下列任一項作業：
+按一下&#x200B;_檢視_ （![眼睛圖示](../assets/icon-view-eye.png)）控制項，然後執行下列其中一項作業：
 
 - 選擇您要使用的檢視。
 
-- 按一下編輯(![鉛筆圖示](../assets/icon-edit-pencil.png))圖示並更新名稱。
+- 按一下編輯（![鉛筆圖示](../assets/icon-edit-pencil.png)）圖示並更新名稱，以變更檢視的名稱。
 
-  ![儲存的檢視會以編輯圖示顯示在檢視控制項中](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
+  ![儲存的檢視會顯示在含有編輯圖示的檢視控制項中](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
 ## 排定的變更
 
 {{ee-feature}}
 
-頁面變更可以依排程套用，並和其他內容變更一起分組。 您可以根據排程變更至頁面來建立行銷活動，或將變更套用至現有的行銷活動。 如需詳細資訊，請參閱 [內容分段](content-staging.md).
+頁面變更可以依排程套用，並和其他內容變更一起分組。 您可以根據排程變更至頁面來建立行銷活動，或將變更套用至現有的行銷活動。 如需詳細資訊，請參閱[內容暫存](content-staging.md)。
 
 >[!NOTE]
 >
->此 [!UICONTROL Custom Design Update] 標籤已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在頁面上修改。 您必須為這些啟用建立排定的更新。
+>[!UICONTROL Custom Design Update]索引標籤已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，無法直接在頁面上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >
 >所有排定的更新都會連續套用，這表示任何實體在某一點只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，實體無法同時針對不同的存放區檢視有不同的排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
 
-![「首頁」會在頂端顯示排定的變更](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![首頁會在頂端顯示排定的變更](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->行銷活動開始日期和結束日期必須使用定義 **_預設_** 管理時區，由每個網站的當地時區加以轉換。 請考量下列範例：您有多個網站位在不同時區，但您想要根據美國時區啟動行銷活動。 在這種情況下，您必須為每個當地時區排程單獨的更新，並設定 **[!UICONTROL Start Date]** 和 **[!UICONTROL End Date]** 從每個當地網站時區轉換為預設管理員時區的變數。
+>行銷活動開始日期和結束日期必須使用&#x200B;**_預設值_**&#x200B;管理時區來定義，該時區會從每個網站的當地時區轉換。 請考量下列範例：您有多個網站位在不同時區，但您想要根據美國時區啟動行銷活動。 在此情況下，您必須為每個當地時區排程個別的更新，並將&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;從每個當地網站時區轉換為預設的管理時區。
 
-此外，您也可以排程並預覽產品更新的變更。 如需詳細資訊，請參閱 [排程更新](content-staging-scheduled-update.md).
+此外，您也可以排程並預覽產品更新的變更。 如需詳細資訊，請參閱[排程更新](content-staging-scheduled-update.md)。

@@ -5,14 +5,14 @@ exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1002'
 ht-degree: 3%
 
 ---
 
 # 表格費率運送
 
-此 _表格比率_ 送貨方法會參考資料表，以根據各種條件的組合計算運費，包括：
+_table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送貨費率，包括：
 
 - 權重與目的地
 - 價格v.目的地
@@ -26,39 +26,39 @@ ht-degree: 3%
 >
 >一次只能啟用一組表格速率資料。
 
-![購物車訂單摘要中的表格費率送貨選項](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+購物車訂單摘要中的![表格費率送貨選項](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
 ## 步驟1：完成預設設定
 
 第一步是完成表格費率的預設設定。 您可以在不變更設定範圍的情況下完成此步驟。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在 _[!UICONTROL Sales]_部分，選擇&#x200B;**[!UICONTROL Delivery Methods]**.
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Table Rates]** 區段。
+1. 展開&#x200B;**[!UICONTROL Table Rates]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    >[!NOTE]
    >
-   >如有必要，請先清除 **[!UICONTROL Use system value]** 核取方塊來變更下列設定，如所述。
+   >如有必要，請先清除&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊以變更下列設定，如所述。
 
-   ![表格費率](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
+   ![資料表費率](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Enabled]** 至 `Yes`.
+1. 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-1. 輸入 **[!UICONTROL Title]** 結帳期間要顯示在表格費率區段的「 」標籤。
+1. 輸入您要在結帳時於表格費率區段顯示的&#x200B;**[!UICONTROL Title]**。
 
-   預設標題為 `Best Way`.
+   預設標題為`Best Way`。
 
-1. 輸入 **[!UICONTROL Method Name]** ，以便在購物車的計算費率旁邊顯示為標籤。
+1. 輸入您要在購物車的計算費率旁邊顯示為標籤的&#x200B;**[!UICONTROL Method Name]**。
 
-1. 設定 **[!UICONTROL Condition]** 變更為下列其中一種計算方法：
+1. 將&#x200B;**[!UICONTROL Condition]**&#x200B;設為下列其中一種計算方法：
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. 若訂單包含虛擬產品，請設定 **[!UICONTROL Include Virtual Products in Price Calculation]** 至 `Yes` 如果您想要將虛擬產品納入計算中。
+1. 對於包含虛擬產品的訂單，如果您想要在計算中包含虛擬產品，請將&#x200B;**[!UICONTROL Include Virtual Products in Price Calculation]**&#x200B;設為`Yes`。
 
    >[!NOTE]
    >
@@ -68,72 +68,72 @@ ht-degree: 3%
 
    處理費是選擇性的，且顯示為額外費用，會加到運費中。 如果要包含手續費，請執行下列步驟：
 
-   - 設定 **[!UICONTROL Calculate Handling Fee]**：
+   - 設定&#x200B;**[!UICONTROL Calculate Handling Fee]**：
 
       - `Fixed`
       - `Percent`
 
-   - 輸入 **[!UICONTROL Handling Fee]** 根據用於計算費用的方法的費率。
+   - 根據用來計算費用的方法，輸入&#x200B;**[!UICONTROL Handling Fee]**&#x200B;費率。
 
-     例如，如果費用是以固定費用為基礎，則以小數點輸入金額，例如 `4.90`. 不過，如果處理費是以訂單的百分比為基準，請以百分比輸入金額。 例如，如果您對訂單的6%計費，則輸入值為 `.06`.
+     例如，如果費用是以固定費用為基礎，則以小數點輸入金額，例如`4.90`。 不過，如果處理費是以訂單的百分比為基準，請以百分比輸入金額。 例如，如果您要收取訂單的6%費用，請輸入值為`.06`。
 
-1. 如有需要，請變更 **[!UICONTROL Displayed Error Message]**.
+1. 如有需要，請變更&#x200B;**[!UICONTROL Displayed Error Message]**。
 
    此文字方塊已預設預設預設預設訊息，但您可以輸入其他訊息，在此傳送方式無法使用時顯示。
 
-1. 設定 **[!UICONTROL Ship to Applicable Countries]**：
+1. 設定&#x200B;**[!UICONTROL Ship to Applicable Countries]**：
 
-   - `All Allowed Countries`  — 來自所有客戶的客戶 [國家/地區](../getting-started/store-details.md#country-options) 在存放區設定中指定時，可以使用此傳送方法。
-   - `Specific Countries`  — 選擇此選項時， _[!UICONTROL Ship to Specific Countries]_清單隨即顯示。 選取清單中可使用此傳遞方法的每個國家/地區。
+   - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用這個傳遞方法。
+   - `Specific Countries` — 選擇此選項時，會顯示&#x200B;_[!UICONTROL Ship to Specific Countries]_清單。 選取清單中可使用此傳遞方法的每個國家/地區。
 
-1. 設定 **[!UICONTROL Show Method if Not Applicable]** 至 `Yes` 如果您要一直顯示表格費率
+1. 如果要一直顯示表格費率，請將&#x200B;**[!UICONTROL Show Method if Not Applicable]**&#x200B;設為`Yes`
 
-1. 的 **[!UICONTROL Sort Order]**，請輸入數字，以決定結帳期間與其他傳送方式一起列出時，表格費率出貨的顯示順序。
+1. 針對&#x200B;**[!UICONTROL Sort Order]**，請輸入數字，以決定結帳期間列出其他傳遞方式時，表格費率送貨的顯示順序。
 
-   `0` =第一個， `1` =秒， `2` =第三個，依此類推。
+   `0` =第一，`1` =第二，`2` =第三，依此類推。
 
-1. 按一下 **[!UICONTROL Save Config]**.
+1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 步驟2：準備表格速率資料
 
-1. 在左上角，設定 **[!UICONTROL Store View]** 至 `Main Website`，或套用設定的任何其他網站。
+1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為`Main Website`，或設定套用的任何其他網站。
 
    >[!NOTE]
    >
-   >如有必要，請先取消選取 **[!UICONTROL Use system value]** 核取方塊來變更下列設定，如所述。
+   >如有必要，請先取消選取&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊以變更下列設定，如所述。
 
-1. 變更 **[!UICONTROL Condition]** 視需要。
+1. 視需要變更&#x200B;**[!UICONTROL Condition]**。
 
-1. 按一下 **[!UICONTROL Export CSV]**.
+1. 按一下&#x200B;**[!UICONTROL Export CSV]**。
 
    ![匯出CSV](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. 儲存 `tablerates.csv` 檔案到您的系統。
+1. 將`tablerates.csv`檔案儲存至您的系統。
 
 1. 在試算表應用程式中開啟檔案。
 
 1. 使用適當的出貨計算條件值完成表格。
 
    - 使用星號(*)當作萬用字元，代表任何類別中的所有可能值。
-   - 此 _[!UICONTROL Country]_欄必須包含 [有效的三字元代碼][1] 每一列。
-   - 資料排序依據 _[!UICONTROL Region/State]_因此，特定位置位於清單頂端，而萬用字元位置位於清單底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
-   - 中的值 _[!UICONTROL Weight (and above)]_欄最多可以有四個小數位數(例如 `2.5075`)。 在資料中使用更多小數位數，會導致匯入失敗。
+   - _[!UICONTROL Country]_資料行必須包含每個資料列的[有效的三字元代碼][1]。
+   - 依&#x200B;_[!UICONTROL Region/State]_排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
+   - _[!UICONTROL Weight (and above)]_欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
 
    ![重量與目的地（澳洲）](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. 儲存 `tablerates.csv` 檔案。
+1. 儲存`tablerates.csv`檔案。
 
 ## 步驟3：匯入表格比率資料
 
-1. 返回 **[!UICONTROL Table Rates]** 區段設定的。
+1. 返回您存放區設定的&#x200B;**[!UICONTROL Table Rates]**&#x200B;區段。
 
-1. 在左上角，設定 **[!UICONTROL Store View]** 移至使用此方法的網站。
+1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為使用此方法的網站。
 
-1. 的 **[!UICONTROL Import]**，按一下 **[!UICONTROL Choose File]** 並選取您已完成的 `tablerates.csv` 檔案以匯入費率。
+1. 針對&#x200B;**[!UICONTROL Import]**，按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並選取您已完成的`tablerates.csv`檔案以匯入費率。
 
-   ![匯入表格費率](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![匯入資料表費率](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
-1. 按一下 **[!UICONTROL Save Config]**.
+1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 步驟4：驗證費率
 
@@ -176,7 +176,7 @@ ht-degree: 3%
 
 ### 範例3：限制免費送貨至美國大陸
 
-1. 建立 `tablerates.csv` 此檔案包含您願意提供免費運送的所有州目的地。
+1. 建立`tablerates.csv`檔案，其中包含您願意提供免費運送的所有州目的地。
 
 1. 使用下列設定完成表格速率設定：
 
@@ -190,9 +190,9 @@ ht-degree: 3%
 
    {style="table-layout:auto"}
 
-1. 在左上角，設定 **[!UICONTROL Store View]** 至 `Main Website`，或套用設定的任何其他網站。
+1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為`Main Website`，或設定套用的任何其他網站。
 
-1. 的 **[!UICONTROL Import]**，按一下 **[!UICONTROL Choose File]** 並選取您已完成的 `tablerates.csv` 檔案以匯入費率。
+1. 針對&#x200B;**[!UICONTROL Import]**，按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並選取您已完成的`tablerates.csv`檔案以匯入費率。
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

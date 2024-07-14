@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 公司的採購單
 
-採購單(PO)是公司追蹤及控制支出的常見方式。 [採購單](../stores-purchase/purchase-order.md) 是Adobe Commerce和Magento Open Source支援的標準離線付款方法之一。 安裝Adobe Commerce的B2B時和 [_啟用採購單_](account-company-manage.md#advanced-settings) 已為公司帳戶啟用，所有訂單都會自動建立為採購單(PO)。 公司使用者具有必要的 [許可權](account-company-roles-permissions.md) 可以建立、編輯及刪除他們建立的採購單及下屬使用者建立的採購單。
+採購單(PO)是公司追蹤及控制支出的常見方式。 [採購單](../stores-purchase/purchase-order.md)是Adobe Commerce和Magento Open Source支援的標準離線付款方式之一。 安裝Adobe Commerce的B2B且為公司帳戶啟用&#x200B;[_啟用採購單_](account-company-manage.md#advanced-settings)&#x200B;時，所有訂單都會自動建立為採購單(PO)。 具有必要[許可權](account-company-roles-permissions.md)的公司使用者可以建立、編輯和刪除他們建立的PO以及下屬使用者建立的PO。
 
 ## 採購單流程
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >根據預設， `Purchase order has been submitted for approval` 訊息一律顯示給公司使用者，即使未設定核准規則。 當不需要核准流程時，公司使用者會自動收到電子郵件，通知他們訂單已建立且已核准。
+  >依預設，即使未設定核准規則，也會一律對公司使用者顯示`Purchase order has been submitted for approval`訊息。 當不需要核准流程時，公司使用者會自動收到電子郵件，通知他們訂單已建立且已核准。
 
 - 如果核准規則由公司管理員定義，則使用者會進行核准流程。
 - 建立採購單時輸入離線付款明細。
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->採購單建立 _快照_ 建立訂單時的料號價格、折扣及送貨價格。 如果料號的價格在建立採購單後變更，則會使用原始價格。
+>「採購單」會在建立訂單時，建立料號價格、折扣及送貨價格的&#x200B;_快照_。 如果料號的價格在建立採購單後變更，則會使用原始價格。
 
 ### 基本工作流程範例
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 - 超過$1000的任何訂單都需要經理和公司管理員的核准。
 - 任何具有超過30個唯一SKU的訂單都需要公司管理員的核准。
 
-有了適用於公司的這些規則，公司使用者可以在訂單少於$100時立即完成訂單。 若要瞭解核准規則定義，請參閱 [核准規則](account-dashboard-approval-rules.md)
+有了適用於公司的這些規則，公司使用者可以在訂單少於$100時立即完成訂單。 若要瞭解核准規則定義，請參閱[核准規則](account-dashboard-approval-rules.md)
 
 ### 商店使用者的型別
 
@@ -71,23 +71,23 @@ ht-degree: 0%
 
 ## [!UICONTROL My Purchase Orders]
 
-為公司啟用採購單時， **[!UICONTROL My Purchase Orders]** 登入公司使用者帳戶之客戶的左側面板中會顯示專案。 有三個頁標，提供不同的採購單清單與功能：
+為公司啟用採購單時，對於登入公司使用者帳戶的客戶，**[!UICONTROL My Purchase Orders]**&#x200B;專案會顯示在左側面板中。 有三個頁標，提供不同的採購單清單與功能：
 
 - **[!UICONTROL My Purchase Orders]**：客戶建立的採購單。
-- **[!UICONTROL Company Purchase Orders]**：公司中下屬使用者所建立的PO （視公司結構和角色而定）。
-- **[!UICONTROL Requires My Approval]**：（對指定的核准者可見）等待客戶核准的PO。 計數器顯示等待核准的訂單數。
+- **[!UICONTROL Company Purchase Orders]**：公司內下屬使用者所建立的PO （視公司結構和角色而定）。
+- **[!UICONTROL Requires My Approval]**： （對指定的核准者可見）等待客戶核准的PO。 計數器顯示等待核准的訂單數。
 
 ![我的採購單](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-如需店面中公司使用者可使用的受支援採購單功能的詳細資訊，請參閱 [我的採購單](account-dashboard-my-purchase-orders.md).
+如需店面中公司使用者可使用的支援採購單功能的詳細資訊，請參閱[我的採購單](account-dashboard-my-purchase-orders.md)。
 
 ## 離線與線上付款方法
 
-工作流程可能會因付款方式而異。 若要瞭解有關Adobe Commerce付款方法的詳細資訊，請參閱 [付款方法](../stores-purchase/payments.md) 在 _銷售和購買體驗指南_.
+工作流程可能會因付款方式而異。 若要深入瞭解Adobe Commerce付款方法，請參閱&#x200B;_銷售和購買體驗指南_&#x200B;中的[付款方法](../stores-purchase/payments.md)。
 
 >[!IMPORTANT]
 >
->採購單應使用 _In-Context_ 結帳體驗。 _上下文外_ 不支援結帳，因為它們會略過一般的結帳流程。 一般而言， _In-Context_ 表示客戶留在您的商務網站上以完成此程式。 _上下文外_ 是指客戶被帶往其他地點完成購買的時間。
+>採購單應使用&#x200B;_In-Context_&#x200B;結帳體驗。 不支援&#x200B;_不具內容_&#x200B;的結帳，因為它們會略過一般的結帳流程。 一般而言，_In-Context_&#x200B;表示客戶留在您的商務網站以完成程式。 _上下文外_&#x200B;是指客戶被帶往其他網站完成購買的時間。
 
 ### 線上付款
 

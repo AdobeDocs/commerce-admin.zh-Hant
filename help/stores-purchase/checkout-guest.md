@@ -14,26 +14,26 @@ ht-degree: 0%
 
 您的商店可設定為要求購物者在購買前先開立帳戶。 預設設定可讓訪客進行購買，並可選擇在完成結帳程式後註冊帳戶。
 
-![Luma存放區會將「簽出」顯示為訪客](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
+![Luma存放區顯示簽出為來賓](./assets/storefront-checkout-as-guest.png){width="600" zoomable="yes"}
 
 **_若要停用來賓簽出：_**
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Checkout]**.
+1. 在左側面板上，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Checkout Options]** 區段。
+1. 展開&#x200B;**[!UICONTROL Checkout Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![在設定頁面上展開的簽出選項](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-如需這些組態設定的詳細說明，請參閱 [簽出選項](../configuration-reference/sales/checkout.md#checkout-options) 在 _設定參考指南_.
+如需這些組態設定的詳細說明，請參閱&#x200B;_組態參考指南_&#x200B;中的[簽出選項](../configuration-reference/sales/checkout.md#checkout-options)。
 
-1. 如果設定是針對特定商店檢視， [選擇商店檢視](../configuration-reference/scope-change.md#set-the-scope) 組態適用的位置。
+1. 如果設定是針對特定存放區檢視，[請選擇組態套用的存放區檢視](../configuration-reference/scope-change.md#set-the-scope)。
 
-   出現提示時，按一下 **[!UICONTROL OK]** 以繼續。
+   出現提示時，按一下&#x200B;**[!UICONTROL OK]**&#x200B;以繼續。
 
-1. 設定 **[!UICONTROL Allow Guest Checkout]** 至 `No`.
+1. 將&#x200B;**[!UICONTROL Allow Guest Checkout]**&#x200B;設為`No`。
 
-   如有必要，請清除 **[!UICONTROL Use system value]** 核取方塊以啟用此設定的變更。
+   如有必要，請清除&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊以啟用此設定的變更。
 
-1. 按一下 **[!UICONTROL Save Config]**.
+1. 按一下&#x200B;**[!UICONTROL Save Config]**。

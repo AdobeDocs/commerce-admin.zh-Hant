@@ -1,6 +1,6 @@
 ---
 title: 產品型別
-description: 瞭解如何 [!DNL Inventory Management] 支援所有Adobe Commerce和Magento Open Source產品型別的存貨和訂單管理。
+description: 瞭解 [!DNL Inventory Management] 如何支援所有Adobe Commerce和Magento Open Source產品型別的庫存和訂單管理。
 exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 產品型別
 
-[!DNL Inventory Management] 支援Adobe Commerce和Magento Open Source中所有產品型別的庫存和訂單管理：簡單、可設定、虛擬、可下載、套件組合和群組。 不同產品型別的來源、庫存和運送選項和需求可能有所不同。
+[!DNL Inventory Management]支援Adobe Commerce和Magento Open Source中所有產品型別的庫存和訂單管理：簡單、可設定、虛擬、可下載、套件組合和群組。 不同產品型別的來源、庫存和運送選項和需求可能有所不同。
 
-- [單一來源商家](merchant-sourcing.md#single-source-merchants) 建立和更新產品設定和數量，而不需要其他更新。 所有建立與新匯入的產品都會自動指派給「預設來源」與「預設庫存」，如果啟用且有庫存，客戶將可立即使用。
+- [單一來源商家](merchant-sourcing.md#single-source-merchants)建立並更新產品設定和數量，而不需要其他更新。 所有建立和新匯入的產品都會自動指派給預設Source和預設庫存，如果啟用且有庫存，客戶將立即可用。
 
-- [多來源商家](merchant-sourcing.md#multi-source-merchants) 在產品建立期間或之後指定來源、每個來源的數量及設定。 [!DNL Commerce] 將所有新匯入的產品指定至「預設來源」，需要額外的編輯才能指定來源與數量。
+- [多來源商家](merchant-sourcing.md#multi-source-merchants)在建立產品期間或之後指定來源、每個來源的數量及設定。 [!DNL Commerce]會將所有新匯入的產品指派給預設Source，而需要額外的編輯才能指派來源和數量。
 
-| 產品型別 | 送貨與來源選擇演演算法 |
+| 產品型別 | 送貨與Source選擇演演算法 |
 |--|--|
 | [[!UICONTROL Simple]](../catalog/product-create-simple.md){target="_blank"} | 支援送貨時的SSA建議和覆寫。 |
 | [[!UICONTROL Configurable]](../catalog/product-create-configurable.md){target="_blank"} | 支援送貨時的SSA建議和覆寫。 |

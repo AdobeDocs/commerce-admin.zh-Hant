@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->不支援最佳化動畫GIF影像。 在影像最佳化程式之後，這類影像可能會遺失其動畫。 若要避免此問題，請確定動畫GIF影像大小低於所定義的最大寬度和高度。 [[!UICONTROL Media Gallery Image Optimization] 組態設定](../content-design/media-gallery-image-optimization.md).
+>不支援最佳化動畫GIF影像。 在影像最佳化程式之後，這類影像可能會遺失其動畫。 若要避免此問題，請確定動畫GIF影像大小低於[[!UICONTROL Media Gallery Image Optimization]組態設定](../content-design/media-gallery-image-optimization.md)所定義的最大寬度和高度。

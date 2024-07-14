@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # 標籤標籤
 
-標籤標籤是包含程式碼片段的指令，與存放區中物件的相對參照，例如變數、URL、影像或區塊。 標籤標籤可用於編輯器可用的任何位置，並整合到的HTML中 [電子郵件](email-templates.md) 和 [電子報](../merchandising-promotions/newsletter-template.md) 範本，以及其他型別的 [內容](../content-design/introduction.md#content).
+標籤標籤是包含程式碼片段的指令，與存放區中物件的相對參照，例如變數、URL、影像或區塊。 標籤標籤標籤可用於任何有編輯器可用的地方，並可合併到[電子郵件](email-templates.md)和[電子報](../merchandising-promotions/newsletter-template.md)範本以及其他型別的[內容](../content-design/introduction.md#content)的HTML中。
 
 標籤標籤會以雙大括弧括住，並可由Widget工具產生，或直接在HTML內容中輸入。 例如，與其將頁面的完整路徑硬式編碼，您可以使用標籤標籤來表示商店URL。 以下範例中的標籤標籤包括：
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## 自訂變數
 
-「變數」標籤可用來插入 [自訂變數](variables-custom.md) 放入電子郵件範本、區塊、電子報和內容頁面。
+變數標籤標籤可用來將[自訂變數](variables-custom.md)插入電子郵件範本、區塊、電子報和內容頁面。
 
 \{\{CustomVar code= &quot;my_custom_variable&quot;}}
 
 ## 商店URL
 
-「商店URL」標籤代表您網站的基底URL，可用來取代完整URL的第一部分，包括網域名稱。 此標籤有兩個版本：一個直接前往您的商店，另一個使用正斜線(`/`)的後面，此專案在新增路徑時使用。
+「商店URL」標籤代表您網站的基底URL，可用來取代完整URL的第一部分，包括網域名稱。 此標籤標籤有兩個版本：一個直接前往您的商店，另一個在結尾使用正斜線(`/`)，用於新增路徑。
 
 \{\{商店url=&#39;服飾/鞋子/女士&#39;}}
 
@@ -70,7 +70,7 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 ### 步驟1. 識別目的地URL
 
-如果可能的話，請導覽至您要連結的頁面，並從瀏覽器的位址列複製完整的URL。 您需要的URL部分位於 `.com/`. 否則，請從您要作為連結目的地的CMS頁面複製URL金鑰。
+如果可能的話，請導覽至您要連結的頁面，並從瀏覽器的位址列複製完整的URL。 您需要的部分URL出現在`.com/`之後。 否則，請從您要作為連結目的地的CMS頁面複製URL金鑰。
 
 #### 類別頁面的完整URL
 
@@ -88,15 +88,15 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 ### 步驟2. 將標籤新增至URL
 
-商店URL標籤代表您網站的基底URL，可取代商店URL的HTTP位址部分，包括網域名稱和 `.com`. 根據您要達到的結果，您可以使用標籤的兩個版本。
+商店URL標籤代表您網站的基本URL，可用來取代商店URL的HTTP位址部分，包括網域名稱和`.com`。 根據您要達到的結果，您可以使用標籤的兩個版本。
 
-`store direct_url`  — 直接連結至頁面。
+`store direct_url` — 直接連結至頁面。
 
-`store url`  — 在結尾處加上正斜線，以便附加其他參照作為路徑。
+`store url` — 在結尾處加上正斜線，以便附加其他參照作為路徑。
 
 在下列範例中，URL索引鍵會以單引號括住，而整個標籤標籤會以雙大括弧括住。 搭配錨點標籤使用時，標籤標籤會放置在錨點的雙引號內。 為避免混淆，您可以對每個巢狀引號集使用單引號與雙引號。
 
-如果您以完整URL開頭，請刪除HTTP位址(`http://` 或 `https://`)部分URL，向上延伸並包含 `.com/`. 在其位置，透過開頭單引號輸入Store URL標籤標籤。
+如果您以完整URL開頭，請刪除URL的HTTP位址（`http://`或`https://`）部分，一直到並包括`.com/`。 在其位置，透過開頭單引號輸入Store URL標籤標籤。
 
 #### 儲存URL標籤標籤
 
@@ -120,10 +120,10 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 #### 錨點標籤中的標籤
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>連結文字\&lt;/a>
+\&lt;a href=&quot;\{\{標籤移至此處}}&quot;>連結文字\&lt;/a>
 
 將完成的錨點標籤貼到您要顯示連結的任何CMS頁面、區塊、橫幅或電子郵件範本的程式碼中。
 
 ### 使用標籤完成連結
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>鞋類銷售\&lt;/a>
+\&lt;a href=&quot;\{\{商店url=&#39;apparel/shoes&#39;}}&quot;>鞋類促銷\&lt;/a>

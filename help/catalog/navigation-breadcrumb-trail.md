@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 階層連結追蹤
 
-A _階層連結路徑_ 是一組連結，可顯示客戶與商店其他頁面的關聯位置。 他們可以按一下階層連結追蹤中的任何連結，以返回上一頁。
+_階層連結路徑_&#x200B;是一組連結，可顯示客戶與商店中其他頁面的關聯位置。 他們可以按一下階層連結追蹤中的任何連結，以返回上一頁。
 
 階層連結追蹤可設定為出現在內容頁面和目錄頁面上。 階層連結軌跡的格式和位置會依主題而有所不同，但通常位於標題的正下方。 依預設，階層連結軌跡會顯示在CMS頁面上。
 
-![店面中顯示的階層連結路徑](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+店面中顯示的![階層連結路徑](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## 麵包屑的一般型別
 
@@ -46,20 +46,20 @@ A _階層連結路徑_ 是一組連結，可顯示客戶與商店其他頁面的
 
 ## 從CMS頁面新增/移除階層連結
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中的 _[!UICONTROL General]_，選擇&#x200B;**[!UICONTROL Web]**.
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
    ![顯示CMS頁面的階層連結](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. 展開 _[!UICONTROL Default Pages]_區段。
+1. 展開&#x200B;_[!UICONTROL Default Pages]_區段。
 
-1. 取消選取 **[!UICONTROL Use system value]** 核取方塊。
+1. 取消選取&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊。
 
-1. 設定 **[!UICONTROL Show Breadcrumbs for CMS Pages]** 至 `No` 或 `Yes`.
+1. 將&#x200B;**[!UICONTROL Show Breadcrumbs for CMS Pages]**&#x200B;設為`No`或`Yes`。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 >[!NOTE]
 >
->父類別具有下列條件時，就不會顯示在子類別頁面的階層連結路徑上： `Browsing Category`= `Deny` [類別許可權](category-permissions.md) 設定。
+>當父類別具有`Browsing Category`= `Deny` [類別許可權](category-permissions.md)設定時，父類別不會顯示在子類別頁面的階層連結軌跡上。

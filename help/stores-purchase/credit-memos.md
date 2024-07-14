@@ -12,34 +12,34 @@ ht-degree: 0%
 
 # 銷退折讓單
 
-A _銷退折讓單_ 是一份檔案，顯示客戶全額或部分退款的應付金額。 金額可用於購買或退款給客戶。 您可以列印單一訂單的銷退折讓單，或將多個訂單的銷退折讓單列印成批次。 必須先為訂單產生銷退折讓單，才能列印銷退折讓單。 此 _銷退折讓單_ 頁面列出已核發給客戶的銷退折讓單。
+_銷退折讓單_&#x200B;是一份檔案，會顯示客戶應支付的全部或部分退款金額。 金額可用於購買或退款給客戶。 您可以列印單一訂單的銷退折讓單，或將多個訂單的銷退折讓單列印成批次。 必須先為訂單產生銷退折讓單，才能列印銷退折讓單。 _銷退折讓單_&#x200B;頁面列出已核發給客戶的銷退折讓單。
 
 ![銷退折讓單](./assets/credit-memos.png){width="700" zoomable="yes"}
 
 ## 退款方法
 
-此 [付款方法](payments.md) 訂單的退款方式（在某種程度上）。
+訂單的[付款方式](payments.md)在一定程度上決定您退款訂單的方式。
 
 您可以用三種方式退款：
 
 - 帳戶銷退折讓 — 使用銷退折讓帳戶支付的訂單可以退款為帳戶銷退折讓：
    - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [商店點數](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B) [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B) [公司評價](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用) [帳戶付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用) [公司點數](../b2b/credit-company.md)
 - [線上退款](payments.md#online-payment-methods) — 信用卡透過付款閘道(例如PayPal或Braintree)支付的訂單，會透過付款處理程式線上退款。
-- [離線退款](payments.md#offline-payment-methods) — 以貨到付款([代碼](cash-on-delivery.md))或由 [支票或匯票](check-money-order.md) 離線退款。
+- [離線退款](payments.md#offline-payment-methods) — 以「貨到付款」（[貨到付款](cash-on-delivery.md)）或[支票或匯票](check-money-order.md)支付的訂單會離線退款。
 
 您可以針對任何付款方式核發離線退款或帳戶貸項（如果已啟用）。
 
-由「貨到付款」支付的訂單([代碼](cash-on-delivery.md))或由 [支票或匯票](check-money-order.md) 離線退款。
+已由「貨到付款」（[貨到付款](cash-on-delivery.md)）或[支票或匯票](check-money-order.md)支付的訂單已離線退款。
 
 ## 退款工作流程
 
-1. **付款動作**  — 如果 [付款動作](credit-memo-create.md#payment-action-setting) 設定已設為 `Authorize`，您必須在建立銷退折讓單之前產生商業發票 — 請繼續執行步驟2。 如果設為 `Authorize and Capture`，已產生發票 — 請繼續步驟3。
+1. **付款動作** — 如果[付款動作](credit-memo-create.md#payment-action-setting)組態設定為`Authorize`，您必須先產生商業發票，才能建立銷退折讓單 — 請繼續執行步驟2。 若設為`Authorize and Capture`，表示已產生發票 — 請繼續執行步驟3。
 
-1. **產生發票** - [建立發票](invoices.md#create-an-invoice) 以便透過銷退折讓單將退款傳送給客戶。
+1. **產生商業發票** - [建立訂單的商業發票](invoices.md#create-an-invoice)，以便透過銷退折讓單將退款傳送給客戶。
 
-1. **建立銷退折讓單** - [簽發銷退折讓單](credit-memo-create.md) 在Admin for [信用購買](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)，或 [支票或匯票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
+1. **建立銷退折讓單** - [在管理員中針對[銷退折讓購買](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或[支票或匯票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)發出銷退折讓單](credit-memo-create.md)。
 
 ## 欄說明
 
@@ -53,7 +53,7 @@ A _銷退折讓單_ 是一份檔案，顯示客戶全額或部分退款的應付
 | [!UICONTROL Bill-to Name] | 負責支付訂單的人員名稱。 |
 | [!UICONTROL Status] | 表示銷退折讓單請求的目前狀態。 |
 | [!UICONTROL Refunded] | 從訂單退款的總金額。 |
-| [!UICONTROL Actions] | **[!UICONTROL View]**  — 開啟銷退折讓單請求，並維護買方與賣方之間的議價記錄。 |
+| [!UICONTROL Actions] | **[!UICONTROL View]** — 開啟銷退折讓單請求，並維護買賣雙方之間的議價記錄。 |
 | [!UICONTROL Order Status] | 表示訂單狀態。 |
 | [!UICONTROL Purchased From] | 表示下訂單的網站、商店和商店檢視。 |
 | [!UICONTROL Billing Address] | 下訂單的客戶的帳單地址。 |

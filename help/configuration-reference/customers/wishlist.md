@@ -1,11 +1,11 @@
 ---
-title: 『[!UICONTROL Customers] &gt； [!UICONTROL Wish List]『
-description: 檢閱上的組態設定 [!UICONTROL Customers] &gt； [!UICONTROL Wish List] 商務管理員頁面。
+title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Wish List]'
+description: 檢閱Commerce管理員的[!UICONTROL Customers] &amp；gt； [!UICONTROL Wish List]頁面上的組態設定。
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 1%
 
 <!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 為您的存放區啟用希望清單模組。 選項： `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | 存放區檢視 | 指定側邊欄中希望清單的可見性。 <br/>選項： `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)設為 `Yes`，可讓客戶建立和維護多個願望清單。 選項： `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)如果已啟用多個希望清單，會決定客戶可將其帳戶關聯的希望清單數量上限。 |
+| [!UICONTROL Enable Multiple Wish Lists] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)設為`Yes`時，可讓客戶建立及維護多個願望清單。 選項： `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | 存放區檢視 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)如果已啟用多個希望清單，可決定客戶可與其帳戶關聯的希望清單數量上限。 |
 
 {style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 <!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | 存放區檢視 | 決定當共用願望清單時，要以傳送者身分顯示的商店連絡人。 預設連絡人： `General Contact` |
 | [!UICONTROL Email Template] | 存放區檢視 | 決定共用希望清單時用於傳送之訊息的電子郵件範本。 預設範本： `Share Wishlist` |
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 <!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | 網站 | 設定客戶帳戶儀表板中「希望清單摘要」的顯示。 選項： `Display number of items in wish list` / `Display item quantities` |
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 電子郵件範本定義從您的商店傳送之自動化訊息的配置、內容和格式。 這些電子郵件稱為交易式電子郵件，因為每個電子郵件都與特定型別的交易或事件相關聯。
 
-Commerce包含一組回應式電子郵件範本，這些範本是由商店運作期間發生的各種事件所觸發。 每個範本皆已針對任何熒幕大小進行最佳化，且可從桌上型電腦、平板電腦及行動裝置檢視。 您可以準備各種與客戶活動、銷售、產品警示、管理員動作和系統訊息相關的電子郵件範本 [自訂](email-template-custom.md) 以反映您的品牌。
+Commerce包含一組回應式電子郵件範本，這些範本是由商店運作期間發生的各種事件所觸發。 每個範本皆已針對任何熒幕大小進行最佳化，且可從桌上型電腦、平板電腦及行動裝置檢視。 您可以[自訂](email-template-custom.md)，以反映出您的品牌的各種預先準備好的電子郵件範本，包括客戶活動、銷售、產品警示、管理員動作以及系統訊息。
 
 Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使用者端之間呈現電子郵件的方式可能有一些差異。
 
@@ -43,37 +43,37 @@ Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使�
 
 ## 設定電子郵件範本
 
-此設定會決定出現在預設頁首範本中的標誌，以及任何自訂的標誌 [頁首](email-template-custom.md#header-template) 和 [頁尾](email-template-custom.md#footer-template) 您要用於商店傳送之交易式電子郵件訊息的範本。
+此設定會決定出現在預設頁首範本中的標誌，以及任何您想要用於商店傳送之異動電子郵件訊息的自訂[頁首](email-template-custom.md#header-template)和[頁尾](email-template-custom.md#footer-template)範本。
 
 ![異動電子郵件設計](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-如需組態設定的詳細清單，請參閱 [_異動電子郵件_](../content-design/configuration.md) 在 _內容與設計手冊_.
+如需組態設定的詳細清單，請參閱&#x200B;_內容與設計手冊_&#x200B;中的&#x200B;[_異動電子郵件_](../content-design/configuration.md)。
 
 ## 步驟1. 上傳您的標誌
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找要設定的存放區檢視，然後按一下 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_欄。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在 _[!UICONTROL Other Settings]_，展開 ![展開選擇器](../assets/icon-display-expand.png) 此&#x200B;**[!UICONTROL Transactional Emails]**區段。
+1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL Transactional Emails]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-1. 上傳您準備好的專案 **[!UICONTROL Logo Image]**，按一下 **[!UICONTROL Upload]** 並從系統中選取檔案。
+1. 若要上傳您準備的&#x200B;**[!UICONTROL Logo Image]**，請按一下&#x200B;**[!UICONTROL Upload]**&#x200B;並從您的系統中選取檔案。
 
-1. 的 **[!UICONTROL Logo Image Alt]**，輸入替代文字以識別影像。
+1. 針對&#x200B;**[!UICONTROL Logo Image Alt]**，輸入替代文字以識別影像。
 
-1. 輸入 **[!UICONTROL Logo Width]** 和 **[!UICONTROL Logo Height]** 以畫素為單位。
+1. 輸入&#x200B;**[!UICONTROL Logo Width]**&#x200B;和&#x200B;**[!UICONTROL Logo Height]**&#x200B;畫素。
 
-   將每個值輸入為數字，不使用 `px` 縮寫。 這些值是指標題中標誌的顯示尺寸，而不是影像的實際大小。
+   以數字輸入每個值，不含`px`縮寫。 這些值是指標題中標誌的顯示尺寸，而不是影像的實際大小。
 
 ## 步驟2. 選擇頁首與頁尾範本
 
-如果您有適用於商店或不同商店的自訂頁首與頁尾範本，您可根據 [範圍](../getting-started/websites-stores-views.md#scope-settings) 設定的。 否則，會使用預設範本。 若要深入瞭解，請參閱 [自訂電子郵件範本](email-template-custom.md).
+如果您有商店或不同商店的自訂頁首和頁尾範本，您可以根據設定的[範圍](../getting-started/websites-stores-views.md#scope-settings)來指定用於每個商店的範本。 否則，會使用預設範本。 若要深入瞭解，請參閱[自訂電子郵件範本](email-template-custom.md)。
 
-1. 選擇 **[!UICONTROL Header Template]** 用於所有異動電子郵件訊息。
+1. 選擇要用於所有交易式電子郵件訊息的&#x200B;**[!UICONTROL Header Template]**。
 
-1. 選擇 **[!UICONTROL Footer Template]** 用於所有異動電子郵件訊息。
+1. 選擇要用於所有交易式電子郵件訊息的&#x200B;**[!UICONTROL Footer Template]**。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 電子郵件範本清單
 
@@ -103,7 +103,7 @@ Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使�
 | 範本 | 設定路徑 |
 |--- |--- |
 | `Assign Company Admin` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**區段：** [!UICONTROL Customer-Related Emails]<br/>**欄位：** [!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **頁面：** [!UICONTROL Customers] > [公司設定&#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**區段：** [!UICONTROL Customer-Related Emails] <br/>**欄位：** [!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **頁面：** [!UICONTROL Customers] > [公司組態&#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**區段：** [!UICONTROL Customer-Related Emails] <br/>**欄位：** [!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**區段：** [!UICONTROL Customer-Related Emails]<br/>**欄位：** [!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**區段：** [!UICONTROL Customer-Related Emails]<br/>**欄位：** [!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | 不適用 |
@@ -147,14 +147,14 @@ Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使�
 |--- |--- |
 | `Change Email` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Account Information Options]<br/>**欄位：** [!UICONTROL Change Email Template] |
 | 變更電子郵件和密碼 | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Account Information Options]<br/>**欄位：** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options]<br/>**欄位：** 忘記電子郵件範本 |
-| `New Account` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：** 預設歡迎電子郵件 |
-| `New Account (Magento/luma)` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：** 預設歡迎電子郵件 |
-| `New Account Confirmation Key` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：** 確認連結電子郵件 |
-| `New Account Confirmed` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：** 歡迎電子郵件 |
-| `New Account Without Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：** 預設的歡迎電子郵件（不含密碼） |
-| `Remind Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options]<br/>**欄位：** 提醒電子郵件範本 |
-| `Reset Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options] <br/>**欄位：** 重設密碼範本 |
+| `Forgot Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options]<br/>**欄位：**&#x200B;忘記電子郵件範本 |
+| `New Account` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：**&#x200B;預設歡迎電子郵件 |
+| `New Account (Magento/luma)` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：**&#x200B;預設歡迎電子郵件 |
+| `New Account Confirmation Key` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：**&#x200B;確認連結電子郵件 |
+| `New Account Confirmed` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：**&#x200B;歡迎電子郵件 |
+| `New Account Without Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Create New Account Options]<br/>**欄位：**&#x200B;預設歡迎電子郵件（不含密碼） |
+| `Remind Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options]<br/>**欄位：**&#x200B;提醒電子郵件範本 |
+| `Reset Password` | **頁面：** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**區段：** [!UICONTROL Password Options] <br/>**欄位：**&#x200B;重設密碼範本 |
 
 {style="table-layout:auto"}
 
@@ -374,7 +374,7 @@ Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使�
 
 | 範本 | 設定路徑 |
 |--- |--- |
-| `Send Product Link to Friend` | **頁面：** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**區段：** [!UICONTROL Email Templates]<br/>**欄位：** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **頁面：** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**區段：** [!UICONTROL Email Templates]<br/>**欄位：** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -399,8 +399,8 @@ Commerce電子郵件可由HTML和純文字電子郵件使用者端轉譯。 使�
 
 | 範本 | 設定路徑 |
 |--- |--- |
-| `Forgot Admin Password` | **頁面：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**區段：** [!UICONTROL Admin User Emails]<br/>**欄位：** 忘記密碼電子郵件範本 |
-| `User Notification` | **頁面：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**區段：** [!UICONTROL Admin User Emails]<br/>**欄位：** 使用者通知範本 |
+| `Forgot Admin Password` | **頁面：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**區段：** [!UICONTROL Admin User Emails]<br/>**欄位：**&#x200B;忘記密碼電子郵件範本 |
+| `User Notification` | **頁面：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**區段：** [!UICONTROL Admin User Emails]<br/>**欄位：**&#x200B;使用者通知範本 |
 | `New User Notification` | **頁面：** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**區段：** [!UICONTROL Admin User Emails]<br/>**欄位：** [!UICONTROL New User Notification Template] |
 
 {style="table-layout:auto"}

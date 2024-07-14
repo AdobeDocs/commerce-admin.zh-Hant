@@ -17,11 +17,11 @@ Widget是程式碼片段，可顯示廣泛的內容，並將其置於商店中�
 
 {{$include /help/_includes/directives-caution.md}}
 
-![新增產品清單Widget](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
+![新產品清單Widget](./assets/storefront-home-page-new-products.png){width="700" zoomable="yes"}
 
 ## Widget型別
 
-當您 [建立Widget](widget-create.md)，您必須設定型別。 此型別會決定Widget的運作方式。
+當您[建立Widget](widget-create.md)時，您必須設定型別。 此型別會決定Widget的運作方式。
 
 | 型別 | 說明 |
 |--- |--- |

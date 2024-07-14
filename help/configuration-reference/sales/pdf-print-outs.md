@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs]『
-description: 檢閱上的組態設定 [!UICONTROL Sales] &gt； [!UICONTROL PDF Print-outs] 商務管理員頁面。
+title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL PDF Print-outs]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL PDF Print-outs]頁面上的組態設定。
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ![發票](./assets/pdf-print-invoice.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在商業發票表頭中包含訂單識別碼以供參考。 選項： `Yes` / `No` |
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ![出貨](./assets/pdf-print-shipment.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在出貨包裝單表頭中包含訂單識別碼以供參考。 選項： `Yes` / `No` |
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 ![銷退折讓單](./assets/pdf-print-credit-memo.png)<!-- zoom -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | 存放區檢視 | 在銷退折讓單表頭中包含「訂單識別碼」以供參考。 選項： `Yes` / `No` |
 

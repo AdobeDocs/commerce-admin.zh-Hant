@@ -6,7 +6,7 @@ feature: Gift, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -14,49 +14,49 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-此 [Widget](../content-design/widgets.md) 工具可用來將禮品註冊搜尋方塊放置在商店中的大部分位置。 您可以指定可供客戶使用的搜尋選項，例如名稱、電子郵件地址及禮品註冊識別碼。 當客戶按一下「搜尋」按鈕時，結果會顯示在「贈品註冊搜尋」頁面上。 如果搜尋未傳回任何結果，客戶可以使用其他引數重試。
+[Widget](../content-design/widgets.md)工具可用來將禮品註冊搜尋方塊放置在商店中的大部分位置。 您可以指定可供客戶使用的搜尋選項，例如名稱、電子郵件地址及禮品註冊識別碼。 當客戶按一下「搜尋」按鈕時，結果會顯示在「贈品註冊搜尋」頁面上。 如果搜尋未傳回任何結果，客戶可以使用其他引數重試。
 
-![店面範例 — 贈品註冊搜尋](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
+![店面範例 — 禮品登入搜尋](./assets/storefront-gift-registry-search.png){width="700" zoomable="yes"}
 
 ## 設定禮品登入搜尋
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**。
 
-1. 在右上角，按一下 **[!UICONTROL Add Widget]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 選擇 **[!UICONTROL Settings]** 並執行下列動作：
+1. 選擇&#x200B;**[!UICONTROL Settings]**&#x200B;索引標籤並執行下列動作：
 
-   - 設定 **[!UICONTROL Type]** 至 `Gift Registry Search`.
+   - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Gift Registry Search`。
 
-   - 設定 **[!UICONTROL Design Theme]** 至商店使用的佈景主題。
+   - 將&#x200B;**[!UICONTROL Design Theme]**&#x200B;設定為商店使用的主題。
 
-   - 按一下 **[!UICONTROL Continue]**.
+   - 按一下&#x200B;**[!UICONTROL Continue]**。
 
-   ![贈品登入 — 搜尋設定](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
+   ![禮品登入 — 搜尋設定](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. 在 _[!UICONTROL Storefront Properties]_區段，請執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
 
-   - 輸入 **[!UICONTROL Widget Title]** 以供內部參考。
+   - 輸入&#x200B;**[!UICONTROL Widget Title]**&#x200B;以供內部參考。
 
-   - 設定 **[!UICONTROL Assign to Store Views]** 前往可使用「禮品註冊搜尋」的商店檢視。
+   - 將&#x200B;**[!UICONTROL Assign to Store Views]**&#x200B;設定為可供使用禮品登入搜尋的存放區檢視。
 
-   - 設定 **[!UICONTROL Sort Order]** 當頁面上有其他區塊指派給相同位置時，決定禮品註冊搜尋區塊出現的順序。
+   - 設定&#x200B;**[!UICONTROL Sort Order]**&#x200B;以決定當頁面上有其他區塊指派給相同位置時，禮品登入搜尋區塊出現的順序。
 
-   ![贈品登入 — 店面屬性](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
+   ![禮品登入 — 店面屬性](./assets/widget-gift-registry-search-storefront-properties.png){width="700" zoomable="yes"}
 
-1. 在 **[!UICONTROL Layout Updates]** 區段，按一下 **[!UICONTROL Add Layout Update]**.
+1. 在&#x200B;**[!UICONTROL Layout Updates]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 若要判斷禮品註冊搜尋出現在商店中的位置，請執行下列步驟：
 
-   - 設定 **[!UICONTROL Display On]** 到您商店中要顯示禮品註冊搜尋區塊的頁面。
+   - 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要在存放區中顯示禮品登入搜尋區塊的頁面。
 
-   - 如果適用，請選擇 **[!UICONTROL Categories]** 您希望它出現的位置。
+   - 如果適用，請選擇要顯示它的&#x200B;**[!UICONTROL Categories]**。
 
-   - 設定 **[!UICONTROL Container]** 到頁面上放置贈品註冊搜尋區塊的位置。
+   - 將&#x200B;**[!UICONTROL Container]**&#x200B;設定為頁面上放置禮品登入搜尋區塊的位置。
 
-   ![贈品登入 — 版面更新](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
+   ![贈品登入 — 配置更新](./assets/widget-gift-registry-search-layout-updates.png){width="500" zoomable="yes"}
 
-1. 在左側面板中，選擇 **[!UICONTROL Widget Options]**.
+1. 在左側面板中選擇&#x200B;**[!UICONTROL Widget Options]**。
 
 1. 若要決定網站訪客搜尋禮品註冊的方式，請選取下列符合條件的專案：
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
    ![贈品登入 — Widget選項](./assets/widget-gift-registry-search-widget-options.png){width="700" zoomable="yes"}
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 當提示您重新整理頁面快取時，請按一下工作區頂端訊息中的連結，然後依照指示進行。
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Type] | 識別 `Gift Registry Search` 作為Widget的型別。 |
+| [!UICONTROL Type] | 將`Gift Registry Search`識別為Widget的型別。 |
 | [!UICONTROL Design Theme] | 禮品註冊搜尋所在商店使用的佈景主題。 |
 
 {style="table-layout:auto"}

@@ -5,7 +5,7 @@ exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -18,37 +18,37 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-此 _[!UICONTROL Store Information]_區段提供出現在銷售檔案和其他通訊中的基本資訊。
+_[!UICONTROL Store Information]_區段提供出現在銷售檔案和其他通訊中的基本資訊。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在 **[!UICONTROL General]** 在左側導覽面板中，選擇 **[!UICONTROL General]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Store Information]** 區段。
+1. 展開&#x200B;**[!UICONTROL Store Information]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   ![一般設定 — 存放區資訊](./assets/general-store-information.png){width="700"}
+   ![一般組態 — 存放區資訊](./assets/general-store-information.png){width="700"}
 
 1. 根據您的商店詳細資料設定選項：
 
-   - 輸入 **[!UICONTROL Store Name]** 您想要用於所有通訊的內容。
+   - 輸入您要在所有通訊中使用的&#x200B;**[!UICONTROL Store Name]**。
 
-   - 輸入 **[!UICONTROL Store Phone Number]**，格式依您想要的顯示方式。
+   - 輸入您要顯示的&#x200B;**[!UICONTROL Store Phone Number]**&#x200B;格式。
 
-   - 的 **[!UICONTROL Store Hours of Operation]**，輸入您的商店營業時間。 例如： `Mon - Fri, 9-5, Sat 9-noon PST`.
+   - 針對&#x200B;**[!UICONTROL Store Hours of Operation]**，輸入您的商店營業時間。 例如： `Mon - Fri, 9-5, Sat 9-noon PST`。
 
-   - 選取 **[!UICONTROL Country]** 您的企業所在位置。
+   - 選取您的企業所在的&#x200B;**[!UICONTROL Country]**。
 
-   - 選取 **[!UICONTROL Region/State]** 和國家/地區。
+   - 選取國家的&#x200B;**[!UICONTROL Region/State]**。
 
-   - 輸入 **[!UICONTROL Store Address]**. 如果位址很長，請繼續該位址 **商店地址行2**.
+   - 輸入&#x200B;**[!UICONTROL Store Address]**。 如果位址很長，請繼續&#x200B;**商店位址行2**&#x200B;上的位址。
 
-   - 如果適用，請輸入 **[!UICONTROL VAT Number]** ，屬於您的商店。
+   - 如果適用，請輸入您商店的&#x200B;**[!UICONTROL VAT Number]**。
 
-     若要驗證此號碼，請按一下 **[!UICONTROL Validate VAT Number]** 按鈕。 若要深入瞭解，請參閱 [VAT ID驗證](../stores-purchase/vat.md#vat-id-validation).
+     若要驗證號碼，請按一下&#x200B;**[!UICONTROL Validate VAT Number]**&#x200B;按鈕。 若要深入瞭解，請參閱[VAT ID驗證](../stores-purchase/vat.md#vat-id-validation)。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需關於存放區資訊組態選項的詳細資訊，請參閱 [_設定參考指南_](../configuration-reference/general/general.md#store-information).
+如需存放區資訊組態選項的詳細資訊，請參閱&#x200B;[_組態參考指南_](../configuration-reference/general/general.md#store-information)。
 
 ## [!UICONTROL Locale Options]
 
@@ -63,29 +63,29 @@ ht-degree: 0%
 
 地區設定會決定每個商店使用的時區與語言，並會識別該區域的工作週日期。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側導覽面板中的 **[!UICONTROL General]**，選擇 **[!UICONTROL General]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Locale Options]** 區段。
+1. 展開&#x200B;**[!UICONTROL Locale Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![一般設定 — 地區設定選項](./assets/general-locale-options.png){width="700"}
 
-1. 選取您的 **[!UICONTROL Timezone]** 從清單中。
+1. 從清單中選取您的&#x200B;**[!UICONTROL Timezone]**。
 
-1. 設定 **[!UICONTROL Locale]** 至商店語言。
+1. 將&#x200B;**[!UICONTROL Locale]**&#x200B;設為商店語言。
 
-1. 設定 **[!UICONTROL Weight Unit]** 至通常用於來自您地區設定的出貨的度量單位。
+1. 將&#x200B;**[!UICONTROL Weight Unit]**&#x200B;設定為通常用於來自您地區設定的出貨的測量單位。
 
-1. 設定 **[!UICONTROL First Day of the Week]** 到您所在區域視為一週第一天的那一天。
+1. 將&#x200B;**[!UICONTROL First Day of the Week]**&#x200B;設為您所在區域視為一週第一天的日期。
 
-1. 在 **[!UICONTROL Weekend Days]** 清單中，選取您所在地區中屬於週末的日子。
+1. 在&#x200B;**[!UICONTROL Weekend Days]**&#x200B;清單中，選取您所在地區中屬於週末的日子。
 
    若要選取多天，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需有關地區設定選項的詳細資訊，請參閱 [設定參考指南](../configuration-reference/general/general.md#locale-options).
+如需地區設定組態選項的詳細資訊，請參閱[組態參考指南](../configuration-reference/general/general.md#locale-options)。
 
 ## [!UICONTROL State Options]
 
@@ -93,25 +93,25 @@ ht-degree: 0%
 
 由於不同國家/地區的標準地址格式不同，因此您也可以編輯範本，以格式化發票、包裝單及出貨標籤的地址。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在 **[!UICONTROL General]** 在左側導覽面板中，選擇 **[!UICONTROL General]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL State Options]** 區段。
+1. 展開&#x200B;**[!UICONTROL State Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![一般設定 — 狀態選項](./assets/general-state-options.png){width="700"}
 
-1. 使用 **[!UICONTROL State is required for]** 清單以選取「地區/州」為必要專案的每個國家/地區。
+1. 使用&#x200B;**[!UICONTROL State is required for]**&#x200B;清單來選取需要地區/州別專案的每個國家/地區。
 
-1. 設定 **[!UICONTROL Allow to Choose State if it is Optional for Country]** 變更為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Allow to Choose State if it is Optional for Country]**&#x200B;設定為下列其中一項：
 
-   `Yes`  — 在非必要州別欄位的國家/地區，包含「州」欄位作為選擇性專案。
+   `Yes` — 在不需要狀態列位的國家/地區，包含狀態列位作為選擇性專案。
 
-   `No`  — 在不需要州欄位的國家/地區，省略「州」欄位。
+   `No` — 在不需要州欄位的國家/地區，省略「州」欄位。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需有關狀態組態選項的詳細資訊，請參閱 [設定參考指南](../configuration-reference/general/general.md#state-options).
+如需狀態組態選項的詳細資訊，請參閱[組態參考指南](../configuration-reference/general/general.md#state-options)。
 
 ## [!UICONTROL Country Options]
 
@@ -119,84 +119,84 @@ ht-degree: 0%
 
 ### 設定商店的國家/地區選項
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側導覽面板中的 **[!UICONTROL General]**，選擇 **[!UICONTROL General]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Country Options]** 區段。
+1. 展開&#x200B;**[!UICONTROL Country Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    >[!NOTE]
    >
-   >如有需要，請清除 **[!UICONTROL Use system value]** 核取方塊。
+   >如有需要，請針對您要變更的每個設定清除&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊。
 
    ![一般組態 — 國家/地區設定](./assets/general-country-options.png){width="700"}
 
-1. 選擇 **[!UICONTROL Default Country]** 您的企業所在位置。
+1. 選擇您的企業所在的&#x200B;**[!UICONTROL Default Country]**。
 
-1. 在 **[!UICONTROL Allow Countries]** 清單中，選取您接受訂單的每個國家/地區。
+1. 在&#x200B;**[!UICONTROL Allow Countries]**&#x200B;清單中，選取您接受訂單的每個國家/地區。
 
    依預設，會選取清單中的所有國家/地區。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
-1. 使用 **[!UICONTROL Zip/Postal Code is Optional for]** 清單以選取您經營業務時不需要將郵遞區號納入街道地址的每個國家/地區。
+1. 使用&#x200B;**[!UICONTROL Zip/Postal Code is Optional for]**&#x200B;清單來選取您營業的每個國家/地區，不需要將郵遞區號或郵遞區號納入街道地址。
 
-1. 在 **[!UICONTROL European Union Countries]** 清單中，選取您開展業務的歐盟國家/地區。
+1. 在&#x200B;**[!UICONTROL European Union Countries]**&#x200B;清單中，選取您開展業務的歐盟國家/地區。
 
    依預設，會選取所有EU國家。 若要選取您需要的國家，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個專案。
 
-1. 在 **[!UICONTROL Top Destinations]** 清單中，選取您針對銷售所瞄準的主要國家/地區。
+1. 在&#x200B;**[!UICONTROL Top Destinations]**&#x200B;清單中，選取您鎖定銷售目標的主要國家/地區。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 設定特定傳送方法的國家/地區選項
 
-您也可以針對每個可用專案，設定運送至特定國家/地區的功能 [傳遞方法](../stores-purchase/delivery.md) （UPS、FedEx等）。
+您也可以針對每個可用的[遞送方式](../stores-purchase/delivery.md) （UPS、FedEx等），設定運送至特定國家/地區的方式。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側導覽面板中，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Delivery Methods]**.
+1. 在左側導覽面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
 1. 選取要套用至特定國家的出貨承運商。
 
-1. 的 **[!UICONTROL Ship to Applicable Countries]**，取消選取 **[!UICONTROL Use system value]** 核取方塊，然後選取 **[!UICONTROL Specific Countries]** 選項。
+1. 針對&#x200B;**[!UICONTROL Ship to Applicable Countries]**，取消選取&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊並選取&#x200B;**[!UICONTROL Specific Countries]**&#x200B;選項。
 
-1. 在 **[!UICONTROL Top Destinations]** 清單中，選取您預定要送貨的主要國家/地區。
+1. 在&#x200B;**[!UICONTROL Top Destinations]**&#x200B;清單中，選取您預定要送貨的主要國家/地區。
 
-   ![為DHL傳遞方法設定國家/地區選項的範例](./assets/country-options-for-specific-delivery-method.png){width="700"}
+   ![設定DHL傳遞方式的國家選項範例](./assets/country-options-for-specific-delivery-method.png){width="700"}
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 疑難排解資源
 
-如需國家組態問題疑難排解的協助，請參閱下列內容 [!DNL Commerce] 支援知識庫文章：
+如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家/地區](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 - [提供的國家/地區識別碼不存在](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
-「商家地點」設定是用來設定 [付款方法](../stores-purchase/payments.md). 如果此設定沒有值， [預設國家](#uicontrol-country-options) 設定會使用。
+「商家地點」設定是用來設定[付款方法](../stores-purchase/payments.md)。 如果此設定沒有值，則會使用[預設國家](#uicontrol-country-options)設定。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側導覽面板中，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Payment Methods]**.
+1. 在左側導覽面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **商家地點** 區段，然後選擇 **[!UICONTROL Merchant Country]**.
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **商家位置**&#x200B;區段，然後選擇您的&#x200B;**[!UICONTROL Merchant Country]**。
 
    ![商家地點設定](./assets/payment-methods-merchant-location.png){width="600"}
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需「付款方法」組態選項的詳細資訊，請參閱 [設定參考指南](../configuration-reference/sales/payment-methods.md).
+如需付款方法組態選項的詳細資訊，請參閱[組態參考指南](../configuration-reference/sales/payment-methods.md)。
 
 ## 貨幣
 
-貨幣設定 — 定義基礎 [貨幣](../stores-purchase/currency-configuration.md) 以及任何接受為付款的其他貨幣。 同時建立匯入連線與排程，以自動更新匯率。
+貨幣設定 — 定義基礎[貨幣](../stores-purchase/currency-configuration.md)和任何接受為付款的其他貨幣。 同時建立匯入連線與排程，以自動更新匯率。
 
-貨幣符號 — 定義 [貨幣符號](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) 出現在產品價格與銷售檔案（例如訂單與商業發票）中。 [!DNL Commerce] 支援全球200多個國家的貨幣。
+貨幣符號 — 定義出現在產品價格和銷售檔案（例如訂單和發票）中的[貨幣符號](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional)。 [!DNL Commerce]支援來自全球200多個國家的貨幣。
 
-更新幣別匯率 — 幣別匯率可以是 [已更新](../stores-purchase/currency-update.md) 視需要或根據預先定義的排程，手動或匯入您的存放區。
+更新匯率 — 匯率可以是[手動更新](../stores-purchase/currency-update.md)，或視需要或根據預先定義的排程匯入您的商店。
 
-貨幣選擇器 — 如果有多種貨幣可供使用，則 [貨幣選擇器](../stores-purchase/currency.md) 可於存放區的標頭中使用。
+貨幣選擇器 — 如果有多種貨幣可供使用，則[貨幣選擇器](../stores-purchase/currency.md)可在商店標題中使用。
 
 ## [!UICONTROL Store Email Addresses]
 
@@ -214,27 +214,27 @@ ht-degree: 0%
 
 ### 步驟2：設定商店的電子郵件地址
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在 **[!UICONTROL General]** 在左側導覽面板中，選擇 **[!UICONTROL Store Email Addresses]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL Store Email Addresses]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL General Contact]** 並執行下列動作：
+1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL General Contact]**&#x200B;區段，然後執行下列動作：
 
    ![一般設定 — 儲存電子郵件地址](./assets/store-email-addresses-general-contact.png){width="600"}
 
-   - 的 **[!UICONTROL Sender Name]**，輸入與「一般連絡人」身分相關聯之人員的名稱，以顯示為任何電子郵件訊息的寄件者。
+   - 針對&#x200B;**[!UICONTROL Sender Name]**，輸入與一般連絡人身分相關之人員的名稱，以顯示為任何電子郵件訊息的寄件者。
 
-   - 的 **[!UICONTROL Sender Email]**，輸入相關的電子郵件地址。
+   - 針對&#x200B;**[!UICONTROL Sender Email]**，輸入相關的電子郵件地址。
 
 1. 為您計畫使用的每個商店電子郵件地址重複此程式。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 步驟3：更新銷售電子郵件設定
 
 如果您使用自訂電子郵件地址，請務必更新任何相關電子郵件訊息的設定，以便以寄件者身分顯示正確的身分。
 
-1. 在左側導覽面板中，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Sales Emails]**.
+1. 在左側導覽面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Sales Emails]**。
 
    此頁面針對下列專案分別有一個區段：
 
@@ -242,27 +242,27 @@ ht-degree: 0%
    - 商業發票與商業發票註解
    - 出貨與出貨備註
    - 銷退折讓單與銷退折讓單備註
-   - RMA、RMA授權、RMA管理註解及RMA客戶註解 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
+   - RMA、RMA授權、RMA管理註解和RMA客戶註解![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
 
-1. 開始使用 **[!UICONTROL Order]**，展開每封郵件的區段，並確認選取了正確的寄件者。
+1. 從&#x200B;**[!UICONTROL Order]**&#x200B;開始，展開每封郵件的區段，並確定已選取正確的寄件者。
 
-   ![銷售設定 — 銷售電子郵件](./assets/sales-emails-order.png){width="600"}
+   ![銷售組態 — 銷售電子郵件](./assets/sales-emails-order.png){width="600"}
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需有關銷售電子郵件設定選項的詳細資訊，請參閱 [_設定參考指南_](../configuration-reference/sales/sales-emails.md).
+如需有關銷售電子郵件組態選項的詳細資訊，請參閱&#x200B;[_組態參考指南_](../configuration-reference/sales/sales-emails.md)。
 
 ## 聯絡我們表單
 
-此 _聯絡我們_ 商店頁尾的連結是客戶與您保持聯絡的簡單方式。 客戶可以填妥表單，傳送訊息至您的商店。 標準 [!DNL Commerce] 安裝會顯示預設值 _聯絡我們_ 表單。 提交表單後，系統會顯示感謝訊息
+商店頁尾的&#x200B;_聯絡我們_&#x200B;連結是客戶與您保持聯絡的簡單方式。 客戶可以填妥表單，傳送訊息至您的商店。 標準[!DNL Commerce]安裝會顯示預設的&#x200B;_聯絡我們_&#x200B;表單。 提交表單後，系統會顯示感謝訊息
 
 請務必瞭解，預設「聯絡我們」表單是直接從程式碼轉譯，而非從CMS頁面轉譯。
 
-![預設聯絡我們頁面](./assets/page-contact-us-default.png){width="700"}
+![預設連絡人頁面](./assets/page-contact-us-default.png){width="700"}
 
 商店頁尾包含連至聯絡我們頁面的連結，該連結可在整個商店中使用。
 
-![頁尾的聯絡我們連結](./assets/storefront-footer-contact-us.png){width="700"}
+![頁尾的連絡我們連結](./assets/storefront-footer-contact-us.png){width="700"}
 
 Luma範例資料包含「聯絡我們」頁面上的其他資訊，示範如何自訂商店的頁面。
 
@@ -270,55 +270,55 @@ Luma範例資料包含「聯絡我們」頁面上的其他資訊，示範如何�
 
 ### 設定連絡人表單
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側導覽面板中的 **[!UICONTROL General]**，選擇 **[!UICONTROL Contacts]**.
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL Contacts]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Contact Us]** 部分與集合 **[!UICONTROL Enable Contact Us]** 至 `Yes`.
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Contact Us]**&#x200B;區段，並將&#x200B;**[!UICONTROL Enable Contact Us]**&#x200B;設為`Yes`。
 
-   ![一般組態 — 連絡我們](./assets/contacts-contact-us.png){width="600"}
+   ![一般組態 — 聯絡我們](./assets/contacts-contact-us.png){width="600"}
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Email Options]** 並設定電子郵件連絡人選項：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Email Options]**&#x200B;區段並設定電子郵件連絡人選項：
 
    ![一般設定 — 電子郵件選項](./assets/contacts-email-options.png){width="600"}
 
-   - 的 **[!UICONTROL Send Emails to]**，輸入寄出「聯絡我們」表單之訊息的電子郵件地址。
+   - 針對&#x200B;**[!UICONTROL Send Emails to]**，輸入寄出[連絡我們]表單之郵件的電子郵件地址。
 
-   - 設定 **[!UICONTROL Email Sender]** 存放區識別碼，會從「聯絡我們」表單顯示為訊息的寄件者。 例如：自訂電子郵件2。
+   - 將&#x200B;**[!UICONTROL Email Sender]**&#x200B;設為存放區識別碼，此識別碼會顯示為[連絡我們]表單的郵件寄件者。 例如：自訂電子郵件2。
 
-   - 設定 **[!UICONTROL Email Template]** 至用於從「聯絡我們」表單傳送之訊息的範本。
+   - 將&#x200B;**[!UICONTROL Email Template]**&#x200B;設為範本，此範本用於從[連絡我們]表單傳送的郵件。
 
-1. 完成時，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 自訂內容
 
-您可以自訂 _聯絡我們_ 表單以符合您的商店和客戶服務政策的需求。
+您可以自訂&#x200B;_聯絡我們_&#x200B;表單中的內容，以符合您的商店和客戶服務政策的需求。
 
 ### 方法1：使用範例資料
 
-Luma範例資料包括 _聯絡我們資訊_ 可針對您的商店自訂的區塊。 此 `contact-us-info` [區塊](../content-design/blocks.md) 可輕鬆修改以新增您自己的內容至「聯絡我們」頁面。
+Luma範例資料包含可為您的商店自訂的&#x200B;_聯絡我們資訊_&#x200B;區塊。 可以輕鬆修改`contact-us-info` [區塊](../content-design/blocks.md)，將您自己的內容新增至[連絡我們]頁面。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**。
 
-1. 尋找 **[!UICONTROL Contact Us Info]** 封鎖清單並在中開啟 **[!UICONTROL Edit]** 模式。
+1. 在清單中尋找&#x200B;**[!UICONTROL Contact Us Info]**&#x200B;區塊，並以&#x200B;**[!UICONTROL Edit]**&#x200B;模式開啟。
 
-   ![聯絡我們資訊區塊](./assets/content-block-contact-us-info.png){width="700"}
+   ![連絡我們資訊區塊](./assets/content-block-contact-us-info.png){width="700"}
 
-1. 在區塊頁面底部，按一下 **[!UICONTROL Edit with Page Builder]**.
+1. 在區塊頁面底部，按一下&#x200B;**[!UICONTROL Edit with Page Builder]**。
 
-   ![內容區塊 — 聯絡我們範例](./assets/content-block-contact-us-content.png){width="700"}
+   ![內容區塊 — 與我們連絡範例](./assets/content-block-contact-us-content.png){width="700"}
 
    >[!NOTE]
    >
-   >如果您有 [[!DNL Page Builder] 已停用](../page-builder/setup.md#disable-dnl-page-builder)，您可以使用編輯器 [工具列](../content-design/editor.md) 以格式化文字，並新增 [影像](../content-design/editor-insert-image.md) 和 [連結](../content-design/editor-insert-link.md).
+   >如果您[[!DNL Page Builder] 已停用](../page-builder/setup.md#disable-dnl-page-builder)，您可以使用編輯器[工具列](../content-design/editor.md)來格式化文字，並新增[影像](../content-design/editor-insert-image.md)和[連結](../content-design/editor-insert-link.md)。
 
-1. 將游標停留在HTML容器上以顯示工具箱，然後選擇 _設定_ ( ![設定圖示](../page-builder/assets/pb-icon-settings.png) )圖示。
+1. 將游標停留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](../page-builder/assets/pb-icon-settings.png) ）圖示。
 
-1. 根據提供商店的聯絡資訊來編輯HTML代碼，然後按一下 **[!UICONTROL Save]**.
+1. 編輯HTML代碼，以提供您商店的連絡資訊，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    ![內容區塊 — 編輯HTML代碼](./assets/content-block-contact-us-html.png){width="700"}
 
-1. 退出 [!DNL Page Builder] 階段與點按 **[!UICONTROL Save Block]**.
+1. 結束[!DNL Page Builder]階段並按一下&#x200B;**[!UICONTROL Save Block]**。
 
 ### 方法2：沒有範例資料
 
@@ -326,6 +326,6 @@ Luma範例資料包括 _聯絡我們資訊_ 可針對您的商店自訂的區塊
 >
 >從2.4.0版開始，連絡人表單無法在CMS區塊或CMS頁面中呼叫。 所有連絡人表單的自訂應使用版面xml或自訂主題範本完成。
 
-依預設，購物者使用 _連絡人連結_ 在店面頁面的頁尾中。 如需自訂連絡人頁面的詳細資訊，請參閱 [前端開發人員指南][theme-guide].
+依預設，購物者使用店面頁面頁尾中的&#x200B;_連絡人連結_&#x200B;來存取連絡人表單。 如需自訂連絡人頁面的詳細資訊，請參閱[前端開發人員指南][theme-guide]。
 
 [theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL General] &gt； [!UICONTROL Reports]『
-description: 檢閱上的組態設定 [!UICONTROL General] &gt； [!UICONTROL Reports] 商務管理員頁面。
+title: '[!UICONTROL General] &amp；gt； [!UICONTROL Reports]'
+description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Reports]頁面上的組態設定。
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 <!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Year-to-Date Starts] | 全域 | 指定年初至今計算所依據的月份與日期。 |
 | [!UICONTROL Current Month Starts] | 全域 | 指定用於計算以標示本月初的月份日期。 |
@@ -35,7 +35,7 @@ ht-degree: 1%
 >
 >如果您的業務功能不需要報告，建議您停用報告功能以增強存放區效能。 不過，有些功能（例如動態客戶區段）依賴報表資料才能正常運作。
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Reports] | 全域 | 啟用或停用報表事件。 |
 | [!UICONTROL Enable "Product View" Report] | 全域 | 啟用或停用已檢視產品頁面統計資料的收集。 |

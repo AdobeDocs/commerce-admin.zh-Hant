@@ -16,21 +16,21 @@ Adobe Commerce和Magento Open Source支援各種付款方法和服務，讓您�
 
 >[!TIP]
 >
->Adobe Commerce和Magento Open Source的支付服務提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，提供穩定且安全的支付處理作業。 若要深入瞭解此強大的工具集，以及此工具集如何提供您所需的深入分析和控制力，讓購買者獲得最佳體驗，請參閱 [Payment Services使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Adobe Commerce和Magento Open Source的支付服務提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，提供穩定且安全的支付處理作業。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱[付款服務使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
 
 >[!NOTE]
 >
->檢閱 [PCI法規遵循指南](../getting-started/compliance-pci.md) 概述支付卡產業(PCI)針對接受透過網際網路以信用卡付款的企業所設定的需求。
+>檢閱[PCI法規遵循准則](../getting-started/compliance-pci.md)，其中概述支付卡產業(PCI)針對接受透過網際網路信用卡付款的企業所設定的需求。
 
 ## 2.4中的變更
 
-2.4.x版移除了部分付款整合和隨附的擴充功能，並移至Commerce Marketplace。 您可在以下網址找到最新正式的付款整合延伸模組： [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){：target=&quot;_blank&quot;}。
+2.4.x版移除了部分付款整合和隨附的擴充功能，並移至Commerce Marketplace。 您可以在[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){：target=&quot;_blank&quot;}中找到最新的正式付款整合延伸模組。
 
-- **Amazon Pay** 和 **卡拉納**：Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，這些擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
+- **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，這些擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 
-  如果您已啟用並設定這些隨附的擴充功能之一，則必須在2.4.4升級程式中更新composer.json檔案，並管理以後的擴充功能更新。 另請參閱 [升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 在 _升級指南_ 以取得詳細資訊。
+  如果您已啟用並設定這些隨附的擴充功能之一，則必須在2.4.4升級程式中更新composer.json檔案，並管理以後的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
 
-- **Worldpay**， **Eway**， **網路來源**、和 **Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){：target=&quot;_blank&quot;}。
+- **Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){：target=&quot;_blank&quot;}。
 
 ## 離線付款方法
 
@@ -41,7 +41,7 @@ Adobe Commerce和Magento Open Source包含多種內建的離線付款方法，�
 - [銀行轉帳付款](bank-transfer.md)
 - [支票/匯票](check-money-order.md)
 - [採購單](purchase-order.md)
-- [分期付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
+- [帳戶付款](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
 
 ## 線上付款方法
 
@@ -55,7 +55,7 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 ### 其他PayPal支付解決方案
 
-另請參閱 [PayPal支付解決方案](paypal.md) 以取得PayPal付款方式選項的詳細資訊。
+請參閱[PayPal付款解決方案](paypal.md)，以取得有關PayPal付款方式選項的詳細資訊。
 
 #### 多合一PayPal解決方案
 
@@ -74,14 +74,14 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 - [PayPal詐騙管理篩選器](paypal.md#paypal-fraud-management-filters)
 
-- [Marketplace上的防欺詐解決方案][1]
+- [市集上的詐騙保護解決方案][1]
 
 >[!NOTE]
 >
->為了支援安全性法規遵循的更新，從2.4.0版開始，Commerce已移除詐騙防護功能。 如果您一直在2.3.x或舊版中使用Signifyd整合，建議您轉換至 [顯著的詐騙和借項衝回保護延伸功能](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}。 請務必根據供應商指引維護擴充功能的更新。
+>為了支援安全性法規遵循的更新，從2.4.0版開始，Commerce已移除詐騙防護功能。 如果您已在2.3.x或舊版中使用Signifyd整合，建議您改用[Signifyd Fraud &amp; Chargeback Protection擴充功能](https://marketplace.magento.com/signifyd-module-connect.html){：target=&quot;_blank&quot;}。 請務必根據供應商指引維護擴充功能的更新。
 
 ## 疑難排解資源
 
-如需疑難排解付款問題的說明，請參閱 [支援知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en).
+如需疑難排解付款問題的說明，請參閱[支援知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=en)。
 
 [1]: https://marketplace.magento.com/catalogsearch/result?q=fraud%20protection

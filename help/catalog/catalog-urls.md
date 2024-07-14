@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ### 動態URL
 
-已建立動態URL _即時進行_ 而且可包含查詢字串，其中含有產品ID的變數、排序順序以及提出請求的頁面。 當客戶在您的商店中搜尋產品時，產生的URL看起來可能會像這樣：
+動態URL是&#x200B;_即時建立_，可能包含查詢字串，內含產品ID、排序順序及提出要求的頁面的變數。 當客戶在您的商店中搜尋產品時，產生的URL看起來可能會像這樣：
 
 - `http://mystore.com/catalogsearch/result/?q=racer+back`
 - `http://mystore.com/women/tops-women.html?style_general=135`
 
 ### 靜態URL
 
-靜態URL是特定頁面的固定位址。 靜態URL可以適用於搜尋引擎的格式顯示，或是依ID參照產品和類別。 這些URL包含人們可能用來尋找產品的字詞，並需要啟用網頁伺服器重寫。 具有靜態URL的檔案通常用於產品和類別頁面、內容頁面和 [佈景主題資產](../content-design/theme-assets.md).
+靜態URL是特定頁面的固定位址。 靜態URL可以適用於搜尋引擎的格式顯示，或是依ID參照產品和類別。 這些URL包含人們可能用來尋找產品的字詞，並需要啟用網頁伺服器重寫。 具有靜態URL的檔案通常用於產品和類別頁面、內容頁面，以及[主題資產](../content-design/theme-assets.md)。
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -33,17 +33,17 @@ ht-degree: 0%
 
 ### URL索引鍵
 
-URL索引鍵是說明產品或類別的靜態URL的一部分。 當您建立產品或類別時，系統會根據名稱自動產生初始URL金鑰。 若要變更URL索引鍵，請參閱 [搜尋引擎最佳化](product-search-engine-optimization.md) 產品資訊的區段。
+URL索引鍵是說明產品或類別的靜態URL的一部分。 當您建立產品或類別時，系統會根據名稱自動產生初始URL金鑰。 若要變更URL索引鍵，請參閱產品資訊的[搜尋引擎最佳化](product-search-engine-optimization.md)區段。
 
 >[!NOTE]
 >
->根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如， `ñ` 自動取代為 `n`. 可透過設定 _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_組態選項至 `No`. 另請參閱 [設定目錄URL](#configure-catalog-urls).
+>根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如，`ñ`會自動取代為`n`。 可透過將&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_組態選項設定為`No`來停用此行為。 請參閱[設定目錄URL](#configure-catalog-urls)。
 
 URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨連字型大小以分隔字詞。 URL索引鍵的開頭或結尾不允許使用連字型大小。 設計良好的「方便搜尋引擎」URL索引鍵可能包含產品名稱和關鍵字，以改進搜尋引擎編制索引的方式。 URL金鑰可設定為在URL金鑰變更時建立自動重新導向。
 
 >[!NOTE]
 >
->若要擴充URL自訂，例如當地語系化的URL，請參閱 [URL重新寫入](../merchandising-promotions/url-rewrite.md) 以取得詳細資訊。
+>若要延伸URL自訂，例如當地語系化的URL，請參閱[URL重寫](../merchandising-promotions/url-rewrite.md)以取得詳細資訊。
 
 ### HTML尾碼
 
@@ -72,48 +72,48 @@ URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨�
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
-為避免搜尋引擎索引指向相同內容的多個URL，您可以從URL中排除類別路徑。 另一種方法是使用標準中繼標籤，讓搜尋引擎知道要索引的URL以及要忽略的URL。 依預設，Commerce不會將類別路徑納入產品URL中。
+為避免搜尋引擎索引指向相同內容的多個URL，您可以從URL中排除類別路徑。 另一種方法是使用標準中繼標籤，讓搜尋引擎知道要索引的URL以及要忽略的URL。 依預設，Commerce不會在產品URL中加入類別路徑。
 
 ## 設定目錄URL
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Catalog]** 並選擇 **[!UICONTROL Catalog]** 底下。
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Search Engine Optimizations]** 並設定選項：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimizations]**&#x200B;區段並設定選項：
 
-   - 設定 **[!UICONTROL Product URL Suffix]** 至 `html` 或 `htm`. 輸入不含句號的尾碼，因為會自動套用。
+   - 將&#x200B;**[!UICONTROL Product URL Suffix]**&#x200B;設為`html`或`htm`。 輸入不含句號的尾碼，因為會自動套用。
 
-   - 設定 **[!UICONTROL Category URL Suffix]** 至 `html` 或 `htm`. 輸入不含句號的尾碼，因為會自動套用。
+   - 將&#x200B;**[!UICONTROL Category URL Suffix]**&#x200B;設為`html`或`htm`。 輸入不含句號的尾碼，因為會自動套用。
 
-   - 設定 **[!UICONTROL Use Categories Path for Product URLs]** 依您的偏好設定。
+   - 將&#x200B;**[!UICONTROL Use Categories Path for Product URLs]**&#x200B;設定為您的偏好設定。
 
    ![搜尋引擎最佳化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱 [搜尋引擎最佳化](../configuration-reference/catalog/catalog.md#search-engine-optimization) 在 _設定參考_.
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[搜尋引擎最佳化](../configuration-reference/catalog/catalog.md#search-engine-optimization)。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-1. 出現提示時，按一下 **[!UICONTROL Cache Management]** 連結，並重新整理無效的快取。
+1. 出現提示時，請按一下系統訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結，然後重新整理無效的快取。
 
    ![重新整理快取](./assets/msg-cache-management.png){width="450" zoomable="yes"}
 
-   如需這些選項的詳細資訊，請參閱 [重新整理快取](../systems/cache-management.md#refresh-specific-caches).
+   如需這些選項的詳細資訊，請參閱[重新整理快取](../systems/cache-management.md#refresh-specific-caches)。
 
 ## 設定目錄媒體URL格式
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL General]** 並選擇 **[!UICONTROL Web]**.
+1. 在左側面板中，展開&#x200B;**[!UICONTROL General]**&#x200B;並選擇&#x200B;**[!UICONTROL Web]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Url Options]** 並設定選項：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Url Options]**&#x200B;區段並設定選項：
 
-![Web >一般選項](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
+![網頁>一般選項](../configuration-reference/general/assets/web-url-options.png){width="600" zoomable="yes"}
 
-| 欄位 | [範圍](../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全域 | 如果啟用了網頁伺服器重寫，則啟用此設定會在URL中插入目前檢視的存放區代碼。 選項： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**請勿針對多商店設定使用自動重新導向至基底URL。 |
-| [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的URL格式。 選項： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 將轉換的檔案名稱定義為唯一的雜湊值。<br />**[!UICONTROL Image optimization based on query parameters]**  — 定義 [影像最佳化](../content-design/media-gallery-image-optimization.md) 根據查詢引數處理。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**請勿針對多存放區設定使用自動重新導向至基底URL。 |
+| [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的URL格式。 選項： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 將轉換的檔案名稱定義為唯一的雜湊值。<br />**[!UICONTROL Image optimization based on query parameters]** — 根據查詢引數定義[影像最佳化](../content-design/media-gallery-image-optimization.md)程式。 |
 
 {style="table-layout:auto"}

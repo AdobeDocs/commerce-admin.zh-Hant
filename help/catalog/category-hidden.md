@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ## 建立隱藏類別
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 在類別樹狀結構中，選取要隱藏的類別，然後執行下列動作：
 
-   - 設定 **[!UICONTROL Is Active]** 至 `Yes`.
-   - 設定 **[!UICONTROL Include in Menu]** 至 `No`.
+   - 將&#x200B;**[!UICONTROL Is Active]**&#x200B;設為`Yes`。
+   - 將&#x200B;**[!UICONTROL Include in Menu]**&#x200B;設為`No`。
 
-1. 在 **[!UICONTROL Display Settings]** 部分，設定 **[!UICONTROL Anchor]** 至 `No`.
+1. 在&#x200B;**[!UICONTROL Display Settings]**&#x200B;區段中，將&#x200B;**[!UICONTROL Anchor]**&#x200B;設為`No`。
 
-   ![隱藏類別](./assets/hidden-categories.png){width="600" zoomable="yes"}
+   ![隱藏的類別](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
    隱藏的類別處於作用中狀態，但不會顯示在頂端功能表或圖層導覽中。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
    >
    >雖然類別已隱藏，但您可以在其下方建立子類別，並將其設為使用中。
 
-   - 設定 **[!UICONTROL Enable Category]** 至 `Yes`.
-   - 在 **[!UICONTROL Display Settings]** 部分，設定 **[!UICONTROL Anchor]** 至 `Yes`.
+   - 將&#x200B;**[!UICONTROL Enable Category]**&#x200B;設為`Yes`。
+   - 在&#x200B;**[!UICONTROL Display Settings]**&#x200B;區段中，將&#x200B;**[!UICONTROL Anchor]**&#x200B;設為`Yes`。
 
    身為作用中類別，您現在可以從商店的其他位置連結至這些類別，但它們不會出現在功能表中。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。

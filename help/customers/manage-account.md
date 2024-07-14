@@ -1,25 +1,25 @@
 ---
 title: 管理客戶帳戶
-description: 使用 [!UICONTROL Customers] 格線以尋找任何客戶帳戶，並存取個別客戶帳戶的資訊。
+description: 使用[!UICONTROL Customers]網格來尋找任何客戶帳戶，並存取個別客戶帳戶的資訊。
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
 source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # 管理客戶帳戶
 
-使用 _[!UICONTROL Customers]_格線以尋找任何客戶帳戶。 您可使用標準 [工作區控制項](../getting-started/admin-workspace.md) 若要篩選清單，請變更 [欄配置](../getting-started/admin-grid-controls.md)、儲存檢視和匯出資料。 此 [動作控制](../getting-started/admin-actions-control.md) 網格上方可用於將操作套用至多個客戶記錄。
+使用&#x200B;_[!UICONTROL Customers]_格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
 
 ![所有客戶](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-另請參閱 [更新客戶設定檔](update-account.md) 以取得有關手動更新客戶帳戶的資訊。
+請參閱[更新客戶設定檔](update-account.md)，以取得手動更新客戶帳戶的資訊。
 
 ## 客戶帳戶動作
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
 1. 在網格的第一欄中，選取要更新的每個記錄的核取方塊。
 
@@ -29,50 +29,50 @@ ht-degree: 0%
    >
    >下列動作可套用至單一或多個記錄。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 訂閱Newsletter
 
-使用全域進行多商店和多網站設定 [客戶帳戶範圍](../customers/customer-account-scope.md)，客戶帳戶可以在多個網站或商店訂閱電子報。 如果您套用 _訂閱_ 對客戶帳戶執行的動作，它只會針對預設的網站/商店檢視啟用newsletter訂閱。
+在具有全域[客戶帳戶範圍](../customers/customer-account-scope.md)的多存放區和多網站設定中，客戶帳戶可以訂閱多個網站或存放區的Newsletter。 如果您將&#x200B;_訂閱_&#x200B;動作套用至客戶帳戶，該動作只會針對預設的網站/商店檢視啟用Newsletter訂閱。
 
-* 設定 **[!UICONTROL Actions]** 控制項至 `Subscribe to newsletter`.
+* 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Subscribe to newsletter`。
 
-另請參閱 [管理訂閱者](../merchandising-promotions/newsletter-subscribers.md) 以取得管理客戶電子報訂閱的詳細資訊。
+如需管理客戶電子報訂閱的詳細資訊，請參閱[管理訂閱者](../merchandising-promotions/newsletter-subscribers.md)。
 
 ### 取消訂閱Newsletter
 
-使用全域進行多商店和多網站設定 [客戶帳戶範圍](customer-account-scope.md)，客戶帳戶可以訂閱多個網站/商店的商務通訊。 如果您套用 _取消訂閱_ 對客戶帳戶動作，所有作用中的訂閱都會取消訂閱。
+在具有全域[客戶帳戶範圍](customer-account-scope.md)的多存放區和多網站設定中，客戶帳戶可以訂閱多個網站/存放區的電子報。 如果您將&#x200B;_取消訂閱_&#x200B;動作套用至客戶帳戶，則會取消訂閱所有作用中的訂閱。
 
-1. 設定 **[!UICONTROL Actions]** 控制項至 `Unsubscribe to newsletter`.
+1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Unsubscribe to newsletter`。
 
-1. 提示確認時，按一下 **確定**.
+1. 提示確認時，按一下&#x200B;**確定**。
 
 ### 指派客戶群組
 
-1. 設定 **[!UICONTROL Actions]** 控制項至 `Assign a customer group`.
+1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Assign a customer group`。
 
 1. 選擇要指定所有選取客戶記錄的客戶群組。
 
-1. 提示確認時，按一下 **[!UICONTROL OK]**.
+1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
 ### 刪除客戶帳戶
 
 已刪除的客戶帳戶無法還原。 有關客戶活動和交易的資訊會保留在系統中。
 
-1. 設定 **[!UICONTROL Actions]** 控制項至 `Delete`.
+1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Delete`。
 
-1. 提示確認時，按一下 **[!UICONTROL OK]**.
+1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 匯出客戶帳戶
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在「表格標題」功能表中，按一下 **[!UICONTROL Export]** 並選取所需的格式：
+1. 在表格標題功能表中，按一下&#x200B;**[!UICONTROL Export]**&#x200B;並選取所要的格式：
 
    * CSV
    * Excel XML
 
-1. 按一下 **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL OK]**。
 
    檔案會移至您的預設下載資料夾。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | **[!UICONTROL Confirmed Email]** | 表示是否需要確認電子郵件。 |
 | **[!UICONTROL Account Created In]** | 表示建立客戶帳戶的來源商店檢視。 |
 | **[!UICONTROL Date of Birth]** | 客戶的出生日期。 為了遵循目前的安全性和隱私權最佳實務，請注意任何與儲存客戶完整出生日期（月、日、年）和其他個人識別碼相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
-| **[!UICONTROL Tax / VAT Number]** | 如果適用，稅捐編號或 [加值稅](../stores-purchase/vat.md) 指派給客戶的編號。 <br/><br/> 此欄位與「VAT編號」不同。 |
+| **[!UICONTROL Tax / VAT Number]** | 如果適用，則為指定給客戶的稅捐編號或[加值稅](../stores-purchase/vat.md)編號。 <br/><br/>此欄位與VAT編號不同。 |
 | **[!UICONTROL Gender]** | 客戶的性別。 |
 | **[!UICONTROL Action]** | 編輯 — 在編輯模式中開啟公司帳戶。 |
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 其他欄
 
-這些欄可透過變更 [欄配置](../getting-started/admin-grid-controls.md) 格線的。
+變更格線的[資料行配置](../getting-started/admin-grid-controls.md)即可使用這些資料行。
 
 | 欄 | 說明 |
 |--- |--- |
@@ -128,8 +128,8 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 客戶帳單地址中的姓氏。 |
 | **[!UICONTROL Billing Address]** | 將傳送帳單資訊的地址。 |
 | **[!UICONTROL Shipping Address]** | 訂單的送貨地址。 |
-| **[!UICONTROL VAT Number]** | 與客戶地址相關聯的增值稅編號。 的 [數位商品](../stores-purchase/taxes.md) VAT在歐盟境內銷售，以客戶的帳單地址為基礎。 <br/><br/> 此欄位與「稅捐/VAT編號」不同。 |
-| **[!UICONTROL Account Lock]** | 表示帳戶的狀態。 作為安全性測量，客戶帳戶可以 [已鎖定](../customers/password-options.md) 嘗試登入次數太多後。 值： `Locked` / `Unlocked` |
+| **[!UICONTROL VAT Number]** | 與客戶地址相關聯的增值稅編號。 對於在歐盟銷售的[數位商品](../stores-purchase/taxes.md)，VAT是以客戶的帳單地址為基礎。 <br/><br/>此欄位與稅捐/VAT編號不同。 |
+| **[!UICONTROL Account Lock]** | 表示帳戶的狀態。 作為安全性測量，在太多登入嘗試後，客戶帳戶可能被[鎖定](../customers/password-options.md)。 值： `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | 目前的使用者狀態。 選項： `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | 客戶分類。 選項： `Individual user` / `Company admin` / `Company user` |
 | **[!UICONTROL Sales Representative]** | 被指派為公司帳戶聯絡人，並接收與公司相關的所有自動化電子郵件訊息的銷售代表。 |

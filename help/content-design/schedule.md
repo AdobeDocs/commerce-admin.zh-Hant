@@ -17,36 +17,36 @@ ht-degree: 0%
 
 ## 新增排程的設計變更
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
-1. 按一下 **[!UICONTROL Add Design Change]**.
+1. 按一下&#x200B;**[!UICONTROL Add Design Change]**。
 
-   ![新增商店設計變更設定](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
+   ![新商店設計變更設定](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Store]** 至您要套用變更的存放區檢視。
+1. 將&#x200B;**[!UICONTROL Store]**&#x200B;設定為您要套用變更的存放區檢視。
 
-1. 設定 **[!UICONTROL Custom Design]** 主題或主題的變數。
+1. 將&#x200B;**[!UICONTROL Custom Design]**&#x200B;設定為要使用的佈景主題或佈景主題的變數。
 
-1. 對於 **[!UICONTROL Date From]** 和 **[!UICONTROL Date To]**，按一下 _行事曆_ (![行事曆圖示](../assets/icon-calendar.png))圖示來選擇變更生效期間的開始和結束值。
+1. 針對&#x200B;**[!UICONTROL Date From]**&#x200B;和&#x200B;**[!UICONTROL Date To]**，按一下&#x200B;_行事曆_ （![行事曆圖示](../assets/icon-calendar.png)）圖示，以選擇變更生效期間的開始和結束值。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 編輯排程的設計變更
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
 1. 選取您要編輯的專案。
 
 1. 進行必要的變更。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 刪除排定的設計變更
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**。
 
 1. 選取您要刪除的專案。
 
-1. 在頁面頂端的按鈕列中，按一下 **[!UICONTROL Delete]**.
+1. 在頁面頂端的按鈕列中，按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。

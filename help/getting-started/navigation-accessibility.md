@@ -5,16 +5,16 @@ exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # 協助工具
 
-有些造訪您網站的訪客會依賴鍵盤控制項來瀏覽（而非滑鼠），有些則可能會使用觸控或語音指令。 雖然鍵盤導覽控制項會因瀏覽器和平台而異，但Tab鍵通常用於在頁面上的欄位、連結和按鈕之間移動焦點。 若要深入瞭解，請參閱 [鍵盤快速鍵][1]{：target=&quot;_blank&quot;}。
+有些造訪您網站的訪客會依賴鍵盤控制項來瀏覽（而非滑鼠），有些則可能會使用觸控或語音指令。 雖然鍵盤導覽控制項會因瀏覽器和平台而異，但Tab鍵通常用於在頁面上的欄位、連結和按鈕之間移動焦點。 若要深入瞭解，請參閱[鍵盤快速鍵][1]{：target=&quot;_blank&quot;}。
 
-如需協助工具的詳細資訊，請參閱 [無障礙指引][2]開發人員檔案中的{：target=&quot;_blank&quot;}。
+如需協助工具的詳細資訊，請參閱開發人員檔案中的[協助工具指引][2]{：target=&quot;_blank&quot;}。
 
 ## Windows
 
@@ -42,14 +42,14 @@ ht-degree: 0%
 
 | 函式 | 標準鍵盤快速鍵 |
 |--- |--- |
-| 按鈕 — 選擇 | `Enter` （回訪） |
-| 連結 — 前往 | `Enter` （回訪） |
-| 選項 — 導覽 | `Up`, `Down`, `Left`, `Right` |
+| 按鈕 — 選擇 | `Enter` （傳回） |
+| 連結 — 前往 | `Enter` （傳回） |
+| 選項 — 導覽 | `Up`，`Down`，`Left`，`Right` |
 | 選項 — 選擇 | `Spacebar` |
-| 滑桿 | `Left`, `Right`, `Home`, `End` |
+| 滑桿 | `Left`，`Right`，`Home`，`End` |
 | 關閉 | `Esc` |
-| 垂直捲動 | `PgUp`, `PgDn` |
-| 水準捲動 | `Left`, `Right` |
+| 垂直捲動 | `PgUp`，`PgDn` |
+| 水準捲動 | `Left`，`Right` |
 
 {style="table-layout:auto"}
 

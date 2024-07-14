@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-您的初始 _[!UICONTROL My Orders]_結果也包含來自商務執行個體內所有網站之從屬使用者的相符訂單。 與公司帳戶關聯的客戶可以篩選訂單清單，以快速在結果中尋找記錄。 若要顯示篩選器選項，客戶需按一下&#x200B;**[!UICONTROL Filter]**，和點按次數&#x200B;**[!UICONTROL Close]**以隱藏篩選器。
+您的初始&#x200B;_[!UICONTROL My Orders]_結果也包含商業執行個體內所有網站之從屬使用者的相符訂單。 與公司帳戶關聯的客戶可以篩選訂單清單，以快速在結果中尋找記錄。 若要顯示篩選器選項，客戶按一下&#x200B;**[!UICONTROL Filter]**，然後按一下&#x200B;**[!UICONTROL Close]**以隱藏篩選器。
 
 ![我的訂單](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -34,25 +34,25 @@ ht-degree: 0%
 
 ## 檢視訂單
 
-客戶在清單中尋找訂單並按一下 **[!UICONTROL View Order]**. 從未結訂單中，他們可以執行下列任一作業：
+客戶在清單中找到訂單並按一下&#x200B;**[!UICONTROL View Order]**。 從未結訂單中，他們可以執行下列任一作業：
 
 ![檢視訂單](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### 檢視最近訂購的產品
 
-此 **[!UICONTROL Recent Orders]** 區塊會顯示在側邊欄和 **[!UICONTROL My Account]** 已下訂單後登入的客戶適用的頁面。 其中顯示上次購買的五個產品。
+對於下訂單後登入的客戶，**[!UICONTROL Recent Orders]**&#x200B;區塊會顯示在側邊欄和&#x200B;**[!UICONTROL My Account]**&#x200B;頁面上。 其中顯示上次購買的五個產品。
 
-客戶可以選取產品並按一下「 」，將產品朗讀至購物車 **[!UICONTROL Add to Cart]**. 他們也可以按一下「 」，檢視最後訂單 **[!UICONTROL View all]**，會重新導向至 _[!UICONTROL My Account]_頁面和&#x200B;**[!UICONTROL Recent Orders]**區塊。
+客戶可以選取產品並按一下&#x200B;**[!UICONTROL Add to Cart]**，將產品讀入購物車。 他們也可以按一下「**[!UICONTROL View all]**」以檢視最後順序，重新導向至&#x200B;_[!UICONTROL My Account]_頁面和&#x200B;**[!UICONTROL Recent Orders]**區塊。
 
 ### 列印訂單
 
-1. 客戶點按 **[!UICONTROL Print Order]**.
+1. 客戶按一下&#x200B;**[!UICONTROL Print Order]**。
 
 1. 遵循「列印」對話方塊中的指示完成列印。
 
 ### 列印發票
 
-1. 在 **[!UICONTROL Invoices]** 索引標籤上，客戶按一下下列其中一項：
+1. 在&#x200B;**[!UICONTROL Invoices]**&#x200B;標籤上，客戶按一下下列其中一項：
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 列印出貨
 
-1. 在 **[!UICONTROL Order Shipments]** 索引標籤上，客戶按一下下列其中一項：
+1. 在&#x200B;**[!UICONTROL Order Shipments]**&#x200B;標籤上，客戶按一下下列其中一項：
 
    - **[!UICONTROL Print All Shipments]**
 
@@ -76,15 +76,15 @@ ht-degree: 0%
 
 ### 追蹤出貨
 
-1. 在 **[!UICONTROL Order Shipments]** 標籤，按一下 **[!UICONTROL Track this Shipment]**.
+1. 在&#x200B;**[!UICONTROL Order Shipments]**&#x200B;索引標籤上，按一下&#x200B;**[!UICONTROL Track this Shipment]**。
 
    任何可用的追蹤資訊都會顯示在快顯視窗中。
 
-1. 準備就緒後，客戶按一下 **[!UICONTROL Close Window]**.
+1. 準備就緒後，客戶按一下&#x200B;**[!UICONTROL Close Window]**。
 
 ### 列印退款
 
-1. 在 **退款** 索引標籤上，客戶按一下下列其中一項：
+1. 在&#x200B;**退款**&#x200B;索引標籤上，客戶按一下下列其中一項：
 
    - **列印所有退款**
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. 使用「列印」對話方塊完成列印。
 
-當客戶符合以下條件時，可使用重新訂購： [_允許重新排序_](reorders-allow.md) 組態選項已啟用。
+啟用&#x200B;[_允許重新排序_](reorders-allow.md)&#x200B;組態選項時，客戶便可使用重新排序。
 
 客戶可以從兩個頁面啟動特定訂單的再訂購功能：
 
@@ -103,31 +103,31 @@ ht-degree: 0%
 
 ## 重新排序
 
-此 _[!UICONTROL Reorder]_連結會顯示在清單中，且訂單位於_[!UICONTROL View]_ 連結。
+_[!UICONTROL Reorder]_連結顯示在清單中，訂單位於_[!UICONTROL View]_&#x200B;連結附近。
 
 ![重新排序我的訂單頁面上的連結](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
-**案例1.** 訂單中的所有產品都可供重新訂購
+**案例1。**&#x200B;訂單中的所有產品都可供重新訂購
 
 客戶會重新導向至購物車，而所有產品都會新增至購物車。
 
-**案例2.** 訂單中的部分/所有產品無法重新訂購
+**案例2。**&#x200B;訂單中的部分/所有產品無法重新訂購
 
 >[!NOTE]
 >
->可以重新排序 `Not Visible Individually` 產品。
+>可以重新排序`Not Visible Individually`產品。
 
-此 _[!UICONTROL Reorder]_連結未出現在_[!UICONTROL My Orders]_ 和 _[!UICONTROL View Order]_頁面。
+_[!UICONTROL Reorder]_連結未出現在_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_頁面上。
 
 ![我的訂單頁面](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->如果購物車非空白且客戶點按 **[!UICONTROL Reorder]** (來自 [!UICONTROL My Orders] 或 [!UICONTROL Order View] 頁面)，現有產品會保留在購物車中，並新增重新訂購產品。
+>如果購物車不是空的，而客戶點按&#x200B;**[!UICONTROL Reorder]** （從[!UICONTROL My Orders]或[!UICONTROL Order View]頁面），則現有產品會保留在購物車中，並新增重新訂購產品。
 
 ## 取消訂單
 
-客戶可在發生下列情況時取消： [_允許取消_](cancel-allow.md) 組態選項已啟用。
+啟用&#x200B;[_允許取消_](cancel-allow.md)&#x200B;組態選項時，客戶即可使用取消。
 
 客戶可以從下列三個頁面啟動特定訂單的取消功能：
 
@@ -135,25 +135,25 @@ ht-degree: 0%
 - 訂單檢視頁面
 - 我的帳戶頁面
 
-此 _[!UICONTROL Cancel Order]_連結會顯示在_[!UICONTROL Reorder]_ 連結。 如果訂單無法取消，則不會顯示連結。
+_[!UICONTROL Cancel Order]_連結顯示在_[!UICONTROL Reorder]_&#x200B;連結附近。 如果訂單無法取消，則不會顯示連結。
 
-![我的訂單頁面上的取消連結](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+![取消我的訂單頁面上的連結](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 若要執行取消，客戶：
 
-1. 點按次數 **[!UICONTROL Cancel Order]**
+1. 點按&#x200B;**[!UICONTROL Cancel Order]**
 
 1. 提供取消原因
 
    ![取消訂單原因](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   您可以在上自訂取消原因 [_允許取消_](cancel-allow.md) 頁面。
+   您可以在&#x200B;[_允許取消_](cancel-allow.md)&#x200B;頁面上自訂取消原因。
 
-1. 點按次數 **[!UICONTROL Confirm]**
+1. 點按&#x200B;**[!UICONTROL Confirm]**
 
-   ![在我的訂單頁面上取消](./assets/cancel-order.png){width="700" zoomable="yes"}
+   在[我的訂單]頁面上![取消](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   取消後，訂單位於 _[!UICONTROL Pending]_狀態，變更為_[!UICONTROL Canceled]_ 狀態，當時在的訂單 _[!UICONTROL Processing]_狀態，變更為_[!UICONTROL Closed]_ 將處理狀態和退款。
+   取消後，狀態為&#x200B;_[!UICONTROL Pending]_的訂單、狀態變更為_[!UICONTROL Canceled]_&#x200B;的訂單、狀態變更為&#x200B;_[!UICONTROL Processing]_的訂單、狀態變更為_[!UICONTROL Closed]_&#x200B;的訂單，系統將處理退款。
 
    取消完成後，系統會傳送電子郵件給客戶。
 

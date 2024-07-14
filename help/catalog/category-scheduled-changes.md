@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-類別更新可以依排程套用，並和其他內容變更一起分組。 您可以根據類別已排程的變更來建立行銷活動，或將變更套用至現有的行銷活動。 若要深入瞭解，請參閱 [內容分段](../content-design/content-staging.md).
+類別更新可以依排程套用，並和其他內容變更一起分組。 您可以根據類別已排程的變更來建立行銷活動，或將變更套用至現有的行銷活動。 若要深入瞭解，請參閱[內容暫存](../content-design/content-staging.md)。
 
 >[!NOTE]
 >
->此 [!UICONTROL Schedule Design Update] 標籤已在中移除 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce ，且無法直接在類別上修改。 您必須為這些啟用建立排定的更新。
+>[!UICONTROL Schedule Design Update]索引標籤已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，且無法直接在類別上修改。 您必須為這些啟用建立排定的更新。
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ ht-degree: 0%
 
 ## 為類別排程更新
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 在左側的類別樹狀結構中，選擇要修改的類別。
 
-1. 在 _排定的變更_ 方塊中，按一下 **[!UICONTROL Schedule New Update]**.
+1. 在頁面頂端的&#x200B;_排程變更_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
 
-   ![排定的變更](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
+   ![排程變更](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. 使用 **[!UICONTROL Save as a New Update]** 選取的選項，設定更新的基本引數：
+1. 選取&#x200B;**[!UICONTROL Save as a New Update]**&#x200B;選項後，設定更新的基本引數：
 
-   - 的 **[!UICONTROL Update Name]**，輸入新內容預備行銷活動的名稱。
+   - 針對&#x200B;**[!UICONTROL Update Name]**，輸入新內容預備行銷活動的名稱。
 
-   - 輸入簡報 **[!UICONTROL Description]** 以及如何使用。
+   - 請輸入簡短的更新&#x200B;**[!UICONTROL Description]**&#x200B;及其使用方式。
 
-   - 使用行事曆( ![行事曆圖示](../assets/icon-calendar.png) )工具來選擇 **[!UICONTROL Start Date]** 和 **[!UICONTROL End Date]** 促銷活動。
+   - 使用行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）工具，為行銷活動選擇&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**。
 
    >[!IMPORTANT]
    >
-   >Campaign **[!UICONTROL Start Date]** 和 **[!UICONTROL End Date]** 必須透過以下方式定義： **_預設_** 管理時區，由每個網站的當地時區加以轉換。 例如，若您有多個網站位在不同時區，且您想根據美國時區啟動促銷活動，則必須針對每個當地時區分別排程更新。 您設定 **[!UICONTROL Start Date]** 和 **[!UICONTROL End Date]** 「 」會從本機網站時區轉換為預設管理員時區。
+   >行銷活動&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;必須使用從每個網站的當地時區轉換而來的&#x200B;**_預設_**&#x200B;管理時區來定義。 例如，若您有多個網站位在不同時區，且您想根據美國時區啟動促銷活動，則必須針對每個當地時區分別排程更新。 您為每個設定&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**，這會從本機網站時區轉換為預設管理時區。
 
-   ![排定的變更](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
+   ![排程變更](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. 進行排程更新所需的任何變更。
 
-1. 若要預覽變更，請按一下 **[!UICONTROL Preview]** 在右上角的按鈕列中。
+1. 若要預覽變更，請按一下右上角按鈕列中的&#x200B;**[!UICONTROL Preview]**。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 指派給現有更新
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 
 1. 在左側的類別樹狀結構中，選擇要修改的類別。
 
-1. 在 _排定的變更_ 方塊中，按一下 **[!UICONTROL Schedule New Update]**.
+1. 在頁面頂端的&#x200B;_排程變更_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
 
-1. 選取 **[!UICONTROL Assign to Existing Campaign]**.
+1. 選取&#x200B;**[!UICONTROL Assign to Existing Campaign]**。
 
-1. 在清單中，找到所需的行銷活動，然後按一下 **[!UICONTROL Select]**.
+1. 在清單中，找到所需的行銷活動，然後按一下&#x200B;**[!UICONTROL Select]**。
 
 1. 對排程更新進行必要的變更。
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。

@@ -18,23 +18,23 @@ ht-degree: 0%
 
 雖然是以群組方式顯示，但群組中的每項產品都是以個別專案的形式購買。 在購物車中，每個專案和購買的數量都會顯示為個別的條列專案。
 
-下列指示會示範使用來建立分組產品的程式 [產品範本](attribute-sets.md)、必填欄位和基本設定。 每個必填欄位都標有紅色星號(`*`)。 當您完成基本功能後，您可以視需要完成其他產品設定。
+下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立群組產品的程式。 每個必要欄位都標有紅色星號(`*`)。 當您完成基本功能後，您可以視需要完成其他產品設定。
 
 ![已分組的產品](./assets/product-grouped.png){width="700" zoomable="yes"}
 
 ## 步驟1：選擇產品型別
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在 _[!UICONTROL Add Product]_( ![選單箭頭](../assets/icon-menu-down-arrow-red.png){width="25"} )功能表，選擇&#x200B;**[!UICONTROL Grouped Product]**.
+1. 在右上角的&#x200B;_[!UICONTROL Add Product]_（![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"} ）功能表上，選擇&#x200B;**[!UICONTROL Grouped Product]**。
 
    ![新增分組的產品](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
 ## 步驟2：選擇屬性集
 
-若要選擇 [屬性集](attribute-sets.md) 作為產品的範本，請執行下列任一項作業：
+若要選擇做為產品範本的[屬性集](attribute-sets.md)，請執行下列其中一項作業：
 
-- 若要搜尋，請輸入 **[!UICONTROL Attribute Set]**.
+- 若要搜尋，請輸入&#x200B;**[!UICONTROL Attribute Set]**&#x200B;的名稱。
 - 在清單中，選擇要使用的屬性集。
 
 表單會更新以反映變更。
@@ -43,41 +43,41 @@ ht-degree: 0%
 
 如果需要的屬性不存在，您可以在建立產品時新增屬性：
 
-- 在右上角，按一下 **[!UICONTROL Add Attribute]**.
-- 定義新屬性(請參閱 [將屬性新增至產品](product-attributes-add.md))。
+- 按一下右上角的&#x200B;**[!UICONTROL Add Attribute]**。
+- 定義新屬性（請參閱[將屬性新增至產品](product-attributes-add.md)）。
 
-  ![新增屬性](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
+  ![新屬性](./assets/product-attribute-add-select.png){width="600" zoomable="yes"}
 
-若要將現有屬性新增至產品，請使用 [篩選控制項](../getting-started/admin-grid-controls.md) 若要在格線中尋找屬性，請執行下列動作：
+若要將現有屬性加入產品中，請使用[篩選控制項](../getting-started/admin-grid-controls.md)在格線中尋找屬性，並執行下列動作：
 
 - 在要新增的每個屬性的第一欄中選取核取方塊。
-- 按一下 **[!UICONTROL Add Selected]**.
+- 按一下&#x200B;**[!UICONTROL Add Selected]**。
 
 ## 步驟3：完成必要的設定
 
-1. 輸入 **[!UICONTROL Product Name]**.
+1. 輸入&#x200B;**[!UICONTROL Product Name]**。
 
-1. 接受預設值 **[!UICONTROL SKU]** 根據產品名稱或輸入其他名稱。
+1. 接受以產品名稱為基礎的預設&#x200B;**[!UICONTROL SKU]**，或輸入其他名稱。
 
-   請注意 **[!UICONTROL Quantity]** 欄位無法使用，因為值衍生自組成群組的個別產品。
+   請注意，**[!UICONTROL Quantity]**&#x200B;欄位無法使用，因為值衍生自組成群組的個別產品。
 
    群組的產品在目錄中沒有自己的價格。 群組產品價格衍生自群組中所包含個別產品的價格。
 
-1. 由於產品尚未準備好發佈，請設定 **[!UICONTROL Enable Product]** 至 `No` ( ![切換否](../assets/toggle-no.png) )。
+1. 因為產品尚未準備好發佈，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;設定為`No` （ ![切換否](../assets/toggle-no.png) ）。
 
-1. 按一下 **[!UICONTROL Save]** 並繼續。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;並繼續。
 
-   儲存產品後，產品名稱會出現在頁面頂端，而且 [存放區檢視](introduction.md#product-scope) 選擇器會出現在左上角。
+   儲存產品時，產品名稱會出現在頁面頂端，[商店檢視](introduction.md#product-scope)選擇器會出現在左上角。
 
-1. 選擇 **[!UICONTROL Store View]** 產品可用的位置。
+1. 選擇要提供產品的&#x200B;**[!UICONTROL Store View]**。
 
    ![選擇存放區檢視](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## 步驟4：完成基本設定
 
-1. 接受 **[!UICONTROL Stock Status]** 設定 `In Stock`.
+1. 接受`In Stock`的&#x200B;**[!UICONTROL Stock Status]**&#x200B;設定。
 
-1. 要指派 **[!UICONTROL Categories]** 若要存取產品，請按一下 **[!UICONTROL Select…]** 方塊並執行下列任一項作業：
+1. 若要將&#x200B;**[!UICONTROL Categories]**&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
 
    **選擇現有類別：**
 
@@ -87,27 +87,27 @@ ht-degree: 0%
 
    **建立類別：**
 
-   - 按一下 **[!UICONTROL New Category]**.
+   - 按一下&#x200B;**[!UICONTROL New Category]**。
 
-   - 輸入 **[!UICONTROL Category Name]** 並選擇 **[!UICONTROL Parent Category]**，這會決定其在功能表結構中的位置。
+   - 輸入&#x200B;**[!UICONTROL Category Name]**&#x200B;並選擇&#x200B;**[!UICONTROL Parent Category]**，這會決定其在功能表結構中的位置。
 
-   - 按一下 **[!UICONTROL Create Category]**.
+   - 按一下&#x200B;**[!UICONTROL Create Category]**。
 
-1. 接受 **[!UICONTROL Visibility]** 設定 `Catalog, Search`.
+1. 接受`Catalog, Search`的&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
 
-1. 若要在中推出產品 [新產品清單](../content-design/widget-new-products-list.md)，選擇 **[!UICONTROL Set Product as New]** **[!UICONTROL from]** 和 **[!UICONTROL to]** 行事曆上的日期。
+1. 若要在新產品[清單](../content-design/widget-new-products-list.md)中設定該產品，請選擇行事曆上的&#x200B;**[!UICONTROL Set Product as New]** **[!UICONTROL from]**&#x200B;和&#x200B;**[!UICONTROL to]**&#x200B;日期。
 
-1. 選擇 **[!UICONTROL Country of Manufacture]**.
+1. 選擇&#x200B;**[!UICONTROL Country of Manufacture]**。
 
    可能有其他個別屬性可說明產品。 選取範圍會改變屬性集，您稍後可以完成它們。
 
 ## 步驟5：將產品新增至群組
 
-1. 向下捲動至 **[!UICONTROL Grouped Products]** 區段並按一下 **[!UICONTROL Add Products to Group]**.
+1. 向下捲動至&#x200B;**[!UICONTROL Grouped Products]**&#x200B;區段並按一下&#x200B;**[!UICONTROL Add Products to Group]**。
 
    ![已分組的產品](./assets/product-grouped-products.png){width="600" zoomable="yes"}
 
-1. 如有必要，請使用 [篩選器](../getting-started/admin-grid-controls.md) 以尋找您要加入群組的產品。
+1. 如有必要，請使用[篩選器](../getting-started/admin-grid-controls.md)來尋找您要加入群組的產品。
 
 1. 在清單中，選取要包含在群組中的每個專案的核取方塊。
 
@@ -117,19 +117,19 @@ ht-degree: 0%
 
    ![新增選取的產品](./assets/product-grouped-add-products.png){width="600" zoomable="yes"}
 
-1. 若要將其新增至產品群組，請按一下 **[!UICONTROL Add Selected Products]**.
+1. 若要將其新增至產品群組，請按一下&#x200B;**[!UICONTROL Add Selected Products]**。
 
-   所選產品會出現在 _[!UICONTROL Grouped Products]_區段。
+   選取的產品會出現在&#x200B;_[!UICONTROL Grouped Products]_區段中。
 
-   針對具有下列條件的多來源商家： [Inventory management](../inventory-management/sources-stocks.md)，格線包含 **[!UICONTROL Quantity per Source]** 具有每個指定來源與存貨庫存量的欄位。
+   對於具有[Inventory management](../inventory-management/sources-stocks.md)的多Source商家，網格包含&#x200B;**[!UICONTROL Quantity per Source]**&#x200B;欄，每個欄各有指定的來源和存貨量。
 
-   ![群組中的產品](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}
+   群組](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}中的![產品
 
-1. 輸入 **[!UICONTROL Default Quantity]** 用於任何專案。
+1. 輸入任何專案的&#x200B;**[!UICONTROL Default Quantity]**。
 
-1. 若要變更產品的順序，請抓取 _變更順序_ 圖示( ![位置控制器](../assets/icon-sort-order.png) )，並將產品拖曳至清單中的新位置。
+1. 若要變更產品的順序，請抓取第一欄中的&#x200B;_變更順序_&#x200B;圖示（ ![位置控制器](../assets/icon-sort-order.png) ），並將產品拖曳到清單中的新位置。
 
-1. 若要從群組移除產品，請按一下 **[!UICONTROL Remove]**.
+1. 若要從群組移除產品，請按一下&#x200B;**[!UICONTROL Remove]**。
 
 ## 步驟5：完成產品資訊
 
@@ -144,51 +144,51 @@ ht-degree: 0%
 - [設計](settings-advanced-design.md)
 - [贈品選項](product-gift-options.md)
 
-## 步驟6：發佈產品
+## 步驟6：Publish產品
 
-1. 如果您已準備好在目錄中發佈產品，請設定 **[!UICONTROL Enable Product]** 至 `Yes`.
+1. 如果您已準備好發佈目錄中的產品，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;設為`Yes`。
 
 1. 執行下列任一項作業：
 
-   **方法1：** 儲存並預覽
+   **方法1：**&#x200B;儲存並預覽
 
-   - 在右上角，按一下 **[!UICONTROL Save]**.
+   - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-   - 若要檢視您商店中的產品，請選擇 **[!UICONTROL Customer View]** 於 _管理員_ ( ![選單箭頭](../assets/icon-menu-down-arrow-black.png) )功能表。
+   - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
      ![客戶檢視](./assets/product-admin-customer-view.png){width="700" zoomable="yes"}
 
-   **方法2：** 儲存並關閉
+   **方法2：**&#x200B;儲存並關閉
 
-   - 在 _[!UICONTROL Save]_( ![選單箭頭](../assets/icon-menu-down-arrow-red.png){width="25"} )功能表，選擇&#x200B;**[!UICONTROL Save & Close]**.
+   - 在&#x200B;_[!UICONTROL Save]_（![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"} ）功能表上，選擇&#x200B;**[!UICONTROL Save & Close]**。
 
 ## 步驟7：設定購物車縮圖（選用）
 
 如果您對群組中的每個產品都有不同的影像，您可以設定為使用購物車縮圖的正確影像。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Sales]** 並選擇 **[!UICONTROL Checkout]**.
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Shopping Cart]**.
+1. 展開&#x200B;**[!UICONTROL Shopping Cart]**&#x200B;的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   如需這些組態選項的詳細清單，請參閱 [購物車](../configuration-reference/sales/checkout.md#shopping-cart) 在 _設定參考_.
+   如需這些組態選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[購物車](../configuration-reference/sales/checkout.md#shopping-cart)。
 
-1. 設定 **[!UICONTROL Grouped Product Image]** 至 `Product Thumbnail Itself`.
+1. 將&#x200B;**[!UICONTROL Grouped Product Image]**&#x200B;設為`Product Thumbnail Itself`。
 
    ![購物車](./assets/config-sales-cart-grouped-product.png){width="600" zoomable="yes"}
 
-   如有必要，請取消選取 **[!UICONTROL Use system value]** 核取方塊以設定此選項。
+   必要時，取消選取&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊以設定此選項。
 
-1. 按一下 **[!UICONTROL Save Config]**.
+1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 注意事項
 
 - 群組產品基本上是簡單關聯產品的集合。
 
-- 分組的子產品可以是簡單、可下載或虛擬產品 **[!UICONTROL without custom options]**.
+- 分組的子產品可以是簡單、可下載或虛擬產品&#x200B;**[!UICONTROL without custom options]**。
 
 - 每個購買的專案都會個別出現在購物車中，而不是群組的一部分。
 

@@ -19,16 +19,16 @@ ht-degree: 0%
 | 主旨 | 說明 |
 | ------- | ----------- |
 | [簡介](customers-introduction.md) | 在Commerce管理員中使用客戶管理功能的概觀。 |
-| 客戶管理工具 | 瞭解如何使用 [[!UICONTROL Customers] 格線](customers-all.md) 和 [[!UICONTROL Now Online] 功能](now-online.md) 在可用來管理商店客戶的Commerce Admin中。 |
-| 客戶帳戶 | 瞭解如何為店面的註冊客戶提供最佳體驗，從 [登入](login-landing-page.md) 至 [密碼休息](password-reset.md)、和 [為購物者提供協助](login-as-customer.md). |
-| [大規模個人化](personalize-scale.md) | 瞭解根據即時上下文和先前觀察到的行為為每個客戶接觸點個人化購物體驗可用的功能。 |
-| [[!DNL Audience Activation]](audience-activation.md) | 瞭解 [!DNL Audience Activation] 擴充功能可讓您在Adobe Commerce中啟用Real-Time CDP對象，以通知購物車、動態區塊和相關產品中的不重複選件。 |
+| 客戶管理工具 | 瞭解如何在Commerce Admin中使用[[!UICONTROL Customers]網格](customers-all.md)和[[!UICONTROL Now Online]功能](now-online.md)，以便用來管理商店客戶。 |
+| 客戶帳戶 | 瞭解如何為店面的註冊客戶提供最佳體驗，從[登入](login-landing-page.md)到[密碼休息](password-reset.md)，並[提供購物者協助](login-as-customer.md)。 |
+| [規模的Personalization](personalize-scale.md) | 瞭解根據即時上下文和先前觀察到的行為為每個客戶接觸點個人化購物體驗可用的功能。 |
+| [[!DNL Audience Activation]](audience-activation.md) | 瞭解[!DNL Audience Activation]擴充功能，其可讓您在Adobe Commerce中啟用Real-Time CDP對象，以通知購物車、動態區塊和相關產品中的獨特選件。 |
 | [客戶群組](customer-groups.md) | 瞭解如何使用客戶群組來決定哪些折扣可供指派給群組的客戶使用，以及與群組相關聯的稅捐類別。 |
 | [客戶區段](customer-segments.md) | 根據各種屬性，定義可用於動態顯示特定客戶內容和促銷的客戶區段。 |
 
 >[!TIP]
 >
->Adobe Commerce B2B可讓您維護與個別店面客戶帳戶相連結的公司帳戶。 如需公司帳戶功能的詳細資訊，請參閱 [Adobe Commerce B2B使用手冊](../b2b/account-companies.md).
+>Adobe Commerce B2B可讓您維護與個別店面客戶帳戶相連結的公司帳戶。 如需公司帳戶功能的詳細資訊，請參閱[Adobe Commerce B2B使用手冊](../b2b/account-companies.md)。
 
 ## 其他檔案
 

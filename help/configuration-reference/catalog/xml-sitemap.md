@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]『
-description: 檢閱上的組態設定 [!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap] 商務管理員頁面。
+title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]'
+description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]頁面上的組態設定。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -20,10 +20,10 @@ ht-degree: 2%
 
 <!-- [Categories Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 存放區檢視 | 決定Sitemap類別的更新頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定類別Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
+| [!UICONTROL Priority] | 存放區檢視 | 介於`0.0`和`1.0`之間的值，可決定類別Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
 {style="table-layout:auto"}
 
@@ -33,10 +33,10 @@ ht-degree: 2%
 
 <!-- [Products Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 存放區檢視 | 決定Sitemap產品的更新頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定產品網站地圖更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
+| [!UICONTROL Priority] | 存放區檢視 | 介於`0.0`和`1.0`之間的值，可決定產品Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 | [!UICONTROL Add Images into Sitemap] | 存放區檢視 | 決定影像包含在網站地圖中的範圍。 選項： `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -47,19 +47,19 @@ ht-degree: 2%
 
 <!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 存放區檢視 | 決定網站地圖CMS頁面的更新頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 會決定CMS頁面Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
+| [!UICONTROL Priority] | 存放區檢視 | 介於`0.0`和`1.0`之間的值，可決定CMS頁面Sitemap更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 存放區檢視 | 決定儲存URL更新的頻率。 選項： `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 存放區檢視 | 值介於 `0.0` 和 `1.0` 可決定存放區URL更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
+| [!UICONTROL Priority] | 存放區檢視 | 介於`0.0`和`1.0`之間的值，可決定存放區URL更新相對於其他內容的優先順序。 零(`0.0`)的優先順序最低。 |
 
 {style="table-layout:auto"}
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 <!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 判斷是否有XML Sitemap可供存放區使用。 選項： `Yes` / `No` |
 | [!UICONTROL Start Time] | 存放區檢視 | 指定網站地圖在一天中的小時、分鐘和秒進行更新。 |
@@ -86,7 +86,7 @@ ht-degree: 2%
 
 <!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Maximum No of URLs Per File] | 存放區檢視 | 決定單一Sitemap可包含的URL數量上限。 |
 | [!UICONTROL Maximum File Size] | 存放區檢視 | 決定產生的Sitemap大小上限（位元組）。 |
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 <!-- [Search Engine Submission Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| 欄位 | [範圍](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | 存放區檢視 | 啟用為robots.txt檔案提交的指令。 選項： `Yes` / `No` |
 

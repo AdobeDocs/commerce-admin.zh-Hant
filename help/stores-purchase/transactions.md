@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 交易
 
-此 _交易_ 頁面會列出您的商店與付款系統之間發生的所有付款活動，並提供更詳細資訊的存取權。
+_交易_&#x200B;頁面會列出您的商店與付款系統之間發生的所有付款活動，並提供更詳細資訊的存取權。
 
 ## 檢視交易
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**。
 
 ![交易格線](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 交易資料
 
-本節包含有關交易的資訊，並提供中訂單頁面的連結。 **訂單ID** 欄。
+此區段包含有關交易的資訊，並提供&#x200B;**訂單ID**&#x200B;欄中訂單頁面的連結。
 
 | 欄 | 說明 |
 |--- |--- |
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### 子交易
 
-為建立商業發票之後，網格中會顯示子交易 [訂購](orders.md). 此格式可讓您在交易階層之後追蹤交易歷史記錄。
+建立[訂單](orders.md)的商業發票之後，網格中會顯示子交易。 此格式可讓您在交易階層之後追蹤交易歷史記錄。
 
 ### [!UICONTROL Transaction Details]
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果交易詳細資料無法使用或已過時，請按一下 **[!UICONTROL Fetch]** 以更新它們。
+>如果交易詳細資料無法使用或已過時，請按一下按鈕列中的&#x200B;**[!UICONTROL Fetch]**&#x200B;以更新它們。

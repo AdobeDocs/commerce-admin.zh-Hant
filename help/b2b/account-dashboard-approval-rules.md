@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->核准規則設定需要已定義的 [公司結構](account-company-structure.md) 以便指定採購客戶經理的核准。
+>核准規則設定需要已定義的[公司結構](account-company-structure.md)，才能指定採購客戶經理的核准。
 
 ## 付款方法
 
@@ -36,47 +36,47 @@ ht-degree: 0%
 
 ## 核准規則設定
 
-使用必要的 [其角色的許可權](account-company-roles-permissions.md)，B2B客戶可以按一下「 」，設定核准規則以強制執行公司原則 **[!UICONTROL Approval Rules]** 位於其客戶帳戶的左側面板中。
+B2B客戶擁有其角色](account-company-roles-permissions.md)所需的[許可權，可以按一下其客戶帳戶左側面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;來設定核准規則，以強制執行公司原則。
 
 ![公司核准規則](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 若要建立核准規則，客戶需完成下列步驟：
 
-1. 點按次數 **[!UICONTROL Add New Rule]** 以建立規則。
+1. 按一下&#x200B;**[!UICONTROL Add New Rule]**&#x200B;以建立規則。
 
-1. 如有需要，將規則從 **[!UICONTROL Enabled]** 至 **[!UICONTROL Disabled]**.
+1. 如有需要，請將規則從&#x200B;**[!UICONTROL Enabled]**&#x200B;變更為&#x200B;**[!UICONTROL Disabled]**。
 
    此規則已依預設啟用，但客戶可使用已停用的設定建立規則，然後在準備好強制執行時稍後再啟用。
 
-1. 的 **[!UICONTROL Rule name]**，為規則輸入簡短但描述性的名稱，例如 `Orders less than $100`.
+1. 針對&#x200B;**[!UICONTROL Rule name]**，輸入規則的簡短但描述性名稱，例如`Orders less than $100`。
 
    規則名稱必須是唯一的。
 
-1. 的 **[!UICONTROL Description]**，輸入規則的詳細說明。
+1. 針對&#x200B;**[!UICONTROL Description]**，請輸入更長的規則說明。
 
-1. 的 **[!UICONTROL Applies to]**，選擇一或多個用於套用規則的公司角色。
+1. 針對&#x200B;**[!UICONTROL Applies to]**，選擇一或多個用於套用規則的公司角色。
 
-1. 選擇 **[!UICONTROL Rule Type]** 並定義規則。
+1. 選擇&#x200B;**[!UICONTROL Rule Type]**&#x200B;並定義規則。
 
    以下各節提供每種規則型別的詳細說明和範例。
 
-   ![建立新的核准規則](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![正在建立新的核准規則](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. 的 **[!UICONTROL Requires approval from]**，根據核准型別選擇一或多個需要的核准者。
+1. 針對&#x200B;**[!UICONTROL Requires approval from]**，根據核准型別選擇一或多個必要的核准者。
 
    >[!NOTE]
    >
    >* 將角色指派為核准者時，請確保該角色中至少有一位使用者。
-   >* 如果有兩個或更多使用者具有相同的核准者角色，則採購單的建立者無法核准它。 在此情況下，具有此核准者角色的任何其他使用者都需要手動核准。 但是，如果 `Auto-approve POs created within this role` 選項設定於 [角色許可權](account-company-roles-permissions.md)，則會自動核准採購單。
-   >* 如果只有一位使用者具有核准者角色，且該使用者是建立者，則採購單一律會自動核准，即 `Auto-approve POs created within this role` 已忽略許可權設定。
+   >* 如果有兩個或更多使用者具有相同的核准者角色，則採購單的建立者無法核准它。 在此情況下，具有此核准者角色的任何其他使用者都需要手動核准。 不過，如果在[角色許可權](account-company-roles-permissions.md)中設定`Auto-approve POs created within this role`選項，則會自動核准採購單。
+   >* 如果只有一位使用者具有核准者角色，且該使用者是建立者，則採購單一律會自動核准，而會忽略`Auto-approve POs created within this role`許可權設定。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ### [!UICONTROL Order Total]
 
 此規則型態用於根據訂單總計（包括稅捐）要求採購單核准。
 
-1. 選擇 **[!UICONTROL Order Total amount]** 選項：
+1. 選擇&#x200B;**[!UICONTROL Order Total amount]**&#x200B;選項：
 
    * `is more than`
    * `is less than`
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 此規則型別用於根據送貨成本要求採購單核准，許多公司都會要求這樣做。
 
-1. 設定 **[!UICONTROL Shipping cost value]**：
+1. 設定&#x200B;**[!UICONTROL Shipping cost value]**：
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 1. 設定所需的運費金額。
 
-![出貨成本核准規則](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![運費核准規則](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 此範例指定五個專案，但有兩個不同的SKU。
 
-1. 設定 **[!UICONTROL Number of SKUs]** 值：
+1. 設定&#x200B;**[!UICONTROL Number of SKUs]**&#x200B;值：
 
    * `is more than`
    * `is less than`
@@ -120,31 +120,31 @@ ht-degree: 0%
 
 1. 設定SKU的數量。
 
-![SKU核准規則數目](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
+![個SKU核准規則](./assets/approval-rules-number-skus.png){width="600" zoomable="yes"}
 
 ## 編輯核准規則
 
 若要修改現有的核准規則，客戶可以完成下列步驟：
 
-1. 在其帳戶的側邊欄中，客戶選取 **[!UICONTROL Approval Rules]**.
+1. 在其帳戶的側邊欄中，客戶選取&#x200B;**[!UICONTROL Approval Rules]**。
 
 1. 尋找要編輯的核准規則專案。
 
-1. 點擊數 **[!UICONTROL Edit]**.
+1. 按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 進行所有需要的變更和點按 **[!UICONTROL Save]**.
+1. 進行所有需要的變更並按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 刪除核准規則
 
 若要移除現有的核准規則，客戶可以完成下列步驟：
 
-1. 在其帳戶的側邊欄中，選取 **[!UICONTROL Approval Rules]**.
+1. 在其帳戶的側邊欄中，選取&#x200B;**[!UICONTROL Approval Rules]**。
 
 1. 尋找要刪除的核准規則專案。
 
-1. 點擊數 **[!UICONTROL Delete]**.
+1. 按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 採購單核准示範
 

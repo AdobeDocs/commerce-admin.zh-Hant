@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # 送貨標籤
 
-Commerce包括與主要承運商的高層級整合，可讓您存取承運商出貨系統，以追蹤訂單、建立出貨標籤等。 可針對一般出貨及具有退貨商品授權的產品建立出貨標籤。 除了由出貨承運商提供的資訊外，標籤也包含商務訂單編號、包裝編號和出貨的包裝總數。
+Commerce包含與主要承運商的高層級整合，可讓您存取承運商送貨系統，以追蹤訂單、建立送貨標籤等。 可針對一般出貨及具有退貨商品授權的產品建立出貨標籤。 除了由出貨承運商提供的資訊外，標籤也包含Commerce訂單編號、包裹編號和出貨的包裹總數。
 
 ![USPS優先送貨標籤](./assets/shipping-usps-priority-label.png){width="300"}
 
@@ -29,7 +29,7 @@ Commerce包括與主要承運商的高層級整合，可讓您存取承運商出
 
 ### 步驟2：傳送至電信業者的請求
 
-Commerce會聯絡出貨承運商，並在承運商系統中建立訂單。 系統會針對每個出貨的套件分別建立訂單。
+Commerce會聯絡出貨承運商，並在該承運商的系統中建立訂單。 系統會針對每個出貨的套件分別建立訂單。
 
 ### 步驟3：電信業者傳送標籤與追蹤號碼
 

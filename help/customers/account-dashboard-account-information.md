@@ -14,37 +14,37 @@ ht-degree: 0%
 
 基本的客戶帳戶資訊包括您的姓名、電子郵件地址和密碼，並可從店面的客戶帳戶儀表板進行維護。
 
-![店面上的帳戶資訊](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+店面上的![帳戶資訊](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-在您的帳戶側邊欄中，客戶可以選擇 **[!UICONTROL Account Information]** 並執行下列任一項作業以更新其帳戶資訊。
+在您的帳戶側邊欄中，客戶可以選擇&#x200B;**[!UICONTROL Account Information]**&#x200B;並執行下列任一動作以更新其帳戶資訊。
 
 ## 更新帳戶名稱的名稱
 
-若要更新帳戶名稱，客戶會變更 **[!UICONTROL First Name]** 和 **[!UICONTROL Last Name]** 欄位。
+若要更新帳戶的名稱，客戶會視需要變更&#x200B;**[!UICONTROL First Name]**&#x200B;和&#x200B;**[!UICONTROL Last Name]**&#x200B;欄位中的值。
 
 >[!INFO]
 >
->如果符合以下條件，則其他欄位會出現在名稱中 [客戶設定](../configuration-reference/customers/customer-configuration.md) 包括首碼、中間首碼和尾碼。
+>如果[客戶組態](../configuration-reference/customers/customer-configuration.md)包含首碼、中間首碼和尾碼，則其他欄位會顯示為名稱的一部分。
 
 ## 變更電子郵件地址
 
-1. 客戶選取 **[!UICONTROL Change Email]** 核取方塊。
+1. 客戶選取&#x200B;**[!UICONTROL Change Email]**&#x200B;核取方塊。
 
-1. 輸入他們的新的 **[!UICONTROL Email]** 位址。
+1. 輸入他們的新&#x200B;**[!UICONTROL Email]**&#x200B;位址。
 
-1. 輸入其 **[!UICONTROL Current Password]**.
+1. 輸入他們的&#x200B;**[!UICONTROL Current Password]**。
 
    ![變更電子郵件地址](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. 點擊數 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 變更密碼
 
-1. 客戶選取 **[!UICONTROL Change Password]** 核取方塊。
+1. 客戶選取&#x200B;**[!UICONTROL Change Password]**&#x200B;核取方塊。
 
-1. 輸入其 **[!UICONTROL Current Password]**.
+1. 輸入他們的&#x200B;**[!UICONTROL Current Password]**。
 
-1. 輸入其 **[!UICONTROL New Password]**.
+1. 輸入他們的&#x200B;**[!UICONTROL New Password]**。
 
    >[!INFO]
    >

@@ -1,35 +1,35 @@
 ---
-title: 「安裝、更新及移除 [!DNL Inventory Management]"
-description: 瞭解如何管理 [!DNL Inventory Management] 中繼封裝。
+title: 「安裝、更新及移除 [!DNL Inventory Management]」
+description: 瞭解如何管理 [!DNL Inventory Management] 中繼資料。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
 source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
-# 安裝、更新和移除 [!DNL Inventory Management]
+# 安裝、更新及移除[!DNL Inventory Management]
 
-[!DNL Inventory Management] 模組提供單一來源和多來源商戶的所有存貨功能與選項，以管理銷售管道的產品數量與存貨。 Adobe Commerce和Magento Open Source的2.4.x版提供這些功能。
+[!DNL Inventory Management]模組為單一來源和多來源商家提供所有存貨功能與選項，以管理銷售管道的產品數量與存貨。 Adobe Commerce和Magento Open Source的2.4.x版提供這些功能。
 
-開發這些功能和擴充功能時，均屬於 [詳細目錄專案](https://github.com/magento/inventory) 透過Magento Open Source社群工程計畫。
+這些功能和擴充功能是透過Magento Open Source社群工程計劃開發為[詳細目錄專案](https://github.com/magento/inventory)的一部分。
 
-[!DNL Inventory Management] 安裝Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本，並依預設啟用所有功能。 啟用這些詳細目錄功能不需要額外的步驟。 從v2.1.x或2.2.x升級可能需要額外的步驟。 另請參閱 [升級Inventory management](#upgrade-inventory-management).
+[!DNL Inventory Management]安裝在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，並預設啟用所有功能。 啟用這些詳細目錄功能不需要額外的步驟。 從v2.1.x或2.2.x升級可能需要額外的步驟。 請參閱[升級Inventory management](#upgrade-inventory-management)。
 
-依據以下原則安裝： [快速入門內部部署安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} 建議使用。 使用中繼安裝以接收所有 [!DNL Inventory Management] 模組。
+建議根據[快速入門內部部署安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}進行安裝。 使用中繼安裝以接收所有[!DNL Inventory Management]模組。
 
-下列文字行在 `composer.json` 中繼封裝安裝 [!DNL Inventory Management]：
+`composer.json`中繼封裝中的下列行安裝[!DNL Inventory Management]：
 
 ```json
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-針對清單 [!DNL Inventory Management] 中繼套件版本，請參閱 [發行說明](release-notes.md).
+如需[!DNL Inventory Management]中繼套件版本的清單，請參閱[發行說明](release-notes.md)。
 
-此 [!DNL Inventory Management] 安裝程式會將所有模組新增至 `<Magento_installation_directory>/app/etc/config.php` 檔案。 A `1` 值表示對應的模組已啟用。 已新增下列模組清單：
+[!DNL Inventory Management]安裝程式將所有模組新增至`<Magento_installation_directory>/app/etc/config.php`檔案。 `1`值表示對應的模組已啟用。 已新增下列模組清單：
 
 ```php
         'Magento_Inventory' => 1,
@@ -81,26 +81,26 @@ ht-degree: 0%
         'Magento_InventoryGraphQl' => 1,
 ```
 
-## 啟用 [!DNL Inventory Management] 功能
+## 啟用[!DNL Inventory Management]功能
 
-安裝、升級或更新後， _[!UICONTROL Manage Stock]_管理中的選項預設為啟用。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
+安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
 
-如需有關設定的詳細資訊，請參閱 [設定Inventory management](configuration.md).
+如需設定的詳細資訊，請參閱[設定Inventory management](configuration.md)。
 
 ## 停用Inventory management
 
 >[!IMPORTANT]
 >
->使用預設值 [!DNL Inventory Management] 強烈建議使用模組。 替代方案 [!DNL CatalogInventory] 模組，用於已停用的系統 [!DNL Inventory Management] 模組，現已棄用。 停用 [!DNL Inventory Management] 模組可能會導致系統不穩定並導致各種問題。
+>強烈建議使用預設的[!DNL Inventory Management]模組。 用於停用[!DNL Inventory Management]模組的系統的替代[!DNL CatalogInventory]模組現已棄用。 停用[!DNL Inventory Management]模組可能會造成系統不穩定，並導致各種問題。
 
-您可能想要停用 [!DNL Inventory Management] 模組至：
+您可能要停用[!DNL Inventory Management]模組以：
 
 * 加速從2.0.x、2.1.x、2.2.x或2.3.x移轉至2.4.x的商戶升級流程。
 * 使用自訂或第三方存貨及訂單管理系統模組。
 
-請參閱 [啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 中的頁面 _安裝指南_ 有關如何停用適用模組的資訊。
+請參閱&#x200B;_安裝指南_&#x200B;中的[啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)頁面，瞭解如何停用適用模組的相關資訊。
 
-完成後，系統會提供模組和值的清單，位於 `<Magento_installation_directory>/app/etc/config.php`，開頭為：
+完成時，系統會在`<Magento_installation_directory>/app/etc/config.php`中提供模組和值的清單，開頭為：
 
 ```php
    'Magento_Inventory' => 0,
@@ -111,15 +111,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您已安裝OMS聯結器模組，請確定您沒有停用 `Magento_InventoryMessageBus` 模組，為聯結器模組。 需要搭配OMS使用聯結器。
+>如果您已安裝OMS Connector模組，請確定您沒有停用`Magento_InventoryMessageBus`模組，此模組為聯結器模組。 需要搭配OMS使用聯結器。
 
 ## 移除Inventory management
 
 >[!IMPORTANT]
 >
->使用預設值 [!DNL Inventory Management] 強烈建議使用模組。 替代方案 [!DNL CatalogInventory] 模組，用於已移除的系統 [!DNL Inventory Management] 模組，現已棄用。 移除 [!DNL Inventory Management] 模組可能會導致系統不穩定並導致各種問題。
+>強烈建議使用預設的[!DNL Inventory Management]模組。 替代[!DNL CatalogInventory]模組用於已移除[!DNL Inventory Management]模組的系統，現已棄用。 移除[!DNL Inventory Management]模組可能會造成系統不穩定，並導致各種問題。
 
-如果您選擇不使用 [!DNL Inventory Management] 功能，您可以移除（解除安裝）這些模組。 若要透過Composer檔案移除所有模組，請將下列專案新增至 `composer.json`：
+如果您選擇不使用[!DNL Inventory Management]功能，可以移除（解除安裝）這些模組。 若要透過Composer檔案移除所有模組，請將下列專案新增至`composer.json`：
 
 ```
 "replace": {
@@ -201,19 +201,19 @@ ht-degree: 0%
 
 ## 升級Inventory management
 
-### 上一個 [!DNL Commerce] 版本
+### 先前的[!DNL Commerce]版本
 
-將現有的2.1.x、2.2.x或2.3.x安裝升級或更新為Adobe Commerce或Magento Open Source 2.4.x時， [!DNL Inventory Management] 模組預設為停用。 此預設設定是避免升級無法回溯以及更好支援「訂單管理系統」(OMS)的預防措施。
+將現有的2.1.x、2.2.x或2.3.x安裝升級或更新至Adobe Commerce或Magento Open Source 2.4.x時，預設會停用[!DNL Inventory Management]模組。 此預設設定是避免升級與舊版不相容，以及更支援Order Management (OMS)的預防措施。
 
 >[!NOTE]
 >
->Order Management不支援 [!DNL Inventory Management]. 升級時， [!DNL Inventory Management] 模組已停用，以允許OMS和 [!DNL Commerce] 2.3.x可順暢運作。
+>Order Management不支援[!DNL Inventory Management]。 升級時，[!DNL Inventory Management]模組已停用，以允許OMS和[!DNL Commerce] 2.3.x順暢地運作。
 
 
-若要啟用 [!DNL Inventory Management] 模組：
+若要啟用[!DNL Inventory Management]模組：
 
-1. 編輯 `<Commerce_installation_directory>/app/etc/config.php` 檔案。
-1. 從修改所有詳細目錄模組 `0` 至 `1` 以啟用。
+1. 編輯`<Commerce_installation_directory>/app/etc/config.php`檔案。
+1. 將所有詳細目錄模組從`0`修改為`1`以啟用。
 1. 更新資料庫：
 
    ```bash
@@ -226,11 +226,11 @@ ht-degree: 0%
    bin/magento cache:clean
    ```
 
-建議您使用 [保留不一致命令](cli.md) 升級之後。 升級時，您的所有產品都會新增至預設庫存。 如果您有暫緩訂單，這些指令會正確更新銷售與訂單履行的可銷售數量與預留。
+建議您在升級後使用[保留不一致命令](cli.md)。 升級時，您的所有產品都會新增至預設庫存。 如果您有暫緩訂單，這些指令會正確更新銷售與訂單履行的可銷售數量與預留。
 
-### 上一個 [!DNL Inventory Management] 版本
+### 先前的[!DNL Inventory Management]版本
 
-從舊版升級時 [!DNL Inventory Management] 若要升級至最新版本，請遵循一般的擴充功能升級步驟。
+從舊版[!DNL Inventory Management]升級至最新版本時，請遵循一般擴充功能升級步驟。
 
 如需最新資訊，請更新您的中繼資料版本：
 
@@ -238,7 +238,7 @@ ht-degree: 0%
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-如需Commerce升級的詳細資訊，請參閱下列指南：
+請參閱下列指南，以取得有關Commerce升級的詳細資訊：
 
 * [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
 * [啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

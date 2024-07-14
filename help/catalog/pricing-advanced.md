@@ -16,19 +16,19 @@ Adobe Commerce和Magento Open Source支援各種價格選項，可用於促銷�
 
 使用進階價格管理您產品的價格，為客戶提供更優惠的價格，鼓勵消費者增加支出、增加您網站的流量，並清除舊存貨。
 
-此 _[!UICONTROL Advanced Pricing]_設定會定義適用於特定客戶群組或共用目錄的特殊定價所需條件。 進階定價可套用至簡單、虛擬、可下載和套裝等產品。 若要將折扣價套用至其他產品型別，請使用 [型錄價格規則](../merchandising-promotions/price-rules-catalog.md). 如需詳細資訊，請參閱 [價格範圍](catalog-price-scope.md).
+_[!UICONTROL Advanced Pricing]_設定定義特定客戶群組或共用目錄可用的特殊定價所需條件。 進階定價可套用至簡單、虛擬、可下載和套裝等產品。 若要將折扣價格套用至其他產品型別，請使用[目錄價格規則](../merchandising-promotions/price-rules-catalog.md)。 如需詳細資訊，請參閱[價格範圍](catalog-price-scope.md)。
 
 進階定價資料會與產品頁面同步。 例如，如果您更新層級價格數量，系統會更新產品頁面上的值。
 
-![Adobe Commerce B2B](../assets/b2b.svg) (可搭配 [Adobe Commerce B2B](./b2b/../introduction.md) （僅限）如果您使用共用目錄，進階定價資料會與產品頁面和共用目錄同步。 例如，如果您更新層級價格數量，則系統會更新共用目錄和產品頁面上的值。 共用目錄中所指示的任何自訂訂訂價格都會優先於客戶群組定價。 另請參閱 [設定共用目錄定價與結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 在 _Adobe Commerce B2B指南_.
+![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於[Adobe Commerce B2B](./b2b/../introduction.md))如果您使用共用目錄，進階定價資料會與產品頁面和共用目錄同步。 例如，如果您更新層級價格數量，則系統會更新共用目錄和產品頁面上的值。 共用目錄中所指示的任何自訂訂訂價格都會優先於客戶群組定價。 另請參閱&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[設定共用目錄定價和結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。
 
-![進階定價](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
+![進階價格](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
 ## 存取進階訂價選項
 
 1. 在編輯模式中開啟產品。
 
-1. 在 **[!UICONTROL Price]**，按一下 **[!UICONTROL Advanced Pricing]**.
+1. 在&#x200B;**[!UICONTROL Price]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 請遵循所需進階訂價型態的指示。
 
@@ -46,7 +46,7 @@ Adobe Commerce和Magento Open Source支援各種價格選項，可用於促銷�
 
 若要在指定的時段或排程行銷活動期間提供折扣價格，請輸入特殊價格。 有特殊價格可用時，系統會略過零售價格，並在下方以粗體大寫文字顯示特殊價格。
 
-#### [!UICONTROL Special Price From] 日期
+#### [!UICONTROL Special Price From]日期
 
 {{ce-feature}}
 
@@ -63,16 +63,16 @@ Adobe Commerce和Magento Open Source支援各種價格選項，可用於促銷�
 
 ### [!UICONTROL Customer Group Price]
 
-![進階定價](./assets/product-pricing-advanced-group-price.png){width="600" zoomable="yes"}
+![進階價格](./assets/product-pricing-advanced-group-price.png){width="600" zoomable="yes"}
 
 設定特定客戶群組的促銷與階層價格。
 
 | 專案 | 說明 |
 | ---- | ----------- |
 | [!UICONTROL Website] | 識別套用群組價格規則的網站。 只有在安裝有多個網站時，才會顯示此選項。 |
-| [!UICONTROL Customer Group] | （必要）識別符合接收折扣價格資格的客戶群組。 當群組或目錄欄位中的值變更時，符合先前設定的對應自訂價格列將會從共用目錄中刪除。 <br/>**[!UICONTROL ALL GROUPS]**— 將規則套用至所有客戶群組。<br/>**[!UICONTROL NOT LOGGED IN]**  — 套用未登入其帳戶的規則來賓和客戶。 |
+| [!UICONTROL Customer Group] | （必要）識別符合接收折扣價格資格的客戶群組。 當群組或目錄欄位中的值變更時，符合先前設定的對應自訂價格列將會從共用目錄中刪除。 <br/>**[!UICONTROL ALL GROUPS]**— 將規則套用至所有客戶群組。<br/>**[!UICONTROL NOT LOGGED IN]** — 套用未登入其帳戶的規則來賓和客戶。 |
 | [!UICONTROL Quantity] | 指定接收層級價格所需的數量。 |
-| [!UICONTROL Price] | （必要）指定特定網站中客戶群組成員的固定或折扣產品價格。 選項： <br/>**[!UICONTROL Fixed]**- （預設）折扣價格會輸入為固定的小數值。 例如，輸入 `9.99` 作為折扣價。<br/>**[!UICONTROL Discount]**  — 折扣價格是以基礎產品價格的百分比(%)輸入。 例如，輸入 `10` 10%的折扣。 |
+| [!UICONTROL Price] | （必要）指定特定網站中客戶群組成員的固定或折扣產品價格。 選項： <br/>**[!UICONTROL Fixed]**- （預設）折扣價格會以固定的十進位值輸入。 例如，輸入`9.99`作為折扣價。<br/>**[!UICONTROL Discount]** — 折扣價格是以基礎產品價格的百分比(%)輸入。 例如，輸入`10`以取得10%的折扣。 |
 | ![垃圾桶圖示](../assets/icon-delete-trashcan-solid.png) | 刪除目前的規則。 |
 | **[!UICONTROL Add]** | 為新規則插入另一列。 |
 
@@ -84,14 +84,14 @@ Adobe Commerce和Magento Open Source支援各種價格選項，可用於促銷�
 
 {{b2b-feature}}
 
-![具有共用目錄的B2B存放區的進階定價](./assets/product-pricing-advanced.png){width="600" zoomable="yes"}
+![具有共用目錄之B2B存放區的進階定價](./assets/product-pricing-advanced.png){width="600" zoomable="yes"}
 
 | 專案 | 說明 |
 |----|-----------|
-| [!UICONTROL Website] | 識別套用群組價格規則的網站。 只有在安裝有多個網站時，才會顯示此選項。 <br>**_重要：_**全部選取_網站&#x200B;_在 [目錄價格範圍](catalog-price-scope.md) 設定，否則會顯示設定的進階價格**全部&#x200B;**網站。 |
-| [!UICONTROL Group or Catalog] | （必要）識別符合接收折扣價格資格的客戶群組或共用型錄。 當群組或目錄欄位中的值變更時，符合先前設定的對應自訂價格列將會從共用目錄中刪除。 <br/>**[!UICONTROL ALL GROUPS]**— 將規則套用至所有客戶群組。 此值不會套用至共用目錄，且進階定價資料中的變更不會與共用目錄同步。<br/>**[!UICONTROL NOT LOGGED IN]**  — 套用未登入其帳戶的規則來賓和客戶。<br/>**[!UICONTROL Shared Catalogs]**— 將規則套用至特定共用目錄。 |
+| [!UICONTROL Website] | 識別套用群組價格規則的網站。 只有在安裝有多個網站時，才會顯示此選項。 <br>**_重要：_**請在[目錄價格範圍](catalog-price-scope.md)組態中選取_網站&#x200B;_，否則會顯示**所有&#x200B;**網站的設定進階價格。 |
+| [!UICONTROL Group or Catalog] | （必要）識別符合接收折扣價格資格的客戶群組或共用型錄。 當群組或目錄欄位中的值變更時，符合先前設定的對應自訂價格列將會從共用目錄中刪除。 <br/>**[!UICONTROL ALL GROUPS]**— 將規則套用至所有客戶群組。 此值不會套用至共用目錄，且進階定價資料中的變更不會與共用目錄同步。<br/>**[!UICONTROL NOT LOGGED IN]** — 套用未登入其帳戶的規則來賓和客戶。<br/>**[!UICONTROL Shared Catalogs]**— 將規則套用至特定的共用目錄。 |
 | 數量 | 指定接收層級價格所需的數量。 |
-| [!UICONTROL Price] | （必要）指定特定網站中客戶群組成員的固定或折扣產品價格。 選項： <br/>**[!UICONTROL Fixed]**- （預設）折扣價格會輸入為固定的小數值。 例如，輸入 `9.99` 作為折扣價。<br/>**[!UICONTROL Discount]**  — 折扣價格是以基礎產品價格的百分比(%)輸入。 例如，輸入 `10` 10%的折扣。 |
+| [!UICONTROL Price] | （必要）指定特定網站中客戶群組成員的固定或折扣產品價格。 選項： <br/>**[!UICONTROL Fixed]**- （預設）折扣價格會以固定的十進位值輸入。 例如，輸入`9.99`作為折扣價。<br/>**[!UICONTROL Discount]** — 折扣價格是以基礎產品價格的百分比(%)輸入。 例如，輸入`10`以取得10%的折扣。 |
 | ![垃圾桶圖示](../assets/icon-delete-trashcan-solid.png) | 刪除目前的規則。 |
 | **[!UICONTROL Add]** | 為新規則插入另一列。 |
 
@@ -108,7 +108,7 @@ Adobe Commerce和Magento Open Source支援各種價格選項，可用於促銷�
 | 專案 | 說明 |
 |----|-----------|
 | [!UICONTROL Use Config] | 使用目前的組態設定進行價格顯示。 |
-| [!UICONTROL On Gesture] | 在快顯視窗中顯示實際產品價格，以回應 _按一下以取得價格_ 或 _這是什麼？_ 連結。 |
+| [!UICONTROL On Gesture] | 在快顯視窗中顯示實際產品價格，以回應&#x200B;_價格點按_&#x200B;或&#x200B;_這是什麼？_&#x200B;連結。 |
 | [!UICONTROL In Cart] | 顯示購物車中的實際產品價格。 |
 | [!UICONTROL Before Order Confirmation] | 在訂單提交前，於結帳程式結束時顯示實際產品價格。 |
 

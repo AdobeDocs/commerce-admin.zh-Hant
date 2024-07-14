@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ ht-degree: 0%
 
 ## 開啟公司詳細資訊頁面
 
-1. 從 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. 從&#x200B;_管理員_&#x200B;側邊欄，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在母公司的「公司」網格中開啟公司詳細資訊頁面，方法是選取 **[!UICONTROL Edit]** 動作。
+1. 選取&#x200B;**[!UICONTROL Edit]**&#x200B;動作，在母公司的「公司」網格中開啟公司詳細資訊頁面。
 
-請參閱 [管理公司帳戶](account-company-manage.md) 以取得公司格線的詳細資訊。
+請參閱[管理公司帳戶](account-company-manage.md)，以取得有關公司網格的詳細資訊。
 
 ## [!UICONTROL Company Hierarchy]
 
-初次建立公司時， [!UICONTROL Company Hierarchy] 當您展開格線時，格線是空的。 公司建立後，具有適當許可權的管理員使用者可以使用 [!UICONTROL Company Hierarchy] 編輯指定的母公司並指派相關公司，以建立母公司組織。
+初次建立公司時，展開[!UICONTROL Company Hierarchy]格線時它是空的。 公司建立後，具有適當許可權的Admin使用者可以編輯指定的母公司並指派相關公司，以使用[!UICONTROL Company Hierarchy]建立母公司組織。
 
-![公司階層格線](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![公司階層網格](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-另請參閱 [指派和取消指派公司](assign-companies.md) 以取得中可用動作的詳細資訊 [!UICONTROL Company Hierarchy] 格線。
+請參閱[指派和取消指派公司](assign-companies.md)，以取得[!UICONTROL Company Hierarchy]格線中可用動作的詳細資訊。

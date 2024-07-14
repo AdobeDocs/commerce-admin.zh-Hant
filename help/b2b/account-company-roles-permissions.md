@@ -13,59 +13,59 @@ ht-degree: 0%
 
 # 公司角色和許可權
 
-公司使用者的角色設定為具有存取銷售資訊和資源的各種許可權層級。 依預設，公司管理員是 _超級使用者_ 擁有完整許可權。 此 [存取遭拒](../content-design/pages.md#access-denied) 如果使用者沒有存取頁面的許可權，頁面就會顯示。
+公司使用者的角色設定為具有存取銷售資訊和資源的各種許可權層級。 依預設，公司管理員是具有完整許可權的&#x200B;_超級使用者_。 如果使用者沒有存取頁面的許可權，就會顯示[拒絕存取](../content-design/pages.md#access-denied)頁面。
 
-![具有預設角色的角色和許可權頁面](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+具有預設角色的![角色和許可權頁面](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-系統有一個預先定義的「預設使用者」角色，您可以使用該角色 _原樣_ 或修改以符合您的需求。 您可以視需要建立儘可能多的角色，以符合您的公司結構和組織責任，例如：
+系統有一個預先定義的預設使用者角色，您可以以&#x200B;_形式使用_&#x200B;或進行修改以符合您的需求。 您可以視需要建立儘可能多的角色，以符合您的公司結構和組織責任，例如：
 
-- **預設使用者**  — 預設使用者擁有與銷售和報價相關的活動的完整存取權，以及公司設定檔和信用資訊的僅檢視存取權。
+- **預設使用者** — 預設使用者擁有與銷售和報價相關的活動的完整存取權，以及公司設定檔和信用資訊的僅檢視存取權。
 
-- **資深購買者**  — 資深採購員可能擁有所有「銷售」與「報價」資源的存取權，以及「公司設定檔」、「使用者和團隊」、「付款資訊」及「公司業績」的僅限檢視許可權。
+- **資深購買者** — 資深購買者可能擁有所有「銷售」和「報價」資源的存取權，以及公司設定檔、使用者和團隊、付款資訊和公司信用額的僅限檢視許可權。
 
-- **助理購買者**  — 助理購買者可能有使用下訂單的許可權 _使用引號結帳_，並可在公司設定檔中檢視訂單、報價和資訊。
+- **助理購買者** — 助理購買者可能有權使用&#x200B;_使用報價結帳_&#x200B;下訂單，並可在公司設定檔中檢視訂單、報價和資訊。
 
 ## 管理角色和許可權
 
 1. 公司管理員登入其商店帳戶。
 
-1. 在左側面板中，選擇 **[!UICONTROL Roles and Permissions]**.
+1. 在左側面板中選擇&#x200B;**[!UICONTROL Roles and Permissions]**。
 
 1. 完成下列任一作業。
 
 ### 建立角色
 
-1. 點擊數 **[!UICONTROL Add New Role]**.
+1. 按一下&#x200B;**[!UICONTROL Add New Role]**。
 
    ![新增角色](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. 輸入描述性 **[!UICONTROL Role Name]**.
+1. 輸入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在 _[!UICONTROL Role Permissions]_，執行下列任一項作業：
+1. 在&#x200B;_[!UICONTROL Role Permissions]_底下，執行下列其中一項作業：
 
    - 選取被指派角色的使用者有權存取之每個資源或活動的核取方塊。
 
-   - 選取 **[!UICONTROL All]** 核取方塊並清除每個資源或活動的核取方塊，指派給角色的使用者無權存取。
+   - 選取&#x200B;**[!UICONTROL All]**&#x200B;核取方塊，並清除指派給角色的使用者無權存取之每個資源或活動的核取方塊。
 
-1. 點擊數 **[!UICONTROL Save Role]**.
+1. 按一下&#x200B;**[!UICONTROL Save Role]**。
 
 1. 重複這些步驟，視需要建立多個角色。
 
 ### 修改角色
 
-1. 對於要修改的角色，公司管理員按一下 **[!UICONTROL Edit]** 在 _[!UICONTROL Actions]_欄。
+1. 對於要修改的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 對名稱和許可權設定進行必要的變更。
 
-1. 完成後，按一下 **[!UICONTROL Save Role]**.
+1. 完成後，按一下&#x200B;**[!UICONTROL Save Role]**。
 
 ### 複製角色
 
-1. 對於要複製的角色，公司管理員按一下 **[!UICONTROL Duplicate]** 在 _[!UICONTROL Actions]_欄。
+1. 對於要複製的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_欄中的&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 對名稱和許可權設定進行必要的變更。
 
-1. 完成後，按一下 **[!UICONTROL Save Role]**.
+1. 完成後，按一下&#x200B;**[!UICONTROL Save Role]**。
 
 ### 刪除角色
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
    只能刪除未指派使用者的角色。
 
-1. 點按次數 **[!UICONTROL Delete]** 在 _[!UICONTROL Actions]_欄。
+1. 在&#x200B;_[!UICONTROL Actions]_欄中按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 提示確認時，按一下 **[!UICONTROL OK]**.
+1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 動作
 
 | 動作 | 說明 |
 |-----------| ----------- |
-| [!UICONTROL Duplicate] | 建立所選角色的復本。 重複角色的名稱具有 `- Duplicated` 新增到結尾。 |
+| [!UICONTROL Duplicate] | 建立所選角色的復本。 重複角色的名稱已新增`- Duplicated`到結尾。 |
 | [!UICONTROL Edit] | 變更名稱和/或許可權集。 |
 | [!UICONTROL Delete] | 刪除角色。 只能刪除未指派使用者的角色。 |
 
@@ -130,14 +130,14 @@ ht-degree: 0%
 
 1. 以公司管理員的身分登入其公司帳戶。
 
-1. 在左側面板中，選擇 **[!UICONTROL Company Users]**.
+1. 在左側面板中選擇&#x200B;**[!UICONTROL Company Users]**。
 
    ![公司使用者](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. 在清單中尋找使用者並按一下 **[!UICONTROL Edit]**.
+1. 在清單中尋找使用者並按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 選擇適當的 **[!UICONTROL User Role]** （使用者）。
+1. 為使用者選擇適當的&#x200B;**[!UICONTROL User Role]**。
 
    ![編輯使用者 — 選擇使用者角色](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
-1. 點擊數 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。

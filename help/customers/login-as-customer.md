@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 為購物者提供協助
 
-有時候，客戶需要協助處理訂單。 存放區管理員可以使用 _客戶登入_，可讓他們檢視客戶看到什麼並進行更新以協助他們。
+有時候，客戶需要協助處理訂單。 存放區管理員可以使用&#x200B;_以客戶身分登入_，讓他們檢視客戶看到的內容並進行更新以協助他們。
 
 以客戶身分登入時執行的任何動作會套用至實際客戶的帳戶。
 
-為以下專案啟用時： _管理員_ 使用者， _[!UICONTROL Login as Customer]_按鈕會顯示在多個頁面中：
+為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_按鈕會出現在多個頁面中：
 
 * [客戶編輯頁面](../customers/update-account.md)
 * [訂單檢視頁面](../stores-purchase/order-processing.md)
@@ -24,64 +24,64 @@ ht-degree: 0%
 * [出貨檢視頁面](../stores-purchase/shipments.md)
 * [銷退折讓單檢視頁面](../stores-purchase/credit-memo-create.md)
 
-![客戶登入](assets/login-as-customer.png){width="600" zoomable="yes"}
+![以客戶身分登入](assets/login-as-customer.png){width="600" zoomable="yes"}
 
 ## 啟用客戶登入
 
-正在啟用 _客戶登入_ 需要您在Commerce執行個體中啟用該功能，然後在使用者角色許可權中為管理員使用者啟用存取權。
+啟用&#x200B;_以客戶身分登入_&#x200B;需要您在Commerce執行個體中啟用該功能，然後以使用者角色許可權為管理員使用者啟用存取權。
 
 ### 啟用功能
 
-1. 在管理員側邊欄上，前往  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在管理員側邊欄上，前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Customers]** 並選擇  **[!UICONTROL Login as Customer]**.
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Login as Customer]**。
 
-   ![設定選項 — 客戶登入](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
+   ![組態選項 — 以客戶身分登入](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. 設定 **[!UICONTROL Enable Login as Customer]** 至 `Yes`.
+1. 將&#x200B;**[!UICONTROL Enable Login as Customer]**&#x200B;設為`Yes`。
 
-1. _（可選）_ 設定 **[!UICONTROL Disable Page Cache for Admin User]** 至 `No` 當管理員使用者以客戶身分登入時，啟用頁面快取。
+1. _（選擇性）_&#x200B;將&#x200B;**[!UICONTROL Disable Page Cache for Admin User]**&#x200B;設為`No`以在管理員使用者以客戶身分登入時啟用頁面快取。
 
    >[!WARNING]
    >
-   > 停用頁面快取(`Yes`  — 預設)確保使用者在客戶身分登入時能獲得最新且未快取的資料。
+   > 停用頁面快取（`Yes` — 預設）可確保使用者在客戶登入時取得最新且未快取的資料。
 
-1. _（可選）_ 設定 **[!UICONTROL Store View to Log in]** 至 `Manual Selection` 若您具有多網站及/或多商店設定，且希望管理員使用者在以客戶身分登入時選取商店檢視。
+1. _（選擇性）_&#x200B;如果您有多網站及/或多重商店設定，且希望管理員使用者在登入時以客戶身分選取商店檢視，請將&#x200B;**[!UICONTROL Store View to Log in]**&#x200B;設為`Manual Selection`。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 為管理員使用者啟用存取權
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _許可權_ > **[!UICONTROL User Roles]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _許可權_ > **[!UICONTROL User Roles]**。
 
 1. 按一下清單中的角色。
 
-1. 在 [!UICONTROL _角色資訊_] 左側面板，按一下 **[!UICONTROL Role Resources]**.
+1. 在&#x200B;[!UICONTROL _角色資訊_]&#x200B;左側面板中，按一下&#x200B;**[!UICONTROL Role Resources]**。
 
-1. 變更 **[!UICONTROL Role Resources]** 在頁面至 `Custom`.
+1. 將頁面上的&#x200B;**[!UICONTROL Role Resources]**&#x200B;變更為`Custom`。
 
    >[!INFO]
    >
    > 選取此選項後，頁面中會顯示資源階層。
 
-1. 捲動至  **[!UICONTROL Customers]** 上層專案和 **[!UICONTROL Login as Customer]** 專案底下。 然後，選取您要為角色啟用的資源：
+1. 捲動至&#x200B;**[!UICONTROL Customers]**&#x200B;父專案與下方的&#x200B;**[!UICONTROL Login as Customer]**&#x200B;專案。 然後，選取您要為角色啟用的資源：
 
-   * **[!UICONTROL Allow Login as Customer]**  — 允許管理員使用者使用 _客戶登入_ 功能。
-   * **[!UICONTROL View Login as Customer Log]**  — 允許管理員使用者檢視 _客戶登入_ 記錄。
+   * **[!UICONTROL Allow Login as Customer]** — 允許管理員使用者使用&#x200B;_登入作為客戶_&#x200B;功能。
+   * **[!UICONTROL View Login as Customer Log]** — 允許管理員使用者檢視&#x200B;_以客戶身分登入_&#x200B;記錄檔。
 
-   ![角色資源 — 客戶登入](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
+   ![角色資源 — 以客戶身分登入](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
-1. 按一下 **[!UICONTROL Save Role]**.
+1. 按一下&#x200B;**[!UICONTROL Save Role]**。
 
 ## 從管理員以客戶身分登入
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Customers]** > [!UICONTROL _所有客戶_].
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > [!UICONTROL _所有客戶_]。
 
 1. 在編輯模式中開啟使用者。
 
-1. 在 **[!UICONTROL Customer Information]** 面板，選擇 **[!UICONTROL Account Information]** 區段。
+1. 在&#x200B;**[!UICONTROL Customer Information]**&#x200B;面板中，選擇&#x200B;**[!UICONTROL Account Information]**&#x200B;區段。
 
-1. 設定 **[!UICONTROL Allow remote shopping assistance]** 至 `Yes`.
+1. 將&#x200B;**[!UICONTROL Allow remote shopping assistance]**&#x200B;設為`Yes`。
 
    >[!INFO]
    >
@@ -91,13 +91,13 @@ ht-degree: 0%
 
 若要透過管理員為商店支援人員啟用帳戶存取權，客戶必須為其帳戶啟用此功能：
 
-1. 客戶前往 **[!UICONTROL Account Information]** 頁面。
+1. 客戶前往&#x200B;**[!UICONTROL Account Information]**&#x200B;頁面。
 
-1. 選取 **[!UICONTROL Allow remote shopping assistance]** 核取方塊。
+1. 選取&#x200B;**[!UICONTROL Allow remote shopping assistance]**&#x200B;核取方塊。
 
-1. 客戶點按 **[!UICONTROL Save]**.
+1. 客戶按一下&#x200B;**[!UICONTROL Save]**。
 
-![帳戶資訊頁面](assets/permission.png){width="700" zoomable="yes"}
+![帳戶資訊頁](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -107,23 +107,23 @@ ht-degree: 0%
 
 >[!INFO]
 >
->使用 _客戶登入_，請確定您的管理員已如前所述完成設定。
+>若要使用&#x200B;_Login作為客戶_，請確定您的管理員已如前所述設定。
 
-_客戶登入_ 可讓您檢視網站（就像客戶一樣），並讓您為客戶進行疑難排解並採取其他動作。 如果您有指派的使用者角色具有所需的許可權：
+_以客戶身分登入_&#x200B;可讓您檢視網站，就像客戶一樣，並可讓您為客戶進行疑難排解和採取其他動作。 如果您有指派的使用者角色具有所需的許可權：
 
-1. 您可以按一下 **[!UICONTROL Login as Customer]** 於上一節所列頁面上。
+1. 您可以在上一節所列的頁面上按一下&#x200B;**[!UICONTROL Login as Customer]**。
 1. 「動作報表」提供「以客戶身分登入」動作。
 
 >[!WARNING]
 >
->登入時執行的任何動作 [!UICONTROL _作為客戶_] （例如新增/移除產品）會套用至實際客戶的訂單。 在店面，橫幅會在您選擇時顯示 `logged in as customer_name` 提供特殊狀態的提醒。
+>以客戶&#x200B;_]身分登入[!UICONTROL _&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
 
 ## 以客戶記錄身分登入
 
 {{ee-feature}}
 
-Adobe Commerce提供 _客戶登入_ 動作。 其中會列出管理員使用者存取功能的所有工作階段。 若要存取記錄的動作，請前往 [管理動作報表](../systems/action-log-report.md).
+Adobe Commerce提供&#x200B;_以客戶_&#x200B;身分登入動作的記錄。 其中會列出管理員使用者存取功能的所有工作階段。 若要存取記錄的動作，請移至[管理動作報表](../systems/action-log-report.md)。
 
-您可以篩選報表設定 **[!UICONTROL Action Group]** 至 `Login As Customer` ，然後按一下 **[!UICONTROL Search]**.
+您可以篩選頁面頂端的報表設定&#x200B;**[!UICONTROL Action Group]**&#x200B;為`Login As Customer`，然後按一下&#x200B;**[!UICONTROL Search]**。
 
-![篩選動作報表](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![篩選動作報告](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

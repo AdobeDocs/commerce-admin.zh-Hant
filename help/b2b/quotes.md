@@ -14,9 +14,9 @@ ht-degree: 0%
 
 買方與賣方使用「報價單」來管理新增訂單料號的議價流程、更新數量、請求與套用折扣等等，直到達成一致為止。 報價議價處理可由授權的公司採購員或公司銷售代表起始。
 
-報價可由授權的公司採購員或銷售代表起始。 建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 此 _引號_ 此格線會列出所收到的每個報價，並維護買賣雙方之間的通訊記錄。 使用標準 [工作區控制項](../getting-started/admin-workspace.md) 若要篩選清單，請變更欄配置、儲存檢視及匯出資料。
+報價可由授權的公司採購員或銷售代表起始。 建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更欄配置、儲存檢視及匯出資料。
 
-- 在店面，購買者提交報價為 [要求交涉](quote-price-negotiation.md) 購物車的價格。 建立報價請求時，買方可以將報價儲存為草稿，或直接提交賣方。
+- 在店面，買家提交報價作為[要求來議價](quote-price-negotiation.md)購物車的價格。 建立報價請求時，買方可以將報價儲存為草稿，或直接提交賣方。
 
 - 在「管理員」中，銷售代表可以代表公司採購員建立報價單。 建立報價單時，賣家可以將報價單儲存為草稿，或直接提交買方以啟動議價處理。
 
@@ -37,74 +37,74 @@ ht-degree: 0%
 
 **步驟1：建立報價**
 
-- **購買者請求報價**  — 購買者 [要求報價](quote-request.md) 從購物車中。 此請求會顯示在 _我的報價_ 採購員帳戶控制面板中的清單，並傳送電子郵件通知給指派給公司帳戶的銷售代表。 在Admin中，請求會顯示在 _引號_ 格線，狀態為 `New`. 在賣家開啟報價之前，買方可以修改報價請求。
+- **購買者要求報價** — 購買者[從購物車要求報價](quote-request.md)。 此請求會出現在買家帳戶儀表板的&#x200B;_我的報價單_&#x200B;清單中，並會傳送電子郵件通知給指派給公司帳戶的銷售代表。 在Admin中，要求出現在&#x200B;_Quotes_&#x200B;格線中，狀態為`New`。 在賣家開啟報價之前，買方可以修改報價請求。
 
-  ![引號](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
-
-
-- **銷售代表**  — 銷售代表可以 [建立報價](sales-rep-initiates-quote.md) 管理員代表特定公司購買者提供。 銷售代表必須更新報價單，以將產品與其他資訊（如折扣與備註）新增至採購員。 銷售代表可將報價單另存為 `draft` 或傳送給採購員以開始議價。 在草稿狀態下，只有賣家能看到報價。 傳送報價之後，狀態為 `Submitted`. 在買方將其送回之前，賣方無法修改它。
-
-  ![賣方從Admin的Quotes網格中啟動買方報價單](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+  ![個引號](./assets/quote-request-from-shopping-cart.png){width="700" zoomable="yes"}
 
 
-**步驟2：報價複查與議價**
+- **銷售代表** — 銷售代表可以從管理員代表特定公司購買者[建立報價單](sales-rep-initiates-quote.md)。 銷售代表必須更新報價單，以將產品與其他資訊（如折扣與備註）新增至採購員。 銷售代表可以將報價單儲存為`draft`，或傳送給採購員以開始議價。 在草稿狀態下，只有賣家能看到報價。 傳送報價後，狀態為`Submitted`。 在買方將其送回之前，賣方無法修改它。
 
-**賣家檢視要求並傳送回應**  — 在「管理員」中，賣家會檢視報價請求。 報價的狀態變更為 `Pending`，而購買者則無法進行任何變更。 此 [賣家回應](quote-price-negotiation.md) 藉由提供報價中產品的折扣定價，輸入註解，然後將報價傳回給購買者。 系統會以電子郵件通知買方和銷售代表，表示賣方已回應。
+  ![賣家從Admin](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}的Quotes格線中起始買方報價
 
-**買方檢視來自賣方的報價並傳送回應**  — 採購員按一下電子郵件通知中的連結，開啟報價單，或從 _我的報價_ 帳戶控制面板的頁面。 採購員可在明細專案或報價層次向賣方留下附註，並移除專案。
+
+**步驟2：報價稽核與交涉**
+
+**賣家檢視要求並傳送回應** — 在管理員中，賣家檢視報價要求。 報價的狀態變更為`Pending`，而採購員無法進行任何變更。 [賣家回應](quote-price-negotiation.md)，提供報價中產品的折扣價格，輸入註解，然後將報價傳回給買方。 系統會以電子郵件通知買方和銷售代表，表示賣方已回應。
+
+**買方檢視賣方的報價並傳送回應** — 買方按一下電子郵件通知中的連結以開啟報價，或從帳戶儀表板的&#x200B;_我的報價_&#x200B;頁面開啟報價。 採購員可在明細專案或報價層次向賣方留下附註，並移除專案。
 
 買方和賣方可以繼續議價程式，直到達成協定或賣方拒絕報價為止。 如果採購員變更報價單（新增或移除產品或變更產品數量），報價單必須退回給賣家進行複查。
 
-**步驟4：採購員接受報價單**  — 買方接受建議價格並繼續結帳。 額外的折扣無法新增至議價的報價單。
+**步驟4：購買者接受報價** — 購買者接受提議的價格並繼續結帳。 額外的折扣無法新增至議價的報價單。
 
 ## 商店報價的B2B角色資源
 
-報價的設定選項是使用 [角色資源](../systems/permissions-user-roles.md#role-resources). 必須為指派給存放區管理員的管理員使用者角色設定這些角色資源。
+報價的組態選項是使用[角色資源](../systems/permissions-user-roles.md#role-resources)來控制。 必須為指派給存放區管理員的管理員使用者角色設定這些角色資源。
 
-若要授予Admin中報價功能的存取權，請前往 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**，選取角色，並導覽至 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] 在_&#x200B;角色資源&#x200B;_樹狀結構。
+若要授與Admin中報價函式的存取權，請移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**，選取角色，並導覽至_&#x200B;角色資源&#x200B;_樹狀結構中的[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]。
 
 ## 套用動作
 
-在「管理員」中，B2B管理員和賣家可以使用 [!UICONTROL Actions] 功能表。
+在「管理員」中，B2B管理員和賣家可以使用[!UICONTROL Actions]功能表管理報價格線中的報價。
 
-![引號](./assets/quotes-grid.png){width="700" zoomable="yes"}
+![個引號](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
 1. 在網格的第一欄中，選取您要套用動作之每個記錄的核取方塊。
 
-1. 在 **[!UICONTROL Actions]** 選取要套用的動作。
+1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;中選取要套用的動作。
 
 ### 檢視報價
 
-1. 在 **[!UICONTROL Actions]** 欄中的記錄，按一下 **[!UICONTROL View]**.
+1. 在記錄的&#x200B;**[!UICONTROL Actions]**&#x200B;欄中，按一下&#x200B;**[!UICONTROL View]**。
 
-1. 若要回應客戶請求，請遵循指示並開始 [價格議價](quote-price-negotiation.md) 程式。
+1. 若要回應客戶要求，請依照指示進行[價格議價](quote-price-negotiation.md)程式。
 
 ### 檢視報價活動
 
-從檢視議價時間表、通訊和其他報價活動 [!UICONTROL Comments] 和 [!UICONTROL History Log] — 資訊包括狀態變更、客戶與送貨資訊的更新、料號與價格更新，以及其他重要資訊。
+從[!UICONTROL Comments]和[!UICONTROL History Log]檢視議價時間表、通訊和其他報價活動 — 資訊包括狀態變更、客戶與送貨資訊的更新、料號與價格更新，以及其他重要資訊。
 
 1. 開啟報價。
 
-1. 透過捲動至，檢視報價議價備註與歷史記錄 **[!UICONTROL Negotiation]**，並選取 **[!UICONTROL Comments]** 和 **[!UICONTROL History Log]**.
+1. 捲動至&#x200B;**[!UICONTROL Negotiation]**&#x200B;並選取&#x200B;**[!UICONTROL Comments]**&#x200B;與&#x200B;**[!UICONTROL History Log]**，以檢視報價議價備註與歷程記錄。
 
-   ![檢視歷史記錄](./assets/quote-view-history.png){width="400"}
+   ![檢視歷程記錄](./assets/quote-view-history.png){width="400"}
 
 1. 歷史記錄也會在明細行專案層次進行追蹤。
 
-   ![檢視明細專案歷史記錄](./assets/quote-view-line-item-history.png){width="400"}
+   ![檢視條列專案歷史記錄](./assets/quote-view-line-item-history.png){width="400"}
 
 
 ### 拒絕報價請求
 
-僅限具有下列專案的報價請求： `Open` 可以拒絕狀態。
+只能拒絕具有`Open`狀態的報價請求。
 
 1. 選取您想要拒絕的每個未結報價請求。
 
-1. 設定 _[!UICONTROL Actions]_控制項至 `Declined`.
+1. 將&#x200B;_[!UICONTROL Actions]_控制項設為`Declined`。
 
-1. 出現提示時，輸入拒絕報價的原因，然後按一下 **[!UICONTROL Confirm]**.
+1. 出現提示時，輸入報價遭拒絕的原因，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
    ![拒絕報價？](./assets/quote-decline-confirm.png){width="400"}
 
@@ -123,8 +123,8 @@ ht-degree: 0%
 | [!UICONTROL Sales Rep] | 管理購買者帳戶的銷售代表的名字和姓氏。 |
 | [!UICONTROL Quote Total (Base)] | 根據原始報價購買的產品總價。 總金額會以網站的基本貨幣和店面的貨幣顯示。 |
 | [!UICONTROL Quote Total (Negotiated)] | 根據議價報價購買的產品總價。 此總計由系統自動計算，並包含賣家套用的任何明細專案或報價層級折扣。 總金額會以網站的基本貨幣和店面的貨幣顯示。 |
-| [!UICONTROL Status] | 表示報價請求的目前狀態。 報價的狀態只能由買方或賣方執行動作來變更。 另請參閱狀態設定，從 [購買者帳戶](account-dashboard-my-quotes.md).<ul><li>**[!UICONTROL New]**  — 買方提交了報價請求，但賣方並未檢視。 買方可以更新請求，直到賣方開啟請求為止。</li><li>**[!UICONTROL Draft]**  — 賣方為買方建立草擬報價單。 在賣家新增報價詳細資料（料號、數量、折扣等）並將報價提交給買方之前，買方無法看到報價單。</li> <li>**[!UICONTROL Open]**  — 賣方已開啟請求，並正在稽核請求及準備回應。 </li><li>**[!UICONTROL Submitted]**  — 賣方傳送回應給買方。 報價記錄無法在交涉處理期間進行編輯。</li><li>**[!UICONTROL Client Reviewed]**  — 買方檢視了賣方的回覆，目前正在準備回覆。</li><li>**[!UICONTROL Updated]**  — 買方提交了回應，但賣方並未檢視。</li><li>**[!UICONTROL Ordered]**  — 採購員根據議定的報價提交訂單。</li><li>**[!UICONTROL Closed]**  — 採購員已取消報價請求。</li><li>**[!UICONTROL Declined]**  — 賣家拒絕詢價。 所有自訂訂訂訂價都會從報價中移除，且記錄會被鎖定，無法進一步編輯。</li><li>**[!UICONTROL Expired]**  — 買方未在指定的期間內回覆賣方的回覆，且報價已無效。</li></ul> |
-| [!UICONTROL Actions] | **[!UICONTROL View]**  — 開啟報價請求，並維護買賣雙方之間的議價記錄。 |
+| [!UICONTROL Status] | 表示報價請求的目前狀態。 報價的狀態只能由買方或賣方執行動作來變更。 另請參閱[購買者帳戶](account-dashboard-my-quotes.md)的狀態設定。<ul><li>**[!UICONTROL New]** — 買方提交報價請求，但賣家尚未檢視。 買方可以更新請求，直到賣方開啟請求為止。</li><li>**[!UICONTROL Draft]** — 賣家為買家建立草稿報價。 在賣家新增報價詳細資料（料號、數量、折扣等）並將報價提交給買方之前，買方無法看到報價單。</li> <li>**[!UICONTROL Open]** — 賣方已開啟請求，並正在稽核請求及準備回應。 </li><li>**[!UICONTROL Submitted]** — 賣家已傳送回應給買方。 報價記錄無法在交涉處理期間進行編輯。</li><li>**[!UICONTROL Client Reviewed]** — 買方已檢視賣方的回應，且正在準備回覆。</li><li>**[!UICONTROL Updated]** — 買方提交了回應，但賣方尚未檢視。</li><li>**[!UICONTROL Ordered]** — 買方根據議價的報價提交訂單。</li><li>**[!UICONTROL Closed]** — 買方已取消報價請求。</li><li>**[!UICONTROL Declined]** — 賣家拒絕報價請求。 所有自訂訂訂訂價都會從報價中移除，且記錄會被鎖定，無法進一步編輯。</li><li>**[!UICONTROL Expired]** — 買方在指定的期間內未回應賣方的回覆，且報價已無效。</li></ul> |
+| [!UICONTROL Actions] | **[!UICONTROL View]** — 開啟報價請求，並維護買賣雙方之間的議價記錄。 |
 
 {style="table-layout:auto"}
 
@@ -133,10 +133,10 @@ ht-degree: 0%
 | 按鈕 | 說明 |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | 傳送更新後的報價作為買家查詢的回覆。 如果賣家正在等待買家的回覆，此按鈕會停用。 |
-| [!UICONTROL Back] | 返回至 _引號_ 頁面，而不儲存變更。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 Beta版功能]{type=Informational url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;僅適用於Beta版計畫的參與者&quot;}請複製並重新命名目前的報價，以建立新的報價。 當新報價開啟時，預設名稱為 `<original quote name> (copy)`. 編輯中的值以變更名稱 [!UICONTROL Name] 欄位並儲存報價為草稿。 |
+| [!UICONTROL Back] | 返回&#x200B;_引號_&#x200B;頁面而不儲存變更。 |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta版功能]{type=資訊性url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;僅適用於Beta方案參與者&quot;}請複製並重新命名目前的報價，以建立新的報價。 當新引號開啟時，預設名稱為`<original quote name> (copy)`。 編輯[!UICONTROL Name]欄位中的值，並將報價單儲存為草稿，以變更名稱。 |
 | [!UICONTROL Print] | 將報價傳送至印表機或儲存為PDF檔案。 |
-| [!UICONTROL Create a copy] | 建立報價單復本，並命名為 `<original quote name> (copy)` 並開啟它。 視需要重新命名並更新新報價單，然後儲存為草稿或傳送給買家。 |
+| [!UICONTROL Create a copy] | 建立名為`<original quote name> (copy)`的報價單復本並開啟。 視需要重新命名並更新新報價單，然後儲存為草稿或傳送給買家。 |
 | [!UICONTROL Save as Draft] | 儲存對報價所做的任何變更，但不會將其傳送回購買者。 |
 | [!UICONTROL Decline] | 拒絕議價要求，無論是在初始詢問時還是在進行中的議價期間。 當報價被拒絕時，賣家應新增評論來解釋決定。 拒絕報價時，所有議價價格都會重設為原始值。 當賣家等待買家的回覆時，此按鈕會停用。 |
 
@@ -146,9 +146,9 @@ ht-degree: 0%
 
 下圖顯示「管理員」中之報價詳細資料檢視的範例，其中包含已設定的部分設定。
 
-![引述範例](./assets/quote-full.png){width="700" zoomable="yes"}
+![引號範例](./assets/quote-full.png){width="700" zoomable="yes"}
 
 
 >[!NOTE]
 >
->[!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅供測試版計畫參與者使用"}
+>[!BADGE 1.5.0 Beta版功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅適用於Beta計畫參與者"}

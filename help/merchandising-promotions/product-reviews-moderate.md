@@ -12,67 +12,67 @@ ht-degree: 0%
 
 # 稽核產品評論
 
-對於Commerce產品評論，提交的產品評論必須在可顯示之前核准。 這可確保評論適合公開顯示您的存放區。 提交的評論位於 `Pending` 狀態，直到其被核准或拒絕。
+針對Commerce產品評論，已提交的產品評論必須先經過核准，才能顯示。 這可確保評論適合公開顯示您的存放區。 已提交的稽核處於`Pending`狀態，直到被核准或拒絕為止。
 
 ## 在Admin中檢視產品評論
 
 若要在「管理員」中檢視特定產品的所有評論，請執行下列動作：
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 尋找您要檢視的產品，然後按一下 **[!UICONTROL Edit]** 在 _[!UICONTROL Action]_欄。
+1. 尋找您要檢視的產品，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在產品頁面上，向下捲動並展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **[!UICONTROL Product Reviews]** 區段。
+1. 在產品頁面上，向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Product Reviews]**&#x200B;區段。
 
-   在此網格中，您也可以按一下 **[!UICONTROL Edit]** 中的連結 _[!UICONTROL Action]_欄。
+   在此格線中，您也可以按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**連結來變更特定檢閱。
 
 ## 更新稽核狀態
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**。
 
 1. 在清單中，按一下暫止的檢閱，即可檢視詳細資料並視需要編輯。
 
-1. 變更 **[!UICONTROL Status]** 根據您的評估：
+1. 根據您的評估變更&#x200B;**[!UICONTROL Status]**：
 
-   - 若要核准擱置的檢閱，請選取 `Approved`.
+   - 若要核准擱置的評論，請選取`Approved`。
 
-   - 若要拒絕稽核，請選取 `Not Approved`. 未核准的評論從清單中消失 _[!UICONTROL Pending Reviews]_頁面。
+   - 若要拒絕稽核，請選取`Not Approved`。 未核准的評論從&#x200B;_[!UICONTROL Pending Reviews]_頁面的清單中消失。
 
    >[!NOTE]
    >
-   >與一起檢閱 `Pending` 和 `Not Approved` 店面不會顯示狀態。
+   >具有`Pending`和`Not Approved`狀態的評論不會顯示在店面上。
 
-1. 如果適用，請設定 **[!UICONTROL Visibility]** 出現在不同商店檢視中的產品評論。
+1. 如果適用，請將產品評論的&#x200B;**[!UICONTROL Visibility]**&#x200B;設定為出現在不同的商店檢視中。
 
-1. 如有需要，請變更下列專案的值： **[!UICONTROL Detailed Rating]**， **[!UICONTROL Nickname]**、和 **[!UICONTROL Summary of Review]**.
+1. 如有需要，請變更&#x200B;**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**&#x200B;和&#x200B;**[!UICONTROL Summary of Review]**&#x200B;的值。
 
-   若要變更可供檢閱的存放區檢視，請在中選擇所需的存放區檢視 _[!UICONTROL Visibility]_欄。
+   若要變更可供檢閱的存放區檢視，請在&#x200B;_[!UICONTROL Visibility]_欄中選擇所需的存放區檢視。
 
-   ![編輯複查頁面](./assets/edit-review-page.png){width="600" zoomable="yes"}
+   ![編輯評論頁面](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. 完成後，按一下 **[!UICONTROL Save Review]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Review]**。
 
 ## 批次更新
 
 您可以同時更新或刪除多個稽核：
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**。
 
 1. 選取要更新的稽核。
 
-1. 使用 _[!UICONTROL Action]_選擇器以套用動作。
+1. 使用左上角的&#x200B;_[!UICONTROL Action]_選取器以套用動作。
 
-1. 按一下 **[!UICONTROL Submit]**
+1. 按一下&#x200B;**[!UICONTROL Submit]**
 
 ## 刪除產品評論
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**。
 
 1. 找到要刪除的產品評論，並以編輯模式開啟。
 
-1. 在功能表列中，按一下 **[!UICONTROL Delete Review]** 按鈕。
+1. 在功能表列中，按一下&#x200B;**[!UICONTROL Delete Review]**&#x200B;按鈕。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 按鈕列
 

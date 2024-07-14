@@ -16,13 +16,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Order Total Report]
 
-此 [!UICONTROL Order Total Report] 顯示指定時間間隔或日期範圍的客戶訂單。 此報表包含每位客戶的訂單數、平均訂單金額及總金額。
+[!UICONTROL Order Total Report]顯示指定時間間隔或日期範圍內的客戶訂單。 此報表包含每位客戶的訂單數、平均訂單金額及總金額。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**。
 
 ![訂單總計報表](./assets/customers-order-total.png){width="600"}
 
-### 工作區控制項
+### Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |
@@ -38,23 +38,23 @@ ht-degree: 1%
 
 | 欄 | 說明 |
 |--- |--- |
-| [!UICONTROL Interval] | 訂單總計間隔，依據 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | 訂單總計間隔，按`Month` / `Day` / `Year`。 |
 | [!UICONTROL Customer] | 下訂單的客戶名稱。 |
 | [!UICONTROL Orders] | 指定間隔的訂單數。 |
-| [!UICONTROL Average] | 平均訂單金額。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
-| [!UICONTROL Total] | 該期間所有訂單的總和。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，如果訂單總計包含稅捐，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
+| [!UICONTROL Average] | 平均訂單金額。 即使目錄產品價格、訂單小計及訂單總計包含稅捐，此金額一律會針對產品價格&#x200B;**扣除稅捐**&#x200B;計算。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
+| [!UICONTROL Total] | 該期間所有訂單的總和。 即使目錄產品價格、訂單小計及訂單總計包含稅捐，此金額一律會針對產品價格&#x200B;**扣除稅捐**&#x200B;計算。 因此，如果訂單總計包含稅捐，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-此 [!UICONTROL Order Count Report] 顯示指定時間間隔或日期範圍內每位客戶的訂單數。 此報表包含每位客戶的訂單數、平均訂單金額及總金額。
+[!UICONTROL Order Count Report]顯示指定時間間隔或日期範圍內每位客戶的訂單數。 此報表包含每位客戶的訂單數、平均訂單金額及總金額。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**。
 
 ![訂單計數報表](./assets/customer-order-count.png){width="600"}
 
-### 工作區控制項
+### Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |
@@ -70,23 +70,23 @@ ht-degree: 1%
 
 | 欄 | 說明 |
 |--- |--- |
-| [!UICONTROL Interval] | 訂單計數間隔，依據 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | 訂單計數間隔，按`Month` / `Day` / `Year`。 |
 | [!UICONTROL Customer] | 下訂單的客戶。 |
 | [!UICONTROL Orders] | 指定間隔的訂單數。 |
-| [!UICONTROL Average] | 平均訂單金額。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
-| [!UICONTROL Total] | 該期間所有訂單的總和。 此金額一律根據產品價格計算 **排除稅金** 即使目錄產品價格，訂單小計和訂單總計也包含稅捐。 因此，如果訂單總計包含總計，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
+| [!UICONTROL Average] | 平均訂單金額。 即使目錄產品價格、訂單小計及訂單總計包含稅捐，此金額一律會針對產品價格&#x200B;**扣除稅捐**&#x200B;計算。 因此，當訂單總計含稅時，報表中顯示的金額會與訂單詳細資料中顯示的金額不同。 |
+| [!UICONTROL Total] | 該期間所有訂單的總和。 即使目錄產品價格、訂單小計及訂單總計包含稅捐，此金額一律會針對產品價格&#x200B;**扣除稅捐**&#x200B;計算。 因此，如果訂單總計包含總計，報表中顯示的總計與訂單詳細資料中顯示的金額會有所不同。 |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-此 [!UICONTROL New Accounts Report] 顯示在指定時間間隔或日期範圍內開啟的新客戶帳戶數目。
+[!UICONTROL New Accounts Report]顯示在指定的時間間隔或日期範圍內開啟的新客戶帳戶數目。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**。
 
-![新帳戶報表](./assets/customers-new-accounts.png){width="600"}
+![新帳戶報告](./assets/customers-new-accounts.png){width="600"}
 
-### 工作區控制項
+### Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
 
-此 [!UICONTROL Customer Wish List Report] 提供有關客戶希望清單的資訊。
+[!UICONTROL Customer Wish List Report]提供有關客戶希望清單的資訊。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**。
 
-![希望清單報告](./assets/customer-wish-list.png){width="600"}
+![願望清單報告](./assets/customer-wish-list.png){width="600"}
 
-### 工作區控制項
+### Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |
@@ -151,13 +151,13 @@ ht-degree: 1%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
 
-此 [!UICONTROL Customer Segment Report] 提供關於每個區段客戶人數的資訊。
+[!UICONTROL Customer Segment Report]提供有關每個區段中的客戶數目的資訊。
 
-在 _管理員_ 側欄，前往 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**。
 
 ![區段報表](./assets/customers-segments.png){width="600"}
 
-### 工作區控制項
+### Workspace控制項
 
 | 控制 | 說明 |
 |--- |--- |

@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->另請參閱 [Commerce Marketplace](../getting-started/commerce-marketplace.md) 以取得您的Commerce安裝所需的其他送貨服務。
+>如需Commerce安裝的其他運送服務，請參閱[Commerce Marketplace](../getting-started/commerce-marketplace.md)。
 
 您必須先完成下列步驟，才能為客戶提供精選的運送公司：
 
-- 設定 [送貨設定](shipping-settings.md) 以建立您商店的原點。
+- 設定[送貨設定](shipping-settings.md)以建立商店的原點。
 
 - 針對您要提供的每個電信業者服務進行設定。
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服務對象超過220個國家。
-   - [**USPS**](usps.md)  — 美國郵政服務(USPS)是美國政府的獨立郵政服務。 USPS提供國內及國際的陸運及空運服務。
+   - [**UPS**](ups.md) - United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服務對象超過220個國家。
+   - [**USPS**](usps.md) — 美國郵政服務(USPS)是美國政府的獨立郵遞服務。 USPS提供國內及國際的陸運及空運服務。
    - [**FedEx**](fedex.md) - FedEx提供國內及國際的陸運及空運服務，服務對象超過220個國家。
-   - [**DHL**](dhl.md) - DHL提供整合式國際服務，以及客製化的、以客戶為中心的解決方案，用於管理及運送信件、貨物及資訊。
+   - [**DHL**](dhl.md) - DHL提供整合式國際服務，以及客製化且以客戶為中心的解決方案，用於管理及運送信件、貨物及資訊。
 
 ## 維度權數
 

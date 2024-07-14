@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-此 [贈品登入](gift-registries.md) 「客戶帳戶」的區段會列出客戶目前的禮品登記處及相關事件。 客戶可以管理目前的註冊並新增新註冊。
+客戶帳戶的[禮品登入](gift-registries.md)區段會列出客戶目前的禮品登入及相關事件。 客戶可以管理目前的註冊並新增新註冊。
 
-![贈品登入](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![禮品登入](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## 贈品登入資訊
 
 客戶可以從其帳戶建立和管理禮品登記簿。 與每個登入型別相關的所有資訊都可從客戶帳戶取得。
 
-![店面範例 — 贈品登入資訊](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![店面範例 — 禮品登入資訊](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | 章節 | 說明 |
 |--- |--- |
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## 建立贈品登入
 
-1. 客戶選擇 **[!UICONTROL Gift Registry]** 在其帳戶儀表板中。
+1. 客戶在其帳戶儀表板中選取&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 在 _贈品登入_ 頁面，點按 **[!UICONTROL Add New]**.
+1. 在&#x200B;_禮品登入_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Add New]**。
 
-1. 選擇 **[!UICONTROL Gift Registry Type]**，例如：
+1. 選擇&#x200B;**[!UICONTROL Gift Registry Type]**，例如：
 
    - 生日
 
@@ -52,58 +52,58 @@ ht-degree: 0%
 
    - 婚禮
 
-1. 點擊數 **[!UICONTROL Next]**.
+1. 按一下&#x200B;**[!UICONTROL Next]**。
 
-1. 輸入必要資訊，然後按一下 **[!UICONTROL Save]**.
+1. 輸入必要資訊，然後按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 將產品新增至登入
 
 1. 客戶開啟要加入贈品註冊事件的產品。
 
-1. 點擊數 **[!UICONTROL Add to Cart]**.
+1. 按一下&#x200B;**[!UICONTROL Add to Cart]**。
 
-1. 點按次數 **[!UICONTROL View and Edit Cart]** 在迷你購物車上。
+1. 在迷你購物車上按一下&#x200B;**[!UICONTROL View and Edit Cart]**。
 
-1. 在「購物車」頁面上，選取他們想要的事件，然後按一下/點選 **[!UICONTROL Add All To Gift Registry]**.
+1. 在購物車頁面上，選取他們想要的事件，然後按一下/點選&#x200B;**[!UICONTROL Add All To Gift Registry]**。
 
    專案會新增至所選事件的贈品登入。
 
 ## 共用贈品登入
 
-1. 客戶從他們的帳戶控制面板，前往 **[!UICONTROL Gift Registry]**.
+1. 客戶從他們的帳戶儀表板前往&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 尋找要管理的登入事件，然後按一下 **[!UICONTROL Share]**.
+1. 尋找要管理的登入事件，然後按一下&#x200B;**[!UICONTROL Share]**。
 
-1. 輸入必要資訊並按一下 **[!UICONTROL Share Gift Registry]**.
+1. 輸入必要資訊並按一下&#x200B;**[!UICONTROL Share Gift Registry]**。
 
 ## 編輯贈品登入
 
-1. 客戶從他們的帳戶控制面板，前往 **[!UICONTROL Gift Registry]**.
+1. 客戶從他們的帳戶儀表板前往&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 尋找要管理的登入事件，然後按一下 **[!UICONTROL Edit]**.
+1. 尋找要管理的登入事件，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
 1. 視需要變更任何選項。
 
-1. 編輯必要的選項並按一下 **[!UICONTROL Save]**.
+1. 編輯必要的選項並按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 管理禮品登入專案
 
-1. 客戶從他們的帳戶控制面板，前往 **[!UICONTROL Gift Registry]**.
+1. 客戶從他們的帳戶儀表板前往&#x200B;**[!UICONTROL Gift Registry]**。
 
    ![管理禮品登入專案](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. 尋找登入事件，選取要管理的專案，然後按一下 **[!DNL Manage Items]**.
+1. 尋找登入事件，選取要管理的專案，然後按一下&#x200B;**[!DNL Manage Items]**。
 
-1. 變更必要的選項，例如 **[!UICONTROL Note]** 和 **[!UICONTROL Qty]**.
+1. 變更必要的選項，例如&#x200B;**[!UICONTROL Note]**&#x200B;和&#x200B;**[!UICONTROL Qty]**。
 
-1. 如有需要，請選取核取方塊，然後按一下「 」，將專案從贈品登錄檔中移除 **[!UICONTROL Delete]**.
+1. 如有需要，請選取核取方塊並按一下&#x200B;**[!UICONTROL Delete]**，將專案從贈品登錄檔中移除。
 
-1. 點按次數 **[!UICONTROL Update Gift Registry]** 以儲存變更。
+1. 按一下&#x200B;**[!UICONTROL Update Gift Registry]**&#x200B;以儲存變更。
 
 ## 刪除禮品登入
 
-1. 客戶從他們的帳戶控制面板，前往 **[!UICONTROL Gift Registry]**.
+1. 客戶從他們的帳戶儀表板前往&#x200B;**[!UICONTROL Gift Registry]**。
 
-1. 尋找要管理的登入事件，然後按一下 **[!UICONTROL Delete]**.
+1. 尋找要管理的登入事件，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
-1. 點按次數 **[!UICONTROL OK]** 以確認。
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。

@@ -5,7 +5,7 @@ exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 開始之前，請確定用於產品變數的屬性具有必要的屬性設定。
 
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
-   - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md)  — 用於產品變數的任何屬性的輸入型別必須是下列其中一項：
+   - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) — 用於產品變數的任何屬性的輸入型別必須是下列其中一項：
 
       - `Dropdown`
       - `Visual Swatch`
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 如果您要新增大小或顏色，或對現有屬性進行任何其他變更，請務必以新值更新屬性。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
 1. 在清單中尋找屬性，並以編輯模式開啟。
 
@@ -44,48 +44,48 @@ ht-degree: 0%
 
    ![產品屬性 — 新增值](./assets/data-transfer-configurable-product-add-new-attribute-value.png){width="500" zoomable="yes"}
 
-1. 完成後，按一下 **[!UICONTROL Save Attribute]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Attribute]**。
 
-1. 如果您新增屬性，請依照下列指示進行 [建立屬性](../catalog/attribute-product-create.md) 開始之前。
+1. 如果您正在新增屬性，請在開始之前，依照指示[建立屬性](../catalog/attribute-product-create.md)。
 
 ## 步驟2：匯出可設定的產品
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
 1. 尋找要匯出的可設定產品：
 
-   - 按一下 **[!UICONTROL Filters]**.
-   - 設定 **[!UICONTROL Type]** 至 `Configurable Product` 並按一下 **[!UICONTROL Apply Filters]**.
-   - 選擇要用於測試匯出的可設定產品，並記下 **[!UICONTROL SKU]**.
+   - 按一下&#x200B;**[!UICONTROL Filters]**。
+   - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Configurable Product`並按一下&#x200B;**[!UICONTROL Apply Filters]**。
+   - 選擇要用於測試匯出的可設定產品，並記下&#x200B;**[!UICONTROL SKU]**。
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**。
 
    ![資料匯出設定](./assets/data-transfer-export-settings.png){width="600" zoomable="yes"}
 
-1. 在 _[!UICONTROL Export Setting]s_，請執行下列動作：
+1. 在&#x200B;_[!UICONTROL Export Setting]s_&#x200B;下，執行下列動作：
 
-   - 設定 **[!UICONTROL Entity Type]** 至 `Products`.
+   - 將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設為`Products`。
 
-   - 設定 **[!UICONTROL Export File Format]** 至 `CSV`.
+   - 將&#x200B;**[!UICONTROL Export File Format]**&#x200B;設為`CSV`。
 
-1. 在 _[!UICONTROL Entity Attributes]_，向下捲動或使用屬性標籤篩選來找出&#x200B;**[!UICONTROL SKU]**屬性並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_底下，向下捲動或使用屬性標籤篩選來尋找&#x200B;**[!UICONTROL SKU]**屬性，並執行下列動作：
 
-   - 輸入您選擇要匯出的可設定產品的SKU，然後按一下 **[!UICONTROL Continue]**.
+   - 輸入您選擇要匯出的可設定產品的SKU，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
      ![資料匯出SKU](./assets/data-transfer-export-sku.png){width="600" zoomable="yes"}
 
    - 在網頁瀏覽器的下載位置中尋找檔案，並以試算表形式開啟。
 
-     CSV檔案針對每個簡單產品變數都有個別的列，而可設定產品則有一列。 此 `product_type column` 顯示與一個可設定產品關聯的多個簡單產品變數。
+     CSV檔案針對每個簡單產品變數都有個別的列，而可設定產品則有一列。 `product_type column`會顯示與一個可設定產品相關的多個簡單產品變數。
 
      ![範例資料 — 可設定產品與變數](./assets/data-transfer-csv-configurable-product.png){width="600" zoomable="yes"}
 
    - 捲動至工作表的最右側，以尋找下列欄。
 
-      - `configurable_variations`  — 定義可設定產品記錄與每個變數之間的一對多關係。
-      - `configurable_variation_labels`  — 定義可識別每個變數的標籤。
+      - `configurable_variations` — 定義可設定產品記錄與每個變數之間的一對多關係。
+      - `configurable_variation_labels` — 定義識別每個變數的標籤。
 
-     在此範例中，資料可以在CG和CH欄中找到。 根據變異數，變數中 `configurable_variations` 欄可以很長。 資料會用作關聯產品變數的索引，其結構如下：
+     在此範例中，資料可以在CG和CH欄中找到。 根據變異數，`configurable_variations`欄中的資料字串可能會很長。 資料會用作關聯產品變數的索引，其結構如下：
 
      ```text
      sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}| sku={{SKU_VALUE}},attribute1={{VALUE}},attribute2={{VALUE}}
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 1. 當您瞭解可設定產品資料的結構時，您可以編輯資料或直接將新變數新增到CSV檔案。
 
-   若要深入瞭解，請參閱 [複雜資料](data-attributes-product.md#complex-product-data-attributes).
+   若要進一步瞭解，請參閱[複雜資料](data-attributes-product.md#complex-product-data-attributes)。
 
 ## 步驟3：編輯資料
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 1. 複製您想用作新產品範本的產品變體集。
 
-   ![匯出的資料 — 複製產品變數](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"}
+   ![匯出的資料 — 複製產品變化](./assets/data-transfer-export-configurable-copy-rows.png){width="600" zoomable="yes"}
 
 1. 將複製的資料列記錄插入工作表。
 
@@ -122,17 +122,17 @@ ht-degree: 0%
    - `url_key`
    - `additional_attributes`
 
-   在此範例中，所有 `XL` 參照已變更為 `XXL`.
+   在此範例中，所有`XL`參考都變更為`XXL`。
 
-1. 更新中的資訊 `product_variations` 可設定產品記錄的欄，這樣新的變數就會包含在可設定產品中。
+1. 更新可設定產品記錄的`product_variations`欄中的資訊，以便新變數包含在可設定產品中。
 
-   在可設定產品記錄的列上，按一下包含 `product_variations` 資料。 然後在公式列中，複製最後一組引數，從管路符號開始。
+   在可設定產品記錄的列上，按一下包含`product_variations`資料的儲存格。 然後在公式列中，複製最後一組引數，從管路符號開始。
 
    ![product_variations資料](./assets/data-transfer-export-configurable-product-product-variations-data.png){width="600" zoomable="yes"}
 
 1. 將引數貼上至資料的結尾，並視需要編輯新變數。
 
-   在此範例中， `sku` 和 `size` 引數會更新為新的XXL大小。
+   在此範例中，`sku`和`size`引數會更新為新的XXL大小。
 
 1. 在將資料匯入回目錄之前，請刪除所有尚未變更的列。
 
@@ -150,26 +150,26 @@ ht-degree: 0%
 
 ## 步驟4：匯入更新的資料
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在 _[!UICONTROL Import Settings]_，設定&#x200B;**[!UICONTROL Entity Type]**至 `Products`.
+1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
 
-1. 在 _[!UICONTROL Import Behavior]_，設定&#x200B;**[!UICONTROL Import Behavior]**至 `Add/Update`.
+1. 在&#x200B;_[!UICONTROL Import Behavior]_底下，將&#x200B;**[!UICONTROL Import Behavior]**設定為`Add/Update`。
 
    ![資料匯入行為](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. 在 _[!UICONTROL File to Import]_，按一下&#x200B;**[!UICONTROL Choose File]**並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
+1. 在&#x200B;_[!UICONTROL File to Import]_下，按一下&#x200B;**[!UICONTROL Choose File]**並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
 
    ![資料匯入檔案](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. 在右上角，按一下 **[!UICONTROL Check Data]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Check Data]**。
 
-1. 如果檔案有效，請按一下 **[!UICONTROL Import]**.
+1. 如果檔案有效，請按一下&#x200B;**[!UICONTROL Import]**。
 
    否則，請更正資料中找到的任何問題，然後再試一次。
 
    ![系統訊息 — 檔案有效](./assets/data-transfer-configurable-product-import-validation-results.png){width="600" zoomable="yes"}
 
-1. 匯入完成後，按一下 **[!UICONTROL Cache Management]** 重新整理所有無效快取。
+1. 匯入完成時，請按一下頁面頂端訊息中的&#x200B;**[!UICONTROL Cache Management]**，並重新整理所有無效的快取。
 
    新產品變化現在可從管理員的目錄和店面取得。 在此範例中，現在所有顏色都可使用XXL大小的連帽上衣。

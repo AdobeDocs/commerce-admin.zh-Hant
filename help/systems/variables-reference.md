@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 變數參考資料
 
-最多 [電子郵件範本](email-template-custom.md) 有一個區段 [預先定義的變數](variables-predefined.md) 範本專用。 下列清單包含常用電子郵件範本及其相關變數的範例。
+大多數[電子郵件範本](email-template-custom.md)都有專屬於範本的[預先定義變數](variables-predefined.md)區段。 下列清單包含常用電子郵件範本及其相關變數的範例。
 
 ## 電子郵件範本變數
 

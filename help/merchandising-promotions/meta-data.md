@@ -1,11 +1,11 @@
 ---
 title: 中繼資料
-description: 瞭解如何輸入關鍵字豐富的中繼資料，以改進搜尋引擎索引您的Commerce網站的方式。
+description: 瞭解如何輸入關鍵字豐富的中繼資料，以改進搜尋引擎索引您Commerce網站的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 ## 豐富的程式碼片段
 
-豐富的程式碼片段提供搜尋結果清單和其他應用程式的詳細資訊。 根據預設，結構化資料標示的基礎是 [schema.org][1] standard會新增至您商店的產品範本。 因此，搜尋引擎可以加入更多資訊做為 _豐富程式碼片段_ 在產品清單中。
+豐富的程式碼片段提供搜尋結果清單和其他應用程式的詳細資訊。 依照預設，以[schema.org][1]標準為基礎的結構化資料標籤會新增到您商店的產品範本。 因此，搜尋引擎有更多資訊可在產品清單中當作&#x200B;_豐富的程式碼片段_。
 
 ## 規範Meta標籤
 
-有些搜尋引擎會懲罰具有多個URL且指向相同內容的網站。 標準meta標籤會告訴搜尋引擎，當多個URL具有相同或類似內容時，要索引哪個頁面。 使用標準中繼標籤可以改善您的網站排名和彙總頁面檢視。 標準meta標籤放置在 `<head>` 產品或類別頁面的區塊。 它會提供您偏好URL的連結，因此搜尋引擎會賦予該URL更大的權重。
+有些搜尋引擎會懲罰具有多個URL且指向相同內容的網站。 標準meta標籤會告訴搜尋引擎，當多個URL具有相同或類似內容時，要索引哪個頁面。 使用標準中繼標籤可以改善您的網站排名和彙總頁面檢視。 標準Meta標籤放置在產品或類別頁面的`<head>`區塊中。 它會提供您偏好URL的連結，因此搜尋引擎會賦予該URL更大的權重。
 
 ### 範例1：類別路徑會建立重複的URL
 
@@ -59,35 +59,35 @@ ht-degree: 0%
 
     http://mystore.com/driven-backpack.html
 
-如果您也要將類別路徑納入產品URL中，標準URL會保留網域名稱/產品URL金鑰。 不過，您也可以使用完整URL （包含類別）存取產品。 例如，如果產品URL金鑰為 `driven-backpack` 而且會指派給Gear > Bags類別，因此可以使用其中一個URL存取產品。
+如果您也要將類別路徑納入產品URL中，標準URL會保留網域名稱/產品URL金鑰。 不過，您也可以使用完整URL （包含類別）存取產品。 例如，如果產品URL金鑰是`driven-backpack`並且指派給Gear > Bag類別，則可以使用其中一個URL存取產品。
 
 您可以省略URL中的類別，或使用canonical meta標籤將搜尋引擎導向到依產品或類別編制索引，藉此避免受到搜尋引擎的懲罰。 建議您為類別和產品啟用標準中繼標籤，此為最佳作法。
 
 ### 啟用規範meta標籤
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開 **[!UICONTROL Catalog]** 並選擇 **[!UICONTROL Catalog]** 底下。
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開 ![展開選擇器](../assets/icon-display-expand.png) 此 **搜尋引擎最佳化** 區段。
+1. 展開&#x200B;**搜尋引擎最佳化**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   若要變更任何欄位值，您必須先清除 **使用系統值** 核取方塊。
+   若要變更任何欄位值，您必須先清除每個欄位後面的&#x200B;**使用系統值**&#x200B;核取方塊。
 
-   ![目錄設定 — 搜尋引擎最佳化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
+   ![目錄組態 — 搜尋引擎最佳化](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
 1. 如果您希望搜尋引擎僅使用完整類別路徑來索引類別頁面，請執行下列動作：
 
-   - 設定 **對類別使用標準連結中繼標籤** 至 `Yes`.
+   - 將&#x200B;**類別**&#x200B;的`Yes`使用標準連結中繼標籤。
 
-   - 設定 **對產品使用標準連結中繼標籤** 至 `No`.
+   - 將產品&#x200B;**的**&#x200B;使用標準連結中繼標籤`No`設定為。
 
 1. 如果您希望搜尋引擎只使用網域名稱/product-url-key格式來索引產品頁面，請執行下列動作：
 
-   - 設定 **對產品使用標準連結中繼標籤** 至 `Yes`.
+   - 將產品&#x200B;**的**&#x200B;使用標準連結中繼標籤`Yes`設定為。
 
-   - 設定 **對類別使用標準連結中繼標籤** 至 `No`.
+   - 將&#x200B;**類別**&#x200B;的`No`使用標準連結中繼標籤。
 
-1. 完成後，按一下 **[!UICONTROL Save Config]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 中繼資料示範
 

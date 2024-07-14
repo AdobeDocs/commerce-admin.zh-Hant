@@ -4,8 +4,8 @@ description: 瞭解如何建立及管理Widget，藉以自動更新您商店的�
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
@@ -13,80 +13,80 @@ ht-degree: 1%
 
 Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現有元件，以自動更新整個商店的內容。 您也可以刪除不再使用的Widget。
 
-![Widget](./assets/widgets.png){width="700" zoomable="yes"}
+![介面工具集](./assets/widgets.png){width="700" zoomable="yes"}
 
 ## 建立 Widget
 
-每個元件建立Widget的流程幾乎相同 [Widget型別](widgets.md#widget-types). 您可以依照指示的第一部分操作，然後針對您想要的特定型別Widget完成最後一部分。
+每個[Widget型別](widgets.md#widget-types)的建立Widget程式幾乎相同。 您可以依照指示的第一部分操作，然後針對您想要的特定型別Widget完成最後一部分。
 
 ### 步驟1：選擇型別
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**。
 
-1. 按一下 **[!UICONTROL Add Widget]**.
+1. 按一下&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在 _[!UICONTROL Settings]_區段：
+1. 在&#x200B;_[!UICONTROL Settings]_區段中：
 
-   - 設定 **[!UICONTROL Type]** 至您要建立的Widget型別。
+   - 將&#x200B;**[!UICONTROL Type]**&#x200B;設定為您要建立的Widget型別。
 
-   - 確認 **[!UICONTROL Design Theme]** 設定為目前佈景主題。
+   - 確認&#x200B;**[!UICONTROL Design Theme]**&#x200B;已設定為目前主題。
 
      ![Widget設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 按一下 **[!UICONTROL Continue]**.
+1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
 ### 步驟2：指定店面屬性和佈局
 
-1. 在 _[!UICONTROL Storefront Properties]_區段：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中：
 
-   - 的 **[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
+   - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
      此標題只會從管理員看到。
 
-   - 的 **[!UICONTROL Assign to Store Views]**，選取您希望Widget顯示的商店檢視。
+   - 針對&#x200B;**[!UICONTROL Assign to Store Views]**，選取您要顯示Widget的存放區檢視。
 
-     您可以選取特定的商店檢視，或 `All Store Views`. 若要選取多個檢視，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個選項。
+     您可以選取特定的商店檢視，或`All Store Views`。 若要選取多個檢視，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個選項。
 
-   - （選用） For **[!UICONTROL Sort Order]**，請輸入數字以決定此專案在頁面相同部分與其他專案一起出現的順序。 (`0` =第一個， `1` =秒， `3` =第三個，依此類推。)
+   - （選擇性）針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字以決定此專案在頁面相同部分與其他專案一起出現的順序。 （`0` =第一個，`1` =第二個，`3` =第三個，依此類推。）
 
      ![店面屬性](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. 在 _[!UICONTROL Layout Updates]_區段，按一下&#x200B;**[!UICONTROL Add Layout Update]**.
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
-1. 設定 **[!UICONTROL Display On]** 至要顯示的頁面型別。
+1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為要顯示的頁面型別。
 
-1. 在 **[!UICONTROL Container]** 清單中，選擇要置入的頁面版面配置區域。
+1. 在&#x200B;**[!UICONTROL Container]**&#x200B;清單中，選擇要置入的頁面配置區域。
 
-   ![版面更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
+   ![配置更新](./assets/widget-layout-update-home-page.png){width="600" zoomable="yes"}
 
-1. 如果介面工具集為連結，請設定 **[!UICONTROL Template]** 變更為下列其中一項：
+1. 如果介面工具集是連結，請將&#x200B;**[!UICONTROL Template]**&#x200B;設定為下列其中一項：
 
-   - `Block Template`  — 設定內容格式，以便能以獨立單位的形式放置在頁面上。
-   - `Inline Template`  — 格式化內容，使其可置於其他內容內。 例如，文欄位落中的連結。
+   - `Block Template` — 設定內容格式，以便能作為獨立單位放置在頁面上。
+   - `Inline Template` — 將內容格式化，以便可以放在其他內容中。 例如，文欄位落中的連結。
 
 ### 步驟3：完成Widget選項
 
 各種Widget型別的選項稍有不同，但程式基本相同。 下列範例顯示特定類別的產品清單，具有分頁控制項。
 
-1. 在左側面板中，選擇 **[!UICONTROL Widget Options]**.
+1. 在左側面板中選擇&#x200B;**[!UICONTROL Widget Options]**。
 
-1. 按一下 **[!UICONTROL Select Block]**.
+1. 按一下&#x200B;**[!UICONTROL Select Block]**。
 
-1. 輸入 **[!UICONTROL Title]** 顯示在清單上方，例如 `Featured Products`.
+1. 輸入要在清單上方顯示的&#x200B;**[!UICONTROL Title]**，例如`Featured Products`。
 
-1. 針對分頁控制項，設定 **[!UICONTROL Display Page Control]** 至 `Yes`  並執行下列動作：
+1. 針對分頁控制項，請將&#x200B;**[!UICONTROL Display Page Control]**&#x200B;設為`Yes`並執行下列動作：
 
-   - 輸入 **[!UICONTROL Number of Products per Page]**.
+   - 輸入&#x200B;**[!UICONTROL Number of Products per Page]**。
 
-   - 輸入總計 **[!UICONTROL Number of Products to Display]**.
+   - 輸入總計&#x200B;**[!UICONTROL Number of Products to Display]**。
 
-   - 設定 **[!UICONTROL Condition]** 至要精選的產品類別。
+   - 將&#x200B;**[!UICONTROL Condition]**&#x200B;設定為要精選的產品類別。
 
-     此程式與為設定條件相同 [價格規則](../merchandising-promotions/price-rules-catalog.md).
+     此程式與設定[價格規則](../merchandising-promotions/price-rules-catalog.md)的條件相同。
 
 ### 步驟4：儲存並檢查結果
 
-1. 完成後，按一下 **[!UICONTROL Save]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 1. 出現提示時，請依照工作區頂端的指示，視需要更新快取。
 
@@ -102,7 +102,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 ## 編輯Widget
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**。
 
 1. 使用格線上方的篩選條件來尋找Widget，然後按一下Widget名稱。
 
@@ -110,16 +110,16 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
    如需有關Widget選項的資訊，請檢閱建立Widget的步驟。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 刪除Widget
 
-1. 在 _管理員_ 側欄，前往 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**。
 
 1. 使用格線上方的篩選條件來找出介面工具集，然後選取要刪除之介面工具集的核取方塊。
 
-1. 在清單的左上角，設定 **[!UICONTROL Actions]** 至 `Delete`.
+1. 在清單的左上角，將&#x200B;**[!UICONTROL Actions]**&#x200B;設定為`Delete`。
 
-1. 完成後，按一下 **[!UICONTROL Submit]**.
+1. 完成時，按一下&#x200B;**[!UICONTROL Submit]**。
 
-1. 若要確認動作，請按一下 **[!UICONTROL OK]**.
+1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。

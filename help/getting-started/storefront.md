@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在您的Adobe Commerce或Magento Open Source實作中，店面是您存放區的對外公開部分。 它提供客戶用於購物和購買的內容和功能元件。
 
-客戶進行銷售的方式有時稱為 _購買路徑_，您的店麵包含供客戶完成此路徑的元件。 以下章節提供提供提供策略價值的基本頁面型別概觀，即客戶在商店購物時通常會造訪的位置。 在檢閱時，請考慮可在客戶歷程的每個階段使用的不同商店功能。
+客戶進行銷售的路徑有時稱為&#x200B;_購買路徑_，您的店麵包含供客戶完成此路徑的元件。 以下章節提供提供提供策略價值的基本頁面型別概觀，即客戶在商店購物時通常會造訪的位置。 在檢閱時，請考慮可在客戶歷程的每個階段使用的不同商店功能。
 
 ## 首頁
 
@@ -28,23 +28,23 @@ ht-degree: 0%
 
 最初的產品說明通常能給予購物者足夠的資訊，值得仔細檢視。 知道自己想要什麼的人可以將產品新增到購物車中去。 登入帳戶期間購物的客戶可獲得個人化的購物體驗。
 
-![店面的集合頁面](./assets/storefront-collection-page.png){width="700"}
+店面上的![集合頁面](./assets/storefront-collection-page.png){width="700"}
 
 ## 搜尋結果
 
-您知道使用搜尋的人購買的可能性幾乎是僅依賴導覽的人的兩倍？ 您可能會認為這些購物者是 _預先合格_.
+您知道使用搜尋的人購買的可能性幾乎是僅依賴導覽的人的兩倍？ 您可能會將這些購物者視為&#x200B;_預先合格_。
 
 ### [!DNL Live Search]
 
-替換為 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) 若使用Adobe Commerce，您的商店能提供快速、超相關和直覺的搜尋體驗，Adobe Commerce可免費使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)，您的商店可提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。
 
 ![即時搜尋範例 — 在您輸入時進行搜尋](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 標準目錄搜尋
 
-替換為 [標準目錄搜尋](../catalog/search.md)，您的商店右上角有一個搜尋方塊，且頁尾有一個進階搜尋連結。 系統會儲存購物者提交的所有搜尋字詞，方便您精確檢視他們想要尋找的內容。 您可以提供建議，並輸入同義字和常見拼字錯誤。 然後，在輸入搜尋字詞時顯示特定頁面。
+透過[標準目錄搜尋](../catalog/search.md)，您的商店在右上角包含「搜尋」方塊，並在頁尾包含「進階搜尋」連結。 系統會儲存購物者提交的所有搜尋字詞，方便您精確檢視他們想要尋找的內容。 您可以提供建議，並輸入同義字和常見拼字錯誤。 然後，在輸入搜尋字詞時顯示特定頁面。
 
-![標準目錄搜尋結果的範例](./assets/storefront-search-results-page-full.png){width="700"}
+![標準目錄搜尋結果範例](./assets/storefront-search-results-page-full.png){width="700"}
 
 ## 產品頁面
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 1. 送貨資訊
 
    結帳程式的第一個步驟是讓客戶完成送貨地址資訊，並選擇送貨方式。 如果客戶有帳戶，則系統會自動輸入送貨地址，但如有需要，也可以進行變更。
-如果訪客客戶輸入的電子郵件地址辨識為先前已註冊，則當 [!UICONTROL Enable Guest Checkout Login] 存放區設定中的欄位設為 `Yes` (請參閱 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 在 _設定參考指南_)。 不過，此設定可能會將客戶資訊公開給未經驗證的使用者。
+如果訪客客戶輸入的電子郵件地址被識別為先前已註冊，則當存放區組態中的[!UICONTROL Enable Guest Checkout Login]欄位設定為`Yes`時，會顯示登入提示（請參閱&#x200B;_組態參考指南_&#x200B;中的[[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options)）。 不過，此設定可能會將客戶資訊公開給未經驗證的使用者。
 
    ![店面結帳頁面範例](./assets/storefront-checkout-shipping-full.png){width="700"}
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >雖然 [!DNL Commerce] 允許設定多個優惠券代碼，客戶只能將一個優惠券代碼套用至購物車。 (請參閱 [優惠券代碼](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes) 以取得詳細資訊。)
+   >雖然[!DNL Commerce]允許設定多個優惠券代碼，但客戶只能將一個優惠券代碼套用至購物車。 （如需詳細資訊，請參閱[優惠券代碼](../merchandising-promotions/price-rules-cart-coupon.md#coupon-codes)。）
 
    ![店面結帳頁面範例](./assets/storefront-checkout-payment-full.png){width="700"}
 
-頁面頂端的進度列會依照結帳程式的每個步驟進行，而且 _訂單摘要_ 顯示截至目前所輸入的資訊。
+頁面頂端的進度列會依循結帳程式的每個步驟，而&#x200B;_訂單摘要_&#x200B;會顯示截至目前所輸入的資訊。
 
 >[!NOTE]
 >
