@@ -2,7 +2,7 @@
 title: 安裝及設定Experience Manager Assets整合
 description: 「瞭解如何安裝和設定 [!DNL AEM Assets Integration for Adobe Commerce]」
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ AEM Assets整合使用Adobe I/O事件服務，在Commerce執行個體和Experien
 設定需要下列步驟。
 
 1. 在應用程式伺服器上和「管理員」中設定Adobe I/O事件，以啟用Commerce事件架構。
-1. 使用Adobe Commerce規則引擎服務API來設定連線，以啟用Assets與AEM Assets之間的資料同步
-1. 在管理員中啟用AEM Assets整合
+1. 使用Adobe Commerce規則引擎服務API來設定連線，以啟用Assets與AEM Assets之間的資料同步。
+1. 在「管理員」中啟用AEM Assets整合。
 
 ### 啟用Commerce事件架構
 
@@ -258,7 +258,7 @@ Commerce的AEM Assets整合需要OAuth驗證認證，才能允許API存取Commer
 
    1. 從左側面板，按一下&#x200B;**[!UICONTROL API]**。
 E
-   1. 選取外部媒體資源(**[!UICONTROL Catalog > Inventory > Products > External Media]**。
+   1. 選取外部媒體資源&#x200B;**[!UICONTROL Catalog > Inventory > Products > External Media]**。
 
    API資源的![管理員整合設定](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ E
 >[!NOTE]
 >
 >您也可以使用Adobe Commerce API產生驗證認證。 如需此程式的詳細資訊，以及Adobe Commerce的OAuth型驗證詳細資訊，請參閱Adobe Developer檔案中的[OAuth型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
-
-
-
-
-
-
-
-
-
-
-
-

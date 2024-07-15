@@ -2,7 +2,7 @@
 title: 設定同步化服務
 description: 「瞭解如何使用Assets規則引擎服務連線您的Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。」
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ ht-degree: 0%
 | 必要資料 | Source | 在哪裡可以找到它 |
 | ---------- | ------ | ------------- |
 | 來自Magento帳戶的API金鑰 | Commerce | 提供您正在使用、測試或生產環境的Commerce環境的公開API金鑰。 您可以在[Commerce Service Connector設定](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)頁面的管理員頁面或[!UICONTROL My Account]頁面的[!UICONTROL API Portal]區段中，找到生產和中繼環境的API金鑰。 |
-| Commerce SaaS專案識別碼 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理員 | 這些值會識別要連線的Commerce環境和SaaS資料空間和專案。 值來自[Commerce服務聯結器SaaS識別碼組態]。(aem-assets-configure-commerce.md#configure-the-commerce-services-connector)。 |
-| AEM `programId`<br>`environmentId` | [AEM Assets製作環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | 開啟AEM Sites頁面，然後選取&#x200B;**[!UICONTROL Assets]**。  從URL複製專案和環境ID： `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS專案識別碼 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理員 | 這些值會識別要連線的Commerce環境和SaaS資料空間和專案。 值來自[Commerce服務聯結器SaaS識別碼組態](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)。 |
+| AEM `programId`和<br>`environmentId` | [AEM Assets製作環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | 開啟AEM Sites頁面，然後選取&#x200B;**[!UICONTROL Assets]**。  從URL複製專案和環境ID： <br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
 | 基底URL | Commerce店面 | 您的Commerce店面的[基底URL](../stores-purchase/store-urls.md)。 |
 | API存取的OAuth認證 | Commerce管理員 | 您可以在Assets整合的Commerce [組態設定](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)中找到這些認證。 |
 
