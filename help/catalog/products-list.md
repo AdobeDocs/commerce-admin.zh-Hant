@@ -3,9 +3,9 @@ title: 產品清單
 description: 瞭解Admin中的_[!UICONTROL Products]_頁面，您可在此建立產品並編輯現有產品。
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ _[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用
 | [!UICONTROL Visibility] | 表示產品在目錄中的可見位置。 選項： `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | 表示產品的狀態。 選項： `Enabled`和`Disabled` |
 | [!UICONTROL Websites] | 表示產品可用的網站。 |
-| [!UICONTROL Remote Media URL] | 如果產品媒體資產是使用Commerce的[AEM Assets整合](../content-design/aem-assets.md)來管理，此欄位會顯示URL，以在AEM Assets Digital Asset Management存放區（儲存資產的集中式存放庫）中檢視Commerce資產。 此欄位僅在啟用AEM Assets整合時顯示。 |
 | [!UICONTROL Action] | 以編輯模式開啟產品。 |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於[Adobe Commerce B2B](./b2b/../introduction.md))表示包含產品自訂定價的共用目錄。 |
 
