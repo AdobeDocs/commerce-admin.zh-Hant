@@ -2,9 +2,9 @@
 title: 安裝及設定Experience Manager Assets整合
 description: 「瞭解如何安裝和設定 [!DNL AEM Assets Integration for Adobe Commerce]」
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ ht-degree: 0%
 - PHP 8.1、8.2、8.3
 - Composer： 2.x
 
-## 必要條件
+**組態需求**
 
 - Adobe Commerce必須設定為使用[Adobe IMS驗證](/help/getting-started/adobe-ims-config.md)。
-- 帳戶布建和許可權 — 管理員必須擁有下列資源的存取權，才能設定Experience Manager Assets整合：
-   - Commerce應用程式管理員 — 安裝必要的擴充功能，並從「管理員」或命令列設定Commerce應用程式伺服器
+- 帳戶布建和許可權
+   - [Commerce cloud專案管理員](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) — 安裝必要的擴充功能，並從管理員或命令列設定Commerce應用程式伺服器
    - [Commerce管理員](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) — 更新存放區設定並管理Commerce使用者帳戶
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction)—Adobe IMS應用程式管理員或使用者帳戶。 帳戶必須具有建立和管理檔案夾以及建立公開收藏集、上傳資產、設定許可權和設定中繼資料的許可權。
 
 ## 設定概述
 
