@@ -4,7 +4,7 @@ description: 瞭解 [!DNL Inventory Management] 模組提供的管理清查資�
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -76,7 +76,7 @@ bin/magento inventory:reservation:list-inconsistencies
 
 範例：
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies
 
 Inconsistencies found on following entries:
@@ -84,7 +84,7 @@ Order 172:
 - Product bike-123 should be compensated by +2.000000 for stock 1
 ```
 
-```terminal
+```bash
 bin/magento inventory:reservation:list-inconsistencies -r
 
 172:bike-123:+2.000000:1
@@ -108,13 +108,13 @@ bin/magento inventory:reservation:create-compensations
 
 如果請求的格式不正確，則會顯示以下訊息：
 
-```terminal
+```
 Error while parsing argument "your_incorrect_format_argument". Given argument does not match pattern "/(?P<increment_id>.*):(?P<sku>.*):(?P<quantity>.*):(?P<stock_id>.*)/".
 ```
 
 當指令建立預留時，它會顯示訊息，指示SKU、訂單和庫存的更新。
 
-```terminal
+```bash
 bin/magento inventory:reservation:create-compensations 172:bike-123:+2.000000:1
 
 Following reservations were created:
@@ -141,7 +141,7 @@ bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventor
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
 ```
 
-```terminal
+```
 Following reservations were created:
 - Product bike-123 was compensated by +2.000000 for stock 1
 - Product bikehat-456 was compensated by +1.000000 for stock 1
@@ -153,7 +153,7 @@ Following reservations were created:
 bin/magento inventory:reservation:list-inconsistencies -r
 ```
 
-```terminal
+```
 No order inconsistencies were found.
 ```
 

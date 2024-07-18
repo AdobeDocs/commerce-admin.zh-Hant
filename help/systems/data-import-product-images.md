@@ -3,7 +3,7 @@ title: 產品影像匯入
 description: 瞭解如何使用每個影像的路徑和檔案名稱匯入產品影像。
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 1. 在Commerce伺服器上，將影像檔案上傳至`var/import/images`資料夾或子資料夾，例如`var/import/images/product_images`。 這是匯入產品影像時的預設根資料夾。
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 1. 選取要匯入的檔案後，輸入相對路徑&#x200B;**[!UICONTROL Images File Directory]**。
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 1. 在CSV資料中，依影像型別（`base_image`、`small_image`、`thumbnail_image`或`additional_images`）輸入正確欄中每個影像檔案的完整URL。
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 1. 在遠端儲存模組中，將影像檔案上傳至`var/import/images`資料夾或子資料夾，例如`var/import/images/product_images`。 這是匯入產品影像時的預設根資料夾。
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 1. 選取要匯入的檔案後，輸入相對路徑&#x200B;**[!UICONTROL Images File Directory]**。
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

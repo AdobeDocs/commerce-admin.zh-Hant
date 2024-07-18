@@ -3,7 +3,7 @@ title: 儲存URL
 description: 瞭解商店URL以及如何設定基本URL和商店程式碼。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Adobe Commerce和Magento Open Source可設定為依預設透過`HTTPS`傳送所�
    - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。 然後，按一下&#x200B;**[!UICONTROL Flush Magento Cache]**。
    - 在伺服器上，執行下列動作：
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ Adobe Commerce和Magento Open Source可設定為依預設透過`HTTPS`傳送所�
 
 您可以使用CLI `setup:config:set`命令來變更管理路徑。 下列範例使用`--backend-frontname`選項將路徑從Commerce根目錄變更為新的管理員路徑：
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 若要還原成預設的Admin URL，請執行此命令：
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. 若要還原為預設管理路徑（在`app/etc/env.php`中設定，如方法2所述），請執行此命令：
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
    - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。 然後，按一下&#x200B;**[!UICONTROL Flush Magento Cache]**。
    - 在伺服器上，執行下列動作：
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 

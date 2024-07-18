@@ -3,7 +3,7 @@ title: 停用Commerce與Adobe ID的管理員整合
 description: 請依照此選擇性程式來停用Adobe Commerce與Adobe IMS的管理員整合。
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -32,7 +32,7 @@ bin/magento admin:adobe-ims:disable
 
 Adobe Commerce在成功時顯示下列訊息：
 
-```terminal
+```
 Admin Adobe IMS integration is disabled.
 ```
 

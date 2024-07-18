@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -131,7 +131,7 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 如果您在[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)版上安裝或升級B2B 1.4.0，會發生下列錯誤：
 
-```terminal
+```
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1
