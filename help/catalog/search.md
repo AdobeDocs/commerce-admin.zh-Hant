@@ -3,9 +3,9 @@ title: 目錄搜尋概觀
 description: 瞭解客戶可用來在店面尋找產品的快速搜尋和進階搜尋工具。
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->安裝[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html)時，搜尋方塊會在彈出視窗中傳回「鍵入時搜尋」結果。
+>安裝[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)且啟用[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) Widget時，搜尋方塊會在彈出視窗中傳回「鍵入時搜尋」。
 
 商店標題中的搜尋方塊可協助訪客在目錄中尋找產品。 搜尋文字可以是完整或部分產品名稱，或是描述產品的任何其他字詞或片語。 使用者用來尋找產品的搜尋詞語，可由管理員加以管理。
 
