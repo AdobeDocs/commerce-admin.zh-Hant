@@ -3,9 +3,9 @@ title: 表格費率運送
 description: 瞭解如何為商店設定表格費率運送選項。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
    - 使用星號(*)當作萬用字元，代表任何類別中的所有可能值。
    - _[!UICONTROL Country]_資料行必須包含每個資料列的[有效的三字元代碼][1]。
    - 依&#x200B;_[!UICONTROL Region/State]_排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
+   - 不支援郵遞區號範圍。 使用星號(*)可允許地區/州內的所有程式碼，或在&#x200B;_[!UICONTROL Zip/Postal Code]_欄中指定特定位置的單一程式碼。
    - _[!UICONTROL Weight (and above)]_欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
 
    ![重量與目的地（澳洲）](./assets/table-rates-weight-destination-csv.png){width="500"}
