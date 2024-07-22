@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 如果Real-Time CDP對象未顯示在Commerce中，原因可能是：
 
+- 無效的連線
 - 在&#x200B;**資料連線**&#x200B;設定頁面中選取的驗證型別不正確
 - 產生的權杖上的許可權不足
 
-以下兩節說明如何疑難排解任一案例。
+以下小節說明如何疑難排解這些問題。
+
+### 驗證連線
+
+若要驗證Adobe Experience Platform的認證和回應，請執行以下命令：
+
+```bash
+bin/magento audiences:config:status
+```
+
+此命令會傳回連線狀態。 新增`-v`旗標以提供額外的詳細資訊：
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+例如：
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### 設定中選取的驗證型別不正確
 
