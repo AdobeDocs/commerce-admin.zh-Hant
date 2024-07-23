@@ -4,9 +4,9 @@ description: 瞭解如何安裝 [!DNL Adobe Commerce B2B] 中繼套件。
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,12 @@ Adobe Commerce B2B擴充功能`magento/extension-b2b`適用於所有受支援的
 ## 需求
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html)，所有支援的版本
-- PHP 8.1 / 8.2 / 8.3
+- PHP 8.1和8.2
 - [!DNL Composer]
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 1.4.2+版與PHP 8.3不相容。如果您將Commerce執行個體升級至Commerce 2.4.7+版，請確定執行個體上安裝的PHP版本是PHP 8.2，以保持與B2B 1.4.2+的相容性。
 
 ## 支援平台
 
