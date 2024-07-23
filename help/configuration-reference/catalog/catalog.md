@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]'
 description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]頁面上的組態設定。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-目錄搜尋組態有兩個變體：安裝[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)時可用的設定，以及原生Adobe Commerce可用的設定。 請依照安裝說明操作。
+您可以使用[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)或Adobe Commerce支援的協力廠商搜尋引擎服務來設定目錄搜尋。 請依照安裝說明操作。
 
 ### 具有[!DNL Live Search]的Adobe Commerce
 
@@ -254,43 +254,40 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### Adobe Commerce與Elasticsearch
+### 協力廠商搜尋引擎
 
-具有Elasticsearch的原生Adobe Commerce包含下列組態設定：
-
-![目錄搜尋 — Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3、2.4.3-p2以及2.4.4和更新版本支援OpenSearch服務。 雲端基礎結構專案上的Adobe Commerce不支援Elasticsearch7.11和更新版本。 內部部署安裝仍支援Elasticsearch。
 
 >[!IMPORTANT]
 >
->由於Elasticsearch7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 鑑於Elasticsearch7於2023年8月宣佈終止支援，Adobe建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 2.4.6版開始支援Elasticsearch8.x時，建立了新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
+
+![目錄搜尋組態選項](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | 存放區檢視 | 目錄搜尋中允許的最小字元數。 針對此選項設定的值必須與Elasticsearch搜尋引擎設定中設定的對應範圍相容。 例如，如果您在Adobe Commerce中將此值設為`2`，請更新搜尋引擎中的值。 |
-| [!UICONTROL Maximum Query Length] | 存放區檢視 | 目錄搜尋中允許的最大字元數。 針對此選項設定的值必須與Elasticsearch搜尋引擎設定中設定的對應範圍相容。 例如，如果您在Adobe Commerce中將此值設為300，請更新搜尋引擎中的值。 |
+| [!UICONTROL Minimal Query Length] | 存放區檢視 | 目錄搜尋中允許的最小字元數。 針對此選項設定的值必須與OpenSearch或Elasticsearch組態中設定的對應範圍相容。 例如，如果您在Adobe Commerce中將此值設為`2`，您也必須更新搜尋引擎設定中的值。 預設值： `3` |
+| [!UICONTROL Maximum Query Length] | 存放區檢視 | 目錄搜尋中允許的最大字元數。 針對此選項設定的值必須與OpenSearch或Elasticsearch組態中設定的對應範圍相容。 例如，如果您在Adobe Commerce中將此值設為`300`，則必須更新搜尋引擎設定中的值。 預設值： `128` |
 | [!UICONTROL Number of top search results to cache] | 存放區檢視 | 快取以加快回應的熱門搜尋字詞和結果數目。 輸入值`0`會在第二次輸入時快取所有搜尋字詞和結果。 預設值： `100` |
-| [!UICONTROL Enable EAV Indexer] | 全域 | 決定您要啟用或停用「產品EAV」索引器。 此功能可提升索引速度，並限制第三方擴充功能不得使用索引器。 此選項僅針對Elasticsearch或Elasticsearch5.0+搜尋引擎顯示。 預設選項： `Yes`已啟用 |
+| [!UICONTROL Enable EAV Indexer] | 全域 | 決定是否啟用或停用「產品EAV」索引器。 此功能可提升索引速度，並限制第三方擴充功能不得使用索引器。 預設選項： `Yes`已啟用 |
 | [!UICONTROL Autocomplete Limit] | 存放區檢視 | 搜尋自動完成的搜尋欄位下方可顯示的最大搜尋查詢數。 限制此數量會提高搜尋效能，並降低顯示的清單大小。 預設值： `8` |
-| 搜尋引擎 | 全域 | 識別處理目錄資料請求所需的搜尋引擎。 所有Adobe Commerce安裝均需要Elasticsearch7.6.x。 選項： `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | 全域 | 指定Elasticsearch伺服器的名稱。 預設值： `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | 全域 | 指定Elasticsearch使用的伺服器連線埠數目。 預設值： `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | 全域 | 指派前置詞以識別Elasticsearch索引。 預設值： `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | 全域 | 如果啟用，在存取Elasticsearch伺服器之前，會使用HTTP驗證來提示使用者名稱和密碼。 選項： `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | 全域 | 當&#x200B;_啟用ElasticsearchHTTP驗證_&#x200B;設定為`Yes`時，指定ElasticsearchHTTP驗證的使用者名稱。 |
-| [!UICONTROL Elasticsearch HTTP Password] | 全域 | 當&#x200B;_啟用ElasticsearchHTTP驗證_&#x200B;設定為`Yes`時，會指定ElasticsearchHTTP驗證的密碼。 |
-| [!UICONTROL Elasticsearch Server Timeout] | 全域 | 決定伺服器逾時前的秒數。 預設值： `15` |
-| [!UICONTROL Test Connection] |  | 驗證Elasticsearch連線。 |
+| 搜尋引擎 | 全域 | 識別處理目錄資料請求所需的搜尋引擎。 OpenSearch和Elasticsearch的搜尋引擎組態選項相同。 選項： `OpenSearch`或`Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | 全域 | 指定OpenSearch或Elasticsearch主機伺服器的名稱。 |
+| [!UICONTROL OpenSearch Server Port] | 全域 | 指定OpenSearch或Elasticsearch使用的伺服器連線埠數目。 預設值： `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | 全域 | 指定前置詞以識別OpenSearch或Elasticsearch索引。 預設值： `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | 全域 | 如果啟用，在存取OpenSearch或Elasticsearch伺服器之前，會使用HTTP驗證提示使用者名稱和密碼。 選項： `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | 全域 | 當&#x200B;_啟用ElasticsearchHTTP驗證_&#x200B;設定為`Yes`時，指定OpenSearch或ElasticsearchHTTP驗證的使用者名稱。 |
+| [!UICONTROL OpenSearch HTTP Password] | 全域 | 當&#x200B;_啟用ElasticsearchHTTP驗證_&#x200B;設定為`Yes`時，指定OpenSearch或ElasticsearchHTTP驗證的密碼。 |
+| [!UICONTROL OpenSearch Server Timeout] | 全域 | 決定OpenSearch或Elasticsearch伺服器要求逾時前的秒數。 預設值： `15` |
+| [!UICONTROL Test Connection] |  | 驗證OpenSearch或Elasticsearch連線。 |
 | [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
 | [!UICONTROL Search Recommendations Count] | 存放區檢視 | 指定建議所提供的搜尋字詞數目。 依預設，不會顯示超過五個。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 存放區檢視 | 設定為`Yes`時，為建議的搜尋建議找到的產品數量會顯示在方括弧中。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 存放區檢視 | 決定是否顯示搜尋建議是否有常見的拼字錯誤。 啟用後，系統會針對未傳回任何結果且出現在&#x200B;**搜尋結果**&#x200B;頁面的`Did you mean`區段下的任何要求提供搜尋建議。 搜尋建議可能會影響搜尋效能。 設定為`Yes`時，針對「啟用搜尋Recommendations」和相關欄位會顯示其他選項。 選項： `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 存放區檢視 | 決定提供的搜尋建議數目。 例如： `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 存放區檢視 | 決定是否顯示每個建議的搜尋結果數目。 根據主題，數字通常出現在建議後的方括弧中。 選項： `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | 存放區檢視 | 指定一個值，該值對應於查詢中搜尋結果應相符才能傳回的字詞數。 這可確保為購物者帶來最佳結果相關性。 百分比值與數字相關，如有需要，會向下舍入，並做為查詢中相符字詞的最小數量。 該值可以是負整數或正整數、負或正百分比、兩者的組合或多個組合。 若要深入瞭解，請參閱Elasticsearch檔案中的[minimum_should_match引數](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html)。 |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | 存放區檢視 | 指定一個值，該值對應於查詢中搜尋結果應相符才能傳回的字詞數。 這可確保為購物者帶來最佳結果相關性。 百分比值與數字相關，如有需要，會向下舍入，並做為查詢中相符字詞的最小數量。 該值可以是負整數或正整數、負或正百分比、兩者的組合或多個組合。 若要深入瞭解，請參閱OpenSearch檔案中的[minimum_should_match引數](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)。 |
 
 ## [!UICONTROL Downloadable Product Options]
 
