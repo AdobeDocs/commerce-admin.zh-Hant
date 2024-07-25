@@ -3,16 +3,16 @@ title: 購物車持續性
 description: 瞭解持續性購物車如何追蹤未購買的購物車專案並儲存資訊，以供客戶下一次造訪。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
+source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
 
 # 購物車持續性
 
-永久性的購物車會追蹤購物車中未購買的專案，並儲存資訊。 此程式會確保在登入工作階段過期時，購物車的內容仍可存取。
+持續性的購物車會將客戶帳戶的參考資料儲存在目前裝置上，以確保在登入工作階段過期時，購物車內容仍可存取。
 
 如果客戶為&#x200B;_已記憶_，當登入工作階段過期時，其購物車的內容仍可在目前裝置上存取。 工作階段過期後，可使用永久購物車工作階段來存取客戶的購物車。 如果同一位客戶登入其他裝置或瀏覽器，將商品新增至購物車，然後以作用中的持續工作階段回到裝置，則其購物車會以新增的專案更新。
 
