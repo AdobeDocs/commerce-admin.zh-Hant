@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新](../assets/new.svg) — 已更新[Real-Time CDP對象儀表板](#real-time-cdp-audiences-dashboard)，以包含排序、搜尋和篩選Adobe Commerce執行個體中作用中對象的能力。
 
 +++
+
+### 2.3.0
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2024年7月29日_
+
+![新](../assets/new.svg) — 新增命令列語法，因此您可以[測試認證](#validate-the-connection)以判斷是否需要更新認證以從Adobe Experience Platform提取對象資料。
 
 ### 2.2.0
 
