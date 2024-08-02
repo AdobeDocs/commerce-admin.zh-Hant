@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
+source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
 workflow-type: tm+mt
-source-wordcount: '6904'
+source-wordcount: '6967'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ B2B v1.5.0 Beta版包含新功能、品質改善和錯誤修正。
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+目前不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 
 ## B2B v1.4.2
@@ -81,9 +81,13 @@ B2B v1.5.0 Beta版包含新功能、品質改善和錯誤修正。
 
 [!BADGE 支援]{type=Informative tooltip="支援"}
 
-B2B v1.4.2版本包含品質改良與錯誤修正
+B2B v1.4.2版本包含品質改良與錯誤修正。
 
 ![已修正問題](../assets/fix.svg) <!--B2B-2897-->如果賣方建立的買方報價包含在與買方公司關聯的共用目錄中不可用的產品SKU，則系統會顯示錯誤訊息`The SKU you entered is not available in the shared catalog. Please check the SKU and try again`。  除非賣家移除無法使用的產品，否則無法儲存報價。 之前，報價是以未提供的SKU儲存，且報價無法載入店面。
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+目前不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 ## B2B v1.4.1
 
