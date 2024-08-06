@@ -4,9 +4,9 @@ description: 瞭解如何為您的Adobe Commerce商店啟用B2B功能，包括�
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 0%
 B2B [!DNL Quick Order]和[!DNL Requisition List]功能可以獨立啟用和停用。
 
 ## 設定B2B功能
+
+只有已安裝[Adobe Commerce B2B擴充功能](install.md)的Commerce專案，才能使用設定Adobe Commerce B2B功能的選項。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
