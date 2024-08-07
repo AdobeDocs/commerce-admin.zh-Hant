@@ -1,274 +1,68 @@
 ---
 title: 啟用資產同步
-description: 「瞭解如何使用Assets規則引擎服務連線您的Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。」
+description: 瞭解如何連結Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。
 feature: CMS, Media
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
+source-git-commit: 508e9e1d23a4b6e70ada22e2a22c0dcd401393a9
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
 
-
-# 設定同步化服務
-
-資產規則引擎服務(ARES)是整合AEM Assets與Adobe Commerce的多租使用者服務。 此服務會在Adobe Commerce和Experience Manager之間同步資產。 ARES服務會根據SKU或其他關鍵屬性，自動比對AEM中的資產與Adobe Commerce中的產品。 它也能確保電子商務網站上一律可以使用最新的產品資產和變數。
-
-若要設定服務，您需要使用ARES GraphQL API註冊您的租使用者ID，並選取用於同步資產的相符規則。
-
-## 選擇比對策略
-
-適用於Commerce的AEM Assets整合支援在Adobe Commerce和AEM Assets之間同步資產的兩種比對策略。
-
-- **MatchBySku** — 此為預設比對規則，會根據產品的庫存單位(SKU)比對資產。 SKU是每個產品的唯一識別碼。 此規則會比對資產中繼資料中的SKU與Commerce產品SKU，以確保資產與正確的產品相關聯。
-
-- **ExternalMatcher** — 此比對規則適用於需要自訂比對邏輯的較複雜案例或特定業務需求。 若要使用此規則，您必須在Adobe Developer App Builder中實作自訂程式碼，以定義資產與產品的比對方式。
-
-對於初始入門，請使用`MatchBySku`策略。 如有需要，您稍後可以變更比對策略。
-
-## 註冊租使用者
+# 啟用資產同步
 
 >[!BEGINSHADEBOX]
 
-**先決條件**
+**必要條件**
 
-- [AEM Assets專案已設定對應資產所需的Commerce中繼資料](aem-assets-configure-aem.md)。
-
-- [在Adobe Commerce中安裝並設定Experience Manager Assets整合](aem-assets-configure-commerce.md)。
+- [設定AEM Experience Manager Assets以管理Commerce資產](#aem-assets-configure-aem)
+- [安裝並設定Commerce的AEM Assets整合](#aem-assets-configure-commerce.md)以新增擴充功能，並產生使用擴充功能所需的認證和連線。
 
 >[!ENDSHADEBOX]
 
-## 收集認證
+在此啟用流程中，您可為您的AEM編寫環境提供計畫和環境ID，以註冊您的租使用者ID。 這些ID可識別您連線的AEM Assets專案，並提供憑證，以啟用Commerce與AEM Assets之間的通訊和工作流程。
 
-您需要以下憑證來驗證並連線您的Commerce專案環境和AEM Assets專案環境與Commerce SaaS服務。
+識別AEM資產專案後，選取要用於在Adobe Commerce和AEM Assets之間同步資產的相符規則。
 
-| 必要資料 | Source | 在哪裡可以找到它 |
-| ---------- | ------ | ------------- |
-| 來自Magento帳戶的API金鑰 | Commerce | 提供您正在使用、測試或生產環境的Commerce環境的公開API金鑰。 您可以在[Commerce Service Connector設定](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)頁面的管理員頁面或[!UICONTROL My Account]頁面的[!UICONTROL API Portal]區段中，找到生產和中繼環境的API金鑰。 |
-| Commerce SaaS專案識別碼 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce管理員 | 這些值會識別要連線的Commerce環境和SaaS資料空間和專案。 值來自[Commerce服務聯結器SaaS識別碼組態](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)。 |
-| AEM `programId`和<br>`environmentId` | [AEM Assets製作環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | 開啟AEM Sites頁面，然後選取&#x200B;**[!UICONTROL Assets]**。  從URL複製專案和環境ID： <br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
-| 基底URL | Commerce店面 | 您的Commerce店面的[基底URL](../stores-purchase/store-urls.md)。 |
-| API存取的OAuth認證 | Commerce管理員 | 您可以在Assets整合的Commerce [組態設定](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)中找到這些認證。 |
+適用於Commerce的AEM Assets整合支援兩種相符規則，可在Adobe Commerce和AEM Assets之間同步資產。
 
-## 註冊租使用者
+- **依產品SKU比對** — 這是預設的比對規則，會根據產品的庫存單位(SKU)比對資產。 SKU是每個產品的唯一識別碼。 此規則會比對資產中繼資料中的SKU與Commerce產品SKU，以確保資產與正確的產品相關聯。
 
-透過向Assets規則引擎服務提交請求以新增驗證憑證和租使用者ID，以完成租使用者註冊。 此請求包含建立服務、Commerce專案和Experience Manager Assets專案之間連線所需的憑證和專案識別碼。
+- **自訂比對** — 此比對規則適用於需要自訂比對邏輯的較複雜案例或特定業務需求。 若要使用此規則，您必須在Adobe Developer App Builder中實作自訂程式碼，以定義資產與產品的比對方式。 即將推出更多詳細資料……
 
-使用GraphQL使用者端或cURL傳送請求。
+對於初始上線，請使用預設`Match by product sku`規則。 如有需要，您稍後可以變更相符規則。
 
->[!BEGINTABS]
+## 啟用整合
 
->[!TAB GraphQL要求]
+1. 取得您[AEM Assets編寫環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)的專案和環境識別碼。
 
-使用GraphQL使用者端傳送POST要求至API端點`https://commerce.adobe.io/assets-integration/graphql`
+   1. 開啟AEM Sites主控台，然後選取&#x200B;**[!UICONTROL Assets]**。
 
-**必要的標頭**
+   1. 從URL複製並儲存專案和環境ID：<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
 
-為請求指定以下HTTP標頭：
+1. 從「Commerce管理員」開啟AEM Assets整合設定。
 
-- `x-api-key`：來自您Magento帳戶的API金鑰
-- `magento-environment-Id`： SaaS識別碼
-- `x-gw-signature`：與MAGEID關聯的JWT權杖
+   1. 選取「**[!UICONTROL Store]**」>「組態」>「**[!UICONTROL CATALOG]**」>「**[!UICONTROL Catalog]**」。
 
-**要求：**
+   1. 展開&#x200B;**[!UICONTROL Experience Manager Assets integration]**。
 
-**語法**
+      ![AEM Assets整合啟用整合](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
 
-```graphql
-mutation registerTenant($tenantInput: TenantInput!) {
-   registerTenant(tenantInput: $tenantInput) {
-      tenantId
-      userErrors {
-         message
-         path
-      }
-    }
-}
-```
+1. 輸入&#x200B;**[!UICONTROL Program ID]**&#x200B;和&#x200B;**[!UICONTROL Environment ID]**&#x200B;以識別要連線的Experience Manager Assets專案。
 
-**範例使用方式**
+1. 新增OAUTH認證以驗證Adobe Commerce與ARES服務之間的API要求，方法是選取&#x200B;**[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)**，例如`Assets integration`。
 
-註冊租使用者並選取`matchBySku`規則，以便在Adobe Commerce和AEM Assets專案之間對應資產。
+1. 將&#x200B;**[!UICONTROL Enable integration]**&#x200B;設定為`Yes`，允許Commerce接受來自AEM Assets的傳入更新。
 
-**要求：**
+   啟用整合後，您可以設定資產比對規則。
 
-```graphql
-   {
-      "tenantInput": {
-         "enabled": true,
-         "projectId": "8231afb6-90cd-65e8-84ba-d9abac0f94e6",
-         "aem": {
-               "programId": "11111",
-               "environmentId": "222222"
-         },
-         "commerce": {
-               "baseUrl": "***",
-               "credentials": {
-                  "consumerKey": "***",
-                  "consumerSecret": "***",
-                  "accessToken": "***",
-                  "accessTokenSecret": "***"
-               }
-         },
-         "rule": {
-            "type": "matchBySKU"
-            "matchBySkuRule": {
-               "metadataField": "commerce:skus"
-            }
-         }
-      }
-   }
-```
+   ![AEM Assets整合選取資產比對規則](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
-**回應**
+1. 定義資產同步的比對規則。
 
-```graphql
-{
-    "data": {
-        "registerTenant": {
-            "tenantId": "b65d5da7-2756-46a1-9ff1-14fb5d925fee",
-            "userErrors": []
-        }
-    }
-}
-```
+   1. 選取&#x200B;**[!UICONTROL Match by product SKU]**。
 
->[!TAB cURL要求]
+   1. 新增在&#x200B;**[!UICONTROL Match by product SKU attribute name]**&#x200B;欄位（例如`commerce:skus`）中為AEM Assets產品SKU定義的[Commerce中繼資料欄位名稱](aem-assets-configure-aem.md#configure-metadata)。
 
-```shell
-curl --request POST \
-  --url https://commerce.adobe.io/assets-integration/graphql \
-  --header 'Content-Type: application/json' \
-  --header 'Magento-Environment-Id: ****' \
-  --header 'x-api-key: ****' \
-  --header 'x-gw-signature: *****' \
-  --data '{"query":"mutation registerTenant($tenantInput: TenantInput!) {\n\tregisterTenant(tenantInput: $tenantInput) {\n\t\ttenantId\n\t\tuserErrors {\n\t\t\tmessage\n\t\t\tpath\n\t\t}\n\t}\n}\n","operationName":"registerTenant","variables":{"tenantInput":{"enabled":true,"threshold":100,"projectId":"5d6faa03-e200-4623-9008-da144e4eefd8","aem":{"programId":"***","environmentId":"***"},"commerce":{"version":"2.4.6-p2","extensionVersion":"0.0.1","baseUrl":"***","credentials":{"consumerKey":"***","consumerSecret":"***","accessToken":"***","accessTokenSecret":"***"}},"rule":{"type":"matchBySKU","matchBySkuRule":{"metadataField":"commerce:skus"}}}}}'
-```
-
->[!ENDTABS]
-
-### 輸入欄位
-
-#### AemInput
-
-識別用於儲存Commerce資產的AEM Assets執行個體。 您可以從Cloud Manager的「我的程式」檢視或內容製作URL取得此資訊。
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| `programId` | 字串！ | AEM Cloud Service中專案的唯一識別碼 |
-| `environmentId` | 字串！ | 您正在使用的專案環境識別碼，例如，生產、測試或開發 |
-
-#### 商務輸入
-
-此輸入欄位提供用於存取Commerce目錄的API的OAuth驗證認證。 您可以在Assets整合的Commerce [組態設定](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)中找到這些認證。
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| `baseUrl` | 字串 | 您的Commerce店面的[基底URL](../stores-purchase/store-urls.md)。 |
-| `credentials` | [CommerceCredentialsInput](#commercecredentialsinput)！ | 指定存取Commerce執行個體的認證。 |
-| `extensionVersion` | 字串 | 選填。 安裝在AEM Assets執行個體上，適用於Commerce擴充功能的Commerce整合版本。 |
-| `version` | 字串 | 選填。 Commerce執行個體上安裝的Commerce應用程式版本。 |
-
-#### CommerceCredentialsInput
-
-此輸入欄位提供用於存取Commerce目錄的API的OAuth認證。 您可以在Assets整合的Commerce [組態設定](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)中找到這些認證。
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| `accessToken` | 字串！ | 為Assets整合產生的存取權杖。 |
-| `accessTokenSecret` | 字串！ | 為Assets整合產生的存取權杖密碼。 |
-| `consumerKey` | 字串！ | 為Assets整合產生的消費者金鑰。 |
-| `consumerSecret` | 字串！ | 為Assets整合產生的消費者機密。 |
-
-#### ExternalMatcherInput
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| assetToProductUrl | 字串！ | <!--Add field description--> |
-| productToAssetUrl | 字串！ | <!--Add field description--> |
-| 認證 | [ExternalMatcherCredentialsInput](#externalmatchercredentials)！ | 用於存取App Builder專案，以進行Commerce的AEM Assets整合的認證。 |
-
-#### ExternalMatcherCredentials
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| `oauthServerUrl` | 字串！ |    |
-| `clientId` | 字串！ |      |
-| `clientSecret` | 字串！ |    |
-| `imsOrgId` | 字串！ | 布建AEM Assets和Adobe Commerce的IMS組織。 |
-
-#### MatchBySkuRuleInput
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| metadataField | 字串！ | 指定用於比對的資產中繼資料欄位。 使用`commerce:skus` |
-
-#### 規則輸入
-
-指定用於在Adobe Commerce和AEM Assets之間同步資產的比對規則。
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| externalMatcher | [ExternalMatcherInput](#externalmatcherinput) | 選取externalMatcher規則以進行資產比對，並指定使用該規則所需的資料。 |
-| MatchBySkuRule | [MatchBySkuRuleInput](#matchbyskuruleinput) | 選取MatchBySkuRule以進行資產比對，並指定使用該比對所需的資料。 |
-
-#### RuleTypeInput
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| 規則型別 | 列舉 | 指定可用於Commerce的AEM Assets整合的資產比對規則清單。 可用的值為`matchBySKU`或`externalMatcher`。 |
-
-#### TenantInput
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| `aem` | [AemInput！](#aeminput) | 在AEM Cloud Service中識別您儲存AEM Assets資產的Commerce執行個體。 |
-| `commerce` | [商務輸入！](#commerceinput) | 提供Commerce專案資訊和API存取認證 |
-| `enabled` | 布林值！ | 啟用或停用Adobe Commerce與AEM Assets之間的資產同步。 |
-| `projectId` | 字串！ | 來自[Commerce服務聯結器SaaS識別碼組態](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)的SaaS專案Id。 |
-| `rule` | [規則輸入！](#ruleinput) | 指定用於在Adobe Commerce和AEM Assets之間同步資產的比對規則。 指定`[matchBySkuRule](#matchbyskuruleinput)`或`[externalMatcher](#externalmatcherinput)`。 |
-
-### 輸出欄位
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| 資料 | [registerTenant] | 傳回租使用者註冊資訊和來自伺服器的任何錯誤訊息。 |
-
-#### RegisterTenantResponse
-
-| 欄位 | 資料型別 | 說明 |
-| ----- | --------- | ----------- |
-| tenantId | 字串！ | 傳回已註冊的租使用者ID。 此ID可確保從與Commerce環境相關聯的SaaS資料空間中，儲存及擷取Commerce適用的AEM Assets整合資料。 |
-| userError | [[使用者錯誤！]！](#usererror) | 傳回要求產生的任何錯誤訊息。 |
-
-#### 使用者錯誤
-
-| 錯誤 | 說明 |
-|:------|:------------|
-| `IMS Org ID not associated to this Commerce` | 如果未將`Magento-Environment-Id`標頭中指定的環境ID指派給IMS帳戶，則會發生此錯誤。 發生此錯誤的原因可能是，為Commerce執行個體設定[Commerce服務聯結器](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)時，IMS帳戶未連線。 |
-| `Client ID is invalid` | `x-api-key`標頭不正確。 |
-| `Client ID is missing` | 未提供`x-api-key`標頭。 |
-| `JWT is required` | 未提供`x-gw-signature`標頭。 |
-| `JWT is invalid` | 未提供`x-gw-signature`標頭。 |
-| `Tenant already exists` | 具有特定`mageID` （取自JWT權杖）和`saasId` （由`Magento-Environment-Id`標頭提供）的租使用者已註冊。 |
-| `Unexpected error when connecting with AEM Assets` | 發生此錯誤的原因是`programId`或`environmentId`值無效或不存在。 |
-| `Unable to connect with AEM Assets` | 這個錯誤有兩個可能的原因：<br>1。 AEM資產帳戶與Adobe Commerce所提供的IMS組織ID不同，而是與該IMS組織ID相關聯。<br>2。 `commerce:isCommerce`中繼資料不存在於AEM Assets中，這表示沒有任何核准的資產可從AEM Assets傳送至Commerce執行個體。 |
-| `Unexpected error when connecting with Commerce` | 當提供無效的商務`baseURL`時，就會發生此錯誤。 |
-| `Unable to connect with Commerce, unauthorized` | 提供的商務認證無效，導致未獲授權的存取。 |
-| `Invalid rule. The value must be matchBySKU or externalMatcher` | `Rule`欄位包含不正確的值。 對於RegisterTenant要求，可用的規則型別由[RuleTypeInput](#ruletypeinput)列舉定義。 |
-
-## 啟用Experience Manager Assets整合
-
-註冊租使用者後，上線流程的最後一步是在管理員中啟用Commerce適用的Experience Manager Assets整合擴充功能。
-
-1. 啟用擴充功能。
-
-   1. 移至&#x200B;**商店** >設定> **設定** > **目錄**。
-
-   1. 選取&#x200B;**[!UICONTROL Catalog]**&#x200B;以開啟目錄組態。
-
-   1. 展開&#x200B;**[!UICONTROL AEM Assets integration]**。
-
-   1. 將&#x200B;**[!UICONTROL Integration enabled]**&#x200B;設為`yes`。
-
-      適用於Commerce管理員設定的![AEM Assets整合](assets/aem-integration-admin-enable.png){width="600" zoomable="yes"}
+1. 套用組態並透過選取&#x200B;**[!UICONTROL Save Config]**&#x200B;來啟動同步處理作業。
