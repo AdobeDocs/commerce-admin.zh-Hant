@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 商家檔案
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 | **新主題** — 已將[轉移Commerce帳戶](../getting-started/commerce-account-transfer.md)主題新增至&#x200B;_快速入門手冊_。 | 新增 | 02/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x檔案
-
-[Adobe Commerce 2.3使用手冊](https://docs.magento.com/user-guide/v2.3/)仍可在`docs.magento.com`網域上供簽署延長支援合約的Adobe Commerce 2.3客戶使用。
