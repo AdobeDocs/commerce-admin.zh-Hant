@@ -1,11 +1,11 @@
 ---
-title: 安裝及設定Experience Manager Assets整合
-description: 瞭解如何安裝和設定 [!DNL AEM Assets Integration for Adobe Commerce]
+title: 安裝和設定Experience Manager Assets整合
+description: 瞭解如何在Adobe Commerce執行個體上安裝及設定 [!DNL AEM Assets Integration for Adobe Commerce] 。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
+source-git-commit: c9dd925faf8396251a79b8326b11187ede61d2a7
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-將擴充功能新增至AEM Assets應用程式、連線至Commerce SaaS服務、電子Adobe I/O事件服務，以及連線至Commerce SaaS，以安裝和設定Commerce的Commerce整合。
+透過安裝`aem-assets-integration` PHP擴充功能，準備您的Commerce環境以使用Commerce的AEM Assets整合。 然後，更新管理員設定，以啟用Adobe Commerce與AEM Assets之間的通訊和工作流程。
 
 ## 系統需求
+
+適用於Commerce的AEM Assets整合有下列系統和設定需求。
 
 **軟體需求**
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 完成下列工作以啟用整合：
 
 1. [安裝AEM Assets Integration擴充功能(`aem-assets-integration`)](#install-the-aem-assets-integration-extension)。
-1. [設定Commerce Service Connector](#configure-the-commerce-services-connector)，將您的Adobe Commerce執行個體與可讓資料在Adobe Commerce和AEM Assets之間傳輸的服務連線。
+1. [設定Commerce Services聯結器](#configure-the-commerce-services-connector)，以連線您的Adobe Commerce執行個體，並使用可在Adobe Commerce和AEM Assets之間傳輸資料的服務。
 1. [設定Commerce的Adobe I/O事件](#configure-adobe-io-events-for-commerce)
 1. [取得API存取的驗證認證](#get-authentication-credentials-for-api-access)
 
@@ -46,13 +48,15 @@ ht-degree: 0%
 
 **先決條件**
 
-- 存取[repo.magento.com](https://repo.magento.com/admin/dashboard)以安裝擴充功能。 如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+- 存取[repo.magento.com](https://repo.magento.com/admin/dashboard)以安裝擴充功能。
+
+  如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - 存取Adobe Commerce應用程式伺服器的命令列。
 
 >[!ENDSHADEBOX]
 
-在執行AEM Assets 2.4.4或更新版本的Adobe Commerce上安裝最新版本的Adobe Commerce整合擴充功能(`aem-assets-integration`)。 AEM Asset Integration是以Composer中繼資料的形式從[repo.magento.com](https://repo.magento.com/admin/dashboard)存放庫提供。
+在具有AEM Assets 2.4.5+版本的Adobe Commerce執行個體上安裝最新版本的Adobe Commerce整合擴充功能(`aem-assets-integration`)。 AEM Asset Integration是以Composer中繼資料的形式從[repo.magento.com](https://repo.magento.com/admin/dashboard)存放庫提供。
 
 >[!BEGINTABS]
 
@@ -124,9 +128,9 @@ ht-degree: 0%
    bin/magento cache:clean
    ```
 
-   >[!TIP]
-   >
-   >在某些情況下，特別是部署到生產時，您可能希望避免清除編譯的程式碼，因為可能需要一些時間。 在進行任何變更之前，請務必先備份系統。
+>[!TIP]
+>
+>部署到生產環境時，請考慮不清除已編譯的程式碼以節省時間。 進行變更前，請務必備份您的系統。
 
 >[!ENDTABS]
 
@@ -162,81 +166,29 @@ AEM Assets整合使用Adobe I/O事件服務，在Commerce執行個體和Experien
    - [內部部署Adobe Commerce的RabbitMQ設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - 在雲端基礎結構上為Adobe Commerce [RabbitMQ設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
 
+- 針對Commerce 2.4.5版上的專案，您必須[安裝Adobe I/O模組](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)。 在Commerce 2.4.6+版中，這些模組會自動載入。
+
 >[!ENDSHADEBOX]
-
->[!NOTE]
->
->如需CommerceAdobe I/O事件的詳細資訊，請參閱Adobe Developer網站上的[CommerceAdobe I/O事件](https://developer.adobe.com/commerce/extensibility/events/)檔案。
-
-設定需要下列步驟。
-
-1. 在應用程式伺服器上和「管理員」中設定Adobe I/O事件，以啟用Commerce事件架構。
-1. 使用Adobe Commerce規則引擎服務API來設定連線，以啟用Assets與AEM Assets之間的資料同步。
-1. 在「管理員」中啟用AEM Assets整合。
 
 ### 啟用Commerce事件架構
 
-使用部署Commerce專案的環境指示，啟用Commerce事件架構。
+從Commerce管理員啟用事件架構。
 
->[!BEGINTABS]
+1. 從Admin移至&#x200B;**[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O事件**。
 
->[!TAB 雲端基礎結構]
+1. 展開&#x200B;**[!UICONTROL Commerce events]**。
 
-1. 從[!DNL Store Settings Configuration]功能表啟用Adobe I/O事件服務。
+1. 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-   1. 從Admin移至&#x200B;**[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O事件**。
+   ![Adobe I/O事件Commerce管理設定 — 啟用Commerce事件](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   1. 展開&#x200B;**[!UICONTROL Commerce events]**。
-
-   1. 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
-
-      ![Adobe I/O事件Commerce管理設定 — 啟用Commerce事件](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >[啟用cron](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)，讓Commerce可以傳送事件至API端點，以管理整合的通訊和工作流程。
-
-1. 更新雲端專案設定。
-
-   1. 將`app/etc/config.php`檔案新增至您的工作存放庫：
-
-   ```shell
-   git add app/etc/config.php
-   ```
-
-   1. 執行`composer info magento/ece-tools`命令以決定您的ece-tools版本。 如果版本小於`2002.1.13`，請[更新至最新版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
-
-   1. 在`.magento.env.yaml`檔案中啟用事件：
-
-      ```yaml
-      stage:
-         global:
-            ENABLE_EVENTING: true
-      ```
-
-   1. 提交更新檔案並將其推播到雲端環境。
-
->[!TAB 內部部署]
-
-1. 從[!DNL Store Settings Configuration]功能表啟用Adobe I/O事件服務。
-
-   1. 從Admin移至&#x200B;**[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O事件**。
-
-   1. 展開&#x200B;**[!UICONTROL Commerce events]**。
-
-   1. 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
-
-      ![Adobe I/O事件Commerce管理設定 — 啟用Commerce事件](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >[啟用cron工作](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)，讓Commerce可以傳送事件來管理AEM資產與Commerce之間的通訊和工作流程。
-
->[!ENDTABS]
+   >[!NOTE]
+   >
+   >確認[cron工作已啟用](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 Commerce需要Cron工作，才能管理AEM Assets與Commerce之間的通訊和工作流程。
 
 ## 取得API存取的驗證認證
 
-Commerce的AEM Assets整合需要OAuth驗證認證，才能允許API存取Commerce執行個體。 您需要這些認證，才能在租使用者上線期間向Commerce規則引擎服務註冊Assets專案，並提交API請求以管理Adobe Commerce與AEM Assets之間的資產。
+Commerce的AEM Assets整合需要OAuth驗證認證，才能允許API存取Commerce執行個體。 使用AEM Assets整合管理資產時，需要這些憑證才能驗證API請求。
 
 您可以將整合新增至Commerce執行個體並加以啟用，以產生憑證。
 
@@ -257,10 +209,10 @@ Commerce的AEM Assets整合需要OAuth驗證認證，才能允許API存取Commer
 1. 設定API資源。
 
    1. 從左側面板，按一下&#x200B;**[!UICONTROL API]**。
-E
+
    1. 選取外部媒體資源&#x200B;**[!UICONTROL Catalog > Inventory > Products > External Media]**。
 
-   API資源的![管理員整合設定](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+      API資源的![管理員整合設定](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -272,12 +224,13 @@ E
 
    ![啟動Assets整合的Commerce設定](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
-1. 儲存消費者金鑰的認證和存取權杖以供稍後使用。
+1. 如果您打算使用API，請儲存消費者金鑰的認證和存取Token ，以在API使用者端中設定驗證。
 
-![驗證API要求的OAuth認證](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
+   ![驗證API要求的OAuth認證](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
 1. 按一下&#x200B;**[!UICONTROL Done]**。
 
 >[!NOTE]
 >
 >您也可以使用Adobe Commerce API產生驗證認證。 如需此程式的詳細資訊，以及Adobe Commerce的OAuth型驗證詳細資訊，請參閱Adobe Developer檔案中的[OAuth型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
+
