@@ -3,9 +3,9 @@ title: 已分組的產品
 description: 瞭解如何建立包含簡單獨立產品（以群組呈現）的群組產品。
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ ht-degree: 0%
 ## 注意事項
 
 - 群組產品基本上是簡單關聯產品的集合。
+
+- 同時從所有網站、商店和商店檢視的分組產品&#x200B;**_全域_**&#x200B;中，指派和取消指派所有子產品。
 
 - 分組的子產品可以是簡單、可下載或虛擬產品&#x200B;**[!UICONTROL without custom options]**。
 

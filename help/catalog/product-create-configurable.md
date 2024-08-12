@@ -3,9 +3,9 @@ title: 可設定的產品
 description: 瞭解如何建立可設定的產品，為購物者提供各種選擇。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 - 可設定產品的[庫存狀態](../inventory-management/sources-stocks.md)是半手動控制的設定。 它與簡單產品的庫存狀態不同，在這種庫存狀態中，它是產品可用性的直接表示。 對於可設定產品，庫存狀態是多條件庫存狀態計算的一部分。
 
 - 可設定的子產品可以是簡單或虛擬產品&#x200B;**，但沒有自訂選項**。 若要讓自訂子產品成為虛擬，您必須為每個子產品的&#x200B;**[!UICONTROL Weight]**&#x200B;設定選取`Тhis item has no weight`。
+
+- 所有子產品會同時從所有網站、商店和商店檢視的可設定產品&#x200B;**_全域_**&#x200B;中指派和取消指派。
 
 - 可設定的產品在目錄中並沒有自己的價格。 可設定的產品價格衍生自其[!UICONTROL In Stock]子產品。
 
