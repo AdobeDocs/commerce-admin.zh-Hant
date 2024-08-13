@@ -4,7 +4,7 @@ description: 瞭解雙因素驗證支援，以確保您的系統和資料的安�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
    若要選取多個方法，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
-1. 完成每個必要2FA方法的設定。
+1. 為每個必要的2FA方法完成[設定](../configuration-reference/security/2fa.md)。
 
    ![安全性組態 — 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 

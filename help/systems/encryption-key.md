@@ -4,9 +4,9 @@ description: 瞭解如何自動產生或新增您自己的加密金鑰；您應�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他敏感資料。 產業標準[!DNL ChaCha20-Poly1305]演演算法搭配256位元金鑰使用，以加密所有需要加密的資料。 這包括信用卡資料和整合（付款和運送模組）密碼。 此外，強式安全雜湊演演算法(SHA-256)可用來雜湊所有不需要解密的資料。
 
-初始安裝期間，系統會提示您讓Commerce產生加密金鑰，或輸入您自己的金鑰。 加密金鑰工具可讓您視需要變更金鑰。 應定期變更加密金鑰以提高安全性，並且隨時可能危及原始金鑰。 每當金鑰變更時，所有舊資料都會使用新金鑰重新編碼。
+初始安裝期間，系統會提示您讓Commerce產生加密金鑰，或輸入您自己的金鑰。 加密金鑰工具可讓您視需要變更金鑰。 應定期變更加密金鑰以提高安全性，並且隨時可能危及原始金鑰。
 
 如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[進階內部部署](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)。
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL 2FA]'
 description: 檢閱Commerce管理員的[!UICONTROL Security] &amp；gt； [!UICONTROL 2FA]頁面上的組態設定。
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | 全域 | 指示您需要的雙因素驗證方法。 如果您選取多個提供者，則每個使用者在下次登入時都必須設定每個2FA方法。 |
 | [!UICONTROL Configuration Email URL for Web API] | 全域 | 對於自訂實作，在第一次登入時傳送給&#x200B;_管理員_&#x200B;使用者的備用電子郵件設定連結的URL。 在電子郵件範本中，使用預留位置`:tfat`來指示代號插入的位置。 |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | 全域 | 決定在暫時停用帳戶之前，系統管理員可以輸入[!DNL one-time password (OTP)]的次數。 預設： `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | 全域 | 決定管理員在其帳戶暫時停用之前可以等待多久輸入[!DNL one-time password (OTP)] （以秒為單位）。 預設： `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | 全域 | 決定系統接受管理員的一次性密碼(OTP)過期後的時間（秒）。 不能超過單一OTP的存留期（通常為30秒）。 預設： `29` |
+| [!UICONTROL OTP Window] | 全域 | 決定系統接受管理員[!DNL one-time-password (OTP)]過期後的時間（秒）。 不能超過單一OTP的存留期（通常為30秒）。 預設： `29` |
 
 {style="table-layout:auto"}
 
