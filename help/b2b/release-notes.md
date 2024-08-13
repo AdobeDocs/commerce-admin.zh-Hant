@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
+source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
 workflow-type: tm+mt
-source-wordcount: '6967'
+source-wordcount: '7033'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,20 @@ B2B v1.5.0 Beta版包含新功能、品質改善和錯誤修正。
 ![已修正問題](../assets/fix.svg) <!--ACP2E-1825-->公司遭到封鎖後，與公司相關聯的使用者無法再下採購單。 以前，與公司相關聯的使用者可以在公司遭到封鎖時下訂單。
 
 ![已修正問題](../assets/fix.svg)<!--ACP2E-1933-->公司管理員現在可以從店面新增公司使用者。 以前，當管理員使用者嘗試新增使用者時，Commerce會記錄錯誤： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
+
+## B2B v1.4.2-p2
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新](../assets/new.svg)已新增與Adobe Commerce 2.4.7-p2+和2.4.6-p7+安全性修補程式版本的相容性。 B2B 1.4.2-p2版本不會
+支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。
+
+
+https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation：
 
 ## B2B v1.4.2-p1
 
