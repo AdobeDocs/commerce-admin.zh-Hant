@@ -3,9 +3,9 @@ title: 屬性集
 description: 瞭解如何將屬性組織成群組，群組會決定屬性在產品記錄中的顯示位置。
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    - 頁面中央會列出目前選擇的屬性群組。
    - 右欄列出目前未指派給屬性集的屬性選擇。
 
-1. 若要將屬性新增至集合，請將屬性從&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;清單拖曳至&#x200B;**[!UICONTROL Groups]**&#x200B;欄中的適當資料夾。
+1. 若要將屬性新增至集合，請將屬性從&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;清單拖曳至&#x200B;**[!UICONTROL Groups]**&#x200B;欄中的適當資料夾。 若要從集合中移除屬性，請將其拖曳至&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;清單。
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 建立屬性群組
 
-1. 在&#x200B;_[!UICONTROL Groups]_欄中按一下屬性集&#x200B;**[!UICONTROL Add New]**。
+1. 在屬性集的&#x200B;_[!UICONTROL Groups]_欄中，按一下&#x200B;**[!UICONTROL Add New]**。
 
 1. 輸入新群組的&#x200B;**[!UICONTROL Name]**，然後按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -58,6 +58,7 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Unassigned Attributes]**&#x200B;拖曳到新群組。
    - 將屬性從任何其他群組拖曳至新群組。
+   - 拖曳不必要的屬性至&#x200B;**[!UICONTROL Unassigned Attributes]**。
 
    新群組會成為任何以屬性集為基礎之產品中的屬性區段。
 
