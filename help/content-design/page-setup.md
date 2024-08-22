@@ -2,9 +2,9 @@
 title: 頁面設定
 description: 瞭解如何設定商店頁面主要部分的預設值。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ ht-degree: 0%
    - **[!UICONTROL Default Meta Keywords]**
 
 1. 視需要輸入任何&#x200B;**[!UICONTROL Scripts and Style Sheets]**。
+
+   >[!NOTE]
+   >
+   >在[!UICONTROL Scripts and Style Sheets]欄位中輸入的所有JavaScript都必須在內容安全性原則(CSP)設定中列入白名單，否則不會在「結帳」頁面上執行。 如需詳細資訊，請參閱[內容安全性原則](https://developer.adobe.com/commerce/php/development/security/content-security-policies)。
+
 
 1. 視需要啟用或停用[示範存放區通知](../getting-started/storefront-branding.md#set-the-store-demo-notice)。
 
@@ -118,6 +123,10 @@ Header設定可識別您商店標誌的路徑，並指定標誌替代文字和�
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL Footer]**&#x200B;區段。
 
 1. 進行&#x200B;**[!UICONTROL Copyright]**&#x200B;和&#x200B;**[!UICONTROL Miscellaneous HTML]**&#x200B;設定所需的任何變更。
+
+   >[!NOTE]
+   >
+   >在[!UICONTROL Miscellaneous HTML]欄位中輸入的所有JavaScript都必須在內容安全性原則(CSP)設定中列入白名單，否則不會在「結帳」頁面上執行。 如需詳細資訊，請參閱[內容安全性原則](https://developer.adobe.com/commerce/php/development/security/content-security-policies)。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Configuration]**。
 
