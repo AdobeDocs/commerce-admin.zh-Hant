@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL RSS Feeds]'
 description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL RSS Feeds]頁面上的組態設定。
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 239295ada2bdb3b94d9654b960a31ad8e102f93e
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 | [!UICONTROL Enable RSS] | 存放區檢視 | 讓客戶可以從商店接收RSS摘要。 |
 
 {style="table-layout:auto"}
+
+如需如何在啟用RSS摘要後使用這些摘要的詳細資訊，請參閱[社群媒體和RSS摘要](../../merchandising-promotions/social-rss.md)。
 
 ## [!UICONTROL Wish List]
 
