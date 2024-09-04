@@ -3,9 +3,9 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則會逐一套用至相符的產品。
+   >具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 若要控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
 
 1. 若要將規則套用至已發佈的[RSS摘要](social-rss.md#rss-feeds)，請將RSS摘要&#x200B;**中的** Public設定為`Yes`。
 
