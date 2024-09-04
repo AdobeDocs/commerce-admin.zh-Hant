@@ -3,9 +3,9 @@ title: 型錄價格規則的排程變更
 description: 瞭解如何依排程套用目錄價格規則，作為行銷活動的一部分並與其他內容變更分組。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 0%
 1. 在頁面頂端的&#x200B;**[!UICONTROL Scheduled Changes]**&#x200B;方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 進行排程更新所需的任何變更。
+
+   >[!NOTE]
+   >
+   >如果行銷活動連結到多個目錄價格規則，則只能從[內容測試儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

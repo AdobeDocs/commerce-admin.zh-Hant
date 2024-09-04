@@ -3,9 +3,9 @@ title: 購物車價格規則的排程變更
 description: 瞭解如何在行銷活動中依排程套用購物車價格規則，並搭配其他內容變更分組。
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 >所有排定的更新都會連續套用。 這表示任何實體在某個時間點只能有一個排程更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的不同排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
 
 如果在相同促銷活動中執行多個價格規則，則價格規則的&#x200B;_[!UICONTROL Priority]_設定會決定哪一個規則優先。 若要深入瞭解，請參閱[內容暫存](../content-design/content-staging.md)。
+
+>[!NOTE]
+>
+>如果行銷活動連結到多個購物車價格規則，則只能從[內容測試儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
 
 請記住下列警告：
 

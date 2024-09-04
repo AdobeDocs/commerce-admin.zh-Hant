@@ -3,9 +3,9 @@ title: 頁面工作區控制項
 description: 瞭解用於尋找和更新內容頁面的工作區工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ _[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特
 {{ee-feature}}
 
 頁面變更可以依排程套用，並和其他內容變更一起分組。 您可以根據排程變更至頁面來建立行銷活動，或將變更套用至現有的行銷活動。 如需詳細資訊，請參閱[內容暫存](content-staging.md)。
+
+>[!NOTE]
+>
+>如果行銷活動連結到多個頁面，則只能從[內容中繼儀表板](content-staging-dashboard.md)編輯行銷活動。
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: 類別的已排程變更
 description: 瞭解如何排程類別變更以支援行銷活動和商店促銷活動。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ ht-degree: 0%
 1. 對排程更新進行必要的變更。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
+
+   >[!NOTE]
+   >
+   >如果行銷活動連結到多個類別，則只能從[內容中繼儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。

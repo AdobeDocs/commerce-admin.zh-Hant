@@ -3,9 +3,9 @@ title: 排程的產品更新
 description: 瞭解如何排程產品清單變更，以支援行銷活動和促銷方案。
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ ht-degree: 0%
 1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 進行排程更新所需的任何變更。
+
+>[!NOTE]
+>
+>如果行銷活動連結到多個產品，則只能從[內容測試儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
