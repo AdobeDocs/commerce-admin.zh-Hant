@@ -3,9 +3,9 @@ title: 公司的採購單
 description: 瞭解可讓公司追蹤及控制支出的採購單工作流程。
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
   >依預設，即使未設定核准規則，也會一律對公司使用者顯示`Purchase order has been submitted for approval`訊息。 當不需要核准流程時，公司使用者會自動收到電子郵件，通知他們訂單已建立且已核准。
 
 - 如果核准規則由公司管理員定義，則使用者會進行核准流程。
+- 如果採購單套用多個核准規則，則所有唯一的必要核准者都必須核准它。
 - 建立採購單時輸入離線付款明細。
 - 線上付款明細是在核准採購單之後輸入。
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 - 超過$1000的任何訂單都需要經理和公司管理員的核准。
 - 任何具有超過30個唯一SKU的訂單都需要公司管理員的核准。
 
-有了適用於公司的這些規則，公司使用者可以在訂單少於$100時立即完成訂單。 若要瞭解核准規則定義，請參閱[核准規則](account-dashboard-approval-rules.md)
+有了適用於公司的這些規則，公司使用者可以在訂單少於$100時立即完成訂單。 若要瞭解核准規則定義，請參閱[核准規則](account-dashboard-approval-rules.md)。
 
 ### 商店使用者的型別
 
