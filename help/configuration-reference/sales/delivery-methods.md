@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Delivery Methods]頁面上的組態設定。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | 存放區檢視 | 指定United Parcel Service帳戶為即時狀態。 選項： `Yes` / `No` |
 | [!UICONTROL Title] | 存放區檢視 | 結帳時用於此送貨方法的名稱。 |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | 網站 | 對於UPS REST服務，顯示傳輸JSON資料所需的下列URL：閘道URL、追蹤URL、出貨URL |
+| [!UICONTROL Gateway URL] | 網站 | 對於UPS REST服務，顯示傳輸JSON資料所需的下列URL：閘道URL、追蹤URL、出貨URL。 根據「即時帳戶」設定使用沙箱或生產端點。 |
 | [!UICONTROL Mode] | 網站 | 決定傳送至UPS系統之資料所使用的傳輸模式。 選項： <br/>**`Development`**- UPS不會驗證從Commerce伺服器收到的資料是否透過SSL傳送。<br/>**`Live`** - UPS會驗證從Commerce伺服器收到的資料是否已透過安全通訊端層(SSL)傳送。 |
 | 使用者ID | 網站 | 您的UPS託運人帳戶使用者端ID。 |
 | [!UICONTROL Origin of the Shipment] | 網站 | （僅限UPS REST）產品出貨來源的國家/地區。 |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | 網站 | （僅限UPS REST）若要參考使用議定匯率，必須有6個字元的「UPS出貨人編號」。 |
 | [!UICONTROL Container] | 網站 | 設定用來包裝出貨的貨櫃型態。 選項： `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | 網站 | 設定商店中產品重量的預設測量單位。 如需詳細資訊，請參閱[維度權數](../../stores-purchase/carriers.md#dimensional-weight)。 |
-| [!UICONTROL Tracking URL] | 網站 | （僅限UPS REST）用來追蹤套件的UPS URL。 |
+| [!UICONTROL Tracking URL] | 網站 | （僅限UPS REST）用來追蹤套件的UPS URL。 將`https://onlinetools.ups.com/api/track`用於生產，或將`https://wwwcie.ups.com/api/track`用於沙箱設定。 |
 | [!UICONTROL Destination Type] | 網站 | 設定預設出貨目的地型態。 選項： `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | 網站 | 設定UPS所指定之封裝的最大重量。 如果訂購的產品超過最大包裝重量，則無法使用此送貨選項。 根據[UPS.com](https://www.ups.com/us/en/global.page)，包裹不得超過150磅（70公斤）。請向您的貨運業者查詢，以確認最大重量。 |
 | [!UICONTROL Pickup Method] | 網站 | 設定UPS收取方法。 選項： `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
