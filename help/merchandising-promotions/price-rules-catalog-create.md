@@ -3,9 +3,9 @@ title: 建立型錄價格規則
 description: 瞭解如何建立目錄價格規則，以便在符合一組條件時，將折扣套用至特定產品。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當相同的目錄產品符合為多個價格規則設定的條件時，_[!UICONTROL Priority]_設定很重要。 具有最高優先順序設定（1代表最高）的規則會針對產品變成使用中。
+   >當相同的目錄產品符合為多個價格規則設定的條件時，_[!UICONTROL Priority]_設定很重要。 具有最高優先順序設定的規則（從最高到最低的優先順序為0、1、2、3...）會針對產品啟用。
 
 ## 步驟2：定義條件
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 | [!UICONTROL Description] | 規則的說明應包括規則的用途並解釋其使用方式。 |
 | [!UICONTROL Websites] | （必要）識別可使用此規則的網站。 |
 | [!UICONTROL Customer Groups] | （必要）識別規則套用的客戶群組。 |
-| [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 最高優先順序是數字1。 |
+| [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)判斷規則在存放區中是否有效。 選項： `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)指定價格規則生效的第一天。 如果保留為空白，價格規則會在儲存時生效。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)指定價格規則生效的最後一天。 如果保留為空白，價格規則會無限期繼續。 |

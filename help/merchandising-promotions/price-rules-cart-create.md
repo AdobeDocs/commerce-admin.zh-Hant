@@ -3,9 +3,9 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當兩個購物車規則/優惠券代碼對同一產品同時有效時，優先順序設定很重要。 具有最高優先順序設定的規則（`1`是最高的）可控制購物車動作。 請參閱&#x200B;_定義動作_&#x200B;步驟中的&#x200B;_捨棄後續價格規則_。
+   >當兩個購物車規則或優惠券代碼對同一個產品同時生效時，_[!UICONTROL Priority]_設定很重要。 控制購物車動作且具有最高[!UICONTROL Priority]設定的規則。  從最高到最低的優先順序為`0,1,2,3...`。 請參閱_[&#x200B;定義動作&#x200B;](#step-3-define-the-actions)_步驟中的_&#x200B;捨棄後續價格規則&#x200B;_。
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ ht-degree: 0%
 | [!UICONTROL Coupon] | （必要）指出優惠券是否與規則相關聯。 選項： <br/>**[!UICONTROL No Coupon]**— 沒有與規則關聯的抵用券。<br/>**[!UICONTROL Specific Coupon]** — 特定優惠券與規則相關聯。 <br/>**[!UICONTROL Coupon Code]**— 出現提示時，輸入客戶必須輸入的「優惠券代碼」，才能利用促銷優惠。<br/>**[!UICONTROL Use Auto Generation]** — 選取核取方塊，自動產生多個可搭配促銷使用的優惠券代碼。 <br/>**[!UICONTROL Auto]**— 顯示&#x200B;_[!UICONTROL Manage Coupon Codes]_區段以定義要產生之優惠券代碼的格式。 |
 | [!UICONTROL Uses per Coupon] | 決定抵用券代碼可以使用的次數。 如果沒有限制，則將此欄位留空。 |
 | [!UICONTROL Uses per Customer] | 決定屬於任何選定客戶群組的相同註冊客戶可以使用購物車價格規則的次數。 不適用於身為NOT LOGGED IN客戶群組成員的訪客購物者，或購物但未登入其帳戶的客戶。 若無限制，請留空。 |
-| [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 最高優先順序是數字`1`。 |
+| [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | 判斷促銷活動是否包含在您商店的公開RSS摘要中。 選項：  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)可以使用抵用券的第一個日期。 |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)可使用抵用券的最後日期。 |
