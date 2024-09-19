@@ -3,9 +3,9 @@ title: 授權Adobe Stock影像
 description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，請授權您的Adobe Stock影像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 新的[[!DNL Media Gallery]](media-gallery.md)提供與Adobe Stock的直接整合，讓您能夠輕鬆地直接從相簿頁面授權您的影像。
 
-## 必要條件
+>[!BEGINSHADEBOX]
 
-此功能需要[Adobe Stock整合][adobe-stock-integration]模組與組態。 授權[Adobe Stock][adobe-stock]影像需要付費Adobe Stock計畫和[Adobe帳戶][adobe-signin]。
+**必要條件**
+
+必須安裝並設定[Adobe Stock整合][adobe-stock-integration]，才能使用Adobe Stock授權功能。 授權[Adobe Stock][adobe-stock]影像需要付費Adobe Stock計畫和[Adobe帳戶][adobe-signin]。
+
+>[!ENDSHADEBOX]
 
 ## 從新[!DNL Media Gallery]授權影像
 
