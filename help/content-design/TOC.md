@@ -3,10 +3,10 @@ user-guide-title: 內容與設計手冊
 user-guide-description: 針對Adobe Commerce及Magento Open Source管理員和電子商務行銷人員提供的有關內容和設計功能的完整資訊。
 breadcrumb-title: 內容和設計
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -57,19 +57,11 @@ ht-degree: 3%
    - [插入影像](editor-insert-image.md)
    - [插入Widget](editor-widget.md)
    - [插入變數](editor-insert-variable.md)
-- 媒體{#media}
    - 媒體儲存空間{#storage}
       - [概觀](media-storage.md)
       - [使用媒體資料庫](media-storage-database.md)
       - [使用內容傳遞網路](media-storage-content-delivery-network.md)
       - [動態媒體URL](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Assets整合](aem-assets.md)
-      - 上線{#onboarding}
-         - [設定AEM Assets](aem-assets-configure-aem.md)
-         - [設定Adobe Commerce](aem-assets-configure-commerce.md)
-         - [啟用資產同步](aem-assets-setup-synchronization.md)
-      - [使用AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock整合](adobe-stock.md)
       - [使用Adobe Stock影像](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 3%
       - [資產管理](media-gallery-asset-management.md)
       - [資料夾管理](media-gallery-folder-management.md)
       - [影像最佳化](media-gallery-image-optimization.md)
+- 進階資產管理{#aem-assets}
+   - [適用於Commerce的AEM Assets整合](aem-assets.md)
+   - 設定整合{#onboarding}
+      - [概觀](aem-assets-setup.md)
+      - [設定AEM Assets](aem-assets-configure-aem.md)
+      - [設定Adobe Commerce](aem-assets-configure-commerce.md)
+      - [啟用資產同步](aem-assets-setup-synchronization.md)
+   - [使用AEM Assets](aem-assets-manage.md)
+- 媒體{#media}
 - 內容暫存{#staging}
    - [概觀](content-staging.md)
    - [排程更新](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 3%
    - [新增行銷活動專案](content-staging-add-item.md)
    - [預覽行銷活動](content-staging-preview.md)
 - [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
