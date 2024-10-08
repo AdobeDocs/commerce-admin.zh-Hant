@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
+source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
 workflow-type: tm+mt
-source-wordcount: '7033'
+source-wordcount: '7198'
 ht-degree: 0%
 
 ---
@@ -64,21 +64,35 @@ B2B v1.5.0 Beta版包含新功能、品質改善和錯誤修正。
 
 ![已修正問題](../assets/fix.svg)<!--ACP2E-1933-->公司管理員現在可以從店面新增公司使用者。 以前，當管理員使用者嘗試新增使用者時，Commerce會記錄錯誤： `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`。
 
+## B2B v1.4.2-p3
+
+*2024年10月8日*
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新](../assets/new.svg)已新增與Adobe Commerce 2.4.7-p3+和2.4.6-p8+安全性修補程式版本的相容性。
+
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+
 ## B2B v1.4.2-p2
 
 [!BADGE 支援]{type=Informative tooltip="支援"}
 
-![新](../assets/new.svg)已新增與Adobe Commerce 2.4.7-p2+和2.4.6-p7+安全性修補程式版本的相容性。 B2B 1.4.2-p2版本不會
-支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+![新](../assets/new.svg)已新增與Adobe Commerce 2.4.7-p2+和2.4.6-p7+安全性修補程式版本的相容性。
+
+![已修正問題](../assets/fix.svg)包含安全性公告xxxx中記錄的安全性修正。
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。
-
-
-https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation：
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 ## B2B v1.4.2-p1
+
+*2024年8月9日*
 
 [!BADGE 支援]{type=Informative tooltip="支援"}
 
@@ -87,7 +101,6 @@ https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Pag
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+目前不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
-
 
 ## B2B v1.4.2
 
@@ -165,6 +178,24 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 您可以透過為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全性套件新增手動相依性，來修正B2B安全性套件的手動相依性問題。 如需指示，請參閱[Adobe Commerce知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
 
+## B2B v1.3.5-p8
+
+*2024年10月8日*
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新](../assets/new.svg)已新增與Adobe Commerce 2.4.6-p8安全性修補程式版本的相容性。
+
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+
+## B2B v1.3.5-p7
+
+*2024年8月9日*
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新](../assets/new.svg)已新增與Adobe Commerce 2.4.6-p7安全性修補程式版本的相容性。
+
 ## B2B v1.3.5
 
 *2023年3月14日*
@@ -200,6 +231,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-2456-->當查詢的類別沒有明確設定類別許可權時，類別查詢現在會根據商店組態設定傳回產品價格。
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-6829-->使用核准的報價請求完成購買時，**[!UICONTROL Place Order]**&#x200B;按鈕現在可如預期運作。 可協商的報價`negotiableQuoteCheckoutSessionPlugin`外掛程式的問題已解決。
+
+## B2B v1.3.4-p10
+
+*2024年10月9日*
+
+[!BADGE 支援]{type=Informative tooltip="支援"}
+
+![新](../assets/new.svg)已新增對Adobe Commerce 2.4.5-p10的支援。
+
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 ## B2B v1.3.4
 
