@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予其他 [!DNL Commerce] 帳戶持有人對您 [!DNL Commerce] 帳戶的有限存取權。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 0%
    您帳戶的左側導覽面板有新的&#x200B;_[!UICONTROL Shared with me]_標籤。 右上角的_[!UICONTROL Switch Accounts]_&#x200B;控制項具有`My Account`的選項以及共用帳戶的名稱。
 
    ![與我共用](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   如果您沒有看到&#x200B;_[!UICONTROL Switch Accounts]_控制項，請連絡主要帳戶持有者，並確認他們已輸入正確的[帳戶資訊](#set-up-a-shared-account)。
+
 
 1. 若要存取共用帳戶，請將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為共用帳戶的名稱。
 
