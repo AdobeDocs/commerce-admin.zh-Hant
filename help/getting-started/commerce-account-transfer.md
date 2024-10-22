@@ -3,7 +3,7 @@ title: 轉移Commerce帳戶
 description: 瞭解如何將您的Commerce帳戶轉移給其他擁有者或電子郵件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -69,6 +69,8 @@ ht-degree: 0%
 1. 輸入傳送到新電子郵件地址的確認代碼。
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 電子郵件變更
 
