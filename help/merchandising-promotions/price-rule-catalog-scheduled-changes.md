@@ -3,9 +3,9 @@ title: 型錄價格規則的排程變更
 description: 瞭解如何依排程套用目錄價格規則，作為行銷活動的一部分並與其他內容變更分組。
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果最初建立的行銷活動包含價格規則，但沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 建議您在建立行銷活動時新增結束日期，或建立現有行銷活動的重複版本，並根據需要新增結束日期至重複。
+>如果最初建立的有效行銷活動沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 在這種情況下，必須建立重複的行銷活動並輸入所需的結束日期。
 
 ![目錄價格規則 — 排程變更](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

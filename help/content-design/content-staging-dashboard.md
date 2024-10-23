@@ -3,9 +3,9 @@ title: 內容中繼儀表板
 description: 使用內容測試儀表板來存取所有使用中和即將來臨的行銷活動的概觀。
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果最初建立的行銷活動包含價格規則，但沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 在這種情況下，必須建立重複的行銷活動並輸入所需的結束日期。
+>如果最初建立的有效行銷活動沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 在這種情況下，必須建立重複的行銷活動並輸入所需的結束日期。
 
 ![行銷活動詳細資料](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

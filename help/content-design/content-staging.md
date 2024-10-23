@@ -3,9 +3,9 @@ title: 內容分段
 description: 內容測試讓您的業務團隊能夠直接從管理員輕鬆建立、預覽和排程您商店的各種內容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **還原基準線內容**
 
    如果所有行銷活動都有結束日期，則當所有作用中行銷活動結束時，會還原基準內容。
+
+   >[!NOTE]
+   >
+   >如果最初建立的有效行銷活動沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 在這種情況下，必須建立重複的行銷活動並輸入所需的結束日期。
 
 >[!NOTE]
 >

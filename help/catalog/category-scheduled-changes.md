@@ -3,9 +3,9 @@ title: 類別的已排程變更
 description: 瞭解如何排程類別變更以支援行銷活動和商店促銷活動。
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 類別更新可以依排程套用，並和其他內容變更一起分組。 您可以根據類別已排程的變更來建立行銷活動，或將變更套用至現有的行銷活動。 若要深入瞭解，請參閱[內容暫存](../content-design/content-staging.md)。
 
->[!NOTE]
->
->[!UICONTROL Schedule Design Update]索引標籤已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，且無法直接在類別上修改。 您必須為這些啟用建立排定的更新。
+為類別排程變更時，請牢記下列事項：
+
+- 所有排定的更新都會連續套用，這表示任何實體一次只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的多個排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
+
+- 如果行銷活動連結到多個類別，則只能從[內容中繼儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
+
+- 如果行銷活動連結到多個類別，則只能從[內容中繼儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
 
 >[!NOTE]
 >
->所有排定的更新都會連續套用，這表示任何實體一次只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的多個排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
+>[!UICONTROL Schedule Design Update]索引標籤已在![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中移除，且無法直接在類別上修改。 您必須為這些啟用建立排定的更新。
 
 ## 為類別排程更新
 
@@ -69,7 +73,3 @@ ht-degree: 0%
 1. 對排程更新進行必要的變更。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
-
-   >[!NOTE]
-   >
-   >如果行銷活動連結到多個類別，則只能從[內容中繼儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。

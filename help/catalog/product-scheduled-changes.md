@@ -3,9 +3,9 @@ title: 排程的產品更新
 description: 瞭解如何排程產品清單變更，以支援行銷活動和促銷方案。
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 產品更新可依排程套用，並隨其他內容變更分組。 您可以使用[內容測試](../content-design/content-staging.md)，根據排程的產品變更來建立行銷活動，或將變更套用至現有的行銷活動。
 
+設定產品更新及編輯行銷活動的排程時，請記住下列事項：
+
+- 所有排定的更新都會連續套用，這表示任何實體一次只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的不同排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
+
+- 排程更新的預備預覽一律從&#x200B;**預設**&#x200B;存放區檢視開始，這模擬客戶瀏覽預備更新行銷活動的體驗。
+
+- 如果行銷活動連結到多個產品，則只能從[內容測試儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
+
+- 如果最初建立的有效行銷活動沒有結束日期，則無法在稍後編輯行銷活動以包含結束日期。 在這種情況下，必須建立重複的行銷活動並輸入所需的結束日期。
+
+
 >[!NOTE]
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce中的[!UICONTROL Set Product as New From]及[!UICONTROL To]欄位和[!UICONTROL Schedule Design Update]索引標籤已移除，無法直接在產品上修改。 您必須為這些啟用建立排定的更新。
-
->[!NOTE]
->
->所有排定的更新都會連續套用，這表示任何實體一次只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的不同排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
-
->[!NOTE]
->
->排程更新的預備預覽一律從&#x200B;**預設**&#x200B;存放區檢視開始，這模擬客戶瀏覽預備更新行銷活動的體驗。
 
 ## 建立排定的更新
 
@@ -86,10 +89,6 @@ ht-degree: 0%
 
 1. 進行排程更新所需的任何變更。
 
->[!NOTE]
->
->如果行銷活動連結到多個產品，則只能從[內容測試儀表板](../content-design/content-staging-dashboard.md)編輯行銷活動。
-
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 移除排定的變更
@@ -102,9 +101,7 @@ ht-degree: 0%
 
 1. 在對話方塊中，選取&#x200B;**[!UICONTROL Delete the Update]**&#x200B;並按一下&#x200B;**[!UICONTROL Done]**。
 
-   >[!NOTE]
-   >
-   >產品會從更新中移除，且所有已排程的變更都會遺失。
+   產品會從更新中移除，且所有已排程的變更都會遺失。
 
 ## 排程設計更新
 
