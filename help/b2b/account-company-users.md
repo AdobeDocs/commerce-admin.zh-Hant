@@ -1,19 +1,19 @@
 ---
 title: 管理公司使用者帳戶
-description: 瞭解公司使用者帳戶及其在相關聯公司帳戶中的運作方式。
+description: 了解公司 用戶 帳戶及其在相關聯公司帳戶中的運作方式。
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# 管理公司使用者帳戶
+# 管理公司用戶帳戶
 
-公司使用者由公司管理員指派，並透過客戶型別&#x200B;_[!UICONTROL Company User]_從_[!UICONTROL Customers]_&#x200B;格線的管理員中可見。 這些個人通常是買家，擁有存取商店服務和資源的不同許可權等級。
+在店面上，公司使用者由公司管理員分配，並且在頁面中 _[!UICONTROL Company Users]_可見。 這些人通常是購買者，在訪問商店服務和資源方面具有不同程度的權限。
 
 公司管理員先設定[公司結構](account-company-structure.md)，然後視需要完成下列工作：
 
@@ -21,28 +21,29 @@ ht-degree: 0%
 
 - 定義角色和許可權，並將使用者指派給角色
 
->[!IMPORTANT]
->
->公司使用者只能由公司管理員新增、編輯或移除。 移除操作無法還原，因為使用者已從公司結構中移除。
+公司使用者只能由公司管理員新增、編輯、停用或刪除。
 
-## 新增公司使用者
+- 移除使用者後，帳戶狀態會變更為&#x200B;*非使用中*，且客戶無法再登入公司。 管理員仍可存取與使用者相關聯的所有內容。 帳戶管理員可以從[!UICONTROL Company Users]頁面將帳戶狀態變更為&#x200B;*[!UICONTROL Active]*&#x200B;來還原存取權。
 
-1. 公司管理員從店面登入其帳戶。
+- When a user account is deleted, the account and any associated content is deleted from the storefront. This action cannot be reverted.
 
-1. 在左側面板中選擇&#x200B;**[!UICONTROL Company Users]**。
+## Add company users
 
-   ![公司使用者](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
+1. From the storefront, the company administrator signs in to their account.
 
-1. 按一下&#x200B;**[!UICONTROL Add New User]**&#x200B;並執行下列動作：
+1. **[!UICONTROL Company Users]**
 
-   - 輸入新使用者的&#x200B;**[!UICONTROL Job Title]**。
+   ![](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-   - 如果已定義角色和許可權，請選擇適當的&#x200B;**[!UICONTROL User Role]**。 否則，他們稍後可以返回以指派角色。
+1. 按下 **[!UICONTROL Add New User]** 並執行以下操作：
 
-     ![新增使用者](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
+   - 輸入 **[!UICONTROL Job Title]** 新用戶。
 
-   - 視需要為使用者完成其餘欄位：
+   - 如果定義了角色和許可權，則選擇適當的 **[!UICONTROL User Role]** 角色。 否則，他們可以稍後返回以分配角色。
 
+     ![](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
+
+   - Adds the user information in the remaining fields:
       - **[!UICONTROL First Name]**&#x200B;和&#x200B;**[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
@@ -51,47 +52,78 @@ ht-degree: 0%
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Save]**。
 
-1. 重複此程式，視需要建立任意數目的公司使用者。
+1. 重複此程序，視需要建立任意數量的公司使用者。
 
-   新使用者會與「公司管理員」一起顯示在「公司使用者」清單中。
+   新使用者和公司管理員一起出現在「公司使用者」清單中。
 
 為了節省第一筆訂單的時間，公司管理員可以提醒每個公司使用者將預設的公司帳單和送貨地址新增到他們的[通訊錄](../customers/account-dashboard-address-book.md)。
 
-## 編輯公司使用者
+## 從[!UICONTROL Company structure]移除使用者
+
+公司管理員可從[!UICONTROL Company Structure]移除使用者。
+
+移除帳戶後，使用者帳戶狀態會變更為&#x200B;*非使用中*，且使用者無法再登入店面。
+管理員可以從「公司使用者」頁面編輯使用者帳戶資訊，以重新啟用帳戶。
 
 1. 公司管理員從店面登入其帳戶。
 
-1. 在左側面板中選擇&#x200B;**[!UICONTROL Company Users]**。
+1. **[!UICONTROL Company Structure]**
 
-1. 尋找要更新的使用者記錄，然後按一下&#x200B;**[!UICONTROL Edit]**。
+1. Selects the company user in the company structure.
 
-1. 進行必要的變更。
+1. **[!UICONTROL Remove from Structure]**
 
-1. 完成後，按一下&#x200B;**[!UICONTROL Save]**。
+   ![](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-## 移除公司使用者
+1. **[!UICONTROL Remove]**
 
-1. 公司管理員從店面登入其帳戶。
+   [](../customers/customers-all.md)`Inactive`
 
-1. 在左側面板中選擇&#x200B;**[!UICONTROL Company Structure]**。
+## 檢視和管理公司用戶帳戶
 
-1. 選取公司結構中的公司使用者。
+[!UICONTROL Company Users]
 
-1. 按一下&#x200B;**[!UICONTROL Delete Selected]**。
+![](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-   ![刪除使用者](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
+- **[!UICONTROL Show Inactive Users]**
+- **[!UICONTROL Show Active Users]**
+- 選取&#x200B;**[!UICONTROL Show All Users]**&#x200B;以檢視所有使用者。
 
-1. 提示確認時，按一下&#x200B;**[!UICONTROL Delete]**。
+公司管理員可以使用條列項目 *[!UICONTROL Actions]* 管理單個帳戶，以编辑帳戶信息、管理帳戶狀態或刪除帳戶。
 
-在Admin中，公司使用者仍列在[客戶](../customers/customers-all.md)方格中，但狀態為`Inactive`。
+### 編輯公司用戶帳戶信息
 
-## 欄位說明
+公司管理員可以更新用戶帳戶設定檔信息并變更帳戶狀態。
+
+1. 在 [!UICONTROL Company Users] 頁面上，找到要更新的用戶帳戶。 按兩下 **[!UICONTROL Edit]**。
+
+1. 對使用者帳戶資訊進行任何必要的變更，包括變更帳戶狀態。
+
+1. **[!UICONTROL Save]**
+
+>[!NOTE]
+>
+>If you edit a company user account and notice that the profile is missing required account information such as job title and phone number, it indicates that the account was added by a Commerce site administrator. These accounts cannot be edited from the storefront. To update information or change the account status, contact your site administrator.
+
+### Deactivate or delete an active account
+
+1. [!UICONTROL Company Users]按兩下 **[!UICONTROL Manage]**。
+
+   ![管理來自公司用戶的用戶 頁面](./assets/company-users-manage-storefront.png){width="600" zoomable="yes"}
+
+1. 出現提示時，根據需要停用或刪除用戶帳戶。
+
+>[!IMPORTANT]
+>
+>刪除公司用戶帳戶會從系統中刪除帳戶和所有相關內容。 此動作無法還原。
+
+## Company user account profile field descriptions
 
 | 欄位 | 說明 |
 |--------------|---------------|
-| [!UICONTROL Job Title] | 公司使用者的職稱。 |
-| [!UICONTROL User Role] | 指派給公司使用者的[角色](account-company-roles-permissions.md)。 選項： `Default User` / （其他角色） |
-| [!UICONTROL First Name] | 公司使用者的名字。 |
+| [!UICONTROL Job Title] | 公司用戶的職稱。 |
+| [!UICONTROL User Role] | 指派給 [公司角色](account-company-roles-permissions.md) 用戶。 選項： `Default User` / （其他角色） |
+| [!UICONTROL First Name] | 公司用戶的名字。 |
 | [!UICONTROL Last Name] | 公司使用者的姓氏。 |
 | [!UICONTROL Email] | 公司使用者的電子郵件地址。 |
 | [!UICONTROL Phone Number] | 公司使用者的電話號碼。 |

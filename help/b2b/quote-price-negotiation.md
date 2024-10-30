@@ -1,11 +1,11 @@
 ---
-title: 交涉報價
+title: Negotiate a quote
 description: 瞭解報價議價工作流程，以及如何與購買者合作進行購買。
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
+source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 如果組態中啟用了[B2B報價單](configure-quotes.md)，則價格議價可由公司授權採購員或銷售代表啟動。
 
-買家透過向購物車要求[報價單](quote-request.md)來啟動價格議價程式。 銷售代表可以藉由[為採購員](sales-rep-initiates-quote.md)建立草擬報價單，以初始訂單專案與訂價更新報價單，然後傳送給採購員來啟動議價。
+買家透過向購物車要求[報價單](quote-request.md)來啟動價格議價程式。 [](sales-rep-initiates-quote.md)
 
-當價格議價開始時，報價會列在[報價單](quotes.md)格線中。 買方與賣方之間的所有議價都會透過電子郵件進行，並從報價的明細檢視表啟動及追蹤。
+[](quotes.md)All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
-在議價過程中，賣方可向管理員執行下列作業：
+During the negotiation process, the seller can do the following from the Admin:
 
-- 新增或移除產品
-- 變更數量
-- 將折扣套用至明細專案，或套用總價
+- Add or remove products
+- Change the quantity
+- 將折扣套用至明細專案或整個報價單
 - 新增或變更送貨方法
 - 新增註解
 - 將更新後的報價單傳送給採購員，或另存為草稿
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 - 變更必須以建議價格購買的&#x200B;**[!UICONTROL Quantity]**。
 
-- 選取&#x200B;**[!UICONTROL Configure]**&#x200B;並變更產品選項。
+- **[!UICONTROL Configure]**
 
   [!UICONTROL Configure]選項僅適用於可設定產品的條列專案
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 您可以選擇鎖定折扣金額，以防止進一步折扣。 如果未鎖定折扣，
 明細專案折扣與任何報價層次折扣都會套用至產品價格。
    - **給購買者留下備註**，為購買者提供專案的額外資訊
-   - **移除**&#x200B;以從報價移除專案。
+   - ****
 
 ### 套用變更和更新
 
@@ -114,27 +114,37 @@ ht-degree: 0%
 
 1. 在&#x200B;_[!UICONTROL Comments]_標籤的_[!UICONTROL Negotiation]_&#x200B;區段中，於&#x200B;**[!UICONTROL Add your comment]**&#x200B;區段中輸入您的回覆。
 
-1. 若要加入支援檔案，請按一下&#x200B;**[!UICONTROL Attach file]**&#x200B;並從您的目錄中選取檔案。
+1. **[!UICONTROL Attach file]**
 
-   附件允許的最大檔案大小為2 MB。
+   The maximum file size allowed for attachments is 2 MB.
 
-1. 若要將折扣套用至整個報價單，請執行下列步驟：
+1. 若要將折扣套用至報價單，請執行下列步驟：
 
    - 在&#x200B;_[!UICONTROL Negotiated Price]_區段的_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
 
-      - `Percentage Discount`
+      - `Percentage Discount`：百分比折扣會以特定百分比降低原始價格。
       - `Amount Discount`
       - `Proposed Price`
 
-   - 以百分比或統一價格輸入金額。
+   - Enter the amount as a percentage or flat price.
 
-     ![交涉註解](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+     ![](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - You can apply discounts to each line item or the quote as a whole:
+
+      - ****&#x200B;折扣可以是`percentage`、特定`amount`或`proposed price`。
+      - **購物車層級折扣**：購物車層級折扣套用至整個購物車。 折扣可以是`percentage`或特定的`amount`，並套用至購物車總值。
+      - **購物車與明細專案折扣的組合**：在某些情況下，折扣可同時套用至購物車與明細專案層次。 先套用明細專案折扣，然後套用剩餘總計的購物車層級折扣。
 
 1. 傳送或儲存報價：
 
    - 如果報價單已準備好要傳回給買家，請按一下&#x200B;**[!UICONTROL Send]**。
 
    - 若要稍後繼續處理報價，請按一下&#x200B;**[!UICONTROL Save as Draft]**。
+
+>[!NOTE]
+>
+> 在報價議價期間，可以鎖定折扣，以防止進一步的變更。 鎖定報價之後，若未先解除鎖定報價，則無法變更折扣型別和金額。 此鎖定機制可確保銷售代表與買方之間達成一致的條款得以保留。
 
 ## 步驟4：追蹤報價
 
@@ -152,8 +162,9 @@ ht-degree: 0%
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | 返回&#x200B;_[!UICONTROL Quotes]_頁面而不儲存變更。 |
 | [!UICONTROL Print] | 將報價傳送至印表機或儲存為PDF檔案。 |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta版功能]{type=資訊性url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;僅適用於Beta方案參與者&quot;}建立並開啟目前報價的復本，並在原始名稱后面附加`(copy)`。 編輯[!UICONTROL Name]欄位以重新命名新報價。 將新的報價單儲存為草稿，或傳送給客戶來處理它。 |
-| [!UICONTROL Save as Draft] | 儲存對報價單所做的任何變更，但不要將其傳回給購買者。 |
+| [!UICONTROL Create Copy] | 建立並開啟目前報價的復本，在原始名稱后面附加`(copy)`。 編輯[!UICONTROL Name]欄位以重新命名新報價。 將新的報價單儲存為草稿，或傳送給客戶來處理它。 |
+| 建立範本 | 根據目前的報價建立報價範本。 報價樣版可讓買方與賣家就可套用至多個報價的合約與訂價條款達成一致意見，藉此簡化報價議價。. 在協定上，採購員可以從範本產生預先核准的連結式報價供後續訂單使用，而不需重新啟動詢價流程。 |
+| [!UICONTROL Save as Draft] | Save any changes made to the quote, but do not send it back to the buyer. |
 | [!UICONTROL Decline] | 拒絕議價要求，無論是在初始詢問時還是在進行中的議價期間。 當報價被拒絕時，賣家應新增評論來解釋決定。 拒絕報價時，所有議價價格都會重設為原始值。 當賣家等待買家的回覆時，此按鈕會停用。 |
 | [!UICONTROL Send] | 傳送更新後的報價作為買家查詢的回覆。 如果賣家正在等待買家的回覆，此按鈕會停用。 |
 
@@ -171,17 +182,17 @@ ht-degree: 0%
 | [!UICONTROL Status] | 表示報價的目前狀態。 報價的狀態只能由買方或賣方執行動作來變更。 另請參閱管理員和[購買者帳戶](account-dashboard-my-quotes.md)的[狀態設定](quotes.md)。 |
 | [!UICONTROL Created] | 買方首次提交報價請求的日期與時間。 |
 | [!UICONTROL Created By] | 提交報價請求的公司買方名字和姓氏。 |
-| [!UICONTROL Expiration Date] | 表示目前報價有效的最後一天。 在組態中，預設到期日設定為在採購員提交報價請求後的30天。 <br/><br/>賣家可以輸入不同的日期(YYYY MM DD )或從行事曆中選擇日期，覆寫預設到期日。 若將欄位留白，報價單將永不過期。 <br/><br/>對於未結報價，賣家會在報價排定到期前48小時收到[電子郵件通知](../systems/email-templates.md)。 買家會在到期日前24小時收到通知。 <br/><br/>報價的狀態變更為&#x200B;_已過期_，而購買者無法進一步變更報價。 報價中的建議價格會回復到目錄中的原始值。 <br/><br/>如果報價設定為到期時，賣家將開啟供檢閱的報價，則到期日會根據組態中設定的範圍重設。 <br/><br/>到期日是&#x200B;_報價與帳戶_&#x200B;區段中唯一可在稽核過程中編輯的欄位。 |
+| [!UICONTROL Expiration Date] | 表示目前報價有效的最後一天。 在組態中，預設到期日設定為在採購員提交報價請求後的30天。 <br/><br/>賣家可以輸入不同的日期(YYYY MM DD )或從行事曆中選擇日期，覆寫預設到期日。 若將欄位留白，報價單將永不過期。 <br/><br/>對於未結報價，賣家會在報價排定到期前48小時收到[電子郵件通知](../systems/email-templates.md)。 買家會在到期日前24小時收到通知。 <br/><br/>__&#x200B;報價中的建議價格會回復到目錄中的原始值。 <br/><br/>如果報價設定為到期時，賣家將開啟供檢閱的報價，則到期日會根據組態中設定的範圍重設。 <br/><br/>到期日是&#x200B;_報價與帳戶_&#x200B;區段中唯一可在稽核過程中編輯的欄位。 |
 | [!UICONTROL Company] | 買家代表的[公司](account-companies.md)法定名稱。 |
 | [!UICONTROL Company Admin Email] | [公司管理員](account-company-admin.md)的電子郵件地址。 |
 | [!UICONTROL Sales Rep] | 為賣家工作的[銷售代表](account-company-manage.md)，是指派給公司帳戶的主要聯絡人。 |
-| [!UICONTROL Shared Catalog (or Customer Group)] | 公司被指派的[共用目錄](catalog-shared.md)或[客戶群組](account-company-customer-group.md)。 報價可能包含指定給公司的共用目錄中的自訂價格。 |
+| [!UICONTROL Shared Catalog (or Customer Group)] | 公司被指派的[共用目錄](catalog-shared.md)或[客戶群組](account-company-customer-group.md)。 The quote might include custom prices from the shared catalog that is assigned to the company. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Add to Quote by SKU]
 
-| 欄位 | 說明 |
+| Field | 說明 |
 |---------------------------|-----------------------------------------------------------|
 | [!UICONTROL Enter SKU] | 要新增至報價的產品的SKU。 |
 | [!UICONTROL Qty] | 要新增至報價的此SKU的專案數。 |
@@ -191,11 +202,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Items Quoted]
 
-| 欄位 | 說明 |
+| Field | 說明 |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name & SKU] | 連結的產品名稱與庫存單位(SKU)。 |
-| [!UICONTROL Stock] | 此SKU下目前可供銷售的產品數量。 |
-| [!UICONTROL Cost] | 賣家購買產品所支付的金額。 |
+| [!UICONTROL Name & SKU] | The linked product name and stock-keeping unit (SKU). |
+| [!UICONTROL Stock] | The number of products under this SKU that are currently available for sale. |
+| [!UICONTROL Cost] | The amount the seller paid to purchase the product. |
 | [!UICONTROL Catalog Price] | 採購員型錄中的產品價格，根據指派給採購員公司的客戶群組或共用型錄。 |
 | [!UICONTROL Cart Price] | 購物車中專案的原始價格，減去從購物車套用的任何折扣。 如果有適用於買家客戶群組的折扣或購物車規則，購物車價格可能會與目錄價格不同。 |
 | [!UICONTROL Discount] | 套用至料號的明細專案折扣。 值可以是百分比、固定金額或建議價格。 |

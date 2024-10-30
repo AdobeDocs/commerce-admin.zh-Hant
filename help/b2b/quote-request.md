@@ -4,9 +4,9 @@ description: 瞭解與公司帳戶相關聯的客戶如何提交報價請求。
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ ht-degree: 0%
 1. 建立及處理報價單：
 
    - 透過選取&#x200B;**[!UICONTROL Request a Quote]**&#x200B;將報價傳送給賣家。
-   - [!BADGE 1.5.0-beta功能]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅適用於Beta計畫參與者"}**[!UICONTROL Save as Draft]**。
+   - 選取&#x200B;**[!UICONTROL Save as Draft]**，將報價儲存為草稿。
 
      如果購買者將報價儲存為草稿，則報價可在[!UICONTROL My Quotes]的`Draft`狀態中使用。 在買方傳送草擬報價以供複查之前，賣方無法看到草擬報價。

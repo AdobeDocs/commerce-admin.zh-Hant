@@ -3,7 +3,7 @@ title: 公司帳戶
 description: 瞭解在您的Adobe Commerce商店中管理的公司帳戶如何允許屬於同一公司的多個買家加入單一公司帳戶。
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # 公司帳戶
 
-當您在商店中合併B2B公司帳戶時，您可以讓公司根據其組織中的使用者角色，建立多個具有彈性許可權的子帳戶，藉此簡化公司購物體驗。 根據公司不同，商店管理員可以調整促銷活動和價格以符合其需求，並建立高度客製化的優惠方案以迎合購物者的需求並增加訂單。 將公司帳戶關聯新增至標準[個人](../customers/account-create.md)，可讓客戶使用為公司定義的特定採購工作流程。
+當您在商店中合併B2B公司帳戶時，您可以讓公司根據其組織中的使用者角色，建立多個具有彈性許可權的子帳戶，藉此簡化公司購物體驗。
+
+根據公司不同，商店管理員可以調整促銷活動和價格以符合其需求，並建立高度客製化的優惠方案以迎合購物者的需求並增加訂單。
+
+將公司帳戶關聯新增至標準[個人](../customers/account-create.md)，可讓客戶使用為公司定義的特定採購工作流程。
 
 公司帳戶的優點：
 
@@ -22,7 +26,7 @@ ht-degree: 0%
 
 - 提供[公司商店信用額](credit-company.md)作為付款方式，提供商戶增加收入的機制。
 
-- 支援管理員中所有公司帳戶的[管理](account-company-manage.md)。
+- 支援管理員管理所有公司帳戶的[管理](account-company-manage.md)。
 
 ## 檢視公司帳戶
 
@@ -34,7 +38,7 @@ _公司_&#x200B;方格會列出所有作用中的公司帳戶和擱置的要求�
 
 ![公司格線](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies]方格會列出所有公司，無論狀態為何。 顯示的範例顯示兩個公司的帳戶：「ACME」公司和「Vandelay」公司。
+[!UICONTROL Companies]方格會列出所有公司，無論狀態為何。 公司清單指出公司是否與[公司階層](manage-company-hierarchy.md)相關聯，並提供有關公司、公司管理員及其他資訊的[詳細資訊](/help/b2b/account-company-manage.md#company-options-and-columns)。 使用[管理方格控制項](../getting-started/admin-grid-controls.md)來設定篩選器、欄檢視選項等，以自訂檢視。
 
 ## 公司管理員
 
@@ -42,7 +46,7 @@ _公司_&#x200B;方格會列出所有作用中的公司帳戶和擱置的要求�
 
 ![具有公司系統管理員帳戶的客戶方格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-擔任公司管理員的人員在公司內可能擁有多個角色。 如果為公司管理員輸入了單獨的電子郵件地址，則初始的公司結構包括公司管理員以及公司管理員名稱中的個人使用者帳戶。 在這種情況下，公司管理員可以以公司或個人使用者的身分登入該帳戶。
+每個公司都有單一的公司管理員，由帳戶電子郵件地址以及管理員的名字和姓氏來識別。 管理員可以使用者身分指派給其他公司，但他們只能是一個公司的管理員。
 
 建立帳戶之後，公司管理員會定義[團隊](account-company-structure.md)的公司結構、設定[公司使用者](account-company-users.md)，並為每個使用者建立[角色和許可權](account-company-roles-permissions.md)。
 
@@ -58,7 +62,7 @@ _公司_&#x200B;方格會列出所有作用中的公司帳戶和擱置的要求�
 
 1. 遵循指示並按一下&#x200B;[!UICONTROL **連結**]&#x200B;設定密碼。
 
-1. 輸入帳戶的&#x200B;[!UICONTROL **新密碼**]，然後再確認一次。
+1. 輸入其帳戶的&#x200B;[!UICONTROL **新密碼**]&#x200B;和密碼確認。
 
    密碼必須至少包括下列三種字元型別：
 

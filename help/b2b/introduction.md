@@ -3,9 +3,9 @@ title: ' [!DNL Adobe Commerce B2B]簡介'
 description: 了解如何使用整合的 B2B 功能來滿足公司客戶的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度上都與其相依。 它允許將屬於單一公司的多個買家加入單一公司帳戶（或公司帳戶）。 公司管理員可以建立公司結構（部門、子部門和使用者），以反映公司的運作模式，並為公司成員提供不同的使用者角色和許可權。 此結構可讓公司管理員控制公司帳戶的使用者活動：訂購、報價、購買、存取公司信用資訊或設定檔等。
 
-從管理員那裡，Commerce網站管理員可以設定公司在網站上運作的方式。 組態決定可供公司使用者使用的B2B功能，包括付款方式、訂價層次、使用報價議價的能力、建立請購單清單的能力等等。
+From the Admin, the Commerce site administrator can configure how the company operates on the website. Configuration determines the B2B capabilities available for company users, including payment methods, pricing levels, the ability to negotiate prices using quotes, the ability to create requisition lists, and more.
 
 如需詳細資訊，請參閱[公司帳戶](account-companies.md)。
 
@@ -29,8 +29,6 @@ Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度�
 >啟用後，您的商店可讓公司選擇&#x200B;_以帳戶付款_，也就是以公司信用額度進行購買。 身為商家，您可以為公司帳戶配置銷退折讓並管理公司的銷退折讓設定以及銷退折讓補助。
 
 ## 公司管理
-
-[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="僅適用於Beta計畫參與者"}
 
 公司管理可協助商家管理員簡化具有複雜營運模型的B2B組織的行政管理。
 
@@ -54,13 +52,13 @@ Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source
 
 ## 快速訂購
 
-設定快速訂購，讓登入的客戶在知道要訂購的產品名稱或SKU時，減少訂單處理為幾次點按。
+Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.
 
-如需詳細資訊，請參閱[快速訂單](quick-order.md)。
+[](quick-order.md)
 
-## 可協商的報價
+## Negotiable Quotes
 
-使用「報價單」功能，啟動公司買方與賣方之間的價格議價。
+Use the Quotes feature to initiate price negotiation between a company buyer and seller.
 
 * 授權購買者可以從購物車中啟動報價。
 

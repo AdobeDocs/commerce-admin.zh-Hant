@@ -4,9 +4,9 @@ description: 瞭解如何在Adobe Commerce管理員和店面中建立公司帳�
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 公司帳戶可由客戶從店面設定，或從管理員設定。 建立公司帳戶的所有請求都必須先由商店管理員核准，帳戶才能生效。
 
-從店面設定公司帳戶的人會被指派為[公司管理員](account-company-admin.md)。 建立公司帳戶的請求獲得核准後，公司管理員可以設定帳戶密碼並登入該帳戶。
+[](account-company-admin.md)After the request to create a company account is approved, the company administrator can set an account password and log in to the account.
 
-## 方法1：客戶從店面建立帳戶
+## Method 1: Customer creates the account from the storefront
 
 >[!IMPORTANT]
 >
->若要支援此方法（允許客戶從店面註冊其公司），請確定[B2B功能](enable-basic-features.md)已設定為&#x200B;**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;設為`Yes`。
+>[](enable-basic-features.md)
 
-1. 在店面標題的右上角，客戶按一下&#x200B;**[!UICONTROL Create an Account]**&#x200B;並選擇&#x200B;**[!UICONTROL Create New Company Account]**。
+1. **[!UICONTROL Create an Account]****[!UICONTROL Create New Company Account]**
 
-   ![建立新的公司帳戶](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
+   ![](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
 
    >[!NOTE]
    >
-   >如果訪客登入已註冊的使用者帳戶，他們可以導覽至「_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**」以建立公司帳戶。 建立公司帳戶後，客戶帳戶會指派為主要聯絡人。 否則，系統會建立客戶，該客戶會收到電子郵件以設定密碼。
+   >如果訪客登入已註冊的使用者帳戶，他們可以導覽至「_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**」以建立公司帳戶。
 
 1. 在&#x200B;_[!UICONTROL Company Information]_區段中，客戶執行下列動作：
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    - 輸入公司管理員的&#x200B;**[!UICONTROL First Name]**&#x200B;和&#x200B;**[!UICONTROL Last Name]**。
 
-   - 選擇性地完成下列欄位：
+   - Optionally completes the following fields:
 
       - **[!UICONTROL Job Title]**
       - **[!UICONTROL Gender]**
@@ -78,17 +78,17 @@ ht-degree: 0%
 
    當建立公司帳戶的請求獲得商家核準時，會向公司管理員傳送電子郵件通知。
 
-   ![歡迎電子郵件範例](./assets/company-admin-welcome-email.png){width="500"}
+   ![](./assets/company-admin-welcome-email.png){width="500"}
 
-   設定密碼後，公司管理員可以[登入](../customers/customer-sign-in.md)帳戶。
+   [](../customers/customer-sign-in.md)
 
-## 方法2：商家從管理員建立帳戶
+## Method 2: Merchant creates the account from the Admin
 
-從管理員建立公司的程式基本上與從店面建立公司的程式相同，但有其他欄位。
+The process of creating a company from the Admin is essentially the same as from the storefront, but with additional fields.
 
-![從管理員新增公司](./assets/company-add-new.png){width="700" zoomable="yes"}
+![](./assets/company-add-new.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
+1. __**[!UICONTROL Customers]****[!UICONTROL Companies]**
 
 1. 按一下&#x200B;**[!UICONTROL Add New Company]**&#x200B;並執行下列動作：
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
    - 如果您尚未準備好讓帳戶上線，請將&#x200B;**[!UICONTROL Status]**&#x200B;設為`Pending Approval`。 （預設為`Active`。）
 
-   - 如果適用，請選擇要管理帳戶的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理員帳戶。
+   - **[!UICONTROL Sales Representative]**
 
-1. 在&#x200B;_[!UICONTROL Account Information]_區段中，執行下列動作：
+1. _[!UICONTROL Account Information]_
 
    - 視情況填入下列欄位：
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    ![帳戶資訊](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 初次建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_格線時它是空的。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
+1. 初次建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_格線時它是空的。 儲存公司後，您可以將其納入公司階層。 [](manage-companies.md)
 
 1. 在&#x200B;_[!UICONTROL Legal Address]_區段中，完成下列必填欄位：
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    - 若要變更公司可用的&#x200B;**[!UICONTROL Applicable Payment Methods]**，請清除「**[!UICONTROL Use config settings]**」核取方塊並選擇下列其中一項：
 
-     | 選項 | 說明 |
+     | Option | 說明 |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | （預設）為B2B訂單啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有[付款方法。 |
      | `All Enabled Payment Methods` | 讓所有[啟用的付款方法](../configuration-reference/sales/payment-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
@@ -180,12 +180,12 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 若要變更公司可用的&#x200B;**[!UICONTROL Applicable Shipping Methods]**，請清除「**[!UICONTROL Use config settings]**」核取方塊並選擇下列其中一項：
+   - **[!UICONTROL Applicable Shipping Methods]****[!UICONTROL Use config settings]**
 
-     | 選項 | 說明 |
+     | Option | 說明 |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | （預設）針對B2B訂單，啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有[送貨方法。 |
-     | `All Enabled Shipping Methods` | 讓所有[啟用的送貨方法](../configuration-reference/sales/delivery-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
+     | `B2B Shipping Methods` | [](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) |
+     | `All Enabled Shipping Methods` | [](../configuration-reference/sales/delivery-methods.md) |
      | `Selected Shipping Methods` | 可讓您選取與公司帳戶相關聯之客戶帳戶可用的送貨方法。 若要選取多種送貨方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 
      {style="table-layout:auto"}
@@ -207,14 +207,14 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-## 欄位說明
+## Field descriptions
 
 | 欄位 | 說明 |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | 公司名稱是在第一次建立公司帳戶時輸入的，可以是完整法律名稱的縮寫版本。 |
-| [!UICONTROL Status] | （僅限管理員）指出公司帳戶的目前狀態。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 公司管理員和相關成員可以從店面登入帳戶並進行購買。<br/>**[!UICONTROL Pending Approval]** — 已提交開啟公司帳戶的要求，但尚未由商店管理員核准。 <br/>**[!UICONTROL Rejected]**— 已提交開啟公司帳戶的要求，但未獲得商店管理員的核准。 用於提交請求的初始登入認證會被封鎖。<br/>**&#x200B;已封鎖&#x200B;**— 公司成員可以登入並存取目錄，但無法進行購買。 商店管理員可能會封鎖信譽不佳的公司帳戶。 帳戶上的區塊可由存放區管理員隨時移除。 |
-| [!UICONTROL Company Email] | 與公司帳戶相關聯的電子郵件地址。 |
-| [!UICONTROL Sales Representative] | （僅限管理員）公司帳戶主要聯絡人的管理員使用者。 |
+| [!UICONTROL Status] | （僅限管理員）指出公司帳戶的目前狀態。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 The company administrator and associated members can log in the account from the storefront and make purchases.<br/>**[!UICONTROL Pending Approval]**<br/>**[!UICONTROL Rejected]**The initial login credentials that were used to submit the request are blocked.<br/>****The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
+| [!UICONTROL Company Email] | The email address that is associated with the company account. |
+| [!UICONTROL Sales Representative] | (Admin Only) The Admin user who is the primary contact for the company account. |
 
 {style="table-layout:auto"}
 
@@ -222,8 +222,8 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Legal Name] | 公司的完整法定名稱。 |
-| [!UICONTROL VAT / TAX ID] | 某些管轄區為報稅目的而指派給公司的[增值稅](../stores-purchase/vat.md)編號。 若要設定要出現在店面的客戶VAT/稅務ID，請參閱[建立新帳戶選項](../configuration-reference/customers/customer-configuration.md)。<br/> **_備註：_**&#x200B;公司管理員和其他公司使用者在其客戶帳戶中沒有自己的加值稅/稅捐識別碼。 |
+| [!UICONTROL Company Legal Name] | The full legal name of the company. |
+| [!UICONTROL VAT / TAX ID] | [](../stores-purchase/vat.md)[](../configuration-reference/customers/customer-configuration.md)<br/> **__** |
 | [!UICONTROL Reseller ID] | 指定給公司以申報稅捐的轉售編號。 |
 | [!UICONTROL Comment] | （僅限管理員）這些公司帳戶的相關附註僅供管理員參考和檢視。 |
 
@@ -234,11 +234,11 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | 公司的ID號碼。 |
-| [!UICONTROL Company Name] | 公司的全名。 <br/>正在編輯的公司行中出現`current company indicator`。 |
-| [!UICONTROL Company Email] | 與公司帳戶相關聯的電子郵件地址。 |
-| [!UICONTROL Phone Number] | 公司的主要電話號碼。 |
-| [!UICONTROL Country] | 公司註冊經營業務的國家/地區。 |
-| [!UICONTROL State/Province] | 公司註冊經營所在州或省。 |
+| [!UICONTROL Company Name] | 公司的全名。 <br/>`current company indicator` |
+| [!UICONTROL Company Email] | The email address that is associated with the company account. |
+| [!UICONTROL Phone Number] | The primary phone number of the company. |
+| [!UICONTROL Country] | The country where the company is registered to conduct business. |
+| [!UICONTROL State/Province] | The state or province where the company is registered to conduct business. |
 | [!UICONTROL City] | 公司註冊經營業務的城市。 |
 | [!UICONTROL Group/Shared Catalog] | （僅限管理員）表示指派給公司的[客戶群組](../customers/customer-groups.md)或[共用目錄](catalog-shared.md)。 |
 | [!UICONTROL Company Admin] | 公司管理員的完整名稱。 |
@@ -255,7 +255,7 @@ ht-degree: 0%
 | [!UICONTROL Country] | 公司註冊經營業務的國家/地區。 |
 | [!UICONTROL State/Province] | 公司註冊經營所在州或省。 |
 | [!UICONTROL ZIP/Postal Code] | 公司註冊以進行業務的郵遞區號。 |
-| [!UICONTROL Phone Number] | 公司的主要電話號碼。 |
+| [!UICONTROL Phone Number] | The primary phone number of the company. |
 
 {style="table-layout:auto"}
 
@@ -265,11 +265,11 @@ ht-degree: 0%
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | 決定公司管理員所屬的網站。 |
 | [!UICONTROL Job Title] | 管理公司帳戶的公司管理員的職稱。 |
-| [!UICONTROL Email] | 公司管理員的電子郵件地址可與公司電子郵件地址相同。 如果輸入了不同的電子郵件地址，則除了公司帳戶外，還會為公司管理員建立單獨的個人帳戶。 |
-| [!UICONTROL Prefix] | 如果適用，與公司管理員名稱（例如`Mr.`、`Ms.`、`Mrs.`或`Dr.`）關聯的前置詞。 視設定而定，輸入欄位可能是文字欄位或清單。 |
-| [!UICONTROL First Name] | 公司管理員的名字。 |
-| [!UICONTROL Middle Name/Initial] | 公司管理員的中間名或首字母。 |
-| [!UICONTROL Last Name] | 公司管理員的姓氏。 |
+| [!UICONTROL Email] | 公司管理員的電子郵件地址可與公司電子郵件地址相同。 If a different email address is entered, a separate individual account is created for the company administrator, in addition to the company account. |
+| [!UICONTROL Prefix] | `Mr.``Ms.``Mrs.``Dr.`Depending on the configuration, the input field might be a text field or list. |
+| [!UICONTROL First Name] | The first name of the company administrator. |
+| [!UICONTROL Middle Name/Initial] | The middle name or initial of the company administrator. |
+| [!UICONTROL Last Name] | The last name of the company administrator. |
 | [!UICONTROL Suffix] | 如果適用，則為與公司管理員名稱（例如`Jr.`、`Sr.`或`III.`）相關聯的尾碼。 視設定而定，輸入欄位可能是文字欄位或清單。 |
 | [!UICONTROL Gender] | 公司管理員的性別。 選項： `Male` / `Female` / `Not Specified` |
 | [!UICONTROL Send Welcome Email From] | 要從中傳送歡迎電子郵件的商店檢視。 |
@@ -289,12 +289,12 @@ ht-degree: 0%
 
 ### [!UICONTROL Advanced Settings]
 
-| 欄位 | 說明 |
+| Field | 說明 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | （僅限管理員）表示指派給公司的[客戶群組](../customers/customer-groups.md)或[共用目錄](catalog-shared.md)。 |
 | [!UICONTROL Allow Quotes] | （僅限管理員）決定公司成員是否可以代表公司準備及提交可協商的報價。 |
 | [!UICONTROL Enable Purchase Orders] | （僅限管理員）決定公司成員是否可以代表公司提交訂單作為[採購單](account-dashboard-my-purchase-orders.md)。 |
-| 適用的付款方法 | （僅限管理員）指出適用於公司購買的付款方法。 選項： `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
+| 適用的付款方法 | (Admin Only) Indicates the payment methods that are available for company purchases. `B2B Payment Methods``All Enabled Payment Methods``Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | （僅限管理員）如果已啟用特定付款方法，就會變成使用中。 若要讓公司帳戶可使用多種付款方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 | [!UICONTROL Applicable Shipping Methods] | （僅限管理員）指出可供公司購買的送貨方法。 選項： `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
 | [!UICONTROL Shipping Methods] | （僅限管理員）啟用特定送貨方法後會變成使用中。 若要讓公司帳戶可使用多種付款方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |

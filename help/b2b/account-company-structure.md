@@ -4,9 +4,9 @@ description: 瞭解公司結構，以及公司管理員如何定義它以支援�
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ ht-degree: 0%
 
 ![公司結構含部門](./assets/company-structure-diagram.svg){width="500"}
 
-在公司管理員的帳戶儀表板中，公司結構以樹狀結構表示，最初僅由公司管理員組成。
+在店面上的公司管理員帳戶儀表板中，公司結構以樹狀結構表示，最初僅由公司管理員組成。
 
-![公司結構含公司管理員](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![公司結構含公司管理員](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-帳戶建立並核准後，公司管理員可使用公司電子郵件地址或獲指派不同的電子郵件地址。
-
-擔任公司管理員的人員在公司內可能擁有多個角色。 如果為公司管理員輸入了單獨的電子郵件地址，則初始的公司結構包括公司管理員以及公司管理員名稱中的個人使用者帳戶。 在這種情況下，公司管理員可以以公司或個人使用者的身分登入該帳戶。
-
-具有系統管理員和使用者帳戶的![公司結構](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-對於商家，完整的公司結構會反映在管理員內的&#x200B;_公司_&#x200B;和&#x200B;_客戶_&#x200B;網格中。 「公司」格線會列出所有公司，無論其狀態為何。 下列範例顯示兩個公司的帳戶： _ACME_&#x200B;公司和&#x200B;_Vendelay_&#x200B;公司。
+對於商家，完整的公司結構會反映在管理員內的&#x200B;_公司_&#x200B;和&#x200B;_客戶_&#x200B;網格中。 「公司」格線會列出所有公司，無論其狀態為何。
 
 ![公司格線](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-下列範例顯示具有這些公司之初始公司管理員帳戶的[!UICONTROL Customers]網格。
+下列範例顯示具有每個公司之初始公司管理員帳戶的[!UICONTROL Customers]網格。
 
-![具有公司系統管理員帳戶的客戶方格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![具有公司管理員帳戶的客戶方格](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-建立帳戶之後，公司管理員必須定義[團隊](account-company-structure.md)的公司結構、設定[公司使用者](account-company-users.md)，並為每個使用者建立[角色和許可權](account-company-roles-permissions.md)。
+建立帳戶之後，公司管理員可以定義具有[團隊](account-company-structure.md)的公司結構、設定[公司使用者](account-company-users.md)，並為每個使用者建立[角色和許可權](account-company-roles-permissions.md)。
+
+>[!NOTE]
+>
+>新增公司使用者時，公司使用者最初會新增至根公司結構（隸屬於公司管理員）。 如果公司管理員在公司內執行多個角色，請為每個角色分別建立具有不同電子郵件地址的公司使用者帳戶。
 
 ## 公司結構圖示
 
@@ -74,9 +72,7 @@ ht-degree: 0%
 
    - 建立所需數量的團隊。
 
-     ![具有團隊的公司結構](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. 若要建立團隊階層，請執行下列動作：
+1. 若要建立團隊階層，管理員會執行下列動作：
 
    - 選取父系團隊，然後按一下&#x200B;**[!UICONTROL Add Team]**。
 
@@ -129,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Collapse All / Expand All] | 摺疊或展開業務結構樹狀結構 |
 | [!UICONTROL Add User] | 在目前團隊下方建立使用者 |
 | [!UICONTROL Add Team] | 建立團隊 |
-| [!UICONTROL Edit Selected / Delete Selected] | 編輯或移除企業樹狀結構中的使用者 |
+| [!UICONTROL Edit Selected / Remove from Structure] | 編輯使用者資訊或從企業樹狀結構中移除使用者。 如需詳細資訊，請參閱[管理公司使用者帳戶](account-company-users.md)。 |
 
 {style="table-layout:auto"}
 
