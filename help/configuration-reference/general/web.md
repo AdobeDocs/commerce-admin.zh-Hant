@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Web]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Web]頁面上的組態設定。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![網頁>一般選項](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | 範圍 | 說明 |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![網頁>搜尋引擎最佳化](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![網頁>基礎URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![網頁>基礎URL （安全）](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -79,16 +79,16 @@ ht-degree: 0%
 
 ![網頁>預設頁面](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Default Web URL] | 存放區檢視 | 表示與基底URL關聯的登入頁面。 預設會將此設為「cms」，表示來自Commerce內容管理系統(CMS)的頁面。 您也可以使用不同型別的登陸頁面，例如部落格。 例如，如果部落格安裝在位於`magento/blog`的伺服器上，您可以輸入「部落格」資料夾的名稱，作為選取頁面的相對路徑。 |
-| [!UICONTROL CMS Home Page] | 存放區檢視 | 若要選擇商店的首頁，只要從清單中選取CMS頁面即可。 依照預設，「CMS首頁」會列出商店可用的完整CMS頁面選項。 |
+| [!UICONTROL CMS Home Page] | 存放區檢視 | 若要選擇商店的首頁，只要從清單中選取CMS頁面即可。 依預設，CMS首頁會列出商店可用的完整CMS頁面選項。 |
 | [!UICONTROL Default No-route URL] | 存放區檢視 | 包含您要在發生`404 Page not Found`錯誤時顯示的預設頁面URL。 預設值為`cms/noroute/index`。 |
-| [!UICONTROL CMS No Route Page] | 存放區檢視 | 識別您要在發生「404找不到頁面」錯誤時顯示的特定CMS頁面。 預設頁面為404 Not Found。 |
-| [!UICONTROL CMS No Cookies Page] | 存放區檢視 | 識別未針對瀏覽器啟用Cookie時所顯示的特定CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為啟用Cookie。 |
-| [!UICONTROL Show Breadcrumbs for CMS Pages] | 存放區檢視 | 決定階層連結軌跡是否出現在目錄中的所有CMS頁面上。 選項： `Yes` / `No` |
+| [!UICONTROL CMS No Route Page] | 存放區檢視 | 識別發生「404找不到頁面」錯誤時，您想要顯示的特定CMS頁面。 預設頁面為404 Not Found。 |
+| [!UICONTROL CMS No Cookies Page] | 存放區檢視 | 會識別未針對瀏覽器啟用Cookie時所顯示的特定CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為啟用Cookie。 |
+| [!UICONTROL Show Breadcrumbs for CMS Pages] | 存放區檢視 | 判斷階層連結軌跡是否出現在目錄中的所有CMS頁面上。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![預設版面配置](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | 全域 | 決定預設用於產品頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，產品頁面不提供配置更新。<br/>**`Empty`** — 依預設，產品頁面會使用空白版面配置。 <br/>**`1 column`**— 依預設，會使用產品頁面的單一欄配置。<br/>**`2 columns with left bar`** — 依預設，產品頁面會使用左側邊欄的雙欄版面配置。 <br/>**`2 columns with right bar`**— 預設情況下，對於產品頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 依預設，產品頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page -- Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用產品頁面的「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「產品 — 全寬」配置。 |
 | [!UICONTROL Default Category Layout] | 全域 | 決定類別頁面預設使用的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，配置更新不適用於類別頁面。<br/>**`Empty`** — 依預設，類別頁面使用空白版面配置。 <br/>**`1 column`**— 依預設，類別頁面會使用單一欄配置。<br/>**`2 columns with left bar`** — 預設情況下，類別頁面會使用左側邊欄的雙欄版面配置。 <br/>**`2 columns with right bar`**— 預設情況下，類別頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 依預設，類別頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用類別 — 完整寬度配置來處理類別頁面。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「產品 — 全寬」配置。 |
-| 預設頁面配置 | 全域 | 決定預設用於CMS頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，CMS頁面無法使用版面更新。<br/>**`Empty`** — 依預設，會針對CMS頁面使用空白版面。 <br/>**`1 column`**— 依預設，會針對CMS頁面使用單一欄配置。<br/>**`2 columns with left bar`** — 依預設，會針對CMS頁面使用左側邊欄的雙欄配置。<br/>**`2 columns with right bar`**— 依預設，會針對CMS頁面使用右側具側欄的雙欄版面配置。<br/>**`3 columns`** — 依預設，會針對CMS頁面使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用CMS頁面的「產品 — 全寬」配置。 |
+| 預設頁面配置 | 全域 | 決定預設用於CMS頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，CMS頁面不提供配置更新。<br/>**`Empty`** — 依預設，CMS頁面會使用空白版面配置。 <br/>**`1 column`**— 依預設，會針對CMS頁面使用單一欄配置。<br/>**`2 columns with left bar`** — 依預設，CMS頁面會使用左側邊欄的雙欄版面配置。<br/>**`2 columns with right bar`**— 依預設，CMS頁面會使用右側具側欄的雙欄版面配置。<br/>**`3 columns`** — 依預設，CMS頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用CMS頁面的「產品 — 全寬」配置。 |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![網頁>預設Cookie設定](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![網頁>工作階段驗證](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![網頁>瀏覽器功能偵測](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

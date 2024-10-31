@@ -3,9 +3,9 @@ title: '[!DNL Page Builder]逐步解說第1部分：簡單頁面'
 description: 使用範例檔案，並依照步驟在 [!DNL Page Builder] 介面中建立簡單頁面。
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這些逐步解說練習已更新，以反映2.4.1版本中[!DNL Page Builder]工作區的近期變更。 如果您使用舊版Adobe Commerce，請使用[[!DNL Commerce] 2.3使用手冊](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)中的[!DNL Page Builder]逐步解說練習。
+>這些逐步解說練習已更新，以反映2.4.1版本中[!DNL Page Builder]工作區的近期變更。
 
 ## 開始之前
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 驗證必要的內容管理組態設定：
 
-- 已在[WYSIWYG Options](../content-design/editor.md#configure-the-editor)組態中啟用WYSIWYG編輯器。
+- 已在[WYSIWYG選項](../content-design/editor.md#configure-the-editor)設定中啟用WYSIWYG編輯器。
 
 - 已在[進階內容工具](setup.md)組態中啟用[!DNL Page Builder]。
 

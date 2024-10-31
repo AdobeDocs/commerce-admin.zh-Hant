@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Contacts]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Contacts]頁面上的組態設定。
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![連絡我們](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://docs.magento.com/user-guide/stores/contact-us.html) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![電子郵件選項](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://docs.magento.com/user-guide/stores/contact-us.html) -->
+<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
