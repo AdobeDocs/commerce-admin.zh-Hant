@@ -1,21 +1,17 @@
 ---
 title: WYSIWYG編輯器
-description: 瞭解如何使用編輯器，並以「您所見即所得_ (WYSIWYG)」檢視處理內容(_H)。
+description: 瞭解如何在_What You See Is What You Get_ (WYSIWYG)檢視中使用編輯器及處理內容。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # WYSIWYG編輯器
 
-編輯器可讓您在內容的&#x200B;_您所見即所得_ (WYSIWYG)檢視中進行輸入並格式化。 如果您偏好直接使用基礎HTML程式碼，則可輕鬆變更模式。 編輯器可用來建立[頁面](pages.md)、[區塊](blocks.md)和[產品說明](../catalog/product-content.md)的內容。 處理產品詳細資料時，按一下&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以存取編輯器。
-
->[!NOTE]
->
->TinyMCE 5是預設的WYSIWYG編輯器。 在Adobe Commerce和Magento Open Source 2.4.5中更新TinyMCE 5.10程式庫，解決了在使用某些型別URL更新影像或連結時允許任意JavaScript執行的弱點。 TinyMCE 3在2.4.0版本中已過時，在2.4.3版本中已移除。 TinyMCE 4已在2.4.4版本中移除。
+編輯器可讓您在內容的&#x200B;_What You See Is What You Get_ (WYSIWYG)檢視中進行輸入和格式化。 如果您偏好直接使用基礎HTML程式碼，則可輕鬆變更模式。 編輯器可用來建立[頁面](pages.md)、[區塊](blocks.md)和[產品說明](../catalog/product-content.md)的內容。 處理產品詳細資料時，按一下&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以存取編輯器。
 
 ![編輯器工具列](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
