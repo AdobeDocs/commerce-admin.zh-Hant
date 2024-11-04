@@ -3,9 +3,9 @@ title: 商店本地化
 description: 瞭解如何將商店或商店檢視本地化。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在您商店的所有頁面中，大多數看似以硬式編碼撰寫的文字，可以透過變更檢視的地區設定來立即變更為不同的語言。 變更地區設定實際上並不會逐字翻譯文字，而只是參照不同的翻譯表格，提供整個存放區使用的介面文字。 可變更的文字包含導覽標題、標籤、按鈕和連結，例如&#x200B;_我的購物車_&#x200B;和&#x200B;_我的帳戶_。 您也可以使用[內嵌翻譯](../configuration-reference/advanced/developer.md)工具來修改介面中的文字。
 
-在Commerce Marketplace的[翻譯與本地化][1]{：target=&quot;_blank&quot;}下可以找到語言套件。 Marketplace會持續新增新擴充功能，因此請經常回來檢視。
+在Commerce Marketplace的[翻譯與本地化][1]{:target="_blank"}下可以找到語言套件。 Marketplace會持續新增新擴充功能，因此請經常回來檢視。
 
 ## 步驟1：安裝語言套件
 
@@ -46,11 +46,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為要套用組態的特定檢視。
+1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉式清單中，選取要設定的存放區檢視，然後在提示時按一下&#x200B;**[!UICONTROL OK]**。
 
-1. 提示確認範圍切換時，請按一下&#x200B;**[!UICONTROL OK]**。
-
-1. 展開&#x200B;**[!UICONTROL Locale Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;*[!UICONTROL General]*&#x200B;設定頁面上，展開&#x200B;**[!UICONTROL Locale Options]**&#x200B;區段中的![擴充選取器](../assets/icon-display-expand.png)。
 
 1. 清除「**[!UICONTROL Use Website]**」核取方塊，並將&#x200B;**[!UICONTROL Locale]**&#x200B;設定為您要指派給檢視的語言。
 
