@@ -3,9 +3,9 @@ title: 轉移Commerce帳戶
 description: 瞭解如何將您的Commerce帳戶轉移給其他擁有者或電子郵件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
+source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >由於Adobe Commerce持續與其他Adobe解決方案整合，因此Commerce帳戶(MAGEID)現在需要與Adobe登入建立關聯。 此Adobe ID使用與您Commerce帳戶連線的相同電子郵件地址。
-
->[!NOTE]
->
->如果目前擁有者或新擁有者擁有與其他Adobe產品/服務相關聯的Adobe登入帳戶，您可以開啟[支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)，協助將Commerce帳戶轉移到其他Adobe ID。
 
 ## 新的Adobe ID和電子郵件變更
 
