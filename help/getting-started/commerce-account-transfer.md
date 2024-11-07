@@ -3,9 +3,9 @@ title: 轉移Commerce帳戶
 description: 瞭解如何將您的Commerce帳戶轉移給其他擁有者或電子郵件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
-1. **提交支援要求**，通知支援團隊您已更新帳戶擁有者的電子郵件地址。 在您的請求中包含先前的帳戶擁有者電子郵件地址。
-
-「支援」必須執行其他步驟，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)設定檔上的電子郵件地址。
+>[!IMPORTANT]
+>
+>提交支援請求，通知支援團隊您已更新帳戶所有者的電子郵件地址。 團隊必須執行其他步驟以完成更新，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)設定檔上的電子郵件地址。 在您的請求中包含先前的帳戶擁有者電子郵件地址。
