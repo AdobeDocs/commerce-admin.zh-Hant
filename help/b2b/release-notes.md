@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
+source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
 workflow-type: tm+mt
-source-wordcount: '7776'
+source-wordcount: '7801'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 0%
 與Adobe Commerce版本2.4.8-beta1、2.4.7至2.4.7-p2、2.4.6至2.4.6-p7相容
 
 B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
+
+>[!NOTE]
+>
+> 檢閱[回溯不相容變更](backward-incompatible-changes.md)主題中的重點和參考資訊，瞭解B2B 1.5.0版本中推出的回溯不相容變更(BIC)。
 
 ### 公司管理
 
@@ -64,20 +68,20 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 報價功能的改進可協助買家和賣家更有效地管理報價和報價議價。
 
-![新的](../assets/new.svg) **報價範本**—<!--B2B-3367-->買家和賣家現在可以建立可重複使用且可自訂的報價範本，以簡化報價程式。 使用報價樣版時，報價議價處理可以完成一次，而採購員可以針對重複產生訂單產生預先核准的連結報價，而非針對每筆訂單執行報價議價處理。 Quote templates extend the existing quote functionality by adding the following advanced features:
+![新的](../assets/new.svg) **報價範本**—<!--B2B-3367-->買家和賣家現在可以建立可重複使用且可自訂的報價範本，以簡化報價程式。 使用報價樣版時，報價議價處理可以完成一次，而採購員可以針對重複產生訂單產生預先核准的連結報價，而非針對每筆訂單執行報價議價處理。 報價範本藉由新增下列進階功能來擴充現有的報價功能：
 
-- ****
-- ****
-- ****
+- **訂單臨界值**&#x200B;可讓賣家設定最小與最大訂單承諾，確保買方遵守議定的採購量。
+- **設定最小與最大料號訂購數量**&#x200B;可讓採購員彈性調整連結報價單上的訂購數量，而不需要新的樣版或進一步的議價。
+- **追蹤已產生並成功完成訂單的連結報價數目**，以深入瞭解交涉合約的履行情況。
 - **連結的報價單**&#x200B;是採購員從有效報價單範本產生的預先核准報價單，以根據報價單範本中議定的條款提交週期性訂單。
 
 ![新](../assets/new.svg) **現有報價功能改善**
 
 - **已更新的Commerce存取控制清單(ACL)規則**&#x200B;允許B2B管理員和主管管理從屬使用者的報價和報價範本。 個別規則支援檢視、編輯和刪除存取權的精細設定。
 
-- ****<!--B2B-2566-->[](quote-request.md)The draft quote does not have an expiration date. [!UICONTROL My Quotes]
+- **將報價另存為草稿**<!--B2B-2566--> — 當從購物車建立[報價請求](quote-request.md)時，買家現在可以將報價另存為草稿，以便在與賣家開始報價議價程式之前，可以複查並更新報價。 草擬報價沒有到期日。 買家可以從其帳戶儀表板的[!UICONTROL My Quotes]區段檢閱和更新草稿報價。
 
-- ****<!--B2B-2596-->[](account-dashboard-my-quotes.md#quote-actions)**[!UICONTROL Rename]** This option is available to authorized buyers when they are editing the quote. Name change events are recorded in the Quote History Log.
+- **重新命名報價**<!--B2B-2596--> — 購買者現在可以選取&#x200B;**[!UICONTROL Rename]**&#x200B;選項，從[報價詳細資料](account-dashboard-my-quotes.md#quote-actions)頁面變更報價名稱。 授權購買者在編輯報價時，可使用此選項。 名稱變更事件會記錄在「報價記錄檔」中。
 
 - **重複報價**<!--B2B-2701--> — 買家和賣家現在可以複製現有的報價，建立新的報價。 在Admin或[店面](account-dashboard-my-quotes.md#quote-actions)的[報價詳細資料檢視](quote-price-negotiation.md#button-bar)中選取&#x200B;**[!UICONTROL Create Copy]**，以從報價詳細資料檢視建立副本。
 
@@ -93,9 +97,9 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - 先前傳送具有`0`百分比的客戶報價並變更數量時，管理員會擲回例外狀況，但會儲存數量。 此修正套用後，將會擲回包含訊息的`0 percentage`適當例外狀況。<!--ACP2E-1742-->
 
-- `0%``Exception occurred during quote sending`<!--ACP2E-1742-->
+- 在報價議價期間，賣家現在可以在「議價報價折扣」欄位中指定`0%`折扣，並將報價傳回給買方。 之前，如果賣家輸入0%的折扣，並將報價傳回給買方，管理員會傳回`Exception occurred during quote sending`錯誤訊息。<!--ACP2E-1742-->
 
-- ReCaptcha validation now works correctly during the checkout process for a B2B quote when ReCaptcha V3 is configured for storefront checkout. 之前，驗證失敗並出現`recaptcha validation failed, please try again`錯誤訊息。 <!--ACP2E-2097-->
+- ReCaptcha V3已設定為店面結帳，現在，ReCaptcha驗證可正確在B2B報價的結帳程式中運作。 之前，驗證失敗並出現`recaptcha validation failed, please try again`錯誤訊息。 <!--ACP2E-2097-->
 
 ### 採購單
 
@@ -141,7 +145,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 ## B2B v1.4.2
 
-**
+*2023年10月10日*
 
 [!BADGE 支援]{type=Informative tooltip="支援"}
 
@@ -157,23 +161,23 @@ B2B v1.4.2版本包含品質改良與錯誤修正。
 
 *2023年8月7日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"}[](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)Compatible with Adobe Commerce 2.4.7-beta1.
+[!BADGE 支援]{type=Informative tooltip="支援"}[Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 與Adobe Commerce 2.4.7-beta1相容。
 
-The B2B v1.4.1 release includes quality improvements and bug fixes.
+B2B v1.4.1版本包含品質改良和錯誤修正。
 
-![](../assets/fix.svg)<!--ACP2E-1825-->以前，與公司相關聯的使用者可以在公司遭到封鎖時下訂單。
+![已修正問題](../assets/fix.svg) <!--ACP2E-1825-->公司遭到封鎖後，與公司相關聯的使用者無法再下採購單。 以前，與公司相關聯的使用者可以在公司遭到封鎖時下訂單。
 
 ![已修正問題](../assets/fix.svg) <!--ACP2E-1943-->店面現在已正確顯示產品延期交貨狀態。 以前，可供出貨的產品被錯誤地識別為延期交貨。
 
 ![已修正問題](../assets/fix.svg) <!--ACP2E-1862-->如果公司登錄檔單包含客戶檔案型別屬性，則公司建立後，註冊程式期間上傳的檔案現在會包含在公司管理員的帳戶資訊中。 之前，附件遺失。
 
-![已修正問題](../assets/fix.svg) <!--ACP2E-1793-->可設定產品的色票選取器現在會如預期般顯示在請購單清單專案設定頁面中。 Previously, the swatch selector was displayed as a dropdown field in the requisition list item configuration page.
+![已修正問題](../assets/fix.svg) <!--ACP2E-1793-->可設定產品的色票選取器現在會如預期般顯示在請購單清單專案設定頁面中。 之前，色票選取器會在請購單清單專案設定頁面中顯示為下拉式欄位。
 
-![](../assets/fix.svg)<!--ACP2E-1968-->[](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)
+![已修正問題](../assets/fix.svg) <!--ACP2E-1968-->使用[公司GraphQL查詢](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)傳回公司詳細資料時，結果現在可順利傳回，而不會發生錯誤。
 
 ## B2B v1.4.0
 
-**
+*2023年6月13日*
 
 [!BADGE 支援]{type=Informative tooltip="支援"}[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)。 與Adobe Commerce 2.4.7-beta1相容
 
@@ -185,9 +189,9 @@ The B2B v1.4.1 release includes quality improvements and bug fixes.
 
 ![新的](../assets/new.svg) **明細專案折扣與議價**—<!--B2B-2440-->在報價中，B2B買方與賣家現在可以在明細專案層級進行議價，套用折扣與交換附註，直到達成協定為止。 備註建立與更新會包含在明細專案與報價記錄中，以追蹤溝通。 以前，買家和賣家只能在報價層級交換備註和套用折扣。
 
-![已修正問題](../assets/fix.svg)啟用「採購單」選項，且選取使用PayPal付款選項建立的虛擬報價單時，Adobe Commerce現在會在付款期間顯示正確的詳細資料。 Previously, totals were displayed as zero under these conditions.
+![已修正問題](../assets/fix.svg)啟用「採購單」選項，且選取使用PayPal付款選項建立的虛擬報價單時，Adobe Commerce現在會在付款期間顯示正確的詳細資料。 以前，在這些條件下，總計會顯示為零。
 
-![已修正問題](../assets/fix.svg) <!--ACP2E-1504-->當您嘗試儲存信用額度超過999的公司時，不會再發生驗證錯誤。 Previously, for company credit limits greater than 999, Adobe commerce inserted a comma separator, which caused a validation error that prevented updates from being saved.
+![已修正問題](../assets/fix.svg) <!--ACP2E-1504-->當您嘗試儲存信用額度超過999的公司時，不會再發生驗證錯誤。 先前，對於大於999的公司信用限制，Adobe商務插入逗號分隔符號，這會導致驗證錯誤，阻止儲存更新。
 
 ![已修正問題](../assets/fix.svg) <!--ACP2E-1474-->當您以可轉讓報價下訂單時，選取的送貨地址現在會維持不變。 之前，當您下訂單時，選取的送貨地址會變更為預設送貨地址。
 
@@ -223,11 +227,11 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![新](../assets/new.svg)已新增與Adobe Commerce 2.4.6-p8安全性修補程式版本的相容性。
 
-![](../assets/fix.svg)[](https://helpx.adobe.com/security/products/magento/apsb24-73.html)
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 ## B2B v1.3.5-p7
 
-**
+*2024年8月9日*
 
 [!BADGE 支援]{type=Informative tooltip="支援"}
 
@@ -237,7 +241,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 *2023年3月14日*
 
-[!BADGE 支援]{type=Informative tooltip="Supported"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新](../assets/new.svg)已發行B2B 1.3.5-p2版，支援與Adobe Commerce 2.4.6-p2的相容性。
 
@@ -257,13 +261,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-1236-->在特定範圍上停用共用目錄功能現在可以正常運作。 之前，當商家儲存共用目錄設定時，Adobe Commerce會設定無效的範圍。
 
-![](../assets/fix.svg)<!--- ACP2E-1203-->Previously, customer custom attributes for company users could not be saved.
+![已修正問題](../assets/fix.svg) <!--- ACP2E-1203-->管理員使用者現在可以為公司使用者儲存客戶自訂屬性值。 以前無法儲存公司使用者的客戶自訂屬性。
 
-![](../assets/fix.svg)<!--- ACP2E-1221-->
+![已修正問題](../assets/fix.svg) <!--- ACP2E-1221-->當已指派許多公司許可權時，透過GraphQL提供的公司許可權驗證即可解決效能問題。
 
-![](../assets/fix.svg)<!--- ACP2E-1242-->
+![已修正問題](../assets/fix.svg) <!--- ACP2E-1242-->當使用快速訂購新增數量超過可用存貨的產品時，Adobe Commerce不再在購物車頁面上擲回錯誤。
 
-![](../assets/fix.svg)<!--- ACP2E-1090-->`SELECT`
+![已修正問題](../assets/fix.svg) <!--- ACP2E-1090--> `SELECT`公司許可權作業的效能已改善。
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-2456-->當查詢的類別沒有明確設定類別許可權時，類別查詢現在會根據商店組態設定傳回產品價格。
 
@@ -271,9 +275,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## B2B v1.3.4-p10
 
-**
+*2024年10月9日*
 
-[!BADGE ]{type=Informative tooltip="Supported"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
 ![新](../assets/new.svg)已新增對Adobe Commerce 2.4.5-p10的支援。
 
@@ -293,7 +297,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-322-->啟用&#x200B;**[!UICONTROL Move out of stock to the bottom]**&#x200B;設定後，庫存更新後，可設定的產品現在會移至產品清單中的最後一個位置。 已實作新的自訂資料庫查詢，以確保Elasticsearch索引排序順序現在遵循管理員啟用的排序順序。 先前，啟用此設定時，可設定的產品及其子產品不會移至清單底部。
 
-![](../assets/fix.svg)<!--- ACP2E-308-->**[!UICONTROL Disable Email Communications]**&#x200B;設定的檢查已新增至電子郵件佇列的自訂邏輯。 之前，Adobe Commerce沒有遵循次要網站的電子郵件傳送設定。
+![已修正問題](../assets/fix.svg) <!--- ACP2E-308-->採購單電子郵件現在會遵循多網站部署中每個網站的電子郵件傳送設定。 **[!UICONTROL Disable Email Communications]**&#x200B;設定的檢查已新增至電子郵件佇列的自訂邏輯。 之前，Adobe Commerce沒有遵循次要網站的電子郵件傳送設定。
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-302-->為了清楚起見，已變更「快速訂購」頁面之SKU欄位的標題。
 
@@ -303,13 +307,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-722 -->在擷取依`uid`篩選的請購單清單時，`customer`查詢不再傳回空白結果。
 
-![](../assets/fix.svg)<!--- ACP2E-210 -->`collectQuoteTotals`
+![已修正問題](../assets/fix.svg) <!--- ACP2E-210 -->在`collectQuoteTotals`呼叫之前新增外掛程式，以確保商店積分僅套用一次。
 
-![](../assets/fix.svg)<!--- ACP2E-665 -->Previously, Adobe Commerce threw an error. `SessionPlugin``try…catch`Previously, this code was not wrapped inside the generic exception-handling block.
+![已修正問題](../assets/fix.svg) <!--- ACP2E-665 -->當管理員從管理員中刪除客戶的帳戶時，現在會將客戶重新導向至登入頁面。 之前，Adobe Commerce擲回錯誤。 外掛程式(`SessionPlugin`)程式碼區塊現在位於`try…catch`區塊內。 之前，此程式碼不會包裝在一般例外狀況處理區塊中。
 
-![](../assets/fix.svg)<!--- ACP2E-661 -->****
+![已修正問題](../assets/fix.svg) <!--- ACP2E-661 -->在行動模式的「快速訂購」頁面上，輸入有效的產品名稱或SKU後按&#x200B;**Enter**，購物者就會如預期前往下一個欄位。
 
-![](../assets/fix.svg)<!--- ACP2E-607 -->
+![已修正問題](../assets/fix.svg) <!--- ACP2E-607 -->公司名稱現在會如預期顯示在結帳工作流程的帳單和送貨地址區段。
 
 ![已修正的問題](../assets/fix.svg) <!--- ACP2E-375 -->當停用&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;付款方式時，商店點數現在無法使用。 以前，在管理員下訂單時，「商店積分」核取方塊無法運作。 應用程式未以商店信用下訂單，並顯示此錯誤： `The requested Payment Method is not available`。
 
@@ -317,13 +321,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 *2022年8月9日*
 
-[!BADGE 支援]{type=Informative tooltip="Supported"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
-![](../assets/new.svg)
+![新](../assets/new.svg)已新增對Adobe Commerce 2.4.4的支援。
 
-![](../assets/fix.svg)<!--- MC-41985-->
+![已修正問題](../assets/fix.svg) <!--- MC-41985-->在擁有超過100,000個公司角色的部署中，從Adobe Commerce 2.3.x升級至Adobe Commerce 2.4.x所需的時間已大幅減少。
 
-![](../assets/fix.svg)<!--- MC-42153-->`V1/order/:orderId/invoice`**[!UICONTROL Payment on Account]**&#x200B;之前，Adobe Commerce擲回此錯誤： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![已修正問題](../assets/fix.svg) <!--- MC-42153-->啟用&#x200B;**[!UICONTROL Payment on Account]**&#x200B;付款方式時，POST`V1/order/:orderId/invoice`要求現在支援建立部分發票。 之前，Adobe Commerce擲回此錯誤： `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`。 [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![已修正問題](../assets/fix.svg) <!--- MC-41975-->當客戶的購物車包含其他產品時，PayPal Payflow Pro現在可與B2B可轉讓報價一起正常運作。 Adobe Commerce現在能成功處理訂單，並如預期傳送電子郵件給客戶。 之前，Adobe Commerce擲回嚴重錯誤，並傳送確認電子郵件給客戶，其中包含零值。
 
@@ -349,9 +353,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- MC-42214--> _類別_&#x200B;頁面現在會在部分索引期間產生許可權時，顯示一致的產品資料。 新的目錄許可權部分索引器已新增至此程式。 先前，索引器執行時顯示的資料不正確。
 
-![](../assets/fix.svg)<!--- MC-42567-->`categoryList`
+![已修正問題](../assets/fix.svg) <!--- MC-42567-->使用目錄許可權並將產品指派給共用目錄時，`categoryList`查詢現在會傳回正確數量的產品。
 
-![](../assets/fix.svg)<!--- MC-42528-->`categoryList`Previously, it returned all assigned and unassigned categories.
+![已修正問題](../assets/fix.svg) <!--- MC-42528--> `categoryList`查詢現在遵循類別許可權，並只傳回允許的類別。 之前，它會傳回所有指派和未指派的類別。
 
 ![已修正問題](../assets/fix.svg) <!--- MC-42399--> `rest/V1/company/{id}`要求現在會如預期傳回`is_purchase_order_enabled`屬性值。
 
@@ -359,11 +363,11 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- ACP2E-130--> 「我的帳戶」頁面上的「我的願望清單」區塊現在會如預期般顯示給公司管理員和公司使用者。
 
-![已修正問題](../assets/fix.svg) <!--- ACP2E-133-->購物車中不再顯示快速訂購錯誤。 `The SKU was not found in the catalog`
+![已修正問題](../assets/fix.svg) <!--- ACP2E-133-->購物車中不再顯示快速訂購錯誤。 之前，在目錄中找不到SKU時，Adobe Commerce會在購物車中顯示此錯誤： `The SKU was not found in the catalog`。
 
-![](../assets/fix.svg)<!--- ACP2E-194-->Previously, saving a shared catalog with many customer groups could take several minutes.
+![已修正問題](../assets/fix.svg) <!--- ACP2E-194-->已最佳化共用目錄儲存作業，以便更快速地執行。 以前，儲存與許多客戶群組的共用目錄可能需要幾分鐘的時間。
 
-![](../assets/fix.svg)<!--- MC-42240-->`sharedcatalog_category_permissions`Previously, only the parent category data was removed.
+![已修正問題](../assets/fix.svg) <!--- MC-42240-->刪除父類別時，Adobe Commerce現在會從`sharedcatalog_category_permissions`表格中刪除所有子類別許可權。 之前，系統只會移除父類別資料。
 
 ## B2B v1.3.2
 
@@ -389,15 +393,15 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- MC-32653-->公司角色許可權的資源樹狀結構現在可以如預期般轉譯。 以前，即使存在有效的翻譯檔案，許可權樹狀結構也不會翻譯。
 
-![](../assets/fix.svg)<!--- MC-40358-->之前，建立包含自訂客戶屬性的公司帳戶會觸發範本錯誤，且Adobe Commerce未成功載入表單。 `company_create_account`
+![已修正問題](../assets/fix.svg) <!--- MC-40358--> Adobe Commerce現在會如預期為B2B使用者儲存自訂客戶屬性值。 之前，建立包含自訂客戶屬性的公司帳戶會觸發範本錯誤，且Adobe Commerce未成功載入表單。 將引數新增至`company_create_account`的版面配置解決了此問題。
 
-![已修正問題](../assets/fix.svg) <!--- MC-41721-->公司使用者篩選器（例如「顯示所有使用者」、「顯示作用中使用者」和「顯示非作用中使用者」）現在可如預期般運作。 Previously, filtering actions on the company user page caused a JavaScript error.
+![已修正問題](../assets/fix.svg) <!--- MC-41721-->公司使用者篩選器（例如「顯示所有使用者」、「顯示作用中使用者」和「顯示非作用中使用者」）現在可如預期般運作。 先前，篩選公司使用者頁面上的動作會造成JavaScript錯誤。
 
-### Company credit
+### 公司評價
 
-![](../assets/fix.svg)<!--- MC-41551-->
+![已修正問題](../assets/fix.svg) <!--- MC-41551-->帳戶受限且僅包含網站層級許可權的管理員現在可以建立使用網站以外其他貨幣的公司。
 
-![](../assets/fix.svg)<!--- MC-41523-->`from`Previously, Adobe Commerce did not consider website scope when sending company credit assignment or update email.
+![已修正問題](../assets/fix.svg) <!--- MC-41523--> Adobe Commerce現在會從正確的`from`電子郵件地址和範圍傳送公司電子郵件。 以往，在傳送公司信用指派或更新電子郵件時，Adobe Commerce不會考量網站範圍。
 
 ### 快速訂購
 
@@ -407,13 +411,13 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- MC-40261-->當您在快速訂購期間使用SKU選取多個產品時，「新增的產品」清單現在會顯示以小寫和大寫輸入的SKU。
 
-![](../assets/fix.svg)<!--- MC-40225-->Previously, Adobe Commerce added one product only even when shopper-specified quantities exceed one.
+![已修正問題](../assets/fix.svg) <!--- MC-40225-->使用快速訂購現在會新增購物者指定數量的產品。 之前，即使購物者指定的數量超過一個，Adobe Commerce也只新增一個產品。
 
-![](../assets/fix.svg)<!--- MC-41283-->
+![已修正問題](../assets/fix.svg) <!--- MC-41283-->快速訂購自動完成功能現在可與部分SKU搭配使用。
 
-![](../assets/fix.svg)<!--- MC-41299-->****
+![已修正問題](../assets/fix.svg) <!--- MC-41299--> Adobe Commerce現在會在「快速訂購」頁面的自動建議清單與搜尋結果上，顯示已設定為&#x200B;**未個別顯示的產品**。
 
-![](../assets/fix.svg)<!--- MC-42402-->之前，僅新增第一個產品。
+![已修正問題](../assets/fix.svg) <!--- MC-42402-->購物者現在可以使用快速訂購表單，依包含大寫字元的SKU新增多個產品。 之前，僅新增第一個產品。
 
 ### 可轉讓報價
 
@@ -421,9 +425,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- MC-39317-->對於在結帳期間建立之客戶帳戶包含具有日期可自訂選項之產品的訂單，重新排序現在可如預期運作。 之前，Adobe Commerce不會處理重新排序並顯示此錯誤： `The product has required options. Enter the options and try again`。
 
-![已修正問題](../assets/fix.svg) <!--- MC-39063-->當採購單模組停用時，可轉讓報價單的送貨地址在結帳期間無法再編輯。 `isQuoteAddressLocked`
+![已修正問題](../assets/fix.svg) <!--- MC-39063-->當採購單模組停用時，可轉讓報價單的送貨地址在結帳期間無法再編輯。 此行為是先前修正`isQuoteAddressLocked`從可轉讓報价籤出轉譯器移除所導致。
 
-![](../assets/fix.svg)<!--- MC-38967-->
+![已修正問題](../assets/fix.svg) <!--- MC-38967-->商戶現在可以從管理員新增產品至可轉讓的報價。
 
 ### 採購單
 
@@ -443,23 +447,23 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![修正問題](../assets/fix.svg) <!--- MC-39580-->當您從請購單清單編輯套件組合產品時，Adobe Commerce不再擲回嚴重錯誤。
 
-![](../assets/fix.svg)<!--- MC-40454-->`(File)`The link to the uploaded file is also visible as expected. Previously, Adobe Commerce displayed incorrect product prices and did not display the link to the file.
+![已修正問題](../assets/fix.svg) <!--- MC-40454-->現在，當您從請購單清單新增具有可自訂選項`(File)`的產品至願望清單時，Adobe Commerce會顯示正確的產品價格。 上傳檔案的連結也會如預期般顯示。 之前，Adobe Commerce顯示錯誤的產品價格，且不顯示檔案連結。
 
-![](../assets/fix.svg)<!--- MC-36383-->`(File)`
+![已修正問題](../assets/fix.svg) <!--- MC-36383-->現在可以從請購單清單將具有自訂選項`(File)`的產品新增到購物車。
 
-### Shared catalog
+### 共用目錄
 
-![](../assets/fix.svg)<!--- MC-40497-->之前，當角色有限的管理員嘗試建立共用目錄時，Adobe Commerce會擲回嚴重錯誤。
+![已修正問題](../assets/fix.svg) <!--- MC-40497-->角色限製為特定網站的管理員現在可以建立、檢視及編輯共用目錄。 之前，當角色有限的管理員嘗試建立共用目錄時，Adobe Commerce會擲回嚴重錯誤。
 
 ![已修正問題](../assets/fix.svg) <!--- MC-41337-->階層式導覽結果現在包含具有篩選屬性的精確產品計數，購物者現在可以套用多個篩選器。 之前，僅可套用一個篩選器，而Adobe Commerce在分層導覽中顯示不準確的產品計數。
 
-![已修正問題](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce現在會在搜尋結果中的階層式導覽篩選器中正確顯示產品計數。 Previously, a plugin for the Search Results page did not use ElasticSearch but issued a new query to the database.
+![已修正問題](../assets/fix.svg) <!--- MC-40779--> Adobe Commerce現在會在搜尋結果中的階層式導覽篩選器中正確顯示產品計數。 以前，「搜尋結果」頁面的外掛程式不會使用Elasticsearch，而是向資料庫發出新查詢。
 
-![](../assets/fix.svg)<!--- MC-39978-->
+![已修正問題](../assets/fix.svg) <!--- MC-39978-->當商家從預設共用目錄中刪除所有產品時，Adobe Commerce不再刪除層級價格。
 
-![](../assets/fix.svg)<!--- MC-39802-->Previously, filters were wrongly calculated for the current page only and were not filtered by the current category.
+![已修正問題](../assets/fix.svg) <!--- MC-39802-->篩選器現在已依目前類別篩選，並在共用目錄啟用時在所有頁面上正確顯示。 之前，僅針對目前頁面錯誤地計算篩選器，且沒有按目前類別篩選。
 
-![](../assets/fix.svg)<!--- MC-39522-->`products``items`
+![已修正問題](../assets/fix.svg) <!--- MC-39522-->啟用共用目錄時，GraphQL `products`查詢不再傳回未指派給共用目錄之產品的價格範圍和類別。 以前，查詢會傳回產品的彙總，即使產品本身並未在`items`陣列中傳回。
 
 ## B2B v1.3.1
 
@@ -485,15 +489,15 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg)啟用B2B共用目錄時，新的和重複的產品現在會如預期般顯示在類別頁面上。<!--- MC-38307-->
 
-![](../assets/fix.svg)`store_id`先前，群組更新時，`store_id`已變更為預設存放區。<!--- MC-38196-->
+![已修正問題](../assets/fix.svg)當公司的客戶群組更新時，Adobe Commerce現在會維護與公司管理員關聯的正確`store_id`。 先前，群組更新時，`store_id`已變更為預設存放區。<!--- MC-38196-->
 
 ![已修正問題](../assets/fix.svg) Adobe Commerce現在會將群組產品儲存至請購單清單，作為簡單產品清單，其方式與將群組產品新增至購物車相同。 先前，由於Adobe Commerce儲存群組產品的方式，請購單清單中群組產品的連結一律會重新導向至簡單產品，而非群組產品。<!--- MC-38049-->
 
-![](../assets/fix.svg)**[!UICONTROL Company Name]**`var/export/{file-id}`<!--- MC-37785-->
+![已修正問題](../assets/fix.svg)您現在可以在匯出CSV格式的訂單資訊時，依&#x200B;**[!UICONTROL Company Name]**&#x200B;欄位篩選訂單。 之前，Adobe Commerce在`var/export/{file-id}`中記錄錯誤。<!--- MC-37785-->
 
-![](../assets/fix.svg)<!--- MC-37915-->
+![已修正問題](../assets/fix.svg)當您在店面選取[建立新請購單清單]索引標籤時，Adobe Commerce現在會如預期顯示[建立請購單清單]快顯功能表。<!--- MC-37915-->
 
-![](../assets/fix.svg)先前，當商家從產品詳細資料頁面將產品新增到請購單清單後，Adobe Commerce會顯示此錯誤： `1 product(s) require your attention - Options were updated. Please review available configurations`。<!--- MC-37621-->
+![已修正問題](../assets/fix.svg)請購單清單現在包含已新增至清單的所有分組產品和數量。 先前，當商家從產品詳細資料頁面將產品新增到請購單清單後，Adobe Commerce會顯示此錯誤： `1 product(s) require your attention - Options were updated. Please review available configurations`。<!--- MC-37621-->
 
 ![已修正問題](../assets/fix.svg)當您在多網站部署中建立公司時，正確的商店檢視現在會與相關網站相關聯。 之前，您無法建立公司，Adobe Commerce會顯示此錯誤： `The store view is not in the associated website`。<!--- MC-37488-->
 
@@ -501,9 +505,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg)當「快速訂購」頁面的&#x200B;_[!UICONTROL Enter Multiple SKUs]_區段包含空白值時，**[!UICONTROL Add to Cart]**按鈕不再遭到封鎖。 Adobe Commerce現在改為顯示訊息，提示您輸入有效的SKU。<!--- MC-37387-->
 
-![已修正問題](../assets/fix.svg)當您從請購單清單提交產品評論時，Adobe Commerce現在會在產品頁面上顯示此訊息： `You submitted your review for moderation`。 **[!UICONTROL Marketing]****[!UICONTROL Pending Reviews]**<!--- MC-37119-->
+![已修正問題](../assets/fix.svg)當您從請購單清單提交產品評論時，Adobe Commerce現在會在產品頁面上顯示此訊息： `You submitted your review for moderation`。 評論也會顯示在擱置評論頁面上（管理員&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）。 之前，雖然Adobe Commerce已將評論新增至待處理評論的清單，但在產品頁面上擲回404錯誤。<!--- MC-37119-->
 
-![](../assets/fix.svg)`sharedCatalogUpdateCategoryPermissions`<!--- MC-36770-->
+![已修正問題](../assets/fix.svg) `sharedCatalogUpdateCategoryPermissions`消費者的效能已改善。 建立共用目錄後，目錄許可權索引器現在只會使用共用目錄中的客戶群組ID，而非所有客戶群組。<!--- MC-36770-->
 
 ![已修正問題](../assets/fix.svg)與購物者的非預設地址相關聯的自訂客戶地址屬性欄位，現在會如預期般儲存在店面結帳工作流程中。<!--- MC-36630-->
 
@@ -515,7 +519,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) `credit_history`查詢現在會傳回指定公司原始配置金額與購買金額的信用記錄。 之前，此查詢傳回錯誤。
 
-![](../assets/fix.svg)**[!UICONTROL Company]****[!UICONTROL Job Title]**
+![已修正問題](../assets/fix.svg) 「編輯帳戶資訊」頁面上的&#x200B;**[!UICONTROL Company]**&#x200B;及&#x200B;**[!UICONTROL Job Title]**&#x200B;欄位已無法再編輯。
 
 ### 已知問題
 
@@ -533,9 +537,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 *2020年10月15日*
 
-[!BADGE 支援]{type=Informative tooltip="Supported"}
+[!BADGE 支援]{type=Informative tooltip="支援"}
 
-This release includes improvements to order approvals, shipping methods, shopping cart, and logging of Admin actions.
+此版本包括訂單核准、送貨方法、購物車及管理員動作記錄等的改善。
 
 ![新](../assets/new.svg)已新增對Adobe Commerce 2.4.1的支援。
 
@@ -543,15 +547,15 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![新](../assets/new.svg) B2B商家現在可以控制提供給每個公司的送貨方法。<!--- BUNDLE-160 161 162 -->
 
-![](../assets/new.svg)<!--- BUNDLE-108 -->
+![新](../assets/new.svg)商家現在可以允許使用者透過單一動作清除其購物車的內容，並且可以在每個網站<!--- BUNDLE-108 -->上獨立設定此功能
 
-![](../assets/new.svg)<!--- BUNDLE-145 144-->
+![新](../assets/new.svg) B2B購買者現在可以將個別專案或其購物車的全部內容直接新增到請購單清單。<!--- BUNDLE-145 144-->
 
-![](../assets/new.svg)<!--- BUNDLE-166 178-->
+![新](../assets/new.svg) B2B商家可使用帳戶付款作為付款方式，代表客戶從管理員建立訂單。<!--- BUNDLE-166 178-->
 
-![](../assets/new.svg)<!--- BUNDLE-139 -->
+![新](../assets/new.svg)商家現在可以從客戶的詳細資料頁面直接檢視與使用者相關的所有報價單。<!--- BUNDLE-139 -->
 
-![](../assets/new.svg)<!--- BUNDLE-137 -->
+![新](../assets/new.svg)商戶現在可以依公司篩選「立即線上客戶」方格。<!--- BUNDLE-137 -->
 
 ![新](../assets/new.svg)管理員現在可以依銷售代表在管理員中篩選客戶。<!--- BUNDLE-110 -->
 
@@ -569,21 +573,21 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![已修正問題](../assets/fix.svg) Adobe Commerce現在會傳送電子郵件通知，確認當商家啟用&#x200B;**[!UICONTROL Allow To Exceed Credit Limit]**&#x200B;設定時，客戶有權超過指定的信用額度。 以往，Adobe Commerce傳送的通知電子郵件指出客戶沒有許可權超過限制。<!--- MC-34584-->
 
-![](../assets/fix.svg)<!--- MC-36331-->
+![已修正問題](../assets/fix.svg)請購單清單上產品價格周圍的HTML容器，現在已針對套裝產品的子項正確呈現。<!--- MC-36331-->
 
 ![已修正問題](../assets/fix.svg)商戶現在可以指定在多語言部署中建立公司時，傳送公司使用者電子郵件的語言。 以前，商家可以使用的下拉式功能表選取適當的商店檢視和語言，但系統不會顯示。 <!--- MC-35777-->
 
 ![已修正問題](../assets/fix.svg)自訂客戶地址屬性欄位現在會如預期般顯示在店面結帳工作流程中。<!--- MC-35607-->
 
-![已修正問題](../assets/fix.svg) B2B功能設定索引標籤現在可正確開啟。 <!--- MC-35458-->來賓現在可以使用QuickOrder將產品加入購物車，然後成功移除專案。 <!--- MC-35327-->
+![已修正問題](../assets/fix.svg) B2B功能設定索引標籤現在可正確開啟。 <!--- MC-35458-->來賓現在可以使用QuickOrder將產品加入購物車，然後成功移除專案。 先前，當購物者使用QuickOrder將多個產品新增至購物車，然後移除產品時，產品未移除。<!--- MC-35327-->
 
 ![已修正問題](../assets/fix.svg)現在可以使用REST APIPUT`/V1/company/:companyId`要求更新公司，而不需在狀態設定為&#x200B;**不需要**&#x200B;時指定`region_id`。 以前，即使不需要`region_id`，如果未指定，Adobe Commerce也會擲回錯誤。<!--- MC-35304-->
 
-![](../assets/fix.svg)`http://magento.local/rest/V1/company/2``2``applicable_payment_method``available_payment_methods`<!--- MC-35248-->
+![已修正問題](../assets/fix.svg)當您使用REST API （`http://magento.local/rest/V1/company/2`，其中`2`代表公司ID）建立或更新B2B公司時，回應現在會依預期包含`applicable_payment_method`或`available_payment_methods`的設定。<!--- MC-35248-->
 
-![](../assets/fix.svg)******[!UICONTROL Save]**<!--- MC-35094-->
+![已修正問題](../assets/fix.svg)當商家在店面建立請購單清單時，使用&#x200B;**Enter**&#x200B;按鈕而非按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕時，Adobe Commerce不再顯示404頁面。<!--- MC-35094-->
 
-![](../assets/fix.svg)<!--- MC-34386-->
+![已修正問題](../assets/fix.svg)將新產品指派給公用共用目錄時，類別許可權不再變更。 之前，類別許可權是重複的。<!--- MC-34386-->
 
 ![已修正問題](../assets/fix.svg)用於更新公司電子郵件的REST API端點PUT`rest/default/V1/company/{id}`不再區分大小寫。<!--- MC-34308-->
 
@@ -593,11 +597,11 @@ This release includes improvements to order approvals, shipping methods, shoppin
 
 ![已修正問題](../assets/fix.svg)您現在可以針對同時包含實體與虛擬產品的訂單，成功實作多重送貨。<!--- MC-33818-->
 
-![已修正問題](../assets/fix.svg)商戶現在可以從[我的帳戶]和[公司結構]頁面的&#x200B;_[!UICONTROL Company Users]_區段建立公司使用者，當&#x200B;**[!UICONTROL Access Restriction]**已啟用，**[!UICONTROL Restriction Mode]**設定為`Sales: Login Only`時。 `Can not register new customer due to restrictions are enabled`<!--- MC-33608-->
+![已修正問題](../assets/fix.svg)商戶現在可以從[我的帳戶]和[公司結構]頁面的&#x200B;_[!UICONTROL Company Users]_區段建立公司使用者，當&#x200B;**[!UICONTROL Access Restriction]**已啟用，**[!UICONTROL Restriction Mode]**設定為`Sales: Login Only`時。 之前，當商家嘗試建立使用者時，Adobe Commerce擲回此錯誤： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
 
-![](../assets/fix.svg)<!--- MC-33554-->
+![已修正問題](../assets/fix.svg)當客戶儲存其帳戶資訊時，Adobe Commerce不再將客戶的客戶群組重設為預設值。<!--- MC-33554-->
 
-![](../assets/fix.svg)<!--- MC-33313-->
+![已修正問題](../assets/fix.svg)管理員將擁有有效購物車的客戶指派給客戶群組時，Adobe Commerce不再擲回嚴重錯誤。<!--- MC-33313-->
 
 ![已修正問題](../assets/fix.svg) Adobe Commerce現在為快速訂購和請購單清單頁面提供`addToCart`個DataLayer事件。 <!--- MC-33295-->
 
@@ -633,21 +637,21 @@ Adobe Commerce現在預設包含![新的](../assets/new.svg)客戶登入。 此�
 
 ![已修正問題](../assets/fix.svg)現在按一下「**[!UICONTROL Clear All]**」按鈕會展開所有篩選器，而非將其收合。
 
-![](../assets/fix.svg)
+![已修正的問題](../assets/fix.svg)產品SKU/名稱現已納入「訂單歷史記錄」搜尋篩選條件摘要中。
 
-![](../assets/fix.svg)
+![已修正問題](../assets/fix.svg)排序指標現在已正確顯示在「我的採購單格線」中。
 
-![](../assets/fix.svg)之前，您可以按一下按鈕多次。
+![已修正問題](../assets/fix.svg)現在，您只能按一下[核准]、[取消]、[拒絕]和[採購單]按鈕一次。 之前，您可以按一下按鈕多次。
 
 ![已修正問題](../assets/fix.svg)在行動裝置上，採購單核准、拒絕、取消和驗證按鈕現在可正確呈現。
 
-![](../assets/fix.svg)Now, the Purchase Order total is updated to show the correct total.
+![修正問題](../assets/fix.svg)之前，核准已過期折扣的採購單時，會將訂單全額記入且未更新採購單總計。 現在，採購單總計會更新以顯示正確的總計。
 
-![](../assets/fix.svg)This issue has been fixed.
+![已修正問題](../assets/fix.svg) 2.3.4中引進了一個問題，其中自訂擴充功能屬性不會從客戶地址複製到報價地址。 此問題已修正。
 
-![](../assets/fix.svg)This issue has been fixed.
+![已修正問題](../assets/fix.svg)安裝B2B後，將類別指派給共用目錄時出現SQL錯誤。 此問題已修正。
 
-![](../assets/fix.svg)選項下拉式清單不會填入。 此功能現在已正常運作。
+![已修正問題](../assets/fix.svg)由於不正確的變數型別值，管理員無法將可設定的產品新增至訂單。 選項下拉式清單不會填入。 此功能現在已正常運作。
 
 ![已修正問題](../assets/fix.svg)先前，編輯「未登入」群組的類別許可權時，儲存變更時發生錯誤。 此問題已修正。
 
@@ -661,19 +665,19 @@ Adobe Commerce現在預設包含![新的](../assets/new.svg)客戶登入。 此�
 
 ![已修正問題](../assets/fix.svg)先前，嘗試使用WebAPI搭配B2B引號結帳時，傳送不正確的值至API，而造成發生錯誤。 此問題已修正。
 
-![](../assets/fix.svg)此問題現已修正。
+![已修正問題](../assets/fix.svg)先前，透過API將公司設定為「作用中」時，會發生錯誤。 此問題現已修正。
 
 ![已修正問題](../assets/fix.svg)由於不必要的`form`標籤，當您在變更提議的運費後按下Enter鍵時，訂單頁面會自動重新整理。 此問題已修正。
 
 ![已修正問題](../assets/fix.svg)先前，在目錄頁面上設定產品顯示限制，且該限制小於產品總數時，會發生錯誤。 此功能現在可如預期運作。
 
-![](../assets/fix.svg)現在，只會新增正確的地址。
+![已修正問題](../assets/fix.svg)之前，變更公司的管理員時，會將原始的管理員地址複製到新的管理員，並為他們提供兩個地址。 現在，只會新增正確的地址。
 
-![](../assets/fix.svg)此API呼叫現在可如預期般運作。
+![已修正問題](../assets/fix.svg)先前，當Git設為「允許並通知客戶」時，使用API儲存報價專案會失敗。 此API呼叫現在可如預期般運作。
 
-![](../assets/fix.svg)
+![已修正問題](../assets/fix.svg)已修正產品稅現在會顯示在「報價詳細資料」頁面上。
 
-![](../assets/fix.svg)This behavior now works as expected.
+![已修正問題](../assets/fix.svg)之前，在[我的報價]頁面的[評論]索引標籤中按一下附件，將無法下載檔案。 此行為現在會如預期般運作。
 
 ### 已知問題
 
