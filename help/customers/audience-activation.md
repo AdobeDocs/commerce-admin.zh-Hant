@@ -5,10 +5,10 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
+source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 0%
+source-wordcount: '1565'
+ht-degree: 1%
 
 ---
 
@@ -49,6 +49,14 @@ _2023年5月30日_
 ![新](../assets/new.svg) — 已更新[Real-Time CDP對象儀表板](#real-time-cdp-audiences-dashboard)，以包含排序、搜尋和篩選Adobe Commerce執行個體中作用中對象的能力。
 
 +++
+
+### 2.3.1
+
+[!BADGE 相容性]{type=Informative tooltip="相容性"}
+
+_2024年11月12日_
+
+![修正](../assets/fix.svg) — 修正篩選可供選擇的Real-Time CDP對象時的問題。
 
 ### 2.3.0
 
