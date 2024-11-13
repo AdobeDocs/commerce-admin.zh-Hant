@@ -3,16 +3,16 @@ title: 自訂電子郵件範本
 description: 瞭解如何為每個網站、商店或商店檢視自訂電子郵件範本。
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # 自訂電子郵件範本
 
-Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件範本。 內文內容的範本會與頁首和頁尾範本結合，以建立完整的訊息。 內容使用HTML和CSS格式化，可以透過新增[變數](variables-predefined.md)和[介面工具](../content-design/widgets.md)輕鬆編輯和自訂。 您可以為每個網站、商店或商店檢視自訂電子郵件範本。 如果使用自訂範本，請務必更新[系統組態](email-templates.md#configure-email-templates)，以確保使用正確的範本。
+Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件範本。 內文內容的範本會與頁首和頁尾範本結合，以建立完整的訊息。 內容使用HTML和CSS格式化，可以透過新增[變數](variables-predefined.md)輕鬆編輯和自訂。 您可以為每個網站、商店或商店檢視自訂電子郵件範本。 如果使用自訂範本，請務必更新[系統組態](email-templates.md#configure-email-templates)，以確保使用正確的範本。 若要瞭解如何在自訂電子郵件範本時使用條件陳述式，請參閱[開發人員檔案](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1)。
 
 ![範例 — 歡迎電子郵件預覽](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
