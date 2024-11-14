@@ -3,7 +3,7 @@ title: 建立型錄價格規則
 description: 瞭解如何建立目錄價格規則，以便在符合一組條件時，將折扣套用至特定產品。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何建立目錄價格規則：
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## 欄位說明
 

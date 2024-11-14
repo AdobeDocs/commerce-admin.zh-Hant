@@ -3,7 +3,7 @@ title: 版面 — 欄
 description: 瞭解「欄」內容型別，此型別用於將頁面劃分為 [!DNL Page Builder] 階段中的多個欄。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 觀看此影片以示範如何使用[!DNL Columns]容器來調整您的頁面配置：
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## 欄工具箱
 

@@ -3,7 +3,7 @@ title: 管理公司帳戶
 description: 瞭解如何使用公司頁面和網格中可用的工具，為您的Adobe Commerce商店管理公司帳戶。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ _[!UICONTROL Companies]_頁面列出所有目前的公司帳戶，無論狀態�
 
 您可以觀看此影片，瞭解如何管理公司帳戶：
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 公司管理
 

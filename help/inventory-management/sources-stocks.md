@@ -2,7 +2,7 @@
 title: 庫存和來源
 description: 瞭解產品、來源和庫存之間的關係。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Sales Channel代表銷售您詳細目錄的實體，包括網站、商店檢視�
 
 觀看此影片以瞭解Inventory management來源和庫存：
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

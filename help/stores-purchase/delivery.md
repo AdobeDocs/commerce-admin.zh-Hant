@@ -3,9 +3,9 @@ title: 送貨與傳遞
 description: 瞭解您可以向客戶提供的各種運送方式與運送公司支援。
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。如需Commerce新出貨實施的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/products/magento/shipping.html){：target=&quot;_blank&quot;}頁面。
+>由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。如需Commerce中新出貨實作的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}頁面。
 
 ## 基本傳送方法
 
@@ -40,4 +40,4 @@ Adobe Commerce和Magento Open Source支援各式各樣的配送方式及貨運�
 
 您可以觀看此影片，瞭解運送和傳遞方法：
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

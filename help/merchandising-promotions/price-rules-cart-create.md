@@ -3,7 +3,7 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何建立購物車價格規則：
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## 欄位說明
 

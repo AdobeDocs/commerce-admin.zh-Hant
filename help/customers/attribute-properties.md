@@ -3,7 +3,7 @@ title: 客戶屬性屬性
 description: 瞭解如何設定客戶屬性屬性。
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
      | 型別 | 說明 |
      |----|-----------|
      | `Text Field` | 單行文字欄位。 |
-     | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化含有HTML標籤的文字，或直接在文字中輸入標籤。 |
+     | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
      | `Multiple Line` | 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。 使用`Default Value`指定欄位的初始值。 |
      | `Date` | 以偏好的日期格式和時區顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](../catalog/attributes-input-types.md#date-and-time-options)。 |
      | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
@@ -171,4 +171,4 @@ ht-degree: 0%
 
 如需建立客戶屬性的示範，請觀看此影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)

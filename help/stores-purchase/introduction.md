@@ -2,7 +2,7 @@
 title: 商店和購買體驗簡介
 description: 瞭解用於建構和管理您的線上商店的功能，以及客戶的購買體驗。
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Adobe Commerce和Magento Open Source在提交訂單前，會自動驗證所有�
 
 觀看此影片，瞭解賣家輔助購物：
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## 訂單管理與作業
 

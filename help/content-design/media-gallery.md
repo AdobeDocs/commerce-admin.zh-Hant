@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: 使用「媒體集」來組織和管理伺服器上的媒體檔案。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 若要進一步瞭解[!DNL Media Gallery]，請觀看此影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

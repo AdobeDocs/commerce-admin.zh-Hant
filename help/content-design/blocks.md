@@ -2,7 +2,7 @@
 title: 內容區塊
 description: 區塊可用來顯示固定資訊，例如文字、影像和內嵌視訊，以及動態資訊。
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -21,6 +21,6 @@ _區塊_&#x200B;是模組化的內容單位，可在頁面上放置於最顯眼�
 
 觀看此影片，瞭解靜態和[動態區塊](dynamic-blocks.md)：
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

@@ -4,7 +4,7 @@ description: 瞭解採購單核准規則，以及公司管理員如何在店面�
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -150,4 +150,4 @@ B2B客戶擁有其角色](account-company-roles-permissions.md)所需的[許可�
 
 觀看此影片，瞭解採購單核准：
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)

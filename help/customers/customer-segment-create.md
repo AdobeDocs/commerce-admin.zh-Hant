@@ -3,7 +3,7 @@ title: 建立和刪除客戶區段
 description: 客戶可在其「客戶帳戶資料面板」中檢視與訂單相關的退款資訊。
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -196,4 +196,4 @@ _**[!UICONTROL Matched Customers]格線&#x200B;**_
 
 觀看此影片以示範如何建立客戶區段：
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

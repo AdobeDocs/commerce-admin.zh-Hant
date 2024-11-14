@@ -2,7 +2,7 @@
 title: 建立和管理Widget
 description: 瞭解如何建立及管理Widget，藉以自動更新您商店的內容。
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 若要瞭解如何建立Widget，請觀看此影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## 編輯Widget
 

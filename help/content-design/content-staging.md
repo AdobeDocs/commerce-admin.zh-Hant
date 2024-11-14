@@ -3,7 +3,7 @@ title: 內容分段
 description: 內容測試讓您的業務團隊能夠直接從管理員輕鬆建立、預覽和排程您商店的各種內容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 若要瞭解內容測試，請觀看此影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## 疑難排解資源
 

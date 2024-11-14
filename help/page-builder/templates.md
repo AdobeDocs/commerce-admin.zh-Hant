@@ -3,7 +3,7 @@ title: '[!DNL Page Builder]範本'
 description: 瞭解如何將您現有的 [!DNL Page Builder] 內容儲存為範本，然後將該範本套用至其他區域。
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ _套用範本_&#x200B;格線和&#x200B;_範本_&#x200B;頁面格線提供兩種�
 
 觀看此影片，瞭解頁面產生器內容範本：
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

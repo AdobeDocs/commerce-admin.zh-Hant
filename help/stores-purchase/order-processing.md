@@ -3,7 +3,7 @@ title: 訂單工作流程與處理
 description: 瞭解訂單工作流程、每個步驟套用的狀態，以及如何透過此處理移轉訂單。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ ht-degree: 0%
 
 觀看此影片，並深入瞭解訂單處理與狀態：
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

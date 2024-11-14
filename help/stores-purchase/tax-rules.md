@@ -3,7 +3,7 @@ title: 稅捐規則
 description: 瞭解如何使用產品類別、客戶類別及稅率來定義稅捐規則。
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ ht-degree: 0%
 
 觀看此影片，瞭解如何管理貨幣和稅捐規則：
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
