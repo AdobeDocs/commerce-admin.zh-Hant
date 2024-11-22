@@ -1,26 +1,26 @@
 ---
-title: Quote template use cases and workflows
-description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.
+title: 報價範本使用案例和工作流程
+description: 從現有報價建立報價樣版，以簡化重複產生訂單的報價議價。
 feature: B2B, Quotes
-source-git-commit: 3000d9abab467a86e37c7eca6e7db16b39c763ab
+exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
 
+# 報價範本使用案例和工作流程
 
-# Quote templates use case and workflows
-
-The Quote Template capability allows buyers and sellers to streamline the quote process by creating reusable and customizable quote templates.
+「報價範本」功能可讓買方和賣家建立可重複使用且可自訂的報價範本，以簡化報價流程。
 
 - **可自訂的報價單** — 採購員可以從預先核准的範本產生連結的報價單，允許在指定的引數（如明細行料號數量與選取專案）中進行自訂。
-- ****
-- ****
-- ****
-- ****
+- **訂單臨界值** — 賣家可設定最小與最大訂單承諾，確保買家遵守議定的採購量。 採購員接受報價樣版後，每次產生連結的報價時，訂單臨界值計數都會增加。 如果連結的報價單未轉換為訂單即已結案，則會從臨界值計數中減去該訂單。 當達到最大訂單臨界值時，報價範本就會過期。
+- **到期日** — 範本可以有有效期(*[!UICONTROL Valid Until]*)，確保條款只適用於指定的時間範圍。 到期時，範本會關閉，且所有關聯的連結引號都會關閉。
+- **折扣與訂價** — 賣家可使用與報價相同的明細專案、報價層次與出貨價格折扣功能，來設定重複產生訂單的折扣，簡化議價程式。
+- **追蹤與報告** — 系統會追蹤從範本產生的連結報價數目，並順利完成訂單，以深入分析已同意訂單配額的履行情況。
 
-## Use Case
+## 使用案例
 
 公司購買者可以使用報價範本，在一段時間內訂購特定的一組產品。 採購員設定下列報價樣版選項，讓報價程式更有效率、更一致，並與策略性採購協定一致。
 
@@ -36,23 +36,27 @@ The Quote Template capability allows buyers and sellers to streamline the quote 
 
 - **購買者建立報價範本**
 
-  在複查現有的報價範本時，採購員決定公司必須在下一年度提交多份訂單，並想要根據重複的業務請求額外的折扣。 他們使用報價上的&#x200B;*[!UICONTROL Create quote template]*&#x200B;動作來建立報價範本。 然後，他們透過將新範本傳送給賣方進行稽核來啟動交涉。
+  在複查現有的報價時，採購員決定公司必須在下一年度提交多份訂單，並想要根據重複的業務請求額外的折扣。 他們使用報價上的&#x200B;*[!UICONTROL Create quote template]*&#x200B;動作來建立報價範本。 然後，他們將報價範本傳送給賣家進行複查，以啟動議價。
 
-  買家也可以直接從店面的&#x200B;*[!UICONTROL My Quote Templates]**頁面建立報價範本。
+  買家也可以將想要定期購買的產品新增至購物車，以請求報價範本。 接著，請詢問報價，並在註解中說明重複購買的頻率。
 
-- ****[!UICONTROL Quote Templates]`draft`In draft state, the quote is visible only to the seller. `Submitted`It cannot be modified by the seller until the buyer sends it back.
+- **銷售代表** — 銷售代表可以從管理員代表特定公司買方建立報價範本。 銷售代表可以在「管理員」中，從現有的報價或[!UICONTROL Quote Templates]網格建立報價範本，並將其儲存為`draft`或傳送給買方以開始交涉。 在草稿狀態下，只有賣家能看到報價。 傳送報價後，狀態為`Submitted`。 在買方將其送回之前，賣方無法修改它。
 
   ![賣家從Admin](./assets/quote-template-create-from-grid.png){width="700" zoomable="yes"}的Quotes格線中起始買方報價
+
+  當賣家建立報價範本時，到期日（[!UICONTROL Valid until]日期欄位）預設為180天。 如果採購員建立了樣版，則到期日為空白。  採購員必須先設定到期日，才能將樣版送回採購員進行複查。
+
+  當賣家建立報價範本時，到期日（*[!UICONTROL Valid until]*&#x200B;日期欄位）預設為180天。 如果採購員建立了樣版，則到期日為空白。  採購員必須先設定到期日，才能將樣版送回採購員進行複查。
 
 **步驟2：報價稽核與交涉（稽核）**
 
 複查或議定報價樣版可包括變更數量、移除料號、新增明細專案備註、套用明細專案或報價折扣（賣方）以及新增出貨地址（採購員）。
 
-- *****[!UICONTROL Quote Templates]*`Pending`[](quote-price-negotiation.md) The buyer and sales representative are notified by email that the seller has responded.
+- **賣家檢視要求並傳送回應** — 在管理員中，賣家會從&#x200B;*[!UICONTROL Quote Templates]**格線檢視報價範本，或從電子郵件通知中的連結開啟報價範本。 在店面，報價的狀態變更為`Pending`，買方無法進行任何變更。 在[報價議價](quote-price-negotiation.md)的相同處理之後，賣方會視需要提供價格折扣並調整數量與料號，然後輸入註解，並將報價範本傳回給買方。 系統會以電子郵件通知買方和銷售代表，表示賣方已回應。
 
-- ****__ The buyer can leave notes to the seller at the line item or quote level, change quantities, and remove items.
+- **買家檢視賣家的報價範本並傳送回應** — 買家按一下電子郵件通知中的連結以開啟報價範本，或從帳戶儀表板的&#x200B;_我的報價範本_&#x200B;頁面開啟。 採購員可在明細專案或報價層次、變更數量及移除專案等位置向賣方留下備註。
 
-The buyer and seller continue the negotiation process until an agreement is reached, or the seller declines the quote template. If the buyer makes changes to the quote—adding or removing products or changing product quantities—the quote must be returned to the seller for review.
+買方與賣方繼續議價程式，直到達成協定或賣方拒絕報價範本為止。 如果採購員變更報價範本（新增或移除產品或變更產品數量），則必須將其退回給賣家進行複查。
 
 - **購買者新增送貨地址** — 如果報價範本沒有送貨地址，購買者必須新增送貨地址。 買方新增地址後，賣方可提供運送和交貨選項。 顯示的送貨方法視店面組態而定。
 
@@ -60,9 +64,11 @@ The buyer and seller continue the negotiation process until an agreement is reac
 
 **步驟3：購買者接受報價範本**
 
-採購員接受樣版中的議定條款。 接受報價樣版之後，採購員可以使用樣版來產生預先核准的連結式報價單，這些報價單可用於提交訂單，而不需要進一步的議價。
+採購員接受樣版中的議定條款。 接受報價範本後，採購員可以使用它來[產生預先核准的連結報價](account-dashboard-my-quote-templates.md#generate-a-linked-quote)，這些報價可用來提交訂單，而不需要進一步的交涉。
 
 結帳時鎖定送貨選項。
+
+報價單範本會維持使用中狀態，直到其過期、被取消或關閉，或不再是有效的採購員達到最大訂單臨界值為止。
 
 ### 檢視報價範本
 
@@ -72,18 +78,17 @@ The buyer and seller continue the negotiation process until an agreement is reac
 
 ### 檢視報價範本活動
 
-[!UICONTROL Comments][!UICONTROL History Log]
+從[!UICONTROL Comments]和[!UICONTROL History Log]檢視議價時間表、通訊和其他報價範本活動 — 資訊包括狀態變更、客戶與送貨資訊的更新、料號與價格更新，以及其他重要資訊。
 
-1. Open a quote template.
+1. 開啟報價範本。
 
-1. **[!UICONTROL Negotiation]****[!UICONTROL Comments]****[!UICONTROL History Log]**
+1. 捲動至&#x200B;**[!UICONTROL Negotiation]**&#x200B;並選取&#x200B;**[!UICONTROL Comments]**&#x200B;與&#x200B;**[!UICONTROL History Log]**，以檢視報價議價備註與歷程記錄。
 
-   ![檢視歷程記錄](./assets/quote-view-history.png){width="400"}
+   ![檢視歷程記錄](./assets/quote-view-history.png){width="400" zoomable="yes"}
 
 1. 歷史記錄也會在明細行專案層次進行追蹤。
 
-   ![檢視條列專案歷史記錄](./assets/quote-view-line-item-history.png){width="400"}
-
+   ![檢視條列專案歷史記錄](./assets/quote-view-line-item-history.png){width="400" zoomable="yes"}
 
 ### 拒絕報價範本
 

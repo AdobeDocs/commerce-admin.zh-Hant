@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: 瞭解店面帳戶儀表板中提供的客戶報價範本體驗。
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ ht-degree: 0%
 從報價範本頁面，按一下&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
 報價範本已取消，且報價狀態變更為`Closed`。 已關閉的引號會保留在您的&#x200B;*[!UICONTROL Inactive]*&#x200B;引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_格線中。
-
-
-
-
