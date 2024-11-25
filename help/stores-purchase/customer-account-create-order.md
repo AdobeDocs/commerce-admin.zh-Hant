@@ -3,7 +3,7 @@ title: 建立訂單
 description: 瞭解如何在Commerce管理員中為客戶建立訂單。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請參閱[Payment Services指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
+>請參閱[Payment Services指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
 
 ## 步驟3：提交訂單
 

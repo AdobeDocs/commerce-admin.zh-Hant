@@ -2,7 +2,7 @@
 title: Adobe Commerce的'[!DNL AR Viewer]'
 description: 瞭解 [!DNL AR Viewer] 如何讓您的Adobe Commerce執行個體受益，以及如何成功上線和設定擴充功能。
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 本指南中的資訊提供Adobe Commerce中[!DNL AR Viewer]上線體驗的概觀，以及[!DNL AR Viewer]如何讓使用者受益，以及在歷程中要遵循的最佳實務。
 
-由Pixar所開發，[Universal Scene Description (USD)](https://www.pixar.com/usd){target=_blank}是第一個開放原始碼軟體，可以強有力且可縮放地交換可能由許多不同資產、來源和動畫所組成的3D場景，同時促進高度合作的工作流程。 此USD用於`.USDZ`個檔案中。 此`.USDZ`檔案會將AR和3D內容傳送至使用者的裝置。
+由Pixar所開發，[Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank}是第一個開放原始碼軟體，可以強有力且可縮放地交換可能由許多不同資產、來源和動畫所組成的3D場景，同時促進高度合作的工作流程。 此USD用於`.USDZ`個檔案中。 此`.USDZ`檔案會將AR和3D內容傳送至使用者的裝置。
 
 >[!NOTE]
 >

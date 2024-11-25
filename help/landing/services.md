@@ -3,7 +3,8 @@ title: Commerce SaaS服務
 description: 瞭解可用於擴充Commerce店面功能的Commerce SaaS服務
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe提供Commerce服務、整合服務和資料工具的集合，協助商家�
 
 ![搜尋](../landing/assets/icon-magnify.svg){width="40"}**[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**— 實作AI支援的搜尋工具，為B2C購物者提供更聰明、更快速且更相關的結果。
 
-![Thumbs-up](../landing/assets/icon-thumbs-up.svg){width="40"}**[產品Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**— 根據購物者行為、熱門趨勢、產品相似度等等，新增AI支援的建議。
+![Thumbs-up](../landing/assets/icon-thumbs-up.svg){width="40"}**[產品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**— 根據購物者行為、熱門趨勢、產品相似度等等，新增AI支援的建議。
 
 ![連線服務的目錄資料](../landing/assets/icon-data-book.svg){width="40"}**[目錄服務](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**— 提供客戶最佳化的產品體驗，同時提升效能、改善擴充能力及提高轉換率。
 

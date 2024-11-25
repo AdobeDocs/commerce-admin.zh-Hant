@@ -3,9 +3,9 @@ title: 依國家/地區的稅捐准則
 description: 根據國家/地區複查建議的稅捐設定。
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->位於GST/PST省份(Montreal)的商戶應建立一個稅捐規則，並顯示合併稅捐金額。 如有任何問題，請務必洽詢合格的稅務機關。 如需特定省份的稅捐需求相關資訊，請參閱下列資訊： [魁北克省][1]、[薩斯喀徹溫省政府][2]以及[廠商的馬尼托巴資訊][3]
+>位於GST/PST省份(Montreal)的商戶應建立一個稅捐規則，並顯示合併稅捐金額。 如有任何問題，請務必洽詢合格的稅務機關。
 
 | 稅捐選項 | 建議 |
 |--- |--- |
@@ -411,14 +411,10 @@ ht-degree: 0%
 
       - 預設國家
       - 預設狀態
-      - 預設Post程式碼
+      - 預設郵遞區號
 
      此設定可確保在產品價格包含稅捐時正確計算稅捐。
 
      ![預設稅捐目的地計算](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

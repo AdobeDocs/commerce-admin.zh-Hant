@@ -4,9 +4,9 @@ description: 有關Adobe Commerce和Magento Open Source管理員 [!DNL Inventory
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,5 @@ ht-degree: 0%
 
 如果您需要本指南未涵蓋的資訊或問題，請使用下列資源：
 
-- [大量預訂不一致](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.html)
-- [庫存不一致性問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33281-magento-patch-inventory-inconsistency-issues.html)
-- [未刪除的色票清查達到「0」](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.html)
 - 安裝詳細目錄後[庫存狀態不正確](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
 - [支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) — 提交票證以接收其他說明。

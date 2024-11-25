@@ -3,7 +3,7 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予其他 [!DNL Commerce] 帳戶持有人對您 [!DNL Commerce] 帳戶的有限存取權。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![支援](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
+   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
 
    >[!NOTE]
    >
-   >收到共用存取許可權後，使用者必須登入其[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login)，瀏覽至&#x200B;_共用存取許可權_，然後按一下&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 第一次需要此動作時，只是為了確保[Adobe Commerce支援知識庫](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)已透過`SSO`呼叫正確設定。
+   >收到共用存取許可權後，使用者必須登入其[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login)，瀏覽至&#x200B;_共用存取許可權_，然後按一下&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 第一次需要此動作時，只是為了確保[Adobe Commerce支援知識庫](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)已透過`SSO`呼叫正確設定。
 
 1. 若要返回您自己的帳戶，請在瀏覽器控制項中按一下&#x200B;**上一步**，並將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為`My Account`。
 
@@ -113,11 +113,11 @@ ht-degree: 0%
    > 
    > 若是如此，請要求帳戶擁有者修改共用存取帳戶，以清除帳戶許可權。 更新後，使用者無法存取任何帳戶資源。
    >
-   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL Delete User]**。
 
 >[!NOTE]
 >
->您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users)。
+>您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。

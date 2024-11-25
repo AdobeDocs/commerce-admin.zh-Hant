@@ -3,9 +3,9 @@ title: 發票
 description: 瞭解如何建立並列印發票，以支援訂單處理與客戶服務作業。
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ ht-degree: 0%
    ![列印多張發票](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 這些發票會儲存在單一PDF檔案中，可傳送至印表機或加以儲存。
-
-## 疑難排解資源
-
-如需發票問題疑難排解的協助，請參閱下列&#x200B;_Commerce支援知識庫_&#x200B;文章：
-
-- [無法以虛擬和簡單產品為商業發票](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [沒有商店信用資訊的發票](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [稅捐出現在含100%折扣的商業發票上](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [訂單發票未自動傳送](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader"

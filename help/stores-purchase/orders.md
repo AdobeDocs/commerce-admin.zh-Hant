@@ -3,9 +3,9 @@ title: 訂購
 description: 瞭解在Admin中用於尋找訂單的「訂單」工作區及搜尋功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 如需疑難排解訂單問題的說明，請參閱下列Commerce支援知識庫文章：
 
 - [訂單顯示錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal重複訂單10415錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [新訂單已傳送至封存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [訂單未顯示在Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)的「訂單」格線中
-- [訂單狀態 — 透過REST API建立的出貨不正確](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

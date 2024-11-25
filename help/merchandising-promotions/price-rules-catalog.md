@@ -3,9 +3,9 @@ title: 目錄價格規則
 description: 瞭解目錄價格規則，這些規則可用於根據一組已定義的條件，以折扣價格向買家提供產品。
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ ht-degree: 0%
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用此選項以根據規則狀態（`Active`或`Inactive`）來篩選清單。 |
 
 {style="table-layout:auto"}
-
-## 疑難排解資源
-
-如需目錄價格規則問題疑難排解的說明，請參閱下列Commerce支援知識庫文章：
-
-- 執行目錄價格規則排程更新後，[店面發生{404錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [透過相關產品和目標規則改善產品頁面的效能](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [目錄價格規則無法運作](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQL價格計算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

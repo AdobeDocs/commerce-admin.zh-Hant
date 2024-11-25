@@ -3,9 +3,9 @@ title: FedEx
 description: 瞭解如何將FedEx設定為您的商店的運送業者。
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx是世界上最大的航運服務公司之一，提供多種優先順序的
 
 ## 步驟1：註冊FedEx Web服務生產
 
-需要[FedEx商家帳戶][1]以及FedEx Web服務生產存取的註冊。 建立FedEx帳戶之後，請閱讀生產帳戶資訊頁，然後按一下頁面底部的&#x200B;_取得生產金鑰_&#x200B;連結，以註冊並取得金鑰。
+需要FedEx商家帳戶和FedEx Web服務生產存取的註冊。 建立FedEx帳戶之後，請閱讀生產帳戶資訊頁，然後按一下頁面底部的&#x200B;_取得生產金鑰_&#x200B;連結，以註冊並取得金鑰。
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ FedEx是世界上最大的航運服務公司之一，提供多種優先順序的
    - 國內選項：Express Saver、Ground、First、Onight、Home Delivery、Standard Onight
    - 國際選項 — 國際經濟、國際經濟貨運、國際優先、國際地理、國際、優先國際
    - 優先順序選項 — 運費、隔夜優先順序
-   - Smart Post-If提供Smart Post方法（輸入&#x200B;**中心ID**）
+   - 提供Smart Post方法的Smart Post-If （輸入&#x200B;**中心ID**）
    - 運費選項 — 運費，國家運費
 
 1. 若要透過FedEx提供[免運費](shipping-free.md)選項，請設定免運費選項。
@@ -159,5 +159,3 @@ FedEx是世界上最大的航運服務公司之一，提供多種優先順序的
 >[!NOTE]
 >
 >計算運費時，Commerce一律會向FedEx宣告完整的訂單價格。 此行為無法變更。
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

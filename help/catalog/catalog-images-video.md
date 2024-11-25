@@ -3,9 +3,9 @@ title: 將影像和視訊編目
 description: 瞭解如何使用數位媒體來增強目錄產品頁面，並為客戶提供視覺效果。
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 0%
 如需疑難排解影像和視訊問題的說明，請參閱下列Commerce支援知識庫文章：
 
 - [安裝後，影像和樣式表不會載入；只會顯示文字，沒有圖形](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [透過REST API管理產品影像時發生問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [匯入重複的產品.csv影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [儘管具有「產品編輯」影像角色，仍無法顯示產品影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [部署後未顯示存放區影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
