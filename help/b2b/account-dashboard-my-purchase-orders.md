@@ -1,5 +1,5 @@
 ---
-title: "[!UICONTROL My Purchase Orders]"
+title: '[!UICONTROL My Purchase Orders]'
 description: 瞭解採購單，以及公司如何使用採購單管理其採購。
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders

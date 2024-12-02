@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder]使用手冊"
+user-guide-title: '[!DNL Page Builder]使用手冊'
 user-guide-description: 瞭解如何使用 [!DNL Page Builder] 功能，以自訂版面來建立內容豐富的頁面，進而增強您的視覺敘事能力，並提高客戶參與度和忠誠度。
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 

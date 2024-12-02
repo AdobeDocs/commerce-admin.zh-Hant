@@ -5,7 +5,7 @@ exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Advanced Reporting]包含在Adobe Commerce和Magento Open Source中。 此功能可讓您存取一套以您的產品、訂單和客戶資料為根據的動態報表，並根據您的業務需求量身打造個人化控制面板。 當[!DNL Advanced Reporting]使用[!DNL Commerce Intelligence]進行分析時，您不需要有Commerce Intelligence帳戶即可使用[!DNL Advanced Reporting]。
 
-如需技術資訊，請參閱開發人員檔案中的[[!DNL Advanced Reporting]][2]{：target=&quot;_blank&quot;}主題。
+如需技術資訊，請參閱開發人員檔案中的[[!DNL Advanced Reporting]][2]{:target="_blank"}主題。
 
 >[!NOTE]
 >

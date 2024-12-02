@@ -51,7 +51,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | 存放區檢視 | 決定是否自動將客戶指定至預設客戶群組。 若要在店面顯示VAT編號，請設定[在店面顯示VAT編號]，選取`Yes`。 選項： <br/>**`Yes`**— 系統不會自動驗證客戶VAT ID，也不會變更客戶群組。<br/>**`No`** — 系統行為如常執行，且預設客戶群組可在「預設群組」欄位中設定。 |
 | [!UICONTROL Default Group] | 存放區檢視 | 識別建立帳戶時指派的初始客戶群組。 |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全域 | （只有當目前的設定範圍設定為`Default Group`時才能使用。） 選擇預設是啟用還是停用根據VAT ID自動變更客戶群組。 可在產品層級上覆寫設定。 此設定會影響下列情況中的系統行為： <br/> — 客戶預設地址的VAT ID或整個預設地址變更。 <br/> — 針對先前沒有儲存地址的註冊客戶或在結帳期間註冊的客戶，在結帳期間模擬客戶群組變更。 <br/>如果已啟用自動群組變更，則在第一種情況下，客戶群組會自動變更，而在第二種情況下，暫時模擬的客戶群組會指派給客戶。 如果停用自動群組變更，則除非管理員手動變更，否則指派的客戶群組不會變更。 |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全域 | （只有當目前的設定範圍設定為`Default Group`時才能使用。）選擇預設是啟用還是停用根據VAT ID自動變更客戶群組。 可在產品層級上覆寫設定。 此設定會影響下列情況中的系統行為： <br/> — 客戶預設地址的VAT ID或整個預設地址變更。 <br/> — 針對先前沒有儲存地址的註冊客戶或在結帳期間註冊的客戶，在結帳期間模擬客戶群組變更。 <br/>如果已啟用自動群組變更，則在第一種情況下，客戶群組會自動變更，而在第二種情況下，暫時模擬的客戶群組會指派給客戶。 如果停用自動群組變更，則除非管理員手動變更，否則指派的客戶群組不會變更。 |
 | [!UICONTROL Show VAT Number on Storefront] | 網站 | 決定商店中的客戶是否可看到VAT編號。 選項： `Yes` / `No` <br/>僅影響一般非B2B客戶帳戶。 公司帳戶有自己的個別「VAT編號」欄位。 |
 | [!UICONTROL Default Email Domain] | 存放區檢視 | 識別商店的預設電子郵件網域。 例如： `mystore.com` |
 | [!UICONTROL Default Welcome Email] | 存放區檢視 | 識別用於預設&#x200B;_歡迎_&#x200B;電子郵件的電子郵件範本。 |

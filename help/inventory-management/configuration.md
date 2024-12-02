@@ -1,5 +1,5 @@
 ---
-title: "設定 [!DNL Inventory Management]"
+title: 設定 [!DNL Inventory Management]
 description: 了解決定來源可用性、店面產品和訂單運送的 [!DNL Inventory Management] 選項組態。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration

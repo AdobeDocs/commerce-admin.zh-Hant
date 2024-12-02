@@ -1,5 +1,5 @@
 ---
-title: 「安裝、更新及移除 [!DNL Inventory Management]」
+title: 安裝、更新及移除 [!DNL Inventory Management]
 description: 瞭解如何管理 [!DNL Inventory Management] 中繼資料。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced

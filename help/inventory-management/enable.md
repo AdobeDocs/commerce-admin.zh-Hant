@@ -1,5 +1,5 @@
 ---
-title: "啟用 [!DNL Inventory Management]"
+title: 啟用 [!DNL Inventory Management]
 description: 瞭解如何在全域商店或產品層級啟用 [!DNL Inventory Management] 。
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
