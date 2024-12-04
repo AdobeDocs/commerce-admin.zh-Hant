@@ -1,20 +1,20 @@
 ---
-title: 購物車價格規則範例 — 最低購買折扣
-description: 檢閱使用購物車價格規則提供最低購買折扣的範例。
+title: 購物車價格規則範例 — 折扣與最低產品價格
+description: 檢閱使用購物車價格規則提供最低產品價格的折扣的範例。
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # 購物車價格規則範例 — 最低購買折扣
 
-購物車價格規則可用於根據最低購買提供百分比折扣。 在下列範例中，25%的折扣適用於特定類別中超過$200.00的所有購買。 折扣格式如下：
+購物車價格規則可用於根據購物車中的最低產品價格提供百分比折扣。 在下列範例中，當購物車中新增至少一個指定類別中價格超過$30.00的產品時，會將10%的折扣套用至整個購物車中的所有產品。 折扣格式如下：
 
-所有Y （類別）有X%折扣超過$Z美元
+當至少1項產品來自Y類別時，有X%的購物車折扣，而且價格超過$Z美元。
 
 ## 步驟1. 建立購物車規則
 
