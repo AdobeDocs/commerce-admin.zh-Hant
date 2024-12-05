@@ -3,9 +3,9 @@ title: Adobe Commerce的HIPAA整備程度
 description: 了解如何新增 Adobe Commerce HIPAA-Ready 擴充功能並取得其他特性和功能，讓您可以遵守 HIPAA 義務。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: dd97177836f5795f64e04665acdf8c1baa777465
+source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1598'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Adobe Commerce HIPAA就緒擴充功能`magento/hipaa-ee`可用於雲端基礎結
 
 ## 系統需求
 
-Adobe Commerce必須部署在雲端基礎結構上的Adobe Commerce上，或部署在2.4.6-p3或更新版本的Adobe Commerce Managed Services （無測試版）上。
+Adobe Commerce必須部署在雲端基礎結構上的Adobe Commerce上，或使用2.4.6-p3 - 2.4.6-p8版本的Adobe Commerce Managed Services （無Beta版本）。
 
 ## 安裝
 
