@@ -3,7 +3,7 @@ title: Adobe Stock整合
 description: 將Adobe Stock與您的 [!DNL Commerce] 執行個體整合，以存取無數媒體資產，以便在您的商店中使用。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ![Adobe Stock搜尋結果](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高品質、精心策劃、免版稅的像片、向量、插圖、影片、範本和3D資產。 [!DNL Commerce]個使用者能快速尋找、預覽及授權Adobe Stock資產。 使用者也可以將檔案儲存至[媒體儲存空間][media-storage]，無需離開管理工作區。
+Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高品質、精心策劃、免版稅的像片、向量、插圖、影片、範本和3D資產。 [!DNL Commerce]個使用者能快速尋找、預覽及授權Adobe Stock資產。 使用者也可以將檔案儲存至[媒體儲存空間](./media-storage.md)，無需離開管理工作區。
 
-## 必要條件
+## 先決條件
 
 這項整合需要：
 
@@ -97,6 +97,5 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
