@@ -4,9 +4,9 @@ description: 瞭解如何設定工作階段管理，以保護管理員和店面�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Adobe Commerce和Magento Open Source可讓您驗證工作階段變數，藉此�
 
 1. 按一下&#x200B;**[!UICONTROL Admin]**。
 
-1. 展開&#x200B;_[!UICONTROL Security]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
-
-1. 針對&#x200B;**[!UICONTROL Admin Session Lifetime (seconds)]**，輸入工作階段在逾時前保持作用中狀態的秒數。
-
-   ![進階設定 — 系統管理員安全性設定](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。##管理員工作階段存留期
-
-做為安全性測量，_Admin_&#x200B;最初設定為在鍵盤閒置900秒（15分鐘）後逾時。 您可以調整工作階段的存留期，以符合您的工作風格。
-
-**_若要調整管理員工作階段存留期：_**
-
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
-
-1. 向下捲動並展開左側面板中的&#x200B;**[!UICONTROL Advanced]**。
-
-1. 按一下&#x200B;**[!UICONTROL Admin]**。
-
-1. 展開&#x200B;_安全性_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;**[!UICONTROL Security]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 針對&#x200B;**[!UICONTROL Admin Session Lifetime (seconds)]**，輸入工作階段在逾時前保持作用中狀態的秒數。
 
