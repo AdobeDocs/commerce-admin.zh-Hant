@@ -3,9 +3,9 @@ title: 您的管理員使用者帳戶
 description: 瞭解您的管理員帳戶以及如何使用雙因素驗證來登入管理員。
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ _[!UICONTROL Sign In]_頁面會顯示您已登出的訊息。 每當您離開電
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## 維護對管理員的安全存取
+
+為確保管理員的安全，請以管理員存取權定期稽核使用者和角色。
+
+此外，請考慮[更新Admin Base URL設定](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)以將預設`/admin`端點變更為自訂路徑。 設定自訂路徑可提供下列安全性優點：
+
+**增強式安全性**：預設的「管理員」路徑是眾所周知的，且經常是惡意行為者嘗試暴力攻擊的目標。 將其變更為唯一的自訂值，可大幅降低未經授權存取嘗試的風險。
+
+**減少漏洞**：自動化機器人經常掃描類似「管理員」等常見路徑，以利用漏洞。 自訂路徑會讓這些機器人更難找到您的管理員登入頁面，進而降低受到攻擊的可能性。
+
+**已改善隱私權**：自訂管理路徑新增了額外的遮蔽層，讓潛在攻擊者更難識別並鎖定您的管理登入頁面。
+
+**遵循最佳實務**：遵循安全性最佳實務（例如自訂您的管理員路徑），示範保護電子商務網站和客戶資料的主動方法。
+
+>[!NOTE]
+>
+>如果懷疑發生入侵，請務必移除所有未知的管理員使用者，並重設所有管理員密碼，並檢閱[安全性行動計畫](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)以取得進一步的步驟。
