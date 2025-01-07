@@ -3,9 +3,9 @@ title: 轉移Commerce帳戶
 description: 瞭解如何將您的Commerce帳戶轉移給其他擁有者或電子郵件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 | 傳輸型別 | 目前擁有者 | 新擁有者 |
 | ------------- | ------------- | --------- |
 | [新Adobe ID和電子郵件變更](#new-adobe-id-and-email-change) | MAGEID為&#x200B;**_未連線_**&#x200B;且登入帳戶Adobe。 | 沒有MAGEID且未連線至Adobe登入帳戶。 |
-| [電子郵件變更](#email-change) | MAGEID為&#x200B;**_已連線_**，且具有Adobe登入帳戶，沒有與其他Adobe產品/服務相關聯。 | 沒有MAGEID且未連線至Adobe登入帳戶。 |
-| [Adobe ID開關](#adobe-id-account-switch) | MAGEID為&#x200B;**_已連線_**，且具有Adobe登入帳戶，沒有與其他Adobe產品/服務相關聯。 | 具有MAGEID，且已連線至Adobe登入帳戶，但未關聯其他Adobe產品/服務。 |
+| [電子郵件變更](#email-change) | MAGEID為&#x200B;**_已連線_**，且登入帳戶Adobe。 | 沒有MAGEID且未連線至Adobe登入帳戶。 |
+| [Adobe ID開關](#adobe-id-account-switch) | MAGEID為&#x200B;**_已連線_**，且登入帳戶Adobe。 | 具有MAGEID，且已連線至Adobe登入帳戶，但未關聯其他Adobe產品/服務。 |
 
 {style="table-layout:auto"}
 
