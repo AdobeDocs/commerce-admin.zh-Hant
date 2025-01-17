@@ -5,9 +5,9 @@ breadcrumb-title: 快速入門
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [共用您的帳戶](commerce-account-share.md)
    + [轉移帳戶](commerce-account-transfer.md)
 + 網站規範遵循{#compliance}
-   + [Adobe Commerce的HIPAA整備程度](hipaa-ready-service.md)
+   + Adobe Commerce{#hipaa-ready-service}上的HIPAA整備
+      + [概觀](hipaa/overview.md)
+      + [作業指引](hipaa/operations.md)
    + 隱私權{#privacy}
       + [存放區隱私權原則](privacy-policy.md)
       + [CCPA法規遵循](compliance-ccpa.md)

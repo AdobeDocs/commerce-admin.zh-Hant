@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL General]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL General]頁面上的組態設定。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ ht-degree: 0%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | 全域 | 啟用單一存放區安裝時，會隱藏設定範圍方塊和相關欄位標籤選項： `Yes` / `No` <br/>**_注意：_**對於具有多個檢視的存放區，會忽略單一存放區模式。<br/>啟用單一存放區模式會將所有目錄和產品存放區特定資料，從預設存放區檢視複製到所有存放區檢視範圍。 如果商店僅有一個商店，它只會複製目錄和產品資料。 如果商店有一個停用的商店和一個啟用的商店，它將不會複製目錄和產品資料。<br/>啟用單一存放區模式會忽略內容特定資料的存放區檢閱特定組態設定。 而是使用全域層級範圍中定義的組態設定，以確保管理員UI和店面之間的一致性。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![一般>資料服務](./assets/general-data-services.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | 全域 | 如果您是醫療保健客戶，且已安裝[資料服務HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation)擴充功能，則此設定預設為關閉。 因此，即時搜尋和產品Recommendations使用的店面活動資料將不再擷取。 這是因為店面事件資料是在使用者端產生。 若要繼續擷取和傳送店面事件資料以供[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[產品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)服務使用，請將&#x200B;**已啟用Commerce事件**&#x200B;設定為`Yes`。 |
 
 {style="table-layout:auto"}
