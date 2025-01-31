@@ -3,9 +3,9 @@ title: 啟用資產同步
 description: 瞭解如何連結Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
+source-git-commit: e9b3ede8945de0a6ed0cdb02e5675d736764d3e4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,14 @@ ht-degree: 0%
 ## 先決條件
 
 - [設定AEM Experience Manager Assets以管理Commerce資產](#aem-assets-configure-aem)
+
 - [安裝並設定Commerce的AEM Assets整合](#aem-assets-configure-commerce.md)以新增擴充功能，並產生使用擴充功能所需的認證和連線。
+
+- 建立支援票證以請求啟用AEM Assets整合。 您必須提供&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
+
+  >[!TIP]
+  >
+  > （選用）提供&#x200B;**[!UICONTROL Asset Selector IMS Client ID]** （如果可用）。
 
 ## 設定連線
 
@@ -43,11 +50,11 @@ ht-degree: 0%
 
 1. 進入AEM Assets環境&#x200B;**[!UICONTROL Program ID]**&#x200B;和&#x200B;**[!UICONTROL Environment ID]**。
 
-1. 輸入**[!UICONTROL Asset Selector IMS Client ID]。
+1. 輸入&#x200B;**[!UICONTROL Asset Selector IMS Client ID]** （如果可用）。
 
-   [IMS ID](../getting-started/adobe-ims-config.md)可讓您將AEM Assets與頁面產生器整合。
+   [[!UICONTROL Assets Selector]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector)需要[IMS ID](../getting-started/adobe-ims-config.md)，它會選取類別和/或[!DNL Page Builder]的影像。
 
-1. 選取[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)**以驗證Commerce與資產比對服務之間的要求。
+1. 選取[[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)以驗證Commerce與資產比對服務之間的要求。
 
 1. 將&#x200B;**[!UICONTROL Integration enabled]**&#x200B;設定為`Yes`，允許Commerce接受來自AEM Assets的傳入更新。
 
