@@ -3,7 +3,7 @@ title: 安裝和設定Experience Manager Assets整合
 description: 瞭解如何在Adobe Commerce執行個體上安裝及設定 [!DNL AEM Assets Integration for Adobe Commerce] 。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # 安裝並設定適用於Commerce的AEM Assets整合
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 透過安裝`aem-assets-integration` PHP擴充功能，準備您的Commerce環境以使用Commerce的AEM Assets整合。 然後，更新管理員設定，以啟用Adobe Commerce與AEM Assets之間的通訊和工作流程。
 

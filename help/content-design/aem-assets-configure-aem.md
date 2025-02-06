@@ -3,16 +3,14 @@ title: 設定Experience Manager Assets
 description: 新增啟用Commerce的AEM Assets整合所需的資產中繼資料，以在Adobe Commerce和Experience Manager Assets專案之間同步資產。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # 設定Experience Manager Assets
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 準備AEM as a Cloud Service環境以管理Commerce資產，方法是更新環境設定，並設定Assets中繼資料以識別和管理Commerce資產。
 
