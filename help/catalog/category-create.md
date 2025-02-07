@@ -3,9 +3,9 @@ title: 建立類別
 description: 您可以根據組態中設定的最大選單深度，視需要建立任意數量的其他子類別。
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 0%
 
    - 若要使用媒體儲存空間的影像，請按一下&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;並選取您要代表類別的影像。
 
+   在媒體集內，您也可以按一下&#x200B;**[!UICONTROL Search Adobe Stock]**，使用[Adobe Stock整合](../content-design/adobe-stock.md)來尋找適當的影像。
+
    >[!NOTE]
    >
-   >在媒體集內，您也可以按一下&#x200B;**[!UICONTROL Search Adobe Stock]**，使用[Adobe Stock整合](../content-design/adobe-stock.md)來尋找適當的影像。
+   > 如果您已啟用AEM Assets，請參閱[管理類別](../content-design/aem-assets-manage.md)以取得詳細資訊。
 
 1. 針對&#x200B;**[!UICONTROL Description]**，輸入您要顯示在類別登入頁面上的文字或其他內容。
 
