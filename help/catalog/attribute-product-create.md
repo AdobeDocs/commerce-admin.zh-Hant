@@ -3,9 +3,9 @@ title: 建立及刪除產品屬性
 description: 瞭解如何建立和移除產品屬性，這些屬性用於描述目錄中產品的特定特性。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
    | 屬性 | 說明 |
    |--- |--- |
    | `Text Field` | 單行文字輸入欄位。 |
-   | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器將文字格式化為HTML標籤，或直接在文字中輸入標籤。 |
+   | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
    | `Text Editor` | 屬性位置的完整文字編輯器。 |
    | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
@@ -63,6 +63,10 @@ ht-degree: 0%
 ## 步驟2：視需要說明進階屬性
 
 1. 以小寫字元輸入唯一的&#x200B;**[!UICONTROL Attribute Code]**，不含空格。
+
+   >[!NOTE]
+   >
+   >不建議在[!UICONTROL Attribute Code]欄位中使用`type`值。 這可能會造成錯誤，因為`type`值已保留供系統使用。
 
    ![產品屬性 — 進階屬性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -126,7 +130,7 @@ ht-degree: 0%
 
 1. 若要在價格規則中使用屬性，請將&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;設為`Yes`。
 
-1. 若要允許文字使用HTML格式化，請將&#x200B;**[!UICONTROL Allow HTML Tags on Frontend]**&#x200B;設為`Yes`。
+1. 若要允許使用HTML格式化文字，請將&#x200B;**[!UICONTROL Allow HTML Tags on Frontend]**&#x200B;設為`Yes`。
 
    此設定使得WYSIWYG編輯器可用於欄位。
 
