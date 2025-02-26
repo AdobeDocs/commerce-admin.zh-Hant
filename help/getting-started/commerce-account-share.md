@@ -3,9 +3,9 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予其他 [!DNL Commerce] 帳戶持有人對您 [!DNL Commerce] 帳戶的有限存取權。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 開始之前，請先從&#x200B;**新共用存取權受權者**&#x200B;的[!DNL Commerce]帳戶取得下列資訊：
 
-   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。
+   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_標籤的左上角，**登出**連結的正上方。
    - 與帳戶相關聯的`Email`位址。
 
