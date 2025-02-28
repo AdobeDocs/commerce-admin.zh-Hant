@@ -3,24 +3,22 @@ title: 設定Experience Manager Assets
 description: 新增啟用Commerce的AEM Assets整合所需的資產中繼資料，以在Adobe Commerce和Experience Manager Assets專案之間同步資產。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
 
 # 設定Experience Manager Assets
 
-準備AEM as a Cloud Service環境以管理Commerce資產，方法是更新環境設定，並設定Assets中繼資料以識別和管理Commerce資產。
+設定AEM as a Cloud Service以管理Commerce資產，方法是更新AEM Assets環境設定，並在AEM Assets編寫環境中設定中繼資料。
 
-整合需要新增自訂`Commerce`名稱空間和其他[設定檔中繼資料](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)和[結構描述中繼資料](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)。
-
-Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增到AEM Assetsas a Cloud Service環境設定。 範本新增：
+Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增到AEM Assets as a Cloud Service環境設定。 範本新增：
 
 - [自訂名稱空間](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json)，`Commerce`可識別Commerce相關屬性。
 
-- 具有標籤`Does it exist in Commerce?`的自訂中繼資料型別`commerce:isCommerce`可標籤與Adobe Commerce專案相關聯的Commerce資產。
+- 具有標籤`Eligible for Commerce`的自訂中繼資料型別`commerce:isCommerce`可標籤與Adobe Commerce專案相關聯的Commerce資產。
 
 - 自訂中繼資料型別`commerce:productmetadata`與對應的UI元件以新增&#x200B;*[!UICONTROL Product Data]*&#x200B;屬性。 產品資料包含中繼資料屬性，以將Commerce資產與產品SKU建立關聯，並指定資產的影像`role`和`position`屬性。
 
@@ -32,13 +30,10 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 
 - [範例已標籤並核准Commerce資產](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`，以支援初始資產同步化。 只有已核准的Commerce資產才能從AEM Assets同步到Adobe Commerce。
 
-如需Commerce-Assets AEM專案的詳細資訊，請參閱[讀我檔案](https://github.com/ankumalh/assets-commerce)。
+>[!NOTE]
+>如需Commerce-Assets AEM專案範本的其他資訊，請參閱[讀我檔案](https://github.com/ankumalh/assets-commerce)。
 
-## 自訂AEM Assets環境設定
-
->[!BEGINSHADEBOX]
-
-**必要條件**
+您需要下列資源和許可權才能使用此AEM專案更新環境設定：
 
 - [存取具有計畫和部署管理員角色的AEM Assets Cloud Manager計畫和環境](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo)。
 
@@ -46,9 +41,7 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 
 - 瞭解[AEM專案結構](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)以及如何使用Cloud Manager部署自訂內容套件。
 
->[!ENDSHADEBOX]
-
-### 將Commerce-Assets AEM專案部署至AEM Assets編寫環境
+## 更新及部署AEM Assets環境設定
 
 1. 如有需要，可從Cloud Manager建立AEM Assets專案的生產和中繼環境。
 
@@ -64,7 +57,8 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 
 ## 設定中繼資料設定檔
 
-透過建立中繼資料設定檔，設定Commerce資產中繼資料的預設值。 設定後，將此設定檔套用至AEM Asset資料夾，以自動使用這些預設值。 此選擇性設定可減少手動步驟，有助於簡化資產處理。
+在AEM Assets製作環境中，透過建立中繼資料設定檔，設定Commerce資產中繼資料的預設值。 然後，將新的設定檔套用至
+AEM資產資料夾以自動使用這些預設值。 此設定可減少手動步驟，以簡化資產處理。
 
 1. 在Adobe Experience Manager工作區中，按一下Adobe Experience Manager圖示以前往AEM Assets的作者內容管理工作區。
 
@@ -108,10 +102,6 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 >
 >您可以更新中繼資料設定檔，將&#x200B;_[!UICONTROL Review Status]_欄位的預設值設為`Approved`，藉此在上傳至Commerce環境時自動同步AEM Assets資產。 `Review Status`欄位的屬性型別是`./jcr:content/metadata/dam:status`。
 
+## 下一步
 
-## 後續步驟
-
-更新AEM環境後，請設定Adobe Commerce：
-
-1. [安裝並設定適用於Commerce的AEM Assets整合](aem-assets-configure-commerce.md)
-2. [啟用資產同步，以便在您的Adobe Commerce專案環境和AEM Assets專案環境之間傳輸資產](aem-assets-setup-synchronization.md)
+[安裝並設定適用於Adobe Commerce的AEM Assets整合](aem-assets-configure-commerce.md)

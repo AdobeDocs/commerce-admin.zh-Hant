@@ -1,11 +1,11 @@
 ---
 user-guide-title: 內容與設計手冊
-user-guide-description: 針對Adobe Commerce及Magento Open Source管理員和電子商務行銷人員提供的有關內容和設計功能的完整資訊。
+user-guide-description: 針對Adobe Commerce和Magento Open Source管理員以及電子商務行銷人員提供的有關內容和設計功能的完整資訊。
 breadcrumb-title: 內容和設計
 feature: CMS, Page Content
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 4%
 
 ---
@@ -72,14 +72,16 @@ ht-degree: 4%
       - [資產管理](media-gallery-asset-management.md)
       - [資料夾管理](media-gallery-folder-management.md)
       - [影像最佳化](media-gallery-image-optimization.md)
-- 使用AEM Assets {#aem-asset-management}的資產管理
-   - [適用於Commerce的AEM Assets整合](aem-assets-integration.md)
-   - 設定整合{#onboarding}
-      - [概觀](aem-assets-setup.md)
+- Commerce {#aem-asset-management}的AEM Assets整合
+   - [整合概述](aem-assets-integration.md)
+   - [發行說明](aem-assets-release-notes.md)
+   - 快速入門{#onboarding}
+      - [設定AEM Assets](aem-assets-onboard.md)
       - [設定AEM Assets](aem-assets-configure-aem.md)
       - [設定Adobe Commerce](aem-assets-configure-commerce.md)
       - [啟用資產同步](aem-assets-setup-synchronization.md)
-   - [管理資產](aem-assets-manage.md)
+   - 管理資產{#manage}
+      - [搭配Commerce使用AEM Assets](aem-assets-manage.md)
 - 媒體{#media}
 - 內容暫存{#staging}
    - [概觀](content-staging.md)

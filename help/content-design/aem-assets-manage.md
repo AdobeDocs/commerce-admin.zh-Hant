@@ -3,9 +3,9 @@ title: 使用AEM Assets
 description: 使用AEM Assets管理您的商店媒體資產。
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 - [核准資產](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## 管理類別
+## 將資產新增至類別內容
 
 啟用並設定AEM Assets整合後，您就可以將資產新增至目錄類別內容：
 
