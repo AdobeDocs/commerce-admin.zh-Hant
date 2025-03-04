@@ -3,9 +3,9 @@ user-guide-title: 內容與設計手冊
 user-guide-description: 針對Adobe Commerce和Magento Open Source管理員以及電子商務行銷人員提供的有關內容和設計功能的完整資訊。
 breadcrumb-title: 內容和設計
 feature: CMS, Page Content
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 499354ba72da9170ff43ddf762785efcec8a7f64
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 4%
       - [設定AEM Assets](aem-assets-configure-aem.md)
       - [設定Adobe Commerce](aem-assets-configure-commerce.md)
       - [啟用資產同步](aem-assets-setup-synchronization.md)
+      - [檢視和管理記錄檔](aem-assets-log-files.md)
    - 管理資產{#manage}
       - [搭配Commerce使用AEM Assets](aem-assets-manage.md)
 - 媒體{#media}
