@@ -1,20 +1,20 @@
 ---
-title: 啟用資產同步
+title: 設定整合
 description: 瞭解如何連結Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
-# 啟用資產同步
+# 設定整合
 
-更新Commerce環境設定以將Commerce連線至AEM Assets執行個體，藉此啟用資產同步化。 此整合可同步Commerce和AEM Assets之間的資產，確保產品影像和其他資產隨時保持最新。
+將Commerce連線至AEM Assets執行個體，並選取資產同步的比對策略，以設定整合。
 
-識別AEM資產專案後，選取在Adobe Commerce和AEM Assets之間同步資產的相符規則。
+識別AEM Assets專案後，選取在Adobe Commerce和AEM Assets之間同步資產的相符規則。
 
 - **[!UICONTROL Match by product SKU]** — 符合資產中繼資料中的SKU與[Commerce產品SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku)的預設規則，以確保資產與正確的產品相關聯。
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 先決條件
 
-- [設定AEM Assets以管理Commerce資產](aem-assets-configure-aem.md)
+- [安裝AEM Assets套件](aem-assets-configure-aem.md)
 
-- [安裝並設定Commerce的AEM Assets整合](aem-assets-configure-commerce.md)以新增擴充功能，並產生使用擴充功能所需的認證和連線。
+- [安裝Adobe Commerce套件](aem-assets-configure-commerce.md)以新增擴充功能，並產生使用擴充功能所需的認證和連線。
 
-- 建立支援票證以請求啟用AEM Assets整合。 您必須針對要連線至Commerce的AEM Assets編寫環境提供&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
+- 建立支援票證以請求啟用AEM Assets以進行Commerce整合。 在票證中，加入您要連線至Commerce之AEM Assets編寫環境的&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
 
   >[!TIP]
   >
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Save Config]**&#x200B;以套用更新並啟動資產同步處理。
 
-   設定更新會觸發初始同步流程，讓Commerce能夠接受來自AEM Assets的傳入更新。同步所需的時間取決於資產數量和特定設定。 整合利用自動化程式，將同步所需的時間減至最少。
+   設定更新會觸發初始同步流程，允許Commerce接受來自AEM Assets的傳入更新。 同步所需的時間取決於資產數量和特定配置。 整合利用自動化程式，將同步所需的時間減至最少。
 
 ## 下一步
 

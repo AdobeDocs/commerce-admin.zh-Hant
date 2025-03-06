@@ -3,9 +3,9 @@ title: 設定適用於Commerce的AEM Assets整合
 description: 瞭解如何設定並設定您的Experience Manager Assets環境，以管理您商店的Commerce資產。
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
+source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ ht-degree: 0%
 
 啟用Commerce與Experience Manager Assets的整合需要三個步驟：
 
-1. [設定您的Adobe Experience Manager資產專案以管理Adobe Commerce資產](aem-assets-configure-aem.md)。
+1. [安裝AEM Assets套件](aem-assets-configure-aem.md)。
 
-1. [安裝適用於Commerce擴充功能的Adobe Experience Manager Assets整合，並設定Adobe Commerce](aem-assets-configure-aem.md)。
+1. [安裝Adobe Commerce套件](aem-assets-configure-aem.md)。
 
-1. [啟用資產同步處理](aem-assets-setup-synchronization.md)。
+1. [設定整合資產](aem-assets-setup-synchronization.md)。

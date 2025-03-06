@@ -1,20 +1,20 @@
 ---
-title: 設定Experience Manager Assets
+title: 安裝適用於Commerce的AEM Assets套件
 description: 新增啟用Commerce的AEM Assets整合所需的資產中繼資料，以在Adobe Commerce和Experience Manager Assets專案之間同步資產。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
-# 設定Experience Manager Assets
+# 安裝AEM Assets套件
 
-設定AEM as a Cloud Service以管理Commerce資產，方法是更新AEM Assets環境設定，並在AEM Assets編寫環境中設定中繼資料。
+Adobe提供專案範本`commerce-assets`，以將Commerce名稱空間和中繼資料結構描述資源新增至Experience Manager Assets as a Cloud Service環境設定。 將此範本部署為Maven套件至您的環境。 然後，在AEM Assets製作環境中設定Commerce中繼資料，以完成設定。
 
-Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增到AEM Assets as a Cloud Service環境設定。 範本新增：
+範本將下列資源新增至AEM Assets製作環境。
 
 - [自訂名稱空間](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json)，`Commerce`可識別Commerce相關屬性。
 
@@ -31,7 +31,7 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 - [範例已標籤並核准Commerce資產](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`，以支援初始資產同步化。 只有已核准的Commerce資產才能從AEM Assets同步到Adobe Commerce。
 
 >[!NOTE]
->如需Commerce-Assets AEM專案範本的其他資訊，請參閱[讀我檔案](https://github.com/ankumalh/assets-commerce)。
+>如需`commerce-assets` AEM專案範本的其他資訊，請參閱[讀我檔案](https://github.com/ankumalh/assets-commerce)。
 
 您需要下列資源和許可權才能使用此AEM專案更新環境設定：
 
@@ -41,7 +41,7 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 
 - 瞭解[AEM專案結構](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)以及如何使用Cloud Manager部署自訂內容套件。
 
-## 更新及部署AEM Assets環境設定
+## 安裝`commerce-assets`封裝
 
 1. 如有需要，可從Cloud Manager建立AEM Assets專案的生產和中繼環境。
 
@@ -57,8 +57,7 @@ Adobe提供AEM專案範本，以將名稱空間和中繼資料結構資源新增
 
 ## 設定中繼資料設定檔
 
-在AEM Assets製作環境中，透過建立中繼資料設定檔，設定Commerce資產中繼資料的預設值。 然後，將新的設定檔套用至
-AEM資產資料夾以自動使用這些預設值。 此設定可減少手動步驟，以簡化資產處理。
+在AEM Assets製作環境中，透過建立中繼資料設定檔，設定Commerce資產中繼資料的預設值。 然後，將新設定檔套用至AEM資產資料夾，以自動使用這些預設值。 此設定可減少手動步驟，以簡化資產處理。
 
 1. 在Adobe Experience Manager工作區中，按一下Adobe Experience Manager圖示以前往AEM Assets的作者內容管理工作區。
 
@@ -90,7 +89,7 @@ AEM資產資料夾以自動使用這些預設值。 此設定可減少手動步�
 
    1. 從[!UICONTROL  Metadata Profiles]頁面，選取Commerce整合設定檔。
 
-   1. 從動作功能表中選取&#x200B;**[!UICONTROL Apply Metadata Profiles to Folder(s)]**。
+   1. 從動作功能表中選取&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
 
    1. 選取包含Commerce資產的資料夾。
 
@@ -104,4 +103,4 @@ AEM資產資料夾以自動使用這些預設值。 此設定可減少手動步�
 
 ## 下一步
 
-[安裝並設定適用於Adobe Commerce的AEM Assets整合](aem-assets-configure-commerce.md)
+[安裝Adobe Commerce套件](aem-assets-configure-commerce.md)
