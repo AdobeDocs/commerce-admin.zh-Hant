@@ -3,9 +3,9 @@ title: 聯合包裹服務(UPS)
 description: 瞭解如何將UPS設定為您的商店的運送業者。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 ## 步驟1：開啟UPS出貨帳戶
 
-若要提供此送貨方式給您的客戶，您必須先使用UPS開立帳戶。
+若要提供此送貨方式給您的客戶，您必須先開啟UPS帳戶並完成應用程式，以取得託運人帳號。 請參閱[開啟免費的UPS帳戶](https://www.ups.com/us/en/business-solutions/open-an-account)。
 
-## 步驟2：為商店啟用UPS
+## 步驟2：取得UPS OAUTH認證
+
+請依照[UPS API快速入門手冊](https://developer.ups.com/get-started)中的步驟來取得API認證（使用者端ID和使用者端密碼），以啟用UPS整合。 您必須建立UPS應用程式才能取得認證。
+
+當您在Admin中設定UPS設定時，請使用`username`和`password`的認證值。
+
+## 步驟3：為商店啟用UPS
 
 1. 在&#x200B;_管理員側欄_&#x200B;上，前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -36,7 +42,7 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 1. 對於UPS REST帳戶（預設），請執行下列動作：
 
-   - 輸入您的UPS認證： UPS使用者端ID為&#x200B;**[!UICONTROL User ID]**，UPS使用者端密碼為&#x200B;**[!UICONTROL Password]**
+   - 輸入您的UPS認證： UPS使用者端ID為&#x200B;**[!UICONTROL User ID]**，UPS使用者端密碼為&#x200B;**[!UICONTROL Password]**。
 
    - 將&#x200B;**[!UICONTROL Mode]**&#x200B;設為`Live`以透過安全連線傳送資料至UPS運送系統。 （開發模式不會透過安全連線傳送資料。）
 
@@ -116,7 +122,7 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
    ![容器說明](./assets/ups2.png){width="600" zoomable="yes"}
 
-## 步驟4：設定手續費
+## 步驟5：設定手續費
 
 處理費是選擇性的，而且會顯示為UPS送貨成本的額外費用。 如果要包含手續費，請執行下列步驟：
 
@@ -136,7 +142,7 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
    ![手續費](./assets/ups3.png){width="600" zoomable="yes"}
 
-## 步驟5：指定允許的方法和適用的國家
+## 步驟6：指定允許的方法和適用的國家
 
 1. 針對&#x200B;**[!UICONTROL Allowed Methods]**，選擇客戶可用的各種UPS送貨方法。
 
@@ -174,7 +180,7 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-## 步驟6：設定出貨來源地址
+## 步驟7：設定出貨來源地址
 
 1. 確定您的[存放區資訊](../getting-started/store-details.md#store-information)已完成。
 
