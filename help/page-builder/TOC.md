@@ -5,10 +5,10 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 6%
    - [標題](heading.md)
    - [按鈕](buttons.md)
    - [分隔線](divider.md)
-   - [HTML代碼](html-code.md)
+   - [HTML程式碼](html-code.md)
 - 媒體{#media}
    - [影像](image.md)
    - [影片](video.md)
@@ -44,7 +44,7 @@ ht-degree: 6%
    - [區塊](block.md)
    - [動態區塊](dynamic-block.md)
    - [產品](products.md)
-   - [產品Recommendations](recommendations.md)
+   - [產品推薦](recommendations.md)
 - [範本](templates.md)
-- [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

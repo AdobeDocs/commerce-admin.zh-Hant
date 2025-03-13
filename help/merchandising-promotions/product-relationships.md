@@ -3,7 +3,7 @@ title: 產品關係
 description: 瞭解可用於向目標買家促銷產品的產品關係型別。
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [相關產品規則](product-related-rules.md)可讓您鎖定呈現給客戶的相關產品、追加銷售和交叉銷售的產品選擇。
 
-## 由Adobe Sensei支援的產品Recommendations
+## 由Adobe Sensei支援的產品推薦
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [由Adobe Sensei支援的產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [由Adobe Sensei支援的產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。

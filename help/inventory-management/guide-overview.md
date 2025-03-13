@@ -1,19 +1,19 @@
 ---
-title: 'Inventory management指南 [!DNL Inventory Management] 指南'
-description: 有關Adobe Commerce和Magento Open Source管理員 [!DNL Inventory Management] 的完整資訊，包括移轉和設定。
+title: Inventory management指南 [!DNL Inventory Management] 指南
+description: 適用於Adobe Commerce和Magento Open Source管理員的 [!DNL Inventory Management] 相關完整資訊，包括移轉和設定。
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # [!DNL Inventory Management]指南總覽
 
-本指南適用於Adobe Commerce和Magento Open Source的管理員。 其中提供啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]組態和功能有基本的瞭解。
+本指南適用於Adobe Commerce和Magento Open Source Admin的管理員。 其中提供啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]組態和功能有基本的瞭解。
 
 [!DNL Inventory Management]有兩個管理員區域：
 

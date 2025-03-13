@@ -5,9 +5,9 @@ breadcrumb-title: 設定參考
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
    - [銷售](./sales/sales.md)
    - [銷售電子郵件](./sales/sales-emails.md)
    - [引號](./sales/quotes.md)
-   - [PDF列印](./sales/pdf-print-outs.md)
+   - [PDF列印輸出](./sales/pdf-print-outs.md)
    - [稅金](./sales/tax.md)
    - [簽出](./sales/checkout.md)
    - [送貨設定](./sales/shipping-settings.md)
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [管理員](./advanced/admin.md)
    - [系統](./advanced/system.md)
    - [開發人員](./advanced/developer.md)
-- [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

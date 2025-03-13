@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL General]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL General]頁面上的組態設定。
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -117,6 +117,6 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | 全域 | 如果您是醫療保健客戶，且已安裝[資料服務HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)擴充功能，則此設定預設為關閉。 因此，即時搜尋和產品建議使用的店面活動資料將不再擷取。 這是因為店面事件資料是在使用者端產生。 若要繼續擷取和傳送店面事件資料以供[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)和[產品推薦](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)服務使用，請將&#x200B;**已啟用Commerce事件**&#x200B;設定為`Yes`。 |
+| [!UICONTROL Commerce Events Enabled] | 全域 | 如果您是醫療保健客戶，且已安裝[資料服務HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)擴充功能，則此設定預設為關閉。 因此，即時搜尋和產品建議使用的店面活動資料將不再擷取。 這是因為店面事件資料是在使用者端產生。 若要繼續擷取和傳送店面事件資料以供[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[產品推薦](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)服務使用，請將&#x200B;**已啟用Commerce事件**&#x200B;設定為`Yes`。 |
 
 {style="table-layout:auto"}

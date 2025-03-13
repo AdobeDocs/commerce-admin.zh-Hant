@@ -1,22 +1,22 @@
 ---
-title: Adobe Commerce商家檔案
+title: Adobe Commerce管理員使用手冊
 description: 瀏覽 Adobe Commerce 產品文件
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: 商家檔案
+breadcrumb-title: 管理員使用手冊
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![商家檔案](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
 
 歡迎使用全球領先的數位商務平台的新一代。 Adobe Commerce為線上商戶提供無與倫比的彈性，掌控其線上商店的外觀、內容和功能。 管理員擁有強大的行銷、搜尋引擎最佳化和產品管理工具，讓您能夠建立符合獨特業務需求的網站。
 
-商家檔案中的資訊是針對在Adobe Commerce或Magento Open Source程式碼庫中工作的商務使用者而設計。 Adobe Commerce或延伸功能集都獨有特色與功能，其中包含註解。
+「管理員使用指南」中的資訊是針對在Adobe Commerce Admin或Magento Open Source程式碼庫中工作的商務使用者而設計。 Adobe Commerce或延伸功能集都獨有特色與功能，其中包含註解。
 
 ## Adobe Commerce {#product-editions}
 
@@ -26,9 +26,9 @@ Adobe Commerce是敏捷的B2B和B2C商業平台，可讓商家和品牌透過線
 
 ## Magento Open Source程式碼基底
 
-Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Adobe Commerce時的相容性。 此程式碼庫是Adobe計畫的一部分，該計畫可增強個別開發人員的能力，並培養渴望快速成長的小型企業。
+Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Adobe Commerce時的相容性。 此程式碼庫是Adobe計畫的一部分，該計畫可增強個別開發人員的能力，並培育渴望快速成長的小型企業。
 
-## 商家指南
+## 管理員使用手冊
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>快速入門</strong></a>
     <div>
-    <em>大多數商家在第一次學習使用Adobe Commerce或Magento Open Source時所遇到的「原因、地點和方式」問題，以及資源和參考資訊。 本指南是更進階主題的跳板。</em>
+    <em>大多數商家在第一次學習如何與管理員溝通時所遇到的「原因、地點和方式」問題，以及資源和參考資訊。 本指南是更進階主題的跳板。</em>
     <br> </div>
   </td>
   </tr>
@@ -115,11 +115,11 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 </tr>
 </table>
 
-## 商戶指南的新增功能
+## 管理員使用手冊的新增功能
 
 >[!TIP]
 >
->您也可以檢閱[Commerce Services檔案的新增功能](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new)以及[作業指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new)。
+>您也可以檢閱[Commerce Services檔案的新增功能](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new)以及[作業指南的新增功能](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new)。
 
 | 說明 | 型別 | 日期 |
 | ----------- | ---- | ---- |
@@ -127,12 +127,12 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 | **1.4.0 B2B版本** - _Adobe Commerce B2B指南_&#x200B;現已包含購買者](../b2b/sales-rep-initiates-quote.md)主題的[起始報價。 它說明賣方如何為特定採購員建立報價單，以開始議價處理。 | 新增 | 06/13/23 |
 | **1.4.0 B2B版本** - [交涉報價](../b2b/quote-price-negotiation.md)、[交涉報價](../b2b/quotes.md)和[啟用B2B功能](../b2b/enable-basic-features.md)主題已更新，以反映賣家所起始報價和預設功能的變更。 | 更新 | 06/13/23 |
 | **2.2.0 Adobe IMS整合版本** - _快速入門手冊_&#x200B;現已包含[停用Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-disable.md)主題。 它說明停用Adobe Commerce管理員與Adobe IMS整合的選用程式。 | 新增 | 06/13/23 |
-| **2.2.0 Adobe IMS整合版本** - [AdobeIdentity Management服務(IMS)整合總覽](../getting-started/adobe-ims-integration-overview.md)和[設定Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-config.md)主題以反映更新的功能。 | 更新 | 06/13/23 |
+| **2.2.0 Adobe IMS整合版本** - [Adobe Identity Management Service (IMS)整合總覽](../getting-started/adobe-ims-integration-overview.md)和[設定Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-config.md)主題以反映更新的功能。 | 更新 | 06/13/23 |
 | **[!DNL Audience Activation]** - [[!DNL Audience Activation]](../customers/audience-activation.md)主題中包含全新和更新的改善資訊，以反映[!DNL Experience Platform Connector]設定UI以及如何將Headless Commerce執行個體與購物車價格規則及動態區塊搭配使用。 | 更新 | 06/13/23 |
 | **UPS API淘汰** — 更新[United Parcel Service (UPS)](../stores-purchase/ups.md)主題和[傳遞方法](../configuration-reference/sales/delivery-methods.md#ups)設定參考頁面，以反映暫時淘汰UPS API以產生新API金鑰。 | 更新 | 06/08/23 |
 | **2.4.6版本** — 更新[產品清單](../catalog/products-list.md)和[管理員組態參考](../configuration-reference/advanced/admin.md)主題，以包含產品顯示限制的相關資訊，這些資訊可用來改善大型目錄的效能。 | 更新 | 03/14/23 |
 | **2.4.6版本** — 更新[建立及刪除客戶區段](../customers/customer-segment-create.md)和[客戶設定參考](../configuration-reference/customers/customer-configuration.md)主題，以包含區段的即時驗證相關資訊。 | 更新 | 03/14/23 |
-| **2.4.6版本** — 已更新[Braintree](../stores-purchase/braintree.md)和[Braintree組態參考](../configuration-reference/sales/braintree.md)主題，以反映套件式Braintree整合支援的更新及新付款選項。 | 更新 | 03/14/23 |
+| **2.4.6版本** — 更新[Braintree](../stores-purchase/braintree.md)和[Braintree設定參考](../configuration-reference/sales/braintree.md)主題，以反映套件式Braintree整合支援的更新後和新付款選項。 | 更新 | 03/14/23 |
 | **2.4.6版本** — 已更新[貨幣組態](../stores-purchase/currency-configuration.md)和[貨幣設定組態](../configuration-reference/general/currency-setup.md)主題，以包含新的[!DNL Fixer API] (APILayer)選項。 | 更新 | 03/14/23 |
 | **2.4.6版本** — 已更新[設定電子郵件通訊](../systems/email-communications.md)和[系統組態參考](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings)主題，以包含電子郵件通訊的新SMTP選項。 | 更新 | 03/14/23 |
 | **2.4.6版本** — 已更新[Inventory management發行說明](../inventory-management/release-notes.md)，其中包含最新套件擴充功能版本(v1.2.6)中包含的修正描述清單。 | 更新 | 03/14/23 |

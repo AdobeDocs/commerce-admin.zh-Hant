@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]頁面上的組態設定。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce和Magento Open Source的支付服務提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，提供穩定且安全的支付處理作業。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)。
+>Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
 
 {{config}}
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->2.4.x版移除了部分付款整合和隨附的擴充功能，並移至Commerce Marketplace。 您可以在[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}中找到最新的正式付款整合延伸模組。
+>部分付款整合和隨附的擴充功能在2.4.x版中已移除，並移至Commerce Marketplace。 您可以在[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}中找到最新的正式付款整合延伸模組。
 ><br/>
->**Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，這些擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
+>**Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，核心版本不再隨附這些擴充功能，而必須從Commerce Marketplace安裝及更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br/>
 >如果您已啟用並設定這些隨附的擴充功能，則必須在2.4.4升級程式中更新`composer.json`檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。<br/>
 ><br/>

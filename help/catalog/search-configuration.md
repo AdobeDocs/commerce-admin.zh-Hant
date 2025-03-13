@@ -3,16 +3,16 @@ title: 設定目錄搜尋
 description: 瞭解如何設定商店的目錄搜尋。
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # 設定目錄搜尋
 
-目錄搜尋設定有兩種變體。 第一個方法說明安裝[即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)時可用的設定。 第二個方法說明具有[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){：target=&quot;_blank&quot;}的原生Adobe Commerce的組態設定。
+目錄搜尋設定有兩種變體。 第一個方法說明安裝[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)時可用的設定。 第二個方法說明具有[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}的原生Adobe Commerce的組態設定。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    預設值為`100`。 輸入值`0`會在第二次輸入時快取所有搜尋字詞和結果。
 
-1. 若要變更[店面快顯視窗](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html)中可傳回結果的行數上限，請輸入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
+1. 若要變更[店面快顯視窗](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)中可傳回結果的行數上限，請輸入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
 
    限制行數可以改善搜尋的效能，並減少傳回清單的大小。 預設值為`8`行。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >- 由於2023年8月有[!DNL Elasticsearch 7]個支援終止公告，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
->- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 2.4.6版開始支援Elasticsearch8.x時，建立了新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
+>- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 當版本2.4.6中引入Elasticsearch 8.x支援時，已建立新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
 
 ### 步驟1：設定一般搜尋選項
 

@@ -2,7 +2,7 @@
 title: Commerce銷售與促銷活動簡介
 description: 了解 Commerce 工具如何建立針對性促銷活動和客戶參與機會。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!TIP]
 >
->若要瞭解產品Recommendations以及它們如何提供您所需的深入分析和控制力，讓您為買家打造最佳體驗，請參閱[產品Recommendations使用手冊](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)。
+>若要瞭解產品建議，以及這些建議如何提供您所需的深入分析和控制力，讓您為買家打造最佳體驗，請參閱[產品建議使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
 
 ## 促銷活動
 
@@ -66,7 +66,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用於與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br><br>
 >如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
 

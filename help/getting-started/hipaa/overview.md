@@ -3,7 +3,7 @@ title: Adobe Commerce的HIPAA整備程度
 description: 了解如何新增 Adobe Commerce HIPAA-Ready 擴充功能並取得其他特性和功能，讓您可以遵守 HIPAA 義務。
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe Commerce必須部署在雲端基礎結構上的Adobe Commerce上，或使�
 
 >[!NOTE]
 >
->若要確保傳送至Experience Platform的後台事件資料可使用HIPAA，請參閱[資料連線延伸指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>若要確保傳送至Experience Platform的後台事件資料可使用HIPAA，請參閱[資料連線延伸指南](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本機工作站上，變更至雲端基礎結構專案上Adobe Commerce的專案目錄。
 
@@ -264,12 +264,12 @@ Adobe Commerce中的HIPAA客戶搜尋結果限制功能會限制對受保護健�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 是 | 是 |
 | 適用於Adobe Developer App Builder的[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
-| [SaaS資料匯出](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | 是 | 是 |
-| [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 否 | 否 |
-| [產品建議](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 否 | 否 |
-| [付款服務](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | 否 | 否 |
-| [資料連線後台事件](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
-| [資料連線店面活動](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
+| [SaaS資料匯出](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 是 | 是 |
+| [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 否 | 否 |
+| [產品建議](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 否 | 否 |
+| [付款服務](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 否 | 否 |
+| [資料連線後台事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
+| [資料連線店面活動](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
 
 ### 工具

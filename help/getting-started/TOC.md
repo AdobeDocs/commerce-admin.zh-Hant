@@ -1,22 +1,21 @@
 ---
-user-guide-title: Adobe Commerce快速入門手冊
-user-guide-description: 如果您是Adobe Commerce或Magento Open Source的新手，請探索 [!DNL Commerce] 生態系統的資源、關注客戶歷程以探索您的商店，並瞭解主要功能。
+user-guide-title: Adobe Commerce管理員快速入門手冊
+user-guide-description: 如果您是Adobe Commerce或Magento Open Source管理員的新手，請探索 [!DNL Commerce] 生態系統的資源、依照客戶歷程探索您的商店，並瞭解重要的管理員功能。
 breadcrumb-title: 快速入門
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Adobe Commerce快速入門手冊 {#start}
+# Adobe Commerce管理員快速入門手冊 {#start}
 
-+ [Adobe Commerce快速入門手冊](guide-overview.md)
-+ [什麼是Adobe Commerce？](about.md)
++ [Adobe Commerce管理員快速入門手冊](guide-overview.md)
 + [登入憑證和URL](login-urls.md)
 + Commerce帳戶{#commerce-account}
    + [建立並存取您的帳戶](commerce-account-create.md)
@@ -39,7 +38,7 @@ ht-degree: 1%
 + 管理員{#admin}
    + [管理員是什麼？](admin.md)
    + [您的管理員使用者帳戶](admin-signin.md)
-   + AdobeIdentity Management服務(IMS)整合{#ims}
+   + Adobe Identity Management服務(IMS)整合{#ims}
       + [IMS整合總覽](adobe-ims-integration-overview.md)
       + [設定與IMS的管理員整合](adobe-ims-config.md)
       + [停用與IMS的管理員整合](adobe-ims-disable.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [生態系統](resources.md)
    + [擴充功能](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

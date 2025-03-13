@@ -3,7 +3,7 @@ title: 產品設定 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 對於產品，[!UICONTROL Related Products, Up-Sells, and Cross-Sells]設定會在產品頁面上定義簡單的促銷區塊，以強調其他產品的選擇。
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) **由Adobe Sensei提供支援的產品Recommendations**使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+>![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) **由Adobe Sensei支援的產品建議**使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
 ><br/>
->如需有關使用此Adobe開發的擴充功能作為手動設定之產品推薦和追加銷售之替代方案的詳細資訊，請參閱&#x200B;_[產品Recommendations指南](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_。
+>如需使用此Adobe開發的擴充功能作為手動設定之產品推薦和追加銷售之替代方法的詳細資訊，請參閱&#x200B;_[產品推薦指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
 
 ## 相關產品
 

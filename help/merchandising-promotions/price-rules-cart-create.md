@@ -3,7 +3,7 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 若要控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
+   >具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 為了控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
 
 1. 若要將規則套用至已發佈的[RSS摘要](social-rss.md#rss-feeds)，請將RSS摘要&#x200B;**中的** Public設定為`Yes`。
 
@@ -219,7 +219,7 @@ ht-degree: 0%
    | `Name` | 對象名稱，例如`Orders over $50` |
    | `Description` | 對象的說明，例如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指出對象的來源，例如`Experience Platform`。 |
-   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html)擴充功能將Commerce執行個體連線至Experience Platform時，就會建立此連結。 |
+   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
 
    {style="table-layout:auto"}
 

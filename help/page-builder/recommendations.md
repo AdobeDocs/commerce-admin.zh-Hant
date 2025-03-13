@@ -1,26 +1,26 @@
 ---
-title: 新增內容 — 產品Recommendations
-description: 瞭解產品Recommendations內容型別，用於新增建議清單至 [!DNL Page Builder] 階段。
+title: 新增內容 — 產品推薦
+description: 瞭解Product Recommendations內容型別，用於新增建議清單至 [!DNL Page Builder] 階段。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# 新增內容 — 產品Recommendations
+# 新增內容 — 產品推薦
 
-使用&#x200B;_產品Recommendations_&#x200B;內容型別，針對CMS頁面、區塊或動態區塊，將現有的作用中[建議單位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)新增至[[!DNL Page Builder] 階段](workspace.md#stage)。
+使用&#x200B;_Product Recommendations_&#x200B;內容型別，將現有的作用中[建議單位](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)新增至CMS頁面、區塊或動態區塊的[[!DNL Page Builder] 階段](workspace.md#stage)。
 
 >[!NOTE]
 >
->Adobe Commerce 2.4.4和更新版本支援[!DNL Page Builder] _產品Recommendations_&#x200B;內容型別，並可在[產品Recommendations中繼套件3.0.x或更新版本](https://commercemarketplace.adobe.com/magento-product-recommendations.html)中使用。 若要新增產品Recommendations的[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
+>[!DNL Page Builder] _產品建議_&#x200B;內容型別在Adobe Commerce 2.4.4和更新版本中受到支援，並可在[產品建議中繼3.0.x或更新版本中使用](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 若要為產品建議新增[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## 產品Recommendations工具箱
+## 產品建議工具箱
 
 | 工具 | 圖示 | 說明 |
 | --- | --| --- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 新增現有的建議單位
 
-1. 確定您已[建立[!DNL Page Builder]頁面型別的建議單位](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)。
+1. 確定您已[建立[!DNL Page Builder]頁面型別的建議單位](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 ## 進階設定
 
-1. 若要控制產品Recommendations單位在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
+1. 若要控制Product Recommendations單位在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
    | 選項 | 說明 |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 設定套用至Product Recommendations單位所有四個側面的&#x200B;**[!UICONTROL Border]**&#x200B;樣式：
+1. 設定套用至「產品建議」單位所有四個方面的&#x200B;**[!UICONTROL Border]**&#x200B;樣式：
 
    | 選項 | 說明 |
    | ------ | ----------- |

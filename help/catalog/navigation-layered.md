@@ -3,7 +3,7 @@ title: 分層導覽
 description: 瞭解階層式導覽如何讓購物者根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)的「即時搜尋」篩選導覽不同。
 
 分層導覽可讓您根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。 階層式導覽通常會顯示在搜尋結果和類別頁面的左欄，有時也會顯示在首頁上。 標準導覽包含&#x200B;_Shop By_&#x200B;類別與價格範圍清單。 您可以設定分層導覽的顯示方式，包括產品計數和價格範圍。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html)。
+>此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)。
 
 您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇「Mens/Shorts」類別時，初始結果會包含該類別中的所有產品。 您可以藉由選擇特定的樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選的屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
 
@@ -112,7 +112,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->此主題中說明的價格瀏覽組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)不同。
+>此主題中說明的價格瀏覽組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。
 
 價格導覽可用於在分層導覽中依價格範圍分配產品。 您也可以以間隔分割每個範圍。 有幾種方式可以計算價格導覽：
 
@@ -201,7 +201,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->此頁面中說明的標準組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)不同。
+>此頁面中說明的標準組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同。
 
 階層式導覽組態會決定產品計數是否出現在每個屬性後面的括弧中，以及價格導覽中使用的步驟計算大小。
 

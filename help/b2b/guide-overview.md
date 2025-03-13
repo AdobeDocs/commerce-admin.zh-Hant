@@ -1,21 +1,21 @@
 ---
-title: '[!DNL Adobe Commerce B2B]指南'
+title: '[!DNL Adobe Commerce B2B] 指南'
 description: ' [!DNL Adobe Commerce B2B] 管理員的完整資訊，包括安裝和組態。'
 breadcrumb-title: 指南概觀
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
+source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 0%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
 # Adobe Commerce B2B指南
 
-本指南適用於Adobe Commerce的管理員。 它提供安裝和啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
+本指南適用於在Adobe Commerce管理員中工作的管理員。 它提供安裝和啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
 
 存放區管理員有兩個區域：
 

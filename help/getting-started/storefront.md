@@ -3,9 +3,9 @@ title: 什麼是店面？
 description: 瞭解您的商店可以提供的頁面和功能元素，以支援客戶的購物體驗。
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,51 @@ ht-degree: 0%
 在您的Adobe Commerce或Magento Open Source實作中，店面是您存放區的對外公開部分。 它提供客戶用於購物和購買的內容和功能元件。
 
 客戶進行銷售的路徑有時稱為&#x200B;_購買路徑_，您的店麵包含供客戶完成此路徑的元件。 以下章節提供提供提供策略價值的基本頁面型別概觀，即客戶在商店購物時通常會造訪的位置。 在檢閱時，請考慮可在客戶歷程的每個階段使用的不同商店功能。
+
+## Commerce店面
+
+透過推出由Edge Delivery Services **]支援的[!DNL ** Commerce店面，Adobe提供高效能、可擴充且可靠的店面，運用尖端技術提供卓越的速度和使用者體驗。
+
+- **增強效能**：在Edge Delivery Services上託管店面可確保更短的載入時間並改善網站效能，進而帶來更高的轉換率和更好的SEO排名。
+
+- **可擴充性**：架構支援順暢的擴充，可處理增加的流量和較大的產品目錄，而不會影響效能。
+
+- **彈性**：店面可高度自訂，讓企業根據獨特的需求量身打造購物體驗。
+
+- **改善的使用者體驗**：進階快取、即時更新和個人化內容傳送等功能，有助於提供更順暢、更吸引人的購物體驗。
+
+### 主要功能
+
+Commerce商店採用Edge Delivery Services技術，提供多項對商家和開發人員都有利的關鍵功能。 這些功能可讓企業建立吸引人的購物體驗，同時維持彈性，以根據需求自訂及擴充店面。
+
+如需設定和最佳化Commerce店面的詳細資訊和指南，請參閱[Adobe Commerce店面檔案](https://experienceleague.adobe.com/en/docs/commerce)。
+
+>[!BEGINTABS]
+
+>[!TAB 商家]
+
+Commerce Storefront採用Edge Delivery Services技術，提供直覺式的檔案式製作體驗，方便商家建立及管理內容。 使用熟悉的工具，例如Microsoft Word或Google Docs，商家可以建立豐富的內容，同時維持版本控制並與團隊成員合作。
+
+- **簡化內容建立**：使用熟悉的檔案式製作工具(如Microsoft Word或Google Docs)來建立和編輯內容。
+- **即時預覽**：在發佈之前，透過即時預覽功能立即檢視變更。
+- **版本控制**：追蹤內容變更並輕鬆回覆至舊版。
+- **合作工作流程**：多個團隊成員可以使用內建的稽核程式同時處理內容。
+- **內容重複使用**：建立可跨多個頁面重複使用的內容區塊，以維持一致性。
+
+>[!TAB 開發人員]
+
+Headless實施可讓開發人員將前端展示層與後端商務功能分離，讓使用現代技術建置的彈性自訂店面，同時利用Commerce強大的後端服務。
+
+- **API優先架構**：運用Commerce後端服務，同時使用現代架構建置自訂前端體驗。
+- **可組合元件**：建立並部署可組合成不同版面配置的模組化、可重複使用的元件。
+- **可擴充平台**：透過API和Webhook新增自訂功能，而不需修改核心程式碼。
+- **現代開發工具**：使用業界標準的開發工具和工作流程，加速實作與部署。
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>雖然Commerce店面具備眾多優點，但Adobe仍持續支援原始Luma型店面。 目前使用Luma的企業可在不中斷的情況下持續營運，並可選擇按照自己的進度轉換至新店面。 本頁的其他章節是以Luma範例為基礎。
 
 ## 首頁
 
@@ -36,7 +81,7 @@ ht-degree: 0%
 
 ### [!DNL Live Search]
 
-使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)，您的商店可提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)，您的商店可提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。
 
 ![即時搜尋範例 — 在您輸入時進行搜尋](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ ht-degree: 0%
 
 ## 購物車
 
-購物車是決定訂購總計、折扣券、預估運費和稅金的地方，也是顯示信任徽章和印章的好地方。 這也是提供最後一個專案的理想機會。 進行交叉銷售時，只要有特定專案出現在購物車中，您就可以選取要提供的特定專案作為衝動購買。
+購物車會顯示訂單總計，包括任何折扣券、預估運費和稅金。 這些功能讓您可以在這裡展示信任徽章和印章。 您也可以使用購物車頁面當作一個最終優惠方案的機會。 例如，您可以設定交叉銷售專案，當特定產品在購物車中時，這些專案會顯示為衝動購買選項。
 
 ![店面購物車頁面範例](./assets/storefront-cart-full.png){width="700"}
 

@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce B2B]簡介'
 description: 了解如何使用整合的 B2B 功能來滿足公司客戶的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度上都與其相依。 它允許將屬於單一公司的多個買家加入單一公司帳戶（或公司帳戶）。 公司管理員可以建立公司結構（部門、子部門和使用者），以反映公司的運作模式，並為公司成員提供不同的使用者角色和許可權。 此結構可讓公司管理員控制公司帳戶的使用者活動：訂購、報價、購買、存取公司信用資訊或設定檔等。
 
-From the Admin, the Commerce site administrator can configure how the company operates on the website. Configuration determines the B2B capabilities available for company users, including payment methods, pricing levels, the ability to negotiate prices using quotes, the ability to create requisition lists, and more.
+從管理員那裡，Commerce網站管理員可以設定公司在網站上運作的方式。 組態決定可供公司使用者使用的B2B功能，包括付款方式、訂價層次、使用報價議價的能力、建立請購單清單的能力等等。
 
 如需詳細資訊，請參閱[公司帳戶](account-companies.md)。
 
@@ -40,9 +40,9 @@ From the Admin, the Commerce site administrator can configure how the company op
 
 Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source提供延伸功能。 支援B2B工作流程的服務包括：
 
-* [目錄服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [產品Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [目錄服務](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## 共用目錄
 
@@ -52,13 +52,13 @@ Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source
 
 ## 快速訂購
 
-Configure Quick Order to reduce the order process to several clicks for logged in customers when they know the product name or SKU of the products they want to order.
+設定快速訂購，讓登入的客戶在知道要訂購的產品名稱或SKU時，減少訂單處理為幾次點按。
 
-[](quick-order.md)
+如需詳細資訊，請參閱[快速訂單](quick-order.md)。
 
-## Negotiable Quotes
+## 可協商的報價
 
-Use the Quotes feature to initiate price negotiation between a company buyer and seller.
+使用「報價單」功能，啟動公司買方與賣方之間的價格議價。
 
 * 授權購買者可以從購物車中啟動報價。
 

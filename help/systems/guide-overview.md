@@ -2,16 +2,16 @@
 title: Admin System指南
 description: 瞭解安全性最佳實務，以保護您的Commerce存放區和管理許可權，以及如何匯入和匯出資料、管理整合和擴充功能，以及處理例行維護。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce管理系統指南
 
-本指南適用於在Adobe Commerce和Magento Open Source中工作的系統管理員和整合人員。 它提供有關管理員安全性、維護操作的詳細資訊，以及支援您的電子商務企業之多個組織功能活動的系統範圍資源。 它假定您對核心Commerce設定和功能有基本的瞭解。
+本指南適用於使用Adobe Commerce和Magento Open Source Admin的系統管理員和整合人員。 它提供有關管理員安全性、維護操作的詳細資訊，以及支援您的電子商務企業之多個組織功能活動的系統範圍資源。 它假定您對核心Commerce設定和功能有基本的瞭解。
 
 本指南涵蓋：
 

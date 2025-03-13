@@ -1,18 +1,18 @@
 ---
 title: 商店和購買體驗指南
-description: 針對在Adobe Commerce和Magento Open Source管理員中工作的客戶服務代理商和銷售經理，提供有關商店定義和銷售處理功能的完整資訊。
+description: 針對在Adobe Commerce和Magento Open Source管理員中工作的客戶服務代理商和銷售經理，提供商店定義和銷售處理功能的完整資訊。
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce商店和購買體驗指南
 
-本指南適用於在Adobe Commerce和Magento Open Source中工作的客戶服務代理商和銷售經理。 它提供有關訂單管理和購買功能的詳細資訊，包括如何設定購物車以協助客戶及促進銷售。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
+本指南適用於在Adobe Commerce和Magento Open Source Admin中工作的客戶服務代理商和銷售經理。 它提供有關訂單管理和購買功能的詳細資訊，包括如何設定購物車以協助客戶及促進銷售。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
 
 本指南涵蓋：
 

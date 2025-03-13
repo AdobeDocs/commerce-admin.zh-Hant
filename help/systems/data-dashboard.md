@@ -3,7 +3,7 @@ title: 資料管理控制面板
 description: 瞭解如何存取 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendation]的資料串流的深入分析。
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 對象
 
-所有使用[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)且使用中授權的Commerce商家，都可以免費使用資料管理儀表板。
+所有使用[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)且使用中授權的Commerce商家，都可以免費使用資料管理儀表板。
 
 資料管理儀表板位於&#x200B;*系統* >資料傳輸> *資料管理儀表板*。
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe也提供命令列介面和系統記錄，供開發人員和系統整合經銷商用來管理和追蹤同步作業，以及Commerce SaaS服務的疑難排解錯誤。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
+>Adobe也提供命令列介面和系統記錄檔，供開發人員和系統整合經銷商用來管理和追蹤同步作業，以及Commerce SaaS服務的疑難排解錯誤。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
 
 ### 同步的產品清單
 

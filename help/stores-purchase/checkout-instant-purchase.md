@@ -3,7 +3,7 @@ title: 立即購買
 description: 瞭解立即購買功能，以及它如何提供註冊客戶帳戶的快速結帳。
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -52,12 +52,12 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 
 ### 步驟2：設定付款方式儲存庫
 
-您可以搭配Adobe Commerce和Magento Open Source的Braintree或付款服務使用立即購買。 必須啟用儲存庫，購物者才能使用「立即購買」功能。
+您可以搭配Braintree使用立即購買，或使用Adobe Commerce和Magento Open Source的支付服務。 必須啟用儲存庫，購物者才能使用「立即購買」功能。
 
-瞭解如何設定付款方式並啟用Braintree或付款服務的儲存庫：
+瞭解如何設定Braintree或付款服務的付款方式及啟用儲存機制：
 
 - [Braintree](braintree.md)
-- [付款服務檔案](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [付款服務檔案](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### 步驟3：啟用立即購買
 

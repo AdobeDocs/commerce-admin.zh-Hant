@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Commerce銷售和促銷指南
-user-guide-description: Adobe Commerce和Magento Open Source包含許多工具，可用來促進銷售、創造客戶參與機會，以及設定目標促銷活動。
+user-guide-description: Adobe Commerce和Magento Open Source包含許多工具，可用來促進銷售、創造客戶參與機會，以及設定目標式促銷活動。
 breadcrumb-title: 銷售與促銷
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google內容實驗](google-content-experiments.md)
-- [返回商戶指南](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
