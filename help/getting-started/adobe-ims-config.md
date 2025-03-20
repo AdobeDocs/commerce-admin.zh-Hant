@@ -3,7 +3,7 @@ title: 使用ID設定Commerce管理整合
 description: 請依照此選擇性程式，將Adobe Commerce管理員使用者帳戶登入與Adobe ID整合。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe業務產品之管理員使用者的Adobe Commerce商家。 這是選用專案，會根據執行個體來啟用。 啟用時，只有管理員使用者工作流程會受到影響。 
+這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe商業產品之管理員使用者的Adobe Commerce商家。 這是選用專案，會根據執行個體來啟用。 啟用時，只有管理員使用者工作流程會受到影響。 
 
 >[!IMPORTANT]
 >
@@ -61,8 +61,8 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 1. 在新建立的專案頁面上按一下&#x200B;**[!UICONTROL Add API]**。
 1. 選取&#x200B;**[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**。
 1. 選取&#x200B;**[!UICONTROL Oauth 2.0 Web]**。
-1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<commerce_base_url>/`
+1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<commerce_base_url>/.*`
 
    藉由在點前面加上`\\`來逸出主機名稱中的任何點。 在URL結尾新增萬用字元可支援Adobe Commerce管理員秘密金鑰。
 
