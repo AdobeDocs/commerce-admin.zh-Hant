@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 瞭解 [!DNL Commerce Marketplace]，此工具為商家提供精選的解決方案，並為合格的開發人員提供工具、平台和絕佳位置，以建立欣欣向榮的業務。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 - [設定Adobe Commerce的I/O事件](https://developer.adobe.com/commerce/extensibility/events/)
 - [為Adobe Commerce設定事件](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [設定管理員UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [設定Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [將擴充功能轉換為應用程式](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder資源
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 您的存取金鑰是一組公開和私密金鑰，用來將您的[!DNL Commerce]安裝與[!DNL Commerce]帳戶同步並驗證您的認證。 帳戶同步之後，每次從Commerce Marketplace安裝擴充功能或模組或升級[!DNL Commerce]安裝時，都必須輸入私密金鑰。
 
-您可以根據不同目的建立多個存取金鑰，並視需要啟用或停用它們。 不過，您必須使用安裝[!DNL Commerce]軟體所使用的相同存取金鑰。 例如，您無法使用Magento Open Source存取金鑰來更新或升級Adobe Commerce，反之亦然。 您也無法使用屬於其他使用者或來自[共用帳戶](commerce-account-share.md)的存取金鑰。
+您可以根據不同目的建立多個存取金鑰，並視需要啟用或停用它們。 不過，您必須使用安裝[!DNL Commerce]軟體所使用的相同存取金鑰。 例如，您無法使用Magento Open Source存取金鑰更新或升級Adobe Commerce，反之亦然。 您也無法使用屬於其他使用者或來自[共用帳戶](commerce-account-share.md)的存取金鑰。
 
 ### 建立存取金鑰
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
 
 Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買的安裝程式與[Adobe雲端架構][4]上託管的安裝不同。
 
@@ -85,7 +85,11 @@ Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買
 
 ## 支援
 
-如果您在安裝或使用擴充功能時需要協助，請先參閱擴充功能隨附的檔案。 如果您找不到問題的答案，請使用擴充功能清單中的連絡資訊，直接連絡開發人員。 如果您在Marketplace購買的產品不符合您的需求，您可在購買日期起的25天內[要求退款](#refund-requests)。 Adobe會複查所有退款請求，並（若已核准）發出適當的退款。 如需Commerce Marketplace的相關問題，請連絡[支援](mailto:commercemarketplacesupport@adobe.com)。
+如果您在安裝或使用擴充功能時需要協助，請先參閱擴充功能隨附的檔案。 如果您找不到問題的答案，請使用擴充功能清單中的連絡資訊，直接連絡開發人員。 如果您在Marketplace購買的產品不符合您的需求，您可在購買日期起的25天內[要求退款](#refund-requests)。 Adobe會稽核所有退款請求，並（如果已核准）發出適當的退款。 若為Commerce Marketplace的相關問題：
+
+方法1：前往[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)，導覽至頁面底部，然後按一下[!UICONTROL Contact Us]，開啟表單以提交票證。
+
+方法2： [電子郵件支援](mailto:commercemarketplacesupport@adobe.com)。
 
 ### 簽出問題
 
@@ -105,7 +109,7 @@ Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買
 
 ### 開放原始碼問題
 
-市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送至[社群論壇](https://community.magento.com/)或[連絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/products/magento/partners.html)。
+市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/products/magento/partners.html)。
 
 ### 退款請求
 
