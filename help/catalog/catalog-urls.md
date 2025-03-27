@@ -3,9 +3,9 @@ title: 目錄和產品URL
 description: 瞭解目錄產品的URL格式型別，以及如何進行設定。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨�
 
 ### 類別路徑
 
-您可以將URL設定為包含或排除類別路徑。 依預設，類別路徑會包含在所有類別和產品頁面中。 以下範例顯示有和不有類別路徑的相同產品URL。
+您可以根據您的偏好設定將產品URL設定為包含或排除類別路徑。 依預設，產品URL中不包含類別路徑。 不過，巢狀類別會一律在店面的URL中顯示完整的類別路徑，以確保類別導覽的清晰度和一致性。 以下範例顯示有和不有類別路徑的相同產品URL。
 
-#### 具有類別路徑的URL
+#### 具有類別路徑的產品URL
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### 沒有類別路徑的URL
+#### 沒有類別路徑的產品URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 

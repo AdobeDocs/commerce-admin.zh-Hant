@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]'
 description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Catalog]頁面上的組態設定。
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,9 @@ ht-degree: 0%
 | [!UICONTROL Popular Search Terms] | 存放區檢視 | 決定是否在存放區中實作&#x200B;_常用搜尋詞_。 此設定不適用於使用[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)的存放區。 選項： `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至產品URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Category URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至類別URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
-| [!UICONTROL Use Categories Path for Product URLs] | 存放區檢視 | 判斷產品URL中是否包含類別路徑。 這麼做可能會讓多個URL指向相同頁面，因而影響搜尋排名。 若要深入瞭解，請參閱[Canonical meta標籤](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
+| [!UICONTROL Use Categories Path for Product URLs] | 存放區檢視 | 判斷類別路徑是否包含在店面的產品URL中。 這麼做可能會讓多個URL指向相同頁面，因而影響搜尋排名。 若要深入瞭解，請參閱[Canonical meta標籤](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 存放區檢視 | 決定每當URL索引鍵變更時是否自動建立永久重新導向。 實作時，預設會選取產品URL金鑰欄位下方的「建立舊URL的自訂重新導向」核取方塊。 選項： `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 全域 | 決定當使用者儲存包含許多指派產品的類別時，Adobe Commerce是否會產生資料並將其儲存到重寫表格中。 選項： `Yes` / `No` <br/><br/>**_重要：_**將此產生的資料儲存到URL重寫資料表可能會降低效能。 如需詳細資訊，請參閱[自動產品重新導向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 全域 | 決定當使用者儲存包含許多指派產品的類別時，Adobe Commerce是否會產生資料並將其儲存到重寫表格中。  <br/><br/>變更此選項不會影響在Adobe Commerce中解析產品URL的方式，因為不論此設定為何，系統都會自動解析產品URL。 <br/><br/>選項： `Yes` / `No` <br/><br/>**_重要：_**將此產生的資料儲存至URL重寫資料表，可能會降低效能。 如需詳細資訊，請參閱[自動產品重新導向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
 | [!UICONTROL Apply transliteration for product URL] | 存放區檢視 | 決定建立或更新產品URL時是否套用音譯。 選項： `Yes` / `No`。 預設值設為`Yes`。 <br/><br/>對於某些使用案例，您應該停用音譯。 例如，如果您以中文經營線上商店，SEO最佳實務建議產品URL符合產品名稱。 將選項設為`No`可讓產品URL中使用中文字元，而非ASCII等同專案。 |
 | [!UICONTROL Page Title Separator] | 存放區檢視 | 識別在瀏覽器標題列中分隔類別名稱和子類別的字元。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 存放區檢視 | 如果有多個URL指向相同的類別頁面，此選項會使用標準中繼標籤來識別搜尋引擎應編制索引的類別URL。 URL包含使用meta標籤的類別的完整名稱。 如此可減少重複內容並改善SEO。 選項： `Yes` / `No` |
