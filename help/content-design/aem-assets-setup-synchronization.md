@@ -3,9 +3,9 @@ title: 設定整合
 description: 瞭解如何連結Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ ht-degree: 0%
 1. 選取&#x200B;**[!UICONTROL Save Config]**&#x200B;以套用更新並啟動資產同步處理。
 
    設定更新會觸發初始同步流程，允許Commerce接受來自AEM Assets的傳入更新。 同步所需的時間取決於資產數量和特定配置。 整合利用自動化程式，將同步所需的時間減至最少。
+
+### 設定自訂網域URL
+
+如果商家在其AEM儀表板中設定[自訂網域名稱](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}，則需要在Commerce中新增此&#x200B;**自訂網域URL**，以便AEM Assets整合能夠使用它。
+
+1. 導覽至「**[!UICONTROL Store]** >設定> **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**」。
+
+   ![AEM Assets整合啟用整合](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. 將&#x200B;**自訂網域URL**&#x200B;新增至&#x200B;**[!UICONTROL Asset Custom Domain]**&#x200B;欄位。
+
+1. 按一下&#x200B;**[!UICONTROL Save Config]**&#x200B;以套用更新並啟動資產同步處理。
 
 ## 下一步
 
