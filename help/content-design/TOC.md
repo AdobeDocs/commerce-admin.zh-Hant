@@ -3,9 +3,9 @@ user-guide-title: 內容與設計手冊
 user-guide-description: 針對Adobe Commerce和Magento Open Source管理員以及電子商務行銷人員提供的有關內容和設計功能的完整資訊。
 breadcrumb-title: 內容和設計
 feature: CMS, Page Content
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -16,31 +16,31 @@ ht-degree: 4%
 - [內容與設計手冊](guide-overview.md)
 - [內容和設計簡介](introduction.md)
 - [內容功能表](content-menu.md)
-- 設計{#design}
+- 設計 {#design}
    - [設計設定](configuration.md)
-   - 主題{#themes}
+   - 主題 {#themes}
       - [概觀](themes.md)
       - [安裝新主題](theme-install.md)
       - [管理主題資產](theme-assets.md)
       - [排程設計更新](schedule.md)
    - [頁面區段設定](page-setup.md)
-   - 頁面配置{#layout}
+   - 頁面配置 {#layout}
       - [概觀](page-layout.md)
       - [店面配置範例](page-layout-examples.md)
       - [版面更新](layout-updates.md)
-- 內容元素{#elements}
-   - 頁面{#pages}
+- 內容元素 {#elements}
+   - 頁面 {#pages}
       - [概觀](pages.md)
       - [頁面工作區控制項](pages-workspace.md)
       - [新增和移除頁面](page-add.md)
       - [設定首頁](page-home-new.md)
       - [頁面階層](page-hierarchy.md)
       - [翻譯內容頁面](page-translate.md)
-   - 區塊{#blocks}
+   - 個區塊 {#blocks}
       - [概觀](blocks.md)
       - [新增區塊](block-add.md)
       - [位置區塊](block-position.md)
-   - 動態區塊{#dynamic-blocks}
+   - 動態區塊 {#dynamic-blocks}
       - [建立動態區塊](dynamic-blocks.md)
       - [新增旋轉動態區塊](dynamic-blocks-rotate.md)
       - [價格規則中的動態區塊](dynamic-blocks-price-rules.md)
@@ -51,13 +51,13 @@ ht-degree: 4%
       - [新產品清單Widget](widget-new-products-list.md)
       - [訂單與退貨Widget](widget-orders-returns.md)
       - [目錄事件輪播Widget](widget-event-carousel.md)
-- WYSIWYG編輯器{#wysiwyg}
+- WYSIWYG編輯器 {#wysiwyg}
    - [概觀](editor.md)
    - [插入連結](editor-insert-link.md)
    - [插入影像](editor-insert-image.md)
    - [插入Widget](editor-widget.md)
    - [插入變數](editor-insert-variable.md)
-   - 媒體儲存空間{#storage}
+   - 媒體儲存 {#storage}
       - [概觀](media-storage.md)
       - [使用媒體資料庫](media-storage-database.md)
       - [使用內容傳遞網路](media-storage-content-delivery-network.md)
@@ -67,24 +67,25 @@ ht-degree: 4%
       - [使用Adobe Stock影像](adobe-stock-manage.md)
       - [儲存庫存影像預覽](adobe-stock-save-preview.md)
       - [授權庫存影像](adobe-stock-license-image.md)
-   - 媒體集{#gallery}
+   - 媒體集 {#gallery}
       - [概觀](media-gallery.md)
       - [資產管理](media-gallery-asset-management.md)
       - [資料夾管理](media-gallery-folder-management.md)
       - [影像最佳化](media-gallery-image-optimization.md)
-- Commerce {#aem-asset-management}的AEM Assets整合
+- 適用於Commerce的AEM Assets整合 {#aem-asset-management}
    - [整合概述](aem-assets-integration.md)
    - [發行說明](aem-assets-release-notes.md)
-   - 快速入門{#getting-started}
+   - 快速入門 {#getting-started}
       - [設定環境](aem-assets-getting-started.md)
       - [安裝AEM Assets套件](aem-assets-configure-aem.md)
       - [安裝Adobe Commerce套件](aem-assets-configure-commerce.md)
       - [設定整合](aem-assets-setup-synchronization.md)
       - [檢視和管理記錄檔](aem-assets-log-files.md)
-   - 管理資產{#manage}
+   - [將媒體檔案移轉至AEM Assets](aem-assets-migrate-data.md)
+   - 管理資產 {#manage}
       - [搭配Commerce使用AEM Assets](aem-assets-manage.md)
-- 媒體{#media}
-- 內容暫存{#staging}
+- 媒體 {#media}
+- 內容分段 {#staging}
    - [概觀](content-staging.md)
    - [排程更新](content-staging-scheduled-update.md)
    - [測試儀表板](content-staging-dashboard.md)
