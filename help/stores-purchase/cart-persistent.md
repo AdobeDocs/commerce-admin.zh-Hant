@@ -3,9 +3,9 @@ title: 購物車持續性
 description: 瞭解持續性購物車如何追蹤未購買的購物車專案並儲存資訊，以供客戶下一次造訪。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 2bddf979333bdafbfb6b445140515942b1115eea
+source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 「記住我」核取方塊行為
 
-客戶可以在登入頁面上或建立新帳戶時選取&#x200B;_[!UICONTROL Remember Me]_核取方塊，以便在登入工作階段過期時，讓購物車的內容可在目前裝置上存取。
+客戶可以在登入頁面上選取&#x200B;_[!UICONTROL Remember Me]_核取方塊、驗證快顯視窗、結帳登入，或是在建立新帳戶以便在登入工作階段過期時，將購物車的內容保持在目前裝置上可供存取。
 
 | 記得我嗎？ | 結果 |
 | ------------ |  ------ |
@@ -56,6 +56,10 @@ ht-degree: 0%
 | 未選取 | 當登入工作階段過期時，不會建立永久性Cookie，也不會讓目前的裝置可存取購物車的內容。 請注意，購物車內容仍會儲存在客戶的帳戶中，並在客戶下次登入時重新載入。 |
 
 {style="table-layout:auto"}
+
+![記住我的客戶登入](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
+![記住我的驗證快顯視窗](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![記住我的簽出登入資訊](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### 清除登出行為的持續性
 

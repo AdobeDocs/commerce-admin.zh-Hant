@@ -1,9 +1,9 @@
 ---
 title: 代碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 ## 僅供檢視的功能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">深入瞭解</a>）</td></tr>
+<tr><td><img alt="Adobe Systems商務功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
 ## 僅限B2B功能 {#b2b-feature}
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當啟用自動重新導向且儲存類別時，所有產品和類別重寫都會即時產生，並依預設儲存在重寫表格中。 此程式可能會導致許多指派產品的類別出現重大效能問題。 解決方案是變更此預設值，並跳過產生類別/產品URL重寫產品以儲存類別。 在這種情況下，只會針對標準產品URL產生產品重寫。 如需詳細資訊，請參閱[自動產品重新導向](/help/merchandising-promotions/url-redirect-product-automatic.md)。
+>當啟用自動重新導向且儲存類別時，所有產品和類別重寫都會即時產生，並依預設儲存在重寫表格中。 此程式可能會導致許多指派產品的類別出現重大效能問題。 解決方案是變更此預設值，並跳過產生類別/產品URL重寫產品以儲存類別。 在這種情況下，只會針對標準產品URL產生產品重寫。 如需詳細資訊，請參閱 [自動產品重新導向](/help/merchandising-promotions/url-redirect-product-automatic.md) 。
 
-## URL重寫引數注意 {#url-rewrite-params}
+## URL重寫參數說明 {#url-rewrite-params}
 
 >[!IMPORTANT]
 >
->在重新導向的過程中，基於安全考量，會移除URL中指定的所有GET引數。
+>在重定向過程中，出於安全原因，將刪除URL中指定的所有GET參數。
 
 ## 新價格規則 {#new-price-rule}
 
@@ -76,9 +76,15 @@ ht-degree: 0%
 | 檔案資源 | 說明 |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4管理員使用手冊](../landing/home.md) | 在Admin中工作的商戶適用的檔案和資源。 |
-| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
+| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 文件支援集合銷售服務，説明商家將其業務的關鍵組成部分與商店集成。 |
 | [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
 | [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
 | [Adobe Commerce 2.4開發人員檔案](https://developer.adobe.com/commerce/docs) | 以開發人員為中心的檔案，用於自訂Adobe Commerce及與協力廠商系統整合。 |
 
 {style="table-layout:auto"}
+
+## B2B相容性 {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。

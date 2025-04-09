@@ -3,9 +3,9 @@ title: 自動重新導向
 description: 瞭解如何設定當產品或類別的URL索引鍵在您的Commerce商店中變更時，系統會產生自動重新導向。
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 0%
 1. 將&#x200B;**[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
+
+
+>[!NOTE]
+>
+> 可以為商店檢視或網站範圍產生URL重寫。 從管理員設定URL重寫範圍： **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**。 在_[!UICONTROL Product URL Rewrite Scope]_&#x200B;欄位中選取範圍。
 
 ## 自動重新導向產品URL
 

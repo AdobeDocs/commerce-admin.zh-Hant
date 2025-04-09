@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods] &amp；gt�
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]頁面上[!UICONTROL Braintree]區段的組態設定。
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 | [!UICONTROL Private Key] | 存放區檢視 | 這是您的使用者專屬私人識別碼，可限制對加密資料的存取。 與您的Braintree閘道關聯的每個使用者都有各自的私密金鑰。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Production`時，會顯示此欄位。 |
 | [!UICONTROL Enable Card Payments] | 網站 | 判斷客戶是否可使用Braintree信用卡付款方式作為付款方式。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | 網站 | 啟用後，可為客戶付款資訊提供安全的儲存空間，因此客戶不必在每次購買時都重新輸入信用卡資訊。 選項： `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | 網站 | 啟用後，將會在您的Braintree帳戶中對CVV規則設定進行驗證。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | 網站 | 啟用後，將會在您的Braintree帳戶中對CVV規則設定進行驗證。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | 網站 | 顯示在結帳付款方式區段上的標籤。 預設值： `Local Payments` |
 | [!UICONTROL Fallback Button Text] | 網站 | 輸入要用於按鈕的文字，該按鈕會顯示在將客戶帶回網站的遞補Braintree頁面上。 預設值： `Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | 網站 | 指定當本機付款方式交易取消、失敗或發生錯誤時，應該將客戶重新導向的URL。 它應該是結帳付款頁面（例如，`https://www.domain.com/checkout#payment`）。 |
-| [!UICONTROL Allowed Payment Method] | 網站 | 選取要啟用的本機「付款」方式。 選項： `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` （尚未支援） |
+| [!UICONTROL Allowed Payment Method] | 網站 | 選取要啟用的本機「付款」方式。 選項： `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | 網站 | 決定結帳期間本機付款方式與其他付款方式一起列出的順序。 |
 
 {style="table-layout:auto"}
@@ -166,7 +166,8 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-透過Braintree![PayPal](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![透過Braintree設定的PayPal 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![透過Braintree設定的PayPal 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -182,8 +183,11 @@ ht-degree: 0%
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您是接受PayPal透過Braintree從所有國家/地區處理的付款，還是僅接受特定國家/地區的付款。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 如果適用，會識別您接受Braintree所處理付款的特定國家/地區。 |
 | [!UICONTROL Require Customer's Billing Address] | 網站 | 決定是否需要客戶的帳單地址才能提交訂單。 選項： `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | 網站 | 決定是否要在完成付款前將客戶重新導向至複查頁面。 選項： `Yes` / `No` |
 | [!UICONTROL Debug] | 網站 | 判斷PayPal透過Braintree系統與您的商店之間的通訊是否記錄到記錄檔中。 選項： `Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | 網站 | 決定PayPal按鈕是否出現在[迷你購物車](../../stores-purchase/cart-configuration.md#mini-cart)和[購物車](../../stores-purchase/cart.md)頁面上。 選項： `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | 網站 | 套件追蹤資訊只會針對PayPal交易/訂單傳送至PayPal。 您必須啟用[!UICONTROL Send Cart Line Items for PayPal]設定欄位，[!UICONTROL Package Tracking]功能才能正常運作。 選項： `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | 網站 | 一旦設定為「是」，PayPal就會通知採購員或付款人，告知其包裹追蹤更新。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -227,18 +231,6 @@ ht-degree: 0%
 >
 >**[!DNL Size(Deprecated)]**&#x200B;設定欄位已過時，未用來設定PayPal按鈕的樣式。
 
-**[!UICONTROL PayLater Messaging]**
-
-| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | 網站 | 在選取的位置啟用PayLater訊息。 選項： `Yes` / `No`。 啟用時，它會顯示可用優惠的PayLater訊息（[套用限制](https://developer.paypal.com/docs/checkout/pay-later/us/)）。 |
-| [!UICONTROL Message Layout] | 網站 | 決定PayLater訊息配置。 選項： `Text` / `Flex` |
-| [!UICONTROL Logo] | 網站 | 決定用於PayPal按鈕的標誌型別。 選項： `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | 網站 | 決定PayPal按鈕的標誌位置。 選項： `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | 網站 | 決定PayPal按鈕的文字色彩。 選項： `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 設定這些選項後，您可以看到PayPal按鈕和PayLater訊息的預覽。 有些控制項可用來套用設定或重設值：
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
@@ -246,6 +238,48 @@ ht-degree: 0%
 | [!UICONTROL Apply] | 網站 | 儲存按鈕和PayLater訊息的選取樣式設定，並將它們套用至目前位置和目前的按鈕型別。 |
 | [!UICONTROL Apply to All Buttons] | 網站 | 儲存按鈕和PayLater訊息值的所選樣式設定，並將它們套用至所有按鈕型別和位置。 |
 | [!UICONTROL Reset to Recommended Defaults] | 網站 | 將樣式設定傳回至按鈕和PayLater訊息的建議預設值，並將其套用至所有按鈕型別和位置。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![稍後付款訊息 — 產品頁面](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 網站 | 在選取的位置啟用PayLater訊息。 選項： `Yes` / `No`。 顯示可用優惠的「稍後付款」訊息。 限制適用。 [按一下這裡以瞭解更多資訊。](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | 網站 | 決定PayLater訊息配置。 選項： `Text` / `Flex` |
+| [!UICONTROL Logo] | 網站 | 決定稍後付款訊息使用的標誌型別。 選項： `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | 網站 | 決定稍後付款訊息的標誌位置。 選項： `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | 網站 | 決定「稍後付款」訊息的文字色彩。 選項： `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![稍後付款訊息 — 購物車](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 網站 | 在選取的位置啟用PayLater訊息。 選項： `Yes` / `No`。 顯示可用優惠的「稍後付款」訊息。 限制適用。 [按一下這裡以瞭解更多資訊。](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | 網站 | 決定PayLater訊息配置。 選項： `Text` / `Flex` |
+| [!UICONTROL Logo] | 網站 | 決定稍後付款訊息使用的標誌型別。 選項： `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | 網站 | 決定稍後付款訊息的標誌位置。 選項： `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | 網站 | 決定「稍後付款」訊息的文字色彩。 選項： `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![稍後付款訊息 — 結帳](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 網站 | 在選取的位置啟用PayLater訊息。 選項： `Yes` / `No`。 顯示可用優惠的「稍後付款」訊息。 限制適用。 [按一下這裡以瞭解更多資訊。](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | 網站 | 決定PayLater訊息配置。 選項： `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | 網站 | 決定「稍後付款」訊息的文字色彩。 選項： `Black` / `White` |
 
 {style="table-layout:auto"}
 

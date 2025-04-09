@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quote Templates]'
 description: 瞭解店面帳戶儀表板中提供的客戶報價範本體驗。
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 0%
    - 接受報價範本
    - 變更報價範本到期日
    - 新增送貨地址
+   - 管理參考檔案連結
 
 - 在議價處理期間更新報價樣版明細的作業：
 
@@ -43,6 +44,7 @@ ht-degree: 0%
    - 從[!UICONTROL Comments]和[!UICONTROL History]區段追蹤交涉程式。
    - 對於仍在複查的樣版，採購員可以移除料號來修改報價樣版。
    - 在條列專案與報價層級加入備註，與賣家溝通及協商。
+   - 新增、編輯或移除外部合約與協定的參考檔案連結。
 
   進行變更後，買方會將範本傳回給賣方進行稽核。
 
@@ -114,3 +116,57 @@ ht-degree: 0%
 從報價範本頁面，按一下&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
 報價範本已取消，且報價狀態變更為`Closed`。 已關閉的引號會保留在您的&#x200B;*[!UICONTROL Inactive]*&#x200B;引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_格線中。
+
+## 管理參考檔案連結
+
+參考檔案連結功能可讓買方和賣方在報價範本處理期間新增、編輯和管理外部檔案（例如合約、協定或規格）的連結。
+
+### 新增參考檔案連結
+
+1. 開啟報價範本。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
+
+1. 在「檔案資訊」對話方塊中：
+   - 輸入&#x200B;**[!UICONTROL Document Name]** （必要）
+   - 輸入&#x200B;**[!UICONTROL Document Identifier]** （選擇性）
+   - 輸入&#x200B;**[!UICONTROL Reference Document URL]** （必要）
+
+1. 按一下&#x200B;**[!UICONTROL Add to Quote Template]**。
+
+   參考檔案連結會以下列格式新增至報價範本：
+   `Document Name, Document Identifier https://document-url`
+
+### 編輯參考檔案連結
+
+1. 開啟報價範本。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;區段中，按一下您要修改之檔案連結旁的&#x200B;**[!UICONTROL Edit]**。
+
+1. 更新對話方塊中的檔案資訊：
+   - 檔名稱
+   - 檔案識別碼
+   - 參考檔案URL
+
+1. 按一下&#x200B;**[!UICONTROL Add to Quote Template]**。
+
+### 移除參考檔案連結
+
+1. 開啟報價範本。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;區段中，按一下您要刪除之檔案連結旁的&#x200B;**[!UICONTROL Remove]**。
+
+### 檢視參考檔案
+
+1. 開啟報價範本。
+
+1. 在&#x200B;**[!UICONTROL Reference Documents]**&#x200B;區段中，按一下檔名稱連結。
+
+   檔案會在新的瀏覽器視窗中開啟。
+
+### 參考檔案連結限制
+
+- 參考檔案連結只能在引號範本處於可編輯狀態時新增、編輯或移除。
+- 一旦送出報價範本以供稽核或接受，參考檔案連結就會變成唯讀。
+- 新增或編輯參考檔案連結時，需要「檔名稱」欄位。
+- 即使報價範本被接受或完成，參考檔案連結仍可存取。

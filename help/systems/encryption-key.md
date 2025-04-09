@@ -1,12 +1,12 @@
 ---
 title: 加密金鑰
-description: 瞭解如何自動產生或新增您自己的加密金鑰；您應定期變更此金鑰以提高安全性。
+description: 瞭解如何變更您自己的加密金鑰，這應該定期進行以提高安全性。
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,12 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
 
 初始安裝期間，系統會提示您讓Commerce產生加密金鑰，或輸入您自己的金鑰。 加密金鑰工具可讓您視需要變更金鑰。 應定期變更加密金鑰以提高安全性，並且隨時可能危及原始金鑰。
 
-如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[進階內部部署](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)。
+如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[進階內部部署](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)以及&#x200B;_PHP開發人員指南_&#x200B;中的[資料重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption/)。
 
 >[!IMPORTANT]
 >
->在依照這些指示變更加密金鑰之前，請確定下列檔案是可寫入的： `[your store]/app/etc/env.php`
+>- 在依照這些指示變更加密金鑰之前，請確定下列檔案是可寫入的： `[your store]/app/etc/env.php`
+>- 管理員設定中的加密金鑰變更功能已過時，並已在2.4.8中移除。升級至2.4.8之後，您必須使用本頁所述的CLI命令來變更加密金鑰。
 
 **若要變更加密金鑰：**
 
@@ -51,20 +52,40 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
    crontab -e
    ```
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**。
+1. 使用下列其中一種方法變更加密金鑰。
 
-   ![系統加密金鑰](./assets/encryption-key.png){width="700" zoomable="yes"}
+   +++CLI命令
 
-1. 執行下列任一項作業：
+   執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption/)的詳細[指南。
 
-   - 若要產生新金鑰，請將&#x200B;**[!UICONTROL Auto-generate Key]**&#x200B;設為`Yes`。
-   - 若要使用其他金鑰，請將&#x200B;**[!UICONTROL Auto-generate Key]**&#x200B;設為`No`。 然後在&#x200B;**[!UICONTROL New Key]**&#x200B;欄位中輸入或貼上您要使用的金鑰。
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. 按一下&#x200B;**[!UICONTROL Change Encryption Key]**。
++++
 
-   >[!NOTE]
+   +++管理員設定
+
+   >[!IMPORTANT]
    >
-   >將新金鑰的記錄儲存在安全位置。 如果檔案發生任何問題，則必須將資料解密。
+   >此功能已過時，並已在2.4.8版中移除。Adobe建議使用CLI變更加密金鑰。
+
+   1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**。
+
+      ![系統加密金鑰](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. 執行下列任一項作業：
+
+      - 若要產生新金鑰，請將&#x200B;**[!UICONTROL Auto-generate Key]**&#x200B;設為`Yes`。
+      - 若要使用其他金鑰，請將&#x200B;**[!UICONTROL Auto-generate Key]**&#x200B;設為`No`。 然後在&#x200B;**[!UICONTROL New Key]**&#x200B;欄位中輸入或貼上您要使用的金鑰。
+
+   1. 按一下&#x200B;**[!UICONTROL Change Encryption Key]**。
+
+      >[!NOTE]
+      >
+      >將新金鑰的記錄儲存在安全位置。 如果檔案發生任何問題，則必須將資料解密。
+
++++
 
 1. 排清快取。
 

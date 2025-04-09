@@ -4,16 +4,16 @@ description: 瞭解雙因素驗證支援，以確保您的系統和資料的安�
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 4997c4c01f11d6e0355eb8e02f8f099db685b400
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
 
 # 雙因素驗證(2FA)
 
-Adobe Commerce或Magento Open Source安裝的Commerce _管理員_&#x200B;可讓您存取商店、訂單和客戶資料。 為了防止未經授權存取您的資料，所有嘗試登入&#x200B;_Admin_&#x200B;的使用者都必須完成驗證程式以驗證其身分。
+Adobe Commerce或Magento Open Source安裝的Commerce _Admin_&#x200B;可讓您存取商店、訂單和客戶資料。 為了防止未經授權存取您的資料，所有嘗試登入&#x200B;_Admin_&#x200B;的使用者都必須完成驗證程式以驗證其身分。
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 >[!NOTE]
 >
->已啟用Adobe Identity Management Services (IMS)驗證的商店會停用原生Adobe Commerce和Magento Open Source 2FA。 使用Adobe憑證登入其Commerce執行個體的管理員使用者不需要重新驗證許多管理員工作。 當管理員使用者登入目前的工作階段時，驗證會由Adobe IMS處理。 請參閱[AdobeIdentity Management服務(IMS)整合總覽](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
+>已啟用Adobe Identity Management Services (IMS)驗證的商店已停用原生Adobe Commerce和Magento Open Source 2FA。 使用其Adobe憑證登入其Commerce執行個體的管理員使用者，不需要重新驗證許多管理員工作。 當管理員使用者登入目前的工作階段時，驗證會由Adobe IMS處理。 請參閱[Adobe Identity Management Service (IMS)整合總覽](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
 
 您可以觀看此[影片示範](https://video.tv.adobe.com/v/339104?quality=12&learn=on)，瞭解Admin中的雙因素驗證概觀。
 
@@ -76,6 +76,8 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 從您的Duo Security帳戶輸入下列認證：
 
+- 使用者端ID
+- 使用者端密碼
 - 整合索引鍵
 - 秘密金鑰
 - API主機名稱

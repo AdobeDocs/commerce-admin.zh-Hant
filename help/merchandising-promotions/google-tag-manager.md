@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: 瞭解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce網站中與行銷活動相關的許多標籤（程式碼片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
+source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 步驟1. 設定您的[!DNL Google Analytics]帳戶
 
-請參閱Google說明中的[設定網站搜尋](https://support.google.com/analytics/answer/1012264)，瞭解開始使用所需的基礎知識。 另請參閱[Google Analytics](https://support.google.com/analytics/answer/9304153)和[Google Tag Manager](https://support.google.com/tagmanager/answer/6102821)的Google指南。
+請參閱Google說明中的[設定網站搜尋](https://support.google.com/analytics/answer/1012264)，瞭解開始使用所需的基礎知識。 另請參閱[Google](https://support.google.com/analytics/answer/9304153)和[Google Analytics Tag Manager](https://support.google.com/tagmanager/answer/6102821)的Google指南。
 
 1. 登入您的[!DNL Google Analytics]帳戶。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Google Analytics]**&#x200B;區段並設定下列專案：
 
-   ![銷售組態 — Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
+   ![銷售組態 — Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png)
 
    - 將&#x200B;**[!UICONTROL Enable]**&#x200B;設為`Yes`。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable] | 存放區檢視 | 決定Google Analytics Enhanced E-commerce是否可用來分析商店中的活動。 選項： `Yes` / `No` |
 | [!UICONTROL Account type] | 存放區檢視 | 決定用來監控商店活動和流量的Google追蹤代碼。 選項： `Google Analytics` / `Google Tag Manager` |
-| [!UICONTROL Anonymize IP] | 存放區檢視 | 決定是否從Google Analytics結果中顯示的IP位址中移除識別資訊。 |
+| [!UICONTROL Anonymize IP] | 存放區檢視 | 決定是否從Google Analytics結果中顯示的IP位址移除識別資訊。 |
 | [!UICONTROL Enable Content Experiments] | 存放區檢視 | 啟用Google內容實驗，此實驗可用來測試最多十個相同頁面的不同版本。 選項： `Yes` / `No` |
 | [!UICONTROL Container Id] | 存放區檢視 | 如果已為商店安裝和設定[!DNL Google Tag Manager]，則容器ID會自動出現在此欄位中。 |
 | [!UICONTROL List property for the catalog page] | 存放區檢視 | 識別與目錄頁面相關聯的Tag Manager屬性。 預設值： `Catalog Page` |
@@ -210,3 +210,55 @@ ht-degree: 0%
 ### 步驟3. 預覽和發佈
 
 此程式的下一個步驟是預覽標籤。 每次預覽標籤時，都會儲存版本的快照。 當您對結果感到滿意時，請移至您要使用的版本，然後按一下&#x200B;**[!UICONTROL Publish]**。
+
+## 使用JavaScript自訂HTML標籤
+
+本節說明如何將CSP Nonce新增至自訂HTML標籤JavaScript，以便在結帳頁面上執行，確保符合內容安全性原則(CSP)要求。 此新增功能可防止執行未經授權的指令碼，進而增強網站安全性。 如需詳細資訊，請參閱[內容安全性原則](https://developer.adobe.com/commerce/php/development/security/content-security-policies)檔案。
+
+>[!NOTE]
+>
+>只有Adobe Commerce 2.4.8版和更新版本才支援將`cspNonce`全域變數匯入Google Tag Manager。
+
+>[!WARNING]
+>
+>將不熟悉的指令碼新增至您的存放區可能會危及資料。 在結帳頁面上授權的指令碼可能會竊取敏感的客戶資訊，包括付款詳細資訊。 請務必採取預防措施，以保護您的Google Tag Manager帳戶。 僅新增信任的指令碼、定期檢閱和稽核您的標籤，並實施強大的安全措施，例如雙因素驗證(2FA)和存取控制。
+
+### 步驟1. 建立CSP Nonce變數
+
+您可以匯入變數設定或手動設定，以建立可在Google Tag Manager中使用的CSP Nonce變數。
+
+#### 匯入變數設定
+
+CSP Nonce變數包含在範例容器[GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)中。 您可以將此程式碼匯入工作區來建立變數。
+
+#### 手動建立變數
+
+如果您無法匯入變陣列態，請完成下列步驟來建立它。
+
+1. 在您的工作區中，導覽至側邊欄中的&#x200B;**變數**&#x200B;區段。
+1. 按一下&#x200B;**使用者定義變數**&#x200B;區段中頁面底部的&#x200B;**新增**&#x200B;按鈕。
+1. 為變數命名`gtmNonce`。
+1. 按一下鉛筆圖示即可編輯變數。
+1. 從&#x200B;**頁面變數**&#x200B;區段中選取&#x200B;**JavaScript變數**。
+1. 在&#x200B;**全域變數名稱**&#x200B;欄位中，輸入`window.cspNonce`。
+1. 儲存變數。
+
+若要深入瞭解[Google Tag Manager變數](https://support.google.com/tagmanager/answer/7683056?hl=en)，請參閱Google檔案中的[網頁適用的使用者定義變數型別](https://support.google.com/tagmanager/answer/7683362?hl=en)。 本檔案提供建立和管理自訂變數的詳細指引，以因應特定行銷和分析需求量身打造您的標籤管理。
+
+### 步驟2. 建立自訂HTML標籤
+
+1. 在您的工作區中，導覽至側邊欄中的&#x200B;**標籤**&#x200B;區段。
+1. 按一下&#x200B;**新增**&#x200B;按鈕。
+1. 在&#x200B;**標籤設定**&#x200B;區段中，選取&#x200B;**自訂HTML標籤**。
+1. 在文字區域中輸入您所需的JavaScript，並將Nonce屬性新增至開頭`<script>`標籤，該標籤會指向您在上一步中建立的變數。 例如：
+
+   ```html
+   <script nonce="{{gtmNonce}}">
+       // Your JavaScript code here
+   </script>
+   ```
+
+1. 選取&#x200B;**支援document.write**。
+1. 在&#x200B;**正在觸發**&#x200B;區段中，選取所要的觸發程式。 例如，**同意初始化 — 所有頁面**。
+
+如需Google標籤管理員中[標籤](https://support.google.com/tagmanager/answer/3281060)的詳細資訊，請參閱Google檔案中的[自訂標籤](https://support.google.com/tagmanager/answer/6107167)。

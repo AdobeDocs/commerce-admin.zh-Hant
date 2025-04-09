@@ -2,12 +2,13 @@
 title: 管理員是什麼？
 description: 瞭解 [!DNL Commerce] 管理員，商家可在此設定產品和促銷活動、管理訂單及執行其他管理工作。
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # 管理員是什麼？
 

@@ -3,7 +3,7 @@ title: 出貨訂單
 description: 瞭解如何完成處理訂單的送貨資訊，並檢視送貨與追蹤資訊。
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 若要在客戶的帳戶中張貼註解，請選取&#x200B;**[!UICONTROL Visible on Frontend]**&#x200B;核取方塊。
 
-1. 按一下&#x200B;**[!UICONTROL Submit Comment]**。
+1. 按一下&#x200B;**[!UICONTROL Update]**。
 
 ## 追蹤出貨
 

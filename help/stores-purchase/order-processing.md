@@ -3,7 +3,7 @@ title: 訂單工作流程與處理
 description: 瞭解訂單工作流程、每個步驟套用的狀態，以及如何透過此處理移轉訂單。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -205,7 +205,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Status] | 顯示銷售訂單的狀態。 |
-| [!UICONTROL Comment] | 一個文字方塊，用來輸入訂單隨附之客戶的註解。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果您要將註解以個別電子郵件的形式傳送給客戶，請選取核取方塊。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望評論從客戶的帳戶中可見，請選取核取方塊。 <br/>**[!UICONTROL Submit Comment]**— 提交註解並透過電子郵件傳送（如果適用）。 |
+| [!UICONTROL Comment] | 一個文字方塊，用來輸入訂單隨附之客戶的註解。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果您要將註解以個別電子郵件的形式傳送給客戶，請選取核取方塊。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望評論從客戶的帳戶中可見，請選取核取方塊。 <br/>**[!UICONTROL Update]**— 新增註解並傳送電子郵件（如果適用）。 |
 
 {style="table-layout:auto"}
 
