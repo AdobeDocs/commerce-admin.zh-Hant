@@ -3,7 +3,7 @@ title: Cookie法規遵循
 description: 為了跟上許多國家/地區有關使用Cookie的法規，Adobe Commerce和Magento Open Source為商家提供多種取得客戶同意的方法。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)已為Adobe Commerce客戶設定下列Cookie。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
 
-- `mg`：由Snowplow JavaScript追蹤器設定。 如需詳細資訊，請參閱[雪犁檔案](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options)。
+- `mg`：由Snowplow JavaScript追蹤器設定。 如需詳細資訊，請參閱[雪犁檔案](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：根據目前網頁的主機名稱，這是不是如https://publicsuffix.org中所述「公用字尾」的最上層網域。 基本上，這是可以接受Cookie的最上層網域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
