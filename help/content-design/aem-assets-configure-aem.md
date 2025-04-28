@@ -3,9 +3,9 @@ title: 安裝適用於Commerce的AEM Assets套件
 description: 新增啟用Commerce的AEM Assets整合所需的資產中繼資料，以在Adobe Commerce和Experience Manager Assets專案之間同步資產。
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe提供專案範本`commerce-assets`，以將Commerce名稱空間和中繼�
 
   ![自訂產品資料UI控制項](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- 中繼資料結構表單具有Commerce索引標籤，其中包含用於標籤Commerce資產的`Does it exist in Adobe Commerce?`和`Product Data`欄位。 此表單也提供在AEM Assets UI中顯示或隱藏`roles`和`order` （位置）欄位的選項。
+- 中繼資料結構表單具有Commerce索引標籤，其中包含用於標籤Commerce資產的`Eligible for Commerce?`和`Product Data`欄位。 此表單也提供在AEM Assets UI中顯示或隱藏`roles`和`order` （位置）欄位的選項。
 
   AEM Assets中繼資料結構表單的![Commerce索引標籤](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Adobe提供專案範本`commerce-assets`，以將Commerce名稱空間和中繼�
 
 在AEM Assets製作環境中，透過建立中繼資料設定檔，設定Commerce資產中繼資料的預設值。 然後，將新設定檔套用至AEM資產資料夾，以自動使用這些預設值。 此設定可減少手動步驟，以簡化資產處理。
 
+設定中繼資料設定檔時，您只需要設定下列元件：
+
+- 新增Commerce索引標籤。 此索引標籤會啟用範本新增的Commerce特定組態設定
+- 將`Eligible for Commerce`欄位新增至Commerce索引標籤。
+
+產品資料UI元件會根據範本自動新增。
+
+### 設定中繼資料設定檔
+
 1. 登入Adobe Experience Manager作者環境。
 
 1. 在Adobe Experience Manager工作區中，按一下Adobe Experience Manager圖示以前往AEM Assets的作者內容管理工作區。
@@ -81,27 +90,41 @@ Adobe提供專案範本`commerce-assets`，以將Commerce名稱空間和中繼�
 
    1. 按一下索引標籤區段中的&#x200B;**[!UICONTROL +]**，然後指定&#x200B;**[!UICONTROL Tab Name]**、`Commerce`。
 
-1. 將`Does it exist in Commerce?`欄位新增至表單，並將預設值設為`yes`。
+1. 將`Eligible for Commerce`欄位新增至表單。
 
    ![AEM作者管理員將中繼資料欄位新增至設定檔](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - 按一下&#x200B;**[!UICONTROL Build form]**。
+
+   - 將`Single Line text`欄位拖曳至表單。
+
+   - 按一下&#x200B;**[!UICONTROL Field Label]**&#x200B;新增標籤的`Eligible for Commerce`文字。
+
+   - 在[設定]索引標籤上，將標籤文字新增至&#x200B;**欄位標籤**。
+
+   - 將預留位置文字設定為`yes`。
+
+   - 在&#x200B;**[!UICONTROL Map to Property]**&#x200B;欄位中，複製並貼上下列值
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. 選填。 若要自動同步處理上傳至AEM Assets環境的已核准Commerce資產，請在`Basic`索引標籤上將&#x200B;_[!UICONTROL Review Status]_欄位的預設值設為`approved`。
+
 1. 儲存更新。
 
-1. 將`Commerce integration`中繼資料設定檔套用至儲存Commerce資產的資料夾。
+#### 將中繼資料設定檔套用至Commerce資產來源檔案夾
 
-   1. 從[!UICONTROL  Metadata Profiles]頁面，選取Commerce整合設定檔。
+1. 從[!UICONTROL  Metadata Profiles]頁面，選取Commerce整合設定檔。
 
-   1. 從動作功能表中選取&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
+1. 從動作功能表中選取&#x200B;**[!UICONTROL Apply Metadata Profiles to Folders]**。
 
-   1. 選取包含Commerce資產的資料夾。
+1. 選取包含Commerce資產的資料夾。
 
-      建立Commerce資料夾（如果沒有）。
+   建立Commerce資料夾（如果沒有）。
 
-   1. 按一下&#x200B;**[!UICONTROL Apply]**。
-
->[!TIP]
->
->您可以更新中繼資料設定檔，將&#x200B;_[!UICONTROL Review Status]_欄位的預設值設為`Approved`，藉此在上傳至Commerce環境時自動同步AEM Assets資產。 `Review Status`欄位的屬性型別是`./jcr:content/metadata/dam:status`。
+1. 按一下&#x200B;**[!UICONTROL Apply]**。
 
 ## 下一步
 
