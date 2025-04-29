@@ -3,9 +3,10 @@ title: 將專案新增至行銷活動
 description: 檢閱此行銷活動範例，此範例用於在行銷活動期間將促銷活動影像新增至類別頁面。
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-下列範例會在行銷活動期間將促銷影像新增至類別頁面。 您也可以對產品頁面或CMS頁面執行相同的操作。
+下列範例會在行銷活動期間將促銷影像新增至類別頁面。 您也可以對產品頁面或CMS頁面執行相同操作。
 
 ## 為類別新增行銷活動專案
 
