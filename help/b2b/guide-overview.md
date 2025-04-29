@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 存放區管理員有兩個區域：
 
 - 管理員：使用此區域來存取設定UI和報表。
-- 命令列介面：使用此工具來執行安裝和後端組態工作。
+- 命令列介面：使用此工具來執行安裝和後端組態工作。 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 本指南涵蓋：
 
@@ -28,11 +28,11 @@ ht-degree: 1%
 | ------- | ----------- |
 | [簡介](introduction.md) | [!DNL Adobe Commerce B2B]提供哪些功能？ |
 | [發行說明](release-notes.md) | 檢閱每個[!DNL Adobe Commerce B2B]版本中提供的更新。 |
-| [安裝](install.md) | 安裝[!DNL Adobe Commerce B2B]擴充功能。 |
+| [安裝](install.md) | 安裝[!DNL Adobe Commerce B2B]擴充功能。 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} |
 | [啟用基本B2B功能](enable-basic-features.md) | 安裝[!DNL Adobe Commerce B2B]之後，您必須啟用要啟用商店的功能。 |
 | [公司帳戶](account-companies.md) | 瞭解公司帳戶，以及這些帳戶如何提供主要建置區塊，以支援您商店中的B2B購買者。 |
 | [公司管理](manage-companies.md) | 瞭解B2B Commerce網站管理員如何建立公司階層，以簡化對屬於相同企業之多家公司的管理。 |
-| [共用目錄](catalog-shared.md) | 瞭解如何使用共用目錄，以不同公司的自訂定價來維護閘道目錄。 |
+| [共用目錄](catalog-shared.md) | 瞭解如何使用共用目錄，以不同公司的自訂定價來維護閘道目錄。 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} |
 | [快速訂單](quick-order.md) | 瞭解快速訂購功能並為您的客戶啟用。 |
 | [個採購單](purchase-order-flow.md) | 瞭解可讓公司追蹤並控制其支出的採購單工作流程。 |
 | [個引號](quotes.md) | 瞭解報價工作流程，以及如何為公司帳戶提供此服務。 |
