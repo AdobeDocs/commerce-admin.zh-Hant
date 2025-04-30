@@ -3,9 +3,9 @@ title: 設定整合
 description: 瞭解如何連結Adobe Commerce和Experience Manager Assets專案，以啟用這兩個系統之間的資產同步。
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
+source-git-commit: f01ba239d885d96285186e35361a8d40f2f68e4e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,7 @@ ht-degree: 0%
 
 - 建立支援票證以請求啟用AEM Assets以進行Commerce整合。 在票證中，加入您要連線至Commerce之AEM Assets編寫環境的&#x200B;**[!UICONTROL Program ID]**、**[!UICONTROL Environment ID]**&#x200B;和&#x200B;**[!UICONTROL IMS Org ID]**。
 
-  >[!TIP]
-  >
-  > （選用）提供&#x200B;**[!UICONTROL Asset Selector IMS Client ID]** （如果可用）。 請參閱&#x200B;*AEM Assets選取器*&#x200B;檔案中的[ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)。
+- 提供&#x200B;**[!UICONTROL Asset Selector IMS Client ID]**。 請參閱&#x200B;*AEM Assets選取器*&#x200B;檔案中的[ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)。
 
 ## 設定連線
 
@@ -51,7 +49,7 @@ ht-degree: 0%
 
    從&#x200B;*[!UICONTROL Use system value]*&#x200B;中移除選取專案，以編輯設定值。
 
-1. 輸入&#x200B;**[!UICONTROL Asset Selector IMS Client ID]** （如果可用）。
+1. 輸入&#x200B;**[!UICONTROL Asset Selector IMS Client ID]**。
 
    [!UICONTROL Assets Selector]需要[Asset Selector IMS使用者端ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)，此AEM Assets功能可讓使用者直接將視覺資產內嵌至Commerce產品頁面。
 
