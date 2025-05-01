@@ -3,9 +3,10 @@ title: 自動重新導向
 description: 瞭解如何設定當產品或類別的URL索引鍵在您的Commerce商店中變更時，系統會產生自動重新導向。
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---

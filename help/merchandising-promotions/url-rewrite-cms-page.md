@@ -3,9 +3,10 @@ title: 內容頁面URL重新寫入
 description: 瞭解如何使用內容頁面URL重新導向，將連結重新導向至Commerce商店中其他內容頁面的URL。
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 開始之前，請確定您清楚重新導向要達成的目的。 從&#x200B;_的_&#x200B;目標&#x200B;_/_&#x200B;來源&#x200B;_或_&#x200B;重新導向至&#x200B;_/_&#x200B;重新導向。 雖然使用者可能仍會從搜尋引擎或過時的連結導覽至先前的頁面，但重新導向會導致您的商店切換至新目標。
 
-![URL重新寫入 — CMS頁面](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
+![URL重寫 — CMS頁面](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## 步驟1. 計畫重新寫入
 
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 1. 在格線中尋找新的目標頁面，並以編輯模式開啟。
 
-   ![新增URL重寫 — 針對CMS頁面](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![新增URL重寫 — 適用於CMS頁面](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. 在「URL重寫資訊」下，執行下列動作：
 

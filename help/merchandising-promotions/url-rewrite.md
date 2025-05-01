@@ -3,9 +3,10 @@ title: URL重新寫入
 description: 瞭解URL重寫並使用Commerce URL重寫工具來變更與產品、類別或CMS頁面相關聯的URL。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -74,7 +75,7 @@ Google如果您未明確指出哪個URL是標準網址，系統會為您做出�
 
 您可以使用URL重寫工具來建立產品和類別重寫，以及商店中任何頁面的自訂重寫。 當重寫生效時，任何指向先前URL的現有連結都會順暢地重新導向至新位址。
 
-URL重寫可用來新增高值關鍵字，以改善搜尋引擎為產品編制索引的方式。 您也可以使用重寫，針對暫時性季節性變更或永久性變更建立其他URL。 可以為任何有效路徑（包括CMS內容頁面）建立重寫。 在內部，系統會一律透過ID參考產品和類別。 不論URL多久變更一次，ID都會保持不變。 以下是您可以使用URL重寫的一些方法：
+URL重寫可用來新增高值關鍵字，以改善搜尋引擎為產品編制索引的方式。 您也可以使用重寫，針對暫時性季節性變更或永久性變更建立其他URL。 可以為任何有效路徑(包括CMS內容頁面)建立重寫。 在內部，系統會一律透過ID參考產品和類別。 不論URL多久變更一次，ID都會保持不變。 以下是您可以使用URL重寫的一些方法：
 
 系統URL
 

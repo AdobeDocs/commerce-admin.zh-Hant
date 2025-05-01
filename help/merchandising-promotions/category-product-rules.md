@@ -3,9 +3,10 @@ title: 銷售類別規則
 description: 瞭解如何建立規則，以根據一組條件動態變更產品選擇。
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
