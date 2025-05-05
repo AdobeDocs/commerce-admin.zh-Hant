@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)的[執行cron。
+>建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)的執行cron。
 
 ### 方法1：建立特定抵用券
 

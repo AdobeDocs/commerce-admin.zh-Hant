@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開&#x200B;**[!UICONTROL Default Layouts]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -86,28 +86,28 @@ ht-degree: 0%
 
 ![圖表 — 一欄式配置](./assets/layout-1-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 1 Column]_版面配置可用來建立具有大型影像或焦點的戲劇化首頁。 這也非常適合用於登入頁面，或包含文字、影像和視訊組合的任何其他頁面。
+_[!UICONTROL 1 Column]_&#x200B;版面配置可用來建立具有大型影像或焦點的戲劇化首頁。 這也非常適合用於登入頁面，或包含文字、影像和視訊組合的任何其他頁面。
 
 ### 兩欄（含左列）
 
 ![圖表 — 雙欄式配置，左邊列](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Left Bar]_配置通常用於左側導覽的頁面，例如目錄或具有階層式導覽的搜尋結果頁面。 對於需要在左側額外導覽或支援內容區塊的首頁，這也是絕佳選擇。
+_[!UICONTROL 2 Columns with Left Bar]_&#x200B;配置通常用於左側導覽的頁面，例如目錄或具有階層式導覽的搜尋結果頁面。 對於需要在左側額外導覽或支援內容區塊的首頁，這也是絕佳選擇。
 
 ### 兩欄（含右列）
 
 ![圖表 — 右橫條的雙欄式配置](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_版面配置時，主要內容區域已足夠大，足以呈現吸引人的影像或橫幅。 此版面通常也用於右側具有支援內容區塊的產品頁面。
+使用&#x200B;_[!UICONTROL 2 Columns with Right Bar]_&#x200B;版面配置時，主要內容區域已足夠大，足以呈現吸引人的影像或橫幅。 此版面通常也用於右側具有支援內容區塊的產品頁面。
 
 ### 三欄
 
 ![圖表 — 三欄式配置](./assets/layout-3-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 3 Column]_版面配置有一個中心欄，其寬度足以容納頁面的主要文字，兩側都有空間可額外導覽及支援內容的區塊。
+_[!UICONTROL 3 Column]_&#x200B;版面配置有一個中心欄，其寬度足以容納頁面的主要文字，兩側都有空間可額外導覽及支援內容的區塊。
 
 ### 空白
 
 ![圖表 — 空的配置](./assets/layout-blank-th.png){zoomable="yes"}
 
-_[!UICONTROL Empty]_配置可用來定義自訂頁面配置。
+_[!UICONTROL Empty]_&#x200B;配置可用來定義自訂頁面配置。

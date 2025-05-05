@@ -36,7 +36,7 @@ ht-degree: 0%
 
 如果編輯預設Source，您可以編輯所有設定，但名稱和程式碼除外。 建議單一來源商家新增與其位置相符的資訊。
 
-_[!UICONTROL Manage Sources]_頁面列出所有可用的存貨地點和履行設施。 您可以新增存貨來源及編輯現有位置。
+_[!UICONTROL Manage Sources]_&#x200B;頁面列出所有可用的存貨地點和履行設施。 您可以新增存貨來源及編輯現有位置。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**。
 

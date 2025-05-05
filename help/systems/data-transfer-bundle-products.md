@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 向下捲動至區段底部，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL File name]_格線的_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
+1. 在&#x200B;_[!UICONTROL File name]_&#x200B;格線的&#x200B;_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
 
    檔案會顯示在瀏覽器使用的下載位置。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Products`。
 
 1. 將&#x200B;**[!UICONTROL Import Behavior]**&#x200B;設為`Replace`。
 

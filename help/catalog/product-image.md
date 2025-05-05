@@ -14,7 +14,7 @@ ht-degree: 0%
 
 對於每個產品，您可以上傳多個影像和影片、重新安排其順序，並控制每個產品的使用方式。 如果要管理大量的影像，您可能會偏好以批次匯入，而非個別上傳每個影像。 如需詳細資訊，請參閱[匯入產品影像](../systems/data-import-product-images.md)。
 
-如果您打算上傳大型影像以供在&#x200B;_[!UICONTROL Product Details]_頁面上檢視，建議您設定畫素大小上限（寬度和高度），並在上傳時自動調整檔案大小。 上傳影像時，有一個選項可啟用自動調整大型影像檔案的大小。 如需詳細資訊，請參閱[調整產品影像大小](product-image-config.md#product-image-resizing)。
+如果您打算上傳大型影像以供在&#x200B;_[!UICONTROL Product Details]_&#x200B;頁面上檢視，建議您設定畫素大小上限（寬度和高度），並在上傳時自動調整檔案大小。 上傳影像時，有一個選項可啟用自動調整大型影像檔案的大小。 如需詳細資訊，請參閱[調整產品影像大小](product-image-config.md#product-image-resizing)。
 
 ## 更新產品影像
 
@@ -26,7 +26,7 @@ ht-degree: 0%
    >
    >新產品影像會&#x200B;**_一律_**&#x200B;上傳並顯示在&#x200B;**_所有_**&#x200B;市集檢視中，即使`All Store Views`範圍未用於上傳。 <br/><br/>若要從特定商店檢視隱藏任何產品影像，您必須切換到該商店檢視，選取影像的&#x200B;**[!UICONTROL Hide from Product Page]**&#x200B;核取方塊，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-1. 向下捲動並展開&#x200B;_[!UICONTROL Images and Videos]_區段。
+1. 向下捲動並展開&#x200B;_[!UICONTROL Images and Videos]_&#x200B;區段。
 
 ### 上傳影像
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 若要上傳影像，請執行下列任一項作業：
 
-- 從您的案頭拖曳影像，並將它拖放到&#x200B;_[!UICONTROL Images And Videos]_方塊中的_&#x200B;攝影機&#x200B;_（ ![攝影機圖示](../assets/icon-camera.png) ）圖磚上。
+- 從您的案頭拖曳影像，並將它拖放到&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中的_&#x200B;攝影機&#x200B;_（ ![攝影機圖示](../assets/icon-camera.png) ）圖磚上。
 
-- 在&#x200B;_[!UICONTROL Images And Videos]_方塊中，按一下_&#x200B;攝影機&#x200B;_（![攝影機圖示](../assets/icon-camera.png) ）圖磚，選取您電腦上的影像檔，然後按一下&#x200B;**[!UICONTROL Open]**。
+- 在&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中，按一下_&#x200B;攝影機&#x200B;_（![攝影機圖示](../assets/icon-camera.png) ）圖磚，選取您電腦上的影像檔，然後按一下&#x200B;**[!UICONTROL Open]**。
 
   ![上傳或拖放](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 重新排列影像
 
-若要變更相簿中影像的順序，請按一下影像圖磚底部的&#x200B;_[!UICONTROL Sort]_（ ![排序圖示](./assets/inventory-icon-sort.png) ）圖示，並將影像拖曳至_[!UICONTROL Images And Videos]_&#x200B;方塊中的不同位置。
+若要變更相簿中影像的順序，請按一下影像圖磚底部的&#x200B;_[!UICONTROL Sort]_（ ![排序圖示](./assets/inventory-icon-sort.png) ）圖示，並將影像拖曳至&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中的不同位置。
 
 ![變更順序](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
 影像替代文字經熒幕助讀程式參考以改善網頁協助工具，並由搜尋引擎在索引網站時參考。 有些瀏覽器會在滑鼠懸停時顯示Alt文字。 替代文字可以是幾個字長，並包含仔細選取的關鍵字。
 
-在&#x200B;_[!UICONTROL Alt Text]_方塊中，輸入影像的簡短描述。
+在&#x200B;_[!UICONTROL Alt Text]_&#x200B;方塊中，輸入影像的簡短描述。
 
 #### 指派角色
 
 依預設，所有角色都會指派給上傳至產品的第一個影像。 若要將角色重新指派給另一個影像，請執行下列動作：
 
-在&#x200B;_[!UICONTROL Role]_方塊中，選擇要指派給影像的角色。
+在&#x200B;_[!UICONTROL Role]_&#x200B;方塊中，選擇要指派給影像的角色。
 
 當您返回&#x200B;_影像和影片_&#x200B;區段時，目前指派的角色會出現在每個影像下方。
 
@@ -113,9 +113,9 @@ ht-degree: 0%
 
    如需設計組態的詳細資訊，請參閱[設計組態](../content-design/configuration.md)。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL Product Image Watermarks]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開&#x200B;**[!UICONTROL Product Image Watermarks]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![產品影像浮水印 — Base](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

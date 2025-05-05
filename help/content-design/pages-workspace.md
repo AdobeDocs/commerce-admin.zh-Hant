@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ## 頁面搜尋
 
-_[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特定頁面。 若要進行更進階的搜尋，您可以[篩選](../getting-started/admin-grid-controls.md)多個引數的搜尋。
+_[!UICONTROL Pages]_&#x200B;格線左上方的搜尋方塊可用來依關鍵字尋找特定頁面。 若要進行更進階的搜尋，您可以[篩選](../getting-started/admin-grid-controls.md)多個引數的搜尋。
 
 ### 依關鍵字搜尋
 
@@ -139,7 +139,7 @@ _[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特
 
 ### 單一動作
 
-使用最右邊的&#x200B;_[!UICONTROL Action]_欄，將下列任何動作套用至個別頁面：
+使用最右邊的&#x200B;_[!UICONTROL Action]_&#x200B;欄，將下列任何動作套用至個別頁面：
 
 - [!UICONTROL Edit] — 以編輯模式開啟頁面
 - [!UICONTROL Delete] — 刪除頁面（需要確認）
@@ -149,7 +149,7 @@ _[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特
 
 ### 整批動作
 
-使用左上角的&#x200B;_[!UICONTROL Action]_選取器，將下列任一動作同時套用至數個選取的頁面：
+使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;選取器，將下列任一動作同時套用至數個選取的頁面：
 
 - [!UICONTROL Delete] — 刪除頁面（需要確認）
 - [!UICONTROL Disable] — 停用店面上的頁面

@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >新產品3D模型在&#x200B;_所有_&#x200B;市集檢視中&#x200B;_一律_&#x200B;上傳並顯示，即使`All Store Views`範圍未用於上傳。 <br/><br/>若要從特定商店檢視隱藏任何產品3D模型，您必須切換到該商店檢視，選取3D模型的「**[!UICONTROL Hide from Product Page]**」核取方塊，然後按一下「**[!UICONTROL Save]**」。
 
-1. 向下捲動並展開&#x200B;_[!UICONTROL Product 3D Model]_區段。
+1. 向下捲動並展開&#x200B;_[!UICONTROL Product 3D Model]_&#x200B;區段。
 
    ![功能表快顯功能表](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 

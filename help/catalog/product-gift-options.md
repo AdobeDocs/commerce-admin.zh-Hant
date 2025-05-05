@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Gift Options]
 
-在&#x200B;_[!UICONTROL Gift Options]_區段中，您可以在產品層級結帳時設定贈品訊息和贈品包裝選項。 若要覆寫預設組態設定，請取消選取&#x200B;**[!UICONTROL Use Config Settings]**核取方塊。
+在&#x200B;_[!UICONTROL Gift Options]_&#x200B;區段中，您可以在產品層級結帳時設定贈品訊息和贈品包裝選項。 若要覆寫預設組態設定，請取消選取&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;核取方塊。
 
 ![贈品選項](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Gift Options]_區段，然後執行下列動作：
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Gift Options]_&#x200B;區段，然後執行下列動作：
 
    - 若要覆寫預設設定，請取消選取&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;核取方塊。
 

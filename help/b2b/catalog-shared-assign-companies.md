@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 將公司指派至共用目錄
 
-有兩種方式可將公司指派至共用目錄。 您可以從&#x200B;_[!UICONTROL Shared Catalogs]_網格進行指派，或編輯公司並指派共用目錄，就像選擇客戶群組一樣。
+有兩種方式可將公司指派至共用目錄。 您可以從&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;網格進行指派，或編輯公司並指派共用目錄，就像選擇客戶群組一樣。
 
 ![指派公司](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

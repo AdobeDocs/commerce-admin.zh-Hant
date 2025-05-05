@@ -26,15 +26,15 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 對於網格中您要新增的產品，請移至&#x200B;_[!UICONTROL Action]_欄，然後按一下&#x200B;**[!UICONTROL Edit]**。
+1. 對於網格中您要新增的產品，請移至&#x200B;_[!UICONTROL Action]_&#x200B;欄，然後按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 向下捲動，展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product in Shared Catalogs]_區段，然後執行下列動作：
+1. 向下捲動，展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product in Shared Catalogs]_&#x200B;區段，然後執行下列動作：
 
    - 選取產品應顯示之每個共用目錄的核取方塊。 若要選擇所有目錄，請按一下&#x200B;**[!UICONTROL Select all]**。
 
      ![共用目錄中的產品](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
-     每個選取的目錄名稱會顯示在&#x200B;_[!UICONTROL Shared Catalogs]_欄位中。
+     每個選取的目錄名稱會顯示在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;欄位中。
 
      ![已指派的共用目錄](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
-1. 對於網格中的共用目錄，請移至&#x200B;_[!UICONTROL Action]_欄並選取&#x200B;**[!UICONTROL Set Pricing and Structure]**。
+1. 對於網格中的共用目錄，請移至&#x200B;_[!UICONTROL Action]_&#x200B;欄並選取&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
 1. 在類別樹狀結構中，執行下列任一項作業：
 

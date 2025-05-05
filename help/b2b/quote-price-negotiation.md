@@ -14,9 +14,9 @@ ht-degree: 0%
 
 如果組態中啟用了[B2B報價單](configure-quotes.md)，則價格議價可由公司授權採購員或銷售代表啟動。
 
-買家透過向購物車要求[報價單](quote-request.md)來啟動價格議價程式。 [](sales-rep-initiates-quote.md)
+買家透過向購物車要求[報價單](quote-request.md)來啟動價格議價程式。 [&#128279;](sales-rep-initiates-quote.md)
 
-[](quotes.md)All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
+[&#128279;](quotes.md)All negotiation between the buyer and seller takes place by email, and is initiated and tracked from the detail view of the quote.
 
 During the negotiation process, the seller can do the following from the Admin:
 
@@ -33,7 +33,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 1. 在管理員側邊欄上，前往&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
-   新要求會出現在&#x200B;_[!UICONTROL Quotes]_格線中。
+   新要求會出現在&#x200B;_[!UICONTROL Quotes]_&#x200B;格線中。
 
 1. 在&#x200B;_動作_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
 
@@ -41,13 +41,13 @@ During the negotiation process, the seller can do the following from the Admin:
 
 ## 步驟2：修改報價
 
-1. 在&#x200B;_[!UICONTROL Quote & Account Information]_底下，按一下_&#x200B;行事曆&#x200B;_（![行事曆圖示](../assets/icon-calendar.png)）圖示。
+1. 在&#x200B;_[!UICONTROL Quote & Account Information]_&#x200B;底下，按一下_&#x200B;行事曆&#x200B;_（![行事曆圖示](../assets/icon-calendar.png)）圖示。
 
    ![報價和帳戶資訊](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. 選擇報價的&#x200B;**[!UICONTROL Expiration Date]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Quote Totals]_區段，並視需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Quote Totals]_&#x200B;區段，並視需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
 
    ![更新議價價格](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 ### 套用行專案更新
 
-如有需要，在&#x200B;_[!UICONTROL Items Quoted]_區段中套用行專案變更。
+如有需要，在&#x200B;_[!UICONTROL Items Quoted]_&#x200B;區段中套用行專案變更。
 
 ![套用行專案更新](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ During the negotiation process, the seller can do the following from the Admin:
 您可以選擇鎖定折扣金額，以防止進一步折扣。 如果未鎖定折扣，
 明細專案折扣與任何報價層次折扣都會套用至產品價格。
    - **給購買者留下備註**，為購買者提供專案的額外資訊
-   - ****
+   - **&#x200B;**
 
 ### 套用變更和更新
 
@@ -100,7 +100,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 1. 輸入&#x200B;**[!UICONTROL Proposed Shipping Price]**。
 
-   _[!UICONTROL Quote Totals]_已更新，以反映建議的運費。
+   _[!UICONTROL Quote Totals]_&#x200B;已更新，以反映建議的運費。
 
 ### 附加支援檔案
 
@@ -112,7 +112,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 ## 步驟3：更新報價層級資訊，並傳送您的回覆
 
-1. 在&#x200B;_[!UICONTROL Comments]_標籤的_[!UICONTROL Negotiation]_&#x200B;區段中，於&#x200B;**[!UICONTROL Add your comment]**&#x200B;區段中輸入您的回覆。
+1. 在&#x200B;_[!UICONTROL Comments]_&#x200B;標籤的&#x200B;_[!UICONTROL Negotiation]_&#x200B;區段中，於&#x200B;**[!UICONTROL Add your comment]**&#x200B;區段中輸入您的回覆。
 
 1. **[!UICONTROL Attach file]**
 
@@ -120,7 +120,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 1. 若要將折扣套用至報價單，請執行下列步驟：
 
-   - 在&#x200B;_[!UICONTROL Negotiated Price]_區段的_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
+   - 在&#x200B;_[!UICONTROL Negotiated Price]_&#x200B;區段的&#x200B;_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
 
       - `Percentage Discount`：百分比折扣會以特定百分比降低原始價格。
       - `Amount Discount`
@@ -132,7 +132,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
    - You can apply discounts to each line item or the quote as a whole:
 
-      - ****&#x200B;折扣可以是`percentage`、特定`amount`或`proposed price`。
+      - **&#x200B;**&#x200B;折扣可以是`percentage`、特定`amount`或`proposed price`。
       - **購物車層級折扣**：購物車層級折扣套用至整個購物車。 折扣可以是`percentage`或特定的`amount`，並套用至購物車總值。
       - **購物車與明細專案折扣的組合**：在某些情況下，折扣可同時套用至購物車與明細專案層次。 先套用明細專案折扣，然後套用剩餘總計的購物車層級折扣。
 
@@ -160,7 +160,7 @@ During the negotiation process, the seller can do the following from the Admin:
 
 | 按鈕 | 說明 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 返回&#x200B;_[!UICONTROL Quotes]_頁面而不儲存變更。 |
+| [!UICONTROL Back] | 返回&#x200B;_[!UICONTROL Quotes]_&#x200B;頁面而不儲存變更。 |
 | [!UICONTROL Print] | 將報價傳送至印表機或儲存為PDF檔案。 |
 | [!UICONTROL Create Copy] | 建立並開啟目前報價的復本，在原始名稱后面附加`(copy)`。 編輯[!UICONTROL Name]欄位以重新命名新報價。 將新的報價單儲存為草稿，或傳送給客戶來處理它。 |
 | 建立範本 | 根據目前的報價建立報價範本。 報價樣版可讓買方與賣家就可套用至多個報價的合約與訂價條款達成一致意見，藉此簡化報價議價。. 在協定上，採購員可以從範本產生預先核准的連結式報價供後續訂單使用，而不需重新啟動詢價流程。 |

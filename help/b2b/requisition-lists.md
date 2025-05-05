@@ -31,7 +31,7 @@ A logged in buyer that is associated with a company account can create a requisi
 
 1. **[!UICONTROL My Requisition Lists]**
 
-1. _[!UICONTROL Requisition Lists]_**[!UICONTROL Create New Requisition List]**
+1. _[!UICONTROL Requisition Lists]_&#x200B;**[!UICONTROL Create New Requisition List]**
 
 1. 輸入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
@@ -106,13 +106,13 @@ Buyers can add products to a requisition list from:
 
 1. [!UICONTROL Items Quoted]
 
-1. [!UICONTROL Select][!UICONTROL Actions]**[!UICONTROL Move to Requisition list]**
+1. [!UICONTROL Select][!UICONTROL Actions]&#x200B;**[!UICONTROL Move to Requisition list]**
 
 1. Select the requisition list for the selected items.
 
 1. **[!UICONTROL Move item to Requisition List]**
 
-[](account-dashboard-my-quotes.md)
+[&#128279;](account-dashboard-my-quotes.md)
 
 ### 從購物車
 

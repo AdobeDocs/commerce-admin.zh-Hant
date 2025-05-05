@@ -124,11 +124,11 @@ ht-degree: 0%
 
 1. 選取您要更新URL重寫的所有產品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_底下，選擇&#x200B;**[!UICONTROL Update attributes]**以更新多個或全部重寫。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;底下，選擇&#x200B;**[!UICONTROL Update attributes]**&#x200B;以更新多個或全部重寫。
 
-1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_下，按一下&#x200B;**[!UICONTROL Websites]**標籤。
+1. 在&#x200B;_[!UICONTROL PRODUCTS INFORMATION]_&#x200B;下，按一下&#x200B;**[!UICONTROL Websites]**&#x200B;標籤。
 
-1. 在&#x200B;_[!UICONTROL Add Product To Websites]_區段中，選取您要還原URL重寫的所有網站。
+1. 在&#x200B;_[!UICONTROL Add Product To Websites]_&#x200B;區段中，選取您要還原URL重寫的所有網站。
 
 1. 準備更新時，請按一下&#x200B;**[!UICONTROL Save]**。
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 將客戶群組指派至公司
 
-將客戶群組指派給公司，基本上與指派共用目錄相同。 如果組態](enable-basic-features.md)中未啟用共用目錄[，則會將客戶群組（而非共用目錄）指派給公司。
+將客戶群組指派給公司，基本上與指派共用目錄相同。 如果組態[&#128279;](enable-basic-features.md)中未啟用共用目錄，則會將客戶群組（而非共用目錄）指派給公司。
 
 - 一次只能將一個客戶群組或共用目錄指派給公司。 無法刪除與共用目錄相關聯的客戶群組。
 - 變更指派給公司的客戶群組會更新所有公司成員的設定檔。
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在網格中尋找公司，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中尋找公司，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
    ![編輯公司](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 

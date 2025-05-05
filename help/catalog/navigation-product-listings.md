@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_遞增順序排序。
+>依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_&#x200B;遞增順序排序。
 
 ![顯示為格線的產品](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >若要依據&#x200B;_依價格_&#x200B;的產品排序正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**值。 對於_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
+   >若要依據&#x200B;_依價格_&#x200B;的產品排序正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 對於&#x200B;_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
 
 1. 將預設&#x200B;**[!UICONTROL List Mode]**&#x200B;設定為下列其中一項：
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 | 控制 | 說明 |
 |--- |--- |
 | ![顯示格線](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] — 以格線或清單格式顯示清單。 |
-| ![排序依據：](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 變更清單的排序順序。 _[!UICONTROL Used for Sorting in Product Listing]_storefront屬性決定哪些[產品屬性](../catalog/product-attributes.md)可用來排序清單。 |
+| ![排序依據：](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] — 變更清單的排序順序。 _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront屬性決定哪些[產品屬性](../catalog/product-attributes.md)可用來排序清單。 |
 | 每頁![顯示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] — 決定每頁要顯示多少產品。 |
 | ![分頁連結](./assets/control-pagination.png) | 分頁連結 — 導覽連結至其他頁面。 |
 

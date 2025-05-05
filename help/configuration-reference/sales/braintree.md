@@ -36,12 +36,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | 存放區檢視 | 預設值： `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | 存放區檢視 | 選項： `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | 存放區檢視 | 決定Braintree在處理付款時採取的動作。 選項： <br/>**`Authorize`**— 已授權客戶信用卡上的資金，但並未從帳戶轉帳。 系統會在您的商店管理員中建立訂單。 您稍後可以擷取銷售，並建立發票。<br/>**`Intent Sale`** （先前版本中的`Authorize and Capture`） — 客戶信用卡上的資金已由Braintree授權並擷取，而訂單與發票是在您的商店管理員中建立。 |
-| [!UICONTROL Sandbox Merchant ID] | 存放區檢視 | 這是您整個沙箱閘道帳戶的唯一識別碼。 也稱為&#x200B;_公用ID_&#x200B;或&#x200B;_生產ID_，您的商家識別碼在生產與沙箱閘道上不同。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Sandbox`時，會顯示此欄位。 |
-| [!UICONTROL Sandbox Public Key] | 存放區檢視 | 這是您的使用者專屬公用識別碼，可限制對加密資料的存取。 與您的沙箱Braintree閘道關聯的每個使用者都有各自的沙箱公開金鑰。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Sandbox`時，會顯示此欄位。 |
-| [!UICONTROL Sandbox Private Key] | 存放區檢視 | 這是您的使用者專屬私人識別碼，可限制對加密資料的存取。 與您的沙箱Braintree閘道關聯的每個使用者都有各自的沙箱私密金鑰。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Sandbox`時，會顯示此欄位。 |
-| [!UICONTROL Merchant ID] | 存放區檢視 | 這是您整個閘道帳戶的唯一識別碼，包括閘道中可能存在的多個商家帳戶。 也稱為&#x200B;_公用ID_&#x200B;或&#x200B;_生產ID_，您的商家識別碼在生產與沙箱閘道上不同。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Production`時，會顯示此欄位。 |
-| [!UICONTROL Public Key] | 存放區檢視 | 這是您的使用者專屬公用識別碼，可限制對加密資料的存取。 與您的Braintree閘道關聯的每個使用者都有各自的公開金鑰。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Production`時，會顯示此欄位。 |
-| [!UICONTROL Private Key] | 存放區檢視 | 這是您的使用者專屬私人識別碼，可限制對加密資料的存取。 與您的Braintree閘道關聯的每個使用者都有各自的私密金鑰。 當&#x200B;_[!UICONTROL Environment]_欄位設為`Production`時，會顯示此欄位。 |
+| [!UICONTROL Sandbox Merchant ID] | 存放區檢視 | 這是您整個沙箱閘道帳戶的唯一識別碼。 也稱為&#x200B;_公用ID_&#x200B;或&#x200B;_生產ID_，您的商家識別碼在生產與沙箱閘道上不同。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Sandbox`時，會顯示此欄位。 |
+| [!UICONTROL Sandbox Public Key] | 存放區檢視 | 這是您的使用者專屬公用識別碼，可限制對加密資料的存取。 與您的沙箱Braintree閘道關聯的每個使用者都有各自的沙箱公開金鑰。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Sandbox`時，會顯示此欄位。 |
+| [!UICONTROL Sandbox Private Key] | 存放區檢視 | 這是您的使用者專屬私人識別碼，可限制對加密資料的存取。 與您的沙箱Braintree閘道關聯的每個使用者都有各自的沙箱私密金鑰。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Sandbox`時，會顯示此欄位。 |
+| [!UICONTROL Merchant ID] | 存放區檢視 | 這是您整個閘道帳戶的唯一識別碼，包括閘道中可能存在的多個商家帳戶。 也稱為&#x200B;_公用ID_&#x200B;或&#x200B;_生產ID_，您的商家識別碼在生產與沙箱閘道上不同。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Production`時，會顯示此欄位。 |
+| [!UICONTROL Public Key] | 存放區檢視 | 這是您的使用者專屬公用識別碼，可限制對加密資料的存取。 與您的Braintree閘道關聯的每個使用者都有各自的公開金鑰。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Production`時，會顯示此欄位。 |
+| [!UICONTROL Private Key] | 存放區檢視 | 這是您的使用者專屬私人識別碼，可限制對加密資料的存取。 與您的Braintree閘道關聯的每個使用者都有各自的私密金鑰。 當&#x200B;_[!UICONTROL Environment]_&#x200B;欄位設為`Production`時，會顯示此欄位。 |
 | [!UICONTROL Enable Card Payments] | 網站 | 判斷客戶是否可使用Braintree信用卡付款方式作為付款方式。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | 網站 | 啟用後，可為客戶付款資訊提供安全的儲存空間，因此客戶不必在每次購買時都重新輸入信用卡資訊。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | 網站 | 啟用後，將會在您的Braintree帳戶中對CVV規則設定進行驗證。 選項： `Yes` / `No` |
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-此區段中的選項和設定會根據&#x200B;_[!UICONTROL Location]_欄位中的設定而有所不同。
+此區段中的選項和設定會根據&#x200B;_[!UICONTROL Location]_&#x200B;欄位中的設定而有所不同。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 **[!UICONTROL PayPal Button]**
 
-此區段中的選項和設定會根據在&#x200B;_[!UICONTROL PayPal Button Type]_欄位中選取的按鈕型別而有所不同。
+此區段中的選項和設定會根據在&#x200B;_[!UICONTROL PayPal Button Type]_&#x200B;欄位中選取的按鈕型別而有所不同。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

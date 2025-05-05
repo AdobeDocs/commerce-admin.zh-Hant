@@ -61,7 +61,7 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 
 ### 步驟3：啟用立即購買
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段下，選擇&#x200B;**[!UICONTROL Sales]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段下，選擇&#x200B;**[!UICONTROL Sales]**。
 
 1. 展開&#x200B;**[!UICONTROL Instant Purchase]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
 
 歡迎使用全球領先的數位商務平台的新一代。 Adobe Commerce為線上商戶提供無與倫比的彈性，掌控其線上商店的外觀、內容和功能。 管理員擁有強大的行銷、搜尋引擎最佳化和產品管理工具，讓您能夠建立符合獨特業務需求的網站。
 
@@ -124,7 +124,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 | 說明 | 型別 | 日期 |
 | ----------- | ---- | ---- |
 | **1.4.0 B2B版本** - Adobe Commerce B2B版本說明說明[1.4.0版本](../b2b/release-notes.md#b2b-v140)的變更和新增專案。 | 更新 | 06/13/23 |
-| **1.4.0 B2B版本** - _Adobe Commerce B2B指南_&#x200B;現已包含購買者](../b2b/sales-rep-initiates-quote.md)主題的[起始報價。 它說明賣方如何為特定採購員建立報價單，以開始議價處理。 | 新增 | 06/13/23 |
+| **1.4.0 B2B版本** - _Adobe Commerce B2B指南_&#x200B;現已包含購買者[&#128279;](../b2b/sales-rep-initiates-quote.md)主題的起始報價。 它說明賣方如何為特定採購員建立報價單，以開始議價處理。 | 新增 | 06/13/23 |
 | **1.4.0 B2B版本** - [交涉報價](../b2b/quote-price-negotiation.md)、[交涉報價](../b2b/quotes.md)和[啟用B2B功能](../b2b/enable-basic-features.md)主題已更新，以反映賣家所起始報價和預設功能的變更。 | 更新 | 06/13/23 |
 | **2.2.0 Adobe IMS整合版本** - _快速入門手冊_&#x200B;現已包含[停用Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-disable.md)主題。 它說明停用Adobe Commerce管理員與Adobe IMS整合的選用程式。 | 新增 | 06/13/23 |
 | **2.2.0 Adobe IMS整合版本** - [Adobe Identity Management Service (IMS)整合總覽](../getting-started/adobe-ims-integration-overview.md)和[設定Commerce與Adobe ID的管理員整合](../getting-started/adobe-ims-config.md)主題以反映更新的功能。 | 更新 | 06/13/23 |

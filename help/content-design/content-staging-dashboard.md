@@ -73,10 +73,10 @@ ht-degree: 0%
 
 1. 在顯示的清單或時間軸中尋找促銷活動，並開啟它以存取詳細資訊：
 
-   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
+   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
    - 若要顯示時間表，請按一下以顯示摘要，然後按一下&#x200B;**[!UICONTROL View/Edit]**。
 
-1. 視需要更新&#x200B;_[!UICONTROL General]_區段中的任何設定。
+1. 視需要更新&#x200B;_[!UICONTROL General]_&#x200B;區段中的任何設定。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png)包含要編輯之專案的任何區段。
 

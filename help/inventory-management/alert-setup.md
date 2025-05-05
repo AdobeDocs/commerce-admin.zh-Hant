@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 按一下以展開&#x200B;_[!UICONTROL Product Alerts]_區段並執行下列動作：
+1. 按一下以展開&#x200B;_[!UICONTROL Product Alerts]_&#x200B;區段並執行下列動作：
 
    ![產品警示](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_載入預設範本_&#x200B;下，選擇您要自訂的&#x200B;**[!UICONTROL Template]**。
 
-   您可以選擇主題中包含的警報範本。 或者，您可以選取&#x200B;_[!UICONTROL Magento_PriceAlert]_下的`Price Alert`或`Stock Alert`範本。
+   您可以選擇主題中包含的警報範本。 或者，您可以選取&#x200B;_[!UICONTROL Magento_PriceAlert]_&#x200B;下的`Price Alert`或`Stock Alert`範本。
 
 1. 按一下&#x200B;**[!UICONTROL Load Template]**。
 

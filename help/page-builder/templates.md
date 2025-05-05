@@ -30,7 +30,7 @@ ht-degree: 0%
 
    具有[另存為範本]按鈕的![[!DNL Page Builder]階段](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   此動作會顯示&#x200B;_[!UICONTROL Save Content as Template]_對話方塊。
+   此動作會顯示&#x200B;_[!UICONTROL Save Content as Template]_&#x200B;對話方塊。
 
    ![[!DNL Page Builder]另存為範本對話方塊](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![[!DNL Page Builder]套用範本按鈕](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. 從&#x200B;_[!UICONTROL Apply Template]_格線中選擇範本，然後按一下列尾的&#x200B;**[!UICONTROL Apply]**。
+1. 從&#x200B;_[!UICONTROL Apply Template]_&#x200B;格線中選擇範本，然後按一下列尾的&#x200B;**[!UICONTROL Apply]**。
 
    若要檢視整個範本，您可以按一下範本縮圖影像。 此動作會展開影像，以便您視需要檢視整個範本。
 

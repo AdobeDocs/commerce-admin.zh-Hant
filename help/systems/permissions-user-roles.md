@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### 步驟1：新增角色名稱
 
-1. 在&#x200B;_[!UICONTROL Role Information]_底下，輸入描述性&#x200B;**[!UICONTROL Role Name]**。
+1. 在&#x200B;_[!UICONTROL Role Information]_&#x200B;底下，輸入描述性&#x200B;**[!UICONTROL Role Name]**。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，輸入您的密碼。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，輸入您的密碼。
 
    ![系統許可權 — 角色資訊](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當具有`Custom`角色範圍的使用者被指派至受限制的存放區時，無法建立網站和類別、將產品指派至類別或編輯位於&#x200B;_[!UICONTROL All Store Views]_範圍中的產品。 這些使用者也無法執行其他_&#x200B;全域&#x200B;_動作，這些動作會影響他們無權存取的領域。
+   >當具有`Custom`角色範圍的使用者被指派至受限制的存放區時，無法建立網站和類別、將產品指派至類別或編輯位於&#x200B;_[!UICONTROL All Store Views]_&#x200B;範圍中的產品。 這些使用者也無法執行其他_&#x200B;全域&#x200B;_動作，這些動作會影響他們無權存取的領域。
 
-1. 在&#x200B;_[!UICONTROL Roles Resources]_底下，將&#x200B;**[!UICONTROL Resource Access]**設定為`Custom`。
+1. 在&#x200B;_[!UICONTROL Roles Resources]_&#x200B;底下，將&#x200B;**[!UICONTROL Resource Access]**&#x200B;設定為`Custom`。
 
 1. 在&#x200B;**[!UICONTROL Resource]**&#x200B;樹狀結構中，選取角色可存取之每個管理員功能的核取方塊。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >系統管理員使用者必須對其角色範圍具有&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;許可權，才能檢視&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_順序[索引標籤](../stores-purchase/order-processing.md)。
+   >系統管理員使用者必須對其角色範圍具有&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;許可權，才能檢視&#x200B;_[!UICONTROL Invoices]_、_[!UICONTROL Credit Memos]_&#x200B;和&#x200B;_[!UICONTROL Shipments]_&#x200B;順序[索引標籤](../stores-purchase/order-processing.md)。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Role]**。
 
@@ -71,13 +71,13 @@ ht-degree: 0%
 
 ## 指派角色給使用者
 
-1. 從&#x200B;_[!UICONTROL Roles]_格線，以編輯模式開啟記錄。
+1. 從&#x200B;_[!UICONTROL Roles]_&#x200B;格線，以編輯模式開啟記錄。
 
-1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_下，輸入您的使用者帳戶密碼。
+1. 在&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;下，輸入您的使用者帳戶密碼。
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Role Users]**。
 
-   _[!UICONTROL Role Users]_選項只有在儲存新角色之後才會出現。
+   _[!UICONTROL Role Users]_&#x200B;選項只有在儲存新角色之後才會出現。
 
    ![指派給角色的使用者帳戶](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

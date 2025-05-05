@@ -38,7 +38,7 @@ _免運費_&#x200B;是您可以提供的最有效促銷活動之一。 可依據
 
    >[!TIP]
    >
-   >若要搭配[表格費率](shipping-table-rate.md)使用免運費，請將&#x200B;_[!UICONTROL Minimum Order Amount]_設得過高，使其永遠都不符合。 使用此高值可防止免運費生效，除非由價格規則觸發。
+   >若要搭配[表格費率](shipping-table-rate.md)使用免運費，請將&#x200B;_[!UICONTROL Minimum Order Amount]_&#x200B;設得過高，使其永遠都不符合。 使用此高值可防止免運費生效，除非由價格規則觸發。
 
 1. 設定&#x200B;**[!UICONTROL Include Tax to Amount]**：
 
@@ -53,7 +53,7 @@ _免運費_&#x200B;是您可以提供的最有效促銷活動之一。 可依據
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用免運費。
 
-   - `Specific Countries` — 選擇這個值之後，_[!UICONTROL Ship to Specific Countries]_清單就會顯示。 選取清單中可使用免費送貨的每個國家/地區。
+   - `Specific Countries` — 選擇這個值之後，_[!UICONTROL Ship to Specific Countries]_&#x200B;清單就會顯示。 選取清單中可使用免費送貨的每個國家/地區。
 
 1. 設定&#x200B;**[!UICONTROL Show Method if Not Applicable]**：
 
@@ -70,7 +70,7 @@ _免運費_&#x200B;是您可以提供的最有效促銷活動之一。 可依據
 
 請務必完成您計畫用於免費送貨的每個承運商所需的任何設定。 例如，如果您的[UPS組態](ups.md)已經完成，請更新下列設定以啟用並設定免費送貨。
 
-1. 在&#x200B;_[!UICONTROL Delivery Methods]_設定中，展開&#x200B;**[!UICONTROL UPS]**區段中的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Delivery Methods]_&#x200B;設定中，展開&#x200B;**[!UICONTROL UPS]**&#x200B;區段中的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 將&#x200B;**[!UICONTROL Free Method]**&#x200B;設定為`UPS Ground`或您要指定免費送貨的其他型別。
 

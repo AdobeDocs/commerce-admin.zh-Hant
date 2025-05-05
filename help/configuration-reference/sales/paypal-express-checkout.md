@@ -38,7 +38,7 @@ ht-degree: 0%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | 網站 | 指定您建立PayPal商家帳戶時所指定的電子郵件地址。 電子郵件地址區分大小寫，且必須完全符合您在PayPal系統中的電子郵件地址。 |
-| [!UICONTROL API Authentication Methods] | 網站 | 決定用於API驗證的方法。 選項： <br/>**`API Signature`**— 在表單中顯示&#x200B;_[!UICONTROL API Signature]_欄位。<br/>**`API Certificate`**— 在表單中顯示_[!UICONTROL API Certificate]_&#x200B;欄位。 |
+| [!UICONTROL API Authentication Methods] | 網站 | 決定用於API驗證的方法。 選項： <br/>**`API Signature`**— 在表單中顯示&#x200B;_[!UICONTROL API Signature]_&#x200B;欄位。<br/>**`API Certificate`**— 在表單中顯示&#x200B;_[!UICONTROL API Certificate]_&#x200B;欄位。 |
 | [!UICONTROL API Username] | 網站 | 與您的PayPal商家帳戶相關聯的API使用者名稱。 |
 | [!UICONTROL API Password] | 網站 | 與您的PayPal商家帳戶相關聯的API密碼。 |
 | [!UICONTROL API Signature] | 網站 | 與您的PayPal商家帳戶相關聯的API簽章。 |
@@ -89,7 +89,7 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 存放區檢視 | 決定PayPal Express結帳是否顯示為購物車中的付款選項。 選項： `Yes` （建議使用PayPal） / `No` |
 | [!UICONTROL Payment Action Applicable From] | 網站 | 決定適用的國家/地區選取範圍。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | 網站 | 識別接受付款的每個國家/地區。 只有帳單地址在選定國家/地區的客戶才能使用此付款方式進行購買。 |
-| [!UICONTROL Debug Mode] | 網站 | 將商店和支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_注意：_**記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
+| [!UICONTROL Debug Mode] | 網站 | 將商店和支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
 | [!UICONTROL Enable SSL Verification] | 網站 | 啟用主機安全性憑證的驗證。 選項： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 顯示PayPal網站上客戶購物車的條列專案完整摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Transfer Shipping Options] | 網站 | 包括PayPal網站上最多十個送貨選項。 選項： `Yes` / `No` |
@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 網站 | 決定PayPal管理交易的方式：選項： <br/>**授權** — 核准購買，但保留資金。 此金額必須等到商家「擷取」後才會提取。 <br/>**銷售** — 已授權並立即從客戶帳戶中收回購買金額。 |
 | [!UICONTROL Payment Applicable From] | 網站 | 決定適用的國家/地區選取範圍。 選項：所有允許的國家/地區/特定國家 |
 | [!UICONTROL Countries Payment Applicable From] | 網站 | 識別接受付款的每個國家/地區。 只有帳單地址在選定國家/地區的客戶才能使用此付款方式進行購買。 |
-| [!UICONTROL Debug Mode] | 網站 | 在記錄檔中記錄與付款系統的通訊。 選項： `Yes` / `No` <br/><br/>**_注意：_**記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
+| [!UICONTROL Debug Mode] | 網站 | 在記錄檔中記錄與付款系統的通訊。 選項： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
 | [!UICONTROL Enable SSL Verification] | 網站 | 啟用驗證步驟，以確保透過加密的SSL通道進行交易。 選項： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 啟用後，會在您的PayPal付款頁面上顯示購物車的明細專案摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 網站 | 啟用後，客戶可以從其客戶帳戶的儀表板啟動帳單協定。 |
@@ -148,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL PayPal Product Logo] | 存放區檢視 | 決定出現在您商店中的PayPal標誌。 有兩種大小的4種基本樣式。 選項： `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | 存放區檢視 | 決定您的PayPal商家頁面外觀。 允許的值： **`paypal`** — 使用PayPal頁面樣式。 <br/>**`primary`**— 使用您在帳戶設定檔中識別為「主要」樣式的頁面樣式。<br/>**`your_custom_value`** — 使用帳戶設定檔中指定的自訂付款頁面樣式。 |
-| [!UICONTROL Header Image URL] | 存放區檢視 | 顯示在結帳頁面左上角的影像URL。 大小上限為750 x 90畫素。 <br/><br/>**_注意：_**PayPal建議將影像儲存在安全(https)伺服器上。 否則，客戶的瀏覽器可能會警告「頁面包含安全及不安全的專案」。 |
+| [!UICONTROL Header Image URL] | 存放區檢視 | 顯示在結帳頁面左上角的影像URL。 大小上限為750 x 90畫素。 <br/><br/>**_注意：_**&#x200B;PayPal建議將影像儲存在安全(https)伺服器上。 否則，客戶的瀏覽器可能會警告「頁面包含安全及不安全的專案」。 |
 | [!UICONTROL Header Image Background Color] | 存放區檢視 | 結帳頁面上頁首的背景顏色的六字元[十六進位色彩](https://en.wikipedia.org/wiki/Web_colors)代碼。 您可以用大寫和小寫字元輸入代碼。 |
 | [!UICONTROL Header Image Border Color] | 存放區檢視 | 標頭周圍雙畫素框線的六字元[十六進位色彩](https://en.wikipedia.org/wiki/Web_colors)代碼。 |
 | [!UICONTROL Page Background Color] | 存放區檢視 | 出現在頁首與付款表單後方的結帳頁面背景顏色的六字元[十六進位色彩](https://en.wikipedia.org/wiki/Web_colors)代碼。 |

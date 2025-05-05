@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Sources]
 
-產品設定的&#x200B;_[!UICONTROL Sources]_區段會列出可分發產品的來源。 它可用來指定與取消指定來源，以及管理產品的數量與可用性。 只有在您商店定義了一個以上的來源時，才會顯示此區段。 如需有關來源的詳細資訊，請參閱[管理來源](../inventory-management/sources-manage.md)。
+產品設定的&#x200B;_[!UICONTROL Sources]_&#x200B;區段會列出可分發產品的來源。 它可用來指定與取消指定來源，以及管理產品的數量與可用性。 只有在您商店定義了一個以上的來源時，才會顯示此區段。 如需有關來源的詳細資訊，請參閱[管理來源](../inventory-management/sources-manage.md)。
 
 ## 指派產品的來源
 

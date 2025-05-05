@@ -23,7 +23,7 @@ Adobe Commerce和Magento Open Source會定期執行指令碼，依排程執行�
 
 >[!IMPORTANT]
 >
->Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)中的[指示。
+>Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)中的指示。
 
 此外，您可以將下列設定為根據cron排程執行：
 

@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Buyers and sellers use Quotes to manage the negotiation process for an order–adding items, updating quantities, requesting and applying discounts, and so on—until they reach agreement. The quote negotiation process can be initiated by an authorized company buyer, or by a company sales representative.
 
-在Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中![報價清單檢視
+在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中報價清單檢視
 
-建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 [](../getting-started/admin-workspace.md)
+建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 [&#128279;](../getting-started/admin-workspace.md)
 
-- [](quote-price-negotiation.md)When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
+- [&#128279;](quote-price-negotiation.md)When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
 
 - In the Admin, Sales representatives can create quotes on behalf of company buyer. When creating the quote, a seller can save the quote as a draft, or submit it directly to the buyer to initiate the negotiation process.
 
@@ -97,9 +97,9 @@ Quote status provides information about the current state of the quote in the qu
 
 ## B2B role resources for store quotes
 
-[](../systems/permissions-user-roles.md#role-resources)These role resources must be set for the Admin user role that is assigned to the store administrator.
+[&#128279;](../systems/permissions-user-roles.md#role-resources)These role resources must be set for the Admin user role that is assigned to the store administrator.
 
-**[!UICONTROL System]**_[!UICONTROL Permissions]_**[!UICONTROL User Roles]**[!UICONTROL Sales][!UICONTROL Operations][!UICONTROL Quotes]__
+**[!UICONTROL System]**&#x200B;_[!UICONTROL Permissions]_&#x200B;**[!UICONTROL User Roles]**&#x200B;[!UICONTROL Sales][!UICONTROL Operations][!UICONTROL Quotes]__
 
 ![](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
@@ -109,7 +109,7 @@ Quote status provides information about the current state of the quote in the qu
 
 ![](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. __**[!UICONTROL Sales]****[!UICONTROL Quotes]**
+1. __&#x200B;**[!UICONTROL Sales]**&#x200B;**[!UICONTROL Quotes]**
 
 1. In the first column of the grid, select the checkbox for each record that you want to apply the action to.
 
@@ -117,9 +117,9 @@ Quote status provides information about the current state of the quote in the qu
 
 ### View a quote
 
-1. **[!UICONTROL Actions]****[!UICONTROL View]**
+1. **[!UICONTROL Actions]**&#x200B;**[!UICONTROL View]**
 
-1. [](quote-price-negotiation.md)
+1. [&#128279;](quote-price-negotiation.md)
 
 ### View quote activity
 
@@ -127,7 +127,7 @@ Quote status provides information about the current state of the quote in the qu
 
 1. Open a quote.
 
-1. **[!UICONTROL Negotiation]****[!UICONTROL Comments]****[!UICONTROL History Log]**
+1. **[!UICONTROL Negotiation]**&#x200B;**[!UICONTROL Comments]**&#x200B;**[!UICONTROL History Log]**
 
    ![](./assets/quote-view-history.png){width="400"}
 
@@ -142,7 +142,7 @@ Quote status provides information about the current state of the quote in the qu
 
 1. 選取您想要拒絕的每個未結報價請求。
 
-1. 將&#x200B;_[!UICONTROL Actions]_控制項設為`Declined`。
+1. 將&#x200B;_[!UICONTROL Actions]_&#x200B;控制項設為`Declined`。
 
 1. 出現提示時，輸入報價遭拒絕的原因，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 

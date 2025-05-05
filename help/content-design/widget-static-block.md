@@ -27,7 +27,7 @@ _CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks
 
    ![Widget設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -43,7 +43,7 @@ _CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks
 
 ## 步驟2：完成Widget配置更新
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示區塊的類別、產品或頁面。
 

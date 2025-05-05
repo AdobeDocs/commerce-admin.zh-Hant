@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**。
 
-1. 在編輯模式中開啟庫存，並導覽至&#x200B;_[!UICONTROL Sources]_區域。
+1. 在編輯模式中開啟庫存，並導覽至&#x200B;_[!UICONTROL Sources]_&#x200B;區域。
 
 1. 按一下&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_檢視中，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**將來源指派給庫存。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;檢視中，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**&#x200B;將來源指派給庫存。
 
 >[!NOTE]
 >

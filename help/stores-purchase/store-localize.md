@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_區段中，輸入每個商店檢視的轉譯標籤。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;區段中，輸入每個商店檢視的轉譯標籤。
 
    ![輸入翻譯的標籤](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 如需&#x200B;_基本資訊_，請翻譯&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_區段並翻譯&#x200B;**[!UICONTROL Description]**。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;區段並翻譯&#x200B;**[!UICONTROL Description]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;區段並翻譯下列欄位：
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除欄位右側的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;核取方塊。
 

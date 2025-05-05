@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 新增個別索引標籤
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Tabs]**預留位置直接拖曳至舞台或舞台上的列或欄。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
 
    ![將索引標籤拖曳到列](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 
   下列範例中的列的邊框半徑為15。
 
-  邊框半徑為15](./assets/pb-settings-border-radius-15.png){width="500"}的![列
+  邊框半徑為15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的列
 
 - （選擇性）從目前的樣式表中指定要套用至欄容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;名稱。
 

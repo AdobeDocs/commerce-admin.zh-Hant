@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 產品清單
 
-目錄中的所有產品都可從「管理員」的&#x200B;_[!UICONTROL Products]_頁面存取，您可在此建立產品並編輯現有產品。 針對多網站安裝，每個網站都可從相同目錄提供不同產品選項，以供銷售。
+目錄中的所有產品都可從「管理員」的&#x200B;_[!UICONTROL Products]_&#x200B;頁面存取，您可在此建立產品並編輯現有產品。 針對多網站安裝，每個網站都可從相同目錄提供不同產品選項，以供銷售。
 
-_[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用的網站，以及是否目前啟用銷售這些產品。 在啟用[共用目錄](../b2b/catalog-shared.md)的Adobe Commerce B2B安裝中，網格包含一欄，指出哪些產品在共用目錄中具有替代折扣定價。
+_[!UICONTROL Products]_&#x200B;清單包含目錄中的所有產品、指出可供使用的網站，以及是否目前啟用銷售這些產品。 在啟用[共用目錄](../b2b/catalog-shared.md)的Adobe Commerce B2B安裝中，網格包含一欄，指出哪些產品在共用目錄中具有替代折扣定價。
 
 您可以逐頁瀏覽清單頁面，或搜尋特定產品。 使用標準[控制項](../getting-started/admin-grid-controls.md)來排序及篩選清單，並將[動作](../getting-started/admin-actions-control.md)套用至選取的產品。
 
@@ -34,7 +34,7 @@ _[!UICONTROL Products]_清單包含目錄中的所有產品、指出可供使用
 
 >[!NOTE]
 >
->如果您不希望產品格線受到限制，請更精確地使用篩選器，以產生專案數少於&#x200B;_[!UICONTROL Records Limit]_欄位中所指定數目的集合。
+>如果您不希望產品格線受到限制，請更精確地使用篩選器，以產生專案數少於&#x200B;_[!UICONTROL Records Limit]_&#x200B;欄位中所指定數目的集合。
 
 **_若要設定產品顯示限制：_**
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->透過在Admin的[!UICONTROL Attribute Edit]頁面上將&#x200B;_[!UICONTROL Update Product Preview Image]_選項值設定為`No`，可將色票屬性設定為選取色票時，不顯示對應的簡單產品影像。
+>透過在Admin的[!UICONTROL Attribute Edit]頁面上將&#x200B;_[!UICONTROL Update Product Preview Image]_&#x200B;選項值設定為`No`，可將色票屬性設定為選取色票時，不顯示對應的簡單產品影像。
 
 ## 文字色票
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 分層導覽中的色票
 
-如果color屬性的&#x200B;_[!UICONTROL Use in Layered Navigation]_屬性設定為`Yes`，則也可以在階層導覽中使用色票。 下列範例顯示分層導覽中的文字和彩色影像色票。
+如果color屬性的&#x200B;_[!UICONTROL Use in Layered Navigation]_&#x200B;屬性設定為`Yes`，則也可以在階層導覽中使用色票。 下列範例顯示分層導覽中的文字和彩色影像色票。
 
 ![色票以分層導覽方式顯示](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 若您偏好在產品顯示頁面上選取色票時，不顯示對應的簡單產品影像，請將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;設為`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_下，按一下&#x200B;**[!UICONTROL Add Swatch]**並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;下，按一下&#x200B;**[!UICONTROL Add Swatch]**&#x200B;並執行下列動作：
 
    ![管理色票值](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ ht-degree: 0%
 
 1. 若您偏好在產品顯示頁面上選取色票時，不顯示對應的簡單產品影像，請將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;設為`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch]_（您屬性的值）底下，按一下&#x200B;**[!UICONTROL Add Swatch]**並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch]_（您屬性的值）底下，按一下&#x200B;**[!UICONTROL Add Swatch]**&#x200B;並執行下列動作：
 
-   - 在&#x200B;_[!UICONTROL Swatch]_欄中，按一下新色票以顯示功能表並選擇&#x200B;**[!UICONTROL Upload a file]**。
+   - 在&#x200B;_[!UICONTROL Swatch]_&#x200B;欄中，按一下新色票以顯示功能表並選擇&#x200B;**[!UICONTROL Upload a file]**。
 
    - 導覽至您準備的色票檔案，然後選擇要上傳的檔案。
 

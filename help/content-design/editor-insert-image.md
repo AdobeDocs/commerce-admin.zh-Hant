@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 移至&#x200B;_[!UICONTROL Content]_區段，然後按一下任何支援編輯器的元素。
+1. 移至&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下任何支援編輯器的元素。
 
 1. 將游標放在您要顯示影像的位置。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    ![插入影像圖示](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊。
 
 1. 若為&#x200B;**Source**，請按一下&#x200B;_搜尋_&#x200B;圖示，並使用符合您要使用之影像資產位置的方法：
 

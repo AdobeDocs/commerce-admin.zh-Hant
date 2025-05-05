@@ -49,8 +49,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
 | [!UICONTROL Web Site] | 使用此選項可依據針對規則定義的網站來篩選清單。 |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示「_[!UICONTROL Rule Information]_」頁面並更新規則設定（類似於建立規則）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），依據建立規則時所定義的規則結束日期來篩選清單。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），依據建立規則時所定義的規則結束日期來篩選清單。 |
 
 {style="table-layout:auto"}
 

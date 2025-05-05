@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 設定儀表板
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**並完成下列任何設定。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;並完成下列任何設定。
 
 1. 組態完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 

@@ -39,7 +39,7 @@ _銷退折讓單_&#x200B;是一份檔案，會顯示客戶應支付的全部或�
 
 1. **產生商業發票** - [建立訂單的商業發票](invoices.md#create-an-invoice)，以便透過銷退折讓單將退款傳送給客戶。
 
-1. **建立銷退折讓單** - [在管理員中針對[銷退折讓購買](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或[支票或匯票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)發出銷退折讓單](credit-memo-create.md)。
+1. **建立銷退折讓單** - [&#128279;](credit-memo-create.md)在管理員中針對[銷退折讓購買](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)或[支票或匯票](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order)發出銷退折讓單。
 
 ## 欄說明
 

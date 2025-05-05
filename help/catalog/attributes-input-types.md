@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | 單行文字輸入欄位。 |
 | [!UICONTROL Text Area] | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器將文字格式化為HTML標籤，或直接在文字中輸入標籤。 |
 | [!UICONTROL Text Editor] | 屬性位置的完整文字編輯器。 |
-| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
+| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**&#x200B;根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
 | [!UICONTROL Date and Time] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期和時間值。 日期與時間可以手動輸入，或從行事曆中選取。 範例格式： MM/DD/YYYY HH：MM |
 | [!UICONTROL Yes/No] | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
 | 下拉式清單 | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |

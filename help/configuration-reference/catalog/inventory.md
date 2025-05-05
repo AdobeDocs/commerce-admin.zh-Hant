@@ -69,8 +69,8 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | 全域 | 決定您是否以非同步方式執行大量產品動作，包括[批次](../../inventory-management/bulk-assignment.md)指派來源、取消指派來源，以及[將存貨轉移至來源](../../inventory-management/inventory-transfer.md)。 它會收集最多&#x200B;_[!UICONTROL Asynchronous batch size]_個大量動作，然後執行這些動作。 此功能預設為停用。 我們建議您在啟用前先檢閱大量動作的效能。 選項：<br/>**`Yes`**— 非同步執行[!DNL Inventory Management]的所有大量作業。 若要啟用，您必須設定非同步佇列管理員。<br/>**`No`**— 預設。 不會以非同步方式執行大量作業。 |
-| [!UICONTROL Asynchronous batch size] | 全域 | 將&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;設為`Yes`以輸入&#x200B;_[!UICONTROL Asynchronous batch size]_欄位的值。 <br/>預設批次大小為100。 當大量程式達到此數量時，就會執行。 |
+| [!UICONTROL Run asynchronously] | 全域 | 決定您是否以非同步方式執行大量產品動作，包括[批次](../../inventory-management/bulk-assignment.md)指派來源、取消指派來源，以及[將存貨轉移至來源](../../inventory-management/inventory-transfer.md)。 它會收集最多&#x200B;_[!UICONTROL Asynchronous batch size]_&#x200B;個大量動作，然後執行這些動作。 此功能預設為停用。 我們建議您在啟用前先檢閱大量動作的效能。 選項：<br/>**`Yes`**— 非同步執行[!DNL Inventory Management]的所有大量作業。 若要啟用，您必須設定非同步佇列管理員。<br/>**`No`**— 預設。 不會以非同步方式執行大量作業。 |
+| [!UICONTROL Asynchronous batch size] | 全域 | 將&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;設為`Yes`以輸入&#x200B;_[!UICONTROL Asynchronous batch size]_&#x200B;欄位的值。 <br/>預設批次大小為100。 當大量程式達到此數量時，就會執行。 |
 
 {style="table-layout:auto"}
 

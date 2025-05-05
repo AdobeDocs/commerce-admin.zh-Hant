@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 將動態區塊與價格規則產生關聯
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_並選擇下列其中一項：
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;並選擇下列其中一項：
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

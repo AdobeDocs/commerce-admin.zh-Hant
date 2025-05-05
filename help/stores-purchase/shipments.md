@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 出貨
 
-_[!UICONTROL Shipments]_方格列出已準備出貨的所有商業發票的出貨記錄。 當訂單為[開立商業發票](invoices.md)或更新版本時，便可以產生出貨記錄。
+_[!UICONTROL Shipments]_&#x200B;方格列出已準備出貨的所有商業發票的出貨記錄。 當訂單為[開立商業發票](invoices.md)或更新版本時，便可以產生出貨記錄。
 
 Adobe Commerce和Magento Open Source支援部分及完整訂單出貨，並可從[Inventory management](../inventory-management/introduction.md)和協力廠商擴充功能取得其他選項。
 
@@ -77,7 +77,7 @@ Adobe Commerce和Magento Open Source支援部分及完整訂單出貨，並可�
 
 1. 按一下&#x200B;**[!UICONTROL Ship]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_區塊並按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;區塊並按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
 
 1. 設定&#x200B;**[!UICONTROL Carrier]**：
 
@@ -98,7 +98,7 @@ Adobe Commerce和Magento Open Source支援部分及完整訂單出貨，並可�
 
 1. 在編輯模式中尋找並開啟出貨。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_區塊。
+1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;區塊。
 
 1. 選取&#x200B;**[!UICONTROL Carrier]**。
 
@@ -134,7 +134,7 @@ Adobe Commerce和Magento Open Source支援部分及完整訂單出貨，並可�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Sales]_下，選取&#x200B;**[!UICONTROL Sales Email]**。
+1. 在&#x200B;_[!UICONTROL Sales]_&#x200B;下，選取&#x200B;**[!UICONTROL Sales Email]**。
 
 1. 展開&#x200B;**出貨備註**&#x200B;區段，並視需要修改設定：
 
@@ -166,7 +166,7 @@ Adobe Commerce和Magento Open Source支援部分及完整訂單出貨，並可�
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Shipments]**。
 
-   如果可以取消出貨，_[!UICONTROL Cancel Shipment]_會在頂端按鈕列顯示為選項。
+   如果可以取消出貨，_[!UICONTROL Cancel Shipment]_&#x200B;會在頂端按鈕列顯示為選項。
 
 1. 按一下&#x200B;**[!UICONTROL Cancel Shipment]**。
 

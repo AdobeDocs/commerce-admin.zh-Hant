@@ -31,7 +31,7 @@ ht-degree: 0%
    >
    >如果訪客登入已註冊的使用者帳戶，他們可以導覽至「_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**」以建立公司帳戶。
 
-1. 在&#x200B;_[!UICONTROL Company Information]_區段中，客戶執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Information]_&#x200B;區段中，客戶執行下列動作：
 
    - 完成必填欄位：
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ![公司資訊](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. 完成&#x200B;_[!UICONTROL Legal Address]_區段中的必填欄位。
+1. 完成&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中的必填欄位。
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City]**
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![合法地址](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Administrator]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Administrator]_&#x200B;區段中，執行下列動作：
 
    - 輸入公司管理員的&#x200B;**[!UICONTROL Email address]**。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    - 如果適用，請選擇要管理帳戶的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理員帳戶。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;區段中，執行下列動作：
 
    - 視情況填入下列欄位：
 
@@ -116,16 +116,16 @@ ht-degree: 0%
 
    ![帳戶資訊](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 初次建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_格線時它是空的。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
+1. 初次建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;格線時它是空的。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
 
-1. 在&#x200B;_[!UICONTROL Legal Address]_區段中，完成下列必填欄位：
+1. 在&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中，完成下列必填欄位：
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City Country]**
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
-1. 在&#x200B;_[!UICONTROL Company Admin]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Admin]_&#x200B;區段中，執行下列動作：
 
    - 填入下列必填欄位：
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    ![公司管理員](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Credit]_區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
+1. 在&#x200B;_[!UICONTROL Company Credit]_&#x200B;區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
 
    - **[!UICONTROL Credit Currency]**
    - **[!UICONTROL Credit Limit]**
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    ![公司點數](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Advanced Settings]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Advanced Settings]_&#x200B;區段中，執行下列動作：
 
    >[!NOTE]
    >
@@ -176,7 +176,7 @@ ht-degree: 0%
 
      | 選項 | 說明 |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | （預設）為B2B訂單啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有[付款方法。 |
+     | `B2B Payment Methods` | （預設）為B2B訂單啟用設定為預設[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有付款方法。 |
      | `All Enabled Payment Methods` | 讓所有[啟用的付款方法](../configuration-reference/sales/payment-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
      | `Selected Payment Methods` | 可讓您選取與公司帳戶相關聯之客戶帳戶的可用付款方法。 若要選取多種付款方式，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
      | 選項 | 說明 |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | （預設）針對B2B訂單，啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有[送貨方法。 |
+     | `B2B Shipping Methods` | （預設）針對B2B訂單，啟用設定為預設[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有送貨方法。 |
      | `All Enabled Shipping Methods` | 讓所有[啟用的送貨方法](../configuration-reference/sales/delivery-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
      | `Selected Shipping Methods` | 可讓您選取與公司帳戶相關聯之客戶帳戶可用的送貨方法。 若要選取多種送貨方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 

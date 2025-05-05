@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Import]**。
 
-   更新的費率會顯示在&#x200B;_[!UICONTROL Currency Rates]_清單中。 如果匯率自上次更新後已變更，則舊匯率會顯示在下方以供參考。
+   更新的費率會顯示在&#x200B;_[!UICONTROL Currency Rates]_&#x200B;清單中。 如果匯率自上次更新後已變更，則舊匯率會顯示在下方以供參考。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Currency Rates]**。
 
@@ -54,6 +54,6 @@ ht-degree: 0%
 
 1. 若要指定您接受的貨幣並建立匯入連線與排程，請完成[貨幣匯率設定](currency-configuration.md)。
 
-1. 若要確認費率已依排程匯入，請檢查&#x200B;_[!UICONTROL Currency Rates]_清單。
+1. 若要確認費率已依排程匯入，請檢查&#x200B;_[!UICONTROL Currency Rates]_&#x200B;清單。
 
 1. 等候為排程建立的頻率設定的時間週期，然後再次檢查速率。

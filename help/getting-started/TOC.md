@@ -23,7 +23,7 @@ ht-degree: 1%
    + [共用您的帳戶](commerce-account-share.md)
    + [轉移帳戶](commerce-account-transfer.md)
 + 網站規範遵循{#compliance}
-   + Adobe Commerce{#hipaa-ready-service}上的HIPAA整備
+   + Adobe Commerce上的HIPAA整備{#hipaa-ready-service}
       + [概觀](hipaa/overview.md)
       + [作業指引](hipaa/operations.md)
    + 隱私權{#privacy}

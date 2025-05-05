@@ -16,7 +16,7 @@ ht-degree: 0%
 
 以客戶身分登入時執行的任何動作會套用至實際客戶的帳戶。
 
-為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_按鈕會出現在多個頁面中：
+為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_&#x200B;按鈕會出現在多個頁面中：
 
 * [客戶編輯頁面](../customers/update-account.md)
 * [訂單檢視頁面](../stores-purchase/order-processing.md)
@@ -116,7 +116,7 @@ _以客戶身分登入_&#x200B;可讓您檢視網站，就像客戶一樣，並�
 
 >[!WARNING]
 >
->以客戶&#x200B;_]身分登入[!UICONTROL _&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
+>以客戶&#x200B;_身分登入_&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
 
 ## 以客戶記錄身分登入
 

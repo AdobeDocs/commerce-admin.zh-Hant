@@ -14,7 +14,7 @@ ht-degree: 0%
 
 標題層級會建立組織內容的階層，並協助搜尋引擎為每個頁面編制索引。 使用[[!DNL Page Builder] 階段](workspace.md#stage)中的&#x200B;_標題_&#x200B;內容型別，將標題層級從H1到H6的文字容器加入階段。 標題會根據與目前主題關聯的樣式表來格式化。
 
-_[!UICONTROL Content]_區段中的[內容標題](workspace.md)欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
+_[!UICONTROL Content]_&#x200B;區段中的[內容標題](workspace.md)欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
 
 下列範例說明當使用Luma主題進行格式化時，內容標題和標題內容型別的顯示方式。
 
@@ -74,7 +74,7 @@ _[!UICONTROL Content]_區段中的[內容標題](workspace.md)欄位可用來新
 
    您也可以在標題編輯器中更新此內容。
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
    - 若要控制標題在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

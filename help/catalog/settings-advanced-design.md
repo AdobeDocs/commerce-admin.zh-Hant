@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Design]
 
-_[!UICONTROL Design]_設定允許將不同的主題套用至產品頁面、變更欄配置、決定產品選項出現的位置，以及輸入自訂XML程式碼。
+_[!UICONTROL Design]_&#x200B;設定允許將不同的主題套用至產品頁面、變更欄配置、決定產品選項出現的位置，以及輸入自訂XML程式碼。
 
 ![設計](./assets/product-design-ee.png){width="600" zoomable="yes"}
 

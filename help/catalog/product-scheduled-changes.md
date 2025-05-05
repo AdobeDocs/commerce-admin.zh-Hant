@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![排程為新更新](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. 向下捲動至&#x200B;_[!UICONTROL Price]_並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Price]_&#x200B;並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在排定的行銷活動期間輸入產品的&#x200B;**[!UICONTROL Special Price]**，然後按一下&#x200B;**[!UICONTROL Done]**。
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 編輯排定的變更
 
-1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
+1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 進行排程更新所需的任何變更。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 移除排定的變更
 
-1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
+1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL View/Edit]**。
 
 1. 按一下頂端列上的&#x200B;**[!UICONTROL Remove from Update]**。
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Schedule Design Update]_區段可讓您暫時變更產品頁面的外觀。 您可以為季節、促銷活動排程設計變更，或只是為了更新內容。 設計變更可以預先排程，以便按照您定義的排程生效，或_&#x200B;滴水&#x200B;_。
+_[!UICONTROL Schedule Design Update]_&#x200B;區段可讓您暫時變更產品頁面的外觀。 您可以為季節、促銷活動排程設計變更，或只是為了更新內容。 設計變更可以預先排程，以便按照您定義的排程生效，或_&#x200B;滴水&#x200B;_。
 
 ![排程的設計更新](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

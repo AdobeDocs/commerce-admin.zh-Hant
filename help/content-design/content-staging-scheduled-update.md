@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## 排程產品的更新
 
-1. 從&#x200B;_[!UICONTROL Products]_格線中，以編輯模式開啟產品。
+1. 從&#x200B;_[!UICONTROL Products]_&#x200B;格線中，以編輯模式開啟產品。
 
-1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
+1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
 
    ![排程新的更新](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
      >
      >行銷活動的開始日期和結束日期必須使用&#x200B;**_預設值_**&#x200B;管理時區來定義，該時區會從每個網站的當地時區轉換。 例如，如果您有多個網站位在不同時區，但您想要根據美國（預設）時區啟動促銷活動，則必須為每個當地時區排程個別的更新。 在此情況下，請將&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;設為從每個本機網站時區轉換為預設管理時區。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Price]_並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Price]_&#x200B;並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在排定的行銷活動期間輸入產品的&#x200B;**[!UICONTROL Special Price]**，然後按一下&#x200B;**[!UICONTROL Done]**。
 

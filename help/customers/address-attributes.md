@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. 若要指派初始值給欄位，請輸入&#x200B;**[!UICONTROL Default Value]**。
 
-1. 若要在儲存記錄之前檢查輸入到欄位中的資料是否準確，請將&#x200B;**[!UICONTROL Input Validation]**&#x200B;設定為允許在該欄位中的資料型別。 可用的值視指定的&#x200B;_[!UICONTROL Input Type]_而定。
+1. 若要在儲存記錄之前檢查輸入到欄位中的資料是否準確，請將&#x200B;**[!UICONTROL Input Validation]**&#x200B;設定為允許在該欄位中的資料型別。 可用的值視指定的&#x200B;_[!UICONTROL Input Type]_&#x200B;而定。
 
    - `None` — 欄位在資料輸入期間沒有輸入驗證。
    - `Alphanumeric` — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 若要包含特殊字元，請參閱下一個步驟中的[!UICONTROL Escape HTML Entities]。
@@ -128,11 +128,11 @@ ht-degree: 0%
 | [!UICONTROL Input Type] | 決定用於資料輸入的[輸入控制項](../catalog/attributes-input-types.md)。 選項： <br/>**`Text Field`**— 單行文字欄位。<br/>**`Text Area`** — 多行文字區域。 <br/>**`Multiple Line`**— 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。<br/>**`Date`** — 使用快顯行事曆顯示日期欄位。<br/>**`Dropdown`**— 僅接受選取一個值的下拉式清單。<br/>**`Multiple Select`** — 接受多個選取值的下拉式清單。 <br/>**`Yes/No`**— 僅提供`Yes`或`No`個值選擇的欄位。<br/>**`File (attachment)`** — 允許檔案上傳並將其與客戶屬性關聯為附件的欄位。 <br/>**`Image File`**— 允許將影像上傳到相簿並與客戶屬性關聯的欄位。 |
 | [!UICONTROL Values Required] | 決定是否必須在欄位中輸入值。 選項： `Yes` / `No` |
 | [!UICONTROL Default Value] | 指定屬性的初始值。 |
-| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 <br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者的最大長度要求。 結帳時，客戶可在收件者和寄件者的街道地址中，輸入數字(0-9)、字母字元(a-z、A-Z)和空格的任意組合。 儲存地址時，會裁剪任何額外的空格。<br/>**`Numeric Only`** — 在資料輸入期間只接受數字(0-9)。 <br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>** URL **— 在資料輸入期間只接受URL。<br/>**`Email`** — 在資料輸入期間只接受電子郵件地址。 <br/>**`Length Only`**— 根據輸入欄位的資料長度來驗證輸入。 |
+| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 <br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者的最大長度要求。 結帳時，客戶可在收件者和寄件者的街道地址中，輸入數字(0-9)、字母字元(a-z、A-Z)和空格的任意組合。 儲存地址時，會裁剪任何額外的空格。<br/>**`Numeric Only`** — 在資料輸入期間只接受數字(0-9)。 <br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>**&#x200B; URL &#x200B;**— 在資料輸入期間只接受URL。<br/>**`Email`** — 在資料輸入期間只接受電子郵件地址。 <br/>**`Length Only`**— 根據輸入欄位的資料長度來驗證輸入。 |
 | [!UICONTROL Input/Output Filter] | 在儲存記錄之前，將前置處理篩選套用至在文字欄位、文字區域或多行輸入型別中輸入的值。 選項： <br/>**`None`**— 不會將篩選器套用至輸入欄位的文字。<br/>**`Strip HTML Tags`** — 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。 <br/>**`Escape HTML Entities`**— 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`amp;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體製作者的智慧型引號、版權符號和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
 | [!UICONTROL Add to Column Options] | 指定屬性是否包含在[客戶](./customers-all.md)格線中。 選項： `Yes` / `No` |
 | 在篩選選項中使用 | 指定屬性是否可用作網格搜尋作業的篩選。 選項： `Yes` / `No` |
-| [!UICONTROL Grid Filter Condition Type] | 指定從格線搜尋作業中屬性的篩選比對條件。 它不會影響格線的&#x200B;_[!UICONTROL Search by keyword]_欄位。 選項： `Partial Match` / `Prefix Match` / `Full Match` |
+| [!UICONTROL Grid Filter Condition Type] | 指定從格線搜尋作業中屬性的篩選比對條件。 它不會影響格線的&#x200B;_[!UICONTROL Search by keyword]_&#x200B;欄位。 選項： `Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | 指定屬性值是否可以在搜尋作業中作為關鍵字。 選項： `Yes` / `No` |
 | [!UICONTROL Use in Customer Segment] | 決定屬性是否包含在[客戶區段](./customer-segments.md)條件中。 選項： `Yes` / `No` |
 

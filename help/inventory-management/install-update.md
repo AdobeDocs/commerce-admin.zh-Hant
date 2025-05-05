@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 啟用[!DNL Inventory Management]功能
 
-安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
+安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
 
 如需設定的詳細資訊，請參閱[設定Inventory management](configuration.md)。
 

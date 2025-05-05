@@ -49,7 +49,7 @@ Adobe Commerce和Adobe Experience Manager (AEM)皆提供內建功能，可簡化
 - 啟用 Adobe Systems Commerce 和 AEM Assets 之間的適當同步
 - 在遷移后維護資產和產品之間的關係
 
-對於您計畫移轉的每個媒體檔案，請為Commerce資產](aem-assets-configure-aem.md)的[AEM Assets中繼資料設定檔中包含的中繼資料欄位提供值，如下表所述。
+對於您計畫移轉的每個媒體檔案，請為Commerce資產[&#128279;](aem-assets-configure-aem.md)的AEM Assets中繼資料設定檔中包含的中繼資料欄位提供值，如下表所述。
 
 | 中繼資料 | 說明 | 值 |
 |-------|-------------|--------|
@@ -59,7 +59,7 @@ Adobe Commerce和Adobe Experience Manager (AEM)皆提供內建功能，可簡化
 | commerce：positions | 資產在產品相簿中的位置/順序 | 數值（例如「1」） |
 | commerce：isCommerce | 表示資產是否用於商業的旗標 | `Yes` |
 | commerce：sku | 與此資產相關聯的產品SKU | 字串值 （例如 `sample1`） |
-| 商務：角色 | 資產的角色或影像類型 （例如、`thumbnail``main image`、`swatch`） | 以分號隔開的多個值 （例如 “thumbnail;圖像;色票_image;small_image”） |
+| 商務：角色 | 資產的角色或影像類型 （例如、`thumbnail` `main image`、`swatch`） | 以分號隔開的多個值 （例如 “thumbnail;圖像;色票_image;small_image”） |
 
 +++CSV程式碼
 

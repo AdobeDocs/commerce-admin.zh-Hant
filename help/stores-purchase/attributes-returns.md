@@ -63,7 +63,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 若要讓客戶看到屬性，請在&#x200B;_[!UICONTROL Storefront Properties]_區段中將&#x200B;**[!UICONTROL Show on Storefront]**設為`Yes`。
+1. 若要讓客戶看到屬性，請在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中將&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;設為`Yes`。
 
 1. （選擇性）為&#x200B;**[!UICONTROL Sort Order]**&#x200B;輸入數字，以決定此屬性在頁面的相同部分中相對於其他屬性的顯示位置。 （`0` =第一個，`1` =第二個，`2` =第三個，依此類推。）
 

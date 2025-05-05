@@ -40,4 +40,4 @@ ht-degree: 0%
 
 1. 在記錄中找到所需的動作。
 
-1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL Details]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Details]**。

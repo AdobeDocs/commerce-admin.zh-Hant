@@ -15,7 +15,7 @@ _區塊_&#x200B;是模組化的內容單位，可在頁面上放置於最顯眼�
 
 您可以在不撰寫任何程式碼的情況下建立自訂內容區塊，並將其指派給顯示在頁面配置中的特定位置。 可以使用[Widget](widget-static-block.md)工具或以XML構成[配置更新](layout-updates.md)並將其儲存在伺服器上，來定位區塊。 如需有關使用配置更新的詳細資訊，請參閱&#x200B;_前端開發人員指南_&#x200B;中的[配置][1]資訊。
 
-範例店面首頁](./assets/storefront-blocks-home-page.png){width="600" zoomable="yes"}上的![個區塊
+範例店面首頁![&#128279;](./assets/storefront-blocks-home-page.png){width="600" zoomable="yes"}上的個區塊
 
 ## 靜態和動態區塊示範
 

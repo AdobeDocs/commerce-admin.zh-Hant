@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![購物車價格規則 — 目標客戶區段](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**若要將區段與購物車價格規則建立關聯：**_
+_&#x200B;**若要將區段與購物車價格規則建立關聯：**&#x200B;_
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _促銷活動_ > **[!UICONTROL Cart Price Rules]**。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 屬性 | 說明 |
 |--- |--- |
-| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**超過64個字元的SKU會導致匯入失敗。 |
+| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
 | `store_view_code` | 識別可使用產品的特定商店檢視。 如果留空，則可在預設商店檢視中取得產品。 例如： `storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 根據產品型別，將產品指派給特定的屬性集或產品範本。 例如： `default`<br><br>建立產品後，無法使用匯入功能變更屬性集。 不過，您可以從管理員變更屬性集，然後重新匯出產品以更新CSV檔案。 |
 | `product_type` | 表示產品型別。 值： <br/>`simple` — 有形專案，通常以單一單位或固定數量銷售。<br/>`grouped` — 一組作為一組產品銷售的個別產品。<br/>`configurable` — 包含多個選項的產品，客戶在購買之前必須先選取這些選項。 您可以為每組變數管理詳細目錄，因為它們代表具有不同SKU的獨立產品。 例如，可設定產品的顏色和大小組合與目錄中的特定SKU相關聯。<br/>`virtual` — 不需要出貨且未保留在庫存中的無形產品。 範例包括服務、成員資格和訂閱。<br/>`bundle` — 可自訂的產品集，包含一起銷售的簡單產品。 |
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 | 屬性 | 說明 |
 |--- |--- |
-| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**超過64個字元的SKU會導致匯入失敗。 |
+| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
 | `tier_price_website` | [網站程式碼](../stores-purchase/stores.md#add-websites)會識別每個可使用層級定價的網站。 例如： `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | 識別有階層定價可用的[客戶群組](../customers/customer-groups.md)。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 識別可使用層級定價的客戶群組。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |

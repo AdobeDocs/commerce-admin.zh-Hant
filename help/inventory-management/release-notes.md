@@ -126,11 +126,11 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)超過10,000個專案的存貨存貨管理已改善。 以前，績效問題有時會阻止商家在啟動其網站之前編輯管理員中的庫存。<!--- MC-42643-->
 
-![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_&#x200B;區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修正問題](../assets/fix.svg) API更新銷退折讓單後，Adobe Commerce不再建立重複的產品預訂。<!--- MC-41757-->
 
-![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_標籤切換至_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
+![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;標籤切換至&#x200B;_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
 
 ![已修正問題](../assets/fix.svg)可銷售產品數量與庫存產品數量現在已正確同步。 以前，系統不會為取消的訂單重新建立存貨預留補償。<!--- MC-42485-->
 

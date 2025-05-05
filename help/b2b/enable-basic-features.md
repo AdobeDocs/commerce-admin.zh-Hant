@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Enable B2B features
 
-By default, all B2B features are initially disabled. A store admin can enable or disable the B2B features as needed for Commerce stores. [](../configuration-reference/general/b2b-features.md)
+By default, all B2B features are initially disabled. A store admin can enable or disable the B2B features as needed for Commerce stores. [&#128279;](../configuration-reference/general/b2b-features.md)
 
 When you enable support for customer companies, additional B2B features are enabled automatically:
 
@@ -45,7 +45,7 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
    **[!UICONTROL Store View]**
 
-1. _[!UICONTROL General]_**[!UICONTROL B2B Features]**
+1. _[!UICONTROL General]_&#x200B;**[!UICONTROL B2B Features]**
 
    ![](./assets/b2b-features.png){width="600"}
 
@@ -59,7 +59,7 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
    - **[!UICONTROL Enable Requisition List]**`Yes`
 
-     [](configure-requisition-lists.md)
+     [&#128279;](configure-requisition-lists.md)
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
@@ -75,7 +75,7 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
      **[!UICONTROL Payment Methods]**
 
-   [](../configuration-reference/sales/payment-methods.md)In addition to the standard payment methods, the list also includes the following:
+   [&#128279;](../configuration-reference/sales/payment-methods.md)In addition to the standard payment methods, the list also includes the following:
 
    - No Payment Information is Required
    - [分期付款](#configure-payment-on-account)
@@ -101,13 +101,13 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 ## 設定公司電子郵件選項
 
-[](account-company-manage.md#assign-a-sales-representative)
+[&#128279;](account-company-manage.md#assign-a-sales-representative)
 
-1. __**[!UICONTROL Stores]**_[!UICONTROL Settings]_**[!UICONTROL Configuration]**
+1. __&#x200B;**[!UICONTROL Stores]**&#x200B;_[!UICONTROL Settings]_&#x200B;**[!UICONTROL Configuration]**
 
-1. **[!UICONTROL Customers]****[!UICONTROL Company Configuration]**
+1. **[!UICONTROL Customers]**&#x200B;**[!UICONTROL Company Configuration]**
 
-1. **[!UICONTROL Store View]**[](../getting-started/websites-stores-views.md#scope-settings)
+1. **[!UICONTROL Store View]**&#x200B;[&#128279;](../getting-started/websites-stores-views.md#scope-settings)
 
 1. **[!UICONTROL Company Registration]**
 
@@ -146,14 +146,14 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
    - **[!UICONTROL Send Company Status Change Email Copy To]** Separate multiple email addresses with a comma.
 
-   - ****
+   - **&#x200B;**
 
       - `Bcc`__ The BCC recipient is not visible to the customer.
       - `Separate Email`
 
-   - `Pending Approval``Active`**[!UICONTROL Default 'Company Status Change to Active 1' Email]**`Company Status Active 1`
+   - `Pending Approval` `Active`**[!UICONTROL Default 'Company Status Change to Active 1' Email]**`Company Status Active 1`
 
-   - `Rejected``Blocked``Active`**[!UICONTROL Default 'Company Status Change to Active 2' Email]**`Company Status Active 2`
+   - `Rejected` `Blocked` `Active`**[!UICONTROL Default 'Company Status Change to Active 2' Email]**`Company Status Active 2`
 
    - `Rejected`**[!UICONTROL Default 'Company Status Change to Rejected' Email]**`Company Status Rejected`
 
@@ -165,11 +165,11 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 1. 完成&#x200B;**[!UICONTROL Company Credit Emails]**&#x200B;區段：
 
-   - **[!UICONTROL Company Credit Change Email Sender]**[](../getting-started/store-details.md#store-email-addresses)__
+   - **[!UICONTROL Company Credit Change Email Sender]**&#x200B;[&#128279;](../getting-started/store-details.md#store-email-addresses)__
 
    - **[!UICONTROL Send Company Credit Change Email Copy To]** Separate multiple email addresses with a comma.
 
-   - ****
+   - **&#x200B;**
 
       - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
       - `Separate Email`
@@ -190,9 +190,9 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 追蹤訂單處理與採購單的功能，可讓公司管理員控制公司買家的動作。 The order approval functionality is available when the purchase orders feature is enabled by a store administrator.
 
-1. __**[!UICONTROL Stores]**_[!UICONTROL Settings]_**[!UICONTROL Configuration]**
+1. __&#x200B;**[!UICONTROL Stores]**&#x200B;_[!UICONTROL Settings]_&#x200B;**[!UICONTROL Configuration]**
 
-1. **[!UICONTROL General]****[!UICONTROL B2B Features]**
+1. **[!UICONTROL General]**&#x200B;**[!UICONTROL B2B Features]**
 
 1. ![](../assets/icon-display-expand.png)**[!UICONTROL Order Approval Configuration]**
 
@@ -224,11 +224,11 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 ## 設定分期付款
 
-Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. __[](account-company-manage.md)
+Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. __[&#128279;](account-company-manage.md)
 
 >[!NOTE]
 >
->[](../stores-purchase/shipping-settings.md#multiple-addresses)
+>[&#128279;](../stores-purchase/shipping-settings.md#multiple-addresses)
 
 To enable Payment on Account for your store:
 
@@ -255,9 +255,9 @@ To enable Payment on Account for your store:
 1. 將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries`_[!UICONTROL Payment from Specific Countries]_To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   - `Specific Countries`_[!UICONTROL Payment from Specific Countries]_&#x200B;To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-1. **[!UICONTROL Minimum Order Total]****[!UICONTROL Maximum Order Total]**
+1. **[!UICONTROL Minimum Order Total]**&#x200B;**[!UICONTROL Maximum Order Total]**
 
    >[!NOTE]
    >
@@ -265,6 +265,6 @@ To enable Payment on Account for your store:
 
 1. **[!UICONTROL Sort Order]**
 
-   The value is relative to the other payment methods. `0``1``2`
+   The value is relative to the other payment methods. `0` `1` `2`
 
 1. **[!UICONTROL Save Config]**

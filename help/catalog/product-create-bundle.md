@@ -115,7 +115,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
 
-1. 若要將&#x200B;_[!UICONTROL Categories]_指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**方塊並執行下列任一動作：
+1. 若要將&#x200B;_[!UICONTROL Categories]_&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
 
    **選擇現有類別：**
 
@@ -139,9 +139,9 @@ ht-degree: 0%
 
 ## 步驟5：新增束專案
 
-_[!UICONTROL Bundle Items]_區段用於將專案新增至組合產品型別，並編輯目前選擇的專案。
+_[!UICONTROL Bundle Items]_&#x200B;區段用於將專案新增至組合產品型別，並編輯目前選擇的專案。
 
-為產品](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}定義的![套件組合專案
+為產品![&#128279;](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}定義的套件組合專案
 
 1. 向下捲動至&#x200B;_組合專案_&#x200B;區段，並將&#x200B;**[!UICONTROL Ship Bundle Items]**&#x200B;設定為下列其中一項：
 
@@ -180,7 +180,7 @@ _[!UICONTROL Bundle Items]_區段用於將專案新增至組合產品型別，�
 
      >[!NOTE]
      >
-     >量值可以是預設值或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_屬性指派給核取方塊或多選輸入型別。
+     >量值可以是預設值或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_&#x200B;屬性指派給核取方塊或多選輸入型別。
 
      依預設，客戶無法變更包含在套件專案中的「預設數量」。 但是，客戶可以輸入要包含在套件中的料號數量。
 
@@ -283,7 +283,7 @@ _[!UICONTROL Bundle Items]_區段用於將專案新增至組合產品型別，�
 
 ![核取方塊](../assets/checkbox.png) SKU和權重可以是`Fixed`或`Dynamic`。
 
-![核取方塊](../assets/checkbox.png)數量可以是預設集或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_屬性指派給核取方塊或多選輸入型別。
+![核取方塊](../assets/checkbox.png)數量可以是預設集或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_&#x200B;屬性指派給核取方塊或多選輸入型別。
 
 ![核取方塊](../assets/checkbox.png)套件組合專案可以一起或單獨出貨。
 

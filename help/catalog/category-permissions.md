@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![登入的使用者看到「集合」類別](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-啟用後，「類別」頁面上會出現新的&#x200B;_[!UICONTROL Category Permissions]_區段，可讓您對每個類別套用所需的存取權。 您可以為不同的網站和客戶群組，將多個許可權規則新增至每個類別。
+啟用後，「類別」頁面上會出現新的&#x200B;_[!UICONTROL Category Permissions]_&#x200B;區段，可讓您對每個類別套用所需的存取權。 您可以為不同的網站和客戶群組，將多個許可權規則新增至每個類別。
 
 ## 步驟1：設定類別許可權
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >雖然&#x200B;_[!UICONTROL Allow Browsing Category]_設定適用於網站中的所有類別，但您可以為每個商店檢視設定不同的登陸頁面。
+   >雖然&#x200B;_[!UICONTROL Allow Browsing Category]_&#x200B;設定適用於網站中的所有類別，但您可以為每個商店檢視設定不同的登陸頁面。
 
 ### [!UICONTROL Display Product Prices]
 

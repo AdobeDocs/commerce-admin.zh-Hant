@@ -153,8 +153,8 @@ ht-degree: 1%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 全域 | 決定Commerce執行個體是否允許備份。 選項： `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 全域 | （當&#x200B;_[!UICONTROL Enable Backup]_設定為`Yes`時顯示。） 決定是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 全域 | （當&#x200B;_[!UICONTROL Enable Scheduled Backup]_設定為`Yes`時顯示。） 決定備份中包含的Commerce執行個體元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | 全域 | （當&#x200B;_[!UICONTROL Enable Backup]_&#x200B;設定為`Yes`時顯示。） 決定是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 全域 | （當&#x200B;_[!UICONTROL Enable Scheduled Backup]_&#x200B;設定為`Yes`時顯示。） 決定備份中包含的Commerce執行個體元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 指定排程備份開始的時間（小時、分鐘和秒）。 |
 | [!UICONTROL Frequency] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 決定進行排程備份的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 決定在排程備份期間是否將存放區置於維護模式。 選項： `Yes` / `No` |

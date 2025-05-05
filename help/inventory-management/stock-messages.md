@@ -68,7 +68,7 @@ ht-degree: 1%
 
 視產品可用性和組態設定而定，類別和搜尋結果清單可能會出現下列顯示選項。
 
-類別頁面](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}上的![無庫存訊息
+類別頁面![&#128279;](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}上的無庫存訊息
 
 ### 範例1：顯示帶有「無庫存」訊息的產品
 

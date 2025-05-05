@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Export File Format]**&#x200B;設為`CSV`。
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_底下，向下捲動或使用屬性標籤篩選來尋找&#x200B;**[!UICONTROL SKU]**屬性，並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;底下，向下捲動或使用屬性標籤篩選來尋找&#x200B;**[!UICONTROL SKU]**&#x200B;屬性，並執行下列動作：
 
    - 輸入您選擇要匯出的可設定產品的SKU，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -152,13 +152,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Products`。
 
-1. 在&#x200B;_[!UICONTROL Import Behavior]_底下，將&#x200B;**[!UICONTROL Import Behavior]**設定為`Add/Update`。
+1. 在&#x200B;_[!UICONTROL Import Behavior]_&#x200B;底下，將&#x200B;**[!UICONTROL Import Behavior]**&#x200B;設定為`Add/Update`。
 
    ![資料匯入行為](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL File to Import]_下，按一下&#x200B;**[!UICONTROL Choose File]**並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
+1. 在&#x200B;_[!UICONTROL File to Import]_&#x200B;下，按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
 
    ![資料匯入檔案](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

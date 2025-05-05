@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_索引標籤中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;索引標籤中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Wish List Search`。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      `0` =第一個（預設）、`1` =第二個、`2` =第三個，依此類推。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並將&#x200B;**[!UICONTROL Display on]**設定為下列其中一項：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並將&#x200B;**[!UICONTROL Display on]**&#x200B;設定為下列其中一項：
 
    - _[!UICONTROL Categories]_
 

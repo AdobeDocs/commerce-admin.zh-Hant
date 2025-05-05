@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 指派給每個相關產品規則的唯一數值識別碼 |
 | [!UICONTROL Rule] | 相關產品規則的名稱 |
-| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
+| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
 | [!UICONTROL Priority] | 在此欄位中輸入文字，以根據為規則定義的優先順序來篩選清單。 |
 | [!UICONTROL Applies To] | 此選項會篩選套用至`Related Products`、`Up-sells`和`Cross-sells`的規則清單。 |
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
@@ -47,7 +47,7 @@ ht-degree: 0%
 例如，假設您有三個優先順序為`1`、`2`和`3`的規則。
 
 - 針對&#x200B;_規則1_&#x200B;傳回兩個相符產品，針對&#x200B;_規則2_&#x200B;傳回六個相符產品，針對&#x200B;_規則3_&#x200B;傳回20個相符產品。
-- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_設定為`6`。
+- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;設定為`6`。
 
   | 規則 | 優先順序 | 相符產品 |
   |---|---|-----|

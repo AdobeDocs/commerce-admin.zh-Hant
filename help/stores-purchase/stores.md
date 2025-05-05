@@ -85,7 +85,7 @@ Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，按一下&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您為新商店建立的檢視。
 

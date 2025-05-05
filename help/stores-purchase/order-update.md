@@ -119,9 +119,9 @@ ht-degree: 0%
 
 取消訂單會將其狀態從`Pending`變更為`Canceled`。
 
-1. 在&#x200B;_[!UICONTROL Orders]_格線中，找到要取消的擱置訂單。
+1. 在&#x200B;_[!UICONTROL Orders]_&#x200B;格線中，找到要取消的擱置訂單。
 
-1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
 
 1. 按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;取消訂單。
 

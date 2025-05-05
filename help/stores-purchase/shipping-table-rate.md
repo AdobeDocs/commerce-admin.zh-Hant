@@ -34,7 +34,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
 1. 展開&#x200B;**[!UICONTROL Table Rates]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -84,7 +84,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 1. 設定&#x200B;**[!UICONTROL Ship to Applicable Countries]**：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用這個傳遞方法。
-   - `Specific Countries` — 選擇此選項時，會顯示&#x200B;_[!UICONTROL Ship to Specific Countries]_清單。 選取清單中可使用此傳遞方法的每個國家/地區。
+   - `Specific Countries` — 選擇此選項時，會顯示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;清單。 選取清單中可使用此傳遞方法的每個國家/地區。
 
 1. 如果要一直顯示表格費率，請將&#x200B;**[!UICONTROL Show Method if Not Applicable]**&#x200B;設為`Yes`
 
@@ -115,10 +115,10 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 1. 使用適當的出貨計算條件值完成表格。
 
    - 使用星號(*)當作萬用字元，代表任何類別中的所有可能值。
-   - _[!UICONTROL Country]_資料行必須包含每個資料列的[有效的三字元代碼][1]。
-   - 依&#x200B;_[!UICONTROL Region/State]_排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
-   - 不支援郵遞區號範圍。 使用星號(*)可允許地區/州內的所有程式碼，或在&#x200B;_[!UICONTROL Zip/Postal Code]_欄中指定特定位置的單一程式碼。
-   - _[!UICONTROL Weight (and above)]_欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
+   - _[!UICONTROL Country]_&#x200B;資料行必須包含每個資料列的[有效的三字元代碼][1]。
+   - 依&#x200B;_[!UICONTROL Region/State]_&#x200B;排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
+   - 不支援郵遞區號範圍。 使用星號(*)可允許地區/州內的所有程式碼，或在&#x200B;_[!UICONTROL Zip/Postal Code]_&#x200B;欄中指定特定位置的單一程式碼。
+   - _[!UICONTROL Weight (and above)]_&#x200B;欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
 
    ![重量與目的地（澳洲）](./assets/table-rates-weight-destination-csv.png){width="500"}
 

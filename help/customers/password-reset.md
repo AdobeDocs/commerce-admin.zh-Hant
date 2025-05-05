@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 重設客戶密碼
 
-客戶通常按一下&#x200B;_[!UICONTROL Forgot Your Password?]_從店面重設密碼。 不過，存放區管理員可以從管理員起始密碼重設或強制登入。
+客戶通常按一下&#x200B;_[!UICONTROL Forgot Your Password?]_&#x200B;從店面重設密碼。 不過，存放區管理員可以從管理員起始密碼重設或強制登入。
 
 | 函式 | 說明 |
 | --- | --- |

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 管理員可以從Experience Cloud首頁中選取&#x200B;**[!UICONTROL Commerce]**，檢視他們有權存取的Commerce專案。
 
-Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}上的![Commerce專案工作區
+Experience Cloud![&#128279;](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}上的Commerce專案工作區
 
 管理員可以從[!DNL Commerce Projects]工作區開啟每個專案的管理員和店面，並檢視其他資訊。
 

@@ -95,7 +95,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Sort Order]**&#x200B;欄位中輸入數字，以決定區塊順序（如果指派給該區塊，使其出現在頁面上與其他內容元素相同的位置）。 頂端位置是零。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並將&#x200B;**[!UICONTROL Display On]**設定為您要顯示區塊的類別、產品或頁面。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示區塊的類別、產品或頁面。
 
    例如，如果您選擇`All Pages`，並將區塊放置在頁首或頁尾中，區塊會出現在商店每個頁面的相同位置。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. 出現提示時，請依照工作區頂端的指示，更新索引和頁面快取。
 
-   Widget現在出現在&#x200B;_[!UICONTROL Widgets]_清單中。
+   Widget現在出現在&#x200B;_[!UICONTROL Widgets]_&#x200B;清單中。
 
 ### 步驟4. 驗證在存放區中的位置
 

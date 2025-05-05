@@ -50,7 +50,7 @@ ht-degree: 0%
 
 在「簡單頁面」練習的這一部分，您會建立具有完整出血列和橫幅的頁面。 該列針對桌上型電腦和行動裝置有不同的背景影像。
 
-具有橫幅](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}的![[!DNL Page Builder]完整出血列
+具有橫幅![&#128279;](./assets/pb-tutorial1-full-bleed-with-banner.png){width="700" zoomable="yes"}的[!DNL Page Builder]完整出血列
 
 ### 步驟1：建立頁面
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 如果範例資料可用，請將&#x200B;**[!UICONTROL New Theme]**&#x200B;設為`Magento Luma`。 否則，您可以選擇另一個可用的主題，或將其保留空白以使用預設主題。
 
-   _[!UICONTROL New Theme]_設定可用來覆寫預設佈景主題，以及將不同的佈景主題套用至頁面。
+   _[!UICONTROL New Theme]_&#x200B;設定可用來覆寫預設佈景主題，以及將不同的佈景主題套用至頁面。
 
    >[!NOTE]
    >
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 1. 在「列」工具箱中，選擇&#x200B;_設定_ (![設定圖示](./assets/pb-icon-settings.png){width="20"}圖示。
 
-1. 在&#x200B;_[!UICONTROL Appearance]_底下，選擇&#x200B;**完整出血**。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;底下，選擇&#x200B;**完整出血**。
 
    「完整出血」外觀設定會將列與背景內容區域的左右邊界延伸至頁面的完整寬度。
 
    ![列設定 — 出血](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有&#x200B;**[!UICONTROL Margins and Padding]**設定設為`0`。
+1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;設定設為`0`。
 
    此設定可確保橫幅延伸整列的寬度。
 
@@ -141,13 +141,13 @@ ht-degree: 0%
 
 1. 在橫幅工具箱中，選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 在&#x200B;_[!UICONTROL Appearance]_底下，選擇&#x200B;**[!UICONTROL Collage Right]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;底下，選擇&#x200B;**[!UICONTROL Collage Right]**。
 
    「拼貼右側」設定會將內容放置在橫幅的右側。
 
    ![橫幅外觀 — 拼貼右側](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. 向下捲動至&#x200B;_[!UICONTROL Background]_區段，並設定橫幅的背景影像：
+1. 向下捲動至&#x200B;_[!UICONTROL Background]_&#x200B;區段，並設定橫幅的背景影像：
 
    - 針對&#x200B;**[!UICONTROL Background Image]**，按一下&#x200B;**上傳**。
 
@@ -200,11 +200,11 @@ __
 
 1. 將游標暫留以顯示「橫幅工具箱」，再次選擇「_設定_」（「![設定」圖示](./assets/pb-icon-settings.png){width="20"}）圖示，然後捲動至「_[!UICONTROL Content]_」區段。
 
-   請注意，您的文字會顯示在&#x200B;_訊息文字_&#x200B;方塊中。 您可以從舞台或橫幅設定的&#x200B;_[!UICONTROL Content]_區段輸入及編輯文字。
+   請注意，您的文字會顯示在&#x200B;_訊息文字_&#x200B;方塊中。 您可以從舞台或橫幅設定的&#x200B;_[!UICONTROL Content]_&#x200B;區段輸入及編輯文字。
 
    ![橫幅設定 — 訊息文字](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. 繼續在&#x200B;_[!UICONTROL Content]_區段中，設定橫幅連結和按鈕：
+1. 繼續在&#x200B;_[!UICONTROL Content]_&#x200B;區段中，設定橫幅連結和按鈕：
 
    - 將&#x200B;**連結**&#x200B;設定為`Category`，然後按一下&#x200B;**[!UICONTROL Select]**&#x200B;以顯示類別樹狀結構。
 
@@ -243,7 +243,7 @@ __
 
 1. 在舞台的右上角，按一下&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png)）圖示。
 
-   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_區段，並顯示預覽。
+   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_&#x200B;區段，並顯示預覽。
 
    您可以隨時在兩種工作區模式之間切換。
 
@@ -259,13 +259,13 @@ __
 
 ### 步驟1：新增列
 
-1. 在「頁面」格線中，尋找您在本練習第一部分建立的&#x200B;_簡單頁面_，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL Edit]**。
+1. 在「頁面」格線中，尋找您在本練習第一部分建立的&#x200B;_簡單頁面_，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開&#x200B;**[!UICONTROL Content]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或在內容預覽區域內。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**預留位置拖曳至舞台，並將其置於橫幅上方。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳至舞台，並將其置於橫幅上方。
 
    紅色指引會標籤兩列之間的邊界。
 
@@ -275,7 +275,7 @@ __
 
    ![列工具箱](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_底下，接受&#x200B;**包含**預設設定。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;底下，接受&#x200B;**包含**&#x200B;預設設定。
 
    此設定會將列的內容區域限製為主題所定義的頁面寬度。
 
@@ -285,7 +285,7 @@ __
 
 ### 步驟2：新增欄
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**預留位置拖曳到新列。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;預留位置拖曳到新列。
 
    ![將資料行內容型別拖曳到舞台](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +345,7 @@ __
 
 1. 在舞台的右上角，按一下&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png)）圖示。
 
-   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_區段，並顯示預覽。
+   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_&#x200B;區段，並顯示預覽。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
@@ -359,13 +359,13 @@ __
 
 ### 步驟1：新增列
 
-1. 在「頁面」格線中，尋找您在本練習第一部分建立的&#x200B;_簡單頁面_，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL Edit]**。
+1. 在「頁面」格線中，尋找您在本練習第一部分建立的&#x200B;_簡單頁面_，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開&#x200B;**[!UICONTROL Content]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或在內容預覽區域內。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**預留位置拖曳至舞台，並將其置於本練習第二部分所建立的列上方。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳至舞台，並將其置於本練習第二部分所建立的列上方。
 
    紅色指引會標籤兩列之間的邊界。
 
@@ -375,17 +375,17 @@ __
 
    ![列工具箱](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_下的[編輯列]頁面上，選擇&#x200B;**[!UICONTROL Full Width]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;下的[編輯列]頁面上，選擇&#x200B;**[!UICONTROL Full Width]**。
 
    此設定會將內容區域限製為主題所定義的最大頁面寬度。 背景顏色和/或影像不受限制，並會延伸列的完整寬度。
 
    ![選取完整寬度外觀](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Background]_區段中，輸入`#f1f1f1`作為&#x200B;**[!UICONTROL Background Color]**。
+1. 在&#x200B;_[!UICONTROL Background]_&#x200B;區段中，輸入`#f1f1f1`作為&#x200B;**[!UICONTROL Background Color]**。
 
    ![設定背景顏色](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有&#x200B;**邊界與內距**值設定為`0`。
+1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有&#x200B;**邊界與內距**&#x200B;值設定為`0`。
 
    ![設定邊界與內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +397,7 @@ __
 
 ### 步驟2：新增不同寬度的欄
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**預留位置拖曳到舞台上的頂端列。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;預留位置拖曳到舞台上的頂端列。
 
    ![將欄拖曳到舞台](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ __
 
 1. 將游標停留在第一欄容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有&#x200B;**邊界與內距**值設定為`0`。
+1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有&#x200B;**邊界與內距**&#x200B;值設定為`0`。
 
    ![設定邊界與內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,11 +445,11 @@ __
 
    ![在文字中插入影像](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Insert/edit image]_對話方塊中，按一下_[!UICONTROL Source]_&#x200B;欄位旁的&#x200B;_尋找_ （ ![尋找圖示](./assets/editor-btn-find-source.png) ）圖示。
+   - 在&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊中，按一下&#x200B;_[!UICONTROL Source]_&#x200B;欄位旁的&#x200B;_尋找_ （ ![尋找圖示](./assets/editor-btn-find-source.png) ）圖示。
 
      ![插入/編輯影像對話方塊](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Select Images]_頁面上，按一下&#x200B;**[!UICONTROL Choose Files]**。
+   - 在&#x200B;_[!UICONTROL Select Images]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Choose Files]**。
 
    - 在您儲存簡易頁面資產的資料夾中，選擇`rating.png`。
 
@@ -507,7 +507,7 @@ __
 
    ![設定最小高度和垂直對齊](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有&#x200B;**[!UICONTROL Margins and Padding]**值設定為零( `0` )。
+1. 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;值設定為零( `0` )。
 
    ![設定邊界與內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +541,7 @@ __
 
 1. 在舞台的右上角，按一下&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png)）圖示。
 
-   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_區段，並顯示預覽。
+   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_&#x200B;區段，並顯示預覽。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -571,7 +571,7 @@ __
 
 1. 在舞台的右上角，按一下&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png)）圖示。
 
-   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_區段，並顯示預覽。
+   按一下此圖示會返回頁面的&#x200B;_[!UICONTROL Content]_&#x200B;區段，並顯示預覽。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 

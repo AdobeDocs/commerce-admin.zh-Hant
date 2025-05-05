@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進搜尋引擎索引頁面的方式。
 
-產品的&#x200B;_[!UICONTROL Search Engine Optimization]_設定指定了搜尋引擎用來索引產品的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎仍會繼續使用這些關鍵字。 目前的[SEO最佳作法](../merchandising-promotions/seo-overview.md)是在中繼標題和中繼描述中併入高值關鍵字。
+產品的&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;設定指定了搜尋引擎用來索引產品的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎仍會繼續使用這些關鍵字。 目前的[SEO最佳作法](../merchandising-promotions/seo-overview.md)是在中繼標題和中繼描述中併入高值關鍵字。
 
 每個中繼資料欄位的預設值可根據設定中指定的值自動產生。 每個欄位都包含一個預留位置，並以實際值取代。 如需詳細資訊，請參閱[產品欄位自動產生](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)。
 
@@ -22,7 +22,7 @@ _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Search Engine Optimization]_區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Search Engine Optimization]_&#x200B;區段。
 
 ![搜尋引擎最佳化](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 

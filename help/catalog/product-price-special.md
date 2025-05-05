@@ -50,7 +50,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
    在店面，特殊價格應該會顯示在目錄清單和產品頁面上。
 
-   _[!UICONTROL Scheduled Change]_會顯示在頁面頂端。
+   _[!UICONTROL Scheduled Change]_&#x200B;會顯示在頁面頂端。
 
    ![排程變更](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Price]_欄位，按一下&#x200B;**[!UICONTROL Advanced Pricing]**，然後輸入&#x200B;**[!UICONTROL Special Price]**金額。
+1. 向下捲動至&#x200B;_[!UICONTROL Price]_&#x200B;欄位，按一下&#x200B;**[!UICONTROL Advanced Pricing]**，然後輸入&#x200B;**[!UICONTROL Special Price]**&#x200B;金額。
 
 1. 使用&#x200B;_行事曆_ （ ![行事曆圖示](../assets/icon-calendar.png) ）圖示，選擇特殊價格促銷的&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**。
 
@@ -84,7 +84,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 下列範例說明如何在Adobe Commerce中，將相同的特殊價格指派給可設定產品的多個產品變數。
 
-1. 在&#x200B;_[!UICONTROL Products]_頁面上，按一下&#x200B;**[!UICONTROL Filters]**並輸入可設定產品的&#x200B;**[!UICONTROL Name]**。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Filters]**&#x200B;並輸入可設定產品的&#x200B;**[!UICONTROL Name]**。
 
 1. 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Configurable Product`並按一下&#x200B;**[!UICONTROL Apply Filters]**。
 
@@ -94,7 +94,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Update attributes`。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Special Price]_欄位，並選取_[!UICONTROL Special Price]_&#x200B;欄位下方的&#x200B;**[!UICONTROL Change]**&#x200B;核取方塊，然後輸入您要提供的特殊價格。
+1. 向下捲動至&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位，並選取&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位下方的&#x200B;**[!UICONTROL Change]**&#x200B;核取方塊，然後輸入您要提供的特殊價格。
 
    ![特殊價格欄位](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

@@ -38,7 +38,7 @@ ht-degree: 1%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | 全域 | 決定禮卡持有人是否可以兌換其現金價值。 選項： `Yes` / `No`。 |
-| [!UICONTROL Lifetime (days)] | 全域 | 決定卡片有效的天數。 如果留空，卡片不會過期。 <br/><br/>**_重要：_**在某些地方，在禮品卡上設定到期資料是不合法的。 在設定禮品卡的期限之前，請先檢查當地法律。 |
+| [!UICONTROL Lifetime (days)] | 全域 | 決定卡片有效的天數。 如果留空，卡片不會過期。 <br/><br/>**_重要：_**&#x200B;在某些地方，在禮品卡上設定到期資料是不合法的。 在設定禮品卡的期限之前，請先檢查當地法律。 |
 | [!UICONTROL Allow Gift Message] | 存放區檢視 | 決定購買禮品卡的客戶是否可選擇加入禮品訊息。 選項： `Yes` / `No`。 |
 | [!UICONTROL Gift Message Maximum Length] | 存放區檢視 | 決定禮卡訊息中允許的最大字元數。 預設值： 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 全域 | 決定客戶下訂單時或開立訂單商業發票時是否產生禮品卡帳戶。 選項： `Ordered` / `Invoiced` |

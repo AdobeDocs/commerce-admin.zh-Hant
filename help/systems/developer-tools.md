@@ -246,7 +246,7 @@ ht-degree: 0%
 
    視需要清除&#x200B;**[!UICONTROL Use Website]**&#x200B;核取方塊以修改這些設定。
 
-   編輯特定存放區檢視時，_[!UICONTROL Enabled for Admin]_選項無法使用。
+   編輯特定存放區檢視時，_[!UICONTROL Enabled for Admin]_&#x200B;選項無法使用。
 
    ![進階設定 — 翻譯內嵌](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

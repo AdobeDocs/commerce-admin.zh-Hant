@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在清單中尋找該客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在清單中尋找該客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在左側面板中，選擇&#x200B;**[!UICONTROL Wish List]**&#x200B;並在清單中找到要編輯的專案。
 

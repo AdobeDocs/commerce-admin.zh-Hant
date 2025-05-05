@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 類別 — 內容設定
 
-_[!UICONTROL Content]_設定會決定類別頁面上是否出現任何其他內容。 除了類別產品清單之外，頁面還可以包含影像、說明和CMS區塊。 您可以使用[[!DNL Page Builder]](../page-builder/introduction.md)內容工具來定義類別說明。
+_[!UICONTROL Content]_&#x200B;設定會決定類別頁面上是否出現任何其他內容。 除了類別產品清單之外，頁面還可以包含影像、說明和CMS區塊。 您可以使用[[!DNL Page Builder]](../page-builder/introduction.md)內容工具來定義類別說明。
 
 ## 在[!DNL Page Builder]中新增類別說明
 

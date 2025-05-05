@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 以&#x200B;_編輯_&#x200B;模式開啟庫存。
 
-1. 如有需要，請展開&#x200B;_[!UICONTROL Sources]_標籤。
+1. 如有需要，請展開&#x200B;_[!UICONTROL Sources]_&#x200B;標籤。
 
 1. 使用![排序圖示](assets/icon-sort.png)將來源拖放至優先順序(從上（第一個）到下（最後一個）。
 

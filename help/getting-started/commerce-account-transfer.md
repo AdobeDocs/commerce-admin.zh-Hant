@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
-   這會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_欄位會遭到封鎖，無法進行任何變更。 關聯的電子郵件地址由Adobe ID帳戶管理。
+   這會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_&#x200B;欄位會遭到封鎖，無法進行任何變更。 關聯的電子郵件地址由Adobe ID帳戶管理。
 
 1. 導覽至[account.adobe.com](https://account.adobe.com/)。
 

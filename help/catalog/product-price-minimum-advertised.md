@@ -70,7 +70,7 @@ MAP功能新增專用的&#x200B;_Click for Price_&#x200B;連結，而非一般�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Sales]**。
 
-1. 展開&#x200B;_[!UICONTROL Minimum Advertised Price]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Minimum Advertised Price]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 如有必要，請將&#x200B;**啟用MAP**&#x200B;設定為`Yes`。
 

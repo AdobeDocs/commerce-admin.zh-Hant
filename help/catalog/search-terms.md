@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 編輯搜尋字詞
 
-1. 在&#x200B;_[!UICONTROL Search Terms]_格線中，按一下任何記錄的列，以在編輯模式中開啟搜尋字詞。
+1. 在&#x200B;_[!UICONTROL Search Terms]_&#x200B;格線中，按一下任何記錄的列，以在編輯模式中開啟搜尋字詞。
 
 1. 進行必要的變更。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 刪除搜尋字詞的方法有兩種 — 從網格和編輯頁面上。
 
-在&#x200B;_[!UICONTROL Search Terms]_格線中的&#x200B;**方法1：**
+在&#x200B;_[!UICONTROL Search Terms]_&#x200B;格線中的&#x200B;**方法1：**
 
 1. 在清單中，選取要刪除之字詞的核取方塊。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Submit]**。
 
-**方法2：** （在&#x200B;_[!UICONTROL Edit a Search Term]_頁面上）
+**方法2：** （在&#x200B;_[!UICONTROL Edit a Search Term]_&#x200B;頁面上）
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**。
 
@@ -141,7 +141,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**。
 
-   _[!UICONTROL Search Synonyms]_格線出現。 如果這是您第一次使用搜尋同義字，則格線是空的。
+   _[!UICONTROL Search Synonyms]_&#x200B;格線出現。 如果這是您第一次使用搜尋同義字，則格線是空的。
 
    ![搜尋同義字網格](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +164,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 ### 編輯同義字群組
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_網格中，按一下任何記錄的列，以編輯模式開啟同義字群組。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;網格中，按一下任何記錄的列，以編輯模式開啟同義字群組。
 
 1. 進行必要的變更。
 
@@ -176,7 +176,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 搜尋同義字格中的&#x200B;**方法1：**
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_格線中，選取要刪除之群組的核取方塊。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;格線中，選取要刪除之群組的核取方塊。
 
 1. 在清單的左上角，將&#x200B;**[!UICONTROL Actions]**&#x200B;設定為`Delete`。
 

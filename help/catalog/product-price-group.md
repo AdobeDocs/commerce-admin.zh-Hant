@@ -34,9 +34,9 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 在&#x200B;_[!UICONTROL Price]_欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_&#x200B;欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Customer Group Price]_區段中，按一下&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Customer Group Price]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
    如果您的存放區包含[Adobe Commerce B2B](../b2b/introduction.md)且已啟用[共用目錄](../b2b/catalog-shared.md)，則此區段會標示為&#x200B;_[!UICONTROL Catalog and Tier Price]_。
 

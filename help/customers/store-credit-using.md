@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_動作_&#x200B;資料行中，按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 捲動&#x200B;_[!UICONTROL Customer View]_頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
+1. 捲動&#x200B;_[!UICONTROL Customer View]_&#x200B;頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
 
 ![儲存信用餘額](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. 客戶檢視可用的商店信用金額。
 
-   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_下方。
+   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_&#x200B;下方。
 
 1. 若要將金額套用至訂單，請按一下&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_中。
+   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
 
    ![套用至訂單的貸方餘額](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

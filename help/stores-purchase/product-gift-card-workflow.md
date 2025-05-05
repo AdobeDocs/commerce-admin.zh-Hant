@@ -66,7 +66,7 @@ ht-degree: 0%
 
 - 贈品代碼的帳戶是為了追蹤特定憑單的餘額而建立的。 商店管理員可以手動調整餘額。
 
-接收客戶可以使用帳戶儀表板的&#x200B;_[!UICONTROL Gift Card]_區段來檢查其[禮卡帳戶](product-gift-card-accounts.md)的餘額，並兌換[商店點數](../customers/store-credit-using.md)的禮卡。
+接收客戶可以使用帳戶儀表板的&#x200B;_[!UICONTROL Gift Card]_&#x200B;區段來檢查其[禮卡帳戶](product-gift-card-accounts.md)的餘額，並兌換[商店點數](../customers/store-credit-using.md)的禮卡。
 
 ![禮卡](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 禮卡啟用
 
-1. 客戶在&#x200B;_[!UICONTROL Gift Card]_頁面上輸入禮品卡代碼。
+1. 客戶在&#x200B;_[!UICONTROL Gift Card]_&#x200B;頁面上輸入禮品卡代碼。
 
 1. 客戶按一下&#x200B;**[!UICONTROL Redeem Gift Card]**。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![儲存信用餘額](./assets/store-credit.png){width="700" zoomable="yes"}
 
-所有禮品卡餘額的作業都可在&#x200B;_[!UICONTROL Store Credit]_頁面上使用。
+所有禮品卡餘額的作業都可在&#x200B;_[!UICONTROL Store Credit]_&#x200B;頁面上使用。
 
 ### 結帳時套用禮品卡
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
 1. 輸入禮品卡代碼，然後按一下&#x200B;**[!UICONTROL Apply]**。
 
-   折扣應反映在&#x200B;_[!UICONTROL Order Summary]_中。
+   折扣應反映在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
 
 1. 按一下&#x200B;**[!UICONTROL Place Order]**&#x200B;完成訂單。

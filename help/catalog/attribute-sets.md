@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >系統屬性標有點，無法從&#x200B;_[!UICONTROL Groups]_清單中移除。 但是，它們可以拖曳到屬性集中的另一個群組。
+   >系統屬性標有點，無法從&#x200B;_[!UICONTROL Groups]_&#x200B;清單中移除。 但是，它們可以拖曳到屬性集中的另一個群組。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 建立屬性群組
 
-1. 在屬性集的&#x200B;_[!UICONTROL Groups]_欄中，按一下&#x200B;**[!UICONTROL Add New]**。
+1. 在屬性集的&#x200B;_[!UICONTROL Groups]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Add New]**。
 
 1. 輸入新群組的&#x200B;**[!UICONTROL Name]**，然後按一下&#x200B;**[!UICONTROL OK]**。
 

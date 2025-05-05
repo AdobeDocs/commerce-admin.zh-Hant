@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 存放區檢視 | 識別用於預設&#x200B;_歡迎_&#x200B;電子郵件的電子郵件範本。 |
 | [!UICONTROL Default Welcome Email Without Password] | 存放區檢視 | 替代歡迎電子郵件範本，用於管理員建立但尚未指派密碼的新客戶帳戶。 |
 | [!UICONTROL Email Sender] | 存放區檢視 | 識別顯示為歡迎電子郵件寄件者的商店聯絡人。 |
-| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No`。<br/><br/> _**注意：**_&#x200B;從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入帳戶。 |
+| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No`。<br/><br/> _&#x200B;**注意：**&#x200B;_&#x200B;從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入帳戶。 |
 | [!UICONTROL Confirmation Link Email] | 存放區檢視 | 識別用於確認電子郵件的電子郵件範本。 預設範本： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 存放區檢視 | 識別在帳戶確認後傳送之歡迎訊息所使用的電子郵件範本。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全域 | 判斷是否可從店面看到用來輸入及儲存VAT ID號碼的欄位。 選項： `Yes` / `No` |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 網站 | 判斷客戶名稱中是否包含中間首字母。 若使用，中間初始字元是選用欄位。 選項： `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 網站 | 決定客戶名稱在結尾是否包含尾碼，例如Jr.、Sr.和III。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 網站 | 定義字尾選項的清單。 以分號分隔值。 在第一個值前放置分號，在清單頂端顯示空白值。 |
-| [!UICONTROL Show Date of Birth] | 網站 | 決定名稱和地址表單中是否包含客戶出生日期。 選項： `No` / `Optional` / `Required` <br><br>**_重要：_**根據目前的安全和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
+| [!UICONTROL Show Date of Birth] | 網站 | 決定名稱和地址表單中是否包含客戶出生日期。 選項： `No` / `Optional` / `Required` <br><br>**_重要：_**&#x200B;根據目前的安全和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
 | [!UICONTROL Show Tax/VAT Number] | 網站 | 決定名稱與地址表單中是否包含稅捐或[VAT編號](../../stores-purchase/vat.md)。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 網站 | 決定名稱和地址表單中是否包含性別。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 網站 | 決定名稱與地址表單中是否包含客戶的電話號碼。 選項： `No` / `Optional` / `Required` |
@@ -214,8 +214,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 網站 | 在與Commerce網站相關的商店中啟用驗證碼。 選項： `Yes` / `No` |
 | [!UICONTROL Font] | 網站 | 決定用於顯示驗證碼的字型。 若要新增您自己的字型，請將字型檔案放在與Commerce安裝相同的目錄中，並將宣告新增至`app/code/Magento/Captcha/etc`的`config.xml`檔案。 |
-| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
-| [!UICONTROL Displaying Mode] | 網站 | 決定驗證碼何時出現。 選項： <br/>**`Always`**— 登入一律需要CAPTCHA。<br/>**`After number of attempts to login`** — 此選項僅適用於「管理員登入」表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_欄位就會顯示。 輸入您要允許的登入嘗試次數。 `0` （零）的值類似於將[!UICONTROL Displaying Mode]設定為`Always`。<br/>_**注意：**_若要追蹤失敗的登入嘗試次數，每個嘗試使用一個電子郵件地址和一個IP位址登入都會被計入。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。 |
+| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
+| [!UICONTROL Displaying Mode] | 網站 | 決定驗證碼何時出現。 選項： <br/>**`Always`**— 登入一律需要CAPTCHA。<br/>**`After number of attempts to login`** — 此選項僅適用於「管理員登入」表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;欄位就會顯示。 輸入您要允許的登入嘗試次數。 `0` （零）的值類似於將[!UICONTROL Displaying Mode]設定為`Always`。<br/>_&#x200B;**注意：**&#x200B;_若要追蹤失敗的登入嘗試次數，每個嘗試使用一個電子郵件地址和一個IP位址登入都會被計入。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 網站 | 指定帳戶鎖定前，客戶可嘗試登入的次數。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 網站 | 決定目前驗證碼的存留期。 驗證碼過期時，使用者必須重新載入頁面。 |
 | [!UICONTROL Number of Symbols] | 網站 | 決定驗證碼中顯示的符號數，最多為8個。 您也可以指定範圍，例如5-8。 |

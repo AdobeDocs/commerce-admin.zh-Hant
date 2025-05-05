@@ -145,13 +145,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回「頁面」格線。
 
-1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 若要返回格線，請按一下瀏覽器視窗左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步驟8：Publish頁面
 
-1. 在網格的&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL Edit]**。
+1. 在網格的&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 ## 刪除頁面
 
-移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_格線或_[!UICONTROL Edit]_&#x200B;頁面移除它。
+移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_&#x200B;格線或&#x200B;_[!UICONTROL Edit]_&#x200B;頁面移除它。
 
 ### 方法1：從「頁面」格線中移除頁面
 
@@ -224,7 +224,7 @@ ht-degree: 0%
 
 1. 尋找要刪除的頁面。
 
-1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_欄中，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Delete Page]**。
 

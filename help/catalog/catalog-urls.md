@@ -37,7 +37,7 @@ URL索引鍵是說明產品或類別的靜態URL的一部分。 當您建立產�
 
 >[!NOTE]
 >
->根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如，`ñ`會自動取代為`n`。 可透過將&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_組態選項設定為`No`來停用此行為。 請參閱[設定目錄URL](#configure-catalog-urls)。
+>根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如，`ñ`會自動取代為`n`。 可透過將&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;組態選項設定為`No`來停用此行為。 請參閱[設定目錄URL](#configure-catalog-urls)。
 
 URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨連字型大小以分隔字詞。 URL索引鍵的開頭或結尾不允許使用連字型大小。 設計良好的「方便搜尋引擎」URL索引鍵可能包含產品名稱和關鍵字，以改進搜尋引擎編制索引的方式。 URL金鑰可設定為在URL金鑰變更時建立自動重新導向。
 
@@ -113,7 +113,7 @@ URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨�
 | 欄位 | [領域](../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全域 | 如果啟用了網頁伺服器重寫，則啟用此設定會在URL中插入目前檢視的存放區代碼。 選項： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**請勿針對多存放區設定使用自動重新導向至基底URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**&#x200B;請勿針對多存放區設定使用自動重新導向至基底URL。 |
 | [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的URL格式。 選項： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 將轉換的檔案名稱定義為唯一的雜湊值。<br />**[!UICONTROL Image optimization based on query parameters]** — 根據查詢引數定義[影像最佳化](../content-design/media-gallery-image-optimization.md)程式。 |
 
 {style="table-layout:auto"}

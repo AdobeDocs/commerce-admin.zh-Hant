@@ -19,7 +19,7 @@ ht-degree: 0%
 
    ![編輯器工具列 — 插入連結](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert link]_對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert link]_&#x200B;對話方塊。
 
    ![編輯器 — 插入連結對話方塊](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

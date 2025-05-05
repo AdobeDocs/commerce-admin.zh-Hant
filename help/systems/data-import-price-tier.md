@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**。
 
-1. 在&#x200B;_[!UICONTROL Export Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Advanced Pricing`。
+1. 在&#x200B;_[!UICONTROL Export Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Advanced Pricing`。
 
 1. 在&#x200B;**[!UICONTROL Entity Attributes]**&#x200B;格線中，向下捲動至SKU屬性並執行下列動作：
 

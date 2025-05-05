@@ -119,11 +119,11 @@ ht-degree: 0%
 
 1. 若要將其新增至產品群組，請按一下&#x200B;**[!UICONTROL Add Selected Products]**。
 
-   選取的產品會出現在&#x200B;_[!UICONTROL Grouped Products]_區段中。
+   選取的產品會出現在&#x200B;_[!UICONTROL Grouped Products]_&#x200B;區段中。
 
    對於具有[Inventory management](../inventory-management/sources-stocks.md)的多Source商家，網格包含&#x200B;**[!UICONTROL Quantity per Source]**&#x200B;欄，每個欄各有指定的來源和存貨量。
 
-   群組](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}中的![產品
+   群組![&#128279;](./assets/product-grouped-grouped-products-section.png){width="600" zoomable="yes"}中的產品
 
 1. 輸入任何專案的&#x200B;**[!UICONTROL Default Quantity]**。
 

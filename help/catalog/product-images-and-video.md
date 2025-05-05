@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Images and Videos]
 
-從&#x200B;_[!UICONTROL Images and Videos]_區段，您可以執行基本影像管理工作，例如上傳多個影像、重新排列影像，以及控制如何使用每個影像。 若要進一步控制個別影像，您可以在_&#x200B;詳細資料檢視&#x200B;_中開啟每個影像。 如需詳細資訊，請參閱[目錄影像和視訊](catalog-images-video.md)。
+從&#x200B;_[!UICONTROL Images and Videos]_&#x200B;區段，您可以執行基本影像管理工作，例如上傳多個影像、重新排列影像，以及控制如何使用每個影像。 若要進一步控制個別影像，您可以在_&#x200B;詳細資料檢視&#x200B;_中開啟每個影像。 如需詳細資訊，請參閱[目錄影像和視訊](catalog-images-video.md)。
 
 ## 上傳新影像
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
 
    ![影像和影片](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 影像詳細資料
 
-新增產品影像時，您可以在&#x200B;_[!UICONTROL Image Detail]_視窗中自訂影像顯示。
+新增產品影像時，您可以在&#x200B;_[!UICONTROL Image Detail]_&#x200B;視窗中自訂影像顯示。
 
 ![產品影像](./assets/image-video.png){width="600" zoomable="yes"}
 

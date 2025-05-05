@@ -47,9 +47,9 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
    1. 在清單中，選取一或多個要指派客戶的公司，然後按一下&#x200B;**[!UICONTROL Done]**。
 
-      [](catalog-shared.md)
+      [&#128279;](catalog-shared.md)
 
-   1. **[!UICONTROL First Name]****[!UICONTROL Last Name]****[!UICONTROL Email]**
+   1. **[!UICONTROL First Name]**&#x200B;**[!UICONTROL Last Name]**&#x200B;**[!UICONTROL Email]**
 
    1. **[!UICONTROL Allow remote shopping assistance]**
 
@@ -61,7 +61,7 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
 - _[!UICONTROL Customer Type]_
 
-  _[!UICONTROL Customer Type]__[!UICONTROL Individual user]__[!UICONTROL Company User]_
+  _[!UICONTROL Customer Type]_&#x200B;_[!UICONTROL Individual user]_&#x200B;_[!UICONTROL Company User]_
 
 - _[!UICONTROL Group]_
 
@@ -73,7 +73,7 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Account Information]**。
 
@@ -83,11 +83,11 @@ If needed, you can assign a user to more than one company. For example, if B2B b
 
 ## 從使用者帳戶移除公司指派
 
-從使用者設定檔中移除公司會撤銷該公司的使用者存取權。 使用者資料仍可在「管理員」中存取。 如果您移除所有公司指派，_[!UICONTROL Customer Type]_會變更為&#x200B;*[!UICONTROL Individual user]*並停用該帳戶的B2B功能。
+從使用者設定檔中移除公司會撤銷該公司的使用者存取權。 使用者資料仍可在「管理員」中存取。 如果您移除所有公司指派，_[!UICONTROL Customer Type]_&#x200B;會變更為&#x200B;*[!UICONTROL Individual user]*&#x200B;並停用該帳戶的B2B功能。
 
 1. 從「管理員」的「客戶」格線中，編輯要更新的客戶設定檔。
 
-1. 在*[!UICONTROL Account Information]區段中，按一下公司名稱標籤中的&#x200B;**[!UICONTROL X]**，從&#x200B;**[!UICONTROL Associate to Company]**&#x200B;欄位中移除指派的公司。
+1. 在&#x200B;*[!UICONTROL Account Information]區段中，按一下公司名稱標籤中的&#x200B;**[!UICONTROL X]**，從&#x200B;**[!UICONTROL Associate to Company]**&#x200B;欄位中移除指派的公司。
 
 1. **[!UICONTROL Save Customer]**
 

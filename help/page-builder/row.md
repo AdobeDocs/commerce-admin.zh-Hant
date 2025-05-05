@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 新增列
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將新的&#x200B;**[!UICONTROL Row]**拖曳到舞台，正好在第一列的下方。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將新的&#x200B;**[!UICONTROL Row]**&#x200B;拖曳到舞台，正好在第一列的下方。
 
 1. 若要格式化列，請將滑鼠游標停留在列容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ### 影像型別設定
 
-如果您將&#x200B;_[!UICONTROL Background Type]_設為`Image`，請使用下列設定來定義背景影像顯示。
+如果您將&#x200B;_[!UICONTROL Background Type]_&#x200B;設為`Image`，請使用下列設定來定義背景影像顯示。
 
 ![背景影像](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
   下列範例中的列的邊框半徑為15。
 
-  邊框半徑為15](./assets/pb-settings-border-radius-15.png){width="500"}的![列
+  邊框半徑為15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的列
 
 - （選擇性）從目前的樣式表中指定要套用至列容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;名稱。
 

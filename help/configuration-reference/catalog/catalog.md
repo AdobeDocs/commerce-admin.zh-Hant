@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Category URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至類別URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Use Categories Path for Product URLs] | 存放區檢視 | 判斷類別路徑是否包含在店面的產品URL中。 這麼做可能會讓多個URL指向相同頁面，因而影響搜尋排名。 若要深入瞭解，請參閱[Canonical meta標籤](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 存放區檢視 | 決定每當URL索引鍵變更時是否自動建立永久重新導向。 實作時，預設會選取產品URL金鑰欄位下方的「建立舊URL的自訂重新導向」核取方塊。 選項： `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 全域 | 決定當使用者儲存包含許多指派產品的類別時，Adobe Commerce是否會產生資料並將其儲存到重寫表格中。  <br/><br/>變更此選項不會影響在Adobe Commerce中解析產品URL的方式，因為不論此設定為何，系統都會自動解析產品URL。 <br/><br/>選項： `Yes` / `No` <br/><br/>**_重要：_**將此產生的資料儲存至URL重寫資料表，可能會降低效能。 如需詳細資訊，請參閱[自動產品重新導向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 全域 | 決定當使用者儲存包含許多指派產品的類別時，Adobe Commerce是否會產生資料並將其儲存到重寫表格中。  <br/><br/>變更此選項不會影響在Adobe Commerce中解析產品URL的方式，因為不論此設定為何，系統都會自動解析產品URL。 <br/><br/>選項： `Yes` / `No` <br/><br/>**_重要：_**&#x200B;將此產生的資料儲存至URL重寫資料表，可能會降低效能。 如需詳細資訊，請參閱[自動產品重新導向](../../merchandising-promotions/url-redirect-product-automatic.md)。 |
 | [!UICONTROL Apply transliteration for product URL] | 存放區檢視 | 決定建立或更新產品URL時是否套用音譯。 選項： `Yes` / `No`。 預設值設為`Yes`。 <br/><br/>對於某些使用案例，您應該停用音譯。 例如，如果您以中文經營線上商店，SEO最佳實務建議產品URL符合產品名稱。 將選項設為`No`可讓產品URL中使用中文字元，而非ASCII等同專案。 |
 | [!UICONTROL Page Title Separator] | 存放區檢視 | 識別在瀏覽器標題列中分隔類別名稱和子類別的字元。 |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 存放區檢視 | 如果有多個URL指向相同的類別頁面，此選項會使用標準中繼標籤來識別搜尋引擎應編制索引的類別URL。 URL包含使用meta標籤的類別的完整名稱。 如此可減少重複內容並改善SEO。 選項： `Yes` / `No` |
@@ -281,7 +281,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL OpenSearch HTTP Password] | 全域 | 當&#x200B;_啟用Elasticsearch HTTP驗證_&#x200B;設定為`Yes`時，指定OpenSearch或Elasticsearch HTTP驗證的密碼。 |
 | [!UICONTROL OpenSearch Server Timeout] | 全域 | 決定OpenSearch或Elasticsearch伺服器要求逾時前的秒數。 預設值： `15` |
 | [!UICONTROL Test Connection] |  | 驗證OpenSearch或Elasticsearch連線。 |
-| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
+| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
 | [!UICONTROL Search Recommendations Count] | 存放區檢視 | 指定建議所提供的搜尋字詞數目。 依預設，不會顯示超過五個。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 存放區檢視 | 設定為`Yes`時，為建議的搜尋建議找到的產品數量會顯示在方括弧中。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 存放區檢視 | 決定是否顯示搜尋建議是否有常見的拼字錯誤。 啟用後，系統會針對未傳回任何結果且出現在&#x200B;**搜尋結果**&#x200B;頁面的`Did you mean`區段下的任何要求提供搜尋建議。 搜尋建議可能會影響搜尋效能。 設定為`Yes`時，會針對「啟用搜尋建議」和相關欄位顯示其他選項。 選項： `Yes` / `No` |
@@ -304,7 +304,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL Default Link Title] | 存放區檢視 | 所有可下載標題的預設連結。 |
 | [!UICONTROL Opens Links in New Window] | 網站 | 決定下載連結是否會在新的瀏覽器視窗中開啟。 選項： `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 存放區檢視 | 決定如何將可下載內容的連結傳遞為電子郵件附件或瀏覽器視窗中的內嵌連結。 選項： <br/>**`Attachment`**— 下載連結會以電子郵件附件的形式傳遞。<br/>**`Inline`** — 下載連結會在網頁上以內嵌連結的形式傳遞。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 網站 | 決定購買可下載產品的來賓是否必須註冊帳戶並登入以完成結帳程式。 選項： <br/>**`Yes`**— 如果購物車包含可下載的產品，訪客必須註冊帳戶或登入現有帳戶才能完成購買。<br/>**`No`** — 下載連結會以電子郵件內文中的內嵌連結形式傳遞。 <br/> _**注意：**_&#x200B;只有當「可共用」設定為`Yes`時，才能針對下載產品使用訪客簽出。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 網站 | 決定購買可下載產品的來賓是否必須註冊帳戶並登入以完成結帳程式。 選項： <br/>**`Yes`**— 如果購物車包含可下載的產品，訪客必須註冊帳戶或登入現有帳戶才能完成購買。<br/>**`No`** — 下載連結會以電子郵件內文中的內嵌連結形式傳遞。 <br/> _&#x200B;**注意：**&#x200B;_&#x200B;只有當「可共用」設定為`Yes`時，才能針對下載產品使用訪客簽出。 |
 
 {style="table-layout:auto"}
 

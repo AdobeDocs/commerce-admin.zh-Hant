@@ -190,7 +190,7 @@ ht-degree: 0%
 
 1. 選取&#x200B;**[!UICONTROL Commerce]**&#x200B;以檢視可用的Commerce專案。
 
-   適用於Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}的![Commerce專案工作區
+   適用於Experience Cloud![&#128279;](./assets/admin-uex-commerce-projects-home.png){width="600" zoomable="yes"}的Commerce專案工作區
 
 1. 選取&#x200B;**[!UICONTROL Open]**，開啟執行個體的管理員。
 

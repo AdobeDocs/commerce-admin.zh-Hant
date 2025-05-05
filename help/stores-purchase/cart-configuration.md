@@ -51,7 +51,7 @@ _迷你購物車_會顯示購物車中的專案摘要。 此功能預設為啟�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開&#x200B;_[!UICONTROL Mini Cart]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Mini Cart]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![設定迷你購物車](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -321,7 +321,7 @@ _迷你購物車_會顯示購物車中的專案摘要。 此功能預設為啟�
 
 1. 若要上傳贈品包裝的縮圖&#x200B;**[!UICONTROL Image]**，請按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並從您的目錄中選取要上傳的檔案。
 
-   儲存記錄後，_[!UICONTROL Gift Wrapping Information]_中會顯示影像縮圖。
+   儲存記錄後，_[!UICONTROL Gift Wrapping Information]_&#x200B;中會顯示影像縮圖。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

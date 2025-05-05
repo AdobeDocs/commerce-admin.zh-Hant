@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 若要新增來源，請按一下&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_頁面上，選取您要指派給產品的每個來源旁的核取方塊。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;頁面上，選取您要指派給產品的每個來源旁的核取方塊。
 
    ![產品 — 指派來源](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 

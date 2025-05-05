@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | 全域 | 定義優惠券的程式碼格式。 選項包括： <br/>**`Alphanumeric`**— 任何字母和數字的組合。<br/>**`Alphabetical`** — 僅限字母。 <br/>**`Numeric`**— 僅限數字。 |
 | [!UICONTROL Code Prefix] | 全域 | 附加至所有抵用券代碼開頭的值。 如果您不想使用首碼，請將此欄位留空。 |
 | [!UICONTROL Code Suffix] | 全域 | 附加至所有程式碼結尾的值。 如果您不想使用尾碼，請將此欄位留空。 |
-| [!UICONTROL Dash Every X Characters] | 全域 | 在所有優惠券代碼中插入破折號(-)的間隔。 如果您不想使用破折號，請將此欄位留空。 <br/>_**注意：**_&#x200B;只有破折號不同的優惠券代碼會被視為不同的代碼。 |
+| [!UICONTROL Dash Every X Characters] | 全域 | 在所有優惠券代碼中插入破折號(-)的間隔。 如果您不想使用破折號，請將此欄位留空。 <br/>_&#x200B;**注意：**&#x200B;_&#x200B;只有破折號不同的優惠券代碼會被視為不同的代碼。 |
 
 {style="table-layout:auto"}

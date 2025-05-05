@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | 網站 | URL，指向安全性研究人員可用來傳送加密通訊的加密金鑰位置。 _**請勿在此欄位中輸入加密金鑰。**_ <br/><br/>研究人員有責任確認金鑰來自可靠的來源。 研究人員不得假設金鑰與用來產生數位簽名的金鑰相同。 範例：<br />來自網頁伺服器的OpenPGP金鑰 — `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | 網站 | URL，指向安全性研究人員可用來傳送加密通訊的加密金鑰位置。 _&#x200B;**請勿在此欄位中輸入加密金鑰。**&#x200B;_ <br/><br/>研究人員有責任確認金鑰來自可靠的來源。 研究人員不得假設金鑰與用來產生數位簽名的金鑰相同。 範例：<br />來自網頁伺服器的OpenPGP金鑰 — `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | 網站 | URL會指向您商店中安全性研究人員獲得認可的頁面，例如`https://mystore.com/hall-of-fame.html`。 為了防止日後的攻擊，請僅包含一般說明，但不顯示有關漏洞問題的特定資訊。 範例：<br />我們要感謝以下研究人員：<br />(yyyy/mm/dd) Justin Thyme - SQL插入 |
 | [!UICONTROL Preferred Languages] | 網站 | 指定至少一個偏好的安全性報告語言。 請使用逗號分隔多個雙字元[語言代碼](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)。 所有指定的語言都有相同的優先順序。 例如，若要指定英文、西班牙文和法文，請輸入`en, es, fr`。 |
 | [!UICONTROL Hiring] | 網站 | 網站上列出安全性相關職位之頁面的URL。 範例： `https://mystore.com/jobs.html` |

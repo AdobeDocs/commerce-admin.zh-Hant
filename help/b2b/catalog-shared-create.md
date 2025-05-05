@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新目錄會出現在&#x200B;_[!UICONTROL Shared Catalogs]_格線中。
+   新目錄會出現在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;格線中。
 
 ### 方法2：複製現有的共用目錄
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   重複專案出現在&#x200B;_[!UICONTROL Shared Catalogs]_格線中，並具有唯一識別碼。
+   重複專案出現在&#x200B;_[!UICONTROL Shared Catalogs]_&#x200B;格線中，並具有唯一識別碼。
 
 ## 步驟2：完成設定
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，目錄的每個[類別許可權](../catalog/category-permissions.md)都設為&#x200B;_[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，目錄的每個[類別許可權](../catalog/category-permissions.md)都設為&#x200B;_[!UICONTROL Allow for the Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
 
 ## 共用目錄示範
 

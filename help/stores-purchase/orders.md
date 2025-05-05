@@ -111,7 +111,7 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 | [!UICONTROL Grand Total (Base)] | 訂單的總計。 |
 | [!UICONTROL Grand Total (Purchased)] | 訂單中購買的產品總數。 |
 | [!UICONTROL Status] | 目前的訂單狀態。 |
-| [!UICONTROL Action] | _[!UICONTROL View]_會以編輯模式開啟訂單。 |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;會以編輯模式開啟訂單。 |
 | [!UICONTROL Allocated sources] | 配置給該特定訂單的來源。 |
 
 {style="table-layout:auto"}

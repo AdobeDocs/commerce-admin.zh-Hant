@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 可以為商店檢視或網站範圍產生URL重寫。 從管理員設定URL重寫範圍： **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**。 在_[!UICONTROL Product URL Rewrite Scope]_&#x200B;欄位中選取範圍。
+> 可以為商店檢視或網站範圍產生URL重寫。 從管理員設定URL重寫範圍： **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**。 在&#x200B;_[!UICONTROL Product URL Rewrite Scope]_&#x200B;欄位中選取範圍。
 
 ## 自動重新導向產品URL
 

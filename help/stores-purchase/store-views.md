@@ -57,9 +57,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
 
-1. 在網格的&#x200B;_[!UICONTROL Store View]_欄中，按一下您要編輯的檢視表名稱。
+1. 在網格的&#x200B;_[!UICONTROL Store View]_&#x200B;欄中，按一下您要編輯的檢視表名稱。
 
-   編輯預設檢視時，_[!UICONTROL Store]_和_[!UICONTROL Status]_&#x200B;欄位無法使用。
+   編輯預設檢視時，_[!UICONTROL Store]_&#x200B;和_[!UICONTROL Status]_&#x200B;欄位無法使用。
 
    ![存放區檢視 — 編輯預設檢視](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

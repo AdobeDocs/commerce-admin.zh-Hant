@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ![管理員 — 傳入訊息](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_頁面列出所有依日期排名的訊息。_[!UICONTROL Action]_&#x200B;命令可用來將個別郵件標示為已讀取、檢視更多詳細資訊，或從收件匣移除郵件。
+_[!UICONTROL Notifications]_&#x200B;頁面列出所有依日期排名的訊息。_[!UICONTROL Action]_&#x200B;命令可用來將個別郵件標示為已讀取、檢視更多詳細資訊，或從收件匣移除郵件。
 
 此設定會決定收件匣更新的頻率，以及傳遞訊息的方式。 如果您的商店管理員有安全URL，則必須透過HTTPS傳送通知。
 

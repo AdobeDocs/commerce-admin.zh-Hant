@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-_[!UICONTROL Autosettings]_區段包含其他作業相依性的任何屬性。 您可以視需要將預設[RMA組態](../stores-purchase/rma-configure.md)設定套用至產品或加以覆寫。
+_[!UICONTROL Autosettings]_&#x200B;區段包含其他作業相依性的任何屬性。 您可以視需要將預設[RMA組態](../stores-purchase/rma-configure.md)設定套用至產品或加以覆寫。
 
 ![自動設定](./assets/product-autosettings.png){width="600" zoomable="yes"}

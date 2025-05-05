@@ -28,15 +28,15 @@ ht-degree: 0%
 
    ![插入影像圖示](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊。
 
-1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左側的目錄樹狀結構中，執行下列任一項作業：
 
    - 導覽至您要儲存上傳影像的資料夾。
 
-   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。****
+   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。**&#x200B;**
 
      若要新增資料夾，請輸入資料夾名稱並按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在[編輯器](editor.md)工具列上，按一下&#x200B;_插入影像_&#x200B;圖示。
 
-1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![選取搜尋圖示](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

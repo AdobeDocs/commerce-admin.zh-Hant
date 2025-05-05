@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 在&#x200B;_[!UICONTROL Price]_欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_&#x200B;欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Tier Price]_區段中，按一下&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Tier Price]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
    如果您要建立多個價格的階層，請按一下每個額外階層&#x200B;**[!UICONTROL Add]**，以便同時處理所有階層。 群組中的每個層級都有相同的網站和客戶群組或共用目錄指派，但數量和價格不同。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >若要取得折扣價格，已定義的百分比是根據&#x200B;_[!UICONTROL Price]_欄位中定義的值（而非_[!UICONTROL Special Price]_&#x200B;欄位）計算。
+     >若要取得折扣價格，已定義的百分比是根據&#x200B;_[!UICONTROL Price]_&#x200B;欄位中定義的值（而非&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位）計算。
 
      以百分比形式![層級價格](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

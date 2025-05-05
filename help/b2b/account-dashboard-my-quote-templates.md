@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-如果已啟用報價，客戶帳戶儀表板的&#x200B;_[!UICONTROL My Quotes Template]_區段會列出與客戶帳戶相關聯的所有報價範本。 視其許可權而定，只有代表公司進行採購的採購員才能請求報價範本，並協商重複產生訂單的報價定價與條款。
+如果已啟用報價，客戶帳戶儀表板的&#x200B;_[!UICONTROL My Quotes Template]_&#x200B;區段會列出與客戶帳戶相關聯的所有報價範本。 視其許可權而定，只有代表公司進行採購的採購員才能請求報價範本，並協商重複產生訂單的報價定價與條款。
 
 ![我的報價範本](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL My Quote Templates]**。
 
-1. 在清單中尋找引號範本，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL View]**。
+1. 在清單中尋找引號範本，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL View]**。
 
 ## 新增送貨地址
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 從報價範本頁面，按一下&#x200B;**[!UICONTROL Cancel Quote Template]**。
 
-報價範本已取消，且報價狀態變更為`Closed`。 已關閉的引號會保留在您的&#x200B;*[!UICONTROL Inactive]*&#x200B;引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_格線中。
+報價範本已取消，且報價狀態變更為`Closed`。 已關閉的引號會保留在您的&#x200B;*[!UICONTROL Inactive]*&#x200B;引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quote Templates]_&#x200B;格線中。
 
 ## 管理參考檔案連結
 

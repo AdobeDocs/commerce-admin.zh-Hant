@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品屬性的大量更新
 
-使用&#x200B;_[!UICONTROL Update Attributes]_工具變更產品中的一或多個屬性。 此工具可讓您對大量產品套用重大變更。
+使用&#x200B;_[!UICONTROL Update Attributes]_&#x200B;工具變更產品中的一或多個屬性。 此工具可讓您對大量產品套用重大變更。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 

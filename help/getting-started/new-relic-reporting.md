@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 若要在伺服器上設定PHP代理程式，請依照指示操作。
 
-   如果您需要協助，請參閱適用於PHP][3]的[New Relic。
+   如果您需要協助，請參閱適用於PHP&rbrack;[3]的&lbrack;New Relic。
 
 1. 請確定cron正在您的伺服器上執行。
 
@@ -125,6 +125,7 @@ ht-degree: 0%
     WHERE appName =&#39;&lt;your_app_name>&#39; FACET AdminName自1天前
 
     
+
 #### 最新的管理員活動
 
 返回有關最近管理員操作的詳細資訊，包括管理員使用者名、持續時間和應用程式名稱。
@@ -155,6 +156,7 @@ ht-degree: 0%
     值且 CatalogCategoryCount > 0
     且 appName = &#39;&lt;your_app_name>&#39; 自 2 分鐘前開始 限制 1
 &lt;/your_app_name>
+
 #### 活動產品
 
 傳回指定時段內依產品分類的應用程式事件數。

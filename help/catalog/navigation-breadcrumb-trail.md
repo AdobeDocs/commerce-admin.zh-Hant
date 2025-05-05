@@ -48,11 +48,11 @@ _階層連結路徑_&#x200B;是一組連結，可顯示客戶與商店中其他�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
 
    ![顯示CMS頁面的階層連結](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. 展開&#x200B;_[!UICONTROL Default Pages]_區段。
+1. 展開&#x200B;_[!UICONTROL Default Pages]_&#x200B;區段。
 
 1. 取消選取&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊。
 

@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 尋找格線中的順序，然後按一下&#x200B;**[!UICONTROL View]**。
 
-1. 如果&#x200B;_[!UICONTROL Credit Memo]_按鈕在按鈕列中可見，請執行下列任一項作業：
+1. 如果&#x200B;_[!UICONTROL Credit Memo]_&#x200B;按鈕在按鈕列中可見，請執行下列任一項作業：
 
    - 若要發出`offline`退款，請前往步驟#6。
    - 若要發出`online`退款，請繼續步驟#4。

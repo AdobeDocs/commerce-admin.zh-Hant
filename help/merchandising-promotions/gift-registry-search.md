@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![禮品登入 — 搜尋設定](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
 
    - 輸入&#x200B;**[!UICONTROL Widget Title]**&#x200B;以供內部參考。
 

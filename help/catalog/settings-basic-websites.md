@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_區段會根據[商店階層](../stores-purchase/stores.md)，識別產品可用的每個網站。
+_[!UICONTROL Product in Websites]_&#x200B;區段會根據[商店階層](../stores-purchase/stores.md)，識別產品可用的每個網站。
 
 ![產品網站範圍圖表](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ _[!UICONTROL Product in Websites]_區段會根據[商店階層](../stores-purcha
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product in Websites]_區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product in Websites]_&#x200B;區段。
 
    ![網站中的產品](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 

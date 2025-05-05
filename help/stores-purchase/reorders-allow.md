@@ -14,7 +14,7 @@ ht-degree: 0%
 
 啟用後，可以直接從客戶帳戶或&#x200B;_Admin_&#x200B;中的原始訂單進行重新排序。 依預設會啟用重新排序。
 
-在Admin](./assets/customer-reorder.png){width="700" zoomable="yes"}中![客戶重新排序連結
+在Admin![&#128279;](./assets/customer-reorder.png){width="700" zoomable="yes"}中客戶重新排序連結
 
 ## 為訂單啟用重新排序的條件
 

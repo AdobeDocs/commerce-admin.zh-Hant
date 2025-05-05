@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 設定稅捐類別
 
-用於送貨的稅捐類別，以及[產品與客戶](#add-a-product-tax-class)的預設稅捐類別是在&#x200B;_[!UICONTROL Sales]_組態中設定的。
+用於送貨的稅捐類別，以及[產品與客戶](#add-a-product-tax-class)的預設稅捐類別是在&#x200B;_[!UICONTROL Sales]_&#x200B;組態中設定的。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

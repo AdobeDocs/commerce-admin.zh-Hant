@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL Newsletter]**。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    >
    >若要大量取消訂閱，請選取您要取消之每個訂閱者的核取方塊。
 
-1. 將&#x200B;_[!UICONTROL Action]_控制項設為&#x200B;**[!UICONTROL Unsubscribe]**並按一下&#x200B;**[!UICONTROL Submit]**。
+1. 將&#x200B;_[!UICONTROL Action]_&#x200B;控制項設為&#x200B;**[!UICONTROL Unsubscribe]**&#x200B;並按一下&#x200B;**[!UICONTROL Submit]**。
 
    ![取消訂閱電子報](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 匯出訂閱者清單
 
-1. 從&#x200B;_[!UICONTROL Newsletter Subscribers]_清單中，使用篩選器控制項僅包含具有_&#x200B;狀態&#x200B;_（共`Subscribed`個）的記錄，並用於適當的網站、商店或商店檢視。
+1. 從&#x200B;_[!UICONTROL Newsletter Subscribers]_&#x200B;清單中，使用篩選器控制項僅包含具有_&#x200B;狀態&#x200B;_（共`Subscribed`個）的記錄，並用於適當的網站、商店或商店檢視。
 
 1. 將&#x200B;**[!UICONTROL Export to]**&#x200B;控制項設定為下列其中一項：
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 
 1. 在網格中尋找訂戶，並選取第一欄中的核取方塊。
 
-1. 將&#x200B;_[!UICONTROL Action]_控制項設為&#x200B;**[!UICONTROL Delete]**並按一下&#x200B;**[!UICONTROL Submit]**。
+1. 將&#x200B;_[!UICONTROL Action]_&#x200B;控制項設為&#x200B;**[!UICONTROL Delete]**&#x200B;並按一下&#x200B;**[!UICONTROL Submit]**。
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。

@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在格線中尋找順序。
 
-1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
 
 1. 檢查訂單狀態：
 

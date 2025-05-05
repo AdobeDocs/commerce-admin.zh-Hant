@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-客戶區段會建立並顯示在&#x200B;_[!UICONTROL Customer Segments]_格線中。
+客戶區段會建立並顯示在&#x200B;_[!UICONTROL Customer Segments]_&#x200B;格線中。
 
 >[!TIP]
 >

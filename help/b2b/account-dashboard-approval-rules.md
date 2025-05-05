@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 核准規則設定
 
-B2B客戶擁有其角色](account-company-roles-permissions.md)所需的[許可權，可以按一下其客戶帳戶左側面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;來設定核准規則，以強制執行公司原則。
+B2B客戶擁有其角色[&#128279;](account-company-roles-permissions.md)所需的許可權，可以按一下其客戶帳戶左側面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;來設定核准規則，以強制執行公司原則。
 
 ![公司核准規則](./assets/approval-rules.png){width="700" zoomable="yes"}
 

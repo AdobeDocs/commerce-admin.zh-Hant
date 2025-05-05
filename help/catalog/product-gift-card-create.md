@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在&#x200B;_[!UICONTROL Add Product]_的右上角(![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"}  )功能表，選擇&#x200B;**[!UICONTROL Gift Card]**。
+1. 在&#x200B;_[!UICONTROL Add Product]_&#x200B;的右上角(![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"}  )功能表，選擇&#x200B;**[!UICONTROL Gift Card]**。
 
    ![新增禮品卡](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -96,9 +96,9 @@ ht-degree: 0%
 
 ### 步驟5：完成禮卡資訊
 
-產品設定的&#x200B;_[!UICONTROL Gift Card Information]_區段可用來覆寫決定卡片管理方式的[禮卡組態](../configuration-reference/sales/gift-cards.md)設定。
+產品設定的&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;區段可用來覆寫決定卡片管理方式的[禮卡組態](../configuration-reference/sales/gift-cards.md)設定。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Gift Card Information]_區段。
+1. 向下捲動至&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;區段。
 
    此段落中的預設設定由系統組態決定。
 

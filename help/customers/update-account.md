@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 更新客戶設定檔
 
-_[!UICONTROL Customer Information]_頁面的左側面板包含有關客戶活動、地址、訂單統計資料、最近訂單、購物車內容、產品評論和電子報訂閱的資訊。
+_[!UICONTROL Customer Information]_&#x200B;頁面的左側面板包含有關客戶活動、地址、訂單統計資料、最近訂單、購物車內容、產品評論和電子報訂閱的資訊。
 
 ![客戶設定檔](assets/cust-profile.png){width="700" zoomable="yes"}
 

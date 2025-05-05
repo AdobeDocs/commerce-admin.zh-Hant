@@ -19,7 +19,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 尋找客戶記錄並按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;[!UICONTROL **編輯**]。
+1. 尋找客戶記錄並按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;[!UICONTROL **編輯**]。
 
 1. 在左側面板中，選擇要編輯的資訊並進行必要的變更。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 | **[!UICONTROL Web Site]** | 商店階層中與客戶帳戶相關聯的網站。 |
 | **[!UICONTROL Confirmed Email]** | 表示是否需要確認電子郵件。 |
 | **[!UICONTROL Account Created In]** | 表示建立客戶帳戶的來源商店檢視。 |
-| **[!UICONTROL Date of Birth]** | 客戶的出生日期。 <br><br>**_重要：_**根據目前的安全性和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
+| **[!UICONTROL Date of Birth]** | 客戶的出生日期。 <br><br>**_重要：_**&#x200B;根據目前的安全性和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
 | **[!UICONTROL Tax / VAT Number]** | 如果適用，則為指定給客戶的稅捐編號或[加值稅](../stores-purchase/vat.md)編號。 <br/><br/>此欄位與VAT編號不同。 |
 | **[!UICONTROL Gender]** | 客戶的性別。 |
 | **[!UICONTROL Action]** | 編輯 — 在編輯模式中開啟公司帳戶。 |

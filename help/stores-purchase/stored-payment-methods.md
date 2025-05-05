@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Place Order]**。
 
-然後，儲存的付款方式會顯示在客戶儀表板的&#x200B;_[!UICONTROL Stored Payment Methods]_索引標籤中。
+然後，儲存的付款方式會顯示在客戶儀表板的&#x200B;_[!UICONTROL Stored Payment Methods]_&#x200B;索引標籤中。
 
 ## 刪除儲存的付款方法
 

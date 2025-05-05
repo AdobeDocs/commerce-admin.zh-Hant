@@ -144,7 +144,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_客戶資訊_&#x200B;底下，選擇&#x200B;**[!UICONTROL Reward Points]**&#x200B;區段。
 
@@ -164,7 +164,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**。
 
-與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_區塊中。
+與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;區塊中。
 
 ## 欄位說明
 

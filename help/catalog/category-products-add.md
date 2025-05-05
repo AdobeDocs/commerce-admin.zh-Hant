@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![搜尋所有產品索引標籤](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Assign]_欄中，將您要新增之每個產品的選項切換為`Yes`。
+1. 在&#x200B;_[!UICONTROL Assign]_&#x200B;欄中，將您要新增之每個產品的選項切換為`Yes`。
 
    如果您想要包含所有顯示的產品，可以按一下欄標題中的功能表箭頭，然後選擇&#x200B;**[!UICONTROL Select All]**。
 
@@ -67,10 +67,10 @@ ht-degree: 0%
 
 1. 在左側的類別樹狀結構中，選擇要編輯的類別。
 
-1. 展開&#x200B;_[!UICONTROL Products in Category]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Products in Category]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 尋找要移除的產品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_欄中按一下&#x200B;**[!UICONTROL Unassign]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Unassign]**。
 
 1. 若要套用變更，請按一下&#x200B;**[!UICONTROL Save]**。

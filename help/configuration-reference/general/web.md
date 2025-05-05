@@ -23,7 +23,7 @@ ht-degree: 0%
 | 欄位 | 範圍 | 說明 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | 全域 | 如果啟用了「網頁伺服器重寫」，請在URL中插入目前檢視的「商店代碼」。 選項： `Yes` / `No`。 <br />當此欄位設為`Yes`時，您必須在瀏覽器URL中包含存放區代碼，以確保URL重寫正確對應且所有頁面都成功開啟。 這可避免&#x200B;_404找不到頁面_&#x200B;錯誤。 |
-| [!UICONTROL Auto-redirect to Base URL] | 存放區檢視 | （針對單一商店設定）如果您的網站上有中斷的連結，會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要：_**請勿在多存放區設定中使用自動重新導向至基底URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 存放區檢視 | （針對單一商店設定）如果您的網站上有中斷的連結，會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要：_**&#x200B;請勿在多存放區設定中使用自動重新導向至基底URL。 |
 | [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的[URL格式](../../catalog/catalog-urls.md)。 選項：「每個影像變體的唯一雜湊」（舊版模式）會將轉換的檔案名稱定義為唯一的雜湊值。 根據查詢引數的影像最佳化會根據查詢引數定義[影像最佳化](../../content-design/media-gallery-image-optimization.md)程式。 |
 
 {style="table-layout:auto"}

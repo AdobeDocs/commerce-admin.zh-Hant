@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Product Reviews]
 
-_[!UICONTROL Product Reviews]_區段列出客戶已提交的所有產品評論。 第一次儲存新產品後，此區段才會與其他產品資訊一起顯示。 如需詳細資訊，請參閱[產品評論](../merchandising-promotions/product-reviews.md)。
+_[!UICONTROL Product Reviews]_&#x200B;區段列出客戶已提交的所有產品評論。 第一次儲存新產品後，此區段才會與其他產品資訊一起顯示。 如需詳細資訊，請參閱[產品評論](../merchandising-promotions/product-reviews.md)。
 
 ![產品評論](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ _[!UICONTROL Product Reviews]_區段列出客戶已提交的所有產品評論�
 
 1. 找到產品並以編輯模式開啟。
 
-1. 捲動至&#x200B;_[!UICONTROL Product Reviews]_區段。
+1. 捲動至&#x200B;_[!UICONTROL Product Reviews]_&#x200B;區段。
 
 1. 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;進行狀態為`Pending`的產品檢閱，以檢視及編輯詳細資料。
 

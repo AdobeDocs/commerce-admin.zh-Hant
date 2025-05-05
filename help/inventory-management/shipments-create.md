@@ -43,7 +43,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存](stocks-prioritize-sources.md)的來源設定[優先順序。
+     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存[&#128279;](stocks-prioritize-sources.md)的來源設定優先順序。
 
 
    - 針對&#x200B;**[!UICONTROL Select a Source to Ship from]**，選取要傳送出貨的來源。
@@ -54,9 +54,9 @@ ht-degree: 0%
 
      ![選取Source並輸入數量](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. 檢閱&#x200B;_[!UICONTROL New Shipment]_頁面，並視需要輸入任何其他變更。
+1. 檢閱&#x200B;_[!UICONTROL New Shipment]_&#x200B;頁面，並視需要輸入任何其他變更。
 
-   _[!UICONTROL Inventory]_區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
+   _[!UICONTROL Inventory]_&#x200B;區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
 
    ![出貨的詳細存貨資訊，例如部份出貨](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

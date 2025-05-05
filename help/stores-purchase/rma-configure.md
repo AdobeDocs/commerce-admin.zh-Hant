@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-啟用後，客戶可以從店面提交RMA請求。 只有在訂單中有可退貨的專案時，才能產生RMA。 傳回個別專案的要求是由每個產品記錄中的&#x200B;_啟用RMA_&#x200B;屬性所管理。 依照預設，組態設定會套用至產品（已選取&#x200B;_[!UICONTROL Use Config Settings]_）。 如果_[!UICONTROL Enable RMA]_&#x200B;設為`No`，產品不會出現在可傳回的專案清單中。 若您變更&#x200B;_啟用RMA_&#x200B;設定，該設定會同時套用至新訂單與現有訂單。
+啟用後，客戶可以從店面提交RMA請求。 只有在訂單中有可退貨的專案時，才能產生RMA。 傳回個別專案的要求是由每個產品記錄中的&#x200B;_啟用RMA_&#x200B;屬性所管理。 依照預設，組態設定會套用至產品（已選取&#x200B;_[!UICONTROL Use Config Settings]_）。 如果&#x200B;_[!UICONTROL Enable RMA]_&#x200B;設為`No`，產品不會出現在可傳回的專案清單中。 若您變更&#x200B;_啟用RMA_&#x200B;設定，該設定會同時套用至新訂單與現有訂單。
 
 ## 啟用商店的RMA
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    此設定決定店面個別產品的&#x200B;_啟用RMA_&#x200B;屬性的行為：
 
-   - 當[!UICONTROL Enable RMA on Product Level]設定為`Yes`時，店面上的客戶可以傳回所有個別產品。 它包含&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和_[!UICONTROL Enable RMA]_ = `No`產品屬性值。
+   - 當[!UICONTROL Enable RMA on Product Level]設定為`Yes`時，店面上的客戶可以傳回所有個別產品。 它包含&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和&#x200B;_[!UICONTROL Enable RMA]_ = `No`產品屬性值。
    - 當[!UICONTROL Enable RMA on Product Level]設定為`No`時，店面的客戶只能傳回具有&#x200B;_[!UICONTROL Enable RMA]_= `Yes`產品屬性值的產品。
 
 1. 將&#x200B;**[!UICONTROL Use Store Address]**&#x200B;設定為下列其中一個值：

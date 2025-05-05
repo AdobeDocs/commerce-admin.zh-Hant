@@ -62,7 +62,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->當&#x200B;_[!UICONTROL Use in Search]_設定設為`No`時，不會顯示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
+>當&#x200B;_[!UICONTROL Use in Search]_&#x200B;設定設為`No`時，不會顯示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 1. 瀏覽或使用篩選搜尋來尋找清單中的屬性，並在編輯模式下開啟它。
 
-1. 在&#x200B;_[!UICONTROL Attribute Information]_底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 在&#x200B;_[!UICONTROL Attribute Information]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
 
 1. 針對&#x200B;**[!UICONTROL Layered Navigation]**，請選擇`Filterable (with results)`。
 
@@ -145,7 +145,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!IMPORTANT]
 >
->若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**值。 對於_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
+>若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 對於&#x200B;_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -207,9 +207,9 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
+1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開&#x200B;_[!UICONTROL Layered Navigation]_區段。
+1. 展開&#x200B;_[!UICONTROL Layered Navigation]_&#x200B;區段。
 
    >[!NOTE]
    >

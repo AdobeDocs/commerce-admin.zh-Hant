@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![登出](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_頁面會顯示您已登出的訊息。 每當您離開電腦時，請登出_ Admin _。
+_[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您離開電腦時，請登出_ Admin _。
 
 ## 編輯帳戶資訊
 

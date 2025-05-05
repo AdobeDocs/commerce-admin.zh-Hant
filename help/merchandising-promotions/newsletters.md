@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 若要啟用存放區檢視範圍的電子報，請將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-啟用Newsletter功能後，_[!UICONTROL Subscription Options]_區段隨即顯示。
+啟用Newsletter功能後，_[!UICONTROL Subscription Options]_&#x200B;區段隨即顯示。
 
 ## 設定訂閱選項
 

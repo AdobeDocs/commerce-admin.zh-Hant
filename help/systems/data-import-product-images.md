@@ -58,7 +58,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!TIP]
    >
-   >保留&#x200B;_[!UICONTROL Images File Directory]_空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
+   >保留&#x200B;_[!UICONTROL Images File Directory]_&#x200B;空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
 
    如果為單一`sku`匯入多個影像，請將影像插入名為`additional_images`的欄中（如果尚未新增，請新增該欄），並以逗號分隔。 範例： `image02.jpg,image03.jpg`
 
@@ -84,7 +84,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!NOTE]
    >
-   >從Adobe Commerce和Magento Open Source`2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_中指定的路徑會串連以匯入影像基底目錄： `<remote-storage-root-folder>/var/import/images`。 對於舊版Adobe Commerce和Magento Open Source，只要在匯入過程中指定資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
+   >從Adobe Commerce和Magento Open Source`2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路徑會串連以匯入影像基底目錄： `<remote-storage-root-folder>/var/import/images`。 對於舊版Adobe Commerce和Magento Open Source，只要在匯入過程中指定資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
 
 1. 在CSV資料中，輸入要匯入到正確資料列上的每個影像檔案的名稱，依`sku`輸入，並根據影像型別（`base_image`、`small_image`、`thumbnail_image`或`additional_images`）輸入到正確的資料欄中。
 
@@ -106,7 +106,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!TIP]
    >
-   >將&#x200B;_[!UICONTROL Images File Directory]_保留空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
+   >將&#x200B;_[!UICONTROL Images File Directory]_&#x200B;保留空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
 
    如果為單一`sku`匯入多個影像，請在名為`additional_images`的欄中插入影像（如果尚未新增，請新增該欄），並以逗號分隔： `image02.jpg,image03.jpg`
 

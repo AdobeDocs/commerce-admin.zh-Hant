@@ -41,14 +41,14 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。 <br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_**&#x200B;注意：**_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
+| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。 <br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
 | [!UICONTROL Tax Calculation Based On] | 網站 | 決定稅捐的計算是根據送貨地址、帳單地址或送貨來源。 選項： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 網站 | 決定型錄價格是否包含或排除稅捐。 選項： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 網站 | 決定出貨價格是否包含稅捐。 選項： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Customer Tax] | 網站 | 決定稅捐是在折扣之前或之後套用。 選項： `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | 網站 | 決定折扣價格是否包含或排除稅捐。 選項： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | 網站 | 決定稅捐是套用至原始價格，還是套用至自訂價格（若有的話）。 選項： `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | 網站 | 啟用時，會跨不同稅率的地區套用一致的定價。 選項： `Yes` / `No` <br/><br/>**_注意：_**使用跨境交易會依稅率調整利潤率。 |
+| [!UICONTROL Enable Cross Border Trade] | 網站 | 啟用時，會跨不同稅率的地區套用一致的定價。 選項： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;使用跨境交易會依稅率調整利潤率。 |
 
 {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | 存放區檢視 | 決定目錄中所發佈的產品價格是否包含或排除稅捐，或顯示兩個版本的價格；一個包含稅捐，另一個不含稅捐。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**如果您將「顯示產品價格」欄位設為`Including Tax`，則只有當稅捐規則符合稅捐來源或客戶地址符合稅捐規則時，才會顯示稅捐。 可觸發比對的事件包括客戶帳戶建立、登入，或在購物車中使用稅務和送貨預估工具。 |
+| [!UICONTROL Display Product Prices in Catalog] | 存放區檢視 | 決定目錄中所發佈的產品價格是否包含或排除稅捐，或顯示兩個版本的價格；一個包含稅捐，另一個不含稅捐。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_注意：_**&#x200B;如果您將「顯示產品價格」欄位設為`Including Tax`，則只有當稅捐規則符合稅捐來源或客戶地址符合稅捐規則時，才會顯示稅捐。 可觸發比對的事件包括客戶帳戶建立、登入，或在購物車中使用稅務和送貨預估工具。 |
 | [!UICONTROL Display Shipping Prices] | 存放區檢視 | 決定出貨價格是否包含或排除稅捐，或顯示兩個版本的出貨價格；一個包含稅捐，另一個不含稅捐。 選項： `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}

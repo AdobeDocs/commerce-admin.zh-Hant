@@ -49,7 +49,7 @@ ht-degree: 0%
 
    **方法1：**&#x200B;選擇現有的檢視
 
-   在&#x200B;_[!UICONTROL View]_欄的標題中，按一下向下箭頭，然後選擇要提供實驗資料的檢視。
+   在&#x200B;_[!UICONTROL View]_&#x200B;欄的標題中，按一下向下箭頭，然後選擇要提供實驗資料的檢視。
 
    **方法2：**&#x200B;建立新的報表檢視
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    - 完成後，按一下&#x200B;**[!UICONTROL Create View]**，然後按一下「上一步」箭頭返回上一頁。
 
-1. 在&#x200B;_[!UICONTROL Reports]_下方的左側面板中，選擇&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**。
+1. 在&#x200B;_[!UICONTROL Reports]_&#x200B;下方的左側面板中，選擇&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create experiment]**&#x200B;並執行下列動作：
 

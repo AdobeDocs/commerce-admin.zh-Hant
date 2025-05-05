@@ -41,7 +41,7 @@ Adobe Commerce和Magento Open Source的名稱和位址選項設定步驟不同�
 
    >[!INFO]
    >
-   >當範圍設定為`Default Store View`時，_[!UICONTROL Name and Address Options]_區段沒有出現。
+   >當範圍設定為`Default Store View`時，_[!UICONTROL Name and Address Options]_&#x200B;區段沒有出現。
 
    ![設定範圍](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

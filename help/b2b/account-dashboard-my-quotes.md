@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-如果已啟用報價單，客戶帳戶儀表板的&#x200B;_[!UICONTROL My Quotes]_區段會列出客戶提交的所有報價單。 視其許可權而定，只有代表公司進行購買的購買者才能提交議價購買價格的要求。
+如果已啟用報價單，客戶帳戶儀表板的&#x200B;_[!UICONTROL My Quotes]_&#x200B;區段會列出客戶提交的所有報價單。 視其許可權而定，只有代表公司進行購買的購買者才能提交議價購買價格的要求。
 
 ![我的報價](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 顯示引號
 
-擁有其角色](account-company-roles-permissions.md)所需[許可權，與公司帳戶關聯的購買者可以看到[從屬使用者](account-company-structure.md)要求的報價。 公司管理員可檢視公司帳戶的所有報價。
+擁有其角色[&#128279;](account-company-roles-permissions.md)所需許可權，與公司帳戶關聯的購買者可以看到[從屬使用者](account-company-structure.md)要求的報價。 公司管理員可檢視公司帳戶的所有報價。
 
 1. 購買者登入他們在店面的帳戶。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL My Quotes]**。
 
-1. 在清單中尋找引號，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL View]**。
+1. 在清單中尋找引號，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL View]**。
 
 ## 複製報價
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL My Quote Templates]**。
 
-1. 尋找&#x200B;**[!UICONTROL My Quotes]**&#x200B;清單中的引號，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Create Quote Template]**。
+1. 尋找&#x200B;**[!UICONTROL My Quotes]**&#x200B;清單中的引號，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Create Quote Template]**。
 
 ## 將報價單中的明細專案移至請購單清單
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 選取行專案。
 
-1. 在&#x200B;_[!UICONTROL Actions]_下拉式清單中按一下&#x200B;**[!UICONTROL Move to Requisition list]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下拉式清單中按一下&#x200B;**[!UICONTROL Move to Requisition list]**。
 
 1. 選取現有的請購單清單，以移動選取的專案。
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. 選取行專案。
 
-1. 在&#x200B;_[!UICONTROL Actions]_下拉式清單中按一下&#x200B;**[!UICONTROL Move item to new quote]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;下拉式清單中按一下&#x200B;**[!UICONTROL Move item to new quote]**。
 
 1. 在強制回應視窗中為新報價命名。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ## 列印報價
 
-1. 在&#x200B;_[!UICONTROL Items Quoted]_區段右側的未結報價中，購買者按一下&#x200B;**[!UICONTROL Print]**。
+1. 在&#x200B;_[!UICONTROL Items Quoted]_&#x200B;區段右側的未結報價中，購買者按一下&#x200B;**[!UICONTROL Print]**。
 
 1. 驗證&#x200B;**[!UICONTROL Destination]**&#x200B;是否為印表機或PDF。
 
@@ -158,13 +158,13 @@ ht-degree: 0%
 
 1. 在「專案報價」區段正上方的未結報價中，按一下&#x200B;**[!UICONTROL Close quote]**。
 
-   要求已取消，且報價狀態變更為`Closed`。 已結束的引號會保留在您的引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quotes]_格線中。
+   要求已取消，且報價狀態變更為`Closed`。 已結束的引號會保留在您的引號清單中，並保留在Admin的&#x200B;_[!UICONTROL Quotes]_&#x200B;格線中。
 
 1. 若要從報價清單中移除已取消的報價，請按一下&#x200B;**[!UICONTROL Delete]**。
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
-   已結束的報價會從他們的報價清單中移除。 但是，它仍列在「管理員」的&#x200B;_[!UICONTROL Quotes]_格線上，並具有`Closed`狀態。
+   已結束的報價會從他們的報價清單中移除。 但是，它仍列在「管理員」的&#x200B;_[!UICONTROL Quotes]_&#x200B;格線上，並具有`Closed`狀態。
 
 ## 報價動作
 
@@ -184,6 +184,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 採購員指定給報價請求的名稱。 |
 | [!UICONTROL Created] | 首次提交報價請求的日期。 |
 | [!UICONTROL Created By] | 提交報價請求的買方名字與姓氏。 |
-| [!UICONTROL Status] | 表示報價的狀態。 報價的狀態只能由買方或賣方執行動作來變更。 <br/>**[!UICONTROL Submitted]**— 賣家尚未開啟買家的報價請求。 在此狀態下，採購員仍可修改報價請求。 可用動作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 賣家已開啟要求，並正在檢閱和準備回應。 可用動作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 賣方已傳送回應給買方，且已啟用&#x200B;_[!UICONTROL Proceed to Checkout]_按鈕。 在此狀態下，採購員可以繼續修改報價單。 可用動作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 購買者仍在更新報價，且_[!UICONTROL Proceed to Checkout]_&#x200B;按鈕已停用。 可用的動作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 買方已根據議價的報價提交訂單。 報價已鎖定，無法編輯。 可用動作：檢視<br/>**[!UICONTROL Closed]** — 採購員已結束交涉並取消報價單。 報價已鎖定，買方或賣方均無法編輯。 可用動作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 賣家已拒絕報價請求，或在交涉過程中提出變更。 可在工作流程的任何階段拒絕報價。 任何自訂訂訂訂價都會從報價中移除。 採購員可以繼續編輯報價單並重新提交，或以標準型錄價格進行採購。 可用動作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 報價的期限已過期。 任何建議的價格都會重設。 採購員可以依據標準型錄價格完成採購，也可以啟動另一輪議價。 可用動作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 表示報價的狀態。 報價的狀態只能由買方或賣方執行動作來變更。 <br/>**[!UICONTROL Submitted]**— 賣家尚未開啟買家的報價請求。 在此狀態下，採購員仍可修改報價請求。 可用動作： `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** — 賣家已開啟要求，並正在檢閱和準備回應。 可用動作： `View` / `Close` <br/>**[!UICONTROL Updated]**— 賣方已傳送回應給買方，且已啟用&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按鈕。 在此狀態下，採購員可以繼續修改報價單。 可用動作： `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**— 購買者仍在更新報價，且&#x200B;_[!UICONTROL Proceed to Checkout]_&#x200B;按鈕已停用。 可用的動作： `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**— 買方已根據議價的報價提交訂單。 報價已鎖定，無法編輯。 可用動作：檢視<br/>**[!UICONTROL Closed]** — 採購員已結束交涉並取消報價單。 報價已鎖定，買方或賣方均無法編輯。 可用動作： `View` / `Delete` <br/>**[!UICONTROL Declined]**— 賣家已拒絕報價請求，或在交涉過程中提出變更。 可在工作流程的任何階段拒絕報價。 任何自訂訂訂訂價都會從報價中移除。 採購員可以繼續編輯報價單並重新提交，或以標準型錄價格進行採購。 可用動作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** — 報價的期限已過期。 任何建議的價格都會重設。 採購員可以依據標準型錄價格完成採購，也可以啟動另一輪議價。 可用動作： `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

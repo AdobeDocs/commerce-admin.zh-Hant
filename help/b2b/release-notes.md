@@ -49,9 +49,9 @@ B2B v1.5.2版本包含品質改良與錯誤修正。
 
 ![已修正問題](../assets/fix.svg) B2B v1.5.2版本包含下列可協商報價的修正：
 
-- <!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]欄位現在會驗證輸入，以防止輸入負折扣值。
-- <!-- B2B-3224 -->修正使用者體驗的問題，即長條列項目註釋被截断，B2B客户難以閱讀。
-- <!-- B2B-2865 -->B2B客戶現在可以在創建報價單時使用十進位值（例如 1.5 或 2.75）指定產品數量。
+- &#x200B;<!-- B2B-3252 -->[!UICONTROL Line Item Discount Amount]欄位現在會驗證輸入，以防止輸入負折扣值。
+- &#x200B;<!-- B2B-3224 -->修正使用者體驗的問題，即長條列項目註釋被截断，B2B客户難以閱讀。
+- &#x200B;<!-- B2B-2865 -->B2B客戶現在可以在創建報價單時使用十進位值（例如 1.5 或 2.75）指定產品數量。
 
 ### 報價範本
 
@@ -103,7 +103,7 @@ B2B v1.5.0 版本包括新功能、品質改進和錯誤修復。
 
 >[!NOTE]
 >
-> 通過查看向後不相容更改](backward-incompatible-changes.md)主題中的[突出顯示和參考資訊，瞭解 B2B 1.5.0 版本中引入的向後不相容更改 （BIC）。
+> 通過查看向後不相容更改[&#128279;](backward-incompatible-changes.md)主題中的突出顯示和參考資訊，瞭解 B2B 1.5.0 版本中引入的向後不相容更改 （BIC）。
 
 ### 公司管理
 
@@ -151,13 +151,13 @@ B2B v1.5.0 版本包括新功能、品質改進和錯誤修復。
 
 - **重新命名報價**<!--B2B-2596--> — 購買者現在可以選取&#x200B;**[!UICONTROL Rename]**&#x200B;選項，從[報價詳細資料](account-dashboard-my-quotes.md#quote-actions)頁面變更報價名稱。 授權購買者在編輯報價時，可使用此選項。 名稱變更事件會記錄在「報價記錄檔」中。
 
-- **重複報價**<!--B2B-2701--> — 買家和賣家現在可以複製現有的報價，建立新的報價。 通過在管理員或[店面](account-dashboard-my-quotes.md#quote-actions)中選擇報價詳細信息視圖](quote-price-negotiation.md#button-bar)，從&#x200B;**[!UICONTROL Create Copy]**[&#x200B;報價詳細信息視圖創建副本。
+- **重複報價**<!--B2B-2701--> — 買家和賣家現在可以複製現有的報價，建立新的報價。 通過在管理員或[店面](account-dashboard-my-quotes.md#quote-actions)中選擇報價詳細信息視圖[&#128279;](quote-price-negotiation.md#button-bar)，從&#x200B;**[!UICONTROL Create Copy]**&#x200B;報價詳細信息視圖創建副本。
 
 - **將報價單項移動到申請清單**<!--B2B-2755--> - 如果買家決定不在報價單協商流程中包括產品，現在可以靈活地從報價單中刪除產品並將其保存到申請清單。
 
 - **從報價移除多個產品**<!--B2B-2881--> — 在包含大量產品的報價上，購買者現在可以從報價移除多個產品，方法是選取這些產品，並使用報價詳細資料頁面上&#x200B;*[!UICONTROL Actions]*&#x200B;控制項中的&#x200B;*[!UICONTROL Remove]*&#x200B;選項。 在舊版中，購買者必須一次刪除一個產品。
 
-- **明細專案折扣鎖定**<!--B2B-2597--> — 在報價議價期間，賣家可使用明細專案折扣鎖定，以在報價議價處理期間套用折扣時獲得更大的彈性。 例如，賣家可對專案套用特殊明細專案折扣，並鎖定專案以防止進一步折扣。 鎖定料號時，套用報價層級折扣時無法更新料號價格。 請參閱為購買者](sales-rep-initiates-quote.md)起始[報價。
+- **明細專案折扣鎖定**<!--B2B-2597--> — 在報價議價期間，賣家可使用明細專案折扣鎖定，以在報價議價處理期間套用折扣時獲得更大的彈性。 例如，賣家可對專案套用特殊明細專案折扣，並鎖定專案以防止進一步折扣。 鎖定料號時，套用報價層級折扣時無法更新料號價格。 請參閱為購買者[&#128279;](sales-rep-initiates-quote.md)起始報價。
 
 ![已修正問題](../assets/fix.svg) **現有報價功能的修正**
 
@@ -181,7 +181,7 @@ B2B v1.5.0 版本包括新功能、品質改進和錯誤修復。
 
 ![新](../assets/new.svg)已新增與Adobe Commerce 2.4.7-p5+和2.4.6-p10+安全性修補程式版本的相容性。
 
-![已修正的問題](../assets/fix.svg) 包括安全性公告 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) 中[記錄的安全修正。
+![已修正的問題](../assets/fix.svg) 包括安全性公告 APSB25-26[&#128279;](https://helpx.adobe.com/security/products/magento/apsb25-26.html) 中記錄的安全修正。
 
 {{b2b-compatibility}}
 
@@ -303,7 +303,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-您可以通過為B2B安全包添加手動依賴項來解決此問題，方法是為具有穩定性標記](https://getcomposer.org/doc/04-schema.md#package-links)的[B2B安全包添加手動依賴項。有關說明，請參閱 [Adobe Systems 商務知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
+您可以通過為B2B安全包添加手動依賴項來解決此問題，方法是為具有穩定性標記[&#128279;](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全包添加手動依賴項。有關說明，請參閱 [Adobe Systems 商務知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)。
 
 ## B2B v1.3.5-p10
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg) <!--- MC-40426-->商戶現在可以使用POST `rest/all/V1/requisition_lists`端點來建立客戶的請購單清單。 之前，當您嘗試建立請購單清單時，Adobe Commerce擲回這個400錯誤： `Could not save Requisition List`。
 
-![已修正問題](../assets/fix.svg) <!--- MC-41123-->當購物車也包含無庫存產品時，購物車的庫存產品現在會出現&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按鈕。 先前，如果購物車包含兩個產品，其中一個沒有庫存，則這兩個產品都不會顯示&#x200B;_[!UICONTROL Add to Requisition List]_按鈕。
+![已修正問題](../assets/fix.svg) <!--- MC-41123-->當購物車也包含無庫存產品時，購物車的庫存產品現在會出現&#x200B;**[!UICONTROL Add to Requisition List]**&#x200B;按鈕。 先前，如果購物車包含兩個產品，其中一個沒有庫存，則這兩個產品都不會顯示&#x200B;_[!UICONTROL Add to Requisition List]_&#x200B;按鈕。
 
 ![已修復的問題](../assets/fix.svg) <!--- MC-40877--> 現在，您可以使用 REST API 將產品添加到申請清單。
 
@@ -629,7 +629,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg)由SKU使用快速訂購來訂購產品不會再導致CSV檔案中的產品數量重複。<!--- MC-37427-->
 
-![已修正問題](../assets/fix.svg)當「快速訂購」頁面的&#x200B;_[!UICONTROL Enter Multiple SKUs]_區段包含空白值時，**[!UICONTROL Add to Cart]**按鈕不再遭到封鎖。 Adobe Commerce現在改為顯示訊息，提示您輸入有效的SKU。<!--- MC-37387-->
+![已修正問題](../assets/fix.svg)當「快速訂購」頁面的&#x200B;_[!UICONTROL Enter Multiple SKUs]_&#x200B;區段包含空白值時，**[!UICONTROL Add to Cart]**&#x200B;按鈕不再遭到封鎖。 Adobe Commerce現在改為顯示訊息，提示您輸入有效的SKU。<!--- MC-37387-->
 
 ![已修正問題](../assets/fix.svg)當您從請購單清單提交產品評論時，Adobe Commerce現在會在產品頁面上顯示此訊息： `You submitted your review for moderation`。 評論也會顯示在擱置評論頁面上（管理員&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**）。 之前，雖然Adobe Commerce已將評論新增至待處理評論的清單，但在產品頁面上擲回404錯誤。<!--- MC-37119-->
 
@@ -723,7 +723,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![已修正問題](../assets/fix.svg)您現在可以針對同時包含實體與虛擬產品的訂單，成功實作多重送貨。<!--- MC-33818-->
 
-![已修正問題](../assets/fix.svg)商戶現在可以從[我的帳戶]和[公司結構]頁面的&#x200B;_[!UICONTROL Company Users]_區段建立公司使用者，當&#x200B;**[!UICONTROL Access Restriction]**已啟用，**[!UICONTROL Restriction Mode]**設定為`Sales: Login Only`時。 之前，當商家嘗試建立使用者時，Adobe Commerce擲回此錯誤： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
+![已修正問題](../assets/fix.svg)商戶現在可以從[我的帳戶]和[公司結構]頁面的&#x200B;_[!UICONTROL Company Users]_&#x200B;區段建立公司使用者，當&#x200B;**[!UICONTROL Access Restriction]**&#x200B;已啟用，**[!UICONTROL Restriction Mode]**&#x200B;設定為`Sales: Login Only`時。 之前，當商家嘗試建立使用者時，Adobe Commerce擲回此錯誤： `Can not register new customer due to restrictions are enabled`。<!--- MC-33608-->
 
 ![已修正問題](../assets/fix.svg)當客戶儲存其帳戶資訊時，Adobe Commerce不再將客戶的客戶群組重設為預設值。<!--- MC-33554-->
 

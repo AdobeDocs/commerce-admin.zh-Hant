@@ -114,7 +114,7 @@ ht-degree: 0%
    - `Static Block Only`
    - `Static Block and Products`
 
-1. 如果您希望類別頁面包含分層導覽的&#x200B;_`Filter by Attribute`_區段，請將&#x200B;**[!UICONTROL Anchor]**設為`Yes`。
+1. 如果您希望類別頁面包含分層導覽的&#x200B;_`Filter by Attribute`_區段，請將&#x200B;**[!UICONTROL Anchor]**&#x200B;設為`Yes`。
 
 1. 針對&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;選項，選取一或多個可供客戶排序清單的可用值。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 1. ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)若要將設計更新排程在特定時段，請執行下列動作：
 
-   - 展開&#x200B;_[!UICONTROL Schedule Design Update]_區段。
+   - 展開&#x200B;_[!UICONTROL Schedule Design Update]_&#x200B;區段。
 
    - 使用行事曆（![行事曆圖示](../assets/icon-calendar.png)）選擇排程更新&#x200B;**[!UICONTROL from]**&#x200B;和&#x200B;**[!UICONTROL to]**&#x200B;日期。
 

@@ -43,7 +43,7 @@ Sales Channel代表銷售您詳細目錄的實體。 依預設，[!DNL Commerce]
 
 | 按鈕 | 說明 |
 |--|--|
-| [!UICONTROL Add New Stock] | 開啟&#x200B;_[!UICONTROL New Stock]_表單，此表單用於輸入新的存貨存量，以將存貨對應至銷售管道。 |
+| [!UICONTROL Add New Stock] | 開啟&#x200B;_[!UICONTROL New Stock]_&#x200B;表單，此表單用於輸入新的存貨存量，以將存貨對應至銷售管道。 |
 
 ## 管理Stock欄說明
 

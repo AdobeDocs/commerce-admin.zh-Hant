@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 全域 | 指定用來呈現影像的介面卡。 變更介面卡設定後，排清目錄影像快取。 選項： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**只有ImageMagik介面卡支援ICO檔案型別。 |
+| [!UICONTROL Image Adapter] | 全域 | 指定用來呈現影像的介面卡。 變更介面卡設定後，排清目錄影像快取。 選項： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**&#x200B;只有ImageMagik介面卡支援ICO檔案型別。 |
 
 {style="table-layout:auto"}
 

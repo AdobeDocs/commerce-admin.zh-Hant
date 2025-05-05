@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 傳回
 
-可以將&#x200B;_退回的商品授權_ (RMA)授與要求退回專案以進行更換或退款的客戶。 通常客戶會聯絡商家要求退款。 如果核准，則會指派唯一的RMA編號，以識別傳回的產品。 在設定中，您可以為所有產品啟用RMA，或僅允許特定產品使用RMA。 _[!UICONTROL Returns]_方格列出目前傳回的商品請求(RMA)，並用來輸入新的退貨請求。
+可以將&#x200B;_退回的商品授權_ (RMA)授與要求退回專案以進行更換或退款的客戶。 通常客戶會聯絡商家要求退款。 如果核准，則會指派唯一的RMA編號，以識別傳回的產品。 在設定中，您可以為所有產品啟用RMA，或僅允許特定產品使用RMA。 _[!UICONTROL Returns]_&#x200B;方格列出目前傳回的商品請求(RMA)，並用來輸入新的退貨請求。
 
 ![傳回格線](./assets/return.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ RMA可針對簡單、分組、可設定和套裝產品型別發行。 不過，R
 
 1. 若要建立退貨要求，請按一下狀態為`Complete`的訂單。
 
-1. 在&#x200B;_[!UICONTROL Return Information]_區段下，選取&#x200B;**[!UICONTROL Return Items]**標籤。
+1. 在&#x200B;_[!UICONTROL Return Information]_&#x200B;區段下，選取&#x200B;**[!UICONTROL Return Items]**&#x200B;標籤。
 
 1. 若要新增要傳回的專案，請按一下&#x200B;**[!UICONTROL Add Items]**。
 

@@ -56,7 +56,7 @@ Adobe Commerce和Magento Open Source提供豐富的工具，可依據客戶活�
 
 - **自訂目錄與價目表** — 針對特定公司提供自訂[定價的精選產品選擇](../b2b/catalog-shared-pricing-structure.md)，同時繼續提供一般客戶的一般定價標準目錄。
 
-- **目標市場細分** — 根據屬性](../customers/customer-segments.md) （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅[最佳化您的行銷方案。
+- **目標市場細分** — 根據屬性[&#128279;](../customers/customer-segments.md) （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅最佳化您的行銷方案。
 
 - **智慧型購物規則** — 使用價格規則與可在產品或購物車層級觸發的[促銷活動](../merchandising-promotions/introduction.md#promotions)，自訂購物體驗。
 
@@ -86,7 +86,7 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 - **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
 
-- **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板](admin-dashboard.md)上的此[資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
+- **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板[&#128279;](admin-dashboard.md)上的此資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
 
 - **稅捐** — 使用原生工具管理您的[稅捐](../stores-purchase/taxes.md)，或從[[!DNL Commerce Marketplace]](https://marketplace.magento.com/)新增協力廠商副檔名{：target=&quot;_blank&quot;}。
 

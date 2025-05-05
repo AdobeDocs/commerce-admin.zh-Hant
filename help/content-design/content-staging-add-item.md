@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 在顯示的清單或時間軸中尋找促銷活動，並開啟它以存取詳細資訊：
 
-   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
+   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
    - 若要顯示時間表，請按一下以顯示摘要，然後按一下&#x200B;**[!UICONTROL View/Edit]**。
 
    ![行銷活動詳細資料](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Content]
 
-_[!UICONTROL Content]_區段可用來輸入及編輯出現在產品頁面上的主要產品說明。 此簡短描述可用於大多數RSS摘要，也可能出現在目錄清單中，視[佈景主題](../content-design/themes.md)而定。
+_[!UICONTROL Content]_&#x200B;區段可用來輸入及編輯出現在產品頁面上的主要產品說明。 此簡短描述可用於大多數RSS摘要，也可能出現在目錄清單中，視[佈景主題](../content-design/themes.md)而定。
 
 ## 在[!DNL Page Builder]中新增產品說明
 
@@ -30,7 +30,7 @@ _[!UICONTROL Content]_區段可用來輸入及編輯出現在產品頁面上的�
 
 ## [!DNL Page Builder]預覽
 
-當您展開現有產品的&#x200B;_[!UICONTROL Content]_區段（其中包含以[!DNL Page Builder]建立的內容）時，它會顯示產品頁面中所顯示的&#x200B;**[!UICONTROL Description]**內容預覽。 按一下&#x200B;**[!UICONTROL Edit with Page Builder]**開啟[!DNL Page Builder]工作區，您可以在其中進行任何必要的更新。
+當您展開現有產品的&#x200B;_[!UICONTROL Content]_&#x200B;區段（其中包含以[!DNL Page Builder]建立的內容）時，它會顯示產品頁面中所顯示的&#x200B;**[!UICONTROL Description]**&#x200B;內容預覽。 按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;開啟[!DNL Page Builder]工作區，您可以在其中進行任何必要的更新。
 
 ![描述預覽](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

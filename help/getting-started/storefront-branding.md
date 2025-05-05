@@ -20,7 +20,7 @@ ht-degree: 0%
 
 標頭中標誌的大小和位置由商店主題決定。 您的標誌可以儲存為GIF、PNG或JPG (JPEG)檔案型別，並由商店管理員上傳。
 
-頁首](./assets/storefront-header-logo.png){width="600"}中的![標誌
+頁首![&#128279;](./assets/storefront-header-logo.png){width="600"}中的標誌
 
 標誌影像位於伺服器上的下列位置。 任何名稱為`logo.svg`的影像檔案都會做為預設的主題標誌。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    ![設計設定頁面](./assets/design-configuration.png){width="700"}
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開&#x200B;**[!UICONTROL Header]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -92,9 +92,9 @@ Favicon通常是16 x 16畫素或32 x 32畫素大小。 [!DNL Commerce]接受ICO�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL HTML Head]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開&#x200B;**[!UICONTROL HTML Head]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![HTML標頭設定](./assets/configuration-html-head.png){width="600"}
 
@@ -124,9 +124,9 @@ Favicon通常是16 x 16畫素或32 x 32畫素大小。 [!DNL Commerce]接受ICO�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL Header]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開&#x200B;**[!UICONTROL Header]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 針對&#x200B;**[!UICONTROL Welcome Text]**，輸入您要在商店標頭中顯示的歡迎訊息文字。
 
@@ -156,7 +156,7 @@ Favicon通常是16 x 16畫素或32 x 32畫素大小。 [!DNL Commerce]接受ICO�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Footer]**&#x200B;區段。
 
@@ -176,9 +176,9 @@ Favicon通常是16 x 16畫素或32 x 32畫素大小。 [!DNL Commerce]接受ICO�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL HTML Head]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開&#x200B;**[!UICONTROL HTML Head]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![HTML標題](./assets/configuration-html-head.png){width="600"}
 

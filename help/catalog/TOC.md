@@ -42,7 +42,7 @@ ht-degree: 1%
       + [搜尋引擎最佳化設定](categories-search-engine-optimization.md)
       + [設計設定](categories-custom-design.md)
       + [修改類別](category-modify.md)
-   + 類別{#products-in-category}中的產品
+   + 類別中的產品{#products-in-category}
       + [產品指派](categories-product-assignments.md)
       + [排序類別產品](category-products-sort.md)
       + [新增和移除類別產品](category-products-add.md)

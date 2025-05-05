@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 輸入描述性 **[!UICONTROL Role Name]**。
 
-1. 在 下 _[!UICONTROL Role Permissions]_執行下列操作之一..
+1. 在 下 _[!UICONTROL Role Permissions]_&#x200B;執行下列操作之一..
 
    - 選中分配了角色權限有權訪問的每個資源或活動的複選框。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 修改角色
 
-1. 對於要修改的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 對於要修改的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 對名稱和權限設置進行必要的更改。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 複製角色
 
-1. 對於要複製的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_欄中的&#x200B;**[!UICONTROL Duplicate]**。
+1. 對於要複製的角色，公司管理員按一下&#x200B;_[!UICONTROL Actions]_&#x200B;欄中的&#x200B;**[!UICONTROL Duplicate]**。
 
 1. 對名稱和許可權設定進行必要的變更。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    只能刪除沒有指派使用者的角色。
 
-1. 在&#x200B;_[!UICONTROL Actions]_欄中按一下&#x200B;**[!UICONTROL Delete]**。
+1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Delete]**。
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 

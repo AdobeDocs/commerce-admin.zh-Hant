@@ -20,13 +20,13 @@ Adobe Commerce B2B可讓您使用不同公司的自訂價格，維護閘道式&#
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，目錄的每個[類別許可權](../catalog/category-permissions.md)都設為&#x200B;_[!UICONTROL Allow for the Display Product Prices]_和_[!UICONTROL Add to Cart]_。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，目錄的每個[類別許可權](../catalog/category-permissions.md)都設為&#x200B;_[!UICONTROL Allow for the Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
 
 >[!IMPORTANT]
 >
 >啟用&#x200B;**_[!UICONTROL Shared Catalog]_**&#x200B;功能時，目錄中的&#x200B;**_所有_**&#x200B;類別會忽略所有現有的[群組許可權設定](../configuration-reference/catalog/catalog.md#category-permissions)。 [!UICONTROL Shared Catalog]在啟用時可完全控制目錄中的所有類別許可權。
 
-_[!UICONTROL Shared Catalogs]_頁面可讓您存取用來管理共用目錄的工具。 此頁面類似於標準[管理員工作區](../getting-started/admin-workspace.md)，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
+_[!UICONTROL Shared Catalogs]_&#x200B;頁面可讓您存取用來管理共用目錄的工具。 此頁面類似於標準[管理員工作區](../getting-started/admin-workspace.md)，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
 
 ![共用目錄](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ _[!UICONTROL Shared Catalogs]_頁面可讓您存取用來管理共用目錄的�
 
 ## 動作控制項
 
-左上角的[動作控制項](../getting-started/admin-actions-control.md)可與大量動作控制項搭配使用，以刪除選取的共用目錄，這些目錄已不再需要。 在網格中，_[!UICONTROL Actions]_欄包含管理共用目錄的完整工具選擇。
+左上角的[動作控制項](../getting-started/admin-actions-control.md)可與大量動作控制項搭配使用，以刪除選取的共用目錄，這些目錄已不再需要。 在網格中，_[!UICONTROL Actions]_&#x200B;欄包含管理共用目錄的完整工具選擇。
 
 ![共用目錄動作](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

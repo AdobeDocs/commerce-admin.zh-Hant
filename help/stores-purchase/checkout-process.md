@@ -36,9 +36,9 @@ ht-degree: 0%
 
 #### 新增地址
 
-1. 在&#x200B;_[!UICONTROL Shipping Address]_區段底部，客戶按一下&#x200B;**[!UICONTROL + New Address]**。
+1. 在&#x200B;_[!UICONTROL Shipping Address]_&#x200B;區段底部，客戶按一下&#x200B;**[!UICONTROL + New Address]**。
 
-1. 完成&#x200B;_[!UICONTROL Shipping Address]_表單。
+1. 完成&#x200B;_[!UICONTROL Shipping Address]_&#x200B;表單。
 
    依預設，客戶的名字和姓氏最初會顯示在表單中。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 存放區檢視 | 決定是否要求客戶在購買前同意銷售的[條款及條件](terms-and-conditions.md)。 選項： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 存放區檢視 | 決定結帳時帳單地址的位置。 選項： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 存放區檢視 | 決定結帳時可顯示在「訂單摘要」中的專案最大數量。 預設值為`10`。 |
-| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)判斷客戶是否可以使用[地址搜尋](checkout-address-search.md)功能進行&#x200B;_送貨_，以及&#x200B;_檢閱與付款_&#x200B;步驟。 啟用此功能時，請使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_設定在結帳期間啟用此功能所需的儲存位址數目。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)判斷客戶是否可以使用[地址搜尋](checkout-address-search.md)功能進行&#x200B;_送貨_，以及&#x200B;_檢閱與付款_&#x200B;步驟。 啟用此功能時，請使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;設定在結帳期間啟用此功能所需的儲存位址數目。 選項： `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)當地址搜尋為&#x200B;**[!UICONTROL Enabled]**&#x200B;時，會決定結帳期間啟用此功能所需的儲存地址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為10。 |
 
 {style="table-layout:auto"}

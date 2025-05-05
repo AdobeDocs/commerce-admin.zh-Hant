@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | 網站 | 設定UPS所指定之封裝的最小重量。 如果訂購的產品重量小於最小包裝重量，則無法使用此送貨選項。 若要確認重量下限，請洽詢您的運送公司。 |
 | [!UICONTROL Calculate Handling Fee] | 網站 | 設定表格費率出貨的處理費計算方法。 選項： <br>**`Fixed`**— 手續費是固定費率。<br>**`Percent`** — 處理費是以訂單金額的百分比套用。 |
 | [!UICONTROL Handling Applied] | 網站 | 指定處理費是套用至每個訂單，還是套用至訂單中的每個套件。 |
-| [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**如果輸入百分比金額，請使用25%的小數點格式`0.25`。 |
+| [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**&#x200B;如果輸入百分比金額，請使用25%的小數點格式`0.25`。 |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 網站 | 指定提供給客戶的UPS送貨允許方法。 運費是根據選取的送貨方式計算。 |
-| [!UICONTROL Free Method] | 網站 | 識別透過UPS用於免費送貨方法的方法。 若要停用免費送貨，請選擇[無]。 <br/><br/>**_注意：_**此方法類似於基本的[免運費](../../stores-purchase/shipping-free.md)，但在結帳時會顯示為UPS送貨選項。 |
+| [!UICONTROL Free Method] | 網站 | 識別透過UPS用於免費送貨方法的方法。 若要停用免費送貨，請選擇[無]。 <br/><br/>**_注意：_**&#x200B;此方法類似於基本的[免運費](../../stores-purchase/shipping-free.md)，但在結帳時會顯示為UPS送貨選項。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 決定當訂單金額符合免運費臨界值時是否套用免運費。 選項： `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 設定訂單達到免費送貨資格所需達到的最低總金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | 當此送貨方法因任何原因而無法使用時所顯示的錯誤訊息。 |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 網站 | 設定表格費率出貨的處理費計算方法。 選項： <br/>**`Fixed`**— 手續費是固定費率。<br/>**`Percent`** — 處理費是以訂單金額的百分比套用。 |
 | [!UICONTROL Handling Applied] | 網站 | 指定處理費是套用至每個訂單，還是套用至訂單中的每個套件。 |
-| [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**輸入百分比量時，請以`0.25`小數點格式輸入25%。 |
+| [!UICONTROL Handling Fee] | 網站 | 設定包含在運費價格中的處理。 處理費可設為固定金額或百分比。 <br/><br/>**_注意：_**&#x200B;輸入百分比量時，請以`0.25`小數點格式輸入25%。 |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 網站 | 指定提供給客戶的USPS送貨允許方法。 運費是根據選取的送貨方式計算。 |
-| [!UICONTROL Free Method] | 網站 | 透過USPS設定免費送貨方法，或可透過選取`None`來停用。 <br/><br/>**_注意：_**此送貨方式與商店的免運費方式類似，但列為USPS送貨選項，且識別為USPS送貨。 |
+| [!UICONTROL Free Method] | 網站 | 透過USPS設定免費送貨方法，或可透過選取`None`來停用。 <br/><br/>**_注意：_**&#x200B;此送貨方式與商店的免運費方式類似，但列為USPS送貨選項，且識別為USPS送貨。 |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 網站 | 設定符合免費送貨資格的最低訂單金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | USPS由於任何原因無法使用時顯示的錯誤訊息。 |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | 網站 | 決定用來計算手續費的方法。 選項： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**處理費是選擇性的，而且會顯示為額外費用，已加到FedEx運費中。 |
+| [!UICONTROL Calculate Handling Fee] | 網站 | 決定用來計算手續費的方法。 選項： `Fixed Fee` / `Percentage` <br/><br/>**_注意：_**&#x200B;處理費是選擇性的，而且會顯示為額外費用，已加到FedEx運費中。 |
 | [!UICONTROL Handling Applied] | 網站 | 決定如何套用處理費用。 選項： `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 網站 | 根據用來計算金額的方法，指定收取處理費的金額。 如果費用是以固定費用為基礎，請以小數點輸入金額，例如`4.90`。 如果處理費是以訂單的百分比為基準，請以百分比輸入金額。 例如，若要收取訂單的6%費用，請輸入值為`.06`。 |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | 網站 | 視您銷售企業對消費者(B2C)或企業對企業(B2B)而定，設定為下列其中一項： <br/>**`Yes`**— 適用於B2C傳遞<br/>**`No`** — 適用於B2B傳遞 |
 | [!UICONTROL Allowed Methods] | 網站 | 從清單中，選取您支援的送貨方式。 方法取決於您的FedEx帳戶、出貨的頻率和大小，以及您是否允許國際出貨。 身為商家，您可能決定只提供地面運送。 |
 | [!UICONTROL Hub ID] | 網站 | FedEx提供的ID搭配[!DNL Smart Post]方法使用。 |
-| [!UICONTROL Free Method] | 網站 | 從清單中，選取您偏好用於免費送貨優惠的送貨方式。 <br/><br/>**_注意：_**這個送貨方式與一般免運費方式類似，但是它列在FedEx送貨選項中，而且被識別為FedEx送貨。 |
+| [!UICONTROL Free Method] | 網站 | 從清單中，選取您偏好用於免費送貨優惠的送貨方式。 <br/><br/>**_注意：_**&#x200B;這個送貨方式與一般免運費方式類似，但是它列在FedEx送貨選項中，而且被識別為FedEx送貨。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 決定免費送貨是否需要最低訂單金額。 選項： <br/>**`Enable`**— 針對符合最小金額的訂單，啟用免費FedEx出貨。<br/>**`Disable`** — 停用最低訂單的免費FedEx送貨。 |
 | [!UICONTROL Free Shipping Amount Threshold] | 網站 | 指定免費送貨所需的最小訂單金額。 |
 | [!UICONTROL Displayed Error Message] | 存放區檢視 | 當FedEx由於任何原因無法使用時顯示的訊息。 您可以使用預設訊息或輸入其他訊息。 |

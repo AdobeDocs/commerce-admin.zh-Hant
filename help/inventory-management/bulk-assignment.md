@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用&#x200B;_指派來源_&#x200B;工具新增一或多個來源至您的產品。 此工具有助於建立自訂來源並指派給您的預設庫存或自訂庫存，以及準備新的位置和庫存。
 
-新增自訂來源後，您可以透過管理員或使用[匯入功能](inventory-import-export.md)，為每個產品](quantities-assign-per-product.md)或多個產品新增[存貨數量。
+新增自訂來源後，您可以透過管理員或使用[匯入功能](inventory-import-export.md)，為每個產品[&#128279;](quantities-assign-per-product.md)或多個產品新增存貨數量。
 
 ![新增所選產品的詳細目錄來源](assets/inventory-bulk-assign-sources.gif)
 

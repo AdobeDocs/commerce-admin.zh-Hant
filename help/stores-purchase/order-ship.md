@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，選取&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
-1. 在&#x200B;_[!UICONTROL Orders]_清單中，找到要送出的訂單，然後按一下以開啟。
+1. 在&#x200B;_[!UICONTROL Orders]_&#x200B;清單中，找到要送出的訂單，然後按一下以開啟。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Ship]**&#x200B;按鈕。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 若要讓承運商產生送貨標籤，請選取「**[!UICONTROL Create Shipping Label]**」核取方塊並設定選項：
 
-   - 若要新增追蹤號碼，請向下捲動至&#x200B;_[!UICONTROL Shipping Information]_區段，然後按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
+   - 若要新增追蹤號碼，請向下捲動至&#x200B;_[!UICONTROL Shipping Information]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
 
    - 執行下列任一項作業：
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在清單中尋找出貨，然後按一下以開啟記錄。
 
-1. 如果您想要新增註解至訂單，請向下捲動至&#x200B;_[!UICONTROL Comments History]_區段，然後在方塊中輸入註解。
+1. 如果您想要新增註解至訂單，請向下捲動至&#x200B;_[!UICONTROL Comments History]_&#x200B;區段，然後在方塊中輸入註解。
 
    - 若要透過電子郵件將註解傳送給客戶，請選取&#x200B;**[!UICONTROL Notify Customer by Email]**&#x200B;核取方塊。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 在格線中尋找出貨訂單，然後按一下&#x200B;**[!UICONTROL View]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Shipping & Handling Information]_區段並按一下&#x200B;**[!UICONTROL Track Order]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Shipping & Handling Information]_&#x200B;區段並按一下&#x200B;**[!UICONTROL Track Order]**。
 
    任何可用的追蹤資訊都會顯示在快顯視窗中。
 

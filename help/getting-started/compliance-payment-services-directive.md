@@ -31,7 +31,7 @@ ht-degree: 0%
 | 付款方法 | 合規性要求 |
 |--- |--- |
 | [PayPal](../stores-purchase/paypal.md) | 對於大多數PayPal解決方案，因為需求是由PayPal處理，所以不需要採取任何動作來遵守PSD2。 如需特定解決方案的相關資訊，請參閱每個PayPal主題頂端的注意事項。 |
-| [Braintree](../stores-purchase/braintree.md) | 從2.4.0中轉換至已安裝的擴充功能開始，需求會在隨附的「Braintree付款」模組內處理，且無需採取任何動作即可遵守PSD2。 <br /><br />**_注意：_**若要在舊版中使用核心整合來遵守PSD2，請執行下列其中一個動作：<br/>- （建議）從[[!DNL Adobe Commerce Marketplace]](https://marketplace.magento.com/catalogsearch/result/?q=braintree#q=braintree&amp;idx=m2_cloud_prod_default_products&amp;p=0&amp;nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1)安裝正式Braintree付款整合延伸模組{：target=&quot;_blank&quot;}。<br/> — 在[!DNL Commerce]設定中啟用並設定Braintree付款方法。<br/><br/>這些舊版核心整合支援3D Secure 2.0驗證。 不過，在JavaScript SDK v2上執行的Braintree實作不支援3D Secure 2.0。 |
+| [Braintree](../stores-purchase/braintree.md) | 從2.4.0中轉換至已安裝的擴充功能開始，需求會在隨附的「Braintree付款」模組內處理，且無需採取任何動作即可遵守PSD2。 <br /><br />**_注意：_**&#x200B;若要在舊版中使用核心整合來遵守PSD2，請執行下列其中一個動作：<br/>- （建議）從[[!DNL Adobe Commerce Marketplace]](https://marketplace.magento.com/catalogsearch/result/?q=braintree#q=braintree&amp;idx=m2_cloud_prod_default_products&amp;p=0&amp;nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1)安裝正式Braintree付款整合延伸模組{：target=&quot;_blank&quot;}。<br/> — 在[!DNL Commerce]設定中啟用並設定Braintree付款方法。<br/><br/>這些舊版核心整合支援3D Secure 2.0驗證。 不過，在JavaScript SDK v2上執行的Braintree實作不支援3D Secure 2.0。 |
 | 其他 | 若為所有其他的付款整合，請檢查[[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions/payments-security/payment-integration.html?_ga=2.108129217.2105547619.1564067043-238341041.1564067043){：target=&quot;_blank&quot;}上可用的副檔名。 請要求您的付款提供者推薦支援PSD2需求的解決方案。 |
 
 {style="table-layout:auto"}

@@ -77,11 +77,11 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Distance Provider for Distance Based SSA]_區段，並將&#x200B;**[!UICONTROL Provider]**設為`Google MAP`。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;區段，並將&#x200B;**[!UICONTROL Provider]**&#x200B;設為`Google MAP`。
 
    以距離為基礎的SSA的![提供者](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_區段並設定設定：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_&#x200B;區段並設定設定：
 
    - 針對&#x200B;**[!UICONTROL Google API Key]**，輸入從您的Google帳戶複製的金鑰。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存](stocks-prioritize-sources.md)設定來源的[優先順序。
+     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存[&#128279;](stocks-prioritize-sources.md)設定來源的優先順序。
 
      | 選項 | 說明 |
      | ----- | ----- |
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展開&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 取消選取「**[!UICONTROL Use system value]**」核取方塊並將&#x200B;**[!UICONTROL Provider]**&#x200B;設為`Offline Calculation`。
 

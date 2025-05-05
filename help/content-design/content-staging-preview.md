@@ -26,7 +26,7 @@ ht-degree: 0%
 
    - _從任何包含排程變更的頁面_
 
-      - 開啟任何頂端有&#x200B;_[!UICONTROL Scheduled Changes]_方塊的頁面。
+      - 開啟任何頂端有&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;方塊的頁面。
       - 按一下&#x200B;**[!UICONTROL Preview]**。
 
    預覽會在新的瀏覽器標籤中開啟，並顯示產品在排程行銷活動期間的顯示方式。

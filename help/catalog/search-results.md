@@ -45,7 +45,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟1：建立屬性
 
-1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Attribute]**。
 1. 在&#x200B;_選取屬性_&#x200B;頁面上按一下&#x200B;**[!UICONTROL Create New Attribute]**。
 1. 依照下列步驟完成屬性特性：
@@ -72,7 +72,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟2：對應第一個產品
 
-1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_區段。
+1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_&#x200B;區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入要對應至此產品的SKU `MH01`。
 
    您可以在「搜尋關鍵字」欄位中輸入多個以空格分隔的SKU。 在此範例中，僅輸入一個。
@@ -84,7 +84,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟3：對應第二個產品
 
-1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
+1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
 1. 向下捲動並展開&#x200B;**[!UICONTROL Attributes]**&#x200B;區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入其他產品`MJ03`的SKU。
 1. 按一下&#x200B;**[!UICONTROL Save]**。

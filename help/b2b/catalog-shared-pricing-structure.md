@@ -15,7 +15,7 @@ ht-degree: 0%
 
 設定共用型錄的定價與結構有兩個步驟。 您在程式中的目前位置會在頁面頂端的進度列中顯示一個數字。 您可以隨時按一下進度列來檢視程式中的其他步驟。 例如，如果您正在處理自訂定價，您可能想要返回產品選擇頁面以供參考。 只要按一下頁面頂端進度列中的&#x200B;**[!UICONTROL Products]**，然後按一下&#x200B;**[!UICONTROL Pricing]**&#x200B;以返回自訂訂訂價頁面。 您的工作在此過程中不會遺失。
 
-目錄](./assets/shared-catalog-products-workspace.png){width="700" zoomable="yes"}中的![產品
+目錄![&#128279;](./assets/shared-catalog-products-workspace.png){width="700" zoomable="yes"}中的產品
 
 在標準類別樹狀結構中，根類別是最上層的容器，在範例資料中稱為&#x200B;_預設類別_。 但是，當共用目錄啟用時，類別樹狀結構會有一個稱為&#x200B;_根目錄_&#x200B;的外部容器。 根目錄包含系統中存在的所有其他類別結構。 如需詳細資訊，請參閱[目錄範圍](../catalog/introduction.md#catalog-scope)。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. 對於網格中的共用目錄，請移至&#x200B;_[!UICONTROL Action]_欄並按一下&#x200B;**[!UICONTROL Set Pricing and Structure]**。
+1. 對於網格中的共用目錄，請移至&#x200B;_[!UICONTROL Action]_&#x200B;欄並按一下&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
    ![設定共用目錄的定價和結構](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 步驟3：設定自訂價格
 
-您可以個別設定每個產品的自訂價格，或使用&#x200B;_[!UICONTROL Action]_控制項將自訂價格設定為多個產品記錄的固定金額或百分比。
+您可以個別設定每個產品的自訂價格，或使用&#x200B;_[!UICONTROL Action]_&#x200B;控制項將自訂價格設定為多個產品記錄的固定金額或百分比。
 
 - **[!UICONTROL Fixed]**：指定最終產品價格。 例如，如果您輸入$10.00的固定價格，則對應公司的店面價格為$10.00。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Percentage]**：根據折扣百分比決定自訂價格。 例如，若要提供10%的折扣，請將自訂價格型別設定為`Percentage`並輸入`10`。 折扣的自訂價格是原始產品價格的90%。
 
-若要針對下列產品型別將折扣設定為固定金額或百分比，請在格線中使用&#x200B;_[!UICONTROL Custom Price]_欄：
+若要針對下列產品型別將折扣設定為固定金額或百分比，請在格線中使用&#x200B;_[!UICONTROL Custom Price]_&#x200B;欄：
 
 - [簡單](../catalog/product-create-simple.md) （包括可設定的產品變化）
 - [組合](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ ht-degree: 0%
 1. 使用下列其中一種方法，選取要套用自訂訂訂價的產品。
 
    - 使用類別樹狀結構來選取特定類別中的所有產品。
-   - 將標頭中的&#x200B;_[!UICONTROL Mass Actions]_控制項設為`Select All`。
+   - 將標頭中的&#x200B;_[!UICONTROL Mass Actions]_&#x200B;控制項設為`Select All`。
    - 選取個別產品的核取方塊。
 
    格線會顯示目前選取類別中的產品，您可以使用標準控制項來尋找產品並篩選清單。
@@ -149,13 +149,13 @@ ht-degree: 0%
       - `Fixed`
       - `Discount`
    - 輸入折扣金額。
-   - 若要輸入其他階層，請按一下[新增價格] ****，然後重複此程式以定義下一個階層。
+   - 若要輸入其他階層，請按一下[新增價格] **&#x200B;**，然後重複此程式以定義下一個階層。
 
    ![多重層級價格](./assets/shared-catalog-tier-price-configure-multiple-tiers.png){width="600" zoomable="yes"}
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Done]**。
 
-   在網格中，_[!UICONTROL Tier Price]_欄中的階層數會以括弧顯示。
+   在網格中，_[!UICONTROL Tier Price]_&#x200B;欄中的階層數會以括弧顯示。
 
    ![多個階層](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -163,4 +163,4 @@ ht-degree: 0%
 
 當自訂訂訂價格完成時，按一下&#x200B;**[!UICONTROL Generate Catalog]**，然後再按&#x200B;**[!UICONTROL Save]**。
 
-共用目錄現在會儲存至資料庫。 其名稱會顯示在&#x200B;_[!UICONTROL Products]_格線的_[!UICONTROL Shared Catalog]_&#x200B;欄中。 下一步是[將共用目錄指派給公司](./catalog-shared-assign-companies.md)。
+共用目錄現在會儲存至資料庫。 其名稱會顯示在&#x200B;_[!UICONTROL Products]_&#x200B;格線的&#x200B;_[!UICONTROL Shared Catalog]_&#x200B;欄中。 下一步是[將共用目錄指派給公司](./catalog-shared-assign-companies.md)。

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 類別 — 設計設定
 
-_[!UICONTROL Design]_區段可讓您控制類別、所有關聯產品頁面及頁面配置的外觀與風格。 您可以為促銷自訂類別頁面及其相關產品，或區別類別。 例如，您可以為某個品牌或特殊產品線開發獨特的設計，或為特定時段套用更新。
+_[!UICONTROL Design]_&#x200B;區段可讓您控制類別、所有關聯產品頁面及頁面配置的外觀與風格。 您可以為促銷自訂類別頁面及其相關產品，或區別類別。 例如，您可以為某個品牌或特殊產品線開發獨特的設計，或為特定時段套用更新。
 
 ![類別的設計設定](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->當相同的產品被指派給數個類別，且每個類別的設計設定不同時，建議在[搜尋引擎最佳化組態選項](../configuration-reference/catalog/catalog.md#search-engine-optimization)中設定&#x200B;**產品URL的使用類別路徑** = `Yes`。 若要存取此設定，請移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展開&#x200B;**[!UICONTROL Catalog]**並選擇左側面板下的&#x200B;**目錄**，然後展開頁面上的&#x200B;**搜尋引擎最佳化**區段。
+>當相同的產品被指派給數個類別，且每個類別的設計設定不同時，建議在[搜尋引擎最佳化組態選項](../configuration-reference/catalog/catalog.md#search-engine-optimization)中設定&#x200B;**產品URL的使用類別路徑** = `Yes`。 若要存取此設定，請移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇左側面板下的&#x200B;**目錄**，然後展開頁面上的&#x200B;**搜尋引擎最佳化**&#x200B;區段。
 
 | 欄位 | 說明 |
 |--- |--- |
@@ -34,7 +34,7 @@ _[!UICONTROL Design]_區段可讓您控制類別、所有關聯產品頁面及�
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_區段會決定自訂設計套用至類別頁面時的日期範圍。
+_[!UICONTROL Scheduled Design Update]_&#x200B;區段會決定自訂設計套用至類別頁面時的日期範圍。
 
 | 欄位 | 說明 |
 |--- |--- |

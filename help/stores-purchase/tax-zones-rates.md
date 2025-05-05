@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
 
-1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_格線中尋找稅率，並以編輯模式開啟記錄。
+1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_&#x200B;格線中尋找稅率，並以編輯模式開啟記錄。
 
    如果清單中有許多費率，請使用[篩選器控制項](../getting-started/admin-grid-controls.md)來尋找您需要的費率。
 

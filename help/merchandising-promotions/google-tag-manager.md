@@ -44,7 +44,7 @@ ht-degree: 0%
 
    - 選擇&#x200B;**[!UICONTROL Property Settings]**。
 
-   - 在&#x200B;_[!UICONTROL Advertising Features]_底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**設定為`On`。
+   - 在&#x200B;_[!UICONTROL Advertising Features]_&#x200B;底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;設定為`On`。
 
    - **[!UICONTROL Save]**&#x200B;設定。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Choose Product]**&#x200B;下，選取&#x200B;**[!UICONTROL Google AdWords]**。
 
-   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**並按一下&#x200B;**[!UICONTROL Continue]**。
+   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_&#x200B;下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;並按一下&#x200B;**[!UICONTROL Continue]**。
 
 1. 從您的AdWords帳戶輸入&#x200B;**[!UICONTROL Conversion ID]**&#x200B;和&#x200B;**[!UICONTROL Conversion Label]**，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Fire On]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Some Pages]**。
 
-1. 在&#x200B;_[!UICONTROL Choose Pages]_區段中，完成下列設定：
+1. 在&#x200B;_[!UICONTROL Choose Pages]_&#x200B;區段中，完成下列設定：
 
    - **[!UICONTROL Name]** — 輸入頁面說明的名稱。
 

@@ -45,7 +45,7 @@ ht-degree: 0%
 
    - 按一下右上角的&#x200B;**[!UICONTROL Delete]**。 出現提示時，按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。
 
-1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
+1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_&#x200B;頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
 
 1. 將&#x200B;**[!UICONTROL Create URL Rewrite]**&#x200B;設為`For category`，然後在樹狀結構中選擇重新導向目的地的目標類別。
 

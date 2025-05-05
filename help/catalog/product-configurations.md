@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Configurations]
 
-_[!UICONTROL Configurations]_區段會列出產品的所有現有變數，並可用來產生變數，以便與可設定的產品型別搭配使用。 如需詳細資訊，請參閱[可設定的產品](product-create-configurable.md)。
+_[!UICONTROL Configurations]_&#x200B;區段會列出產品的所有現有變數，並可用來產生變數，以便與可設定的產品型別搭配使用。 如需詳細資訊，請參閱[可設定的產品](product-create-configurable.md)。
 
 ![組態區段](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

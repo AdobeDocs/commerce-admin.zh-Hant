@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - 若要在新範本中使用變數，請按一下&#x200B;**[!UICONTROL Add New Template]**&#x200B;並自訂預設範本程式碼。 檢視[訊息範本](email-template-custom.md#message-templates)。
 
-1. 在&#x200B;_[!UICONTROL Load default template]_底下，選擇要自訂的&#x200B;**[!UICONTROL Template]**。
+1. 在&#x200B;_[!UICONTROL Load default template]_&#x200B;底下，選擇要自訂的&#x200B;**[!UICONTROL Template]**。
 
 1. 若要套用範本，請按一下&#x200B;**[!UICONTROL Load Template]**。
 
-   _[!UICONTROL Currently used for]_欄位會顯示範本的設定路徑。_[!UICONTROL Template Subject]_&#x200B;和&#x200B;_[!UICONTROL Template Content]_是相對於所選範本自動產生的。
+   _[!UICONTROL Currently used for]_&#x200B;欄位會顯示範本的設定路徑。_[!UICONTROL Template Subject]_&#x200B;和&#x200B;_[!UICONTROL Template Content]_&#x200B;是相對於所選範本自動產生的。
 
    - **[!UICONTROL Template Subject]** — 此文字會顯示在電子郵件的主旨列中。
 

@@ -50,9 +50,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Default Theme]_底下，將&#x200B;**[!UICONTROL Applied Theme]**設定為您要用於目前檢視的檢視。
+1. 在&#x200B;_[!UICONTROL Default Theme]_&#x200B;底下，將&#x200B;**[!UICONTROL Applied Theme]**&#x200B;設定為您要用於目前檢視的檢視。
 
    ![套用的佈景主題](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Design Rule]_底下，按一下&#x200B;**[!UICONTROL Add New User Agent Rule]**。
+1. 在&#x200B;_[!UICONTROL Design Rule]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Add New User Agent Rule]**。
 
    ![設計規則](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

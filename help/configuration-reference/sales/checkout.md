@@ -41,7 +41,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格](../../stores-purchase/cart-configuration.md#quote-lifetime)的[期限（天）。 |
+| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格[&#128279;](../../stores-purchase/cart-configuration.md#quote-lifetime)的期限（天）。 |
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | 存放區檢視 | 決定產品加入購物車後，[購物車頁面是否立即顯示](../../stores-purchase/cart-configuration.md#redirect-to-cart)。 選項： `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | 存放區檢視 | 決定觸發呼叫前購物車中的專案數。 預設值： `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | 存放區檢視 | 表示購物車中是否顯示[交叉銷售專案](../../catalog/related-products-up-sells-cross-sells.md#cross-sells)，提供額外的銷售選項給客戶。 選項： `Yes` （預設） / `No` |

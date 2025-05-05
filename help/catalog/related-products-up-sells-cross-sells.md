@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 產品設定 — [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-使用&#x200B;_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_區段來設定簡單的促銷區塊，這些區塊會顯示客戶可能感興趣的其他產品選項。 如需詳細資訊，請參閱[產品關係](../merchandising-promotions/product-relationships.md)。
+使用&#x200B;_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;區段來設定簡單的促銷區塊，這些區塊會顯示客戶可能感興趣的其他產品選項。 如需詳細資訊，請參閱[產品關係](../merchandising-promotions/product-relationships.md)。
 
 ![相關產品、追加銷售和交叉銷售](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) **由Adobe Sensei支援的產品建議**使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+>![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) **由Adobe Sensei支援的產品建議**&#x200B;使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
 ><br/>
 >如需使用此Adobe開發的擴充功能作為手動設定之產品推薦和追加銷售之替代方法的詳細資訊，請參閱&#x200B;_[產品推薦指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要依商店檢視顯示或隱藏交叉銷售專案，請參閱購物車中名為&#x200B;_[!UICONTROL Show Cross-sell Items]_的[結帳>購物車](../configuration-reference/sales/checkout.md)選項。 您可能會想要在特定銷售期間或在商店檢視中隱藏A/B測試的交叉銷售。
+>若要依商店檢視顯示或隱藏交叉銷售專案，請參閱購物車中名為&#x200B;_[!UICONTROL Show Cross-sell Items]_&#x200B;的[結帳>購物車](../configuration-reference/sales/checkout.md)選項。 您可能會想要在特定銷售期間或在商店檢視中隱藏A/B測試的交叉銷售。
 
 ![購物車中的交叉銷售](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 

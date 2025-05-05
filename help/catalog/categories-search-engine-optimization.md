@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 類別 — 搜尋引擎最佳化設定
 
-_[!UICONTROL Search Engine Optimization]_區段指定搜尋引擎用來索引類別的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，有些仍會繼續使用。 目前的SEO最佳實務是在中繼標題和中繼描述中併入高值關鍵字。
+_[!UICONTROL Search Engine Optimization]_&#x200B;區段指定搜尋引擎用來索引類別的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，有些仍會繼續使用。 目前的SEO最佳實務是在中繼標題和中繼描述中併入高值關鍵字。
 
 ![搜尋引擎最佳化](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

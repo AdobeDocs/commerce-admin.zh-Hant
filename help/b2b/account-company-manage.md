@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 管理公司帳戶
 
-_[!UICONTROL Companies]_頁面列出所有目前的公司帳戶，無論狀態為何。 任何待核准的請求都會顯示在清單頂端。
+_[!UICONTROL Companies]_&#x200B;頁面列出所有目前的公司帳戶，無論狀態為何。 任何待核准的請求都會顯示在清單頂端。
 
 ![公司格線](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 使用&#x200B;*[!UICONTROL Columns]*&#x200B;控制項來自訂格線中顯示的欄。 使用搜尋和篩選功能自訂檢視中顯示的公司。
 
-- 使用&#x200B;_[!UICONTROL Search]_在&#x200B;**公司**網格中尋找公司。 搜尋會索引&#x200B;**公司名稱**和&#x200B;**父系**欄。
+- 使用&#x200B;_[!UICONTROL Search]_&#x200B;在&#x200B;**公司**&#x200B;網格中尋找公司。 搜尋會索引&#x200B;**公司名稱**&#x200B;和&#x200B;**父系**&#x200B;欄。
 
 - 使用[!UICONTROL Filter]自訂檢視以包含符合特定條件的記錄。 例如，如果B2B網站設定為同時管理單一公司帳戶和[公司階層](manage-companies.md)，您可以依`[!UICONTROL Company Type - Company]`篩選，以僅顯示單一公司，或依`[!UICONTROL Company Type - Parent]`篩選，以僅顯示每個階層的父公司。
 
-使用網格上方的&#x200B;_[!UICONTROL Actions]_控制項，將動作套用至多個公司記錄。 例如，與其核准個別公司請求，您可以選取多個請求，在單一動作中啟用帳戶。 可用的動作取決於指派給您Admin使用者帳戶之角色的[許可權](../systems/permissions.md)。
+使用網格上方的&#x200B;_[!UICONTROL Actions]_&#x200B;控制項，將動作套用至多個公司記錄。 例如，與其核准個別公司請求，您可以選取多個請求，在單一動作中啟用帳戶。 可用的動作取決於指派給您Admin使用者帳戶之角色的[許可權](../systems/permissions.md)。
 
 ## 公司角色資源
 
@@ -166,7 +166,7 @@ _[!UICONTROL Companies]_頁面列出所有目前的公司帳戶，無論狀態�
 
 1. 在網格中，尋找要編輯的公司記錄。
 
-1. 從&#x200B;_[!UICONTROL Action]_欄選取&#x200B;**[!UICONTROL Edit]**。
+1. 從&#x200B;_[!UICONTROL Action]_&#x200B;欄選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 對公司資訊進行必要的變更。
 
@@ -198,7 +198,7 @@ _[!UICONTROL Companies]_頁面列出所有目前的公司帳戶，無論狀態�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 在網格中尋找公司，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中尋找公司，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 視需要更新每個區段中的欄位值，使用欄位說明作為參考。
 

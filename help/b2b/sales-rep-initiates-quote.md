@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Initiate a Quote for a Buyer
 
-[](configure-quotes.md)
+[&#128279;](configure-quotes.md)
 
 - Draft quotes are visible only to the seller.
 - Draft quotes cannot be submitted until the sales representative adds items, relevant discounts, and notes to create the initial offer for the buyer.
 - A seller can create a quote from the Quotes or Customer Grid.
 
-The Sales Representative sends the quote to the buyer to initiate the negotiation process. [](quote-price-negotiation.md)
+The Sales Representative sends the quote to the buyer to initiate the negotiation process. [&#128279;](quote-price-negotiation.md)
 
 ## Sales representative quote creation experience
 
@@ -27,13 +27,13 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 >[!NOTE]
 >
->[](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)__
+>[&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)__
 
 ### Create a quote from the Quote grid
 
-1. [](../systems/permissions.md)
+1. [&#128279;](../systems/permissions.md)
 
-1. [!UICONTROL Quotes]**[!UICONTROL Sales]****[!UICONTROL Quotes]**
+1. [!UICONTROL Quotes]&#x200B;**[!UICONTROL Sales]**&#x200B;**[!UICONTROL Quotes]**
 
 1. Create a quote for a buyer.
 
@@ -57,15 +57,15 @@ A Sales Representative can create a quote from the Quotes or Customer Grid.
 
 After creating the draft quote, add product items, apply discounts, and communicate with the buyer by adding comments and any related files to the quote. Then, send the quote to the buyer for review, or save it as a draft.
 
-1. **[!UICONTROL Add Product By SKU]****[!UICONTROL Add Product]**
+1. **[!UICONTROL Add Product By SKU]**&#x200B;**[!UICONTROL Add Product]**
 
    ![](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Apply line item discounts to products as needed.
 
-   - [!UICONTROL Select]**[!UICONTROL Discount Item]**
+   - [!UICONTROL Select]&#x200B;**[!UICONTROL Discount Item]**
 
-   - [!UICONTROL Discount Line item]**[!UICONTROL Discount Type]**
+   - [!UICONTROL Discount Line item]&#x200B;**[!UICONTROL Discount Type]**
 
      ![](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
@@ -79,7 +79,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    >[!NOTE]
    >
-   >[](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)__
+   >[&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)__
 
 1. Apply a quote-level discount as needed:
 
@@ -95,7 +95,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    ![](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   [](configure-quotes.md)
+   [&#128279;](configure-quotes.md)
 
 1. Add shipping address during negotiations.
 
@@ -103,7 +103,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
    Shipping options are locked on checkout.
 
-   [](account-dashboard-my-quotes.md#adding-a-shipping-address)
+   [&#128279;](account-dashboard-my-quotes.md#adding-a-shipping-address)
 
 1. Process the quote.
 
@@ -115,7 +115,7 @@ After creating the draft quote, add product items, apply discounts, and communic
 
 ## View and create quotes from Customer Grid
 
-1. [!UICONTROL Customer]**[!UICONTROL Customers]****[!UICONTROL All Customers]**
+1. [!UICONTROL Customer]&#x200B;**[!UICONTROL Customers]**&#x200B;**[!UICONTROL All Customers]**
 
 1. Select the customer ID for a Company buyer.
 
@@ -131,4 +131,4 @@ After creating the draft quote, add product items, apply discounts, and communic
 
 1. **[!UICONTROL View]**
 
-[](quote-price-negotiation.md)
+[&#128279;](quote-price-negotiation.md)

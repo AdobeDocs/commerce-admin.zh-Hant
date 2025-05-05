@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-客戶帳戶儀表板的&#x200B;_[!UICONTROL Store Credit]_頁面列出可用於未來購買的退貨和退款的金額。 客戶也可以兌換禮品卡的價值。
+客戶帳戶儀表板的&#x200B;_[!UICONTROL Store Credit]_&#x200B;頁面列出可用於未來購買的退貨和退款的金額。 客戶也可以兌換禮品卡的價值。
 
 ![客戶商店點數](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 檢視信用餘額與歷史記錄的方法有兩種：
 
-方法1：從客戶帳戶儀表板&#x200B;****
+方法1：從客戶帳戶儀表板&#x200B;**&#x200B;**
 
 1. 客戶從店面登入帳戶。
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 
 1. 如果有商店點數可用，則客戶按一下&#x200B;**使用商店點數**。
 
-1. 如果客戶改變使用商店點數的想法，請按一下&#x200B;_[!UICONTROL Order Summary]_區段中的&#x200B;**[!UICONTROL Remove]**。
+1. 如果客戶改變使用商店點數的想法，請按一下&#x200B;_[!UICONTROL Order Summary]_&#x200B;區段中的&#x200B;**[!UICONTROL Remove]**。

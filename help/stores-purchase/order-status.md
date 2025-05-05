@@ -13,10 +13,10 @@ ht-degree: 0%
 # 訂單狀態
 
 所有訂單的訂單狀態都與訂單處理[工作流程](order-processing.md)中的階段相關聯。\
-順序狀態與順序狀態之間的差異在於&#x200B;**[!UICONTROL order states]**是以程式設計方式使用。 他們不是
+順序狀態與順序狀態之間的差異在於&#x200B;**[!UICONTROL order states]**&#x200B;是以程式設計方式使用。 他們不是
 對客戶或管理員使用者可見。 它們決定訂單的流程，以及訂單可能執行的作業。
 以特定狀態訂購。\
-**[!UICONTROL Order statuses]**可用來將訂單狀態傳達給客戶和管理員。
+**[!UICONTROL Order statuses]**&#x200B;可用來將訂單狀態傳達給客戶和管理員。
 您可以建立其他訂單狀態，以符合您的營運需求。 方便顯示訂單狀態
 Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對訂單沒有影響
 處理工作流程。\
@@ -76,13 +76,13 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對�
 
    ![建立新訂單狀態](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. 更新&#x200B;_[!UICONTROL Order Status Information]_區段：
+1. 更新&#x200B;_[!UICONTROL Order Status Information]_&#x200B;區段：
 
    - 輸入&#x200B;**[!UICONTROL Status Code]**&#x200B;以供內部參考。 第一個字元必須是字母(a-z)，其餘字元可以是字母和數字(0-9)的任意組合。 請使用底線字元，而非空格。
 
    - 針對&#x200B;**[!UICONTROL Status Label]**，在管理員和店面中輸入可識別狀態設定的標籤。
 
-1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_區段中，輸入不同存放區檢視所需的任何標籤。
+1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_&#x200B;區段中，輸入不同存放區檢視所需的任何標籤。
 
 1. 按一下&#x200B;**[!UICONTROL Save Status]**。
 
@@ -116,7 +116,7 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對�
 
 ### 編輯現有訂單狀態
 
-1. 在&#x200B;_[!UICONTROL Order Status]_格線中，以編輯模式開啟狀態記錄。
+1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;格線中，以編輯模式開啟狀態記錄。
 
 1. 視需要更新狀態設定。
 
@@ -128,15 +128,15 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對�
 >
 >如果狀態正在使用中，則無法從狀態中取消指派狀態設定。
 
-1. 在&#x200B;_[!UICONTROL Order Status]_網格中，尋找要取消指派的訂單狀態記錄。
+1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;網格中，尋找要取消指派的訂單狀態記錄。
 
-1. 在列最右邊的&#x200B;_[!UICONTROL Action]_欄中，按一下&#x200B;**[!UICONTROL Unassign]**連結。
+1. 在列最右邊的&#x200B;_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Unassign]**&#x200B;連結。
 
    工作區的頂端會顯示訊息，指出訂單狀態已取消指派。 雖然訂單狀態標籤仍會顯示在清單中，但已不再指派給狀態。 無法刪除訂單狀態設定。
 
 >[!NOTE]
 >
->如果預設訂單狀態是從訂單狀態取消指派，_**另一個**_&#x200B;訂單狀態是&#x200B;_**自動設定**_&#x200B;為此訂單狀態的預設值。
+>如果預設訂單狀態是從訂單狀態取消指派，_&#x200B;**另一個**&#x200B;_&#x200B;訂單狀態是&#x200B;_&#x200B;**自動設定**&#x200B;_&#x200B;為此訂單狀態的預設值。
 
 ## 通知
 

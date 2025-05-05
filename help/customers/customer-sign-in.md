@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 登出客戶帳戶
 
-1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_旁的右上角，客戶按一下&#x200B;**[!UICONTROL v]**功能表選取器。
+1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_&#x200B;旁的右上角，客戶按一下&#x200B;**[!UICONTROL v]**&#x200B;功能表選取器。
 
 1. 選擇&#x200B;**[!UICONTROL Sign Out]**。
 

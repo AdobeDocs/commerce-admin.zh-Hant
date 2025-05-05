@@ -51,12 +51,12 @@ ht-degree: 0%
 
    無論是哪一個「方向」設定，金額都會以網站的基本貨幣表示。
 
-1. 根據&#x200B;_[!UICONTROL Direction]_設定輸入&#x200B;**[!UICONTROL Rate]**值。
+1. 根據&#x200B;_[!UICONTROL Direction]_&#x200B;設定輸入&#x200B;**[!UICONTROL Rate]**&#x200B;值。
 
    | 方向 | 費率設定 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。 |
-   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
+   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入點數。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。 |
+   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入貨幣值。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
 
    將點數轉換為貨幣時，點數無法劃分。 例如，如果10點轉換為$2.00，則必須在以10點為單位的群組中兌換點。 因此，25點可兌換$4.00，剩餘5點則歸客戶結餘。
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 套用回報率的網站。 |
 | [!UICONTROL Customer Group] | 套用回報率的客戶群組。 |
-| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額的點數的數量。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_欄位中，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]** — 定義可取得客戶點的訂單金額。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
+| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額的點數的數量。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入點數。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]** — 定義可取得客戶點的訂單金額。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入貨幣值。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
