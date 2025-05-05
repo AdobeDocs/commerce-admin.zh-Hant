@@ -5,7 +5,7 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '531'
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 - **Commerce管理帳戶**—[從Commerce執行個體的管理員管理Commerce管理使用者](../systems/permissions-users-all.md)。 Commerce管理員的使用者帳戶必須獲指派管理員角色。
 
-  Commerce專案的系統管理員可以使用[SSH連線到遠端環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)，並使用Commerce CLI `admin:user:create`和`admin:user:unlock`命令新增或解除鎖定管理員使用者帳戶。
+  Commerce專案的系統管理員可以使用[SSH連線到遠端環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant#connect-to-a-remote-environment)，並使用Commerce CLI `admin:user:create`和`admin:user:unlock`命令新增或解除鎖定管理員使用者帳戶。
 
 - **Adobe使用者帳戶** — 與Commerce執行個體相關聯之Adobe組織的管理員必須登入Adobe Admin Console，並將每個Commerce管理員的Adobe ID新增至組織。 接著，他們必須指派產品權益和許可權，才能存取Commerce應用程式。 請參閱[在Adobe Admin Console中設定Adobe Commerce使用者](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console)。
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe ID是透過Adobe建立的帳戶，必須透過Experience Cloud存取產品和服務。 沒有Adobe ID的Commerce管理員可以使用他們用來登入Commerce管理員的相同電子郵件地址[建立免費帳戶](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html)。
+>Adobe ID是透過Adobe建立的帳戶，必須透過Experience Cloud存取產品和服務。 沒有Adobe ID的Commerce管理員可以使用他們用來登入Commerce管理員的相同電子郵件地址[建立免費帳戶](https://helpx.adobe.com/tw/manage-account/using/create-update-adobe-id.html)。

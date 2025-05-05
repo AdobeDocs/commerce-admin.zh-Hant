@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 管理員工作階段
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 如果超過工作階段大小上限，則會顯示錯誤訊息，且系統會將工作階段大小限制記錄到`var/log`目錄。
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### 店面工作階段
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 如果超過工作階段大小上限，則不會顯示錯誤，但系統會將工作階段大小限制記錄到`var/log`目錄。
 
@@ -68,7 +68,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce和Magento Open Source可讓您驗證工作階段變數，藉此防範可能的工作階段固定攻擊，或嘗試毒害或劫持使用者工作階段。 「工作階段驗證設定」會決定工作階段變數在每次商店造訪期間的驗證方式，以及工作階段ID是否包含在商店的URL中。
 
-如需技術資訊，請參閱&#x200B;_組態指南_&#x200B;中的[使用工作階段存放區的Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)。
+如需技術資訊，請參閱&#x200B;_組態指南_&#x200B;中的[使用工作階段存放區的Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=zh-Hant)。
 
 ![一般設定 — Web工作階段驗證](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

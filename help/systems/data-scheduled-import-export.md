@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >當您建立或更新排定的匯入/匯出時，會導致系統組態變更。 儲存後，請務必解決出現在管理頁面頂端的快取失效通知，並排清快取以套用新的或更新排程。
 
-1. [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在每個排定的工作之後，檔案的復本會放在Adobe Commerce本機伺服器的`var/log/import_export`目錄中。
+1. [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在每個排定的工作之後，檔案的復本會放在Adobe Commerce本機伺服器的`var/log/import_export`目錄中。
 
    每個操作的詳細資訊都不會寫入記錄中。 如果發生錯誤，則會傳送有關失敗的匯入/匯出工作的通知，並附上錯誤說明。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 每個匯入操作的詳細資訊不會寫入記錄檔，但是當發生失敗時，您會收到包含錯誤說明的&#x200B;_匯入失敗_&#x200B;電子郵件。 上次排程匯入工作的結果會顯示在「排定的匯入/匯出」頁面的「上次結果」欄中。
 
-[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯入作業後，匯入檔案的復本會放置在部署Adobe Commerce或Magento Open Source之伺服器上的`var/log/import_export`目錄中。 時間戳記、匯入實體（產品或客戶）的標籤以及操作型別（在此例中為「匯入」）會新增至匯入檔案名稱。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯入作業後，匯入檔案的復本會放置在部署Adobe Commerce或Magento Open Source之伺服器上的`var/log/import_export`目錄中。 時間戳記、匯入實體（產品或客戶）的標籤以及操作型別（在此例中為「匯入」）會新增至匯入檔案名稱。
 
 在每個排定的匯入工作之後，會自動執行重新索引作業。 從正面來看，說明和其他文字資訊的變更會在更新資料移至資料庫後反映出來，而價格的變更則只有在重新索引作業後才會反映出來。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 每次匯出的詳細資料不會寫入記錄中，但如果失敗，您會收到「匯出失敗」電子郵件，其中包含錯誤說明。 上次匯出作業的結果會顯示在「排定的匯入/匯出」頁面的「上次結果」欄中。
 
-[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯出後，匯出檔案會放置在使用者定義的位置，並且在部署Adobe Commerce或Magento Open Source的伺服器上的`var/log/import_export`目錄中放置副本。 匯出實體（產品或客戶）的時間戳記和標籤以及操作型別（在此例中為匯出）會新增至匯出檔案名稱。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯出後，匯出檔案會放置在使用者定義的位置，並且在部署Adobe Commerce或Magento Open Source的伺服器上的`var/log/import_export`目錄中放置副本。 匯出實體（產品或客戶）的時間戳記和標籤以及操作型別（在此例中為匯出）會新增至匯出檔案名稱。
 
 ### 步驟1：完成匯出設定
 
