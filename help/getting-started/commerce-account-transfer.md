@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447670/?learn=on&captions=chi_hant)
 
 ## 電子郵件變更
 

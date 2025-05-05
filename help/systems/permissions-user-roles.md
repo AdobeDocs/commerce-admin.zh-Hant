@@ -119,7 +119,7 @@ ht-degree: 0%
 
 觀看此影片以瞭解管理使用者角色的相關資訊：
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443518?quality=12&learn=on&captions=chi_hant)
 
 ## 角色資源
 

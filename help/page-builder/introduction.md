@@ -38,4 +38,4 @@ ht-degree: 0%
 
 觀看此影片以瞭解Page Builder功能：
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447905?quality=12&learn=on&captions=chi_hant)
