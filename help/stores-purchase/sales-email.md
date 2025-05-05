@@ -35,7 +35,7 @@ ht-degree: 0%
    - `Disable` — 在事件觸發時傳送銷售電子郵件。
    - `Enable` — 以預先決定的固定間隔傳送銷售電子郵件。
 
-   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html)。
+   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=zh-Hant)。
 
 ## 步驟3. 完成每封銷售電子郵件訊息的詳細資料
 

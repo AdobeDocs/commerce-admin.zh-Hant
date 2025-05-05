@@ -20,7 +20,7 @@ _[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intel
 
 ![進階報告](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,5 +30,5 @@ _[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intel
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
-[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant
+[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=zh-Hant#advanced-reporting

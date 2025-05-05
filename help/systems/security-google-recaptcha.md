@@ -33,7 +33,7 @@ Google reCAPTCHA可透過數種方式實作：
 
 >[!IMPORTANT]
 >
->設定Google reCAPTCHA之前，請確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱安裝指南中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){：target=&quot;_blank&quot;}。
+>設定Google reCAPTCHA之前，請確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱安裝指南中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant){：target=&quot;_blank&quot;}。
 
 ## 步驟1：產生Google reCAPTCHA金鑰
 

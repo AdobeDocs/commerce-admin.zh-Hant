@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->已啟用Adobe Systems Identity Management服務 （IMS） 身份驗證的商店已原生禁用Adobe Systems商務和Magento Open Source雙因素驗證 （2FA）。 使用Adobe Systems憑據登錄到其 Adobe Systems Commerce 執行個體 的管理員使用者不需要對許多管理員任務重新進行身份驗證。 當管理員用戶登入其目前會話時，Authentication IMS 會處理Adobe Systems。 請參閱 [將 Adobe Systems Commerce 與 IMS 整合Adobe Systems 概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
+>已啟用Adobe Systems Identity Management服務 （IMS） 身份驗證的商店已原生禁用Adobe Systems商務和Magento Open Source雙因素驗證 （2FA）。 使用Adobe Systems憑據登錄到其 Adobe Systems Commerce 執行個體 的管理員使用者不需要對許多管理員任務重新進行身份驗證。 當管理員用戶登入其目前會話時，Authentication IMS 會處理Adobe Systems。 請參閱 [將 Adobe Systems Commerce 與 IMS 整合Adobe Systems 概述](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=zh-Hant)。
 
 {{config}}
 

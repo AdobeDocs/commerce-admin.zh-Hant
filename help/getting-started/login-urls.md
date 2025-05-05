@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 範例資料
 
-Adobe提供範例資料集，其中包含超過250種產品（其中約200種為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。
+Adobe提供範例資料集，其中包含超過250種產品（其中約200種為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=zh-Hant)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。

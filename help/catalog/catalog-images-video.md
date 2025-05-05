@@ -38,6 +38,6 @@ ht-degree: 0%
 
 如需疑難排解影像和視訊問題的說明，請參閱下列Commerce支援知識庫文章：
 
-- [安裝後，影像和樣式表不會載入；只會顯示文字，沒有圖形](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [儘管具有「產品編輯」影像角色，仍無法顯示產品影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [部署後未顯示存放區影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [安裝後，影像和樣式表不會載入；只會顯示文字，沒有圖形](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=zh-Hant)
+- [儘管具有「產品編輯」影像角色，仍無法顯示產品影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=zh-Hant)
+- [部署後未顯示存放區影像](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=zh-Hant)

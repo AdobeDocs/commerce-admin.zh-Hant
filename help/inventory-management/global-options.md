@@ -86,7 +86,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html)。
+     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=zh-Hant)。
 
    - 如果已啟用，請設定&#x200B;**[!UICONTROL Asynchronous batch size]**。 預設批次大小為100。 當大量程式達到此數量時，系統會觸發此事件。
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱&#x200B;[_Adobe Commerce B2B使用手冊_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+>在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱&#x200B;[_Adobe Commerce B2B使用手冊_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)。
 
 ## [!UICONTROL B2B Features]
 

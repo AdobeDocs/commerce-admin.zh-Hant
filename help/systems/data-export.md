@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 向下捲動並按一下頁面右下角的&#x200B;**[!UICONTROL Continue]**。
 
-   工作完成後，會透過訊息佇列處理檔案（確認cron工作正在執行）。 匯出的檔案儲存在`var/export/ folder`中。 如需訊息佇列的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
+   工作完成後，會透過訊息佇列處理檔案（確認cron工作正在執行）。 匯出的檔案儲存在`var/export/ folder`中。 如需訊息佇列的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
 
    您可以將匯出的CSV檔案儲存或開啟為試算表，接著編輯資料並將其匯入回您的存放區。
 
@@ -92,4 +92,4 @@ ht-degree: 0%
 
 如需疑難排解資料匯出問題的說明，請參閱下列Commerce支援知識庫文章：
 
-- [匯出的產品.csv檔案未出現](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [匯出的產品.csv檔案未出現](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=zh-Hant)

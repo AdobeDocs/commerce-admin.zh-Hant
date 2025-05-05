@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 對象
 
-所有使用[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)且使用中授權的Commerce商家，都可以免費使用資料管理儀表板。
+所有使用[[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)、[[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/guide-overview)或[[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)且使用中授權的Commerce商家，都可以免費使用資料管理儀表板。
 
 資料管理儀表板位於&#x200B;*系統* >資料傳輸> *資料管理儀表板*。
 
@@ -27,8 +27,8 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | 範圍 | 同步資料的特定網站。 |
-| [!DNL Product Recommendations] | 顯示[!DNL Product Recommendations]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
-| [!DNL Live Search] | 顯示[!DNL Live Search]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
+| [!DNL Product Recommendations] | 顯示[!DNL Product Recommendations]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
+| [!DNL Live Search] | 顯示[!DNL Live Search]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
 | [!DNL Catalog Service] | 顯示[!DNL Catalog Service]的同步狀態、已同步的產品數目以及已同步產品的表格。 |
 | 設定 | 開啟對話方塊，您可以[手動重新同步目錄資料](#resync-catalog-data)。 |
 | 同步狀態 | 顯示過去三小時內已從Commerce資料庫傳輸至任何SaaS服務的產品數量。 如果您不經常更新目錄，此值通常為零。 如果同步正在進行中，請按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以取得更新的計數。 |
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe也提供命令列介面和系統記錄檔，供開發人員和系統整合經銷商用來管理和追蹤同步作業，以及Commerce SaaS服務的疑難排解錯誤。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
+>Adobe也提供命令列介面和系統記錄檔，供開發人員和系統整合經銷商用來管理和追蹤同步作業，以及Commerce SaaS服務的疑難排解錯誤。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview)。
 
 ### 同步的產品清單
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ### 重新同步目錄資料
 
-若要確保您的Commerce SaaS服務一律包含最新產品資訊，您應[實作同步目錄資料的排程](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)。
+若要確保您的Commerce SaaS服務一律包含最新產品資訊，您應[實作同步目錄資料的排程](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)。
 
 雖然您可以[手動啟動](#manually-resync-catalog)從Commerce資料庫重新同步到SaaS服務的目錄資料，但不建議使用，因為這會增加硬體資源的負載。 但是，在下列情況下可能需要手動重新同步目錄：
 

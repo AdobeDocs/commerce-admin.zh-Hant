@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
+>Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)。
 
 {{config}}
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![商家地點](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 ><br/>
 >**Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，核心版本不再隨附這些擴充功能，而必須從Commerce Marketplace安裝及更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br/>
->如果您已啟用並設定這些隨附的擴充功能，則必須在2.4.4升級程式中更新`composer.json`檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。<br/>
+>如果您已啟用並設定這些隨附的擴充功能，則必須在2.4.4升級程式中更新`composer.json`檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。<br/>
 ><br/>
 >**Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}。
 
@@ -71,7 +71,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![支票/匯票](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![銀行轉帳付款](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![帳戶付款](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

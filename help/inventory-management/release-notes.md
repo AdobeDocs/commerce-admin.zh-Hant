@@ -20,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是開放給貢獻者的Magento Open Source社群工程特殊專案。 若要參與並貢獻內容，請參閱[GitHub專案](https://github.com/magento/inventory)存放庫和[Wiki](https://github.com/magento/inventory/wiki)以開始使用。 若要討論專案，請加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)管道（[自我註冊](https://opensource.magento.com/slack)）。
 
-[發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}，適用於支援和相容的發行。
+[發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant){target="_blank"}，適用於支援和相容的發行。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （模組版本： `inventory-composer-metapackage = 1.1.0`）受到支援，並且與Adobe Commerce 2.3.0版、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。 [!DNL Inventory Management] 1.1.1僅以套件名稱更新發行，支援2.3.1版，並與2.3.0版Adobe Commerce、雲端基礎結構上的Adobe Commerce及Magento Open Source程式碼基底相容。
 
-![已修正問題](../assets/fix.svg) **已新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![已修正問題](../assets/fix.svg) **已新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hant){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修正問題](../assets/fix.svg)已解決預設庫存的效能問題，以大幅提升許多作業的效能。 改良功能可提升單一來源模式、「移轉存貨至Source」、「店麵類別」頁面及「可銷售數量」計算的效能。
 

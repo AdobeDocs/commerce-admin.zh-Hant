@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->擁有Adobe ID且想要簡化登入Adobe Commerce和Adobe業務產品的Adobe Commerce商家可整合Commerce驗證與Adobe IMS驗證工作流程。 為您的Commerce商店啟用此整合後，每個管理員使用者都必須使用其Adobe憑證(而非其Commerce憑證)才能登入。 請參閱[Adobe Identity Management Service (IMS)整合總覽](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)。
+>擁有Adobe ID且想要簡化登入Adobe Commerce和Adobe業務產品的Adobe Commerce商家可整合Commerce驗證與Adobe IMS驗證工作流程。 為您的Commerce商店啟用此整合後，每個管理員使用者都必須使用其Adobe憑證(而非其Commerce憑證)才能登入。 請參閱[Adobe Identity Management Service (IMS)整合總覽](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=zh-Hant)。
 
 對於暫時的使用者或角色，您也可以設定使用者帳戶的到期日。
 

@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
 
 Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買的安裝程式與[Adobe雲端架構][4]上託管的安裝不同。
 

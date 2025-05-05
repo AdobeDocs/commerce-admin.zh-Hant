@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)不同的標準搜尋功能。
+>此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)不同的標準搜尋功能。
 
 _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進階搜尋」表單中所輸入搜尋條件的產品。 目錄中的每個產品清單基本上都有相同的控制項。 唯一的差異是其中一個是搜尋查詢的結果，另一個差異是[導覽](navigation.md)的結果。
 
@@ -30,7 +30,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 >[!IMPORTANT]
 >
->鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)。
+>鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=zh-Hant)。
 
 ## 用於擴充搜尋結果的關鍵字對應
 

@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ### [!UICONTROL Channels]
 
-透過[Amazon Marketplace整合](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html)，將銷售擴充至其他網路商店，增加收入。 「色版」子選單只有在已設定AmazonSales Channel時才會出現。
+透過[Amazon Marketplace整合](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=zh-Hant)，將銷售擴充至其他網路商店，增加收入。 「色版」子選單只有在已設定AmazonSales Channel時才會出現。
 
 >[!TIP]
 >
->Channel Manager透過將Adobe Commerce或Magento Open Source產品目錄與沃爾瑪市集整合，協助商戶增加銷售、接觸新客戶、簡化銷售作業，並節省時間。 請參閱&#x200B;[_頻道管理員指南_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html)，以取得有關頻道管理員安裝、上線、設定和管理的詳細資訊。
+>Channel Manager透過將Adobe Commerce或Magento Open Source產品目錄與沃爾瑪市集整合，協助商戶增加銷售、接觸新客戶、簡化銷售作業，並節省時間。 請參閱&#x200B;[_頻道管理員指南_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=zh-Hant)，以取得有關頻道管理員安裝、上線、設定和管理的詳細資訊。
 
 ### [!UICONTROL Communications]
 

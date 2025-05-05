@@ -55,5 +55,5 @@ ht-degree: 2%
    + [建立和刪除客戶區段](customer-segment-create.md)
    + [價格規則中的客戶區段](customer-segment-price-rule.md)
    + [客戶區段報表](customer-segment-reports.md)
-+ [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
 

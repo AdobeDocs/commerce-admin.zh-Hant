@@ -91,4 +91,4 @@ ht-degree: 4%
    - [測試儀表板](content-staging-dashboard.md)
    - [新增行銷活動專案](content-staging-add-item.md)
    - [預覽行銷活動](content-staging-preview.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)

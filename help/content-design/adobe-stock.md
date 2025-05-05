@@ -96,6 +96,6 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

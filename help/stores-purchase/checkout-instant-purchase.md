@@ -57,7 +57,7 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 瞭解如何設定Braintree或付款服務的付款方式及啟用儲存機制：
 
 - [Braintree](braintree.md)
-- [付款服務檔案](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [付款服務檔案](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)
 
 ### 步驟3：啟用立即購買
 

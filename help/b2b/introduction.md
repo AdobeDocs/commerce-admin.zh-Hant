@@ -40,9 +40,9 @@ Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度�
 
 Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source提供延伸功能。 支援B2B工作流程的服務包括：
 
-* [目錄服務](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
-* [即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
-* [產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+* [目錄服務](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hant)
+* [即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=zh-Hant)
+* [產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)
 
 ## 共用目錄
 

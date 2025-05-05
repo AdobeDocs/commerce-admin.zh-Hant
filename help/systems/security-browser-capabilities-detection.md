@@ -18,7 +18,7 @@ ht-degree: 0%
 - 如果瀏覽器的隱私權設定不允許Cookie，您可以設定系統自動將其重新導向至[啟用Cookie](../content-design/pages.md#enable-cookies)頁面，該頁面說明如何在大部分的瀏覽器中進行建議的設定。
 - 如果瀏覽器的隱私權設定不允許JavaScript，您可以設定系統在每個頁面的標頭上方顯示以下訊息。
 
-如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)。
+如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hant#supported-browsers)。
 
 ## 設定瀏覽器功能偵測
 

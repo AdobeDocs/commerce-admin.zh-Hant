@@ -212,9 +212,9 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 ## 產品推薦Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)下列Cookie是由Adobe Commerce客戶的產品推薦所使用。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)下列Cookie是由Adobe Commerce客戶的產品推薦所使用。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
 
-- `mg_dnt`：如果您有管理網站上之Cookie同意的自訂程式碼，可讓您[限制Adobe Commerce資料收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您有管理網站上之Cookie同意的自訂程式碼，可讓您[限制Adobe Commerce資料收集](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用於[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指出購物者是否已登入或登出。 此Cookie與`dataservices_customer_id` Cookie同時更新。
 - `dataservices_customer_id`：指出購物者是否已登入或登出。 此Cookie包含系統中的客戶唯一ID。
@@ -224,7 +224,7 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)已為Adobe Commerce客戶設定下列Cookie。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)已為Adobe Commerce客戶設定下列Cookie。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
 
 - `mg`：由Snowplow JavaScript追蹤器設定。 如需詳細資訊，請參閱[雪犁檔案](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：根據目前網頁的主機名稱，這是不是如https://publicsuffix.org中所述「公用字尾」的最上層網域。 基本上，這是可以接受Cookie的最上層網域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。

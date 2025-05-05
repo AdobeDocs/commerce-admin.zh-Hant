@@ -23,14 +23,14 @@ Adobe Commerce和Magento Open Source會定期執行指令碼，依排程執行�
 
 >[!IMPORTANT]
 >
->Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)中的指示。
+>Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=zh-Hant)中的指示。
 
 此外，您可以將下列設定為根據cron排程執行：
 
 - 訂購系統格線更新與重新索引
 - 待處理付款期限
 
-請確定存放區的[基底URL](../stores-purchase/store-urls.md)已正確設定，以便cron作業期間產生的URL正確無誤。 如需雲端基礎結構上的Adobe Commerce，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)。 若為內部部署，請參閱&#x200B;_設定指南_&#x200B;中的[設定並執行控制項](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)。
+請確定存放區的[基底URL](../stores-purchase/store-urls.md)已正確設定，以便cron作業期間產生的URL正確無誤。 如需雲端基礎結構上的Adobe Commerce，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant)。 若為內部部署，請參閱&#x200B;_設定指南_&#x200B;中的[設定並執行控制項](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant)。
 
 ## 設定cron
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-開始之前，請確定您有一組有效的[[!DNL Commerce] 存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
+開始之前，請確定您有一組有效的[[!DNL Commerce] 存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hant)。
 
 若要將主題新增至您的[!DNL Commerce]存放區，請依照[!DNL Commerce Marketplace]上可用的指示操作：
 

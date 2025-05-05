@@ -187,4 +187,4 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 如需疑難排解獎勵點問題的說明，請參閱下列Commerce支援知識庫文章：
 
-- [404錯誤 — 移除多重出貨結帳的獎勵點](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404錯誤 — 移除多重出貨結帳的獎勵點](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=zh-Hant)

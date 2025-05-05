@@ -124,7 +124,7 @@ ht-degree: 0%
 
 Adobe Commerce支援兩種不同的同義字管理解決方案：
 
-- 即時搜尋[同義字](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html)功能適用於已安裝Live Search的Adobe Commerce安裝。
+- 即時搜尋[同義字](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=zh-Hant)功能適用於已安裝Live Search的Adobe Commerce安裝。
 - 所有Adobe Commerce安裝都能立即使用標準的搜尋同義字功能（如本頁所述）。
 
 >[!NOTE]

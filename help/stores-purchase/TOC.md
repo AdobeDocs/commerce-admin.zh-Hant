@@ -131,5 +131,5 @@ ht-degree: 3%
       + [送貨標籤總覽](shipping-labels.md)
       + [設定送貨標籤](shipping-label-configure.md)
       + [建立出貨標籤](shipping-label-create.md)
-+ [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
 

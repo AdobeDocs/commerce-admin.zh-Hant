@@ -27,8 +27,8 @@ ht-degree: 0%
 
 設定此整合的管理員在啟用模組期間需要下列認證：
 
-* 組織ID (取自[Adobe Admin Console](https://adminconsole.adobe.com/))，長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)。
-* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)。
+* 組織ID (取自[Adobe Admin Console](https://adminconsole.adobe.com/))，長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。
+* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html#two-step-verification)。
 * 使用者端ID
 * 使用者端密碼
 * 從[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials/)擷取API金鑰後，即可使用使用者端ID和使用者端密碼。
@@ -75,7 +75,7 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 
 >[!TIP]
 >
->您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
+>您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
 
 1. 在[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)中，導覽至&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
 

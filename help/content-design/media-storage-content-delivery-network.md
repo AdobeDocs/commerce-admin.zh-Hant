@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用內容傳遞網路
 
-內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN (請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html))。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
+內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN (請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant))。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
 
 設定CDN後，您必須從管理員完成設定。 您可以在全域或網站層級進行變更。 當CDN用於媒體儲存時，Commerce存放區頁面上的所有媒體路徑都會變更為設定中指定的CDN路徑。
 

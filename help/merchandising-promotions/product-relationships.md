@@ -36,4 +36,4 @@ ht-degree: 0%
 
 ## 由Adobe Sensei支援的產品推薦
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [由Adobe Sensei支援的產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [由Adobe Sensei支援的產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hant)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。

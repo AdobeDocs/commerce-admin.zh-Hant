@@ -219,7 +219,7 @@ ht-degree: 0%
    | `Name` | 對象名稱，例如`Orders over $50` |
    | `Description` | 對象的說明，例如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指出對象的來源，例如`Experience Platform`。 |
-   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
+   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hant)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
 
    {style="table-layout:auto"}
 

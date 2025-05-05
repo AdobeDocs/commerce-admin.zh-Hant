@@ -45,11 +45,11 @@ ht-degree: 0%
 
 **_若要啟用更新並重新索引：_**
 
-當[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (在雲端基礎結構上的Adobe Commerce中使用的預設模式)啟用時，請執行以下命令：
+當[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant#production-mode) (在雲端基礎結構上的Adobe Commerce中使用的預設模式)啟用時，請執行以下命令：
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-啟用[預設模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode)時，請完成下列步驟：
+啟用[預設模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant#default-mode)時，請完成下列步驟：
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

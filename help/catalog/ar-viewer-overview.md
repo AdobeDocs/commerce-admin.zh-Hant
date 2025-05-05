@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## [!DNL AR Viewer]需求
 
-[!DNL AR Viewer]與[!DNL Magento Open Source]和Adobe Commerce都相容。 請參閱[生命週期原則](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank}，以取得支援版本的詳細資訊。
+[!DNL AR Viewer]與[!DNL Magento Open Source]和Adobe Commerce都相容。 請參閱[生命週期原則](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=zh-Hant){target=_blank}，以取得支援版本的詳細資訊。
 
 如需詳細資訊，請參閱[安裝 [!DNL AR Viewer] 擴充功能](../catalog/ar-viewer-setup.md)。
 

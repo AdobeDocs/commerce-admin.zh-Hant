@@ -137,7 +137,7 @@ Adobe Commerce和Magento Open Source可設定為依預設透過`HTTPS`傳送所�
 
 ## 使用自訂管理員URL
 
-根據[安全性最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，Adobe建議您使用唯一的管理員URL，而非預設的&#x200B;_管理員_&#x200B;或常用辭彙（例如&#x200B;_後端_）。 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
+根據[安全性最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hant)，Adobe建議您使用唯一的管理員URL，而非預設的&#x200B;_管理員_&#x200B;或常用辭彙（例如&#x200B;_後端_）。 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Adobe Commerce和Magento Open Source可設定為依預設透過`HTTPS`傳送所�
 
 >[!NOTE]
 >
->除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。 針對部署在雲端基礎結構上的Adobe Commerce專案，請依照&#x200B;*雲端基礎結構上的Adobe Commerce指南*&#x200B;中的[指示](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url)變更管理員URL。
+>除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。 針對部署在雲端基礎結構上的Adobe Commerce專案，請依照&#x200B;*雲端基礎結構上的Adobe Commerce指南*&#x200B;中的[指示](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hant#admin-url)變更管理員URL。
 
 ### 方法1：從管理員變更
 
@@ -199,7 +199,7 @@ Adobe Commerce和Magento Open Source可設定為依預設透過`HTTPS`傳送所�
 
    >[!TIP]
    >
-   >針對雲端基礎結構上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`變數來設定自訂管理路徑。 請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理員變數主題](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html)。
+   >針對雲端基礎結構上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`變數來設定自訂管理路徑。 請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理員變數主題](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hant)。
 
    - **預設管理路徑**
 

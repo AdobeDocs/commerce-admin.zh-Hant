@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括[產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[目錄服務](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
+>Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括[產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hant)、[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)和[目錄服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview)。
 
 ## 資料驗證
 

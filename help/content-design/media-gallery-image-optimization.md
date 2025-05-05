@@ -31,6 +31,6 @@ ht-degree: 0%
 
 當組態中的&#x200B;_最大寬度_&#x200B;和&#x200B;_最大高度_&#x200B;值變更時，它會更新先前插入的所有現有最佳化影像。
 
-Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
+Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

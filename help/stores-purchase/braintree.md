@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您需要有關卡片意外費用的協助，請造訪[取消訂閱](https://helpx.adobe.com/manage-account/using/cancel-subscription.html)頁面以取得協助。
+>如果您需要有關卡片意外費用的協助，請造訪[取消訂閱](https://helpx.adobe.com/tw/manage-account/using/cancel-subscription.html)頁面以取得協助。
 
 Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整合。 它支援[!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo和本機付款方法。 Braintree可減輕商戶的PCI法規遵循負擔，因為交易是在Braintree系統上進行。 Braintree Payments整合是由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)開發。
 

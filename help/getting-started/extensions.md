@@ -99,7 +99,7 @@ Adobe提供其他擴充功能，必須使用Composer個別安裝。 這些擴充
 
 [!DNL Adobe Commerce B2B]是整合式擴充功能，可將標準Commerce商店轉換為全方位的企業對企業平台。 它可讓公司管理複雜的組織結構，在統一的公司帳戶下擁有多個購買者、自訂角色和購買許可權。 主要功能包括特定公司的目錄與定價、可協商的報價、採購單管理、請購單清單，以及快速訂購功能。 此解決方案在單一執行個體上同時支援B2B和B2C模型，可因應各種業務需求而具備彈性。 此擴充功能需要獨立的授權，且與Adobe Commerce的核心功能緊密整合，以提供完整的B2B電子商務解決方案。
 
-如需布建的相關資訊，請聯絡您的Adobe客戶代表。 如需實作詳細資料和設定步驟，請參閱[[!DNL B2B for Adobe Commerce] 使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+如需布建的相關資訊，請聯絡您的Adobe客戶代表。 如需實作詳細資料和設定步驟，請參閱[[!DNL B2B for Adobe Commerce] 使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)。
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -115,7 +115,7 @@ Adobe提供其他擴充功能，必須使用Composer個別安裝。 這些擴充
 
 Live Search是Adobe Commerce的獨家功能，提供AI支援的搜尋解決方案，並具有即時「隨型別搜尋」功能。 它可以在購物者輸入商品時，透過產品縮圖提供快速的相關結果，並具備智慧型多面向功能，可依據購物行為自動調整篩選器。 此解決方案包括用於產品提升與掩藏、同義字管理和搜尋分析的銷售功能。 [!DNL Live Search]免費隨附於Adobe Commerce，以更複雜的SaaS式搜尋體驗取代預設的搜尋功能。 它需要最少的設定才能開始。
 
-如需實作詳細資料和技術需求，請參閱[即時搜尋使用手冊](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)。
+如需實作詳細資料和技術需求，請參閱[即時搜尋使用手冊](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)。
 
 ### [!DNL Product Recommendations]
 
@@ -123,7 +123,7 @@ Live Search是Adobe Commerce的獨家功能，提供AI支援的搜尋解決方�
 
 [!DNL Product Recommendations]是Adobe Commerce專屬功能，由Adobe Sensei AI技術支援，可在整個客戶購物歷程中提供個人化產品建議。 解決方案會即時分析購物者行為和產品關係，以自動產生相關建議，不需要手動銷售規則。 此AI導向方法有助於提高轉換率和收入潛力，同時為購物者打造更吸引人的產品探索體驗。
 
-如需實作詳細資料和最佳實務，請參閱[[!DNL Product Recommendations] 使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)。
+如需實作詳細資料和最佳實務，請參閱[[!DNL Product Recommendations] 使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hant)。
 
 ### [!DNL Catalog Service]
 
@@ -131,7 +131,7 @@ Live Search是Adobe Commerce的獨家功能，提供AI支援的搜尋解決方�
 
 [!DNL Catalog Service]是適用於Adobe Commerce和Magento Open Source的高效能解決方案，可讓您透過GraphQL端點以最佳化方式存取目錄資料。 它維護獨立的同步資料庫，內含產品詳細資料和相關資訊，略過直接應用程式通訊，提供更快速的頁面載入時間。 此服務對產品詳細資料頁面、類別清單和搜尋結果頁面尤其有用，因此非常適合用於傳統和Headless商務實施。
 
-如需設定指示與技術詳細資訊，請參閱[[!DNL Catalog Service] 使用手冊](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)。
+如需設定指示與技術詳細資訊，請參閱[[!DNL Catalog Service] 使用手冊](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Live Search是Adobe Commerce的獨家功能，提供AI支援的搜尋解決方�
 
 [!DNL Payment Services]是適用於Adobe Commerce和Magento Open Source商店的全包式支付解決方案，提供完整的支付處理功能。 此服務整合了安全支付閘道功能與內建的詐騙保護功能，同時提供多種支付選項，包括信用卡/借記卡、PayPal、Venmo (US)和PayLater計畫。 它透過Commerce管理介面提供統一的交易報告及訂單管理，讓商家可以輕鬆地在一個地方追蹤付款、管理現金流量及調節財務資料。
 
-如需詳細的設定步驟與付款選項，請參閱[[!DNL Payment Services] 使用手冊](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview)。
+如需詳細的設定步驟與付款選項，請參閱[[!DNL Payment Services] 使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/overview)。

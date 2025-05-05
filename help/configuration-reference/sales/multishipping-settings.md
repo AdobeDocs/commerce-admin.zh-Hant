@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![選項](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

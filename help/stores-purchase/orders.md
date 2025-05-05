@@ -187,5 +187,5 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 
 如需疑難排解訂單問題的說明，請參閱下列Commerce支援知識庫文章：
 
-- [訂單顯示錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [訂單顯示錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=zh-Hant)
 - [訂單未顯示在Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)的「訂單」格線中

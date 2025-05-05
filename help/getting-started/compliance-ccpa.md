@@ -206,8 +206,8 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 在收到每個個別權利要求後的24個月內，請保留要求與貴公司回應的記錄。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hant
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

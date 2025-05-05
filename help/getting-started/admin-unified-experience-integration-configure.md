@@ -21,11 +21,11 @@ ht-degree: 0%
 ## 必要條件
 
 - Adobe Commerce必須設定為使用[Adobe IMS驗證](../getting-started/adobe-ims-config.md)
-- 帳戶布建與許可權 — 管理員必須擁有[Adobe企業設定檔](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)，且有權存取下列資源，才能設定Experience Cloud整合：
-   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) — 新增並管理組織的Adobe使用者和開發人員帳戶
+- 帳戶布建與許可權 — 管理員必須擁有[Adobe企業設定檔](https://helpx.adobe.com/tw/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)，且有權存取下列資源，才能設定Experience Cloud整合：
+   - [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/admin-guide.html) — 新增並管理組織的Adobe使用者和開發人員帳戶
    - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/) — 開發人員或系統管理員存取權可建立App Builder專案，並產生連線認證和專案設定以使用Adobe I/O事件服務
-   - [雲端基礎結構專案上的Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) — 安裝必要的模組並使用Adobe Commerce CLI設定Commerce應用程式伺服器
-   - [Commerce管理員](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) — 更新存放區設定並管理Commerce使用者帳戶
+   - [雲端基礎結構專案上的Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=zh-Hant#get-started-with-the-project-web-interface) — 安裝必要的模組並使用Adobe Commerce CLI設定Commerce應用程式伺服器
+   - [Commerce管理員](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=zh-Hant) — 更新存放區設定並管理Commerce使用者帳戶
 
 ## 設定概述
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 確認Adobe IMS已啟用。
 
-   - 使用環境的[SSH存取URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)連線至Commerce應用程式伺服器。
+   - 使用環境的[SSH存取URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)連線至Commerce應用程式伺服器。
 
    - 從命令列，使用Adobe Commerce CLI來檢查IMS模組狀態。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 >
 >這些指示顯示Commerce Cloud專案管理員如何使用Adobe Commerce CLI啟用擴充功能。 Commerce管理員使用者也可以更新[Commerce存放區組態設定](admin-unified-experience-integration-manage.md#from-the-commerce-admin)，以啟用擴充功能。
 
-1. 從本機工作站上雲端專案環境的根目錄中，使用[magento-cloud CLI工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)登入Commerce應用程式伺服器。
+1. 從本機工作站上雲端專案環境的根目錄中，使用[magento-cloud CLI工具](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=zh-Hant)登入Commerce應用程式伺服器。
 
    ```bash
    magento-cloud ssh
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需使用`.magento.env.yaml`檔案設定和管理環境變數的詳細資訊，請參閱[設定部署的環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)。
+>如需使用`.magento.env.yaml`檔案設定和管理環境變數的詳細資訊，請參閱[設定部署的環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)。
 
 ### 設定Commerce事件整合
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 1. 若要建立連線，請透過事件提供者將事件傳送給取用者。
 
-   - 從本機雲端專案目錄的命令列，[使用SSH連線至Commerce應用程式伺服器](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)。
+   - 從本機雲端專案目錄的命令列，[使用SSH連線至Commerce應用程式伺服器](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant#connect-to-a-remote-environment)。
 
      ```bash
      magento-cloud ssh
@@ -198,6 +198,6 @@ ht-degree: 0%
 
 1. 確認您可以如預期執行管理員工作。
 
-   Commerce管理員中的工作流程應遵循相同程式。 如果您在啟用Experience Cloud整合後遇到工作流程變更或錯誤，請連絡您的Commerce系統管理員或[提交Adobe支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)。
+   Commerce管理員中的工作流程應遵循相同程式。 如果您在啟用Experience Cloud整合後遇到工作流程變更或錯誤，請連絡您的Commerce系統管理員或[提交Adobe支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#submit-ticket)。
 
 設定Experience Cloud整合後，請確認已正確布建管理員帳戶，以透過Experience Cloud存取Commerce專案。 請參閱[管理管理員使用者](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts)。

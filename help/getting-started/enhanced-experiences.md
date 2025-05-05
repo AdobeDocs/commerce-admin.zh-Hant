@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hant)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 ## 最佳化業務流程和利潤
 
-- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
+- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
 
 - **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板[&#128279;](admin-dashboard.md)上的此資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
 

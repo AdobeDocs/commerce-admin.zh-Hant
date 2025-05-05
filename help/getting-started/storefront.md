@@ -32,7 +32,7 @@ ht-degree: 0%
 
 Commerce商店採用Edge Delivery Services技術，提供多項對商家和開發人員都有利的關鍵功能。 這些功能可讓企業建立吸引人的購物體驗，同時維持彈性，以根據需求自訂及擴充店面。
 
-如需設定和最佳化Commerce店面的詳細資訊和指南，請參閱[Adobe Commerce店面檔案](https://experienceleague.adobe.com/en/docs/commerce)。
+如需設定和最佳化Commerce店面的詳細資訊和指南，請參閱[Adobe Commerce店面檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce)。
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Headless實施可讓開發人員將前端展示層與後端商務功能分離，
 
 ### [!DNL Live Search]
 
-使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)，您的商店可提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。
+使用Adobe Commerce的[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)，您的商店可提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。
 
 ![即時搜尋範例 — 在您輸入時進行搜尋](./assets/storefront-search-as-you-type.png){width="700"}
 

@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![一般選項](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

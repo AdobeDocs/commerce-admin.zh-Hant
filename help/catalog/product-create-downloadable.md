@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您無法使用外部資源的連結作為可下載的產品。 有效的連結網域是在`env.php`檔案中以程式設計方式預先定義的（請參閱&#x200B;_組態指南_&#x200B;中的[env.php參考](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)）。
+   >您無法使用外部資源的連結作為可下載的產品。 有效的連結網域是在`env.php`檔案中以程式設計方式預先定義的（請參閱&#x200B;_組態指南_&#x200B;中的[env.php參考](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=zh-Hant)）。
 
    - 將&#x200B;**[!UICONTROL Shareable]**&#x200B;設定為下列其中一項：
 

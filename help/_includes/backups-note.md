@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**已停用的功能：**&#x200B;備份預設為停用。 啟用此功能可能需要開發人員協助。 請參閱下列&#x200B;_安裝指南_&#x200B;主題以啟用備份： [備份並復原檔案系統、媒體及資料庫](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html)。
+>**已停用的功能：**&#x200B;備份預設為停用。 啟用此功能可能需要開發人員協助。 請參閱下列&#x200B;_安裝指南_&#x200B;主題以啟用備份： [備份並復原檔案系統、媒體及資料庫](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=zh-Hant)。
 
 >[!NOTE]
 >

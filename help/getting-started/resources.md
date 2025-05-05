@@ -29,9 +29,9 @@ Adobe提供豐富的商務和技術資源、自助工具和服務，幫助您獲
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce.html
+[1]: https://experienceleague.adobe.com/docs/commerce.html?lang=zh-Hant
 [3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
-[4]: https://helpx.adobe.com/security.html
+[4]: https://helpx.adobe.com/tw/security.html
 [5]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [6]: https://community.magento.com/
 [7]: https://business.adobe.com/blog/

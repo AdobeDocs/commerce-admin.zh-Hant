@@ -43,7 +43,7 @@ Adobe Commerce HIPAA就緒擴充功能為Adobe Commerce安裝新增了其他功�
 
 | Adobe Commerce | 支援 | 附註 |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4支援需要[Hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4支援需要[Hotfix](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6 - p8 | 1.1.0 | 1.1.0中引入了對[資料服務](#adobe-commerce-services)的支援 |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -62,7 +62,7 @@ Adobe Commerce HIPAA就緒擴充功能為Adobe Commerce安裝新增了其他功�
 >[!BEGINSHADEBOX]
 
 - Adobe已布建您的Adobe Commerce帳戶以存取HIPAA Ready擴充功能。
-- 存取[repo.magento.com](https://repo.magento.com)以安裝擴充功能。 如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
+- 存取[repo.magento.com](https://repo.magento.com)以安裝擴充功能。 如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hant)。
 
 >[!ENDSHADEBOX]
 
@@ -70,13 +70,13 @@ Adobe Commerce HIPAA就緒擴充功能為Adobe Commerce安裝新增了其他功�
 
 >[!NOTE]
 >
->若要確保傳送至Experience Platform的後台事件資料可使用HIPAA，請參閱[資料連線延伸指南](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
+>若要確保傳送至Experience Platform的後台事件資料可使用HIPAA，請參閱[資料連線延伸指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)。
 
 1. 在本機工作站上，變更至雲端基礎結構專案上Adobe Commerce的專案目錄。
 
    >[!NOTE]
    >
-   >如需有關在本機管理Commerce專案環境的資訊，請參閱《雲端基礎結構使用手冊》中&#x200B;_Adobe Commerce的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)_。
+   >如需有關在本機管理Commerce專案環境的資訊，請參閱《雲端基礎結構使用手冊》中&#x200B;_Adobe Commerce的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/cli-branches)_。
 
 1. 簽出環境分支以使用Adobe Commerce Cloud CLI更新。
 
@@ -104,7 +104,7 @@ Adobe Commerce HIPAA就緒擴充功能為Adobe Commerce安裝新增了其他功�
    git push origin <branch-name>
    ```
 
-   推送更新會啟動[Commerce雲端部署程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)以套用變更。 從[部署記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)檢查部署狀態。
+   推送更新會啟動[Commerce雲端部署程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process)以套用變更。 從[部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)檢查部署狀態。
 
 ### 驗證安裝
 
@@ -278,13 +278,13 @@ Adobe Commerce中的HIPAA客戶搜尋結果限制功能會限制對受保護健�
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 是 | 是 |
 | 適用於Adobe Developer App Builder的[API Mesh](https://developer.adobe.com/graphql-mesh-gateway/) | 是 | 是 |
-| [SaaS資料匯出](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 是 | 是 |
-| [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 否 | 否 |
-| [產品建議](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 否 | 否 |
-| [付款服務](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 否 | 否 |
-| [資料連線後台事件](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
-| [資料連線店面活動](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
-| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
+| [SaaS資料匯出](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview) | 是 | 是 |
+| [即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview) | 否 | 否 |
+| [產品建議](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/overview) | 否 | 否 |
+| [付款服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview) | 否 | 否 |
+| [資料連線後台事件](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/event-forwarding/events-backoffice) | 是 | 是 |
+| [資料連線店面活動](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 否 | 否 |
+| [Audience Activation](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/audience-activation) | 否 | 否 |
 
 ### 工具
 
@@ -296,7 +296,7 @@ Adobe Commerce中的HIPAA客戶搜尋結果限制功能會限制對受保護健�
 - 所有安裝的擴充功能都與預先定義的允許清單相符
 - 未安裝不支援的Adobe服務
 
-您可以[設定工具](../../systems/security-scan.md#run-a-security-scan)以傳送電子郵件通知給您，其中包含排程掃描或[手動檢視報告](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report)的詳細資料。
+您可以[設定工具](../../systems/security-scan.md#run-a-security-scan)以傳送電子郵件通知給您，其中包含排程掃描或[手動檢視報告](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report)的詳細資料。
 
 ## 停用的功能
 
@@ -304,7 +304,7 @@ Adobe Commerce中的HIPAA客戶搜尋結果限制功能會限制對受保護健�
 
 HIPAA整備模組預設會停用下列功能。 商家可以自行承擔啟用任何這些功能的風險。
 
-- **[異動電子郵件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)** — 預設會停用SendGrid，因為服務未符合HIPAA要求。 Adobe Commerce提供可搭配您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帳戶使用的整合選項。 如需設定詳細資訊，請聯絡客戶技術客戶經理或Adobe Commerce支援。
+- **[異動電子郵件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=zh-Hant)** — 預設會停用SendGrid，因為服務未符合HIPAA要求。 Adobe Commerce提供可搭配您自己的[AWS Simple Email Service](https://docs.aws.amazon.com/ses/)帳戶使用的整合選項。 如需設定詳細資訊，請聯絡客戶技術客戶經理或Adobe Commerce支援。
 
 - **[訪客簽出](../../stores-purchase/checkout-guest.md)** — 此功能對HIPAA的各個方面帶來潛在風險，包括記錄、存取控制、PHI衛生和歷程等等。
 

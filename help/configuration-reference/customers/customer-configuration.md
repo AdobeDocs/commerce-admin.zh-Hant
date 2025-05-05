@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![帳戶共用選項](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![線上客戶選項](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![建立新帳戶選項（VAT欄位）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![密碼選項](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ![名稱和地址選項 — 開啟Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![名稱和位址選項 — Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![儲存點數選項](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![登入選項](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ![位址範本](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | 範本 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 ![客戶區段](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | 範本 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 ![驗證碼](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 網站 | 在與Commerce網站相關的商店中啟用驗證碼。 選項： `Yes` / `No` |
 | [!UICONTROL Font] | 網站 | 決定用於顯示驗證碼的字型。 若要新增您自己的字型，請將字型檔案放在與Commerce安裝相同的目錄中，並將宣告新增至`app/code/Magento/Captcha/etc`的`config.xml`檔案。 |
-| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
+| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hant)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
 | [!UICONTROL Displaying Mode] | 網站 | 決定驗證碼何時出現。 選項： <br/>**`Always`**— 登入一律需要CAPTCHA。<br/>**`After number of attempts to login`** — 此選項僅適用於「管理員登入」表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;欄位就會顯示。 輸入您要允許的登入嘗試次數。 `0` （零）的值類似於將[!UICONTROL Displaying Mode]設定為`Always`。<br/>_&#x200B;**注意：**&#x200B;_若要追蹤失敗的登入嘗試次數，每個嘗試使用一個電子郵件地址和一個IP位址登入都會被計入。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 網站 | 指定帳戶鎖定前，客戶可嘗試登入的次數。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 網站 | 決定目前驗證碼的存留期。 驗證碼過期時，使用者必須重新載入頁面。 |

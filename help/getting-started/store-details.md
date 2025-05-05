@@ -169,7 +169,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hant)
 
 ## [!UICONTROL Merchant Location]
 

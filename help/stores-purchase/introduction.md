@@ -25,7 +25,7 @@ Adobe Commerce和Magento Open Source在提交訂單前，會自動驗證所有�
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg)安裝並啟用Adobe Commerce B2B後，您就可以為與公司帳戶相關聯的客戶設定&#x200B;_快速訂單_。 當客戶知道要訂購產品的名稱或SKU時，此函式會將訂購流程簡化為幾次點按。 您也可以為公司帳戶設定可轉讓報價的支援。 如需B2B功能的詳細資訊，請參閱[Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
+>![Adobe Commerce B2B](../assets/b2b.svg)安裝並啟用Adobe Commerce B2B後，您就可以為與公司帳戶相關聯的客戶設定&#x200B;_快速訂單_。 當客戶知道要訂購產品的名稱或SKU時，此函式會將訂購流程簡化為幾次點按。 您也可以為公司帳戶設定可轉讓報價的支援。 如需B2B功能的詳細資訊，請參閱[Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)。
 
 ## 購物協助
 

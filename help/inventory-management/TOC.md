@@ -58,5 +58,5 @@ ht-degree: 5%
    - [概觀](shipments.md)
    - [建立出貨](shipments-create.md)
 - [CLI參考](cli.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
 

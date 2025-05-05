@@ -84,5 +84,5 @@ ht-degree: 1%
    - [管理員](./advanced/admin.md)
    - [系統](./advanced/system.md)
    - [開發人員](./advanced/developer.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
 

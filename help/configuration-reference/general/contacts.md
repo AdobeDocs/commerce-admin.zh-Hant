@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![連絡我們](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![電子郵件選項](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Email Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

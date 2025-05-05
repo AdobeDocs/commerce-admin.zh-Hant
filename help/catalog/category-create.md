@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 如果您希望類別頁面包含分層導覽的&#x200B;_`Filter by Attribute`_區段，請將&#x200B;**[!UICONTROL Anchor]**&#x200B;設為`Yes`。
 
-1. 針對&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;選項，選取一或多個可供客戶排序清單的可用值。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 針對&#x200B;**[!UICONTROL Available Product Listing Sort By]**&#x200B;選項，選取一或多個可供客戶排序清單的可用值。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
    依預設，會包含所有可用的值。 取消選取&#x200B;**[!UICONTROL Use All]**&#x200B;核取方塊以變更選取專案。 例如，值可能包括：
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 若要設定類別的預設排序順序，請選擇&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。
+1. 若要設定類別的預設排序順序，請選擇&#x200B;**[!UICONTROL Default Product Listing Sort By]**&#x200B;值。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-storefront/plp-styling)。
 
 1. 若要變更預設的分層導覽[價格步驟](navigation-layered.md#configure-price-navigation)設定，請執行下列動作：
 

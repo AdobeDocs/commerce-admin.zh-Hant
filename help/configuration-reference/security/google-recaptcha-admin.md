@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱&#x200B;_安裝指南_&#x200B;中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)。
+>在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱&#x200B;_安裝指南_&#x200B;中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant)。
 
 {{config}}
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | 全域 | 決定為[管理員登入](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)啟用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證管理員登入。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
-| [!UICONTROL Enable for Forgot Password] | 全域 | 決定啟用以要求[管理員密碼重設](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password)的reCAPTCHA型別。 選項： <br/>**`No`**- （預設）不會驗證密碼重設要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCaptcha v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
+| [!UICONTROL Enable for Login] | 全域 | 決定為[管理員登入](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hant)啟用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證管理員登入。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
+| [!UICONTROL Enable for Forgot Password] | 全域 | 決定啟用以要求[管理員密碼重設](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hant#reset-your-password)的reCAPTCHA型別。 選項： <br/>**`No`**- （預設）不會驗證密碼重設要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCaptcha v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 
 {style="table-layout:auto"}

@@ -97,7 +97,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -223,6 +223,6 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

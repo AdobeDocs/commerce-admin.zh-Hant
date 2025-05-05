@@ -26,7 +26,7 @@ ht-degree: 0%
 
 您的Adobe Commerce或Magento Open Source執行個體可以部署為在&#x200B;_生產_&#x200B;或&#x200B;_開發人員模式_&#x200B;中執行。 只有在&#x200B;_開發人員模式_&#x200B;中執行存放區時，才能存取專為開發人員設計的工具與組態設定。
 
-只有具有適當許可權的使用者才能從伺服器的命令列變更操作模式。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中的[設定作業模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html)。
+只有具有適當許可權的使用者才能從伺服器的命令列變更操作模式。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中的[設定作業模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=zh-Hant)。
 
 商家檔案中的大部分主題適用於以生產模式執行的Commerce執行個體。 不過，下列組態設定和工具僅可在安裝以開發人員模式執行時使用。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 將數位簽章新增至靜態檔案的URL，讓瀏覽器可偵測何時有較新版本的檔案可用。 可使用數位簽名追蹤的靜態檔案包括JavaScript、CSS、影像和字型。 簽章會直接附加至基底URL之後的路徑。 如果檔案的簽章與瀏覽器快取中儲存的簽章不同，則會使用較新版本的檔案。
 
-請參閱Commerce開發人員檔案中的[靜態內容簽署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){：target=&quot;_blank&quot;}。
+請參閱Commerce開發人員檔案中的[靜態內容簽署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=zh-Hant){：target=&quot;_blank&quot;}。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 依預設，Adobe Commerce和Magento Open Source不會合併、捆綁或最小化檔案，而專案開發人員應決定應使用哪些檔案最佳化方法。
 
-如需詳細資訊，請參閱[效能最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html)。
+如需詳細資訊，請參閱[效能最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ ht-degree: 0%
 >
 >開發人員使用者端限制只能在[開發人員模式](../systems/developer-tools.md#operation-modes)中設定。
 
-如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[允許要求的自訂VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html)。
+如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[允許要求的自訂VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hant)。
 
 **_若要將您的IP位址新增至允許清單：_**
 

@@ -33,7 +33,7 @@ ht-degree: 0%
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 每個商店都有不同的路徑，但共用一個網域。 |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 每個存放區有主要網域的不同子網域。 |
 
-Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺服器的命令列設定。 Adobe Commerce [設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)提供設定伺服器環境的詳細指示。
+Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺服器的命令列設定。 Adobe Commerce [設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hant)提供設定伺服器環境的詳細指示。
 
 ### 步驟1：選擇商店網域
 
@@ -105,20 +105,20 @@ Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺
 
 ### 步驟5：設定伺服器
 
-若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)。
+若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hant)。
 
 如需設定網頁伺服器的說明，請參閱下列資源：
 
-- [使用NGNX設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [使用Apache設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [使用NGNX設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=zh-Hant)
+- [使用Apache設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=zh-Hant)
 
-若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html)。
+若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant)。
 
 ## 新增網站
 
 您可從單一Adobe Commerce或使用相同網域或不同網域的Magento Open Source安裝來設定多個網站。 根據預設，位於相同網站下的存放區具有相同的IP位址和網域、使用相同的安全性憑證，以及共用單一結帳程式。 如果您希望每個存放區在自己的網域下都有專屬的結帳程式，每個存放區都必須有不同的IP位址和個別的安全性憑證。
 
-Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定，也從伺服器的命令列設定。 Commerce [設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)提供設定伺服器環境的詳細指示。
+Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定，也從伺服器的命令列設定。 Commerce [設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hant)提供設定伺服器環境的詳細指示。
 
 ![範圍 — 網站](./assets/scope-multisite.svg){width="550"}
 
@@ -152,11 +152,11 @@ Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定�
 
 ### 步驟3：設定伺服器
 
-若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)。
+若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=zh-Hant)。
 
 如需設定Web伺服器的說明，請參閱下列教學課程：
 
-- [使用NGNX設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [使用Apache設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [使用NGNX設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=zh-Hant)
+- [使用Apache設定多個網站](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=zh-Hant)
 
-若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html)。
+若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant)。

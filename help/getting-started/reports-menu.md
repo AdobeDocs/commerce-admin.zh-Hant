@@ -36,7 +36,7 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 ### [!UICONTROL System Insights]
 
-(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
+(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hant)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
 
 ### [!UICONTROL Customers]
 
