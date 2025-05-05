@@ -4,9 +4,10 @@ description: 瞭解如何管理 [!DNL Inventory Management] 中繼資料。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 這些功能和擴充功能是透過Magento Open Source社群工程計劃開發為[詳細目錄專案](https://github.com/magento/inventory)的一部分。
 
-[!DNL Inventory Management]安裝在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，並預設啟用所有功能。 啟用這些詳細目錄功能不需要額外的步驟。 從v2.1.x或2.2.x升級可能需要額外的步驟。 請參閱[升級Inventory management](#upgrade-inventory-management)。
+[!DNL Inventory Management]安裝在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，並依預設啟用所有功能。 啟用這些詳細目錄功能不需要額外的步驟。 從v2.1.x或2.2.x升級可能需要額外的步驟。 請參閱[升級Inventory management](#upgrade-inventory-management)。
 
-建議根據[快速入門內部部署安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=zh-Hant){target="_blank"}進行安裝。 使用中繼安裝以接收所有[!DNL Inventory Management]模組。
+建議根據[快速入門內部部署安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}進行安裝。 使用中繼安裝以接收所有[!DNL Inventory Management]模組。
 
 `composer.json`中繼封裝中的下列行安裝[!DNL Inventory Management]：
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 
 ## 啟用[!DNL Inventory Management]功能
 
-安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
+安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
 
 如需設定的詳細資訊，請參閱[設定Inventory management](configuration.md)。
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 * 加速從2.0.x、2.1.x、2.2.x或2.3.x移轉至2.4.x的商戶升級流程。
 * 使用自訂或第三方存貨及訂單管理系統模組。
 
-請參閱&#x200B;_安裝指南_&#x200B;中的[啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hant)頁面，瞭解如何停用適用模組的相關資訊。
+請參閱&#x200B;_安裝指南_&#x200B;中的[啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html)頁面，瞭解如何停用適用模組的相關資訊。
 
 完成時，系統會在`<Magento_installation_directory>/app/etc/config.php`中提供模組和值的清單，開頭為：
 
@@ -203,7 +204,7 @@ ht-degree: 0%
 
 ### 先前的[!DNL Commerce]版本
 
-將現有的2.1.x、2.2.x或2.3.x安裝升級或更新至Adobe Commerce或Magento Open Source 2.4.x時，預設會停用[!DNL Inventory Management]模組。 此預設設定是避免升級與舊版不相容，以及更支援Order Management (OMS)的預防措施。
+將現有的2.1.x、2.2.x或2.3.x安裝升級或更新為Adobe Commerce或Magento Open Source 2.4.x時，預設會停用[!DNL Inventory Management]模組。 此預設設定是避免升級與舊版不相容，以及更支援Order Management (OMS)的預防措施。
 
 >[!NOTE]
 >
@@ -240,5 +241,5 @@ ht-degree: 0%
 
 請參閱下列指南，以取得有關Commerce升級的詳細資訊：
 
-* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=zh-Hant){target="_blank"}
-* [啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hant){target="_blank"}
+* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

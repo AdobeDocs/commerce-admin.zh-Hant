@@ -3,9 +3,9 @@ title: 優惠券代碼
 description: 瞭解如何將優惠券代碼與購物車價格規則搭配使用，以在符合一組條件時套用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 若要控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
+>具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 為了控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
 
 ## 設定優惠券代碼
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant#run-cron-from-the-command-line)的執行cron。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)的[執行cron。
 
 ### 方法1：建立特定抵用券
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 若要讓抵用券在某個時段內有效，請執行下列步驟：
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)完成&#x200B;**從**&#x200B;到&#x200B;**到**&#x200B;的日期。 若要選取日期，請按一下每個欄位旁的&#x200B;**行事曆** （![行事曆圖示](../assets/icon-calendar.png)）圖示。 如果您將日期範圍保留為空白，則規則不會過期。
+   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)完成&#x200B;**從**&#x200B;到&#x200B;**的**&#x200B;日期。 若要選取日期，請按一下每個欄位旁的&#x200B;**行事曆** （![行事曆圖示](../assets/icon-calendar.png)）圖示。 如果您將日期範圍保留為空白，則規則不會過期。
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)執行下列任一項作業：
 

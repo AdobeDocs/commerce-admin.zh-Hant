@@ -3,9 +3,9 @@ title: 已排程的匯入和匯出
 description: 瞭解如何管理排程的資料匯入和匯出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
    - [新增排定的匯出](#schedule-an-export)
    - [新增排定的匯入](#schedule-an-import)
 
-1. 儲存記錄時，工作會出現在&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;格線中。
+1. 儲存記錄時，工作會出現在&#x200B;_[!UICONTROL Scheduled Import/Export]_格線中。
 
    >[!NOTE]
    >
    >當您建立或更新排定的匯入/匯出時，會導致系統組態變更。 儲存後，請務必解決出現在管理頁面頂端的快取失效通知，並排清快取以套用新的或更新排程。
 
-1. 在每個排定的工作之後，檔案的復本會放置在Adobe Commerce本機伺服器的`var/log/import_export`目錄中。
+1. [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在每個排定的工作之後，檔案的復本會放在Adobe Commerce本機伺服器的`var/log/import_export`目錄中。
 
    每個操作的詳細資訊都不會寫入記錄中。 如果發生錯誤，則會傳送有關失敗的匯入/匯出工作的通知，並附上錯誤說明。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 每個匯入操作的詳細資訊不會寫入記錄檔，但是當發生失敗時，您會收到包含錯誤說明的&#x200B;_匯入失敗_&#x200B;電子郵件。 上次排程匯入工作的結果會顯示在「排定的匯入/匯出」頁面的「上次結果」欄中。
 
-每次匯入作業後，匯入檔案的復本都會放置在部署Adobe Commerce或Magento Open Source之伺服器的`var/log/import_export`目錄中。 時間戳記、匯入實體（產品或客戶）的標籤以及操作型別（在此例中為「匯入」）會新增至匯入檔案名稱。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯入作業後，匯入檔案的復本會放置在部署Adobe Commerce或Magento Open Source之伺服器上的`var/log/import_export`目錄中。 時間戳記、匯入實體（產品或客戶）的標籤以及操作型別（在此例中為「匯入」）會新增至匯入檔案名稱。
 
 在每個排定的匯入工作之後，會自動執行重新索引作業。 從正面來看，說明和其他文字資訊的變更會在更新資料移至資料庫後反映出來，而價格的變更則只有在重新索引作業後才會反映出來。
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >對於&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和_[!UICONTROL Stock Sources]_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update`、`Replace`和`Delete`。 對於&#x200B;_客戶財務_、_客戶主要檔案_&#x200B;和&#x200B;_客戶與地址_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
+     >對於&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_和_[!UICONTROL Stock Sources]_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update`、`Replace`和`Delete`。 對於&#x200B;_客戶財務_、_客戶主要檔案_&#x200B;和&#x200B;_客戶與地址_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
 
    - **[!UICONTROL Start Time]** — 設定為排程開始匯入的小時、分鐘和秒。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新的排程匯入工作已新增至&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;頁面上的清單。 您可以從此頁面立即執行以進行測試和編輯。 在執行每個匯入工作之前，會驗證匯入檔案。
+   新的排程匯入工作已新增至&#x200B;_[!UICONTROL Scheduled Import/Export]_頁面上的清單。 您可以從此頁面立即執行以進行測試和編輯。 在執行每個匯入工作之前，會驗證匯入檔案。
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 每次匯出的詳細資料不會寫入記錄中，但如果失敗，您會收到「匯出失敗」電子郵件，其中包含錯誤說明。 上次匯出作業的結果會顯示在「排定的匯入/匯出」頁面的「上次結果」欄中。
 
-每次匯出後，匯出檔案都會放置在使用者定義的位置，且會在部署Adobe Commerce或Magento Open Source的伺服器上的`var/log/import_export`目錄中放置副本。 匯出實體（產品或客戶）的時間戳記和標籤以及操作型別（在此例中為匯出）會新增至匯出檔案名稱。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}每次匯出後，匯出檔案會放置在使用者定義的位置，並且在部署Adobe Commerce或Magento Open Source的伺服器上的`var/log/import_export`目錄中放置副本。 匯出實體（產品或客戶）的時間戳記和標籤以及操作型別（在此例中為匯出）會新增至匯出檔案名稱。
 
 ### 步驟1：完成匯出設定
 
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     頁面底部的&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;區段已更新，以反映選取的實體型別。
+     頁面底部的&#x200B;_[!UICONTROL Entity Attributes]_區段已更新，以反映選取的實體型別。
 
    - 將&#x200B;**[!UICONTROL Start Time]**&#x200B;設為排程開始匯出的小時、分鐘和秒。
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - 對於&#x200B;**[!UICONTROL Local Server]**，請在Commerce安裝中輸入相對路徑，例如`var/export`。 如果已設定遠端儲存模組，請使用`import_export/export`。
    - 針對&#x200B;**[!UICONTROL Remote FTP server]**，輸入目的地伺服器上目標資料夾的完整URL和路徑。
 
-1. 如果選取了&#x200B;_[!UICONTROL Remote FTP]_&#x200B;伺服器，請輸入伺服器的連線認證，然後選取其他設定：
+1. 如果選取了&#x200B;_[!UICONTROL Remote FTP]_伺服器，請輸入伺服器的連線認證，然後選取其他設定：
 
    - 針對&#x200B;**[!UICONTROL FTP Host[:Port]]**，輸入遠端FTP主機位址。
    - 針對&#x200B;**[!UICONTROL User Name]**，輸入用來存取遠端伺服器的使用者名稱。
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 步驟4：選擇實體屬性
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;區段中，選取要包含在匯出資料中的屬性。
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_區段中，選取要包含在匯出資料中的屬性。
 
-   - 若要依屬性值篩選匯出資料，請在&#x200B;_[!UICONTROL Filter]_&#x200B;欄中輸入屬性值。
+   - 若要依屬性值篩選匯出資料，請在&#x200B;_[!UICONTROL Filter]_欄中輸入屬性值。
    - 若要排除具有特定屬性值的產品或客戶，請輸入您要排除的屬性值，然後選取「略過」欄中的核取方塊。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新的排程匯出工作已新增至&#x200B;_[!UICONTROL Scheduled Import/Export]_&#x200B;頁面上的清單。 您可以從此頁面立即執行以進行測試和編輯。
+   新的排程匯出工作已新增至&#x200B;_[!UICONTROL Scheduled Import/Export]_頁面上的清單。 您可以從此頁面立即執行以進行測試和編輯。
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 決定匯出檔案的位置。 選項：<br>**本機伺服器** — 將匯出檔案放在部署Commerce的相同伺服器上。 如果已啟用遠端儲存模組，則會將`Local Server`切換至`Remote Storage`。<br>**遠端FTP** — 將匯出檔案放在遠端伺服器上。 憑證和檔案傳輸設定的其他選項也會出現。 |
-| [!UICONTROL File Directory] | 指定放置匯出檔案的目錄。 如果&#x200B;_[!UICONTROL Server Type]_&#x200B;設定為`Local Server`，請指定相對於Commerce安裝路徑的路徑。 例如，`var/export`或遠端儲存的`import_export/export`。 |
+| [!UICONTROL File Directory] | 指定放置匯出檔案的目錄。 如果&#x200B;_[!UICONTROL Server Type]_設定為`Local Server`，請指定相對於Commerce安裝路徑的路徑。 例如，`var/export`或遠端儲存的`import_export/export`。 |
 
 {style="table-layout:auto"}
 

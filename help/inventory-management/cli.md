@@ -4,9 +4,10 @@ description: 瞭解 [!DNL Inventory Management] 模組提供的管理清查資�
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 以下設定和事件可能會導致預訂不一致：
 
-- **升級至2.3.x，且訂單未處於最終狀態（完成、已取消或已關閉）。** [!DNL Inventory Management]會建立這些訂單的補償預留，但不會輸入或具有從可銷售數量扣除的初始預留。 建議在升級至Adobe Commerce或從2.1.x升級至Magento Open Source v2.3.x或2.2.x後使用這些命令。 如果您有暫緩訂單，這些指令會正確更新銷售與訂單履行的可銷售數量與預留。
+- **升級至2.3.x，且訂單未處於最終狀態（完成、已取消或已關閉）。** [!DNL Inventory Management]會建立這些訂單的補償預留，但不會輸入或具有從可銷售數量扣除的初始預留。 建議在從2.1.x或2.2.x升級為Adobe Commerce或Magento Open Source v2.3.x之後使用這些命令。 如果您有暫緩訂單，這些指令會正確更新銷售與訂單履行的可銷售數量與預留。
 - **您不管理Stock，稍後再變更此設定。**&#x200B;您可以在設定中將&#x200B;**[!UICONTROL Manage Stock]**&#x200B;設為`No`的情況下開始使用2.3.x。 [!DNL Commerce]不會在下單和出貨事件中預定時間。 如果您稍後啟用&#x200B;**[!UICONTROL Manage Stock]**&#x200B;設定並建立某些訂單，當您處理並履行該訂單時，可銷售數量將會因補償預留而損毀。
 - **當訂單提交至網站時，您重新指派網站的庫存**。 初始預留會針對初始存貨輸入，而所有報酬預留則會輸入至新存貨。
 - **所有保留的總數可能無法解析為`0`。**&#x200B;處於最終狀態（完成、已取消、已關閉）之訂單範圍中的所有預留應解析為`0`，並清除所有可銷售數量保留。
