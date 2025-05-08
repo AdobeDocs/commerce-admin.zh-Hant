@@ -2,9 +2,9 @@
 title: 管理系統簡介
 description: 瞭解存放區管理員可用來有效管理網站、資料、整合和管理員使用者的系統工具和功能。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 - **資料傳輸** — 使用[資料傳輸](data-transfer.md)工具匯入及匯出資料，以及管理產品、定價、客戶及稅率資料。
 - **整合** — 建立[協力廠商整合](integrations.md)的OAuth認證和重新導向URL位置，並識別可用的API資源。
 - **動作記錄** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)存取在您商店中工作的管理員使用者所做變更的記錄（[動作記錄](action-log.md)）。
-- **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)支援工具（[資料收集器](support.md#data-collector)和[系統報告](support.md#access-system-reports)）是用來識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。
+- **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) [系統報表](support.md#access-system-reports)可識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。

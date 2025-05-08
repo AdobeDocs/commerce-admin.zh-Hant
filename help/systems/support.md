@@ -2,9 +2,9 @@
 title: 支援工具
 description: 瞭解您可用於識別系統中問題的支援工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,60 +14,6 @@ ht-degree: 0%
 {{ee-feature}}
 
 支援工具旨在識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。
-
-## 資料收集器
-
-資料收集器會收集系統相關資訊，供我們的支援團隊針對Adobe Commerce安裝問題進行疑難排解。 建立的備份需要幾分鐘才能完成，而且包含程式碼和資料庫傾印。 資料可匯出為CSV或Excel XML檔案。
-
-![系統 — 資料收集器](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### 執行資料收集器
-
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**。
-
-1. 按一下右上角的&#x200B;**[!UICONTROL New Backup]**。
-
-   產生備份需要幾分鐘的時間。 您可以按一下&#x200B;**[!UICONTROL Refresh Status]**&#x200B;來監視處理結果。 完成時，備份會顯示在&#x200B;_[!UICONTROL Data Collector]_&#x200B;格線中。
-
-1. 若要檢視含有備份詳細資訊的記錄檔，請執行下列動作：
-
-   - 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中，選取&#x200B;**[!UICONTROL Show Log]**。
-
-   - 按一下&#x200B;**[!UICONTROL Back]**&#x200B;返回格線。
-
-   ![資料收集器記錄檔](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### 匯出備份資料
-
-1. 在第一欄中，選取要匯出之備份的核取方塊。
-
-1. 使用&#x200B;**[!UICONTROL Export]**&#x200B;功能表選擇匯出資料的格式。
-
-   ![匯出格式](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. 從網頁瀏覽器下載位置存取檔案，並&#x200B;**[!UICONTROL Save]**&#x200B;它。
-
-### 下載備份資料
-
-產生備份後，您可以下載程式碼和資料庫資料的復本。
-
-1. 在格線中尋找所需的備份實體。
-
-1. 請確定它具有`Complete`狀態。
-
-1. 按一下&#x200B;_[!UICONTROL Code Dump]_&#x200B;或_[!UICONTROL DB Dump]_&#x200B;欄中的實體名稱。
-
-下載程式應該會自動啟動。
-
-## 刪除備份資料
-
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**。
-
-1. 尋找並選取要刪除的備份資料。
-
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Delete]**。
-
-1. 若要確認動作，請按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 系統報表
 
@@ -116,7 +62,7 @@ ht-degree: 0%
 
 ### 檢視系統報告詳細資訊
 
-1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 在左側面板中，展開報表的每個區段![展開選取器](../assets/icon-display-expand.png)以檢視詳細資料。
 
