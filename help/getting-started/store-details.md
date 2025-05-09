@@ -3,9 +3,9 @@ title: 存放區詳細資料
 description: 瞭解如何更新商店的基本資訊。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其他通訊中的基本資訊。
+_[!UICONTROL Store Information]_區段提供出現在銷售檔案和其他通訊中的基本資訊。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -169,9 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hant)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 「商家地點」設定是用來設定[付款方法](../stores-purchase/payments.md)。 如果此設定沒有值，則會使用[預設國家](#uicontrol-country-options)設定。
 
@@ -311,11 +313,11 @@ Luma範例資料包含可為您的商店自訂的&#x200B;_聯絡我們資訊_&#x
    >
    >如果您[[!DNL Page Builder] 已停用](../page-builder/setup.md#disable-dnl-page-builder)，您可以使用編輯器[工具列](../content-design/editor.md)來格式化文字，並新增[影像](../content-design/editor-insert-image.md)和[連結](../content-design/editor-insert-link.md)。
 
-1. 將游標停留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](../page-builder/assets/pb-icon-settings.png) ）圖示。
+1. 將游標暫留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](../page-builder/assets/pb-icon-settings.png) ）圖示。
 
-1. 編輯HTML代碼，以提供您商店的連絡資訊，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 編輯HTML程式碼，提供您商店的連絡資訊，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-   ![內容區塊 — 編輯HTML代碼](./assets/content-block-contact-us-html.png){width="700"}
+   ![內容區塊 — 編輯HTML程式碼](./assets/content-block-contact-us-html.png){width="700"}
 
 1. 結束[!DNL Page Builder]階段並按一下&#x200B;**[!UICONTROL Save Block]**。
 

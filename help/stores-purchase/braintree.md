@@ -3,9 +3,10 @@ title: Braintree
 description: 瞭解如何將Braintree設定為商店上的線上支付解決方案。
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您需要有關卡片意外費用的協助，請造訪[取消訂閱](https://helpx.adobe.com/tw/manage-account/using/cancel-subscription.html)頁面以取得協助。
+>如果您需要有關卡片意外費用的協助，請造訪[取消訂閱](https://helpx.adobe.com/manage-account/using/cancel-subscription.html)頁面以取得協助。
 
 Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整合。 它支援[!DNL Apple Pay]、[!DNL Google Pay]、ACH、Venmo和本機付款方法。 Braintree可減輕商戶的PCI法規遵循負擔，因為交易是在Braintree系統上進行。 Braintree Payments整合是由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)開發。
 
@@ -35,13 +36,13 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
    - 如果您的Commerce安裝有多個網站、商店或檢視，請在左上角選擇套用設定的&#x200B;**[!UICONTROL Store View]**。
 
-   - 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，確認&#x200B;**[!UICONTROL Merchant Country]**&#x200B;已設定為您的公司所在位置。
+   - 在&#x200B;_[!UICONTROL Merchant Location]_區段中，確認&#x200B;**[!UICONTROL Merchant Country]**已設定為您的公司所在位置。
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;底下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [發行說明](https://support.gene.co.uk/support/solutions/articles/35000278668)_區段中，按一下&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_底下，在_[!UICONTROL Braintree Payments] (由[GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [發行說明](https://support.gene.co.uk/support/solutions/articles/35000278668)_區段中，按一下&#x200B;**[!UICONTROL Configure]**。
 
    ![設定Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
-1. 對於 **[!UICONTROL Title]**，請輸入一個標題，用於在結帳時將Braintree標識為支付選項。
+1. 針對&#x200B;**[!UICONTROL Title]**，輸入在結帳時將Braintree識別為付款選項的標題。
 
 1. 將Braintree交易的目前作業&#x200B;**[!UICONTROL Environment]**&#x200B;設定為`Sandbox`或`Production`
 
@@ -52,30 +53,30 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 將&#x200B;**[!UICONTROL Payment Action]**&#x200B;設定為下列其中一項：
 
    - `Authorize Only` — 核准購買並保留資金。 在銷售由商家擷取&#x200B;__&#x200B;之前，不會從客戶的銀行帳戶提取金額。|
-   - `Intent Sale`  - 購買金額已獲得授權並立即從客戶的帳戶中提取。 **_注意：_** 此值在 2.3.x 和更早版本中為  _授權和Capture_ 。|
+   - `Intent Sale` — 已授權並立即從客戶帳戶中取用購買的金額。 **_注意：_**&#x200B;在2.3.x和更舊版本中，這個值為&#x200B;_Authorize and Capture_。|
 
-1. 輸入「 **[!UICONTROL Sandbox Merchant ID / Merchant ID]** 從您的Braintree帳戶。
+1. 輸入您Braintree帳戶中的&#x200B;**[!UICONTROL Sandbox Merchant ID / Merchant ID]**。
 
-1. 從您的Braintree帳戶輸入以下憑據：
+1. 從您的Braintree帳戶輸入下列認證：
 
    - **[!UICONTROL Sandbox Public Key / Public Key]**
    - **[!UICONTROL Sandbox Private Key / Private Key]**
 
    >[!NOTE]
    >
-   >（沙箱和生產）**環境都有**&#x200B;單獨的欄位，其他字段根據選擇的環境進行呈現。
+   >**（沙箱和生產）**&#x200B;環境都有個別的欄位，其他欄位會根據選取的環境來轉譯。
 
-1. 在保存配置之前，請按兩下以 **[!UICONTROL Validate Credentials]** 驗證您的憑據。
+1. 在儲存組態之前，按一下&#x200B;**[!UICONTROL Validate Credentials]**&#x200B;以驗證您的認證。
 
-1. 設為 **[!UICONTROL Enable Card Payments]** `Yes`。
+1. 將&#x200B;**[!UICONTROL Enable Card Payments]**&#x200B;設為`Yes`。
 
-1. 如果您希望能夠安全地商店客戶信息，以便客戶不必在每次購買時重新輸入信息，請設置為 **[!UICONTROL Enable Vault for Card Payments]** `Yes`。
+1. 如果您想要能夠安全地儲存客戶資訊，讓客戶不必在每次購買時都重新輸入，請將&#x200B;**[!UICONTROL Enable Vault for Card Payments]**&#x200B;設為`Yes`。
 
-1. 如果您希望客戶在每次購買時驗證其保險倉庫卡片的 CVV 編號，請設定為 **[!UICONTROL Enable Vault CVV Re-verification]** `Yes`。
+1. 如果您希望客戶在每次購買時驗證其存放卡的CVV號碼，請將&#x200B;**[!UICONTROL Enable Vault CVV Re-verification]**&#x200B;設為`Yes`。
 
-## 第 3 步：完整應用程式高級設置
+## 步驟3：完成進階設定
 
-1. 展開![該部分選擇器](../assets/icon-display-expand.png)**[!UICONTROL Advanced Braintree Settings]**&#x200B;展開。
+1. 展開&#x200B;**[!UICONTROL Advanced Braintree Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![進階設定](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
 
@@ -132,7 +133,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
    ![國家/地區特定設定](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -160,9 +161,9 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 若要包含[!DNL Apple Pay]作為Braintree的付款選項，請將&#x200B;**[!UICONTROL Enable ApplePay through Braintree]**&#x200B;設為`Yes`。
 
-   請務必 [先在您的Braintree帳戶中驗證您的域名](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3) 。
+   請務必先在您的Braintree帳戶中[驗證您的網域名稱](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)。
 
-1. 如果您希望能夠安全地商店客戶信息，這樣客戶就不必在每次使用 Apple Pay 進行購買時重新輸入信息，請設置為 **[!UICONTROL Enable Vault for ApplePay]** `Yes`。
+1. 如果您想要能夠安全地儲存客戶資訊，以便客戶每次透過Apple Pay購買時都不需要重新輸入，請將&#x200B;**[!UICONTROL Enable Vault for ApplePay]**&#x200B;設為`Yes`。
 
 1. 將&#x200B;**[!UICONTROL Payment Action]**&#x200B;設定為下列其中一項：
 
@@ -173,17 +174,17 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 1. 針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字以決定結帳期間與其他付款選項一起列出時，[!DNL Apple Pay]付款選項出現的順序。
 
-## 步驟8：完整應用程式本地付款方式的設置
+## 步驟8：完成本機付款方式的設定
 
-1. 要將本地付款方式作為Braintree支付選項，請設定為 **[!UICONTROL Enable Local Payment Methods]** `Yes`。
+1. 若要將本機付款方式納入為Braintree的付款選項，請將&#x200B;**[!UICONTROL Enable Local Payment Methods]**&#x200B;設為`Yes`。
 
-1. 對於 **[!UICONTROL Title]**，輸入要用於結帳付款方式部分上顯示的標籤的文本（預設值： `Local Payments`）。
+1. 針對&#x200B;**[!UICONTROL Title]**，輸入要用於出現在結帳付款方式區段上的標籤的文字（預設值： `Local Payments`）。
 
-1. 對於 **[!UICONTROL Fallback Button Text]**，輸入要用于後援Braintree按鈕頁面將客戶帶回網站的文字（例如 `Complete Checkout`）。
+1. 針對&#x200B;**[!UICONTROL Fallback Button Text]**，輸入要用於後援Braintree頁面上出現的按鈕的文字，以將客戶帶回網站（例如，`Complete Checkout`）。
 
-1. 對於 **[!UICONTROL Redirect on Fail]**，輸入本地付款方式交易記錄被取消、失敗或遇到錯誤時應重定向客戶的URL。 它應該是結帳付款頁面 （例如 `https://www.domain.com/checkout#payment`）。
+1. 針對&#x200B;**[!UICONTROL Redirect on Fail]**，輸入當本機付款方式交易取消、失敗或發生錯誤時，應該重新導向客戶的URL。 它應該是結帳付款頁面（例如，`https://www.domain.com/checkout#payment`）。
 
-1. 對於 **[!UICONTROL Allowed Payment Methods]**，選擇要啟用的本地付款方式。
+1. 針對&#x200B;**[!UICONTROL Allowed Payment Methods]**，選取要啟用的本機付款方式。
 
    選項： `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` （尚未支援）
 
@@ -251,7 +252,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
      >[!NOTE]
      >
-     >PayPal信用僅在美國及英國提供。 如果&#x200B;_[!UICONTROL Merchant Country]_&#x200B;欄位的選取值不是`US`或`UK`，則PayPal點數已停用。
+     >PayPal信用僅在美國及英國提供。 如果&#x200B;_[!UICONTROL Merchant Country]_欄位的選取值不是`US`或`UK`，則PayPal點數已停用。
 
    - 若要包含[!DNL PayPal PayLater]作為Braintree的付款選項，請將&#x200B;**[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;設為`Yes`。
 
@@ -272,12 +273,12 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 1. 將&#x200B;**[!UICONTROL Payment Action]**&#x200B;設定為下列其中一項：
 
    - `Authorize Only` — 核准購買並保留資金。 在銷售為&#x200B;_擷取_&#x200B;之前，不會從客戶的銀行帳戶提取金額。
-   - `Authorize and Capture` - 購買金額已獲得授權並立即從客戶的帳戶中提取。
+   - `Authorize and Capture` — 已授權並立即從客戶帳戶中取用購買的金額。
 
-1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;對於PayPal處理的Braintree事務，設置為下列值之一：
+1. 針對PayPal所處理的Braintree交易，將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
    透過Braintree設定![PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -309,13 +310,13 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-此區段中的選項和設定會根據&#x200B;_[!UICONTROL Location]_&#x200B;欄位中的設定而有所不同。
+此區段中的選項和設定會根據&#x200B;_[!UICONTROL Location]_欄位中的設定而有所不同。
 
 1. 將&#x200B;**[!UICONTROL PayPal Button Type]**&#x200B;設為三種按鈕型別之一： `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
 **[!UICONTROL PayPal Button]**
 
-此區段中的選項和設定會根據在&#x200B;_[!UICONTROL PayPal Button Type]_&#x200B;欄位中選取的按鈕型別而有所不同。
+此區段中的選項和設定會根據在&#x200B;_[!UICONTROL PayPal Button Type]_欄位中選取的按鈕型別而有所不同。
 
 1. 若要在選取位置的店面顯示PayPal按鈕，請將&#x200B;**[!UICONTROL Show PayPal Button]**&#x200B;設為`Yes`。
 
@@ -359,7 +360,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 
 **[!UICONTROL Cart]**
 
-![稍後付款 新增訊息 - 購物車頁面設定](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
+![稍後付款訊息 — 購物車頁面設定](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
 
 1. 若要在迷你購物車或購物車頁面的店面上顯示[!DNL Pay Later]訊息，請將&#x200B;**[!UICONTROL Show PayLater Messaging]**&#x200B;設為`Yes`。
 
@@ -398,7 +399,7 @@ Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整�
 4. 將&#x200B;**[!UICONTROL Verify for Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Verify for Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Verify for Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
    ![3D驗證設定](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]頁面上的組態設定。
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具集，以及它如何提供您所需的深入分析和控制，以建立買家的最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)。
+>Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具組，以及它如何提供您所需的insight和控制功能，讓您為買家建立最佳體驗，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 ![商家地點](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -34,9 +36,9 @@ ht-degree: 0%
 
 對於剛開始接受PayPal帳戶或信用卡線上付款的商家，建議使用下列付款解決方案，以利他們使用。 隨著您的業務成長，您可以將這些與其他的PayPal支付解決方案結合。
 
-- [PayPal Express簽出](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [付款服務](payment-services.md)
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [PayPal Express簽出](paypal-express-checkout.md)
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,21 +46,27 @@ ht-degree: 0%
 ><br/>
 >**Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，核心版本不再隨附這些擴充功能，而必須從Commerce Marketplace安裝及更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br/>
->如果您已啟用並設定這些隨附的擴充功能，則必須在2.4.4升級程式中更新`composer.json`檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。<br/>
+>如果您已啟用並設定這些隨附的擴充功能，則必須在2.4.4升級程式中更新`composer.json`檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。<br/>
 ><br/>
 >**Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}。
 
 ## 其他PayPal方法
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 PayPal提供各種支付解決方案，滿足各種規模的企業需求，並參與全球各地的業務。 PayPal可讓您接受所有主要借記卡與信用卡的付款。 PayPal提供額外的便利性，無需額外付費，因為即使沒有PayPal帳戶的客戶也可以使用PayPal支付購買費用。
 
 ### PayPal多合一方法
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 - [PayPal付款進階](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal支付標準](paypal-payments-standard.md)
 
 ### PayPal付款閘道
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) （包含快速結帳）
 - [PayPal Payflow連結](paypal-payflow-link.md) （包括快速結帳）
@@ -71,7 +79,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![支票/匯票](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Make Check Payable to] | 存放區檢視 | 應向其支付支票和匯票的實體名稱。 |
 | [!UICONTROL Send Check to] | 存放區檢視 | 寄送支票和匯票的街道地址或郵政信箱。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 可透過支票或匯票支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 支票或匯票可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 支票或匯票可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，當在結帳期間與其他付款方式一起列出時，此數字可決定以支票或匯票付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![銀行轉帳付款](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受銀行轉帳付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受銀行轉帳付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 銀行轉帳可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ![帳戶付款](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定允許公司將購買費用計入其帳戶的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別公司可將購買費用計入其帳戶的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 指定可計入公司帳戶的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 可借記至公司帳戶的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 可借記至公司帳戶的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定結帳期間與其他付款方式一起列出時顯示的分期付款順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受銀行轉帳付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受銀行轉帳付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 指定銀行轉帳可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -170,6 +178,8 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 ## [!UICONTROL Payment actions]
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 付款動作是依付款方式&#x200B;_設定_。 付款作業會決定何時抓取資金，以及何時為銷售訂單建立商業發票。
 
 如需個別設定選項的完整清單，請參閱每個個別付款方法主題的基本設定區段。
@@ -189,7 +199,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 >[!NOTE]
 >
->請勿選取&#x200B;_[!UICONTROL Not Capture]_&#x200B;選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
+>請勿選取&#x200B;_[!UICONTROL Not Capture]_選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +215,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受採購單付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受採購單付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 採購單可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 採購單可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 採購單可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，依採購單付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}

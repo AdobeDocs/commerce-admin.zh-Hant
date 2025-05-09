@@ -3,9 +3,10 @@ title: PayPal帳單協定
 description: 瞭解如何在商店中支援PayPal帳單協定和支付方式。
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## 管理帳單協定
 
-_[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間的所有帳單協定。 商戶可以依客戶或帳單協定資訊來篩選記錄，包括帳單協定參考識別碼、狀態和建立日期。 每個記錄都包含帳單協定的一般資訊，以及所有將其用作付款方式的銷售訂單。 您可以檢視、取消或刪除客戶帳單協定。 取消的帳單協定只能由存放區管理員刪除。
+_[!UICONTROL Billing Agreements]_頁面列出您商店與其客戶之間的所有帳單協定。 商戶可以依客戶或帳單協定資訊來篩選記錄，包括帳單協定參考識別碼、狀態和建立日期。 每個記錄都包含帳單協定的一般資訊，以及所有將其用作付款方式的銷售訂單。 您可以檢視、取消或刪除客戶帳單協定。 取消的帳單協定只能由存放區管理員刪除。
 
 ### 檢視帳單協定
 
@@ -34,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
-每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_和_[!UICONTROL Related Orders]_。
 
 #### 一般資訊
 
