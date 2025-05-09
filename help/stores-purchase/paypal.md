@@ -103,7 +103,7 @@ PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，�
 | 動作 | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 可疑的訂單在下單時會收到&#x200B;_付款稽核_&#x200B;狀態。 您可以在管理員或PayPal端檢閱訂單並核准或取消付款。 當您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;時，不會建立訂單的新交易。 <br/><br/>如果您在PayPal網站上變更交易狀態，則必須按一下管理員訂單頁面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以套用變更。 如果您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，則會套用PayPal網站所做的變更。 |
-| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員付款，請按一下頁面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 訂單狀態變更為`Canceled`，交易已還原，並在客戶帳戶上核發資金。 對應的資訊已新增至訂單檢視的&#x200B;_[!UICONTROL Comments History]_區段中。 |
+| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員付款，請按一下頁面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 訂單狀態變更為`Canceled`，交易已還原，並在客戶帳戶上核發資金。 對應的資訊已新增至訂單檢視的&#x200B;_[!UICONTROL Comments History]_&#x200B;區段中。 |
 | [!UICONTROL Flag] | 可疑的訂單在放置時取得狀態`Processing`。 對應的交易會在商家帳戶交易清單中標示旗標。 |
 
 {style="table-layout:auto"}

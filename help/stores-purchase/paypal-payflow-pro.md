@@ -87,7 +87,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 若要新增其他使用者到帳戶，請按一下&#x200B;**[!UICONTROL Add User]**。 此連結位於「管理使用者」標題的正上方。
 
-   - 完成&#x200B;_[!UICONTROL Add User]_表單下列區段中的必填欄位：
+   - 完成&#x200B;_[!UICONTROL Add User]_&#x200B;表單下列區段中的必填欄位：
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -114,7 +114,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 1. 如果您的Commerce安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
@@ -317,7 +317,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -449,7 +449,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
    - `Authorization` — 核准購買並保留資金。 此金額必須等到商戶擷取&#x200B;_到_&#x200B;後才會撤回。
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
 
 ### 步驟7：完成PayPal Express簽出的進階設定
 
@@ -462,7 +462,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 

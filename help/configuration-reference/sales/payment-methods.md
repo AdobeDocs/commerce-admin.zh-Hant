@@ -91,7 +91,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Make Check Payable to] | 存放區檢視 | 應向其支付支票和匯票的實體名稱。 |
 | [!UICONTROL Send Check to] | 存放區檢視 | 寄送支票和匯票的街道地址或郵政信箱。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 可透過支票或匯票支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 支票或匯票可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 支票或匯票可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，當在結帳期間與其他付款方式一起列出時，此數字可決定以支票或匯票付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -110,7 +110,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受銀行轉帳付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受銀行轉帳付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 銀行轉帳可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -131,7 +131,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定允許公司將購買費用計入其帳戶的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別公司可將購買費用計入其帳戶的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 指定可計入公司帳戶的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 可借記至公司帳戶的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 可借記至公司帳戶的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 一個數字，可決定結帳期間與其他付款方式一起列出時顯示的分期付款順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -154,7 +154,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受銀行轉帳付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受銀行轉帳付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 指定銀行轉帳可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 銀行轉帳可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，銀行轉帳付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
@@ -199,7 +199,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 >[!NOTE]
 >
->請勿選取&#x200B;_[!UICONTROL Not Capture]_選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
+>請勿選取&#x200B;_[!UICONTROL Not Capture]_&#x200B;選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
 
 ## [!UICONTROL Purchase Order]
 
@@ -215,7 +215,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 | [!UICONTROL Payment from Applicable Countries] | 網站 | 決定您接受採購單付款的國家/地區。 選項： `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 網站 | 識別您接受採購單付款的特定國家/地區。 |
 | [!UICONTROL Minimum Order Total] | 網站 | 採購單可支付的最小訂單金額。 |
-| [!UICONTROL Maximum Order Total] | 網站 | 採購單可支付的最大訂單金額。 <br/><br/>**_注意：_**訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
+| [!UICONTROL Maximum Order Total] | 網站 | 採購單可支付的最大訂單金額。 <br/><br/>**_注意：_**&#x200B;訂單合計數在最小或最大訂單合計數之間，或是符合時，即為訂單合格。 |
 | [!UICONTROL Sort Order] | 網站 | 此編號可決定結帳期間與其他付款方式一起列出時，依採購單付款的順序。 輸入`0`以將其放在清單頂端。 |
 
 {style="table-layout:auto"}
