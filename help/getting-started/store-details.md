@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hant)
 
 ## [!UICONTROL Merchant Location]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 「商家地點」設定是用來設定[付款方法](../stores-purchase/payments.md)。 如果此設定沒有值，則會使用[預設國家](#uicontrol-country-options)設定。
 
