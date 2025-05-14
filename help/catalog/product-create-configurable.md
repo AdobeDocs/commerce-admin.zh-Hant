@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ### 步驟1：選擇屬性
 
-1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
+1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![組態](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -279,7 +279,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 ### 步驟5：新增產品影像
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
 
 1. 按一下&#x200B;_攝影機_&#x200B;圖磚，並瀏覽至您要用於可設定產品的主影像。
 
@@ -329,7 +329,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開&#x200B;_[!UICONTROL Shopping Cart]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 將&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;設為`Product Thumbnail Itself`。
 
