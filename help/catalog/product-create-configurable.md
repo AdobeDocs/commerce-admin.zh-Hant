@@ -3,7 +3,7 @@ title: 可設定的產品
 description: 瞭解如何建立可設定的產品，為購物者提供各種選擇。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 用於產品變數的任何屬性的輸入型別必須是下列其中一項： `Dropdown`、`Visual Swatch`或`Text Swatch`。 |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -138,7 +139,7 @@ ht-degree: 0%
 
 ### 步驟1：選擇屬性
 
-1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
+1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![組態](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -278,7 +279,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 ### 步驟5：新增產品影像
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
 
 1. 按一下&#x200B;_攝影機_&#x200B;圖磚，並瀏覽至您要用於可設定產品的主影像。
 
@@ -302,7 +303,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 - [贈品選項](product-gift-options.md)
 
-### 步驟7：Publish產品
+### 步驟7：發佈產品
 
 1. 如果您已準備好在目錄中發佈產品，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;設定為`Yes`並執行下列任一項作業：
 
@@ -328,7 +329,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Shopping Cart]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 將&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;設為`Product Thumbnail Itself`。
 
