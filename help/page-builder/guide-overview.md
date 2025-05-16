@@ -52,4 +52,4 @@ ht-degree: 0%
 
 如需疑難排解[!DNL Page Builder]問題的說明，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- 儲存DotDigital [!DNL Page Builder] 表單時[空白頁面](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=zh-Hant)
+- 儲存DotDigital [!DNL Page Builder] 表單時[空白頁面](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
