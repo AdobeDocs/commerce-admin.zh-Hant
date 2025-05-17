@@ -3,9 +3,9 @@ title: 存放區詳細資料
 description: 瞭解如何更新商店的基本資訊。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其他通訊中的基本資訊。
+_[!UICONTROL Store Information]_區段提供出現在銷售檔案和其他通訊中的基本資訊。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hant)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 「商家地點」設定是用來設定[付款方法](../stores-purchase/payments.md)。 如果此設定沒有值，則會使用[預設國家](#uicontrol-country-options)設定。
 
@@ -213,7 +213,21 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 您必須先將每個設定為您的網域的有效電子郵件地址，才能設定商店的電子郵件地址。 若要建立所需的每個電子郵件地址，請遵循伺服器管理員或電子郵件託管提供者的指示。
 
-### 步驟2：設定商店的電子郵件地址
+### 步驟2：設定產生之連結的基本URL
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+
+部分面對客戶的電子郵件會包含商店連結，例如協助客戶重設密碼的連結。 為確保店面的連結正常運作，您必須定義店面的基底URL。
+
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+
+1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL Store Email Addresses]**。
+
+1. 在&#x200B;**[!UICONTROL Storefront Base URL]**&#x200B;欄位&#x200B;**[!UICONTROL General]**&#x200B;區段中，輸入商店的根URL，例如`https://www.example.com/`。 URL必須以正斜線結尾。
+
+   ![一般組態 — 一般](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### 步驟3：設定商店的電子郵件地址
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -231,7 +245,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-### 步驟3：更新銷售電子郵件設定
+### 步驟4：更新銷售電子郵件設定
 
 如果您使用自訂電子郵件地址，請務必更新任何相關電子郵件訊息的設定，以便以寄件者身分顯示正確的身分。
 

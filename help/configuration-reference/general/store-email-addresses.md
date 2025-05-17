@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]頁面上的組態設定。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,18 @@ ht-degree: 2%
 {{config}}
 
 請參閱[儲存電子郵件地址](../../getting-started/store-details.md#store-email-addresses)，以取得有關這些設定欄位和選項的詳細資訊。
+
+## [!UICONTROL General]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+
+![存放區電子郵件地址>一般連絡人](./assets/store-email-addresses-general-general.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |--- |
+| [!UICONTROL Storefront Base URL] | 存放區檢視 | 將用來建構包含在面向客戶的電子郵件中的連結的基本URL。 URL必須以正斜線結尾。 例如，`https://www.example.com/`。 |
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Contact]
 
