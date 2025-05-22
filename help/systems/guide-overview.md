@@ -1,11 +1,11 @@
 ---
 title: Admin System指南
-description: 瞭解安全性最佳實務，以保護您的Commerce存放區和管理許可權，以及如何匯入和匯出資料、管理整合和擴充功能，以及處理例行維護。
+description: 了解最佳安全實務以保護您的 Commerce 商店及管理各項權限，並了解如何匯入和匯出資料、管理整合和擴充功能以及進行日常維護。
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
