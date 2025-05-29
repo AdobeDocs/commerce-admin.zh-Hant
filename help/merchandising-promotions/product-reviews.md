@@ -3,9 +3,10 @@ title: 產品評論
 description: 瞭解產品評論如何增強您的商店，並為您的產品帶來更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -19,8 +20,8 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含Yotpo廠商開發的擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
-><br><br>
->如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
+>><br><br>
+>>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)。
 
 ## 店面的產品評論
 
@@ -42,7 +43,7 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 
 ### [!UICONTROL My Product Reviews]
 
-客戶帳戶儀表板的&#x200B;_[!UICONTROL My Product Reviews]_&#x200B;區段會列出客戶提交並核准發佈的所有評論。 每個稽核摘要都包含提交稽核的日期、產品頁面的連結和稽核詳細資訊。
+客戶帳戶儀表板的&#x200B;_[!UICONTROL My Product Reviews]_區段會列出客戶提交並核准發佈的所有評論。 每個稽核摘要都包含提交稽核的日期、產品頁面的連結和稽核詳細資訊。
 
 ![我的產品評論](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +91,7 @@ Commerce產品評論功能預設為啟用。
 
    ![管理員 — 評等](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Rating Title]_&#x200B;區段中，輸入新評等的&#x200B;**[!UICONTROL Default Value]**。
+1. 在&#x200B;_[!UICONTROL Rating Title]_區段中，輸入新評等的&#x200B;**[!UICONTROL Default Value]**。
 
    如果適用，也請輸入每個商店檢視的翻譯。
 

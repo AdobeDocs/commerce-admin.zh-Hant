@@ -3,14 +3,19 @@ title: 網站地圖
 description: 瞭解如何設定網站地圖，以索引Commerce網站的所有頁面和影像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # 網站地圖
+
+>[!TIP]
+>
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁編目程式忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 
@@ -97,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -159,9 +164,9 @@ ht-degree: 0%
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL CMS Pages Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
-   ![目錄組態 — XML Sitemap CMS頁面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
+   ![目錄設定 — XML Sitemap CMS頁面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[CMS頁面選項](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
+   如需這些選項的詳細清單，請參閱&#x200B;_設定參考_&#x200B;中的[CMS頁面選項](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Store Url Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
@@ -223,6 +228,6 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

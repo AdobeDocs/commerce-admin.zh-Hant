@@ -3,9 +3,10 @@ title: 設定事件
 description: 瞭解如何在店面側邊欄中完成基本設定，以啟用事件並設定事件區塊。
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ ht-degree: 0%
 
 ### 限制銷售
 
-依預設，在即將發生或已關閉的事件中出現的產品不可用於一般銷售，且&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按鈕未出現在產品清單或產品頁面上。
+依預設，在即將發生或已關閉的事件中出現的產品不可用於一般銷售，且&#x200B;_[!UICONTROL Add to Cart]_按鈕未出現在產品清單或產品頁面上。
 
-若要還原已關閉事件的&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按鈕，必須刪除該事件（請參閱[更新事件](event-create.md#update-events)）。 不過，如果產品與另一個沒有銷售限制的類別相關聯，則產品頁面上會提供此按鈕。 同樣地，如果產品與沒有銷售限制的其他類別相關聯，則股票代號區塊不會出現在產品頁面上。
+若要還原已關閉事件的&#x200B;_[!UICONTROL Add to Cart]_按鈕，必須刪除該事件（請參閱[更新事件](event-create.md#update-events)）。 不過，如果產品與另一個沒有銷售限制的類別相關聯，則產品頁面上會提供此按鈕。 同樣地，如果產品與沒有銷售限制的其他類別相關聯，則股票代號區塊不會出現在產品頁面上。

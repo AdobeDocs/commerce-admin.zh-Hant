@@ -2,18 +2,32 @@
 title: '[!UICONTROL Stores]功能表'
 description: Commerce管理員包含[!UICONTROL Stores]功能表，可讓您存取設定商店階層、設定、詳細目錄、稅捐和屬性的工具。
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Stores]功能表
 
-_[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在整個Adobe Commerce或Magento Open Source安裝過程中參考的設定。 這些功能包括設定商店階層、組態、銷售和訂單設定、稅捐與貨幣、產品屬性、產品稽核評等及客戶群組。
+_[!UICONTROL Stores]_功能表可讓您存取不太常使用，但在Adobe Commerce或Magento Open Source安裝中參考的設定。 這些功能包括設定商店階層、組態、銷售和訂單設定、稅捐與貨幣、產品屬性、產品稽核評等及客戶群組。
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 ![管理員 — 儲存功能表](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+
+![管理員 — 儲存功能表](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 顯示[!UICONTROL Stores]功能表
 
@@ -23,7 +37,7 @@ _[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在整
 
 ### [!UICONTROL Settings]
 
-在您的Adobe Commerce或Magento Open Source安裝中管理[網站、商店和商店檢視](stores.md#store-and-site-structure)的階層，以及所有[組態設定](../configuration-reference/guide-overview.md)。 此外，您可以設定銷售的[條款與條件](terms-and-conditions.md)，並管理[訂單狀態設定](order-status.md#custom-order-status)。
+管理Adobe Commerce或Magento Open Source安裝中[網站、商店和商店檢視](stores.md#store-and-site-structure)的階層，以及所有[組態設定](../configuration-reference/guide-overview.md)。 此外，您可以設定銷售的[條款與條件](terms-and-conditions.md)，並管理[訂單狀態設定](order-status.md#custom-order-status)。
 
 ### [!UICONTROL Inventory]
 

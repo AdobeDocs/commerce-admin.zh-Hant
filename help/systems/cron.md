@@ -3,16 +3,17 @@ title: Cron （排程工作）
 description: 瞭解如何從管理員控制Commerce cron作業的執行和排程。
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Cron （排程工作）
 
-Adobe Commerce和Magento Open Source會定期執行指令碼，依排程執行一些操作。 您可以從管理員控制Commerce cron工作的執行和排程。 根據Cron排程執行的存放區作業包含但不限於：
+Adobe Commerce和Magento Open Source會定期執行指令碼，依排程執行一些作業。 您可以從管理員控制Commerce cron工作的執行和排程。 根據Cron排程執行的存放區作業包含但不限於：
 
 - [電子郵件](email-communications.md)
 - [目錄價格規則](../merchandising-promotions/price-rules-catalog.md)
@@ -23,14 +24,14 @@ Adobe Commerce和Magento Open Source會定期執行指令碼，依排程執行�
 
 >[!IMPORTANT]
 >
->Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=zh-Hant)中的指示。
+>Commerce服務必須安裝在crontab中，以確保核心元件和部分協力廠商擴充功能如預期般運作。 如需將服務安裝到crontab的詳細資訊，請參閱&#x200B;_安裝指南_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)中的[指示。
 
 此外，您可以將下列設定為根據cron排程執行：
 
 - 訂購系統格線更新與重新索引
 - 待處理付款期限
 
-請確定存放區的[基底URL](../stores-purchase/store-urls.md)已正確設定，以便cron作業期間產生的URL正確無誤。 如需雲端基礎結構上的Adobe Commerce，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant)。 若為內部部署，請參閱&#x200B;_設定指南_&#x200B;中的[設定並執行控制項](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant)。
+請確定存放區的[基底URL](../stores-purchase/store-urls.md)已正確設定，以便cron作業期間產生的URL正確無誤。 如需雲端基礎結構上的Adobe Commerce，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)。 若為內部部署，請參閱&#x200B;_設定指南_&#x200B;中的[設定並執行控制項](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)。
 
 ## 設定cron
 

@@ -3,9 +3,10 @@ title: 活動邀請
 description: 瞭解客戶如何從客戶帳戶的儀表板傳送和檢視活動邀請和私人銷售。
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ ht-degree: 0%
 
 ## 我的邀請
 
-客戶帳戶的&#x200B;_[!UICONTROL My Invitations]_&#x200B;區段會列出客戶傳送的所有邀請。 客戶可以傳送邀請給朋友和家人參加商店活動、禮品註冊處、願望清單等。
+客戶帳戶的&#x200B;_[!UICONTROL My Invitations]_區段會列出客戶傳送的所有邀請。 客戶可以傳送邀請給朋友和家人參加商店活動、禮品註冊處、願望清單等。
 
 ![我的邀請](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 邀請工作流程
 
 1. **客戶準備邀請**：客戶從帳戶儀表板準備收件者清單並完成邀請。 視設定而定，可包含自訂訊息。
-1. **客戶傳送邀請**：準備就緒時，客戶按一下&#x200B;_[!UICONTROL Send Invitations]_&#x200B;按鈕。
+1. **客戶傳送邀請**：準備就緒時，客戶按一下&#x200B;_[!UICONTROL Send Invitations]_按鈕。
 1. **系統管理傳輸**：系統會根據組態中設定的數目，以批次傳送邀請。
 1. **客戶監視回應**：客戶監視來自帳戶儀表板的每個邀請的狀態，如`Sent`、`Accepted`或`Canceled`。
 

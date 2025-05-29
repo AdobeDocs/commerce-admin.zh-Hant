@@ -2,9 +2,9 @@
 title: Merchandising and Promotions指南
 description: 探索Adobe Commerce中銷售和促銷功能的詳細資訊，包括有針對性的折扣和活動。
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [簡介](introduction.md) | Commerce例項的銷售與促銷功能概觀。 |
 | [行銷功能表](marketing-menu.md) | 使用[!UICONTROL Marketing]功能表存取多項功能，以管理促銷活動、通訊、SEO和使用者產生的內容。 |
-| [Visual Merchandiser](visual-merchandiser.md) | 探索這組進階工具，可讓您定位產品並套用條件，以決定哪些產品會出現在類別清單中。 |
+| [Visual Merchandiser](visual-merchandiser.md) | [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}探索此進階工具集，讓您定位產品並套用條件，以決定哪些產品會出現在類別清單中。 |
 | [禮品登記簿](gift-registries.md) | 讓您的客戶能夠建立特殊場合的禮品註冊處，並邀請他們的朋友和家人從禮品註冊處購買他們的禮物。 |
 | [獎勵和忠誠計畫](rewards-loyalty.md) | 實施可促進客戶參與及提高客戶忠誠度的計畫。 |
 | [私人銷售和活動](events-private-sales.md) | 建立限時銷售、限制特定成員的銷售，或建立獨立的私人銷售頁面。 |

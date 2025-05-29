@@ -1,20 +1,21 @@
 ---
-title: AdobeIdentity Management服務(IMS)整合概述
+title: Adobe Identity Management Service (IMS)整合概述
 description: 介紹Adobe Commerce管理員登入與Adobe IMS的選擇性整合
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
-# AdobeIdentity Management服務(IMS)整合概述
+# Adobe Identity Management Service (IMS)整合概述
 
 {{ee-feature}}
 
-擁有Adobe帳戶的Adobe Commerce管理員使用者現在可以使用其Adobe ID登入Adobe Commerce。 Adobe Identity Management Service (IMS)是Adobe以OAuth 2.0為基礎的身分管理功能，可支援驗證。 將Commerce管理驗證整合至Adobe商業產品的IMS驗證工作流程，可簡化使用其他Adobe產品之使用者的驗證程式。 此整合為選用性，且會根據執行個體來啟用。 啟用此整合時，只有管理員使用者工作流程會受到影響。 
+擁有Adobe Commerce帳戶的Adobe管理員使用者現在可以使用其Adobe ID登入Adobe Commerce。 Adobe Identity Management Service (IMS)是Adobe以OAuth 2.0為基礎的身分管理功能，可支援驗證。 將Commerce管理驗證整合至Adobe商務產品的IMS驗證工作流程，可簡化使用其他Adobe產品之使用者的驗證程式。 此整合為選用性，且會根據執行個體來啟用。 啟用此整合時，只有管理員使用者工作流程會受到影響。 
 
 Commerce管理員IMS整合所需的模組會封裝在`adobe-ims-metapackage`中，此套件與Adobe Commerce核心發行版本搭配。
 
@@ -22,11 +23,11 @@ Commerce管理員IMS整合所需的模組會封裝在`adobe-ims-metapackage`中�
 
 ## 與IMS整合後管理工作流程和介面的變更
 
-啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_&#x200B;按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
+啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
 
 ## 管理員與IMS的整合如何影響Commerce密碼
 
-已與Adobe IMS整合的Commerce部署需要Adobe ID帳戶，才能存取在IMS啟用程式中為Commerce應用程式設定的Adobe IMS組織。  IMS整合啟用時，管理員使用者會使用其Adobe憑證透過Adobe登入頁面進行驗證。 只要啟用Adobe IMS整合，管理員使用者的Commerce密碼和使用者名稱就不會再用於驗證。
+已與Adobe IMS整合的Commerce部署需要Adobe ID帳戶，才能存取在IMS啟用程式中為Commerce應用程式設定的Adobe IMS組織。  IMS整合啟用時，管理員使用者會使用其Adobe憑證，透過Adobe登入頁面進行驗證。 只要啟用Adobe IMS整合，管理員使用者的Commerce密碼和使用者名稱就不會再用於驗證。
 
 如果IMS整合已停用，管理員使用者必須使用其Commerce使用者名稱和密碼再次透過Adobe Commerce進行驗證。 管理員使用者在啟用這項整合之前，應儲存其Commerce管理員憑證（使用者名稱和密碼）和2FA憑證。
 
@@ -37,9 +38,9 @@ Commerce應用程式的使用者帳戶和角色許可權仍由Commerce管理員�
 
 ## 使用IMS憑證產生網頁API權杖
 
-在Commerce執行個體中啟用Adobe IMS的管理員驗證時，Commerce管理員API會受到影響。 管理員使用者無法再使用Commerce執行個體發行的認證。 這些是登入管理員和取得存取權杖所需的認證，服務可使用這些權杖向管理員REST和SOAP API提出請求。
+在Commerce執行個體中啟用Adobe IMS的管理員驗證時，Commerce管理員API會受到影響。 管理員使用者無法再使用Commerce執行個體發行的認證。 這些是登入管理員和取得存取權杖所需的認證，服務可使用這些權杖來向管理員REST和SOAP API提出請求。
 
-啟用Adobe IMS整合後，管理員使用者必須為需要驗證的Adobe Commerce API端點使用[Adobe IMS OAuth權杖](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)。 使用者端解決方案會動態取得權杖以供網頁API使用。 在設定這項整合的過程中，已針對REST和SOAP Web API區域啟用此驗證機制。
+啟用Adobe IMS整合後，管理員使用者必須為需要驗證的Adobe Commerce API端點使用[Adobe IMS OAuth權杖](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)。 使用者端解決方案會動態取得權杖以供網頁API使用。 在設定這項整合時，REST和SOAP Web API區域會啟用此驗證機制。
 
 請參閱[權杖型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/)，以概略瞭解Web API如何使用Commerce存取權杖，包括IMS存取權杖。
 

@@ -4,9 +4,10 @@ description: 瞭解如何設定OAuth憑證和重新導向URL以進行協力廠�
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 ## 入門工作流程
 
-1. **授權整合** — 移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;頁面，尋找相關的整合併授權。
+1. **授權整合** — 移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**頁面，尋找相關的整合併授權。
 1. **驗證並建立登入** — 出現提示時，接受要求的存取。 如果重新導向至協力廠商，請登入系統或建立帳戶。 成功登入後，您會返回整合頁面。
 1. **接收授權整合的確認** — 系統傳送整合已成功授權的通知。 設定整合併接收認證後，就不再需要呼叫存取或請求權杖。
 
@@ -80,7 +81,7 @@ ht-degree: 0%
 
 1. 尋找與&#x200B;**[!UICONTROL Active]**&#x200B;狀態的整合。
 
-1. 在&#x200B;_[!UICONTROL Activate]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Reauthorize]**。
+1. 在&#x200B;_[!UICONTROL Activate]_欄中按一下&#x200B;**[!UICONTROL Reauthorize]**。
 
 1. 按一下&#x200B;**[!UICONTROL Reauthorize]**&#x200B;以核准對API資源的存取權。
 

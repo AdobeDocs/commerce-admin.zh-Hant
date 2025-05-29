@@ -2,20 +2,34 @@
 title: '[!UICONTROL Content]功能表'
 description: 使用[!UICONTROL Content]功能表存取多項功能，以管理您商店中的內容。
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Content]功能表
 
-![管理員中顯示的[!UICONTROL Content]功能表](./assets/admin-menu-content.png){width="400" zoomable="yes"}
-
 >[!NOTE]
 >
->啟用新[[!DNL Media Gallery]](media-gallery.md)時，_[!UICONTROL Media]_&#x200B;區段會以單一選項顯示，以存取[!DNL Media Gallery]。 您可以前往「**[!UICONTROL Stores]**」>「_[!UICONTROL Settings]_」>「**[!UICONTROL Configuration]**」，然後在左側面板中選擇「**[!UICONTROL Advanced]**」>「**[!UICONTROL System]**」，將「**[!UICONTROL Enable Old Media Gallery]**」選項設為`No`。
+>啟用新[[!DNL Media Gallery]](media-gallery.md)時，_[!UICONTROL Media]_區段會以單一選項顯示，以存取[!DNL Media Gallery]。 您可以前往「**[!UICONTROL Stores]**」>「_[!UICONTROL Settings]_」>「**[!UICONTROL Configuration]**」，然後在左側面板中選擇「**[!UICONTROL Advanced]**」>「**[!UICONTROL System]**」，將「**[!UICONTROL Enable Old Media Gallery]**」選項設為`No`。
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
+![管理員中顯示的[!UICONTROL Content]功能表](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+
+![管理員中顯示的[!UICONTROL Content]功能表](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 顯示[!UICONTROL Content]功能表
 
@@ -32,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能表中的&#x200B;_[!UICONTROL Banners]_&#x200B;選項在2.3.1中已過時，現已移除。 其功能已由動態區塊取代。
+>此功能表中的&#x200B;_[!UICONTROL Banners]_選項在2.3.1中已過時，現已移除。 其功能已由動態區塊取代。
 
 ## [!UICONTROL Design] {#design-features}
 

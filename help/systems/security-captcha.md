@@ -4,16 +4,17 @@ description: 瞭解如何設定驗證碼以供管理員存取及註冊客戶所�
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # 驗證碼
 
-驗證碼是一種視覺裝置，可確保人(而不是電腦（或「機器人」）)與網站互動。 CAPTCHA是&#x200B;_Complete Automated Public Turing測試的縮寫，用來區分電腦和人類_。 它可用於管理員存取和註冊客戶啟動的各種店面動作。 Adobe Commerce和Magento Open Source支援本主題和[Google reCAPTCHA](security-google-recaptcha.md)中所述的標準CAPTCHA。
+驗證碼是一種視覺裝置，可確保人(而不是電腦（或「機器人」）)與網站互動。 CAPTCHA是&#x200B;_Complete Automated Public Turing測試的縮寫，用來區分電腦和人類_。 它可用於管理員存取和註冊客戶啟動的各種店面動作。 Adobe Commerce和Magento Open Source支援本主題和[Google reCAPTCHA](security-google-recaptcha.md)中所述的標準驗證碼。
 
 您可以按一下影像右上角的「重新載入」圖示，視需要多次重新載入驗證碼。 驗證碼是完全可設定的，並且可設定為每次都出現，或僅在已定義的失敗登入嘗試次數後出現。
 
@@ -51,7 +52,7 @@ ht-degree: 0%
    - 將&#x200B;**[!UICONTROL Displaying Modes]**&#x200B;設定為下列其中一項：
 
       - `Always` — 永遠都需要CAPTCHA才能登入管理員。
-      - `After number of attempts to login` — 此選項僅適用於管理員登入表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;欄位就會顯示。 輸入您要允許的登入嘗試次數。 值為0 （零）類似於將「顯示模式」設定為`Always`。
+      - `After number of attempts to login` — 此選項僅適用於管理員登入表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_欄位就會顯示。 輸入您要允許的登入嘗試次數。 值為0 （零）類似於將「顯示模式」設定為`Always`。
 
      若要追蹤失敗的登入嘗試次數，每次嘗試以一個電子郵件地址登入，以及從一個IP位址登入都會計算在內。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。
 
@@ -97,7 +98,7 @@ ht-degree: 0%
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hant) _知識庫_&#x200B;文章）
+      - `Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _知識庫_&#x200B;文章）
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (僅適用於Adobe Commerce B2B)

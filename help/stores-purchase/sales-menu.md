@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales]功能表'
 description: Commerce管理員包含[!UICONTROL Sales]功能表，可讓您根據訂單在工作流程中的位置存取用於處理訂單的工具。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 「銷售」功能表會根據異動在訂單工作流程中的位置來列出異動。 您可能會將每個選項視為訂單期限中的不同階段。
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 ![銷售功能表](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+
+![銷售功能表](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 顯示[!UICONTROL Sales]功能表
 
@@ -26,6 +40,12 @@ ht-degree: 0%
 ![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
 
 授權買家可從購物車傳送[要求](../b2b/quote-request.md)，與賣家[議價價格](../b2b/quotes.md)。
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
+
+透過建立可重複使用且可自訂的[報價範本](../b2b/quote-templates-overview.md)，讓買家和賣家簡化報價程式。
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ ht-degree: 0%
 
 ### [!UICONTROL Billing Agreements]
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 [帳單合約](paypal-billing-agreements.md)與採購單類似，不過不限於單一採購。 結帳時，客戶選擇「帳單協定」作為付款方式。 帳單協定可簡化結帳程式，因為客戶不需要為每次購買輸入付款資訊。
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-在「Braintree虛擬終端機」頁面上，管理員使用者可接受所選金額的付款。 若要讓終端機功能可用，商家應該設定基本的[Braintree設定](braintree.md)。 Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整合。
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
+在Braintree虛擬終端機頁面上，管理員使用者可接受所選金額的付款。 若要讓終端機功能可用，商家應該設定基本的[Braintree設定](braintree.md)。 Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整合。
 
 ### [!UICONTROL Archive]
 

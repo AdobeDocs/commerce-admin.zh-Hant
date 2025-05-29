@@ -4,9 +4,9 @@ description: 瞭解用於存取您的管理員和店面的Commerce URL和帳戶�
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ ht-degree: 0%
 
 ## 範例資料
 
-Adobe提供範例資料集，其中包含超過250種產品（其中約200種為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=zh-Hant)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
+Adobe提供範例資料集，其中包含超過250項產品（其中約200項為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。

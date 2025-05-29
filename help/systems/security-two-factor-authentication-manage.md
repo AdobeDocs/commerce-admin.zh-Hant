@@ -4,9 +4,10 @@ description: 瞭解如何為管理員使用者管理雙因素驗證及重設驗�
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ ht-degree: 0%
 
 1. 選取使用者，並在編輯模式下開啟帳戶。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;區段並輸入您的密碼。
+1. 向下捲動至&#x200B;_[!UICONTROL Current User Identity Verification]_區段並輸入您的密碼。
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 2FA]**。
 
-1. 在&#x200B;_[!UICONTROL Configuration reset]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Reset]**&#x200B;與&#x200B;**[!UICONTROL OK]**&#x200B;以確認。
+1. 在&#x200B;_[!UICONTROL Configuration reset]_區段中，按一下&#x200B;**[!UICONTROL Reset]**與&#x200B;**[!UICONTROL OK]**以確認。
 
    ![使用者帳戶 — 啟用2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

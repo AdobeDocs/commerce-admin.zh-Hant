@@ -3,9 +3,9 @@ title: 搜尋引擎最佳化
 description: 瞭解適用於Commerce網站的搜尋引擎最佳化(SEO)工具，以及最佳化SEO的最佳實務。
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,25 @@ ht-degree: 0%
 
 _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進搜尋引擎索引頁面的方式。 Commerce包含多種功能，可支援您持續的SEO作業。
 
+>[!TIP]
+>
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+
 ## 中繼資料
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 進一步瞭解如何為您的網站和商店新增及增強關鍵字豐富的[中繼資料](meta-data.md)。
 
 ## 使用Sitemap
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 [網站地圖](sitemap-xml.md)改善了搜尋引擎為存放區編制索引的方式，並設計來尋找可能被網頁編目程式忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 
 ## URL重新寫入
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [URL重寫](url-rewrite.md)工具可讓您變更與產品、類別或CMS頁面相關聯的任何URL。
 

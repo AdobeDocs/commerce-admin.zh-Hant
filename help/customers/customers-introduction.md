@@ -2,18 +2,32 @@
 title: 客戶管理簡介
 description: 瞭解如何使用Commerce客戶管理功能來增強您商店的客戶體驗。
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # 客戶管理簡介
 
-_[!UICONTROL Customers]_&#x200B;功能表提供客戶帳戶管理工具的存取權，並可讓您檢視商店中的線上訪客。
+_[!UICONTROL Customers]_功能表提供客戶帳戶管理工具的存取權，並可讓您檢視商店中的線上訪客。
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 ![客戶功能表](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+
+![客戶功能表](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 顯示[!UICONTROL Customers]功能表
 

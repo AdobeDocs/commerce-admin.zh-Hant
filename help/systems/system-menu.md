@@ -2,9 +2,9 @@
 title: '[!UICONTROL System]功能表'
 description: Commerce管理員包括[!UICONTROL System]功能表，可讓您存取匯入和匯出資料、系統快取和索引管理、管理員存取和許可權管理、備份、系統通知和自訂變數的工具。
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 [!UICONTROL System]功能表包含匯入及匯出資料、管理系統快取與索引、管理許可權、備份、系統通知及自訂變數的工具。
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 ![系統功能表](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+
+![系統功能表](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_若要顯示[!UICONTROL System]功能表：_**
 
@@ -25,13 +39,19 @@ ht-degree: 0%
 
 ## [!UICONTROL Extensions]
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 管理您商店的[協力廠商整合](integrations.md)和擴充功能。
 
 ## [!UICONTROL Tools]
 
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+
 使用此工具集合來管理您的系統資源，包括[快取](cache-management.md)和[索引](index-management.md)管理、[備份](backups.md)以及安裝設定。
 
 ## [!UICONTROL Support]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
 
@@ -39,7 +59,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Permissions]
 
-Adobe Commerce和Magento Open Source使用[角色和許可權](permissions.md)，為管理員使用者建立不同的存取層級。 這些工具可讓管理員根據您的網站工作的人員&#x200B;_需要知道_&#x200B;授予許可權。
+Adobe Commerce和Magento Open Source使用[角色和許可權](permissions.md)為管理員使用者建立不同的存取層級。 這些工具可讓管理員根據您的網站工作的人員&#x200B;_需要知道_&#x200B;授予許可權。
 
 ## [!UICONTROL Action Log]
 

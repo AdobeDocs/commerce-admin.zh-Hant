@@ -4,9 +4,10 @@ description: 瞭解如何設定瀏覽器功能偵測，以及在需要變更客�
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,13 @@ ht-degree: 0%
 - 如果瀏覽器的隱私權設定不允許Cookie，您可以設定系統自動將其重新導向至[啟用Cookie](../content-design/pages.md#enable-cookies)頁面，該頁面說明如何在大部分的瀏覽器中進行建議的設定。
 - 如果瀏覽器的隱私權設定不允許JavaScript，您可以設定系統在每個頁面的標頭上方顯示以下訊息。
 
-如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=zh-Hant#supported-browsers)。
+如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)。
 
 ## 設定瀏覽器功能偵測
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側&#x200B;_[!UICONTROL General]_&#x200B;下方的面板中，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側&#x200B;_[!UICONTROL General]_下方的面板中，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Browser Capabilities Detection]**&#x200B;區段，然後執行下列動作：
 

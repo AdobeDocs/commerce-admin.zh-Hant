@@ -2,9 +2,10 @@
 title: 支援工具
 description: 瞭解您可用於識別系統中問題的支援工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 0%
 
 ### 檢視系統報告詳細資訊
 
-1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 在左側面板中，展開報表的每個區段![展開選取器](../assets/icon-display-expand.png)以檢視詳細資料。
 
