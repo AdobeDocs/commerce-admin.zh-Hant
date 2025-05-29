@@ -3,7 +3,7 @@ title: 適用於Commerce管理員的Adobe Experience Cloud整合
 description: 瞭解Admin Unified Experience擴充功能，此擴充功能整合Commerce與Experience Cloud，讓客戶可以從Experience Cloud首頁存取Commerce專案。
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '549'
@@ -14,7 +14,7 @@ ht-degree: 0%
 # 適用於Commerce的Adobe Experience Cloud整合
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">深入瞭解</a>）</td></tr>
+<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
 啟用Admin Unified Experience擴充功能，將Adobe Commerce專案與Experience Cloud整合。 當整合作用中時，管理員可以從Adobe Experience Cloud存取Commerce專案。
@@ -31,11 +31,11 @@ Experience Cloud上的![Commerce專案工作區](./assets/admin-uex-commerce-pro
 
 - **Commerce店面首頁的快照** — 店面首頁的快照。 如果專案有多個網站，快照會顯示預設網站的首頁。
 
-- **[專案名稱](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — 識別執行個體的雲端專案環境。 專案名稱預設為雲端專案中的[Git分支名稱](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html)。 變更或更新[統一Experience存放區組態設定](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin)中的專案名稱。
+- **[專案名稱](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=zh-Hant)** — 識別執行個體的雲端專案環境。 專案名稱預設為雲端專案中的[Git分支名稱](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=zh-Hant)。 變更或更新[統一Experience存放區組態設定](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin)中的專案名稱。
 
 - **[店面URL](../stores-purchase/store-urls.md)** — 顯示預設網站的基底URL。
 
-- **[環境型別](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)** — 部署至開發或中繼環境的Commerce執行個體會以[!UICONTROL Development]或[!UICONTROL Staging]標籤識別。 沒有標籤的執行個體會部署至生產環境。
+- **[環境型別](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html?lang=zh-Hant)** — 部署至開發或中繼環境的Commerce執行個體會以[!UICONTROL Development]或[!UICONTROL Staging]標籤識別。 沒有標籤的執行個體會部署至生產環境。
 
 - **Commerce管理員存取權** — 按一下&#x200B;**[!UICONTROL Open]**&#x200B;開啟管理員。
 
@@ -51,7 +51,7 @@ Experience Cloud整合啟用時，管理員會使用下列工作流程來驗證�
 
    ![Experience Cloud登入頁面](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   對於與Experience Cloud執行個體相關聯的組織，管理員必須使用Adobe業務設定檔登入Commerce。 請參閱[管理Adobe設定檔](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)。
+   對於與Experience Cloud執行個體相關聯的組織，管理員必須使用Adobe業務設定檔登入Commerce。 請參閱[管理Adobe設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-adobe-profiles.html)。
 
 1. 在Experience Cloud首頁上，選取&#x200B;**[!UICONTROL Open]**&#x200B;以開啟[!UICONTROL Commerce Projects workspace]。
 

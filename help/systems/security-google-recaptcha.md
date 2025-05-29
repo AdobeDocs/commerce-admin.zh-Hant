@@ -33,7 +33,7 @@ Google reCAPTCHA可透過數種方式實作：
 
 >[!IMPORTANT]
 >
->設定Google reCAPTCHA之前，請確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱安裝指南中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}。
+>設定Google reCAPTCHA之前，請確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱安裝指南中的[必要的PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant){:target="_blank"}。
 
 ## 步驟1：產生Google reCAPTCHA金鑰
 
@@ -70,7 +70,7 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
 
 ## 步驟2：為管理員設定Google reCAPTCHA
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 1. 登入您的管理員帳戶。
 

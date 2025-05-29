@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # [!UICONTROL Catalog]功能表
 
-[!UICONTROL Catalog]功能表可讓您在[B2B商店](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)中輕鬆存取產品建立、類別和存貨管理工具，以及自訂訂訂價的共用類別目錄。
+[!UICONTROL Catalog]功能表可讓您在[B2B商店](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)中輕鬆存取產品建立、類別和存貨管理工具，以及自訂訂訂價的共用類別目錄。
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 ![目錄功能表](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
 
 ![目錄功能表](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-對於已安裝並啟用Adobe Commerce B2B的商店，[共用目錄](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)可讓您為不同的公司提供自訂價格。
+對於已安裝並啟用Adobe Commerce B2B的商店，[共用目錄](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=zh-Hant)可讓您為不同的公司提供自訂價格。
 
 ![共用的目錄產品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

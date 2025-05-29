@@ -28,8 +28,8 @@ ht-degree: 0%
 
 - **管理員使用者帳戶和許可權** — 管理管理員[使用者帳戶](permissions-users-all.md)，以及相關的[角色和許可權](permissions-user-roles.md)，這些角色和許可權可控制他們對Admin中網站和功能區域的存取權。
 - **管理員工作階段和網站限制** — 檢閱[安全性](security.md)最佳實務，並瞭解如何管理管理員工作階段和認證、實作驗證碼以及管理網站限制。
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **系統工具** — 執行常式[索引](index-management.md)和[快取](cache-management.md)管理作業，[備份](backups.md)系統，管理[排程作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **系統工具** — 執行常式[索引](index-management.md)和[快取](cache-management.md)管理作業，[備份](backups.md)系統，管理[排程作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。
 - **資料傳輸** — 使用[資料傳輸](data-transfer.md)工具匯入及匯出資料，以及管理產品、定價、客戶及稅率資料。
 - **整合** — 建立[協力廠商整合](integrations.md)的OAuth認證和重新導向URL位置，並識別可用的API資源。
 - **動作記錄** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)存取在您商店中工作的管理員使用者所做變更的記錄（[動作記錄](action-log.md)）。
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅Adobe Commerce) [系統報表](support.md#access-system-reports))可識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅Adobe Commerce) [系統報表](support.md#access-system-reports))可識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。
