@@ -40,7 +40,7 @@ Adobe Commerce支援來自多個提供者的2FA方法。 有些要求安裝可�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Security]**&#x200B;並選擇&#x200B;**[!UICONTROL 2FA]**。
 
-1. 在&#x200B;_[!UICONTROL General]_區段中，選取要使用的提供者。
+1. 在&#x200B;_[!UICONTROL General]_&#x200B;區段中，選取要使用的提供者。
 
    | 提供者 | 函式 |
    |--- |--- |

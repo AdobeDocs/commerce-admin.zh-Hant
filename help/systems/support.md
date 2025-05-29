@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### 檢視系統報告詳細資訊
 
-1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_欄中選取&#x200B;**[!UICONTROL View]**。
+1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 在左側面板中，展開報表的每個區段![展開選取器](../assets/icon-display-expand.png)以檢視詳細資料。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 入門工作流程
 
-1. **授權整合** — 移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**頁面，尋找相關的整合併授權。
+1. **授權整合** — 移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;頁面，尋找相關的整合併授權。
 1. **驗證並建立登入** — 出現提示時，接受要求的存取。 如果重新導向至協力廠商，請登入系統或建立帳戶。 成功登入後，您會返回整合頁面。
 1. **接收授權整合的確認** — 系統傳送整合已成功授權的通知。 設定整合併接收認證後，就不再需要呼叫存取或請求權杖。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 尋找與&#x200B;**[!UICONTROL Active]**&#x200B;狀態的整合。
 
-1. 在&#x200B;_[!UICONTROL Activate]_欄中按一下&#x200B;**[!UICONTROL Reauthorize]**。
+1. 在&#x200B;_[!UICONTROL Activate]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Reauthorize]**。
 
 1. 按一下&#x200B;**[!UICONTROL Reauthorize]**&#x200B;以核准對API資源的存取權。
 

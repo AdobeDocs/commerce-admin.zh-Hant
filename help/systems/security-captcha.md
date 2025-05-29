@@ -52,7 +52,7 @@ ht-degree: 0%
    - 將&#x200B;**[!UICONTROL Displaying Modes]**&#x200B;設定為下列其中一項：
 
       - `Always` — 永遠都需要CAPTCHA才能登入管理員。
-      - `After number of attempts to login` — 此選項僅適用於管理員登入表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_欄位就會顯示。 輸入您要允許的登入嘗試次數。 值為0 （零）類似於將「顯示模式」設定為`Always`。
+      - `After number of attempts to login` — 此選項僅適用於管理員登入表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;欄位就會顯示。 輸入您要允許的登入嘗試次數。 值為0 （零）類似於將「顯示模式」設定為`Always`。
 
      若要追蹤失敗的登入嘗試次數，每次嘗試以一個電子郵件地址登入，以及從一個IP位址登入都會計算在內。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。
 

@@ -20,13 +20,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Security]_下，按一下&#x200B;**[!UICONTROL Security.txt]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Security]_&#x200B;下，按一下&#x200B;**[!UICONTROL Security.txt]**。
 
-1. 在&#x200B;_[!UICONTROL General]_區段中，將&#x200B;**[!UICONTROL Enable]**設為`Yes`。
+1. 在&#x200B;_[!UICONTROL General]_&#x200B;區段中，將&#x200B;**[!UICONTROL Enable]**&#x200B;設為`Yes`。
 
    ![一般安全性組態](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Contact Information]_下，輸入下列內容：
+1. 在&#x200B;_[!UICONTROL Contact Information]_&#x200B;下，輸入下列內容：
 
    - 處理您商店安全性問題的人員的電子郵件地址和電話號碼。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![連絡資訊組態](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Other Information]_下，輸入下列內容：
+1. 在&#x200B;_[!UICONTROL Other Information]_&#x200B;下，輸入下列內容：
 
    - 您的公開&#x200B;**[!UICONTROL Encryption]**&#x200B;金鑰的URL。 例如： `https://example.com/pgp-key.txt`
 

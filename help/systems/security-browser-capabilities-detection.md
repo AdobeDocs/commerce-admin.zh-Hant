@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側&#x200B;_[!UICONTROL General]_下方的面板中，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側&#x200B;_[!UICONTROL General]_&#x200B;下方的面板中，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Browser Capabilities Detection]**&#x200B;區段，然後執行下列動作：
 

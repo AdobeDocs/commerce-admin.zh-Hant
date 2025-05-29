@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 客戶管理簡介
 
-_[!UICONTROL Customers]_功能表提供客戶帳戶管理工具的存取權，並可讓您檢視商店中的線上訪客。
+_[!UICONTROL Customers]_&#x200B;功能表提供客戶帳戶管理工具的存取權，並可讓您檢視商店中的線上訪客。
 
 >[!BEGINTABS]
 

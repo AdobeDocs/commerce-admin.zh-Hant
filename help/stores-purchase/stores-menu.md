@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores]功能表
 
-_[!UICONTROL Stores]_功能表可讓您存取不太常使用，但在Adobe Commerce或Magento Open Source安裝中參考的設定。 這些功能包括設定商店階層、組態、銷售和訂單設定、稅捐與貨幣、產品屬性、產品稽核評等及客戶群組。
+_[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在Adobe Commerce或Magento Open Source安裝中參考的設定。 這些功能包括設定商店階層、組態、銷售和訂單設定、稅捐與貨幣、產品屬性、產品稽核評等及客戶群組。
 
 >[!BEGINTABS]
 

@@ -77,7 +77,7 @@ Adobe Commerce和Magento Open Source可讓您驗證工作階段變數，藉此�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開&#x200B;_[!UICONTROL General]_並選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板中，展開&#x200B;_[!UICONTROL General]_&#x200B;並選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開&#x200B;**[!UICONTROL Session Validation Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 

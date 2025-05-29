@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Advanced]_下，選擇&#x200B;**[!UICONTROL Admin]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Advanced]_&#x200B;下，選擇&#x200B;**[!UICONTROL Admin]**。
 
 1. 展開&#x200B;**[!UICONTROL Security]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 

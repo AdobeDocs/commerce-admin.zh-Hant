@@ -56,9 +56,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_欄位設定電子郵件之間的天數。<br/>
+   >如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;欄位設定電子郵件之間的天數。<br/>
    >
-   >**_新_**&#x200B;放棄的購物車&#x200B;**_之後_** _[!UICONTROL Repeat Schedule]_期間結束後，同一客戶的&#x200B;**_未重新觸發_**相同的電子郵件提醒。
+   >**_新_**&#x200B;放棄的購物車&#x200B;**_之後_** _[!UICONTROL Repeat Schedule]_&#x200B;期間結束後，同一客戶的&#x200B;**_未重新觸發_**&#x200B;相同的電子郵件提醒。
 
    完成條件以說明觸發電子郵件提醒的情境。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
      ![電子郵件提醒 — 標題和說明](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_區段中，輸入_&#x200B;預設存放區檢視&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**和&#x200B;**[!UICONTROL Description]**。 針對多個商店檢視，輸入每個商店檢視的適當標題和說明。
+   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;區段中，輸入_&#x200B;預設存放區檢視&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 針對多個商店檢視，輸入每個商店檢視的適當標題和說明。
 
      >[!NOTE]
      >

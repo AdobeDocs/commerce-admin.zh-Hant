@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ## 我的邀請
 
-客戶帳戶的&#x200B;_[!UICONTROL My Invitations]_區段會列出客戶傳送的所有邀請。 客戶可以傳送邀請給朋友和家人參加商店活動、禮品註冊處、願望清單等。
+客戶帳戶的&#x200B;_[!UICONTROL My Invitations]_&#x200B;區段會列出客戶傳送的所有邀請。 客戶可以傳送邀請給朋友和家人參加商店活動、禮品註冊處、願望清單等。
 
 ![我的邀請](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 邀請工作流程
 
 1. **客戶準備邀請**：客戶從帳戶儀表板準備收件者清單並完成邀請。 視設定而定，可包含自訂訊息。
-1. **客戶傳送邀請**：準備就緒時，客戶按一下&#x200B;_[!UICONTROL Send Invitations]_按鈕。
+1. **客戶傳送邀請**：準備就緒時，客戶按一下&#x200B;_[!UICONTROL Send Invitations]_&#x200B;按鈕。
 1. **系統管理傳輸**：系統會根據組態中設定的數目，以批次傳送邀請。
 1. **客戶監視回應**：客戶監視來自帳戶儀表板的每個邀請的狀態，如`Sent`、`Accepted`或`Canceled`。
 
