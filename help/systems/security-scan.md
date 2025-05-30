@@ -22,7 +22,7 @@ ht-degree: 0%
 - 存取追蹤及監控網站進度的歷史安全性報告。
 - 存取顯示成功和失敗檢查的掃描報告，並附上任何建議的動作。
 
-安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定安全性掃描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定安全性掃描工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 ![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
