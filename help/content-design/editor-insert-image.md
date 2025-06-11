@@ -2,7 +2,7 @@
 title: 在編輯器中插入影像
 description: WYSIWYG編輯器可讓您從媒體儲存空間插入影像、連結至其他伺服器上的影像，或使用Adobe Stock資產。
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '363'

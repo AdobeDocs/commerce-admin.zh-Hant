@@ -4,7 +4,7 @@ description: 瞭解如何使用內容傳遞網路(CDN)來儲存媒體檔案。
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '416'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 使用內容傳遞網路
 
-內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN (請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html))。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
+內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN (請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant))。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
 
 設定CDN後，您必須從管理員完成設定。 您可以在全域或網站層級進行變更。 當CDN用於媒體儲存時，Commerce存放區頁面上的所有媒體路徑都會變更為設定中指定的CDN路徑。
 

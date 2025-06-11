@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce和Magento Open Source提供許多簡單易用的設計選項，可用來對商店進行簡單的變更。 [Commerce Marketplace](../getting-started/commerce-marketplace.md)中也有許多專業設計的主題。 就像商店的櫥窗服飾一樣，您可以變更季節或促銷的主題。
 
-[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}更進階的商店設計人員喜歡使用物件導向環境的彈性，該環境從不同的元件組合頁面。 瞭解基本知識後，您將會很喜歡在如此靈活多變的環境中工作。 若要進一步瞭解，請參閱[前端開發人員指南][1]。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}更進階的商店設計人員喜歡使用物件導向環境的彈性，該環境從不同的元件組合頁面。 瞭解基本知識後，您將會很喜歡在如此靈活多變的環境中工作。 若要進一步瞭解，請參閱[前端開發人員指南][1]。
 
 ### 設定
 
@@ -31,7 +31,7 @@ Adobe Commerce和Magento Open Source提供許多簡單易用的設計選項，�
 
 ### 排程
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 可以根據[排程](schedule.md)在特定時段啟用主題。 使用排程來提前規劃季或促銷活動的主題變更。
 

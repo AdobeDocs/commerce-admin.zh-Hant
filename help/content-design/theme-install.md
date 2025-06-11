@@ -3,7 +3,7 @@ title: 安裝新主題
 description: 瞭解如何為您的Adobe Commerce或Magento Open Source商店安裝新主題。
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '166'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-開始之前，請確定您有一組有效的[[!DNL Commerce] 存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
+開始之前，請確定您有一組有效的[[!DNL Commerce] 存取金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hant)。
 
 若要將主題新增至您的[!DNL Commerce]存放區，請依照[!DNL Commerce Marketplace]上可用的指示操作：
 

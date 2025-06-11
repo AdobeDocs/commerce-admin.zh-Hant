@@ -3,7 +3,7 @@ title: 使用Adobe Stock影像
 description: 使用Adobe Stock的影像增強您的商店頁面。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ ht-degree: 0%
 
 ## 登入您的Adobe帳戶
 
-若要取得影像的完整存取權並消除Adobe Stock浮水印，您必須[使用Adobe帳戶登入](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)，並購買使用影像的許可權積分。
+若要取得影像的完整存取權並消除Adobe Stock浮水印，您必須[使用Adobe帳戶登入](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)，並購買使用影像的許可權積分。
 
 1. [存取Adobe Stock搜尋格線](#access-the-adobe-stock-search-grid)。
 
 1. 按一下右上方的&#x200B;**[!UICONTROL Sign In]**。
 
-   新的瀏覽器視窗會引導您完成[Adobe登入程式](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+   新的瀏覽器視窗會引導您完成[Adobe登入程式](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)。
 
    完成登入程式後，影像的授權狀態會在搜尋結果中顯示為標籤。
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/stock/help/credit-packs.html)，才能授權此影像。
+     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/tw/stock/help/credit-packs.html)，才能授權此影像。
 
    此動作會顯示提示，讓您指定用來將影像儲存至[媒體儲存空間](media-storage.md)的檔案名稱。 預設檔案名稱已提供，但您可以根據您的偏好自訂名稱。
 
