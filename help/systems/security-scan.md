@@ -4,16 +4,29 @@ description: 瞭解如何執行增強式安全性掃描，並監控每個Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # 安全性掃描
 
-監視您的Adobe Commerce和Magento Open Source網站是否有安全性風險和惡意程式，並接收安全性更新和通知。
+Adobe Commerce安全性掃描工具可免費監控Adobe Commerce和Magento Open Source網站的安全性。 此工具是以網頁為基礎的服務，您可以透過您的線上Adobe Commerce帳戶（位於[account.magento.com](https://account.magento.com/customer/account/login)）來存取。
+
+![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe免費提供此服務，不過商家必須接受條款，限制Adobe根據掃描結果和網站設定所應負的責任。
+
+## 掃描涵蓋範圍
+
+安全掃描工具會透過HTTP和HTTPS通訊協定運作，以偵測惡意軟體、識別安全漏洞，並協助您維持存放區的安全狀態。 此工具可供所有商家、開發人員和負責網站安全性的指定人員使用。
+
+安全掃描工具提供全方位的安全監控功能，協助您維護安全的存放區環境：
 
 - 讓insight瞭解存放區的即時安全性狀態。
 - 根據最佳實務接收建議，以協助解決問題。
@@ -22,11 +35,25 @@ ht-degree: 0%
 - 存取追蹤及監控網站進度的歷史安全性報告。
 - 存取顯示成功和失敗檢查的掃描報告，並附上任何建議的動作。
 
-安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定安全性掃描工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>[!NOTE]
+>
+>您無法從Adobe Commerce的安全性掃描工具掃描中排除特定的安全性測試。 不過，您可以自助在[中忽略失敗](#manage-scan-failures)，將其視為誤判（如果適用）。
 
-![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## 存取
 
-## 執行安全性掃描
+安全性掃描工具會維持嚴格的存取控制，以保護您的網站資訊。 只有您可以掃描您的網站，因為此工具需要透過您的Adobe Commerce帳戶驗證網域擁有權。 每個網站都會透過唯一的Token連線至您的帳戶，以防止第三方進行未經授權的掃描。
+
+此工具特別針對Adobe Commerce網域及其安全漏洞。 雖然您的網站商店可能包含其他平台的頁面，但安全性掃描工具應該僅掃描Adobe Commerce產生的內容，以確保可靠的結果。 掃描非Adobe Commerce頁面可能會產生不可靠的弱點評估。
+
+## 執行掃描
+
+掃描程式會針對已知安全性問題檢查您的網站，並識別可能使您的存放區易受攻擊的遺失Adobe Commerce修補程式和更新。
+
+>[!TIP]
+>
+>對於雲端基礎結構專案上的Commerce，請參閱[設定安全性掃描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+
+若要執行掃描：
 
 1. 從Commerce首頁，登入您的[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)。
 
@@ -37,7 +64,7 @@ ht-degree: 0%
    1. 讀取&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 按一下&#x200B;**[!UICONTROL Agree]**&#x200B;以繼續。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
+1. 在&#x200B;_[!UICONTROL Monitored Websites]_頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多個網站具有不同的網域，請為每個網域設定個別的掃描。
 
@@ -104,7 +131,7 @@ ht-degree: 0%
 
          建置流程完成後，變更將會部署至您的PWA商店前面。
 
-1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立網域的所有權。
+1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
 
 1. 成功確認後，為下列其中一種型別設定&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;選項：
 
@@ -159,7 +186,7 @@ ht-degree: 0%
 
 若要管理已識別為誤判的掃描失敗，請遵循下列步驟：
 
-1. 從&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面，按一下您要管理之網站的&#x200B;**[!UICONTROL View Report]**。
+1. 從&#x200B;_[!UICONTROL Monitored Websites]_頁面，按一下您要管理之網站的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在報表檢視中，找出要標籤為誤判的失敗掃描。
 
@@ -169,13 +196,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Apply Changes]**&#x200B;儲存您的選擇。
 
-略過的掃描失敗會移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;區段，並從您的風險分數中排除。
+略過的掃描失敗會移至&#x200B;_[!UICONTROL Ignored Results]_區段，並從您的風險分數中排除。
 
 ### 停止忽略掃描失敗
 
 如果您需要將先前忽略的掃描失敗還原到使用中監視，請遵循下列步驟：
 
-1. 在報表檢視中，捲動至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;區段。
+1. 在報表檢視中，捲動至&#x200B;_[!UICONTROL Ignored Results]_區段。
 
 1. 按一下&#x200B;**[!UICONTROL Stop Ignoring]**&#x200B;以取得您要還原的掃描失敗。
 
@@ -183,7 +210,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Apply Changes]**&#x200B;儲存您的選擇。
 
-掃描失敗會移回&#x200B;_[!UICONTROL Failed Scans]_&#x200B;區段，並包含在您的風險分數中。
+掃描失敗會移回&#x200B;_[!UICONTROL Failed Scans]_區段，並包含在您的風險分數中。
 
 ### 檢視略過的掃描失敗
 
