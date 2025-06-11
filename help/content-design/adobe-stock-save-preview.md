@@ -3,9 +3,10 @@ title: 儲存Adobe Stock影像預覽
 description: 影像預覽是免費的，而且在您決定購買授權之前，可以嘗試使用不同的Adobe Stock影像。
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

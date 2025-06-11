@@ -3,16 +3,17 @@ title: 授權Adobe Stock影像
 description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，請授權您的Adobe Stock影像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # 授權Adobe Stock影像
 
-您想要用於生產Adobe Commerce和Magento Open Source商店的Adobe Stock資產應該獲得授權。 此授權確保您擁有合法存取影像的許可權，並消除所有[影像預覽](./adobe-stock-save-preview.md)上出現的Adobe Stock浮水印。 若要授權影像或儲存已授權的影像，您必須登入您的Adobe帳戶。
+您想要用於生產Adobe Commerce和Magento Open Source商店的Adobe Stock資產應該獲得授權。 此授權確保您擁有合法存取影像的許可權，並消除所有[影像預覽](./adobe-stock-save-preview.md)上出現的Adobe Stock浮水印。 若要授權影像或儲存已獲得授權的影像，您必須登入您的Adobe帳戶。
 
 新的[[!DNL Media Gallery]](media-gallery.md)提供與Adobe Stock的直接整合，讓您能夠輕鬆地直接從相簿頁面授權您的影像。
 
@@ -74,6 +75,6 @@ ht-degree: 0%
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/tw/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

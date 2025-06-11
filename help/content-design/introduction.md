@@ -2,9 +2,9 @@
 title: ' [!DNL Commerce] 內容和設計簡介'
 description: 瞭解如何使用內容和網站設計功能來反映您的品牌和風格。
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce和Magento Open Source提供許多簡單易用的設計選項，可用來對商店進行簡單的變更。 [Commerce Marketplace](../getting-started/commerce-marketplace.md)中也有許多專業設計的主題。 就像商店的櫥窗服飾一樣，您可以變更季節或促銷的主題。
 
-更進階的商店設計師喜歡使用物件導向環境的靈活性，這種環境從單獨的元件組裝頁面。 瞭解基本知識後，您將會很喜歡在如此靈活多變的環境中工作。 若要進一步瞭解，請參閱[前端開發人員指南][1]。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}更進階的商店設計人員喜歡使用物件導向環境的彈性，該環境從不同的元件組合頁面。 瞭解基本知識後，您將會很喜歡在如此靈活多變的環境中工作。 若要進一步瞭解，請參閱[前端開發人員指南][1]。
 
 ### 設定
 
@@ -30,6 +30,8 @@ Adobe Commerce和Magento Open Source提供許多簡單易用的設計選項，�
 [佈景主題](themes.md)決定商店的視覺呈現方式，由版面配置檔案、範本檔案、翻譯檔案和外觀元素的集合所組成。
 
 ### 排程
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 可以根據[排程](schedule.md)在特定時段啟用主題。 使用排程來提前規劃季或促銷活動的主題變更。
 

@@ -2,9 +2,10 @@
 title: 新增和移除頁面
 description: 瞭解如何新增和移除 [!DNL Commerce] 存放區中使用的內容頁面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Content Heading]**&#x200B;方塊中，輸入您要顯示在頁面頂端的標題。
 
-   如果啟用，[頁面產生器](../page-builder/introduction.md)階段和面板會出現在內容標題下方。 如需詳細資訊，請參閱[Workspace](../page-builder/workspace.md)。 如果未啟用&#x200B;_頁面產生器_，編輯器會以WYSIWYG模式開啟，工具列在頂端。
+   如果啟用，[頁面產生器](../page-builder/introduction.md)階段和面板會出現在內容標題下方。 如需詳細資訊，請參閱[Workspace](../page-builder/workspace.md)。 如果未啟用&#x200B;_頁面產生器_，編輯器會在WYSIWYG模式中開啟，工具列在頂端。
 
 1. 完成內容，並視需要設定文字格式。
 
@@ -145,13 +146,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回「頁面」格線。
 
-1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 若要返回格線，請按一下瀏覽器視窗左上角的&#x200B;**[!UICONTROL Back]**。
 
-### 步驟8：Publish頁面
+### 步驟8：發佈頁面
 
-1. 在網格的&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
+1. 在網格的&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
@@ -165,7 +166,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -206,7 +207,7 @@ ht-degree: 0%
 
 ## 刪除頁面
 
-移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_&#x200B;格線或&#x200B;_[!UICONTROL Edit]_&#x200B;頁面移除它。
+移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_格線或_[!UICONTROL Edit]_&#x200B;頁面移除它。
 
 ### 方法1：從「頁面」格線中移除頁面
 
@@ -224,7 +225,7 @@ ht-degree: 0%
 
 1. 尋找要刪除的頁面。
 
-1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_欄中，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Delete Page]**。
 

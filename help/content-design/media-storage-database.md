@@ -4,9 +4,10 @@ description: 瞭解如何使用媒體資料庫來儲存 [!DNL Commerce] 媒體�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->自Adobe Commerce和Magento Open Source2.4.3起，資料庫媒體儲存方法已過時。
+>自Adobe Commerce和Magento Open Source 2.4.3起，資料庫媒體儲存方法即已過時。
 
 根據預設，[!DNL Commerce]執行個體的所有影像、編譯的CSS檔案和編譯的JavaScript檔案都儲存在網頁伺服器的檔案系統中。 您可以選擇將這些檔案儲存在資料庫伺服器上的資料庫中。 此方法的一個優點是在網頁伺服器檔案系統與資料庫之間自動同步和反向同步選項。 您可以使用預設資料庫來儲存媒體或建立資料庫。 若要能夠使用新建立的資料庫做為媒體儲存體，您必須將關於該資料庫及其存取認證的資訊新增至`env.php`檔案。
 
 ## 資料庫工作流程
 
-1. **瀏覽器要求媒體** — 商店的頁面會在客戶的瀏覽器中開啟，且瀏覽器會要求HTML中指定的媒體。
+1. **瀏覽器要求媒體** — 商店中的頁面會在客戶的瀏覽器中開啟，且瀏覽器會要求HTML中指定的媒體。
 
 1. **系統在檔案系統中尋找媒體** — 系統會在檔案系統中搜尋媒體，如果找到，會將它傳遞給瀏覽器。
 

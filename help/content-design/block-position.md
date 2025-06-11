@@ -2,9 +2,10 @@
 title: 定位內容區塊
 description: 將區塊放置在頁面上的特定位置，甚至針對特定產品或類別進行定位，而不需編寫任何程式碼
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -55,6 +56,6 @@ ht-degree: 0%
 | [!UICONTROL Product View Extra Hint] | 內容會顯示在產品主要最高價格下方。 |
 | [!UICONTROL Right Column] | 內容會顯示在右側欄區塊下方。 |
 | [!UICONTROL Store Language] | 內容會顯示在語言選擇器的右側。 |
-| [!UICONTROL Tags List Before] | 內容出現在&#x200B;_[!UICONTROL Add Your Tags]_&#x200B;欄位上方。 |
+| [!UICONTROL Tags List Before] | 內容出現在&#x200B;_[!UICONTROL Add Your Tags]_欄位上方。 |
 
 {style="table-layout:auto"}

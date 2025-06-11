@@ -3,9 +3,10 @@ title: 新產品清單Widget
 description: 瞭解如何使用新產品清單Widget顯示最近新增產品的清單。
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg)若為Adobe Commerce商店，請參閱[排程更新](content-staging-scheduled-update.md)，然後繼續此頁面上的步驟2。
 
-_[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新中設定。
+_[!UICONTROL Set Product as New]_日期範圍設定只能在排程更新中設定。
 
 將產品設定為新產品會將產品新增到&#x200B;_新產品_&#x200B;清單。 當您不再想要將設定加入清單時，隨時都可以變更回設定。
 
@@ -46,7 +47,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_區段中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Catalog New Products List`。
 
@@ -56,7 +57,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新
 
    ![新產品清單Widget設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。 （此標題只會從&#x200B;_管理員_&#x200B;中顯示。）
 
@@ -70,7 +71,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新
 
 ## 步驟3：選擇位置
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設為`Specified Page.`
 
@@ -96,7 +97,7 @@ _[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新
 1. 將&#x200B;**[!UICONTROL Display Products]**&#x200B;設定為下列其中一項：
 
    - `All Products` — 依序列出產品，從最近新增的產品開始。
-   - `New Products` — 僅列出識別為&#x200B;_new_&#x200B;的產品。 在&#x200B;_[!UICONTROL Set Product As New From/To]_&#x200B;中指定的日期範圍內將產品視為新產品。 如果日期範圍到期，但未定義任何新產品，則清單為空白。
+   - `New Products` — 僅列出識別為&#x200B;_new_&#x200B;的產品。 在&#x200B;_[!UICONTROL Set Product As New From/To]_中指定的日期範圍內將產品視為新產品。 如果日期範圍到期，但未定義任何新產品，則清單為空白。
 
 1. 若要為具有多個頁面的清單提供導覽控制項，請將&#x200B;**[!UICONTROL Display Page Control]**&#x200B;設為`Yes`。
 
@@ -120,4 +121,4 @@ _[!UICONTROL Set Product as New]_&#x200B;日期範圍設定只能在排程更新
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在網格中尋找要顯示&#x200B;_新產品_&#x200B;清單的頁面，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Preview]**&#x200B;連結。
+1. 在網格中尋找要顯示&#x200B;_新產品_&#x200B;清單的頁面，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Preview]**連結。

@@ -2,9 +2,10 @@
 title: 建立和管理Widget
 description: 瞭解如何建立及管理Widget，藉以自動更新您商店的內容。
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 ![介面工具集](./assets/widgets.png){width="700" zoomable="yes"}
 
-## 建立 Widget
+## 建立小工具
 
 每個[Widget型別](widgets.md#widget-types)的建立Widget程式幾乎相同。 您可以依照指示的第一部分操作，然後針對您想要的特定型別Widget完成最後一部分。
 
@@ -25,7 +26,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 1. 按一下&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中：
+1. 在&#x200B;_[!UICONTROL Settings]_區段中：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設定為您要建立的Widget型別。
 
@@ -37,7 +38,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 ### 步驟2：指定店面屬性和佈局
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -51,7 +52,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
      ![店面屬性](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為要顯示的頁面型別。
 

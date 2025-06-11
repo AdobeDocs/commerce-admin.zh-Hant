@@ -3,9 +3,10 @@ title: 頁面工作區控制項
 description: 瞭解用於尋找和更新內容頁面的工作區工具。
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ ht-degree: 0%
 
 ## 頁面搜尋
 
-_[!UICONTROL Pages]_&#x200B;格線左上方的搜尋方塊可用來依關鍵字尋找特定頁面。 若要進行更進階的搜尋，您可以[篩選](../getting-started/admin-grid-controls.md)多個引數的搜尋。
+_[!UICONTROL Pages]_格線左上方的搜尋方塊可用來依關鍵字尋找特定頁面。 若要進行更進階的搜尋，您可以[篩選](../getting-started/admin-grid-controls.md)多個引數的搜尋。
 
 ### 依關鍵字搜尋
 
@@ -139,7 +140,7 @@ _[!UICONTROL Pages]_&#x200B;格線左上方的搜尋方塊可用來依關鍵字�
 
 ### 單一動作
 
-使用最右邊的&#x200B;_[!UICONTROL Action]_&#x200B;欄，將下列任何動作套用至個別頁面：
+使用最右邊的&#x200B;_[!UICONTROL Action]_欄，將下列任何動作套用至個別頁面：
 
 - [!UICONTROL Edit] — 以編輯模式開啟頁面
 - [!UICONTROL Delete] — 刪除頁面（需要確認）
@@ -149,7 +150,7 @@ _[!UICONTROL Pages]_&#x200B;格線左上方的搜尋方塊可用來依關鍵字�
 
 ### 整批動作
 
-使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;選取器，將下列任一動作同時套用至數個選取的頁面：
+使用左上角的&#x200B;_[!UICONTROL Action]_選取器，將下列任一動作同時套用至數個選取的頁面：
 
 - [!UICONTROL Delete] — 刪除頁面（需要確認）
 - [!UICONTROL Disable] — 停用店面上的頁面

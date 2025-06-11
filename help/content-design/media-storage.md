@@ -3,9 +3,10 @@ title: 媒體儲存空間
 description: 瞭解媒體儲存如何協助您整理及存取伺服器上儲存的Commerce媒體檔案。
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,15 +29,15 @@ ht-degree: 0%
 
    ![插入影像圖示](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_對話方塊。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左側的目錄樹狀結構中，執行下列任一項作業：
 
    - 導覽至您要儲存上傳影像的資料夾。
 
-   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。**&#x200B;**
+   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。****
 
      若要新增資料夾，請輸入資料夾名稱並按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 1. 在[編輯器](editor.md)工具列上，按一下&#x200B;_插入影像_&#x200B;圖示。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![選取搜尋圖示](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

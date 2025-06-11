@@ -2,16 +2,17 @@
 title: 使用Widget來定位區塊
 description: 瞭解如何使用靜態區塊Widget，將現有內容幾乎放置在商店內的任何位置。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # 使用Widget來定位區塊
 
-_CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks.md)放置到幾乎任何您商店中的位置。
+_CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks.md)放置到幾乎您商店中的任何地方。
 
 ![介面工具集](./assets/widgets.png){width="700" zoomable="yes"}
 
@@ -27,7 +28,7 @@ _CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks
 
    ![Widget設定](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -43,7 +44,7 @@ _CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks
 
 ## 步驟2：完成Widget配置更新
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示區塊的類別、產品或頁面。
 

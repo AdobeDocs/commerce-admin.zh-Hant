@@ -2,36 +2,37 @@
 title: 頁面設定
 description: 瞭解如何設定商店頁面主要部分的預設值。
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # 頁面設定
 
-頁面的主要區段部分由一組標準HTML標籤控制。 其中一些標籤可用來決定頁面每個區段中所使用的字型、顏色、大小、背景顏色和影像的選取範圍。 其他設定可控制頁面元素，例如頁首中的標誌以及頁尾中的版權宣告。 這些區段會對應至HTML頁面的基礎結構，而許多基本屬性可從「管理員」設定。
+頁面的主要區段部分由一組標準HTML標籤控制。 其中一些標籤可用來決定頁面每個區段中所使用的字型、顏色、大小、背景顏色和影像的選取範圍。 其他設定可控制頁面元素，例如頁首中的標誌以及頁尾中的版權宣告。 這些區段會對應至HTML頁面的基礎結構，而許多基本屬性都可以從Admin設定。
 
-- [HTML標題](#html-head)
+- [HTML Head](#html-head)
 - [頁首](#header)
 - [頁尾](#footer)
 
 ![HTML頁面區段](./assets/storefront-home-html-inspect.png){width="700" zoomable="yes"}
 
-## HTML標題
+## HTML Head
 
-「HTML標題」區段中的設定對應至HTML頁面的`<head>`標籤，可針對每個商店檢視進行設定。 除了頁面標題、說明和關鍵字的中繼資料之外，區段還包含指向Favicon的連結，以及其他指令碼。 搜尋引擎自動機制的指示以及商店示範通知的顯示也在本節中設定。
+HTML Head區段中的設定對應至HTML頁面的`<head>`標籤，可針對每個商店檢視進行設定。 除了頁面標題、說明和關鍵字的中繼資料之外，區段還包含指向Favicon的連結，以及其他指令碼。 搜尋引擎自動機制的指示以及商店示範通知的顯示也在本節中設定。
 
-### 設定HTML標題
+### 設定HTML Head
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL HTML Head]**&#x200B;區段。
 
-   ![HTML標頭組態設定](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![HTML Head組態設定](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. 視需要更新[favicon](../getting-started/storefront-branding.md#add-a-favicon)。
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Configuration]**。
 
-### HTML標題欄位說明
+### HTML Head欄位說明
 
 | 欄位 | 範圍 | 說明 |
 |--- |--- |--- |
@@ -84,7 +85,7 @@ Header設定可識別您商店標誌的路徑，並指定標誌替代文字和�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL Header]**&#x200B;區段。
 
@@ -118,7 +119,7 @@ Header設定可識別您商店標誌的路徑，並指定標誌替代文字和�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL Footer]**&#x200B;區段。
 

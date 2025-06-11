@@ -3,9 +3,10 @@ title: Adobe Stock整合
 description: 將Adobe Stock與您的 [!DNL Commerce] 執行個體整合，以存取無數媒體資產，以便在您的商店中使用。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 這項整合需要：
 
 - [Adobe Developer][dev-console]帳戶
-- Adobe Commerce或Magento Open Source，2.3.4或更新版本
+- Adobe Commerce或Magento Open Source、2.3.4或更新版本
 
 授權Adobe Stock影像需要：
 
@@ -41,9 +42,9 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 1. 導覽至[Adobe Developer Console][dev-console]。
 
-1. 在&#x200B;_[!UICONTROL Quick Start]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Create new project]**。
+1. 在&#x200B;_[!UICONTROL Quick Start]_底下，按一下&#x200B;**[!UICONTROL Create new project]**。
 
-1. 在&#x200B;_[!UICONTROL Project overview]_&#x200B;區塊中，按一下&#x200B;**[!UICONTROL Add API]**。
+1. 在&#x200B;_[!UICONTROL Project overview]_區塊中，按一下&#x200B;**[!UICONTROL Add API]**。
 
 1. 從整合清單中選取&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**。
 
@@ -96,6 +97,6 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

@@ -2,9 +2,10 @@
 title: 頁面階層
 description: 瞭解頁面階層系統如何讓您組織內容頁面，以及新增分頁、導覽和功能表。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**，並進行任何必要的變更。
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 例如，您可以建立名為&#x200B;_新聞稿_&#x200B;的節點，其可導覽至個別新聞稿。 然後，您可以在您的&#x200B;_關於我們_&#x200B;頁面上加入指向節點的連結。 或者，您可以為新聞稿的舊版集合建立一個節點。
 
-若要連結至節點，請使用[Widget](widgets.md)工具建立CMS階層節點連結，並將該Widget置於內容區塊或頁面中。
+若要連結至節點，請使用[Widget](widgets.md)工具建立CMS階層節點連結，並將該Widget放入內容區塊或頁面中。
 
 ![關於我們的頁面上的導覽功能表範例](./assets/page-navigation-storefront.png){width="600" zoomable="yes"}
 
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 1. 在格線上方，按一下&#x200B;**[!UICONTROL Add Node...]**。
 
-1. 在&#x200B;_[!UICONTROL Page Properties]_&#x200B;底下，輸入節點的&#x200B;**[!UICONTROL Title]**&#x200B;和適當的&#x200B;**[!UICONTROL URL Key]**。
+1. 在&#x200B;_[!UICONTROL Page Properties]_底下，輸入節點的&#x200B;**[!UICONTROL Title]**和適當的&#x200B;**[!UICONTROL URL Key]**。
 
    URL索引鍵會提供節點的唯一網址。 必須全部為小寫字元，使用連字型大小來分隔單字，而非空格。
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
 1. 按一下階層頂端的節點。
 
-   _[!UICONTROL Page Properties]_&#x200B;區段現在會顯示有關節點的資訊。
+   _[!UICONTROL Page Properties]_區段現在會顯示有關節點的資訊。
 
 1. 在&#x200B;**[!UICONTROL Render Metadata in HTML Head]**&#x200B;底下，執行下列動作：
 

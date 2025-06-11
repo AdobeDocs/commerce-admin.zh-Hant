@@ -3,9 +3,10 @@ title: 頁面
 description: 瞭解 [!DNL Commerce] 示範存放區所包含核心內容頁面以及變更「預設頁面」設定的詳細資訊。
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -64,7 +65,7 @@ _預設頁面_&#x200B;設定會決定與[基底URL](../stores-purchase/store-url
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開&#x200B;**[!UICONTROL Default Pages]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -73,11 +74,11 @@ _預設頁面_&#x200B;設定會決定與[基底URL](../stores-purchase/store-url
    | 欄位 | [領域](../getting-started/websites-stores-views.md#scope-settings) | 說明 |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | 存放區檢視 | 表示與基底URL關聯的登入頁面。 依預設，此欄位設為`cms`表示來自[!DNL Commerce]內容管理系統的頁面。 您也可以使用不同型別的登陸頁面，例如部落格。 例如，如果部落格安裝在位於`magento/blog`的伺服器上，您可以輸入資料夾名稱`blog`作為選取頁面的相對路徑。 |
-   | [!UICONTROL CMS Home Page] | 存放區檢視 | 若要選擇商店的首頁，只要從清單中選取CMS頁面即可。 依照預設，「CMS首頁」會列出商店可用的完整CMS頁面選項。 |
+   | [!UICONTROL CMS Home Page] | 存放區檢視 | 若要選擇商店的首頁，只要從清單中選取CMS頁面即可。 依預設，CMS首頁會列出商店可用的完整CMS頁面選項。 |
    | [!UICONTROL Default No-route URL] | 存放區檢視 | 包含您要在發生`404 Page not Found`錯誤時顯示的預設頁面URL。 預設值為`cms/noroute/index`。 |
-   | [!UICONTROL CMS No Route Page] | 存放區檢視 | 識別您要在發生「404找不到頁面」錯誤時顯示的特定CMS頁面。 預設頁面為`404 Not Found`。 |
-   | [!UICONTROL CMS No Cookies Page] | 存放區檢視 | 識別未針對瀏覽器啟用Cookie時所顯示的特定CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為`Enable Cookies`。 |
-   | [!UICONTROL Show Breadcrumbs for CMS Pages] | 存放區檢視 | 決定階層連結軌跡是否出現在目錄中的所有CMS頁面上。 選項： `Yes` / `No` |
+   | [!UICONTROL CMS No Route Page] | 存放區檢視 | 識別發生「404找不到頁面」錯誤時，您想要顯示的特定CMS頁面。 預設頁面為`404 Not Found`。 |
+   | [!UICONTROL CMS No Cookies Page] | 存放區檢視 | 會識別未針對瀏覽器啟用Cookie時所顯示的特定CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為`Enable Cookies`。 |
+   | [!UICONTROL Show Breadcrumbs for CMS Pages] | 存放區檢視 | 判斷階層連結軌跡是否出現在目錄中的所有CMS頁面上。 選項： `Yes` / `No` |
 
    {style="table-layout:auto"}
 
@@ -89,7 +90,7 @@ _預設頁面_&#x200B;設定會決定與[基底URL](../stores-purchase/store-url
    >
    >針對特定商店檢視，請清除「_[!UICONTROL Default Web URL]_」旁邊的「**[!UICONTROL Use Default]**」核取方塊，以及任何其他要變更的預設設定。
 
-1. 將&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;設為要作為首頁的CMS頁面。 其他建立的頁面則可作為首頁使用，例如：
+1. 將&#x200B;**[!UICONTROL CMS Home Page]**&#x200B;設為要當作首頁使用的CMS頁面。 其他建立的頁面則可作為首頁使用，例如：
 
    - 歡迎使用專屬線上商店
    - 獎勵點數
@@ -103,7 +104,7 @@ _預設頁面_&#x200B;設定會決定與[基底URL](../stores-purchase/store-url
 
    預設值為`cms/index/noRoute`。
 
-1. 將&#x200B;**[!UICONTROL CMS No Route Page]**&#x200B;設定為發生&#x200B;_404找不到頁面_&#x200B;錯誤時顯示的CMS頁面。
+1. 將&#x200B;**[!UICONTROL CMS No Route Page]**&#x200B;設為發生&#x200B;_404找不到頁面_&#x200B;錯誤時顯示的CMS頁面。
 
 1. 將&#x200B;**[!UICONTROL CMS No Cookies Page]**&#x200B;設為瀏覽器中停用Cookie時顯示的CMS頁面。 本頁面說明為何使用Cookie，以及如何為每個瀏覽器啟用。 預設頁面為`Enable Cookies`。
 

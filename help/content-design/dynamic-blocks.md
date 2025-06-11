@@ -2,9 +2,10 @@
 title: 動態區塊
 description: 使用動態區塊來建立由價格規則和客戶區段中的邏輯驅動的豐富互動式內容。
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content]功能表](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_&#x200B;選項在2.3.1中已過時，在2.4.0中已移除。其功能已由動態區塊取代。
+>[[!UICONTROL Content]功能表](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_選項在2.3.1中已過時，在2.4.0中已移除。其功能已由動態區塊取代。
 
 ![[!DNL Page Builder] — 具有價格規則和客戶區段的動態區塊](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

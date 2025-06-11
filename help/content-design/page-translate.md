@@ -4,16 +4,17 @@ description: 瞭解如何建立特定商店檢視中可用的每個頁面的翻�
 exl-id: e8743ea5-0c8e-4970-987d-c9ac7c1e2a66
 feature: Page Content
 topic: Commerce, Localization
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # 翻譯內容頁面
 
-如果您的存放區有多個使用不同[語言](../stores-purchase/store-localize.md)的檢視，而且您已將每個檢視的區域設定設定為不同的語言，則結果為部分翻譯的網站。 下一步是建立可從特定存放區檢視取得的每個頁面的翻譯版本。 _[!UICONTROL Manage Pages]_&#x200B;清單的[!UICONTROL Store View]欄會顯示每個具有頁面轉譯版本的檢視。
+如果您的存放區有多個使用不同[語言](../stores-purchase/store-localize.md)的檢視，而且您已將每個檢視的區域設定設定為不同的語言，則結果為部分翻譯的網站。 下一步是建立可從特定存放區檢視取得的每個頁面的翻譯版本。 _[!UICONTROL Manage Pages]_清單的[!UICONTROL Store View]欄會顯示每個具有頁面轉譯版本的檢視。
 
 若要翻譯內容頁面，您必須建立另一個頁面，該頁面具有與原始頁面相同的URL索引鍵，但已指派給特定商店檢視。 然後，使用翻譯的文字更新特定檢視的頁面。 下列範例說明如何為西班牙商店檢視建立&#x200B;_About Us_&#x200B;頁面的翻譯版本。
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization]**&#x200B;區段，並將&#x200B;**[!UICONTROL URL Key]**&#x200B;複製到剪貼簿。
 
-1. 若要返回&#x200B;_[!UICONTROL Pages]_&#x200B;格線，請按一下頂端按鈕列中的&#x200B;**[!UICONTROL Back]**。
+1. 若要返回&#x200B;_[!UICONTROL Pages]_格線，請按一下頂端按鈕列中的&#x200B;**[!UICONTROL Back]**。
 
 ## 步驟2：為翻譯內容新增頁面
 

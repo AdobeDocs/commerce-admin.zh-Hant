@@ -3,9 +3,10 @@ title: 目錄事件輪播Widget
 description: 瞭解如何使用目錄事件轉盤Widget在頁面上顯示即將舉辦事件的滑桿。
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_區段中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Catalog Events Carousel`。
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
    ![事件輪播的Widget設定](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 

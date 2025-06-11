@@ -2,16 +2,17 @@
 title: WYSIWYG編輯器
 description: 瞭解如何在_What You See Is What You Get_ (WYSIWYG)檢視中使用編輯器及處理內容。
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # WYSIWYG編輯器
 
-編輯器可讓您在內容的&#x200B;_What You See Is What You Get_ (WYSIWYG)檢視中進行輸入和格式化。 如果您偏好直接使用基礎HTML程式碼，則可輕鬆變更模式。 編輯器可用來建立[頁面](pages.md)、[區塊](blocks.md)和[產品說明](../catalog/product-content.md)的內容。 處理產品詳細資料時，按一下&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以存取編輯器。
+編輯器可讓您在內容的&#x200B;_What You See Is What You Get_ (WYSIWYG)檢視中進行輸入和格式化。 如果您偏好直接使用基礎的HTML程式碼，則可輕鬆變更模式。 編輯器可用來建立[頁面](pages.md)、[區塊](blocks.md)和[產品說明](../catalog/product-content.md)的內容。 處理產品詳細資料時，按一下&#x200B;**[!UICONTROL Show / Hide Editor]**&#x200B;以存取編輯器。
 
 ![編輯器工具列](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -32,7 +33,7 @@ WYSIWYG編輯器預設為啟用，可用於編輯CMS頁面和區塊以及產品�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**。
 

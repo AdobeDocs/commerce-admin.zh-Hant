@@ -2,9 +2,10 @@
 title: 版面更新
 description: 瞭解如何使用版面更新來自訂頁面版面。
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 | `page/html_wrapper` | 雖然此區塊包含在預設版面中，但已遭取代，僅為了確保回溯相容性包含此區塊。 請勿使用此型別的區塊。 |
 | `page/html_breadcrumbs` | 此區塊的名稱為`breadcrumbs`，而且是標頭區塊的子系。 此區塊會顯示目前頁面的階層連結。 每頁只能有一個此型別的區塊。 |
 | `page/html_footer` | 區塊名稱為`footer`，是根區塊的子系。 頁尾區塊對應至頁面底部的視覺頁尾，並包含數個標準區塊。 每個頁面只能有一個此型別的區塊，且不得移除。 |
-| `page/template_links` | 標準版面配置中有兩種此型別的區塊。 `top.links`區塊是標頭區塊的子項，且與頂端導覽功能表相對應。 `footer_links`區塊是頁尾區塊的子項，且與底部導覽功能表相對應。 <br/><br/>**_注意：_**&#x200B;可以操縱範本連結，如範例所示。 |
+| `page/template_links` | 標準版面配置中有兩種此型別的區塊。 `top.links`區塊是標頭區塊的子項，且與頂端導覽功能表相對應。 `footer_links`區塊是頁尾區塊的子項，且與底部導覽功能表相對應。 <br/><br/>**_注意：_**可以操縱範本連結，如範例所示。 |
 | `page/switch` | 在標準版面配置中，此型別有兩個區塊。 `store_language`區塊是標頭區塊的子項，且與頂端語言切換器相對應。 `store_switcher`區塊是頁尾區塊的子項，且與底部存放區切換器相對應。 |
 | 核心/訊息 | 在標準版面配置中，此型別有兩個區塊。 `global_messages`區塊會顯示全域訊息。 `messages`區塊是用來顯示所有其他訊息。 如果您移除這些區塊，客戶看不到任何訊息。 |
 | `core/text_list` | 此型別的區塊在整個[!DNL Commerce]中廣泛用作呈現子區塊的預留位置。 |
@@ -60,7 +61,7 @@ ht-degree: 0%
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   配置控制代碼是以`cms_page_view_selectable_`開頭的檔案名稱，後面接著CMS頁面的URL鍵、配置更新選項和`xml`檔案字尾。 在下列範例中，`customer-service`是頁面的URL索引鍵，`ChatTool`是您選取將版面配置更新套用至頁面的選項。
+   配置控制代碼是以`cms_page_view_selectable_`開頭的檔案名稱，後面接著CMS頁面的URL索引鍵、配置更新選項和`xml`檔案字尾。 在下列範例中，`customer-service`是頁面的URL索引鍵，`ChatTool`是您選取將版面配置更新套用至頁面的選項。
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 

@@ -3,9 +3,10 @@ title: ' [!DNL Media Gallery]'
 description: 使用「媒體集」來組織和管理伺服器上的媒體檔案。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新增至&#x200B;[_[!UICONTROL Images and Videos]_&#x200B;產品區段](../catalog/product-image.md#upload-an-image)的產品影像不是由[!DNL Media Gallery]管理。 只有在&#x200B;_[!UICONTROL Content]_&#x200B;產品區段欄位中使用的影像，才會顯示在新的[!DNL Media Gallery]中並經過篩選。
+>新增至&#x200B;[_[!UICONTROL Images and Videos]_產品區段](../catalog/product-image.md#upload-an-image)的產品影像不是由[!DNL Media Gallery]管理。 只有在_[!UICONTROL Content]_&#x200B;產品區段欄位中使用的影像，才會顯示在新的[!DNL Media Gallery]中並經過篩選。
 
 ## 啟用新[!DNL Media Gallery]
 
@@ -36,11 +37,11 @@ ht-degree: 0%
 
 1. 出現提示時，請按一下系統訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結，然後重新整理無效的快取。
 
-   [[!UICONTROL Content]功能表](/help/content-design/content-menu.md)現在會顯示新的&#x200B;_[!UICONTROL Media Gallery]_&#x200B;選項。
+   [[!UICONTROL Content]功能表](/help/content-design/content-menu.md)現在會顯示新的&#x200B;_[!UICONTROL Media Gallery]_選項。
 
 >[!NOTE]
 >
->新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
+>新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
 
 ## 存取新的[!DNL Media Gallery]
 
@@ -56,7 +57,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Add a New Page]**。
 
-   若要編輯現有頁面，您可以使用&#x200B;_[!UICONTROL Action]_&#x200B;欄按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
+   若要編輯現有頁面，您可以使用&#x200B;_[!UICONTROL Action]_欄按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;區段，然後執行下列動作：
 

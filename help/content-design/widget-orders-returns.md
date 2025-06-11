@@ -3,9 +3,10 @@ title: 訂單與退貨Widget
 description: 瞭解如何使用訂單與退貨Widget，讓客戶能夠檢查其訂單狀態、列印商業發票及追蹤出貨。
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_區段中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Orders and Returns`。
 
@@ -45,7 +46,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -57,7 +58,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
    - （選擇性）針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字以決定此專案在頁面相同部分與其他專案一起出現的順序。 （`0` =第一個，`1` =第二個，`3` =第三個，依此類推。）
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示Widget的頁面型別。
 
