@@ -38,7 +38,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Orders and Returns`。
 
@@ -46,7 +46,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中，執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -58,7 +58,7 @@ _訂單與退貨_ Widget可讓來賓檢查其訂單狀態、列印發票及追�
 
    - （選擇性）針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字以決定此專案在頁面相同部分與其他專案一起出現的順序。 （`0` =第一個，`1` =第二個，`3` =第三個，依此類推。）
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示Widget的頁面型別。
 

@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**，並進行任何必要的變更。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 在格線上方，按一下&#x200B;**[!UICONTROL Add Node...]**。
 
-1. 在&#x200B;_[!UICONTROL Page Properties]_底下，輸入節點的&#x200B;**[!UICONTROL Title]**和適當的&#x200B;**[!UICONTROL URL Key]**。
+1. 在&#x200B;_[!UICONTROL Page Properties]_&#x200B;底下，輸入節點的&#x200B;**[!UICONTROL Title]**&#x200B;和適當的&#x200B;**[!UICONTROL URL Key]**。
 
    URL索引鍵會提供節點的唯一網址。 必須全部為小寫字元，使用連字型大小來分隔單字，而非空格。
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 按一下階層頂端的節點。
 
-   _[!UICONTROL Page Properties]_區段現在會顯示有關節點的資訊。
+   _[!UICONTROL Page Properties]_&#x200B;區段現在會顯示有關節點的資訊。
 
 1. 在&#x200B;**[!UICONTROL Render Metadata in HTML Head]**&#x200B;底下，執行下列動作：
 

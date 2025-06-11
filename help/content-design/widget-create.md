@@ -26,7 +26,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 1. 按一下&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_區段中：
+1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;區段中：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設定為您要建立的Widget型別。
 
@@ -38,7 +38,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
 ### 步驟2：指定店面屬性和佈局
 
-1. 在&#x200B;_[!UICONTROL Storefront Properties]_區段中：
+1. 在&#x200B;_[!UICONTROL Storefront Properties]_&#x200B;區段中：
 
    - 針對&#x200B;**[!UICONTROL Widget Title]**，輸入Widget的描述性標題。
 
@@ -52,7 +52,7 @@ Widget是可重複使用的元件。 您可以輕鬆地建立Widget並修改現�
 
      ![店面屬性](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**。
 
 1. 將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為要顯示的頁面型別。
 

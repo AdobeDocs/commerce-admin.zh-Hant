@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
    頁面會顯示商店檢視的目前設計設定。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    >您可以為要指定的裝置新增任意數量的規則。 搜尋字串會依照輸入順序進行比對。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開每個區段，然後依照連結主題中的指示，視需要編輯設定。
+1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開每個區段，然後依照連結主題中的指示，視需要編輯設定。
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}

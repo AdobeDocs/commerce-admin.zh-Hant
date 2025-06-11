@@ -28,7 +28,7 @@ HTML Head區段中的設定對應至HTML頁面的`<head>`標籤，可針對每�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL HTML Head]**&#x200B;區段。
 
@@ -85,7 +85,7 @@ Header設定可識別您商店標誌的路徑，並指定標誌替代文字和�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL Header]**&#x200B;區段。
 
@@ -119,7 +119,7 @@ Header設定可識別您商店標誌的路徑，並指定標誌替代文字和�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_其他設定_&#x200B;下，展開![擴充選取器](../assets/icon-display-expand.png) **[!UICONTROL Footer]**&#x200B;區段。
 
