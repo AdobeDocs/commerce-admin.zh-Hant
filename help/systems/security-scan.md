@@ -63,7 +63,7 @@ Adobe Commerce安全性掃描工具可免費監控Adobe Commerce和Magento Open 
 
 >[!TIP]
 >
->對於雲端基礎結構專案上的Commerce，請參閱[設定安全性掃描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>對於雲端基礎結構專案上的Commerce，請參閱[設定安全性掃描工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 若要執行掃描：
 
