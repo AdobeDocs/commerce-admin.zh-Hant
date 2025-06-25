@@ -52,7 +52,7 @@ Adobe Commerce安全性掃描工具可免費監控Adobe Commerce和Magento Open 
 
 ## 存取掃描結果
 
-只有最初設定掃描的使用者才能存取掃描結果。 若要與其他人分享結果，原始使用者必須手動散發PDF報表。 或者，商店擁有者可以使用&#x200B;[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)功能與其他MAGEID共用提交內容。 其他個人也可以使用自己的帳戶啟動掃描。 在掃描設定期間，可以指定逗號分隔的電子郵件地址清單，以接收已完成掃描和評估風險等級的通知。
+只有最初設定掃描的使用者才能存取掃描結果。 若要與其他人分享結果，原始使用者必須手動散發PDF報表。 或者，商店擁有者可以使用&#x200B;[**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-share)功能與其他MAGEID共用提交內容。 其他個人也可以使用自己的帳戶啟動掃描。 在掃描設定期間，可以指定逗號分隔的電子郵件地址清單，以接收已完成掃描和評估風險等級的通知。
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Adobe Commerce安全性掃描工具可免費監控Adobe Commerce和Magento Open 
 
 >[!TIP]
 >
->對於雲端基礎結構專案上的Commerce，請參閱[設定安全性掃描工具](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
+>對於雲端基礎結構專案上的Commerce，請參閱[設定安全性掃描工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 若要執行掃描：
 
