@@ -37,7 +37,7 @@ ht-degree: 0%
    - 讀取&#x200B;**[!UICONTROL Terms and Conditions]**。
    - 按一下&#x200B;**[!UICONTROL Agree]**&#x200B;以繼續。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
+1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多個網站具有不同的網域，請為每個網域設定個別的掃描。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
         建置流程完成後，變更將會部署至您的PWA商店前面。
 
-1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
+1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立網域的所有權。
 
 1. 成功確認後，為下列其中一種型別設定&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;選項：
 
@@ -148,4 +148,4 @@ ht-degree: 0%
    - 讀取&#x200B;**[!UICONTROL Terms and Conditions]**。
    - 按一下&#x200B;**[!UICONTROL Agree]**&#x200B;以繼續。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_頁面上，找到[!UICONTROL Actions]欄下的下拉式清單，然後為適當的網站選取&#x200B;**[!UICONTROL Delete]**。
+1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面上，找到[!UICONTROL Actions]欄下的下拉式清單，然後為適當的網站選取&#x200B;**[!UICONTROL Delete]**。
