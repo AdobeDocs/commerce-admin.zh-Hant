@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Store Email Addresses]頁面上的組態設定。
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: bad9a004d0354f3db7739d4582a015f4b38116f8
+source-git-commit: 7cbb5b3af0803dd2ec4d47d372632756b5ebfffa
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '338'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## [!UICONTROL General]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 ![存放區電子郵件地址>一般連絡人](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示為`General Contact`身分識別所傳送之電子郵件寄件者的名稱。 |
-| [!UICONTROL Sender Email] | 存放區檢視 | 與`General Contact`身分關聯的電子郵件地址。 |
+| [!UICONTROL Sender Email] | 存放區檢視 | 與`General Contact`身分關聯的電子郵件地址。 在Adobe Commerce as a Cloud Service上建立支援票證以變更電子郵件地址。 |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示為`Sales Representative`身分識別所傳送之電子郵件寄件者的名稱。 |
-| [!UICONTROL Sender Email] | 存放區檢視 | 與`Sales Representative`身分關聯的電子郵件地址。 |
+| [!UICONTROL Sender Email] | 存放區檢視 | 與`Sales Representative`身分關聯的電子郵件地址。  在Adobe Commerce as a Cloud Service上建立支援票證以變更電子郵件地址。 |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示為`Customer Support`身分識別所傳送之電子郵件寄件者的名稱。 |
-| [!UICONTROL Sender Email] | 存放區檢視 | 與`Customer Support`身分關聯的電子郵件地址。 |
+| [!UICONTROL Sender Email] | 存放區檢視 | 與`Customer Support`身分關聯的電子郵件地址。  在Adobe Commerce as a Cloud Service上建立支援票證以變更電子郵件地址。 |
 
 {style="table-layout:auto"}
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示為`Custom 1`身分識別所傳送之電子郵件寄件者的名稱。 |
-| [!UICONTROL Sender Email] | 存放區檢視 | 與`Custom 1`身分關聯的電子郵件地址。 |
+| [!UICONTROL Sender Email] | 存放區檢視 | 與`Custom 1`身分關聯的電子郵件地址。  在Adobe Commerce as a Cloud Service上建立支援票證以變更電子郵件地址。 |
 
 {style="table-layout:auto"}
 
@@ -79,6 +79,6 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Sender Name] | 存放區檢視 | 顯示為`Custom 2`身分識別所傳送之電子郵件寄件者的名稱。 |
-| [!UICONTROL Sender Email] | 存放區檢視 | 與`Custom 2`身分關聯的電子郵件地址。 |
+| [!UICONTROL Sender Email] | 存放區檢視 | 與`Custom 2`身分關聯的電子郵件地址。  在Adobe Commerce as a Cloud Service上建立支援票證以變更電子郵件地址。 |
 
 {style="table-layout:auto"}
