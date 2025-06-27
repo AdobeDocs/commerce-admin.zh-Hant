@@ -3,26 +3,26 @@ title: 轉移Commerce帳戶
 description: 瞭解如何將您的Commerce帳戶轉移給其他擁有者或電子郵件地址。
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 9daf227e52c8f225e957ee5009d0d0a02815d835
+source-git-commit: e44ebfab5b9505098405b005051f110b689c3f4f
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
 
 # 轉移Commerce帳戶
 
-隨著業務責任變更，您可能需要將現有Commerce帳戶的所有權轉移給新所有者或另一個電子郵件地址。 此轉移需要變更與帳戶相關聯的主要使用者電子郵件。
+隨著業務責任變更，您可能需要將您的Commerce帳戶轉移給新所有者或其他電子郵件地址。 此轉移需要變更與帳戶相關聯的主要使用者電子郵件。
 
-下列資訊說明Commerce (MAGEID)帳戶的轉移程式。 其中不包含雲端帳戶(雲端專案或New Relic)所有權的變更。 如需有關雲端專案存取許可權的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理使用者存取許可權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant)。
+下列資訊說明Commerce (MAGEID)帳戶的轉移程式。 其中不包含雲端帳戶(雲端專案或New Relic)所有權的變更。 如需有關雲端專案存取許可權的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理使用者存取許可權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
 
 >[!IMPORTANT]
 >
->如果新的帳戶擁有者原本是使用共用存取權購買擴充功能，帳戶轉移程式一啟動，這些擴充功能的存取權就會遺失。 在要求帳戶轉移之前，請確定新擁有者從[他們的Marketplace帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[Marketplace團隊](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)要求這些擴充功能的退款。 無法將擴充功能購買轉移至其他帳戶。
+>如果新帳戶擁有者已使用「共用存取」購買擴充功能，帳戶轉移程式一啟動，這些擴充功能的存取權就會遺失。 在要求帳戶轉移之前，請確定新擁有者從[他們的Marketplace帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[Marketplace團隊](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)要求這些擴充功能的退款。 無法將擴充功能購買轉移至其他帳戶。
 
 ## 識別您的傳輸型別
 
-您如何完成此轉帳取決於下列哪一種情況描述您目前帳戶擁有者的情況，以及您想要轉帳帳戶的新擁有者（電子郵件地址）：
+Commerce帳戶轉移的型別取決於目前擁有者和新擁有者可用的Commerce帳戶認證。 以下案例會根據這些認證說明不同的傳輸型別。
 
 | 傳輸型別 | 目前擁有者 | 新擁有者 |
 | ------------- | ------------- | --------- |
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
-   這會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_&#x200B;欄位會遭到封鎖，無法進行任何變更。 關聯的電子郵件地址由Adobe ID帳戶管理。
+   此步驟會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_欄位會遭到封鎖，無法進行任何變更。 相關電子郵件地址的設定是從Adobe ID帳戶進行管理。
 
 1. 導覽至[account.adobe.com](https://account.adobe.com/)。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
-   這會產生驗證電子郵件，傳送至新的電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
+   此步驟會產生驗證電子郵件，傳送至新的電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
 
 1. 輸入傳送到新電子郵件地址的確認代碼。
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447670/?learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 電子郵件變更
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
-   這會產生驗證電子郵件，傳送至新的電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
+   此步驟會產生驗證電子郵件，傳送至新的電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
 
 1. 輸入傳送到新電子郵件地址的確認代碼。
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 >
 >請檢閱[傳輸型別](#identify-your-transfer-type)，並確定您符合此步驟順序的先決條件。
 
-如果目前擁有者和新擁有者擁有現有的Adobe ID，這兩個帳戶應該都會保留，但電子郵件地址需要在它們之間切換。 這需要使用有效的&#x200B;_臨時_&#x200B;電子郵件地址，但是該地址與和Adobe ID沒有關聯。
+如果目前擁有者和新擁有者擁有現有的Adobe ID，這兩個帳戶應該都會保留，但電子郵件地址需要在它們之間切換。 這需要使用有效的&#x200B;_暫時_&#x200B;電子郵件地址，但該電子郵件地址與Adobe ID無關。
 
 ### 變更為臨時帳戶
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
-   這會產生驗證電子郵件，傳送至暫存電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
+   此步驟會產生驗證電子郵件，傳送至暫存電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
 
 1. 輸入傳送至臨時電子郵件地址的確認代碼。
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 ### 新所有者步驟
 
-在目前擁有者完成轉送到暫存電子郵件地址後，請完成這些步驟以將您的帳戶變更為目前擁有者。
+在目前擁有者完成傳輸至臨時電子郵件地址後，新擁有者必須完成這些步驟，變更其帳戶設定，以指向目前擁有者的原始電子郵件地址。
 
 1. 導覽至[account.adobe.com](https://account.adobe.com/)並完成Adobe登入。
 
@@ -134,9 +134,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
-   這會產生驗證電子郵件，傳送至該電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
+   此步驟會產生驗證電子郵件，傳送至目前擁有者的原始電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
 
-1. 輸入傳送給目前所有者的確認代碼。
+1. 輸入傳送至目前擁有者原始電子郵件地址的確認代碼。
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
@@ -144,11 +144,9 @@ ht-degree: 0%
 
 ### 後續步驟
 
-新擁有者將其Adobe帳戶成功轉移給目前（現為上一個）擁有者後，請完成這些步驟以轉移擁有權。
+新擁有者使用目前（現在為上一個）擁有者的原始電子郵件地址成功設定其Adobe帳戶後，請完成這些步驟以轉移擁有權。
 
-1. 導覽至[account.adobe.com](https://account.adobe.com/) （一系列步驟中使用的第一個帳戶），並完成Adobe登入。
-
-   此登入需要使用暫存電子郵件地址。
+1. 導覽至[account.adobe.com](https://account.adobe.com/)，並使用[暫時帳戶](#change-to-a-temporary-account)的電子郵件地址完成Adobe登入。
 
 1. 在帳戶名稱和顯示圖片底下，按一下&#x200B;**[!UICONTROL Change Email]**。
 
@@ -156,9 +154,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
-   這會產生驗證電子郵件，傳送至該電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
+   此步驟會產生驗證電子郵件，傳送至新所有者的電子郵件地址。 電子郵件包含完成電子郵件地址變更所需的確認代碼。
 
-1. 輸入傳送給新所有者的確認代碼。
+1. 輸入傳送至新擁有者電子郵件地址的確認代碼。
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
