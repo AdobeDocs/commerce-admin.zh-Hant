@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 開始之前，請先從&#x200B;**新共用存取權受權者**&#x200B;的[!DNL Commerce]帳戶取得下列資訊：
 
-   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
    - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_&#x200B;標籤的左上角，**登出**&#x200B;連結的正上方。
    - 與帳戶相關聯的`Email`位址。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->不需要共用對&#x200B;_[!UICONTROL Security Tool]_&#x200B;的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
+>不需要共用對&#x200B;_[!UICONTROL Security Tool]_&#x200B;的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
 
 ## 存取共用帳戶
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![支援](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
+   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/overview)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
 
    >[!NOTE]
    >
-   >收到共用存取許可權後，使用者必須登入其[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login)，瀏覽至&#x200B;_共用存取許可權_，然後按一下&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 第一次需要此動作時，只是為了確保[Adobe Commerce支援知識庫](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)已透過`SSO`呼叫正確設定。
+   >收到共用存取許可權後，使用者必須登入其[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login)，瀏覽至&#x200B;_共用存取許可權_，然後按一下&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 第一次需要此動作時，只是為了確保[Adobe Commerce支援知識庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/overview)已透過`SSO`呼叫正確設定。
 
 1. 若要返回您自己的帳戶，請在瀏覽器控制項中按一下&#x200B;**上一步**，並將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為`My Account`。
 
@@ -109,19 +109,19 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否以`Cloud Shared Access from MAG XYZ`開頭。 您無法刪除具有該[命名模式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)的帳號。
+   > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否以`Cloud Shared Access from MAG XYZ`開頭。 您無法刪除具有該[命名模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)的帳號。
    > 
    > 若是如此，請要求帳戶擁有者修改共用存取帳戶，以清除帳戶許可權。 更新後，使用者無法存取任何帳戶資源。
    >
-   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL Delete User]**。
 
 >[!NOTE]
 >
->您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。
+>您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)。
 
 ## 相關閱讀
 
-[共用存取疑難排解](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[共用存取疑難排解](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
