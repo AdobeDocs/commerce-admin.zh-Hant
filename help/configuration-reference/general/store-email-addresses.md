@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## [!UICONTROL General]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 ![存放區電子郵件地址>一般連絡人](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
