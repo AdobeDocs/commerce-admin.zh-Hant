@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_區段包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可擴充區段。
+   _[!UICONTROL Rule Information]_&#x200B;區段包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可擴充區段。
 
    ![目錄價格規則 — 資訊](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -203,9 +203,9 @@ ht-degree: 0%
 
 1. 更新規則的屬性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
+   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
 
 1. 測試規則以確保其正常運作。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |-----|-----------|
-| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Apply as percentage of original]**— 減去一般價格的百分比，以折扣料號。<br/>**[!UICONTROL Apply as fixed amount]** — 從一般價格減去固定金額，以折扣專案。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 以一般價格的百分比調整最終價格。<br/>**[!UICONTROL Adjust final price to discount value]** — 將最終價格設定為固定的折扣金額。 <br/><br/>**_備註：_**一般價格是指不含任何進階價格（特殊/階層/群組）或促銷折扣的基準產品價格。 最終價格是指出現在購物車中的折扣價格。 <br/>使用下列公式，以**_最低&#x200B;_**相關價格計算**_最終&#x200B;_**產品價格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Apply as percentage of original]**— 減去一般價格的百分比，以折扣料號。<br/>**[!UICONTROL Apply as fixed amount]** — 從一般價格減去固定金額，以折扣專案。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 以一般價格的百分比調整最終價格。<br/>**[!UICONTROL Adjust final price to discount value]** — 將最終價格設定為固定的折扣金額。 <br/><br/>**_備註：_**&#x200B;一般價格是指不含任何進階價格（特殊/階層/群組）或促銷折扣的基準產品價格。 最終價格是指出現在購物車中的折扣價格。 <br/>使用下列公式，以&#x200B;**_最低&#x200B;_**&#x200B;相關價格計算&#x200B;**_最終&#x200B;_**&#x200B;產品價格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必要）提供的折扣金額。 |
 | [!UICONTROL Discard Subsequent Rules] | 決定是否可將其他規則套用至此次購買。 若要防止將多重折扣套用至相同的購買，請選取`Yes`。 選項： `Yes` / `No` |
 

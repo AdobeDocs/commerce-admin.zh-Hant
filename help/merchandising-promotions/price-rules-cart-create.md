@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Add New Rule]**&#x200B;並執行下列動作：
 
-   - 在&#x200B;_[!UICONTROL Rule Information]_底下，完成&#x200B;**[!UICONTROL Rule Name]**和&#x200B;**[!UICONTROL Description]**。
+   - 在&#x200B;_[!UICONTROL Rule Information]_&#x200B;底下，完成&#x200B;**[!UICONTROL Rule Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
    - 如果您不希望規則立即生效，請將&#x200B;**[!UICONTROL Active]**&#x200B;設為`No`。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 在此步驟中，會說明訂單必須符合的條件，才能符合促銷資格。 條件會透過下列方式影響購物車價格規則：
 
-- 當符合&#x200B;_[!UICONTROL Conditions]_索引標籤中的條件集時，購物車價格規則會套用至購物車中的每個&#x200B;**_個_**產品。 若要限制受購物車價格規則影響的產品數量，請在_[!UICONTROL Actions]_&#x200B;索引標籤中新增條件，以限制受購物車價格規則影響的產品數量。
+- 當符合&#x200B;_[!UICONTROL Conditions]_&#x200B;索引標籤中的條件集時，購物車價格規則會套用至購物車中的每個&#x200B;**_個_**&#x200B;產品。 若要限制受購物車價格規則影響的產品數量，請在&#x200B;_[!UICONTROL Actions]_&#x200B;索引標籤中新增條件，以限制受購物車價格規則影響的產品數量。
 
 - 如果至少一個條件產品屬性具有空值，則購物車價格規則不會套用至產品。
 
@@ -231,7 +231,7 @@ ht-degree: 0%
    |------|-----------|
    | `Percent of product price discount` | 從原始價格減去百分比，以折扣料號。 折扣適用於購物車中的每個合格專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，所更新價格會比原始價格低10%。 |
    | `Fixed amount discount` | 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，更新後的價格即比原始價格低$10。 |
-   | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：在[!UICONTROL Discount Amount]中輸入10，從購物車總計中減去$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計和運費，請使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_選項。 |
+   | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：在[!UICONTROL Discount Amount]中輸入10，從購物車總計中減去$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計和運費，請使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;選項。 |
    | `Buy X get Y free` | 定義客戶必須購買的數量X，以免費接收相同產品/變數&#x200B;**的數量Y**。 （[!UICONTROL Discount Amount]為Y。）該相同專案的X+Y總數量必須存在於購物車中/新增到購物車中，才能套用折扣。 |
 
    {style="table-layout:auto"}
@@ -341,7 +341,7 @@ ht-degree: 0%
 | [!UICONTROL Active] | （必要）決定規則在存放區中是否有效。 選項： `Yes` / `No` |
 | [!UICONTROL Websites] | （必要）識別可使用此規則的網站。 |
 | [!UICONTROL Customer Groups] | （必要）識別規則套用的客戶群組。 |
-| [!UICONTROL Coupon] | （必要）指出優惠券是否與規則相關聯。 選項： <br/>**[!UICONTROL No Coupon]**— 沒有與規則關聯的抵用券。<br/>**[!UICONTROL Specific Coupon]** — 特定優惠券與規則相關聯。 <br/>**[!UICONTROL Coupon Code]**— 出現提示時，輸入客戶必須輸入的「優惠券代碼」，才能利用促銷優惠。<br/>**[!UICONTROL Use Auto Generation]** — 選取核取方塊，自動產生多個可搭配促銷使用的優惠券代碼。 <br/>**[!UICONTROL Auto]**— 顯示&#x200B;_[!UICONTROL Manage Coupon Codes]_區段以定義要產生之優惠券代碼的格式。 |
+| [!UICONTROL Coupon] | （必要）指出優惠券是否與規則相關聯。 選項： <br/>**[!UICONTROL No Coupon]**— 沒有與規則關聯的抵用券。<br/>**[!UICONTROL Specific Coupon]** — 特定優惠券與規則相關聯。 <br/>**[!UICONTROL Coupon Code]**— 出現提示時，輸入客戶必須輸入的「優惠券代碼」，才能利用促銷優惠。<br/>**[!UICONTROL Use Auto Generation]** — 選取核取方塊，自動產生多個可搭配促銷使用的優惠券代碼。 <br/>**[!UICONTROL Auto]**— 顯示&#x200B;_[!UICONTROL Manage Coupon Codes]_&#x200B;區段以定義要產生之優惠券代碼的格式。 |
 | [!UICONTROL Uses per Coupon] | 決定抵用券代碼可以使用的次數。 如果沒有限制，則將此欄位留空。 |
 | [!UICONTROL Uses per Customer] | 決定屬於任何選定客戶群組的相同註冊客戶可以使用購物車價格規則的次數。 不適用於身為NOT LOGGED IN客戶群組成員的訪客購物者，或購物但未登入其帳戶的客戶。 若無限制，請留空。 |
 | [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
@@ -384,7 +384,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣套用至小計與運費，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;為Y。） |
+| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣套用至小計與運費，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;為Y。） |
 | [!UICONTROL Discount Amount] | （必要）提供的折扣金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 設定在同一次購買中可套用折扣的產品數目上限。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | 設定`Buy X Get Y Free`促銷活動中由`X`代表的產品數目。 此外，定義必須一起將多少項產品批次新增到購物車，才能套用`Fixed amount discount`和`Percent of product price discount`促銷活動。 |
