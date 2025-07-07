@@ -64,7 +64,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++管理員設定
 
@@ -87,7 +87,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
       >
       >將新金鑰的記錄儲存在安全位置。 如果檔案發生任何問題，則必須將資料解密。
 
-+++
+   +++
 
 1. 排清快取。
 
