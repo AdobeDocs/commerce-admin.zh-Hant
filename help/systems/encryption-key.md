@@ -4,7 +4,7 @@ description: 瞭解如何變更您自己的加密金鑰，這應該定期進行�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: 256517ebbbd6e28eb027f26c7f0a43001f5d7904
 workflow-type: tm+mt
 source-wordcount: '460'
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您嘗試完成這些步驟但發生問題，請參閱[疑難排解加密金鑰輪換： CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102)知識庫文章。
+>如果您嘗試完成這些步驟但發生問題，請參閱[疑難排解加密金鑰輪換： CVE-2024-34102](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102)知識庫文章。
 
 Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他敏感資料。 產業標準[!DNL ChaCha20-Poly1305]演演算法搭配256位元金鑰使用，以加密所有需要加密的資料。 這包括信用卡資料和整合（付款和運送模組）密碼。 此外，強式安全雜湊演演算法(SHA-256)可用來雜湊所有不需要解密的資料。
 
 初始安裝期間，系統會提示您讓Commerce產生加密金鑰，或輸入您自己的金鑰。 加密金鑰工具可讓您視需要變更金鑰。 應定期變更加密金鑰以提高安全性，並且隨時可能危及原始金鑰。
 
-如需技術資訊，請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)中的&#x200B;_進階內部部署_&#x200B;以及[PHP開發人員指南](https://developer.adobe.com/commerce/php/development/security/data-encryption/)中的&#x200B;_資料重新加密_。
+如需技術資訊，請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)中的&#x200B;_進階內部部署_&#x200B;以及[PHP開發人員指南](https://developer.adobe.com/commerce/php/development/security/data-encryption/)中的&#x200B;_資料重新加密_。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
 
 下列指示需要存取終端機。
 
-1. 啟用[維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)。
+1. 啟用[維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)。
 
    ```bash
    bin/magento maintenance:enable
