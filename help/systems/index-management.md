@@ -3,10 +3,10 @@ title: 索引管理
 description: 瞭解索引管理，包括觸發重新索引和最佳實務的動作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 422fce6c2676f7c760c1a97b67fbd0f45d65e19c
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: f4b5ca01ddb02a9392095fa46ae8baa73892319b
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 索引子可以設定為在儲存時或依排程更新。 除了只支援儲存的Customer Grid外，所有索引都可以使用任一選項。 在儲存時建立索引時，Commerce會在儲存動作時開始重新索引。 「索引管理」頁面會完成更新並排清快取，而重新索引訊息會在一兩分鐘內顯示。 依排程重新索引時，重新索引會根據排程執行，作為cron作業。 如果[cron工作](cron.md)無法更新任何變成無效的索引器，則會顯示系統訊息。 重新索引程式進行期間，您的存放區仍可存取。
 
 >[!NOTE]
-> 使用Live Search、目錄服務或產品推薦的Adobe Commerce商家可選擇使用[SaaS型價格索引器](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing?lang=zh-Hant)。
+> 使用Live Search、目錄服務或產品推薦的Adobe Commerce商家可選擇使用[SaaS型價格索引器](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing)。
 
-當需要重新索引時，通知會顯示在頁面頂端。 索引和訊息會根據您採取的重新索引模式和潛在動作清除。 如需有關索引的詳細資訊，請參閱&#x200B;_PHP開發人員指南_&#x200B;中的[應用程式如何實作索引](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)。
+當需要重新索引時，通知會顯示在頁面頂端。 索引和訊息會根據您採取的重新索引模式和潛在動作清除。 如需有關索引的詳細資訊，請參閱[PHP開發人員指南](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)中的&#x200B;_應用程式如何實作索引_。
 
 ![索引管理 — 動作](./assets/index-management.png){width="700" zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->針對使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)且已將Elasticsearch設定為全文檢索(`catalogsearch_fulltext`)索引器的存放區：全文檢索索引必須在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時重新執行。
+>針對使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)且已將Elasticsearch設定為全文檢索(`catalogsearch_fulltext`)索引器的存放區：全文檢索索引必須在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時重新執行。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**。
 
@@ -56,9 +56,12 @@ ht-degree: 0%
    - `Update by Schedule`
    - `Invalidate index`
 
-   >[!IMPORTANT]
-   >
-   >客戶格線只能使用`Update on Save`重新編制索引。 此索引&#x200B;**_不_**&#x200B;支援`Update by Schedule`。
+     >[!IMPORTANT]
+     >
+     >[!DNL Customer Grid]索引子行為在2.4.8中變更：
+     >
+     >- **2.4.8**&#x200B;之前： [!DNL Customer Grid]索引子只能使用[!UICONTROL Update on Save]選項重新索引，不支援[!UICONTROL Update by Schedule]選項。
+     >- **2.4.8和更新版本**： [!DNL Customer Grid]索引子同時支援[!UICONTROL Update on Save]和[!UICONTROL Update by Schedule]模式，且預設為[!UICONTROL Update by Schedule]。
 
 1. 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;將變更套用至每個選取的索引器。
 
@@ -77,7 +80,7 @@ ht-degree: 0%
 
 ## 使用命令列重新索引
 
-Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱&#x200B;_組態指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=zh-Hant#reindex){:target="blank"}。
+Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱[組態指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}中的&#x200B;_重新索引_。
 
 ## 索引觸發事件
 
