@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**法律免責宣告**<br/>
->>此資訊旨在協助Adobe客戶回答他們有關Adobe HIPAA就緒服務的問題。 這不構成法律建議。 商戶應諮詢自己的法律顧問，瞭解其根據HIPAA所負的義務，以及Adobe產品的適當使用和設定。
+>&#x200B;>此資訊旨在協助Adobe客戶回答他們有關Adobe HIPAA就緒服務的問題。 這不構成法律建議。 商戶應諮詢自己的法律顧問，瞭解其根據HIPAA所負的義務，以及Adobe產品的適當使用和設定。
 
 >[!BEGINSHADEBOX]
 
