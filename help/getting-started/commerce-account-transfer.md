@@ -54,7 +54,7 @@ Commerce帳戶轉移的型別取決於目前擁有者和新擁有者可用的Com
 
 1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
-   此步驟會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_欄位會遭到封鎖，無法進行任何變更。 相關電子郵件地址的設定是從Adobe ID帳戶進行管理。
+   此步驟會建立Adobe ID並將其連結至目前的Commerce帳戶(MAGEID)。 使用此帳戶連結，_[!UICONTROL Email]_&#x200B;欄位會遭到封鎖，無法進行任何變更。 相關電子郵件地址的設定是從Adobe ID帳戶進行管理。
 
 1. 導覽至[account.adobe.com](https://account.adobe.com/)。
 
