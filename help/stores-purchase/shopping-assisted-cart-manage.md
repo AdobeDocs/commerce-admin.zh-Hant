@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >若要快速找到客戶記錄，請使用[篩選器](../getting-started/admin-grid-controls.md)控制項。
 
-   在&#x200B;_[!UICONTROL Personal Information]_下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
+   在&#x200B;_[!UICONTROL Personal Information]_&#x200B;下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
 
    ![線上客戶的客戶設定檔](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Order]**。
 
-   _[!UICONTROL Create New Order]_頁面顯示購物車中的專案，然後是送貨和付款資訊。
+   _[!UICONTROL Create New Order]_&#x200B;頁面顯示購物車中的專案，然後是送貨和付款資訊。
 
 1. 填寫運送與付款資訊。
 
