@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 分層導覽可讓您根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。 分層導覽通常顯示在搜尋結果和類別頁面的左側欄，有時也會顯示在首頁上。 標準導覽包含&#x200B;_Shop By_&#x200B;類別與價格範圍清單。 您可以設定分層導覽的顯示方式，包括產品計數和價格範圍。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)。
+>此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)。
 
 您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇「Mens/Shorts」類別時，初始結果會包含該類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
 
@@ -110,7 +110,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 價格導覽可用於在分層導覽中依價格範圍分配產品。 您也可以以間隔分割每個範圍。 有幾種方式可以計算價格導覽：
 
@@ -205,7 +205,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 階層式導覽組態會決定產品計數是否顯示在每個屬性後面的括弧中，以及價格導覽中使用的步驟計算大小。
 
