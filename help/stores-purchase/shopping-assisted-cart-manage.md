@@ -3,9 +3,9 @@ title: 管理購物車
 description: 瞭解如何直接從管理員協助客戶處理購物車。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 按鈕 | 說明 |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | 清除所有產品中的目前購物車。 |
+| [!UICONTROL Clear my shopping cart] | 從購物車移除所有專案。 |
 | [!UICONTROL Update Items and Quantities|]在&#x200B;**[!UICONTROL Qty]**&#x200B;欄位中輸入所需數量，並更新購物車中的專案數量。 |
 | [!UICONTROL Add selections to my cart] | 將所有區段的產品新增至購物車。 |
 
@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >若要快速找到客戶記錄，請使用[篩選器](../getting-started/admin-grid-controls.md)控制項。
 
-   在&#x200B;_[!UICONTROL Personal Information]_&#x200B;下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
+   在&#x200B;_[!UICONTROL Personal Information]_下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
 
    ![線上客戶的客戶設定檔](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 依屬性將產品新增至購物車
 
-1. 展開&#x200B;**[!UICONTROL Products]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Products]**。
 
 1. 使用每一欄頂端的任一篩選器來尋找產品。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## 依SKU新增產品
 
-1. 展開&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**。
 
 1. **[!UICONTROL SKU]**&#x200B;個別新增產品，或上傳CSV檔案新增產品。
 
@@ -175,10 +175,26 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Order]**。
 
-   _[!UICONTROL Create New Order]_&#x200B;頁面顯示購物車中的專案，然後是送貨和付款資訊。
+   _[!UICONTROL Create New Order]_頁面顯示購物車中的專案，然後是送貨和付款資訊。
 
 1. 填寫運送與付款資訊。
 
 1. 按一下&#x200B;**[!UICONTROL Submit Order]**。
 
 若要深入瞭解，請參閱[建立訂單](customer-account-create-order.md)。
+
+## 從購物車移除所有專案
+
+如果客戶想要重新開始、新增不正確的專案，或需要在下新訂單前清除購物車，在輔助購物模式下從客戶的購物車中移除所有專案會很有用。 這有助於確保購物車僅包含客戶實際想要購買的產品。
+
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
+
+1. 在清單中，以編輯模式開啟客戶記錄。
+
+1. 按一下頂端按鈕列中的&#x200B;**[!UICONTROL Manage Shopping Cart]**。
+
+1. 按一下&#x200B;**[!UICONTROL Clear my shopping cart]**。
+
+   ![清除我的購物車](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. 提示確認動作時，請按一下&#x200B;**[!UICONTROL OK]**。
