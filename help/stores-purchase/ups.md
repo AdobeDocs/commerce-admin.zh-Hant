@@ -3,7 +3,7 @@ title: 聯合包裹服務(UPS)
 description: 瞭解如何將UPS設定為您的商店的運送業者。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -36,7 +36,7 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
 1. 在左側的面板中，在&#x200B;**[!UICONTROL Sales]**&#x200B;下選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展開&#x200B;**[!UICONTROL UPS]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL UPS]**。
 
 1. 將&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;設為`Yes`。
 
@@ -46,9 +46,9 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
    - 將&#x200B;**[!UICONTROL Mode]**&#x200B;設為`Live`以透過安全連線傳送資料至UPS運送系統。 （開發模式不會透過安全連線傳送資料。）
 
-   - 驗證傳送要求所需的&#x200B;**[!UICONTROL Gateway URL]**。 將沙箱URL (`https://wwwcie.ups.com/`)用於測試模式，並將生產URL用於即時請求(`https://onlinetools.ups.com`)。 請務必針對具有指定主機的每個要求使用各自的端點。
+   - 驗證傳送要求所需的&#x200B;**[!UICONTROL Gateway URL]**。 將沙箱URL (`https://wwwcie.ups.com/api/rating/`)用於測試模式，並將生產URL用於即時請求(`https://onlinetools.ups.com/api/rating/`)。 請務必針對具有指定主機的每個要求使用各自的端點。
 
-   - 驗證取得追蹤資訊所需的&#x200B;**[!UICONTROL Tracking URL]**。 將沙箱URL (`https://wwwcie.ups.com/`)用於測試模式，並將生產URL用於即時請求(`https://onlinetools.ups.com`)。 請務必針對具有指定主機的每個要求使用各自的端點。
+   - 驗證取得追蹤資訊所需的&#x200B;**[!UICONTROL Tracking URL]**。 將沙箱URL (`https://wwwcie.ups.com/api/track/`)用於測試模式，並將生產URL用於即時請求(`https://onlinetools.ups.com/api/track/`)。 請務必針對具有指定主機的每個要求使用各自的端點。
 
    - 將&#x200B;**[!UICONTROL Origin of the Shipment]**&#x200B;設定為出貨來源區域。
 
