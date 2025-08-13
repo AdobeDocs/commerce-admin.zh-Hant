@@ -2,9 +2,9 @@
 title: Commerce銷售與促銷活動簡介
 description: 了解 Commerce 工具如何建立針對性促銷活動和客戶參與機會。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發及產品展示的藝術與科學。 您可能會將[類別導覽](../catalog/navigation-top.md)視為商店的平面圖，將產品的動態呈現視為您可以套用至商店中產品清單的條件。 此外，您可以實作可促進更多產品銷售的程式：
 
-- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [Visual Merchandiser](visual-merchandiser.md) — 一組進階工具，可讓您定位產品，並套用條件來決定哪些產品會出現在類別清單中。
+- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [Visual Merchandiser](visual-merchandiser.md) — 一組進階工具，可讓您定位產品，並套用條件來決定哪些產品會出現在類別清單中。
 
 - [禮品登記處](gift-registries.md) — 讓您的客戶能夠建立特殊場合的禮品登記處，並且邀請他們的朋友和家人從禮品登記處購買他們的禮物。
 
@@ -27,7 +27,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!TIP]
 >
->若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)。
+>若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)。
 
 ## 促銷活動
 
@@ -45,7 +45,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!NOTE]
 >
->若要根據特定產品屬性定義條件，您必須將[店面屬性](../catalog/attribute-product-create.md)中屬性的&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;設為`Yes`。
+>若要根據特定產品屬性定義條件，您必須將&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;店面屬性`Yes`中屬性的[設為](../catalog/attribute-product-create.md)。
 
 
 ### 價格規則
@@ -67,8 +67,8 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
-><br><br>
->如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
+>><br><br>
+>>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升級模組_。
 
 - [電子報](newsletters.md) — 製作電子報、管理您的訂閱者清單、開發內容，並帶動您商店的流量。
 
@@ -85,8 +85,6 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 >自2.4.5版開始，Google服務整合已更新，以支援使用GTag API。 GTag是整合網頁之Google功能的統一機制，可支援透過Google服務追蹤及管理內容的最新功能與機會。 如需詳細資訊，請參閱[Google Analytics開發人員檔案](https://developers.google.com/analytics/devguides/collection/gtagjs)。
 
 - [Google Analytics](google-analytics.md) — 使用Google Universal Analytics定義額外的自訂維度和量度以進行追蹤，並支援離線和行動應用程式互動，以及存取持續更新。
-
-- [Google內容實驗](google-content-experiments.md) — 使用Google Analytics內容設定產品、類別或內容頁面的A/B測試
 
 - [Google標籤管理員](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)使用Google標籤管理員來管理許多與行銷活動事件相關的標籤。
 

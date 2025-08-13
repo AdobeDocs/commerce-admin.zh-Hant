@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: 瞭解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce網站中與行銷活動相關的許多標籤（程式碼片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    - 選擇&#x200B;**[!UICONTROL Property Settings]**。
 
-   - 在&#x200B;_[!UICONTROL Advertising Features]_&#x200B;底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;設定為`On`。
+   - 在&#x200B;_[!UICONTROL Advertising Features]_底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**設定為`On`。
 
    - **[!UICONTROL Save]**&#x200B;設定。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    - 導覽至&#x200B;**[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**。
 
-   - 選擇&#x200B;**[!UICONTROL Google Analytics]**&#x200B;並使用您自己的&#x200B;**[!UICONTROL GA ID]**&#x200B;更新預留位置(`UA-xxxxxx-x`)。
+   - 選擇&#x200B;**[!UICONTROL Google Analytics]**&#x200B;並使用您自己的`UA-xxxxxx-x`更新預留位置(**[!UICONTROL GA ID]**)。
 
 1. 依照Google的指示，將標籤、觸發器和變數新增至新容器。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Google Analytics]**&#x200B;區段並設定下列專案：
 
-   ![銷售組態 — Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png)
+   ![銷售組態 — Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
    - 將&#x200B;**[!UICONTROL Enable]**&#x200B;設為`Yes`。
 
@@ -145,7 +145,6 @@ ht-degree: 0%
 | [!UICONTROL Enable] | 存放區檢視 | 決定Google Analytics Enhanced E-commerce是否可用來分析商店中的活動。 選項： `Yes` / `No` |
 | [!UICONTROL Account type] | 存放區檢視 | 決定用來監控商店活動和流量的Google追蹤代碼。 選項： `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | 存放區檢視 | 決定是否從Google Analytics結果中顯示的IP位址移除識別資訊。 |
-| [!UICONTROL Enable Content Experiments] | 存放區檢視 | 啟用Google內容實驗，此實驗可用來測試最多十個相同頁面的不同版本。 選項： `Yes` / `No` |
 | [!UICONTROL Container Id] | 存放區檢視 | 如果已為商店安裝和設定[!DNL Google Tag Manager]，則容器ID會自動出現在此欄位中。 |
 | [!UICONTROL List property for the catalog page] | 存放區檢視 | 識別與目錄頁面相關聯的Tag Manager屬性。 預設值： `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | 存放區檢視 | 識別與交叉銷售區塊相關聯的Tag Manager屬性。 預設值： `Cross-sell` |
@@ -179,7 +178,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Choose Product]**&#x200B;下，選取&#x200B;**[!UICONTROL Google AdWords]**。
 
-   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_&#x200B;下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;並按一下&#x200B;**[!UICONTROL Continue]**。
+   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**並按一下&#x200B;**[!UICONTROL Continue]**。
 
 1. 從您的AdWords帳戶輸入&#x200B;**[!UICONTROL Conversion ID]**&#x200B;和&#x200B;**[!UICONTROL Conversion Label]**，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -189,7 +188,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Fire On]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Some Pages]**。
 
-1. 在&#x200B;_[!UICONTROL Choose Pages]_&#x200B;區段中，完成下列設定：
+1. 在&#x200B;_[!UICONTROL Choose Pages]_區段中，完成下列設定：
 
    - **[!UICONTROL Name]** — 輸入頁面說明的名稱。
 
