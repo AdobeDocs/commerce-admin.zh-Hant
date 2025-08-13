@@ -67,8 +67,8 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
->><br><br>
->>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升級模組_。
+>&#x200B;><br><br>
+>&#x200B;>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升級模組_。
 
 - [電子報](newsletters.md) — 製作電子報、管理您的訂閱者清單、開發內容，並帶動您商店的流量。
 
