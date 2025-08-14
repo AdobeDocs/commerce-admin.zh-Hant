@@ -3,9 +3,9 @@ title: 優惠券代碼
 description: 瞭解如何將優惠券代碼與購物車價格規則搭配使用，以在符合一組條件時套用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ ht-degree: 0%
 >具有相同優先順序的購物車價格規則不會產生合併折扣。 每個規則（抵用券）會根據資料庫中的購物車價格規則ID逐一套用至相符的產品。 為了控制套用折扣的順序，Adobe建議為每個新增的購物車價格規則設定不同的優先順序。
 
 ## 設定優惠券代碼
+
+>[!BEGINSHADEBOX]
+
+依預設，Commerce支援兩種建立優惠券代碼的方法：
+
+1. 建立單一特定抵用券代碼
+1. 正在產生多個&#x200B;_隨機_&#x200B;優惠券代碼
+
+如果您已有您要匯入並與購物車價格規則產生關聯的優惠券代碼清單，您應考慮使用[Commerce Marketplace](https://marketplace.magento.com/)的擴充功能。
+
+>[!ENDSHADEBOX]
 
 自動產生的優惠券代碼的長度和格式由設定控制。 這些字元可以設定為所有數字、所有字母或組合。 您可以在設定的間隔處插入破折號，以方便閱讀，並新增首碼和尾碼以將程式碼與特定行銷活動或方案建立關聯。
 
@@ -62,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant#run-cron-from-the-command-line)的執行cron。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱[組態指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)中命令列&#x200B;_的_&#x200B;執行cron。
 
 ### 方法1：建立特定抵用券
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
       - 輸入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-      - 從行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）選擇&#x200B;**開始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果您將日期範圍保留為空白，則規則不會過期。
+      - 從行事曆（ **行事曆圖示** ）選擇&#x200B;**[!UICONTROL End Date]**&#x200B;開始日期![和](../assets/icon-calendar.png)。 如果您將日期範圍保留為空白，則規則不會過期。
 
       - 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -168,11 +179,7 @@ ht-degree: 0%
 
 您可以選取檔案格式並按一下&#x200B;**[!UICONTROL Export]**，將優惠券代碼匯出為CSV或Excel XML檔案。
 
-若要刪除優惠券代碼，請從清單中選取一或多個代碼。 從&#x200B;**[!UICONTROL Actions]**&#x200B;選取器中選取`Delete`，然後按一下&#x200B;**[!UICONTROL Submit]**。
-
->[!NOTE]
->
->雖然Commerce可設定多個優惠券代碼，但客戶在購物車中只能使用一個優惠券代碼。 若要允許在購物車中同時使用多個優惠券代碼，您可以考慮使用[Commerce Marketplace](https://marketplace.magento.com/)中對應的延伸模組。
+若要刪除優惠券代碼，請從清單中選取一或多個代碼。 從`Delete`選取器中選取&#x200B;**[!UICONTROL Actions]**，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
 ## 優惠券報告
 
