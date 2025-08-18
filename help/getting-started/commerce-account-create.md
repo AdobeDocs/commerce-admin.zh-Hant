@@ -3,9 +3,9 @@ title: 建立並存取您的 [!DNL Commerce] 帳戶
 description: 瞭解 [!DNL Commerce] 帳戶，這些帳戶管理您購買的產品和服務。
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # 存取您的[!DNL Commerce]帳戶
 
-您可以從[!DNL Commerce]網站存取您的帳戶。 從您[!DNL Commerce]帳戶的控制面板中，您可以找到與您購買的產品和服務相關的資訊，以及您的連絡人和帳單資訊。 部分資訊僅對授權擁有者可見。
-
-您可以從[!DNL Commerce]網站存取您的帳戶。 帳戶儀表板會顯示您購買的產品、服務、連絡人或帳單詳細資料。 部分資訊僅對授權擁有者可見。
+您可以從[!DNL Commerce]網站存取您的[!DNL Commerce]帳戶。 從您[!DNL Commerce]帳戶的控制面板中，您可以找到與您購買的產品和服務相關的資訊，以及您的連絡人和帳單資訊。 部分資訊僅對授權擁有者可見。
 
 ![您的[!DNL Commerce]帳戶](./assets/home-acct.png){width="700"}
 
 您的[!DNL Commerce]帳戶登入與商店管理員登入不同。 您通常會對每個系統使用不同的認證，而且每個系統的存取許可權都是獨立管理的。
 
-但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者將能夠設定其Adobe ID以登入商店管理員： [設定Commerce與Adobe ID的管理員整合](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-您的Commerce和商店管理員登入是分開的，具有不同的憑證和獨立管理的存取權。 不過，您可以設定Adobe ID登入商店管理員，簡化存取作業。 請參閱&#x200B;*Commerce的IMS整合指南*&#x200B;中的[設定Commerce管理與Adobe ID的整合]。
+但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ ht-degree: 0%
 
 ## 登入您的[!DNL Commerce]帳戶
 
-必須有Adobe ID才能存取Commerce帳戶。 如果您已有Commerce帳戶，但沒有Adobe ID，則可以在登入過程中建立帳戶。
+必須有Adobe ID才能存取Commerce帳戶。 如果您已有[!DNL Commerce]帳戶，但自2022年8月起尚未登入該帳戶，則必須在登入過程中建立Adobe ID。
 
 >[!WARNING]
 >
