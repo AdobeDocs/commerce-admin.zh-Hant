@@ -1,18 +1,19 @@
 ---
 title: 客戶報表
-description: Adobe Commerce和Magento Open Source中可用的客戶報表，可讓您深入分析指定時段或日期範圍內的客戶活動。
+description: Adobe Commerce和Magento Open Source中可用的客戶報表，可在指定時段或日期範圍內將insight提供給客戶活動。
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
 
 # 客戶報表
 
-客戶報表可讓您深入瞭解指定時段或日期範圍內的客戶活動。
+客戶報表可在指定時段或日期範圍內將insight提供給客戶活動。
 
 ## [!UICONTROL Order Total Report]
 

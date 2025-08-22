@@ -3,9 +3,10 @@ title: 銷售報表
 description: ' [!DNL Commerce] 銷售報表可協助您追蹤訂單、稅捐、發票、出貨、退款、優惠券及PayPal結算。'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -101,7 +102,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Show Report]**。
 
-如需有關使用[!UICONTROL Coupons Report]收集促銷活動資料的詳細資訊，請參閱&#x200B;_銷售和促銷指南_&#x200B;中的[優惠券報告](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)。
+如需有關使用[!UICONTROL Coupons Report]收集促銷活動資料的詳細資訊，請參閱[銷售和促銷指南](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)中的&#x200B;_優惠券報告_。
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,11 +114,11 @@ ht-degree: 0%
 
 ![PayPal結算報告](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-如需有關使用[!UICONTROL PayPal Settlement Reports]擷取影響資金結算的每個PayPal交易的詳細資訊，請參閱&#x200B;_商店與購買體驗指南_&#x200B;中的[PayPal結算報告](../stores-purchase/paypal-settlement-reports.md)。
+如需有關使用[!UICONTROL PayPal Settlement Reports]擷取影響資金結算的每個PayPal交易的詳細資訊，請參閱[商店與購買體驗指南](../stores-purchase/paypal-settlement-reports.md)中的&#x200B;_PayPal結算報告_。
 
 ## [!UICONTROL Braintree Settlement Report]
 
-可根據建立日期、金額、狀態、交易型別、付款型別、交易ID、訂單識別碼、PayPal付款ID、型別、商家帳戶ID或結算批次ID來篩選[Braintree](../stores-purchase/braintree.md)結算報表。 此報表包含交易識別碼、訂單識別碼、PayPal付款識別碼、型態、建立日期、金額、結算代碼、狀態、結算回應文字、補償識別碼、商家帳戶識別碼、結算批次識別碼及幣別。
+可依據建立日期、金額、狀態、交易型別、付款型別、交易ID、訂單ID、PayPal付款ID、型別、商家帳戶ID或結算批次ID來篩選[Braintree](../stores-purchase/braintree.md)結算報告。 此報表包含交易識別碼、訂單識別碼、PayPal付款識別碼、型態、建立日期、金額、結算代碼、狀態、結算回應文字、補償識別碼、商家帳戶識別碼、結算批次識別碼及幣別。
 
 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**。
 
