@@ -3,7 +3,7 @@ title: '[!UICONTROL Reports]功能表'
 description: Adobe Commerce和Magento Open Source提供多種報表，讓您掌握行銷工作、銷售產品和客戶活動的相關資訊。
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '267'
@@ -37,7 +37,7 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 ### [!UICONTROL System Insights]
 
-(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
+(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hant)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
 
 ### [!UICONTROL Customers]
 
