@@ -66,7 +66,7 @@ ht-degree: 0%
    >
    >如果訪客登入已註冊的使用者帳戶，他們可以導覽至「_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**」以建立公司帳戶。
 
-1. 在&#x200B;_[!UICONTROL Company Information]_區段中，客戶執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Information]_&#x200B;區段中，客戶執行下列動作：
 
    * 完成必填欄位：
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![公司資訊](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. 完成&#x200B;_[!UICONTROL Legal Address]_區段中的必填欄位。
+1. 完成&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中的必填欄位。
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    ![合法地址](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Administrator]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Administrator]_&#x200B;區段中，執行下列動作：
 
    * 輸入公司管理員的&#x200B;**[!UICONTROL Email address]**。
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
    * 如果適用，請選擇要管理帳戶的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理員帳戶。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;區段中，執行下列動作：
 
    * 視情況填入下列欄位：
 
@@ -158,9 +158,9 @@ ht-degree: 0%
 
    ![帳戶資訊](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 當您最初建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_格線時會顯示為空白。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
+1. 當您最初建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;格線時會顯示為空白。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
 
-1. 在&#x200B;_[!UICONTROL Legal Address]_區段中，完成下列必填欄位：
+1. 在&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中，完成下列必填欄位：
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -168,7 +168,7 @@ ht-degree: 0%
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. 在&#x200B;_[!UICONTROL Company Admin]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Admin]_&#x200B;區段中，執行下列動作：
 
    * 填入下列必填欄位：
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
    ![公司管理員](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Credit]_區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
+1. 在&#x200B;_[!UICONTROL Company Credit]_&#x200B;區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
 
    * **[!UICONTROL Credit Currency]**
    * **[!UICONTROL Credit Limit]**
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    ![公司點數](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Advanced Settings]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Advanced Settings]_&#x200B;區段中，執行下列動作：
 
    >[!NOTE]
    >
