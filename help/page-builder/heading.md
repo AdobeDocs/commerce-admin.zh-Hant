@@ -3,7 +3,7 @@ title: 元素 — 標題
 description: 瞭解標題內容型別，其用於將標題層級從H1到H6的文字容器新增到 [!DNL Page Builder] 階段。
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 元素 — 標題
 
-標題層級會建立組織內容的階層，並協助搜尋引擎為每個頁面編制索引。 使用[[!DNL Page Builder] 階段](workspace.md#stage)中的&#x200B;_標題_&#x200B;內容型別，將標題層級從H1到H6的文字容器加入階段。 標題會根據與目前主題關聯的樣式表來格式化。
+標題層級會建立組織內容的階層，並協助搜尋引擎為每個頁面編制索引。 使用&#x200B;_階段_&#x200B;中的[[!DNL Page Builder] 標題](workspace.md#stage)內容型別，將標題層級從H1到H6的文字容器加入階段。 標題會根據與目前主題關聯的樣式表來格式化。
 
-_[!UICONTROL Content]_&#x200B;區段中的[內容標題](workspace.md)欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
+[區段中的](workspace.md)內容標題&#x200B;_[!UICONTROL Content]_欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
 
 下列範例說明當使用Luma主題進行格式化時，內容標題和標題內容型別的顯示方式。
 
 ![店面上的內容標題和標題層級](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-您可以從[!DNL Page Builder]面板的&#x200B;_Elements_&#x200B;區段將標題拖曳到舞台上的列、欄或索引標籤組。 標題層級和對齊方式可從舞台上的編輯器工具列或使用&#x200B;_設定_ （![設定圖示](./assets/pb-icon-settings.png){width="20"} ）控制項來控制。
+您可以從&#x200B;_面板的_ Elements[!DNL Page Builder]區段將標題拖曳到舞台上的列、欄或索引標籤組。 標題層級和對齊方式可從舞台上的編輯器工具列或使用&#x200B;_設定_ （![設定圖示](./assets/pb-icon-settings.png){width="20"} ）控制項來控制。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -74,7 +74,7 @@ _[!UICONTROL Content]_&#x200B;區段中的[內容標題](workspace.md)欄位可�
 
    您也可以在標題編輯器中更新此內容。
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
 
    - 若要控制標題在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -154,3 +154,5 @@ _[!UICONTROL Content]_&#x200B;區段中的[內容標題](workspace.md)欄位可�
 1. 如果要變更標題層級，請按一下標題文字，然後在編輯器工具列中選擇新層級。
 
    ![選擇新的標題層級](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: 媒體 — 橫幅
 description: 瞭解在 [!DNL Page Builder] 階段中新增圖解式互動元件時所使用的橫幅內容型別。
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 媒體 — 橫幅
 
-使用&#x200B;_Banner_&#x200B;內容型別新增圖解式的互動式元件，讓使用者參與[[!DNL Page Builder] 階段](workspace.md#stage)中的行動號召和按鈕。
+使用&#x200B;_Banner_&#x200B;內容型別新增圖解式的互動式元件，讓使用者在[[!DNL Page Builder] 階段](workspace.md#stage)中使用call to action和按鈕。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![將橫幅內容型別拖曳到舞台](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   已包含&#x200B;_[!UICONTROL Upload Image]_&#x200B;和_[!UICONTROL Select from Gallery]_&#x200B;按鈕，因此您可以直接從舞台快速變更橫幅內容。 您也可以變更&#x200B;_[!UICONTROL Edit Banner]_&#x200B;頁面上的內容。
+   已包含&#x200B;_[!UICONTROL Upload Image]_和_[!UICONTROL Select from Gallery]_&#x200B;按鈕，因此您可以直接從舞台快速變更橫幅內容。 您也可以變更&#x200B;_[!UICONTROL Edit Banner]_頁面上的內容。
 
 1. 按一下橫幅預留位置以顯示[文字編輯器](../content-design/editor.md)，然後輸入橫幅的內容。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完成後，按一下右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Banner]_&#x200B;頁面。
+1. 完成後，按一下右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Banner]_頁面。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 - 選擇下列其中一個橫幅版位型別：
 
-  | 位置 | 說明 |
+  | 產品建議放置環境 | 說明 |
   | --------- | ----------- |
   | [!UICONTROL Poster] | 將內容與橫幅上的按鈕置中對齊。 覆蓋圖（若已使用）可延伸橫幅的完整寬度。 |
   | [!UICONTROL Collage Left] | 將內容和按鈕放置在橫幅左側的已定義區域中。 覆蓋圖（若使用）只會覆蓋定義的區域。 |
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 ### 視訊型別設定
 
-如果您將&#x200B;_[!UICONTROL Background Type]_&#x200B;設為`Video`，請使用下列設定來定義背景影像顯示。
+如果您將&#x200B;_[!UICONTROL Background Type]_設為`Video`，請使用下列設定來定義背景影像顯示。
 
 - **[!UICONTROL Video URL]** — 輸入有效的視訊URL。 有效的視訊URL可以連結至：
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 1. 將滑鼠懸停在橫幅容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="25"} ）圖示。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Content]_&#x200B;區段，並使用&#x200B;**[!UICONTROL Message Text]**&#x200B;編輯器輸入橫幅文字並設定其格式。
+1. 向下捲動至&#x200B;_[!UICONTROL Content]_區段，並使用&#x200B;**[!UICONTROL Message Text]**編輯器輸入橫幅文字並設定其格式。
 
    您也可以插入元素，例如文字連結、影像和Widget。
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >自2.4.1版開始，[!DNL Page Builder]不再支援連結橫幅與巢狀文字內的連結，因為店面顯示時發生問題。 如果您在&#x200B;_[!UICONTROL Message Text]_&#x200B;中使用連結，則無法設定&#x200B;_[!UICONTROL Link]_&#x200B;選項。 如果您偏好將單一連結用於整個橫幅，您可以從文字中移除所有連結。<br/>
+   >自2.4.1版開始，[!DNL Page Builder]不再支援連結橫幅與巢狀文字內的連結，因為店面顯示時發生問題。 如果您在&#x200B;_[!UICONTROL Message Text]_中使用連結，則無法設定_[!UICONTROL Link]_&#x200B;選項。 如果您偏好將單一連結用於整個橫幅，您可以從文字中移除所有連結。<br/>
    >
    >![連結設定已封鎖](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -369,3 +369,5 @@ ht-degree: 0%
    | [!UICONTROL Padding] | 套用至容器所有邊內側邊緣的空白空間量。 |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

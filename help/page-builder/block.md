@@ -3,7 +3,7 @@ title: 新增內容 — 區塊
 description: 瞭解Block內容型別，用於新增可重複使用的區塊至 [!DNL Page Builder] 階段。
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    重複專案會出現在原始專案的正下方。
 
-1. 若要將新區塊移動至新位置，請將滑鼠指標暫留在容器上，然後按一下工具箱中的[移動] _（![[移動]圖示](./assets/pb-icon-move.png)）。_
+1. 若要將新區塊移動至新位置，請將滑鼠指標暫留在容器上，然後按一下工具箱中的[移動] _（_[移動]圖示![）。](./assets/pb-icon-move.png)
 
 1. 選取並拖曳區塊，直到紅色指引出現在新位置為止。
 
@@ -146,3 +146,5 @@ ht-degree: 0%
 1. 將滑鼠懸停在區塊容器上以顯示工具箱，然後選擇&#x200B;_移除_ （![移除圖示](./assets/pb-icon-remove.png)）圖示。
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

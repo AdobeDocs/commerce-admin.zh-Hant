@@ -3,7 +3,7 @@ title: 新增內容 — 產品
 description: 瞭解產品內容型別，用於新增產品清單至 [!DNL Page Builder] 階段。
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >選取類別或SKU選項會提供`Position`的&#x200B;**[!UICONTROL Sort By]**&#x200B;選項。 使用此排序選項，產品會以它們在目錄中出現的相同順序顯示。</br>
+     >選取類別或SKU選項會提供&#x200B;**[!UICONTROL Sort By]**&#x200B;的`Position`選項。 使用此排序選項，產品會以它們在目錄中出現的相同順序顯示。</br>
      >
      >在「類別」選項中，依位置排序會以產品在目錄中顯示的相同順序顯示產品。 針對SKU選項，依位置排序會依照您在&#x200B;**[!UICONTROL Product SKUs]**&#x200B;文字方塊中輸入產品的順序顯示產品。
 
@@ -252,3 +252,5 @@ ht-degree: 0%
 ![在舞台上的產品輪播](./assets/pb-products-admin-carousel.png){width="600"}
 
 您現在可以使用[Widget](../content-design/widgets.md)，將此區塊置於您想要其顯示在市集內的任何位置。 或者，您可以使用[Add Content - Block](block.md)，將區塊新增至現有的頁面、索引標籤或區塊。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

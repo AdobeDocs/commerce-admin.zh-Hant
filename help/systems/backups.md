@@ -3,8 +3,8 @@ title: 系統備份
 description: 瞭解如何建立和排程系統備份，包括檔案系統、資料庫和媒體檔案。
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Commerce和Magento Open Source可讓您備份系統的不同部分（例�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL System]**。
 
-1. 展開&#x200B;**[!UICONTROL Backup Settings]**&#x200B;的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Backup Settings]**。
 
 1. 將&#x200B;**[!UICONTROL Enabled Schedule Backup]**&#x200B;設為`Yes`。
 
@@ -66,3 +66,5 @@ Adobe Commerce和Magento Open Source可讓您備份系統的不同部分（例�
 1. 出現提示時，請確認動作。
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

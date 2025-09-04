@@ -3,7 +3,7 @@ title: Source演演算法和預訂
 description: 瞭解在背景執行的Source選擇演演算法和預留系統，以保持可銷售數量更新。
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需以程式設計方式使用[!DNL Inventory Management]系統的相關資訊，請參閱[開發人員檔案](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)。
+>如需以程式設計方式使用[系統的相關資訊，請參閱](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)開發人員檔案[!DNL Inventory Management]。
 
 ## Source選擇演演算法
 
@@ -82,7 +82,7 @@ SSA可擴充至協力廠商支援和自訂演演算法，以建議符合成本�
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}保留功能需要`inventory.reservations.updateSalabilityStatus`訊息佇列消費者持續執行。 若要檢查它是否正在執行，請使用`bin/magento queue:consumers:list`命令。 如果未列出訊息佇列取用者，請啟動它： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}保留功能需要`inventory.reservations.updateSalabilityStatus`訊息佇列消費者持續執行。 若要檢查它是否正在執行，請使用`bin/magento queue:consumers:list`命令。 如果未列出訊息佇列取用者，請啟動它： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
 
 ### 訂單預訂
 
@@ -188,7 +188,7 @@ SSA可擴充至協力廠商支援和自訂演演算法，以建議符合成本�
 
 `inventory_cleanup_reservations` cron作業會執行SQL查詢以清除保留資料庫表格。 預設會每天午夜執行，但您可以設定時間和頻率。 cron作業會執行指令碼，查詢資料庫以尋找數量值總和為0的完整預留序列。 當對同一天（或其他設定時間）產生的指定產品的所有預留獲得補償時，cron工作會一次刪除所有預留量。
 
-`inventory_reservations_cleanup` cron工作與`inventory.reservations.cleanup`訊息佇列取用者不同。 在移除產品後，消費者會非同步刪除產品SKU的預留，而cron工作會清除整個預留表格。 當您啟用存放區組態中的&#x200B;[**與目錄**](../configuration-reference/catalog/inventory.md)&#x200B;庫存同步選項時，需要消費者。 請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
+`inventory_reservations_cleanup` cron工作與`inventory.reservations.cleanup`訊息佇列取用者不同。 在移除產品後，消費者會非同步刪除產品SKU的預留，而cron工作會清除整個預留表格。 當您啟用存放區組態中的&#x200B;[**與目錄**](../configuration-reference/catalog/inventory.md)&#x200B;庫存同步選項時，需要消費者。 請參閱[設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)中的&#x200B;_管理訊息佇列_。
 
 通常，一天內產生的所有初始預留都無法於當天獲得補償。 當客戶在cron工作開始之前下訂單，或使用離線付款方法（例如銀行轉帳）進行購買時，可能會發生這種情況。 補償的預留序列會保留在資料庫中，直到它們都得到補償為止。 此做法不會影響預訂計算，因為每個預訂的總數為0。
 
@@ -223,3 +223,5 @@ SSA可擴充至協力廠商支援和自訂演演算法，以建議符合成本�
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://developers.google.com/maps/documentation/geocoding/start
 [3]: https://developers.google.com/maps/documentation/distance-matrix/start
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

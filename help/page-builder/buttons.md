@@ -3,7 +3,7 @@ title: 元素 — 按鈕
 description: 瞭解Buttons內容型別，用於在 [!DNL Page Builder] 階段中新增個別按鈕或一組按鈕。
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -161,13 +161,13 @@ ht-degree: 0%
 
    ![按鈕容器工具箱](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;底下，選擇&#x200B;**[!UICONTROL Stacked]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_底下，選擇&#x200B;**[!UICONTROL Stacked]**。
 
 1. 將&#x200B;**[!UICONTROL All Buttons are same size]**&#x200B;設為`Yes`。
 
    ![大小相同的棧疊按鈕](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. 使用按鈕容器&rbrack;[button-container]的&lbrack;變更設定的說明，視需要更新其餘設定。
+1. 使用按鈕容器[的][button-container]變更設定的說明，視需要更新其餘設定。
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;套用設定並返回[!DNL Page Builder]工作區。
 
@@ -210,7 +210,7 @@ ht-degree: 0%
      | `URL` | 使用相對或完整URL來識別目的地頁面。 |
      | `Product` | 根據產品名稱或SKU識別目的地頁面。 您可以根據部分或完整名稱來搜尋產品名稱。 然後從搜尋結果清單中選擇產品。 |
      | `Category` | 將目的地頁面識別為類別樹狀結構中的特定類別或子類別。 |
-     | `Page` | 將目的地頁面識別為特定的CMS頁面。 |
+     | `Page` | 將目的地頁面識別為特定CMS頁面。 |
 
      {style="table-layout:auto"}
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 變更進階設定
 
-您可以修改個別按鈕和按鈕容器的&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
+您可以修改個別按鈕和按鈕容器的&#x200B;_[!UICONTROL Advanced]_設定。
 
 1. 若要控制上層容器內的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -300,3 +300,5 @@ ht-degree: 0%
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

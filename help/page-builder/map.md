@@ -3,7 +3,7 @@ title: 媒體 — 地圖
 description: 瞭解用於將對應從 [!DNL Google Maps] 平台新增至 [!DNL Page Builder] 階段的Map內容型別。
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 1. 按一下專案下拉式清單，然後選取或建立您要新增API金鑰的專案。
 
-1. 若要設定您的API認證，請依照[!DNL Google Maps]檔案中的[指示][4]操作。
+1. 若要設定您的API認證，請依照[檔案中的][4]指示[!DNL Google Maps]操作。
 
 1. 將API金鑰複製到剪貼簿。
 
-### 步驟2：在[!DNL Commerce]中設定[!DNL Google Maps]
+### 步驟2：在[!DNL Google Maps]中設定[!DNL Commerce]
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 將滑鼠懸停在地圖容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
+1. 在&#x200B;_[!UICONTROL Edit Map]_頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
 
 1. 輸入您要在地圖上與pin碼關聯的&#x200B;**[!UICONTROL Location Name]**。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面上的地圖位置格線中。
+   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_頁面上的地圖位置格線中。
 
    ![[!DNL Page Builder] — 對應位置格線](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 視需要修改&#x200B;_[!UICONTROL Advanced]_&#x200B;設定：
+1. 視需要修改&#x200B;_[!UICONTROL Advanced]_設定：
 
    - 若要控制新增至容器的地圖內容的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -262,11 +262,11 @@ ht-degree: 0%
 
 ### 變更格線大小
 
-格線大小決定與[!DNL Page Builder]階段上[資料行](column.md)相關的地圖大小。 依預設，對應寬度為12欄，最多為16欄。
+格線大小決定與[階段上](column.md)資料行[!DNL Page Builder]相關的地圖大小。 依預設，對應寬度為12欄，最多為16欄。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -290,3 +290,5 @@ ht-degree: 0%
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

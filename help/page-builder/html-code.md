@@ -1,18 +1,18 @@
 ---
-title: 元素 — HTML代碼
+title: 元素 — HTML程式碼
 description: 瞭解HTML程式碼內容型別，用於在 [!DNL Page Builder] 階段中新增HTML、CSS和JavaScript程式碼片段。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-# 元素 — HTML代碼
+# 元素 — HTML程式碼
 
-使用&#x200B;_HTML代碼_&#x200B;內容型別，在[[!DNL Page Builder] 階段](workspace.md#stage)中新增HTML、CSS和JavaScript代碼片段。 例如，您可能想要新增自訂HTML、宣告可套用至頁面上元素的CSS類別。 或者，您可能想要為您從第三方提供者收到的標誌、按鈕或橫幅新增程式碼片段。
+使用&#x200B;_HTML程式碼_&#x200B;內容型別，在[[!DNL Page Builder] 階段](workspace.md#stage)中新增HTML、CSS和JavaScript程式碼的片段。 例如，您可能會想要新增自訂HTML、宣告可套用至頁面上元素的CSS類別。 或者，您可能想要為您從第三方提供者收到的標誌、按鈕或橫幅新增程式碼片段。
 
 ## HTML程式碼工具箱
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## 新增HTML代碼
+## 新增HTML程式碼
 
 下列範例示範如何內嵌[Google Font][1]程式碼並宣告覆寫目前樣式表的自訂標題類別。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![將HTML程式碼預留位置拖曳到舞台](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. 將游標停留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
+1. 將游標暫留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
 1. 在文字方塊中，貼上您準備的內嵌Google字型程式碼和樣式宣告。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    ![HTML程式碼和樣式](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 視需要更新其餘的設定(如需詳細資訊，請參閱[變更HTML碼設定](#html-settings))。
+1. 視需要更新其餘的設定(如需詳細資訊，請參閱[變更HTML程式碼設定](#html-settings))。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
@@ -84,19 +84,19 @@ ht-degree: 0%
 
 ### 步驟3：預覽頁面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;區段中，將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_區段中，將&#x200B;**[!UICONTROL Enable Page]**設為`Yes`。
 
    ![正在啟用頁面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在格線中尋找頁面，並在&#x200B;**[!UICONTROL View]**&#x200B;欄中選取&#x200B;_[!UICONTROL Actions]_。
 
    ![使用新字型系列預覽頁面標題](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
-## 變更HTML碼設定 {#html-settings}
+## 變更HTML程式碼設定 {#html-settings}
 
-1. 將游標停留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
+1. 將游標暫留在HTML容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
 1. 在文字方塊中，視需要編輯程式碼。
 
@@ -107,10 +107,10 @@ ht-degree: 0%
    | 按鈕 | 說明 |
    | ------ | ----------- |
    | 插入Widget... | 按一下，在HTML文字方塊中的游標位置處插入Widget。 |
-   | 插入影像…… | 按一下，在HTML文字方塊中的游標位置處插入來自相簿的上傳影像或影像。 |
+   | 插入影像…… | 按一下「 」，在HTML文字方塊中的游標位置處插入來自相簿的上傳影像或影像。 |
    | 插入變數…… | 按一下，在HTML文字方塊中的游標位置處插入變數。 |
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
 
    - 若要控制程式碼在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -164,3 +164,5 @@ ht-degree: 0%
      | [!UICONTROL Padding] | 套用至容器所有邊內側邊緣的空白空間量。 選項： `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

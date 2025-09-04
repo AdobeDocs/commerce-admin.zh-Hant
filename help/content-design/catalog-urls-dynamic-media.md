@@ -3,8 +3,8 @@ title: 動態媒體URL
 description: 瞭解如何使用動態媒體URL作為影像或其他媒體資產的相對參照。
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -29,9 +29,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
-1. 展開&#x200B;**[!UICONTROL WYSIWYG Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL WYSIWYG Options]**。
 
    ![WYSIWYG選項](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
@@ -42,3 +42,5 @@ ht-degree: 0%
    - `No` - （預設）根據`\{\{media url="..."}}`指示詞，對透過WYSIWYG編輯器插入的媒體內容使用動態URL。 動態URL是相對的，如果商店的基本URL有所變更，則不會中斷。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

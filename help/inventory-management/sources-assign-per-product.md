@@ -3,7 +3,7 @@ title: 依產品指派存貨來源
 description: 瞭解如何將詳細目錄來源指派給產品。
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 以&#x200B;_編輯_&#x200B;模式開啟產品。
 
-1. 展開&#x200B;**[!UICONTROL Sources]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Sources]**。
 
    本節可讓您修改來源、更新存貨數量等。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 若要新增來源，請按一下&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;頁面上，選取您要指派給產品的每個來源旁的核取方塊。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_頁面上，選取您要指派給產品的每個來源旁的核取方塊。
 
    ![產品 — 指派來源](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -46,3 +46,5 @@ ht-degree: 0%
    - 在&#x200B;_[!UICONTROL Save]_（![功能表箭頭](../assets/icon-menu-down-arrow-red.png)）功能表上，選擇&#x200B;**[!UICONTROL Save & Close]**。
 
 指派來源之後，請更新每個產品來源的[存貨數量](quantities-assign-per-product.md)。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

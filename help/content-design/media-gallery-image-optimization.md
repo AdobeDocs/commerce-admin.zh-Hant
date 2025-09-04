@@ -3,8 +3,8 @@ title: 媒體集影像最佳化
 description: 瞭解如何針對您的 [!DNL Commerce] 媒體資產使用影像最佳化。
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -32,6 +32,8 @@ ht-degree: 0%
 
 當組態中的&#x200B;_最大寬度_&#x200B;和&#x200B;_最大高度_&#x200B;值變更時，它會更新先前插入的所有現有最佳化影像。
 
-Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
+Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱[設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)中的&#x200B;_管理訊息佇列_。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

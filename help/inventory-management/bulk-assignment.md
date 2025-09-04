@@ -3,7 +3,7 @@ title: 大量存貨來源指定與取消指定
 description: 瞭解如何使用指派來源工具來管理產品的來源指派。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用&#x200B;_指派來源_&#x200B;工具新增一或多個來源至您的產品。 此工具有助於建立自訂來源並指派給您的預設庫存或自訂庫存，以及準備新的位置和庫存。
 
-新增自訂來源後，您可以透過管理員或使用[匯入功能](inventory-import-export.md)，為每個產品[&#128279;](quantities-assign-per-product.md)或多個產品新增存貨數量。
+新增自訂來源後，您可以透過管理員或使用[匯入功能](quantities-assign-per-product.md)，為每個產品[或多個產品新增](inventory-import-export.md)存貨數量。
 
 ![新增所選產品的詳細目錄來源](assets/inventory-bulk-assign-sources.gif)
 
@@ -65,3 +65,5 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL Unassign Sources]**。
 
    ![從選取的產品移除來源](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -3,7 +3,7 @@ title: 虛擬產品
 description: 瞭解如何建立代表非實體專案的虛擬產品，例如會籍、服務、保固或訂閱。
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 虛擬產品（或數位產品）代表無形的專案，例如會籍、服務、保固，或書籍、音樂、視訊或其他產品的訂閱和數位下載。 虛擬產品可以個別銷售，或包含在[群組產品](product-create-grouped.md)、[可配置產品](product-create-configurable.md)或[組合產品](product-create-bundle.md)產品型別中。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
+除了缺少&#x200B;_[!UICONTROL Weight]_欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
 
 >[!NOTE]
 >
@@ -69,11 +69,11 @@ ht-degree: 0%
 
 1. 輸入庫存產品的&#x200B;**[!UICONTROL Quantity]**，並執行下列動作：
 
-   - 接受`In Stock`的預設&#x200B;**[!UICONTROL Stock Status]**&#x200B;設定。
+   - 接受&#x200B;**[!UICONTROL Stock Status]**&#x200B;的預設`In Stock`設定。
 
      因為虛擬產品未出貨，所以未使用&#x200B;**[!UICONTROL Weight]**&#x200B;欄位。
 
-   - 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
+   - 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_&#x200B;選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
+>_[!UICONTROL Is this downloadable product?]_選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
 
-## 步驟6：Publish產品
+## 步驟6：發佈產品
 
 1. 如果您已準備好發佈目錄中的產品，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;設為`Yes`。
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
       - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
+      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![ ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
@@ -145,3 +145,5 @@ ht-degree: 0%
 - 虛擬產品就像簡單的產品，但沒有重量。
 
 - 除非購物車中有實際產品，否則結帳期間不會顯示送貨選項。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

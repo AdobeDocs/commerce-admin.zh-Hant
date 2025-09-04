@@ -3,7 +3,7 @@ title: 版面 — 索引標籤
 description: 瞭解索引標籤內容型別，用於在 [!DNL Page Builder] 階段中新增一組索引標籤。
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 新增個別索引標籤
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
+1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Tabs]**預留位置直接拖曳至舞台或舞台上的列或欄。
 
    ![將索引標籤拖曳到列](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 
   下列範例中的列的邊框半徑為15。
 
-  邊框半徑為15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的列
+  邊框半徑為15![的](./assets/pb-settings-border-radius-15.png){width="500"}列
 
 - （選擇性）從目前的樣式表中指定要套用至欄容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;名稱。
 
@@ -326,3 +326,5 @@ ht-degree: 0%
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

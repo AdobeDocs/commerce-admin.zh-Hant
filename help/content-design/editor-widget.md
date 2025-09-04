@@ -2,8 +2,8 @@
 title: 在編輯器中插入Widget
 description: 使用WYSIWYG編輯器中的Widget工具，將各種內容元素新增至頁面。
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 移至&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下任何支援編輯器的元素。
+1. 移至&#x200B;_[!UICONTROL Content]_區段，然後按一下任何支援編輯器的元素。
 
 1. 將游標置於您要顯示介面工具集的位置，然後按一下&#x200B;_插入Widget_&#x200B;圖示。
 
@@ -59,3 +59,5 @@ ht-degree: 0%
    如果您使用HTML程式碼，連結的[標籤標籤](../systems/markup-tags.md)會顯示在頁面頂端，並以雙大括弧括住。 如有需要，請使用&#x200B;_剪下並貼上_，將標籤標籤放置在您要顯示連結的程式碼中。
 
 1. 當您的內容編輯完成時，按一下&#x200B;**[!UICONTROL Save]**。
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

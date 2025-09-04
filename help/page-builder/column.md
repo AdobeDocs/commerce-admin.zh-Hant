@@ -3,7 +3,7 @@ title: 版面 — 欄
 description: 瞭解「欄」內容型別，此型別用於將頁面劃分為 [!DNL Page Builder] 階段中的多個欄。
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.4.5版的更新
 
-頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_&#x200B;作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
+頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
 
 您可以拖曳群組內其他欄上方或下方的欄，以變更[!DNL Columns]容器的版面配置，並加以棧疊。 這開啟了各種新的可能版面組合，開發人員無需自訂即可實現。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 欄格線
 
-[格線](workspace.md)可確保內容在欄中保持一致，並幫助頁面在案頭和行動裝置上正確轉譯。 如需詳細資訊，請參閱[!DNL Page Builder]設定的[進階內容工具](setup.md)區段。
+[格線](workspace.md)可確保內容在欄中保持一致，並幫助頁面在案頭和行動裝置上正確轉譯。 如需詳細資訊，請參閱[設定的](setup.md)進階內容工具[!DNL Page Builder]區段。
 
 ![具有一資料行之資料列上的網格劃分](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 新增欄
 
-1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;拖曳到舞台。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Column]**拖曳到舞台。
 
    ![將欄拖曳到舞台](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 在欄群組的左上角，按一下&#x200B;_格線_&#x200B;工具（![格線控制項](./assets/pb-icon-grid-control.png)）並視需要調整格線大小。
 
-   將內容放置在格線有助於讓內容保持一致，並在桌上型電腦和行動裝置上正確呈現頁面。 如需詳細資訊，請參閱[!DNL Page Builder]設定的[進階內容工具](../configuration-reference/general/content-management.md)區段。
+   將內容放置在格線有助於讓內容保持一致，並在桌上型電腦和行動裝置上正確呈現頁面。 如需詳細資訊，請參閱[設定的](../configuration-reference/general/content-management.md)進階內容工具[!DNL Page Builder]區段。
 
    ![兩個資料行上的網格劃分](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
    - 將滑鼠懸停在欄上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有四個&#x200B;**[!UICONTROL Padding]**&#x200B;值設定為`0`。
+   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有四個&#x200B;**[!UICONTROL Padding]**值設定為`0`。
 
      ![使用零內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_&#x200B;頁面。
+   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_頁面。
 
 1. 按一下工作區右上角的&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png){width="20"} ）圖示，然後按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Background Repeat]** — 如果要重複背景影像以填滿空間，請變更此設定`Yes`。
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
 
    - 若要控制新增至欄的內容容器的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -226,3 +226,5 @@ ht-degree: 0%
      {style="table-layout:auto"}
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;套用設定並返回[!DNL Page Builder]工作區。
+
+<!-- Last updated from includes: 2023-01-19 14:32:13 -->

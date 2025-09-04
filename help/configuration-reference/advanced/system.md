@@ -4,7 +4,7 @@ description: 檢閱Commerce管理員的[!UICONTROL Advanced] &amp；gt； [!UICO
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ![進階設定 — 郵件傳送設定](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[設定電子郵件通訊](../../systems/email-communications.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/email-communications.md)中的&#x200B;_設定電子郵件通訊_。
 
 >[!IMPORTANT]
 >
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ![進階設定 — 貨幣](./assets/system-currency.png)<!-- zoom -->
 
-如需有關變更此設定的詳細資訊，請參閱&#x200B;_商店與購買體驗指南_&#x200B;中的[貨幣設定](../../stores-purchase/currency-configuration.md)。
+如需有關變更此設定的詳細資訊，請參閱[商店與購買體驗指南](../../stores-purchase/currency-configuration.md)中的&#x200B;_貨幣設定_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ![進階設定 — 安全性](./assets/system-security.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[工作階段管理](../../systems/security-session-management.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/security-session-management.md)中的&#x200B;_工作階段管理_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ![進階設定 — 通知](./assets/system-notifications.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[系統通知](../../systems/notifications.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/notifications.md)中的&#x200B;_系統通知_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -148,16 +148,16 @@ ht-degree: 1%
 
 {{$include /help/_includes/backups-note.md}}
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[系統備份](../../systems/backups.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/backups.md)中的&#x200B;_系統備份_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 全域 | 決定Commerce執行個體是否允許備份。 選項： `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 全域 | （當&#x200B;_[!UICONTROL Enable Backup]_&#x200B;設定為`Yes`時顯示。） 決定是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 全域 | （當&#x200B;_[!UICONTROL Enable Scheduled Backup]_&#x200B;設定為`Yes`時顯示。） 決定備份中包含的Commerce執行個體元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 指定排程備份開始的時間（小時、分鐘和秒）。 |
-| [!UICONTROL Frequency] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 決定進行排程備份的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。） 決定在排程備份期間是否將存放區置於維護模式。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 全域 | （當&#x200B;_[!UICONTROL Enable Backup]_設定為`Yes`時顯示。）決定是否定期自動備份Commerce執行個體。 選項： `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 全域 | （當&#x200B;_[!UICONTROL Enable Scheduled Backup]_設定為`Yes`時顯示。）決定包含在備份中的Commerce執行個體元素。 選項： `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。）指定排程備份開始的時間（小時、分鐘及秒）。 |
+| [!UICONTROL Frequency] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。）決定進行排程備份的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 全域 | （當[!UICONTROL Enable Scheduled Backup]設定為`Yes`時顯示。）決定儲存區在排程備份期間是否處於維護模式。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 ![進階設定 — 管理動作記錄檔封存](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[動作記錄封存](../../systems/action-log-archive.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/action-log-archive.md)中的&#x200B;_動作記錄封存_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 ![進階設定 — 完整頁面快取](./assets/system-full-page-cache.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[整頁快取](../../systems/cache-management.md#full-page-caching)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/cache-management.md#full-page-caching)中的&#x200B;_整頁快取_。
 
 ![進階組態 — 清漆組態](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全域 | 決定用來管理整頁快取的應用程式。 選項： <br/>**`Built-in Application`**— 不建議用於生產環境。<br/>**`Varnish Caching`** — 建議用於生產環境。 |
 | [!UICONTROL TTL for public content] | 全域 | 決定公用內容快取的期限（以秒為單位）。 預設值： `120` |
-| [!UICONTROL Handles param size] | 全域 | 指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=zh-Hant) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量。 限制大小可以改善安全性和效能。 預設值： `100` |
+| [!UICONTROL Handles param size] | 全域 | 指定在[](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP端點上要處理的[`{BASE-URL}/page_cache/block/esi`配置控制代碼](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html)的最大數量。 限制大小可以改善安全性和效能。 預設值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全域 | 指定可以清除清漆組態以產生組態檔的IP位址。 請使用逗號分隔多個專案。 預設值： `localhost` |
 | [!UICONTROL Backend host] | 全域 | 指定產生設定檔的後端主機。 預設值： `localhost` |
@@ -205,7 +205,7 @@ ht-degree: 1%
 
 ![進階設定 — 媒體的儲存設定 — 檔案系統](./assets/system-storage-config-media.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_內容與設計手冊_&#x200B;中的[使用媒體資料庫](../../content-design/media-storage-database.md)。
+如需有關變更這些設定的詳細資訊，請參閱[內容與設計手冊](../../content-design/media-storage-database.md)中的&#x200B;_使用媒體資料庫_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -218,7 +218,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->自Adobe Commerce和Magento Open Source2.4.3起，資料庫媒體儲存方法已淘汰。
+>自Adobe Commerce和Magento Open Source 2.4.3起，資料庫媒體儲存方法已過時。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -235,7 +235,7 @@ ht-degree: 1%
 
 ![進階設定 — 大量動作](./assets/system-bulk-actions.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[大量動作](../../systems/action-log-bulk-actions.md)。
+如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/action-log-bulk-actions.md)中的&#x200B;_大量動作_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -249,7 +249,7 @@ ht-degree: 1%
 
 ![進階組態 — 排定的匯入/匯出檔案記錄清理](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[排程匯入和匯出](../../systems/data-scheduled-import-export.md)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/data-scheduled-import-export.md)中的&#x200B;_排程匯入和匯出_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -268,7 +268,7 @@ ht-degree: 1%
 
 ![進階設定 — 影像上傳設定](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 ![進階設定 — Adobe Stock整合](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-如需有關設定這些設定的詳細資訊，請參閱&#x200B;_內容與設計手冊_&#x200B;中的[Adobe Stock整合](../../content-design/adobe-stock.md)。
+如需有關設定這些設定的詳細資訊，請參閱[內容與設計手冊](../../content-design/adobe-stock.md)中的&#x200B;_Adobe Stock整合_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -315,3 +315,5 @@ ht-degree: 1%
 | [!UICONTROL Test Connection] |  | 執行測試，以確認API金鑰與Adobe Stock服務搭配使用時有效。 |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

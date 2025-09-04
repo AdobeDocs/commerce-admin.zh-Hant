@@ -3,7 +3,7 @@ title: 簡單產品
 description: 瞭解如何建立可個別銷售或作為已分組、可設定或套裝產品一部分的簡單產品。
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 1. 輸入產品的&#x200B;**[!UICONTROL Weight]**。
 
-1. 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
+1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
 
-1. 若要將&#x200B;_[!UICONTROL Categories]_&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
+1. 若要將&#x200B;_[!UICONTROL Categories]_指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**方塊並執行下列任一動作：
 
    **選擇現有類別**：
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 - [設計](settings-advanced-design.md)
 - [贈品選項](product-gift-options.md)
 
-## 步驟6：Publish產品
+## 步驟6：發佈產品
 
 1. 如果您已準備好發佈目錄中的產品，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;切換為`Yes`。
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
       - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （![功能表箭頭](../assets/icon-menu-down-arrow-black.png)）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
+      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
@@ -149,3 +149,5 @@ ht-degree: 0%
 - 簡單產品設定會覆寫特定產品可設定的產品設定。
 
 - 簡單的產品可以有包含各種輸入型別的自訂選項，因此可以從單一SKU銷售許多產品變體。
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

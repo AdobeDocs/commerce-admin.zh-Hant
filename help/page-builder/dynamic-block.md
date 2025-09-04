@@ -3,7 +3,7 @@ title: 新增內容 — 動態區塊
 description: 瞭解用於將可重複使用的動態區塊新增到 [!DNL Page Builder] 階段的動態區塊內容型別。
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ ht-degree: 0%
 1. 將游標停留在動態區塊容器上以顯示工具箱，然後選擇&#x200B;_移除_ （ ![移除圖示](./assets/pb-icon-remove.png){width="20"} ）圖示。
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

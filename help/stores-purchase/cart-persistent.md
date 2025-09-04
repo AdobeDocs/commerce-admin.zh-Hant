@@ -3,7 +3,7 @@ title: 購物車持續性
 description: 瞭解持續性購物車如何追蹤未購買的購物車專案並儲存資訊，以供客戶下一次造訪。
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: a6cfcbb5774c0bafc3b7e7c96881329bde837837
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 當持續性購物車為[已啟用](#configure-a-persistent-cart)時，工作流程取決於：
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;和_[!UICONTROL Clear Persistence on Log Out]_&#x200B;設定的值
+- _[!UICONTROL Enable Remember Me]_和_[!UICONTROL Clear Persistence on Log Out]_&#x200B;設定的值
 - 客戶選擇或清除「_[!UICONTROL Remember Me]_」核取方塊的決定
 - 清除永久性Cookie時
 
 當客戶工作階段過期時，在以下條件下，`Not Jane Smith?`連結會顯示在頁面標頭中：
-- 登入的客戶已選取&#x200B;_[!UICONTROL Remember Me]_&#x200B;選項，且已套用永久性Cookie
-- 當系統設定為&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_&#x200B;設定為`No`時，客戶登出。
+- 登入的客戶已選取&#x200B;_[!UICONTROL Remember Me]_選項，且已套用永久性Cookie
+- 當系統設定為&#x200B;_[!UICONTROL Clear Persistence on Sign Out]_設定為`No`時，客戶登出。
 
 系統會保留目前裝置上購物車內容的記錄，即使登入工作階段過期亦然。 `Not Jane Smith?`連結可讓客戶終止持續工作階段並開始以訪客身分工作，或以不同或相同客戶身分登入。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 「記住我」核取方塊行為
 
-客戶可以在登入頁面上選取&#x200B;_[!UICONTROL Remember Me]_&#x200B;核取方塊、驗證快顯視窗、結帳登入，或是在建立新帳戶以便在登入工作階段過期時，將購物車的內容保持在目前裝置上可供存取。
+客戶可以在登入頁面上選取&#x200B;_[!UICONTROL Remember Me]_核取方塊、驗證快顯視窗、結帳登入，或是在建立新帳戶以便在登入工作階段過期時，將購物車的內容保持在目前裝置上可供存取。
 
 | 記得我嗎？ | 結果 |
 | ------------ |  ------ |
@@ -89,3 +89,5 @@ John在Jane在廚房時，坐在電腦前快速購物。 若未注意到頁面�
 如需這些組態設定如何影響客戶工作流程的詳細資訊，請參閱[持續性購物車工作流程](#persistent-cart-workflow)。
 
 {{$include /help/_includes/persistent-cart-configuration.md}}
+
+<!-- Last updated from includes: 2024-10-31 10:02:14 -->
