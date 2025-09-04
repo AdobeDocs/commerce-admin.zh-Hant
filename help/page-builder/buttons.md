@@ -161,7 +161,7 @@ ht-degree: 0%
 
    ![按鈕容器工具箱](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Appearance]_底下，選擇&#x200B;**[!UICONTROL Stacked]**。
+1. 在&#x200B;_[!UICONTROL Appearance]_&#x200B;底下，選擇&#x200B;**[!UICONTROL Stacked]**。
 
 1. 將&#x200B;**[!UICONTROL All Buttons are same size]**&#x200B;設為`Yes`。
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 變更進階設定
 
-您可以修改個別按鈕和按鈕容器的&#x200B;_[!UICONTROL Advanced]_設定。
+您可以修改個別按鈕和按鈕容器的&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
 1. 若要控制上層容器內的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

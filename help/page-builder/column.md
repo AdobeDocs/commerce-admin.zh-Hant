@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.4.5版的更新
 
-頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
+頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_&#x200B;作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
 
 您可以拖曳群組內其他欄上方或下方的欄，以變更[!DNL Columns]容器的版面配置，並加以棧疊。 這開啟了各種新的可能版面組合，開發人員無需自訂即可實現。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 新增欄
 
-1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Column]**拖曳到舞台。
+1. 在[!DNL Page Builder]下的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;拖曳到舞台。
 
    ![將欄拖曳到舞台](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ ht-degree: 0%
 
    - 將滑鼠懸停在欄上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有四個&#x200B;**[!UICONTROL Padding]**值設定為`0`。
+   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有四個&#x200B;**[!UICONTROL Padding]**&#x200B;值設定為`0`。
 
      ![使用零內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_頁面。
+   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_&#x200B;頁面。
 
 1. 按一下工作區右上角的&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png){width="20"} ）圖示，然後按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Background Repeat]** — 如果要重複背景影像以填滿空間，請變更此設定`Yes`。
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
    - 若要控制新增至欄的內容容器的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

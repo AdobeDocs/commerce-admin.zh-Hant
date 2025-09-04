@@ -45,11 +45,11 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 展開&#x200B;_[!UICONTROL Content]_區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟。
+1. 展開&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Row]**預留位置拖曳到舞台。
+1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Add Content]_面板中，將&#x200B;**[!UICONTROL Product Recommendation]**預留位置拖曳至列。
+1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Add Content]_&#x200B;面板中，將&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;預留位置拖曳至列。
 
    ![正在新增產品推薦內容型別](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    ![編輯產品推薦](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Selection]_區段中，按一下&#x200B;**[!UICONTROL Select]**。
+1. 在&#x200B;_[!UICONTROL Selection]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Select]**。
 
 1. 在使用中產品推薦清單中，尋找含有您要新增之推薦單位的列，然後按一下最後一欄中的&#x200B;**[!UICONTROL Select]**。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Selected]**。
 
-   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Selection]_頁面的_[!UICONTROL Edit Product Recommendation]_&#x200B;區段中。
+   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Selection]_&#x200B;頁面的&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;區段中。
 
 1. 對[進階設定](#advanced-settings)進行任何必要的變更。
 

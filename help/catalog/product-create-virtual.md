@@ -14,7 +14,7 @@ ht-degree: 0%
 
 虛擬產品（或數位產品）代表無形的專案，例如會籍、服務、保固，或書籍、音樂、視訊或其他產品的訂閱和數位下載。 虛擬產品可以個別銷售，或包含在[群組產品](product-create-grouped.md)、[可配置產品](product-create-configurable.md)或[組合產品](product-create-bundle.md)產品型別中。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
+除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
+>_[!UICONTROL Is this downloadable product?]_&#x200B;選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
 
 ## 步驟6：發佈產品
 

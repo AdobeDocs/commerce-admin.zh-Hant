@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 新增個別索引標籤
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Tabs]**預留位置直接拖曳至舞台或舞台上的列或欄。
+1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
 
    ![將索引標籤拖曳到列](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

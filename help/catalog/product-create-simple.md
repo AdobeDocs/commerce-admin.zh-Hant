@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
 
-1. 若要將&#x200B;_[!UICONTROL Categories]_指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**方塊並執行下列任一動作：
+1. 若要將&#x200B;_[!UICONTROL Categories]_&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
 
    **選擇現有類別**：
 
