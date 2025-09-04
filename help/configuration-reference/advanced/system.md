@@ -188,7 +188,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 全域 | 決定用來管理整頁快取的應用程式。 選項： <br/>**`Built-in Application`**— 不建議用於生產環境。<br/>**`Varnish Caching`** — 建議用於生產環境。 |
 | [!UICONTROL TTL for public content] | 全域 | 決定公用內容快取的期限（以秒為單位）。 預設值： `120` |
-| [!UICONTROL Handles param size] | 全域 | 指定在[&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP端點上要處理的[`{BASE-URL}/page_cache/block/esi`配置控制代碼](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html)的最大數量。 限制大小可以改善安全性和效能。 預設值： `100` |
+| [!UICONTROL Handles param size] | 全域 | 指定在[&#128279;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP端點上要處理的[`{BASE-URL}/page_cache/block/esi`配置控制代碼](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=zh-Hant)的最大數量。 限制大小可以改善安全性和效能。 預設值： `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 全域 | 指定可以清除清漆組態以產生組態檔的IP位址。 請使用逗號分隔多個專案。 預設值： `localhost` |
 | [!UICONTROL Backend host] | 全域 | 指定產生設定檔的後端主機。 預設值： `localhost` |
@@ -268,7 +268,7 @@ ht-degree: 1%
 
 ![進階設定 — 影像上傳設定](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

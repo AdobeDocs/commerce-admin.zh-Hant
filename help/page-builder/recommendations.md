@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 新增內容 — 產品推薦
 
-使用&#x200B;_Product Recommendations_&#x200B;內容型別，將現有的作用中[建議單位](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)新增至CMS頁面、區塊或動態區塊的[[!DNL Page Builder] 階段](workspace.md#stage)。
+使用&#x200B;_Product Recommendations_&#x200B;內容型別，將現有的作用中[建議單位](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)新增至CMS頁面、區塊或動態區塊的[[!DNL Page Builder] 階段](workspace.md#stage)。
 
 >[!NOTE]
 >
->[!DNL Page Builder] _產品建議_&#x200B;內容型別在Adobe Commerce 2.4.4和更新版本中受到支援，並可在[產品建議中繼3.0.x或更新版本中使用](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 若要為產品建議新增[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
+>[!DNL Page Builder] _產品建議_&#x200B;內容型別在Adobe Commerce 2.4.4和更新版本中受到支援，並可在[產品建議中繼3.0.x或更新版本中使用](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 若要為產品建議新增[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 新增現有的建議單位
 
-1. 確定您已[建立](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)頁面型別的建議單位[!DNL Page Builder]。
+1. 確定您已[建立](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)頁面型別的建議單位[!DNL Page Builder]。
 
 >[!NOTE]
 >
