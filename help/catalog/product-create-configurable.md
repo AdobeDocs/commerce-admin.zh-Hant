@@ -3,7 +3,7 @@ title: 可設定的產品
 description: 瞭解如何建立可設定的產品，為購物者提供各種選擇。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 用於產品變數的任何屬性的輸入型別必須是下列其中一項： `Dropdown`、`Visual Swatch`或`Text Swatch`。 |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 >
 >可設定的產品必須一律有權重。 如果您從下拉式清單中選取&#x200B;**[!UICONTROL This item has no weight]**，儲存產品後會自動變更為&#x200B;**[!UICONTROL This item has weight]**。
 
-1. 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
+1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
 
 1. 若要在[新產品](../content-design/widget-new-products-list.md)的清單中新增產品，請選取&#x200B;**[!UICONTROL Set Product as New]**&#x200B;核取方塊。
 
@@ -139,7 +138,7 @@ ht-degree: 0%
 
 ### 步驟1：選擇屬性
 
-1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
+1. 從上方繼續，向下捲動至&#x200B;_[!UICONTROL Configurations]_區段，然後按一下&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![組態](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -279,7 +278,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 ### 步驟5：新增產品影像
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
 
 1. 按一下&#x200B;_攝影機_&#x200B;圖磚，並瀏覽至您要用於可設定產品的主影像。
 
@@ -311,7 +310,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
       - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
+      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![ ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
@@ -329,7 +328,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;_[!UICONTROL Shopping Cart]_。
 
 1. 將&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;設為`Product Thumbnail Itself`。
 
@@ -355,7 +354,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 #### 僅使用預設來源/庫存：
 
-- 如果可設定的產品庫存狀態是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`Out of Stock`，它將在&#x200B;**_管理員_**&#x200B;和&#x200B;**_店面_**&#x200B;上保持為`Out of Stock`，直到它是管理員使用者、檔案匯入或API呼叫所手動變更的&#x200B;**__** `In stock`。 無法由其子產品的庫存狀態控制。
+- 如果可設定的產品庫存狀態是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`Out of Stock`，它將在`Out of Stock`管理員&#x200B;**_和_**&#x200B;店面&#x200B;**_上保持為_**，直到它是管理員使用者、檔案匯入或API呼叫所手動變更的&#x200B;**__** `In stock`。 無法由其子產品的庫存狀態控制。
 
 - 如果可設定的產品庫存狀態是由管理員使用者、檔案匯入或API呼叫以&#x200B;**_手動_**&#x200B;設定為`In Stock`，則其庫存狀態是由&#x200B;**_管理員_**&#x200B;和&#x200B;**_店面_**&#x200B;上其子產品的庫存狀態所控制的&#x200B;**_自動_**。
 
@@ -365,11 +364,11 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 #### 至少具有一個自訂來源/庫存：
 
-- 如果可設定的產品庫存狀態值是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`Out of Stock`，它將在&#x200B;**_管理員_**&#x200B;和&#x200B;**_店面_**&#x200B;上保持為`Out of Stock`，直到它是管理員使用者、檔案匯入或API呼叫所手動變更的&#x200B;**__** `In Stock`。 它&#x200B;**_無法_**&#x200B;由其子產品的庫存狀態控制。
+- 如果可設定的產品庫存狀態值是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`Out of Stock`，它將在`Out of Stock`管理員&#x200B;**_和_**&#x200B;店面&#x200B;**_上保持為_**，直到它是管理員使用者、檔案匯入或API呼叫所手動變更的&#x200B;**__** `In Stock`。 它&#x200B;**_無法_**&#x200B;由其子產品的庫存狀態控制。
 
 - 如果可設定的產品庫存狀態值是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`In Stock`，則其庫存狀態是僅由&#x200B;**_店面_**&#x200B;上其子產品的庫存狀態所控制的&#x200B;**_自動_**。
 
-- 如果可設定的產品庫存狀態值是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`In Stock`，在&#x200B;**_管理員_**&#x200B;中仍會保留為`In Stock`，直到管理員使用者、檔案匯入或API呼叫將其&#x200B;**_手動_**&#x200B;變更為`Out of Stock`為止。 它&#x200B;**_無法_**&#x200B;由其子產品的庫存狀態控制。
+- 如果可設定的產品庫存狀態值是管理員使用者、檔案匯入或API呼叫所設定的&#x200B;**_手動_**&#x200B;設定為`In Stock`，在`In Stock`管理員&#x200B;**_中仍會保留為_**，直到管理員使用者、檔案匯入或API呼叫將其&#x200B;**_手動_**&#x200B;變更為`Out of Stock`為止。 它&#x200B;**_無法_**&#x200B;由其子產品的庫存狀態控制。
 
 ## 注意事項
 
@@ -377,7 +376,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 - 可設定產品的[庫存狀態](../inventory-management/sources-stocks.md)是半手動控制的設定。 它與簡單產品的庫存狀態不同，在這種庫存狀態中，它是產品可用性的直接表示。 對於可設定產品，庫存狀態是多條件庫存狀態計算的一部分。
 
-- 可設定的子產品可以是簡單或虛擬產品&#x200B;**，但沒有自訂選項**。 若要讓自訂子產品成為虛擬，您必須為每個子產品的&#x200B;**[!UICONTROL Weight]**&#x200B;設定選取`Тhis item has no weight`。
+- 可設定的子產品可以是簡單或虛擬產品&#x200B;**，但沒有自訂選項**。 若要讓自訂子產品成為虛擬，您必須為每個子產品的`Тhis item has no weight`設定選取&#x200B;**[!UICONTROL Weight]**。
 
 - 所有子產品會同時從所有網站、商店和商店檢視的可設定產品&#x200B;**_全域_**&#x200B;中指派和取消指派。
 
@@ -389,6 +388,6 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
 - 購物車中的縮圖影像可設定為顯示來自可設定產品記錄或產品變數的影像。
 
-- 透過在Admin的屬性編輯頁面將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;選項值設定為`No`，可將[色票屬性](swatches.md#create-swatches-for-products)設定為當選取色票時不會顯示對應的簡單產品影像。
+- 透過在Admin的屬性編輯頁面將[選項值設定為](swatches.md#create-swatches-for-products)，可將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;色票屬性`No`設定為當選取色票時不會顯示對應的簡單產品影像。
 
 - 主題可控制使用者在產品設定之間切換時，影像館的行為。 _空白_&#x200B;佈景主題的預設行為是使用選取的產品變數覆寫上層可設定產品影像。 對於Luma主題，預設行為是將所選產品變數影像附加到父級可配置產品影像之前。
