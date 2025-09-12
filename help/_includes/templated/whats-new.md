@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">客戶區段</a>條件的每種型別的說明。</p>
+      <td><p>已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/segments/customer-segment-create">客戶區段</a>條件的每種型別的說明。</p>
 </td>
       <td>
         技術
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已移除已過時的New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">報告</a>功能檔案。</p>
+      <td><p>已移除已過時的New Relic <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/reporting/new-relic-reporting">報告</a>功能檔案。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>釐清<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">建立優惠券代碼</a>的預設方法，並提供使用擴充功能匯入自訂優惠券代碼清單的指引。</p>
+      <td><p>釐清<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">建立優惠券代碼</a>的預設方法，並提供使用擴充功能匯入自訂優惠券代碼清單的指引。</p>
 </td>
       <td>
         技術
@@ -89,7 +89,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增2025年8月B2B安全性修補程式<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">發行說明</a>。</p>
+      <td><p>已新增2025年8月B2B安全性修補程式<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes">發行說明</a>。</p>
 </td>
       <td>
         重大更新
@@ -111,7 +111,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>針對分層導覽中可設定產品的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">價格篩選</a>預期行為已釐清。</p>
+      <td><p>針對分層導覽中可設定產品的<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">價格篩選</a>預期行為已釐清。</p>
 </td>
       <td>
         技術
@@ -119,7 +119,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">認可</a></td>
     </tr>
     <tr>
-      <td><p>已說明如何在輔助購物模式中，從客戶的購物車<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">移除所有專案</a>。</p>
+      <td><p>已說明如何在輔助購物模式中，從客戶的購物車<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">移除所有專案</a>。</p>
 </td>
       <td>
         重大更新
@@ -141,7 +141,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA延伸模組</a>的系統需求。</p>
+      <td><p>更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">HIPAA延伸模組</a>的系統需求。</p>
 </td>
       <td>
         技術
