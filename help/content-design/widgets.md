@@ -2,10 +2,10 @@
 title: Widget
 description: 瞭解Widget，其提供程式碼片段，可讓您顯示各種內容，並將其放在商店中的特定區塊參考中。
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Widget是程式碼片段，可顯示廣泛的內容，並將其置於商店中�
 | [!UICONTROL Order by SKU] | 排序的SKU可以在商店中顯示，方便所有購物者，或僅供特定客戶群組使用。 購物者可以直接在「依SKU訂購」區塊中輸入SKU和數量資訊，或是從其客戶帳戶上傳CSV檔案。 |
 | [!UICONTROL Orders and Returns] | 使用此選項可讓來賓檢查其訂單狀態並提交退貨請求。 此Widget僅會對未登入其帳戶的來賓和客戶顯示。 |
 | [!UICONTROL Recently Compared Products] | 顯示最近比較的產品的區塊。 您可以指定包含的產品數量，並將其格式化為清單或產品格線。 |
-| [!UICONTROL Recently Viewed Products] | 使用此選項可顯示最近檢視之產品的區塊。 您可以指定包含的產品數量，並將其格式化為清單或產品格線。 |
+| [!UICONTROL Recently Viewed Products] | 使用此選項可顯示最近檢視之產品的區塊。 您可以指定包含的產品數量，並將其格式化為清單或產品格線。 Widget可能不會顯示即時價格更新。 購物者必須按一下產品，才能在產品頁面上檢視目前定價。 |
 | [!UICONTROL Wish List Search] | 使用此選項可讓客戶依希望清單擁有者的名稱或電子郵件地址，搜尋公開可用的希望清單。 商店客戶可以找到屬於其他客戶的願望清單、檢視他們並向他們訂購產品，或將產品新增到他們自己的願望清單中。 |
 
 {style="table-layout:auto"}
