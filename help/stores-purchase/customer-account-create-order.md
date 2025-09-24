@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請參閱[Payment Services指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
+>請參閱[Payment Services指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
 
 ## 步驟3：提交訂單
 
