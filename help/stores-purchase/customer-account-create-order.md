@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 建立訂單
 
-如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
+如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_&#x200B;表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
 
 ![建立客戶的訂單](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [！UICONTROL [自訂訂單屬性]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [自訂訂單屬性]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
