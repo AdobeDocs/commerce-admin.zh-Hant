@@ -3,9 +3,9 @@ title: 訂單工作流程與處理
 description: 瞭解訂單工作流程、每個步驟套用的狀態，以及如何透過此處理移轉訂單。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
+source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 在格線中尋找順序。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View]**。
 
 1. 檢查訂單狀態：
 
@@ -166,6 +166,26 @@ ht-degree: 0%
 | [!UICONTROL Shipping & Handling Information] | 要使用的送貨方式，以及適用的任何手續費。 |
 
 {style="table-layout:auto"}
+
+### 自訂訂單屬性
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+
+自訂訂單屬性可讓您將業務需求的特定其他資訊與訂單建立關聯。
+
+![自訂訂單屬性](./assets/custom-order-attributes.png){width="600" zoomable="yes"}
+
+在&#x200B;**[!UICONTROL Custom Order Attributes]**&#x200B;區段中，顯示所有自訂訂單屬性及其目前值。
+
+若要建立新的自訂訂單屬性，請輸入&#x200B;**[!UICONTROL Attribute Code]**&#x200B;和&#x200B;**[!UICONTROL Value]**
+
+若要建立其他自訂訂單屬性，請按一下&#x200B;**[!UICONTROL Add Attribute]**。
+
+若要移除自訂訂單屬性，請按一下&#x200B;**[!UICONTROL X]**&#x200B;圖示。
+
+>[!NOTE]
+>
+>當訂單處於`Pending`狀態時，才能編輯自訂訂單屬性。 對於其他狀態的訂單，您可以檢視屬性值，但無法修改它們。
 
 ### 檢閱訂購的專案
 

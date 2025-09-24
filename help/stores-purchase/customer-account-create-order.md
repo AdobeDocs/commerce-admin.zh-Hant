@@ -3,16 +3,16 @@ title: 建立訂單
 description: 瞭解如何在Commerce管理員中為客戶建立訂單。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # 建立訂單
 
-如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_&#x200B;表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
+如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
 
 ![建立客戶的訂單](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![Workspace標頭](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   您也可以按一下&#x200B;**[!UICONTROL Create New Order]**，在[訂單工作區](orders.md#orders-workspace)中建立訂單。
+   您也可以按一下[，在](orders.md#orders-workspace)訂單工作區&#x200B;**[!UICONTROL Create New Order]**&#x200B;中建立訂單。
 
 ## 步驟2：新增產品
 
@@ -95,10 +95,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [！UICONTROL [自訂訂單屬性]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->請參閱[Payment Services指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
+>請參閱[Payment Services指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
 
 ## 步驟3：提交訂單
 
