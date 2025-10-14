@@ -281,7 +281,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL OpenSearch HTTP Password] | 全域 | 當&#x200B;_啟用Elasticsearch HTTP驗證_&#x200B;設定為`Yes`時，指定OpenSearch或Elasticsearch HTTP驗證的密碼。 |
 | [!UICONTROL OpenSearch Server Timeout] | 全域 | 決定OpenSearch或Elasticsearch伺服器要求逾時前的秒數。 預設值： `15` |
 | [!UICONTROL Test Connection] |  | 驗證OpenSearch或Elasticsearch連線。 |
-| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
+| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;與&#x200B;_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
 | [!UICONTROL Search Recommendations Count] | 存放區檢視 | 指定建議所提供的搜尋字詞數目。 依預設，不會顯示超過五個。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 存放區檢視 | 設定為`Yes`時，為建議的搜尋建議找到的產品數量會顯示在方括弧中。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 存放區檢視 | 決定是否顯示搜尋建議是否有常見的拼字錯誤。 啟用後，系統會針對未傳回任何結果且出現在&#x200B;**搜尋結果**&#x200B;頁面的`Did you mean`區段下的任何要求提供搜尋建議。 搜尋建議可能會影響搜尋效能。 設定為`Yes`時，會針對「啟用搜尋建議」和相關欄位顯示其他選項。 選項： `Yes` / `No` |

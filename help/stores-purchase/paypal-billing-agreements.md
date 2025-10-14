@@ -35,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
-每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_&#x200B;和&#x200B;_[!UICONTROL Related Orders]_。
 
 #### 一般資訊
 

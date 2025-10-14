@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >對於&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和_[!UICONTROL Stock Sources]_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update`、`Replace`和`Delete`。 對於&#x200B;_客戶財務_、_客戶主要檔案_&#x200B;和&#x200B;_客戶與地址_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
+     >對於&#x200B;_[!UICONTROL Advanced Pricing]_、_[!UICONTROL Products]_、_[!UICONTROL Customers and Addresses (single file)]_&#x200B;和&#x200B;_[!UICONTROL Stock Sources]_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update`、`Replace`和`Delete`。 對於&#x200B;_客戶財務_、_客戶主要檔案_&#x200B;和&#x200B;_客戶與地址_&#x200B;實體型別，會顯示這些匯入行為： `Add/Update Complex Data`、`Delete Entities`和`Custom Action`。
 
    - **[!UICONTROL Start Time]** — 設定為排程開始匯入的小時、分鐘和秒。
 

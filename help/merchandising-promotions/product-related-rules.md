@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 指派給每個相關產品規則的唯一數值識別碼 |
 | [!UICONTROL Rule] | 相關產品規則的名稱 |
-| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
+| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和&#x200B;_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和&#x200B;_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
 | [!UICONTROL Priority] | 在此欄位中輸入文字，以根據為規則定義的優先順序來篩選清單。 |
 | [!UICONTROL Applies To] | 此選項會篩選套用至`Related Products`、`Up-sells`和`Cross-sells`的規則清單。 |
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |

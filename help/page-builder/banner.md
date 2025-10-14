@@ -50,7 +50,7 @@ ht-degree: 0%
 
    ![將橫幅內容型別拖曳到舞台](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   已包含&#x200B;_[!UICONTROL Upload Image]_&#x200B;和_[!UICONTROL Select from Gallery]_&#x200B;按鈕，因此您可以直接從舞台快速變更橫幅內容。 您也可以變更&#x200B;_[!UICONTROL Edit Banner]_&#x200B;頁面上的內容。
+   已包含&#x200B;_[!UICONTROL Upload Image]_&#x200B;和&#x200B;_[!UICONTROL Select from Gallery]_&#x200B;按鈕，因此您可以直接從舞台快速變更橫幅內容。 您也可以變更&#x200B;_[!UICONTROL Edit Banner]_&#x200B;頁面上的內容。
 
 1. 按一下橫幅預留位置以顯示[文字編輯器](../content-design/editor.md)，然後輸入橫幅的內容。
 

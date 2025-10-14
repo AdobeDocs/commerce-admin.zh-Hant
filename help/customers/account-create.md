@@ -147,7 +147,7 @@ ht-degree: 0%
 
    否則，請按一下&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;並重複上述步驟以新增其他地址。
 
-   新地址會顯示在[!UICONTROL Addresses]頁面中，並在完整清單上方選取&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;個地址。
+   新地址會顯示在[!UICONTROL Addresses]頁面中，並在完整清單上方選取&#x200B;_[!UICONTROL Default Billing]_&#x200B;和&#x200B;_[!UICONTROL Default Shipping]_&#x200B;個地址。
 
    ![位址檢視](assets/address-list.png){width="600" zoomable="yes"}
 

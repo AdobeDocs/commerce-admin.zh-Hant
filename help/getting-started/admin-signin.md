@@ -156,7 +156,7 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## 維護對管理員的安全存取
 

@@ -310,7 +310,7 @@ _使用[Inventory management](../inventory-management/introduction.md)_&#x200B;�
 
       - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![ ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
+      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![&#x200B; ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
