@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。如需Commerce中新出貨實作的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}頁面。
+>由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。如需Commerce中新出貨實作的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/tw/products/magento/shipping.html){:target="_blank"}頁面。
 
 ## 基本傳送方法
 

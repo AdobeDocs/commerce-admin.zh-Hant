@@ -28,7 +28,7 @@ ht-degree: 0%
 
 與Adobe Commerce 2.4.9-alpha3版相容
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ## B2B v1.5.3-alpha2
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p3、2.4.7-p8和2.4.6-p13安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p7、2.4.6至2.4.6-p12相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ## B2B v1.5.2-p2
 
@@ -223,7 +223,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p8+和2.4.6-p13+安全性修補程式發行版本。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -385,7 +385,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.6-p13+安全性修補程式發行版本。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ## B2B v1.3.5-p12
 
@@ -475,7 +475,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ## B2B v1.3.4-p14
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-![已修正的問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正
+![已修正的問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正
 
 ## B2B v1.3.3-p15
 

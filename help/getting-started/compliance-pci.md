@@ -48,5 +48,5 @@ ht-degree: 0%
 
 隨著您的業務成長，您可能需要每年提交合規性報告。 PCI報告需求會依商戶等級比例增加，但若企業每年處理的信用卡交易少於20,000筆，則可免除這些要求。 若要瞭解更多資訊，請造訪[PCI安全性標準委員會][2]網站。
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/tw/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

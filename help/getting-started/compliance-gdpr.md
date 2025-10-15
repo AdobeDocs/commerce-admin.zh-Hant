@@ -51,6 +51,6 @@ ht-degree: 0%
 
 - 如需資料流程圖表和資料庫實體對應，請參閱[個人資訊參考][2]{： target=&quot;_blank&quot;}。
 
-[1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
+[1]: https://business.adobe.com/tw/privacy/general-data-protection-regulation.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
