@@ -98,7 +98,7 @@ Buyers can add products to a requisition list from:
 
 ### From an existing quote
 
-[!UICONTROL Move to Requisition List][!UICONTROL Move to Requisition List]
+[!UICONTROL Move to Requisition List]&#x200B;[!UICONTROL Move to Requisition List]
 
 1. **[!UICONTROL My Quotes]**
 
@@ -106,7 +106,7 @@ Buyers can add products to a requisition list from:
 
 1. [!UICONTROL Items Quoted]
 
-1. [!UICONTROL Select][!UICONTROL Actions]&#x200B;**[!UICONTROL Move to Requisition list]**
+1. [!UICONTROL Select]&#x200B;[!UICONTROL Actions]&#x200B;**[!UICONTROL Move to Requisition list]**
 
 1. Select the requisition list for the selected items.
 
