@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增2025年10月B2B安全性修補程式<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">發行說明</a>。</p>
+      <td><p>已新增2025年10月B2B安全性修補程式<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes">發行說明</a>。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增有關如何在Adobe Commerce as a Cloud Service的「管理員」中檢視及編輯<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自訂訂單屬性</a>的資訊。</p>
+      <td><p>已新增有關如何在Adobe Commerce as a Cloud Service的「管理員」中檢視及編輯<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">自訂訂單屬性</a>的資訊。</p>
 </td>
       <td>
         重大更新
@@ -67,7 +67,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已從<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">可設定產品</a>主題的「產品變化屬性需求」表格中移除「用於促銷規則條件」屬性。</p>
+      <td><p>已從<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">可設定產品</a>主題的「產品變化屬性需求」表格中移除「用於促銷規則條件」屬性。</p>
 </td>
       <td>
         技術
@@ -75,7 +75,7 @@ ht-degree: 3%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">認可</a></td>
     </tr>
     <tr>
-      <td><p>已新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">客戶區段</a>條件的每種型別的說明。</p>
+      <td><p>已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/segments/customer-segment-create">客戶區段</a>條件的每種型別的說明。</p>
 </td>
       <td>
         技術
@@ -97,7 +97,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已移除已過時的New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">報告</a>功能檔案。</p>
+      <td><p>已移除已過時的New Relic <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/reporting/new-relic-reporting">報告</a>功能檔案。</p>
 </td>
       <td>
         重大更新
