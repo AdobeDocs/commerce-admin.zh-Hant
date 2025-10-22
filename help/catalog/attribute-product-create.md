@@ -3,16 +3,16 @@ title: 建立及刪除產品屬性
 description: 瞭解如何建立和移除產品屬性，這些屬性用於描述目錄中產品的特定特性。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
+source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # 建立及刪除產品屬性
 
-您可以在處理產品時或從&#x200B;_[!UICONTROL Product Attributes]_&#x200B;頁面建立屬性。 下列步驟說明如何從&#x200B;_[!UICONTROL Stores]_&#x200B;功能表建立屬性。
+您可以在處理產品時或從&#x200B;_[!UICONTROL Product Attributes]_頁面建立屬性。 下列步驟說明如何從_[!UICONTROL Stores]_&#x200B;功能表建立屬性。
 
 ## 步驟1：說明基本屬性特性
 
@@ -31,7 +31,7 @@ ht-degree: 0%
    | `Text Field` | 單行文字輸入欄位。 |
    | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
    | `Text Editor` | 屬性位置的完整文字編輯器。 |
-   | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**&#x200B;根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
+   | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_管理員_&#x200B;使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
    | `Dropdown` | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](product-create-configurable.md)的關鍵元件。 |
    | `Multiple Select` | 顯示接受多個選取專案的下拉式值清單。 |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 針對[!UICONTROL Dropdown]和[!UICONTROL Multiple Select]輸入型別，請執行下列動作：
 
-   - 在&#x200B;_[!UICONTROL Manage Options]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Add Option]**。
+   - 在&#x200B;_[!UICONTROL Manage Options]_底下，按一下&#x200B;**[!UICONTROL Add Option]**。
 
    - 輸入您要在清單中顯示的第一個值。
 
@@ -66,11 +66,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不建議在[!UICONTROL Attribute Code]欄位中使用`type`值。 這可能會造成錯誤，因為`type`值已保留供系統使用。
+   >不建議在`type`欄位中使用[!UICONTROL Attribute Code]值。 這可能會造成錯誤，因為`type`值已保留供系統使用。
 
    ![產品屬性 — 進階屬性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定。
+   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_設定。
 
 1. 設定&#x200B;**[!UICONTROL Scope]**&#x200B;以指示在您的[存放區階層](../getting-started/websites-stores-views.md)中可以使用屬性的位置。
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 1. 若要將此屬性新增至[產品清單](products-list.md)，請將下列選項設定為`Yes`。
 
-   - **新增至資料行選項** — 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中包含屬性作為資料行。
-   - **用於篩選選項** — 將篩選控制項新增至&#x200B;_[!UICONTROL Products]_&#x200B;清單中的欄標題。
+   - **新增至資料行選項** — 在&#x200B;_[!UICONTROL Products]_清單中包含屬性作為資料行。
+   - **用於篩選選項** — 將篩選控制項新增至&#x200B;_[!UICONTROL Products]_清單中的欄標題。
 
 ## 步驟3：輸入欄位標籤
 
@@ -104,13 +104,17 @@ ht-degree: 0%
 
    ![產品屬性 — 管理標題](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用[即時搜尋指南](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中即時搜尋多面向清單&#x200B;_中的_&#x200B;編輯選項，手動編輯標籤。
+
 ## 步驟4：說明店面屬性
 
 1. 在左側導覽中選擇&#x200B;**[!UICONTROL Storefront Properties]**。
 
    ![產品屬性 — 店面屬性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定。
+   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_設定。
 
 1. 如果屬性可供搜尋，請將&#x200B;**[!UICONTROL Use in Search]**&#x200B;設為`Yes`。
 
@@ -173,7 +177,7 @@ ht-degree: 0%
 
 在刪除屬性之前，請確定您目錄中的任何產品目前都沒有使用屬性。 若要判斷屬性是否正在使用中，一個簡單的方法是使用[匯出](../systems/data-export.md)工具來檢查產品實體屬性的清單。 如果屬性未包含在清單中，則目錄中的任何產品都不會使用它。
 
-**_若要刪除屬性：_**
+**_若要刪除屬性:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
 
