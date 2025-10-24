@@ -1,17 +1,17 @@
 ---
-title: 資料摘要狀態監視
+title: 資料摘要同步狀態監視
 description: 監視資料匯出同步處理，並識別 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendations]摘要處理的任何問題或延遲。
 feature: Products, Customers, Data Import/Export
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 433d3fd4dc10a81b685262c1e3c06a0da5778841
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 
-# 資料摘要狀態監視
+# 資料摘要同步狀態監視
 
 Adobe Commerce管理員可以使用Commerce管理員中的資料摘要同步狀態頁面，監控從Adobe Commerce匯出至連線Commerce服務的資料同步狀態。
 
@@ -19,7 +19,7 @@ Adobe Commerce管理員可以使用Commerce管理員中的資料摘要同步狀�
 
 此頁面提供資料匯出摘要的健全狀況與效能的即時深入分析，這些摘要會將產品與類別資料從Commerce傳輸至外部服務，例如[!DNL Product Recommendations]、[!DNL Live Search]與[!DNL Catalog Service]。
 
-同步狀態頁面僅顯示匯出狀態。 成功狀態表示資料已成功匯出至SaaS資料庫以供發佈。 使用[資料管理儀表板](data-dashboard.md)追蹤從Commerce資料庫傳輸到連線服務的資料。
+同步狀態頁面僅顯示匯出狀態。 成功狀態表示資料已成功匯出，且最終可在連線的Commerce服務中使用。 使用[資料管理儀表板](data-dashboard.md)檢視實體同步的實際狀態。
 
 監控摘要狀態有助於確保資料一致性，並可迅速解決匯出程式中發生的任何問題。 管理員可以：
 
@@ -38,30 +38,30 @@ Adobe Commerce管理員可以使用Commerce管理員中的資料摘要同步狀�
 
 >[!TIP]
 >
->若要深入瞭解資料同步化程式，請參閱[SaaS Data Export指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/data-synchronization)*中的&#x200B;*Synchronize data with SaaS data export*。
+>若要深入瞭解資料同步化程式，請參閱[SaaS Data Export指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)中的&#x200B;*Synchronize data with SaaS data export*。
 
 ## 安裝擴充功能
 
 擁有下列Commerce服務有效授權的所有Commerce商戶都可使用「資料摘要狀態」頁面：
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)具有使用中的授權。
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)具有使用中的授權。
 
 **需求**
 
 * PHP 8.1、8.2、8.3或8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce資料匯出擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/manage-extension)，103.4.15版或更新版本
+* [Adobe Commerce資料匯出擴充功能](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension)，103.4.15版或更新版本
 * 存取[repo.magento.com](https://repo.magento.com)
 
-  若要產生金鑰並取得必要的許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+  若要產生金鑰並取得必要的許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
 
 * 存取Adobe Commerce應用程式伺服器的命令列。
 
 ### 安裝步驟
 
-使用撰寫器新增`adobe-commerce/module-data-exporter-status`模組：
+使用撰寫器新增`magento/module-data-exporter-status`模組：
 
 ```shell
 composer require magento/module-data-exporter-status
@@ -69,13 +69,13 @@ composer require magento/module-data-exporter-status
 
 如需詳細的安裝步驟，請參閱下列指南：
 
-* 在雲端基礎結構上的Adobe Commerce上[安裝擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* 在雲端基礎結構上的Adobe Commerce上[安裝擴充功能](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [安裝擴充功能Adobe Commerce內部部署](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [安裝擴充功能Adobe Commerce內部部署](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 存取資料摘要狀態頁面
 
-從Commerce管理員，存取Commerce管理員的資料摘要狀態頁面： **[!DNL System]** >資料傳輸> **[!DNL Data Feed SyncStatus]**。
+從Commerce管理員，存取Commerce管理員的資料摘要狀態頁面： **[!DNL System]** >資料傳輸> **[!DNL Data Feed Sync Status]**。
 
 ![資料摘要同步狀態頁面摘要資料摘要匯出活動](assets/data-feed-sync-status.png)
 
@@ -133,7 +133,7 @@ composer require magento/module-data-exporter-status
 
 >[!TIP]
 >
->若要深入瞭解索引處理，請參閱[索引管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/tools/index-management)主題。
+>若要深入瞭解索引處理，請參閱[索引管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management)主題。
 
 #### 變更記錄檔待處理專案
 
@@ -165,7 +165,7 @@ composer require magento/module-data-exporter-status
 
 >[!NOTE]
 >
->Adobe也提供開發人員和系統整合經銷商可用來管理和追蹤同步作業的命令列介面工具和系統記錄檔。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/saas-data-export/overview)。
+>Adobe也提供開發人員和系統整合經銷商可用來管理和追蹤同步作業的命令列介面工具和系統記錄檔。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)。
 
 ### 管理失敗的匯出
 
@@ -265,5 +265,5 @@ composer require magento/module-data-exporter-status
 
 >[!MORELIKETHIS]
 >
->* [資料管理儀表板](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/saas-data-export/overview)
+>* [資料管理儀表板](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
+>* [SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
