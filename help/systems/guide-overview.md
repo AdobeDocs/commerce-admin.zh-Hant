@@ -24,7 +24,7 @@ ht-degree: 7%
 | [電子郵件範本](email-templates.md) | 電子郵件範本定義從您的商店傳送之自動化訊息的配置、內容和格式。 這些電子郵件稱為交易式電子郵件，因為每個電子郵件都與特定型別的交易或事件相關聯。 |
 | [資料傳輸](data-transfer.md) | <ul><li>匯入和匯出工具可讓您在單一操作中管理多個記錄。 您不僅可以匯入新專案，還可以更新、取代和刪除現有的產品集。</li><li>檢視從[[!UICONTROL Data Management Dashboard]](data-dashboard.md)傳輸到已連線Commerce服務之實體的資料同步處理狀態。</li><li>監視從[[!UICONTROL Data Export Feed Sync Status]](data-feed-sync-status.md)頁面將資料摘要匯出到Commerce SaaS服務的同步處理狀態。</li></ul> |
 | [動作記錄檔](action-log.md) | 對於Adobe Commerce，動作記錄會擷取在您商店中工作的管理員使用者所進行的每項變更。 這可讓您追蹤對存放區進行的所有變更。 |
-| 工具 | 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}系統管理員擁有可用的工具集合： [支援工具](support.md)是用來識別您系統中的已知問題。 系統工具提供作業支援，以執行常式[索引](index-management.md)和[快取](cache-management.md)管理、[備份系統](backups.md)、管理[排程的作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。 |
+| 工具 | 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}系統管理員擁有可用的工具集合： [支援工具](support.md)是用來識別您系統中的已知問題。 系統工具提供作業支援，以執行常式[索引](index-management.md)和[快取](cache-management.md)管理、[備份系統](backups.md)、管理[排程的作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。 |
 | [整合](integrations.md) | 建立OAuth憑證的位置，並提供第三方整合的重新導向URL。 |
 | [安全性](security.md) | 瞭解可用於保護您的存放區和資料的工具，以及在您偵測到危害時安全性行動計畫的准則。 |
 
