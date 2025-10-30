@@ -3,9 +3,9 @@ title: 設定送貨標籤
 description: 瞭解如何設定商店以產生配送標籤。
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | [!UICONTROL Carrier] | 需求 |
 |-------|--------|
-| [USPS](usps.md) | 需要USPS帳戶。 自2018年2月23日起，USPS要求所有運送標籤皆須包含郵資。 |
+| [USPS](usps.md) | 運送標籤郵資需要USPS帳戶。 |
 | [UPS](ups.md) | 需要UPS帳戶。 出貨標籤僅適用於產自美國特定證明的出貨。美國以外的商店需要此證明資料。 |
 | [FedEx](fedex.md) | 需要FedEx帳戶。 對於美國以外的商店，僅支援國際出貨的運送標籤。 FedEx不允許源自美國境外的國內出貨 |
 | [DHL](dhl.md) | 需要DHL帳戶。 僅支援源自美國的出貨標籤。 |

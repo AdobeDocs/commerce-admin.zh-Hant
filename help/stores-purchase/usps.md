@@ -3,9 +3,9 @@ title: 美國郵政服務(USPS)
 description: 瞭解如何將USPS設定為您的商店的運送業者。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 0%
 
 ## 步驟2：為商店啟用USPS
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展開&#x200B;**[!UICONTROL USPS]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL USPS]**。
 
    >[!NOTE]
    >
@@ -34,17 +36,28 @@ ht-degree: 0%
 
 1. 將&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;設為`Yes`。
 
-1. 如有需要，請輸入&#x200B;**[!UICONTROL Gateway URL]**&#x200B;以存取USPS運費。
+1. 如果您使用USPS REST API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Rest APIs`。
 
-   >[!IMPORTANT]
-   >
-   >自2021年6月24日起，USPS網頁工具將移除對所有不安全HTTP端點的支援。 進行此變更後，對不安全HTTP端點的所有Web工具API請求都將失敗。 確定您的&#x200B;**[!UICONTROL Gateway URL]**&#x200B;使用安全的HTTPS端點。
+   如果您使用USPS Web Tools API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Web Tools API`。
+
+1. 如有需要，請輸入&#x200B;**[!UICONTROL Gateway URL]**&#x200B;以存取USPS運費。
 
    預設會預設欄位，通常不需要變更。
 
 1. 輸入此送貨方式的&#x200B;**[!UICONTROL Title]**，此送貨方式會在結帳時顯示。
 
-1. 輸入您USPS帳戶的&#x200B;**[!UICONTROL User ID]**&#x200B;和&#x200B;**[!UICONTROL Password]**。
+1. 使用USPS提供的憑證完成下列欄位：
+
+   如果您使用USPS Rest API，您必須提供下列認證：
+
+   - **[!UICONTROL Consumer Key]**
+   - **[!UICONTROL Consumer Secret]**
+   - **[!UICONTROL Pricing Options]**
+
+   如果您使用USPS Web Tools API，您必須提供下列認證：
+
+   - **[!UICONTROL User ID]**
+   - **[!UICONTROL Password]**
 
 1. 將&#x200B;**[!UICONTROL Mode]**&#x200B;設定為下列其中一項：
 
@@ -128,7 +141,6 @@ ht-degree: 0%
    `0` =第一，`1` =第二，`2` =第三，依此類推。
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
-
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm
