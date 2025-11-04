@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帳戶登入與商店管理員登入不同。 您通常會對每個系統使用不同的認證，而且每個系統的存取許可權都是獨立管理的。
 
-但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
+但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
 
 >[!NOTE]
 >
