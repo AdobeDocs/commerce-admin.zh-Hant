@@ -3,9 +3,9 @@ title: 建立並存取您的 [!DNL Commerce] 帳戶
 description: 瞭解 [!DNL Commerce] 帳戶，這些帳戶管理您購買的產品和服務。
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帳戶登入與商店管理員登入不同。 您通常會對每個系統使用不同的認證，而且每個系統的存取許可權都是獨立管理的。
 
-但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
+但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 登入您的[!DNL Commerce]帳戶
 
-必須有Adobe ID才能存取Commerce帳戶。 如果您已有[!DNL Commerce]帳戶，但自2022年8月起尚未登入該帳戶，則必須在登入過程中建立Adobe ID。
+需要Adobe ID才能存取您的Commerce帳戶。 如果您有現有的[!DNL Commerce]帳戶，但自2022年8月起尚未登入，則必須在登入過程中建立Adobe ID。 您必須先完成此步驟，才能登入您的帳戶。
 
 >[!WARNING]
 >
