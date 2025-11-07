@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder]使用手冊 {#page-builder}
 
 - [[!DNL Page Builder]使用手冊](guide-overview.md)
-- [ [!DNL Page Builder]簡介](introduction.md)
+- [&#x200B; [!DNL Page Builder]簡介](introduction.md)
 - [發行說明](release-notes.md)
 - [組態和設定](setup.md)
 - 逐步解說 {#walkthrough}
