@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce和Magento Open Source包含許多工具�
 breadcrumb-title: 銷售與促銷
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
       - [建立電子郵件提醒](email-reminder-rules-create.md)
 - 搜尋引擎最佳化 {#seo}
    - [SEO概述和最佳作法](seo-overview.md)
-   - [中繼資料](meta-data.md)
+   - [Meta資料](meta-data.md)
    - [網站地圖](sitemap-xml.md)
    - URL重新寫入 {#url-rewrites}
       - [概述和設定](url-rewrite.md)
@@ -86,5 +86,3 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
-

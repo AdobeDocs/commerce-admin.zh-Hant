@@ -3,18 +3,18 @@ title: 訂購
 description: 瞭解在Admin中用於尋找訂單的「訂單」工作區及搜尋功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
 
 # 訂購
 
-_訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](order-processing.md)追蹤其進度和[訂單狀態](order-status.md)。 要瞭解基本程式，一個簡單的方法是訂單成為[發票](invoices.md)，而發票成為[出貨](shipments.md)。 網格代表程式的第一階段，您可以[更新](order-update.md)現有訂單並建立訂單。
+_訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](order-status.md)追蹤其進度和[訂單狀態](order-processing.md)。 要瞭解基本程式，一個簡單的方法是訂單成為[發票](invoices.md)，而發票成為[出貨](shipments.md)。 網格代表程式的第一階段，您可以[更新](order-update.md)現有訂單並建立訂單。
 
-通常，當客戶從店面完成結帳程式時，就會建立訂單。 不過，如果客戶需要協助，您也可以存取其[購物車](shopping-assisted-cart-manage.md)或[從&#x200B;_訂單_&#x200B;網格或直接從其客戶帳戶建立訂單](customer-account-create-order.md)。
+通常，當客戶從店面完成結帳程式時，就會建立訂單。 不過，如果客戶需要協助，您也可以存取其[購物車](shopping-assisted-cart-manage.md)或[從](customer-account-create-order.md)訂單&#x200B;_網格或直接從其客戶帳戶建立訂單_。
 
 ## 訂單工作區
 
@@ -111,7 +111,7 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 | [!UICONTROL Grand Total (Base)] | 訂單的總計。 |
 | [!UICONTROL Grand Total (Purchased)] | 訂單中購買的產品總數。 |
 | [!UICONTROL Status] | 目前的訂單狀態。 |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;會以編輯模式開啟訂單。 |
+| [!UICONTROL Action] | _[!UICONTROL View]_會以編輯模式開啟訂單。 |
 | [!UICONTROL Allocated sources] | 配置給該特定訂單的來源。 |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 
 ### 篩選搜尋
 
-1. 若要顯示選取的搜尋篩選器，請按一下&#x200B;_篩選器_ （ ![漏斗圖示](../assets/icon-filter-search.png) ）索引標籤。
+1. 若要顯示選取的搜尋篩選器，請按一下&#x200B;_篩選器_ ( ![Funnel圖示](../assets/icon-filter-search.png) )索引標籤。
 
    ![排序篩選器](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 
 {style="table-layout:auto"}
 
-## 疑難排解資源
-
-如需疑難排解訂單問題的說明，請參閱下列Commerce支援知識庫文章：
-
-- [訂單顯示錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=zh-Hant)
-- [訂單未顯示在Admin](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)的「訂單」格線中

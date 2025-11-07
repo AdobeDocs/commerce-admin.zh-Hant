@@ -3,8 +3,8 @@ title: 授權Adobe Stock影像
 description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，請授權您的Adobe Stock影像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 ## 從標準媒體儲存空間授權影像
 
-1. [存取Adobe Stock搜尋格線][access-search]。
+1. [存取Adobe Stock搜尋格線][adobe-stock-manage.md]。
 
-1. 若要[檢視影像詳細資料][view-details]，請按一下搜尋格線中的影像。
+1. 若要[檢視影像詳細資料][adobe-stock-manage.md#view-image-details]，請按一下搜尋格線中的影像。
 
 1. 請根據影像目前的授權狀態，執行下列任一項作業：
 
@@ -75,6 +75,6 @@ ht-degree: 0%
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/tw/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html

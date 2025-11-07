@@ -3,9 +3,9 @@ user-guide-title: 內容與設計手冊
 user-guide-description: 針對Adobe Commerce和Magento Open Source管理員以及電子商務行銷人員提供的有關內容和設計功能的完整資訊。
 breadcrumb-title: 內容和設計
 feature: CMS, Page Content
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: 198ceac9ae9bf47211295567231b1a43beff3927
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '250'
 ht-degree: 4%
 
 ---
@@ -91,4 +91,4 @@ ht-degree: 4%
    - [測試儀表板](content-staging-dashboard.md)
    - [新增行銷活動專案](content-staging-add-item.md)
    - [預覽行銷活動](content-staging-preview.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
+

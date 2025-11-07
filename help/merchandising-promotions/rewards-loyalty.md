@@ -3,9 +3,9 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 在此步驟中，會指定可為各種客戶活動取得的獎勵點數。 當客戶完成已指定點的動作時，客戶會看到一則訊息，指出已獲得多少點。
 
-1. 展開&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**。
 
    ![客戶組態 — 客戶取得獎勵分數的動作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -122,7 +122,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 ### 步驟3. 完成電子郵件通知設定
 
-1. 展開&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Email Notification Settings]**。
 
    ![客戶設定 — 獎勵點數電子郵件通知](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_。
 
 1. 在&#x200B;_客戶資訊_&#x200B;底下，選擇&#x200B;**[!UICONTROL Reward Points]**&#x200B;區段。
 
@@ -164,7 +164,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**。
 
-與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;區塊中。
+與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_區塊中。
 
 ## 欄位說明
 
@@ -183,8 +183,3 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 {style="table-layout:auto"}
 
-## 疑難排解資源
-
-如需疑難排解獎勵點問題的說明，請參閱下列Commerce支援知識庫文章：
-
-- [404錯誤 — 移除多重出貨結帳的獎勵點](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=zh-Hant)
