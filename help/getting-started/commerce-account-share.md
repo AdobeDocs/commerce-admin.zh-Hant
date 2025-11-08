@@ -112,7 +112,7 @@ ht-degree: 0%
    > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果帳戶具有[命名模式且無法刪除](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)，這是因為共用存取權是由API建立，而非直接從[Commerce帳戶](https://account.magento.com/)建立。
    > 
    > 如果無法刪除，只要讓帳戶擁有者修改共用存取帳戶，並在[授予帳戶許可權]底下，取消勾選每個專案。 在該更新後，使用者將無法再存取任何帳戶資源。
-   > ![影像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![影像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.zh-Hant/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
