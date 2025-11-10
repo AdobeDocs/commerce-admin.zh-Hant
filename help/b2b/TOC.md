@@ -68,4 +68,4 @@ ht-degree: 6%
 + 參考 {#reference}
    + [與舊版不相容的變更](backward-incompatible-changes.md)
    + [封裝](packages.md)
-+ [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
