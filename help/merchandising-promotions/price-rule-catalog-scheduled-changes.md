@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >每當您更新任何規則資訊引數時，請確定&#x200B;_[!UICONTROL Status]_已正確設定。 如果您希望變更產生主動套用的規則，請將狀態設定為`Active`。
+   >每當您更新任何規則資訊引數時，請確定&#x200B;_[!UICONTROL Status]_&#x200B;已正確設定。 如果您希望變更產生主動套用的規則，請將狀態設定為`Active`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -112,4 +112,4 @@ ht-degree: 0%
 
    若要檢視不同商店檢視的已排程變更，請按一下[預覽]頁面標頭中的&#x200B;**[!UICONTROL Scope]**。 選擇您要預覽的網站、商店或商店檢視。
 
-1. 如有必要，請返回行事曆並按一下&#x200B;**[!UICONTROL View/Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_以開啟另一個排定的更新。
+1. 如有必要，請返回行事曆並按一下&#x200B;**[!UICONTROL View/Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_&#x200B;以開啟另一個排定的更新。
