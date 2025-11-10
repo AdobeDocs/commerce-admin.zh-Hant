@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce和Magento Open Source包含許多工具�
 breadcrumb-title: 銷售與促銷
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,4 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
