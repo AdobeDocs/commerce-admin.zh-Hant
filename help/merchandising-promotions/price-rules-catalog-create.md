@@ -3,9 +3,9 @@ title: 建立型錄價格規則
 description: 瞭解如何建立目錄價格規則，以便在符合一組條件時，將折扣套用至特定產品。
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_&#x200B;區段包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可擴充區段。
+   _[!UICONTROL Rule Information]_區段包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可擴充區段。
 
    ![目錄價格規則 — 資訊](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -44,6 +44,10 @@ ht-degree: 0%
 1. ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)輸入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期，以判斷價格規則何時生效。
 
    您可以輸入日期或使用&#x200B;**[!UICONTROL Calendar]** （![行事曆圖示](../assets/icon-calendar.png)）來選擇日期。 若將日期保留為空白，則會在儲存價格規則時啟用規則。
+
+   >[!NOTE]
+   >
+   >`From`和`To`欄位已從Adobe Commerce的目錄價格規則設定頁面中移除，且無法直接在目錄價格規則上修改。 您必須建立排定的更新，以設定啟用價格規則的排程。
 
 1. 輸入數字以建立此規則與其他規則相關的&#x200B;**[!UICONTROL Priority]**。
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >搭配&#x200B;_SKU_&#x200B;產品屬性與可設定產品使用`is not one of`條件時，必須同時選取父項與子項產品SKU。 若要避免在規則中列出所有子SKU，您可以針對可設定產品及其子產品的通用SKU部分使用`does not contain`條件。
+   >搭配`is not one of`SKU _產品屬性與可設定產品使用_&#x200B;條件時，必須同時選取父項與子項產品SKU。 若要避免在規則中列出所有子SKU，您可以針對可設定產品及其子產品的通用SKU部分使用`does not contain`條件。
 
    選取的條件會顯示在陳述式中，後面接著兩個粗體連結。 選項會因您選取的條件屬性而有所不同。 宣告現在說：
 
@@ -203,9 +207,9 @@ ht-degree: 0%
 
 1. 更新規則的屬性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
+   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
 
 1. 測試規則以確保其正常運作。
 
@@ -242,7 +246,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |-----|-----------|
-| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Apply as percentage of original]**— 減去一般價格的百分比，以折扣料號。<br/>**[!UICONTROL Apply as fixed amount]** — 從一般價格減去固定金額，以折扣專案。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 以一般價格的百分比調整最終價格。<br/>**[!UICONTROL Adjust final price to discount value]** — 將最終價格設定為固定的折扣金額。 <br/><br/>**_備註：_**&#x200B;一般價格是指不含任何進階價格（特殊/階層/群組）或促銷折扣的基準產品價格。 最終價格是指出現在購物車中的折扣價格。 <br/>使用下列公式，以&#x200B;**_最低&#x200B;_**&#x200B;相關價格計算&#x200B;**_最終&#x200B;_**&#x200B;產品價格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Apply as percentage of original]**— 減去一般價格的百分比，以折扣料號。<br/>**[!UICONTROL Apply as fixed amount]** — 從一般價格減去固定金額，以折扣專案。 <br/>**[!UICONTROL Adjust final price to this percentage]**— 以一般價格的百分比調整最終價格。<br/>**[!UICONTROL Adjust final price to discount value]** — 將最終價格設定為固定的折扣金額。 <br/><br/>**_備註:_**&#x200B;一般價格是指不含任何進階價格（特殊/階層/群組）或促銷折扣的基本產品價格。 最終價格是指出現在購物車中的折扣價格。 <br/>使用下列公式，以&#x200B;**_最低_**&#x200B;相關價格計算&#x200B;**_最終_**&#x200B;產品價格： <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | （必要）提供的折扣金額。 |
 | [!UICONTROL Discard Subsequent Rules] | 決定是否可將其他規則套用至此次購買。 若要防止將多重折扣套用至相同的購買，請選取`Yes`。 選項： `Yes` / `No` |
 
