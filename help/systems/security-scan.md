@@ -4,9 +4,9 @@ description: 瞭解如何執行增強式安全性掃描，並監控每個Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 27c23a24b9435c5f94b483bafe5edb467aa14267
+source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -22,91 +22,137 @@ ht-degree: 0%
 - 存取追蹤及監控網站進度的歷史安全性報告。
 - 存取顯示成功和失敗檢查的掃描報告，並附上任何建議的動作。
 
-安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)中的&#x200B;_設定安全性掃描工具_。
+安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)中的&#x200B;_設定安全性掃描工具_。
 
 ![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
-## 執行安全性掃描
+## 工作流程
+
+若要為您的Adobe Commerce或Magento Open Source網站設定安全性掃描工具，請完成兩個步驟：
+
+1. [設定您的網站以進行安全性掃描](#step-1-set-up-your-site-for-security-scanning)
+2. [設定自動安全性掃描](#step-2-configure-automatic-security-scans)
+
+### 步驟1：設定您的網站以進行安全性掃描
 
 1. 從Commerce首頁，登入您的[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)。
 
-1. 檢閱並接受使用安全性掃描工具的條款。
+2. 檢閱並接受使用安全性掃描工具的條款。
 
    1. 在左側面板中選擇&#x200B;**[!UICONTROL Security Scan]**。
    1. 按一下&#x200B;**[!UICONTROL Go to Security Scan]**。
    1. 讀取&#x200B;**[!UICONTROL Terms and Conditions]**。
    1. 按一下&#x200B;**[!UICONTROL Agree]**&#x200B;以繼續。
 
-1. 在&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
+3. 在&#x200B;_[!UICONTROL Monitored Websites]_頁面上，按一下&#x200B;**[!UICONTROL +Add Site]**。
 
    如果您有多個網站具有不同的網域，請為每個網域設定個別的掃描。
 
    ![監視的網站](./assets/monitored-website.png){width="600" zoomable="yes"}
 
-1. 若要透過新增確認代碼來驗證您對網站網域的所有權，請執行下列任一項作業：
+4. 產生確認代碼並新增至安全性掃描工具，以驗證您對網站網域的所有權。
 
-   **Commerce店面**：
+   新增確認代碼的程式因您使用的店面型別而異。 請依照店面型別的步驟操作。
 
-   1. 輸入&#x200B;**[!UICONTROL Site URL]**&#x200B;和&#x200B;**[!UICONTROL Site Name]**。
-   1. 按一下&#x200B;**[!UICONTROL Generate Confirmation Code]**。
-   1. 按一下&#x200B;**複製**，將確認代碼複製到剪貼簿。
+>[!BEGINTABS]
 
-      ![產生確認代碼](./assets/scan-site1.png){width="400" zoomable="yes"}
+>[!TAB Commerce店面]
 
-   1. 以具有完整管理員許可權的使用者身分登入您商店的管理員，並執行下列動作：
+1. 輸入&#x200B;**[!UICONTROL Site URL]**&#x200B;和&#x200B;**[!UICONTROL Site Name]**。
+1. 按一下&#x200B;**[!UICONTROL Generate Confirmation Code]**。
+1. 按一下&#x200B;**複製**，將確認代碼複製到剪貼簿。
 
-      1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
-      1. 在清單中尋找您的網站，然後按一下&#x200B;**[!UICONTROL Edit]**。
-      1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL HTML Head]**。
-      1. 向下捲動至&#x200B;**[!UICONTROL Scripts and Style Sheets]**，然後按一下任何現有程式碼結尾的文字方塊。 將確認代碼貼入文字方塊。
+   ![產生確認代碼](./assets/scan-site1.png){width="400" zoomable="yes"}
 
-         ![指令碼和樣式表](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+1. 以具有完整管理員許可權的使用者身分登入您商店的管理員，並執行下列動作：
 
-      1. 完成時，按一下&#x200B;**[!UICONTROL Save Configuration]**。
+   1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
+   1. 在清單中尋找您的網站，然後按一下&#x200B;**[!UICONTROL Edit]**。
+   1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL HTML Head]**。
+   1. 向下捲動至&#x200B;**[!UICONTROL Scripts and Style Sheets]**，然後按一下任何現有程式碼結尾的文字方塊。 將確認代碼貼入文字方塊。
 
-   **PWA店面**：
+      ![指令碼和樣式表](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-   1. 輸入&#x200B;**[!UICONTROL Site URL]**&#x200B;和&#x200B;**[!UICONTROL Site Name]**。
+   1. 完成時，按一下&#x200B;**[!UICONTROL Save Configuration]**。
 
-   1. 針對&#x200B;**[!UICONTROL Confirmation Code]**，請選擇`META Tag`選項，然後按一下&#x200B;**[!UICONTROL Generate Code]**。
+1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
 
-   1. 按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將產生的確認代碼META標籤複製到剪貼簿。
+>[!TAB PWA店面]
 
-      ![產生確認代碼](./assets/scan-site2.png){width="400" zoomable="yes"}
+1. 輸入&#x200B;**[!UICONTROL Site URL]**&#x200B;和&#x200B;**[!UICONTROL Site Name]**。
 
-   1. 前往PWA Studio storefront專案目錄，並執行下列動作：
+1. 針對&#x200B;**[!UICONTROL Confirmation Code]**，請選擇`META Tag`選項，然後按一下&#x200B;**[!UICONTROL Generate Code]**。
 
-      1. 在PWA Studio專案目錄下，移至`packages > venia-concept > template.html`。
-      1. 將複製的確認代碼（產生的META標籤）新增到HTML標題並儲存變更。
+1. 按一下&#x200B;**[!UICONTROL Copy]**&#x200B;以將產生的確認代碼META標籤複製到剪貼簿。
 
-         ![複製確認代碼](./assets/code-pwa.png){width="600" zoomable="yes"}
+   ![產生確認代碼](./assets/scan-site2.png){width="400" zoomable="yes"}
 
-      1. 返回PWA Studio CLI，使用Wyar安裝專案相依性並執行專案建置命令。
+1. 前往PWA Studio storefront專案目錄，並執行下列動作：
 
-         ```sh
-         yarn install &&
-         yarn build
-         ```
+   1. 在PWA Studio專案目錄下，移至`packages > venia-concept > template.html`。
+   1. 將複製的確認代碼(產生的META標籤)新增至HTML標題並儲存變更。
 
-      1. *在您的雲端專案*&#x200B;中，建立`pwa`資料夾，並將內容複製到店面專案的`dist`資料夾中。
+      ![複製確認代碼](./assets/code-pwa.png){width="600" zoomable="yes"}
 
-         ```sh
-         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
-         ```
+   1. 返回PWA Studio CLI，使用Wyar安裝專案相依性並執行專案建置命令。
 
-      1. 使用Git CLI工具來暫存、提交這些變更，並將其推播至您的雲端專案。
+      ```sh
+      yarn install &&
+      yarn build
+      ```
 
-         ```sh
-         git add . &&
-         git commit -m "Added storefront file bundles" &&
-         git push origin
-         ```
+   1. *在您的雲端專案*&#x200B;中，建立`pwa`資料夾，並將內容複製到店面專案的`dist`資料夾中。
 
-         建置流程完成後，變更將會部署至您的PWA商店前面。
+      ```sh
+      mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
+      ```
 
-1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_&#x200B;頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;以建立網域的所有權。
+   1. 使用Git CLI工具來暫存、提交這些變更，並將其推播至您的雲端專案。
 
-1. 成功確認後，為下列其中一種型別設定&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;選項：
+      ```sh
+      git add . &&
+      git commit -m "Added storefront file bundles" &&
+      git push origin
+      ```
+
+      建置流程完成後，變更將會部署至您的PWA店面。
+
+1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
+
+>[!TAB AEM店面]
+
+1. 輸入&#x200B;**[!UICONTROL Site URL]**&#x200B;和&#x200B;**[!UICONTROL Site Name]**。
+
+1. 針對&#x200B;**[!UICONTROL Confirmation Code]**，請選擇`HTML Content`或`META Tag`選項，然後按一下&#x200B;**[!UICONTROL Generate Code]**。
+
+1. 按一下&#x200B;**[!UICONTROL Copy]**&#x200B;將產生的確認代碼複製到剪貼簿。
+
+   ![產生確認代碼](./assets/scan-site3.png){width="400" zoomable="yes"}
+
+1. 前往AEM storefront專案目錄，並執行下列動作：
+
+   1. 在AEM storefront專案目錄下，移至`head.html`。
+   1. 將複製的確認代碼(產生的HTML內容或META標籤)新增至`head.html`檔案並儲存變更。
+
+   ![複製確認代碼](./assets/code-aem.png){width="600" zoomable="yes"}
+
+1. 使用Git CLI工具來暫存、認可這些變更，並將其推播至您的專案存放庫。
+
+   ```sh
+   git add . &&
+   git commit -m "Added security scan confirmation code" &&
+   git push origin
+   ```
+
+   建置流程完成後，變更將會部署至您的AEM商店前面。
+
+1. 返回Commerce帳戶中的&#x200B;_[!UICONTROL Security Scan]_頁面，然後按一下&#x200B;**[!UICONTROL Verify Confirmation Code]**以建立網域的所有權。
+
+>[!ENDTABS]
+
+### 步驟2：設定自動安全性掃描
+
+1. 成功驗證網站擁有權後，請為下列其中一種型別設定&#x200B;**[!UICONTROL Set Automatic Security Scan]**&#x200B;選項：
 
    **每週掃描（建議）**：
 
@@ -159,7 +205,7 @@ ht-degree: 0%
 
 若要管理已識別為誤判的掃描失敗，請遵循下列步驟：
 
-1. 從&#x200B;_[!UICONTROL Monitored Websites]_&#x200B;頁面，按一下您要管理之網站的&#x200B;**[!UICONTROL View Report]**。
+1. 從&#x200B;_[!UICONTROL Monitored Websites]_頁面，按一下您要管理之網站的&#x200B;**[!UICONTROL View Report]**。
 
 1. 在報表檢視中，找出要標籤為誤判的失敗掃描。
 
@@ -169,13 +215,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Apply Changes]**&#x200B;儲存您的選擇。
 
-略過的掃描失敗會移至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;區段，並從您的風險分數中排除。
+略過的掃描失敗會移至&#x200B;_[!UICONTROL Ignored Results]_區段，並從您的風險分數中排除。
 
 ### 停止忽略掃描失敗
 
 如果您需要將先前忽略的掃描失敗還原到使用中監視，請遵循下列步驟：
 
-1. 在報表檢視中，捲動至&#x200B;_[!UICONTROL Ignored Results]_&#x200B;區段。
+1. 在報表檢視中，捲動至&#x200B;_[!UICONTROL Ignored Results]_區段。
 
 1. 按一下&#x200B;**[!UICONTROL Stop Ignoring]**&#x200B;以取得您要還原的掃描失敗。
 
@@ -183,7 +229,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Apply Changes]**&#x200B;儲存您的選擇。
 
-掃描失敗會移回&#x200B;_[!UICONTROL Failed Scans]_&#x200B;區段，並包含在您的風險分數中。
+掃描失敗會移回&#x200B;_[!UICONTROL Failed Scans]_區段，並包含在您的風險分數中。
 
 ### 檢視略過的掃描失敗
 
