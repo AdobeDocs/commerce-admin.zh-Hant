@@ -211,7 +211,7 @@ ht-degree: 0%
 
 ## 刪除頁面
 
-移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_格線或_[!UICONTROL Edit]_&#x200B;頁面移除它。
+移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_&#x200B;格線或&#x200B;_[!UICONTROL Edit]_&#x200B;頁面移除它。
 
 ### 方法1：從「頁面」格線中移除頁面
 
@@ -229,7 +229,7 @@ ht-degree: 0%
 
 1. 尋找要刪除的頁面。
 
-1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_欄中，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Delete Page]**。
 
