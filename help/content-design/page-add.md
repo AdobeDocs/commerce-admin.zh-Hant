@@ -2,10 +2,10 @@
 title: 新增和移除頁面
 description: 瞭解如何新增和移除 [!DNL Commerce] 存放區中使用的內容頁面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ ht-degree: 0%
 ### 步驟2：完成內容
 
 根據您的[進階內容工具組態](../configuration-reference/general/content-management.md)，新增頁面內容。
+
+>[!NOTE]
+>
+>頁面產生器內容編輯器不會顯示預設「商店檢視」無法使用的CMS頁面元素預覽。 例如，您無法預覽僅指派給非預設存放區檢視的CMS區塊。 在此情況下，您必須先發佈CMS頁面。 然後，您可以直接在店面檢視此頁面。 或者，您也可以在[!UICONTROL Pages]欄中選取CMS頁面[!UICONTROL View]，從Admin的[!UICONTROL Action]格線檢視頁面。
 
 #### 使用頁面產生器內容工具
 
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 1. 輸入您選擇的高值&#x200B;**[!UICONTROL Meta Keywords]**，搜尋引擎可使用此選項為頁面編制索引。
 
-   請使用逗號分隔多個字詞。 某些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎會使用中繼關鍵字。
+   請使用逗號分隔多個字詞。 Meta關鍵字會被某些搜尋引擎忽略，但會被其他搜尋引擎使用。
 
 1. 針對&#x200B;**[!UICONTROL Meta Description]**，輸入搜尋結果清單頁面的簡短說明。
 
@@ -146,13 +150,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回「頁面」格線。
 
-1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在格線中尋找頁面，並在&#x200B;**[!UICONTROL View]**&#x200B;欄中選取&#x200B;_[!UICONTROL Action]_。
 
 1. 若要返回格線，請按一下瀏覽器視窗左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步驟8：發佈頁面
 
-1. 在網格的&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
+1. 在網格的&#x200B;**[!UICONTROL Edit]**&#x200B;欄中選取&#x200B;_[!UICONTROL Action]_。
 
 1. 將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
@@ -166,7 +170,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -207,7 +211,7 @@ ht-degree: 0%
 
 ## 刪除頁面
 
-移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_&#x200B;格線或&#x200B;_[!UICONTROL Edit]_&#x200B;頁面移除它。
+移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_格線或_[!UICONTROL Edit]_&#x200B;頁面移除它。
 
 ### 方法1：從「頁面」格線中移除頁面
 
@@ -225,7 +229,7 @@ ht-degree: 0%
 
 1. 尋找要刪除的頁面。
 
-1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_欄中，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Delete Page]**。
 

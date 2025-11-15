@@ -3,16 +3,16 @@ title: '[!DNL Page Builder] Workspace'
 description: 瞭解當您建立基本頁面、產品和目錄頁面、區塊及動態區塊時， [!DNL Page Builder] 工作區中可用的工具。
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: 69adfa95a11c8a62bd97bd917cebcaa22d3a8087
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Workspace
 
-當[[!DNL Page Builder] 啟用](setup.md)時，會修改&#x200B;_[!UICONTROL Content]_&#x200B;區段和內容建立程式，以利用CMS [!DNL Page Builder]頁面[、](../content-design/page-add.md)產品[和](../catalog/product-content.md)類別[頁面、](../catalog/categories-content-settings.md)區塊[和](../content-design/block-add.md)動態區塊[的進階](../content-design/dynamic-blocks.md)工具。 此區段包含_&#x200B;內容標題&#x200B;_欄位、內容預覽，以及全熒幕[!DNL Page Builder]工作區的輕鬆存取。
+當[[!DNL Page Builder] 啟用](setup.md)時，會修改&#x200B;_[!UICONTROL Content]_區段和內容建立程式，以利用CMS [!DNL Page Builder]頁面[、](../content-design/page-add.md)產品[和](../catalog/product-content.md)類別[頁面、](../catalog/categories-content-settings.md)區塊[和](../content-design/block-add.md)動態區塊[的進階](../content-design/dynamic-blocks.md)工具。 此區段包含_&#x200B;內容標題&#x200B;_欄位、內容預覽，以及全熒幕[!DNL Page Builder]工作區的輕鬆存取。
 
 ![預覽為[!DNL Page Builder]的內容區段](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,15 +22,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->顯示在頁面頂端的&#x200B;_[!UICONTROL Content Heading]_&#x200B;欄位是支援使用舊版[!DNL Commerce]建立的內容的舊版欄位。 但它不是[!DNL Page Builder]的一部分。 根據與目前主題關聯的樣式表，[!UICONTROL Content Heading]會格式化為H1標題。 它位於由[!DNL Page Builder]階段定義的使用中內容區域正上方。
+>顯示在頁面頂端的&#x200B;_[!UICONTROL Content Heading]_欄位是支援使用舊版[!DNL Commerce]建立的內容的舊版欄位。 但它不是[!DNL Page Builder]的一部分。 根據與目前主題關聯的樣式表，[!UICONTROL Content Heading]會格式化為H1標題。 它位於由[!DNL Page Builder]階段定義的使用中內容區域正上方。
 
-為了最佳控制所有層級標題的位置和格式，建議您將&#x200B;_[!UICONTROL Content Heading]_&#x200B;欄位保留空白，並使用[!DNL Page Builder] [標題](heading.md)內容型別。
+為了最佳控制所有層級標題的位置和格式，建議您將&#x200B;_[!UICONTROL Content Heading]_欄位保留空白，並使用[!DNL Page Builder] [標題](heading.md)內容型別。
 
 ![內容標題與其他標題](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## 預覽
 
 當您展開「_[!UICONTROL Content]_」區段，而且有使用「[!DNL Page Builder]」建立的現有內容時，它會顯示內容預覽，如同顯示在頁面中的情形。 按一下「**[!UICONTROL Edit with Page Builder]**」或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟，您可在此進行任何需要的更新。
+
+>[!NOTE]
+>
+>頁面產生器內容編輯器不會顯示預設「商店檢視」無法使用的CMS頁面元素預覽。 例如，您無法預覽僅指派給非預設存放區檢視的CMS區塊。 在此情況下，您必須先發佈CMS頁面。 然後，您可以直接在店面檢視此頁面。 或者，您也可以在[!UICONTROL Pages]欄中選取CMS頁面[!UICONTROL View]，從Admin的[!UICONTROL Action]格線檢視頁面。
 
 ![產品說明預覽](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -77,7 +81,7 @@ _檢視區_&#x200B;是使用者看到的網頁可見區域。 在全熒幕設計
 
 ### 中斷點設定
 
-檢視區按鈕也提供根據所選檢視區將不同中斷點樣式套用至內容型別的選項。 依預設，[!DNL Page Builder]會為列、欄、標籤、標籤專案、橫幅、滑桿和幻燈片的&#x200B;_[!UICONTROL Minimum Height]_&#x200B;欄位提供中斷點設定。 當您選取行動檢視區，然後開啟其中一種內容型別的編輯器時，您可以輸入行動檢視區中斷點的特定欄位值。 允許特定中斷點設定的內容型別欄位在欄位右側顯示一個圖示，類似於以下列範例：
+檢視區按鈕也提供根據所選檢視區將不同中斷點樣式套用至內容型別的選項。 依預設，[!DNL Page Builder]會為列、欄、標籤、標籤專案、橫幅、滑桿和幻燈片的&#x200B;_[!UICONTROL Minimum Height]_欄位提供中斷點設定。 當您選取行動檢視區，然後開啟其中一種內容型別的編輯器時，您可以輸入行動檢視區中斷點的特定欄位值。 允許特定中斷點設定的內容型別欄位在欄位右側顯示一個圖示，類似於以下列範例：
 
 中斷點設定的![圖示指標](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
@@ -87,7 +91,7 @@ _檢視區_&#x200B;是使用者看到的網頁可見區域。 在全熒幕設計
 
 ### 版面配置
 
-_[!UICONTROL Layout]_&#x200B;面板的[!DNL Page Builder]區段可用來將列、欄或索引標籤新增至舞台。 將內容型別從面板拖曳到舞台時，會出現一個容器，其中包含內容型別專屬的選項工具箱。
+_[!UICONTROL Layout]_面板的[!DNL Page Builder]區段可用來將列、欄或索引標籤新增至舞台。 將內容型別從面板拖曳到舞台時，會出現一個容器，其中包含內容型別專屬的選項工具箱。
 
 根據預設，[!DNL Page Builder]階段是空的。 將版面配置內容型別從面板拖曳到舞台時，可以將它們放置在頁面上的其他版面配置容器的上方、下方或內部。 只能將列直接新增到舞台中。
 
@@ -103,7 +107,7 @@ _[!UICONTROL Layout]_&#x200B;面板的[!DNL Page Builder]區段可用來將列�
 
 ### 元素
 
-使用&#x200B;_[!UICONTROL Elements]_&#x200B;面板的[!DNL Page Builder]區段，將文字、標題、按鈕、分隔線和HTML程式碼新增至[[!DNL Page Builder] 階段](workspace.md#stage)上的任何配置容器。 當您從面板將內容型別拖曳至列或欄，或拖曳至舞台上的標籤組時，容器隨即出現。 使用內容型別工具箱來存取特定於型別的設定。
+使用&#x200B;_[!UICONTROL Elements]_面板的[!DNL Page Builder]區段，將文字、標題、按鈕、分隔線和HTML程式碼新增至[[!DNL Page Builder] 階段](workspace.md#stage)上的任何配置容器。 當您從面板將內容型別拖曳至列或欄，或拖曳至舞台上的標籤組時，容器隨即出現。 使用內容型別工具箱來存取特定於型別的設定。
 
 具有元素內容型別![[!DNL Page Builder]的](./assets/pb-elements.png){width="600" zoomable="yes"}面板
 
@@ -119,7 +123,7 @@ _[!UICONTROL Layout]_&#x200B;面板的[!DNL Page Builder]區段可用來將列�
 
 ### 媒體
 
-使用&#x200B;_[!UICONTROL Media]_&#x200B;面板的[!DNL Page Builder]區段將影像、視訊、橫幅、滑桿和[!DNL Google Maps]新增至[[!DNL Page Builder] 舞台](workspace.md#stage)上的任何配置容器。 將媒體內容型別從面板拖曳到舞台時，會出現一個容器，其中包含內容型別專屬的選項工具箱。
+使用&#x200B;_[!UICONTROL Media]_面板的[!DNL Page Builder]區段將影像、視訊、橫幅、滑桿和[!DNL Google Maps]新增至[[!DNL Page Builder] 舞台](workspace.md#stage)上的任何配置容器。 將媒體內容型別從面板拖曳到舞台時，會出現一個容器，其中包含內容型別專屬的選項工具箱。
 
 具有媒體內容型別的![[!DNL Page Builder]面板](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -135,7 +139,7 @@ _[!UICONTROL Layout]_&#x200B;面板的[!DNL Page Builder]區段可用來將列�
 
 ### 新增內容
 
-使用&#x200B;_[!UICONTROL Add Content]_&#x200B;面板的[!DNL Page Builder]區段將現有內容新增到[[!DNL Page Builder] 階段](workspace.md#stage)。 將媒體內容型別從面板拖曳至舞台時，畫面會顯示一個容器。 使用內容型別工具箱來存取該型別專屬的_&#x200B;設定&#x200B;_。
+使用&#x200B;_[!UICONTROL Add Content]_面板的[!DNL Page Builder]區段將現有內容新增到[[!DNL Page Builder] 階段](workspace.md#stage)。 將媒體內容型別從面板拖曳至舞台時，畫面會顯示一個容器。 使用內容型別工具箱來存取該型別專屬的_&#x200B;設定&#x200B;_。
 
 ![[!DNL Page Builder]面板包含新增內容型別](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
