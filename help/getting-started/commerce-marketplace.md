@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 瞭解 [!DNL Commerce Marketplace]，此工具為商家提供精選的解決方案，並為合格的開發人員提供工具、平台和絕佳位置，以建立欣欣向榮的業務。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
+source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]認證
 
-在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[[!DNL Marketplace]][1]或[Magento.com][6]的標題登入您的[!DNL Commerce]帳戶。
+在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[!DNL Commerce]或[[!DNL Marketplace]][1]Magento.com[的標題登入您的][6]帳戶。
 
 您的存取金鑰是一組公開和私密金鑰，用來將您的[!DNL Commerce]安裝與[!DNL Commerce]帳戶同步並驗證您的認證。 帳戶同步之後，每次從Commerce Marketplace安裝擴充功能或模組或升級[!DNL Commerce]安裝時，都必須輸入私密金鑰。
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. 登入您的[!DNL Commerce]帳戶。
 
-1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**&#x200B;標籤。
+1. 在&#x200B;_[!UICONTROL My Account]_頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**標籤。
 
 1. 在名稱旁邊的右上角，按一下向下箭頭，然後選擇&#x200B;**[!UICONTROL My Profile]**。
 
    ![您的[!DNL Marketplace]設定檔](./assets/marketplace-profile.png){width="600"}
 
-1. 在「_[!UICONTROL My Products]_」下的「_[!UICONTROL Marketplace]_」標籤上，按一下「**[!UICONTROL Access Keys]**」，然後執行下列任一動作：
+1. 在「_[!UICONTROL Marketplace]_」下的「_[!UICONTROL My Products]_」標籤上，按一下「**[!UICONTROL Access Keys]**」，然後執行下列任一動作：
 
    - 檢視您是否擁有一組用於購買Marketplace的存取金鑰。 您可以針對不同用途建立多組存取金鑰。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
 
-Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買的安裝程式與[Adobe雲端架構][4]上託管的安裝不同。
+Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買的安裝程式與[Adobe雲端架構][4]上託管的安裝不同。
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -87,7 +87,7 @@ Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買
 
 如果您在安裝或使用擴充功能時需要協助，請先參閱擴充功能隨附的檔案。 如果您找不到問題的答案，請使用擴充功能清單中的連絡資訊，直接連絡開發人員。 如果您在Marketplace購買的產品不符合您的需求，您可在購買日期起的25天內[要求退款](#refund-requests)。 Adobe會稽核所有退款請求，並（如果已核准）發出適當的退款。 若為Commerce Marketplace的相關問題：
 
-方法1：前往[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)，導覽至頁面底部，然後按一下[!UICONTROL Contact Us]，開啟表單以提交票證。
+方法1：從[Adobe Commerce Marketplace提交支援請求 — 聯絡我們](https://commercemarketplace.adobe.com/contact-us/)表單。
 
 方法2： [電子郵件支援](mailto:commercemarketplacesupport@adobe.com)。
 
@@ -109,7 +109,7 @@ Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買
 
 ### 開放原始碼問題
 
-市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/tw/products/magento/partners.html)。
+市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/products/magento/partners.html)。
 
 ### 退款請求
 
@@ -143,4 +143,4 @@ Marketplace支援團隊無法將購買轉移給其他帳戶。 您必須購買�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/tw/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/products/magento/magento-commerce.html
