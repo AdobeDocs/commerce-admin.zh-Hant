@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
 
 歡迎使用全球領先的數位商務平台的新一代。 Adobe Commerce為線上商戶提供無與倫比的彈性，掌控其線上商店的外觀、內容和功能。 管理員擁有強大的行銷、搜尋引擎最佳化和產品管理工具，讓您能夠建立符合獨特業務需求的網站。
 
@@ -44,7 +44,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [！BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>此功能集是專為符合客戶主要是公司的賣家（商家）需求所設計，可能具有複雜的組織結構，以及擁有各種角色和購買許可權等級的多個員工。</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
     <td valign="top">
        <img alt="頁面建構器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [！BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面。 這些功能旨在改善品質，並減少製作自訂頁面的時間和費用。</em></div>
   </td>
 </tr>
