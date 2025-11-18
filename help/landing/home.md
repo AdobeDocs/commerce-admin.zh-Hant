@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Commerce是敏捷的B2B和B2C商業平台，可讓商家和品牌透過線上和實體空間以客戶為中心的數位商業體驗來加速收入。 從中型到受管雲端，SLA保證最靈活的部署模式，使其成為中型及企業組織的首選。 Adobe Commerce可啟用API優先的整合和完全可自訂的擴充功能，以及一組最豐富的企業級商務體驗功能，從行銷到銷售與履行。 Adobe Commerce是以開放原始程式碼為基礎所打造，提供其他商業平台所沒有的彈性和擴充性。
 
-如需 Adobe Commerce 所包含的進階功能清單，請參閱[發佈資訊](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en)中的&#x200B;_商務功能_。
+如需 Adobe Commerce 所包含的進階功能清單，請參閱[發佈資訊](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=zh-Hant)中的&#x200B;_商務功能_。
 
 ## Magento 開源程式碼庫
 
@@ -44,7 +44,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>此功能集是專為符合客戶主要是公司的賣家（商家）需求所設計，可能具有複雜的組織結構，以及擁有各種角色和購買許可權等級的多個員工。</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
     <td valign="top">
        <img alt="頁面建構器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面。 這些功能旨在改善品質，並減少製作自訂頁面的時間和費用。</em></div>
   </td>
 </tr>
