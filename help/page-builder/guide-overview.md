@@ -30,10 +30,10 @@ ht-degree: 0%
 | [Workspace](workspace.md) | 檢閱[!DNL Page Builder]工作區的元件，以及這些元件如何讓您為商店建立吸引人的內容。 |
 | 逐步解說 | 如果您正開始使用[!DNL Page Builder]，您可以完成逐步解說練習來快速上手：<br>[1 — 範例頁面](1-simple-page.md)<br>[2 — 可重複使用的內容區塊](2-blocks.md)<br>[3 — 產品清單的目錄頁面](3-catalog-content.md) |
 | [Workspace](workspace.md) | 探索當您建立基本頁面、產品和目錄頁面、區塊及動態區塊時，[!DNL Page Builder]工作區中可用的工具。 |
-| 版面配置 | 探索[!DNL Page Builder]面板的&#x200B;_配置_&#x200B;區段，以及如何使用這些工具將配置元件新增到[!DNL Page Builder]階段： <br>[列](row.md)<br>[欄](column.md)<br>[索引標籤](tabs.md) |
-| 元素 | 探索「[!DNL Page Builder]」面板的「_元素_」區段，以及如何使用這些工具將基本元素新增至[!DNL Page Builder]舞台上的任何配置容器： <br>[文字](text.md)<br>[標題](heading.md)<br>[按鈕](buttons.md)<br>[分隔線](divider.md)<br>[HTML代碼](html-code.md) |
-| 媒體 | 探索[!DNL Page Builder]面板的&#x200B;_媒體_&#x200B;區段，以及如何使用這些工具將媒體專案新增至[!DNL Page Builder]舞台上的任何版面配置容器： <br>[影像](image.md)<br>[影片](video.md)<br>[橫幅](banner.md)<br>[滑桿](slider.md)<br>[[!DNL Google Maps]](map.md) |
-| 新增內容 | 探索[!DNL Page Builder]面板的&#x200B;_新增內容_&#x200B;區段，以及如何新增內容元件至[!DNL Page Builder]階段： <br>[區塊](block.md)<br>[動態區塊](dynamic-block.md)<br>[產品](products.md)<br>[產品建議](recommendations.md) (僅限Adobe Commerce) |
+| 版面配置 | 探索&#x200B;_面板的_&#x200B;配置[!DNL Page Builder]區段，以及如何使用這些工具將配置元件新增到[!DNL Page Builder]階段： <br>[列](row.md)<br>[欄](column.md)<br>[索引標籤](tabs.md) |
+| 元素 | 探索「_」面板的「_&#x200B;元素[!DNL Page Builder]」區段，以及如何使用這些工具將基本元素新增至[!DNL Page Builder]舞台上的任何配置容器： <br>[文字](text.md)<br>[標題](heading.md)<br>[按鈕](buttons.md)<br>[分隔線](divider.md)<br>[HTML代碼](html-code.md) |
+| 媒體 | 探索&#x200B;_面板的_&#x200B;媒體[!DNL Page Builder]區段，以及如何使用這些工具將媒體專案新增至[!DNL Page Builder]舞台上的任何版面配置容器： <br>[影像](image.md)<br>[影片](video.md)<br>[橫幅](banner.md)<br>[滑桿](slider.md)<br>[[!DNL Google Maps]](map.md) |
+| 新增內容 | 探索&#x200B;_面板的_&#x200B;新增內容[!DNL Page Builder]區段，以及如何新增內容元件至[!DNL Page Builder]階段： <br>[區塊](block.md)<br>[動態區塊](dynamic-block.md)<br>[產品](products.md)<br>[產品建議](recommendations.md) (僅限Adobe Commerce) |
 | [範本](templates.md) | 將您現有的[!DNL Page Builder]內容儲存為範本，然後將該範本套用至另一個區域，以快速且一致地建立內容。 |
 
 {style="table-layout:auto"}
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 如需疑難排解[!DNL Page Builder]問題的說明，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- 儲存DotDigital [!DNL Page Builder] 表單時[空白頁面](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=zh-Hant)
+- 儲存DotDigital[表單時 [!DNL Page Builder] 空白頁面](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
