@@ -4,7 +4,7 @@ description: 檢閱Commerce管理員的[!UICONTROL Advanced] &amp；gt； [!UICO
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![前端開發工作流程](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[前端開發工作流程](../../systems/developer-tools.md#frontend-development-workflow)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#frontend-development-workflow)中的&#x200B;_前端開發工作流程_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ![開發人員使用者端限制](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-如需有關變更此設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[使用者端限制](../../systems/developer-tools.md#client-restrictions)。
+如需有關變更此設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#client-restrictions)中的&#x200B;_使用者端限制_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 ![範本設定](./assets/developer-template-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
+如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | 存放區檢視 | 啟用[符號連結](https://en.wikipedia.org/wiki/Symbolic_link)可能會讓您的網站面臨安全性風險，不建議用於生產存放區。 |
-| [!UICONTROL Minify Html] | 存放區檢視 | 決定是否將存放區範本的HTML最小化。 選項： `Yes` / `No` |
+| [!UICONTROL Minify Html] | 存放區檢視 | 判斷用於存放區範本的HTML是否最小化。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![偵錯](./assets/developer-debug.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[範本路徑提示](../../systems/developer-tools.md#template-path-hints)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#template-path-hints)中的&#x200B;_範本路徑提示_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 ![翻譯內嵌](./assets/developer-translate-inline.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[翻譯內嵌](../../systems/developer-tools.md#translate-inline)。
+如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#translate-inline)中的&#x200B;_翻譯內嵌_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 ![JavaScript設定](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
+如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 ![CSS設定](./assets/developer-css-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
+如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 全域 | 指定用來呈現影像的介面卡。 變更介面卡設定後，排清目錄影像快取。 選項： `PHP GD2` / `ImageMagick` <br/><br/>**_注意：_**&#x200B;只有ImageMagik介面卡支援ICO檔案型別。 |
+| [!UICONTROL Image Adapter] | 全域 | 指定用來呈現影像的介面卡。 變更介面卡設定後，排清目錄影像快取。 選項： `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_**&#x200B;只有ImageMagik介面卡支援ICO檔案型別。 |
 
 {style="table-layout:auto"}
 
