@@ -3,7 +3,7 @@ title: 產品資料屬性參考
 description: 當您處理產品資料匯入和匯出時，請使用此產品資料屬性參考。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 屬性 | 說明 |
 |--- |--- |
-| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
+| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_Note:_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
 | `store_view_code` | 識別可使用產品的特定商店檢視。 如果留空，則可在預設商店檢視中取得產品。 例如： `storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 根據產品型別，將產品指派給特定的屬性集或產品範本。 例如： `default`<br><br>建立產品後，無法使用匯入功能變更屬性集。 不過，您可以從管理員變更屬性集，然後重新匯出產品以更新CSV檔案。 |
 | `product_type` | 表示產品型別。 值： <br/>`simple` — 有形專案，通常以單一單位或固定數量銷售。<br/>`grouped` — 一組作為一組產品銷售的個別產品。<br/>`configurable` — 包含多個選項的產品，客戶在購買之前必須先選取這些選項。 您可以為每組變數管理詳細目錄，因為它們代表具有不同SKU的獨立產品。 例如，可設定產品的顏色和大小組合與目錄中的特定SKU相關聯。<br/>`virtual` — 不需要出貨且未保留在庫存中的無形產品。 範例包括服務、成員資格和訂閱。<br/>`bundle` — 可自訂的產品集，包含一起銷售的簡單產品。 |
@@ -40,8 +40,8 @@ ht-degree: 0%
 | `url_key` | 識別產品的URL部分。 預設值以產品名稱為基礎。 例如： `product-name` |
 | save_rewrites_history | 當提供值`1`與新的`url_key`時，會產生新的301 URL重新寫入，以便將舊的URL重新導向到新的URL。 |
 | `meta_title` | 中繼標題會顯示在瀏覽器和搜尋結果清單的標題列和索引標籤中。 中繼標題應為產品專屬的中繼標題、併入高值關鍵字，且長度小於70個字元。 |
-| `meta_keywords` | 中繼關鍵字僅對搜尋引擎可見，並被某些搜尋引擎忽略。 選擇以逗號分隔的高值關鍵字。 例如： `keyword1`、`keyword2`、`keyword3` |
-| `meta_description` | 中繼說明提供搜尋結果清單產品的簡短概觀。 在理想的情況下，中繼說明的長度應介於150到160個字元之間，不過欄位可接受最多255個字元。 |
+| `meta_keywords` | Meta關鍵字僅對搜尋引擎可見，並且被某些搜尋引擎忽略。 選擇以逗號分隔的高值關鍵字。 例如： `keyword1`、`keyword2`、`keyword3` |
+| `meta_description` | Meta說明提供搜尋結果清單產品的簡短概觀。 在理想的情況下，中繼說明的長度應介於150到160個字元之間，不過欄位可接受最多255個字元。 |
 | `base_image` | 產品頁面上主要影像的相對路徑。 Commerce以字母資料夾結構在內部儲存檔案。 您可以在匯出的資料中檢視每個影像的確切位置。 例如： `/sample_data/m/b/mb01-blue-0.jpg`<br/>若要上傳新影像或覆寫現有影像，請輸入檔案名稱，前面加上正斜線。 例如： `/image.jpg` |
 | `base_image_label` | 與基本影像關聯的標籤。 |
 | `small_image` | 用於目錄頁面上的小影像檔案名稱，前面有正斜線。 例如： `/image.jpg` |
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 | 屬性 | 說明 |
 |--- |--- |
-| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_注意：_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
+| `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_Note:_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
 | `tier_price_website` | [網站程式碼](../stores-purchase/stores.md#add-websites)會識別每個可使用層級定價的網站。 例如： `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | 識別有階層定價可用的[客戶群組](../customers/customer-groups.md)。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 識別可使用層級定價的客戶群組。 例如： `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
