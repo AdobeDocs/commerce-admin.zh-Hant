@@ -13,19 +13,19 @@ ht-degree: 0%
 ## 僅供檢視的功能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">深入瞭解</a>）</td></tr>
+<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 只有Adobe Commerce才有專屬功能（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
 ## 僅限B2B功能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 只有<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a>才提供專屬功能</td></tr>
+<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 只有<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant">Adobe Commerce B2B</a>才提供專屬功能</td></tr>
 </table>
 
 ## 僅限CE的功能 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source功能" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source需要替代方法（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">深入瞭解</a>）</td></tr>
+<tr><td><img alt="Magento Open Source功能" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source需要替代方法（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
 ## IMS管理驗證注意事項 {#ims-admin-note}
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->價格規則會與其他系統規則一起自動處理。 處理頻率取決於[cron組態](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 確定已在系統中後，請測試規則。
+>價格規則會與其他系統規則一起自動處理。 處理頻率取決於[cron組態](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant)。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 確定已在系統中後，請測試規則。
 
 ## 組態設定 {#config}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >自2024年6月起，Adobe Commerce商家將無法再透過目前的UPS整合進行交易。 這是因為原生Adobe Commerce整合使用的United Parcel Service (UPS) API目前不支援必要的OAuth 2.0安全性模型。 若要啟用整合，請[在UPS開發人員平台](https://developer.ups.com/get-started)上建立應用程式，以取得OAuth 2.0所需的認證。在Commerce UPS送貨設定中將新認證用作`username`和`password`。 若要深入瞭解安全性模式變更，請參閱[開發人員入口網站存取金鑰移轉指南_](https://developer.ups.com/oauth-developer-guide)。<br/>
 >
->商家應該[套用品質修補程式更新](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html)至其商店，以便從SOAP API移轉至RESTful API （支援OAuth 2.0驗證通訊協定）。
+>商家應該[套用品質修補程式更新](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html?lang=zh-Hant)至其商店，以便從SOAP API移轉至RESTful API （支援OAuth 2.0驗證通訊協定）。
 
 
 ## 可用檔案 {#docs-links}
@@ -76,9 +76,9 @@ ht-degree: 0%
 | 檔案資源 | 說明 |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4管理員使用手冊](../landing/home.md) | 在Admin中工作的商戶適用的檔案和資源。 |
-| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
-| [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
-| [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
+| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=zh-Hant) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
+| [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=zh-Hant) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
+| [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=zh-Hant) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
 | [Adobe Commerce 2.4開發人員檔案](https://developer.adobe.com/commerce/docs) | 以開發人員為中心的檔案，用於自訂Adobe Commerce及與協力廠商系統整合。 |
 
 {style="table-layout:auto"}
@@ -87,4 +87,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/concepts/application-server)。
