@@ -3,7 +3,7 @@ title: 增強的店面體驗
 description: 瞭解旨在協助您最大化客戶參與度、保留率和忠誠度的許多工具。
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hant)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce和Magento Open Source都具備許多功能，可讓您輕鬆建�
 
 - **自訂URL** — 指定[自訂URL](../stores-purchase/store-urls.md)，使其簡短、整潔且容易記憶。 您也可以自動產生方便搜尋的URL，簡化購買路徑。
 
-- **中繼資料** — 選擇特定條件，協助搜尋引擎更輕鬆地尋找及索引您的產品，以改善搜尋引擎排名。 您可以為產品、類別和內容頁面輸入[中繼資料](../merchandising-promotions/meta-data.md)。
+- **Meta資料** — 選擇特定條件，協助搜尋引擎更輕鬆地尋找及索引您的產品，以改善搜尋引擎排名。 您可以為產品、類別和內容頁面輸入[中繼資料](../merchandising-promotions/meta-data.md)。
 
 - **Sitemap** — 從您商店的頁尾連結至[Sitemap](../merchandising-promotions/sitemap-xml.md)，讓客戶大致瞭解目錄結構，並包含商店中所有類別和產品的連結。 與Google Sitemap輕鬆整合。
 
@@ -56,7 +56,7 @@ Adobe Commerce和Magento Open Source提供豐富的工具，可依據客戶活�
 
 - **自訂目錄與價目表** — 針對特定公司提供自訂[定價的精選產品選擇](../b2b/catalog-shared-pricing-structure.md)，同時繼續提供一般客戶的一般定價標準目錄。
 
-- **目標市場細分** — 根據屬性[&#x200B; （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅](../customers/customer-segments.md)最佳化您的行銷方案。
+- **目標市場細分** — 根據屬性[ （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅](../customers/customer-segments.md)最佳化您的行銷方案。
 
 - **智慧型購物規則** — 使用價格規則與可在產品或購物車層級觸發的[促銷活動](../merchandising-promotions/introduction.md#promotions)，自訂購物體驗。
 
@@ -84,7 +84,7 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 ## 最佳化業務流程和利潤
 
-- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
+- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
 
 - **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板[上的此](admin-dashboard.md)資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
 

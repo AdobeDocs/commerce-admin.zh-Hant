@@ -3,8 +3,8 @@ title: 儲存URL
 description: 瞭解商店URL以及如何設定基本URL和商店程式碼。
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 1. 在左側面板的&#x200B;_一般_&#x200B;底下，選擇&#x200B;**[!UICONTROL Web]**。
 
-1. 展開&#x200B;**[!UICONTROL Base URL]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Base URL]**。
 
    - **[!UICONTROL Base URL]** — 輸入商店的完整基底URL。 請務必以正斜線結束URL，以便使用商店中的其他URL金鑰進行擴充。 例如： `http://yourdomain.com/`
 
      >[!NOTE]
      >
-     >請勿變更&#x200B;_[!UICONTROL Base Link URL]_&#x200B;欄位中的預留位置。 它是用來建立基本URL相對連結的預留位置。
+     >請勿變更&#x200B;_[!UICONTROL Base Link URL]_欄位中的預留位置。 它是用來建立基本URL相對連結的預留位置。
 
    - **[!UICONTROL Base URL for Static View Files]** — （選擇性）輸入以下列預留位置開頭的路徑，為靜態檢視檔案的基本URL指定替代位置：
 
@@ -112,9 +112,9 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
-1. 展開&#x200B;**[!UICONTROL URL Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL URL Options]**。
 
 1. 將&#x200B;**[!UICONTROL Add Store Code]**&#x200B;設定為您的偏好設定：
 
@@ -138,7 +138,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 ## 使用自訂管理員URL
 
-根據[安全性最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hant)，Adobe建議您使用唯一的管理員URL，而非預設的&#x200B;_管理員_&#x200B;或常用辭彙（例如&#x200B;_後端_）。 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
+根據[安全性最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，Adobe建議您使用唯一的管理員URL，而非預設的&#x200B;_管理員_&#x200B;或常用辭彙（例如&#x200B;_後端_）。 雖然這不會直接保護您的網站不受確定性不良行為者的傷害，但可以減少嘗試獲得未經授權存取的指令碼暴露。
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 >[!NOTE]
 >
->除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。 針對部署在雲端基礎結構上的Adobe Commerce專案，請依照&#x200B;*雲端基礎結構上的Adobe Commerce指南*&#x200B;中的[指示](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hant#admin-url)變更管理員URL。
+>除非您知道如何編輯伺服器上的組態檔，否則請勿嘗試自行變更管理員URL，以防萬一。 針對部署在雲端基礎結構上的Adobe Commerce專案，請依照[雲端基礎結構上的Adobe Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url)中的&#x200B;*指示*&#x200B;變更管理員URL。
 
 ### 方法1：從管理員變更
 
@@ -162,7 +162,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL Admin]**。
 
-1. 展開&#x200B;**[!UICONTROL Admin Base URL]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Admin Base URL]**。
 
 1. 設定自訂URL的組態選項：
 
@@ -190,7 +190,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 ### 方法2：從伺服器命令列變更管理路徑
 
-1. 在文字編輯器中開啟`app/etc/env.php`檔案，並變更`backend`區段的`frontName`引數值。 然後，儲存檔案。
+1. 在文字編輯器中開啟`app/etc/env.php`檔案，並變更`frontName`區段的`backend`引數值。 然後，儲存檔案。
 
    請務必只使用小寫字元。
 
@@ -200,7 +200,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
    >[!TIP]
    >
-   >針對雲端基礎結構上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`變數來設定自訂管理路徑。 請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理員變數主題](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=zh-Hant)。
+   >針對雲端基礎結構上的Adobe Commerce，您可以使用Cloud UI中的`ADMIN_URL`變數來設定自訂管理路徑。 請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html)中的&#x200B;_管理員變數主題_。
 
    - **預設管理路徑**
 
@@ -239,7 +239,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
-此命令會更新`app/etc/env.php`檔案中的`backend` > `frontName`組態選項。
+此命令會更新`backend`檔案中的`frontName` > `app/etc/env.php`組態選項。
 
 ## 還原預設管理員URL和管理員路徑
 

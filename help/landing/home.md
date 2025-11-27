@@ -5,14 +5,14 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 管理員使用手冊
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 425e0876646027428c8169e20b5ee7b4997bce6f
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
 
 歡迎使用全球領先的數位商務平台的新一代。 Adobe Commerce為線上商戶提供無與倫比的彈性，掌控其線上商店的外觀、內容和功能。 管理員擁有強大的行銷、搜尋引擎最佳化和產品管理工具，讓您能夠建立符合獨特業務需求的網站。
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Adobe Commerce是敏捷的B2B和B2C商業平台，可讓商家和品牌透過線上和實體空間以客戶為中心的數位商業體驗來加速收入。 從中型到受管雲端，SLA保證最靈活的部署模式，使其成為中型及企業組織的首選。 Adobe Commerce可啟用API優先的整合和完全可自訂的擴充功能，以及一組最豐富的企業級商務體驗功能，從行銷到銷售與履行。 Adobe Commerce是以開放原始程式碼為基礎所打造，提供其他商業平台所沒有的彈性和擴充性。
 
-如需 Adobe Commerce 所包含的進階功能清單，請參閱[發佈資訊](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=zh-Hant)中的&#x200B;_商務功能_。
+如需Adobe Commerce包含的進階功能清單，請參閱[發行資訊](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)中的&#x200B;_Commerce功能_。
 
-## Magento 開源程式碼庫
+## Magento Open Source程式碼基底
 
-Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adobe Commerce 時的相容性。 這個程式碼庫是 Adobe 賦能個別開發者並培育渴望快速成長的小型企業的計畫之一。
+Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Adobe Commerce時的相容性。 此程式碼庫是Adobe計畫的一部分，該計畫可增強個別開發人員的能力，並培育渴望快速成長的小型企業。
 
 ## 管理員使用手冊
 
@@ -44,7 +44,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [！BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>此功能集是專為符合客戶主要是公司的賣家（商家）需求所設計，可能具有複雜的組織結構，以及擁有各種角色和購買許可權等級的多個員工。</em>
     <br></div>
   </td>
@@ -74,14 +74,14 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
 <tr>
     <td valign="top">
        <img alt="內容和設計" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../content-design/guide-overview.md"><strong>內容與設計</strong></a>
-    <div><em>你的內容定義了顧客在進入你商店時看到的頁面和元素。 為頁面定義基本元素，如文字與圖片，以及提供互動與動態內容的進階元素，提升購物體驗。</em></div>
+   <td valign="top"><a href="../content-design/guide-overview.md"> <strong>內容與設計</strong></a>
+    <div><em>您的內容會定義客戶在存取您的商店時看到的頁面和元素。 為您的頁面定義基本元素，例如文字和影像，以及更進階的元素，提供互動式與動態內容來增強購物體驗。</em></div>
   </td>
 </tr>
 <tr>
     <td valign="top">
-       <img alt="頁面建構器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
+       <img alt="頁面產生器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [！BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面。 這些功能旨在改善品質，並減少製作自訂頁面的時間和費用。</em></div>
   </td>
 </tr>
@@ -110,7 +110,7 @@ Magento 開源是 Adobe 官方貢獻的程式碼基礎，並確保轉換至 Adob
     <td valign="top">
        <img alt="設定參考" src="./assets/icon-settings.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../configuration-reference/guide-overview.md"> <strong>組態參考</strong></a>
-    <div><em>一個快速且方便的參考，提供管理程序中每個設定欄位描述。</em></div>
+    <div><em>提供管理員中每個組態設定的欄位說明的快速實用參考。</em></div>
   </td>
 </tr>
 </table>

@@ -4,7 +4,7 @@ description: 檢閱Commerce管理員的[!UICONTROL Advanced] &amp；gt； [!UICO
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![啟動頁面](./assets/admin-startup-page.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱&#x200B;_快速入門手冊_&#x200B;中的[變更啟動頁面](../../getting-started/admin-dashboard.md#change-the-startup-page)。
+如需有關變更這些設定的詳細資訊，請參閱[快速入門手冊](../../getting-started/admin-dashboard.md#change-the-startup-page)中的&#x200B;_變更啟動頁面_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -60,7 +60,7 @@ ht-degree: 0%
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hant) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -94,7 +94,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=zh-Hant#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -104,7 +104,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理基底URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_存放和購買體驗指南_&#x200B;中的[設定基底URL](../../stores-purchase/store-urls.md#configure-the-base-url)。
+如需有關設定這些選項的詳細資訊，請參閱[存放和購買體驗指南](../../stores-purchase/store-urls.md#configure-the-base-url)中的&#x200B;_設定基底URL_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![安全性](./assets/admin-security.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[設定管理安全性](../../systems/security-admin.md)。
+如需有關設定這些選項的詳細資訊，請參閱[管理系統指南](../../systems/security-admin.md)中的&#x200B;_設定管理安全性_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![儀表板](./assets/admin-dashboard.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_快速入門手冊_&#x200B;中的[管理員儀表板](../../getting-started/admin-dashboard.md)。
+如需有關設定這些選項的詳細資訊，請參閱[快速入門手冊](../../getting-started/admin-dashboard.md)中的&#x200B;_管理員儀表板_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理網格](./assets/admin-admin-grids.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_目錄管理指南_&#x200B;中的[限制產品顯示](../../catalog/products-list.md#limit-product-display)。
+如需有關設定這些選項的詳細資訊，請參閱[目錄管理指南](../../catalog/products-list.md#limit-product-display)中的&#x200B;_限制產品顯示_。
 
 >[!NOTE]
 >
@@ -162,14 +162,14 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | 全域 | 決定格線顯示的產品數目是否限製為&#x200B;_[!UICONTROL Records Limit]_&#x200B;值。 選項： `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | 全域 | 決定格線顯示的產品數目是否限製為&#x200B;_[!UICONTROL Records Limit]_值。 選項： `Yes` / `No` |
 | [!UICONTROL Records Limit] | 全域 | 設定產品格線中的產品數限制。 預設最小值為`20000`。 |
 
 ## [!UICONTROL CAPTCHA]
 
 ![驗證碼](./assets/admin-captcha.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[驗證碼](../../systems/security-captcha.md)。
+如需有關設定這些選項的詳細資訊，請參閱[系統管理系統指南](../../systems/security-captcha.md)中的&#x200B;_驗證碼_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理動作記錄](./assets/admin-actions-logging.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[動作記錄檔封存](../../systems/action-log-archive.md)。
+如需有關設定這些選項的詳細資訊，請參閱[系統管理系統指南](../../systems/action-log-archive.md)中的&#x200B;_動作記錄檔封存_。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![管理員使用情形](./assets/admin-usage.png)<!-- zoom -->
 
-如需有關設定這些選項的詳細資訊，請參閱&#x200B;_快速入門手冊_&#x200B;中的[使用狀況資料集合](../../getting-started/admin.md#usage-data-collection)。
+如需有關設定這些選項的詳細資訊，請參閱[快速入門手冊](../../getting-started/admin.md#usage-data-collection)中的&#x200B;_使用狀況資料集合_。
 
 | 欄位 | 範圍 | 說明 |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
