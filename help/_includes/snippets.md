@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 組態設定 {#config}
 
-若要存取商店組態設定，請從&#x200B;**[!UICONTROL Stores]**&#x200B;管理員&#x200B;_[!UICONTROL Settings]_側邊欄中選擇&#x200B;**[!UICONTROL Configuration]**>_ > _。
+若要存取商店組態設定，請從&#x200B;**[!UICONTROL Stores]**&#x200B;管理員&#x200B;_[!UICONTROL Settings]_&#x200B;側邊欄中選擇&#x200B;**[!UICONTROL Configuration]**>_ > _。
 
 ## UPS API淘汰 {#ups-api}
 

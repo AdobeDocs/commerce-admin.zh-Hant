@@ -56,7 +56,7 @@ Adobe Commerce和Magento Open Source提供豐富的工具，可依據客戶活�
 
 - **自訂目錄與價目表** — 針對特定公司提供自訂[定價的精選產品選擇](../b2b/catalog-shared-pricing-structure.md)，同時繼續提供一般客戶的一般定價標準目錄。
 
-- **目標市場細分** — 根據屬性[ （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅](../customers/customer-segments.md)最佳化您的行銷方案。
+- **目標市場細分** — 根據屬性[&#x200B; （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅](../customers/customer-segments.md)最佳化您的行銷方案。
 
 - **智慧型購物規則** — 使用價格規則與可在產品或購物車層級觸發的[促銷活動](../merchandising-promotions/introduction.md#promotions)，自訂購物體驗。
 

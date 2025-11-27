@@ -162,7 +162,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | 全域 | 決定格線顯示的產品數目是否限製為&#x200B;_[!UICONTROL Records Limit]_值。 選項： `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | 全域 | 決定格線顯示的產品數目是否限製為&#x200B;_[!UICONTROL Records Limit]_&#x200B;值。 選項： `Yes` / `No` |
 | [!UICONTROL Records Limit] | 全域 | 設定產品格線中的產品數限制。 預設最小值為`20000`。 |
 
 ## [!UICONTROL CAPTCHA]
