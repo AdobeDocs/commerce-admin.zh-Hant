@@ -14,11 +14,11 @@ ht-degree: 0%
 
 隨著業務責任變更，您可能需要將您的Commerce帳戶轉移給新所有者或其他電子郵件地址。 此轉移需要變更與帳戶相關聯的主要使用者電子郵件。
 
-下列資訊說明Commerce (MAGEID)帳戶的轉移程式。 其中不包含雲端帳戶(雲端專案或New Relic)所有權的變更。 如需有關雲端專案存取許可權的詳細資訊，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)中的&#x200B;_管理使用者存取許可權_。
+下列資訊說明Commerce (MAGEID)帳戶的轉移程式。 其中不包含雲端帳戶(雲端專案或New Relic)所有權的變更。 如需有關雲端專案存取許可權的詳細資訊，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant)中的&#x200B;_管理使用者存取許可權_。
 
 >[!IMPORTANT]
 >
->如果新帳戶擁有者已使用「共用存取」購買擴充功能，帳戶轉移程式一啟動，這些擴充功能的存取權就會遺失。 在要求帳戶轉移之前，請確定新擁有者從[他們的Marketplace帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[Marketplace團隊](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)要求這些擴充功能的退款。 無法將擴充功能購買轉移至其他帳戶。
+>如果新帳戶擁有者已使用「共用存取」購買擴充功能，帳戶轉移程式一啟動，這些擴充功能的存取權就會遺失。 在要求帳戶轉移之前，請確定新擁有者從[他們的Marketplace帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[Marketplace團隊](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)要求這些擴充功能的退款。 無法將擴充功能購買轉移至其他帳戶。
 
 ## 識別您的傳輸型別
 
@@ -120,7 +120,7 @@ Commerce帳戶轉移的型別取決於目前擁有者和新擁有者可用的Com
 >
 >您必須具有電子郵件地址的存取權，才能擷取包含確認代碼的電子郵件。
 >
->如果您無法存取帳戶電子郵件，請要求IT團隊為您公司電子郵件系統中的帳戶電子郵件地址設定電子郵件轉寄。 如果無法設定電子郵件轉寄，請確定新的帳戶擁有者擁有Adobe ID，然後[提交支援要求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，其中包含啟動帳戶轉送所需的全部詳細資料。
+>如果您無法存取帳戶電子郵件，請要求IT團隊為您公司電子郵件系統中的帳戶電子郵件地址設定電子郵件轉寄。 如果無法設定電子郵件轉寄，請確定新的帳戶擁有者擁有Adobe ID，然後[提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，其中包含啟動帳戶轉送所需的全部詳細資料。
 
 1. 按一下&#x200B;**[!UICONTROL Change]**。
 
@@ -172,4 +172,4 @@ Commerce帳戶轉移的型別取決於目前擁有者和新擁有者可用的Com
 
 ## 最後步驟
 
-新擁有者完成第一個或第三個使用案例中的步驟後，新擁有者必須[提交支援要求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)，以通知支援團隊電子郵件地址更新。 支援團隊接著會完成其他工作，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)設定檔上的電子郵件地址。 在請求中包含先前的帳戶擁有者電子郵件地址。
+新擁有者完成第一個或第三個使用案例中的步驟後，新擁有者必須[提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#support-case)，以通知支援團隊電子郵件地址更新。 支援團隊接著會完成其他工作，例如更新[Commerce Marketplace](https://commercemarketplace.adobe.com/)設定檔上的電子郵件地址。 在請求中包含先前的帳戶擁有者電子郵件地址。
