@@ -3,30 +3,30 @@ title: 類別產品指派
 description: 瞭解如何使用[!UICONTROL Products in Category]設定來控制目前指派給類別的產品。
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # 類別產品指派
 
-若為類別，請使用&#x200B;_[!UICONTROL Products in Category]_&#x200B;區段來檢閱目前指派給類別的產品。 每欄頂端的搜尋篩選器是用來新增和移除類別中的產品。 您也可以使用[類別規則](../merchandising-promotions/category-product-rules.md) (僅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce)在滿足一組條件時動態變更產品選擇。 若要深入瞭解，請參閱[Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)。
+若為類別，請使用&#x200B;_[!UICONTROL Products in Category]_區段來檢閱目前指派給類別的產品。 每欄頂端的搜尋篩選器是用來新增和移除類別中的產品。 您也可以使用[類別規則](../merchandising-promotions/category-product-rules.md) (僅限![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce)在滿足一組條件時動態變更產品選擇。 若要深入瞭解，請參閱[Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)。
 
 >[!TIP]
 >
->在類別規則設定期間，儲存此類別時，產品為&#x200B;_已排序_、_相符_、_已指派_&#x200B;及&#x200B;_已取消指派_ （僅根據規則&#x200B;**__**）。 為了確保將新產品新增至目錄時，能根據規則指派產品，您&#x200B;**必須重新儲存每個設定為依規則比對產品的類別**。 此外，如果任何產品庫存狀態變更為`In Stock`或`Out of Stock`，且類別中的產品已根據&#x200B;**自動排序**&#x200B;規則&#x200B;_排序_，您必須按一下&#x200B;**[!UICONTROL Save Category]**。
+>在類別規則設定期間，儲存此類別時，產品為&#x200B;_已排序_、_相符_、_已指派_&#x200B;及&#x200B;_已取消指派_ （僅根據規則&#x200B;**__**）。 為了確保將新產品新增至目錄時，能根據規則指派產品，您&#x200B;**必須重新儲存每個設定為依規則比對產品的類別**。 此外，如果任何產品庫存狀態變更為`In Stock`或`Out of Stock`，且類別中的產品已根據&#x200B;_自動排序_&#x200B;規則&#x200B;**排序**，您必須按一下&#x200B;**[!UICONTROL Save Category]**。
 
 ![類別產品](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->在類別頁面上，`Out of stock`產品一律顯示在具有所有排序型別的產品清單上的&#x200B;_&#x200B;**`In Stock`之後**&#x200B;_。
+>在類別頁面上，`Out of stock`產品一律顯示在具有所有排序型別的產品清單上的&#x200B;**__**&#x200B;之後`In Stock`。
 
 >[!NOTE]
 >
->_Stock_&#x200B;欄只顯示&#x200B;_&#x200B;**選取的類別範圍**&#x200B;_&#x200B;的可銷售產品數量。 當針對產品管理多個庫存時，您應在對應的範圍之間切換，以在&#x200B;_類別產品_&#x200B;格線中顯示其他&#x200B;_庫存_&#x200B;欄值。
+>_Stock_&#x200B;欄僅顯示&#x200B;_**選取的類別範圍**_&#x200B;的可用產品數量。 當針對產品管理多個庫存時，您應在對應的範圍之間切換，以在&#x200B;_類別產品_&#x200B;格線中顯示其他&#x200B;_庫存_&#x200B;欄值。
 
 ## 套用類別規則
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 | 選項 | 說明 |
 |--- |--- |
-| [!UICONTROL Attribute] | 決定作為條件基礎的屬性。 選項： <br/>**[!UICONTROL Clone Category ID(s)]**— 根據類別ID動態地複製多個類別中的產品，而不需要排序和順序。<br/>**[!UICONTROL Color]** — 包含以顏色為準的產品。 <br/>**[!UICONTROL Date Created (days ago)]**— 包含以產品加入目錄後的天數為基礎的產品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包含以上次修改產品後的天數為基礎的產品。 <br/>**[!UICONTROL Name]**— 包含以產品名稱為依據的產品。<br/>**[!UICONTROL Price]** — 包含以價格為準的產品。 <br/>**[!UICONTROL Quantity]**— 包含以庫存數量為基準的產品。<br/>**&#x200B; SKU &#x200B;**— 包含以SKU為基礎的產品。 |
+| [!UICONTROL Attribute] | 決定作為條件基礎的屬性。 選項： <br/>**[!UICONTROL Clone Category ID(s)]**— 根據類別ID動態地複製多個類別中的產品，而不需要排序和順序。<br/>**[!UICONTROL Color]** — 包含以顏色為準的產品。 <br/>**[!UICONTROL Date Created (days ago)]**— 包含以產品加入目錄後的天數為基礎的產品。<br/>**[!UICONTROL Date Modified (days ago)]** — 包含以上次修改產品後的天數為基礎的產品。 <br/>**[!UICONTROL Name]**— 包含以產品名稱為依據的產品。<br/>**[!UICONTROL Price]** — 包含以價格為準的產品。 <br/>**[!UICONTROL Quantity]**— 包含以庫存數量為基準的產品。<br/>** SKU **— 包含以SKU為基礎的產品。 |
 | [!UICONTROL Operator] | 指定套用至屬性值以符合條件的運運算元。 除非指定運運算元，否則會使用`Equal`作為預設值。 選項： `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 指定屬性必須符合條件的值。 |
 | [!UICONTROL Logic] | 用於定義多個條件，且僅在新增其他條件時顯示。 選項： `OR` / `AND` |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->可設定產品及其子項選項的數量是透過結合所有可銷售子項產品數量來計算。 請考量可設定產品&#x200B;_耐力健身背心_&#x200B;的範例，其顏色選項為紫色、紅色和黃色，且每種選項數量不同。 在此案例中，上階產品數量是紫色、紅色和黃色下階產品的組合可銷售數量。
+>可設定產品及其子項選項的數量是透過結合所有子項產品數量來計算。 請考量可設定產品&#x200B;_耐力健身背心_&#x200B;的範例，其顏色選項為紫色、紅色和黃色，且每種選項數量不同。 在此案例中，上階產品數量是紫色、紅色和黃色下階產品的合併數量。
 
 ## 控制項
 
