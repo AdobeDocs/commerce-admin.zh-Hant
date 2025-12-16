@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ### 步驟6：選擇變數屬性
 
-1. 向下捲動至&#x200B;_[!UICONTROL Configurations]_區段並按一下&#x200B;**[!UICONTROL Create Configurations]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Configurations]_&#x200B;區段並按一下&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![組態](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 輸入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 為所有產生的產品系列指定來源及新增數量：
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 為每個屬性值輸入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
 
 為所有產生的產品系列指定來源及新增數量：
 
@@ -302,7 +302,7 @@ ht-degree: 0%
 
 ### 步驟10：新增產品影像
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
 
 1. 按一下&#x200B;_攝影機_&#x200B;圖磚，並瀏覽至可供設定產品使用的主要影像。
 
@@ -338,7 +338,7 @@ ht-degree: 0%
 
    - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-   - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![ ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
+   - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![&#x200B; ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
 
    該存放區會在新的瀏覽器標籤中開啟。
 
