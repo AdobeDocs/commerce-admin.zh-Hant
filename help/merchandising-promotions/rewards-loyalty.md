@@ -168,7 +168,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**。
 
-與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_區塊中。
+與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;區塊中。
 
 ## 欄位說明
 
