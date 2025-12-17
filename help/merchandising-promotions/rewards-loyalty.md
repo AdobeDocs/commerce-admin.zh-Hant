@@ -3,9 +3,9 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
+source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,10 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 >[在結帳期間由客戶和管理員使用者兌換獎勵點數時，需要](reward-exchange-rates.md)獎勵匯率設定。
 
 點數可在結帳期間由管理員使用者和客戶兌換（如果已啟用）。 在「付款方式」區段中，啟用付款方式的上方會顯示「使用我的獎勵點數」核取方塊。 包括可用的點數和貨幣匯率。 如果可用餘額大於訂單的總計，則不需要額外的付款方式。 套用至訂單的獎勵點數會與訂單總計一起顯示（從總計中扣除），類似於商店信用卡或禮品卡。 如果獎勵點數與商店信用卡或禮品卡搭配使用，則獎勵點數會先扣除。 如果訂單總計大於可兌換的獎勵點數，則會扣除商店信用卡或禮品卡。
+
+>[!NOTE]
+>
+>獎勵點數和商店點數不會減少訂單的應稅基礎。 在套用這些折扣之前，會根據小計計算稅捐。 點數或信用只會減少客戶支付的最終金額。
 
 >[!NOTE]
 >
@@ -164,7 +168,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**。
 
-與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;區塊中。
+與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_區塊中。
 
 ## 欄位說明
 
