@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 如有必要，請選擇套用設定的&#x200B;**[!UICONTROL Store View]**。
 
-   若為多存放區安裝，_[!UICONTROL Store View]_設定會將排序順序套用至存放區內所有可用的檢視。
+   若為多存放區安裝，_[!UICONTROL Store View]_&#x200B;設定會將排序順序套用至存放區內所有可用的檢視。
 
 1. 在左側的類別樹狀結構中，選擇要編輯的類別。
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_遞增順序排序。
+>依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_&#x200B;遞增順序排序。
 
-在&#x200B;_[!UICONTROL Products in Category]_區段中，按一下圖磚（ ![檢檢視磚](../assets/icon-view-tiles.png) ）圖示，以顯示格線中的產品圖磚。 使用手動或自動方法來排序產品。
+在&#x200B;_[!UICONTROL Products in Category]_&#x200B;區段中，按一下圖磚（ ![檢檢視磚](../assets/icon-view-tiles.png) ）圖示，以顯示格線中的產品圖磚。 使用手動或自動方法來排序產品。
 
 ![產品圖磚](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
