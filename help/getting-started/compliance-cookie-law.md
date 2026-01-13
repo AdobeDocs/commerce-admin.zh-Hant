@@ -3,9 +3,9 @@ title: Cookie法規遵循
 description: 為了跟上許多國家/地區有關使用Cookie的法規，Adobe Commerce和Magento Open Source為商家提供多種取得客戶同意的方法。
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: b90164030569f18bfd10fd52f12e3bbd22626b63
+source-git-commit: 5becfc5601b9c0c10c580b36f4594746d680a7fc
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
@@ -202,15 +202,15 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 由頁面產生器模組設定。 包含旗標，可防止在管理員之前明確解除某個動作時，後續提示要求管理員確認該動作是否開啟。 僅用於商店的管理區域。 不適用於購物者。
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 僅作為存放區管理區域中索引標籤功能實作的一部分使用。 不適用於購物者。
 
 ## 產品推薦Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)下列Cookie是由Adobe Commerce客戶的產品推薦所使用。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)下列Cookie是由Adobe Commerce客戶的產品推薦所使用。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
 
-- `mg_dnt`：如果您有管理網站上之Cookie同意的自訂程式碼，可讓您[限制Adobe Commerce資料收集](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/developer/setting-cookie)。
+- `mg_dnt`：如果您有管理網站上之Cookie同意的自訂程式碼，可讓您[限制Adobe Commerce資料收集](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)。
 - `user_allowed_save_cookie`：用於[Cookie限制模式](#cookie-restriction-mode)。
 - `authentication_flag`：指出購物者是否已登入或登出。 此Cookie與`dataservices_customer_id` Cookie同時更新。
 - `dataservices_customer_id`：指出購物者是否已登入或登出。 此Cookie包含系統中的客戶唯一ID。
@@ -230,10 +230,11 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 ## 其他Cookie
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)已為Adobe Commerce客戶設定下列Cookie。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
+![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)已為Adobe Commerce客戶設定下列Cookie。 這些Cookie與[DataServices模組](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)一起安裝。
 
 - `mg`：由Snowplow JavaScript追蹤器設定。 如需詳細資訊，請參閱[雪犁檔案](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)。
 - `com.adobe.alloy.getTld`：根據目前網頁的主機名稱，這是不是如https://publicsuffix.org中所述「公用字尾」的最上層網域。 基本上，這是可以接受Cookie的最上層網域。 此Cookie是[Alloy Web SDK](https://github.com/adobe/alloy)的一部分。
+- `aep-segments-membership`：包含[對象資訊](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)，例如購物者屬於哪個區段。
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
