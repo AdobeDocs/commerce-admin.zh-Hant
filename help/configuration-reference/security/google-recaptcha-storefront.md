@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefro
 description: 檢閱Commerce管理員的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefront]頁面上的組態設定。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱&#x200B;_安裝指南_&#x200B;中的[PHP設定](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant)。
+>在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_PHP設定_。
 
 {{config}}
 
-如需使用Google reCAPTCHA來保護存放區的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的Google [reCAPTCHA](../../systems/security-google-recaptcha.md)。
+如需使用Google reCAPTCHA來保護存放區的詳細資訊，請參閱[系統管理系統指南](../../systems/security-google-recaptcha.md)中的Google _reCAPTCHA_。
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -60,6 +60,27 @@ ht-degree: 0%
 | [!UICONTROL Invisible Badge Position] | 網站 | 每個頁面上隱藏的reCAPTCHA徽章的位置。 選項： `Inline` / `Bottom Right` / `Bottom Left` |
 | [!UICONTROL Theme] | 網站 | 決定Google reCAPTCHA方塊的樣式。 選項： `Light Theme` （預設） / `Dark Theme` |
 | [!UICONTROL Language Code] | 存放區檢視 | [雙字元代碼](https://developers.google.com/recaptcha/docs/language)，指定用於Google reCAPTCHA文字與訊息的語言。 |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL reCAPTCHA Enterprise]
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+
+[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先在沙箱環境中推出新版本，讓您在生產環境推出此版本之前有時間測試即將進行的變更。"}
+
+![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--|--|--|
+| [!UICONTROL Site Key] | 網站 | 註冊Google reCAPTCHA Enterprise帳戶時所建立的網站金鑰。 |
+| [!UICONTROL Google Cloud Project ID] | 網站 | 專案識別碼會顯示在專案儀表板的&#x200B;**專案資訊**&#x200B;區段中。 |
+| [!UICONTROL Service Account JSON] | 網站 | 從Google Cloud Console下載服務帳戶金鑰，並將其內容貼到此欄位。 |
+| [!UICONTROL Minimum Score Threshold] | 網站 | 將使用者互動識別為潛在風險的最低分數，其中1.0是典型的使用者互動，0.0可能是機器人。 預設： `0.5` |
+| [!UICONTROL Badge Position] | 網站 | 每個頁面上隱藏的reCAPTCHA徽章的位置。 選項： `Inline` / `Bottom Right` / `Bottom Left` |
+| [!UICONTROL Theme] | 網站 | 決定Google reCAPTCHA方塊的樣式。 選項： `Light Theme` （預設） / `Dark Theme` |
+| [!UICONTROL Language Code] | 存放區檢視 | [雙字元代碼](https://developers.google.com/recaptcha/docs/language)，指定用於Google reCAPTCHA文字與訊息的語言。 將欄位保留空白可使用使用者瀏覽器的預設語言。 |
+| [!UICONTROL Validation Failure Message] | 存放區檢視 | 驗證失敗時顯示的訊息。 |
 
 {style="table-layout:auto"}
 
