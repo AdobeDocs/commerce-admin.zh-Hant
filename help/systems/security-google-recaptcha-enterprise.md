@@ -3,7 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: 瞭解如何設定Google reCAPTCHA Enterprise以保護您的Adobe Commerce as a Cloud Service店面免受機器人和詐騙活動的傷害。
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"
 source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
 source-wordcount: '574'
