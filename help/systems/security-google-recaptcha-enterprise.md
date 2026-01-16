@@ -3,14 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: 瞭解如何設定Google reCAPTCHA Enterprise以保護您的Adobe Commerce as a Cloud Service店面免受機器人和詐騙活動的傷害。
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
+
+[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先發行沙箱的更新，這樣您就可以在即將進行的變更推出至生產環境前先行測試。"}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform)使用最適化風險分析和機器學習來區分人類使用者和機器人，為您的Adobe Commerce as a Cloud Service店面提供進階機器人保護。 這有助於防止網站上的詐騙活動、垃圾郵件和濫用。
 
@@ -56,7 +59,7 @@ Google reCAPTCHA Enterprise包含下列功能：
 
 ## 步驟2：為店面設定Google reCAPTCHA
 
-1. 在左側面板的&#x200B;_[!UICONTROL Security]_&#x200B;下，選擇&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Security]_下，選擇&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 完成&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**&#x200B;區段，如下所示。
 
@@ -66,7 +69,7 @@ Google reCAPTCHA Enterprise包含下列功能：
 
    - 針對&#x200B;**[!UICONTROL Service Account JSON]**，複製您在[步驟1：設定Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise)中下載的服務帳戶JSON金鑰檔案內容。
 
-   - 針對&#x200B;**[!UICONTROL Minimum Score Threshold]**，輸入最低分數(0.0-1.0)，以識別何時將使用者互動標示為潛在風險；其中1.0是典型的使用者互動，而0.0可能是機器人。
+   - 針對&#x200B;**[!UICONTROL Minimum Score Threshold]**，輸入最低分數(0.0-1.0)，以識別何時將使用者互動標籤為潛在風險。 1.0分是典型的使用者互動，0.0分可能是機器人。
 
    - 針對&#x200B;**[!UICONTROL Badge Position]**，選擇每個頁面上隱藏的reCAPTCHA徽章位置。 選項： `Inline` / `Bottom Right` / `Bottom Left`。
 
@@ -77,7 +80,7 @@ Google reCAPTCHA Enterprise包含下列功能：
    - 若為&#x200B;**[!UICONTROL Validation Failure Message]**，可選擇在驗證失敗時變更店面顯示的訊息。
 
 
-1. 展開&#x200B;**[!UICONTROL Storefront]**&#x200B;區段，並將您要保護的每個店面表單設定為&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**。
+1. 展開&#x200B;**[!UICONTROL Storefront]**&#x200B;區段，並將每個要保護的店面表單設定為&#x200B;**[!UICONTROL reCAPTCHA Enterprise]**。
 
    {{recaptcha-forms-list}}
 
