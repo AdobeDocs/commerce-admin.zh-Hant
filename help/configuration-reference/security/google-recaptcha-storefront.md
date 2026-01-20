@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefro
 description: 檢閱Commerce管理員的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefront]頁面上的組態設定。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant)中的&#x200B;_PHP設定_。
+>在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_PHP設定_。
 
 {{config}}
 
@@ -65,9 +65,7 @@ ht-degree: 0%
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
-
-[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先在沙箱環境中推出新版本，讓您在生產環境推出此版本之前有時間測試即將進行的變更。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 

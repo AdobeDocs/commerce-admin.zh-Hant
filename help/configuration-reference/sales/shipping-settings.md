@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Shipping Settings]頁面上的組態設定。
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '185'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
-
-[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先在沙箱環境中推出新版本，讓您在生產環境推出此版本之前有時間測試即將進行的變更。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 ![送貨原則引數](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

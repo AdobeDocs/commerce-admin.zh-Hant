@@ -3,9 +3,9 @@ title: 層級定價
 description: 瞭解如何使用層級定價，從產品清單或產品頁面提供數量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 在&#x200B;_[!UICONTROL Price]_&#x200B;欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 在&#x200B;_[!UICONTROL Price]_欄位下方，按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
-1. 在&#x200B;_[!UICONTROL Tier Price]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;_[!UICONTROL Tier Price]_區段中，按一下&#x200B;**[!UICONTROL Add]**。
 
    如果您要建立多個價格的階層，請按一下每個額外階層&#x200B;**[!UICONTROL Add]**，以便同時處理所有階層。 群組中的每個層級都有相同的網站和客戶群組或共用目錄指派，但數量和價格不同。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >若要取得折扣價格，已定義的百分比是根據&#x200B;_[!UICONTROL Price]_&#x200B;欄位中定義的值（而非&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位）計算。
+     >若要取得折扣價格，已定義的百分比是根據&#x200B;_[!UICONTROL Price]_欄位中定義的值（而非_[!UICONTROL Special Price]_&#x200B;欄位）計算。
 
      以百分比形式![層級價格](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ ht-degree: 0%
 
 ## 啟用目錄價格規則的層級訂價
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
-
-[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先在沙箱環境中推出新版本，讓您在生產環境推出此版本之前有時間測試即將進行的變更。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 在舊版Commerce中，層級定價無法與目錄價格規則搭配使用。 目錄規則忽略層級價格設定，僅從原始基本價格計算折扣。 使用Adobe Commerce as a Cloud Service，您現在可以選擇在目錄價格規則的計算中包含層級定價。
 

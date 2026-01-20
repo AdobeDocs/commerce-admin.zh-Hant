@@ -3,9 +3,9 @@ title: 送貨設定
 description: 瞭解如何設定出貨設定，以定義商店的原點和出貨政策。
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,7 @@ ht-degree: 0%
 
 ## 電子郵件出貨追蹤URL
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
-
-[!BADGE 沙箱]{type=Caution tooltip="列出的專案目前僅在沙箱環境中可用。 Adobe會先在沙箱環境中推出新版本，讓您在生產環境推出此版本之前有時間測試即將進行的變更。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 依預設，購物者電子郵件中傳送的運送追蹤號碼是純文字。 您可以啟用自訂追蹤URL功能，將這些追蹤數字轉換為可點按的連結。 此功能可讓您定義範本，以追蹤各種貨運業者的URL。 每個範本都包含追蹤網站的完整URL和追蹤號碼的預留位置。 Commerce會以電子郵件中的實際追蹤號碼取代預留位置。
 
