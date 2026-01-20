@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) **由Adobe AI支援的產品建議**&#x200B;使用人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，藉以簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
 ><br/>
->如需使用此Adobe開發的擴充功能作為手動設定之產品推薦和追加銷售之替代方法的詳細資訊，請參閱&#x200B;_[產品推薦指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_。
+>如需使用此Adobe開發的擴充功能作為手動設定之產品推薦和追加銷售之替代方法的詳細資訊，請參閱&#x200B;_[產品推薦指南](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)_。
 
 ## 相關產品
 
