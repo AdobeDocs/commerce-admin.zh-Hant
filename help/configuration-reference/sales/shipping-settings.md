@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 ![送貨原則引數](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

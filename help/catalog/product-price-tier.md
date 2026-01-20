@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 啟用目錄價格規則的層級訂價
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 在舊版Commerce中，層級定價無法與目錄價格規則搭配使用。 目錄規則忽略層級價格設定，僅從原始基本價格計算折扣。 使用Adobe Commerce as a Cloud Service，您現在可以選擇在目錄價格規則的計算中包含層級定價。
 
