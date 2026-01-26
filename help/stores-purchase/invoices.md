@@ -3,9 +3,9 @@ title: 發票
 description: 瞭解如何建立並列印發票，以支援訂單處理與客戶服務作業。
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 >
 >對於使用`Gift Card`、`Store Credit`、`Reward Points`或其他離線付款方式所下的訂單，不會自動建立發票。
 
-必須先產生訂單的商業發票，然後才能列印。 若要檢視或列印PDF，請先下載並安裝PDF讀取器，例如[Adobe Acrobat Reader][1]。
+必須先產生訂單的商業發票，然後才能列印。 若要檢視或列印PDF，請先下載並安裝PDF讀取器，例如[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
 
-**_若要開立訂單發票：_**
+**_若要開立訂單發票:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當您特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款動作](../configuration-reference/sales/payment-methods.md#payment-actions)設定為`Authorize and Capture` （自動產生發票）時，_[!UICONTROL Invoice]_&#x200B;選項不會出現。 如果下訂單且付款方式的付款動作設為`Authorize`且訂單已開立商業發票，也會發生這種情況。
+   >當您特定&#x200B;_[!UICONTROL Invoice]_付款方式[的](../configuration-reference/sales/payment-methods.md#payment-actions)付款動作[設定為](../configuration-reference/sales/payment-methods.md) （自動產生發票）時，`Authorize and Capture`選項不會出現。 如果下訂單且付款方式的付款動作設為`Authorize`且訂單已開立商業發票，也會發生這種情況。
 
    ![發票銷售訂單](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -107,11 +107,11 @@ ht-degree: 0%
 
 1. 完成後，按一下頁面底部的&#x200B;**[!UICONTROL Submit Invoice]**。
 
-   **_線上付款方式：_**
+   **_線上付款方式:_**
 
    ![提交發票 — 線上付款方式](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
-   **_離線付款方法：_**
+   **_離線付款方法:_**
 
    ![送出發票 — 離線付款方式)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
@@ -121,19 +121,19 @@ ht-degree: 0%
 
 ## 列印發票
 
-商業發票可以個別列印，也可以列印成批次。 不過，必須先為訂單產生商業發票，然後才能列印商業發票。 您可以為可列印的PDF發票上傳高解析度的標誌，並在標題中包含[訂單ID](../stores-purchase/sales-documents.md#add-reference-ids)。 若要使用您的標誌與地址自訂發票範本，請參閱[PDF標誌需求](../stores-purchase/sales-documents.md#image-formats)。
+商業發票可以個別列印，也可以列印成批次。 不過，必須先為訂單產生商業發票，然後才能列印商業發票。 您可以為可列印的PDF發票上傳高解析度標誌，並在標題中包含[訂單ID](../stores-purchase/sales-documents.md#add-reference-ids)。 若要使用您的標誌與地址自訂發票範本，請參閱[PDF標誌需求](../stores-purchase/sales-documents.md#image-formats)。
 
 >[!NOTE]
 >
->若要檢視或列印PDF，您必須有PDF讀取器。 您可以免費下載[Adobe Reader][1]。
+>若要檢視或列印PDF，您必須擁有PDF讀取器。 您可以免費下載[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
 
 ### 列印單一發票
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;格線中，找出發票，然後按一下_&#x200B;動作&#x200B;_欄中的&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Invoices]_格線中，找出發票，然後按一下&#x200B;**[!UICONTROL View]**動作_&#x200B;欄中的&#x200B;_。
 
-1. 在發票頂端，按一下&#x200B;**[!UICONTROL Print]**&#x200B;以產生發票PDF。
+1. 在發票頂端，按一下&#x200B;**[!UICONTROL Print]**&#x200B;以產生發票的PDF。
 
 1. 將產生的PDF儲存至檔案或列印。
 
@@ -141,12 +141,10 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;網格中，選取要列印之每張商業發票的核取方塊。
+1. 在&#x200B;_[!UICONTROL Invoices]_網格中，選取要列印之每張商業發票的核取方塊。
 
 1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`PDF Invoices`。
 
    ![列印多張發票](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 這些發票會儲存在單一PDF檔案中，可傳送至印表機或加以儲存。
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader"

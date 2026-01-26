@@ -3,7 +3,7 @@ title: 增值稅(VAT)
 description: '&amp；lt；在這裡新增說明&amp；gt；'
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Add New Tax Rule]**。
 
-1. 展開&#x200B;**[!UICONTROL Additional Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Additional Settings]**。
 
    ![設定產品稅捐類別](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
@@ -180,7 +180,7 @@ Commerce使用下列[客戶組態設定](../customers/account-options-new.md)計
 
 ## VAT ID驗證
 
-_VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐盟(EU)內發生的B2B交易所需稅捐。 Commerce使用[歐洲委員會][1]伺服器的網頁服務執行VAT ID驗證。
+_VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐盟(EU)內發生的B2B交易所需稅捐。 Commerce使用[歐洲委員會](https://ec.europa.eu/taxation_customs/vies/)伺服器的網頁服務執行VAT ID驗證。
 
 >[!NOTE]
 >
@@ -285,7 +285,7 @@ _VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Customer Configuration]**。
 
-1. 展開&#x200B;**[!UICONTROL Create New Account Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Create New Account Options]**。
 
    在下列範例中，與「VAT驗證」無關的一般客戶設定為維度。
 
@@ -303,7 +303,7 @@ _VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐�
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL General]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開&#x200B;**[!UICONTROL Store Information]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Store Information]**。
 
    ![存放區資訊](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
@@ -326,6 +326,3 @@ _VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐�
    若要變更預設設定，請清除&#x200B;**使用系統值**&#x200B;核取方塊。 按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下要新增或移除的每個國家/地區。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/

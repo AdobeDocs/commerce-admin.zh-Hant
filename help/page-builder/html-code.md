@@ -3,9 +3,9 @@ title: 元素 — HTML程式碼
 description: 瞭解HTML程式碼內容型別，用於在 [!DNL Page Builder] 階段中新增HTML、CSS和JavaScript程式碼片段。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 ## 新增HTML程式碼
 
-下列範例示範如何內嵌[Google Font][1]程式碼並宣告覆寫目前樣式表的自訂標題類別。
+下列範例示範如何內嵌[Google Font](https://fonts.google.com/)程式碼並宣告覆寫目前樣式表的自訂標題類別。
 
 ### 步驟1：選擇Google字型
 
-1. 造訪[Google Fonts][1]網站，並選擇要使用的字型系列。
+1. 造訪[Google Fonts](https://fonts.google.com/)網站，並選擇要使用的字型系列。
 
 1. 複製要內嵌在頁面`<head>`區段中的產生程式碼，並將其暫時貼到文字編輯器中。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 步驟3：預覽頁面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;區段中，將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_區段中，將&#x200B;**[!UICONTROL Enable Page]**設為`Yes`。
 
    ![正在啟用頁面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
    | 插入影像…… | 按一下「 」，在HTML文字方塊中的游標位置處插入來自相簿的上傳影像或影像。 |
    | 插入變數…… | 按一下，在HTML文字方塊中的游標位置處插入變數。 |
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
 
    - 若要控制程式碼在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -163,6 +163,5 @@ ht-degree: 0%
      | [!UICONTROL Margins] | 套用至容器所有側邊外部邊緣的空白空間量。 選項： `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | 套用至容器所有邊內側邊緣的空白空間量。 選項： `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

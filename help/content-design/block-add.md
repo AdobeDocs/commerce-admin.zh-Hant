@@ -2,8 +2,8 @@
 title: 新增內容區塊
 description: 建立可在任何頁面或其他區塊中重複使用的自訂內容區塊。
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 新增內容區塊
 
-您可以建立內容的自訂區塊，然後新增至任何頁面、頁面群組，或甚至另一個區塊。 例如，您可以將影像滑桿放在區塊中，然後將區塊放在首頁上。 區塊工作區使用與&#x200B;_頁面_&#x200B;工作區相同的[基本控制項](pages-workspace.md)，協助您尋找可用的區塊並執行例行維護。 當區塊完成時，您可以使用[Widget](widget-static-block.md)工具將其放在商店中的特定頁面上。
+您可以建立內容的自訂區塊，然後新增至任何頁面、頁面群組，或甚至另一個區塊。 例如，您可以將影像滑桿放在區塊中，然後將區塊放在首頁上。 區塊工作區使用與[頁面](pages-workspace.md)工作區相同的&#x200B;_基本控制項_，協助您尋找可用的區塊並執行例行維護。 當區塊完成時，您可以使用[Widget](widget-static-block.md)工具將其放在商店中的特定頁面上。
 
 ![「區塊」頁面會顯示現有區塊的格線](./assets/blocks-workspace.png){width="700" zoomable="yes"}
 
@@ -87,12 +87,10 @@ ht-degree: 0%
 
 ## 新增燈箱或滑桿
 
-- 使用[[!DNL Page Builder]](../page-builder/introduction.md)可輕鬆將[滑桿](../page-builder/slider.md)新增至您的商店。 滑桿可以設定為自動播放，或使用導覽按鈕手動控制。
+- 使用[可輕鬆將](../page-builder/slider.md)滑桿[[!DNL Page Builder]](../page-builder/introduction.md)新增至您的商店。 滑桿可以設定為自動播放，或使用導覽按鈕手動控制。
 
   ![頁面產生器滑桿](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  [[!DNL Commerce Marketplace]][1]上也有各式各樣的jQuery影像燈箱，有些是免費的。
+  [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox)上也有各式各樣的jQuery影像燈箱，有些是免費的。
 
 - 您也可以從[!DNL Commerce Marketplace]下載擴充功能。 如需其他說明，請參閱擴充功能開發人員提供的檔案。
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox

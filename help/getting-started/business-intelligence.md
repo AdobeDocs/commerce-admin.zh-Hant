@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence]工具'
 description: 瞭解Adobe Commerce和Magento Open Source商家如何使用Commerce Intelligence工具，以獲得用於做出正確業務決策的insight。
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## [!DNL Commerce Intelligence]帳戶
 
-當您透過Adobe啟用[!DNL Commerce Intelligence]帳戶時，您將可存取五個包含約70個報表的控制面板。 這些報表旨在提供有關您資料的深入分析，並回答諸如「我的訂單每月增長如何？」、「誰是我最忠實的客戶？」及「我的優惠券策略有效嗎？」等問題。 如需此工具集的詳細資訊，請參閱[Commerce Intelligence使用手冊][1]。
+當您透過Adobe啟用[!DNL Commerce Intelligence]帳戶時，您將可存取五個包含約70個報表的控制面板。 這些報表旨在提供有關您資料的深入分析，並回答諸如「我的訂單每月增長如何？」、「誰是我最忠實的客戶？」及「我的優惠券策略有效嗎？」等問題。 如需此工具集的詳細資訊，請參閱[Commerce Intelligence使用手冊](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)。
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting]包含在Adobe Commerce和Magento Open Source中。 此功能可讓您存取一套以您的產品、訂單和客戶資料為根據的動態報表，並根據您的業務需求量身打造個人化控制面板。 當[!DNL Advanced Reporting]使用[!DNL Commerce Intelligence]進行分析時，您不需要有Commerce Intelligence帳戶即可使用[!DNL Advanced Reporting]。
 
-如需技術資訊，請參閱開發人員檔案中的[[!DNL Advanced Reporting]][2]{:target="_blank"}主題。
+如需技術資訊，請參閱開發人員檔案中的[[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"}主題。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 * 在存放區URL的[!DNL Commerce]設定中，**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;和&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;必須設定為`Yes`。
 
-* 已建立[[!DNL Commerce] crontab][3]，且已安裝伺服器上正在執行cron工作。
+* 已建立[[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)，且已安裝伺服器上正在執行cron工作。
 
 >[!NOTE]
 >
@@ -176,8 +176,3 @@ select distinct base_currency_code from sales_order;
 | [!UICONTROL Best Selling Products by Revenue] | 列出在定義的時段內，透過商店檢視銷售產品所產生的暢銷產品和收入。 |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hant
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant

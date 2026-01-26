@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &amp；gt； [!UICONTROL Web]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Web]頁面上的組態設定。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ![網頁>一般選項](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | 範圍 | 說明 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | 全域 | 如果啟用了「網頁伺服器重寫」，請在URL中插入目前檢視的「商店代碼」。 選項： `Yes` / `No`。 <br />當此欄位設為`Yes`時，您必須在瀏覽器URL中包含存放區代碼，以確保URL重寫正確對應且所有頁面都成功開啟。 這可避免&#x200B;_404找不到頁面_&#x200B;錯誤。 |
-| [!UICONTROL Auto-redirect to Base URL] | 存放區檢視 | （針對單一商店設定）如果您的網站上有中斷的連結，會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_重要：_**&#x200B;請勿在多存放區設定中使用自動重新導向至基底URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 存放區檢視 | （針對單一商店設定）如果您的網站上有中斷的連結，會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項：` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Important:_**&#x200B;請勿在多存放區設定中使用自動重新導向至基底URL。 |
 | [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的[URL格式](../../catalog/catalog-urls.md)。 選項：「每個影像變體的唯一雜湊」（舊版模式）會將轉換的檔案名稱定義為唯一的雜湊值。 根據查詢引數的影像最佳化會根據查詢引數定義[影像最佳化](../../content-design/media-gallery-image-optimization.md)程式。 |
 
 {style="table-layout:auto"}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![網頁>搜尋引擎最佳化](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![網頁>基礎URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![網頁>基礎URL （安全）](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -69,7 +69,7 @@ ht-degree: 0%
 | [!UICONTROL Secure Base URL for User Media Files] | 存放區檢視 | 指向目錄影像和其他媒體檔案位置的路徑。 檔案可能位於不安全或安全的通道。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的媒體資料夾。 如此一來，您就可以分別備份與復原每個媒體資料夾。 您也可以在Commerce安裝範圍外指定媒體資料夾。 |
 | [!UICONTROL Use Secure URLs on Storefront] | 存放區檢視 | 如果您的網域有安全性憑證，您可以選擇執行店面（使用或不使用SSL加密）。 選項：<br />**`Yes`**— 儲存URL以`https`開頭，表示網頁是以加密的安全通訊協定傳遞。<br />**`No`** — 存放區URL以`http`開頭，表示頁面傳送時沒有安全通訊協定。 |
 | [!UICONTROL Use Secure URLs in Admin] | 全域 | 如果您的網域有安全性憑證，您可以選擇執行存放區管理員，使用或不使用SSL加密。 選項： <br />**`Yes`**— 管理員URL以`https`開頭，表示網頁是以加密的安全通訊協定傳遞。<br />**`No`** — 管理員URL以`http`開頭，表示頁面傳送時沒有安全通訊協定。<br />當對存放區和管理員同時啟用安全URL時，會出現兩個額外的欄位以啟用和設定`HSTS`。 |
-| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 存放區檢視 | 啟用時，[`HSTS`][1]會針對「中間人」攻擊提供安全性測量，並防止使用者覆寫「無效憑證」訊息。 選項： `Yes` / `No` |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 存放區檢視 | 啟用時，[`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)會針對「中間人」攻擊提供安全性測量，並防止使用者覆寫「無效憑證」訊息。 選項： `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | 存放區檢視 | 啟用時，將從瀏覽器接收的不安全(`HTTP`)要求轉換為安全(`HTTPS`)通訊協定。 選項： `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 全域 | 指定伺服器設定中的`offloader_header`值，以識別使用者端與負載平衡器之間的通訊協定。 大部分的Commerce安裝都使用預設值`X-Forwarded-Proto` (XFP)將通訊協定識別為`HTTP`或`HTTPS`。 |
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ![網頁>預設頁面](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ![預設版面配置](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![網頁>預設Cookie設定](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![網頁>工作階段驗證](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![網頁>瀏覽器功能偵測](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -150,5 +150,3 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if Local Storage is Disabled] | 存放區檢視 | 如果本機快取已停用，則顯示訊息。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
-
-[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

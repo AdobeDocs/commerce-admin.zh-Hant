@@ -3,7 +3,7 @@ title: 簽發銷退折讓單
 description: 瞭解如何產生並列印已開立商業發票訂單的銷退折讓單。
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 尋找格線中的順序，然後按一下&#x200B;**[!UICONTROL View]**。
 
-1. 如果&#x200B;_[!UICONTROL Credit Memo]_&#x200B;按鈕在按鈕列中可見，請執行下列任一項作業：
+1. 如果&#x200B;_[!UICONTROL Credit Memo]_按鈕在按鈕列中可見，請執行下列任一項作業：
 
    - 若要發出`offline`退款，請前往步驟#6。
    - 若要發出`online`退款，請繼續步驟#4。
@@ -272,7 +272,7 @@ ht-degree: 0%
 
 ## 列印銷退折讓單
 
-若要列印或檢視完成的銷退折讓單，您必須安裝PDF讀取器。 您可以免費下載[Adobe Reader][1]。
+若要列印或檢視完成的銷退折讓單，您必須安裝PDF讀取程式。 您可以免費下載[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**。
 
@@ -299,6 +299,3 @@ ht-degree: 0%
    - 若要儲存檔案，請按一下&#x200B;**[!UICONTROL Save]**，然後依照提示將檔案儲存到您的電腦。 下載完成後，在Adobe Reader中開啟PDF並列印檔案。
 
    - 若要檢視檔案，請按一下&#x200B;**[!UICONTROL Open]**。 列印就緒的PDF銷退折讓單會在Adobe Reader中開啟。 從這裡，您可以列印銷退折讓單或將其儲存到您的電腦。
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader"

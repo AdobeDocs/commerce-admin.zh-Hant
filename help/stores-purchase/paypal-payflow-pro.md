@@ -3,10 +3,10 @@ title: PayPal Payflow Pro
 description: 瞭解如何將PayPal Payflow Pro設定為商店上的線上支付解決方案。
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 ## 需求
 
-- [PayPal商業帳戶][1] - PayPal Payflow Pro閘道將PayPal的商家帳戶與商家網站連結，同時充當閘道與商家帳戶。
+- [PayPal商業帳戶](https://www.paypal.com/webapps/mpp/how-to-sell-online) - PayPal Payflow Pro閘道將PayPal的商家帳戶與商家網站連結，同時充當閘道與商家帳戶。
 
 - 如果您管理多個Adobe Commerce和Magento Open Source網站，每個網站都必須有個別的PayPal商家帳戶。
 
@@ -37,7 +37,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 ## 線上訂單處理工作流程
 
 1. **管理員提交線上發票** — 商店管理員提交線上發票，因此建立對應的交易與發票。
-1. **PayPal收到交易** — 訂單資訊已傳送給PayPal。 已產生交易與商業發票的記錄。 您可以在您的[PayPal商家帳戶][2]中檢視所有Payflow Pro Gateway交易。
+1. **PayPal收到交易** — 訂單資訊已傳送給PayPal。 已產生交易與商業發票的記錄。 您可以在您的[PayPal商家帳戶](https://manager.paypal.com/)中檢視所有Payflow Pro Gateway交易。
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 ## 設定您的PayPal帳戶
 
-1. 登入您的[PayPal企業帳戶][2]。
+1. 登入您的[PayPal企業帳戶](https://manager.paypal.com/)。
 
-1. 使用PayPal管理員搭配下列設定來設定[託管簽出頁面][4]：
+1. 使用PayPal管理員搭配下列設定來設定[託管簽出頁面](https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager)：
 
    - 在&#x200B;**[!UICONTROL Choose your settings]**&#x200B;底下，將&#x200B;**[!UICONTROL Transaction Process Mode]**&#x200B;設定為`Live`。
 
@@ -87,7 +87,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 若要新增其他使用者到帳戶，請按一下&#x200B;**[!UICONTROL Add User]**。 此連結位於「管理使用者」標題的正上方。
 
-   - 完成&#x200B;_[!UICONTROL Add User]_&#x200B;表單下列區段中的必填欄位：
+   - 完成&#x200B;_[!UICONTROL Add User]_表單下列區段中的必填欄位：
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -114,13 +114,13 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 1. 如果您的Commerce安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
    ![商家國家](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展開&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如有需要）並按一下&#x200B;**[!UICONTROL Payflow Pro]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 展開&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如有需要）並按一下&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payflow Pro]**。
 
    ![設定 — Payflow Pro](./assets/payflow-pro.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 1. 若要執行測試交易，請將&#x200B;**[!UICONTROL Test Mode]**&#x200B;設定為`Yes`。
 
-   在沙箱中測試設定時，只能使用PayPal建議的[信用卡號碼][3]。 當您準備好要前往生產環境時，請返回設定並將測試模式設定為`No`。
+   在沙箱中測試設定時，只能使用PayPal建議的[信用卡號碼](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)。 當您準備好要前往生產環境時，請返回設定並將測試模式設定為`No`。
 
 1. 如果您的系統使用Proxy伺服器來建立與PayPal系統的連線，請將&#x200B;**[!UICONTROL Use Proxy]**&#x200B;設定為`Yes`並執行下列動作：
 
@@ -171,7 +171,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 #### 廣告PayPal點數
 
-1. 展開&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
 
    ![廣告PayPal點數](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -179,7 +179,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 1. 輸入您的&#x200B;**[!UICONTROL Publisher ID]**。
 
-1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -207,11 +207,11 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 #### 廣告PayPal PayLater
 
-1. 展開&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
 
 1. 將&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;設為`Yes`。
 
-1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -283,7 +283,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 ### 步驟4：完成基本設定
 
-1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Pro]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Pro]**。
 
    ![基本設定 — PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png){width="600" zoomable="yes"}
 
@@ -310,14 +310,14 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 ### 步驟5：完成進階設定
 
-1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![進階設定 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -339,7 +339,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 若要在「位址驗證系統」識別不符狀況時，決定何時應拒絕交易，請指定如何處理各種狀況。
 
-1. 展開&#x200B;**[!UICONTROL CVV and AVS Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL CVV and AVS Settings]**。
 
    ![CVV和AVS設定 — PayPal Payflow Pro](./assets/payflow-pro-cvv-avs.png){width="600" zoomable="yes"}
 
@@ -353,7 +353,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 #### 結算報表設定
 
-1. 展開&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Settlement Report Settings]**。
 
    ![結算報表設定 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -396,7 +396,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 使用「前端體驗設定」來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
 
-1. 展開&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
 
    ![前端體驗設定 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -432,7 +432,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 
-1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
 
    ![快速簽出基本設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -449,11 +449,11 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
    - `Authorization` — 核准購買並保留資金。 此金額必須等到商戶擷取&#x200B;_到_&#x200B;後才會撤回。
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
 
 ### 步驟7：完成PayPal Express簽出的進階設定
 
-1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![快速簽出進階設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -462,7 +462,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -481,8 +481,3 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 ### 步驟8：新增Google reCAPTCHA
 
 為了更能保護PayPal Payflow Pro結帳，請啟用Google reCAPTCHA。 它包含使用可點按介面或隱藏檢查來驗證客戶的重新驗證碼選項。 建議使用隱藏選項，以提高銷售轉換率並保護您的商店。 如需詳細資訊，請參閱[Google reCAPTCHA](../systems/security-google-recaptcha.md)。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://manager.paypal.com/
-[3]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[4]: https://developer.paypal.com/docs/payflow/integration-guide/configure-hosted-checkout/#configuring-hosted-pages-using-paypal-manager

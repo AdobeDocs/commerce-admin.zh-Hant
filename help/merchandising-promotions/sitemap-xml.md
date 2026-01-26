@@ -3,8 +3,8 @@ title: 網站地圖
 description: 瞭解如何設定網站地圖，以索引Commerce網站的所有頁面和影像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁編目程式忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁編目程式包含指示，以避免為網站建立索引。 在啟動之前，您可以變更指示，允許網站編制索引。
 
-如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt][1]。
+如需技術資訊，請參閱雲端基礎結構指南上的[Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)中的&#x200B;_新增Sitemap和robots.txt_。
 
 ![網站地圖格線](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -67,8 +67,8 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱特定搜尋引擎的說明。 以下是兩個主要搜尋引擎的指示連結：
 
-- [Google][2]
-- [Microsoft® Bing][3]
+- [Google](https://support.google.com/webmasters/answer/183669?hl=en)
+- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## 步驟5：還原先前的自動機制指示（選擇性）
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -148,11 +148,11 @@ ht-degree: 0%
 
    ![XML Sitemap — 類別選項](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[類別選項](../configuration-reference/catalog/xml-sitemap.md#categories-options)。
+   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#categories-options)中的&#x200B;_類別選項_。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Products Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[產品選項](../configuration-reference/catalog/xml-sitemap.md#products-options)。
+   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#products-options)中的&#x200B;_產品選項_。
 
 1. 若要判斷網站地圖中包含影像的範圍，請將&#x200B;**[!UICONTROL Add Images into Sitemap]**&#x200B;設定為下列其中一項：
 
@@ -166,25 +166,25 @@ ht-degree: 0%
 
    ![目錄設定 — XML Sitemap CMS頁面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_設定參考_&#x200B;中的[CMS頁面選項](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
+   如需這些選項的詳細清單，請參閱[設定參考](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)中的&#x200B;_CMS頁面選項_。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Store Url Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
    ![目錄組態 — XML Sitemap存放區URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[儲存URL選項](../configuration-reference/catalog/xml-sitemap.md#store-url-options)。
+   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#store-url-options)中的&#x200B;_儲存URL選項_。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 步驟2. 完成產生設定
 
-1. 展開&#x200B;**[!UICONTROL Generation Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Generation Settings]**。
 
    如有需要，請清除&#x200B;**使用系統值**&#x200B;核取方塊以變更這些設定。
 
    ![目錄組態 — XML Sitemap產生設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[產生設定](../configuration-reference/catalog/xml-sitemap.md#generation-settings)。
+   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#generation-settings)中的&#x200B;_產生設定_。
 
 1. 若要產生Sitemap，請將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`並執行下列動作：
 
@@ -204,11 +204,11 @@ ht-degree: 0%
 
 ### 步驟3. 設定網站地圖檔案限制
 
-1. 展開&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Sitemap File Limits]**。
 
    ![目錄組態 — XML Sitemap檔案限制](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[網站地圖檔案限制](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)。
+   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)中的&#x200B;_網站地圖檔案限制_。
 
 1. 針對&#x200B;**[!UICONTROL Maximum No of URLs per File]**，輸入網站地圖中可包含的URL數目上限。
 
@@ -220,14 +220,10 @@ ht-degree: 0%
 
 ### 步驟4. 設定搜尋引擎提交設定
 
-1. 展開&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Search Engine Submission Settings]**。
 
    ![目錄組態 — XML Sitemap搜尋引擎提交設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
 1. 如果使用`robots.txt`檔案提供指令給編目您網站的搜尋引擎，請將&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant
-[2]: https://support.google.com/webmasters/answer/183669?hl=en
-[3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

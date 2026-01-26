@@ -3,7 +3,7 @@ title: Google網站工具
 description: 瞭解可用來最佳化內容、分析流量以及將目錄連結至購物彙總和市場的Google工具整合。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 步驟1：更新Google設定
 
-1. [登入][1]{: target="_blank"}您公司的Google Analytics帳戶。
+1. [登入](https://www.google.com/analytics/){: target="_blank"}您公司的Google Analytics帳戶。
 
 1. 在左側邊欄底部，選擇&#x200B;**[!UICONTROL Admin]**，然後導覽至您要編輯的帳戶（如果適用）。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 接受&#x200B;_資料處理修訂_。
 
-   Google Ads資料處理術語說明Google如何處理資料，以及為確保受GDPR規範的業務資料安全性所採取的措施。 您合法實體與聯絡人資訊的記錄也會隨修訂內容一併維護。 若要[深入瞭解][2]{: target="_blank"}，請按一下頁面頂端訊息中的連結。
+   Google Ads資料處理術語說明Google如何處理資料，以及為確保受GDPR規範的業務資料安全性所採取的措施。 您合法實體與聯絡人資訊的記錄也會隨修訂內容一併維護。 若要[深入瞭解](https://support.google.com/analytics/answer/3379636){: target="_blank"}，請按一下頁面頂端訊息中的連結。
 
    - 向下捲動頁面至&#x200B;**[!UICONTROL Data Processing Amendment]**。
    - 按一下&#x200B;**[!UICONTROL Review Amendment]**&#x200B;以讀取&#x200B;_Google Ads資料處理條款_。
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-若要深入瞭解，請參閱Google說明中的[Analytics.js欄位參考][3]{: target="_blank"}。
+若要深入瞭解，請參閱Google說明中的[Analytics.js欄位參考](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}。
 
 如果您使用舊版`ga.js`程式庫，請新增下列程式碼片段：
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-若要深入瞭解，請參閱Google說明中的Analytics中的[IP匿名化][4]。
+若要深入瞭解，請參閱Google說明中的Analytics中的[IP匿名化](https://support.google.com/analytics/answer/2763052)。
 
 #### 強制SSL
 
@@ -118,8 +118,3 @@ analytics.js
 - 隱藏IP位址以隱藏個人資訊
 - 已關閉Google資料共用
 - 不使用其他Google服務搭配Google Analytics Cookie
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

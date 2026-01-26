@@ -3,9 +3,9 @@ title: GDPR法規遵循
 description: 瞭解一般資料保護規範(GDPR)，這項法規會針對歐盟和歐洲經濟區的所有個人監管資料保護和隱私權。
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 - CCPA具有其他資料清查和對應需求。
 - 這些法規具有不同的隱私權政策要求。
 
-符合GDPR的企業可能需根據CCPA承擔其他義務。 若要進一步瞭解，請參閱[CCPA資料單][3]{：target=&quot;_blank&quot;}。
+符合GDPR的企業可能需根據CCPA承擔其他義務。 若要深入瞭解，請參閱[CCPA資料表](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}。
 
 ## 最佳實務
 
@@ -47,10 +47,6 @@ ht-degree: 0%
 
 - 保持透明度並完整儲存說明檔案。
 
-- 若要瞭解Adobe如何協助商戶遵守適用的法律義務，請造訪[網站][1]{：target=&quot;_blank&quot;}。
+- 若要瞭解Adobe如何協助商戶遵守適用的法律義務，請造訪[網站](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}。
 
-- 如需資料流程圖表和資料庫實體對應，請參閱[個人資訊參考][2]{： target=&quot;_blank&quot;}。
-
-[1]: https://business.adobe.com/tw/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- 如需資料流程圖表和資料庫實體對應，請參閱[個人資訊參考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}。

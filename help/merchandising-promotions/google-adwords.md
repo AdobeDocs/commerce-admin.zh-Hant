@@ -3,24 +3,24 @@ title: Google AdWords
 description: 瞭解如何設定您的Commerce商店以進行Google AdWords轉換追蹤，以測量導致銷售或其他寶貴動作的廣告點選次數。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1]是一項服務，您可以在Google搜尋結果和Google顯示網路的公司頁面上放置廣告。 AdWords儀表板包含管理行銷活動、追蹤回應和測量結果的工具。
+[Google AdWords](https://www.google.com/adwords/)是一項服務，您可以在Google搜尋結果和Google顯示網路的公司頁面上放置廣告。 AdWords儀表板包含管理行銷活動、追蹤回應和測量結果的工具。
 
-轉換追蹤會顯示導致銷售或其他重要動作的廣告點選次數。 提交訂單後顯示給客戶的&#x200B;_Success_&#x200B;頁面會用於追蹤轉換，因為它只會在銷售後顯示。 完成商店的Google AdWords設定後，不需要將轉換追蹤指令碼複製到成功頁面，因為Commerce已具備必要資訊。 若要進一步瞭解，請參閱[Google AdWords說明][2]。
+轉換追蹤會顯示導致銷售或其他重要動作的廣告點選次數。 提交訂單後顯示給客戶的&#x200B;_Success_&#x200B;頁面會用於追蹤轉換，因為它只會在銷售後顯示。 完成商店的Google AdWords設定後，不需要將轉換追蹤指令碼複製到成功頁面，因為Commerce已具備必要資訊。 若要進一步瞭解，請參閱[Google AdWords說明](https://support.google.com/adwords/answer/6095821)。
 
-在Google搜尋結果中![Adobe廣告](./assets/google-adwords-adobe-ad.png){width="500"}
+![Google搜尋結果中的Adobe廣告](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## 步驟1. 建立Google AdWords行銷活動
 
-1. 造訪[Google AdWords][3]，並註冊帳戶。
+1. 造訪[Google AdWords](https://ads.google.com/)，並註冊帳戶。
 
 1. 依照指示建立行銷活動。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       - `2` — 顯示兩行通知，其中包含有關Google追蹤詳細資訊的連結。
       - `3` — 不顯示客戶通知。
 
-   - 為您要用於Google網站統計通知標籤的&#x200B;**[!UICONTROL Conversion Color]**&#x200B;輸入[十六進位代碼][4]{：target=&quot;_blank&quot;}。
+   - 為您要用於Google網站統計通知標籤的[輸入](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}十六進位代碼&#x200B;**[!UICONTROL Conversion Color]**。
 
    - 輸入顯示在Google Sites Stat通知上的&#x200B;**[!UICONTROL Conversion Label]**&#x200B;的加密文字。
 
@@ -125,15 +125,10 @@ ht-degree: 0%
    - `Dynamic` — 根據動態訂單金額值判斷已發生轉換。
    - `Constant` — 根據輸入的特定值判斷轉換已經發生。
 
-   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;_[!UICONTROL Order Amount]_&#x200B;的特定&#x200B;**[!UICONTROL Value]**&#x200B;以符合轉換資格。
+   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;**[!UICONTROL Value]**&#x200B;的特定&#x200B;_[!UICONTROL Order Amount]_以符合轉換資格。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 步驟4. 驗證設定
 
 在數小時內，Google AdWords儀表板中的追蹤狀態從`Unverified`變更為`No recent conversions`或`Recording conversions`。 當有人按一下您的廣告並作出購買時，轉換會出現在您的控制面板和促銷活動報表的「轉換動作」頁面上。
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

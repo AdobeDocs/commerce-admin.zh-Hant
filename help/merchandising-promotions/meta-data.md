@@ -1,45 +1,45 @@
 ---
-title: 中繼資料
+title: Meta資料
 description: 瞭解如何輸入關鍵字豐富的中繼資料，以改進搜尋引擎索引您Commerce網站的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# 中繼資料
+# Meta資料
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[中繼資料指導方針](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[中繼資料指導方針](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)
 
 您的商店會載入您可輸入關鍵字豐富中繼資料的位置，以改善搜尋引擎為您的網站編制索引的方式。 在設定存放區時，您可能會輸入初步中繼資料，並打算稍後完成。 您可以長期微調中繼資料，以鎖定客戶的購買模式和偏好設定。
 
 ![產品設定 — 搜尋引擎最佳化](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## 中繼標題
+## Meta標題
 
 中繼標題會顯示在瀏覽器和搜尋結果清單的標題列和標籤中。 中繼標題應為頁面唯一的，且長度應小於70個字元。
 
 ![店面範例 — 中繼標題](./assets/storefront-home-page-meta-title.png){width="600"}
 
-## 中繼關鍵字
+## Meta關鍵字
 
 雖然有些搜尋引擎會忽略中繼關鍵字，有些仍會繼續使用。 目前的最佳實務是在中繼標題和中繼說明中加入高值關鍵字。
 
 ![網頁瀏覽器搜尋 — 中繼關鍵字](./assets/storefront-meta-description.png){width="500"}
 
-## 中繼說明
+## Meta說明
 
-中繼說明提供搜尋結果清單頁面的簡短概觀。 在理想的情況下，中繼說明的長度應介於150到160個字元之間，不過欄位可接受最多255個字元。
+Meta說明提供搜尋結果清單頁面的簡短概觀。 在理想的情況下，中繼說明的長度應介於150到160個字元之間，不過欄位可接受最多255個字元。
 
 ## 豐富的程式碼片段
 
-豐富的程式碼片段提供搜尋結果清單和其他應用程式的詳細資訊。 依照預設，以[schema.org][1]標準為基礎的結構化資料標籤會新增到您商店的產品範本。 因此，搜尋引擎有更多資訊可在產品清單中當作&#x200B;_豐富的程式碼片段_。
+豐富的程式碼片段提供搜尋結果清單和其他應用程式的詳細資訊。 依照預設，以[schema.org](https://schema.org/)標準為基礎的結構化資料標籤會新增到您商店的產品範本。 因此，搜尋引擎有更多資訊可在產品清單中當作&#x200B;_豐富的程式碼片段_。
 
 ## 規範Meta標籤
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開&#x200B;**搜尋引擎最佳化**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![搜尋引擎最佳化](../assets/icon-display-expand.png)區段的&#x200B;**擴充選擇器**。
 
    若要變更任何欄位值，您必須先清除每個欄位後面的&#x200B;**使用系統值**&#x200B;核取方塊。
 
@@ -82,22 +82,20 @@ ht-degree: 0%
 
 1. 如果您希望搜尋引擎僅使用完整類別路徑來索引類別頁面，請執行下列動作：
 
-   - 將&#x200B;**類別**&#x200B;的`Yes`使用標準連結中繼標籤。
+   - 將&#x200B;**使用類別**&#x200B;的規範連結Meta標籤設定為`Yes`。
 
-   - 將產品&#x200B;**的**&#x200B;使用標準連結中繼標籤`No`設定為。
+   - 將&#x200B;**產品的**&#x200B;使用標準連結Meta標籤設定為`No`。
 
 1. 如果您希望搜尋引擎只使用網域名稱/product-url-key格式來索引產品頁面，請執行下列動作：
 
-   - 將產品&#x200B;**的**&#x200B;使用標準連結中繼標籤`Yes`設定為。
+   - 將&#x200B;**產品的**&#x200B;使用標準連結Meta標籤設定為`Yes`。
 
-   - 將&#x200B;**類別**&#x200B;的`No`使用標準連結中繼標籤。
+   - 將&#x200B;**使用類別**&#x200B;的規範連結Meta標籤設定為`No`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-## 中繼資料示範
+## Meta資料示範
 
 觀看此影片以瞭解如何管理SEO中繼資料：
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
-
-[1]: https://schema.org/

@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Page Builder]安裝'
+title: '[!DNL Page Builder]設定'
 description: 瞭解Adobe Commerce和Magento Open Source管理員中的 [!DNL Page Builder] 功能設定。
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder]設定
 
-在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_&#x200B;按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
+在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->管理員使用者必須擁有其[角色範圍](../systems/permissions-user-roles.md)的[!UICONTROL Content]許可權，才能看到[!UICONTROL Edit with Page Builder]按鈕並能夠使用頁面產生器。
+>管理員使用者必須擁有其[!UICONTROL Content]角色範圍[的](../systems/permissions-user-roles.md)許可權，才能看到[!UICONTROL Edit with Page Builder]按鈕並能夠使用頁面產生器。
 
 如需有關內容管理進階工具組態選項的詳細資訊，請參閱&#x200B;[_組態參考指南_](../configuration-reference/general/content-management.md)。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並驗證&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;是否設定為`Yes`。
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 1. 如果您已準備好設定[!DNL Google Maps]，請執行下列動作：
 
-   - 如有必要，請依照[取得API金鑰][1]指示進行，然後複製並貼上您的&#x200B;**[!UICONTROL Google Maps API Key]**。
+   - 如有必要，請依照[取得API金鑰](https://developers.google.com/maps/documentation/javascript/get-api-key)指示進行，然後複製並貼上您的&#x200B;**[!UICONTROL Google Maps API Key]**。
 
-   - 若要變更&#x200B;**[!UICONTROL Google Maps Style]**，請貼上[[!DNL Google Maps] API樣式精靈][2]產生的JSON程式碼。
+   - 若要變更&#x200B;**[!UICONTROL Google Maps Style]**，請貼上[[!DNL Google Maps] API樣式精靈](https://mapstyle.withgoogle.com/)產生的JSON程式碼。
 
    >[!NOTE]
    >
-   >請參閱[媒體 — 地圖](map.md)，以取得有關在您的[!DNL Page Builder]內容中使用[!DNL Google Maps]的詳細資訊。
+   >請參閱[媒體 — 地圖](map.md)，以取得有關在您的[!DNL Google Maps]內容中使用[!DNL Page Builder]的詳細資訊。
 
 1. 若要設定[!DNL Page Builder]欄格線中的准則數目，請執行下列動作：
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;並執行下列動作：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並將&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;設為`No`。
 
@@ -95,6 +95,3 @@ ht-degree: 0%
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 1. 出現提示時，[重新整理](../systems/cache-management.md)任何無效的快取。
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[2]: https://mapstyle.withgoogle.com/

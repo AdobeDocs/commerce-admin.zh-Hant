@@ -3,18 +3,18 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 瞭解 [!DNL Commerce Marketplace]，此工具為商家提供精選的解決方案，並為合格的開發人員提供工具、平台和絕佳位置，以建立欣欣向榮的業務。
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce Marketplace
 
-[Adobe Commerce Marketplace][1]是應用程式商店，為商戶提供精選的解決方案，並為合格的開發人員提供工具、平台和最佳位置，以建立欣欣向榮的業務。 [!DNL Commerce Marketplace]提供多種免費的擴充功能以及其他可供銷售的擴充功能。 可以用信用卡或[PayPal][2]支付購買費用。
+[Adobe Commerce Marketplace](https://marketplace.magento.com/)是應用程式商店，為商戶提供精選的解決方案，並為合格的開發人員提供工具、平台和最佳位置，以建立欣欣向榮的業務。 [!DNL Commerce Marketplace]提供多種免費的擴充功能以及其他可供銷售的擴充功能。 可以用信用卡或[PayPal](https://www.paypal.com/us/home)支付購買費用。
 
-[!DNL Commerce Marketplace]上可用的所有擴充功能均已通過廣泛檢閱。 [擴充功能品質計畫][3] (EQP)結合了[!DNL Commerce]專業知識、開發指引和驗證工具，以確保Commerce Marketplace上的所有擴充功能都符合編碼標準和最佳實務。 稽核程式包括自動檢查和手動QA稽核。 在此過程中，會檢查並測試每個擴充功能的結構和程式碼，以找出病毒/惡意程式碼感染的證據，以及是否有任何剽竊的跡象。 檢閱包括由[!DNL Commerce]工程師進行的深入技術檢查和健全性檢查，重點是檔案、編碼結構、效能、擴充性、安全性以及與[!DNL Commerce]核心的相容性。
+[!DNL Commerce Marketplace]上可用的所有擴充功能均已通過廣泛檢閱。 [擴充功能品質計畫](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/) (EQP)結合了[!DNL Commerce]專業知識、開發指引和驗證工具，以確保Commerce Marketplace上的所有擴充功能都符合編碼標準和最佳實務。 稽核程式包括自動檢查和手動QA稽核。 在此過程中，會檢查並測試每個擴充功能的結構和程式碼，以找出病毒/惡意程式碼感染的證據，以及是否有任何剽竊的跡象。 檢閱包括由[!DNL Commerce]工程師進行的深入技術檢查和健全性檢查，重點是檔案、編碼結構、效能、擴充性、安全性以及與[!DNL Commerce]核心的相容性。
 
 雖然您可以從其他來源購買擴充功能，但只有在[!DNL Commerce Marketplace]上可用的擴充功能，才能透過擴充功能品質方案中的廣泛技術和行銷稽核進行驗證。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]認證
 
-在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[!DNL Commerce]或[[!DNL Marketplace]][1]Magento.com[的標題登入您的][6]帳戶。
+在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的標題登入您的](https://business.adobe.com/products/magento/magento-commerce.html)帳戶。
 
 您的存取金鑰是一組公開和私密金鑰，用來將您的[!DNL Commerce]安裝與[!DNL Commerce]帳戶同步並驗證您的認證。 帳戶同步之後，每次從Commerce Marketplace安裝擴充功能或模組或升級[!DNL Commerce]安裝時，都必須輸入私密金鑰。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 登入您的[!DNL Commerce]帳戶。
 
-1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**&#x200B;標籤。
+1. 在&#x200B;_[!UICONTROL My Account]_頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**標籤。
 
 1. 在名稱旁邊的右上角，按一下向下箭頭，然後選擇&#x200B;**[!UICONTROL My Profile]**。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
 
-Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買的安裝程式與[Adobe雲端架構][4]上託管的安裝不同。
+Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買的安裝程式與[Adobe雲端架構](https://www.adobe.com/commerce/magento/enterprise.html)上託管的安裝不同。
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -109,7 +109,7 @@ Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買
 
 ### 開放原始碼問題
 
-市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/tw/products/magento/partners.html)。
+市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/products/magento/partners.html)。
 
 ### 退款請求
 
@@ -138,9 +138,3 @@ Marketplace支援團隊無法將購買轉移給其他帳戶。 您必須購買�
 您可以透過主要帳戶[共用](commerce-account-share.md) Commerce執行個體。 共用存取權會將主要帳戶的特殊許可權授予給從屬帳戶。 共用存取點是從主要帳戶產生。 主要帳戶可以是Commerce授權帳戶、主要商家帳戶或組織內共用的帳戶。
 
 這些特殊許可權會授予與主要使用者相同層級的Adobe Commerce存取權，但不會延續至Adobe Commerce Marketplace或開發人員入口網站。 這表示從Marketplace中的附屬帳戶購買擴充功能時，無法與主要帳戶共用。 共用存取權是單向通道（主要帳戶至附屬帳戶）。 當從屬帳戶嘗試共用回主要帳戶時，此功能無法運作。
-
-[1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home
-[3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
-[4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/tw/products/magento/magento-commerce.html

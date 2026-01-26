@@ -3,7 +3,7 @@ title: 存放區詳細資料
 description: 瞭解如何更新商店的基本資訊。
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其他通訊中的基本資訊。
+_[!UICONTROL Store Information]_區段提供出現在銷售檔案和其他通訊中的基本資訊。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開&#x200B;**[!UICONTROL Store Information]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Store Information]**。
 
    ![一般組態 — 存放區資訊](./assets/general-store-information.png){width="700"}
 
@@ -67,7 +67,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開&#x200B;**[!UICONTROL Locale Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Locale Options]**。
 
    ![一般設定 — 地區設定選項](./assets/general-locale-options.png){width="700"}
 
@@ -97,7 +97,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開&#x200B;**[!UICONTROL State Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL State Options]**。
 
    ![一般設定 — 狀態選項](./assets/general-state-options.png){width="700"}
 
@@ -123,7 +123,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 1. 在左側導覽面板的&#x200B;**[!UICONTROL General]**&#x200B;下，選擇&#x200B;**[!UICONTROL General]**。
 
-1. 展開&#x200B;**[!UICONTROL Country Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Country Options]**。
 
    >[!NOTE]
    >
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 如需國家組態問題疑難排解的協助，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=zh-Hant)
+- [如何新增國家](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 「商家地點」設定是用來設定[付款方法](../stores-purchase/payments.md)。 如果此設定沒有值，則會使用[預設國家](#uicontrol-country-options)設定。
 
@@ -215,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 ### 步驟2：設定產生之連結的基本URL
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 部分面對客戶的電子郵件會包含商店連結，例如協助客戶重設密碼的連結。 為確保店面的連結正常運作，您必須定義店面的基底URL。
 
@@ -229,7 +229,7 @@ _[!UICONTROL Store Information]_&#x200B;區段提供出現在銷售檔案和其�
 
 ### 步驟3：設定商店的電子郵件地址
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}布建執行個體時已設定寄件者電子郵件地址。 如果您需要變更這些地址，請建立支援票證。
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}布建執行個體時已設定寄件者電子郵件地址。 如果您需要變更這些地址，請建立支援票證。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -343,6 +343,4 @@ Luma範例資料包含可為您的商店自訂的&#x200B;_聯絡我們資訊_&#x
 >
 >從2.4.0版開始，連絡人表單無法在CMS區塊或CMS頁面中呼叫。 所有連絡人表單的自訂應使用版面xml或自訂主題範本完成。
 
-依預設，購物者使用店面頁面頁尾中的&#x200B;_連絡人連結_&#x200B;來存取連絡人表單。 如需自訂連絡人頁面的詳細資訊，請參閱[前端開發人員指南][theme-guide]。
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+依預設，購物者使用店面頁面頁尾中的&#x200B;_連絡人連結_&#x200B;來存取連絡人表單。 如需自訂連絡人頁面的詳細資訊，請參閱[前端開發人員指南](https://developer.adobe.com/commerce/frontend-core/guide/themes/)。

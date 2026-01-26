@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: 瞭解如何使用 [!DNL Google Analytics] 為您的Commerce網站收集有用的量度。
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 如果您尚未設定網站的[!DNL Google Analytics] 4，請遵循下列其中一種方法：
 
 - [第一次設定Analytics資料集合](https://support.google.com/analytics/answer/9304153)
-- [將Google Analytics4新增至具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的網站
+- [將Google Analytics 4新增至具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的網站
 
 ### 步驟2：完成Commerce設定
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Google API]**。
 
-1. 展開&#x200B;**[!UICONTROL Google GTag]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Google GTag]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Google Analytics4]**&#x200B;子區段，然後執行下列動作：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    - 如果您想要對內容進行A/B測試和其他效能測試，請將&#x200B;**內容實驗**&#x200B;設定為`Yes`。
 
-   ![銷售組態 — 適用於Google Analytics的Google API 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
+   ![銷售組態 — 適用於Google Analytics 4](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}的Google API
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2023年7月1日，標準Universal Analytics屬性將不再處理資料。 如果您還是依賴[!DNL Universal Analytics]，建議您[準備使用Google Analytics4](https://support.google.com/analytics/answer/10759417)。
+>2023年7月1日，標準Universal Analytics屬性將不再處理資料。 如果您仍仰賴[!DNL Universal Analytics]，建議您[準備使用Google Analytics 4](https://support.google.com/analytics/answer/10759417)。
 
 ### 步驟1：設定Google Universal Analytics
 
-造訪Google網站，並註冊[Google Universal Analytics][1]帳戶。
+造訪Google網站，並註冊[Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)帳戶。
 
 ### 步驟2：完成Commerce設定
 
@@ -83,21 +83,21 @@ ht-degree: 0%
 
    - 如果您想要對內容進行A/B測試和其他效能測試，請將&#x200B;**[!UICONTROL Content Experiments]**&#x200B;設為`Yes`。
 
-   ![銷售組態 — Google API -Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
+   ![銷售組態 — Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 增強型電子商務
 
-增強型電子商務是[!DNL Google Universal Analytics]的外掛程式，可讓您深入瞭解客戶的購物和購買行為。 您可以使用增強型電子商務產生有關關鍵客戶活動的報表，例如客戶在購物車中新增專案、開始結帳程式或完成購買時。 您也可以識別和分析放棄購物車但不購買的購物者模式。
+增強型電子商務是[!DNL Google Universal Analytics]的外掛程式，可讓您insight瞭解客戶的購物和購買行為。 您可以使用增強型電子商務產生有關關鍵客戶活動的報表，例如客戶在購物車中新增專案、開始結帳程式或完成購買時。 您也可以識別和分析放棄購物車但不購買的購物者模式。
 
-下列指示顯示如何使用[!DNL Universal Analytics]設定[!DNL Google Tag Manager]以產生增強型電子商務資料和報表。
+下列指示顯示如何使用[!DNL Google Tag Manager]設定[!DNL Universal Analytics]以產生增強型電子商務資料和報表。
 
 ### 步驟1. 註冊Google帳戶
 
 1. 註冊[Google Tag Manager](google-tag-manager.md)帳戶，並完成Commerce設定。
 
-1. 註冊新的[Google Universal Analytics][1]帳戶。
+1. 註冊新的[Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)帳戶。
 
 ### 步驟2. 設定增強型電子商務
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >僅針對內建的Commerce基本付款方法（例如`Check / Money Order`和`Cash On Delivery Payment`）觸發[!UICONTROL Checkout]事件。 `PayPal checkout`和其他外部付款方法不會執行此事件，這些方法使用重新導向以從外部資源結帳。
+   >僅針對內建的Commerce基本付款方法（例如[!UICONTROL Checkout]和`Check / Money Order`）觸發`Cash On Delivery Payment`事件。 `PayPal checkout`和其他外部付款方法不會執行此事件，這些方法使用重新導向以從外部資源結帳。
 
 1. 使用相同的基本設定建立下列Universal Analytics標籤。
 
@@ -213,6 +213,3 @@ ht-degree: 0%
 1. 完成後，請按一下「**[!UICONTROL Preview]**」並確認標籤是否正確運作。
 
 1. 驗證設定後，請按一下&#x200B;**[!UICONTROL Publish]**。
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

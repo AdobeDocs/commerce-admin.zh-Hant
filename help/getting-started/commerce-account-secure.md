@@ -3,9 +3,9 @@ title: 保護您的 [!DNL Commerce] 帳戶
 description: 瞭解如何使用雙因素驗證來保護您的 [!DNL Commerce] 帳戶。
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 啟用雙因素驗證
 
-1. 登入您的[[!DNL Commerce] 帳戶][1]{：target=&quot;_blank&quot;}。
+1. 登入您的[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 在左側導覽窗格中，選取&#x200B;**[!UICONTROL Account Settings]**，然後選取&#x200B;**[!UICONTROL Two-factor Authentication]**。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 使用驗證碼登入
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 ## 使用復原始碼登入
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ## 使用您的修復電子郵件登入
 
-1. 登入您的[[!DNL Commerce] 帳戶][1]{：target=&quot;_blank&quot;}。
+1. 登入您的[[!DNL Commerce] 帳戶](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 檢視您的復原始碼
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ## 產生新的復原始碼
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -190,7 +190,7 @@ ht-degree: 0%
 
 ## 變更您的修復電子郵件
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 
 ## 變更您的雙因素驗證應用程式
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 >
 >如果您的組織安全原則需要對Adobe Commerce帳戶進行多重驗證，則您無法停用雙重驗證。
 
-1. 移至[!DNL Commerce] [帳戶登入][1]{：target=&quot;_blank&quot;}。
+1. 移至[!DNL Commerce] [帳戶登入](https://account.magento.com/customer/account/login){:target="_blank"}。
 
 1. 輸入您的使用者名稱和密碼認證，然後選取&#x200B;**[!UICONTROL Login]**。
 
@@ -287,5 +287,3 @@ ht-degree: 0%
    系統會傳送電子郵件確認，指出您的[!DNL Commerce]帳戶已停用TFA。
 
    ![停用TFA](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

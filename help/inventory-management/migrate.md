@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Commerce]升級'
+title: '[!DNL Commerce]個升級'
 description: 瞭解Adobe Commerce和Magento Open Source升級如何影響目錄和 [!DNL Inventory Management] 設定。
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -54,9 +54,9 @@ ht-degree: 0%
 
 ## [!DNL Commerce Order Management]和[!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1]與[!DNL Inventory Management]不相容。 安裝後，MCOM模組會為[!DNL Commerce]提供所有存貨管理功能，包括單一來源和多重來源管理、庫存、預留等等。 預設會停用[!DNL Inventory Management]模組。
+[Commerce Order Management (MCOM)](https://commerce-docs.github.io/oms-documentation-archive/)與[!DNL Inventory Management]不相容。 安裝後，MCOM模組會為[!DNL Commerce]提供所有存貨管理功能，包括單一來源和多重來源管理、庫存、預留等等。 預設會停用[!DNL Inventory Management]模組。
 
-MCOM為進階全通路訂單管理、全球存貨與多來源、從商店到倉儲的履行，以及集中化客戶服務提供廣泛的功能與服務。 如需完整的功能清單，請參閱[MCOM功能清單][2]。
+MCOM為進階全通路訂單管理、全球存貨與多來源、從商店到倉儲的履行，以及集中化客戶服務提供廣泛的功能與服務。 如需完整的功能清單，請參閱[MCOM功能清單](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/)。
 
 [!DNL Inventory Management]藉由額外的選項擴充現有的[!DNL Commerce]功能，以追蹤處理中訂單、庫存量、庫存的可用存貨以及擴充功能開發的API。
 
@@ -71,6 +71,3 @@ MCOM為進階全通路訂單管理、全球存貨與多來源、從商店到倉�
 - 使用[!DNL Order Management System]進行清查管理。 目前的聯結器不支援[!DNL Inventory Management]介面。 對於升級至Adobe Commerce 2.4.0的OMS商家，他們必須停用這些模組。
 
 如需完整的詳細資料，請參閱[安裝與更新](install-update.md)。
-
-[1]: https://commerce-docs.github.io/oms-documentation-archive/
-[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

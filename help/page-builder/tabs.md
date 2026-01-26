@@ -3,7 +3,7 @@ title: 版面 — 索引標籤
 description: 瞭解索引標籤內容型別，用於在 [!DNL Page Builder] 階段中新增一組索引標籤。
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 新增個別索引標籤
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
+1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_面板中，將&#x200B;**[!UICONTROL Tabs]**預留位置直接拖曳至舞台或舞台上的列或欄。
 
    ![將索引標籤拖曳到列](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 
 1. 如有需要，請使用下列章節作為指引，設定其他選項：
 
-   - [[!UICONTROL Background]][background]
-   - [[!UICONTROL Advanced]][advanced]
+   - [[!UICONTROL Background]](#background)
+   - [[!UICONTROL Advanced]](#advanced)
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
@@ -324,7 +324,5 @@ ht-degree: 0%
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;套用設定並返回[!DNL Page Builder]工作區。
 
-[background]: #background
-[advanced]: #advanced
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

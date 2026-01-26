@@ -3,8 +3,8 @@ title: PayPal Payments Pro
 description: 瞭解如何在商店上將PayPal Payments Pro設定為線上付款解決方案。
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PayPal Payments Pro
 
-[PayPal Payments Pro][3]將商家帳戶與付款閘道的所有優點整合在一起，讓您能夠建立自己的完全自訂的結帳體驗。 PayPal Express Checkout會自動透過PayPal Payments Pro啟用，因此您可以利用超過1.1億位作用中的PayPal使用者。
+[PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/)將商家帳戶與付款閘道的所有優點整合在一起，讓您能夠建立自己的完全自訂的結帳體驗。 PayPal Express Checkout會自動透過PayPal Payments Pro啟用，因此您可以利用超過1.1億位作用中的PayPal使用者。
 
 迷你購物車中顯示![PayPal Payments Pro](./assets/storefront-mini-cart-payments-pro-racer-tank.png){width="700" zoomable="yes"}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 需求
 
-- [PayPal商家帳戶][1] （已啟用直接付款）
+- [PayPal商家帳戶](https://www.paypal.com/webapps/mpp/how-to-sell-online) （已啟用直接付款）
 
 ## 簽出工作流程
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    - 若要新增其他使用者到帳戶，請按一下&#x200B;**[!UICONTROL Add User]**。 此連結位於「管理使用者」標題的正上方。
 
-   - 完成&#x200B;_[!UICONTROL Add User]_&#x200B;表單下列區段中的必填欄位：
+   - 完成&#x200B;_[!UICONTROL Add User]_表單下列區段中的必填欄位：
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -142,19 +142,19 @@ ht-degree: 0%
 
 1. 如果您的Commerce安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
    ![商家國家](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展開&#x200B;**[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;並按一下&#x200B;**[!UICONTROL Payments Pro]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 展開&#x200B;**[!UICONTROL PayPal All-in-One Payment Solution]**&#x200B;並按一下&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payments Pro]**。
 
    ![PayPal Payments Pro](./assets/paypal-payments-pro.png){width="600" zoomable="yes"}
 
 ### 步驟2：完成必要的PayPal設定
 
-1. 展開&#x200B;**[!UICONTROL Payments Pro and Express Checkout]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Payments Pro and Express Checkout]**。
 
    ![PayPal Payments Pro必要設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-required.png){width="600" zoomable="yes"}
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 1. 若要執行測試交易，請將&#x200B;**[!UICONTROL Test Mode]**&#x200B;設定為`Yes`。
 
-   在沙箱中測試設定時，只能使用PayPal建議的[信用卡號碼][2]。 當您準備好要前往生產環境時，請返回設定並將測試模式設定為`No`。
+   在沙箱中測試設定時，只能使用PayPal建議的[信用卡號碼](https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm)。 當您準備好要前往生產環境時，請返回設定並將測試模式設定為`No`。
 
 1. 如果您的系統使用Proxy伺服器來建立與PayPal系統的連線，請將&#x200B;**[!UICONTROL Use Proxy]**&#x200B;設定為`Yes`並執行下列動作：
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 #### 廣告PayPal點數
 
-1. 展開&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
 
    ![廣告PayPal點數](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 
 1. 輸入您的&#x200B;**[!UICONTROL Publisher ID]**。
 
-1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -239,11 +239,11 @@ ht-degree: 0%
 
 #### 廣告PayPal PayLater
 
-1. 展開&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
 
 1. 將&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;設為`Yes`。
 
-1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -315,7 +315,7 @@ ht-degree: 0%
 
 ### 步驟4：完成基本設定
 
-1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Payments Pro]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Payments Pro]**。
 
    ![PayPal Payment Pro基本設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-basic-settings.png){width="600" zoomable="yes"}
 
@@ -342,14 +342,14 @@ ht-degree: 0%
 
 ### 步驟5：完成進階設定
 
-1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![PayPal Payments Pro進階設定](./assets/paypal-payments-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵(PC)或Command鍵(Mac)，並在清單中選取客戶可在您的商店購買產品的國家/地區。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 
 1. 若要要求客戶輸入CVV代碼，請將&#x200B;**[!UICONTROL Require CVV Entry]**&#x200B;設為`Yes`。
 
-1. 展開&#x200B;**[!UICONTROL CVV and AVS Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL CVV and AVS Settings]**。
 
 1. 若要在「位址驗證系統」識別不符時決定何時應拒絕交易，請指定如何處理下列各情形：
 
@@ -382,7 +382,7 @@ ht-degree: 0%
 
 #### 結算報表設定
 
-1. 展開&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Settlement Report Settings]**。
 
    ![PayPal結算報告設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -423,9 +423,9 @@ ht-degree: 0%
 
 #### 前端體驗設定
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
 
-1. 展開&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
 
    ![前端體驗設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -461,7 +461,7 @@ ht-degree: 0%
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 
-1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
 
    ![快速簽出基本設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -478,11 +478,11 @@ ht-degree: 0%
    - `Authorization` — 核准購買並保留資金。 此金額必須等到商戶擷取&#x200B;_到_&#x200B;後才會撤回。
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
 
 ### 步驟7：完成PayPal Express簽出的進階設定
 
-1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
 
    ![快速簽出進階設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -491,7 +491,7 @@ ht-degree: 0%
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -506,7 +506,3 @@ ht-degree: 0%
 1. 若要允許客戶從PayPal網站完成交易，而不返回您的商店進行訂單稽核，請將&#x200B;**[!UICONTROL Skip Order Review Step]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://www.paypal.com/webapps/mpp/how-to-sell-online
-[2]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
-[3]: https://developer.paypal.com/docs/paypal-payments-pro/

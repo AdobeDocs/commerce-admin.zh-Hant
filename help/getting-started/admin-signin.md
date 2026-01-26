@@ -3,7 +3,7 @@ title: 您的管理員使用者帳戶
 description: 瞭解您的管理員帳戶以及如何使用雙因素驗證來登入管理員。
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 根據您商店的設定，可能會有[驗證碼](../systems/security-google-recaptcha.md)難題需要解決，例如輸入一系列鍵盤字元、解決謎題，或按一下具有共同主題的影像系列。 這些測試旨在將您識別為人類，而不是自動化機器人。
 
-為了增加安全性，您可以決定每個使用者在&#x200B;_Admin_&#x200B;中擁有[存取許可權](../systems/permissions.md)的哪些部分，也可以限制[登入嘗試](../configuration-reference/advanced/admin.md)的次數。 根據預設，帳戶在六次嘗試後會鎖定，使用者必須等候幾分鐘再重試。 也可以從&#x200B;_Admin_&#x200B;重設[鎖定的帳戶](../systems/permissions-users-all.md#locked-users)。
+為了增加安全性，您可以決定每個使用者在&#x200B;_Admin_&#x200B;中擁有[存取許可權](../systems/permissions.md)的哪些部分，也可以限制[登入嘗試](../configuration-reference/advanced/admin.md)的次數。 根據預設，帳戶在六次嘗試後會鎖定，使用者必須等候幾分鐘再重試。 也可以從[Admin](../systems/permissions-users-all.md#locked-users)重設&#x200B;_鎖定的帳戶_。
 
 >[!NOTE]
 >
@@ -36,19 +36,19 @@ ht-degree: 0%
 
 ### 步驟1：設定雙因素驗證
 
-您必須先設定雙因素驗證解決方案，並準備好使用，才能登入商店的&#x200B;_管理員_。 若要進一步瞭解每個解決方案所使用的驗證程式，請參閱[使用雙因素驗證](../systems/security-two-factor-authentication-use.md)。 依預設，[!DNL Commerce]支援[Google驗證器][1]。
+您必須先設定雙因素驗證解決方案，並準備好使用，才能登入商店的&#x200B;_管理員_。 若要進一步瞭解每個解決方案所使用的驗證程式，請參閱[使用雙因素驗證](../systems/security-two-factor-authentication-use.md)。 依預設，[!DNL Commerce]支援[Google驗證器](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US)。
 
 請向您的[!DNL Commerce]系統管理員詢問市集支援哪些2FA解決方案。 接著，根據提供者的指示，完成您偏好的2FA解決方案設定。
 
 ### 步驟2：登入管理員
 
-1. 輸入在[!DNL Commerce]安裝期間指定的&#x200B;_管理員_ URL。
+1. 輸入在&#x200B;_安裝期間指定的_&#x200B;管理員[!DNL Commerce] URL。
 
    預設&#x200B;_Admin_ URL類似於`https://www.yourdomain.com/your-custom-admin-domain`。
 
    >[!NOTE]
    >
-   >雖然此檔案在大多數範例中都使用`admin`作為基底URL，但建議您為商店的&#x200B;_管理員_&#x200B;選擇唯一且難以猜測的[自訂URL](../stores-purchase/store-urls.md)。
+   >雖然此檔案在大多數範例中都使用`admin`作為基底URL，但建議您為商店的[管理員](../stores-purchase/store-urls.md)選擇唯一且難以猜測的&#x200B;_自訂URL_。
 
    您可以為頁面新增書籤或在案頭上儲存捷徑以方便存取。
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 不允許重複使用指派給帳戶的最後四個密碼。
 
-1. 輸入與&#x200B;_Admin_&#x200B;帳戶相關聯的&#x200B;**[!UICONTROL Email Address]**。
+1. 輸入與&#x200B;**[!UICONTROL Email Address]** Admin _帳戶相關聯的_。
 
    ![忘記密碼](./assets/admin-sign-in-forgot-password.png){width="400"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![登出](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您離開電腦時，請登出_ Admin _。
+_[!UICONTROL Sign In]_頁面會顯示您已登出的訊息。 每當您離開電腦時，請登出_ Admin _。
 
 ## 編輯帳戶資訊
 
@@ -136,7 +136,7 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 1. 在左側導覽面板中，展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL Admin]**。
 
-1. 展開&#x200B;**[!UICONTROL Security]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Security]**。
 
 1. 針對&#x200B;**管理員帳戶共用**，請選取`Yes`。
 
@@ -150,19 +150,18 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 1. 在左側導覽面板中，展開&#x200B;**[!UICONTROL Advanced]**&#x200B;並選擇&#x200B;**[!UICONTROL Admin]**。
 
-1. 展開&#x200B;**[!UICONTROL Security]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Security]**。
 
 1. 將&#x200B;**[!UICONTROL Login is Case Sensitive]**&#x200B;欄位設為`Yes`。
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## 維護對管理員的安全存取
 
 為確保管理員的安全，請以管理員存取權定期稽核使用者和角色。
 
-此外，請考慮[更新Admin Base URL設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/advanced/admin#admin-base-url)以將預設`/admin`端點變更為自訂路徑。 設定自訂路徑可提供下列安全性優點：
+此外，請考慮[更新Admin Base URL設定](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)以將預設`/admin`端點變更為自訂路徑。 設定自訂路徑可提供下列安全性優點：
 
 **增強式安全性**：預設的「管理員」路徑是眾所周知的，且經常是惡意行為者嘗試暴力攻擊的目標。 將其變更為唯一的自訂值，可大幅降低未經授權存取嘗試的風險。
 
@@ -174,4 +173,4 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 >[!NOTE]
 >
->如果懷疑發生入侵，請務必移除所有未知的管理員使用者，並重設所有管理員密碼，並檢閱[安全性行動計畫](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security)以取得進一步的步驟。
+>如果懷疑發生入侵，請務必移除所有未知的管理員使用者，並重設所有管理員密碼，並檢閱[安全性行動計畫](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)以取得進一步的步驟。

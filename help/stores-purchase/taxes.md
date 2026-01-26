@@ -3,7 +3,7 @@ title: 稅金
 description: 瞭解如何設定您的商店，以根據地區設定的要求計算稅捐。
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含Vertex廠商開發的擴充功能，用於與Vertex Cloud整合，以提供稅務管理和位址清理。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace或直接從供應商安裝及更新。 [連絡頂點](https://marketplace.magento.com/partner/vertex_inc)以取得擴充功能與檔案的相關資訊。<br><br>
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由Vertex廠商開發的擴充功能，用於整合Vertex Cloud以提供稅務管理和位址清理。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace或直接從供應商安裝及更新。 [連絡頂點](https://marketplace.magento.com/partner/vertex_inc)以取得擴充功能與檔案的相關資訊。<br><br>
 >
->如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
+>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升級模組_。
 
 ## 快速參考
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 - 客戶的送貨地址與成功付款交易的記錄，可用來建立客戶的居住地。 （只有在送貨地址符合付款提供者資訊時，才接受付款。）
 - 您也可以直接從Commerce資料庫表格中的資料存放區擷取資訊。
 
-_&#x200B;**若要收集數位貨品稅捐資訊：**&#x200B;_
+_**若要收集數位貨品稅捐資訊：**_
 
 1. 載入所有歐盟成員國的稅率。
 
@@ -107,8 +107,5 @@ _&#x200B;**若要收集數位貨品稅捐資訊：**&#x200B;_
 
 其他資源：
 
-- [歐洲委員會稅收與關稅同盟][1]
-- [EU 1015供給地點變更][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [歐洲委員會稅收與關稅同盟](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015供給地點變更](https://www2.deloitte.com/global/en/services/tax.html)

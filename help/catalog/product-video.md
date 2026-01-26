@@ -3,9 +3,9 @@ title: 新增產品影片
 description: 瞭解如何設定商店的產品影片(需要Google帳戶中的YouTube資料API金鑰)，並新增產品的影片連結。
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: e439c1082834cbc81f6ccc7ca99e240d649c8b81
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 步驟1：取得YouTube API金鑰
 
-1. 登入您的Google帳戶並造訪[Google開發人員主控台][1]。
+1. 登入您的Google帳戶並造訪[Google開發人員主控台](https://console.developers.google.com/)。
 
 1. 在頂端的搜尋欄位中，輸入`YouTube Data API v3`並按一下搜尋圖示。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_&#x200B;區段並貼上您的&#x200B;**[!UICONTROL YouTube API key]**。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_區段並貼上您的&#x200B;**[!UICONTROL YouTube API key]**。
 
    ![產品視訊組態](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 捲動至並展開&#x200B;_[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 捲動至並展開&#x200B;_[!UICONTROL Images and Videos]_區段。
 
    ![影像和影片](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL Autostart base video]_&#x200B;組態選項設為`Yes`，但視訊未開始自動播放，可能是因為瀏覽器強制執行且無法由Adobe Commerce控制的自動播放原則。 每個支援的瀏覽器都有自己的自動播放原則，這些原則會隨著時間而改變，且您的視訊未來可能不會自動播放。 建議的最佳實務是，請勿仰賴自動播放功能來實現關鍵業務功能，而應使用每個支援的瀏覽器測試商店中的視訊自動播放行為。
+   >如果&#x200B;_[!UICONTROL Autostart base video]_組態選項設為`Yes`，但視訊未開始自動播放，可能是因為瀏覽器強制執行且無法由Adobe Commerce控制的自動播放原則。 每個支援的瀏覽器都有自己的自動播放原則，這些原則會隨著時間而改變，且您的視訊未來可能不會自動播放。 建議的最佳實務是，請勿仰賴自動播放功能來實現關鍵業務功能，而應使用每個支援的瀏覽器測試商店中的視訊自動播放行為。
 
 ## 維護API存取權
 
-根據Google開發人員[條款與條件]，YouTube可能會停用已停用90天以上的帳戶的API存取。 發生此狀況可能會導致您的視訊無法顯示。 若要保持API存取為最新狀態，請使用cron工作定期偵測API：
+根據Google開發人員[條款與條件](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services)，YouTube可能會停用已停用90天以上的帳戶的API存取。 發生此狀況可能會導致您的視訊無法顯示。 若要保持API存取為最新狀態，請使用cron工作定期偵測API：
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -116,6 +116,3 @@ ht-degree: 0%
 | [!UICONTROL Role] | 決定如何在您的商店中使用預覽影像。 您可以選擇任何選項組合： `Base Image`、`Small Image`、`Thumbnail`、`Swatch Image`、`Hide from Product Page` |
 
 {style="table-layout:auto"}
-
-[1]: https://console.developers.google.com/
-[條款與條件]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

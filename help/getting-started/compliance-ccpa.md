@@ -3,9 +3,9 @@ title: CCPA法規遵循
 description: 瞭解加州消費者隱私法(CCPA)，該法擴充了加州消費者決定如何收集、儲存和使用其個人資訊的權利。
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >此資訊是協助Adobe Commerce商家和開發人員瞭解加州消費者隱私權法案含義的一系列主題之一。 此資訊是以法規文字為基礎。 若要確認CCPA是否適用於您的企業，請洽詢您的律師。
 
-[加州消費者隱私保護法][5] (CCPA)擴展了加州消費者決定如何收集、儲存和使用其個人資訊的權利。 其重點為保護消費者免受未經授權的銷售或交換或其個人資訊。 CCPA於2018年頒佈並於2020年1月1日生效。
+[加州消費者隱私保護法](https://oag.ca.gov/privacy/ccpa) (CCPA)擴展了加州消費者決定如何收集、儲存和使用其個人資訊的權利。 其重點為保護消費者免受未經授權的銷售或交換或其個人資訊。 CCPA於2018年頒佈並於2020年1月1日生效。
 
 CCPA授予消費者下列新權利：
 
@@ -56,15 +56,15 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 - CCPA具有其他資料清查和對應需求。
 - 這些法規具有不同的隱私權政策要求。
 
-符合GDPR的企業可能需根據CCPA承擔其他義務。 若要進一步瞭解，請參閱[CCPA資料單][3]{：target=&quot;_blank&quot;}。
+符合GDPR的企業可能需根據CCPA承擔其他義務。 若要深入瞭解，請參閱[CCPA資料表](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}。
 
 ### 法規遵循藍圖
 
 制定並實施計畫以解決合規性問題需要協調努力。 使用此藍圖作為調動資源並排定任務優先順序的指南，讓您能夠在多個方面取得進展。 所有[!DNL Commerce]安裝的程式基本上相同，但發生下列例外狀況：
 
-- **雲端基礎結構上的Adobe Commerce**：商店託管在Adobe[雲端基礎結構][4]{：target=&quot;_blank&quot;}的商家可以要求Adobe Commerce技術客戶經理或客戶支援協助回應消費者請求。
+- **雲端基礎結構上的Adobe Commerce**：商店託管在Adobe [雲端基礎結構上的商家](https://www.adobe.com/commerce/magento.html){:target="_blank"}可以要求其Adobe Commerce技術客戶經理或客戶支援協助回應消費者請求。
 
-- **內部部署**：擁有Adobe Commerce或Magento Open Source內部部署安裝的商家，必須開發自己的流程和工具，以回應和管理消費者有關隱私權法規的要求。
+- **內部部署**：擁有Adobe Commerce或Magento Open Source內部部署安裝的商家必須開發自己的流程和工具，以回應和管理消費者有關隱私權法規的要求。
 
 #### 步驟1：組建跨職能團隊，解決法規合規性問題
 
@@ -95,7 +95,7 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 1. 識別共用資料的對象。 此清單應包含服務提供者和第三方。 第三方包括廣告網路、網際網路服務提供者、資料分析提供者、政府實體、作業系統和平台、社交網路，以及不會直接收集消費者個人資訊的消費者資料經銷商。
 
-   - **服務提供者**：具有商務用途之消費者資料存取權，並代表您提供服務的實體。 例如，Adobe是服務提供者，自訂、擴充功能和服務的一些開發人員也是如此。
+   - **服務提供者**：具有商務用途之消費者資料存取權，並代表您提供服務的實體。 例如，Adobe是服務提供者，自訂、擴充功能和服務的一些開發人員亦是如此。
 
      檢查Google Universal Analytics、Google Tag Manager以及您使用的任何其他資料服務的預設設定，並進行任何必要的變更以符合法規。 若要深入瞭解，請參閱[Google隱私權設定](../merchandising-promotions/google-tools.md#google-privacy-settings)。
 
@@ -111,8 +111,8 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 1. 請參閱下列主題，瞭解每個版本的適用資料流程圖表和資料庫實體對應：
 
-   - [個人資訊參考(2.x)][1]
-   - [個人資訊參考(1.x)][2]
+   - [個人資訊參考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [個人資訊參考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![圖表](./assets/privacy-frontend-diagram.svg)
 
@@ -126,7 +126,7 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 - **在CCPA** （品牌）範圍內以企業身分行事的實體： [!DNL Commerce]商家會收集並儲存其顧客的個人資訊，以及在商店中購買的訪客。
 
-- **資料處理者** （技術廠商）：Adobe Commerce和Magento Open Source做為個人資料的處理者，這些個人資料儲存為提供給商家的服務。 身為處理者，Adobe會根據商戶的許可權與指示，根據授權合約處理個人資料。
+- **資料處理者** （技術廠商）： Adobe Commerce和Magento Open Source會做為個人資料的處理者，這些資料會儲存為提供給商家的服務。 身為處理者，Adobe會根據商家許可和指示，根據授權合約處理個人資料。
 
 商家有責任執行下列動作：
 
@@ -146,7 +146,7 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
    - **刪除要求**
 
-      - 商店託管於Adobe Commerce Cloud的商戶應聯絡Adobe支援，尋求刪除個人資訊的協助。 如需詳細資訊，請聯絡您的Adobe技術客戶經理或客戶支援。
+      - 商店託管於Adobe Commerce Cloud的商戶應聯絡Adobe支援，尋求刪除個人資訊的協助。 如需詳細資訊，請連絡您的Adobe技術客戶經理或客戶支援。
       - 在內部部署Adobe Commerce或Magento Open Source安裝的商戶必須實作自己的流程和指令碼，才能在收到要求時刪除個人資訊。
 
 #### 步驟5：撰寫必要客戶通知的內容
@@ -205,9 +205,3 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 **利害關係人：**&#x200B;客戶服務，管理支援
 
 在收到每個個別權利要求後的24個月內，請保留要求與貴公司回應的記錄。
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hant
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

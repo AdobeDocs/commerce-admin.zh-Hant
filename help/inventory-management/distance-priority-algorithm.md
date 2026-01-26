@@ -3,9 +3,9 @@ title: 設定距離優先順序演演算法
 description: 設定組態以比較出貨目的地地址的地點與來源地點，以決定最接近完成出貨的來源。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您有兩個選項可以計算距離和時間，以找出最接近出貨履行情況的來源：
 
-- **Google MAP** — 使用[Google Map Platform][1]服務來計算送貨目的地位址與來源位置之間的距離和時間。 此選項會使用來源的經緯度（GPS座標），而且可能會根據計算模式使用街道地址。 必須有Google API金鑰才能啟用[地理編碼API][2]和[Distance Matrix API][3]，而且您可能會透過Google產生費用。
+- **Google MAP** — 使用[Google Map Platform](https://cloud.google.com/maps-platform/)服務來計算送貨目的地位址與來源位置之間的距離和時間。 此選項會使用來源的經緯度（GPS座標），而且可能會根據計算模式使用街道地址。 必須有Google API金鑰才能啟用[地理編碼API](https://developers.google.com/maps/documentation/geocoding/start)和[Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start)，而且您可能會透過Google產生費用。
 
 - **離線計算** — 使用郵遞區號和GPS座標，以下載和匯入的地理碼資料來計算距離，以判斷最接近出貨目的地地址的來源。 若要設定此選項，您可能需要開發人員協助，才能使用命令列指示先下載及匯入地理代碼。
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ### 步驟1：建立Google API金鑰
 
-金鑰來自[Google地圖平台][1]，應該啟用[地理編碼API][2]和[距離矩陣API][3]。 如需詳細資訊，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
+金鑰來自[Google地圖平台](https://cloud.google.com/maps-platform/)，應該啟用[地理編碼API](https://developers.google.com/maps/documentation/geocoding/start)和[距離矩陣API](https://developers.google.com/maps/documentation/distance-matrix/start)。 如需詳細資訊，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 
-1. 瀏覽[Google地圖平台][1]並按一下&#x200B;**[!UICONTROL Get Started]**。
+1. 瀏覽[Google地圖平台](https://cloud.google.com/maps-platform/)並按一下&#x200B;**[!UICONTROL Get Started]**。
 
 1. 若要啟用平台，請選取&#x200B;**[!UICONTROL Maps, Routes, and Places]**&#x200B;並按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
      ![Google API服務](assets/inventory-google-key2.png){width="350" zoomable="yes"}
 
-   - 搜尋[地理編碼API][2]和[距離矩陣API][3]。 選取並啟用每個服務。
+   - 搜尋[地理編碼API](https://developers.google.com/maps/documentation/geocoding/start)和[距離矩陣API](https://developers.google.com/maps/documentation/distance-matrix/start)。 選取並啟用每個服務。
 
 1. 展開功能表，按一下&#x200B;**[!UICONTROL APIs & Services]** > **[!UICONTROL Credentials]**，然後複製Google API金鑰。
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;區段，並將&#x200B;**[!UICONTROL Provider]**&#x200B;設為`Google MAP`。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Distance Provider for Distance Based SSA]_區段，並將&#x200B;**[!UICONTROL Provider]**設為`Google MAP`。
 
    以距離為基礎的SSA的![提供者](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_&#x200B;區段並設定設定：
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Google Distance Provider]_區段並設定設定：
 
    - 針對&#x200B;**[!UICONTROL Google API Key]**，輸入從您的Google帳戶複製的金鑰。
 
@@ -89,13 +89,13 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存[&#128279;](stocks-prioritize-sources.md)設定來源的優先順序。
+     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存[設定來源的](stocks-prioritize-sources.md)優先順序。
 
      | 選項 | 說明 |
      | ----- | ----- |
      | `Driving` | （預設）使用道路網路來要求標準行車路線。 |
      | `Walking` | 使用人行道和人行道（如果可用）來要求步行路線。 |
-     | `Bicycling` | 使用腳踏車道和偏好的街道（如果有的話），要求腳踏車騎行路線。 [Distance Matrix Service][4]僅於美國及部分加拿大城市提供。 |
+     | `Bicycling` | 使用腳踏車道和偏好的街道（如果有的話），要求腳踏車騎行路線。 [Distance Matrix Service](https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes)僅於美國及部分加拿大城市提供。 |
 
    - 針對&#x200B;**[!UICONTROL Value]**，選取值型別：
 
@@ -110,11 +110,11 @@ ht-degree: 0%
 
 ## 使用離線計算
 
-離線計算會使用國家/地區代碼來決定出貨目的地與來源地址之間的距離。 可能需要開發人員協助才能設定此選項。 使用[!DNL Inventory Management] CLI命令從[geonames.org][5]下載及匯入資料。
+離線計算會使用國家/地區代碼來決定出貨目的地與來源地址之間的距離。 可能需要開發人員協助才能設定此選項。 使用[!DNL Inventory Management] CLI命令從[geonames.org](https://www.geonames.org/)下載及匯入資料。
 
 >[!NOTE]
 >
->從[geonames.org][5]匯入的地理碼對於某些國家/地區有限制，例如加拿大和愛爾蘭。 如需詳細資訊，請參閱[地名郵遞區號檔案][6]。
+>從[geonames.org](https://www.geonames.org/)匯入的地理碼對於某些國家/地區有限制，例如加拿大和愛爾蘭。 如需詳細資訊，請參閱[地名郵遞區號檔案](https://download.geonames.org/export/zip/readme.txt)。
 
 ### 步驟1：下載和匯入地理代碼
 
@@ -128,17 +128,10 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展開&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_。
 
 1. 取消選取「**[!UICONTROL Use system value]**」核取方塊並將&#x200B;**[!UICONTROL Provider]**&#x200B;設為`Offline Calculation`。
 
    以距離為基礎的SSA的![距離提供者](assets/inventory-distance-offline.png){width="350" zoomable="yes"}
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
-[4]: https://developers.google.com/maps/documentation/javascript/distancematrix#travel_modes
-[5]: https://www.geonames.org/
-[6]: https://download.geonames.org/export/zip/readme.txt

@@ -3,7 +3,7 @@ title: 新增詳細目錄來源
 description: 瞭解如何建立地點的來源，例如倉儲、實體店、配送中心或託運人。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - 針對&#x200B;**[!UICONTROL Latitude]**&#x200B;和&#x200B;**[!UICONTROL Longitude]**，請輸入設施位置的全球定位系統(GPS)座標。
 
-     若要使用[Google地圖][1]尋找GPS座標，請在搜尋方塊中輸入地址。 在地圖上的標籤上按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL What's here?]**。 GPS座標會顯示在街道位址下方的詳細資訊方塊中。
+     若要使用[Google地圖](https://www.google.com/maps)尋找GPS座標，請在搜尋方塊中輸入地址。 在地圖上的標籤上按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL What's here?]**。 GPS座標會顯示在街道位址下方的詳細資訊方塊中。
 
      ![一般來源選項](assets/inventory-source-general.png)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
      ![取車地點](assets/inventory-pickup-location.png)
 
-   如需在使用來源做為收取地點時如何設定電子郵件通知的詳細資訊，請參閱&#x200B;_設定參考指南_&#x200B;中的[銷售電子郵件](../configuration-reference/sales/sales-emails.md)。
+   如需在使用來源做為收取地點時如何設定電子郵件通知的詳細資訊，請參閱[設定參考指南](../configuration-reference/sales/sales-emails.md)中的&#x200B;_銷售電子郵件_。
 
 1. 若要儲存作業，請執行下列任一項作業：
 
@@ -123,5 +123,3 @@ ht-degree: 0%
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | 顯示在店面之來源的取貨地點名稱。 |
 | [!UICONTROL Frontend Description] | 顯示在店面之來源的取貨地點說明。 它可以包含附加的影像。 |
-
-[1]: https://www.google.com/maps

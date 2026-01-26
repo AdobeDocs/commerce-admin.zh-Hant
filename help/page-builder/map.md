@@ -3,18 +3,18 @@ title: 媒體 — 地圖
 description: 瞭解用於將對應從 [!DNL Google Maps] 平台新增至 [!DNL Page Builder] 階段的Map內容型別。
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # 媒體 — 地圖
 
-使用&#x200B;_對應_&#x200B;內容型別將對應從[[!DNL Google Maps] 平台][1]新增到[[!DNL Page Builder] 階段](workspace.md#stage)。 例如，您可以將地圖新增至區塊，然後將區塊新增至[關於我們](../content-design/pages.md#about-us)和[聯絡我們](../getting-started/store-details.md#contact-us-form)頁面。
+使用&#x200B;_對應_&#x200B;內容型別將對應從[[!DNL Google Maps] 平台](https://cloud.google.com/maps-platform/)新增到[[!DNL Page Builder] 階段](workspace.md#stage)。 例如，您可以將地圖新增至區塊，然後將區塊新增至[關於我們](../content-design/pages.md#about-us)和[聯絡我們](../getting-started/store-details.md#contact-us-form)頁面。
 
-若要充分利用[!DNL Google Maps] Platform，您可以自訂地圖、強調您的商店位置，並使用Google [Places][2]將您商店的豐富資訊新增到所有[!DNL Google Maps]。
+若要充分利用[!DNL Google Maps] Platform，您可以自訂地圖、強調您的商店位置，並使用Google [Places](https://cloud.google.com/maps-platform/places/)將您商店的豐富資訊新增到所有[!DNL Google Maps]。
 
 ## 內嵌Google地圖的好處
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 為您的管理員設定[!DNL Google Maps]
 
-新增地圖之前，您必須先開啟[帳戶][3]以免費試用[!DNL Google Maps]平台。 免費試用期為12個月，包含$300的評分。 如果您用光了信用，Google不會在未經您許可的情況下為帳戶付費。
+新增地圖之前，您必須先開啟[帳戶](https://cloud.google.com/maps-platform/user-guide/)以免費試用[!DNL Google Maps]平台。 免費試用期為12個月，包含$300的評分。 如果您用光了信用，Google不會在未經您許可的情況下為帳戶付費。
 
 ### 步驟1：取得您的[!DNL Google Maps] API金鑰
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 按一下專案下拉式清單，然後選取或建立您要新增API金鑰的專案。
 
-1. 若要設定您的API認證，請依照[檔案中的][4]指示[!DNL Google Maps]操作。
+1. 若要設定您的API認證，請依照[檔案中的](https://developers.google.com/maps/documentation/javascript/get-api-key)指示[!DNL Google Maps]操作。
 
 1. 將API金鑰複製到剪貼簿。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 將滑鼠懸停在地圖容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
+1. 在&#x200B;_[!UICONTROL Edit Map]_頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
 
 1. 輸入您要在地圖上與pin碼關聯的&#x200B;**[!UICONTROL Location Name]**。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    或者，您可以在&#x200B;**[!UICONTROL Position]**&#x200B;方塊中，拖曳顯示地圖中的圖釘。
 
-   如有必要，請在新的瀏覽器視窗中移至[[!DNL Google Maps]][5]，並使用下列其中一種方法來取得座標：
+   如有必要，請在新的瀏覽器視窗中移至[[!DNL Google Maps]](https://www.google.com/maps)，並使用下列其中一種方法來取得座標：
 
    ![地圖座標](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面上的地圖位置格線中。
+   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_頁面上的地圖位置格線中。
 
    ![[!DNL Page Builder] — 對應位置格線](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,13 +160,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
-1. 在&#x200B;**[!UICONTROL Google Maps Style]**&#x200B;文字方塊下，按一下[建立對應樣式][6]。
+1. 在&#x200B;**[!UICONTROL Google Maps Style]**&#x200B;文字方塊下，按一下[建立對應樣式](https://mapstyle.withgoogle.com/)。
 
-   此動作會在個別的索引標籤中開啟[[!DNL Google Maps] 平台樣式精靈][6]，您可以在此定義[!DNL Google Maps]平台專案的樣式。
+   此動作會在個別的索引標籤中開啟[[!DNL Google Maps] 平台樣式精靈](https://mapstyle.withgoogle.com/)，您可以在此定義[!DNL Google Maps]平台專案的樣式。
 
 1. 按一下「**[!UICONTROL Create a Style]**」，然後依照提供的指示進行。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 視需要修改&#x200B;_[!UICONTROL Advanced]_&#x200B;設定：
+1. 視需要修改&#x200B;_[!UICONTROL Advanced]_設定：
 
    - 若要控制新增至容器的地圖內容的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -284,11 +284,5 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,16 +3,16 @@ title: 媒體 — 影片
 description: 瞭解視訊內容型別，其用於將託管於YouTube或Vimeo的視訊新增至 [!DNL Page Builder] 階段。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # 媒體 — 影片
 
-使用&#x200B;_視訊_&#x200B;內容型別將託管於[YouTube][1]或[Vimeo][2]的視訊新增至[[!DNL Page Builder] 階段](workspace.md#stage)。 將視訊嵌入頁面或區塊，或產品與類別說明中相當容易。
+使用&#x200B;_視訊_&#x200B;內容型別將託管於[YouTube](https://www.youtube.com/)或[Vimeo](https://vimeo.com/)的視訊新增至[[!DNL Page Builder] 階段](workspace.md#stage)。 將視訊嵌入頁面或區塊，或產品與類別說明中相當容易。
 
 店面首頁上的![影片](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移動 | ![移動圖示](./assets/pb-icon-move.png){width="25"} | 將視訊移至舞台上的另一個位置。 |
 | （標籤） | [!UICONTROL Video] | 將目前的內容容器識別為視訊。 將滑鼠停留在影像容器上可檢視工具箱。 |
-| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Video]_&#x200B;頁面，您可以在此變更視訊和容器的屬性。 |
+| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Video]_頁面，您可以在此變更視訊和容器的屬性。 |
 | 隱藏 | ![隱藏圖示](./assets/pb-icon-hide.png){width="25"} | 隱藏目前的視訊。 |
 | 顯示 | ![顯示圖示](./assets/pb-icon-show.png){width="25"} | 顯示隱藏的視訊。 |
 | 複製 | ![圖示重複](./assets/pb-icon-duplicate.png){width="25"} | 製作視訊副本。 |
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 新增視訊
 
-1. 開始之前，請導覽至您要內嵌的[YouTube][1]或[Vimeo][2]影片，並複製連結。
+1. 開始之前，請導覽至您要內嵌的[YouTube](https://www.youtube.com/)或[Vimeo](https://vimeo.com/)影片，並複製連結。
 
    另外，您也可以複製有效視訊檔案的直接連結。 如需有效的連結，請參閱[基本視訊設定](#basic-video-settings)。
 
@@ -168,7 +168,5 @@ ht-degree: 0%
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL OK]**。
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

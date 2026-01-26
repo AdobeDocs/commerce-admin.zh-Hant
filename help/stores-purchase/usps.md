@@ -3,9 +3,9 @@ title: 美國郵政服務(USPS)
 description: 瞭解如何將USPS設定為您的商店的運送業者。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 步驟1：開啟USPS出貨帳戶
 
-開啟[USPS Web Tools][1]帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。
+開啟[USPS Web Tools](https://secure.shippingapis.com/registration/)帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。
 
-您也可以開啟[USPS Web Tools][1]帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。 若要深入瞭解USPS Web工具，請參閱其[技術檔案][2]。
+您也可以開啟[USPS Web Tools](https://secure.shippingapis.com/registration/)帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。 若要深入瞭解USPS Web工具，請參閱其[技術檔案](https://www.usps.com/business/web-tools-apis/welcome.htm)。
 
 ## 步驟2：為商店啟用USPS
 
@@ -142,7 +142,5 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->
