@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 將滑鼠懸停在地圖容器上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 在&#x200B;_[!UICONTROL Edit Map]_頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
+1. 在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面的右上角，按一下&#x200B;**[!UICONTROL Add Location]**。
 
 1. 輸入您要在地圖上與pin碼關聯的&#x200B;**[!UICONTROL Location Name]**。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_頁面上的地圖位置格線中。
+   新位置會顯示在地圖中，並出現在&#x200B;_[!UICONTROL Edit Map]_&#x200B;頁面上的地圖位置格線中。
 
    ![[!DNL Page Builder] — 對應位置格線](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 視需要修改&#x200B;_[!UICONTROL Advanced]_設定：
+1. 視需要修改&#x200B;_[!UICONTROL Advanced]_&#x200B;設定：
 
    - 若要控制新增至容器的地圖內容的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**。
 

@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 步驟3：預覽頁面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_區段中，將&#x200B;**[!UICONTROL Enable Page]**設為`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;區段中，將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
    ![正在啟用頁面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
    | 插入影像…… | 按一下「 」，在HTML文字方塊中的游標位置處插入來自相簿的上傳影像或影像。 |
    | 插入變數…… | 按一下，在HTML文字方塊中的游標位置處插入變數。 |
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
    - 若要控制程式碼在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

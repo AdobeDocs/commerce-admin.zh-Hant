@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` — 根據動態訂單金額值判斷已發生轉換。
    - `Constant` — 根據輸入的特定值判斷轉換已經發生。
 
-   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;**[!UICONTROL Value]**&#x200B;的特定&#x200B;_[!UICONTROL Order Amount]_以符合轉換資格。
+   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;**[!UICONTROL Value]**&#x200B;的特定&#x200B;_[!UICONTROL Order Amount]_&#x200B;以符合轉換資格。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 

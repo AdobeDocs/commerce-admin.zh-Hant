@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder]設定
 
-在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
+在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_&#x200B;按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並驗證&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;是否設定為`Yes`。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;並執行下列動作：
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並將&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;設為`No`。
 

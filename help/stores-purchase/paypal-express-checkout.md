@@ -20,7 +20,7 @@ PayPal Express Checkout讓您的客戶能夠透過信用卡或透過其個人Pay
 >**PSD2需求：** <br/>
 >自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 PayPal Express Checkout不需要採取任何動作即可符合PSD2，因為所有要求都由PayPal處理。
 
-目前擁有PayPal帳戶的客戶可以按一下&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，在單一步驟中完成購買。 Express Checkout可作為獨立使用，或搭配其中一個PayPal多合一解決方案使用。 如果您已線上上接受信用卡，您可以提供「快速結帳」作為額外選項，以吸引偏好使用PayPal付款的新客戶。
+目前擁有PayPal帳戶的客戶可以按一下&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，在單一步驟中完成購買。 Express Checkout可作為獨立使用，或搭配其中一個PayPal多合一解決方案使用。 如果您已線上上接受信用卡，您可以提供「快速結帳」作為額外選項，以吸引偏好使用PayPal付款的新客戶。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ PayPal Express Checkout讓您的客戶能夠透過信用卡或透過其個人Pay
 
 與其他付款方式不同，PayPal Express結帳可讓客戶在一般結帳工作流程的開頭從產品頁面、迷你購物車和購物車結帳。
 
-1. **客戶下訂單** — 客戶按一下/點選&#x200B;_[!UICONTROL Check out with PayPal]_按鈕。
+1. **客戶下訂單** — 客戶按一下/點選&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕。
 1. **客戶被重新導向至PayPal網站** — 客戶被重新導向至PayPal網站以完成交易。
 1. **客戶登入其PayPal帳戶** — 客戶必須登入其PayPal帳戶才能完成交易。 付款系統使用來自其PayPal帳戶的帳單和送貨資訊。
 1. **客戶回到結帳頁面** — 客戶被重新導向回到您商店中的結帳頁面以檢閱訂單。
@@ -52,7 +52,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
 ![PayPal in-context簽出示範](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal in-context簽出示範_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
+[_PayPal in-context簽出示範_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout)
 
 當您設定[!DNL PayPal Express Checkout]的存放區時，可以啟用此選項。
 
@@ -94,13 +94,13 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
 1. 如果您的安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
    ![商家國家](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_底下，按一下&#x200B;**[!UICONTROL Configure]**的&#x200B;**[!UICONTROL PayPal Express Checkout]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL PayPal Express Checkout]**。
 
    ![設定PayPal Express簽出](./assets/paypal-express-checkout.png){width="600"}
 
@@ -312,7 +312,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
    - `Order` - PayPal的客戶餘額、銀行帳戶或信用卡未擷取或授權訂單金額。 「訂單」付款動作代表PayPal付款系統與商家之間的協定。 它可讓商家在長達29天的期間內，從客戶採購員帳戶抓取一或多項最高至訂購總金額的金額。 在訂購資金後，商家可以在接下來的29天期間內隨時抓取資金。 擷取訂單金額只能透過建立一張或多張商業發票從Commerce管理員完成。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
 
 1. 如果付款動作設為`Order`，請完成下列作業
 
@@ -333,7 +333,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -410,7 +410,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個國家/地區。
 
 1. 若要在記錄檔中記錄與付款系統的通訊，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 

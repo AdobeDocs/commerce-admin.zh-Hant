@@ -202,7 +202,7 @@ Adobe Commerce和Magento Open Source中的預設Cookie會分類為「劐免/不�
 
 由頁面產生器模組設定。 包含旗標，可防止在管理員之前明確解除某個動作時，後續提示要求管理員確認該動作是否開啟。 僅用於商店的管理區域。 不適用於購物者。
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 僅作為存放區管理區域中索引標籤功能實作的一部分使用。 不適用於購物者。
 

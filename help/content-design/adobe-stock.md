@@ -42,9 +42,9 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 1. 導覽至[Adobe Developer Console](https://developer.adobe.com/console/home)。
 
-1. 在&#x200B;_[!UICONTROL Quick Start]_底下，按一下&#x200B;**[!UICONTROL Create new project]**。
+1. 在&#x200B;_[!UICONTROL Quick Start]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Create new project]**。
 
-1. 在&#x200B;_[!UICONTROL Project overview]_區塊中，按一下&#x200B;**[!UICONTROL Add API]**。
+1. 在&#x200B;_[!UICONTROL Project overview]_&#x200B;區塊中，按一下&#x200B;**[!UICONTROL Add API]**。
 
 1. 從整合清單中選取&#x200B;**[!UICONTROL Adobe Stock]**&#x200B;並按一下&#x200B;**[!UICONTROL Next]**。
 
