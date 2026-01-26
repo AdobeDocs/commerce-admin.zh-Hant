@@ -16,7 +16,7 @@ Adobe Commerce和Magento Open Source支援多種支付方法和服務。 這包�
 
 >[!TIP]
 >
->Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具組，以及它如何提供您所需的insight和控制功能，讓您為買家建立最佳體驗，請參閱[付款服務使用手冊](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)。 這是[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview)中的預設付款解決方案。
+>Adobe Commerce和Magento Open Source的Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供穩定且安全的付款處理。 若要進一步瞭解此強大的工具組，以及它如何提供您所需的insight和控制功能，讓您為買家建立最佳體驗，請參閱[付款服務使用手冊](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)。 這是[Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/overview)中的預設付款解決方案。
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ Adobe Commerce和Magento Open Source支援多種支付方法和服務。 這包�
 
 ## 2.4中的變更
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 部分支付整合和隨附的擴充功能在2.4.x版中已移除，並移至Commerce Marketplace。 您可以在[Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}中找到最新的正式付款整合延伸模組。
 
 - **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，核心版本不再隨附這些擴充功能，而必須從Commerce Marketplace安裝及更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 
-  如果您已啟用並設定這些隨附的擴充功能之一，則必須在2.4.4升級程式中更新composer.json檔案，並管理以後的擴充功能更新。 如需詳細資訊，請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)中的&#x200B;_升級模組_。
+  如果您已啟用並設定這些隨附的擴充功能之一，則必須在2.4.4升級程式中更新composer.json檔案，並管理以後的擴充功能更新。 如需詳細資訊，請參閱[升級指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)中的&#x200B;_升級模組_。
 
 - **Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}。
 
@@ -51,19 +51,19 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 ### 建議的解決方案
 
-- [付款服務](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [PayPal Express簽出](paypal-express-checkout.md)
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [Braintree](braintree.md)
+- [付款服務](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [PayPal Express簽出](paypal-express-checkout.md)
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} [Braintree](braintree.md)
 
 ### 其他PayPal支付解決方案
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 請參閱[PayPal付款解決方案](paypal.md)，以取得有關PayPal付款方式選項的詳細資訊。
 
 #### 多合一PayPal解決方案
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 - [PayPal付款進階](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
@@ -71,14 +71,14 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 #### PayPal付款閘道
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)
 - [PayPal Payflow連結](paypal-payflow-link.md)
 
 ## 欺詐保護
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 欺詐保護服務和篩選器會在交易處理之前檢查提交的訂單，以偵測欺詐性的訂單，並保護您免於費用退回。 Adobe Commerce和Magento Open Source支援下列防欺詐解決方案：
 
@@ -92,6 +92,6 @@ Adobe Commerce和Magento Open Source支援多種支付解決方案，為世界�
 
 ## 疑難排解資源
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
-如需疑難排解付款問題的說明，請參閱[支援知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)。
+如需疑難排解付款問題的說明，請參閱[支援知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=zh-Hant)。

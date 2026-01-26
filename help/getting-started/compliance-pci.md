@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ![核取方塊](../assets/checkbox.png) — 維護處理資訊安全問題的原則。
 
-若要深入瞭解，請參閱[Adobe的PCI規範方法](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}。
+若要深入瞭解，請參閱[Adobe的PCI規範方法](https://business.adobe.com/tw/products/magento/pci-compliance.html){:target="_blank"}。
 
 >[!NOTE]
 >

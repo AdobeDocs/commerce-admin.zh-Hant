@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace]認證
 
-在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的標題登入您的](https://business.adobe.com/products/magento/magento-commerce.html)帳戶。
+在您可以安裝從[!DNL Commerce Marketplace]購買的擴充功能之前，請登入您的[!DNL Commerce]帳戶並確認您擁有有效的存取金鑰。 您可以從[!DNL Commerce][[!DNL Marketplace]或](https://marketplace.magento.com/)Magento.com[的標題登入您的](https://business.adobe.com/tw/products/magento/magento-commerce.html)帳戶。
 
 您的存取金鑰是一組公開和私密金鑰，用來將您的[!DNL Commerce]安裝與[!DNL Commerce]帳戶同步並驗證您的認證。 帳戶同步之後，每次從Commerce Marketplace安裝擴充功能或模組或升級[!DNL Commerce]安裝時，都必須輸入私密金鑰。
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
 
 Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買的安裝程式與[Adobe雲端架構](https://www.adobe.com/commerce/magento/enterprise.html)上託管的安裝不同。
 
@@ -109,7 +109,7 @@ Commerce的[!DNL Marketplace]內部部署&#x200B;_安裝中，_&#x200B;次購買
 
 ### 開放原始碼問題
 
-市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/products/magento/partners.html)。
+市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/tw/products/magento/partners.html)。
 
 ### 退款請求
 

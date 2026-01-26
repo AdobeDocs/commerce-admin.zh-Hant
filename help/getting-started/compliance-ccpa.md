@@ -111,8 +111,8 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 1. 請參閱下列主題，瞭解每個版本的適用資料流程圖表和資料庫實體對應：
 
-   - [個人資訊參考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [個人資訊參考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [個人資訊參考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant)
+   - [個人資訊參考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hant)
 
    ![圖表](./assets/privacy-frontend-diagram.svg)
 

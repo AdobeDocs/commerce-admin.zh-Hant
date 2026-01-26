@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 步驟1：安裝語言套件
 
-請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱[擴充功能指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)中的&#x200B;_一般CLI安裝_。
+請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱[擴充功能指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)中的&#x200B;_一般CLI安裝_。
 
 ## 步驟2：建立該語言的存放區檢視
 

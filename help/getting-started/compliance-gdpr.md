@@ -47,6 +47,6 @@ ht-degree: 0%
 
 - 保持透明度並完整儲存說明檔案。
 
-- 若要瞭解Adobe如何協助商戶遵守適用的法律義務，請造訪[網站](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}。
+- 若要瞭解Adobe如何協助商戶遵守適用的法律義務，請造訪[網站](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html){:target="_blank"}。
 
-- 如需資料流程圖表和資料庫實體對應，請參閱[個人資訊參考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}。
+- 如需資料流程圖表和資料庫實體對應，請參閱[個人資訊參考](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant){: target="_blank"}。
