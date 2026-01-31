@@ -3,7 +3,7 @@ title: Google reCAPTCHA Enterprise
 description: 瞭解如何設定Google reCAPTCHA Enterprise以保護您的Adobe Commerce as a Cloud Service店面免受機器人和詐騙活動的傷害。
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"
 source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
 source-wordcount: '570'
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >此功能不為管理員提供reCAPTCHA支援。
 
-[reCAPTCHA整合](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/)說明如何將reCAPTCHA Enterprise的支援新增至您的店面。
+[reCAPTCHA整合](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/?lang=zh-Hant)說明如何將reCAPTCHA Enterprise的支援新增至您的店面。
 
 如需設定其他Google reCAPTCHA版本的資訊，請參閱[Google reCAPTCHA V3和V2](security-google-recaptcha.md)。
 
