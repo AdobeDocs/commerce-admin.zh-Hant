@@ -3,10 +3,10 @@ title: 網站地圖
 description: 瞭解如何設定網站地圖，以索引Commerce網站的所有頁面和影像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
-網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁編目程式忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
+網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁爬蟲忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 
 啟用後，Commerce會建立名為`sitemap.xml`的檔案，並將該檔案儲存在您指定的位置中的安裝中。 此設定可讓您設定更新的頻率，以及每種內容型別的優先順序。 您的網站地圖應隨著網站內容變更而經常更新，可能是每日、每週或每月更新。
 
-當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁編目程式包含指示，以避免為網站建立索引。 在啟動之前，您可以變更指示，允許網站編制索引。
+當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁爬蟲包含指示，以避免為網站編制索引。 在啟動之前，您可以變更指示，允許網站編制索引。
 
-如需技術資訊，請參閱雲端基礎結構指南上的[Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant)中的&#x200B;_新增Sitemap和robots.txt_。
+如需技術資訊，請參閱雲端基礎結構指南上的[Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)中的&#x200B;_新增Sitemap和robots.txt_。
 
 ![網站地圖格線](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 步驟3. 設定和啟用robots.txt （選擇性）
 
-完成[搜尋引擎Robots](seo-overview.md#search-engine-robots)設定，並指示搜尋引擎對您要編制索引的網站部分進行編目。
+完成[搜尋引擎Robots](seo-overview.md#search-engine-robots)設定，並指示搜尋引擎抓取您要編制索引的網站部分。
 
 ## 步驟4. 將您的網站地圖提交至搜尋引擎
 
@@ -102,7 +102,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -224,33 +224,6 @@ ht-degree: 0%
 
    ![目錄組態 — XML Sitemap搜尋引擎提交設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. 如果使用`robots.txt`檔案提供指令給編目您網站的搜尋引擎，請將&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;設為`Yes`。
+1. 如果使用`robots.txt`檔案向抓取您網站的搜尋引擎提供指示，請將&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
-
-## 啟用大型目錄的批次Sitemap產生
-
-對於擁有大型目錄的商店，請使用下列替代cron工作來啟用批次Sitemap產生。 此方法以較小的增量處理資料，大幅降低PHP記憶體耗竭的風險，並確保Sitemap產生成功完成，即使網站具有大量產品資料。
-
-在`app/code/Magento/Sitemap/etc/config.xml`中，取代：
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-替換為：
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
