@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">認可</a></td>
     </tr>
     <tr>
-      <td><p>[！BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}更新為Adobe Commerce設定IMS整合的先決條件，以提供有關請求Adobe Admin Console存取權的資訊。</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}更新為Adobe Commerce設定IMS整合的先決條件，以提供有關請求Adobe Admin Console存取權的資訊。</p>
 </td>
       <td>
         技術，意見回饋
