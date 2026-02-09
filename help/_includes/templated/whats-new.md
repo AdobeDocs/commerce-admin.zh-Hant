@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>更新<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie法規遵循</a>以新增遺失的<code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage金鑰，並將劐免Cookie清單轉換為表格格式。</p>
+      <td><p>更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie法規遵循</a>以新增遺失的<code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage金鑰，並將劐免Cookie清單轉換為表格格式。</p>
 </td>
       <td>
         技術，意見回饋
@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">認可</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}更新為Adobe Commerce設定IMS整合的先決條件，以提供有關請求Adobe Admin Console存取權的資訊。</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce。"}更新為Adobe Commerce設定IMS整合的先決條件，以提供有關請求Adobe Admin Console存取權的資訊。</p>
 </td>
       <td>
         技術，意見回饋
@@ -53,12 +53,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>已更新「客戶管理指南」中的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">客戶群組</a>，以釐清將客戶指派給公司後，管理員使用者無法編輯客戶的客戶群組。</p>
+      <td><p>已更新「客戶管理指南」中的<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-groups">客戶群組</a>，以釐清將客戶指派給公司後，管理員使用者無法編輯客戶的客戶群組。</p>
 </td>
       <td>
         技術
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">提取請求</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.zh-Hant/pull/81">提取請求</a></td>
     </tr>
   </tbody>
 </table>
@@ -97,7 +97,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>新增說明，說明<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">可於市集</a>使用訂單準備取貨的電子郵件。</p>
+      <td><p>新增說明，說明<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store">可於市集</a>使用訂單準備取貨的電子郵件。</p>
 </td>
       <td>
         意見反應
@@ -119,7 +119,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>在Adobe Commerce as a Cloud Service中新增下列功能：<br /> — 新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>支援，提供進階機器人保護與自我調整風險分析和機器學習功能。<br /> — 透過<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">啟用自訂追蹤URL</a>，將購物者電子郵件中包含的出貨追蹤號碼從純文字轉換為可點按的連結。 USPS、UPS、FedEx和DHL支援此功能。<br /> — 您現在可以使用<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">目錄價格規則</a>，將階層式定價折扣與目錄規則折扣結合。 此增強功能可讓您建立更有活力和競爭力的定價策略。</p>
+      <td><p>在Adobe Commerce as a Cloud Service中新增下列功能：<br /> — 新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>支援，提供進階機器人保護與自我調整風險分析和機器學習功能。<br /> — 透過<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">啟用自訂追蹤URL</a>，將購物者電子郵件中包含的出貨追蹤號碼從純文字轉換為可點按的連結。 USPS、UPS、FedEx和DHL支援此功能。<br /> — 您現在可以使用<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">目錄價格規則</a>，將階層式定價折扣與目錄規則折扣結合。 此增強功能可讓您建立更有活力和競爭力的定價策略。</p>
 </td>
       <td>
         重大更新，新主題
@@ -141,7 +141,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>已更新<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">獎勵和忠誠度主題</a>，以釐清客戶在結帳期間使用獎勵點數或商店積分時稅捐的計算方式。</p>
+      <td><p>已更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">獎勵和忠誠度主題</a>，以釐清客戶在結帳期間使用獎勵點數或商店積分時稅捐的計算方式。</p>
 </td>
       <td>
         意見反應
