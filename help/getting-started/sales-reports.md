@@ -3,8 +3,7 @@ title: 銷售報表
 description: ' [!DNL Commerce] 銷售報表可協助您追蹤訂單、稅捐、發票、出貨、退款、優惠券及PayPal結算。'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -131,6 +130,8 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL Export]**。
 
 ## 重新整理統計資料
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 為了減少產生銷售報表對效能的影響，[!DNL Commerce]會計算並儲存每個報表所需的統計資料。 除非您重新整理統計資料，否則不會每次產生報表時重新計算統計資料，而是使用儲存的統計資料。 若要包含最新的資料，必須先重新整理報表統計資料，才能產生銷售報表。
 

@@ -3,10 +3,9 @@ title: 產品報表
 description: Adobe Commerce和Magento Open Source提供的產品報表可讓您取得insight所檢視和訂購的產品、最暢銷商品、庫存水準和下載內容。
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 產品報表可提供您關於已檢視和訂購的產品、最暢銷商品、庫存水準和下載的insight。
 
 ## [!UICONTROL Product Views Report]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [!UICONTROL Product Views Report]會顯示在一段時間間隔或日期範圍內檢視過的產品。 此報表包含產品名稱、價格和檢視次數。
 
@@ -48,6 +49,8 @@ ht-degree: 0%
 ![訂購產品報告](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [!UICONTROL Downloads Report]會列出指定時間間隔或日期範圍內的所有下載專案。 此報表包含產品名稱、下載連結和SKU，以及購買和下載次數。
 
