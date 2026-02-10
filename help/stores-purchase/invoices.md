@@ -151,7 +151,7 @@ ht-degree: 0%
 
 ## 自訂擷取金額
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 為了針對部份擷取與特殊付款案例提供商戶更大的彈性，「商業發票API」支援使用擴充屬性自訂擷取金額。
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [搜尋詞](../catalog/search-terms.md#search-terms-report)報告會顯示您的客戶在每個商店檢視中尋找的內容。 報表包含在目錄中找到的相符專案數，以及使用搜尋字詞的次數。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Newsletter Problems Report]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [!UICONTROL Newsletter Problems Report]包含任何無法成功傳輸的Newsletter佇列的相關資訊。 報告包含每個訂閱者的名稱、佇列日期和主旨，以及有關錯誤的資訊。
 

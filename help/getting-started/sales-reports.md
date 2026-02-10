@@ -131,7 +131,7 @@ ht-degree: 0%
 
 ## 重新整理統計資料
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 為了減少產生銷售報表對效能的影響，[!DNL Commerce]會計算並儲存每個報表所需的統計資料。 除非您重新整理統計資料，否則不會每次產生報表時重新計算統計資料，而是使用儲存的統計資料。 若要包含最新的資料，必須先重新整理報表統計資料，才能產生銷售報表。
 
