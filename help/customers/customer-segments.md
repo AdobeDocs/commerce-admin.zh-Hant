@@ -46,5 +46,5 @@ ht-degree: 0%
 
 ## eBooks
 
-- **客戶細分** — 取得[電子書](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)，瞭解如何提高利潤和整體客戶滿意度。
-- **分段戰術** — 取得[電子書](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)以改進訊息和促銷活動的目標定位，與您的客戶建立有意義的對話。
+- **客戶細分** — 取得[電子書](https://business.adobe.com/tw/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)，瞭解如何提高利潤和整體客戶滿意度。
+- **分段戰術** — 取得[電子書](https://business.adobe.com/tw/resources/3-segmentation-tactics-ignite-conversion.html)以改進訊息和促銷活動的目標定位，與您的客戶建立有意義的對話。

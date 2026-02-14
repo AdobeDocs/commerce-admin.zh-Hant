@@ -20,7 +20,7 @@ Adobe提供豐富的商務和技術資源、自助工具及服務，協助您邁
 | [Commerce資源庫](https://business.adobe.com/tw/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud) | 存取Ebooks、Commerce白皮書和網路研討會，以獲得專業的insight和線上業務資源，協助開發及改善您的商店。 |
 | [Adobe產品安全性事件回應](https://helpx.adobe.com/tw/security.html) | 加入安全性警示登入，以取得潛在弱點和[安全性最佳實務](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf)的最新資訊。 |
 | [社群論壇](https://community.magento.com/) | 論壇可讓您存取由分享秘訣、技巧和支援的專屬Adobe Commerce和Magento Open Source愛好者所組成的網路。 |
-| [部落格](https://business.adobe.com/blog/) | 請參閱部落格以取得新功能、趨勢、最佳實務、即將舉辦的活動等的最新資訊。 |
+| [部落格](https://business.adobe.com/tw/blog/) | 請參閱部落格以取得新功能、趨勢、最佳實務、即將舉辦的活動等的最新資訊。 |
 | [活動和網路研討會](https://www.adobe.com/events.html) | 密切關注即將舉辦的活動和網路研討會行事曆。 [!DNL Commerce]生態系統中總是會發生一些事情。 |
 | [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) | 造訪[!DNL Commerce]次世代數位商務解決方案的市集。 [!DNL Commerce Marketplace]為商戶提供精選的解決方案，同時為合格的開發人員提供工具、平台，以及商業蓬勃發展的最佳位置。 |
 | [訓練與認證](https://learning.adobe.com/catalog.html?solution=Adobe%20Commerce) | 瞭解如何釋放Adobe Commerce和Magento Open Source的強大功能和彈性。 本公司為您的企業中的每個角色提供培訓，包括行銷人員、設計人員、開發人員等。 經驗豐富的[!DNL Commerce]專業人員可以取得[!DNL Commerce]認證以驗證其真實世界技能。 |
