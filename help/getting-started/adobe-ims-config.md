@@ -53,7 +53,7 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 
 ## 設定整合
 
-具有系統存取權的管理員或開發人員完成下列步驟後，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_按鈕會顯示在所有管理員使用者的Commerce管理員登入頁面中。
+具有系統存取權的管理員或開發人員完成下列步驟後，_[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;按鈕會顯示在所有管理員使用者的Commerce管理員登入頁面中。
 
 ### 步驟1：取得Adobe組織ID
 
