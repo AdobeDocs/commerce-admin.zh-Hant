@@ -3,10 +3,10 @@ title: Adobe Identity Management Service (IMS)整合概述
 description: 介紹Adobe Commerce管理員登入與Adobe IMS的選擇性整合
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Commerce管理員IMS整合所需的模組會封裝在`adobe-ims-metapackage`中�
 
 ## 與IMS整合後管理工作流程和介面的變更
 
-啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_&#x200B;按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
+啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
+
+>
+>
+>AdobeIms整合會全域套用。 啟用後，所有使用者都必須透過AdobeIms進行驗證；此設定無法排除個別使用者。
+>
+>**只有在完全瞭解此整合的影響後，才可啟用此整合。**
 
 ## 管理員與IMS的整合如何影響Commerce密碼
 
