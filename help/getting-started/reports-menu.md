@@ -28,7 +28,7 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 ### [!UICONTROL Reviews]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 產品[檢閱報告](review-reports.md)的選取範圍包含依客戶和依產品。
 
@@ -38,9 +38,9 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 ### [!UICONTROL System Insights]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
-(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
+(僅限Adobe Commerce) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hant)透過24/7即時效能監控、報告和建議，針對Adobe Commerce在雲端基礎結構上的安裝提供系統深入分析。
 
 ### [!UICONTROL Customers]
 
@@ -52,18 +52,18 @@ Adobe Commerce提供多種報表，讓您掌握行銷工作、銷售產品和客
 
 ### [!UICONTROL Private Sales]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 (僅限Adobe Commerce) [私人銷售與活動](private-sales-reports.md)的報告選取範圍包含邀請、受邀客戶和轉換。
 
 ### [!UICONTROL Statistics]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 [統計資料](sales-reports.md#refresh-statistics)是一種工具，可藉由計算及儲存統計資料來降低產生報表的效能影響。 儲存的統計資料會一直使用到您重新整理統計資料為止，而不是在每次產生報表時重新計算統計資料。
 
 ### [!DNL Commerce Intelligence]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
 
 整合的[[!DNL Commerce Intelligence]](business-intelligence.md)工具可提供您進行策略性業務決策所需的insight。
