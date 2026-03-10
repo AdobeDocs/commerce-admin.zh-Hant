@@ -1,7 +1,7 @@
 ---
 title: 建立並存取您的 [!DNL Commerce] 帳戶
 description: 瞭解 [!DNL Commerce] 帳戶，這些帳戶管理您購買的產品和服務。
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
 source-git-commit: bc083abcf31763a36eb8aa3c325d1f0d4b94f635
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 [!DNL Commerce]帳戶是您管理部署在雲端基礎結構或內部部署之Adobe Commerce專案的Adobe Commerce服務的中央存取點。 從帳戶控制面板，您可以檢視訂閱、管理Commerce服務API金鑰、檢閱歷史帳單資訊，並與您組織中的其他使用者共同作業。
 
-如果您需要[提交您的第一個票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)或管理您的Adobe Commerce關係（而不是在特定店面中工作），請從建立或存取您的[!DNL Commerce]帳戶開始。
+如果您需要[提交您的第一個票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)或管理您的Adobe Commerce關係（而不是在特定店面中工作），請從建立或存取您的[!DNL Commerce]帳戶開始。
 
-如果您需要[提交您的第一個支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，或在特定店面之外處理您的Adobe Commerce關係，請從建立或存取您的[!DNL Commerce]帳戶開始。
+如果您需要[提交您的第一個支援票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，或在特定店面之外處理您的Adobe Commerce關係，請從建立或存取您的[!DNL Commerce]帳戶開始。
 
-您可以從[!DNL Commerce]網站存取您的[!DNL Commerce]帳戶。 從帳戶儀表板，您可以檢視與您購買的產品和服務相關的資訊，並提供[共用存取權](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)給其他使用者。 有些資訊(例如Commerce Services API金鑰)僅對授權擁有者可見。
+您可以從[!DNL Commerce]網站存取您的[!DNL Commerce]帳戶。 從帳戶儀表板，您可以檢視與您購買的產品和服務相關的資訊，並提供[共用存取權](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)給其他使用者。 有些資訊(例如Commerce Services API金鑰)僅對授權擁有者可見。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帳戶登入與商店管理員登入不同。 您通常會對每個系統使用不同的認證，而且每個系統的存取許可權都是獨立管理的。
 
-但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
+但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/ims/adobe-ims-config)Commerce的IMS整合指南&#x200B;*中設定Commerce與Adobe ID的管理員整合*。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->如果您在提交Commerce [支援案例](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)時找不到Adobe Commerce組織，則通常表示有下列其中一種情況：帳戶擁有者尚未建立Adobe ID，或Adobe ID存在但未連結至Commerce帳戶。
+>如果您在提交Commerce [支援案例](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)時找不到Adobe Commerce組織，則通常表示有下列其中一種情況：帳戶擁有者尚未建立Adobe ID，或Adobe ID存在但未連結至Commerce帳戶。
 
 1. 前往[[!DNL Commerce]](https://account.magento.com/customer/account/login/)網站。
 
@@ -110,6 +110,6 @@ ht-degree: 0%
 
 「共用存取權」可讓您授予受信任的使用者（例如同事、合作夥伴或管理員）許可權，以代表您管理您的Adobe Commerce關係，而不需要使用您的個人登入。 這包括允許其他人開啟及追蹤支援案例。
 
-如需設定共用帳戶的詳細步驟，請參閱Adobe Commerce快速入門手冊的[共用Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)一節。
+如需設定共用帳戶的詳細步驟，請參閱Adobe Commerce快速入門手冊的[共用Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)一節。
 
-如需提交Commerce支援案例的詳細說明，請參閱[Adobe Commerce說明中心使用手冊](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
+如需提交Commerce支援案例的詳細說明，請參閱[Adobe Commerce說明中心使用手冊](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
