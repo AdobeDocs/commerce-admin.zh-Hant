@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_欄位設定電子郵件之間的天數。
+>如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;欄位設定電子郵件之間的天數。
 
 ![電子郵件提醒](./assets/email-reminders.png){width="700" zoomable="yes"}
 
