@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 允許已註冊電子郵件的訪客訂單存取權
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
 
 選用的商店層級設定預設為停用，可讓訪客購物者追蹤使用符合註冊客戶帳戶的電子郵件地址所下的訂單。
 
