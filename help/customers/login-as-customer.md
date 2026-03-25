@@ -22,7 +22,7 @@ ht-degree: 0%
 
 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
-為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_按鈕會出現在多個頁面中：
+為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_&#x200B;按鈕會出現在多個頁面中：
 
 * [客戶編輯頁面](../customers/update-account.md)
 * [訂單檢視頁面](../stores-purchase/order-processing.md)
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ![編輯客戶頁面上的客戶同意延伸屬性設定](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用`allow_remote_shopping_assistance``true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)變動將[`createCustomerV2`輸入設定為](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
+若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用`allow_remote_shopping_assistance` `true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)變動將[`createCustomerV2`輸入設定為](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
 
 >[!ENDTABS]
 
