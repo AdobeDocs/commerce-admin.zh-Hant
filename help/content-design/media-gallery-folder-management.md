@@ -3,10 +3,10 @@ title: 媒體集資料夾管理
 description: 瞭解如何使用資料夾來組織您的媒體資產。
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 0%
 
 ## 建立資料夾
 
->[!NOTE]
->
->您只能在`pub/media/wysywig`和`pub/media/catalog/category`資料夾中建立資料夾。
+您只能在`pub/media/wysywig`、`pub/media/catalog/category`或由模組新增的其他資料夾中建立資料夾。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**。
 

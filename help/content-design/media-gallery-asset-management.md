@@ -3,10 +3,10 @@ title: 媒體集資產管理
 description: 瞭解如何管理已上傳的媒體檔案，以及您透過Adobe Stock整合取得的資產。
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 媒體集資產管理
 
 新的[媒體集](media-gallery.md)提供管理已上傳媒體檔案的工具，以及您透過[Adobe Stock整合](adobe-stock.md)取得的資產。 如果您已儲存Adobe Stock [影像預覽](adobe-stock-save-preview.md)，您也可以在新的媒體集中授權[該影像](adobe-stock-license-image.md)。
+
+Assets只能上傳至`pub/media/wysywig`、`pub/media/catalog/category`或由模組新增的其他資料夾。
 
 ## 上傳資產
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 1. 選取要上傳的檔案。
 
-   選取的資產會自動上傳至選取的資料夾（如果沒有選取資料夾，則會上傳至儲存根目錄）。
+   選取的資產會自動上傳至選取的資料夾。
 
 ## 檢視資產詳細資訊
 
