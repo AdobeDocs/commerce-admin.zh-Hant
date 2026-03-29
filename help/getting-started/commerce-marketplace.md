@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 登入您的[!DNL Commerce]帳戶。
 
-1. 在&#x200B;_[!UICONTROL My Account]_頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**標籤。
+1. 在&#x200B;_[!UICONTROL My Account]_&#x200B;頁面上，選擇&#x200B;**[!UICONTROL Marketplace]**&#x200B;標籤。
 
 1. 在名稱旁邊的右上角，按一下向下箭頭，然後選擇&#x200B;**[!UICONTROL My Profile]**。
 
