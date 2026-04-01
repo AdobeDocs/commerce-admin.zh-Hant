@@ -3,9 +3,9 @@ title: 屬性輸入型別
 description: 瞭解產品屬性可用的輸入型別，這些輸入型別決定可輸入的資料型別以及欄位或輸入控制項的格式。
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,17 @@ ht-degree: 0%
 | 屬性 | 說明 |
 |--- |--- |
 | [!UICONTROL Text Field] | 單行文字輸入欄位。 |
-| [!UICONTROL Text Area] | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器將文字格式化為HTML標籤，或直接在文字中輸入標籤。 |
+| [!UICONTROL Text Area] | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
 | [!UICONTROL Text Editor] | 屬性位置的完整文字編輯器。 |
-| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**&#x200B;根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
-| [!UICONTROL Date and Time] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期和時間值。 日期與時間可以手動輸入，或從行事曆中選取。 範例格式： MM/DD/YYYY HH：MM |
+| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_管理員_&#x200B;使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
+| [!UICONTROL Date and Time] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期和時間值。 日期與時間可以手動輸入，或從行事曆中選取。 範例格式： MM/DD/YYYY HH:MM |
 | [!UICONTROL Yes/No] | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
 | 下拉式清單 | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |
 | [!UICONTROL Multiple Select] | 顯示接受多個選取專案的下拉式值清單。 |
+| [!UICONTROL Number]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 儲存小數值的數字輸入欄位。 不像&#x200B;**價格**&#x200B;輸入型別，它不會套用貨幣格式並接受負值。 將此輸入型別用於測量、尺寸或技術規格，例如溫度範圍。 |
 | [!UICONTROL Price] | 此輸入型別用於建立預先定義屬性以外的價格欄位： `Price`、`Special Price`、`Tier Price`和`Cost`。 使用的貨幣由您的系統組態決定。 |
 | [!UICONTROL Media Image] | 將額外的影像與產品建立關聯，例如產品標誌、護理指示或食品標籤的成分。 將媒體影像屬性新增至產品的屬性集時，該屬性會變成額外的影像型別，連同基底、小型和縮圖。 媒體影像屬性可以從[店面媒體瀏覽器](catalog-images-video.md#storefront-media-browser)中排除。 |
+| [!UICONTROL File]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 允許檔案上傳並與產品屬性相關聯。 在[產品檔案屬性](../configuration-reference/catalog/product-file-attributes.md)中設定了支援的檔案型別和檔案大小上限。 將此輸入型別用於產品手冊、規格表或憑證等檔案。 |
 | [!UICONTROL Fixed Product Tax] | 可讓您根據地區設定的要求定義[FPT費率](../stores-purchase/fixed-product-tax.md)。 |
 | [!UICONTROL Visual Swatch] | 顯示描述可設定產品顏色、紋理或圖樣的色票。 [視覺色票](swatches.md)可以用十六進位色彩值填滿，或顯示代表選項色彩、材質、紋理或圖樣的上傳影像。 |
 | [!UICONTROL Text Swatch] | 經常用於尺寸的可設定產品選項的文字表示。 [文字色票](swatches.md)也可以包含十六進位色彩值。 |
@@ -41,7 +43,7 @@ ht-degree: 0%
 
 ![範例 — 店面快顯行事曆](./assets/storefront-popup-calendar.png){width="700" zoomable="yes"}
 
-**_格式化日期/時間欄位：_**
+**_格式化日期/時間欄位:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    ![目錄組態 — 日期與時間選項](../configuration-reference/catalog/assets/catalog-date-time-custom-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的&#x200B;[_日期與時間自訂選項_](../configuration-reference/catalog/catalog.md)。
+   如需這些選項的詳細清單，請參閱&#x200B;[_組態參考_](../configuration-reference/catalog/catalog.md)&#x200B;中的&#x200B;_日期與時間自訂選項_。
 
 1. 若要使用彈出式行事曆作為日期欄位的輸入控制項，請將&#x200B;**[!UICONTROL Use JavaScript Calendar]**&#x200B;設為`Yes`。
 

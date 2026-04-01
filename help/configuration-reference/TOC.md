@@ -5,10 +5,10 @@ breadcrumb-title: 設定參考
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 2%
    - [XML Sitemap](./catalog/xml-sitemap.md)
    - [RSS摘要](./catalog/rss-feeds.md)
    - [傳送電子郵件給朋友](./catalog/email-to-a-friend.md)
+   - [產品檔案屬性](./catalog/product-file-attributes.md)
 - 安全性 {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA管理面板](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 2%
    - [管理員](./advanced/admin.md)
    - [系統](./advanced/system.md)
    - [開發人員](./advanced/developer.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
