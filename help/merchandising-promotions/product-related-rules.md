@@ -3,9 +3,9 @@ title: 相關產品規則
 description: 瞭解相關的產品規則，以及如何使用這些規則來動態向您的客戶呈現相關產品、向上銷售和交叉銷售。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 指派給每個相關產品規則的唯一數值識別碼 |
 | [!UICONTROL Rule] | 相關產品規則的名稱 |
-| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和&#x200B;_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和&#x200B;_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
+| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
 | [!UICONTROL Priority] | 在此欄位中輸入文字，以根據為規則定義的優先順序來篩選清單。 |
 | [!UICONTROL Applies To] | 此選項會篩選套用至`Related Products`、`Up-sells`和`Cross-sells`的規則清單。 |
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
@@ -40,14 +40,14 @@ ht-degree: 0%
 
 在任何指定時間，都可能會觸發數個作用中規則來顯示相關產品、向上銷售和交叉銷售。 每個規則的優先順序會決定產品在頁面上出現的順序。 此值可設為任何整數，`1`具有最高優先順序。
 
-產品關係規則中可包含的產品ID數目由`Result Limit`值決定，此值的最大值為20。 與特定規則型產品促銷活動的`Configurable Maximum`結合的`Result Limit`值會變成`Real Limit`，並決定清單中可顯示的實際相符產品數目。
+產品關係規則中可包含的產品ID數目由`Result Limit`值決定，此值的最大值為20。 與特定規則型產品促銷活動的`Result Limit`結合的`Configurable Maximum`值會變成`Real Limit`，並決定清單中可顯示的實際相符產品數目。
 
 [結果限制] + [可設定的最大值] = [實際限制]
 
 例如，假設您有三個優先順序為`1`、`2`和`3`的規則。
 
 - 針對&#x200B;_規則1_&#x200B;傳回兩個相符產品，針對&#x200B;_規則2_&#x200B;傳回六個相符產品，針對&#x200B;_規則3_&#x200B;傳回20個相符產品。
-- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;設定為`6`。
+- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_設定為`6`。
 
   | 規則 | 優先順序 | 相符產品 |
   |---|---|-----|
@@ -134,10 +134,5 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 ## 使用Real-Time CDP受眾來通知相關的產品規則
-
->[!NOTE]
->
->此功能為測試版。 如果您想要加入Beta版計畫，請傳送要求給[dataconnection@adobe.com](mailto:dataconnection@adobe.com)。
-
 
 瞭解如何在您的Adobe Commerce執行個體中[啟用](../customers/audience-activation.md) Real-Time CDP對象，以通知相關的產品規則。
