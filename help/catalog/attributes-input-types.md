@@ -26,10 +26,10 @@ ht-degree: 0%
 | [!UICONTROL Yes/No] | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
 | 下拉式清單 | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |
 | [!UICONTROL Multiple Select] | 顯示接受多個選取專案的下拉式值清單。 |
-| [!UICONTROL Number]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 儲存小數值的數字輸入欄位。 不像&#x200B;**價格**&#x200B;輸入型別，它不會套用貨幣格式並接受負值。 將此輸入型別用於測量、尺寸或技術規格，例如溫度範圍。 |
+| [!UICONTROL Number]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 儲存小數值的數字輸入欄位。 不像&#x200B;**價格**&#x200B;輸入型別，它不會套用貨幣格式並接受負值。 將此輸入型別用於測量、尺寸或技術規格，例如溫度範圍。 |
 | [!UICONTROL Price] | 此輸入型別用於建立預先定義屬性以外的價格欄位： `Price`、`Special Price`、`Tier Price`和`Cost`。 使用的貨幣由您的系統組態決定。 |
 | [!UICONTROL Media Image] | 將額外的影像與產品建立關聯，例如產品標誌、護理指示或食品標籤的成分。 將媒體影像屬性新增至產品的屬性集時，該屬性會變成額外的影像型別，連同基底、小型和縮圖。 媒體影像屬性可以從[店面媒體瀏覽器](catalog-images-video.md#storefront-media-browser)中排除。 |
-| [!UICONTROL File]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 允許檔案上傳並與產品屬性相關聯。 在[產品檔案屬性](../configuration-reference/catalog/product-file-attributes.md)中設定了支援的檔案型別和檔案大小上限。 將此輸入型別用於產品手冊、規格表或憑證等檔案。 |
+| [!UICONTROL File]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 允許檔案上傳並與產品屬性相關聯。 在[產品檔案屬性](../configuration-reference/catalog/product-file-attributes.md)中設定了支援的檔案型別和檔案大小上限。 將此輸入型別用於產品手冊、規格表或憑證等檔案。 |
 | [!UICONTROL Fixed Product Tax] | 可讓您根據地區設定的要求定義[FPT費率](../stores-purchase/fixed-product-tax.md)。 |
 | [!UICONTROL Visual Swatch] | 顯示描述可設定產品顏色、紋理或圖樣的色票。 [視覺色票](swatches.md)可以用十六進位色彩值填滿，或顯示代表選項色彩、材質、紋理或圖樣的上傳影像。 |
 | [!UICONTROL Text Swatch] | 經常用於尺寸的可設定產品選項的文字表示。 [文字色票](swatches.md)也可以包含十六進位色彩值。 |
