@@ -2,10 +2,9 @@
 user-guide-title: Admin System指南
 user-guide-description: 本指南提供管理員安全性、維護操作的詳細資訊，以及支援Adobe Commerce存放區中組織功能的全系統資源。
 breadcrumb-title: Admin System指南
-hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 4%
@@ -80,4 +79,4 @@ ht-degree: 4%
    - [工作階段管理](security-session-management.md)
    - [瀏覽器功能偵測](security-browser-capabilities-detection.md)
    - [安全性問題報告](security-issue-reporting.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

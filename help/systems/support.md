@@ -2,8 +2,8 @@
 title: 支援工具
 description: 瞭解您可用於識別系統中問題的支援工具。
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 您可以找到有關已安裝模組的實用資訊。
 
-**_若要檢視每個已安裝模組的報表資訊：_**
+**_若要檢視每個已安裝模組的報表資訊:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**。
 1. 按一下&#x200B;**[!UICONTROL New Report]**。
-1. 從&#x200B;**[!UICONTROL Groups]**&#x200B;清單中選取`Modules`。
+1. 從`Modules`清單中選取&#x200B;**[!UICONTROL Groups]**。
 1. 按一下&#x200B;**[!UICONTROL Create]**。
 1. 報表產生後，按一下&#x200B;**[!UICONTROL Select]**，然後按&#x200B;**[!UICONTROL View]**&#x200B;檢視所有模組版本。
 1. 按一下&#x200B;**[!UICONTROL Download]**&#x200B;下載報表。
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### 檢視系統報告詳細資訊
 
-1. 對於您需要的報表，請在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
+1. 對於您需要的報表，請在&#x200B;**[!UICONTROL View]**&#x200B;欄中選取&#x200B;_[!UICONTROL Actions]_。
 
 1. 在左側面板中，展開報表的每個區段![展開選取器](../assets/icon-display-expand.png)以檢視詳細資料。
 

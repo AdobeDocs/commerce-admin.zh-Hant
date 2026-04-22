@@ -3,7 +3,7 @@ title: 產品資料屬性參考
 description: 當您處理產品資料匯入和匯出時，請使用此產品資料屬性參考。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 | `store_view_code` | 識別可使用產品的特定商店檢視。 如果留空，則可在預設商店檢視中取得產品。 例如： `storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 根據產品型別，將產品指派給特定的屬性集或產品範本。 例如： `default`<br><br>建立產品後，無法使用匯入功能變更屬性集。 不過，您可以從管理員變更屬性集，然後重新匯出產品以更新CSV檔案。 |
 | `product_type` | 表示產品型別。 值： <br/>`simple` — 有形專案，通常以單一單位或固定數量銷售。<br/>`grouped` — 一組作為一組產品銷售的個別產品。<br/>`configurable` — 包含多個選項的產品，客戶在購買之前必須先選取這些選項。 您可以為每組變數管理詳細目錄，因為它們代表具有不同SKU的獨立產品。 例如，可設定產品的顏色和大小組合與目錄中的特定SKU相關聯。<br/>`virtual` — 不需要出貨且未保留在庫存中的無形產品。 範例包括服務、成員資格和訂閱。<br/>`bundle` — 可自訂的產品集，包含一起銷售的簡單產品。 |
-| `categories` | 表示指派給產品的每個類別。 使用正斜線分隔類別和子類別。 若要指示多個類別路徑，請使用垂直號\|分隔每個路徑 符號。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
+| `categories` | 表示指派給產品的每個類別。 使用正斜線分隔類別和子類別。 若要指示多個類別路徑，請使用垂直號\|符號分隔每個路徑。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 每個可取得產品的網站的網站程式碼。 單一產品可指派至多個網站，或限於一個網站。 如果指定多個網站，請以逗號分隔每個網站，但不含空格。 例如： `base`或`base,website2` |
 | `name` | 產品名稱會出現在所有產品清單中，而且是客戶用來識別產品的名稱。 |
 | `description` | 產品說明提供產品的詳細資訊，並可能包含簡單的HTML標籤。 |
@@ -95,7 +95,7 @@ ht-degree: 0%
 | `upsell_position` | 決定在`upsell_skus`欄中列為追加銷售產品的SKU位置（排序順序）。 |
 | `additional_images` | 任何要與產品相關聯之其他影像的檔案名稱，其前面會加上正斜線。 例如： `/image.jpg` |
 | `additional_image_labels` | 與任何其他影像相關聯的標籤。 例如： `Label 1`， `Label 2` |
-| `custom_options` | 指定指派給每個自訂選項的屬性和值。 例如： <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
+| `custom_options` | 指定指派給每個自訂選項的屬性和值。 例如： <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 | 屬性 | 說明 |
 |--- |--- |
 | `configurable_variation_labels` | 可識別產品變異的標籤。 例如： `Choose Color:`或`Choose Size:` |
-| `configurable_variations` | 說明與產品變數相關的值。 例如： `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
+| `configurable_variations` | 說明與產品變數相關的值。 例如： `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
 
 {style="table-layout:auto"}
 

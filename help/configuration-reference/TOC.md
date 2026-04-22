@@ -2,10 +2,9 @@
 user-guide-title: 設定參考指南
 user-guide-description: 本指南針對從**[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**的_Admin_側邊欄存取的所有商店組態設定，提供參考資訊。
 breadcrumb-title: 設定參考
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [管理員](./advanced/admin.md)
    - [系統](./advanced/system.md)
    - [開發人員](./advanced/developer.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

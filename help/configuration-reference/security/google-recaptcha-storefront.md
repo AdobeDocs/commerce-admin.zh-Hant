@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefro
 description: 檢閱Commerce管理員的[!UICONTROL Security] &amp；gt； [!UICONTROL Google reCAPTCHA Storefront]頁面上的組態設定。
 exl-id: 6c03ee68-7421-4c74-bdc1-0855f088b7f9
 feature: Configuration, Security
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=zh-Hant)中的&#x200B;_PHP設定_。
+>在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱[安裝指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)中的&#x200B;_PHP設定_。
 
 {{config}}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 | [!UICONTROL Enable for Forgot Password] | 網站 | 指定客戶要求[密碼重設](../../customers/password-reset.md)時所使用的reCAPTCHA型別。 選項： <br/>**`No`**- （預設）不會驗證密碼重設要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Create New Customer Account] | 網站 | 指定客戶註冊[新帳戶](../../customers/account-create.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證帳戶要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Edit Customer Account] | 網站 | 指定客戶變更其[帳戶資訊](../../customers/account-dashboard-account-information.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證帳戶要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
-| [!UICONTROL Enable for Create New Company Account] | 網站 | ![Adobe Commerce B2B](../../assets/b2b.svg) (僅適用於Adobe Commerce B2B)指定建立新[公司帳戶](../../b2b/account-company-create.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證帳戶要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
+| [!UICONTROL Enable for Create New Company Account] | 網站 | ![Adobe Commerce B2B](../../assets/b2b.svg) （僅適用於Adobe Commerce B2B）指定建立新[公司帳戶](../../b2b/account-company-create.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證帳戶要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Contact Us] | 網站 | 指定用來從您商店的[聯絡我們](../../getting-started/store-details.md#contact-us-form)頁面傳送訊息的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證訊息要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Product Review] | 網站 | 指定客戶提交[產品評論](../../merchandising-promotions/product-reviews.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證產品檢閱要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Newsletter Subscription] | 網站 | 指定當客戶註冊[電子報訂閱](../../merchandising-promotions/newsletter-subscribers.md)時所使用之隱藏的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證Newsletter訂閱要求。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
-| [!UICONTROL Enable for Gift Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定客戶輸入[禮卡](../../catalog/product-gift-card-create.md)代碼時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證禮品卡代碼提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
+| [!UICONTROL Enable for Gift Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定客戶輸入[禮卡](../../catalog/product-gift-card-create.md)代碼時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證禮品卡代碼提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Invitation Create Account] | 網站 | 指定當客戶傳送帳戶建立[邀請](../../merchandising-promotions/invitations.md)代碼時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證邀請電子郵件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Send to Friend] | 網站 | 指定客戶[與朋友共用產品](../../stores-purchase/email-a-friend.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證電子郵件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |
 | [!UICONTROL Enable for Wishlist Sharing] | 網站 | 指定客戶[共用願望清單](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證郵件和電子郵件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`** — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，驗證背景的使用者行為。 |

@@ -3,9 +3,9 @@ title: 產品屬性概觀
 description: 瞭解產品屬性，以及如何使用它們描述產品的特定特性。
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 移除未使用的產品屬性，以獲得更好的建構和更快的索引。
 
 
->[備註！]
+>[!NOTE]
 >
->如需最佳化產品屬性設定效能的詳細資訊，請參閱&#x200B;_實作行動手冊_&#x200B;中的[目錄管理最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)。
+>如需最佳化產品屬性設定效能的詳細資訊，請參閱[實作行動手冊](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目錄管理最佳實務_。

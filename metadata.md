@@ -12,7 +12,7 @@ role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 50e5e33f3f5b88726ee4b468d5d9533c297721cd
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # 內部使用的中繼資料
 
-此 `metadata.md` 檔案包含傳遞至使用手冊的存放庫層級中繼資料 `TOC.md` 存放庫中的檔案。 如果您想要變更任何使用手冊的metadata.md內容，請在任何 `TOC.md` 檔案。
+`metadata.md`檔案包含存放庫層級中繼資料，這些中繼資料會傳遞至存放庫中的使用手冊`TOC.md`檔案。 如果您想要變更任何使用手冊的metadata.md內容，請在任何`TOC.md`檔案中進行變更。
 
 | 中繼資料 | 作用 |
 |--- |--- |
