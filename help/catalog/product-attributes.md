@@ -47,4 +47,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需最佳化產品屬性設定效能的詳細資訊，請參閱[實作行動手冊](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目錄管理最佳實務_。
+>如需最佳化產品屬性設定效能的詳細資訊，請參閱[實作行動手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)中的&#x200B;_目錄管理最佳實務_。
