@@ -72,7 +72,7 @@ Commerce帳戶轉移的型別取決於目前擁有者和新擁有者可用的Com
 
 1. 按一下&#x200B;**[!UICONTROL Verify]**。
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447670/?captions=chi_hant&learn=on)
 
 ## 電子郵件變更
 
