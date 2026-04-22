@@ -47,7 +47,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
      >[!NOTE]
      >
-     >請勿變更&#x200B;_[!UICONTROL Base Link URL]_欄位中的預留位置。 它是用來建立基本URL相對連結的預留位置。
+     >請勿變更&#x200B;_[!UICONTROL Base Link URL]_&#x200B;欄位中的預留位置。 它是用來建立基本URL相對連結的預留位置。
 
    - **[!UICONTROL Base URL for Static View Files]** — （選擇性）輸入以下列預留位置開頭的路徑，為靜態檢視檔案的基本URL指定替代位置：
 
@@ -112,7 +112,7 @@ Adobe Commerce或Magento Open Source安裝中的每個網站都有指派給店�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL URL Options]**。
 
