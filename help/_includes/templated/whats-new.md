@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增<code class="language-plaintext highlighter-rouge">numeric</code>和<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">屬性輸入型別</a>，並在組態參考中新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">產品檔案屬性</a>頁面。</p>
+      <td><p>已新增<code class="language-plaintext highlighter-rouge">numeric</code>和<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/product-attributes/attributes-input-types">屬性輸入型別</a>，並在組態參考中新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/product-file-attributes">產品檔案屬性</a>頁面。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增Adobe Commerce as a Cloud Service指示至<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">提供購物者協助</a>。</p>
+      <td><p>已新增Adobe Commerce as a Cloud Service指示至<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">提供購物者協助</a>。</p>
 </td>
       <td>
         重大更新
