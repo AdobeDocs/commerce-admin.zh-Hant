@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6023fe9fdffd206f23bed50d247b61859ae59bc9
+source-git-commit: 55b6351ede50583d766d25ea855aaf7bcb0c30ee
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '3945'
 ht-degree: 0%
 
 ---
@@ -27,74 +27,75 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
 
 `composer.json`檔案會宣告套件清單，而`composer.lock`檔案會儲存用來建置Adobe Commerce B2B安裝的套件完整清單（每個套件的完整版本及其相依性）。
 
-下列參考檔案是從`composer.lock`檔案產生，其涵蓋Adobe Commerce B2B 1.5.2中包含的必要套件。
+下列參考檔案是從`composer.lock`檔案產生，其涵蓋Adobe Commerce B2B 1.5.3中包含的必要套件。
 
 ## 相依性
 
-`magento/extension-b2b 1.5.2`有下列相依性：
+`magento/extension-b2b 1.5.3`有下列相依性：
 
-- magento/framework： >=103.0.6 &lt;103.0.9
-- magento/magento2-b2b-base： 1.5.2
-- [magento/module-b2b](https://developer.adobe.com/commerce/php/module-reference/module-b2b/)： 100.5.2
-- [magento/module-bundle-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote/)： 100.5.1
-- [magento/module-bundle-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list/)： 100.5.1
-- [magento/module-bundle-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-bundle-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog/)： 100.5.1
-- [magento/module-checkout-address-search-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote/)： 100.5.1
-- [magento/module-checkout-agreements-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote/)： 100.5.1
-- [magento/module-checkout-agreements-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order/)： 1.5.1
-- [magento/module-company](https://developer.adobe.com/commerce/php/module-reference/module-company/)： 102.0.2
-- [magento/module-company-asynchronous-operations](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations/)： 1.5.1
-- [magento/module-company-credit](https://developer.adobe.com/commerce/php/module-reference/module-company-credit/)： 100.5.2
-- [magento/module-company-credit-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql/)： 1.5.1
-- [magento/module-company-customer-import-export](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export/)： 1.5.0
-- [magento/module-company-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql/)： 1.5.2
-- [magento/module-company-angable-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote/)： 1.5.1
-- [magento/module-company-negotial-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template/)： 1.5.1
-- [magento/module-company-payment](https://developer.adobe.com/commerce/php/module-reference/module-company-payment/)： 100.5.1
-- [magento/module-company-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-quote/)： 1.5.2
-- [magento/module-company-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql/)： 1.5.2
-- [magento/module-company-relation](https://developer.adobe.com/commerce/php/module-reference/module-company-relation/)： 1.5.2
-- [magento/module-company-relation-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog/)： 1.5.1
-- [magento/module-company-shipping](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping/)： 1.5.1
-- [magento/module-configurable-angular-quote](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote/)： 100.5.1
-- [magento/module-configurable-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list/)： 100.5.1
-- [magento/module-configurable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-configurable-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog/)： 100.5.1
-- [magento/module-downloadable-company](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company/)： 1.5.1
-- [magento/module-downloadable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-gift-card-angotiable-quote](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote/)： 100.5.1
-- [magento/module-gift-card-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list/)： 100.5.1
-- [magento/module-gift-card-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-gift-card-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog/)： 100.5.1
-- [magento/module-grouped-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list/)： 100.5.1
-- [magento/module-grouped-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog/)： 100.5.1
-- [magento/module-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote/)： 101.0.2
-- [magento/module-negotial-quote-async-order](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order/)： 1.5.1
-- [magento/module-negotial-quote-duplicate](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate/)： 1.5.2
-- [magento/module-negotial-quote-duplicate-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql/)： 1.5.1
-- [magento/module-negotial-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql/)： 1.5.1
-- [magento/module-negotial-quote-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list/)： 1.5.1
-- [magento/module-negotial-quote-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-negotial-quote-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog/)： 100.5.1
-- [magento/module-negotial-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template/)： 1.5.2
-- [magento/module-negotial-quote-template-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql/)： 1.5.2
-- [magento/module-negotial-quote-template-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog/)： 1.5.1
-- [magento/module-negotial-quote-weee](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee/)： 100.5.1
-- [magento/module-order-history-search](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search/)： 100.5.2
-- [magento/module-paypal-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote/)： 1.5.1
-- [magento/module-paypal-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order/)： 1.5.1
-- [magento/module-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order/)： 100.5.2
-- [magento/module-purchase-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql/)： 1.5.1
-- [magento/module-purchase-order-rule](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule/)： 100.5.2
-- [magento/module-purchase-order-rule-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql/)： 1.5.1
-- [magento/module-quick-order](https://developer.adobe.com/commerce/php/module-reference/module-quick-order/)： 100.5.1
-- [magento/module-quick-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql/)： 1.5.1
-- [magento/module-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list/)： 100.5.2
-- [magento/module-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql/)： 1.5.1
-- [magento/module-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog/)： 100.5.2
-- [magento/module-shared-catalog-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql/)： 1.5.1
-- magento/security-package-b2b： 1.0.6
+- magento/framework： >=103.0.8 &lt;103.0.10
+- magento/magento2-b2b-base： 1.5.3
+- [magento/module-b2b](https://developer.adobe.com/commerce/php/module-reference/module-b2b)： 100.5.3
+- [magento/module-bundle-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-bundle-negotiable-quote)： 100.5.2
+- [magento/module-bundle-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list)： 100.5.2
+- [magento/module-bundle-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-bundle-requisition-list-graph-ql)： 1.5.2
+- [magento/module-bundle-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-bundle-shared-catalog)： 100.5.2
+- [magento/module-checkout-address-search-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-address-search-negotiable-quote)： 100.5.2
+- [magento/module-checkout-agreements-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-negotiable-quote)： 100.5.2
+- [magento/module-checkout-agreements-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-checkout-agreements-purchase-order)： 1.5.2
+- [magento/module-company](https://developer.adobe.com/commerce/php/module-reference/module-company)： 102.0.3
+- [magento/module-company-asynchronous-operations](https://developer.adobe.com/commerce/php/module-reference/module-company-asynchronous-operations)： 1.5.2
+- [magento/module-company-credit](https://developer.adobe.com/commerce/php/module-reference/module-company-credit)： 100.5.3
+- [magento/module-company-credit-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-credit-graph-ql)： 1.5.2
+- [magento/module-company-customer-import-export](https://developer.adobe.com/commerce/php/module-reference/module-company-customer-import-export)： 1.5.1
+- [magento/module-company-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-graph-ql)： 1.5.3
+- [magento/module-company-angable-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote)： 1.5.2
+- [magento/module-company-negotial-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-company-negotiable-quote-template)： 1.5.2
+- [magento/module-company-payment](https://developer.adobe.com/commerce/php/module-reference/module-company-payment)： 100.5.2
+- [magento/module-company-quote](https://developer.adobe.com/commerce/php/module-reference/module-company-quote)： 1.5.3
+- [magento/module-company-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-company-quote-graph-ql)： 1.5.3
+- [magento/module-company-relation](https://developer.adobe.com/commerce/php/module-reference/module-company-relation)： 1.5.3
+- [magento/module-company-relation-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-company-relation-shared-catalog)： 1.5.2
+- [magento/module-company-shipping](https://developer.adobe.com/commerce/php/module-reference/module-company-shipping)： 1.5.2
+- [magento/module-configurable-angular-quote](https://developer.adobe.com/commerce/php/module-reference/module-configurable-negotiable-quote)： 100.5.2
+- [magento/module-configurable-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list)： 100.5.2
+- [magento/module-configurable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-configurable-requisition-list-graph-ql)： 1.5.2
+- [magento/module-configurable-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-configurable-shared-catalog)： 100.5.2
+- [magento/module-downloadable-company](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-company)： 1.5.2
+- [magento/module-downloadable-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-negotiable-quote)： 1.5.0
+- [magento/module-downloadable-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-downloadable-requisition-list-graph-ql)： 1.5.2
+- [magento/module-gift-card-angotiable-quote](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-negotiable-quote)： 100.5.2
+- [magento/module-gift-card-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list)： 100.5.2
+- [magento/module-gift-card-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-requisition-list-graph-ql)： 1.5.2
+- [magento/module-gift-card-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-gift-card-shared-catalog)： 100.5.2
+- [magento/module-grouped-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-grouped-requisition-list)： 100.5.2
+- [magento/module-grouped-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-grouped-shared-catalog)： 100.5.2
+- [magento/module-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote)： 101.0.3
+- [magento/module-negotial-quote-async-order](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-async-order)： 1.5.2
+- [magento/module-negotial-quote-duplicate](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate)： 1.5.3
+- [magento/module-negotial-quote-duplicate-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-duplicate-graph-ql)： 1.5.2
+- [magento/module-negotial-quote-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-graph-ql)： 1.5.2
+- [magento/module-negotial-quote-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list)： 1.5.2
+- [magento/module-negotial-quote-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-requisition-list-graph-ql)： 1.5.2
+- [magento/module-negotial-quote-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-shared-catalog)： 100.5.2
+- [magento/module-negotial-quote-template](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template)： 1.5.3
+- [magento/module-negotial-quote-template-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-graph-ql)： 1.5.3
+- [magento/module-negotial-quote-template-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-template-shared-catalog)： 1.5.2
+- [magento/module-negotial-quote-weee](https://developer.adobe.com/commerce/php/module-reference/module-negotiable-quote-weee)： 100.5.2
+- [magento/module-order-history-search](https://developer.adobe.com/commerce/php/module-reference/module-order-history-search)： 100.5.3
+- [magento/module-paypal-negotial-quote](https://developer.adobe.com/commerce/php/module-reference/module-paypal-negotiable-quote)： 1.5.2
+- [magento/module-paypal-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-paypal-purchase-order)： 1.5.2
+- [magento/module-purchase-order](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order)： 100.5.3
+- [magento/module-purchase-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-graph-ql)： 1.5.2
+- [magento/module-purchase-order-rule](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule)： 100.5.3
+- [magento/module-purchase-order-rule-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-purchase-order-rule-graph-ql)： 1.5.2
+- [magento/module-quick-order](https://developer.adobe.com/commerce/php/module-reference/module-quick-order)： 100.5.2
+- [magento/module-quick-order-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-quick-order-graph-ql)： 1.5.2
+- [magento/module-requisition-list](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list)： 100.5.3
+- [magento/module-requisition-list-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-requisition-list-graph-ql)： 1.5.2
+- [magento/module-shared-catalog](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog)： 100.5.3
+- [magento/module-shared-catalog-graph-ql](https://developer.adobe.com/commerce/php/module-reference/module-shared-catalog-graph-ql)： 1.5.2
+- magento/security-package-b2b： 1.0.7
 
 ## 協力廠商授權
 
@@ -153,6 +154,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/libphonenumber-for-php">gigsey/libphonenumber-for-php</a>
+    </td>
+    <td>資料庫</td>
+    <td>用於解析、格式化、儲存及驗證國際電話號碼的程式庫，Google的libphonenumber的PHP連線埠。</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/opentelemetry-php/api">開放遙測/api</a>
     </td>
     <td>資料庫</td>
@@ -171,6 +179,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>Metapackage</td>
     <td>Braintree Magento</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/stomp-php/stomp-php">stomp-php/stomp-php</a>
+    </td>
+    <td>資料庫</td>
+    <td>PHP的步驟支援</td>
   </tr>
   <tr>
     <td>
@@ -251,7 +266,7 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/firebase/php-jwt">firebase/php-jwt</a>
+      <a href="https://github.com/googleapis/php-jwt">firebase/php-jwt</a>
     </td>
     <td>資料庫</td>
     <td>在PHP中編碼和解碼JSON Web權杖(JWT)的簡單程式庫。 應符合目前的規格。</td>
@@ -349,13 +364,6 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mvc">laminas/laminas-mvc</a>
-    </td>
-    <td>資料庫</td>
-    <td>Laminas的事件導向MVC層，包括MVC應用程式、控制器和外掛程式</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-permissions-acl">laminas/laminas-permissions-acl</a>
     </td>
     <td>資料庫</td>
@@ -367,13 +375,6 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>資料庫</td>
     <td>ReCaptcha Web服務的OOP包裝函式</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-router">層疊/層疊 — 路由器</a>
-    </td>
-    <td>資料庫</td>
-    <td>適用於HTTP和主控台應用程式的彈性路由系統</td>
   </tr>
   <tr>
     <td>
@@ -461,6 +462,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/php-db/phpdb">php-db/phpdb</a>
+    </td>
+    <td>資料庫</td>
+    <td>資料庫抽象層、SQL抽象層、結果集抽象層，以及RowDataGateway和TableDataGateway實作</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/phpfui/recaptcha">phpfui/recaptcha</a>
     </td>
     <td>資料庫</td>
@@ -500,27 +508,6 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>Magento-module</td>
     <td>使用Redis的Zend_Cache後端，完全支援標籤。</td>
-  </tr>
-  </tbody>
-</table>
-
-### ISC
-
-<table>
-  <thead>
-    <tr>
-      <th>名稱</th>
-      <th>型別</th>
-      <th>說明</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/paragonie/sodium_compat">paragonie/na_compat</a>
-    </td>
-    <td>資料庫</td>
-    <td>libna的純PHP實作；使用PHP擴充功能（如果存在）</td>
   </tr>
   </tbody>
 </table>
@@ -577,6 +564,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>資料庫</td>
     <td>任意精確度算術程式庫</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/brick/phonenumber">磚/電話號碼</a>
+    </td>
+    <td>資料庫</td>
+    <td>電話號碼庫</td>
   </tr>
   <tr>
     <td>
@@ -706,6 +700,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/giggsey/Locale">giggsey/locale</a>
+    </td>
+    <td>資料庫</td>
+    <td>libphonenumber-for-php所需的語言環境函式</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/guzzle/guzzle">guzzlehttp/guzzle</a>
     </td>
     <td>資料庫</td>
@@ -818,14 +819,14 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/CssXPath">phpgt/cssxpath</a>
+      <a href="https://github.com/phpgt/CssXPath">phpgt/cssxpath</a>
     </td>
     <td>資料庫</td>
     <td>將CSS選取器轉換為XPath查詢。</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PhpGt/Dom">phpgt/dom</a>
+      <a href="https://github.com/phpgt/Dom">phpgt/dom</a>
     </td>
     <td>資料庫</td>
     <td>新式DOM API。</td>
@@ -850,6 +851,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>資料庫</td>
     <td>PHP Secure Communications Library - RSA、AES、SSH2、SFTP、X.509等的純PHP實作。</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/predis/predis">predis/predis</a>
+    </td>
+    <td>資料庫</td>
+    <td>適用於PHP的彈性且功能完整的Redis/Valkey使用者端。</td>
   </tr>
   <tr>
     <td>
@@ -986,6 +994,20 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/cache">symfony/快取</a>
+    </td>
+    <td>資料庫</td>
+    <td>提供延伸的PSR-6、PSR-16 （和標籤）實作</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/cache-contracts">symfony/快取合約</a>
+    </td>
+    <td>資料庫</td>
+    <td>與快取相關的一般抽象概念</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/config">symfony/config</a>
     </td>
     <td>資料庫</td>
@@ -1053,13 +1075,6 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>資料庫</td>
     <td>透過直覺式的流暢介面尋找檔案和目錄</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/symfony/http-client">symfony/http-client</a>
-    </td>
-    <td>資料庫</td>
-    <td>提供強大的方法來同步或非同步擷取HTTP資源</td>
   </tr>
   <tr>
     <td>
@@ -1168,10 +1183,17 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php83">symfony/polyfill-php83</a>
+      <a href="https://github.com/symfony/polyfill-php84">symfony/polyfill-php84</a>
     </td>
     <td>資料庫</td>
-    <td>Symfony polyfill將一些PHP 8.3+功能回移植到較低的PHP版本</td>
+    <td>Symfony polyfill將一些PHP 8.4+功能回移植到較低的PHP版本</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/polyfill-php85">symfony/polyfill-php85</a>
+    </td>
+    <td>資料庫</td>
+    <td>Symfony polyfill將一些PHP 8.5+功能回移植到較低的PHP版本</td>
   </tr>
   <tr>
     <td>
@@ -1214,6 +1236,13 @@ Adobe Commerce B2B使用Composer來管理PHP套件。
     </td>
     <td>資料庫</td>
     <td>載入和傾印YAML檔案</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thecodingmachine/safe">thecodingmachine/safe</a>
+    </td>
+    <td>資料庫</td>
+    <td>擲回例外狀況而非錯誤時傳回FALSE的PHP核心函式</td>
   </tr>
   <tr>
     <td>

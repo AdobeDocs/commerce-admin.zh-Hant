@@ -3,10 +3,10 @@ title: 網站地圖
 description: 瞭解如何設定網站地圖，以索引Commerce網站的所有頁面和影像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁爬蟲忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁爬蟲包含指示，以避免為網站編制索引。 在啟動之前，您可以變更指示，允許網站編制索引。
 
-如需技術資訊，請參閱雲端基礎結構指南上的[Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant)中的&#x200B;_新增Sitemap和robots.txt_。
+如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
 
 ![網站地圖格線](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 如需詳細資訊，請參閱特定搜尋引擎的說明。 以下是兩個主要搜尋引擎的指示連結：
 
 - [Google](https://support.google.com/webmasters/answer/183669?hl=en)
-- [Microsoft® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
+- [® Bing](https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed)
 
 ## 步驟5：還原先前的自動機制指示（選擇性）
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 1. 在網站的根目錄建立名為`sitemaps`的資料夾，然後為每個網域建立子資料夾：
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**。
 
@@ -97,12 +97,12 @@ ht-degree: 0%
    若要確保搜尋引擎編目程式已正確導向至新的Sitemap，您可以更新或建立robots.txt檔案。 在頂端新增下列行。
 
        網站網站地圖
-       網站地圖： https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       網站地圖： https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+     網站地圖： https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     網站地圖： https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 |------|-----------|
 | [!UICONTROL ID] | 目前網站地圖的連續記錄編號。 |
 | [!UICONTROL Filename] | 網站地圖的檔案名稱。 |
-| [!UICONTROL Path] | 網站地圖在伺服器上的位置。 例如： <br/>`/sitemap/` — 將網站地圖檔案放置在名為&#x200B;_網站地圖_&#x200B;的目錄中，此目錄位於Commerce安裝根目錄下的一個層級。 <br/>`/` — 將網站地圖檔案放置在基礎路徑或Commerce安裝的根目錄中。 |
+| [!UICONTROL Path] | 網站地圖在伺服器上的位置。 例如： <br/>`/sitemap/` — 將網站地圖檔案放置在名為&#x200B;_網站地圖_&#x200B;的目錄中，此目錄位於Commerce安裝根目錄下的一個層級。<br/>`/` — 將網站地圖檔案放置在基礎路徑或Commerce安裝的根目錄下。 |
 | [!UICONTROL Link for Google] | 要提交至Google和其他搜尋引擎的網站地圖URL。 |
 | [!UICONTROL Last Generated] | 表示上次產生網站地圖的日期和時間。 |
 | [!UICONTROL Store View] | 網站地圖套用的商店檢視。 |
@@ -148,11 +148,11 @@ ht-degree: 0%
 
    ![XML Sitemap — 類別選項](../configuration-reference/catalog/assets/xml-sitemap-categories-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#categories-options)中的&#x200B;_類別選項_。
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[類別選項](../configuration-reference/catalog/xml-sitemap.md#categories-options)。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Products Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
-   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#products-options)中的&#x200B;_產品選項_。
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[產品選項](../configuration-reference/catalog/xml-sitemap.md#products-options)。
 
 1. 若要判斷網站地圖中包含影像的範圍，請將&#x200B;**[!UICONTROL Add Images into Sitemap]**&#x200B;設定為下列其中一項：
 
@@ -166,27 +166,32 @@ ht-degree: 0%
 
    ![目錄設定 — XML Sitemap CMS頁面](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱[設定參考](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)中的&#x200B;_CMS頁面選項_。
+   如需這些選項的詳細清單，請參閱&#x200B;_設定參考_&#x200B;中的[CMS頁面選項](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Store Url Options]**&#x200B;區段，並視需要完成&#x200B;**[!UICONTROL Frequency]**&#x200B;和&#x200B;**[!UICONTROL Priority]**&#x200B;設定。
 
    ![目錄組態 — XML Sitemap存放區URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#store-url-options)中的&#x200B;_儲存URL選項_。
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[儲存URL選項](../configuration-reference/catalog/xml-sitemap.md#store-url-options)。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ### 步驟2. 完成產生設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Generation Settings]**。
+1. 展開&#x200B;**[!UICONTROL Generation Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    如有需要，請清除&#x200B;**使用系統值**&#x200B;核取方塊以變更這些設定。
 
    ![目錄組態 — XML Sitemap產生設定](../configuration-reference/catalog/assets/xml-sitemap-generation-settings.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#generation-settings)中的&#x200B;_產生設定_。
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[產生設定](../configuration-reference/catalog/xml-sitemap.md#generation-settings)。
 
 1. 若要產生Sitemap，請將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`並執行下列動作：
+
+   - 將&#x200B;**[!UICONTROL Generation Method]**&#x200B;設定為下列其中一項：
+
+      - `Standard` — 處理記憶體中的所有資料。
+      - `Batch` — 對大型目錄使用記憶體最佳化處理。 此選項從2.4.9版開始可用。
 
    - 將&#x200B;**[!UICONTROL Start Time]**&#x200B;設定為您要更新Sitemap的時、分、秒。
 
@@ -204,11 +209,11 @@ ht-degree: 0%
 
 ### 步驟3. 設定網站地圖檔案限制
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Sitemap File Limits]**。
+1. 展開&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![目錄組態 — XML Sitemap檔案限制](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
-   如需這些選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)中的&#x200B;_網站地圖檔案限制_。
+   如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[網站地圖檔案限制](../configuration-reference/catalog/xml-sitemap.md#sitemap-file-limits)。
 
 1. 針對&#x200B;**[!UICONTROL Maximum No of URLs per File]**，輸入網站地圖中可包含的URL數目上限。
 
@@ -220,10 +225,40 @@ ht-degree: 0%
 
 ### 步驟4. 設定搜尋引擎提交設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Search Engine Submission Settings]**。
+1. 展開&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![目錄組態 — XML Sitemap搜尋引擎提交設定](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
 1. 如果使用`robots.txt`檔案向抓取您網站的搜尋引擎提供指示，請將&#x200B;**[!UICONTROL Enable Submission to Robots.txt]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
+
+## 大型目錄的替代Cronjob
+
+>[!NOTE]
+>
+>對於擁有大型目錄的商店，您可以使用替代的Cronjob來確保產生所有資料。 在`app/code/Magento/Sitemap/etc/config.xml`中，取代：
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>替換為：
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>這項變更可產生批次Sitemap，建議用於大型目錄。

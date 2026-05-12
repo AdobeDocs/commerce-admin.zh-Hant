@@ -3,9 +3,9 @@ title: 美國郵政服務(USPS)
 description: 瞭解如何將USPS設定為您的商店的運送業者。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL USPS]**。
+1. 展開&#x200B;**[!UICONTROL USPS]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    >[!NOTE]
    >
@@ -36,9 +36,15 @@ ht-degree: 0%
 
 1. 將&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;設為`Yes`。
 
-1. 如果您使用USPS REST API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Rest APIs`。
+1. 設定USPS API型別。
 
-   如果您使用USPS Web Tools API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Web Tools API`。
+   - 如果您使用USPS REST API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS REST API`。
+
+   - 如果您使用USPS Web Tools API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Web Tools API`。
+
+   >[!NOTE]
+   >
+   >USPS Rest API是整合USPS的偏好方法。 USPS Web Tools API已過時，未來發行版本可能會將其移除。
 
 1. 如有需要，請輸入&#x200B;**[!UICONTROL Gateway URL]**&#x200B;以存取USPS運費。
 
@@ -48,16 +54,17 @@ ht-degree: 0%
 
 1. 使用USPS提供的憑證完成下列欄位：
 
-   如果您使用USPS Rest API，您必須提供下列認證：
+   如果您使用USPS Rest API，請提供下列認證：
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   如果您使用USPS Web Tools API，您必須提供下列認證：
+   如果您使用USPS Web Tools API，請提供下列認證：
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. 將&#x200B;**[!UICONTROL Mode]**&#x200B;設定為下列其中一項：
 
@@ -100,7 +107,7 @@ ht-degree: 0%
 
 1. 輸入要收費的&#x200B;**[!UICONTROL Handling Fee]**&#x200B;金額。
 
-   若要輸入百分比，請使用小數格式。 例如，輸入`0.25`表示25%。
+   若要輸入百分比，請使用小數格式。 例如，輸入`25`表示25%。
 
    ![USPS處理費](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

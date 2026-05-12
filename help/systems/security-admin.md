@@ -4,22 +4,23 @@ description: 瞭解如何為商店管理員設定安全性。
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # 設定管理員安全性
 
-建議您採取多方面的方法來保護商店的安全。 您可以透過使用不容易猜測的[自訂管理員URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)開始，而不是使用明顯的「管理員」或「後端」。 根據預設，用來[登入](../getting-started/admin-signin.md)管理員的密碼長度必須是7個或7個以上的字元，且包含字母和數字。 根據[最佳作法](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hant)，請只使用包含字母、數字和符號組合的強式管理員密碼。 Adobe Commerce和Magento Open Source不允許重複使用最近四個指派給帳戶的密碼。
+建議您採取多方面的方法來保護商店的安全。 您可以透過使用不容易猜測的[自訂管理員URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)開始，而不是使用明顯的「管理員」或「後端」。 根據預設，用來[登入](../getting-started/admin-signin.md)管理員的密碼長度必須是7個或7個以上的字元，且包含字母和數字。 您可以設定最低密碼長度要求，以根據貴組織的需求增強安全性。 根據[最佳作法](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)，請只使用包含字母、數字和符號組合的強式管理員密碼。 Adobe Commerce和Magento Open Source不允許重複使用最近四個指派給帳戶的密碼。
 
 管理員安全性設定可讓您：
 
 - 將秘密金鑰新增至URL
 - 要求密碼區分大小寫
+- 設定密碼長度下限要求
 - 限制管理員工作階段的長度
 - 限制密碼的存留期
 - 限制在Admin使用者帳戶為[鎖定](permissions-users-all.md#locked-users)之前可以嘗試登入的次數。
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Advanced]_&#x200B;下，選擇&#x200B;**[!UICONTROL Admin]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Advanced]_下，選擇&#x200B;**[!UICONTROL Admin]**。
 
 1. 展開&#x200B;**[!UICONTROL Security]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -73,6 +74,12 @@ ht-degree: 0%
 
 1. 設定密碼選項：
 
+   - 針對&#x200B;**[!UICONTROL Minimum Admin Password Length]**，輸入管理員密碼所需的最小字元數。 預設值為7，允許的最小值為7。
+
+     >[!WARNING]
+     >
+     >若將此值從預設值變更，可能會導致現有服務的回溯相容性問題。 此設定會影響管理員密碼變更、從管理員介面和CLI建立新的管理員使用者，以及從管理員重設密碼。
+
    - 若要限制管理員密碼的存留期，請輸入密碼對&#x200B;**[!UICONTROL Password Lifetime (days)]**&#x200B;有效的天數。 對於無限期限，請將此欄位留空。
 
    - 將&#x200B;**[!UICONTROL Password Change]**&#x200B;設定為下列其中一項：
@@ -84,4 +91,4 @@ ht-degree: 0%
 
 ## 管理員密碼需求
 
-依預設，管理員密碼的長度必須是7個或7個以上的字元，且包含字母和數字。
+依預設，管理員密碼的長度必須是7個或7個以上的字元，且包含字母和數字。 您可以使用&#x200B;**[!UICONTROL Minimum Admin Password Length]**&#x200B;設定來設定密碼長度下限要求，以符合貴組織的安全性標準。 不過，提高此值可能會影響與現有服務和整合的相容性。

@@ -1,11 +1,11 @@
 ---
 title: 新增產品影片
-description: 瞭解如何設定商店的產品影片(需要Google帳戶中的YouTube資料API金鑰)，並新增產品的影片連結。
+description: 瞭解如何設定商店的產品影片（需要Google帳戶中的YouTube資料API金鑰），並新增產品的影片連結。
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_&#x200B;區段並貼上您的&#x200B;**[!UICONTROL YouTube API key]**。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Product Video]_區段並貼上您的&#x200B;**[!UICONTROL YouTube API key]**。
 
    ![產品視訊組態](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 捲動至並展開&#x200B;_[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 捲動至並展開&#x200B;_[!UICONTROL Images and Videos]_區段。
 
    ![影像和影片](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL Autostart base video]_&#x200B;組態選項設為`Yes`，但視訊未開始自動播放，可能是因為瀏覽器強制執行且無法由Adobe Commerce控制的自動播放原則。 每個支援的瀏覽器都有自己的自動播放原則，這些原則會隨著時間而改變，且您的視訊未來可能不會自動播放。 建議的最佳實務是，請勿仰賴自動播放功能來實現關鍵業務功能，而應使用每個支援的瀏覽器測試商店中的視訊自動播放行為。
+   >如果&#x200B;_[!UICONTROL Autostart base video]_組態選項設為`Yes`，但視訊未開始自動播放，可能是因為瀏覽器強制執行且無法由Adobe Commerce控制的自動播放原則。 每個支援的瀏覽器都有自己的自動播放原則，這些原則會隨著時間而改變，且您的視訊未來可能不會自動播放。 建議的最佳實務是，請勿仰賴自動播放功能來實現關鍵業務功能，而應使用每個支援的瀏覽器測試商店中的視訊自動播放行為。
+
+## 在商店檢視層級管理視訊角色
+
+當您在特定存放區檢視範圍（非&#x200B;**[!UICONTROL All Store Views]**）中工作時新增或編輯視訊時，視訊對話方塊中的每個&#x200B;**[!UICONTROL Role]**&#x200B;選項都會顯示&#x200B;**[!UICONTROL Use Default Value]**&#x200B;按鈕。 按一下此按鈕，從該角色的預設範圍繼承角色指派。
+
+![新視訊 — 商店檢視](./assets/product-video-add-store-scope.png){width="600" zoomable="yes"}
 
 ## 維護API存取權
 

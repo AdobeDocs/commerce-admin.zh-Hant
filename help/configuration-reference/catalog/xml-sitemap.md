@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]'
-description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL XML Sitemap]頁面上的組態設定。
+title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
+description: 檢閱Commerce管理員的[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]頁面上的組態設定。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![類別選項](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![產品選項](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![CMS頁面選項](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -67,11 +67,12 @@ ht-degree: 2%
 
 ![產生設定](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 存放區檢視 | 判斷是否有XML Sitemap可供存放區使用。 選項： `Yes` / `No` |
+| [!UICONTROL Generation Method] | 存放區檢視 | 決定XML Sitemap的產生方式。 `Standard`使用傳統的同步產生程式，並處理記憶體中的所有資料，而`Batch`則使用非同步記憶體最佳化的批次模式，以提供更大的彈性和擴充性。 此選項從2.4.9版開始可用。 選項： `Standard` / `Batch` |
 | [!UICONTROL Start Time] | 存放區檢視 | 指定網站地圖在一天中的小時、分鐘和秒進行更新。 |
 | [!UICONTROL Frequency] | 存放區檢視 | 決定Sitemap更新的頻率。 選項： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | 存放區檢視 | 在Sitemap更新過程中發生錯誤時收到通知的人員的電子郵件地址。 如果有多個地址，請用逗號分隔每個地址。 |
@@ -84,7 +85,7 @@ ht-degree: 2%
 
 ![Sitemap檔案限制](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 ![搜尋引擎提交設定](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

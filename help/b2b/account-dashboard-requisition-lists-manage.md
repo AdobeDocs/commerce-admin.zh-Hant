@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: 瞭解申購清單的客戶體驗（可在客戶帳戶控制面板中取得）。
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -135,9 +135,27 @@ Adobe Commerce會產生並下載包含`sku`和`qty`值的CSV清單。
 | [!UICONTROL Rename] | 讓您能夠重新命名請購單清單，並更新說明。 |
 | [!UICONTROL Export] | 將請購單清單匯出至CSV檔案。 |
 | [!UICONTROL Print] | 列印目前的請購單清單。 |
-| [!UICONTROL Select] | 管理要成為動作主旨的專案選擇。 <br/>**[!UICONTROL Select All]**— 選取請購單清單中的所有專案。<br/>**[!UICONTROL Remove Selected]** — 從請購單清單移除所有選取的專案。 <br/>**[!UICONTROL Copy Selected]**— 將所有選取的專案複製到其他請購單清單。 |
+| [!UICONTROL Select] | 管理要成為動作主旨的專案選擇。<br/>**[!UICONTROL Select All]**— 選取請購單清單中的所有專案。<br/>**[!UICONTROL Remove Selected]** — 從請購單清單移除所有選取的專案。<br/>**[!UICONTROL Copy Selected]**— 將所有選取的專案複製到其他請購單清單。 |
 | [!UICONTROL Add to Cart] | 將選取的專案新增至購物車。 |
 | [!UICONTROL Update List] | 重新計算小計以反映數量的變更。 |
 | [!UICONTROL Delete Requisition List] | 從公司使用者的帳戶中刪除請購單清單。 |
 
 {style="table-layout:auto"}
+
+## 分頁控制項
+
+當請購單清單專案總數超過每頁選取的專案時，分頁控制項會出現在清單底部。
+
+![分頁的請購單清單](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> 需要您留意的產品（例如無庫存產品）若在分頁的目前頁面內，則會顯示在清單頂端。 需要您注意的產品數量會顯示在清單上方。
+> ![需要注意的專案](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### 店面分頁控制項
+
+| 控制 | 說明 |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 每頁![顯示](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] — 決定每頁顯示的請購單專案數目。 您可以選擇要在頁面上顯示的20、50、100、500或1000個請購單清單專案。 |
+| ![分頁連結](./assets/control-pagination.png) | [!UICONTROL Pagination links] — 提供其他頁面的導覽連結。 |

@@ -3,9 +3,9 @@ title: 產品資料屬性參考
 description: 當您處理產品資料匯入和匯出時，請使用此產品資料屬性參考。
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2540'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ ht-degree: 0%
 | `sku` | （必要）「庫存單位」是用於追蹤存貨的唯一英數字元識別碼。 SKU的長度最多可為64個字元。 例如： `sku123`<br/>**_Note:_**&#x200B;超過64個字元的SKU會導致匯入失敗。 |
 | `store_view_code` | 識別可使用產品的特定商店檢視。 如果留空，則可在預設商店檢視中取得產品。 例如： `storeview1`、`english`、`spanish` |
 | `attribute_set_code` | 根據產品型別，將產品指派給特定的屬性集或產品範本。 例如： `default`<br><br>建立產品後，無法使用匯入功能變更屬性集。 不過，您可以從管理員變更屬性集，然後重新匯出產品以更新CSV檔案。 |
-| `product_type` | 表示產品型別。 值： <br/>`simple` — 有形專案，通常以單一單位或固定數量銷售。<br/>`grouped` — 一組作為一組產品銷售的個別產品。<br/>`configurable` — 包含多個選項的產品，客戶在購買之前必須先選取這些選項。 您可以為每組變數管理詳細目錄，因為它們代表具有不同SKU的獨立產品。 例如，可設定產品的顏色和大小組合與目錄中的特定SKU相關聯。<br/>`virtual` — 不需要出貨且未保留在庫存中的無形產品。 範例包括服務、成員資格和訂閱。<br/>`bundle` — 可自訂的產品集，包含一起銷售的簡單產品。 |
+| `product_type` | 表示產品型別。 值： <br/>`simple` — 通常以單一單位或固定數量出售的有形專案。<br/>`grouped`  — 一組以集合形式銷售的個別產品。<br/>`configurable`  — 一種產品，包含客戶在購買之前必須選取的多個選項。 您可以為每組變數管理詳細目錄，因為它們代表具有不同SKU的獨立產品。 例如，可設定產品的顏色和大小組合與目錄中的特定SKU相關聯。<br/>`virtual`  — 一種不需要出貨且不存放在存貨中的無形產品。 範例包括服務、成員資格和訂閱。<br/>`bundle`  — 可自訂的產品集，包含一起銷售的簡單產品。 |
 | `categories` | 表示指派給產品的每個類別。 使用正斜線分隔類別和子類別。 若要指示多個類別路徑，請使用垂直號\|符號分隔每個路徑。 例如： `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 每個可取得產品的網站的網站程式碼。 單一產品可指派至多個網站，或限於一個網站。 如果指定多個網站，請以逗號分隔每個網站，但不含空格。 例如： `base`或`base,website2` |
 | `name` | 產品名稱會出現在所有產品清單中，而且是客戶用來識別產品的名稱。 |
 | `description` | 產品說明提供產品的詳細資訊，並可能包含簡單的HTML標籤。 |
 | `short_description` | 簡短產品說明的使用方式取決於主題。 它可能會出現在產品清單中，有時也會用在傳送至購物網站的RSS摘要清單中。 |
 | `weight` | 個別產品的重量。 實際產品重量由承運商在出貨時決定。 |
-| product_online | 判斷產品是否可在市集內銷售。 值： <br/>`1` — （是）產品已啟用，且可供銷售。<br/>`2` — （否）產品已停用，無法銷售。 |
+| product_online | 判斷產品是否可在市集內銷售。 值： <br/>`1` — （是）產品已啟用且可供銷售。<br/>`2` — （否）產品已停用，且無法銷售。 |
 | `tax_class_name` | 與此產品相關聯的稅捐類別名稱。 |
-| `visibility` | 決定產品是否顯示在目錄中，以及是否可供搜尋。 值： <br/>`Not Visible Individually` — 產品不包含在產品清單中，雖然它可能是其他產品的變數。<br/>`Catalog` — 產品會出現在所有目錄清單中。<br/>`Search` — 產品可用於搜尋作業。<br/>`Catalog, Search` — 產品包含在目錄清單中，也可供搜尋。 |
+| `visibility` | 決定產品是否顯示在目錄中，以及是否可供搜尋。 值： <br/>`Not Visible Individually` — 產品不包含在產品清單中，雖然它可能是其他產品的變數。<br/>`Catalog`  — 產品會出現在所有目錄清單中。<br/>`Search`  — 產品可用於搜尋作業。<br/>`Catalog, Search`  — 產品包含在目錄清單中，也可供搜尋。 |
 | `price` | 產品在您的商店中出售的價格。 |
 | `special_price` | 指定日期範圍內產品的折扣價格。 |
 | `special_price_from_date` | 特殊價格生效之時間週期的開始日期。 |
@@ -56,14 +56,14 @@ ht-degree: 0%
 | `map_price` | 產品的最低廣告價格。 （僅在啟用MAP時顯示。） |
 | `msrp_price` | 製造商建議的產品零售價。 （僅在啟用MAP時顯示。） |
 | `map_enabled` | 決定組態中是否啟用最低廣告價格。 值： <br/>`1` — （是） MAP已啟用。<br/>`0` （或空白） — （無） MAP未啟用。 |
-| `gift_message_available` | 決定產品購買中是否包含贈品訊息。 值：<br/>`1` — （是）向客戶呈現包含贈品訊息的選項。<br/>`0` （或空白） — （否）未向客戶顯示包含贈品訊息的選項。 |
+| `gift_message_available` | 決定產品購買中是否包含贈品訊息。 值： <br/>`1` — （是）向客戶呈現包含贈品訊息的選項。<br/>`0` （或空白） — （否）不向客戶顯示包含贈品訊息的選項。 |
 | `custom_design` | 列出可套用至產品頁面的可用主題。 |
 | `custom_design_from` | 指定將所選主題套用至產品頁面的開始日期。 |
 | `custom_design_to` | 指定將所選主題套用至產品頁面的結束日期。 |
 | `custom_layout_update` | 作為配置更新套用至產品頁面的其他XML程式碼。 |
-| `page_layout` | 決定產品頁面的頁面配置。 值：<br/>`No layout updates` — 頁面配置未發生任何變更。<br/>`1 column` — 將單欄版面配置套用至產品頁面。<br/>`2 columns with left bar` — 將帶有左側邊欄的雙欄版面配置套用至產品頁面。<br/>`2 columns with right bar` — 將帶有右側欄的雙欄版面配置套用至產品頁面。<br/>`3 columns` — 將三欄版面配置套用至產品頁面。<br/>`empty` — 將空白版面配置套用至產品頁面。 |
+| `page_layout` | 決定產品頁面的頁面配置。 值： <br/>`No layout updates` — 未對頁面配置進行任何變更。<br/>`1 column`  — 將單欄配置套用至產品頁面。<br/>`2 columns with left bar`  — 將具有左側邊欄的雙欄配置套用至產品頁面。<br/>`2 columns with right bar`  — 將帶有右側欄的雙欄配置套用至產品頁面。<br/>`3 columns`  — 將三欄式配置套用至產品頁面。<br/>`empty`  — 將空白版面配置套用至產品頁面。 |
 | `product_options_container` | 如果產品有多個選項，可決定這些選項在產品頁面上出現的位置。 值：產品資訊欄/資訊欄後的區塊 |
-| `msrp_display_actual_price_type` | 決定客戶看到產品實際價格的位置。 值： <br/>`In Cart` — 顯示購物車中的實際產品價格。<br/>`Before Order Confirmation` — 在訂單確認前，於結帳程式結束時顯示實際產品價格。<br/>`On Gesture` — 當客戶按一下&#x200B;_價格點按_&#x200B;或&#x200B;_這是什麼？_&#x200B;連結。 |
+| `msrp_display_actual_price_type` | 決定客戶看到產品實際價格的位置。 值： <br/>`In Cart` — 顯示購物車中的實際產品價格。<br/>`Before Order Confirmation`  — 在訂單確認前，於結帳程式結束時顯示實際產品價格。<br/>`On Gesture`  — 當客戶按一下價格的&#x200B;_點按_&#x200B;或&#x200B;_這是什麼？_，在快顯視窗中顯示實際產品價格 連結。 |
 | `country_of_manufacture` | 識別製造產品的國家/地區。 |
 | `additional_attributes` | 為產品建立的其他屬性。 例如： <br/>`has_options=0,required_options=0color=Black,has_options=0,required_options=0,size_general=XS` |
 | `qty` | 目前庫存的產品數量。 |
@@ -149,7 +149,7 @@ ht-degree: 0%
 | `bundle_price_type` | 決定組合專案的價格是固定或動態。 |
 | `bundle_sku_type` | 決定每個專案是否被指派變數、動態SKU，或是否使用固定SKU作為搭配。 選項：固定/動態 |
 | `bundle_weight_type` | 決定束專案的權重是可變的還是固定的。 |
-| `bundle_values` | 說明與套件組合選項相關的教導值。 例如： `name=Bundle Option One,type=dropdown; required=1, sku=sku-option2,price=10, price_type=fixed` |
+| `bundle_values` | 說明與套件組合選項關聯的每個值。 例如： `name=Bundle Option One,name_store_view_1=Group 1,type=dropdown; required=1,sku=sku-option2,price=10,default=0,default_qty=1.0000,price_type=fixed,can_change_qty=0,price_website_website_1=30.000000,price_type_website_website_1=fixed`<br/><br/>在`name_[store-view-code]`選項中，`[store-view-code]`是存放區檢視的名稱。<br/></br>此`price_website_[website-code]`和`price_type_website_[website-code]`選項指定網站`[website-code]`的產品價格。 如果[目錄價格範圍](../catalog/catalog-price-scope.md)設定為&#x200B;*全域*，則無法使用這些選項。 |
 
 {style="table-layout:auto"}
 
