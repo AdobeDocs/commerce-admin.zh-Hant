@@ -3,9 +3,9 @@ title: 美國郵政服務(USPS)
 description: 瞭解如何將USPS設定為您的商店的運送業者。
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 ## 步驟1：開啟USPS出貨帳戶
 
-開啟[USPS Web Tools](https://secure.shippingapis.com/registration/)帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。
-
-您也可以開啟[USPS Web Tools](https://secure.shippingapis.com/registration/)帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。 若要深入瞭解USPS Web工具，請參閱其[技術檔案](https://www.usps.com/business/web-tools-apis/welcome.htm)。
+開啟[USPS開發人員入口網站](https://developers.usps.com/)帳戶。 完成註冊程式後，您將會收到使用者ID和USPS測試伺服器的URL。 若要深入瞭解USPS API，請參閱其[技術檔案](https://developers.usps.com/getting-started)。
 
 ## 步驟2：為商店啟用USPS
 
@@ -36,15 +34,11 @@ ht-degree: 0%
 
 1. 將&#x200B;**[!UICONTROL Enabled for Checkout]**&#x200B;設為`Yes`。
 
-1. 設定USPS API型別。
-
-   - 如果您使用USPS REST API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS REST API`。
-
-   - 如果您使用USPS Web Tools API，請將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS Web Tools API`。
+1. 將&#x200B;**[!UICONTROL USPS Type]**&#x200B;設為`USPS REST API`。
 
    >[!NOTE]
    >
-   >USPS Rest API是整合USPS的偏好方法。 USPS Web Tools API已過時，未來發行版本可能會將其移除。
+   >USPS不再支援USPS Web Tools API。
 
 1. 如有需要，請輸入&#x200B;**[!UICONTROL Gateway URL]**&#x200B;以存取USPS運費。
 
@@ -64,7 +58,6 @@ ht-degree: 0%
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
-
 
 1. 將&#x200B;**[!UICONTROL Mode]**&#x200B;設定為下列其中一項：
 
