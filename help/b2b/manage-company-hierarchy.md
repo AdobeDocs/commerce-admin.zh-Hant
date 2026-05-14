@@ -3,9 +3,8 @@ title: 管理公司階層
 description: 建立並管理公司階層，以支援具有複雜營運模型的B2B組織。
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -119,7 +118,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，瀏覽至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Companies]**。
 
-1. 從[!UICONTROL Companies]格線中，選取&#x200B;**[!UICONTROL Edit]**&#x200B;欄中的&#x200B;**[!UICONTROL Action]**&#x200B;以編輯父公司。
+1. 從[!UICONTROL Companies]格線中，選取&#x200B;**[!UICONTROL Action]**&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**&#x200B;以編輯父公司。
 
 1. 在上層公司詳細資訊頁面上，展開&#x200B;**[!UICONTROL Company Hierarchy]**&#x200B;區段以檢視組織中包含的公司。
 
