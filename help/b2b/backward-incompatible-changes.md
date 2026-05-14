@@ -2,7 +2,7 @@
 title: Adobe Commerce B2B與回溯不相容的變更
 description: 瞭解Adobe Commerce B2B發行版本中的變更，這些變更可能需要您更新自訂程式碼。
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 81722ba7575123554f34998745221d536b8926d1
+source-git-commit: ca9114db6ab79e7edee6d9be4ce0c8f79b8c793d
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 {{$include /help/_includes/backward-incompatible-changes/1-3-3-to-1-3-4.md}}
 
-<!-- Last updated from includes: 2026-03-06 20:14:18 -->
+<!-- Last updated from includes: 2026-05-11 21:09:15 -->
