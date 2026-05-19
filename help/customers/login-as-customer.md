@@ -3,9 +3,9 @@ title: 為購物者提供協助
 description: 當您使用登入作為客戶功能時，您可以檢視客戶看到的內容並代表他們進行更新。
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
-為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_&#x200B;按鈕會出現在多個頁面中：
+為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_按鈕會出現在多個頁面中：
 
 * [客戶編輯頁面](../customers/update-account.md)
 * [訂單檢視頁面](../stores-purchase/order-processing.md)
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 在Adobe Commerce as a Cloud Service中，「以客戶身分登入」功能會使用&#x200B;**一次性代碼(OTC)**&#x200B;工作流程，而非直接登入。 管理員會為客戶產生短暫的單次使用程式碼。 接著，您就可以透過GraphQL將此程式碼交換為客戶存取權杖，讓無密碼登入成為銷售商協助購物情境的客戶工作流程。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 1. 客戶前往&#x200B;**[!UICONTROL Account Information]**&#x200B;頁面。
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 客戶必須將`login_as_customer_assistance_allowed`擴充功能屬性設定為&#x200B;**2**。 這可以在Admin的&#x200B;**編輯客戶**&#x200B;頁面上設定，或是在建立或編輯客戶時透過GraphQL設定。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 ![編輯客戶頁面上的客戶同意延伸屬性設定](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用`allow_remote_shopping_assistance` `true`或[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)變動將[`createCustomerV2`輸入設定為](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)。
+若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)變動將`allow_remote_shopping_assistance`輸入設定為`true`。
 
 >[!ENDTABS]
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > [!UICONTROL _所有客戶_]。
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 >[!NOTE]
 >
@@ -159,13 +159,13 @@ ht-degree: 0%
 
 1. 導覽至&#x200B;**[!UICONTROL Customers]**&#x200B;並選取要開啟編輯頁面的客戶。
 
-1. 在[編輯客戶]頁面上，按一下&#x200B;**[!UICONTROL Get Customer Login OTC]**。
+1. 在[編輯客戶]頁面上，按一下&#x200B;**[!UICONTROL Generate Login Code]**。
 
-   在[編輯客戶]頁面上![取得客戶登入OTC按鈕](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   在[編輯客戶]頁面上![取得客戶登入OTC按鈕](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. 輸入&#x200B;**[!UICONTROL Reason]** （必要）並按一下&#x200B;**[!UICONTROL Request]**。
 
-   ![原因欄位為](assets/otc-reason-modal.png){width="600" zoomable="yes"}的OTC要求模組
+   ![原因欄位為](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}的OTC要求模組
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ ht-degree: 0%
 
 1. 產生的OTC會顯示在強制回應視窗中。 使用此程式碼搭配`generateCustomerToken`或`exchangeOtpForCustomerToken` GraphQL突變以取得客戶授權。
 
-   ![已產生的OTC顯示在強制回應視窗中](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![已產生的OTC顯示在強制回應視窗中](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->根據預設，所產生的一次性程式碼OTC的有效期限為30秒，且僅使用一次即可失效。 可透過提交[支援票證](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)來設定TTL。
+>根據預設，產生的一次性程式碼OTC的有效期為60秒，且僅使用一次即可失效。 可透過提交[支援票證](https://experienceleague.adobe.com/home?support-tab=home#support)來設定TTL。
 
 產生一次性程式碼後，您可以導覽至您的店面並使用以下憑證登入，以使用它：
 
@@ -194,12 +194,12 @@ ht-degree: 0%
 
 _以客戶身分登入_&#x200B;可讓您檢視網站，就像客戶一樣，並可讓您為客戶進行疑難排解和採取其他動作。 如果您有指派的使用者角色具有所需的許可權：
 
-1. 您可以在上一節所列的頁面上按一下&#x200B;**[!UICONTROL Login as Customer]**。
+1. 您可以在上一節所列的頁面上按一下&#x200B;**[!UICONTROL Login as Customer]**&#x200B;或&#x200B;**[!UICONTROL Generate Login Code]**。
 1. 「動作報表」提供「以客戶身分登入」動作。
 
 >[!WARNING]
 >
->以客戶&#x200B;[!UICONTROL _身分登入_]&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
+>以客戶&#x200B;_]身分登入[!UICONTROL _&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
 
 ## 以客戶記錄身分登入
 
