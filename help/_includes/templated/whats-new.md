@@ -1,8 +1,8 @@
 ---
-source-git-commit: 68e2fd44c757750ed688d12e0009e263b1160525
+source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 # 新功能範本
@@ -31,7 +31,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">認可</a></td>
     </tr>
     <tr>
-      <td><p>已發佈<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3發行說明</a>，內容涵蓋新B2B公司客戶匯入和匯出、可轉讓報價的修正、採購單、請購單清單、共用目錄、公司管理、購物車與結帳、架構及GraphQL，加上請購單清單匯出路徑變更為<code class="language-plaintext highlighter-rouge">var/export/requisition_lists/</code>。</p>
+      <td><p>已發佈<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3發行說明</a>，內容涵蓋新B2B公司客戶匯入和匯出、可轉讓報價的修正、採購單、請購單清單、共用目錄、公司管理、購物車與結帳、架構及GraphQL，加上請購單清單匯出路徑變更為<code>var/export/requisition_lists/</code>。</p>
 </td>
       <td>
         重大更新
@@ -53,34 +53,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增<code class="language-plaintext highlighter-rouge">numeric</code>和<code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/product-attributes/attributes-input-types">屬性輸入型別</a>，並在組態參考中新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/product-file-attributes">產品檔案屬性</a>頁面。</p>
+      <td><p>已新增<code>numeric</code>和<code>file</code> <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/product-attributes/attributes-input-types">屬性輸入型別</a>，並在組態參考中新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/product-file-attributes">產品檔案屬性</a>頁面。</p>
 </td>
       <td>
         重大更新
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年3月25日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>已新增Adobe Commerce as a Cloud Service指示至<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">提供購物者協助</a>。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/159f4b95fa90908cc021e3b1d5faf594ec077aae">認可</a></td>
     </tr>
   </tbody>
 </table>
