@@ -1,45 +1,45 @@
 ---
-title: Negotiable Quotes
-description: Learn about quote workflows and how you can provide this service to your company accounts.
+title: 可協商的報價
+description: 瞭解報價工作流程，以及如何為公司帳戶提供此服務。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
 
-# Negotiable Quotes
+# 可協商的報價
 
-Buyers and sellers use Quotes to manage the negotiation process for an order–adding items, updating quantities, requesting and applying discounts, and so on—until they reach agreement. The quote negotiation process can be initiated by an authorized company buyer, or by a company sales representative.
+買方與賣方使用「報價單」來管理新增訂單料號的議價流程、更新數量、請求與套用折扣等等，直到達成一致為止。 報價議價處理可由授權的公司採購員或公司銷售代表起始。
 
 在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中報價清單檢視
 
-建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 [&#128279;](../getting-started/admin-workspace.md)
+建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更欄配置、儲存檢視及匯出資料。
 
-- [&#128279;](quote-price-negotiation.md)When creating the quote request, a buyer can save the quote as a draft, or submit it directly to the seller.
+- 在店面，買家提交報價作為[要求來議價](quote-price-negotiation.md)購物車的價格。 建立報價請求時，買方可以將報價儲存為草稿，或直接提交賣方。
 
-- In the Admin, Sales representatives can create quotes on behalf of company buyer. When creating the quote, a seller can save the quote as a draft, or submit it directly to the buyer to initiate the negotiation process.
+- 在「管理員」中，銷售代表可以代表公司採購員建立報價單。 建立報價單時，賣家可以將報價單儲存為草稿，或直接提交買方以啟動議價處理。
 
-During the negotiation process, the quote can only be updated by the person reviewing and proposing terms for further negotiation.
+在議價處理期間，報價單只能由人員檢閱並提議進一步議價的條款來更新。
 
 ## 先決條件
 
-Negotiable quotes are available only if Adobe Commerce has the following configuration settings:
+只有在Adobe Commerce具有下列組態設定時，才能使用可轉讓引號：
 
-- [The Adobe Commerce B2B extension is installed](install.md)
-- [Configured B2B features](enable-basic-features.md)
-   - Enable company accounts
-   - Enable B2B quote
+- [已安裝Adobe Commerce B2B擴充功能](install.md)
+- [已設定的B2B功能](enable-basic-features.md)
+   - 啟用公司帳戶
+   - 啟用B2B報價
 
-## Quote workflow
+## 報價工作流程
 
-Quotes can be initiated by the buyer or the seller.
+報價可由買方或賣方起始。
 
-This diagram shows the quote statuses for a buyer and seller (Admin) in the different steps when you initiate a quote.
+當您啟動報價時，此圖表會在不同步驟中顯示買方與賣方（管理員）的報價狀態。
 
-![](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![報價狀態工作流程](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **步驟1：建立報價（新）**
 
@@ -69,13 +69,13 @@ This diagram shows the quote statuses for a buyer and seller (Admin) in the diff
 
 買家接受建議價格並繼續結帳。 額外的折扣無法新增至議價的報價單。
 
-Shipping options are locked on checkout.
+結帳時鎖定送貨選項。
 
-## Quote Status
+## 報價狀態
 
-Quote status provides information about the current state of the quote in the quote workflow. The status of a quote changes only when a buyer or seller takes an action on the quote. [!UICONTROL Proceed to Checkout]
+報價狀態提供有關報價工作流程中報價目前狀態的資訊。 只有當買家或賣家對報價採取動作時，報價的狀態才會變更。 例如，如果採購員在有效報價單上選取[!UICONTROL Proceed to Checkout]，則狀態會變更為訂單。
 
-- *[!UICONTROL New]* The request can be updated by the buyer until it is opened by the seller.
+- *[!UICONTROL New]** — 買方提交報價請求，但賣家尚未檢視。 買方可以更新請求，直到賣方開啟請求為止。
 
 - **[!UICONTROL Draft]** — 賣家為買家建立草稿報價。 在賣家新增報價詳細資料（料號、數量、折扣等）並將報價提交給買方之前，買方無法看到報價單。
 
@@ -95,50 +95,50 @@ Quote status provides information about the current state of the quote in the qu
 
 - **[!UICONTROL Expired]** — 買方在指定的期間內未回應賣方的回覆，且報價已無效。
 
-## B2B role resources for store quotes
+## 商店報價的B2B角色資源
 
-[&#128279;](../systems/permissions-user-roles.md#role-resources)These role resources must be set for the Admin user role that is assigned to the store administrator.
+報價的組態選項是使用[角色資源](../systems/permissions-user-roles.md#role-resources)來控制。 必須為指派給存放區管理員的管理員使用者角色設定這些角色資源。
 
-**[!UICONTROL System]**&#x200B;_[!UICONTROL Permissions]_&#x200B;**[!UICONTROL User Roles]**&#x200B;[!UICONTROL Sales]&#x200B;[!UICONTROL Operations]&#x200B;[!UICONTROL Quotes]__
+若要授與Admin中報價函式的存取權，請移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**，選取角色，並導覽至_&#x200B;角色資源&#x200B;_樹狀結構中的[!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]。
 
-![](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
+![引號角色與許可權](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
-## Apply an action
+## 套用動作
 
 在「管理員」中，B2B管理員和賣家可以使用[!UICONTROL Actions]功能表管理報價格線中的報價。
 
-![](./assets/quotes-grid.png){width="700" zoomable="yes"}
+![個引號](./assets/quotes-grid.png){width="700" zoomable="yes"}
 
-1. __&#x200B;**[!UICONTROL Sales]**&#x200B;**[!UICONTROL Quotes]**
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
-1. In the first column of the grid, select the checkbox for each record that you want to apply the action to.
+1. 在網格的第一欄中，選取您要套用動作之每個記錄的核取方塊。
 
-1. **[!UICONTROL Actions]**
+1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;中選取要套用的動作。
 
-### View a quote
+### 檢視報價
 
-1. **[!UICONTROL Actions]**&#x200B;**[!UICONTROL View]**
+1. 在記錄的&#x200B;**[!UICONTROL Actions]**&#x200B;欄中，按一下&#x200B;**[!UICONTROL View]**。
 
-1. [&#128279;](quote-price-negotiation.md)
+1. 若要回應客戶要求，請依照指示進行[價格議價](quote-price-negotiation.md)程式。
 
-### View quote activity
+### 檢視報價活動
 
-[!UICONTROL Comments]&#x200B;[!UICONTROL History Log]
+從[!UICONTROL Comments]和[!UICONTROL History Log]檢視議價時間表、通訊和其他報價活動 — 資訊包括狀態變更、客戶與送貨資訊的更新、料號與價格更新，以及其他重要資訊。
 
-1. Open a quote.
+1. 開啟報價。
 
-1. **[!UICONTROL Negotiation]**&#x200B;**[!UICONTROL Comments]**&#x200B;**[!UICONTROL History Log]**
+1. 捲動至&#x200B;**[!UICONTROL Negotiation]**&#x200B;並選取&#x200B;**[!UICONTROL Comments]**&#x200B;與&#x200B;**[!UICONTROL History Log]**，以檢視報價議價備註與歷程記錄。
 
-   ![](./assets/quote-view-history.png){width="400"}
+   ![檢視歷程記錄](./assets/quote-view-history.png){width="400"}
 
-1. History is also tracked at the line item level.
+1. 歷史記錄也會在明細行專案層次進行追蹤。
 
-   ![](./assets/quote-view-line-item-history.png){width="400"}
+   ![檢視條列專案歷史記錄](./assets/quote-view-line-item-history.png){width="400"}
 
 
-### Decline a request for a quote
+### 拒絕報價請求
 
-`Open`
+只能拒絕具有`Open`狀態的報價請求。
 
 1. 選取您想要拒絕的每個未結報價請求。
 
