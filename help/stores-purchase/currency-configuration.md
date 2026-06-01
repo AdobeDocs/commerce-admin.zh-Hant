@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_清單中。
+   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_&#x200B;清單中。
 
 1. 視需要變更清單中的設定：
 
    - 為您要使用的每種貨幣輸入自訂符號，或選取每種貨幣的&#x200B;**[!UICONTROL Use Standard]**&#x200B;核取方塊。
 
-   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_核取方塊並輸入您要使用的符號。
+   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;核取方塊並輸入您要使用的符號。
 
    >[!NOTE]
    >

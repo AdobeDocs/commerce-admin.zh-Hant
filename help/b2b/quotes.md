@@ -14,7 +14,7 @@ ht-degree: 0%
 
 買方與賣方使用「報價單」來管理新增訂單料號的議價流程、更新數量、請求與套用折扣等等，直到達成一致為止。 報價議價處理可由授權的公司採購員或公司銷售代表起始。
 
-在Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中![報價清單檢視
+在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中報價清單檢視
 
 建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更欄配置、儲存檢視及匯出資料。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 1. 選取您想要拒絕的每個未結報價請求。
 
-1. 將&#x200B;_[!UICONTROL Actions]_控制項設為`Declined`。
+1. 將&#x200B;_[!UICONTROL Actions]_&#x200B;控制項設為`Declined`。
 
 1. 出現提示時，輸入報價遭拒絕的原因，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 
