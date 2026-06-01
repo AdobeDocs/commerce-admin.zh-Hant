@@ -1,7 +1,7 @@
 ---
-source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
+source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -37,28 +37,6 @@ ht-degree: 1%
         重大更新
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年4月1日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>已新增<code>numeric</code>和<code>file</code> <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/product-attributes/attributes-input-types">屬性輸入型別</a>，並在組態參考中新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/product-file-attributes">產品檔案屬性</a>頁面。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">認可</a></td>
     </tr>
   </tbody>
 </table>
