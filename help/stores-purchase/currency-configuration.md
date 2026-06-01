@@ -3,9 +3,9 @@ title: 貨幣設定
 description: 瞭解如何設定基本貨幣的範圍，以及如何指定您接受的貨幣以及價格顯示時要使用的貨幣。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 您也指定您接受的貨幣，以及要在商店中顯示[價格](../catalog/catalog-price-scope.md)時使用的貨幣。 下圖中，基本貨幣的範圍在網站層級設定，因此每個網站可以有不同的基本貨幣。
 
-![貨幣範圍圖表](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![貨幣範圍圖表](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## 步驟1：選擇接受的幣別
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >從2.4.6版開始，[[!DNL Fixer.io]](https://fixer.io/)服務已過時，並由[[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api)服務取代。 強烈建議您使用APILayer帳戶，而非已棄用的[!DNL Fixer.io]帳戶。
 
-   - _若要連線到[fixer.io服務](https://fixer.io/)：_
+   - 連線到[fixer.io服務](https://fixer.io/):_(_T)
 
       - 展開&#x200B;**[!UICONTROL Fixer.io]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
      ![一般設定 — 貨幣設定 — Fixer.io選項](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - _若要連線到[[!DNL Fixer Api (APILayer)] 服務](https://apilayer.com/)：_
+   - 連線到[[!DNL Fixer Api (APILayer)] 服務](https://apilayer.com/):_(_T)
 
       - 展開&#x200B;**[!UICONTROL Fixer Api (APILayer)]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      ![一般設定 — 貨幣設定 — Fixer API (APILayer)選項](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - _若要連線到[[!DNL Currency Convertor API] 服務](https://free.currencyconverterapi.com/)：_
+   - 連線到[[!DNL Currency Convertor API] 服務](https://free.currencyconverterapi.com/):_(_T)
 
       - 展開&#x200B;**[!UICONTROL Currency Convertor API]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_&#x200B;清單中。
+   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_清單中。
 
 1. 視需要變更清單中的設定：
 
    - 為您要使用的每種貨幣輸入自訂符號，或選取每種貨幣的&#x200B;**[!UICONTROL Use Standard]**&#x200B;核取方塊。
 
-   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;核取方塊並輸入您要使用的符號。
+   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_核取方塊並輸入您要使用的符號。
 
    >[!NOTE]
    >
