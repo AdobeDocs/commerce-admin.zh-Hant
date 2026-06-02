@@ -3,9 +3,9 @@ title: 匯入資料
 description: 瞭解資料匯入准則及如何使用資料匯入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
+source-git-commit: cb68f54b0dc5843151c2677a65e67af5e1844a9a
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ ht-degree: 0%
 - 如果必要屬性沒有值或存在無效值，則不會取代現有值。
 - 如果實體的複雜資料無效，則無法匯入實體（對應的列或列），但在「匯入行為」下拉式選單中選取「刪除實體」時除外。
 
+>[!NOTE]
+>
+>對於大型目錄，如果您未變更類別指派或URL索引鍵，請從匯入檔案中省略`categories`和`url_key`欄。 如果任一欄存在，Adobe Commerce會為檔案中的每個產品重新產生URL重寫。 這項額外的工作會延長匯入的時間，並可能導致雲端上的Adobe Commerce發生逾時錯誤。
+
 ### 複雜資料
 
 如果匯入檔案中指定的屬性存在，且其值衍生自已定義的值集，則適用下列情況：
@@ -52,8 +56,8 @@ Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤
 
 | 作業 | 說明 |
 | --------- | ----------- |
-| 新增/更新 | 新產品資料會新增至資料庫中現有專案的現有產品資料中。 可更新`sku`以外的所有欄位。<br><br>匯入資料中指定的新稅捐類別會自動建立。<br><br>匯入檔案中指定的新產品類別會自動建立。<br><br>匯入檔案中指定的新SKU會自動建立&#x200B;<br><br>**_注意：_**&#x200B;對於產品，您可以透過匯入來更新除SKU以外的所有欄位。<br><br>**_重要：_**&#x200B;使用&#x200B;_新增/更新_&#x200B;匯入行為無法移除多個欄位值，例如網站或類別。 如果這些欄位未列在CSV檔案中，匯入後會保留在資料庫中。 |
-| 取代 | 現有產品資料會被新資料取代。<br><br>**_重要：_**&#x200B;取代資料時請小心，因為現有產品資料已清除，而且系統中所有參考都會遺失。<br><br>如果匯入資料中的SKU符合現有實體的SKU，所有欄位（包括SKU）都會被刪除，並且會使用CSV資料建立新記錄。 如果CSV檔案參照的SKU不存在於資料庫中，則會發生錯誤。 您可以檢查資料以顯示錯誤。 |
+| 新增/更新 | 新產品資料會新增至資料庫中現有專案的現有產品資料中。 可更新`sku`以外的所有欄位。<br><br>匯入資料中指定的新稅捐類別會自動建立。<br><br>匯入檔案中指定的新產品類別會自動建立。<br><br>匯入檔案中指定的新SKU會自動建立&#x200B;<br><br>**_注意:_**&#x200B;對於產品，您可以透過匯入來更新除SKU以外的所有欄位。<br><br>**_重要:_**&#x200B;多個欄位值（例如網站或類別）無法使用_新增/更新_匯入行為移除。 如果這些欄位未列在CSV檔案中，匯入後會保留在資料庫中。 |
+| 取代 | 現有產品資料已取代為新資料。<br><br>**_重要:_**&#x200B;取代資料時請小心，因為現有產品資料已清除，而且系統中的所有參考都會遺失。<br><br>如果匯入資料中的SKU符合現有實體的SKU，所有欄位（包括SKU）都會被刪除，並且會使用CSV資料建立新記錄。 如果CSV檔案參照的SKU不存在於資料庫中，則會發生錯誤。 您可以檢查資料以顯示錯誤。 |
 | 刪除 | 匯入資料中存在於資料庫中的所有實體都會從資料庫中刪除。<br><br>Delete會忽略匯入資料中的所有欄，SKU除外。 您可以忽略資料中的所有其他屬性。<br><br>如果CSV檔案參照資料庫中不存在的SKU，就會發生錯誤。 您可以檢查資料以顯示錯誤。 |
 
 {style="table-layout:auto"}
@@ -145,7 +149,7 @@ Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤
 
    >[!NOTE]
    >
-   >從Adobe Commerce和Magento Open Source`2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路徑會串連以匯入影像基底目錄： `<Magento-root-folder>/var/import/images`。 例如，將`product_images`檔案放在`<Magento-root-directory>/var/import/images/product_images`資料夾中。 可以在`\Magento\ImportExport\etc\config.xml`檔案中設定匯入影像基底目錄。 如果已啟用遠端儲存模組，請將檔案匯入至`<remote-storage-root-directory>/var/import/images/product_images`資料夾。
+   >從Adobe Commerce和Magento Open Source `2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路徑會串連以匯入影像基底目錄： `<Magento-root-folder>/var/import/images`。 例如，將`product_images`檔案放在`<Magento-root-directory>/var/import/images/product_images`資料夾中。 可以在`\Magento\ImportExport\etc\config.xml`檔案中設定匯入影像基底目錄。 如果已啟用遠端儲存模組，請將檔案匯入至`<remote-storage-root-directory>/var/import/images/product_images`資料夾。
 
    若要進一步瞭解如何匯入產品影像，請參閱[匯入產品影像](data-import-product-images.md)。
 
@@ -175,7 +179,7 @@ Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤
 
 Commerce會維護已匯入至您存放區的資料記錄，包括開始日期和時間、使用者、執行時間，以及匯入檔案的連結。 _執行時間_&#x200B;是匯入程式的期間。
 
-**_若要檢視匯入歷程記錄：_**
+**_若要檢視匯入歷程記錄:_**
 
 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**。
 
