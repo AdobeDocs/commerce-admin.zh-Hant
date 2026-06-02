@@ -3,9 +3,9 @@ title: 標籤標籤
 description: 瞭解包含程式碼片段的標籤標籤，這些片段會參照您商店中的物件。
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
+source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,35 @@ ht-degree: 0%
 
 變數標籤標籤可用來將[自訂變數](variables-custom.md)插入電子郵件範本、區塊、電子報和內容頁面。
 
-\{\{CustomVar code= &quot;my_custom_variable&quot;\}\}
+`{{CustomVar code= "my_custom_variable"}}`
 
 ## 商店URL
 
 「商店URL」標籤代表您網站的基底URL，可用來取代完整URL的第一部分，包括網域名稱。 此標籤標籤有兩個版本：一個直接前往您的商店，另一個在結尾使用正斜線(`/`)，用於新增路徑。
 
-\{\{商店url=&#39;服飾/鞋子/女士&#39;\}\}
+`{{store url='apparel/shoes/womens'}}`
 
 ## 媒體URL
 
 Dynamic Media URL標籤代表儲存在內容傳遞網路(CDN)上之影像的位置和檔案名稱。 標籤可用來將影像放置在頁面、區塊、橫幅或電子郵件範本上。
 
-\{\{media url=&#39;shoe-sale.jpg&#39;\}\}
+`{{media url='shoe-sale.jpg'}}`
 
 ## 區塊ID
 
 區塊ID標籤是其中最容易使用的標籤，可用來將區塊直接放置在CMS頁面上，或甚至巢狀放置在其他區塊內。 您可以使用此技巧來修改不同促銷活動或語言的區塊。 區塊ID標籤標籤會透過區塊的識別碼來參考區塊。
 
-\{\{區塊id=&#39;block-id&#39;\}\}
+`{{block id='block-id'}}`
 
 ## 範本標籤
 
 範本標籤會參照PHTML範本檔案，並可用來在CMS頁面上或靜態區塊上顯示區塊。 可將下列範例中的程式碼新增至頁面或區塊，以顯示「聯絡我們」表單。
 
-\{\{區塊類別=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact：：form.phtml&quot;\}\}
+`{{block class="Magento\Contact\Block\ContactForm" name="contactForm" template="Magento_Contact::form.phtml"}}`
 
 可將下一個範例中的程式碼新增至頁面或區塊，依類別ID顯示特定類別中的產品清單。
 
-\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;\}\}
+`{{block type="catalog/product_list" category_id="22" template="catalog/product/list.phtml"}}`
 
 ## Widget程式碼
 
@@ -58,11 +58,11 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 可將下列範例中的程式碼新增至頁面或區塊，以顯示新產品清單。
 
-\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;\}\}
+`{{widget type="catalog/product_widget_new" display_type="new_products" products_count="10" template="catalog/product/widget/new/content/new_grid.phtml"}}`
 
 下一個範例中的程式碼可新增至頁面或區塊，依產品ID顯示特定產品的連結。
 
-\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;My Product Link&quot; title=&quot;My Product Link&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;\}\}
+`{{widget type="catalog/product_widget_link" anchor_text="My Product Link" title="My Product Link" template="catalog/product/widgetlink/link_block.phtml" id_path="product/31"}}`
 
 ## 在連結中使用標籤標籤
 
@@ -120,12 +120,12 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 #### 錨點標籤中的標籤
 
-\&lt;a href=&quot;\{\{標籤移至此處\}\}&quot;>連結文字\&lt;/a>
+`<a href="{{markup tag goes here}}">Link Text\</a>`
 
 將完成的錨點標籤貼入您要顯示連結的任何CMS頁面、區塊、橫幅或電子郵件範本的程式碼中。
 
 ### 使用標籤完成連結
 
-\&lt;a href=&quot;\{\{商店url=&#39;apparel/shoes&#39;\}\}&quot;>鞋類促銷\&lt;/a>
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
