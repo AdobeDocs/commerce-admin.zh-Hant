@@ -3,7 +3,7 @@ title: 標籤標籤
 description: 瞭解包含程式碼片段的標籤標籤，這些片段會參照您商店中的物件。
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
+source-git-commit: 4a4333fcc8425123fd6a4d17bbccf54534017a7d
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -120,12 +120,12 @@ Widget工具可用來根據產品ID顯示產品清單，或插入複雜的連結
 
 #### 錨點標籤中的標籤
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 將完成的錨點標籤貼入您要顯示連結的任何CMS頁面、區塊、橫幅或電子郵件範本的程式碼中。
 
 ### 使用標籤完成連結
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
