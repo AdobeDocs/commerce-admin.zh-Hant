@@ -3,7 +3,7 @@ title: 優惠券代碼
 description: 瞭解如何將優惠券代碼與購物車價格規則搭配使用，以在符合一組條件時套用折扣。
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ ht-degree: 0%
    CSV檔案必須符合下列要求：
 
    | 需求 | 值 |
-   | ------------- | ------- |
+   |-------------|-------|
    | 每個檔案的最大程式碼數 | 1,000 |
    | 檔案大小上限 | 512 KB |
    | 程式碼長度上限 | 每個程式碼255個字元 |
