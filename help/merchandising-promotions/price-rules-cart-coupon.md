@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)的[執行cron。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)的執行cron。
 
 ### 方法1：建立特定抵用券
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 建立[購物車價格規則](price-rules-cart.md)後，您可以手動將自訂優惠券代碼新增至規則。
 
-1. 在&#x200B;_Admin_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**並選取您要新增自訂優惠券代碼的規則。
+1. 在&#x200B;_Admin_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;並選取您要新增自訂優惠券代碼的規則。
 
 1. 展開&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Add Coupon Code]**。
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 若要編輯自訂優惠券代碼或檢視使用詳細資料，請按一下&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 無法編輯或刪除屬於購物車價格規則的主要優惠券代碼。
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 
 如果您有預先定義的優惠券代碼清單，可以從CSV檔案將它們附加至購物車價格規則，而不是分別新增每個代碼。 CSV檔案應該包含一欄和優惠券代碼。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**並選取您要將自訂優惠券代碼匯入其中的規則。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;並選取您要將自訂優惠券代碼匯入其中的規則。
 
 1. 展開&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Import]**。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
    ![匯入優惠券結果](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-若要監視匯入的進度和詳細結果，請按一下&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每個匯入都會顯示為&#x200B;**[!UICONTROL Bulk Actions]**中的單一專案，並選取一個專案。
+若要監視匯入的進度和詳細結果，請按一下&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每個匯入都會顯示為&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;中的單一專案，並選取一個專案。
 
 ## 優惠券報告
 
