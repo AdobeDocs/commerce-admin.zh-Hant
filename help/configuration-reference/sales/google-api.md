@@ -4,11 +4,20 @@ description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Goo
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
 TQID: https://experienceleague.adobe.com/KscchSWeGd3TwpcCQaGxuVXa6-7wZJinSpyA0NvTSAc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 927
@@ -70,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 存放區檢視 | 決定轉換標籤的顏色。 使用[檢色器](https://www.w3schools.com/colors/colors_picker.asp)來選擇十六進位值。 這個十六進位值會指派給AdWords指令碼中的`google_conversion_color`變數。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 存放區檢視 | 與[!DNL Google Site Stats]通知一起顯示的文字標籤。 此文字字串已指派給AdWords指令碼中的`~`變數。 例如：「感謝您的選購！」 |
 | [!UICONTROL Conversion Value Type] | 存放區檢視 | 指定用來判斷轉換發生時間的值型別。 選項： <br/>**`Dynamic`**— 根據動態訂單金額判斷已發生轉換。<br/>**`Constant`** — 根據輸入的值判斷已發生轉換。 |
-| [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於&#x200B;_[!UICONTROL Constant]_轉換值型別的值。 |
+| [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於&#x200B;_[!UICONTROL Constant]_&#x200B;轉換值型別的值。 |
 | [!UICONTROL Send Order Currency] | 存放區檢視 | 啟用AdWords中的交易特定貨幣轉換值（適用於使用不同基本貨幣的網站）。 |
 
 {style="table-layout:auto"}
@@ -129,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 存放區檢視 | 決定轉換標籤的顏色。 使用[檢色器](https://www.w3schools.com/colors/colors_picker.asp)來選擇十六進位值。 這個十六進位值會指派給AdWords指令碼中的`google_conversion_color`變數。 例如： ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 存放區檢視 | 與Google網站統計資料通知一起顯示的文字標籤。 此文字字串已指派給AdWords指令碼中的`~`變數。 例如：「感謝您的選購！」 |
 | [!UICONTROL Conversion Value Type] | 存放區檢視 | 指定用來判斷轉換發生時間的值型別。 選項： <br/>**`Dynamic`**— 根據動態訂單金額判斷已發生轉換。<br/>**`Constant`** — 根據輸入的值判斷已發生轉換。 |
-| [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於&#x200B;_[!UICONTROL Constant]_轉換值型別的值。 |
+| [!UICONTROL Conversion Value] | 存放區檢視 | 指定用於&#x200B;_[!UICONTROL Constant]_&#x200B;轉換值型別的值。 |
 | [!UICONTROL Send Order Currency] | 存放區檢視 | 啟用AdWords中的交易特定貨幣轉換值（適用於使用不同基本貨幣的網站）。 |
 
 {style="table-layout:auto"}

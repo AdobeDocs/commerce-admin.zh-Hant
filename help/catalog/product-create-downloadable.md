@@ -4,11 +4,24 @@ description: 瞭解如何建立可作為數位檔案交付的可下載產品。
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1638
@@ -45,7 +58,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開&#x200B;_[!UICONTROL Downloadable Product Options]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Downloadable Product Options]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![可下載的產品選項](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
@@ -153,7 +166,7 @@ ht-degree: 0%
 
 1. 若要在新產品[清單](../content-design/widget-new-products-list.md)中設定該產品的功能，請選取&#x200B;**[!UICONTROL Set Product as New]**&#x200B;核取方塊。
 
-1. 若要將&#x200B;_[!UICONTROL Categories]_指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**方塊並執行下列任一動作：
+1. 若要將&#x200B;_[!UICONTROL Categories]_&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
 
    **選擇現有類別**：
 
@@ -184,15 +197,15 @@ ht-degree: 0%
 
 ### 步驟5：完成可下載的資訊
 
-向下捲動，展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Downloadable Information]_區段，然後選取&#x200B;**[!UICONTROL Is this downloadable product?]**核取方塊。
+向下捲動，展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Downloadable Information]_&#x200B;區段，然後選取&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;核取方塊。
 
-啟用時，_[!UICONTROL Downloadable Information]_區段有兩個部分。 第一部分說明每個下載連結，第二部分說明每個範例檔案。 許多這些選項的預設值可以在[組態](#configure-the-download-options)中設定。
+啟用時，_[!UICONTROL Downloadable Information]_&#x200B;區段有兩個部分。 第一部分說明每個下載連結，第二部分說明每個範例檔案。 許多這些選項的預設值可以在[組態](#configure-the-download-options)中設定。
 
 ![可下載的資訊](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### 完成連結
 
-1. 在&#x200B;_[!UICONTROL Links]_區段中，輸入您想要用來作為下載連結標題的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Links]_&#x200B;區段中，輸入您想要用來作為下載連結標題的&#x200B;**[!UICONTROL Title]**。
 
 1. 如果適用，請選取&#x200B;**[!UICONTROL Links can be purchased separately]**&#x200B;核取方塊。
 
@@ -228,7 +241,7 @@ ht-degree: 0%
 
 #### 完成範例
 
-1. 在&#x200B;_[!UICONTROL Samples]_區段中，輸入您想用作範例標題的&#x200B;**[!UICONTROL Title]**。
+1. 在&#x200B;_[!UICONTROL Samples]_&#x200B;區段中，輸入您想用作範例標題的&#x200B;**[!UICONTROL Title]**。
 
 1. 若要完成每個範例的資訊，請按一下&#x200B;**[!UICONTROL Add Link]**。
 
@@ -280,7 +293,7 @@ ht-degree: 0%
 
 ## 店面體驗
 
-在客戶帳戶儀表板中，_[!UICONTROL My Downloadable Products]_頁面會連結至每個可下載的產品訂單。 訂單完成時，便可從客戶帳戶取得下載內容。
+在客戶帳戶儀表板中，_[!UICONTROL My Downloadable Products]_&#x200B;頁面會連結至每個可下載的產品訂單。 訂單完成時，便可從客戶帳戶取得下載內容。
 
 ![我的可下載產品](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -294,7 +307,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 訂單處理狀態。 |
 | [!UICONTROL Remaining Downloads] | 已下載產品的可用下載次數。 |
 
-_**若要從帳戶儀表板下載產品檔案**_
+_&#x200B;**若要從帳戶儀表板下載產品檔案**&#x200B;_
 
 1. 客戶在其帳戶儀表板中選擇&#x200B;**[!UICONTROL My Downloadable Products]**。
 

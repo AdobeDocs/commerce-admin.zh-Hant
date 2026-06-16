@@ -4,11 +4,22 @@ description: 瞭解Slider內容型別，用於新增影像投影片到 [!DNL Pag
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P-1NgnGbb02-KXlx2hK0utD569y4Zdk6c1azxTJGzZ0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3813
@@ -36,7 +47,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移動 | ![移動圖示](./assets/pb-icon-move.png){width="25"} | 將幻燈片移至滑杆上的另一個位置。 |
 | （標籤） | 投影片編號 | 識別目前幻燈片的編號。 |
-| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Slide]_頁面，您可以在此變更目前幻燈片的屬性。 |
+| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Slide]_&#x200B;頁面，您可以在此變更目前幻燈片的屬性。 |
 | 複製 | ![圖示重複](./assets/pb-icon-duplicate.png){width="25"} | 製作目前幻燈片的復本。 |
 | 移除 | ![移除圖示](./assets/pb-icon-remove.png){width="25"} | 從滑桿刪除目前的幻燈片。 |
 
@@ -48,7 +59,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 移動 | ![移動圖示](./assets/pb-icon-move.png){width="25"} | 將滑桿移至舞台上的另一個位置。 |
 | （標籤） | [!UICONTROL Slider] | 識別滑桿容器。 |
-| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Slider]_頁面，您可以在此變更視訊和容器的屬性。 |
+| 設定 | ![設定圖示](./assets/pb-icon-settings.png){width="25"} | 開啟&#x200B;_[!UICONTROL Edit Slider]_&#x200B;頁面，您可以在此變更視訊和容器的屬性。 |
 | 隱藏 | ![隱藏圖示](./assets/pb-icon-hide.png){width="25"} | 隱藏目前的滑桿。 |
 | 顯示 | ![顯示圖示](./assets/pb-icon-show.png){width="25"} | 顯示隱藏的滑桿。 |
 | 複製 | ![圖示重複](./assets/pb-icon-duplicate.png){width="25"} | 製作滑桿副本。 |
@@ -132,7 +143,7 @@ ht-degree: 0%
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 完成後，按一下右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Slide]_頁面。
+1. 完成後，按一下右上角的&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Slide]_&#x200B;頁面。
 
 ### 在幻燈片上新增Widget
 
@@ -262,7 +273,7 @@ ht-degree: 0%
 
 ### 影像型別設定
 
-如果您將&#x200B;_[!UICONTROL Background Type]_設為`Image`，請使用下列設定來定義背景影像顯示。
+如果您將&#x200B;_[!UICONTROL Background Type]_&#x200B;設為`Image`，請使用下列設定來定義背景影像顯示。
 
 ![具有背景影像的橫幅](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -344,9 +355,9 @@ ht-degree: 0%
 
 1. 按一下滑桿底部的導覽點，以顯示個別幻燈片的工具箱，並選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-1. 在&#x200B;_[!UICONTROL Content]_區段中，輸入您要與投影片一起出現的&#x200B;**[!UICONTROL Message Text]**。
+1. 在&#x200B;_[!UICONTROL Content]_&#x200B;區段中，輸入您要與投影片一起出現的&#x200B;**[!UICONTROL Message Text]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Content]_區段，並使用&#x200B;**[!UICONTROL Message Text]**編輯器輸入橫幅文字並設定其格式。
+1. 向下捲動至&#x200B;_[!UICONTROL Content]_&#x200B;區段，並使用&#x200B;**[!UICONTROL Message Text]**&#x200B;編輯器輸入橫幅文字並設定其格式。
 
    您也可以插入元素，例如文字連結、影像和Widget。
 
@@ -373,7 +384,7 @@ ht-degree: 0%
      ![選擇要連結的頁面](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   自2.4.1版開始，[!DNL Page Builder]不再支援連結投影片和巢狀文字內的連結，因為店面無法顯示。 如果您在_[!UICONTROL Message Text]_中使用連結，則無法設定_[!UICONTROL Link]_選項。 如果您想要在整個投影片中使用單一連結，您可以從文字中移除所有連結。
+   自2.4.1版開始，[!DNL Page Builder]不再支援連結投影片和巢狀文字內的連結，因為店面無法顯示。 如果您在&#x200B;_[!UICONTROL Message Text]_&#x200B;中使用連結，則無法設定&#x200B;_[!UICONTROL Link]_&#x200B;選項。 如果您想要在整個投影片中使用單一連結，您可以從文字中移除所有連結。
 
    ![連結設定已封鎖](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
@@ -620,7 +631,7 @@ ht-degree: 0%
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在&#x200B;_頁面_&#x200B;格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_頁面_&#x200B;格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
 
    ![滑桿預覽 — 標準檢視](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 

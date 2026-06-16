@@ -4,11 +4,19 @@ description: 瞭解如何設定零小計作為商店的離線付款方式。
 exl-id: c14ce289-8292-41d9-a448-f493c784f35c
 feature: Checkout, Configuration
 TQID: https://experienceleague.adobe.com/WCWo0jvFkqHnwLX7QnAcJ1vDs66sdrtpba5hoxd-JKc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 347
@@ -36,7 +44,7 @@ _零小計結帳_&#x200B;可用於在套用折扣後徵稅的零小計訂單。 
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_底下，展開&#x200B;**[!UICONTROL Zero Subtotal Checkout]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;底下，展開&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![零小計簽出](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
@@ -58,12 +66,12 @@ _零小計結帳_&#x200B;可用於在套用折扣後徵稅的零小計訂單。 
 
    >[!NOTE]
    >
-   >如果&#x200B;_[!UICONTROL New Order Status]_設定為`Processing`且_[!UICONTROL Automatically Invoice All Items]_&#x200B;設定為`No`，您也必須為[訂單狀態](order-status.md#custom-order-status)頁面上的&#x200B;**[!UICONTROL Order State]** = `Pending`且&#x200B;**[!UICONTROL Default Status]** = `No`對應指派&#x200B;**[!UICONTROL Order Status]** = `Processing`。
+   >如果&#x200B;_[!UICONTROL New Order Status]_&#x200B;設定為`Processing`且&#x200B;_[!UICONTROL Automatically Invoice All Items]_&#x200B;設定為`No`，您也必須為[訂單狀態](order-status.md#custom-order-status)頁面上的&#x200B;**[!UICONTROL Order State]** = `Pending`且&#x200B;**[!UICONTROL Default Status]** = `No`對應指派&#x200B;**[!UICONTROL Order Status]** = `Processing`。
 
 1. 將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選取此選項後，_[!UICONTROL Payment from Specific Countries]_清單就會顯示。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
+   - `Specific Countries` — 選取此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單就會顯示。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
 
 1. 針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字，以決定此專案在結帳時顯示的付款方式清單中的位置。
 

@@ -3,10 +3,17 @@ title: 動作控制
 description: 瞭解如何使用Actions控制項，將操作套用至Admin中的一或多個記錄。
 exl-id: 03f313a9-bc17-4151-a2c8-8906342f025d
 TQID: https://experienceleague.adobe.com/N8RFNMBc2i4Surct0luNp7z-qF0lbP6r8T-uEMQ7y-w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 430
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 您可以視需要進行多次變更，然後在單一步驟中更新記錄。 這比個別變更每個產品的設定更有效率。 將編輯套用至記錄批次是一項非同步操作，會在背景執行，因此您可以繼續在Admin中工作，而不需要等候操作完成。 當工作完成時，系統會顯示訊息。
 
-可用動作的選擇因清單而異，並且可能會顯示其他選項，具體取決於所選的動作。 例如，變更記錄群組的狀態時，「動作」控制項旁邊會出現&#x200B;_[!UICONTROL Status]_方塊，並附上其他選項。
+可用動作的選擇因清單而異，並且可能會顯示其他選項，具體取決於所選的動作。 例如，變更記錄群組的狀態時，「動作」控制項旁邊會出現&#x200B;_[!UICONTROL Status]_&#x200B;方塊，並附上其他選項。
 
 ## 步驟1：選取記錄
 

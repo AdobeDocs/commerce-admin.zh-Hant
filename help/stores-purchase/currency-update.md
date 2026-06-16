@@ -4,11 +4,18 @@ description: 瞭解如何手動設定匯率，或將其匯入您的商店。
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
 feature: Currency, Configuration, Data Import/Export
 TQID: https://experienceleague.adobe.com/tEt15Mzt7MeDtf6MZfu9n6EsvJKUCNBdGhUo0-RK3zk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 275
@@ -46,7 +53,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Import]**。
 
-   更新的費率會顯示在&#x200B;_[!UICONTROL Currency Rates]_清單中。 如果匯率自上次更新後已變更，則舊匯率會顯示在下方以供參考。
+   更新的費率會顯示在&#x200B;_[!UICONTROL Currency Rates]_&#x200B;清單中。 如果匯率自上次更新後已變更，則舊匯率會顯示在下方以供參考。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Currency Rates]**。
 
@@ -60,6 +67,6 @@ ht-degree: 0%
 
 1. 若要指定您接受的貨幣並建立匯入連線與排程，請完成[貨幣匯率設定](currency-configuration.md)。
 
-1. 若要確認費率已依排程匯入，請檢查&#x200B;_[!UICONTROL Currency Rates]_清單。
+1. 若要確認費率已依排程匯入，請檢查&#x200B;_[!UICONTROL Currency Rates]_&#x200B;清單。
 
 1. 等候為排程建立的頻率設定的時間週期，然後再次檢查速率。

@@ -4,11 +4,21 @@ description: 瞭解「欄」內容型別，此型別用於將頁面劃分為 [!D
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1576
@@ -26,7 +36,7 @@ ht-degree: 0%
 
 ## 2.4.5版的更新
 
-頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
+頁面產生器功能已在2.4.5版本中更新，因此使用者現在可將&#x200B;_[!DNL Columns]_&#x200B;作為個別欄的父容器。 此新容器也支援背景屬性，且不需要以列繞排欄。 它可減少不必要的標示，並可更精細地控制店面的顯示和體驗。
 
 您可以拖曳群組內其他欄上方或下方的欄，以變更[!DNL Columns]容器的版面配置，並加以棧疊。 這開啟了各種新的可能版面組合，開發人員無需自訂即可實現。
 
@@ -60,7 +70,7 @@ ht-degree: 0%
 
 ## 新增欄
 
-1. 在&#x200B;_[!UICONTROL Layout]_下的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**拖曳到舞台。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;拖曳到舞台。
 
    ![將欄拖曳到舞台](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -106,11 +116,11 @@ ht-degree: 0%
 
    - 將滑鼠懸停在欄上以顯示工具箱，然後選擇&#x200B;_設定_ （ ![設定圖示](./assets/pb-icon-settings.png){width="20"} ）圖示。
 
-   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_區段，並將所有四個&#x200B;**[!UICONTROL Padding]**值設定為`0`。
+   - 向下捲動至&#x200B;_[!UICONTROL Advanced]_&#x200B;區段，並將所有四個&#x200B;**[!UICONTROL Padding]**&#x200B;值設定為`0`。
 
      ![使用零內距](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_頁面。
+   - 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以關閉&#x200B;_[!UICONTROL Edit Column]_&#x200B;頁面。
 
 1. 按一下工作區右上角的&#x200B;_關閉全熒幕_ （![關閉全熒幕圖示](./assets/pb-icon-reduce.png){width="20"} ）圖示，然後按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
@@ -176,7 +186,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Background Repeat]** — 如果要重複背景影像以填滿空間，請變更此設定`Yes`。
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
    - 若要控制新增至欄的內容容器的水平位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

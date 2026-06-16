@@ -4,11 +4,18 @@ description: 瞭解如何將商店或商店檢視本地化。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 744
@@ -94,7 +101,7 @@ ht-degree: 0%
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_區段中，輸入每個商店檢視的轉譯標籤。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;區段中，輸入每個商店檢視的轉譯標籤。
 
    ![輸入翻譯的標籤](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -110,7 +117,7 @@ ht-degree: 0%
 
 1. 如需&#x200B;_基本資訊_，請翻譯&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_區段並翻譯&#x200B;**[!UICONTROL Description]**。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;區段並翻譯&#x200B;**[!UICONTROL Description]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;區段並翻譯下列欄位：
 
@@ -118,7 +125,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除欄位右側的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;核取方塊。
 

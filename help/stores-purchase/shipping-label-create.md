@@ -4,11 +4,21 @@ description: 瞭解如何以訂單封裝專案並建立送貨標籤。
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
 TQID: https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1974
@@ -51,7 +61,7 @@ ht-degree: 0%
 
 United Parcel Service在國內及國際皆有出貨。 不過，只能針對源自美國境內的出貨產生出貨標籤。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
 1. 展開&#x200B;**[!UICONTROL UPS]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -155,7 +165,7 @@ DHL提供國際運輸服務。
 
 1. 新增或更新封裝中的產品：
 
-   - 若要將訂單中的產品新增至封裝，請按一下&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_欄顯示封裝可用的產品數目上限。
+   - 若要將訂單中的產品新增至封裝，請按一下&#x200B;**[!UICONTROL Add Products]**。 _[!UICONTROL Quantity]_&#x200B;欄顯示封裝可用的產品數目上限。
 
    - 選取要新增至封裝的每個產品核取方塊，然後輸入每個產品的&#x200B;**[!UICONTROL Quantity]**。 然後，按一下&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -163,7 +173,7 @@ DHL提供國際運輸服務。
 
    - 若要刪除封裝，請按一下&#x200B;**[!UICONTROL Delete Package]**。
 
-   - 若要取消訂單，請按一下&#x200B;**[!UICONTROL Cancel]**。 未建立送貨標籤，且&#x200B;_[!UICONTROL Create Shipping Label]_核取方塊已清除。
+   - 若要取消訂單，請按一下&#x200B;**[!UICONTROL Cancel]**。 未建立送貨標籤，且&#x200B;_[!UICONTROL Create Shipping Label]_&#x200B;核取方塊已清除。
 
    >[!NOTE]
    >
@@ -179,7 +189,7 @@ DHL提供國際運輸服務。
 
 1. 在格線中尋找訂單，並開啟送貨表單。
 
-1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_區段中，按一下&#x200B;**[!UICONTROL Create Shipping Label]**。
+1. 在&#x200B;_[!UICONTROL Shipping and Tracking Information]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Create Shipping Label]**。
 
 1. 將訂購的產品分發到適當的封裝，然後按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -201,11 +211,11 @@ DHL提供國際運輸服務。
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** — 在網格中尋找出貨並開啟記錄。
 
-1. 若要下載PDF檔案，請移至表單的&#x200B;_[!UICONTROL Shipping and Tracking]_區段，然後按一下&#x200B;**[!UICONTROL Print Shipping Label]**。
+1. 若要下載PDF檔案，請移至表單的&#x200B;_[!UICONTROL Shipping and Tracking]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Print Shipping Label]**。
 
    根據您的瀏覽器設定，可直接從PDF檔案檢視及列印運送標籤。
 
-   _[!UICONTROL Print Shipping Label]_按鈕只有在承運商為出貨產生標籤之後才會出現。 如果按鈕遺失，請按一下&#x200B;**[!UICONTROL Create Shipping Label]**。 Commerce從電信業者收到標籤後，按鈕隨即顯示。
+   _[!UICONTROL Print Shipping Label]_&#x200B;按鈕只有在承運商為出貨產生標籤之後才會出現。 如果按鈕遺失，請按一下&#x200B;**[!UICONTROL Create Shipping Label]**。 Commerce從電信業者收到標籤後，按鈕隨即顯示。
 
 ### 方法2：列印多份訂單的標籤
 
@@ -234,7 +244,7 @@ DHL提供國際運輸服務。
 
 ## 建立封裝
 
-當您選擇建立送貨標籤時，_[!UICONTROL Create Packages]_視窗會出現。 您可以立即開始設定第一個封裝。
+當您選擇建立送貨標籤時，_[!UICONTROL Create Packages]_&#x200B;視窗會出現。 您可以立即開始設定第一個封裝。
 
 ### 設定封裝
 
@@ -246,7 +256,7 @@ DHL提供國際運輸服務。
 
    - 指定產品和數量。
 
-     _[!UICONTROL Qty]_欄顯示可新增的最大數量。 對於第一個套件，數字是產品要出貨的總數量。
+     _[!UICONTROL Qty]_&#x200B;欄顯示可新增的最大數量。 對於第一個套件，數字是產品要出貨的總數量。
 
    - 若要將產品加入封裝，請按一下&#x200B;**[!UICONTROL Add Selected Product(s) to Package]**。
 
@@ -286,7 +296,7 @@ DHL提供國際運輸服務。
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Type] | 指定套件的型別。 選取其中一個預先定義的值。 可用的封裝型別因各貨運業者而異。 當「建立封裝」彈出式視窗開啟時，出貨承運商的預設封裝會顯示在「型別」欄位中。 如果您選取並非由出貨承運商設計的封裝，則必須輸入封裝的尺寸。 對於為DHL、FedEx和UPS出貨建立的出貨標籤，「貨品型別」欄位設定為`Merchandise`。 對於USPS，欄位會反映&#x200B;_[!UICONTROL Create Packages]_視窗中_&#x200B;內容&#x200B;_欄位的值。 |
+| [!UICONTROL Type] | 指定套件的型別。 選取其中一個預先定義的值。 可用的封裝型別因各貨運業者而異。 當「建立封裝」彈出式視窗開啟時，出貨承運商的預設封裝會顯示在「型別」欄位中。 如果您選取並非由出貨承運商設計的封裝，則必須輸入封裝的尺寸。 對於為DHL、FedEx和UPS出貨建立的出貨標籤，「貨品型別」欄位設定為`Merchandise`。 對於USPS，欄位會反映&#x200B;_[!UICONTROL Create Packages]_&#x200B;視窗中_&#x200B;內容&#x200B;_欄位的值。 |
 | [!UICONTROL Total Weight] | 套件的總重量。 此欄位已預先填入套件中產品的總重量。 測量單位可設為磅或公斤。 |
 | [!UICONTROL Length] | 套件、整數和浮點數的長度。 如果使用自訂套件型別，則會啟用欄位。 測量單位可設為英吋或公分。 |
 | [!UICONTROL Width] | 套件、整數和浮點數的寬度。 如果使用自訂套件型別，則會啟用欄位。 度量單位可以使用「高度」欄位旁的下拉式選單來指定；請選取介於英吋與公分之間。 |

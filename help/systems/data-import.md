@@ -4,11 +4,19 @@ description: 瞭解資料匯入准則及如何使用資料匯入操作。
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 1564
@@ -62,7 +70,7 @@ Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤
 
 | 作業 | 說明 |
 | --------- | ----------- |
-| 新增/更新 | 新產品資料會新增至資料庫中現有專案的現有產品資料中。 可更新`sku`以外的所有欄位。<br><br>匯入資料中指定的新稅捐類別會自動建立。<br><br>匯入檔案中指定的新產品類別會自動建立。<br><br>匯入檔案中指定的新SKU會自動建立&#x200B;<br><br>**_注意:_**對於產品，您可以透過匯入來更新除SKU以外的所有欄位。<br><br>**_重要:_**&#x200B;多個欄位值（例如網站或類別）無法使用_新增/更新_匯入行為移除。 如果這些欄位未列在CSV檔案中，匯入後會保留在資料庫中。 |
+| 新增/更新 | 新產品資料會新增至資料庫中現有專案的現有產品資料中。 可更新`sku`以外的所有欄位。<br><br>匯入資料中指定的新稅捐類別會自動建立。<br><br>匯入檔案中指定的新產品類別會自動建立。<br><br>匯入檔案中指定的新SKU會自動建立&#x200B;<br><br>**_注意:_**&#x200B;對於產品，您可以透過匯入來更新除SKU以外的所有欄位。<br><br>**_重要:_**&#x200B;多個欄位值（例如網站或類別）無法使用_新增/更新_匯入行為移除。 如果這些欄位未列在CSV檔案中，匯入後會保留在資料庫中。 |
 | 取代 | 現有產品資料已取代為新資料。<br><br>**_重要:_**&#x200B;取代資料時請小心，因為現有產品資料已清除，而且系統中的所有參考都會遺失。<br><br>如果匯入資料中的SKU符合現有實體的SKU，所有欄位（包括SKU）都會被刪除，並且會使用CSV資料建立新記錄。 如果CSV檔案參照的SKU不存在於資料庫中，則會發生錯誤。 您可以檢查資料以顯示錯誤。 |
 | 刪除 | 匯入資料中存在於資料庫中的所有實體都會從資料庫中刪除。<br><br>Delete會忽略匯入資料中的所有欄，SKU除外。 您可以忽略資料中的所有其他屬性。<br><br>如果CSV檔案參照資料庫中不存在的SKU，就會發生錯誤。 您可以檢查資料以顯示錯誤。 |
 
@@ -155,7 +163,7 @@ Adobe Commerce的匯入程式可能無法正確辨識使用位元組順序標籤
 
    >[!NOTE]
    >
-   >從Adobe Commerce和Magento Open Source `2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_中指定的路徑會串連以匯入影像基底目錄： `<Magento-root-folder>/var/import/images`。 例如，將`product_images`檔案放在`<Magento-root-directory>/var/import/images/product_images`資料夾中。 可以在`\Magento\ImportExport\etc\config.xml`檔案中設定匯入影像基底目錄。 如果已啟用遠端儲存模組，請將檔案匯入至`<remote-storage-root-directory>/var/import/images/product_images`資料夾。
+   >從Adobe Commerce和Magento Open Source `2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路徑會串連以匯入影像基底目錄： `<Magento-root-folder>/var/import/images`。 例如，將`product_images`檔案放在`<Magento-root-directory>/var/import/images/product_images`資料夾中。 可以在`\Magento\ImportExport\etc\config.xml`檔案中設定匯入影像基底目錄。 如果已啟用遠端儲存模組，請將檔案匯入至`<remote-storage-root-directory>/var/import/images/product_images`資料夾。
 
    若要進一步瞭解如何匯入產品影像，請參閱[匯入產品影像](data-import-product-images.md)。
 

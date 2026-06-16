@@ -5,12 +5,23 @@ exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/5gL6LIi-okCkQAu--QI4aLcyHlCiNZChc5KtA7t99pA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1095
@@ -93,7 +104,7 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
    >
    >清除您要設定的每個欄位的&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊。
 
-1. 若要使用&#x200B;_[!DNL reCAPTCHA v2 ("I am not a robot")]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**區段並執行下列動作：
+1. 若要使用&#x200B;_[!DNL reCAPTCHA v2 ("I am not a robot")]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;區段並執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Google API Website Key]**，輸入在您註冊Google reCAPTCHA帳戶時為此reCAPTCHA型別建立的網站金鑰。
 
@@ -103,11 +114,11 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
 
    - 針對&#x200B;**[!UICONTROL Theme]**，選擇您要用來設定Google reCAPTCHA方塊樣式的佈景主題。 選項： `Light Theme (default)` / `Dark Theme`
 
-   - 針對&#x200B;**[!UICONTROL Language Code]**，輸入雙字元代碼，以指定用於Google reCAPTCHA文字與傳訊](https://developers.google.com/recaptcha/docs/language)的[語言。
+   - 針對&#x200B;**[!UICONTROL Language Code]**，輸入雙字元代碼，以指定用於Google reCAPTCHA文字與傳訊[&#128279;](https://developers.google.com/recaptcha/docs/language)的語言。
 
    ![reCAPTCHA v2 - 「我不是機器人」](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. 若要使用&#x200B;_[!DNL reCAPTCHA v2 Invisible]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**區段並執行下列動作：
+1. 若要使用&#x200B;_[!DNL reCAPTCHA v2 Invisible]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;區段並執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Google API Website Key]**，輸入在您註冊Google reCAPTCHA帳戶時為此reCAPTCHA型別建立的網站金鑰。
 
@@ -121,7 +132,7 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
 
    ![reCAPTCHA v2隱藏](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. 若要使用&#x200B;_[!DNL reCAPTCHA v3 Invisible]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**區段並執行下列動作：
+1. 若要使用&#x200B;_[!DNL reCAPTCHA v3 Invisible]_，請展開&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;區段並執行下列動作：
 
    - 針對&#x200B;**[!UICONTROL Google API Website Key]**，輸入在您註冊Google reCAPTCHA帳戶時為此reCAPTCHA型別建立的網站金鑰。
 
@@ -151,7 +162,7 @@ Google reCAPTCHA需要一對API金鑰才能啟用。 您可以透過reCAPTCHA網
 
 ## 步驟3：為店面設定Google reCAPTCHA
 
-1. 在左側面板的&#x200B;_[!UICONTROL Security]_下，選擇&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Security]_&#x200B;下，選擇&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**。
 
 1. 針對您要在店面中使用的每個reCAPTCHA型別，完成區段。
 

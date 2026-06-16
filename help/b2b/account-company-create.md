@@ -5,12 +5,28 @@ exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
 TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2455
@@ -73,7 +89,7 @@ ht-degree: 0%
    >
    >如果訪客登入已註冊的使用者帳戶，他們可以導覽至「_[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**」以建立公司帳戶。
 
-1. 在&#x200B;_[!UICONTROL Company Information]_區段中，客戶執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Information]_&#x200B;區段中，客戶執行下列動作：
 
    * 完成必填欄位：
 
@@ -88,7 +104,7 @@ ht-degree: 0%
 
    ![公司資訊](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. 完成&#x200B;_[!UICONTROL Legal Address]_區段中的必填欄位。
+1. 完成&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中的必填欄位。
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -99,7 +115,7 @@ ht-degree: 0%
 
    ![合法地址](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Administrator]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Administrator]_&#x200B;區段中，執行下列動作：
 
    * 輸入公司管理員的&#x200B;**[!UICONTROL Email address]**。
 
@@ -151,7 +167,7 @@ ht-degree: 0%
 
    * 如果適用，請選擇要管理帳戶的&#x200B;**[!UICONTROL Sales Representative]**&#x200B;的管理員帳戶。
 
-1. 在&#x200B;_[!UICONTROL Account Information]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Account Information]_&#x200B;區段中，執行下列動作：
 
    * 視情況填入下列欄位：
 
@@ -165,9 +181,9 @@ ht-degree: 0%
 
    ![帳戶資訊](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 當您最初建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_格線時會顯示為空白。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
+1. 當您最初建立公司時，展開&#x200B;_[!UICONTROL Company Hierarchy]_&#x200B;格線時會顯示為空白。 儲存公司後，您可以將其納入公司階層。 請參閱[公司管理](manage-companies.md)。
 
-1. 在&#x200B;_[!UICONTROL Legal Address]_區段中，完成下列必填欄位：
+1. 在&#x200B;_[!UICONTROL Legal Address]_&#x200B;區段中，完成下列必填欄位：
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -175,7 +191,7 @@ ht-degree: 0%
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. 在&#x200B;_[!UICONTROL Company Admin]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Company Admin]_&#x200B;區段中，執行下列動作：
 
    * 填入下列必填欄位：
 
@@ -199,7 +215,7 @@ ht-degree: 0%
 
    ![公司管理員](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Company Credit]_區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
+1. 在&#x200B;_[!UICONTROL Company Credit]_&#x200B;區段（顯示客戶的信用活動摘要）中，請完成區段下半部的欄位（如適用）：
 
    * **[!UICONTROL Credit Currency]**
    * **[!UICONTROL Credit Limit]**
@@ -208,7 +224,7 @@ ht-degree: 0%
 
    ![公司點數](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Advanced Settings]_區段中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Advanced Settings]_&#x200B;區段中，執行下列動作：
 
    >[!NOTE]
    >
@@ -226,7 +242,7 @@ ht-degree: 0%
 
      | 選項 | 說明 |
      |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Payment Methods` | （預設）為B2B訂單啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有[付款方法。 |
+     | `B2B Payment Methods` | （預設）為B2B訂單啟用設定為預設[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods)的所有付款方法。 |
      | `All Enabled Payment Methods` | 讓所有[啟用的付款方法](../configuration-reference/sales/payment-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
      | `Selected Payment Methods` | 可讓您選取與公司帳戶相關聯之客戶帳戶的可用付款方法。 若要選取多種付款方式，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 
@@ -236,7 +252,7 @@ ht-degree: 0%
 
      | 選項 | 說明 |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | （預設）針對B2B訂單，啟用設定為預設](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有[送貨方法。 |
+     | `B2B Shipping Methods` | （預設）針對B2B訂單，啟用設定為預設[&#128279;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods)的所有送貨方法。 |
      | `All Enabled Shipping Methods` | 讓所有[啟用的送貨方法](../configuration-reference/sales/delivery-methods.md)都可供與公司帳戶相關聯的客戶帳戶使用。 |
      | `Selected Shipping Methods` | 可讓您選取與公司帳戶相關聯之客戶帳戶可用的送貨方法。 若要選取多種送貨方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 

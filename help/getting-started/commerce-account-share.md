@@ -4,11 +4,22 @@ description: 瞭解如何授予其他 [!DNL Commerce] 帳戶持有人對您 [!DN
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffa
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -38,7 +49,7 @@ ht-degree: 0%
 1. 開始之前，請先從&#x200B;**新共用存取權受權者**&#x200B;的[!DNL Commerce]帳戶取得下列資訊：
 
    - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
-   - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_標籤的左上角，**登出**連結的正上方。
+   - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_&#x200B;標籤的左上角，**登出**&#x200B;連結的正上方。
    - 與帳戶相關聯的`Email`位址。
 
 1. 登入您的[[!DNL Commerce] 帳戶](commerce-account-create.md)。
@@ -56,26 +67,26 @@ ht-degree: 0%
 
    ![新使用者資訊](./assets/shared-new-user.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Shared Information]_底下，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Shared Information]_&#x200B;底下，執行下列動作：
 
    - 若要識別共用帳戶，請輸入&#x200B;**[!UICONTROL Share Name]**。 此名稱僅供內部參考，僅供您及共用您帳戶的人檢視。
 
      最佳實務是使用您的組織名稱做為[!UICONTROL Share Name]。 請勿使用以`CLOUD SHARED ACCESS FROM MAG XYX`開頭的名稱。
    - 如果您想要與新使用者共用您的個人聯絡資訊，請輸入&#x200B;**[!UICONTROL Your Email]**&#x200B;和&#x200B;**[!UICONTROL Your Phone]**。
 
-1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_底下，選取您要共用的每個[!DNL Commerce]產品與服務的核取方塊。
+1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_&#x200B;底下，選取您要共用的每個[!DNL Commerce]產品與服務的核取方塊。
 
    ![授與帳戶許可權](./assets/shared-permissions.png){width="600"}
 
 1. 按一下&#x200B;**[!UICONTROL Create Shared Access]**。
 
-   新使用者資訊會出現在[共用存取]頁面的&#x200B;_[!UICONTROL Manage Permissions]_區段中，並傳送電子郵件邀請給新使用者，其中包含存取共用帳戶的指示。
+   新使用者資訊會出現在[共用存取]頁面的&#x200B;_[!UICONTROL Manage Permissions]_&#x200B;區段中，並傳送電子郵件邀請給新使用者，其中包含存取共用帳戶的指示。
 
    ![管理共用存取許可權](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->不需要共用對&#x200B;_[!UICONTROL Security Tool]_的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
+>不需要共用對&#x200B;_[!UICONTROL Security Tool]_&#x200B;的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
 
 ## 存取共用帳戶
 
@@ -83,13 +94,13 @@ ht-degree: 0%
 
 1. 當您收到共用帳戶的邀請時，請依照電子郵件中的指示，登入您自己的[!DNL Commerce]帳戶。
 
-   您帳戶的左側導覽面板有新的&#x200B;_[!UICONTROL Shared with me]_標籤。 右上角的_[!UICONTROL Switch Accounts]_&#x200B;控制項具有`My Account`的選項以及共用帳戶的名稱。
+   您帳戶的左側導覽面板有新的&#x200B;_[!UICONTROL Shared with me]_&#x200B;標籤。 右上角的&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控制項具有`My Account`的選項以及共用帳戶的名稱。
 
    ![與我共用](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   如果您沒有看到&#x200B;_[!UICONTROL Switch Accounts]_控制項，請連絡主要帳戶持有者，並確認他們已輸入正確的[帳戶資訊](#set-up-a-shared-account)。
+   >   如果您沒有看到&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控制項，請連絡主要帳戶持有者，並確認他們已輸入正確的[帳戶資訊](#set-up-a-shared-account)。
 
 
 1. 若要存取共用帳戶，請將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為共用帳戶的名稱。
@@ -116,7 +127,7 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL Shared Access]**。
 
-1. 尋找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_下撤銷的帳戶，然後按一下&#x200B;**[!UICONTROL Delete]**。
+1. 尋找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_&#x200B;下撤銷的帳戶，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
    >[!NOTE]
    >

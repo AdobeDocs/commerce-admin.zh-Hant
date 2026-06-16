@@ -4,11 +4,21 @@ description: 了解決定來源可用性、店面產品和訂單運送的 [!DNL 
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 776
@@ -20,9 +30,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management]模組支援產品和全域層級的存貨組態設定，並提供會影響來源可用性、店面產品和訂單運送的其他設定。 組態設定套用至：
 
-- 整個目錄：移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然後，展開左側面板中的&#x200B;**[!UICONTROL Catalog]**並選取&#x200B;**[!UICONTROL Inventory]**。
+- 整個目錄：移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然後，展開左側面板中的&#x200B;**[!UICONTROL Catalog]**&#x200B;並選取&#x200B;**[!UICONTROL Inventory]**。
 
-- 特定產品：移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然後，以編輯模式開啟產品並按一下&#x200B;_[!UICONTROL Sources]_區段中的&#x200B;**[!UICONTROL Advanced Inventory]**。
+- 特定產品：移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然後，以編輯模式開啟產品並按一下&#x200B;_[!UICONTROL Sources]_&#x200B;區段中的&#x200B;**[!UICONTROL Advanced Inventory]**。
 
 您可以將目錄設定為在店面中顯示詳細目錄資料、管理使用中的購物車等。 將每個專案的可用性顯示為&#x200B;_有庫存_&#x200B;或&#x200B;_無庫存_，並在庫存不足時顯示可用庫存。
 
@@ -52,13 +62,13 @@ ht-degree: 0%
 
 ## 設定回覆和繼承
 
-組態覆寫或套用至下列繼承路徑：產品&#x200B;_[!UICONTROL Sources]_區段覆寫產品_[!UICONTROL Advanced Options]_&#x200B;覆寫全域&#x200B;_[!UICONTROL Inventory]_存放區組態。
+組態覆寫或套用至下列繼承路徑：產品&#x200B;_[!UICONTROL Sources]_&#x200B;區段覆寫產品&#x200B;_[!UICONTROL Advanced Options]_&#x200B;覆寫全域&#x200B;_[!UICONTROL Inventory]_&#x200B;存放區組態。
 
 當[!DNL Commerce]檢查要套用的自訂設定時，它遵循以下順序：
 
-1. 檢查&#x200B;_[!UICONTROL Sources]_區段中產品層級的自訂設定。 有一些設定可供使用。
+1. 檢查&#x200B;_[!UICONTROL Sources]_&#x200B;區段中產品層級的自訂設定。 有一些設定可供使用。
 
-1. 檢查產品&#x200B;_[!UICONTROL Advanced Inventory]_設定。
+1. 檢查產品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;設定。
 
 1. 如果針對產品設定選取`Use Config Settings`，則會從全域&#x200B;_詳細目錄_&#x200B;存放區組態頁面檢查值。
 

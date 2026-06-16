@@ -5,10 +5,16 @@ exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 667
@@ -29,9 +35,9 @@ ht-degree: 0%
 
 ## 排程產品的更新
 
-1. 從&#x200B;_[!UICONTROL Products]_格線中，以編輯模式開啟產品。
+1. 從&#x200B;_[!UICONTROL Products]_&#x200B;格線中，以編輯模式開啟產品。
 
-1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
+1. 在頁面頂端的&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;方塊中，按一下&#x200B;**[!UICONTROL Schedule New Update]**。
 
    ![排程新的更新](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -54,7 +60,7 @@ ht-degree: 0%
      >
      >行銷活動的開始日期和結束日期必須使用&#x200B;**_預設值_**&#x200B;管理時區來定義，該時區會從每個網站的當地時區轉換。 例如，如果您有多個網站位在不同時區，但您想要根據美國（預設）時區啟動促銷活動，則必須為每個當地時區排程個別的更新。 在此情況下，請將&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**&#x200B;設為從每個本機網站時區轉換為預設管理時區。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Price]_並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Price]_&#x200B;並按一下&#x200B;**[!UICONTROL Advanced Pricing]**。
 
 1. 在排定的行銷活動期間輸入產品的&#x200B;**[!UICONTROL Special Price]**，然後按一下&#x200B;**[!UICONTROL Done]**。
 

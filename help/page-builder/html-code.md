@@ -4,11 +4,17 @@ description: 瞭解HTML程式碼內容型別，用於在 [!DNL Page Builder] 階
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 985
@@ -90,13 +96,13 @@ ht-degree: 0%
 
 ### 步驟3：預覽頁面
 
-1. 在&#x200B;_[!UICONTROL Currently Active]_區段中，將&#x200B;**[!UICONTROL Enable Page]**設為`Yes`。
+1. 在&#x200B;_[!UICONTROL Currently Active]_&#x200B;區段中，將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
    ![正在啟用頁面](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Actions]_欄中選取&#x200B;**[!UICONTROL View]**。
+1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
 
    ![使用新字型系列預覽頁面標題](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -116,7 +122,7 @@ ht-degree: 0%
    | 插入影像…… | 按一下「 」，在HTML文字方塊中的游標位置處插入來自相簿的上傳影像或影像。 |
    | 插入變數…… | 按一下，在HTML文字方塊中的游標位置處插入變數。 |
 
-1. 視需要更新&#x200B;_[!UICONTROL Advanced]_設定。
+1. 視需要更新&#x200B;_[!UICONTROL Advanced]_&#x200B;設定。
 
    - 若要控制程式碼在父容器中的位置，請選擇&#x200B;**[!UICONTROL Alignment]**：
 

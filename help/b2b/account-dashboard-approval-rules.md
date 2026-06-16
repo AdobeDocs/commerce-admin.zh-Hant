@@ -5,11 +5,18 @@ exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
 TQID: https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 658
@@ -42,7 +49,7 @@ ht-degree: 0%
 
 ## 核准規則設定
 
-B2B客戶擁有其角色](account-company-roles-permissions.md)所需的[許可權，可以按一下其客戶帳戶左側面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;來設定核准規則，以強制執行公司原則。
+B2B客戶擁有其角色[&#128279;](account-company-roles-permissions.md)所需的許可權，可以按一下其客戶帳戶左側面板中的&#x200B;**[!UICONTROL Approval Rules]**&#x200B;來設定核准規則，以強制執行公司原則。
 
 ![公司核准規則](./assets/approval-rules.png){width="700" zoomable="yes"}
 

@@ -4,11 +4,19 @@ description: 瞭解如何為商店設定店內傳遞選項。
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
 TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 570
@@ -24,20 +32,20 @@ ht-degree: 0%
 
 在店面結帳期間：
 
-1. 客戶按一下&#x200B;**[!UICONTROL Pick In Store]**&#x200B;或選取&#x200B;_[!UICONTROL In-Store Pickup Delivery]_送貨方法。
-1. _[!UICONTROL Pick In Store]_簽出索引標籤隨即開啟。
+1. 客戶按一下&#x200B;**[!UICONTROL Pick In Store]**&#x200B;或選取&#x200B;_[!UICONTROL In-Store Pickup Delivery]_&#x200B;送貨方法。
+1. _[!UICONTROL Pick In Store]_&#x200B;簽出索引標籤隨即開啟。
 
-當客戶有地址，或先前在切換至&#x200B;_[!UICONTROL Pick In Store]_索引標籤之前已填妥送貨地址表單時：
+當客戶有地址，或先前在切換至&#x200B;_[!UICONTROL Pick In Store]_&#x200B;索引標籤之前已填妥送貨地址表單時：
 
 - 設定半徑內最接近客戶地址的來源會自動預先選取為取貨商店。
-- 當客戶按一下&#x200B;**[!UICONTROL Select Other]**&#x200B;時，_[!UICONTROL Select Store]_搜尋表單會開啟。 清單中只會顯示與預先選取的存放區之間設定距離（半徑）內的存放區。 清單中的所有存放區會依與預先選取之存放區的距離排序。
+- 當客戶按一下&#x200B;**[!UICONTROL Select Other]**&#x200B;時，_[!UICONTROL Select Store]_&#x200B;搜尋表單會開啟。 清單中只會顯示與預先選取的存放區之間設定距離（半徑）內的存放區。 清單中的所有存放區會依與預先選取之存放區的距離排序。
 - 當客戶在搜尋欄位中輸入郵遞區號或城市名稱時，清單中只會顯示已設定距離搜尋地點（半徑）內的商店。 清單中的所有存放區會依搜尋位置的距離排序。
 - 當客戶從搜尋欄位清除郵遞區號或城市名稱時，所有指派給購物車中產品的收取商店都會顯示給客戶。 清單中的所有存放區都會以原始程式碼的遞增順序排序，不受任何距離（半徑）限制。
 
-如果客戶沒有地址或之前未填寫送貨地址表單，則切換至&#x200B;_[!UICONTROL Pick In Store]_標籤：
+如果客戶沒有地址或之前未填寫送貨地址表單，則切換至&#x200B;_[!UICONTROL Pick In Store]_&#x200B;標籤：
 
 - 頁面顯示&#x200B;_我們無法根據可用資訊預先選取取車地點_&#x200B;訊息。
-- 當客戶按一下&#x200B;**[!UICONTROL Select Store]**&#x200B;時，_[!UICONTROL Select Store]_搜尋表單會開啟。
+- 當客戶按一下&#x200B;**[!UICONTROL Select Store]**&#x200B;時，_[!UICONTROL Select Store]_&#x200B;搜尋表單會開啟。
 - 所有指定給購物車中產品的收取商店都會以原始程式碼的遞增順序顯示，沒有任何距離（半徑）限制。
 - 當客戶在搜尋欄位中輸入郵遞區號或城市名稱時，清單中只會顯示已設定距離搜尋地點（半徑）內的商店。 清單中的所有存放區會依搜尋位置的距離排序。
 

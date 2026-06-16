@@ -4,11 +4,20 @@ description: 瞭解如何直接從管理員協助客戶處理購物車。
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
 TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 746
@@ -61,7 +70,7 @@ ht-degree: 0%
    >
    >若要快速找到客戶記錄，請使用[篩選器](../getting-started/admin-grid-controls.md)控制項。
 
-   在&#x200B;_[!UICONTROL Personal Information]_下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
+   在&#x200B;_[!UICONTROL Personal Information]_&#x200B;下的客戶設定檔中，_[!UICONTROL Last Logged In]_&#x200B;日期和時間顯示客戶已上線。
 
    ![線上客戶的客戶設定檔](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -181,7 +190,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Create Order]**。
 
-   _[!UICONTROL Create New Order]_頁面顯示購物車中的專案，然後是送貨和付款資訊。
+   _[!UICONTROL Create New Order]_&#x200B;頁面顯示購物車中的專案，然後是送貨和付款資訊。
 
 1. 填寫運送與付款資訊。
 

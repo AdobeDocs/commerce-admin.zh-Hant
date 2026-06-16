@@ -4,11 +4,22 @@ description: 檢閱Commerce管理員的[!UICONTROL General] &gt； [!UICONTROL G
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1028
@@ -77,7 +88,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | 網站 | 判斷網站是否以限制模式運作。<br /> <br />**`Yes`**— 網站存取受到下列欄位中設定的方式限制。<br />**`No`**  — 已停用限制，且下列設定無效。 |
 | [!UICONTROL Restriction Mode] | 網站 | 決定適用於網站的存取限制型別。<br /> <br />**`Website Closed`**— 對店面的所有存取權皆已限制，且店面URL會暫時重新導向至登陸頁面。 此設定在網站維護期間或啟動之前相當實用。<br />**`Private Sales: Login Only`** — 只有註冊客戶才能登入存取店面。 所有店面URL會暫時重新導向至指定的登陸頁面或登入表單。 使用者無法在此模式中建立帳戶。<br />**`Private Sales: Login and Register`**— 使用者必須登入才能存取店面。 所有店面URL會暫時重新導向至登入表單，直到使用者登入為止。 網站處於此模式時，使用者可以註冊帳戶。 |
-| [!UICONTROL Startup Page] | 存放區檢視 | 當網站處於「私人銷售」模式時，此設定會決定客戶登入之前顯示的頁面。<br />  <br />**`To login form`**— 系統會將使用者重新導向至登入表單，直到他們登入為止。<br />**`To landing page`** — 系統會將使用者重新導向至下方指定的靜態頁面，直到他們登入為止。<br /> <br />**_重要！_**請務必加入指定登陸頁面之登入頁面的連結，讓客戶可登入以存取完整網站。 |
+| [!UICONTROL Startup Page] | 存放區檢視 | 當網站處於「私人銷售」模式時，此設定會決定客戶登入之前顯示的頁面。<br />  <br />**`To login form`**— 系統會將使用者重新導向至登入表單，直到他們登入為止。<br />**`To landing page`** — 系統會將使用者重新導向至下方指定的靜態頁面，直到他們登入為止。<br /> <br />**_重要！_**&#x200B;請務必加入指定登陸頁面之登入頁面的連結，讓客戶可登入以存取完整網站。 |
 | [!UICONTROL Landing Page] | 存放區檢視 | 決定網站處於「私人銷售」模式時顯示的第一個頁面。 |
 | [!UICONTROL HTTP Response] | 網站 | 決定當網站關閉且機器人、爬蟲或爬蟲嘗試連線時傳送的HTTP回應。<br /> <br />**`503 Service unavailable`**— 頁面無法使用，但爬蟲程式不應更新索引。<br />**`200 OK`** — 登入頁面正確，爬蟲應該將其視為網站上的唯一頁面。 |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 網站 | 決定&#x200B;_登入_&#x200B;與&#x200B;_忘記密碼_&#x200B;表單上的欄位是否自動填入先前專案。 選項： `Yes` / `No` |
