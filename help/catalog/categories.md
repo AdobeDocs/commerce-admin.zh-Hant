@@ -51,5 +51,5 @@ ht-degree: 0%
 
 如需疑難排解類別問題的說明，請參閱下列Commerce支援知識庫文章：
 
-- [類別變更未儲存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [主選單（類別）未顯示在已啟用Fastly的子頁面上](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [類別變更未儲存](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=zh-Hant)
+- [主選單（類別）未顯示在已啟用Fastly的子頁面上](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=zh-Hant)

@@ -2,7 +2,7 @@
 title: 內容區塊
 description: 區塊可用來顯示固定資訊，例如文字、影像和內嵌視訊，以及動態資訊。
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/J3WLLi92Tawt6kK-LKOhFuM-KwuKxqk0vQevScMP-8A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

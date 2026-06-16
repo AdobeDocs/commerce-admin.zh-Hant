@@ -2,7 +2,7 @@
 title: 新增旋轉動態區塊
 description: 將多個動態區塊新增至旋轉器，在店面展示互動式內容的投影片。
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

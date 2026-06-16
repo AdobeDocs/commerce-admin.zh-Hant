@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -203,7 +203,7 @@ composer require magento/audiences
 
 1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;欄位中，貼上您[啟用](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce時建立的資料串流識別碼，作為Real-Time CDP中的目的地。
 
-   此資料流會將資料從您的Commerce網站傳送至Real-Time CDP，以判斷購物者是否屬於受眾。 如果您尚未建立資料流，請在Experience Platform中[建立](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)資料流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)將其新增至Real-Time CDP中的Commerce目的地，以及在Admin中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)擴充功能。
+   此資料流會將資料從您的Commerce網站傳送至Real-Time CDP，以判斷購物者是否屬於受眾。 如果您尚未建立資料流，請在Experience Platform中[建立](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#create)資料流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)將其新增至Real-Time CDP中的Commerce目的地，以及在Admin中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)擴充功能。
 
    >[!NOTE]
    >
@@ -229,7 +229,7 @@ composer require magento/audiences
 
 ## Real-Time CDP受眾控制面板
 
-您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，檢視可在Adobe Commerce執行個體中個人化的所有[作用中](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html)對象。
+您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，檢視可在Adobe Commerce執行個體中個人化的所有[作用中](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant)對象。
 
 若要存取&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，請前往&#x200B;_管理員_&#x200B;側邊欄，然後前往&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**。
 

@@ -3,7 +3,7 @@ title: 授權Adobe Stock影像
 description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，請授權您的Adobe Stock影像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/stock/help/credit-packs.html)，才能授權此影像。
+   >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/tw/stock/help/credit-packs.html)，才能授權此影像。
 
 ## 從標準媒體儲存空間授權影像
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/stock/help/credit-packs.html)，才能授權此影像。
+     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/tw/stock/help/credit-packs.html)，才能授權此影像。
 
    此動作會顯示提示，讓您指定用來將影像儲存至[媒體儲存空間](./media-storage.md)的檔案名稱。 預設檔案名稱已提供，但您可以根據您的偏好自訂名稱。
 

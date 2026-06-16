@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
 
 URL重寫工具可讓您變更與產品、類別或CMS頁面相關聯的任何URL。 當您建立URL重新寫入時，Commerce會自動建立永久重新導向(301)，因此任何指向舊URL的連結都會重新導向至新位址。
 

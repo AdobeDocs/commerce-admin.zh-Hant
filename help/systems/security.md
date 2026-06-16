@@ -40,11 +40,11 @@ ht-degree: 0%
 >
 >已啟用[!DNL Adobe Identity Management Services] (IMS)驗證的存放區已停用原生Adobe Commerce和Magento Open Source 2FA。 使用其Adobe憑證登入其Commerce執行個體的管理員使用者，不需要重新驗證許多管理員工作。 當管理員使用者登入目前的工作階段時，驗證會由Adobe IMS處理。 請參閱[[!DNL Adobe Identity Management Service] (IMS)整合概述](../getting-started/adobe-ims-integration-overview.md)。
 
-請造訪[安全中心](https://helpx.adobe.com/security.html){:target="_blank"}，取得有關潛在漏洞的最新消息、註冊Adobe安全通知，以及存取Adobe信任中心。
+請造訪[安全中心](https://helpx.adobe.com/tw/security.html){:target="_blank"}，取得有關潛在漏洞的最新消息、註冊Adobe安全通知，以及存取Adobe信任中心。
 
 ![安全中心](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-如需安全性最佳實務的相關資訊，請參閱&#x200B;_實作行動手冊_&#x200B;中的[保護您的Commerce網站和基礎結構](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)。
+如需安全性最佳實務的相關資訊，請參閱&#x200B;_實作行動手冊_&#x200B;中的[保護您的Commerce網站和基礎結構](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hant)。
 
 ## 安全性行動計畫
 
@@ -58,4 +58,4 @@ ht-degree: 0%
 
 1. **報告**：如果您認為已在Commerce中發現特定漏洞，[請開啟Adobe的問題](https://hackerone.com/adobe?type=team)並包含技術詳細資料。
 
-1. **升級**：為了24小時全年無休的支援讓您完全安心，請立即規劃在我們的雲端架構[&#128279;](https://business.adobe.com/products/magento/cloud-delivery.html)上升級至Adobe Commerce。
+1. **升級**：為了24小時全年無休的支援讓您完全安心，請立即規劃在我們的雲端架構[&#128279;](https://business.adobe.com/tw/products/magento/cloud-delivery.html)上升級至Adobe Commerce。

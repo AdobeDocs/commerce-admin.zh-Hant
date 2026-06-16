@@ -3,7 +3,7 @@ title: 網站地圖
 description: 瞭解如何設定網站地圖，以索引Commerce網站的所有頁面和影像。
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/1IQk0p0-ZGNEXYKT-BIe-7b4l06psXTCapt6hPDMjzQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
 
 網站地圖可改善搜尋引擎為商店編制索引的方式，且設計旨在尋找可能被網頁爬蟲忽略的頁面。 網站地圖可設定為索引所有頁面和影像。
 

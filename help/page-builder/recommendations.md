@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 新增內容 — 產品推薦
 
-使用&#x200B;_Product Recommendations_&#x200B;內容型別，將現有的作用中[建議單位](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)新增至CMS頁面、區塊或動態區塊的[[!DNL Page Builder] 階段](workspace.md#stage)。
+使用&#x200B;_Product Recommendations_&#x200B;內容型別，將現有的作用中[建議單位](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)新增至CMS頁面、區塊或動態區塊的[[!DNL Page Builder] 階段](workspace.md#stage)。
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 新增現有的建議單位
 
-1. 確定您已[建立[!DNL Page Builder]頁面型別的建議單位](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)。
+1. 確定您已[建立[!DNL Page Builder]頁面型別的建議單位](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >

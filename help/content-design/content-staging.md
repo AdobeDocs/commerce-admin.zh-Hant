@@ -100,4 +100,4 @@ ht-degree: 0%
 
 - [由於內容暫存問題，所有頁面均出現錯誤404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
 - [已排程的內容分段更新未與過時的Fastly快取一起顯示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [我可以針對共用目錄中的價格排程內容測試更新嗎？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [我可以針對共用目錄中的價格排程內容測試更新嗎？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=zh-Hant)

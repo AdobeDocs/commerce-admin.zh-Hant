@@ -3,7 +3,7 @@ title: 安裝Adobe Commerce套件
 description: 瞭解如何在Adobe Commerce執行個體上安裝 [!DNL AEM Assets Integration for Adobe Commerce] 擴充功能和。
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -52,7 +52,7 @@ ht-degree: 0%
 
      如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
-- [Commerce管理員](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) — 更新存放區設定並管理Commerce使用者帳戶。
+- [Commerce管理員](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/guide-overview) — 更新存放區設定並管理Commerce使用者帳戶。
 
 >[!TIP]
 >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如需有關在本機管理Commerce專案環境的資訊，請參閱《雲端基礎結構使用手冊》中&#x200B;_Adobe Commerce的[使用CLI管理分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)_。
+   >如需有關在本機管理Commerce專案環境的資訊，請參閱《雲端基礎結構使用手冊》中&#x200B;_Adobe Commerce的[使用CLI管理分支](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/cli-branches)_。
 
 1. 檢視環境分支，以使用Adobe Commerce Cloud CLI進行更新。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
    git push origin <branch-name>
    ```
 
-   推送更新會啟動[Commerce雲端部署程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)以套用變更。 從[部署記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)檢查部署狀態。
+   推送更新會啟動[Commerce雲端部署程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process)以套用變更。 從[部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)檢查部署狀態。
 
 >[!TAB 內部部署]
 
@@ -174,8 +174,8 @@ AEM Assets整合使用Adobe I/O Events服務，在Commerce執行個體和Experie
 設定Adobe I/O Events之前，請先確認Commerce專案的RabbitMQ和cron工作設定：
 
 - 確保RabbitMQ已啟用且正在監聽事件。
-   - [內部部署Adobe Commerce的RabbitMQ設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [雲端基礎結構上Adobe Commerce的RabbitMQ設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [內部部署Adobe Commerce的RabbitMQ設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [雲端基礎結構上Adobe Commerce的RabbitMQ設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - 確認[cron工作已啟用](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)。 AEM Assets整合的通訊和工作流程需要Cron工作。
 
 >[!NOTE]
@@ -235,7 +235,7 @@ AEM Assets整合使用Adobe I/O Events服務，在Commerce執行個體和Experie
 
 - `content`：要執行的VCL程式碼片段，會檢查使用者端IP位址。 如果IP位在Edge ACL中，則會封鎖整個網站的存取權，並產生`405 Not allowed`錯誤。 允許存取所有其他使用者端IP位址。
 
-如需使用VCL片段封鎖傳入要求的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce_&#x200B;中的[封鎖要求的自訂VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)。
+如需使用VCL片段封鎖傳入要求的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce_&#x200B;中的[封鎖要求的自訂VCL](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)。
 
 >[!ENDSHADEBOX]
 
