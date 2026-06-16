@@ -2,10 +2,15 @@
 title: 動態區塊
 description: 使用動態區塊來建立由價格規則和客戶區段中的邏輯驅動的豐富互動式內容。
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content]功能表](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_&#x200B;選項在2.3.1中已過時，在2.4.0中已移除。其功能已由動態區塊取代。
+>[[!UICONTROL Content]功能表](content-menu.md)中的&#x200B;_[!UICONTROL Banner]_選項在2.3.1中已過時，在2.4.0中已移除。 其功能已由動態區塊取代。
 
 ![[!DNL Page Builder] — 具有價格規則和客戶區段的動態區塊](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -97,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Store View] | 指定動態區塊可用的存放區檢視。 |
 | [!UICONTROL Enable Dynamic Block] | 啟用或停用動態區塊。 選項：是/否 |
 | [!UICONTROL Dynamic Block Name] | 在Admin中識別動態區塊的描述性名稱。 |
-| [!UICONTROL Dynamic Block Type] | 識別[標準頁面配置](layout-updates.md)中動態區塊放置的位置。 選項： <br/>**[!UICONTROL Content Area]**— 將動態區塊置於頁面的主要[內容區域](layout-updates.md)。<br/>**[!UICONTROL Footer]** — 將動態區塊放置在頁面[頁尾](page-setup.md#footer)中。 <br/>**[!UICONTROL Header]**— 將動態區塊放置在頁面[標頭](page-setup.md#header)中。<br/>**[!UICONTROL Left Column]** — 將動態區塊放置在二或三欄配置之[左側邊欄](page-layout.md#standard-page-layouts)中。 <br/>**[!UICONTROL Right Column]**— 將動態區塊置於兩欄或三欄式佈局的[右側邊欄](page-layout.md#standard-page-layouts)中。 |
+| [!UICONTROL Dynamic Block Type] | 識別[標準頁面配置](layout-updates.md)中動態區塊放置的位置。 選項： <br/>**[!UICONTROL Content Area]**— 將動態區塊置於頁面的主要[內容區域](layout-updates.md)。<br/>**[!UICONTROL Footer]** — 將動態區塊放置在頁面[頁尾](page-setup.md#footer)中。<br/>**[!UICONTROL Header]**— 將動態區塊放置在頁面[頁首](page-setup.md#header)中。<br/>**[!UICONTROL Left Column]** — 將動態區塊放置在二或三欄配置中的[左側邊欄](page-layout.md#standard-page-layouts)中。<br/>**[!UICONTROL Right Column]**— 將動態區塊置於兩欄或三欄式佈局的[右側欄](page-layout.md#standard-page-layouts)中。 |
 | 客戶區段 | 將客戶區段與動態區塊建立關聯，以決定哪些客戶可以看到它。 |
 | Real-Time CDP對象 | 將[Real-Time CDP對象](../customers/audience-activation.md)與動態區塊建立關聯，以判斷哪些客戶可以看到它。 |
 

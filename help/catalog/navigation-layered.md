@@ -3,10 +3,17 @@ title: 分層導覽
 description: 瞭解階層式導覽如何讓購物者根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 分層導覽可讓您根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。 分層導覽通常顯示在搜尋結果和類別頁面的左側欄，有時也會顯示在首頁上。 標準導覽包含&#x200B;_Shop By_&#x200B;類別與價格範圍清單。 您可以設定分層導覽的顯示方式，包括產品計數和價格範圍。
 
@@ -24,9 +31,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)。
+>此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)。
 
-您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇「Mens/Shorts」類別時，初始結果會包含該類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
+您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇Mens/Shorts類別時，初始結果會包括類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
 
 屬性屬性與產品輸入型別結合，決定哪些屬性可用於分層導覽。 階層式導覽僅適用於&#x200B;[_錨點_](categories-display-settings.md)&#x200B;類別，也可以新增至搜尋結果頁面。 每個屬性之存放區擁有者的&#x200B;**目錄輸入型別**&#x200B;屬性必須設定為`Yes/No`、`Dropdown`、`Multiple Select`或`Price`。 若要讓屬性可篩選，必須將每個屬性的&#x200B;**Use in Layered Navigation**&#x200B;屬性設定為`Filterable (with results)`或`Filterable (no results)`。
 
@@ -62,7 +69,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->- 如果&#x200B;_[!UICONTROL Use in Search]_&#x200B;設定設為`No`，則不會顯示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定。在此情況下，無論[!UICONTROL Use in Layered Navigation]設定為何，都不會在搜尋中使用產品屬性。
+>- 如果&#x200B;_[!UICONTROL Use in Search]_設定設為`No`，則不會顯示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定。在此情況下，無論[!UICONTROL Use in Layered Navigation]設定為何，都不會在搜尋中使用產品屬性。
 >
 >- [!UICONTROL Position]欄位預設為灰色。 您必須先儲存屬性，才能修改此設定。
 
@@ -98,7 +105,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 1. 瀏覽或使用篩選搜尋來尋找清單中的屬性，並在編輯模式下開啟它。
 
-1. 在&#x200B;_[!UICONTROL Attribute Information]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 在&#x200B;_[!UICONTROL Attribute Information]_底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
 
 1. 針對&#x200B;**[!UICONTROL Layered Navigation]**，請選擇`Filterable (with results)`。
 
@@ -110,7 +117,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 價格導覽可用於在分層導覽中依價格範圍分配產品。 您也可以以間隔分割每個範圍。 有幾種方式可以計算價格導覽：
 
@@ -140,7 +147,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 | $150.00 - $159.99 (1) |   |
 | $180.00 - $189.99 (1) |   |
 | $420.00 - $429.99 (1) |   |
-| 440.00美元 — 449.99美元(1) |   |
+| $440.00 - $449.99 (1) |   |
 | $710.00及以上(1) |   |
 
 {style="table-layout:auto"}
@@ -149,7 +156,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!IMPORTANT]
 >
->若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 對於&#x200B;_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
+>若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**值。 對於_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -161,7 +168,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
    ![分層導覽](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   如需這些組態選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/catalog.md#layered-navigation)中的&#x200B;_分層導覽_。
+   如需這些組態選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[分層導覽](../configuration-reference/catalog/catalog.md#layered-navigation)。
 
 1. 為下列章節中的其中一個方法設定&#x200B;**[!UICONTROL Price Navigation Steps Calculation]**。
 
@@ -205,15 +212,15 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 階層式導覽組態會決定產品計數是否顯示在每個屬性後面的括弧中，以及價格導覽中使用的步驟計算大小。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
+1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開&#x200B;_[!UICONTROL Layered Navigation]_&#x200B;區段。
+1. 展開&#x200B;_[!UICONTROL Layered Navigation]_區段。
 
    >[!NOTE]
    >

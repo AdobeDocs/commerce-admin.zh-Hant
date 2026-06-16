@@ -3,9 +3,15 @@ title: 設定傳回
 description: 瞭解如何啟用商店退貨，並設定支援的送貨方法。
 exl-id: a1b508fc-7e42-4d37-bf7e-dea17a40d39b
 feature: Returns, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/TgVsqEceM-mTY91OCl7XRL0Uwk8VJAHatv0kHiOM00g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-啟用後，客戶可以從店面提交RMA請求。 只有在訂單中有可退貨的專案時，才能產生RMA。 傳回個別專案的要求是由每個產品記錄中的&#x200B;_啟用RMA_&#x200B;屬性所管理。 依照預設，組態設定會套用至產品（已選取&#x200B;_[!UICONTROL Use Config Settings]_）。 如果&#x200B;_[!UICONTROL Enable RMA]_&#x200B;設為`No`，產品不會出現在可傳回的專案清單中。 若您變更&#x200B;_啟用RMA_&#x200B;設定，該設定會同時套用至新訂單與現有訂單。
+啟用後，客戶可以從店面提交RMA請求。 只有在訂單中有可退貨的專案時，才能產生RMA。 傳回個別專案的要求是由每個產品記錄中的&#x200B;_啟用RMA_&#x200B;屬性所管理。 依照預設，組態設定會套用至產品（已選取&#x200B;_[!UICONTROL Use Config Settings]_）。 如果_[!UICONTROL Enable RMA]_&#x200B;設為`No`，產品不會出現在可傳回的專案清單中。 若您變更&#x200B;_啟用RMA_&#x200B;設定，該設定會同時套用至新訂單與現有訂單。
 
 ## 啟用商店的RMA
 
@@ -34,7 +40,7 @@ ht-degree: 0%
 
    此設定決定店面個別產品的&#x200B;_啟用RMA_&#x200B;屬性的行為：
 
-   - 當[!UICONTROL Enable RMA on Product Level]設定為`Yes`時，店面上的客戶可以傳回所有個別產品。 它包含&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和&#x200B;_[!UICONTROL Enable RMA]_ = `No`產品屬性值。
+   - 當[!UICONTROL Enable RMA on Product Level]設定為`Yes`時，店面上的客戶可以傳回所有個別產品。 它包含&#x200B;_[!UICONTROL Enable RMA]_= `Yes`和_[!UICONTROL Enable RMA]_ = `No`產品屬性值。
    - 當[!UICONTROL Enable RMA on Product Level]設定為`No`時，店面的客戶只能傳回具有&#x200B;_[!UICONTROL Enable RMA]_= `Yes`產品屬性值的產品。
 
 1. 將&#x200B;**[!UICONTROL Use Store Address]**&#x200B;設定為下列其中一個值：

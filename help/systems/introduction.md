@@ -2,9 +2,15 @@
 title: 管理系統簡介
 description: 瞭解存放區管理員可用來有效管理網站、資料、整合和管理員使用者的系統工具和功能。
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
+TQID: https://experienceleague.adobe.com/E-6P-9RyoWsRXfdnU-nT4sEMLd3Pmlkynvd1q2Dqpms
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 471
 ht-degree: 0%
 
 ---
@@ -28,8 +34,8 @@ ht-degree: 0%
 
 - **管理員使用者帳戶和許可權** — 管理管理員[使用者帳戶](permissions-users-all.md)，以及相關的[角色和許可權](permissions-user-roles.md)，這些角色和許可權可控制他們對Admin中網站和功能區域的存取權。
 - **管理員工作階段和網站限制** — 檢閱[安全性](security.md)最佳實務，並瞭解如何管理管理員工作階段和認證、實作驗證碼以及管理網站限制。
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **系統工具** — 執行常式[索引](index-management.md)和[快取](cache-management.md)管理作業，[備份](backups.md)系統，管理[排程作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} **系統工具** — 執行常式[索引](index-management.md)和[快取](cache-management.md)管理作業，[備份](backups.md)系統，管理[排程作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。
 - **資料傳輸** — 使用[資料傳輸](data-transfer.md)工具匯入及匯出資料，以及管理產品、定價、客戶及稅率資料。
 - **整合** — 建立[協力廠商整合](integrations.md)的OAuth認證和重新導向URL位置，並識別可用的API資源。
-- **動作記錄** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)存取在您商店中工作的管理員使用者所做變更的記錄（[動作記錄](action-log.md)）。
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) (僅Adobe Commerce) [系統報表](support.md#access-system-reports))可識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。
+- **動作記錄** - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）存取在您商店中工作的管理員使用者所做變更的記錄（[動作記錄](action-log.md)）。
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} **支援工具** - ![Adobe Commerce](../assets/adobe-logo.svg) （僅Adobe Commerce） [系統報表](support.md#access-system-reports))可識別您系統中的已知問題。 它們可在開發和最佳化過程中作為資源，並作為診斷工具，協助我們的支援團隊識別和解決問題。

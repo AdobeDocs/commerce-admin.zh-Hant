@@ -3,9 +3,15 @@ title: 設定Source優先順序演演算法
 description: 瞭解如何設定用於庫存中指派來源順序的來源優先順序，以便提出建議。
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -30,11 +36,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**。
 
-1. 在編輯模式中開啟庫存，並導覽至&#x200B;_[!UICONTROL Sources]_&#x200B;區域。
+1. 在編輯模式中開啟庫存，並導覽至&#x200B;_[!UICONTROL Sources]_區域。
 
 1. 按一下&#x200B;**[!UICONTROL Assign Sources]**。
 
-1. 在&#x200B;_[!UICONTROL Assign Sources]_&#x200B;檢視中，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**&#x200B;將來源指派給庫存。
+1. 在&#x200B;_[!UICONTROL Assign Sources]_檢視中，選取所需來源的核取方塊，然後按一下&#x200B;**[!UICONTROL Done]**將來源指派給庫存。
 
 >[!NOTE]
 >

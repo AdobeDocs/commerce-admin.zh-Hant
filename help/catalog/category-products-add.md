@@ -3,10 +3,17 @@ title: 新增和移除類別產品
 description: 瞭解如何在類別中新增和移除產品。
 exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: 267
+ht-degree: 1%
 
 ---
 
@@ -30,7 +37,7 @@ ht-degree: 0%
 
    ![搜尋所有產品索引標籤](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Assign]_&#x200B;欄中，將您要新增之每個產品的選項切換為`Yes`。
+1. 在&#x200B;_[!UICONTROL Assign]_欄中，將您要新增之每個產品的選項切換為`Yes`。
 
    如果您想要包含所有顯示的產品，可以按一下欄標題中的功能表箭頭，然後選擇&#x200B;**[!UICONTROL Select All]**。
 
@@ -67,10 +74,10 @@ ht-degree: 0%
 
 1. 在左側的類別樹狀結構中，選擇要編輯的類別。
 
-1. 展開&#x200B;_[!UICONTROL Products in Category]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Products in Category]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 尋找要移除的產品。
 
-1. 在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中按一下&#x200B;**[!UICONTROL Unassign]**。
+1. 在&#x200B;_[!UICONTROL Actions]_欄中按一下&#x200B;**[!UICONTROL Unassign]**。
 
 1. 若要套用變更，請按一下&#x200B;**[!UICONTROL Save]**。

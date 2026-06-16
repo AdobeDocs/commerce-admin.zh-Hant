@@ -3,9 +3,16 @@ title: 訂單工作流程與處理
 description: 瞭解訂單工作流程、每個步驟套用的狀態，以及如何透過此處理移轉訂單。
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
+TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: 1834
 ht-degree: 0%
 
 ---
@@ -38,7 +45,7 @@ ht-degree: 0%
 
 1. 在格線中尋找順序。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View]**。
 
 1. 檢查訂單狀態：
 
@@ -130,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 下訂單的日期和時間。 |
 | [!UICONTROL Purchased From] | 表示下訂單的網站、商店和商店檢視。 |
 | [!UICONTROL Placed from IP] | 表示下訂單所在電腦的IP位址。 |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)指出產生訂單的[報價單](../b2b/quotes.md) （若適用）。 報價名稱會連結至報價。 |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）指出產生訂單的[報價單](../b2b/quotes.md) （若適用）。 報價名稱會連結至報價。 |
 
 {style="table-layout:auto"}
 
@@ -141,7 +148,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 下訂單的客戶或採購員名稱。 客戶名稱會連結至客戶設定檔。 |
 | [!UICONTROL Email] | 客戶或購買者的電子郵件地址。 電子郵件地址已連結，以開啟新的電子郵件訊息。 |
 | [!UICONTROL Customer Group] | 將客戶指派給之客戶群組或共用目錄的名稱。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)與購買者相關聯且代表其下訂單的公司名稱。 公司名稱已連結至[公司設定檔](../b2b/account-companies.md)。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）與購買者相關聯且代表其下訂單的公司名稱。 公司名稱已連結至[公司設定檔](../b2b/account-companies.md)。 |
 
 {style="table-layout:auto"}
 
@@ -169,7 +176,7 @@ ht-degree: 0%
 
 ### 自訂訂單屬性
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 自訂訂單屬性可讓您將業務需求的特定其他資訊與訂單建立關聯。
 
@@ -225,7 +232,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Status] | 顯示銷售訂單的狀態。 |
-| [!UICONTROL Comment] | 一個文字方塊，用來輸入訂單隨附之客戶的註解。 <br/>**[!UICONTROL Notify Customer by Email]**— 如果您要將註解以個別電子郵件的形式傳送給客戶，請選取核取方塊。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望評論從客戶的帳戶中可見，請選取核取方塊。 <br/>**[!UICONTROL Update]**— 新增註解並傳送電子郵件（如果適用）。 |
+| [!UICONTROL Comment] | 一個文字方塊，用來輸入訂單隨附之客戶的註解。<br/>**[!UICONTROL Notify Customer by Email]**— 如果您要將註解以個別電子郵件的形式傳送給客戶，請選取核取方塊。<br/>**[!UICONTROL Visible on Storefront]** — 如果您希望評論從客戶的帳戶中可見，請選取核取方塊。<br/>**[!UICONTROL Update]**— 新增註解並傳送電子郵件（若適用）。 |
 
 {style="table-layout:auto"}
 
@@ -239,10 +246,10 @@ ht-degree: 0%
 | [!UICONTROL Total Paid] | 支付給訂單的總金額（若適用）。 |
 | [!UICONTROL Total Refunded] | 從訂單退款的金額總計（若適用）。 |
 | [!UICONTROL Total Due] | 到期的總金額。 |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)套用至訂單的可用商店信用額度（若適用）。 |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)報價單中的料號總價（不含稅金），根據共用型錄或標準型錄中作為報價單基礎的定價而定。 如果店面顯示貨幣與基本貨幣不同，值會以兩種貨幣顯示，而店面會以方括弧顯示。 |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)買方與賣家之間議價的折扣。 如果店面顯示貨幣與基本貨幣不同，值會以兩種貨幣顯示，而店面會以方括弧顯示。 |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)目錄總價減去議價折扣。 |
+| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）套用至訂單的可用商店信用額度（若適用）。 |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）報價單中的料號總價（不含稅金），根據共用型錄或標準型錄中作為報價單基礎的定價而定。 如果店面顯示貨幣與基本貨幣不同，值會以兩種貨幣顯示，而店面會以方括弧顯示。 |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）買方與賣家之間議價的折扣。 如果店面顯示貨幣與基本貨幣不同，值會以兩種貨幣顯示，而店面會以方括弧顯示。 |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）目錄總價減去議價折扣。 |
 
 {style="table-layout:auto"}
 

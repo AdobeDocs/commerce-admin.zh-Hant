@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL General] &amp；gt； [!UICONTROL Web]'
-description: 檢閱Commerce管理員的[!UICONTROL General] &amp；gt； [!UICONTROL Web]頁面上的組態設定。
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: 檢閱Commerce管理員的[!UICONTROL General] &gt； [!UICONTROL Web]頁面上的組態設定。
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1809
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![網頁>一般選項](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | 範圍 | 說明 |
 |  ---  |  ---  |  ---  |
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ![網頁>搜尋引擎最佳化](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -44,13 +50,13 @@ ht-degree: 0%
 
 ![網頁>基礎URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Base URL] | 存放區檢視 | 未透過加密(SSL)通道執行的Commerce根資料夾完整位址。 URL必須以正斜線結尾。 |
 | [!UICONTROL Base Link URL] | 存放區檢視 | 用作基礎URL預留位置的標籤標籤。 |
-| [!UICONTROL Base URL for Static View Files] | 存放區檢視 | 指向佈景主題所使用的靜態檔案(例如css、字型、影像和JavaScript)位置的路徑。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的資料夾。 在輸入靜態檢視檔案的基本URL之前，將設定範圍設定為正確的站台。 您也可以在Commerce安裝範圍外指定資料夾。 |
+| [!UICONTROL Base URL for Static View Files] | 存放區檢視 | 指向佈景主題所使用的靜態檔案（例如css、字型、影像和JavaScript）位置的路徑。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的資料夾。 在輸入靜態檢視檔案的基本URL之前，將設定範圍設定為正確的站台。 您也可以在Commerce安裝範圍外指定資料夾。 |
 | [!UICONTROL Base URL for User Media Files] | 存放區檢視 | 指向目錄影像和其他媒體檔案位置的路徑。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的媒體資料夾。 如此一來，您就可以分別備份與復原每個媒體資料夾。 您也可以在Commerce安裝範圍外指定媒體資料夾。 |
 
 {style="table-layout:auto"}
@@ -59,16 +65,16 @@ ht-degree: 0%
 
 ![網頁>基礎URL （安全）](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Secure Base URL] | 存放區檢視 | 使用加密安全(SSL/TLS)通訊協定傳遞的Commerce根資料夾的完整位址。 URL必須以正斜線結尾。 |
 | [!UICONTROL Secure Base Link URL] | 存放區檢視 | 標籤標籤，用來作為在安全通道上執行的基礎URL的預留位置。 |
-| [!UICONTROL Secure Base URL for Static View Files] | 存放區檢視 | 指向靜態檔案(例如，佈景主題所使用的CSS、字型、影像和JavaScript)位置的標籤標籤。 檔案可能位於不安全或安全的通道。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的資料夾。 在輸入靜態檢視檔案的基本URL之前，將設定範圍設定為正確的站台。 您也可以在Commerce安裝範圍外指定資料夾。 |
+| [!UICONTROL Secure Base URL for Static View Files] | 存放區檢視 | 指向靜態檔案（例如，佈景主題所使用的CSS、字型、影像和JavaScript）位置的標籤標籤。 檔案可能位於不安全或安全的通道。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的資料夾。 在輸入靜態檢視檔案的基本URL之前，將設定範圍設定為正確的站台。 您也可以在Commerce安裝範圍外指定資料夾。 |
 | [!UICONTROL Secure Base URL for User Media Files] | 存放區檢視 | 指向目錄影像和其他媒體檔案位置的路徑。 檔案可能位於不安全或安全的通道。 預留位置是用來表示基礎URL。 如果您的Commerce安裝有多個網站具有相同的資料夾結構，則每個網站可以有不同的媒體資料夾。 如此一來，您就可以分別備份與復原每個媒體資料夾。 您也可以在Commerce安裝範圍外指定媒體資料夾。 |
 | [!UICONTROL Use Secure URLs on Storefront] | 存放區檢視 | 如果您的網域有安全性憑證，您可以選擇執行店面（使用或不使用SSL加密）。 選項：<br />**`Yes`**— 儲存URL以`https`開頭，表示網頁是以加密的安全通訊協定傳遞。<br />**`No`** — 存放區URL以`http`開頭，表示頁面傳送時沒有安全通訊協定。 |
-| [!UICONTROL Use Secure URLs in Admin] | 全域 | 如果您的網域有安全性憑證，您可以選擇執行存放區管理員，使用或不使用SSL加密。 選項： <br />**`Yes`**— 管理員URL以`https`開頭，表示網頁是以加密的安全通訊協定傳遞。<br />**`No`** — 管理員URL以`http`開頭，表示頁面傳送時沒有安全通訊協定。<br />當對存放區和管理員同時啟用安全URL時，會出現兩個額外的欄位以啟用和設定`HSTS`。 |
+| [!UICONTROL Use Secure URLs in Admin] | 全域 | 如果您的網域有安全性憑證，您可以選擇執行存放區管理員，使用或不使用SSL加密。 選項： <br />**`Yes`**— 管理員URL以`https`開頭，表示網頁是以加密的安全通訊協定傳遞。<br />**`No`**  — 管理員URL以`http`開頭，表示該頁面傳送時沒有安全通訊協定。<br /> 為存放區和管理員啟用安全URL時，會出現兩個額外的欄位來啟用和設定`HSTS`。 |
 | [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 存放區檢視 | 啟用時，[`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)會針對「中間人」攻擊提供安全性測量，並防止使用者覆寫「無效憑證」訊息。 選項： `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | 存放區檢視 | 啟用時，將從瀏覽器接收的不安全(`HTTP`)要求轉換為安全(`HTTPS`)通訊協定。 選項： `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 全域 | 指定伺服器設定中的`offloader_header`值，以識別使用者端與負載平衡器之間的通訊協定。 大部分的Commerce安裝都使用預設值`X-Forwarded-Proto` (XFP)將通訊協定識別為`HTTP`或`HTTPS`。 |
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 ![網頁>預設頁面](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -96,13 +102,13 @@ ht-degree: 0%
 
 ![預設版面配置](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | 全域 | 決定預設用於產品頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，產品頁面不提供配置更新。<br/>**`Empty`** — 依預設，產品頁面會使用空白版面配置。 <br/>**`1 column`**— 依預設，會使用產品頁面的單一欄配置。<br/>**`2 columns with left bar`** — 依預設，產品頁面會使用左側邊欄的雙欄版面配置。 <br/>**`2 columns with right bar`**— 預設情況下，對於產品頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 依預設，產品頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page -- Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用產品頁面的「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「產品 — 全寬」配置。 |
-| [!UICONTROL Default Category Layout] | 全域 | 決定類別頁面預設使用的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，配置更新不適用於類別頁面。<br/>**`Empty`** — 依預設，類別頁面使用空白版面配置。 <br/>**`1 column`**— 依預設，類別頁面會使用單一欄配置。<br/>**`2 columns with left bar`** — 預設情況下，類別頁面會使用左側邊欄的雙欄版面配置。 <br/>**`2 columns with right bar`**— 預設情況下，類別頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 依預設，類別頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用類別 — 完整寬度配置來處理類別頁面。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「產品 — 全寬」配置。 |
-| 預設頁面配置 | 全域 | 決定預設用於CMS頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，CMS頁面不提供配置更新。<br/>**`Empty`** — 依預設，CMS頁面會使用空白版面配置。 <br/>**`1 column`**— 依預設，會針對CMS頁面使用單一欄配置。<br/>**`2 columns with left bar`** — 依預設，CMS頁面會使用左側邊欄的雙欄版面配置。<br/>**`2 columns with right bar`**— 依預設，CMS頁面會使用右側具側欄的雙欄版面配置。<br/>**`3 columns`** — 依預設，CMS頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「類別 — 全寬」配置。 <br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用CMS頁面的「產品 — 全寬」配置。 |
+| [!UICONTROL Default Product Layout] | 全域 | 決定預設用於產品頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，產品頁面不提供配置更新。<br/>**`Empty`** — 依預設，產品頁面會使用空白版面配置。<br/>**`1 column`**— 依預設，會使用產品頁面的單一欄配置。<br/>**`2 columns with left bar`** — 依預設，產品頁面會使用左側邊欄的雙欄版面配置。<br/>**`2 columns with right bar`**— 預設情況下，對於產品頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 依預設，產品頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page -- Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用產品頁面的「類別 — 全寬」配置。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用產品頁面的「產品 — 全寬」配置。 |
+| [!UICONTROL Default Category Layout] | 全域 | 決定類別頁面預設使用的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，配置更新不適用於類別頁面。<br/>**`Empty`** — 依預設，類別頁面會使用空白版面配置。<br/>**`1 column`**— 依預設，類別頁面會使用單一欄配置。<br/>**`2 columns with left bar`** — 預設情況下，類別頁面會使用左側邊欄的雙欄版面配置。<br/>**`2 columns with right bar`**— 預設情況下，類別頁面使用右側具側欄的雙欄配置。<br/>**`3 columns`** — 預設情況下，類別頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!DNL Page Builder]）依預設，會使用類別頁面「類別 — 全寬」版面配置。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用類別頁面的「產品 — 全寬」配置。 |
+| 預設頁面配置 | 全域 | 決定預設用於CMS頁面的[配置](../../content-design/page-layout.md)。 選項： <br/>**`No layout updates`**— 依預設，CMS頁面不提供配置更新。<br/>**`Empty`** — 依預設，CMS頁面會使用空白版面配置。<br/>**`1 column`**— 依預設，會針對CMS頁面使用單一欄配置。<br/>**`2 columns with left bar`** — 依預設，CMS頁面會使用左側邊欄的雙欄版面配置。<br/>**`2 columns with right bar`**— 依預設，CMS頁面會使用右側具側欄的雙欄版面配置。<br/>**`3 columns`** — 依預設，CMS頁面會使用左右兩側有側欄的三欄式配置。<br/>**`Page - Full Width`**- （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「頁面 — 全寬」配置。<br/>**`Category - Full Width`** - （需要[!UICONTROL Page Builder]）依預設，會使用CMS頁面的「類別 — 全寬」配置。<br/>**`Product - Full Width`**- （需要[!DNL Page Builder]）依預設，會使用CMS頁面的「產品 — 全寬」版面配置。 |
 
 {style="table-layout:auto"}
 
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![網頁>預設Cookie設定](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 ![網頁>工作階段驗證](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 ![網頁>瀏覽器功能偵測](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

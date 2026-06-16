@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Reward Points]'
-description: 檢閱Commerce管理員的[!UICONTROL Customers] &amp；gt； [!UICONTROL Reward Points]頁面上的組態設定。
+title: '[!UICONTROL Customers] > [!UICONTROL Reward Points]'
+description: 檢閱Commerce管理員的[!UICONTROL Customers] &gt； [!UICONTROL Reward Points]頁面上的組態設定。
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/jK-FLPd4mglaptKFOhoRsYtAdwRqStPRWM4zMc48qd4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 779
 ht-degree: 0%
 
 ---
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 ![獎勵點數](./assets/reward-points-reward-points.png)<!-- zoom -->
 
-<!-- [Reward Points](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Reward Points](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 客戶取得獎勵點數的![動作](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
-<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Actions for Acquiring Reward Points by Customers](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +72,7 @@ ht-degree: 0%
 
 ![電子郵件通知設定](./assets/reward-points-email-notification-settings.png)<!-- zoom -->
 
-<!-- [Email Notification Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
+<!-- [Email Notification Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty#enable-reward-point-operations-for-your-store) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

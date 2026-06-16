@@ -3,9 +3,15 @@ title: 表格費率運送
 description: 瞭解如何為商店設定表格費率運送選項。
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -14,9 +20,9 @@ ht-degree: 3%
 
 _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送貨費率，包括：
 
-- 權重與目的地
-- 價格v.目的地
-- 專案數對目的地
+- 權重v. 目標
+- 價格與 目標
+- 專案數v. 目標
 
 舉例來說，如果您的倉儲位於洛杉磯，則運送至聖地亞哥的成本會比運送至佛蒙特州來得低。 您可以使用表格運費將節省金額傳遞給客戶。
 
@@ -34,9 +40,9 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段中，選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Table Rates]**。
+1. 展開&#x200B;**[!UICONTROL Table Rates]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    >[!NOTE]
    >
@@ -62,7 +68,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 
    >[!NOTE]
    >
-   >由於虛擬產品（例如服務）沒有權重，因此無法變更以「權重v.目的地」條件為基礎的計算結果。 不過，虛擬產品可能會變更以「價格v.目的地」或「料號v.目的地」條件為基準的計算結果。
+   >由於虛擬產品（例如服務）沒有權重，因此無法變更以權重v為基礎的計算結果。 目的地條件。 不過，虛擬產品可能會變更基於價格v的計算結果。 目的地或專案數與目的地條件。
 
 1. 根據您的要求設定手續費選項。
 
@@ -84,7 +90,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 1. 設定&#x200B;**[!UICONTROL Ship to Applicable Countries]**：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用這個傳遞方法。
-   - `Specific Countries` — 選擇此選項時，會顯示&#x200B;_[!UICONTROL Ship to Specific Countries]_&#x200B;清單。 選取清單中可使用此傳遞方法的每個國家/地區。
+   - `Specific Countries` — 選擇此選項時，會顯示&#x200B;_[!UICONTROL Ship to Specific Countries]_清單。 選取清單中可使用此傳遞方法的每個國家/地區。
 
 1. 如果要一直顯示表格費率，請將&#x200B;**[!UICONTROL Show Method if Not Applicable]**&#x200B;設為`Yes`
 
@@ -115,10 +121,10 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 1. 使用適當的出貨計算條件值完成表格。
 
    - 使用星號(*)當作萬用字元，代表任何類別中的所有可能值。
-   - _[!UICONTROL Country]_&#x200B;資料行必須包含每個資料列的[有效的三字元代碼](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
-   - 依&#x200B;_[!UICONTROL Region/State]_&#x200B;排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
-   - 不支援郵遞區號範圍。 使用星號(*)可允許地區/州內的所有程式碼，或在&#x200B;_[!UICONTROL Zip/Postal Code]_&#x200B;欄中指定特定位置的單一程式碼。
-   - _[!UICONTROL Weight (and above)]_&#x200B;欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
+   - _[!UICONTROL Country]_資料行必須包含每個資料列的[有效的三字元代碼](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)。
+   - 依&#x200B;_[!UICONTROL Region/State]_排序資料，讓特定位置位於清單頂端，而萬用字元位置位於底部。 此方法會先處理具有絕對值的規則，稍後再處理萬用字元值。
+   - 不支援郵遞區號範圍。 使用星號(*)可允許地區/州內的所有程式碼，或在&#x200B;_[!UICONTROL Zip/Postal Code]_欄中指定特定位置的單一程式碼。
+   - _[!UICONTROL Weight (and above)]_欄中的值最多可以有四位小數（例如`2.5075`）。 在資料中使用更多小數位數，會導致匯入失敗。
 
    ![重量與目的地（澳洲）](./assets/table-rates-weight-destination-csv.png){width="500"}
 
@@ -142,7 +148,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 
 ### 範例1：價格與目的地
 
-此範例使用「價格v.目的地」條件，根據美國大陸、阿拉斯加和夏威夷的訂單小計金額，建立一組三種不同的運費。 星號(*)是代表所有值的萬用字元。
+此範例使用價格v。 目的地條件：根據美國大陸、阿拉斯加和夏威夷的訂單小計金額，建立一組三種不同的運費。 星號(*)是代表所有值的萬用字元。
 
 | 國家 | 地區/州 | 郵遞區號 | 訂單小計（及以上） | 送貨價格 |
 |--- |--- |--- |--- |--- |
@@ -160,7 +166,7 @@ _table rate_&#x200B;送貨方法參考資料表，以根據條件組合計算送
 
 ### 範例2：權重與目的地
 
-此範例使用「重量v.目的地」條件，根據訂單重量建立不同的出貨率。
+此範例使用權數v。 根據訂單重量建立不同運費率的目的地條件。
 
 | 國家 | 地區/州 | 郵遞區號 | 重量（及以上） | 送貨價格 |
 |--- |--- |--- |--- |--- |

@@ -3,10 +3,16 @@ title: URL重新寫入
 description: 瞭解URL重寫並使用Commerce URL重寫工具來變更與產品、類別或CMS頁面相關聯的URL。
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)
 
 URL重寫工具可讓您變更與產品、類別或CMS頁面相關聯的任何URL。 當您建立URL重新寫入時，Commerce會自動建立永久重新導向(301)，因此任何指向舊URL的連結都會重新導向至新位址。
 
@@ -123,7 +129,7 @@ Commerce在內部使用ID型URL，但您可以為客戶建立SEO友善URL：
 >
 >本節說明Web伺服器層級URL重新寫入，此重新寫入與URL重新寫入工具功能不同。 網頁伺服器重寫處理技術URL格式（例如移除`index.php`），而URL重寫工具則管理內容變更的重新導向。
 
-啟用Web伺服器重寫是初始Commerce設定的一部分，通常在安裝期間進行設定。 啟用後，網頁伺服器（Apache或Nginx）會自動從URL中移除檔案名稱`index.php`，建立更乾淨、SEO友善的位址。
+啟用Web伺服器重寫是初始Commerce設定的一部分，通常在安裝期間進行設定。啟用後，網頁伺服器（Apache或Nginx）會自動從URL中移除檔案名稱`index.php`，建立更乾淨、SEO友善的位址。
 下列範例顯示URL在啟用Web伺服器重寫與未啟用重寫情況下的顯示方式：
 
 **沒有Web伺服器重寫的URL**
@@ -140,7 +146,7 @@ Commerce在內部使用ID型URL，但您可以為客戶建立SEO友善URL：
 
 1. 在展開&#x200B;**[!UICONTROL General]**&#x200B;的左側面板中，選擇&#x200B;**[!UICONTROL Web]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Search Engine Optimization]**。
+1. 展開&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![一般設定 — Web搜尋引擎最佳化](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
@@ -152,9 +158,9 @@ Commerce在內部使用ID型URL，但您可以為客戶建立SEO友善URL：
 
 出於SEO目的，您的每個網頁應僅有一個不同的URL。
 
-如果您有多個URL可存取單一頁面，或內容相似的不同頁面，Google會將這些頁面視為相同頁面的重複版本。 Google會選擇一個URL作為規範版本並加以編目，而其他所有URL則會視為重複的URL，且編目頻率較低。
+如果您有多個URL可存取單一頁面，或內容相似的不同頁面，Google會將這些頁面視為相同頁面的重複版本。 Google會選擇一個URL作為正式版本並抓取該URL，而所有其他的URL則會視為重複的URL，且抓取頻率較低。
 
-Google如果您未明確指出哪個URL是標準網址，系統會為您做出選擇，或可能會將兩者視為同等權重。 這可能會導致不必要的行為，並帶來編目預算無效和分散式反向連結不足的風險。
+如果您未明確指出哪個URL是標準網址，系統會為您做出選擇，或可能會將兩者視為同等權重。 這可能會導致不必要的行為，並產生抓取預算無效和分散式反向連結不足的風險。
 
 根據您設定網站的方式，索引中可能會有您網站的多個版本，例如：
 

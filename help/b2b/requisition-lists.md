@@ -3,9 +3,15 @@ title: 請購單清單
 description: 瞭解請購單清單，以及如何使用它們輕鬆將經常訂購的產品新增至購物車。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
+TQID: https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 624
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ ht-degree: 0%
 
 1. 在其帳戶的側邊欄中，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在&#x200B;_[!UICONTROL Requisition Lists]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_頁面上，按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
 
 1. 輸入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
@@ -106,7 +112,7 @@ ht-degree: 0%
 
 1. 在[!UICONTROL Items Quoted]索引標籤中，選取要移動的產品。
 
-1. 使用產品條列專案[!UICONTROL Select]欄中的[!UICONTROL Actions]下拉式清單，選擇&#x200B;**[!UICONTROL Move to Requisition list]**。
+1. 使用產品條列專案[!UICONTROL Actions]欄中的[!UICONTROL Select]下拉式清單，選擇&#x200B;**[!UICONTROL Move to Requisition list]**。
 
 1. 選取所選料號的請購單清單。
 
@@ -133,7 +139,7 @@ ht-degree: 0%
 
 1. 在其帳戶儀表板的側邊欄中，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在請購單清單中，按一下&#x200B;**[!UICONTROL View]**&#x200B;動作&#x200B;_欄中的_。
+1. 在請購單清單中，按一下&#x200B;_動作_&#x200B;欄中的&#x200B;**[!UICONTROL View]**。
 
 ### 從任何店面頁面
 

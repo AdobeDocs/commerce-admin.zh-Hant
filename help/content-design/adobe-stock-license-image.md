@@ -3,10 +3,15 @@ title: 授權Adobe Stock影像
 description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，請授權您的Adobe Stock影像。
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 0%
 
 **必要條件**
 
-必須安裝並設定[Adobe Stock整合](./adobe-stock.md)，才能使用Adobe Stock授權功能。 授權[Adobe Stock](https://stock.adobe.com)影像需要付費Adobe Stock計畫和[Adobe帳戶](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)。
+必須安裝並設定[Adobe Stock整合](./adobe-stock.md)，才能使用Adobe Stock授權功能。 授權[Adobe Stock](https://stock.adobe.com)影像需要付費Adobe Stock計畫和[Adobe帳戶](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +52,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/tw/stock/help/credit-packs.html)，才能授權此影像。
+   >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/stock/help/credit-packs.html)，才能授權此影像。
 
 ## 從標準媒體儲存空間授權影像
 
@@ -63,7 +68,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/tw/stock/help/credit-packs.html)，才能授權此影像。
+     >您的帳戶中必須有[個Adobe Stock積分](https://helpx.adobe.com/stock/help/credit-packs.html)，才能授權此影像。
 
    此動作會顯示提示，讓您指定用來將影像儲存至[媒體儲存空間](./media-storage.md)的檔案名稱。 預設檔案名稱已提供，但您可以根據您的偏好自訂名稱。
 

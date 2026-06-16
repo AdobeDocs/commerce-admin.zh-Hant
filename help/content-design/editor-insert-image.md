@@ -2,10 +2,15 @@
 title: 在編輯器中插入影像
 description: WYSIWYG編輯器可讓您從媒體儲存空間插入影像、連結至其他伺服器上的影像，或使用Adobe Stock資產。
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/0SlAN-Ija-mUYhkTfmC4QEfuGPw73szU5-7dqwcFKtc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 移至&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下任何支援編輯器的元素。
+1. 移至&#x200B;_[!UICONTROL Content]_區段，然後按一下任何支援編輯器的元素。
 
 1. 將游標放在您要顯示影像的位置。
 
@@ -30,7 +35,7 @@ ht-degree: 0%
 
    ![插入影像圖示](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_對話方塊。
 
 1. 若為&#x200B;**Source**，請按一下&#x200B;_搜尋_&#x200B;圖示，並使用符合您要使用之影像資產位置的方法：
 

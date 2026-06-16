@@ -3,20 +3,27 @@ title: 管理您的共用目錄
 description: 瞭解共用目錄頁面提供的資訊和工具。
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: 969
 ht-degree: 0%
 
 ---
 
 # 管理您的共用目錄
 
-_[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具的存取權。 此頁面類似於標準管理員工作區，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
+_[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需工具的存取權。 此頁面類似於標準管理員工作區，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
 
 ## 更新產品選擇
 
-任何共用目錄中的產品選取可以輕易地從共用目錄格線的&#x200B;_[!UICONTROL Action]_&#x200B;欄更新。 您所做的變更對任何關聯公司帳戶的成員可見。 此程式基本上與選擇新[目錄結構](catalog-shared-pricing-structure.md)的產品相同，只是無法變更組態範圍。
+任何共用目錄中的產品選取可以輕易地從共用目錄格線的&#x200B;_[!UICONTROL Action]_欄更新。 您所做的變更對任何關聯公司帳戶的成員可見。 此程式基本上與選擇新[目錄結構](catalog-shared-pricing-structure.md)的產品相同，只是無法變更組態範圍。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
@@ -28,7 +35,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具
 
    您可以略過第一個專案，因為共用目錄第一次儲存後就無法變更其範圍。
 
-如果您使用特定產品，_[!UICONTROL Products In Shared Catalog]_&#x200B;區段會列出該產品可用的每個共用目錄。 若要深入瞭解，請參閱[將產品新增至共用目錄](catalog-shared-product-add.md)。
+如果您使用特定產品，_[!UICONTROL Products In Shared Catalog]_區段會列出該產品可用的每個共用目錄。 若要深入瞭解，請參閱[將產品新增至共用目錄](catalog-shared-product-add.md)。
 
 ![共用目錄中的產品](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +47,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具
 
 1. 對於網格中您要更新的共用目錄，請移至&#x200B;**[!UICONTROL Action]**&#x200B;欄並選取&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
-1. 在&#x200B;_[!UICONTROL Catalog Structure]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Configure]**&#x200B;並執行下列任一項作業：
+1. 在&#x200B;_[!UICONTROL Catalog Structure]_頁面上，按一下&#x200B;**[!UICONTROL Configure]**並執行下列任一項作業：
 
    - 在頁面頂端的進度指示器中，按一下&#x200B;**[!UICONTROL Pricing]**。
    - 按一下右上角的&#x200B;**[!UICONTROL Next]**。
@@ -53,7 +60,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，_[!UICONTROL Display Product Prices]_&#x200B;的每個[類別許可權](../catalog/category-permissions.md)以及&#x200B;_[!UICONTROL Add to Cart]_&#x200B;都設定為`Allow`。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，針對在目錄許可權設定中指派此存取權的客戶群組，_[!UICONTROL Display Product Prices]_的每個[類別許可權](../catalog/category-permissions.md)以及_[!UICONTROL Add to Cart]_&#x200B;都設定為`Allow`。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
 
 >[!IMPORTANT]
 >
@@ -109,7 +116,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具
 | [!UICONTROL Back] | 返回「共用目錄」頁面而不儲存新的共用目錄。 |
 | [!UICONTROL Delete] | 刪除目錄，並將任何關聯公司及其成員重新指派給公用共用目錄。 |
 | [!UICONTROL Reset] | 清除任何未儲存變更的形式，並還原原始目錄詳細資訊。 |
-| [!UICONTROL Duplicate] | 建立目錄[&#128279;](catalog-shared-create.md)的重複復本。 對於自訂型錄，原始的訂價模型與結構，但不包含公司關聯。 如果公用共用目錄重複，則重複的目錄型別會變更為`custom`。 也會以與重複目錄相同的名稱建立對應的客戶群組。 依照預設，重複的目錄為原始目錄的&#x200B;_重複_。 |
+| [!UICONTROL Duplicate] | 建立目錄](catalog-shared-create.md)的[重複復本。 對於自訂型錄，原始的訂價模型與結構，但不包含公司關聯。 如果公用共用目錄重複，則重複的目錄型別會變更為`custom`。 也會以與重複目錄相同的名稱建立對應的客戶群組。 依照預設，重複的目錄為原始目錄的&#x200B;_重複_。 |
 | [!UICONTROL Save and Continue Edit] | 儲存所有變更，並保持表單在編輯模式中開啟。 |
 | [!UICONTROL Save] | 儲存變更、關閉表單，然後返回「共用目錄」頁面。 |
 
@@ -120,7 +127,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需工具
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Name] | 在整個管理員以及可用目錄的客戶帳戶中識別共用目錄。 目錄名稱應為描述性的，且長度不得超過32個字元。 您無法擁有兩個名稱相同的共用目錄。 字元數上限： 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** — 識別具有自訂定價的目錄，該目錄僅供指派給該目錄的特定公司使用。<br/>**[!UICONTROL Public]**— 識別可供所有來賓訪客及與公司無關之登入客戶使用的共用目錄。 安裝Adobe Commerce B2B時會建立「預設」公用共用目錄，但必須由管理員設定。 一次只能有一個公用共用目錄。 |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** — 識別具有自訂定價的目錄，該目錄僅供指派給該目錄的特定公司使用。<br/>**[!UICONTROL Public]**— 識別可供所有訪客使用的共用目錄，以及可供與公司無關聯的登入客戶使用。 安裝Adobe Commerce B2B時會建立「預設」公用共用目錄，但必須由管理員設定。 一次只能有一個公用共用目錄。 |
 | [!UICONTROL Customer Tax Class] | 決定從型錄採購時所使用的稅捐類別。 這些選項包含所有可用的稅捐類別。 |
 | [!UICONTROL Description] | 如何使用目錄的簡短說明。 |
 

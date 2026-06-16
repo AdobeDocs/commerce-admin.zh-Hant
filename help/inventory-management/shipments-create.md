@@ -3,9 +3,15 @@ title: 建立多來源出貨
 description: 瞭解多來源商家如何建立並傳送出貨。
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存[&#128279;](stocks-prioritize-sources.md)的來源設定優先順序。
+     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存](stocks-prioritize-sources.md)的來源設定[優先順序。
 
 
    - 針對&#x200B;**[!UICONTROL Select a Source to Ship from]**，選取要傳送出貨的來源。
@@ -54,9 +60,9 @@ ht-degree: 0%
 
      ![選取Source並輸入數量](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. 檢閱&#x200B;_[!UICONTROL New Shipment]_&#x200B;頁面，並視需要輸入任何其他變更。
+1. 檢閱&#x200B;_[!UICONTROL New Shipment]_頁面，並視需要輸入任何其他變更。
 
-   _[!UICONTROL Inventory]_&#x200B;區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
+   _[!UICONTROL Inventory]_區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
 
    ![出貨的詳細存貨資訊，例如部份出貨](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

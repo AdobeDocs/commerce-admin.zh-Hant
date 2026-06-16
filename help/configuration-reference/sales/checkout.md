@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Checkout]'
-description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Checkout]頁面上的組態設定。
+title: '[!UICONTROL Sales] > [!UICONTROL Checkout]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Checkout]頁面上的組態設定。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 648
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![簽出選項](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 存放區檢視 | 決定是否要求客戶在購買前同意銷售的[條款及條件](../../stores-purchase/terms-and-conditions.md)。 選項： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 存放區檢視 | 決定結帳時帳單地址的位置。 選項： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 存放區檢視 | 決定結帳期間可出現在&#x200B;_訂單摘要_&#x200B;中的專案數目上限。 預設值為`10`。 |
-| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)決定客戶是否可以使用[地址搜尋](../../stores-purchase/checkout-address-search.md)功能進行送貨及檢閱和付款步驟。 啟用後，請使用「客戶地址數限制」來設定在結帳期間啟用此功能所需的儲存地址數。 選項： `Yes` / `No` |
-| 客戶地址數量限制 | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)啟用位址搜尋時，會決定結帳期間啟用此功能所需的儲存位址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為`10`。 |
+| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）決定客戶是否可以使用[地址搜尋](../../stores-purchase/checkout-address-search.md)功能進行送貨及檢閱和付款步驟。 啟用後，請使用「客戶地址數限制」來設定在結帳期間啟用此功能所需的儲存地址數。 選項： `Yes` / `No` |
+| 客戶地址數量限制 | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）啟用位址搜尋時，會決定結帳期間啟用此功能所需的儲存位址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為`10`。 |
 
 {style="table-layout:auto"}
 
@@ -37,11 +43,11 @@ ht-degree: 0%
 
 ![購物車](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格[&#128279;](../../stores-purchase/cart-configuration.md#quote-lifetime)的期限（天）。 |
+| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格](../../stores-purchase/cart-configuration.md#quote-lifetime)的[期限（天）。 |
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | 存放區檢視 | 決定產品加入購物車後，[購物車頁面是否立即顯示](../../stores-purchase/cart-configuration.md#redirect-to-cart)。 選項： `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | 存放區檢視 | 決定觸發呼叫前購物車中的專案數。 預設值： `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | 存放區檢視 | 表示購物車中是否顯示[交叉銷售專案](../../catalog/related-products-up-sells-cross-sells.md#cross-sells)，提供額外的銷售選項給客戶。 選項： `Yes` （預設） / `No` |
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 ![我的購物車連結](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -68,7 +74,7 @@ ht-degree: 0%
 
 ![迷你購物車](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -82,7 +88,7 @@ ht-degree: 0%
 
 ![付款失敗的電子郵件](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

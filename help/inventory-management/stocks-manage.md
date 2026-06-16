@@ -2,9 +2,15 @@
 title: 管理存貨存量
 description: 瞭解如何使用存貨來代表您銷售管道來源的虛擬彙總產品詳細目錄。
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -15,13 +21,13 @@ ht-degree: 0%
 
 您一開始會使用無法移除或停用的「預設庫存」。 您只能新增其他銷售管道到庫存。 唯一指派的來源為預設Source。 此庫存供單一來源商家、第三方整合和匯入的產品使用。
 
-Sales Channel代表銷售您詳細目錄的實體。 依預設，[!DNL Commerce]會將您的商店網站作為銷售管道提供。 銷售管道可延伸以支援其他管道，例如B2B客戶群組及商店檢視。 每個銷售管道只能與一個庫存相關聯。
+銷售管道代表銷售存貨的實體。 依預設，[!DNL Commerce]會將您的商店網站作為銷售管道提供。 銷售管道可延伸以支援其他管道，例如B2B客戶群組及商店檢視。 每個銷售管道只能與一個庫存相關聯。
 
 - **Sales Channel支援** — 銷售管道目前包含現成的網站。 您可以擴充銷售管道，以包含B2B客戶群組及商店檢視等自訂選項。 每個銷售管道只能指派單一存貨。 單一庫存可指派給多個銷售管道。
 - **對應至來源** — 每個存貨都可以指派一或多個已啟用或已停用的來源，以計算每個產品的虛擬彙總存貨。
 - **優先順序訂單履行** — 完成訂單時，Source選擇演演算法的現成優先順序演演算法會從上到下使用庫存的來源清單。
 
-下圖可協助定義「庫存」如何與「腳踏車商店」商家的「來源」與「Sales Channel」相關運作。
+下圖可協助定義「存貨」如何與「腳踏車商店」商家的「來源」和「銷售管道」相關運作。
 
 ![商店庫存的圖表](assets/diagram-stock.png){width="600" zoomable="yes"}
 
@@ -43,7 +49,7 @@ Sales Channel代表銷售您詳細目錄的實體。 依預設，[!DNL Commerce]
 
 | 按鈕 | 說明 |
 |--|--|
-| [!UICONTROL Add New Stock] | 開啟&#x200B;_[!UICONTROL New Stock]_&#x200B;表單，此表單用於輸入新的存貨存量，以將存貨對應至銷售管道。 |
+| [!UICONTROL Add New Stock] | 開啟&#x200B;_[!UICONTROL New Stock]_表單，此表單用於輸入新的存貨存量，以將存貨對應至銷售管道。 |
 
 ## 管理Stock欄說明
 

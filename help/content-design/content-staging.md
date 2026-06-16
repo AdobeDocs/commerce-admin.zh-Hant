@@ -3,10 +3,15 @@ title: 內容分段
 description: 內容測試讓您的業務團隊能夠直接從管理員輕鬆建立、預覽和排程您商店的各種內容更新。
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ ht-degree: 0%
 
 所有排定的更新都會連續套用，這表示任何實體一次只能有一個排定的更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，實體無法同時針對不同的存放區檢視有不同的排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
 
-為下列任何物件建立新的排程更新時，會建立對應的促銷活動作為預留位置，_[!UICONTROL Scheduled Changes]_&#x200B;方塊會出現在頁面頂端。 預留位置行銷活動具有開始日期，但無結束日期。 您可以將內容更新排程為行銷活動的一部分，然後依日期、時間或存放區檢視來預覽和共用變更。 為一個物件建立新行銷活動後，您可以將其指派為其他物件的排程更新。
+為下列任何物件建立新的排程更新時，會建立對應的促銷活動作為預留位置，_[!UICONTROL Scheduled Changes]_方塊會出現在頁面頂端。 預留位置行銷活動具有開始日期，但無結束日期。 您可以將內容更新排程為行銷活動的一部分，然後依日期、時間或存放區檢視來預覽和共用變更。 為一個物件建立新行銷活動後，您可以將其指派為其他物件的排程更新。
 
 - [產品](../catalog/product-scheduled-changes.md)
 - [類別](../catalog/category-scheduled-changes.md)
@@ -40,7 +45,7 @@ ht-degree: 0%
 
 1. **建立基準線內容**
 
-   基線是沒有行銷活動的資產內容，且包含頁面頂端&#x200B;_[!UICONTROL Scheduled Changes]_&#x200B;區段以下的所有內容。 一律會使用基準線內容，除非有在時間軸上該位置排程變更的作用中行銷活動。
+   基線是沒有行銷活動的資產內容，且包含頁面頂端&#x200B;_[!UICONTROL Scheduled Changes]_區段以下的所有內容。 一律會使用基準線內容，除非有在時間軸上該位置排程變更的作用中行銷活動。
 
 1. **建立第一個行銷活動**
 
@@ -86,6 +91,6 @@ ht-degree: 0%
 
 如需疑難排解內容測試問題的說明，請參閱下列[!DNL Commerce]支援知識庫文章：
 
-- [由於內容暫存問題，所有頁面都出現404錯誤](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=zh-Hant)
-- [已排程的內容暫存更新未以過時的Fastly快取顯示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=zh-Hant)
-- [我可以針對共用目錄中的價格排程內容測試更新嗎？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=zh-Hant)
+- [由於內容暫存問題，所有頁面均出現錯誤404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [已排程的內容分段更新未與過時的Fastly快取一起顯示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
+- [我可以針對共用目錄中的價格排程內容測試更新嗎？](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)

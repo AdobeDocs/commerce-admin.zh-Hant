@@ -3,9 +3,15 @@ title: 結帳的條款與條件
 description: 瞭解可為您的商店設定的條款與條件功能。
 exl-id: 59ba6385-3cc6-43e8-b984-5c26516bba88
 feature: Checkout, Compliance
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/xHlKdFJPVInadvAyFbs6jFYz4AECWJdkbV8FRoHxE8U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -54,7 +60,7 @@ ht-degree: 0%
 1. 將&#x200B;**[!UICONTROL Show Content as]**&#x200B;設定為下列其中一項：
 
    - `Text` — 以未格式化的文字顯示條款與條件內容。
-   - `HTML` — 將內容顯示為可以格式化的HTML。
+   - `HTML` — 將內容顯示為HTML格式化。
 
 1. 選取您想要使用這些條款與條件的每個&#x200B;**[!UICONTROL Store View]**。
 

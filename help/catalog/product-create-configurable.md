@@ -3,9 +3,15 @@ title: 可設定的產品
 description: 瞭解如何建立可設定的產品，為購物者提供各種選擇。
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
+TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: 1994
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 可設定的產品會顯示為單一產品，其中包含變數（如顏色或大小）的下拉式選項。 每個變數都是一個獨立的、具有自己SKU的簡單產品，可啟用個別詳細目錄追蹤，不同於具有自訂選項的簡單產品。
 
-**最適合：**&#x200B;產品有多個選項（顏色、大小、材質等），您需要追蹤每個變數的詳細目錄。 初始設定需要更長的時間，但可提供更好的擴充性。
+**最適合：**&#x200B;具有多個選項（顏色、大小、材質等）的產品 需要追蹤每個變數之詳細目錄的位置。 初始設定需要更長的時間，但可提供更好的擴充性。
 
 ![可設定的產品](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -112,7 +118,7 @@ ht-degree: 0%
    >
    >可設定的產品必須一律有權重。 如果您從下拉式清單中選取&#x200B;**[!UICONTROL This item has no weight]**，當您儲存產品時，它會自動變更為&#x200B;**[!UICONTROL This item has weight]**。
 
-1. 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
+1. 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
 
 1. 若要在[新產品](../content-design/widget-new-products-list.md)的清單中新增產品，請選取&#x200B;**[!UICONTROL Set Product as New]**&#x200B;核取方塊。
 
@@ -150,7 +156,7 @@ ht-degree: 0%
 
 ### 步驟6：選擇變數屬性
 
-1. 向下捲動至&#x200B;_[!UICONTROL Configurations]_&#x200B;區段並按一下&#x200B;**[!UICONTROL Create Configurations]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Configurations]_區段並按一下&#x200B;**[!UICONTROL Create Configurations]**。
 
    ![組態](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +260,7 @@ ht-degree: 0%
 
 輸入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
 
 為所有產生的產品系列指定來源及新增數量：
 
@@ -274,7 +280,7 @@ ht-degree: 0%
 
 為每個屬性值輸入&#x200B;**[!UICONTROL Quantity]**。
 
-使用[Inventory management &#x200B;](../inventory-management/introduction.md):_的多Source商家(_M)
+使用[Inventory management ](../inventory-management/introduction.md):_的多Source商家(_M)
 
 為所有產生的產品系列指定來源及新增數量：
 
@@ -302,7 +308,7 @@ ht-degree: 0%
 
 ### 步驟10：新增產品影像
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Images and Videos]_區段。
 
 1. 按一下&#x200B;_攝影機_&#x200B;圖磚，並瀏覽至可供設定產品使用的主要影像。
 
@@ -338,7 +344,7 @@ ht-degree: 0%
 
    - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-   - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![&#x200B; ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
+   - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
 
    該存放區會在新的瀏覽器標籤中開啟。
 
@@ -382,7 +388,7 @@ ht-degree: 0%
 
 ### 手動庫存狀態變更
 
-如果您手動將庫存狀態設為`Out of Stock` （透過管理員使用者動作、檔案匯入或API呼叫），在手動將其變更回`Out of Stock`之前，它會在管理員和店面中維持`In Stock`。 它不受子產品庫存狀態的影響。
+如果您手動將庫存狀態設為`Out of Stock` （透過管理員使用者動作、檔案匯入或API呼叫），在手動將其變更回`In Stock`之前，它會在管理員和店面中維持`Out of Stock`。 它不受子產品庫存狀態的影響。
 
 ## 系統組態（選擇性）
 
@@ -394,7 +400,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;_[!UICONTROL Shopping Cart]_。
+1. 展開&#x200B;_[!UICONTROL Shopping Cart]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 將&#x200B;**[!UICONTROL Configurable Product Image]**&#x200B;設為`Product Thumbnail Itself`。
 
@@ -408,7 +414,7 @@ ht-degree: 0%
 
 - **詳細目錄追蹤：**&#x200B;與具有自訂選項的簡單產品不同，可設定的產品會獨立追蹤每個變數的詳細目錄。
 
-- **子產品型別：**&#x200B;子產品可以是簡單或虛擬產品&#x200B;**沒有自訂選項**。 若要讓子產品成為虛擬，請為每個子產品的`Тhis item has no weight`設定選取&#x200B;**[!UICONTROL Weight]**。
+- **子產品型別：**&#x200B;子產品可以是簡單或虛擬產品&#x200B;**沒有自訂選項**。 若要讓子產品成為虛擬，請為每個子產品的&#x200B;**[!UICONTROL Weight]**&#x200B;設定選取`Тhis item has no weight`。
 
 - **全域指派：**&#x200B;子產品會同時從所有網站、商店和商店檢視中的可設定產品&#x200B;**全域**&#x200B;進行指派和取消指派。
 

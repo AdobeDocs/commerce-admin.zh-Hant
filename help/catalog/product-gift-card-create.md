@@ -3,9 +3,15 @@ title: 禮卡產品
 description: 瞭解如何建立禮品卡產品，該產品會產生唯一代碼，以供收件者客戶在結帳時兌換。
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
+TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 在&#x200B;_[!UICONTROL Add Product]_&#x200B;的右上角(![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"}  )功能表，選擇&#x200B;**[!UICONTROL Gift Card]**。
+1. 在&#x200B;_[!UICONTROL Add Product]_（ ![功能表箭頭](../assets/icon-menu-down-arrow-red.png){width="25"} ）功能表的右上角，選擇&#x200B;**[!UICONTROL Gift Card]**。
 
    ![新增禮品卡](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -96,9 +102,9 @@ ht-degree: 0%
 
 ### 步驟5：完成禮卡資訊
 
-產品設定的&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;區段可用來覆寫決定卡片管理方式的[禮卡組態](../configuration-reference/sales/gift-cards.md)設定。
+產品設定的&#x200B;_[!UICONTROL Gift Card Information]_區段可用來覆寫決定卡片管理方式的[禮卡組態](../configuration-reference/sales/gift-cards.md)設定。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Gift Card Information]_&#x200B;區段。
+1. 向下捲動至&#x200B;_[!UICONTROL Gift Card Information]_區段。
 
    此段落中的預設設定由系統組態決定。
 
@@ -127,7 +133,7 @@ ht-degree: 0%
 - [設計](settings-advanced-design.md)
 - [贈品選項](product-gift-options.md)
 
-### 步驟7：Publish產品
+### 步驟7：發佈產品
 
 1. 如果您已準備好發佈目錄中的產品，請將&#x200B;**啟用產品**&#x200B;切換為`Yes`。
 

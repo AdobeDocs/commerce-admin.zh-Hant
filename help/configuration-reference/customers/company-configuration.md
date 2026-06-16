@@ -1,11 +1,18 @@
 ---
-title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Company Configuration]'
-description: 檢閱Commerce管理員的[!UICONTROL Customers] &amp；gt； [!UICONTROL Company Configuration]頁面上的組態設定。
+title: '[!UICONTROL Customers] > [!UICONTROL Company Configuration]'
+description: 檢閱Commerce管理員的[!UICONTROL Customers] &gt； [!UICONTROL Company Configuration]頁面上的組態設定。
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 843
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱[Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)。
+>在安裝及啟用Adobe Commerce B2B後，即可使用公司專屬的功能個人化購買體驗。 Adobe Commerce B2B是整合式解決方案，可支援B2B和B2C模型。 如需B2B功能的詳細資訊，請參閱[Adobe Commerce B2B使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)。
 
 >[!NOTE]
 >

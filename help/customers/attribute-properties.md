@@ -3,9 +3,15 @@ title: 客戶屬性屬性
 description: 瞭解如何設定客戶屬性屬性。
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >**捷徑：**&#x200B;若要只完成必要欄位，請向下捲動至&#x200B;_[!UICONTROL Storefront Properties]_，輸入&#x200B;_[!UICONTROL Sort Order]_，然後儲存。
+   >**捷徑：**&#x200B;若要只完成必要欄位，請向下捲動至&#x200B;_[!UICONTROL Storefront Properties]_，輸入_[!UICONTROL Sort Order]_，然後儲存。
 
 1. 完成資料專案屬性：
 
@@ -47,7 +53,7 @@ ht-degree: 0%
      | `Text Field` | 單行文字欄位。 |
      | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
      | `Multiple Line` | 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。 使用`Default Value`指定欄位的初始值。 |
-     | `Date` | 以偏好的日期格式和時區顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意：_**&#x200B;根據您的系統組態，_管理員&#x200B;_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](../catalog/attributes-input-types.md#date-and-time-options)。 |
+     | `Date` | 以偏好的日期格式和時區顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](../catalog/attributes-input-types.md#date-and-time-options)。 |
      | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
      | `Dropdown` | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |
      | `Multiple Select` | 接受多個選取值的下拉式清單。 |
@@ -79,7 +85,7 @@ ht-degree: 0%
      |-----|-----------|
      | `None` | 不要將篩選器套用至輸入欄位的文字。 |
      | `Strip HTML Tags` | 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。 |
-     | `Escape  HTML Entities` | 將文字中的特殊字元轉換為有效的HTML逸出順序，例如`&;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體的智慧型引號、版權和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
+     | `Escape  HTML Entities` | 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`&;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體的智慧型引號、版權和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
 
 1. 完成客戶格線和區段屬性：
 
@@ -105,9 +111,9 @@ ht-degree: 0%
 
 1. 將&#x200B;**[!UICONTROL Forms to Use]**&#x200B;設定為要包含屬性的每個表單。 若要選擇多個選項，請按住Ctrl鍵並按一下每個表單。
 
-   - [&#39;客戶註冊&#39;](customer-sign-in.md)
-   - [&#39;客戶帳戶編輯&#39;](account-create.md)
-   - [&#39;管理員簽出&#39;](../stores-purchase/checkout-process.md)
+   - [`Customer Registration`](customer-sign-in.md)
+   - [`Customer Account Edit`](account-create.md)
+   - [`Admin Checkout`](../stores-purchase/checkout-process.md)
 
 ## 步驟3：完成標籤並儲存
 
@@ -127,11 +133,11 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 在管理員和店面中識別屬性的預設標籤。 |
 | [!UICONTROL Attribute Code] | 識別系統內屬性的唯一代碼。 程式碼的長度最多可為60個字元，且不可包含空格或特殊字元。 可以使用底線符號，而非空格。 |
-| [!UICONTROL Input Type] | 決定用於資料輸入的輸入控制項。 選項： <br/>**`Text Field`**— 單行文字欄位。<br/>**`Text Area`** — 多行文字區域。 <br/>**`Multiple Line`**— 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。<br/>**`Date`** — 使用快顯行事曆顯示日期欄位。<br/>**`Dropdown`**— 僅接受選取一個值的下拉式清單。<br/>**`Multiple Select`** — 接受多個選取值的下拉式清單。 <br/>**`Yes/No`**— 僅提供`Yes`或`No`個值選擇的欄位。<br/>**`File (attachment)`** — 允許檔案上傳並將其與客戶屬性關聯為附件的欄位。 <br/>**`Image File`**— 允許將影像上傳到相簿並與客戶屬性關聯的欄位。 |
+| [!UICONTROL Input Type] | 決定用於資料輸入的輸入控制項。 選項： <br/>**`Text Field`**— 單行文字欄位。<br/>**`Text Area`** — 多行文字區域。<br/>**`Multiple Line`**— 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數目可以是2到20。<br/>**`Date`** — 顯示包含快顯行事曆的日期欄位。<br/>**`Dropdown`**— 僅接受選取一個值的下拉式清單。<br/>**`Multiple Select`** — 接受多個選取值的下拉式清單。<br/>**`Yes/No`**— 僅提供`Yes`或`No`個值選擇的欄位。<br/>**`File (attachment)`** — 允許檔案上傳並與客戶屬性建立關聯的欄位，以作為附件。<br/>**`Image File`**— 允許將影像上傳到相簿並與客戶屬性關聯的欄位。 |
 | [!UICONTROL Values Required] | 決定是否必須在欄位中輸入值。 選項： `Yes` / `No` |
 | [!UICONTROL Default Value] | 指定屬性的初始值。 |
-| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 <br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者的最大長度要求。 結帳時，客戶可在收件者和寄件者的街道地址中，輸入數字(0-9)、字母字元(a-z、A-Z)和空格的任意組合。 儲存地址時，會裁剪任何額外的空格。<br/>**`Numeric Only`** — 在資料輸入期間只接受數字(0-9)。 <br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>**`URL`** — 在資料輸入期間只接受URL。 <br/>**`Email`**— 在資料輸入期間只接受電子郵件地址。<br/>**`Length Only`** — 根據輸入欄位的資料長度來驗證輸入。 |
-| [!UICONTROL Input/Output Filter] | 在儲存記錄之前，將前置處理篩選套用至在文字欄位、文字區域或多行輸入型別中輸入的值。 選項： <br/>**`None`**— 不會將篩選器套用至輸入欄位的文字。<br/>**`Strip HTML Tags`** — 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。 <br/>**`Escape HTML Entities`**— 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`amp;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體製作者的智慧型引號、版權符號和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
+| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。<br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者的最大長度要求。 結帳時，客戶可在收件者和寄件者的街道地址中，輸入數字(0-9)、字母字元(a-z、A-Z)和空格的任意組合。 儲存地址時，會裁剪任何額外的空格。<br/>**`Numeric Only`** — 在資料輸入期間只接受數字(0-9)。<br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>**`URL`** — 在資料輸入期間只接受URL。<br/>**`Email`**— 在資料輸入期間只接受電子郵件地址。<br/>**`Length Only`** — 根據輸入欄位的資料長度來驗證輸入。 |
+| [!UICONTROL Input/Output Filter] | 在儲存記錄之前，將前置處理篩選套用至在文字欄位、文字區域或多行輸入型別中輸入的值。 選項： <br/>**`None`**— 不會將篩選器套用至輸入欄位的文字。<br/>**`Strip HTML Tags`** — 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。<br/>**`Escape HTML Entities`**— 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`amp;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體製作者的智慧型引號、版權符號和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
 | [!UICONTROL Add to Column Options] | 指定屬性是否包含在[客戶](customers-all.md)格線中。 選項： `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | 指定屬性是否可用作網格搜尋作業的篩選。 選項： `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | 指定從格線搜尋作業之屬性的篩選比對條件。 它不會影響格線的&#x200B;_依關鍵字搜尋_&#x200B;欄位。 選項： `Partial Match` / `Prefix Match` / `Full Match` |
@@ -163,7 +169,7 @@ ht-degree: 0%
 | `lastname` | 客戶的姓氏。 |
 | `suffix` | 與客戶名稱搭配使用的任何尾碼。 （例如Jr.、Sr.或Esquire） |
 | `email` | 客戶的電子郵件地址。 |
-| `dob` | 客戶的出生日期。  <br><br>**_重要：_**&#x200B;根據目前的安全性和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
+| `dob` | 客戶的出生日期。 <br><br>**_重要:_**&#x200B;根據目前的安全性和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
 | `taxvat` | 指派給客戶的增值稅(VAT) ID。 此屬性的預設標籤為`VAT Number`。 從「管理員」檢視時，「VAT編號」欄位一律會出現在所有送貨與帳單客戶地址中，但並非必填欄位。 |
 | `gender` | 客戶性別。 |
 

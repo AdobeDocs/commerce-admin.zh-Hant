@@ -3,9 +3,15 @@ title: 獎勵匯率
 description: 瞭解如何設定獎勵匯率，以決定獲得的獎勵點數。
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 **4**：適用於所有網站和所有客戶群組。
 
-將貨幣轉換為點數時，點數無法劃分。 任何剩餘貨幣都會無條件舍去。 例如，如果$2.00轉換成十點，則以$2.00的群組獲得點數。因此，$7.00的訂單可贏取30點，而剩下的$1.00則會舍入入計算。 訂單的貨幣金額定義為商家收到的金額，或總金額減去運費、稅捐、折扣、商店貸方和禮品卡。 當訂單中沒有未開立商業發票的專案時（所有專案都會付款或取消），即會取得積分。 如果管理員使用者不想讓客戶獲得已取消訂單的獎勵積分，則可以從「管理客戶」頁面手動扣除這些積分。
+將貨幣轉換為點數時，點數無法劃分。 任何剩餘貨幣都會無條件舍去。 例如，如果$2.00轉換成十點，則以$2.00的群組獲得點數。 因此，$7.00的訂單可贏取30點，而剩下的$1.00則會舍入入計算。 訂單的貨幣金額定義為商家收到的金額，或總金額減去運費、稅捐、折扣、商店貸方和禮品卡。 當訂單中沒有未開立商業發票的專案時（所有專案都會付款或取消），即會取得積分。 如果管理員使用者不想讓客戶獲得已取消訂單的獎勵積分，則可以從「管理客戶」頁面手動扣除這些積分。
 
 ## 設定匯率
 
@@ -51,12 +57,12 @@ ht-degree: 0%
 
    無論是哪一個「方向」設定，金額都會以網站的基本貨幣表示。
 
-1. 根據&#x200B;_[!UICONTROL Direction]_&#x200B;設定輸入&#x200B;**[!UICONTROL Rate]**&#x200B;值。
+1. 根據&#x200B;_[!UICONTROL Direction]_設定輸入&#x200B;**[!UICONTROL Rate]**值。
 
    | 方向 | 費率設定 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入點數。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。 |
-   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入貨幣值。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
+   | [!UICONTROL Points to Currency] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。 |
+   | [!UICONTROL Currency to Points] | 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
 
    將點數轉換為貨幣時，點數無法劃分。 例如，如果10點轉換為$2.00，則必須在以10點為單位的群組中兌換點。 因此，25點可兌換$4.00，剩餘5點則歸客戶結餘。
 
@@ -80,4 +86,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 套用回報率的網站。 |
 | [!UICONTROL Customer Group] | 套用回報率的客戶群組。 |
-| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額的點數的數量。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入點數。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]** — 定義可取得客戶點的訂單金額。 在前&#x200B;_[!UICONTROL Rate]_&#x200B;個欄位中，輸入貨幣值。 在第二個&#x200B;_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |
+| [!UICONTROL Direction] | 決定匯率所定義的交易型別。 選項： <br/>**[!UICONTROL Points to Currency]**— 定義可套用為訂單金額的點數的數量。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入點數。 在第二個_[!UICONTROL Rate]_欄位中，輸入點的貨幣值。<br/>**[!UICONTROL Currency to Points]** — 定義可取得客戶點的訂單金額。 在前&#x200B;_[!UICONTROL Rate]_個欄位中，輸入貨幣值。 在第二個_[!UICONTROL Rate]_&#x200B;欄位中，輸入貨幣值所代表的點數。 |

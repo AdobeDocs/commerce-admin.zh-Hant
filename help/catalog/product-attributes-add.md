@@ -3,9 +3,15 @@ title: 將屬性新增至產品
 description: 瞭解如何將屬性新增至目錄中的產品。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
+TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 ![屬性屬性](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Attribute Properties]_&#x200B;底下，輸入&#x200B;**[!UICONTROL Attribute Label]**&#x200B;以識別屬性。
+1. 在&#x200B;_[!UICONTROL Attribute Properties]_底下，輸入&#x200B;**[!UICONTROL Attribute Label]**以識別屬性。
 
 1. 將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設定為要用於資料輸入的[輸入控制項](attributes-input-types.md)的型別。
 
@@ -85,11 +91,11 @@ ht-degree: 0%
 
 1. 如果您想要將屬性加入為Products格線中的資料行，請將&#x200B;**[!UICONTROL Add to Column Options]**&#x200B;設為`Yes`。
 
-1. 如果您想要能夠依此資料行篩選&#x200B;_[!UICONTROL Products]_&#x200B;網格，請將&#x200B;**[!UICONTROL Use in Filter Options]**&#x200B;設為`Yes`。
+1. 如果您想要能夠依此資料行篩選&#x200B;_[!UICONTROL Products]_網格，請將&#x200B;**[!UICONTROL Use in Filter Options]**設為`Yes`。
 
 ## 步驟4：輸入欄位標籤
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Manage titles]**。
+1. 展開&#x200B;**[!UICONTROL Manage titles]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 輸入要做為欄位標籤的&#x200B;**[!UICONTROL Title]**。
 
@@ -99,11 +105,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用[即時搜尋指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中即時搜尋多面向清單&#x200B;_中的_&#x200B;編輯選項，手動編輯標籤。
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的[編輯選項，手動編輯標籤。
 
 ## 步驟5：說明店面屬性
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 展開&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![店面屬性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
@@ -119,7 +125,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當&#x200B;_[!UICONTROL Use in Search]_&#x200B;設定設為`No`時，不會顯示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
+   >當&#x200B;_[!UICONTROL Use in Search]_設定設為`No`時，不會顯示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
 
 1. 若要在搜尋結果頁面的階層式導覽中使用屬性，請將&#x200B;**[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;設為`Yes`，並在&#x200B;**[!UICONTROL Position]**&#x200B;欄位中輸入數字。
 
@@ -127,7 +133,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;欄位預設為灰色，您必須先儲存屬性，才能修改此設定。
+   >_[!UICONTROL Position]_欄位預設為灰色，您必須先儲存屬性，才能修改此設定。
 
 1. 若要在價格規則中使用屬性，請將&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;設為`Yes`。
 

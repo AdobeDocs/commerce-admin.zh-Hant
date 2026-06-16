@@ -3,10 +3,16 @@ title: 類別URL重寫
 description: 瞭解如何使用類別URL重寫來將連結重新導向至Commerce商店中另一個類別的URL。
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/pIcBllfXpvaTiAJJFL8kpeU62krmeC1LJ4xKf-9Kr08
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: 712
 ht-degree: 0%
 
 ---
@@ -45,7 +51,7 @@ ht-degree: 0%
 
    - 按一下右上角的&#x200B;**[!UICONTROL Delete]**。 出現提示時，按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。
 
-1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_&#x200B;頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
+1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
 
 1. 將&#x200B;**[!UICONTROL Create URL Rewrite]**&#x200B;設為`For category`，然後在樹狀結構中選擇重新導向目的地的目標類別。
 
@@ -97,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL Create URL Rewrite] | 指示重寫的型別。 建立重寫之後無法變更型別。 選項： `Custom` / `For category` / `For product` / `For CMS page` |
 | [!UICONTROL Request Path] | 要重新導向的類別。 根據您的設定，請求路徑可能包含.html或.htm尾碼以及父類別。 請求路徑必須是唯一的，且不能由另一個重新導向使用。 如果您收到請求路徑存在的錯誤，請刪除現有的重新導向，然後再試一次。 |
 | [!UICONTROL Target Path] | 系統用來指向重新導向目的地的內部路徑。 目標路徑會呈現灰色，且無法編輯。 |
-| [!UICONTROL Redirect] | 決定重新導向的型別。 選項： <br/>**[!UICONTROL No]**— 未指定重新導向。 許多作業會建立此型別的重新導向要求。 例如，每次您將產品新增至類別時，每個商店檢視都會建立`No`型別的重新導向。<br/>**[!UICONTROL Temporary (302)]** — 向搜尋引擎指出該重新寫入限時有效。 搜尋引擎通常不會保留頁面排名資訊以供暫時重寫。 <br/>**[!UICONTROL Permanent (301)]**— 向搜尋引擎指出此重新寫入是永久性的。 搜尋引擎通常會保留頁面排名資訊以供永久重寫。 |
+| [!UICONTROL Redirect] | 決定重新導向的型別。 選項： <br/>**[!UICONTROL No]**— 未指定重新導向。 許多作業會建立此型別的重新導向要求。 例如，每次您將產品新增至類別時，每個商店檢視都會建立`No`型別的重新導向。<br/>**[!UICONTROL Temporary (302)]** — 向搜尋引擎指出該重新寫入限時有效。 搜尋引擎通常不會保留頁面排名資訊以供暫時重寫。<br/>**[!UICONTROL Permanent (301)]**— 向搜尋引擎指出此重新寫入是永久性的。 搜尋引擎通常會保留頁面排名資訊以供永久重寫。 |
 | [!UICONTROL Description] | 說明重寫以供內部參考的用途。 |
 
 {style="table-layout:auto"}

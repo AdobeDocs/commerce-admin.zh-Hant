@@ -3,9 +3,15 @@ title: 管理產品影像和影片
 description: 瞭解如何管理產品清單的影像和視訊資產。
 exl-id: 3cb4ab8a-8966-400f-be94-a517634d1334
 feature: Catalog Management, Products, Media
-source-git-commit: 37eb42859700670420d4628d9a90d8d8d7b6c53b
+TQID: https://experienceleague.adobe.com/gbvXNkkQXUwyp7oE-xZGLEDNmsJIW4ezKHoOojdmGgA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 對於每個產品，您可以上傳多個影像和影片、重新安排其順序，並控制每個產品的使用方式。 如果要管理大量的影像，您可能會偏好以批次匯入，而非個別上傳每個影像。 如需詳細資訊，請參閱[匯入產品影像](../systems/data-import-product-images.md)。
 
-如果您打算上傳大型影像以供在&#x200B;_[!UICONTROL Product Details]_&#x200B;頁面上檢視，建議您設定畫素大小上限（寬度和高度），並在上傳時自動調整檔案大小。 上傳影像時，有一個選項可啟用自動調整大型影像檔案的大小。 如需詳細資訊，請參閱[調整產品影像大小](product-image-config.md#product-image-resizing)。
+如果您打算上傳大型影像以供在&#x200B;_[!UICONTROL Product Details]_頁面上檢視，建議您設定畫素大小上限（寬度和高度），並在上傳時自動調整檔案大小。 上傳影像時，有一個選項可啟用自動調整大型影像檔案的大小。 如需詳細資訊，請參閱[調整產品影像大小](product-image-config.md#product-image-resizing)。
 
 ## 更新產品影像
 
@@ -26,7 +32,7 @@ ht-degree: 0%
    >
    >新產品影像會&#x200B;**_一律_**&#x200B;上傳並顯示在&#x200B;**_所有_**&#x200B;市集檢視中，即使`All Store Views`範圍未用於上傳。 <br/><br/>若要從特定商店檢視隱藏任何產品影像，您必須切換到該商店檢視，選取影像的&#x200B;**[!UICONTROL Hide from Product Page]**&#x200B;核取方塊，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-1. 向下捲動並展開&#x200B;_[!UICONTROL Images and Videos]_&#x200B;區段。
+1. 向下捲動並展開&#x200B;_[!UICONTROL Images and Videos]_區段。
 
 ### 上傳影像
 
@@ -36,15 +42,15 @@ ht-degree: 0%
 
 若要上傳影像，請執行下列任一項作業：
 
-- 從您的案頭拖曳影像，並將它拖放到&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中的_&#x200B;攝影機&#x200B;_（ ![攝影機圖示](../assets/icon-camera.png) ）圖磚上。
+- 從您的案頭拖曳影像，並將它拖放到&#x200B;_[!UICONTROL Images And Videos]_方塊中的_&#x200B;攝影機&#x200B;_（ ![攝影機圖示](../assets/icon-camera.png) ）圖磚上。
 
-- 在&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中，按一下_&#x200B;攝影機&#x200B;_（![攝影機圖示](../assets/icon-camera.png) ）圖磚，選取您電腦上的影像檔，然後按一下&#x200B;**[!UICONTROL Open]**。
+- 在&#x200B;_[!UICONTROL Images And Videos]_方塊中，按一下_&#x200B;攝影機&#x200B;_（![攝影機圖示](../assets/icon-camera.png) ）圖磚，選取您電腦上的影像檔，然後按一下&#x200B;**[!UICONTROL Open]**。
 
   ![上傳或拖放](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 重新排列影像
 
-若要變更相簿中影像的順序，請按一下影像圖磚底部的&#x200B;_[!UICONTROL Sort]_（ ![排序圖示](./assets/inventory-icon-sort.png) ）圖示，並將影像拖曳至&#x200B;_[!UICONTROL Images And Videos]_&#x200B;方塊中的不同位置。
+若要變更相簿中影像的順序，請按一下影像圖磚底部的&#x200B;_[!UICONTROL Sort]_（ ![排序圖示](./assets/inventory-icon-sort.png) ）圖示，並將影像拖曳至_[!UICONTROL Images And Videos]_&#x200B;方塊中的不同位置。
 
 ![變更順序](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +72,13 @@ ht-degree: 0%
 
 影像替代文字經熒幕助讀程式參考以改善網頁協助工具，並由搜尋引擎在索引網站時參考。 有些瀏覽器會在滑鼠懸停時顯示Alt文字。 替代文字可以是幾個字長，並包含仔細選取的關鍵字。
 
-在&#x200B;_[!UICONTROL Alt Text]_&#x200B;方塊中，輸入影像的簡短描述。
+在&#x200B;_[!UICONTROL Alt Text]_方塊中，輸入影像的簡短描述。
 
 #### 指派角色
 
 依預設，所有角色都會指派給上傳至產品的第一個影像。 若要將角色重新指派給另一個影像，請執行下列動作：
 
-在&#x200B;_[!UICONTROL Role]_&#x200B;方塊中，選擇要指派給影像的角色。
+在&#x200B;_[!UICONTROL Role]_方塊中，選擇要指派給影像的角色。
 
 當您返回&#x200B;_影像和影片_&#x200B;區段時，目前指派的角色會出現在每個影像下方。
 
@@ -86,11 +92,11 @@ ht-degree: 0%
 
 ## 在商店檢視層級管理影像和影片
 
-當您將&#x200B;**[!UICONTROL Store View]**&#x200B;選擇器切換到特定存放區檢視（而非&#x200B;**[!UICONTROL All Store Views]**）時，_[!UICONTROL Images and Videos]_&#x200B;區段會提供其他控制項，用於管理如何顯示該存放區檢視的影像，而不會影響預設範圍。
+當您將&#x200B;**[!UICONTROL Store View]**&#x200B;選擇器切換到特定存放區檢視（而非&#x200B;**[!UICONTROL All Store Views]**）時，_[!UICONTROL Images and Videos]_區段會提供其他控制項，用於管理如何顯示該存放區檢視的影像，而不會影響預設範圍。
 
 ### 為商店檢視重新排序影像
 
-在存放區檢視範圍中工作時，_[!UICONTROL Images and Videos]_&#x200B;方塊下方會顯示&#x200B;**[!UICONTROL Use Default Order]**&#x200B;核取方塊。 選取此核取方塊，將影像顯示順序還原為在預設範圍中定義的順序。
+在存放區檢視範圍中工作時，_[!UICONTROL Images and Videos]_方塊下方會顯示&#x200B;**[!UICONTROL Use Default Order]**核取方塊。 選取此核取方塊，將影像顯示順序還原為在預設範圍中定義的順序。
 
 ![影像和影片 — 商店檢視](./assets/product-images-and-videos-rearrange-store-scope.png){width="600" zoomable="yes"}
 
@@ -129,9 +135,9 @@ ht-degree: 0%
 
    如需設計組態的詳細資訊，請參閱[設計組態](../content-design/configuration.md)。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開&#x200B;**[!UICONTROL Product Image Watermarks]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開&#x200B;**[!UICONTROL Product Image Watermarks]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![產品影像浮水印 — Base](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

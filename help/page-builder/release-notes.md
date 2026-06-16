@@ -3,9 +3,15 @@ title: ' [!DNL Page Builder]的發行說明'
 description: 檢閱發行說明，瞭解所有 [!DNL Page Builder] 發行版本的相關資訊。
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/gw4-6vCpburzac-VmejAMajwHjHNCTPmVkBUi5qOsuk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: 2839
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ ht-degree: 0%
 ![新](../assets/new.svg) <!-- Issue 594 -->**新增多行資料行支援至[資料行]群組** — 有了這項新增功能，使用者可以在一個[!DNL Columns]群組內操控多行資料行，讓資料行配置更加靈活。
 <!--- PB-108-->
 
-如需使用新[群組的相關資訊，請參閱](./column.md)配置 — 欄[!DNL Columns]。
+如需使用新[!DNL Columns]群組的相關資訊，請參閱[配置 — 欄](./column.md)。
 
 ## 適用於Commerce 2.4.4的1.7.1
 
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 ![已修正問題](../assets/fix.svg)頁面產生器現在會依預期在[字型大小選項]功能表上顯示所有選項。 先前並未顯示所有選項。<!--- AC-1056-->
 
-![已修正問題](../assets/fix.svg)已將`phpgt/dom`擴充功能的`magento/magento2-page-builder` Composer相依性升級至最新版本。<!--- magento/magento2-page-builder/pull/779-->
+![已修正問題](../assets/fix.svg)已將`magento/magento2-page-builder`擴充功能的`phpgt/dom` Composer相依性升級至最新版本。<!--- magento/magento2-page-builder/pull/779-->
 
 ![修正問題](../assets/fix.svg)當在小欄中顯示滑桿時，頁面產生器不再調整「插入連結」和「插入影像」對話方塊的大小。<!--- AC-973-->
 
@@ -181,22 +187,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您已建立其他資料庫實體來儲存[!DNL Page Builder]內容，則&#x200B;_必須_&#x200B;將這些實體新增至`etc/di.xml`。 若未更新，則儲存在您實體中的[!DNL Page Builder]內容不會更新，這可能會導致資料遺失和顯示問題。 例如，如果您已建立儲存[!DNL Page Builder]內容的部落格實體，則必須將您的部落格實體新增至`etc/di.xml`檔案作為`UpgradableEntitiesPool`型別，以便升級程式庫可以更新您部落格中使用的[!DNL Page Builder]內容型別。 如需有關使用升級程式庫的詳細資訊與指示，請參閱[Page Builder開發人員指南](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)中的&#x200B;_升級內容型別_。
+>如果您已建立其他資料庫實體來儲存[!DNL Page Builder]內容，則&#x200B;_必須_&#x200B;將這些實體新增至`etc/di.xml`。 若未更新，則儲存在您實體中的[!DNL Page Builder]內容不會更新，這可能會導致資料遺失和顯示問題。 例如，如果您已建立儲存[!DNL Page Builder]內容的部落格實體，則必須將您的部落格實體新增至`etc/di.xml`檔案作為`UpgradableEntitiesPool`型別，以便升級程式庫可以更新您部落格中使用的[!DNL Page Builder]內容型別。 如需有關使用升級程式庫的詳細資訊與指示，請參閱&#x200B;_Page Builder開發人員指南_&#x200B;中的[升級內容型別](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)。
 
 ![新](../assets/new.svg) **新增外觀的檔案** — 現在已發佈關於[新增現有或自訂內容型別的外觀](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)的開發人員資訊。
 
 ![已修正問題](../assets/fix.svg) **各種修正**
 
-- &#x200B;<!-- PB-50 -->修正投影片的父容器重複時，投影片內容的TinyMCE功能表會出現在其他內容型別下的問題。
-- &#x200B;<!-- PB-166 -->更新[!DNL Page Builder]以實作destroy方法，以防止某些情況下發生記憶體遺失。
-- &#x200B;<!-- PB-170 -->改善在管理階段使用多個執行個體時的TinyMCE效能。
-- &#x200B;<!-- PB-252 -->修正當頂端列標示為隱藏時，Dynamic Block內容型別不會在Admin階段呈現的問題。
-- &#x200B;<!-- PB-273 -->透過移除各種UI控制項的200毫秒延遲，改善「管理」階段的滑鼠懸停事件。 此變更可讓您更輕鬆地在「舞台」上處理巢狀內容專案。
-- &#x200B;<!-- PB-294 -->修正管理階段中，區塊/動態區塊內的產品清單Widget中貨幣符號未正確逸出的問題。
-- &#x200B;<!-- PB-296 -->修正[!DNL Page Builder]編輯面板上的產品總計不適用於自訂MSI Stock產品的問題。
-- &#x200B;<!-- PB-317 -->修正在Microsoft Edge上儲存具有背景影像的[!DNL Page Builder]內容時，無法在店面中轉譯這些影像的問題。
-- &#x200B;<!-- PB-390 -->修正使用者在頁面完全呈現之前按一下「儲存」按鈕時，巢狀[!DNL Page Builder]內容無法儲存的問題。
-- &#x200B;<!-- PB-418 -->修正因[!DNL Page Builder]分析而引發cron作業中的例外狀況錯誤。
+- <!-- PB-50 -->修正投影片的父容器重複時，投影片內容的TinyMCE功能表會出現在其他內容型別下的問題。
+- <!-- PB-166 -->更新[!DNL Page Builder]以實作destroy方法，以防止某些情況下發生記憶體遺失。
+- <!-- PB-170 -->改善在管理階段使用多個執行個體時的TinyMCE效能。
+- <!-- PB-252 -->修正當頂端列標示為隱藏時，Dynamic Block內容型別不會在Admin階段呈現的問題。
+- <!-- PB-273 -->透過移除各種UI控制項的200毫秒延遲，改善「管理」階段的滑鼠懸停事件。 此變更可讓您更輕鬆地在「舞台」上處理巢狀內容專案。
+- <!-- PB-294 -->修正管理階段中，區塊/動態區塊內的產品清單Widget中貨幣符號未正確逸出的問題。
+- <!-- PB-296 -->修正[!DNL Page Builder]編輯面板上的產品總計不適用於自訂MSI Stock產品的問題。
+- <!-- PB-317 -->修正在Microsoft Edge上儲存具有背景影像的[!DNL Page Builder]內容時，無法在店面中轉譯這些影像的問題。
+- <!-- PB-390 -->修正使用者在頁面完全呈現之前按一下「儲存」按鈕時，巢狀[!DNL Page Builder]內容無法儲存的問題。
+- <!-- PB-418 -->修正因[!DNL Page Builder]分析而引發cron作業中的例外狀況錯誤。
 
 ## 適用於Adobe Commerce 2.3.4-p2的1.2.2
 
@@ -208,7 +214,7 @@ ht-degree: 0%
 
 ## 適用於Adobe Commerce 2.3.4的1.2.0
 
-![新的](../assets/new.svg) **[!DNL Page Builder]與PWA Studio**&#x200B;整合 — 已新增[!DNL Page Builder]內容轉譯至PWA Studio中的Venia應用程式。 現在可以在PWA Studio Venia應用程式中檢視[!DNL Page Builder]內容。 如需此新功能的所有資訊，請參閱[!DNL Page Builder]PWA Studio[中的]檔案。
+![新的](../assets/new.svg) **[!DNL Page Builder]與PWA Studio**&#x200B;整合 — 已新增[!DNL Page Builder]內容轉譯至PWA Studio中的Venia應用程式。 現在可以在PWA Studio Venia應用程式中檢視[!DNL Page Builder]內容。 如需此新功能的所有資訊，請參閱[PWA Studio]中的[!DNL Page Builder]檔案。
 
 ![新增](../assets/new.svg) **已新增產品輪播** - <!-- PB-77, PB-173, PB-175 -->產品內容型別現在會提供以輪播/滑桿格式顯示產品的選項，包括根據您的需求自訂輪播的多個選項。
 
@@ -220,14 +226,14 @@ ht-degree: 0%
 
 ![已修正問題](../assets/fix.svg) **各種修正**
 
-- &#x200B;<!-- PB-237 -->安全性增強功能。
-- &#x200B;<!-- PB-41 -->修正UI選取元件中的搜尋，以讓每個搜尋詞僅提出一個AJAX請求。
-- &#x200B;<!-- PB-76, PB-84-->更新管理員中的產品預覽，以符合店面，包括產品的星級評等、顏色和大小選項（如相關）。
-- &#x200B;<!-- PB-169 -->修正在Commerce中啟用JavaScript縮制和套件組合時，無法儲存[!DNL Page Builder]的問題。
-- &#x200B;<!-- PB-241 -->修正產品、區塊和動態區塊的管理員預覽功能，以在Commerce安裝上正確顯示，這些安裝為管理員和前端定義不同的URL。
-- &#x200B;<!-- PB-238 -->修正產品、區塊和動態區塊的Admin預覽，以便在已安裝B2B並啟用&#x200B;_僅登入_&#x200B;選項的Commerce安裝上正確呈現。 在此修正之前，[!DNL Page Builder]預覽會使頁面重新導向至客戶帳戶登入。
-- &#x200B;<!-- PB-239 -->修正預覽[!DNL Page Builder] Admin中的大型頁面時可能發生的工作階段錯誤。
-- &#x200B;<!-- PB-248 -->更新[!DNL Page Builder] LESS樣式以防止店面樣式重複。
+- <!-- PB-237 -->安全性增強功能。
+- <!-- PB-41 -->修正UI選取元件中的搜尋，以讓每個搜尋詞僅提出一個AJAX請求。
+- <!-- PB-76, PB-84-->更新管理員中的產品預覽，以符合店面，包括產品的星級評等、顏色和大小選項（如相關）。
+- <!-- PB-169 -->修正在Commerce中啟用JavaScript縮制和套件組合時，無法儲存[!DNL Page Builder]的問題。
+- <!-- PB-241 -->修正產品、區塊和動態區塊的管理員預覽功能，以在Commerce安裝上正確顯示，這些安裝為管理員和前端定義不同的URL。
+- <!-- PB-238 -->修正產品、區塊和動態區塊的Admin預覽，以便在已安裝B2B並啟用&#x200B;_僅登入_&#x200B;選項的Commerce安裝上正確呈現。 在此修正之前，[!DNL Page Builder]預覽會使頁面重新導向至客戶帳戶登入。
+- <!-- PB-239 -->修正預覽[!DNL Page Builder] Admin中的大型頁面時可能發生的工作階段錯誤。
+- <!-- PB-248 -->更新[!DNL Page Builder] LESS樣式以防止店面樣式重複。
 
 ## Adobe Commerce 2.3.3-p1適用的1.1.1
 
@@ -243,7 +249,7 @@ ht-degree: 0%
 
 ![已修正問題](../assets/fix.svg) <!-- MC-1805 -->已更新[!DNL Page Builder]以支援PHP 7.3版。
 
-![已修正問題](../assets/fix.svg) <!-- MC-4137 -->已將TinyMCE更新至4.9.5版。此更新以及其他改善專案，修正了數個TinyMCE內嵌編輯器問題：
+![已修正問題](../assets/fix.svg) <!-- MC-4137 -->已將TinyMCE更新至4.9.5版。 此更新以及其他改善專案，修正了數個TinyMCE內嵌編輯器問題：
 
 - 在游標所在的位置新增變數、影像和影像連結。
 - 表格和表格儲存格可以置中對齊。

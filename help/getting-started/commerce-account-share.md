@@ -3,9 +3,15 @@ title: 共用 [!DNL Commerce] 帳戶
 description: 瞭解如何授予其他 [!DNL Commerce] 帳戶持有人對您 [!DNL Commerce] 帳戶的有限存取權。
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
+TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: 1078
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 主要帳戶持有人有權授予其他[!DNL Commerce]帳戶持有人的有限存取權。 共用的存取權可以撤銷，但無法傳輸。 對於``Cloud Shared Access from MAG[XYZ]``專案，無法在此處&#x200B;**刪除使用者記錄**，但存取&#x200B;**仍可撤銷**。
 
-只有具有適當許可權的主要帳戶持有人才能正式授予共用存取權。 如果主要帳戶持有人不再擁有存取權或已離開公司，客戶應使用[Commerce帳戶轉移程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-transfer)將擁有權轉移給新連絡人。 雖然Commerce支援團隊在有限的情況下可以模擬客戶，但客戶應設定共用存取權，以降低安全性和責任風險。
+只有具有適當許可權的主要帳戶持有人才能正式授予共用存取權。 如果主要帳戶持有人不再擁有存取權或已離開公司，客戶應使用[Commerce帳戶轉移程式](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer)將擁有權轉移給新連絡人。 雖然Commerce支援團隊在有限的情況下可以模擬客戶，但客戶應設定共用存取權，以降低安全性和責任風險。
 
 
 ![共用存取設定](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -29,10 +35,10 @@ ht-degree: 0%
 
 ## 設定共用帳戶
 
-1. 開始之前，請先從[!DNL Commerce]新共用存取權受權者&#x200B;**的**&#x200B;帳戶取得下列資訊：
+1. 開始之前，請先從&#x200B;**新共用存取權受權者**&#x200B;的[!DNL Commerce]帳戶取得下列資訊：
 
-   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
-   - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_&#x200B;標籤的左上角，**登出**&#x200B;連結的正上方。
+   - 使用者必須已在account.adobe.com註冊帳戶，並透過account.magento.com登入。 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
+   - `MAGE ID/Account ID (MAG00XXXXXXX)`會顯示在&#x200B;_[!UICONTROL Magento]_標籤的左上角，**登出**連結的正上方。
    - 與帳戶相關聯的`Email`位址。
 
 1. 登入您的[[!DNL Commerce] 帳戶](commerce-account-create.md)。
@@ -45,31 +51,31 @@ ht-degree: 0%
 
 1. 在[!UICONTROL _New User Information]_底下，執行下列動作：
 
-   - 輸入新使用者的&#x200B;**[!UICONTROL Account ID]**&#x200B;帳戶中的[!DNL Commerce]。
-   - 輸入與新使用者的&#x200B;**[!UICONTROL Email]**&#x200B;帳戶相關聯的[!DNL Commerce]位址。
+   - 輸入新使用者的[!DNL Commerce]帳戶中的&#x200B;**[!UICONTROL Account ID]**。
+   - 輸入與新使用者的[!DNL Commerce]帳戶相關聯的&#x200B;**[!UICONTROL Email]**&#x200B;位址。
 
    ![新使用者資訊](./assets/shared-new-user.png){width="600"}
 
-1. 在&#x200B;_[!UICONTROL Shared Information]_&#x200B;底下，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Shared Information]_底下，執行下列動作：
 
    - 若要識別共用帳戶，請輸入&#x200B;**[!UICONTROL Share Name]**。 此名稱僅供內部參考，僅供您及共用您帳戶的人檢視。
 
      最佳實務是使用您的組織名稱做為[!UICONTROL Share Name]。 請勿使用以`CLOUD SHARED ACCESS FROM MAG XYX`開頭的名稱。
    - 如果您想要與新使用者共用您的個人聯絡資訊，請輸入&#x200B;**[!UICONTROL Your Email]**&#x200B;和&#x200B;**[!UICONTROL Your Phone]**。
 
-1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_&#x200B;底下，選取您要共用的每個[!DNL Commerce]產品與服務的核取方塊。
+1. 在&#x200B;_[!UICONTROL Grant Account Permissions]_底下，選取您要共用的每個[!DNL Commerce]產品與服務的核取方塊。
 
    ![授與帳戶許可權](./assets/shared-permissions.png){width="600"}
 
 1. 按一下&#x200B;**[!UICONTROL Create Shared Access]**。
 
-   新使用者資訊會出現在[共用存取]頁面的&#x200B;_[!UICONTROL Manage Permissions]_&#x200B;區段中，並傳送電子郵件邀請給新使用者，其中包含存取共用帳戶的指示。
+   新使用者資訊會出現在[共用存取]頁面的&#x200B;_[!UICONTROL Manage Permissions]_區段中，並傳送電子郵件邀請給新使用者，其中包含存取共用帳戶的指示。
 
    ![管理共用存取許可權](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->不需要共用對&#x200B;_[!UICONTROL Security Tool]_&#x200B;的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
+>不需要共用對&#x200B;_[!UICONTROL Security Tool]_的存取權 — 任何具有MAGE ID的使用者都可以使用自己的帳戶設定安全性掃描工具。 他們只需要必要的許可權，就能變更網站，並使用[必要的方法](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)之一來驗證網域的所有權。
 
 ## 存取共用帳戶
 
@@ -77,13 +83,13 @@ ht-degree: 0%
 
 1. 當您收到共用帳戶的邀請時，請依照電子郵件中的指示，登入您自己的[!DNL Commerce]帳戶。
 
-   您帳戶的左側導覽面板有新的&#x200B;_[!UICONTROL Shared with me]_&#x200B;標籤。 右上角的&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控制項具有`My Account`的選項以及共用帳戶的名稱。
+   您帳戶的左側導覽面板有新的&#x200B;_[!UICONTROL Shared with me]_標籤。 右上角的_[!UICONTROL Switch Accounts]_&#x200B;控制項具有`My Account`的選項以及共用帳戶的名稱。
 
    ![與我共用](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   如果您沒有看到&#x200B;_[!UICONTROL Switch Accounts]_&#x200B;控制項，請連絡主要帳戶持有者，並確認他們已輸入正確的[帳戶資訊](#set-up-a-shared-account)。
+   >   如果您沒有看到&#x200B;_[!UICONTROL Switch Accounts]_控制項，請連絡主要帳戶持有者，並確認他們已輸入正確的[帳戶資訊](#set-up-a-shared-account)。
 
 
 1. 若要存取共用帳戶，請將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為共用帳戶的名稱。
@@ -96,11 +102,11 @@ ht-degree: 0%
 
    ![支援](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/overview)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
+   您可以使用共用帳戶中的[Adobe Commerce說明中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)來搜尋文章和疑難排解資訊、尋找已知問題的修補程式，以及建立支援票證。
 
    >[!NOTE]
    >
-   >收到共用存取許可權後，若要[在Experience League上提交支援案例](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，請務必先在左欄中選取以「([!DNL Commerce])」結尾的組織名稱。
+   >收到共用存取許可權後，若要[在Experience League上提交支援案例](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)，請務必先在左欄中選取以「([!DNL Commerce])」結尾的組織名稱。
 
 1. 若要返回您自己的帳戶，請在瀏覽器控制項中按一下&#x200B;**上一步**，並將&#x200B;**[!UICONTROL Switch Accounts]**&#x200B;設為`My Account`。
 
@@ -110,25 +116,25 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL Shared Access]**。
 
-1. 尋找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_&#x200B;下撤銷的帳戶，然後按一下&#x200B;**[!UICONTROL Delete]**。
+1. 尋找要在&#x200B;_[!UICONTROL Managing Users & Permissions]_下撤銷的帳戶，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
    >[!NOTE]
    >
-   > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果帳戶具有[命名模式且無法刪除](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)，這是因為共用存取權是由API建立，而非直接從[Commerce帳戶](https://account.magento.com/)建立。
+   > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果帳戶具有[命名模式且無法刪除](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)，這是因為共用存取權是由API建立，而非直接從[Commerce帳戶](https://account.magento.com/)建立。
    > 
-   > 如果無法刪除，只要讓帳戶擁有者修改共用存取帳戶，並在[授予帳戶許可權]底下，取消勾選每個專案。 在該更新後，使用者將無法再存取任何帳戶資源。
-   > ![影像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.zh-Hant/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > 如果無法刪除，只要讓帳戶擁有者修改共用存取帳戶，並在[授予帳戶許可權]底下，取消勾選每個專案。在該更新後，使用者將無法再存取任何帳戶資源。
+   > ![影像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > 此外，請確定已將使用者從專案移除，這樣他們就不會再收到電子郵件通知： [前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL Delete User]**。
 
 >[!NOTE]
 >
->您無法在此介面中從MAG _XYZ[刪除共用名稱為]_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
+>您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 相關閱讀
 
-[共用存取疑難排解](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[共用存取疑難排解](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

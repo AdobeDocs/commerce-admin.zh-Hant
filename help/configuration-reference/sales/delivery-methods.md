@@ -3,9 +3,15 @@ title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Delivery Methods]頁面上的組態設定。
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 7897d06c5d01eae39612b5d8a4f25514b4901acf
+TQID: https://experienceleague.adobe.com/gCddmom8a8D2mcin8TPv-fmxbFjKyjIdiQVLzIaaECU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '4550'
+source-wordcount: 4550
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 ![平準速率](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -43,7 +49,7 @@ ht-degree: 0%
 
 ![免運費](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 ![資料表費率](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -87,7 +93,7 @@ ht-degree: 0%
 
 ![店內傳遞](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![UPS XML帳戶設定](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -130,7 +136,7 @@ ht-degree: 0%
 
 ![UPS封裝資訊](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -153,7 +159,7 @@ ht-degree: 0%
 
 ![UPS允許的方法](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -168,7 +174,7 @@ ht-degree: 0%
 
 ![UPS適用的國家/地區與其他設定](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -207,7 +213,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-如果未顯示下列欄位，您必須套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)。 此修補程式可支援USPS API，這是REST型平台，可取代Web Tools API。 如需詳細資訊，請參閱[USPS Web Tools API淘汰](../../stores-purchase/carriers.md)。
+如果未顯示下列欄位，您必須套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)。 此修補程式可支援USPS API，這是REST型平台，可取代Web Tools API。 如需詳細資訊，請參閱[USPS Web Tools API淘汰](../../stores-purchase/carriers.md)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -219,14 +225,14 @@ ht-degree: 0%
 | [!UICONTROL Account Number] | 網站 | 您的USPS **帳號**，用於REST API的付款。<br/><br/>**_Note:_**&#x200B;此欄位是選擇性的；不過，必須使用此欄位才能建立送貨標籤。 |
 | [!UICONTROL Customer Registration Identifier(CRID)] | 網站 | 客戶註冊識別碼(CRID)是USPS產生的數值代碼，可唯一識別REST API所在位置的企業。<br/><br/>**_Note:_**&#x200B;此欄位為選用，但必須啟用送貨標籤建立。 |
 | [!UICONTROL Mailer Identifier(MID)] | 網站 | 郵件識別碼(MID)是用於識別郵件的「智慧型郵件」條碼中的欄位。 USPS會將MID指派給要求提供REST API的「郵件擁有者」、「郵件代理程式」或其他服務提供者。<br/><br/>**_Note:_**&#x200B;此欄位是選擇性的；不過，必須使用此欄位才能建立送貨標籤。 |
-| [!UICONTROL Manifest MID] | 網站 | 指定給REST API資訊清單的唯一郵件程式識別碼。<br/><br/>**_Note:_**&#x200B;此欄位是選擇性的；不過，必須啟用送貨標籤建立。 針對套用[AC-15210](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)修補程式的Magento 2.4.7-p8，[!UICONTROL Manifest MID]為必填欄位。 |
+| [!UICONTROL Manifest MID] | 網站 | 指定給REST API資訊清單的唯一郵件程式識別碼。<br/><br/>**_Note:_**&#x200B;此欄位是選擇性的；不過，必須啟用送貨標籤建立。 針對套用[AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)修補程式的Magento 2.4.7-p8，[!UICONTROL Manifest MID]為必填欄位。 |
 | [!UICONTROL AES/ITN] | 網站 | USPS AES - Automated Export System / ITN - REST API的內部交易編號。 <br/><br/>**_Note:_**&#x200B;此欄位通常是選用的，但在下列情況下若要啟用送貨標籤建立，此欄位是必要的： <ul><li>出貨中的每一種貨品（由排程B的匯出代碼<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>定義）價值在$2,500或以下，不需要匯出授權；或</li><li>不論價值為何，這批貨物都會被送往加拿大，不需要出口許可證。</li></ul> |
 
 {style="table-layout:auto"}
 
 ![USPS封裝設定](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -241,7 +247,7 @@ ht-degree: 0%
 
 ![USPS處理費設定](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -254,7 +260,7 @@ ht-degree: 0%
 
 ![USPS允許的方法](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -268,7 +274,7 @@ ht-degree: 0%
 
 ![USPS適用的國家/地區](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -282,7 +288,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx帳戶設定
 
@@ -360,7 +366,7 @@ ht-degree: 0%
 
 ![DHL帳戶設定](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -378,7 +384,7 @@ ht-degree: 0%
 
 ![DHL封裝設定](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -394,7 +400,7 @@ ht-degree: 0%
 
 ![DHL允許的方法](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -410,7 +416,7 @@ ht-degree: 0%
 
 ![DHL適用的國家/地區](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

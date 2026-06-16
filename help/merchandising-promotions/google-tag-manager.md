@@ -3,9 +3,16 @@ title: '[!DNL Google Tag Manager]'
 description: 瞭解如何使用 [!DNL Google Tag Manager] 管理Adobe Commerce網站中與行銷活動相關的許多標籤（程式碼片段）。
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+TQID: https://experienceleague.adobe.com/O6QyIkoGkC1FnCa-8fIjVAhqG4aZwDr-AuAIQqyzdPA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: 1500
 ht-degree: 0%
 
 ---
@@ -44,7 +51,7 @@ ht-degree: 0%
 
    - 選擇&#x200B;**[!UICONTROL Property Settings]**。
 
-   - 在&#x200B;_[!UICONTROL Advertising Features]_&#x200B;底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;設定為`On`。
+   - 在&#x200B;_[!UICONTROL Advertising Features]_底下，將&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**設定為`On`。
 
    - **[!UICONTROL Save]**&#x200B;設定。
 
@@ -96,7 +103,7 @@ ht-degree: 0%
 
    - 導覽至&#x200B;**[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**。
 
-   - 選擇&#x200B;**[!UICONTROL Google Analytics]**&#x200B;並使用您自己的`UA-xxxxxx-x`更新預留位置(**[!UICONTROL GA ID]**)。
+   - 選擇&#x200B;**[!UICONTROL Google Analytics]**&#x200B;並使用您自己的&#x200B;**[!UICONTROL GA ID]**&#x200B;更新預留位置(`UA-xxxxxx-x`)。
 
 1. 依照Google的指示，將標籤、觸發器和變數新增至新容器。
 
@@ -178,7 +185,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Choose Product]**&#x200B;下，選取&#x200B;**[!UICONTROL Google AdWords]**。
 
-   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_&#x200B;下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;並按一下&#x200B;**[!UICONTROL Continue]**。
+   - 在&#x200B;_[!UICONTROL Choose a Tag Type]_下，選取&#x200B;**[!UICONTROL AdWords Conversion Tracking]**並按一下&#x200B;**[!UICONTROL Continue]**。
 
 1. 從您的AdWords帳戶輸入&#x200B;**[!UICONTROL Conversion ID]**&#x200B;和&#x200B;**[!UICONTROL Conversion Label]**，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -188,7 +195,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL Fire On]**&#x200B;底下，按一下&#x200B;**[!UICONTROL Some Pages]**。
 
-1. 在&#x200B;_[!UICONTROL Choose Pages]_&#x200B;區段中，完成下列設定：
+1. 在&#x200B;_[!UICONTROL Choose Pages]_區段中，完成下列設定：
 
    - **[!UICONTROL Name]** — 輸入頁面說明的名稱。
 

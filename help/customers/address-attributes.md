@@ -3,9 +3,15 @@ title: 客戶地址屬性
 description: 瞭解客戶地址屬性，以及如何設定這些屬性屬性。
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
 feature: Customers, Configuration
-source-git-commit: 40c4e6ea44e73b0c5e471f415dafbafe8afddc56
+TQID: https://experienceleague.adobe.com/3u6Rg6pbR1cexQ4gokhMnafNKKR9aL2PAWj9PfP-ZSg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1615
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-「客戶地址」屬性集決定從客戶帳戶或在[結帳](account-dashboard-address-book.md)期間輸入[通訊錄](../stores-purchase/checkout-process.md)的街道地址屬性。
+「客戶地址」屬性集決定從客戶帳戶或在[結帳](../stores-purchase/checkout-process.md)期間輸入[通訊錄](account-dashboard-address-book.md)的街道地址屬性。
 
 可設定自訂地址屬性以提供其他資訊，例如選用的電子郵件地址、Skype帳戶、備用電話號碼、建築物或縣。 然後可以將自訂屬性合併到用來產生銷售檔案的[地址範本](address-templates.md)中。 建立自訂地址屬性的程式幾乎與建立[客戶屬性](attribute-properties.md)相同。
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 1. 若要指派初始值給欄位，請輸入&#x200B;**[!UICONTROL Default Value]**。
 
-1. 若要在儲存記錄之前檢查輸入到欄位中的資料是否準確，請將&#x200B;**[!UICONTROL Input Validation]**&#x200B;設定為允許在該欄位中的資料型別。 可用的值視指定的&#x200B;_[!UICONTROL Input Type]_&#x200B;而定。
+1. 若要在儲存記錄之前檢查輸入到欄位中的資料是否準確，請將&#x200B;**[!UICONTROL Input Validation]**&#x200B;設定為允許在該欄位中的資料型別。 可用的值視指定的&#x200B;_[!UICONTROL Input Type]_而定。
 
    - `None` — 欄位在資料輸入期間沒有輸入驗證。
    - `Alphanumeric` — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 若要包含特殊字元，請參閱下一個步驟中的[!UICONTROL Escape HTML Entities]。
@@ -129,14 +135,14 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 在管理員和店面中識別屬性的預設標籤。 |
 | [!UICONTROL Attribute Code] | 識別系統內屬性的唯一代碼。 程式碼的長度最多可為21個字元，且不可包含空格或特殊字元。 可以使用底線符號，而非空格。 |
-| [!UICONTROL Input Type] | 決定用於資料輸入的[輸入控制項](../catalog/attributes-input-types.md)。 選項： <br/>**`Text Field`**— 單行文字欄位。<br/>**`Text Area`** — 多行文字區域。 <br/>**`Multiple Line`**— 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。<br/>**`Date`** — 使用快顯行事曆顯示日期欄位。<br/>**`Dropdown`**— 僅接受選取一個值的下拉式清單。<br/>**`Multiple Select`** — 接受多個選取值的下拉式清單。 <br/>**`Yes/No`**— 僅提供`Yes`或`No`個值選擇的欄位。<br/>**`File (attachment)`** — 允許檔案上傳並將其與客戶屬性關聯為附件的欄位。 <br/>**`Image File`**— 允許將影像上傳到相簿並與客戶屬性關聯的欄位。 |
+| [!UICONTROL Input Type] | 決定用於資料輸入的[輸入控制項](../catalog/attributes-input-types.md)。 選項： <br/>**`Text Field`**— 單行文字欄位。<br/>**`Text Area`** — 多行文字區域。<br/>**`Multiple Line`**— 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數目可以是2到20。<br/>**`Date`** — 顯示包含快顯行事曆的日期欄位。<br/>**`Dropdown`**— 僅接受選取一個值的下拉式清單。<br/>**`Multiple Select`** — 接受多個選取值的下拉式清單。<br/>**`Yes/No`**— 僅提供`Yes`或`No`個值選擇的欄位。<br/>**`File (attachment)`** — 允許檔案上傳並與客戶屬性建立關聯的欄位，以作為附件。<br/>**`Image File`**— 允許將影像上傳到相簿並與客戶屬性關聯的欄位。 |
 | [!UICONTROL Values Required] | 決定是否必須在欄位中輸入值。 選項： `Yes` / `No` |
 | [!UICONTROL Default Value] | 指定屬性的初始值。 |
-| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。 <br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者最大長度需求。 結帳時，客戶可輸入字母(a-z、A-Z)、數字(0-9)和空格。 儲存地址時會裁剪額外的空格。<br/>**`Numeric Only`** — 在資料輸入期間只接受數字(0-9)。 <br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>**&#x200B; URL &#x200B;**— 在資料輸入期間只接受URL。<br/>**`Email`** — 在資料輸入期間只接受電子郵件地址。 <br/>**`Length Only`**— 根據輸入欄位的資料長度來驗證輸入。<br/><br/>**&#x200B;注意：**&#x200B;對於系統定義的屬性（例如&#x200B;_電話_、_城市_和&#x200B;_街道_），除了任何&#x200B;**[!UICONTROL Input Validation]**&#x200B;設定外，一律會強制執行內建伺服器端驗證。 這些預設規則會限制每個欄位允許的字元，且無法覆寫。**[!UICONTROL Input Validation]**&#x200B;設定只會新增其他限制。 |
-| [!UICONTROL Input/Output Filter] | 在儲存記錄之前，將前置處理篩選套用至在文字欄位、文字區域或多行輸入型別中輸入的值。 選項： <br/>**`None`**— 不會將篩選器套用至輸入欄位的文字。<br/>**`Strip HTML Tags`** — 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。 <br/>**`Escape HTML Entities`**— 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`amp;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體製作者的智慧型引號、版權符號和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
+| [!UICONTROL Input Validation] | 選項的選取由輸入型別決定。 選項： <br/>**`None`**— 欄位在資料輸入期間沒有輸入驗證。<br/>**`Alphanumeric`** — 在資料輸入期間接受任何數字(0-9)和字母字元(a-z、A-Z)的組合。<br/>**`Alphanumeric with Space`**— 允許街道位址中的空格符合電信業者最大長度需求。 結帳時，客戶可輸入字母(a-z、A-Z)、數字(0-9)和空格。 儲存位址時會裁剪額外的空格。<br/>**`Numeric Only`**  — 在資料輸入期間僅接受數字(0-9)。<br/>**`Alpha Only`**— 在資料輸入期間僅接受字母字元(a-z、A-Z)。<br/>** URL **— 在資料輸入期間只接受URL。<br/>**`Email`** — 在資料輸入期間只接受電子郵件地址。<br/>**`Length Only`**— 根據輸入欄位的資料長度來驗證輸入。<br/><br/>**&#x200B;注意：**對於系統定義的屬性（例如&#x200B;_電話_、_城市_和&#x200B;_街道_），除了任何&#x200B;**[!UICONTROL Input Validation]**設定外，一律會強制執行內建伺服器端驗證。 這些預設規則會限制每個欄位允許的字元，且無法覆寫。**[!UICONTROL Input Validation]**設定只會新增其他限制。 |
+| [!UICONTROL Input/Output Filter] | 在儲存記錄之前，將前置處理篩選套用至在文字欄位、文字區域或多行輸入型別中輸入的值。 選項： <br/>**`None`**— 不會將篩選器套用至輸入欄位的文字。<br/>**`Strip HTML Tags`** — 從文字中移除HTML標籤。 此篩選器可協助清除從包含HTML標籤的其他來源貼入欄位中的資料。<br/>**`Escape HTML Entities`**— 將文字中發現的特殊字元轉換為有效的HTML逸出順序，例如`amp;`。 逸出序列會括在&amp;符號和分號之間，常用於印刷體製作者的智慧型引號、版權符號和商標符號。 逸出序列也可用來識別小於(`<`)和大於(`>`)符號等字元，以及程式碼中也使用的&amp;字元。 此篩選器可協助清除有時從文書處理器貼到資料庫欄位的特殊字元。 |
 | [!UICONTROL Add to Column Options] | 指定屬性是否包含在[客戶](./customers-all.md)格線中。 選項： `Yes` / `No` |
 | 在篩選選項中使用 | 指定屬性是否可用作網格搜尋作業的篩選。 選項： `Yes` / `No` |
-| [!UICONTROL Grid Filter Condition Type] | 指定從格線搜尋作業中屬性的篩選比對條件。 它不會影響格線的&#x200B;_[!UICONTROL Search by keyword]_&#x200B;欄位。 選項： `Partial Match` / `Prefix Match` / `Full Match` |
+| [!UICONTROL Grid Filter Condition Type] | 指定從格線搜尋作業中屬性的篩選比對條件。 它不會影響格線的&#x200B;_[!UICONTROL Search by keyword]_欄位。 選項： `Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | 指定屬性值是否可以在搜尋作業中作為關鍵字。 選項： `Yes` / `No` |
 | [!UICONTROL Use in Customer Segment] | 決定屬性是否包含在[客戶區段](./customer-segments.md)條件中。 選項： `Yes` / `No` |
 

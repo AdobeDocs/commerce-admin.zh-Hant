@@ -3,9 +3,15 @@ title: 新增詳細目錄來源
 description: 瞭解如何建立地點的來源，例如倉儲、實體店、配送中心或託運人。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -80,7 +86,7 @@ ht-degree: 0%
 
      ![取車地點](assets/inventory-pickup-location.png)
 
-   如需在使用來源做為收取地點時如何設定電子郵件通知的詳細資訊，請參閱[設定參考指南](../configuration-reference/sales/sales-emails.md)中的&#x200B;_銷售電子郵件_。
+   如需在使用來源做為收取地點時如何設定電子郵件通知的詳細資訊，請參閱&#x200B;_設定參考指南_&#x200B;中的[銷售電子郵件](../configuration-reference/sales/sales-emails.md)。
 
 1. 若要儲存作業，請執行下列任一項作業：
 
@@ -96,7 +102,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Back] | 返回「管理來源」頁面。 |
 | [!UICONTROL Reset] | 將表單中的所有欄位恢復為上次儲存時的值。 |
-| [!UICONTROL Save & Continue] | 儲存所有變更並保持表單開啟以供進一步編輯。 按一下向下箭號以取得其他選項： <br/>**[!UICONTROL Save & Close]**— 儲存對目前記錄的變更、關閉表單，然後返回「管理來源」頁面。<br/>**[!UICONTROL Save & New]** — 儲存變更、關閉目前的記錄，並開啟新的空白表單。 |
+| [!UICONTROL Save & Continue] | 儲存所有變更並保持表單開啟以供進一步編輯。 按一下向下箭號以取得其他選項： <br/>**[!UICONTROL Save & Close]**— 儲存對目前記錄的變更、關閉表單，然後返回[管理來源]頁面。<br/>**[!UICONTROL Save & New]**  — 儲存變更、關閉目前記錄，並開啟新的空白表單。 |
 
 ## 欄位說明
 

@@ -3,9 +3,15 @@ title: Google網站工具
 description: 瞭解可用來最佳化內容、分析流量以及將目錄連結至購物彙總和市場的Google工具整合。
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 662
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 - [Google Analytics](google-analytics.md) — 使用&#x200B;_Google Universal Analytics_&#x200B;來定義額外的自訂維度和量度以進行追蹤，並支援離線和行動應用程式互動，以及存取進行中的更新。
 
-- [Google標籤管理員](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)使用Google標籤管理員來管理許多與行銷活動事件相關的標籤。
+- [Google標籤管理員](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）使用Google標籤管理員來管理許多與行銷活動事件相關的標籤。
 
 - [Google AdWords](google-adwords.md) — 建立Google AdWords行銷活動並追蹤您商店的轉換。
 
@@ -56,9 +62,9 @@ ht-degree: 0%
 
    - 按一下&#x200B;**[!UICONTROL Manage DPA Details]**&#x200B;以開啟DPA管理頁面，您可在此編輯連絡人和貴組織的法律實體。
 
-   - 在&#x200B;**[!UICONTROL Legal Entities]**&#x200B;區段中，按一下&#x200B;_編輯_ (![Google編輯圖示](./assets/google-icon-edit.png) )圖示，並為您的組織新增一或多個已登入的名稱。 完成時，按一下&#x200B;**[!UICONTROL Save]**。
+   - 在&#x200B;**[!UICONTROL Legal Entities]**&#x200B;區段中，按一下&#x200B;_編輯_ （![Google編輯圖示](./assets/google-icon-edit.png) ）圖示，並為您的組織新增一或多個已登入的名稱。 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-   - 在&#x200B;**連絡人**&#x200B;區段中，按一下&#x200B;_新增_ (![Google新增圖示](./assets/google-icon-add.png) )圖示，然後輸入第一個連絡人的資訊。 接著，選取每個適用角色的核取方塊，然後按一下&#x200B;**[!UICONTROL Add]**。
+   - 在&#x200B;**連絡人**&#x200B;區段中，按一下&#x200B;_新增_ （![Google新增圖示](./assets/google-icon-add.png) ）圖示，然後輸入第一個連絡人的資訊。 接著，選取每個適用角色的核取方塊，然後按一下&#x200B;**[!UICONTROL Add]**。
 
       - 主要聯絡人 — （通知電子郵件地址）傳送通知的聯絡人。
       - 資料保護人員 — （若適用）專責促進隱私權法規遵循的人員。
@@ -90,7 +96,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-若要將&#x200B;**_Google Tag Manager_**&#x200B;使用的IP位址匿名化，請在網頁伺服器上的`anonymize_ip`資料庫中將`true`引數設定為`gtag.js`。
+若要將&#x200B;**_Google Tag Manager_**&#x200B;使用的IP位址匿名化，請在網頁伺服器上的`gtag.js`資料庫中將`anonymize_ip`引數設定為`true`。
 
 gtag.js
 

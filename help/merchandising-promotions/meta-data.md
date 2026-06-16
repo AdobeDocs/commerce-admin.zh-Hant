@@ -3,10 +3,16 @@ title: Meta資料
 description: 瞭解如何輸入關鍵字豐富的中繼資料，以改進搜尋引擎索引您Commerce網站的方式。
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: 747
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[中繼資料指導方針](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=zh-Hant)
+>如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[中繼資料指導方針](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)
 
 您的商店會載入您可輸入關鍵字豐富中繼資料的位置，以改善搜尋引擎為您的網站編制索引的方式。 在設定存放區時，您可能會輸入初步中繼資料，並打算稍後完成。 您可以長期微調中繼資料，以鎖定客戶的購買模式和偏好設定。
 
@@ -74,7 +80,7 @@ Meta說明提供搜尋結果清單頁面的簡短概觀。 在理想的情況下
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開![搜尋引擎最佳化](../assets/icon-display-expand.png)區段的&#x200B;**擴充選擇器**。
+1. 展開&#x200B;**搜尋引擎最佳化**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    若要變更任何欄位值，您必須先清除每個欄位後面的&#x200B;**使用系統值**&#x200B;核取方塊。
 

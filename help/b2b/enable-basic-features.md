@@ -1,37 +1,44 @@
 ---
-title: Enable B2B features
-description: Learn about enabling B2B features for your Adobe Commerce store, including company accounts, default payment and shipping methods, purchase orders, and order approvals.
+title: 啟用B2B功能
+description: 瞭解如何為您的Adobe Commerce商店啟用B2B功能，包括公司帳戶、預設付款和送貨方法、採購單和訂單核准。
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+TQID: https://experienceleague.adobe.com/T2b19hxJNTlHpCcxLifJkx3lGUXcqFF4Y3rl3wneCeY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: 1637
 ht-degree: 0%
 
 ---
 
-# Enable B2B features
+# 啟用B2B功能
 
-By default, all B2B features are initially disabled. A store admin can enable or disable the B2B features as needed for Commerce stores. [&#128279;](../configuration-reference/general/b2b-features.md)
+依預設，所有B2B功能一開始都會停用。 商店管理員可視需要啟用或停用Commerce商店的B2B功能。 如需B2B組態設定的完整清單，請參閱[B2B功能組態參考](../configuration-reference/general/b2b-features.md)。
 
-When you enable support for customer companies, additional B2B features are enabled automatically:
+啟用客戶公司支援時，系統會自動啟用其他B2B功能：
 
 - [[!DNL Shared Catalog]](catalog-shared.md)
 
-  Supports custom pricing configuration for different companies and also enables category permissions for all stores.
+  支援不同公司的自訂定價設定，也啟用所有商店的類別許可權。
 
 - [!DNL Enable Shared Catalog direct products price assigning]
 
-  Improves site performance by storing only products that are assigned to a shared catalog in the price index. Enabling this feature is a best practice for Merchants that have many shared catalogs to manage custom pricing for different companies.
+  在價格索引中僅儲存指派給共用目錄的產品，以提升網站效能。 如果商家有許多共用目錄，為了管理不同公司的自訂定價，啟用此功能是最佳做法。
 
 - [[!DNL B2B Quotes]](quotes.md)
 
-  Gives sellers and company buyers the ability to negotiate prices.
+  讓賣家和公司買家能夠協商價格。
 
 - [!DNL B2B default payment and shipping methods]
 
-  Determines the selection of payment and shipping options available to B2B buyers on the storefront.
+  決定店面B2B買家可用的付款與運送選項選項。
 
 只有當[!DNL Enable Company]設定為`Yes`時，這些功能的組態設定才可見。
 
@@ -43,41 +50,41 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-   **[!UICONTROL Store View]**
+   如果您有多站台安裝，請將左上角的&#x200B;**[!UICONTROL Store View]**&#x200B;控制項設定為套用組態的網站。
 
-1. _[!UICONTROL General]_&#x200B;**[!UICONTROL B2B Features]**
+1. 在&#x200B;_[!UICONTROL General]_下方的左側面板中，選擇&#x200B;**[!UICONTROL B2B Features]**：
 
-   ![](./assets/b2b-features.png){width="600"}
+   ![B2B設定 — 一般](./assets/b2b-features.png){width="600"}
 
-   - **[!UICONTROL Enable Company]**`Yes`
+   - 允許客戶管理自己的公司帳戶，並透過將&#x200B;**[!UICONTROL Enable Company]**&#x200B;設定為`Yes`來啟用其他B2B功能的支援。
 
-     When you enable company support, the Shared Catalog, B2B Quote, B2B Payment Methods, and B2B Shipping Methods are enabled automatically.
+     啟用公司支援時，會自動啟用「共用目錄」、「B2B報價」、「B2B付款方式」和「B2B出貨方式」。
 
      ![B2B設定 — 公司功能](assets/b2b-additional-features.png){width="600"}
 
-   - **[!UICONTROL Enable Quick Order]**`Yes`
+   - 若要讓客戶和來賓能根據SKU或產品名稱快速下訂單，請將&#x200B;**[!UICONTROL Enable Quick Order]**&#x200B;設為`Yes`。
 
-   - **[!UICONTROL Enable Requisition List]**`Yes`
+   - 若要允許客戶從其帳戶儀表板建立和管理請購單清單，請將&#x200B;**[!UICONTROL Enable Requisition List]**&#x200B;設為`Yes`。
 
-     [&#128279;](configure-requisition-lists.md)
+     您也可以[設定客戶可擁有其帳戶的最大清單數量](configure-requisition-lists.md)。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
 ## 設定預設B2B付款和送貨方法
 
-1. ![](../assets/icon-display-expand.png)**[!UICONTROL Default B2B Payment Methods]**
+1. 展開&#x200B;**[!UICONTROL Default B2B Payment Methods]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-1. **[!UICONTROL Applicable Payment Methods]**
+1. 若要建立B2B訂單的預設付款方式，請將&#x200B;**[!UICONTROL Applicable Payment Methods]**&#x200B;設定為下列其中一項：
 
    - `All Payment Methods`
 
    - `Selected Payment Methods`
 
-     **[!UICONTROL Payment Methods]**
+     針對特定選項，在按一下每個選項時，按住Ctrl鍵(PC)或Command鍵(Mac)，以選取您要提供給客戶的&#x200B;**[!UICONTROL Payment Methods]**。
 
-   [&#128279;](../configuration-reference/sales/payment-methods.md)In addition to the standard payment methods, the list also includes the following:
+   [付款方法](../configuration-reference/sales/payment-methods.md)的清單顯示目前商店中啟用或停用的選項。 除了標準付款方式之外，此清單還包括下列專案：
 
-   - No Payment Information is Required
+   - 不需要付款資訊
    - [分期付款](#configure-payment-on-account)
    - 已儲存的帳戶
    - 儲存的卡片
@@ -101,19 +108,19 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 ## 設定公司電子郵件選項
 
-[&#128279;](account-company-manage.md#assign-a-sales-representative)
+依預設，指派為公司主要連絡人的[銷售代表](account-company-manage.md#assign-a-sales-representative)會設定為許多傳送給公司的自動化電子郵件訊息的寄件者。
 
-1. __&#x200B;**[!UICONTROL Stores]**&#x200B;_[!UICONTROL Settings]_&#x200B;**[!UICONTROL Configuration]**
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. **[!UICONTROL Customers]**&#x200B;**[!UICONTROL Company Configuration]**
+1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Company Configuration]**。
 
-1. **[!UICONTROL Store View]**&#x200B;[&#128279;](../getting-started/websites-stores-views.md#scope-settings)
+1. 如有必要，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為存放區檢視以定義設定的[範圍](../getting-started/websites-stores-views.md#scope-settings)。
 
-1. **[!UICONTROL Company Registration]**
+1. 完成&#x200B;**[!UICONTROL Company Registration]**&#x200B;區段：
 
    >[!NOTE]
    >
-   >**[!UICONTROL Use system value]**
+   >清除&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊，讓欄位可編輯。
 
    - 將&#x200B;**[!UICONTROL Company Registration Email Recipient]**&#x200B;設定為[商店連絡人](../getting-started/store-details.md#store-email-addresses)，當收到新的公司註冊要求時，會通知該連絡人。
 
@@ -140,22 +147,22 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
    - **[!UICONTROL Default 'Customer Status Active' Email]**
    - **[!UICONTROL Default 'Customer Status Inactive' Email]**
 
-   ![](./assets/company-email-options-customer-related-emails.png){width="600"}
+   ![客戶組態 — 客戶相關電子郵件](./assets/company-email-options-customer-related-emails.png){width="600"}
 
-1. **[!UICONTROL Company Status Change]**
+1. 完成&#x200B;**[!UICONTROL Company Status Change]**&#x200B;區段：
 
-   - **[!UICONTROL Send Company Status Change Email Copy To]** Separate multiple email addresses with a comma.
+   - 針對&#x200B;**[!UICONTROL Send Company Status Change Email Copy To]**，輸入每個要接收狀態變更通知副本的人的電子郵件地址。 請使用逗號分隔多個電子郵件地址。
 
-   - **&#x200B;**
+   - 若要判斷通知復本的傳送方式，請將&#x200B;**[傳送電子郵件復本方法]**&#x200B;設定為下列其中一項：
 
-      - `Bcc`__ The BCC recipient is not visible to the customer.
-      - `Separate Email`
+      - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
+      - `Separate Email` — 以個別電子郵件的形式傳送復本。
 
-   - `Pending Approval` `Active`**[!UICONTROL Default 'Company Status Change to Active 1' Email]**`Company Status Active 1`
+   - 如果您已準備當公司狀態從`Pending Approval`變更為`Active`時要使用的電子郵件範本，請將&#x200B;**[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;設定為範本的名稱。 依預設，會使用`Company Status Active 1`範本。
 
-   - `Rejected` `Blocked` `Active`**[!UICONTROL Default 'Company Status Change to Active 2' Email]**`Company Status Active 2`
+   - 如果您已準備當公司狀態從`Rejected`或`Blocked`變更為`Active`時要使用的電子郵件範本，請將&#x200B;**[!UICONTROL Default 'Company Status Change to Active 2' Email]**&#x200B;設定為範本的名稱。 依預設，會使用`Company Status Active 2`範本。
 
-   - `Rejected`**[!UICONTROL Default 'Company Status Change to Rejected' Email]**`Company Status Rejected`
+   - 如果您已準備要在公司狀態變更為`Rejected`時使用的電子郵件範本，請將&#x200B;**[!UICONTROL Default 'Company Status Change to Rejected' Email]**&#x200B;設定為範本的名稱。 依預設，會使用`Company Status Rejected`範本。
 
    - 如果您已準備要在公司狀態變更為`Blocked`時使用的電子郵件範本，請將&#x200B;**[!UICONTROL Default 'Company Status Change to Blocked' Email]**&#x200B;設定為範本的名稱。 依預設，會使用`Company Status Blocked`範本。
 
@@ -165,16 +172,16 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 1. 完成&#x200B;**[!UICONTROL Company Credit Emails]**&#x200B;區段：
 
-   - **[!UICONTROL Company Credit Change Email Sender]**&#x200B;[&#128279;](../getting-started/store-details.md#store-email-addresses)__
+   - 將&#x200B;**[!UICONTROL Company Credit Change Email Sender]**&#x200B;設定為[商店聯絡人](../getting-started/store-details.md#store-email-addresses)，當指派給公司的信用額度發生變更時，將會通知該聯絡人。 依預設，通知會傳送給&#x200B;_銷售代表_。
 
-   - **[!UICONTROL Send Company Credit Change Email Copy To]** Separate multiple email addresses with a comma.
+   - 針對&#x200B;**[!UICONTROL Send Company Credit Change Email Copy To]**，輸入每個要接收信用變更通知副本的人的電子郵件地址。 請使用逗號分隔多個電子郵件地址。
 
-   - **&#x200B;**
+   - 若要判斷通知復本的傳送方式，請將&#x200B;**[傳送電子郵件復本方法]**&#x200B;設定為下列其中一項：
 
       - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
-      - `Separate Email`
+      - `Separate Email` — 以個別電子郵件的形式傳送復本。
 
-   - If you have prepared email templates to be used instead of the defaults, choose the template for each of the following notifications that are sent to the company administrator.
+   - 如果您已準備要使用的電子郵件範本而非預設值，請為傳送給公司管理員的下列每個通知選擇範本。
 
       - **[!UICONTROL Allocated Email Template]**
       - **[!UICONTROL Updated Email Template]**
@@ -188,17 +195,17 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 ## 設定訂單核准
 
-追蹤訂單處理與採購單的功能，可讓公司管理員控制公司買家的動作。 The order approval functionality is available when the purchase orders feature is enabled by a store administrator.
+追蹤訂單處理與採購單的功能，可讓公司管理員控制公司買家的動作。 當商店管理員啟用採購單功能時，即可使用訂單核准功能。
 
-1. __&#x200B;**[!UICONTROL Stores]**&#x200B;_[!UICONTROL Settings]_&#x200B;**[!UICONTROL Configuration]**
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. **[!UICONTROL General]**&#x200B;**[!UICONTROL B2B Features]**
+1. 在左側面板中，展開&#x200B;**[!UICONTROL General]**&#x200B;並選擇&#x200B;**[!UICONTROL B2B Features]**。
 
-1. ![](../assets/icon-display-expand.png)**[!UICONTROL Order Approval Configuration]**
+1. 展開&#x200B;**[!UICONTROL Order Approval Configuration]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-   ![](./assets/b2b-features-order-approval.png){width="600"}
+   ![訂單核准設定](./assets/b2b-features-order-approval.png){width="600"}
 
-1. **[!UICONTROL Enable Purchase Orders]**`Yes`
+1. 若要允許公司建立自己的採購單，請將&#x200B;**[!UICONTROL Enable Purchase Orders]**&#x200B;設為`Yes`。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
@@ -212,9 +219,9 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-1. **[!UICONTROL Enable Purchase Orders]**`Yes`
+1. 將&#x200B;**[!UICONTROL Enable Purchase Orders]**&#x200B;設為`Yes`。
 
-1. **[!UICONTROL Save]**
+1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
 啟用後，**[!UICONTROL Approval Rules]**&#x200B;區段會顯示在公司管理員的店面[帳戶儀表板](../customers/account-dashboard.md)上。
 
@@ -224,13 +231,13 @@ B2B [[!DNL Quick Order]](quick-order.md)和[[!DNL Requisition List]](requisition
 
 ## 設定分期付款
 
-Payment on Account is an offline payment method that allows companies to make purchases up to the credit limit that is specified in their profile. Payment on Account can be enabled globally, or per company, and appears during checkout only if enabled. __[&#128279;](account-company-manage.md)
+「依帳戶付款」是一種離線付款方法，可讓公司以設定檔中指定的信用額度進行購買。 「帳戶付款」可全域啟用，或依公司啟用，並僅在啟用時於結帳期間顯示。 當使用&#x200B;_帳戶付款_&#x200B;作為付款方式時，訂單頂端會出現一則訊息，指出帳戶的狀態。 若要設定特定公司的付款方式，請參閱[管理公司帳戶](account-company-manage.md)。
 
 >[!NOTE]
 >
->[&#128279;](../stores-purchase/shipping-settings.md#multiple-addresses)
+>具有[多個送貨地址](../stores-purchase/shipping-settings.md#multiple-addresses)的訂單不支援「帳戶付款」，且未出現在這些訂單的付款選項中。
 
-To enable Payment on Account for your store:
+若要啟用商店的「分期付款」，請執行下列步驟：
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -255,16 +262,16 @@ To enable Payment on Account for your store:
 1. 將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries`_[!UICONTROL Payment from Specific Countries]_&#x200B;To select multiple countries, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
+   - `Specific Countries` — 選取此選項後，_[!UICONTROL Payment from Specific Countries]_清單就會顯示。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
 
-1. **[!UICONTROL Minimum Order Total]**&#x200B;**[!UICONTROL Maximum Order Total]**
+1. 將&#x200B;**[!UICONTROL Minimum Order Total]**&#x200B;與&#x200B;**[!UICONTROL Maximum Order Total]**&#x200B;設為符合此付款方式資格的訂單金額。
 
    >[!NOTE]
    >
-   >An order qualifies if the total falls between, or exactly matches, the minimum or maximum total values.
+   >如果總計介於最小或最大總計值之間，或完全符合，訂單即符合條件。
 
-1. **[!UICONTROL Sort Order]**
+1. 輸入&#x200B;**[!UICONTROL Sort Order]**&#x200B;數字，設定此專案在結帳時顯示的付款方式清單中的位置。
 
-   The value is relative to the other payment methods. `0` `1` `2`
+   該值與其他付款方式相關。 （`0` =第一個，`1` =第二個，`2` =第三個，依此類推。）
 
-1. **[!UICONTROL Save Config]**
+1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。

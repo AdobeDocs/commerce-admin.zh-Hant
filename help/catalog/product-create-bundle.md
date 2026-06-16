@@ -3,9 +3,15 @@ title: 搭售產品
 description: 瞭解如何建立套裝產品，讓購物者能夠在您的商店中建立自訂產品。
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: 1616
 ht-degree: 0%
 
 ---
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 1. 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
 
-1. 若要將&#x200B;_[!UICONTROL Categories]_&#x200B;指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**&#x200B;方塊並執行下列任一動作：
+1. 若要將&#x200B;_[!UICONTROL Categories]_指派給產品，請按一下&#x200B;**[!UICONTROL Select…]**方塊並執行下列任一動作：
 
    **選擇現有類別：**
 
@@ -139,9 +145,9 @@ ht-degree: 0%
 
 ## 步驟5：新增束專案
 
-_[!UICONTROL Bundle Items]_&#x200B;區段用於將專案新增至組合產品型別，並編輯目前選擇的專案。
+_[!UICONTROL Bundle Items]_區段用於將專案新增至組合產品型別，並編輯目前選擇的專案。
 
-為產品![&#128279;](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}定義的套件組合專案
+為產品](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}定義的![套件組合專案
 
 1. 向下捲動至&#x200B;_組合專案_&#x200B;區段，並將&#x200B;**[!UICONTROL Ship Bundle Items]**&#x200B;設定為下列其中一項：
 
@@ -180,7 +186,7 @@ _[!UICONTROL Bundle Items]_&#x200B;區段用於將專案新增至組合產品型
 
      >[!NOTE]
      >
-     >量值可以是預設值或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_&#x200B;屬性指派給核取方塊或多選輸入型別。
+     >量值可以是預設值或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_屬性指派給核取方塊或多選輸入型別。
 
      依預設，客戶無法變更包含在套件專案中的「預設數量」。 但是，客戶可以輸入要包含在套件中的料號數量。
 
@@ -215,7 +221,7 @@ _[!UICONTROL Bundle Items]_&#x200B;區段用於將專案新增至組合產品型
 - [設計](settings-advanced-design.md)
 - [贈品選項](product-gift-options.md)
 
-## 步驟7：Publish產品
+## 步驟7：發佈產品
 
 1. 如果您已準備好在目錄中發佈產品，請將&#x200B;**[!UICONTROL Enable Product]**&#x200B;設定為`Yes` （ ![切換是](../assets/toggle-yes.png) ）。
 
@@ -283,7 +289,7 @@ _[!UICONTROL Bundle Items]_&#x200B;區段用於將專案新增至組合產品型
 
 ![核取方塊](../assets/checkbox.png) SKU和權重可以是`Fixed`或`Dynamic`。
 
-![核取方塊](../assets/checkbox.png)數量可以是預設集或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_&#x200B;屬性指派給核取方塊或多選輸入型別。
+![核取方塊](../assets/checkbox.png)數量可以是預設集或使用者定義的值。 但是，請勿將&#x200B;_[!UICONTROL User Defined]_屬性指派給核取方塊或多選輸入型別。
 
 ![核取方塊](../assets/checkbox.png)套件組合專案可以一起或單獨出貨。
 

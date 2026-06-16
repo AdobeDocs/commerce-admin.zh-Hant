@@ -3,10 +3,16 @@ title: 自動重新導向
 description: 瞭解如何設定當產品或類別的URL索引鍵在您的Commerce商店中變更時，系統會產生自動重新導向。
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Vscg-TDdLnzKjdi-SMwrcpR-QDPvlHpPzgmcLe63-4Q
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 可以為商店檢視或網站範圍產生URL重寫。 從管理員設定URL重寫範圍： **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**。 在&#x200B;_[!UICONTROL Product URL Rewrite Scope]_&#x200B;欄位中選取範圍。
+> 可以為商店檢視或網站範圍產生URL重寫。 從管理員設定URL重寫範圍： **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**。 在_[!UICONTROL Product URL Rewrite Scope]_&#x200B;欄位中選取範圍。
 
 ## 自動重新導向產品URL
 

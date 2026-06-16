@@ -3,9 +3,15 @@ title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
 description: 檢閱Commerce管理員的[!UICONTROL Catalog] &gt； [!UICONTROL XML Sitemap]頁面上的組態設定。
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
+TQID: https://experienceleague.adobe.com/1oTTRT977C3zcifhCRFBuXf7ny-6rqGSC--enriyj-Y
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 2%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 2%
 
 ![類別選項](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -31,7 +37,7 @@ ht-degree: 2%
 
 ![產品選項](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -45,7 +51,7 @@ ht-degree: 2%
 
 ![CMS頁面選項](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -67,7 +73,7 @@ ht-degree: 2%
 
 ![產生設定](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -85,7 +91,7 @@ ht-degree: 2%
 
 ![Sitemap檔案限制](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -98,7 +104,7 @@ ht-degree: 2%
 
 ![搜尋引擎提交設定](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

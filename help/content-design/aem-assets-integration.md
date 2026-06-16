@@ -3,9 +3,15 @@ title: 適用於Commerce的Adobe Experience Manager Assets整合
 description: 瞭解如何將Experience Manager Assets與您的 [!DNL Commerce] 執行個體整合，以存取您商店中使用的無數媒體資產。
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+TQID: https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 417
 ht-degree: 0%
 
 ---
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 觀看此影片，瞭解Adobe Commerce和AEM Assets如何共同簡化內容工作流程：
 
->[!VIDEO](https://video.tv.adobe.com/v/3447900?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
 
 ## 下一步
 
@@ -48,4 +54,4 @@ ht-degree: 0%
 
 ## 支援
 
-如果您需要本指南未涵蓋的資訊或問題，請聯絡您的AEM Assets整合銷售代表，或建立[支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#submit-ticket)以取得其他協助。
+如果您需要本指南未涵蓋的資訊或問題，請聯絡您的AEM Assets整合銷售代表，或建立[支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)以取得其他協助。

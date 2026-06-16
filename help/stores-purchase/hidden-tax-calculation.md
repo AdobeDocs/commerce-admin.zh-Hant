@@ -3,10 +3,15 @@ title: 隱藏稅捐計算
 description: 瞭解當折扣內嵌稅捐時，如何設定隱藏的稅捐計算。
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 0%
+source-wordcount: 350
+ht-degree: 1%
 
 ---
 
@@ -39,7 +44,7 @@ _隱藏稅捐_&#x200B;是折扣金額的VAT金額。 當以下所有條件都為
 
 ### 購物車中的有效實際結果
 
-購物車![&#128279;](./assets/hidden-tax.png){width="700" zoomable="yes"}中的隱藏稅捐計算
+購物車](./assets/hidden-tax.png){width="700" zoomable="yes"}中的![隱藏稅捐計算
 
 ### 有效計算
 
@@ -69,7 +74,7 @@ _隱藏稅捐_&#x200B;是折扣金額的VAT金額。 當以下所有條件都為
 
 1. 客戶通常如何瞭解折扣價格（訂單總計）：
 
-   _含稅專案的完整價格&#x200B;**減**&#x200B;折扣金額：$100 - $8.33 = $91.67_
+   _含稅專案的完整價格&#x200B;**減**折扣金額：$100 - $8.33 = $91.67_
 
 1. **Commerce計算折扣價格的方式** （請參閱之前的公式）：
 

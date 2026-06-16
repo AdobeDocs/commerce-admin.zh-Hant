@@ -3,9 +3,16 @@ title: 銷售報表
 description: ' [!DNL Commerce] 銷售報表可協助您追蹤訂單、稅捐、發票、出貨、退款、優惠券及PayPal結算。'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
+TQID: https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b382a22d-d89f-43ea-a98c-4d7d1c29dabd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 699
 ht-degree: 0%
 
 ---
@@ -101,7 +108,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Show Report]**。
 
-如需有關使用[!UICONTROL Coupons Report]收集促銷活動資料的詳細資訊，請參閱[銷售和促銷指南](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)中的&#x200B;_優惠券報告_。
+如需有關使用[!UICONTROL Coupons Report]收集促銷活動資料的詳細資訊，請參閱&#x200B;_銷售和促銷指南_&#x200B;中的[優惠券報告](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)。
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,7 +120,7 @@ ht-degree: 0%
 
 ![PayPal結算報告](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-如需有關使用[!UICONTROL PayPal Settlement Reports]擷取影響資金結算的每個PayPal交易的詳細資訊，請參閱[商店與購買體驗指南](../stores-purchase/paypal-settlement-reports.md)中的&#x200B;_PayPal結算報告_。
+如需有關使用[!UICONTROL PayPal Settlement Reports]擷取影響資金結算的每個PayPal交易的詳細資訊，請參閱&#x200B;_商店與購買體驗指南_&#x200B;中的[PayPal結算報告](../stores-purchase/paypal-settlement-reports.md)。
 
 ## [!UICONTROL Braintree Settlement Report]
 
@@ -131,7 +138,7 @@ ht-degree: 0%
 
 ## 重新整理統計資料
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 為了減少產生銷售報表對效能的影響，[!DNL Commerce]會計算並儲存每個報表所需的統計資料。 除非您重新整理統計資料，否則不會每次產生報表時重新計算統計資料，而是使用儲存的統計資料。 若要包含最新的資料，必須先重新整理報表統計資料，才能產生銷售報表。
 

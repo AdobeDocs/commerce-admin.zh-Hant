@@ -3,9 +3,15 @@ title: 新增內容 — 區塊
 description: 瞭解Block內容型別，用於新增可重複使用的區塊至 [!DNL Page Builder] 階段。
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/P9utTpclcQfyDpiNgNF8W6UJOrrNX3VBB-l5sOgfRJE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: 794
 ht-degree: 0%
 
 ---
@@ -135,7 +141,7 @@ ht-degree: 0%
 
    重複專案會出現在原始專案的正下方。
 
-1. 若要將新區塊移動至新位置，請將滑鼠指標暫留在容器上，然後按一下工具箱中的[移動] _（_[移動]圖示![）。](./assets/pb-icon-move.png)
+1. 若要將新區塊移動至新位置，請將滑鼠指標暫留在容器上，然後按一下工具箱中的[移動] _（![[移動]圖示](./assets/pb-icon-move.png)）。_
 
 1. 選取並拖曳區塊，直到紅色指引出現在新位置為止。
 

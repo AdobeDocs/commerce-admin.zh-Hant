@@ -3,9 +3,15 @@ title: 資料傳輸
 description: 瞭解資料傳輸支援，包括資料驗證。
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/G-hJ2wQlhL95wmuLLYivfW8AGsbfdu5Cn0pOdGdTQto
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括[產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hant)、[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)和[目錄服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview)。
+>Adobe Commerce也支援SaaS資料匯出，以將產品資料從Commerce伺服器傳輸至SaaS服務。 SaaS資料匯出已與Commerce SaaS服務整合，包括[產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)、[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)和[目錄服務](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)。
 
 ## 資料驗證
 

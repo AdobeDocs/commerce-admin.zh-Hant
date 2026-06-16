@@ -3,9 +3,15 @@ title: 店面訂單管理
 description: 瞭解客戶如何在Commerce店面檢視和管理其訂單歷史記錄。
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
+TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 753
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-您的初始&#x200B;_[!UICONTROL My Orders]_&#x200B;結果也包含商業執行個體內所有網站之從屬使用者的相符訂單。 與公司帳戶關聯的客戶可以篩選訂單清單，以快速在結果中尋找記錄。 若要顯示篩選器選項，客戶按一下&#x200B;**[!UICONTROL Filter]**，然後按一下&#x200B;**[!UICONTROL Close]**&#x200B;以隱藏篩選器。
+您的初始&#x200B;_[!UICONTROL My Orders]_結果也包含商業執行個體內所有網站之從屬使用者的相符訂單。 與公司帳戶關聯的客戶可以篩選訂單清單，以快速在結果中尋找記錄。 若要顯示篩選器選項，客戶按一下&#x200B;**[!UICONTROL Filter]**，然後按一下&#x200B;**[!UICONTROL Close]**以隱藏篩選器。
 
 ![我的訂單](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +48,7 @@ ht-degree: 0%
 
 對於下訂單後登入的客戶，**[!UICONTROL Recent Orders]**&#x200B;區塊會顯示在側邊欄和&#x200B;**[!UICONTROL My Account]**&#x200B;頁面上。 其中顯示上次購買的五個產品。
 
-客戶可以選取產品並按一下&#x200B;**[!UICONTROL Add to Cart]**，將產品讀入購物車。 他們也可以按一下「**[!UICONTROL View all]**」以檢視最後順序，重新導向至&#x200B;_[!UICONTROL My Account]_&#x200B;頁面和&#x200B;**[!UICONTROL Recent Orders]**&#x200B;區塊。
+客戶可以選取產品並按一下&#x200B;**[!UICONTROL Add to Cart]**，將產品讀入購物車。 他們也可以按一下「**[!UICONTROL View all]**」以檢視最後順序，重新導向至&#x200B;_[!UICONTROL My Account]_頁面和&#x200B;**[!UICONTROL Recent Orders]**區塊。
 
 ### 列印訂單
 
@@ -103,21 +109,21 @@ ht-degree: 0%
 
 ## 重新排序
 
-_[!UICONTROL Reorder]_&#x200B;連結顯示在清單中，訂單位於&#x200B;_[!UICONTROL View]_&#x200B;連結附近。
+_[!UICONTROL Reorder]_連結顯示在清單中，訂單位於_[!UICONTROL View]_&#x200B;連結附近。
 
 ![重新排序我的訂單頁面上的連結](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
-**案例1。**&#x200B;訂單中的所有產品都可供重新訂購
+**案例1.** 訂單中的所有產品都可供重新訂購
 
 客戶會重新導向至購物車，而所有產品都會新增至購物車。
 
-**案例2。**&#x200B;訂單中的部分/所有產品無法重新訂購
+**案例2.** 訂單中的部分/所有產品無法重新訂購
 
 >[!NOTE]
 >
 >可以重新排序`Not Visible Individually`產品。
 
-_[!UICONTROL Reorder]_&#x200B;連結未出現在&#x200B;_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_&#x200B;頁面上。
+_[!UICONTROL Reorder]_連結未出現在_[!UICONTROL My Orders]_&#x200B;和&#x200B;_[!UICONTROL View Order]_頁面上。
 
 ![我的訂單頁面](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +141,7 @@ _[!UICONTROL Reorder]_&#x200B;連結未出現在&#x200B;_[!UICONTROL My Orders]_
 - 訂單檢視頁面
 - 我的帳戶頁面
 
-_[!UICONTROL Cancel Order]_&#x200B;連結顯示在&#x200B;_[!UICONTROL Reorder]_&#x200B;連結附近。 如果訂單無法取消，則不會顯示連結。
+_[!UICONTROL Cancel Order]_連結顯示在_[!UICONTROL Reorder]_&#x200B;連結附近。 如果訂單無法取消，則不會顯示連結。
 
 ![取消我的訂單頁面上的連結](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +159,7 @@ _[!UICONTROL Cancel Order]_&#x200B;連結顯示在&#x200B;_[!UICONTROL Reorder]_
 
    在[我的訂單]頁面上![取消](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   取消後，狀態為&#x200B;_[!UICONTROL Pending]_&#x200B;的訂單、狀態變更為&#x200B;_[!UICONTROL Canceled]_&#x200B;的訂單、狀態變更為&#x200B;_[!UICONTROL Processing]_&#x200B;的訂單、狀態變更為&#x200B;_[!UICONTROL Closed]_&#x200B;的訂單，系統將處理退款。
+   取消後，狀態為&#x200B;_[!UICONTROL Pending]_的訂單、狀態變更為_[!UICONTROL Canceled]_&#x200B;的訂單、狀態變更為&#x200B;_[!UICONTROL Processing]_的訂單、狀態變更為_[!UICONTROL Closed]_&#x200B;的訂單，系統將處理退款。
 
    取消完成後，系統會傳送電子郵件給客戶。
 

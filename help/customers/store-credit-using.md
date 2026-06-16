@@ -3,9 +3,15 @@ title: 套用商店點數
 description: 商店管理員可將商店點數套用至購買。
 exl-id: 97b6b206-71db-435c-8736-a781437bb0b4
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_動作_&#x200B;資料行中，按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 捲動&#x200B;_[!UICONTROL Customer View]_&#x200B;頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
+1. 捲動&#x200B;_[!UICONTROL Customer View]_頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
 
 ![儲存信用餘額](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +70,13 @@ ht-degree: 0%
 
 1. 客戶檢視可用的商店信用金額。
 
-   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_&#x200B;下方。
+   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_下方。
 
 1. 若要將金額套用至訂單，請按一下&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
+   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_中。
 
    ![套用至訂單的貸方餘額](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

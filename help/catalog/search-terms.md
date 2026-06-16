@@ -3,9 +3,16 @@ title: 管理搜尋詞
 description: 瞭解如何管理商店的搜尋字詞，以使用拼寫錯誤或替代字詞重新導向客戶。
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/3AHIV0QXCL1FhLiGnTQrBKRKdogDxahMxpcm1JWCpf4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1188
 ht-degree: 0%
 
 ---
@@ -60,7 +67,7 @@ ht-degree: 0%
 
 ## 編輯搜尋字詞
 
-1. 在&#x200B;_[!UICONTROL Search Terms]_&#x200B;格線中，按一下任何記錄的列，以在編輯模式中開啟搜尋字詞。
+1. 在&#x200B;_[!UICONTROL Search Terms]_格線中，按一下任何記錄的列，以在編輯模式中開啟搜尋字詞。
 
 1. 進行必要的變更。
 
@@ -70,7 +77,7 @@ ht-degree: 0%
 
 刪除搜尋字詞的方法有兩種 — 從網格和編輯頁面上。
 
-在&#x200B;_[!UICONTROL Search Terms]_&#x200B;格線中的&#x200B;**方法1：**
+在&#x200B;_[!UICONTROL Search Terms]_格線中的&#x200B;**方法1：**
 
 1. 在清單中，選取要刪除之字詞的核取方塊。
 
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Submit]**。
 
-**方法2：** （在&#x200B;_[!UICONTROL Edit a Search Term]_&#x200B;頁面上）
+**方法2：** （在&#x200B;_[!UICONTROL Edit a Search Term]_頁面上）
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**。
 
@@ -96,7 +103,7 @@ ht-degree: 0%
 
 ![店面範例 — 熱門搜尋詞](./assets/store-front-search-terms-yoga-pants.png){width="600" zoomable="yes"}
 
-**_設定常用搜尋詞：_**
+**_設定常用搜尋詞:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -124,7 +131,7 @@ ht-degree: 0%
 
 Adobe Commerce支援兩種不同的同義字管理解決方案：
 
-- 即時搜尋[同義字](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=zh-Hant)功能適用於已安裝Live Search的Adobe Commerce安裝。
+- 即時搜尋[同義字](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html)功能適用於已安裝Live Search的Adobe Commerce安裝。
 - 所有Adobe Commerce安裝都能立即使用標準的搜尋同義字功能（如本頁所述）。
 
 >[!NOTE]
@@ -141,7 +148,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**。
 
-   _[!UICONTROL Search Synonyms]_&#x200B;格線出現。 如果這是您第一次使用搜尋同義字，則格線是空的。
+   _[!UICONTROL Search Synonyms]_格線出現。 如果這是您第一次使用搜尋同義字，則格線是空的。
 
    ![搜尋同義字網格](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +171,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 ### 編輯同義字群組
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;網格中，按一下任何記錄的列，以編輯模式開啟同義字群組。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_網格中，按一下任何記錄的列，以編輯模式開啟同義字群組。
 
 1. 進行必要的變更。
 
@@ -176,7 +183,7 @@ Adobe Commerce支援兩種不同的同義字管理解決方案：
 
 搜尋同義字格中的&#x200B;**方法1：**
 
-1. 在&#x200B;_[!UICONTROL Search Synonyms]_&#x200B;格線中，選取要刪除之群組的核取方塊。
+1. 在&#x200B;_[!UICONTROL Search Synonyms]_格線中，選取要刪除之群組的核取方塊。
 
 1. 在清單的左上角，將&#x200B;**[!UICONTROL Actions]**&#x200B;設定為`Delete`。
 

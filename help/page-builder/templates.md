@@ -1,11 +1,16 @@
 ---
-title: '[!DNL Page Builder]範本'
+title: '[!DNL Page Builder]個範本'
 description: 瞭解如何將您現有的 [!DNL Page Builder] 內容儲存為範本，然後將該範本套用至其他區域。
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 477
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
    具有[另存為範本]按鈕的![[!DNL Page Builder]階段](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   此動作會顯示&#x200B;_[!UICONTROL Save Content as Template]_&#x200B;對話方塊。
+   此動作會顯示&#x200B;_[!UICONTROL Save Content as Template]_對話方塊。
 
    ![[!DNL Page Builder]另存為範本對話方塊](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +61,7 @@ ht-degree: 0%
 
    ![[!DNL Page Builder]套用範本按鈕](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. 從&#x200B;_[!UICONTROL Apply Template]_&#x200B;格線中選擇範本，然後按一下列尾的&#x200B;**[!UICONTROL Apply]**。
+1. 從&#x200B;_[!UICONTROL Apply Template]_格線中選擇範本，然後按一下列尾的&#x200B;**[!UICONTROL Apply]**。
 
    若要檢視整個範本，您可以按一下範本縮圖影像。 此動作會展開影像，以便您視需要檢視整個範本。
 

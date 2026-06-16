@@ -3,26 +3,31 @@ title: '[!DNL Page Builder]設定'
 description: 瞭解Adobe Commerce和Magento Open Source管理員中的 [!DNL Page Builder] 功能設定。
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder]設定
 
-在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_&#x200B;按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
+在設定中啟用時，[!DNL Page Builder]是CMS頁面、區塊和動態區塊的預設內容建立工具。 此外，_[!UICONTROL Enable Advanced CMS]_按鈕提供[!DNL Page Builder]作為類別和產品的選項。 您也可以選擇要用於產品、類別和CMS頁面的預設[頁面配置](../content-design/page-layout.md)。 [!DNL Page Builder]不適用於使用WYSIWYG [編輯器](../content-design/editor.md)的新聞稿內容。
 
 >[!NOTE]
 >
->安裝時，[!DNL Page Builder]會覆寫[!UICONTROL Mask for Meta Description]組態欄位的預設設定。 值已從`{{name}} {{description}}`變更為`{{name}}`。
-><br>
->當您前往「[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration]」，展開「[!UICONTROL Catalog]」，然後選擇下方的「[!UICONTROL Catalog]」時，可以存取此設定。 [!UICONTROL Mask for Meta Description]欄位在[!UICONTROL Product Fields Auto-generation]區段中。
+>安裝時，[!DNL Page Builder]會覆寫[!UICONTROL Mask for Meta Description]組態欄位的預設設定。值已從`{{name}} {{description}}`變更為`{{name}}`。
+><br>>當您前往「[!UICONTROL Stores]」>「_[!UICONTROL Settings]_」>「[!UICONTROL Configuration]」，展開「[!UICONTROL Catalog]」，然後選擇下方的「[!UICONTROL Catalog]」時，可以存取此設定。[!UICONTROL Mask for Meta Description]欄位在[!UICONTROL Product Fields Auto-generation]區段中。
 
 >[!NOTE]
 >
->管理員使用者必須擁有其[!UICONTROL Content]角色範圍[的](../systems/permissions-user-roles.md)許可權，才能看到[!UICONTROL Edit with Page Builder]按鈕並能夠使用頁面產生器。
+>管理員使用者必須擁有其[角色範圍](../systems/permissions-user-roles.md)的[!UICONTROL Content]許可權，才能看到[!UICONTROL Edit with Page Builder]按鈕並能夠使用頁面產生器。
 
 如需有關內容管理進階工具組態選項的詳細資訊，請參閱&#x200B;[_組態參考指南_](../configuration-reference/general/content-management.md)。
 
@@ -30,7 +35,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並驗證&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;是否設定為`Yes`。
 
@@ -44,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >請參閱[媒體 — 地圖](map.md)，以取得有關在您的[!DNL Google Maps]內容中使用[!DNL Page Builder]的詳細資訊。
+   >請參閱[媒體 — 地圖](map.md)，以取得有關在您的[!DNL Page Builder]內容中使用[!DNL Google Maps]的詳細資訊。
 
 1. 若要設定[!DNL Page Builder]欄格線中的准則數目，請執行下列動作：
 
@@ -62,7 +67,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;並執行下列動作：
 
@@ -86,7 +91,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;並將&#x200B;**[!UICONTROL Enable Page Builder]**&#x200B;設為`No`。
 

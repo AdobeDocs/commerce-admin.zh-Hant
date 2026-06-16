@@ -3,9 +3,15 @@ title: 特別價格
 description: 瞭解如何在指定的時段內提供特殊定價。
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: 855
 ht-degree: 0%
 
 ---
@@ -50,7 +56,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
    在店面，特殊價格應該會顯示在目錄清單和產品頁面上。
 
-   _[!UICONTROL Scheduled Change]_&#x200B;會顯示在頁面頂端。
+   _[!UICONTROL Scheduled Change]_會顯示在頁面頂端。
 
    ![排程變更](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -58,15 +64,15 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 {{ce-feature}}
 
-「Magento Open Source」包含「進階訂價管理系統」選項中的簡易開始與結束日期選項。
+Magento Open Source在「進階定價」選項中包含簡單的開始和結束日期選項。
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Price]_&#x200B;欄位，按一下&#x200B;**[!UICONTROL Advanced Pricing]**，然後輸入&#x200B;**[!UICONTROL Special Price]**&#x200B;金額。
+1. 向下捲動至&#x200B;_[!UICONTROL Price]_欄位，按一下&#x200B;**[!UICONTROL Advanced Pricing]**，然後輸入&#x200B;**[!UICONTROL Special Price]**金額。
 
 1. 使用&#x200B;_行事曆_ （ ![行事曆圖示](../assets/icon-calendar.png) ）圖示，選擇特殊價格促銷的&#x200B;**[!UICONTROL Start Date]**&#x200B;和&#x200B;**[!UICONTROL End Date]**。
 
-   此特殊價格會在開始日期的午夜剛過(00:01)後生效，並持續至結束日期前一天的午夜前(23:59)。
+   特殊價格會在開始日期(00:01)開始的午夜後立即生效，並持續至結束日期前一天的午夜前(23:59)。
 
    ![排程變更](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -84,7 +90,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 下列範例說明如何在Adobe Commerce中，將相同的特殊價格指派給可設定產品的多個產品變數。
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Filters]**&#x200B;並輸入可設定產品的&#x200B;**[!UICONTROL Name]**。
+1. 在&#x200B;_[!UICONTROL Products]_頁面上，按一下&#x200B;**[!UICONTROL Filters]**並輸入可設定產品的&#x200B;**[!UICONTROL Name]**。
 
 1. 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Configurable Product`並按一下&#x200B;**[!UICONTROL Apply Filters]**。
 
@@ -94,7 +100,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`Update attributes`。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位，並選取&#x200B;_[!UICONTROL Special Price]_&#x200B;欄位下方的&#x200B;**[!UICONTROL Change]**&#x200B;核取方塊，然後輸入您要提供的特殊價格。
+1. 向下捲動至&#x200B;_[!UICONTROL Special Price]_欄位，並選取_[!UICONTROL Special Price]_&#x200B;欄位下方的&#x200B;**[!UICONTROL Change]**&#x200B;核取方塊，然後輸入您要提供的特殊價格。
 
    ![特殊價格欄位](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -106,7 +112,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
 {{ce-feature}}
 
-下列範例說明如何在Magento Open Source中，將相同的特殊價格指派給可設定產品的多個產品變體。
+下列範例說明如何在Magento Open Source中，將相同的特殊價格指派給可設定產品的多個產品變數。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
@@ -136,7 +142,7 @@ Adobe Commerce包含對[排程更新](../content-design/content-staging-schedule
 
    - 選取&#x200B;_特殊價格起始日期_&#x200B;欄位下方的&#x200B;**[!UICONTROL Change]**&#x200B;核取方塊，按一下&#x200B;_行事曆_ （ ![行事曆圖示](../assets/icon-calendar.png) ），然後選擇特殊價格促銷的第一個日期。
 
-     此特殊價格會在開始日期的午夜剛過(00:01)後生效，並持續至結束日期前一天的午夜前(23:59)。
+     特殊價格會在開始日期(00:01)開始的午夜後立即生效，並持續至結束日期前一天的午夜前(23:59)。
 
    - 選取「_至今的特殊價格_」欄位下方的「**[!UICONTROL Change]**」核取方塊，按一下「_行事曆_」（「![行事曆」圖示](../assets/icon-calendar.png)），然後選擇特殊價格促銷的最後日期。
 

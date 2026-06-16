@@ -3,9 +3,15 @@ title: 封存訂單
 description: 瞭解如何設定訂單封存，以提升效能並簡化組織的Commerce。
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
-source-git-commit: 47f170f1a1dd1c236b99c2e7139bb119368abf47
+TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->只有在封存已啟用[時](../configuration-reference/sales/sales.md)，_[!UICONTROL Archive]_&#x200B;選項才會出現在[[!UICONTROL Sales]功能表](sales-menu.md)中。
+>只有在封存已啟用[時](../configuration-reference/sales/sales.md)，_[!UICONTROL Archive]_選項才會出現在[[!UICONTROL Sales]功能表](sales-menu.md)中。
 
 ## 設定訂單封存
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 ## 檢視封存的檔案
 
-1. 在&#x200B;_[!UICONTROL Archive]_&#x200B;下的&#x200B;_[!UICONTROL Sales]_&#x200B;功能表中，選擇下列任一項：
+1. 在&#x200B;_[!UICONTROL Archive]_下的_[!UICONTROL Sales]_&#x200B;功能表中，選擇下列任一項：
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +117,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Export]**。
 
-您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_[!UICONTROL Archive]_&#x200B;命令會顯示在工作區的頂端。
+您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_[!UICONTROL Archive]_命令會顯示在工作區的頂端。
 
 ## 手動封存訂單
 
@@ -131,13 +137,13 @@ ht-degree: 0%
 
 1. 使用下列其中一種方法開啟封存檢視：
 
-   - 在&#x200B;_[!UICONTROL Orders]_&#x200B;格線上方的按鈕列中，按一下&#x200B;**[!UICONTROL Go to Archive]**。
+   - 在&#x200B;_[!UICONTROL Orders]_格線上方的按鈕列中，按一下&#x200B;**[!UICONTROL Go to Archive]**。
 
    - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**。
 
    >[!NOTE]
    >
-   >與「訂單」頁面一樣，已封存訂單頁面的標題為&#x200B;_[!UICONTROL Orders]_。 唯一明顯的差異是按鈕列中的&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;選項。 頁面的URL也表示您處於順序封存中。
+   >與「訂單」頁面一樣，已封存訂單頁面的標題為&#x200B;_[!UICONTROL Orders]_。 唯一明顯的差異是按鈕列中的_[!UICONTROL Return to Orders Management]_&#x200B;選項。 頁面的URL也表示您處於順序封存中。
 
 1. 在&#x200B;_動作_&#x200B;資料行中，按一下&#x200B;**[!UICONTROL View]**。
 

@@ -3,9 +3,15 @@ title: 產品影像匯入
 description: 瞭解如何使用每個影像的路徑和檔案名稱匯入產品影像。
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
 >[!IMPORTANT]
 >
->建議您使用支援UTF-8編碼的程式來編輯CSV檔案，例如Notepad++。 Microsoft® Excel會在CSV檔案的欄標題中插入其他字元，如此可防止將資料匯回Commerce。
+>建議您使用支援UTF-8編碼的程式來編輯CSV檔案，例如Notepad++。 ® Excel會在CSV檔案的欄標題中插入其他字元，如此可防止將資料匯回Commerce。
 
 ## 方法1：從本機伺服器匯入影像
 
@@ -34,7 +40,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!NOTE]
    >
-   >從Adobe Commerce和Magento Open Source`2.3.2`發行版本開始，**[!UICONTROL Images File Directory]**&#x200B;中指定的路徑會串連以匯入影像基底目錄 — `<Magento-root-folder>/var/import/images`。 若是舊版Adobe Commerce和Magento Open Source，只要在匯入程式期間指定了資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
+   >從Adobe Commerce和Magento Open Source `2.3.2`發行版本開始，**[!UICONTROL Images File Directory]**&#x200B;中指定的路徑會串連以匯入影像基底目錄 — `<Magento-root-folder>/var/import/images`。 若是舊版Adobe Commerce和Magento Open Source，只要在匯入程式期間指定了資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
 
 1. 在CSV資料中，輸入要匯入到正確資料列上的每個影像檔案的名稱，依`sku`輸入，並根據影像型別（`base_image`、`small_image`、`thumbnail_image`或`additional_images`）輸入到正確的資料欄中。
 
@@ -58,7 +64,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!TIP]
    >
-   >保留&#x200B;_[!UICONTROL Images File Directory]_&#x200B;空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
+   >保留&#x200B;_[!UICONTROL Images File Directory]_空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source 2.3.2版開始，這是預設的匯入影像基礎目錄。
 
    如果為單一`sku`匯入多個影像，請將影像插入名為`additional_images`的欄中（如果尚未新增，請新增該欄），並以逗號分隔。 範例： `image02.jpg,image03.jpg`
 
@@ -84,7 +90,7 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!NOTE]
    >
-   >從Adobe Commerce和Magento Open Source`2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_&#x200B;中指定的路徑會串連以匯入影像基底目錄： `<remote-storage-root-folder>/var/import/images`。 對於舊版Adobe Commerce和Magento Open Source，只要在匯入過程中指定資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
+   >從Adobe Commerce和Magento Open Source `2.3.2`發行版本開始，_[!UICONTROL Images File Directory]_中指定的路徑會串連以匯入影像基底目錄： `<remote-storage-root-folder>/var/import/images`。 若是舊版Adobe Commerce和Magento Open Source，只要在匯入程式期間指定了資料夾路徑，您就可以在Commerce伺服器上使用其他資料夾。
 
 1. 在CSV資料中，輸入要匯入到正確資料列上的每個影像檔案的名稱，依`sku`輸入，並根據影像型別（`base_image`、`small_image`、`thumbnail_image`或`additional_images`）輸入到正確的資料欄中。
 
@@ -106,11 +112,11 @@ Commerce會針對按字母順序組織的產品影像建立專屬的目錄結構
 
    >[!TIP]
    >
-   >將&#x200B;_[!UICONTROL Images File Directory]_&#x200B;保留空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source版本2.3.2開始，這是預設的匯入影像基礎目錄。
+   >將&#x200B;_[!UICONTROL Images File Directory]_保留空白以使用`<Magento-root-folder>/var/import/images`目錄。 從Adobe Commerce和Magento Open Source 2.3.2版開始，這是預設的匯入影像基礎目錄。
 
    如果為單一`sku`匯入多個影像，請在名為`additional_images`的欄中插入影像（如果尚未新增，請新增該欄），並以逗號分隔： `image02.jpg,image03.jpg`
 
-如需有關啟用及管理遠端儲存模組的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定遠端儲存](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=zh-Hant)。
+如需有關啟用及管理遠端儲存模組的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定遠端儲存](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html)。
 
 >[!NOTE]
 >

@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales Emails]'
-description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales Emails]頁面上的組態設定。
+title: '[!UICONTROL Sales] > [!UICONTROL Sales Emails]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Sales Emails]頁面上的組態設定。
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 1e19aaab43f389469d6bc44810c1819678ae3e4a
+TQID: https://experienceleague.adobe.com/6BUVNd3BxyFvzCvE-FCXwr0-f7AOQdwW5cB2QiUx-b4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: 2340
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![一般設定](./assets/sales-emails-general-settings.png)<!-- zoom -->
 
-<!-- [General Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/communications/email-communications) -->
+<!-- [General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-communications) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 ![訂單](./assets/sales-emails-order.png)<!-- zoom -->
 
-<!-- [Order](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
+<!-- [Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -47,7 +53,7 @@ ht-degree: 0%
 
 ![訂單註解](./assets/sales-emails-order-comments.png)<!-- zoom -->
 
-<!-- [Order Comments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
+<!-- [Order Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 ![發票](./assets/sales-emails-invoice.png)<!-- zoom -->
 
-<!-- [Invoice](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/invoices) -->
+<!-- [Invoice](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -81,7 +87,7 @@ ht-degree: 0%
 
 ![發票註解](./assets/sales-emails-invoice-comments.png)<!-- zoom -->
 
-<!-- [Invoice Comments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
+<!-- [Invoice Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -98,7 +104,7 @@ ht-degree: 0%
 
 ![出貨](./assets/sales-emails-shipment.png)<!-- zoom -->
 
-<!-- [Shipment](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -115,7 +121,7 @@ ht-degree: 0%
 
 ![出貨註解](./assets/sales-emails-shipment-comments.png)<!-- zoom -->
 
-<!-- [Shipment Comments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/shipments) -->
+<!-- [Shipment Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -132,7 +138,7 @@ ht-degree: 0%
 
 ![銷退折讓單](./assets/sales-emails-credit-memo.png)<!-- zoom -->
 
-<!-- [Credit Memo](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
+<!-- [Credit Memo](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -149,7 +155,7 @@ ht-degree: 0%
 
 ![銷退折讓單註解](./assets/sales-emails-credit-memo-comments.png)<!-- zoom -->
 
-<!-- [Credit Memo Comments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
+<!-- [Credit Memo Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memo-create) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -168,7 +174,7 @@ ht-degree: 0%
 
 ![已準備好到商店取貨的訂單](./assets/sales-emails-ready-pickup.png)<!-- zoom -->
 
-<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [Order Ready For Pickup in Store](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -206,7 +212,7 @@ ht-degree: 0%
 
 ![報價](./assets/sales-emails-quote.png)<!-- zoom -->
 
-<!-- [Quotes](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
+<!-- [Quotes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/account-dashboard-my-quotes) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -229,7 +235,7 @@ ht-degree: 0%
 
 ![RMA](./assets/sales-emails-rma.png)<!-- zoom -->
 
-<!-- [RMA](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -248,7 +254,7 @@ ht-degree: 0%
 
 ![RMA授權](./assets/sales-emails-rma-auth.png)<!-- zoom -->
 
-<!-- [RMA Authorization](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
+<!-- [RMA Authorization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/rma-configure) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -284,7 +290,7 @@ ht-degree: 0%
 
 ![RMA客戶意見](./assets/sales-emails-rma-customer-comments.png)<!-- zoom -->
 
-<!-- [RMA Customer Comments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
+<!-- [RMA Customer Comments](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/returns/returns) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

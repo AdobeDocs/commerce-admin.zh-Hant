@@ -3,20 +3,26 @@ title: 送貨與傳遞
 description: 瞭解您可以向客戶提供的各種運送方式與運送公司支援。
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/ztcCQwzUB-DEOxTokNeH8TN7AxA0uAOuSVK8c1X--RU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: 280
 ht-degree: 0%
 
 ---
 
 # 送貨與傳遞
 
-研究表明，為客戶提供多種傳送方法選擇的商店，其轉換率比使用單一方法的商店高。 您可以設定各種交貨方式與運送公司。 [出貨設定](shipping-settings.md)會建立從您的商店或倉儲出貨的所有出貨的原點，以及您管理出貨至多個地址的訂單的偏好設定。 您可以輕易地建立[送貨標籤](shipping-labels.md)，供您商店管理員的新訂單和現有訂單使用。 標籤可在建立出貨時或稍後產生。 出貨標籤會以PDF格式儲存，並下載至您的電腦。
+研究表明，為客戶提供多種傳送方法選擇的商店，其轉換率比使用單一方法的商店高。 您可以設定各種交貨方式與運送公司。 [出貨設定](shipping-settings.md)會建立從您的商店或倉儲出貨的所有出貨的原點，以及您管理出貨至多個地址的訂單的偏好設定。 您可以輕易地建立[送貨標籤](shipping-labels.md)，供您商店管理員的新訂單和現有訂單使用。 標籤可在建立出貨時或稍後產生。 運送標籤會以PDF格式儲存，並下載至您的電腦。
 
 >[!NOTE]
 >
->由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。如需Commerce中新出貨實作的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/tw/products/magento/shipping.html){:target="_blank"}頁面。
+>由於Temando已關閉，因此在2.4.0中移除[!DNL Magento Shipping]的支援。 如需Commerce中新出貨實作的詳細狀態資訊和建議，請參閱[產品資訊](https://business.adobe.com/products/magento/shipping.html){:target="_blank"}頁面。
 
 ## 基本傳送方法
 

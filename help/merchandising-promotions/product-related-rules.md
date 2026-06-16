@@ -3,9 +3,15 @@ title: 相關產品規則
 description: 瞭解相關的產品規則，以及如何使用這些規則來動態向您的客戶呈現相關產品、向上銷售和交叉銷售。
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
+TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 879
 ht-degree: 0%
 
 ---
@@ -28,8 +34,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 指派給每個相關產品規則的唯一數值識別碼 |
 | [!UICONTROL Rule] | 相關產品規則的名稱 |
-| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
+| [!UICONTROL Start] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_），根據建立規則時所定義的規則開始日期來篩選清單。 |
+| [!UICONTROL End] | 使用動態行事曆欄位（_[!UICONTROL To:]_和_[!UICONTROL From:]_）來根據建立規則時所定義的規則結束日期篩選清單。 |
 | [!UICONTROL Priority] | 在此欄位中輸入文字，以根據為規則定義的優先順序來篩選清單。 |
 | [!UICONTROL Applies To] | 此選項會篩選套用至`Related Products`、`Up-sells`和`Cross-sells`的規則清單。 |
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
@@ -40,14 +46,14 @@ ht-degree: 0%
 
 在任何指定時間，都可能會觸發數個作用中規則來顯示相關產品、向上銷售和交叉銷售。 每個規則的優先順序會決定產品在頁面上出現的順序。 此值可設為任何整數，`1`具有最高優先順序。
 
-產品關係規則中可包含的產品ID數目由`Result Limit`值決定，此值的最大值為20。 與特定規則型產品促銷活動的`Result Limit`結合的`Configurable Maximum`值會變成`Real Limit`，並決定清單中可顯示的實際相符產品數目。
+產品關係規則中可包含的產品ID數目由`Result Limit`值決定，此值的最大值為20。 與特定規則型產品促銷活動的`Configurable Maximum`結合的`Result Limit`值會變成`Real Limit`，並決定清單中可顯示的實際相符產品數目。
 
 [結果限制] + [可設定的最大值] = [實際限制]
 
 例如，假設您有三個優先順序為`1`、`2`和`3`的規則。
 
 - 針對&#x200B;_規則1_&#x200B;傳回兩個相符產品，針對&#x200B;_規則2_&#x200B;傳回六個相符產品，針對&#x200B;_規則3_&#x200B;傳回20個相符產品。
-- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;設定為`6`。
+- 在設定中，_[!UICONTROL Maximum Number of Products for Related Products List]_設定為`6`。
 
   | 規則 | 優先順序 | 相符產品 |
   |---|---|-----|

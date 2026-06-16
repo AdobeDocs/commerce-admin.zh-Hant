@@ -1,12 +1,18 @@
 ---
-title: '[!UICONTROL Advanced] &amp；gt； [!UICONTROL Developer]'
-description: 檢閱Commerce管理員的[!UICONTROL Advanced] &amp；gt； [!UICONTROL Developer]頁面上的組態設定。
+title: '[!UICONTROL Advanced] > [!UICONTROL Developer]'
+description: 檢閱Commerce管理員的[!UICONTROL Advanced] &gt； [!UICONTROL Developer]頁面上的組態設定。
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
+TQID: https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: 803
 ht-degree: 1%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 1%
 
 ![前端開發工作流程](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#frontend-development-workflow)中的&#x200B;_前端開發工作流程_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[前端開發工作流程](../../systems/developer-tools.md#frontend-development-workflow)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -35,7 +41,7 @@ ht-degree: 1%
 
 ![開發人員使用者端限制](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-如需有關變更此設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#client-restrictions)中的&#x200B;_使用者端限制_。
+如需有關變更此設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[使用者端限制](../../systems/developer-tools.md#client-restrictions)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -47,7 +53,7 @@ ht-degree: 1%
 
 ![範本設定](./assets/developer-template-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -60,7 +66,7 @@ ht-degree: 1%
 
 ![偵錯](./assets/developer-debug.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#template-path-hints)中的&#x200B;_範本路徑提示_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[範本路徑提示](../../systems/developer-tools.md#template-path-hints)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -74,7 +80,7 @@ ht-degree: 1%
 
 ![翻譯內嵌](./assets/developer-translate-inline.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[系統管理系統指南](../../systems/developer-tools.md#translate-inline)中的&#x200B;_翻譯內嵌_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_系統管理系統指南_&#x200B;中的[翻譯內嵌](../../systems/developer-tools.md#translate-inline)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -87,7 +93,7 @@ ht-degree: 1%
 
 ![JavaScript設定](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -105,7 +111,7 @@ ht-degree: 1%
 
 ![CSS設定](./assets/developer-css-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[管理系統指南](../../systems/developer-tools.md#optimizing-resource-files)中的&#x200B;_最佳化資源檔案_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_管理系統指南_&#x200B;中的[最佳化資源檔案](../../systems/developer-tools.md#optimizing-resource-files)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

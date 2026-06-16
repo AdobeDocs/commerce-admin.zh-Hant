@@ -2,10 +2,16 @@
 title: 新增和移除頁面
 description: 瞭解如何新增和移除 [!DNL Commerce] 存放區中使用的內容頁面。
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1216
 ht-degree: 0%
 
 ---
@@ -40,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->頁面產生器內容編輯器不會顯示預設「商店檢視」無法使用的CMS頁面元素預覽。 例如，您無法預覽僅指派給非預設存放區檢視的CMS區塊。 在此情況下，您必須先發佈CMS頁面。 然後，您可以直接在店面檢視此頁面。 或者，您也可以在[!UICONTROL Pages]欄中選取CMS頁面[!UICONTROL View]，從Admin的[!UICONTROL Action]格線檢視頁面。
+>頁面產生器內容編輯器不會顯示預設「商店檢視」無法使用的CMS頁面元素預覽。 例如，您無法預覽僅指派給非預設存放區檢視的CMS區塊。 在此情況下，您必須先發佈CMS頁面。 然後，您可以直接在店面檢視此頁面。 或者，您也可以在[!UICONTROL Action]欄中選取CMS頁面[!UICONTROL View]，從Admin的[!UICONTROL Pages]格線檢視頁面。
 
 #### 使用頁面產生器內容工具
 
@@ -136,7 +142,7 @@ ht-degree: 0%
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)若要排程設計變更，請展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**，然後執行下列動作：
+1. ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）若要排程設計變更，請展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**，然後執行下列動作：
 
    ![自訂設計更新](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
@@ -150,13 +156,13 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Close]**&#x200B;以返回「頁面」格線。
 
-1. 在格線中尋找頁面，並在&#x200B;**[!UICONTROL View]**&#x200B;欄中選取&#x200B;_[!UICONTROL Action]_。
+1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL View]**。
 
 1. 若要返回格線，請按一下瀏覽器視窗左上角的&#x200B;**[!UICONTROL Back]**。
 
 ### 步驟8：發佈頁面
 
-1. 在網格的&#x200B;**[!UICONTROL Edit]**&#x200B;欄中選取&#x200B;_[!UICONTROL Action]_。
+1. 在網格的&#x200B;_[!UICONTROL Action]_欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 將&#x200B;**[!UICONTROL Enable Page]**&#x200B;設為`Yes`。
 
@@ -170,7 +176,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_。
+1. 在網格中，找到您要複製的頁面，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭，然後選擇&#x200B;**[!UICONTROL Save & Duplicate]**。
 
@@ -211,7 +217,7 @@ ht-degree: 0%
 
 ## 刪除頁面
 
-移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_&#x200B;格線或&#x200B;_[!UICONTROL Edit]_&#x200B;頁面移除它。
+移除已建立頁面的方法有兩種。 您可以從&#x200B;_[!UICONTROL Pages]_格線或_[!UICONTROL Edit]_&#x200B;頁面移除它。
 
 ### 方法1：從「頁面」格線中移除頁面
 
@@ -229,7 +235,7 @@ ht-degree: 0%
 
 1. 尋找要刪除的頁面。
 
-1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
+1. 在頁面實體的&#x200B;_[!UICONTROL Actions]_欄中，按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Delete Page]**。
 

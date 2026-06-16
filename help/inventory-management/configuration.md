@@ -3,9 +3,15 @@ title: 設定 [!DNL Inventory Management]
 description: 了解決定來源可用性、店面產品和訂單運送的 [!DNL Inventory Management] 選項組態。
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -14,9 +20,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management]模組支援產品和全域層級的存貨組態設定，並提供會影響來源可用性、店面產品和訂單運送的其他設定。 組態設定套用至：
 
-- 整個目錄：移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然後，展開左側面板中的&#x200B;**[!UICONTROL Catalog]**&#x200B;並選取&#x200B;**[!UICONTROL Inventory]**。
+- 整個目錄：移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。 然後，展開左側面板中的&#x200B;**[!UICONTROL Catalog]**並選取&#x200B;**[!UICONTROL Inventory]**。
 
-- 特定產品：移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然後，以編輯模式開啟產品並按一下&#x200B;_[!UICONTROL Sources]_&#x200B;區段中的&#x200B;**[!UICONTROL Advanced Inventory]**。
+- 特定產品：移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。 然後，以編輯模式開啟產品並按一下&#x200B;_[!UICONTROL Sources]_區段中的&#x200B;**[!UICONTROL Advanced Inventory]**。
 
 您可以將目錄設定為在店面中顯示詳細目錄資料、管理使用中的購物車等。 將每個專案的可用性顯示為&#x200B;_有庫存_&#x200B;或&#x200B;_無庫存_，並在庫存不足時顯示可用庫存。
 
@@ -34,30 +40,30 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Manage Stock] | 啟用[!DNL Commerce]以管理所有詳細目錄。 設定此產品或[!DNL Commerce]中的所有產品是否使用庫存控制。 設定為`Yes`時顯示更多選項。 |
 | [!UICONTROL Only X left Threshold] | 設定特定金額可購買時通知的數量。 此金額會在庫存層級進行追蹤。 |
-| [!UICONTROL Out-of-Stock Threshold] | 您的安全存量、觸發缺貨通知並減輕缺貨風險的數量。 此值會影響延期交貨。 選項： <br />**[!UICONTROL No Backorders]**：產品無庫存時，不接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0]**：當數量低於零時，接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在數量低於零時接受延期交貨，但通知客戶仍然可以下訂單。<br /><br />**[!UICONTROL Backorders disabled]**：建議輸入大於0的正值，例如5或25。 <br/>**[!UICONTROL Backorders enabled]**：輸入允許延期交貨數量上限的負臨界值，例如–5或–25。 0的值會做為無限庫存。 系統會忽略正值，並將其視為0。 |
+| [!UICONTROL Out-of-Stock Threshold] | 您的安全存量、觸發缺貨通知並減輕缺貨風險的數量。 此值會影響延期交貨。 選項：<br />**[!UICONTROL No Backorders]**：當產品無存貨時，不接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0]**：當數量低於零時，接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：當數量低於零時，接受延期交貨，但通知客戶仍然可以下訂單。<br /><br />**[!UICONTROL Backorders disabled]**：建議輸入大於0的正值，例如5或25。 <br/>**[!UICONTROL Backorders enabled]**：輸入允許延期交貨數量上限的負臨界值，例如–5或–25。 0的值會做為無限庫存。 系統會忽略正值，並將其視為0。 |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 設定單一訂單可購買之產品的最小數量。 |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 設定單一訂單可購買之產品的最大數量。 |
 | [!UICONTROL Qty Uses Decimals] | 允許產品數量的小數金額，而不是整數。 此設定對依重量、體積或長度銷售的產品很有幫助。 在Source的層級指定，根據指派的來源在庫存層級計算。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 決定產品的零件是否可以單獨出貨。 當&#x200B;**[!UICONTROL Qty Uses Decimals]** = `Yes`時，會顯示此選項。 |
-| [!UICONTROL Backorders] | 顯示是否允許延期交貨。 在Source的層級指定，根據指派的來源在庫存層級計算。 如果啟用以允許延期交貨，建議為無存貨臨界值設定負值（請參閱[設定延期交貨](backorders.md)）。 選項： <br />**[!UICONTROL No Backorders]**：產品無庫存時，不接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0]**：當數量低於零時，接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：在數量低於零時接受延期交貨，但通知客戶仍然可以下訂單。 |
+| [!UICONTROL Backorders] | 顯示是否允許延期交貨。 在Source的層級指定，根據指派的來源在庫存層級計算。 如果啟用以允許延期交貨，建議為無存貨臨界值設定負值（請參閱[設定延期交貨](backorders.md)）。 選項：<br />**[!UICONTROL No Backorders]**：當產品無存貨時，不接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0]**：當數量低於零時，接受延期交貨。<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**：當數量低於零時，接受延期交貨，但通知客戶仍然可以下訂單。 |
 | [!UICONTROL Notify for Quantity Below] | 設定觸發「低於數量」通知的數量，警告庫存不足。 此金額是從「可銷售數量」扣除，而非從「存貨數量」扣除。 |
 | [!UICONTROL Enable Qty Increments] | 決定產品是否可以數量遞增方式銷售。 如果啟用，請輸入必須以累加步驟購買的產品數量。 增量可設定必須作為單一產品購買的產品專案數量，以及作為可配置、分組和捆綁產品的子產品的數量。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management]未使用此值。 當您完成退貨或銷退折讓單時，產品數量會自動退回至受影響的來源數量。 請參閱[設定產品選項](product-options.md)。 |
 
 ## 設定回覆和繼承
 
-組態覆寫或套用至下列繼承路徑：產品&#x200B;_[!UICONTROL Sources]_&#x200B;區段覆寫產品&#x200B;_[!UICONTROL Advanced Options]_&#x200B;覆寫全域&#x200B;_[!UICONTROL Inventory]_&#x200B;存放區組態。
+組態覆寫或套用至下列繼承路徑：產品&#x200B;_[!UICONTROL Sources]_區段覆寫產品_[!UICONTROL Advanced Options]_&#x200B;覆寫全域&#x200B;_[!UICONTROL Inventory]_存放區組態。
 
 當[!DNL Commerce]檢查要套用的自訂設定時，它遵循以下順序：
 
-1. 檢查&#x200B;_[!UICONTROL Sources]_&#x200B;區段中產品層級的自訂設定。 有一些設定可供使用。
+1. 檢查&#x200B;_[!UICONTROL Sources]_區段中產品層級的自訂設定。 有一些設定可供使用。
 
-1. 檢查產品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;設定。
+1. 檢查產品&#x200B;_[!UICONTROL Advanced Inventory]_設定。
 
 1. 如果針對產品設定選取`Use Config Settings`，則會從全域&#x200B;_詳細目錄_&#x200B;存放區組態頁面檢查值。
 
 例如，您可以使用類似下列的設定，以不同方式設定商店中的延期交貨：
 
-- _全域：_&#x200B;啟用商店的延期交貨，將無庫存臨界值設定為`-50`
+- 全域&#x200B;:_啟用存放區的延期交貨，將無庫存臨界值設定為`-50`(_O)
 
-- _產品：_&#x200B;停用特定產品的延期交貨，將無庫存臨界值設定為`10`
+- 產品&#x200B;:_停用特定產品的延期交貨，將無存貨臨界值設定為`10`(_P)

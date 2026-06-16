@@ -3,16 +3,21 @@ title: Newsletter範本
 description: 瞭解如何建立電子報範本，以符合您的通訊策略。
 exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 feature: Customers, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 0%
 
 ---
 
 # Newsletter範本
 
-您可以視需要建立多個電子報範本，以用於不同的用途。 您可以傳送每週產品更新、每月電子報或年度假日電子報。 新聞稿範本可以用HTML標籤或純文字來準備。 與HTML不同，純文字電子報不包含影像、RTF文字或格式化的連結。 在網格中，「範本型別」欄會指出範本是HTML還是文字。
+您可以視需要建立多個電子報範本，以用於不同的用途。 您可以傳送每週產品更新、每月電子報或年度假日電子報。 新聞稿範本可透過HTML標籤或純文字來準備。 與HTML不同，純文字電子報不包含影像、RTF文字或格式連結。 在網格中，「範本型別」欄會指出範本是HTML還是文字。
 
 ![電子報範本 — 新增至電子報佇列](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 

@@ -3,16 +3,22 @@ title: '[!UICONTROL My Purchase Orders]'
 description: 瞭解採購單，以及公司如何使用採購單管理其採購。
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+TQID: https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL My Purchase Orders]
 
-當為公司[&#128279;](purchase-order-flow.md)啟用採購單時，客戶登入公司使用者帳戶的任何訂單都會自動建立為採購單(PO)。 具有必要許可權的公司使用者可以建立、編輯和刪除他們建立的採購單，以及下屬使用者建立的採購單。
+當為公司](purchase-order-flow.md)啟用採購單時，[客戶登入公司使用者帳戶的任何訂單都會自動建立為採購單(PO)。 具有必要許可權的公司使用者可以建立、編輯和刪除他們建立的採購單，以及下屬使用者建立的採購單。
 
 ![我的採購單](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
@@ -48,13 +54,13 @@ ht-degree: 0%
 
 1. 遵循一般簽出工作流程並按一下&#x200B;**[!UICONTROL Place Purchase Order]**。
 
-如果他們按一下&#x200B;_[!UICONTROL Add Items to Shopping Cart]_&#x200B;時購物車中有專案，系統會顯示對話方塊。 此對話方塊可讓他們選擇將購物車專案與新專案合併，或將購物車中的專案取代為採購單中的專案。
+如果他們按一下&#x200B;_[!UICONTROL Add Items to Shopping Cart]_時購物車中有專案，系統會顯示對話方塊。 此對話方塊可讓他們選擇將購物車專案與新專案合併，或將購物車中的專案取代為採購單中的專案。
 
 如果不再需要原始採購單，則可將其關閉。
 
 ## 採購單核准
 
-對於根據公司結構或指派的公司角色指定為核准者的客戶，_[!UICONTROL My Purchase Orders]_&#x200B;儀表板頁面會顯示&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;標籤。 客戶按一下此索引標籤，以複查等待核准的採購單。 計數器顯示等待核准的訂單數。
+對於根據公司結構或指派的公司角色指定為核准者的客戶，_[!UICONTROL My Purchase Orders]_儀表板頁面會顯示&#x200B;**[!UICONTROL Requires My Approval]**標籤。 客戶按一下此索引標籤，以複查等待核准的採購單。 計數器顯示等待核准的訂單數。
 
 按一下採購單的&#x200B;**[!UICONTROL View]**&#x200B;並檢閱詳細資料後，核准者可以按一下&#x200B;**[!UICONTROL Approve]**&#x200B;或&#x200B;**[!UICONTROL Reject]**。
 
@@ -62,7 +68,7 @@ ht-degree: 0%
 
 從Adobe Commerce 2.4.1開始，核准者可以一次核准或拒絕多個採購單。
 
-1. 在&#x200B;_[!UICONTROL My Purchase Order]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;標籤。
+1. 在&#x200B;_[!UICONTROL My Purchase Order]_頁面上，按一下&#x200B;**[!UICONTROL Requires My Approval]**標籤。
 
 1. 選取每個要核准或拒絕之採購單的核取方塊。
 

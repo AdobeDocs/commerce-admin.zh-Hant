@@ -1,16 +1,23 @@
 ---
-title: '[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]'
-description: 檢閱Commerce管理員的[!UICONTROL Customers] &amp；gt； [!UICONTROL Customer Configuration]頁面上的組態設定。
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: 檢閱Commerce管理員的[!UICONTROL Customers] &gt； [!UICONTROL Customer Configuration]頁面上的組態設定。
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 ![帳戶共用選項](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 ![線上客戶選項](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -45,19 +52,19 @@ ht-degree: 0%
 
 ![建立新帳戶選項（VAT欄位）](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | 存放區檢視 | 決定是否自動將客戶指定至預設客戶群組。 若要在店面顯示VAT編號，請設定[在店面顯示VAT編號]，選取`Yes`。 選項： <br/>**`Yes`**— 系統不會自動驗證客戶VAT ID，也不會變更客戶群組。<br/>**`No`** — 系統行為如常執行，且預設客戶群組可在「預設群組」欄位中設定。 |
 | [!UICONTROL Default Group] | 存放區檢視 | 識別建立帳戶時指派的初始客戶群組。 |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全域 | （只有當目前的設定範圍設定為`Default Group`時才能使用。）選擇預設是啟用還是停用根據VAT ID自動變更客戶群組。 可在產品層級上覆寫設定。 此設定會影響下列情況中的系統行為： <br/> — 客戶預設地址的VAT ID或整個預設地址變更。 <br/> — 針對先前沒有儲存地址的註冊客戶或在結帳期間註冊的客戶，在結帳期間模擬客戶群組變更。 <br/>如果已啟用自動群組變更，則在第一種情況下，客戶群組會自動變更，而在第二種情況下，暫時模擬的客戶群組會指派給客戶。 如果停用自動群組變更，則除非管理員手動變更，否則指派的客戶群組不會變更。 |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 全域 | （只有當目前的設定範圍設定為`Default Group`時才能使用。） 選擇預設是啟用還是停用根據VAT ID自動變更客戶群組。 可在產品層級上覆寫設定。 此設定會影響下列情況中的系統行為： <br/> — 客戶預設地址的VAT ID或整個預設地址變更。<br/> — 針對先前沒有儲存地址的註冊客戶或在結帳期間註冊的客戶，在結帳期間模擬客戶群組變更。 <br/>如果已啟用自動群組變更，則在第一種情況下，客戶群組會自動變更，而在第二種情況下，暫時模擬的客戶群組會指派給客戶。 如果停用自動群組變更，則除非管理員手動變更，否則指派的客戶群組不會變更。 |
 | [!UICONTROL Show VAT Number on Storefront] | 網站 | 決定商店中的客戶是否可看到VAT編號。 選項： `Yes` / `No` <br/>僅影響一般非B2B客戶帳戶。 公司帳戶有自己的個別「VAT編號」欄位。 |
 | [!UICONTROL Default Email Domain] | 存放區檢視 | 識別商店的預設電子郵件網域。 例如： `mystore.com` |
 | [!UICONTROL Default Welcome Email] | 存放區檢視 | 識別用於預設&#x200B;_歡迎_&#x200B;電子郵件的電子郵件範本。 |
 | [!UICONTROL Default Welcome Email Without Password] | 存放區檢視 | 替代歡迎電子郵件範本，用於管理員建立但尚未指派密碼的新客戶帳戶。 |
 | [!UICONTROL Email Sender] | 存放區檢視 | 識別顯示為歡迎電子郵件寄件者的商店聯絡人。 |
-| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No`。<br/><br/> _&#x200B;**注意：**&#x200B;_&#x200B;從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入帳戶。 |
+| [!UICONTROL Require Emails Confirmation] | 網站 | 決定建立帳戶的請求是否需要客戶的確認。 選項： `Yes` / `No`。<br/><br/> _**注意：**_&#x200B;從2.4.7版開始，無論瀏覽器為何，客戶都必須在電子郵件確認後，重新輸入電子郵件和密碼以登入帳戶。 |
 | [!UICONTROL Confirmation Link Email] | 存放區檢視 | 識別用於確認電子郵件的電子郵件範本。 預設範本： `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 存放區檢視 | 識別在帳戶確認後傳送之歡迎訊息所使用的電子郵件範本。 |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 全域 | 判斷是否可從店面看到用來輸入及儲存VAT ID號碼的欄位。 選項： `Yes` / `No` |
@@ -68,11 +75,11 @@ ht-degree: 0%
 
 ![密碼選項](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Password Reset Protection Type] | 存放區檢視 | 決定用來重設客戶帳戶密碼的方法。 選項： <br/>**`By IP and Email`**— 收到來自重設通知的回應後，可以線上上重設密碼，該重設通知會傳送至與管理員帳戶關聯的電子郵件地址。<br/>**`By IP`** — 密碼可以線上上重設。 <br/>**`By Email`**— 密碼可以透過回應電子郵件通知來重設，此電子郵件通知會傳送至與管理員帳戶關聯的電子郵件地址。<br/>**`None`** — 密碼只能由存放區管理員重設。 |
+| [!UICONTROL Password Reset Protection Type] | 存放區檢視 | 決定用來重設客戶帳戶密碼的方法。 選項： <br/>**`By IP and Email`**— 收到來自重設通知的回應後，可以線上上重設密碼，該重設通知會傳送至與管理員帳戶關聯的電子郵件地址。<br/>**`By IP`** — 密碼可以線上上重設。<br/>**`By Email`**— 密碼可以透過回應電子郵件通知來重設，此電子郵件通知會傳送至與管理員帳戶相關聯的電子郵件地址。<br/>**`None`** — 密碼只能由存放區管理員重設。 |
 | [!UICONTROL Max Number of Password Reset Requests] | 存放區檢視 | 限制每小時的密碼重設要求數目。 對於無限制的請求，輸入零(0)。 |
 | [!UICONTROL Min Time Between Password Reset Requests] | 存放區檢視 | 決定密碼重設要求之間的分鐘數。 若要求之間沒有延遲，請輸入零(0)。 |
 | [!UICONTROL Forgot Email Template] | 存放區檢視 | 識別客戶忘記密碼時所使用的電子郵件範本。 預設範本： `Forgot Password` |
@@ -107,7 +114,7 @@ ht-degree: 0%
 
 ![名稱和地址選項 — 開啟Source](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -117,7 +124,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 網站 | 判斷客戶名稱中是否包含中間首字母。 若使用，中間初始字元是選用欄位。 選項： `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 網站 | 決定客戶名稱在結尾是否包含尾碼，例如Jr.、Sr.和III。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 網站 | 定義字尾選項的清單。 以分號分隔值。 在第一個值前放置分號，在清單頂端顯示空白值。 |
-| [!UICONTROL Show Date of Birth] | 網站 | 決定名稱和地址表單中是否包含客戶出生日期。 選項： `No` / `Optional` / `Required` <br><br>**_重要：_**&#x200B;根據目前的安全和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
+| [!UICONTROL Show Date of Birth] | 網站 | 決定名稱和地址表單中是否包含客戶出生日期。 選項： `No` / `Optional` / `Required` <br><br>**_Important:_**&#x200B;根據目前的安全和隱私權最佳實務，請注意任何與客戶的完整出生日期（月、日、年）和其他個人識別碼儲存相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
 | [!UICONTROL Show Tax/VAT Number] | 網站 | 決定名稱與地址表單中是否包含稅捐或[VAT編號](../../stores-purchase/vat.md)。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 網站 | 決定名稱和地址表單中是否包含性別。 選項： `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 網站 | 決定名稱與地址表單中是否包含客戶的電話號碼。 選項： `No` / `Optional` / `Required` |
@@ -132,7 +139,7 @@ ht-degree: 0%
 
 ![名稱和位址選項 — Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -150,7 +157,7 @@ ht-degree: 0%
 
 ![儲存點數選項](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -166,7 +173,7 @@ ht-degree: 0%
 
 ![登入選項](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -178,7 +185,7 @@ ht-degree: 0%
 
 ![位址範本](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | 範本 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -195,7 +202,7 @@ ht-degree: 0%
 
 ![客戶區段](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | 範本 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -208,14 +215,14 @@ ht-degree: 0%
 
 ![驗證碼](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 網站 | 在與Commerce網站相關的商店中啟用驗證碼。 選項： `Yes` / `No` |
 | [!UICONTROL Font] | 網站 | 決定用於顯示驗證碼的字型。 若要新增您自己的字型，請將字型檔案放在與Commerce安裝相同的目錄中，並將宣告新增至`app/code/Magento/Captcha/etc`的`config.xml`檔案。 |
-| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=zh-Hant)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**注意：**&#x200B;_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
-| [!UICONTROL Displaying Mode] | 網站 | 決定驗證碼何時出現。 選項： <br/>**`Always`**— 登入一律需要CAPTCHA。<br/>**`After number of attempts to login`** — 此選項僅適用於「管理員登入」表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;欄位就會顯示。 輸入您要允許的登入嘗試次數。 `0` （零）的值類似於將[!UICONTROL Displaying Mode]設定為`Always`。<br/>_&#x200B;**注意：**&#x200B;_若要追蹤失敗的登入嘗試次數，每個嘗試使用一個電子郵件地址和一個IP位址登入都會被計入。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。 |
+| [!UICONTROL Forms] | 網站 | 決定使用CAPTCHA的表單。 選項： <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` （請參閱[安全性修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)） <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**注意：**_&#x200B;選取時，建立使用者、忘記密碼和Payflow Pro表單一律已啟用。 |
+| [!UICONTROL Displaying Mode] | 網站 | 決定驗證碼何時出現。 選項： <br/>**`Always`**— 登入一律需要CAPTCHA。<br/>**`After number of attempts to login`** — 此選項僅適用於「管理員登入」表單。 選取後，_[!UICONTROL Number of Unsuccessful Attempts to Login]_欄位就會顯示。 輸入您要允許的登入嘗試次數。 值`0` （零）類似於將[!UICONTROL Displaying Mode]設定為`Always`。<br/>_**注意：**_若要追蹤失敗的登入嘗試次數，每個嘗試使用一個電子郵件地址和一個IP位址登入都會計算在內。 允許來自相同IP位址的登入嘗試次數上限為1,000。 此限制僅在啟用驗證碼時適用。 |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 網站 | 指定帳戶鎖定前，客戶可嘗試登入的次數。 |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 網站 | 決定目前驗證碼的存留期。 驗證碼過期時，使用者必須重新載入頁面。 |
 | [!UICONTROL Number of Symbols] | 網站 | 決定驗證碼中顯示的符號數，最多為8個。 您也可以指定範圍，例如5-8。 |

@@ -2,9 +2,15 @@
 title: '[!UICONTROL Sales]功能表'
 description: Commerce管理員包含[!UICONTROL Sales]功能表，可讓您根據訂單在工作流程中的位置存取用於處理訂單的工具。
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
+TQID: https://experienceleague.adobe.com/mliJ1Q1-DEkR5rAoIRLQ9qBxQopBytjicPiqzWTg7ac
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -17,13 +23,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 ![銷售功能表](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 ![銷售功能表](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -37,13 +43,13 @@ ht-degree: 0%
 
 ### [!UICONTROL Quotes]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) （適用於Adobe Commerce B2B）
 
 授權買家可從購物車傳送[要求](../b2b/quote-request.md)，與賣家[議價價格](../b2b/quotes.md)。
 
 ### [!UICONTROL Quote Templates]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (適用於Adobe Commerce B2B)
+![Adobe Commerce B2B](../assets/b2b.svg) （適用於Adobe Commerce B2B）
 
 透過建立可重複使用且可自訂的[報價範本](../b2b/quote-templates-overview.md)，讓買家和賣家簡化報價程式。
 
@@ -65,13 +71,13 @@ ht-degree: 0%
 
 ### [!UICONTROL Returns]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）
 
 可以將[退回的商品授權](returns.md) (RMA)授與要求退回專案以進行更換或退款的客戶。 RMA可針對簡單、分組、可設定和套裝產品型別發行。 不過，RMA不適用於虛擬及可下載的產品，或禮品卡。
 
 ### [!UICONTROL Billing Agreements]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 [帳單合約](paypal-billing-agreements.md)與採購單類似，不過不限於單一採購。 結帳時，客戶選擇「帳單協定」作為付款方式。 帳單協定可簡化結帳程式，因為客戶不需要為每次購買輸入付款資訊。
 
@@ -81,12 +87,12 @@ ht-degree: 0%
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 在Braintree虛擬終端機頁面上，管理員使用者可接受所選金額的付款。 若要讓終端機功能可用，商家應該設定基本的[Braintree設定](braintree.md)。 Braintree提供完全可自訂的結帳體驗，包含詐騙偵測和PayPal整合。
 
 ### [!UICONTROL Archive]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）
 
 （必須啟用封存選項） [封存訂單](order-archive.md)和其他銷售檔案會定期改善效能，讓您的工作區沒有不必要的資訊。

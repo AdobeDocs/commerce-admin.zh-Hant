@@ -3,9 +3,16 @@ title: 排序類別產品
 description: 瞭解如何以手動方式或套用預先定義的排序順序，定義類別中產品的定位。
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
+TQID: https://experienceleague.adobe.com/Co2sHVc4YaLqjVrc-Varq9-ssecBB-C2mL3MTAPuQbU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 424
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 1. 如有必要，請選擇套用設定的&#x200B;**[!UICONTROL Store View]**。
 
-   若為多存放區安裝，_[!UICONTROL Store View]_&#x200B;設定會將排序順序套用至存放區內所有可用的檢視。
+   若為多存放區安裝，_[!UICONTROL Store View]_設定會將排序順序套用至存放區內所有可用的檢視。
 
 1. 在左側的類別樹狀結構中，選擇要編輯的類別。
 
@@ -34,9 +41,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_&#x200B;遞增順序排序。
+>依產品屬性排序類別時，具有相同屬性值的產品也會依其&#x200B;_[!UICONTROL Product ID]_遞增順序排序。
 
-在&#x200B;_[!UICONTROL Products in Category]_&#x200B;區段中，按一下圖磚（ ![檢檢視磚](../assets/icon-view-tiles.png) ）圖示，以顯示格線中的產品圖磚。 使用手動或自動方法來排序產品。
+在&#x200B;_[!UICONTROL Products in Category]_區段中，按一下圖磚（ ![檢檢視磚](../assets/icon-view-tiles.png) ）圖示，以顯示格線中的產品圖磚。 使用手動或自動方法來排序產品。
 
 ![產品圖磚](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 

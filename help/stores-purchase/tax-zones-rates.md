@@ -3,9 +3,15 @@ title: 稅捐區與稅率
 description: 瞭解如何針對您收稅和匯款的每個地理區域定義稅率。
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 380
 ht-degree: 0%
 
 ---
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
 
-1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_&#x200B;格線中尋找稅率，並以編輯模式開啟記錄。
+1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_格線中尋找稅率，並以編輯模式開啟記錄。
 
    如果清單中有許多費率，請使用[篩選器控制項](../getting-started/admin-grid-controls.md)來尋找您需要的費率。
 

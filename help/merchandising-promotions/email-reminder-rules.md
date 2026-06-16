@@ -3,9 +3,15 @@ title: 電子郵件提醒
 description: 瞭解在滿足特定條件時會自動傳送給客戶的電子郵件提醒。
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: 3e6ffa7d90472256b0e94de03cb2debc9c34bac7
+TQID: https://experienceleague.adobe.com/13-faUDGh5J3Ry8Dr6ZnMKcBcF9VuHm4fGHS-MGzoyc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;欄位設定電子郵件之間的天數。
+>如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_欄位設定電子郵件之間的天數。
 
 ![電子郵件提醒](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -44,7 +50,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - 根據&#x200B;**[!UICONTROL Interval]**&#x200B;設定設定適當的&#x200B;_[!UICONTROL Frequency]_。
+   - 根據&#x200B;_[!UICONTROL Frequency]_設定設定適當的&#x200B;**[!UICONTROL Interval]**。
 
    - 將&#x200B;**[!UICONTROL Start Time]**&#x200B;設定為根據24小時時鐘傳送電子郵件的時、分、秒。
 
@@ -54,7 +60,7 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Reminder Email Sender]**&#x200B;設為顯示為提醒電子郵件寄件者的[商店連絡人](../getting-started/store-details.md#store-email-addresses)。
 
-   如需這些選項的詳細清單，請參閱[設定參考](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)中的&#x200B;_自動電子郵件提醒規則_。
+   如需這些選項的詳細清單，請參閱&#x200B;_設定參考_&#x200B;中的[自動電子郵件提醒規則](../configuration-reference/customers/promotions.md#automated-email-reminder-rules)。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
@@ -70,7 +76,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Add New Template]**。
 
-1. 在&#x200B;**[!UICONTROL Template]**&#x200B;下的`Magento_Reminder`清單中，選擇&#x200B;**[!UICONTROL Promotion Notification/Reminder]**&#x200B;範本。
+1. 在`Magento_Reminder`下的&#x200B;**[!UICONTROL Template]**&#x200B;清單中，選擇&#x200B;**[!UICONTROL Promotion Notification/Reminder]**&#x200B;範本。
 
 1. 按一下&#x200B;**[!UICONTROL Load Template]**。
 

@@ -3,9 +3,14 @@ title: '[!UICONTROL My Requisition Lists]'
 description: 瞭解申購清單的客戶體驗（可在客戶帳戶控制面板中取得）。
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
+TQID: https://experienceleague.adobe.com/pwiF8OEOXHcE4Pqb2wNbE8kravY2fx7k359g-loTcns
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 588
 ht-degree: 0%
 
 ---
@@ -150,8 +155,8 @@ Adobe Commerce會產生並下載包含`sku`和`qty`值的CSV清單。
 
 >[!NOTE]
 >
-> 需要您留意的產品（例如無庫存產品）若在分頁的目前頁面內，則會顯示在清單頂端。 需要您注意的產品數量會顯示在清單上方。
-> ![需要注意的專案](./assets/requisition-list-product-requiring-attention.png){width="500"}
+> 需要您留意的產品（例如無庫存產品）若在分頁的目前頁面內，則會顯示在清單頂端。需要您注意的產品數量會顯示在清單上方。
+> ![個需要注意的專案](./assets/requisition-list-product-requiring-attention.png){width="500"}
 
 ### 店面分頁控制項
 

@@ -3,9 +3,15 @@ title: 匯入套件組合產品
 description: 檢閱匯入套件產品的產品資料範例。
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: 628
 ht-degree: 0%
 
 ---
@@ -55,7 +61,7 @@ ht-degree: 0%
 
 1. 向下捲動至區段底部，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL File name]_&#x200B;格線的&#x200B;_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
+1. 在&#x200B;_[!UICONTROL File name]_格線的_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
 
    檔案會顯示在瀏覽器使用的下載位置。
 
@@ -83,7 +89,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
 
 1. 將&#x200B;**[!UICONTROL Import Behavior]**&#x200B;設為`Replace`。
 
