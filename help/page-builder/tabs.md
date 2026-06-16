@@ -3,9 +3,23 @@ title: 版面 — 索引標籤
 description: 瞭解索引標籤內容型別，用於在 [!DNL Page Builder] 階段中新增一組索引標籤。
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/p8-6Q5JB1-j0TcS9MCp6VDDM--GG3Rd-dUMYguPbngw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: 2041
 ht-degree: 0%
 
 ---
@@ -56,7 +70,7 @@ ht-degree: 0%
 
 ## 新增個別索引標籤
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Tabs]**&#x200B;預留位置直接拖曳至舞台或舞台上的列或欄。
 
    ![將索引標籤拖曳到列](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -236,7 +250,7 @@ ht-degree: 0%
 
   下列範例中的列的邊框半徑為15。
 
-  邊框半徑為15![的](./assets/pb-settings-border-radius-15.png){width="500"}列
+  邊框半徑為15![&#128279;](./assets/pb-settings-border-radius-15.png){width="500"}的列
 
 - （選擇性）從目前的樣式表中指定要套用至欄容器的&#x200B;**[!UICONTROL CSS classes]**&#x200B;名稱。
 

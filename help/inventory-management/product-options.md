@@ -3,9 +3,24 @@ title: 設定 [!DNL Inventory Management] 產品選項
 description: 瞭解如何設定 [!DNL Inventory Management] 產品組態選項。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 910
 ht-degree: 0%
 
 ---
@@ -49,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Source Code] | 全域 | [來源](sources-manage.md)的唯一代碼。 |
 | [!UICONTROL Name] | 全域 | 來源的唯一名稱。 |
 | [!UICONTROL Status] | 全域 | 產品在目錄中啟用或停用。 |
-| [!UICONTROL Source Item Status] | 全域 | 決定產品目前的可用性。 選項：<br />`In Stock` — 讓產品可供購買。<br />`Out of Stock` — 除非啟用延期交貨，否則會防止產品可供購買，並從目錄中移除清單。 |
+| [!UICONTROL Source Item Status] | 全域 | 決定產品目前的可用性。 選項：<br />`In Stock` — 讓產品可供購買。<br />`Out of Stock`  — 除非已啟用「延期交貨」，否則會防止產品可供購買，並從目錄中移除清單。 |
 | [!UICONTROL Qty] | 全域 | 每個來源或地點的庫存量。 |
 | [!UICONTROL Notify Quantity] | 全域 | 如果未選取&#x200B;_[!UICONTROL Notify Quantity Use Default]_，則此特定來源的&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;金額。 |
 | [!UICONTROL Notify Quantity Use Default] | 全域 | 表示要在產品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;中使用&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;的預設設定，或在商店設定中使用全域設定。 |
@@ -112,9 +127,9 @@ ht-degree: 0%
 | [!UICONTROL Out-of-Stock Threshold] | 全域 | 決定產品被視為無庫存的庫存水準。 選項：<br />正值 — 如果停用延期交貨，請輸入正值。<br />零(0) — 啟用「延期交貨」時，輸入零允許無限延期交貨。<br />負值 — 啟用延期交貨時，建議輸入負值。 此金額會新增至「可銷售數量」。 例如，輸入`-50`以允許此金額以下的訂單。 |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 全域 | 決定單一訂單可購買的產品最小數量。 |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 全域 | 決定單一訂單可購買的最大產品數量。 |
-| [!UICONTROL Qty Uses Decimals] | 全域 | 決定客戶在輸入訂購數量時，是否可以使用小數值而非整數。 選項：<br />`Yes` — 允許以小數輸入值，而非整數。 小數位數適用於以重量、體積或長度出售的產品。<br />`No` — 要求以整數輸入數量值。 |
+| [!UICONTROL Qty Uses Decimals] | 全域 | 決定客戶在輸入訂購數量時，是否可以使用小數值而非整數。 選項：<br />`Yes` — 允許以小數輸入值，而非整數。 小數位適合以重量、體積或長度出售的產品。<br />`No`  — 要求以整數輸入數量值。 |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 全域 | 決定產品的零件是否可以單獨出貨。 當&#x200B;**[!UICONTROL Qty Uses Decimals]** = `Yes`時，會顯示此選項。 |
-| [!UICONTROL Backorders] | 全域 | 決定如何管理延期交貨。 延交訂單不會變更訂單的處理狀態。 無論產品是否有庫存，下訂單時仍會立即授權或擷取資金。 產品一推出即開始出貨。 啟用時，建議您為「缺貨臨界值」輸入負值。 選項：<br/>`No Backorders` — 當產品無存貨時，不接受延期交貨。<br />`Allow Qty Below 0` — 當數量低於零時，接受延期交貨。<br />`Allow Qty Below 0 and Notify Customer` — 在數量低於零時接受延期交貨，但通知客戶仍然可以下訂單。 |
+| [!UICONTROL Backorders] | 全域 | 決定如何管理延期交貨。 延交訂單不會變更訂單的處理狀態。 無論產品是否有庫存，下訂單時仍會立即授權或擷取資金。 產品一推出即開始出貨。 啟用時，建議您為「缺貨臨界值」輸入負值。 選項：<br/>`No Backorders` — 當產品無存貨時，不接受延期交貨。<br />`Allow Qty Below 0`  — 當數量低於零時，接受延期交貨。<br />`Allow Qty Below 0 and Notify Customer`  — 在數量低於零時接受延期交貨，但通知客戶仍可下訂單。 |
 | [!UICONTROL Enable Qty Increments] | 全域 | 決定產品是否可以數量遞增方式銷售。 增量可設定必須作為單一產品購買的產品專案數量，以及作為可配置、分組和捆綁產品的子產品的數量。 |
 
 >[!NOTE]

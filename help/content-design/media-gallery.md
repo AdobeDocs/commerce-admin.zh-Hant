@@ -3,10 +3,23 @@ title: ' [!DNL Media Gallery]'
 description: 使用「媒體集」來組織和管理伺服器上的媒體檔案。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -41,13 +54,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱[設定指南](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)中的&#x200B;_管理訊息佇列_。
+>新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)。
 
 ## 存取新的[!DNL Media Gallery]
 
-可從「內容」功能表或當您[!DNL Media Gallery]新增或編輯頁面[時，存取新的](/help/content-design/page-add.md)。 您[建立或編輯類別](/help/catalog/category-create.md)時，或使用「內容編輯器」[插入影像時](/help/content-design/editor-insert-image.md)，也可以存取它。
+可從「內容」功能表或當您[新增或編輯頁面](/help/content-design/page-add.md)時，存取新的[!DNL Media Gallery]。 您[建立或編輯類別](/help/catalog/category-create.md)時，或使用「內容編輯器」[插入影像時](/help/content-design/editor-insert-image.md)，也可以存取它。
 
-若要透過[!UICONTROL Media Gallery]功能表存取新[!UICONTROL Content]：
+若要透過[!UICONTROL Content]功能表存取新[!UICONTROL Media Gallery]：
 
 - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**。
 

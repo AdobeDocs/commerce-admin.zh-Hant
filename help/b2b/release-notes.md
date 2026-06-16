@@ -3,9 +3,32 @@ title: '[!DNL Adobe Commerce B2B]發行說明'
 description: 請檢閱發行說明，以瞭解 [!DNL Adobe Commerce B2B] 發行版本中的變更資訊。
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 09c59e5c185200875f9dfe6dc5ab719c81e6f959
+TQID: https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '11202'
+source-wordcount: 11091
 ht-degree: 0%
 
 ---
@@ -1018,7 +1041,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 來賓現在可以使用QuickOrder將產品新增至購物車，然後成功移除專案。 先前，當購物者使用QuickOrder將多個產品新增至購物車，然後移除產品時，產品未移除。<!--- MC-35327-->
 
-- 現在可以使用REST API PUT `/V1/company/:companyId`要求更新公司，不需要在狀態設定為&#x200B;**不需要**&#x200B;時指定`region_id`。 以前，即使不需要`region_id`，如果未指定，Adobe Commerce也會擲回錯誤。<!--- MC-35304-->
+- 現在可以使用REST API PUT `/V1/company/:companyId`要求更新公司，而不需在狀態設定為&#x200B;**不需要**&#x200B;時指定`region_id`。 以前，即使不需要`region_id`，如果未指定，Adobe Commerce也會擲回錯誤。<!--- MC-35304-->
 
 - 當您使用REST API （`http://magento.local/rest/V1/company/2`，其中`2`代表公司ID）建立或更新B2B公司時，回應現在會如預期納入`applicable_payment_method`或`available_payment_methods`的設定。<!--- MC-35248-->
 

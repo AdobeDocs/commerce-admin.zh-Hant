@@ -3,9 +3,24 @@ title: '[!DNL Page Builder]逐步解說第1部分：簡單頁面'
 description: 使用範例檔案，並依照步驟在 [!DNL Page Builder] 介面中建立簡單頁面。
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/i6y4j2MrN59vbxZXYOqTmUyjMURsaK-WOYChOFVW2Bc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3314'
+source-wordcount: 3341
 ht-degree: 0%
 
 ---
@@ -195,7 +210,7 @@ ht-degree: 0%
 
    格式設定會套用與目前主題關聯的樣式表中的樣式。
 
-   ![內容階段中的橫幅含格式化文字](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   內容階段中的![橫幅包含格式化文字](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
 1. 將游標暫留以顯示「橫幅工具箱」，再次選擇「_設定_」（「![設定」圖示](./assets/pb-icon-settings.png){width="20"}）圖示，然後捲動至「_[!UICONTROL Content]_」區段。

@@ -2,10 +2,23 @@
 title: 使用Widget來定位區塊
 description: 瞭解如何使用靜態區塊Widget，將現有內容幾乎放置在商店內的任何位置。
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -63,14 +76,14 @@ _CMS靜態區塊_ [Widget](widgets.md)可讓您將現有的[內容區塊](blocks
 | 欄位 | 說明 |
 |--- |--- |
 | **_[!UICONTROL Categories]_** |  |
-| [!UICONTROL Anchor Categories] | 在錨點類別頁面上顯示Widget。<br/>**[!UICONTROL Categories]**— 顯示錨點的類別。 選項： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定配置主題。 |
-| [!UICONTROL Non-Anchor Categories] | 在非錨點類別頁面上顯示Widget。<br/>**[!UICONTROL Categories]**— 顯示錨點的類別。 選項： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定配置主題。 |
+| [!UICONTROL Anchor Categories] | 在錨點類別頁面上顯示Widget。<br/>**[!UICONTROL Categories]**— 顯示錨點的類別。 選項： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定版面配置的主題。 |
+| [!UICONTROL Non-Anchor Categories] | 在非錨點類別頁面上顯示Widget。<br/>**[!UICONTROL Categories]**— 顯示錨點的類別。 選項： `All` /`Specific Categories`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定版面配置的主題。 |
 | **_[!UICONTROL Products]_** |  |
-| 所有產品型別 | 在特定產品頁面型別或所有產品頁面上顯示Widget。 <br/>**[!UICONTROL Products]**— 顯示Widget的產品。 選項： `All` /` Specific Products`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定配置主題。 |
+| 所有產品型別 | 在特定產品頁面型別或所有產品頁面上顯示Widget。<br/>**[!UICONTROL Products]**— 顯示Widget的產品。 選項： `All` /` Specific Products`<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定版面配置的主題。 |
 | **_[!UICONTROL Generic Pages]_** |  |
-| [!UICONTROL All Pages] | 在所有頁面上顯示Widget。 <br/>**[!UICONTROL Container]**— 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]** — 決定配置主題。 |
-| [!UICONTROL Specified Page] | 顯示特定頁面上的Widget。 選項：<br/>**[!UICONTROL Page]**— 顯示Widget的頁面。<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**範本** — 決定配置主題。 |
-| [!UICONTROL Page Layouts] | 在具有特定版面的頁面上顯示Widget。 <br/>**[!UICONTROL Page]**— 顯示介面工具集的頁面。<br/>**[!UICONTROL Container]** — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定配置主題。 |
+| [!UICONTROL All Pages] | 在所有頁面上顯示Widget。<br/>**[!UICONTROL Container]**— 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**  — 決定版面配置的主題。 |
+| [!UICONTROL Specified Page] | 顯示特定頁面上的Widget。 選項：<br/>**[!UICONTROL Page]**— 顯示Widget的頁面。<br/>**[!UICONTROL Container]**  — 將容器設為頁面配置中要顯示Widget的部分。<br/>**範本** — 決定配置主題。 |
+| [!UICONTROL Page Layouts] | 在具有特定版面的頁面上顯示Widget。<br/>**[!UICONTROL Page]**— 顯示Widget的頁面。<br/>**[!UICONTROL Container]**  — 將容器設定為您要顯示Widget的頁面配置部分。<br/>**[!UICONTROL Template]**— 決定版面配置的主題。 |
 
 {style="table-layout:auto"}
 

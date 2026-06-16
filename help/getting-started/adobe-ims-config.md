@@ -3,11 +3,28 @@ title: 使用ID設定Commerce管理整合
 description: 請依照此選擇性程式，將Adobe Commerce管理員使用者帳戶登入與Adobe ID整合。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: 919
+ht-degree: 1%
 
 ---
 
@@ -15,7 +32,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe商業產品之管理員使用者的Adobe Commerce商家。 這是選用專案，會根據執行個體來啟用。 啟用時，只有管理員使用者工作流程會受到影響。 
+這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe商業產品之管理員使用者的Adobe Commerce商家。這是選用專案，會根據執行個體來啟用。啟用時，只有管理員使用者工作流程會受到影響。 
 
 >[!IMPORTANT]
 >
@@ -34,8 +51,8 @@ ht-degree: 0%
 
 設定此整合的管理員在啟用模組期間需要下列認證：
 
-* 組織ID (取自[Adobe Admin Console](https://adminconsole.adobe.com/))，長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。
-* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html#two-step-verification)。
+* 組織ID （取自[Adobe Admin Console](https://adminconsole.adobe.com/)），長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)。
+* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)。
 * 使用者端ID
 * 使用者端密碼
 * 從[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)擷取API金鑰後，即可使用使用者端ID和使用者端密碼。
@@ -82,7 +99,7 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 
 >[!TIP]
 >
->您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+>您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)。
 
 1. 在[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)中，導覽至&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
 
@@ -115,4 +132,4 @@ Adobe Commerce會顯示訊息，指出啟用是成功還是失敗。
 
 ## 身分識別與單一登入
 
-如需有關身分設定選項(包括Adobe ID、Enterprise ID和Federated ID)的資訊，以及設定單一登入(SSO)以安全存取Adobe應用程式的指示，請參閱[企業Admin Console](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)檔案中的&#x200B;*設定身分和單一登入*。
+如需有關身分設定選項（包括Adobe ID、Enterprise ID和Federated ID）的資訊，以及設定單一登入(SSO)以安全存取Adobe應用程式的指示，請參閱&#x200B;*企業Admin Console*&#x200B;檔案中的[設定身分和單一登入](https://helpx.adobe.com/enterprise/using/set-up-identity.html)。

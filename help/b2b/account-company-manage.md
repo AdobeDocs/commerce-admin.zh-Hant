@@ -3,9 +3,31 @@ title: 管理公司帳戶
 description: 瞭解如何使用公司頁面和網格中可用的工具，為您的Adobe Commerce商店管理公司帳戶。
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: 2728
 ht-degree: 0%
 
 ---
@@ -245,7 +267,7 @@ _[!UICONTROL Companies]_&#x200B;頁面列出所有目前的公司帳戶，無論
 | [!UICONTROL Select] | 用來選取作為動作主體的公司記錄或使用欄標題中的選取控制項來選取/取消選取所有專案的核取方塊。 |
 | [!UICONTROL ID] | 提交建立公司的請求時指派的唯一數值識別碼。 |
 | [!UICONTROL Company Name] | 公司名稱是在第一次建立公司帳戶時輸入的，可以是完整法律名稱的縮寫版本。 |
-| [!UICONTROL Company Type] | [公司](manage-companies.md)的型別。 選項： <br/>**[!UICONTROL Company]**— 根據預設，新公司會建立為單一公司。<br/>**[!UICONTROL Parent]** — 公司是其他公司的母公司。 <br/>**[!UICONTROL Child]**— 此公司與母公司相關。 |
+| [!UICONTROL Company Type] | [公司](manage-companies.md)的型別。 選項： <br/>**[!UICONTROL Company]**— 根據預設，新公司會建立為單一公司。<br/>**[!UICONTROL Parent]** — 公司是其他公司的母公司。<br/>**[!UICONTROL Child]**— 此公司與母公司有關。 |
 | [!UICONTROL Parent] | 顯示此特定公司明細的母公司。 |
 | [!UICONTROL Company Email] | 與公司帳戶相關聯的電子郵件地址。 |
 | [!UICONTROL Phone Number] | 公司的主要電話號碼。 |
@@ -275,7 +297,7 @@ _[!UICONTROL Companies]_&#x200B;頁面列出所有目前的公司帳戶，無論
 | [!UICONTROL VAT/TAX ID] | 某些管轄區為報稅目的而指派給公司的[增值稅](../stores-purchase/vat.md)編號。 若要設定要出現在店面的客戶VAT/稅務ID，請參閱[建立新帳戶選項](../configuration-reference/customers/customer-configuration.md)。 |
 | [!UICONTROL Credit Limit] | 延伸至公司帳戶的信用額度。 |
 | [!UICONTROL Credit Currency] | 商店接受以公司信用購買的貨幣。 |
-| [!UICONTROL Status] | 表示公司帳戶的[狀態](account-company-approve.md)。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 公司管理員和相關成員可以從店面登入帳戶並進行購買。<br/>**[!UICONTROL Pending Approval]** — 已提交開啟公司帳戶的要求，但尚未由商店管理員核准。 <br/>**[!UICONTROL Rejected]**— 已提交開啟公司帳戶的要求，但未獲得商店管理員的核准。 用於提交請求的初始登入認證會被封鎖。<br/>**[!UICONTROL Blocked]** — 公司成員可以登入並存取目錄，但無法進行購買。 商店管理員可能會封鎖信譽不佳的公司帳戶。 帳戶上的區塊可由存放區管理員隨時移除。 |
+| [!UICONTROL Status] | 表示公司帳戶的[狀態](account-company-approve.md)。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 公司管理員和相關成員可以從店面登入帳戶並進行購買。<br/>**[!UICONTROL Pending Approval]** — 已提交開啟公司帳戶的要求，但尚未由商店管理員核准。<br/>**[!UICONTROL Rejected]**— 已提交開啟公司帳戶的要求，但未獲得商店管理員的核准。 用於提交請求的初始登入認證會被封鎖。<br/>**[!UICONTROL Blocked]** — 公司成員可以登入並存取目錄，但無法進行購買。 商店管理員可能會封鎖信譽不佳的公司帳戶。 帳戶上的區塊可由存放區管理員隨時移除。 |
 | [!UICONTROL Gender] | 公司管理員的性別。 選項：男性/女性/未指定 |
 | [!UICONTROL Comment] | 公司帳戶的相關備註以供參考，且僅供管理員檢視。 |
 
@@ -299,7 +321,7 @@ _[!UICONTROL Companies]_&#x200B;頁面列出所有目前的公司帳戶，無論
 | 欄位 | 說明 |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | 公司名稱是在第一次建立公司帳戶時輸入的，可以是完整法律名稱的縮寫版本。 |
-| [!UICONTROL Status] | 表示公司帳戶的[狀態](account-company-approve.md)。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 公司管理員和相關成員可以從店面登入帳戶並進行購買。<br/>**[!UICONTROL Pending Approval]** — 已提交開啟公司帳戶的要求，但尚未由商店管理員核准。 <br/>**[!UICONTROL Rejected]**— 已提交開啟公司帳戶的要求，但未獲得商店管理員的核准。 用於提交請求的初始登入認證會被封鎖。<br/>**[!UICONTROL Blocked]** — 公司成員可以登入並存取目錄，但無法進行購買。 商店管理員可能會封鎖信譽不佳的公司帳戶。 帳戶上的區塊可由存放區管理員隨時移除。 |
+| [!UICONTROL Status] | 表示公司帳戶的[狀態](account-company-approve.md)。 選項： <br/>**[!UICONTROL Active]**— 公司帳戶已由存放區管理員核准。 公司管理員和相關成員可以從店面登入帳戶並進行購買。<br/>**[!UICONTROL Pending Approval]** — 已提交開啟公司帳戶的要求，但尚未由商店管理員核准。<br/>**[!UICONTROL Rejected]**— 已提交開啟公司帳戶的要求，但未獲得商店管理員的核准。 用於提交請求的初始登入認證會被封鎖。<br/>**[!UICONTROL Blocked]** — 公司成員可以登入並存取目錄，但無法進行購買。 商店管理員可能會封鎖信譽不佳的公司帳戶。 帳戶上的區塊可由存放區管理員隨時移除。 |
 | [!UICONTROL Company Email] | 與公司帳戶相關聯的電子郵件地址。 |
 | [!UICONTROL Sales Representative] | 公司帳戶主要聯絡人的管理員使用者。 |
 

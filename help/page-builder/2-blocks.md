@@ -3,9 +3,23 @@ title: '[!DNL Page Builder]逐步解說第2部分：區塊'
 description: 瞭解使用 [!DNL Page Builder]時簡單區塊與動態區塊之間的差異。
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/ZCD-tDNnFO-wtivK5wOjriexmRs8h10ZzvedjmqOIds
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: 2071
 ht-degree: 0%
 
 ---
@@ -76,7 +90,7 @@ ht-degree: 0%
 
 1. 按一下專案下拉式清單，然後選取或建立您要新增API金鑰的專案。
 
-1. 若要設定您的API認證，請依照[檔案中的](https://developers.google.com/maps/documentation/javascript/get-api-key)指示[!DNL Google Maps]操作。
+1. 若要設定您的API認證，請依照[!DNL Google Maps]檔案中的[指示](https://developers.google.com/maps/documentation/javascript/get-api-key)操作。
 
 1. 將API金鑰複製到剪貼簿。
 
@@ -102,11 +116,11 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
-1. 在格線中，尋找您在第一個教學課程中建立的&#x200B;_[!UICONTROL Simple Page]_，並在&#x200B;**[!UICONTROL Edit]**&#x200B;欄中選取&#x200B;_[!UICONTROL Action]_。
+1. 在格線中，尋找您在第一個教學課程中建立的&#x200B;_[!UICONTROL Simple Page]_，並在&#x200B;_[!UICONTROL Action]_&#x200B;欄中選取&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或內容預覽區域內。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台頂端。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台頂端。
 
    ![正在將資料列新增到舞台頂端](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -134,7 +148,7 @@ ht-degree: 0%
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
-**恭喜！**&#x200B;您已完成「區塊」練習的第一部分。 請務必保留您的工作以作參考。
+**恭喜！** 您已完成「區塊」練習的第一部分。 請務必保留您的工作以作參考。
 
 ## 第2部分：建立動態區塊
 
@@ -182,7 +196,7 @@ ht-degree: 0%
 
 1. 針對&#x200B;**[!UICONTROL Minimum Height]**，輸入`400px`。
 
-1. 捲動至「_[!UICONTROL Background]_」區段，並按一下「**[!UICONTROL Background Image]**」並選擇第一個教學課程中上傳的&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;影像以設定`wide-banner-background.png`。
+1. 捲動至「_[!UICONTROL Background]_」區段，並按一下「**[!UICONTROL Select from Gallery]**」並選擇第一個教學課程中上傳的`wide-banner-background.png`影像以設定&#x200B;**[!UICONTROL Background Image]**。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
@@ -190,7 +204,7 @@ ht-degree: 0%
 
 **工作2：**&#x200B;新增欄
 
-在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;預留位置拖曳至列。
+在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Column]**&#x200B;預留位置拖曳至列。
 
 ![將資料行型別拖曳到資料列](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -224,7 +238,7 @@ ht-degree: 0%
    | 第2行： | `24px` |
    | 第3行： | `18px` |
 
-   由於此區塊可放置在頁面上的任何位置，因此請使用預設的段落樣式，而不是標題層級。 此外，也無須擔心欄中的文字尚未正確換行。  
+   由於此區塊可放置在頁面上的任何位置，因此請使用預設的段落樣式，而不是標題層級。此外，也無須擔心欄中的文字尚未正確換行。  
 
    ![格式化文字](./assets/pb-tutorial2-column-text-editor-text-formatted.png){width="600" zoomable="yes"}
 
@@ -237,10 +251,10 @@ ht-degree: 0%
    您可以使用完整限定的URL或省略商店網域參照的相對URL。
 
    完整URL
-： `https://mystore.com/women/tops-women/tees-women.html`
+: `https://mystore.com/women/tops-women/tees-women.html`
 
    相對URL
-： `../women/tops-women/tees-women.html`
+: `../women/tops-women/tees-women.html`
 
 1. 返回[!DNL Page Builder]工作區索引標籤與文字編輯器，選取第三行中的`Shop Tees >`文字，然後在編輯器工具列中選擇&#x200B;**粗體** （![粗體按鈕](./assets/editor-btn-bold.png)）。
 
@@ -290,7 +304,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**
 
-1. 尋找您在&#x200B;_第一個逐步解說練習_&#x200B;中建立的[簡單頁面](1-simple-page.md)，並以編輯模式開啟。
+1. 尋找您在[第一個逐步解說練習](1-simple-page.md)中建立的&#x200B;_簡單頁面_，並以編輯模式開啟。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**。
 
@@ -298,7 +312,7 @@ ht-degree: 0%
 
    若要確認從頁面中移除該列，請按一下「**[!UICONTROL OK]**」。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將新的&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台頂端。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將新的&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台頂端。
 
 1. 在[!DNL Page Builder]面板中，展開&#x200B;**[!UICONTROL Add Content]**&#x200B;並將&#x200B;**[!UICONTROL Dynamic Block]**&#x200B;預留位置拖曳到新列。
 
@@ -394,7 +408,7 @@ ht-degree: 0%
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** - `roni_cost3@example.com`
+     **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
    - 按一下&#x200B;**[!UICONTROL Sign In]**。
 

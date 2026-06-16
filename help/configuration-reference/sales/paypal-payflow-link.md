@@ -1,21 +1,37 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods] &amp；gt； [!UICONTROL PayPal Payflow Link]'
-description: 檢閱Commerce管理員[!UICONTROL Sales] &amp；gt； [!UICONTROL Payment Methods]頁面上[!UICONTROL PayPal Payflow Link]區段中的組態設定。
+title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payflow Link]'
+description: 檢閱Commerce Admin [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]頁面上[!UICONTROL PayPal Payflow Link]區段中的組態設定。
 exl-id: 5ea30b22-e251-4d93-be2c-d34138ef2f7d
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/6IOamrJck9VZ9sw8KwFcomnzau1606quBq9rfTedR-s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: 1308
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payflow Link]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payflow Link]
 
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的付款。 若要符合PSD2，[!DNL PayPal Payflow Link]必須與[!DNL Cardinal Commerce]整合。 若要深入瞭解，請參閱[Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)的3D安全。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的付款。為了遵循PSD2，[!DNL PayPal Payflow Link]必須與[!DNL Cardinal Commerce]整合。若要進一步瞭解，請參閱[Payflow的3D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
 
 {{config}}
 
@@ -73,7 +89,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Payment Applicable From] | 網站 | 決定適用的國家/地區選取範圍。 選項：所有允許的國家/地區/特定國家 |
 | [!UICONTROL Countries Payment Applicable From] | 網站 | 識別接受付款的每個國家/地區。 只有帳單地址在選定國家/地區的客戶才能使用此付款方式進行購買。 |
-| [!UICONTROL Debug Mode] | 網站 | 將商店和支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
+| [!UICONTROL Debug Mode] | 網站 | 將商店和支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
 | [!UICONTROL Enable SSL Verification] | 網站 | 決定是否在交易發生之前驗證主機上的安全通道。 選項： `Yes` / `No` |
 | [!UICONTROL CVV Entry is Editable] | 網站 | 決定輸入後，客戶是否可以編輯CVV。 選項： `Yes` / `No` |
 | [!UICONTROL Require CVV Entry] | 網站 | 決定是否要求客戶從信用卡背面輸入CVV代碼。 選項： `Yes` / `No` |
@@ -109,8 +125,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | 存放區檢視 | 決定出現在您商店中的PayPal標誌。 有兩種大小的4種基本樣式。 選項： `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | PayPal商家頁面樣式 |  |  |
-| [!UICONTROL Page Style] | 存放區檢視 | 決定您的PayPal商家頁面外觀。 允許的值： <br/>**`paypal`**— 使用PayPal頁面樣式。<br/>**`primary`** — 使用您在帳戶設定檔中識別為「主要」樣式的頁面樣式。 <br/>**`your_custom_value`**— 使用帳戶設定檔中指定的自訂付款頁面樣式。 |
-| [!UICONTROL Header Image URL] | 存放區檢視 | 顯示在結帳頁面左上角的影像URL。 大小上限為750 x 90畫素。 <br/><br/>**_注意：_**&#x200B;PayPal建議將影像儲存在安全(https)伺服器上。 否則，客戶的瀏覽器可能會警告「頁面包含安全及不安全的專案」。 |
+| [!UICONTROL Page Style] | 存放區檢視 | 決定您的PayPal商家頁面外觀。 允許的值： <br/>**`paypal`**— 使用PayPal頁面樣式。<br/>**`primary`** — 使用您在帳戶設定檔中識別為「主要」樣式的頁面樣式。<br/>**`your_custom_value`**— 使用在您的帳戶設定檔中指定的自訂付款頁面樣式。 |
+| [!UICONTROL Header Image URL] | 存放區檢視 | 顯示在結帳頁面左上角的影像URL。 大小上限為750 x 90畫素。 <br/><br/>**_Note:_** PayPal建議將影像儲存在安全(https)伺服器上。 否則，客戶的瀏覽器可能會警告「頁面包含安全及不安全的專案」。 |
 | [!UICONTROL Header Image Background Color] | 存放區檢視 | 結帳頁面上頁首的背景顏色的六字元[十六進位色彩](https://en.wikipedia.org/wiki/Web_colors)代碼。 您可以用大寫和小寫字元輸入代碼。 |
 | [!UICONTROL Header Image Border Color] | 存放區檢視 | 標頭周圍兩畫素邊框的六字元十六進位色彩代碼。 |
 | [!UICONTROL Page Background Color] | 存放區檢視 | 結帳頁面背景顏色的六字元十六進位顏色代碼，會顯示在頁首與付款表單後面。 |
@@ -125,7 +141,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Title] | 存放區檢視 | 在結帳時識別PayPal Express結帳付款方法的名稱。 |
 | [!UICONTROL Sort Order] | 存放區檢視 | 一個數字，當在結帳期間與其他付款方式一起列出時，會決定PayPal Express結帳的順序。 在清單頂端輸入`0`。 |
-| [!UICONTROL Payment Action] | 網站 | 決定PayPal收到訂單時所採取的動作。 選項： <br/>**`Authorization`**— 核准購買，但保留資金。 此金額必須等到商家「擷取」後才會提取。<br/>**`Sale`** — 已授權並立即從客戶帳戶中取用購買的金額。 <br/>**`Order`**— 代表與PayPal的合約，可讓商家在定義的時段內，從客戶的買方帳戶擷取一或多項最高至訂購總金額的金額。 最多可達29天。 必須從Commerce管理員產生一或多張商業發票，才能擷取資金。 |
+| [!UICONTROL Payment Action] | 網站 | 決定PayPal收到訂單時所採取的動作。 選項： <br/>**`Authorization`**— 核准購買，但保留資金。 此金額必須等到商家「擷取」後才會提取。<br/>**`Sale`** — 已授權並立即從客戶帳戶中取用購買的金額。<br/>**`Order`**— 代表與PayPal的合約，可讓商家在定義的時段內，從客戶的買方帳戶擷取一或多項最高至訂購總金額的金額。 最多可達29天。 必須從Commerce管理員產生一或多張商業發票，才能擷取資金。 |
 | [!UICONTROL URL Display on Product Details Page] | 存放區檢視 | 決定「使用PayPal結帳」按鈕是否出現在產品頁面上。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -139,7 +155,7 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 存放區檢視 | 決定PayPal Express結帳是否顯示為購物車中的付款選項。 選項：是（建議） /否 |
 | [!UICONTROL Payment Action Applicable From] | 網站 | 決定適用的國家/地區選取範圍。 選項：所有允許的國家/地區/特定國家 |
 | [!UICONTROL Countries Payment Applicable From] | 網站 | 識別接受付款的每個國家/地區。 只有帳單地址在選定國家/地區的客戶才能使用此付款方式進行購買。 |
-| [!UICONTROL Debug Mode] | 網站 | 將商店與PayPal支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_注意：_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
+| [!UICONTROL Debug Mode] | 網站 | 將商店與PayPal支付系統之間傳送的訊息記錄到記錄檔中。 選項： `Yes` / `No` <br/><br/>**_Note:_**&#x200B;記錄檔儲存在伺服器上，只有開發人員才能存取。 根據PCI資料安全性標準，記錄檔中不會記錄信用卡資訊。 |
 | [!UICONTROL Enable SSL Verification] | 網站 | 啟用主機安全性憑證的驗證。 選項： `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 網站 | 顯示PayPal網站上客戶購物車的條列專案完整摘要。 選項： `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 網站 | 決定客戶是否可以從PayPal網站完成交易，或是必須返回您的商店並在提交訂單前完成「訂單複查」步驟。 選項： `Yes` / `No` |

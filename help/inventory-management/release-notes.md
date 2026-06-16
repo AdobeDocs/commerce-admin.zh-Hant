@@ -3,9 +3,26 @@ title: '[!DNL Inventory Management]發行說明'
 description: 檢閱發行說明，瞭解所有 [!DNL Inventory Management] 發行版本的相關資訊。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3462'
+source-wordcount: 3533
 ht-degree: 0%
 
 ---
@@ -20,11 +37,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是開放給貢獻者的Magento Open Source社群工程特殊專案。 若要參與並貢獻內容，請參閱[GitHub專案](https://github.com/magento/inventory)存放庫和[Wiki](https://github.com/magento/inventory/wiki)以開始使用。 若要討論專案，請加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)管道（[自我註冊](https://opensource.magento.com/slack)）。
 
-支援及相容發行的[發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant){target="_blank"}。
+支援及相容發行的[發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -116,7 +133,7 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)購物車與結帳動作的效能已改善，例如在有許多（約10,000個）詳細目錄來源的部署中將產品加入購物車。<!--- MC-42570-->
 
-![已修正問題](../assets/fix.svg) [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"} `bin/magento inventory:reservation:list-inconsistencies`命令現在會正確處理具有部分出貨的訂單，即使資料庫遺漏預留且快取已清除亦然。 先前，當這個命令以預先清除的快取執行時，Commerce會顯示下列錯誤： `Area code is not set`。<!--- MC-42142-->
+![已修正問題](../assets/fix.svg) [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `bin/magento inventory:reservation:list-inconsistencies`命令現在會正確處理具有部分出貨的訂單，即使資料庫遺漏預留且快取已清除亦然。 先前，當這個命令以預先清除的快取執行時，Commerce會顯示下列錯誤： `Area code is not set`。<!--- MC-42142-->
 
 
 ![已修正問題](../assets/fix.svg)當子項共用時，群組產品子產品的增量索引不再導致其他群組產品的索引不正確。<!--- MC-41963-->
@@ -163,7 +180,7 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)數個修正已鎖定目標，以解決店內取貨、大量更新和存貨臨界值的問題。
 
-![新](../assets/new.svg) **功能測試。**&#x200B;引進了新的功能測試，並為現有測試提供修正，使其更穩定。
+![新](../assets/new.svg) **功能測試。** 推出新的功能測試，並為現有測試提供修正，使其更穩定。
 
 ## 1.2.1
 
@@ -171,7 +188,7 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)已修正與`inventory_cleanup_reservations` cron工作相關的已知問題，並已解決與套件組合產品的店內收取功能相關的問題。 此更新也包含存貨計算、套件組合產品支援和延期交貨功能的一般改善。
 
-![新](../assets/new.svg) **功能測試。**&#x200B;引入新的功能測試，以提供額外的店內收取功能涵蓋範圍。
+![新](../assets/new.svg) **功能測試。** 推出新的功能測試，為店內取貨功能提供額外涵蓋範圍。
 
 ## 1.2.0
 
@@ -179,17 +196,17 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)許多修正可解決來源指派、可擴充環境功能支援，以及與PHP 7.4、MySQL 8和PHPUNIT 9的相容性問題。
 
-![新的](../assets/new.svg) **店內傳遞方法。**&#x200B;新增選項，讓使用者選取要做為結帳期間取車位置的來源。 請參閱&#x200B;_銷售和購買體驗指南_&#x200B;中的[店內傳遞](../stores-purchase/shipping-in-store-delivery.md)。
+![新的](../assets/new.svg) **店內傳遞方法。** 新增選項，讓使用者在結帳時選取要作為取車位置的來源。 請參閱&#x200B;_銷售和購買體驗指南_&#x200B;中的[店內傳遞](../stores-purchase/shipping-in-store-delivery.md)。
 
-![新](../assets/new.svg) **多來源模式的套件組合產品支援。**&#x200B;詳細目錄支援具有多個來源的所有產品型別。
+![新](../assets/new.svg) **多來源模式的套件組合產品支援。** 詳細目錄支援具有多個來源的所有產品型別。
 
-![新增](../assets/new.svg) **非同步庫存重新索引。**&#x200B;已新增非同步重新索引股票的功能，並改善數個關鍵案例的效能。
+![新增](../assets/new.svg) **非同步庫存重新索引。** 新增非同步重新索引股票的功能，並改善數個關鍵案例的效能。
 
-![新](../assets/new.svg) **大量介面。**&#x200B;引入新的大量介面以進行可用性檢查： `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`，`\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`。
+![新](../assets/new.svg) **大量介面。** 引入新的大量介面以進行可用性檢查： `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`， `\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`。
 
-![新](../assets/new.svg) **已增加測試涵蓋範圍。**&#x200B;自動化測試涵蓋新功能，包括探索及修正問題的延伸涵蓋範圍。
+![新](../assets/new.svg) **已增加測試涵蓋範圍。** 自動化測試涵蓋新功能，包括已探索和已修正問題的延伸涵蓋範圍。
 
-![已知問題](../assets/bug.svg) **已知問題。**&#x200B;保留中繼資料中缺少`object_id`欄位，導致`inventory_cleanup_reservations` cron工作無法正常運作。 此問題已在[magento/inventory#3046](https://github.com/magento/inventory/pull/3046)中引入。
+![已知問題](../assets/bug.svg) **已知問題。** 預留中繼資料中缺少`object_id`欄位，導致`inventory_cleanup_reservations` cron工作無法正常運作。 此問題已在[magento/inventory#3046](https://github.com/magento/inventory/pull/3046)中引入。
 
 **因應措施：**&#x200B;執行下列MySQL查詢以手動清除保留：
 
@@ -204,15 +221,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![已修正問題](../assets/fix.svg)修正以解決延期交貨、銷退折讓單、低庫存報表格線、連線至「解決不一致」CLI工具的修正及一般改善相關的問題。
 
-![新增](../assets/new.svg) **非同步庫存重新索引。**&#x200B;已新增非同步重新索引股票的功能，並改善數個關鍵案例的效能。
+![新增](../assets/new.svg) **非同步庫存重新索引。** 新增非同步重新索引股票的功能，並改善數個關鍵案例的效能。
 
 ## 1.1.5
 
 [!DNL Inventory Management] 1.1.5 （模組版本： `inventory-composer-metapackage = 1.1.5`）受到版本2.3.5的支援，並與Adobe Commerce版本2.3.4、2.3.3、2.3.2、2.3.1和2.3.0、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![新](../assets/new.svg) **產品SKU變更後更新詳細目錄。**&#x200B;引入新的組態設定以切換至新的行為：「與目錄同步」。
+![新](../assets/new.svg) **產品SKU變更後更新詳細目錄。** 引入新的配置設定以切換到新行為：「與目錄同步」。
 
-![新](../assets/new.svg) **功能測試。**&#x200B;引入新功能測試以消除測試涵蓋範圍差距。 修正數個問題，讓測試更穩定可靠)。
+![新](../assets/new.svg) **功能測試。** 推出新的功能測試，以消除測試涵蓋範圍差距。 修正數個問題，讓測試更穩定可靠)。
 
 ![已知問題](../assets/bug.svg)修正以防止產品過度銷售、店面上的「無庫存」產品可見度、大量針對可擴充環境支援和使用者介面改良的修正。
 
@@ -220,9 +237,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 （模組版本： `inventory-composer-metapackage = 1.1.4`）受到版本2.3.4的支援，並與Adobe Commerce版本2.3.3、2.3.2、2.3.1和2.3.0、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![已修正問題&#x200B;](../assets/fix.svg)**效能提高。**&#x200B;已針對清查保留區CLI命令引入聚束邏輯，以減少記憶體使用量，並避免處理程式停滯且沒有任何回應的情況。
+![已修正問題&#x200B;](../assets/fix.svg)**效能提高。** 針對庫存預留CLI命令引入聚束邏輯，以減少記憶體使用量，並避免程式在未得到任何回應時卡住的情況。
 
-![新&#x200B;](../assets/new.svg)**增加測試涵蓋範圍。**&#x200B;引進了許多新功能測試。 幾乎所有手動清查案例都包含自動化測試。
+![新&#x200B;](../assets/new.svg)**測試涵蓋範圍增加。** 推出許多新的功能測試。 幾乎所有手動清查案例都包含自動化測試。
 
 ![已知問題](../assets/bug.svg)許多修正都是針對解決銷退折讓單、分組產品、來源與庫存整批作業的問題。
 
@@ -230,15 +247,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 （模組版本： `inventory-composer-metapackage = 1.1.3`）支援2.3.3版，並與Adobe Commerce版本2.3.2、2.3.1和2.3.0、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![已修正問題&#x200B;](../assets/fix.svg)**與Adobe Commerce和B2B功能更整合。** [!DNL Inventory Management]現在可搭配下列功能正常運作，適用於使用非預設庫存來源和庫存的網站：
+![已修正問題&#x200B;](../assets/fix.svg)**與Adobe Commerce和B2B功能更妥善整合。** 對於使用非預設詳細目錄來源和庫存的網站，[!DNL Inventory Management]現在可以搭配下列功能正常運作：
 
 - 依SKU排序(Adobe Commerce)
 - 快速訂購(B2B)
 - 請購單清單(B2B)
 
-![新&#x200B;](../assets/new.svg)**效能提高。針對執行預設詳細目錄庫存和來源的網站，**&#x200B;店面目錄瀏覽效能已有所改善。
+![新&#x200B;](../assets/new.svg)**效能提高。** 對於執行預設庫存和來源的網站，店面目錄瀏覽效能已有所改善。
 
-![新&#x200B;](../assets/new.svg)**增加測試涵蓋範圍。**&#x200B;自動化功能和整合測試的涵蓋範圍已大幅增加。
+![新&#x200B;](../assets/new.svg)**測試涵蓋範圍增加。** 自動化功能與整合測試的涵蓋範圍已大幅增加。
 
 ## 1.1.2
 
@@ -275,9 +292,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ## 1.1.0
 
-[!DNL Inventory Management] 1.1.0 （模組版本： `inventory-composer-metapackage = 1.1.0`）受到支援，並且與Adobe Commerce 2.3.0版、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。 [!DNL Inventory Management] 1.1.1僅以套件名稱更新的形式發行，支援2.3.1版，並與2.3.0版Adobe Commerce、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
+[!DNL Inventory Management] 1.1.0 （模組版本： `inventory-composer-metapackage = 1.1.0`）受到支援，並且與Adobe Commerce 2.3.0版、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。[!DNL Inventory Management] 1.1.1僅以套件名稱更新的形式發行，支援2.3.1版，並與2.3.0版Adobe Commerce、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hant){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修正問題](../assets/fix.svg)已解決預設庫存的效能問題，以大幅提升許多作業的效能。 改良功能可提升單一來源模式、「移轉存貨至Source」、「店麵類別」頁面及「可銷售數量」計算的效能。
 

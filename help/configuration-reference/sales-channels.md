@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Sales Channels] &amp；gt； [!UICONTROL Global Settings]'
-description: 檢閱Commerce管理員的[!UICONTROL Sales Channels] &amp；gt； [!UICONTROL Global Settings]頁面上的組態設定。
+title: '[!UICONTROL Sales Channels] > [!UICONTROL Global Settings]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales Channels] &gt； [!UICONTROL Global Settings]頁面上的組態設定。
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/jnjAspEdJbx3unjmoqgH12JEiLz4ThbgFGeFOArOonU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -23,6 +38,6 @@ ht-degree: 0%
 | [!UICONTROL Clear Log History] | 全域 | 選項：<br/><br/>**`Once Daily`**：選取此選項可每天清除一次您商店的活動歷史記錄。<br/><br/>**`Once Weekly`**：選取此選項可每週清除一次您商店的活動歷史記錄。<br/><br/>**`Once Monthly`**： （預設）選取此選項可每月清除一次您商店的活動歷史記錄。 |
 | [!UICONTROL Background Tasks (CRON) Source] | 全域 | 選取「`Magento CRON`」以指定[!DNL Amazon Sales Channel]使用您的Commerce cron設定來決定與Amazon Seller Central的通訊和資料同步間隔。 |
 | [!UICONTROL Enable Debug Logging] | 全域 | 選取`Enabled`以在需要疑難排解時收集其他同步處理資料。<br/><br/>此選項預設為停用，應該只在疑難排解需要時才啟用，因為持續記錄對效能有負面影響。 若啟用以進行疑難排解，則應在完成時停用此功能。 |
-| [!UICONTROL Read-Only Mode] | 全域 | 選取`Enabled`以封鎖所有外寄狀態變更API要求。 在停用唯讀模式之前，可能會儲存變更，但不會傳送。 若要再次開始資料傳輸，請選取`Disabled`。<br/><br/>當資料庫移轉至執行個體的新復本時（在組態中儲存區的URL變更時偵測），會自動啟用唯讀模式。<br/><br/>這是設計用於生產執行個體的復本，例如&#x200B;_Staging_&#x200B;或&#x200B;_QA_，不應該用於生產執行個體。<br/><br/>**_注意&#x200B;_**：必須清除設定快取，才能啟用[!UICONTROL Read-Only Mode]。 |
+| [!UICONTROL Read-Only Mode] | 全域 | 選取`Enabled`以封鎖所有外寄狀態變更API要求。 在停用唯讀模式之前，可能會儲存變更，但不會傳送。 若要重新開始資料傳輸，請選取`Disabled`。<br/><br/>當資料庫移轉至執行個體的新復本時（在組態中儲存區的URL變更時偵測到），會自動啟用唯讀模式。<br/><br/>這是設計用於生產執行個體的復本，例如&#x200B;_Staging_&#x200B;或&#x200B;_QA_，不應該用於生產執行個體。<br/><br/>**_注意&#x200B;_**：必須清除組態快取，才能啟用[!UICONTROL Read-Only Mode]。 |
 
 {style="table-layout:auto"}

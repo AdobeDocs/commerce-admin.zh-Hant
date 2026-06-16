@@ -2,9 +2,26 @@
 title: 平面目錄
 description: 瞭解如何建立平面型錄，每一列包含有關產品或類別的所有必要資料。
 exl-id: f67bd2e0-3902-41eb-b26f-c772a7692cef
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+TQID: https://experienceleague.adobe.com/7D7lHMHFVKh2J35S1Mpr5eudyLyicbpL4xqkvu-KatA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -13,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->不再建議使用平面型錄作為最佳實務。 據悉，繼續使用此功能會導致效能降低和其他索引問題。 [說明中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hant)提供詳細的說明和解決方案。<br/><br/>受影響的版本包括：<br/> — 雲端基礎結構上的Adobe Commerce、2.3.x和更高版本<br/>- Adobe Commerce （內部部署）、2.3.x和更高版本<br/>-Magento Open Source、2.3.x和更高版本<br/><br/>在任何發行版本上，某些擴充功能僅適用於平面表格，因此如果您停用平面表格，就會產生風險。 如果您知道有些擴充功能使用一般目錄索引子，則將這些值設定為`No`時，您必須注意這項風險。
+>不再建議使用平面型錄作為最佳實務。 據悉，繼續使用此功能會導致效能降低和其他索引問題。 [說明中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hant)提供詳細的說明和解決方案。<br/><br/>受影響的版本包括：<br/> — 雲端基礎結構上的Adobe Commerce、2.3.x和更高版本<br/>- Adobe Commerce （內部部署）、2.3.x和更高版本<br/>- Magento Open Source、2.3.x和更高版本<br/><br/>在任何發行版本中，某些擴充功能僅適用於平面表格，因此如果您停用平面表格，就會產生風險。 如果您知道有些擴充功能使用一般目錄索引子，則將這些值設定為`No`時，您必須注意這項風險。
 
 Commerce通常會根據實體屬性值(EAV)模型，將目錄資料儲存在多個表格中。 由於產品屬性儲存在許多表格中，因此SQL查詢有時很長且複雜。
 

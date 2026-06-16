@@ -4,9 +4,26 @@ description: 瞭解如何執行增強式安全性掃描，並監控每個Adobe C
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
+TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: 1203
 ht-degree: 0%
 
 ---
@@ -22,7 +39,7 @@ ht-degree: 0%
 - 存取追蹤及監控網站進度的歷史安全性報告。
 - 存取顯示成功和失敗檢查的掃描報告，並附上任何建議的動作。
 
-安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)中的&#x200B;_設定安全性掃描工具_。
+安全性掃描工具可從[Commerce/Magento帳戶](../getting-started/commerce-account-create.md)的儀表板中免費取得。 如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[設定安全性掃描工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)。
 
 ![安全性掃描工具](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -68,7 +85,7 @@ ht-degree: 0%
 
    1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
    1. 在清單中尋找您的網站，然後按一下&#x200B;**[!UICONTROL Edit]**。
-   1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL HTML Head]**。
+   1. 展開&#x200B;**[!UICONTROL HTML Head]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
    1. 向下捲動至&#x200B;**[!UICONTROL Scripts and Style Sheets]**，然後按一下任何現有程式碼結尾的文字方塊。 將確認代碼貼入文字方塊。
 
       ![指令碼和樣式表](./assets/scan-paste-code.png){width="600" zoomable="yes"}
@@ -90,7 +107,7 @@ ht-degree: 0%
 1. 前往PWA Studio storefront專案目錄，並執行下列動作：
 
    1. 在PWA Studio專案目錄下，移至`packages > venia-concept > template.html`。
-   1. 將複製的確認代碼(產生的META標籤)新增至HTML標題並儲存變更。
+   1. 將複製的確認代碼（產生的META標籤）新增至HTML標題並儲存變更。
 
       ![複製確認代碼](./assets/code-pwa.png){width="600" zoomable="yes"}
 
@@ -132,7 +149,7 @@ ht-degree: 0%
 1. 前往AEM storefront專案目錄，並執行下列動作：
 
    1. 在AEM storefront專案目錄下，移至`head.html`。
-   1. 將複製的確認代碼(產生的HTML內容或META標籤)新增至`head.html`檔案並儲存變更。
+   1. 將複製的確認代碼（產生的HTML內容或META標籤）新增至`head.html`檔案並儲存變更。
 
    >[!NOTE]
    >

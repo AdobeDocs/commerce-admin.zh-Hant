@@ -3,10 +3,22 @@ title: 使用Adobe Stock影像
 description: 使用Adobe Stock的影像增強您的商店頁面。
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -21,7 +33,7 @@ ht-degree: 0%
 
 當您[新增或編輯頁面](page-add.md)、[建立或編輯類別](../catalog/category-create.md)或透過內容編輯器[插入影像](editor-insert-image.md)時，可存取Adobe Stock搜尋面板。
 
-**_若要搜尋Adobe Stock資產並將庫存影像新增至頁面：_**
+**_若要搜尋Adobe Stock資產並將庫存影像新增至頁面:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**。
 
@@ -39,7 +51,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**。
 
-**_若要搜尋Adobe Stock資產並將庫存影像新增至類別：_**
+**_若要搜尋Adobe Stock資產並將庫存影像新增至類別:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Categories]**。
 

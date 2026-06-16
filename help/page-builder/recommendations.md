@@ -3,9 +3,23 @@ title: 新增內容 — 產品推薦
 description: 瞭解Product Recommendations內容型別，用於新增建議清單至 [!DNL Page Builder] 階段。
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 962
 ht-degree: 0%
 
 ---
@@ -16,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Page Builder] _產品建議_&#x200B;內容型別在Adobe Commerce 2.4.4和更新版本中受到支援，並可在[產品建議中繼3.0.x或更新版本中使用](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 若要為產品建議新增[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
+>[!DNL Page Builder] _產品建議_&#x200B;內容型別在Adobe Commerce 2.4.4和更新版本中受到支援，並可在[產品建議中繼3.0.x或更新版本中使用](https://commercemarketplace.adobe.com/magento-product-recommendations.html)。 若要為產品建議新增[!DNL Page Builder]支援，[請參閱安裝資訊](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)。 **此內容型別不適用於Magento Open Source。**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +51,7 @@ ht-degree: 0%
 
 ## 新增現有的建議單位
 
-1. 確定您已[建立](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)頁面型別的建議單位[!DNL Page Builder]。
+1. 確定您已[建立[!DNL Page Builder]頁面型別的建議單位](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/admin/create)。
 
 >[!NOTE]
 >
@@ -47,9 +61,9 @@ ht-degree: 0%
 
 1. 展開&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Layout]_&#x200B;面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台。
 
-1. 在[!DNL Page Builder]下方的&#x200B;_[!UICONTROL Add Content]_&#x200B;面板中，將&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;預留位置拖曳至列。
+1. 在&#x200B;_[!UICONTROL Add Content]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;預留位置拖曳至列。
 
    ![正在新增產品推薦內容型別](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -68,7 +82,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Selected]**。
 
-   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Selection]_&#x200B;頁面的&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;區段中。
+   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;頁面的&#x200B;_[!UICONTROL Selection]_&#x200B;區段中。
 
 1. 對[進階設定](#advanced-settings)進行任何必要的變更。
 

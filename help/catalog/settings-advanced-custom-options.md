@@ -3,9 +3,24 @@ title: 產品設定 — [!UICONTROL Customizable Options]
 description: 對於產品，[!UICONTROL Customizable Options]設定可讓您提供包含文字、選取和日期輸入型別的選項選擇。
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -18,7 +33,7 @@ ht-degree: 0%
 
 ![可自訂選項的產品詳細資料](./assets/storefront-customizable-option-product-detail.png){width="700" zoomable="yes"}
 
-如果購物車價格規則是由購買所觸發，則初始計算會先套用至產品價格，然後套用至明細行料號價格，再套用適用可自訂選項的任何調整。 在下列範例中，客戶以$74.00購買一個公事包，加上一個可自訂的字母組合選項。 基礎產品價格會套用$14.80的加價，而調整後的價格會顯示為$88.80。在此情況下，購買餃子包會根據產品SKU觸發購物車價格規則，並對購買套用折扣，加上免運費。 雖然可自訂選項不會觸發購物車價格規則，但會將折扣套用至購物車內容，包括可自訂選項的加價。
+如果購物車價格規則是由購買所觸發，則初始計算會先套用至產品價格，然後套用至明細行料號價格，再套用適用可自訂選項的任何調整。 在下列範例中，客戶以$74.00購買一個公事包，加上一個可自訂的字母組合選項。 基礎產品價格會套用$14.80的加價，而調整後的價格會顯示為$88.80。 在此情況下，購買餃子包會根據產品SKU觸發購物車價格規則，並對購買套用折扣，加上免運費。 雖然可自訂選項不會觸發購物車價格規則，但會將折扣套用至購物車內容，包括可自訂選項的加價。
 
 ![可自訂選項與價格規則的購物車](./assets/storefront-customizable-option-cart-price-rule.png){width="700" zoomable="yes"}
 
@@ -88,9 +103,9 @@ ht-degree: 0%
 
 | 型別 | 說明 |
 |---------------------|---------------|
-| [!UICONTROL Text] | 客戶可在其中輸入所需資訊的輸入行或文字方塊。 選項：<br />**[!UICONTROL Field]**— 文字的單行輸入欄位。<br />**[!UICONTROL Area]** — 多行輸入欄位。 此型別不支援進階格式，例如HTML。 使用最大字元數來限制可輸入的文字長度，並確保在Admin中輸入的文字有正確表示。 |
+| [!UICONTROL Text] | 客戶可在其中輸入所需資訊的輸入行或文字方塊。 選項：<br />**[!UICONTROL Field]**— 文字的單行輸入欄位。<br />**[!UICONTROL Area]**  — 多行輸入欄位。 此型別不支援HTML之類的進階格式。 使用最大字元數來限制可輸入的文字長度，並確保在Admin中輸入的文字有正確表示。 |
 | [!UICONTROL File] | 允許客戶上傳檔案。 |
-| [!UICONTROL Select] | 允許客戶根據使用的輸入型別，選取單一選項或多個選項。 選項：<br />**[!UICONTROL Drop-down]**— 僅允許一個選取範圍的選項下拉式清單。<br />**[!UICONTROL Radio Buttons]** — 一組僅允許一個選取範圍的選項。<br />**[!UICONTROL Checkbox]**— 核取方塊是「是/否」選項的變數。 如果產品有多個核取方塊，則可以進行多個選取。<br />**[!UICONTROL Multiple Select]** — 接受多個選取專案的下拉式選項清單方塊。 若要選擇多個選項，請按住Ctrl (PC)或Command (Mac)鍵並按一下每個選項。 |
-| [!UICONTROL Date] | 允許客戶輸入日期或時間，或從工作歷選擇值。 選項： <br />**[!UICONTROL Date]**— 日期值的輸入欄位。 可以直接在欄位中輸入日期，或從清單或行事曆中選取日期。 輸入方法與格式由[日期與時間選項](attributes-input-types.md#date-and-time-options)組態決定。<br />**[!UICONTROL Date & Time]** — 日期和時間值的輸入欄位。<br />**[!UICONTROL Time]**— 時間值的輸入欄位。 |
+| [!UICONTROL Select] | 允許客戶根據使用的輸入型別，選取單一選項或多個選項。 選項：<br />**[!UICONTROL Drop-down]**— 僅允許一個選取範圍的選項下拉式清單。<br />**[!UICONTROL Radio Buttons]**  — 一組僅允許一個選取範圍的選項。<br />**[!UICONTROL Checkbox]**— 核取方塊是「是/否」選項的變體。 如果產品有多個核取方塊，則可以進行多重選取。<br />**[!UICONTROL Multiple Select]**  — 接受多個選取專案的下拉式選項清單方塊。 若要選擇多個選項，請按住Ctrl (PC)或Command (Mac)鍵並按一下每個選項。 |
+| [!UICONTROL Date] | 允許客戶輸入日期或時間，或從工作歷選擇值。 選項： <br />**[!UICONTROL Date]**— 日期值的輸入欄位。 可以直接在欄位中輸入日期，或從清單或行事曆中選取日期。 輸入方法與格式由[日期與時間選項](attributes-input-types.md#date-and-time-options)組態決定。<br />**[!UICONTROL Date & Time]**  — 日期與時間值的輸入欄位。<br />**[!UICONTROL Time]**— 時間值的輸入欄位。 |
 
 {style="table-layout:auto"}

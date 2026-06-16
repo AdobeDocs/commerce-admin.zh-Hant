@@ -3,10 +3,21 @@ title: 排程內容更新
 description: 檢閱此促銷活動範例，此範例用於排程產品的暫時價格變更。
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -38,7 +49,7 @@ ht-degree: 0%
 
    - 使用行事曆（![行事曆圖示](../assets/icon-calendar.png)）工具為行銷活動選擇&#x200B;**開始日期**&#x200B;和&#x200B;**結束日期**。
 
-     若要建立無限制的促銷活動，請勿指定結束日期（保留空白）。 在此範例中，促銷活動排程從新年的午夜開始（2021年1月1日太平洋標準時間凌晨12:00）。
+     若要建立無限制的促銷活動，請勿指定結束日期（保留空白）。 在此範例中，促銷活動排程從新年的2021年1月1日凌晨12:00 PST午夜的鐘點開始。
 
 
      針對建立時不含結束日期的價格規則行銷活動，無法在稍後新增結束日期。 在這種情況下，必須建立行銷活動，並將開始日期設定為您想要舊行銷活動結束和新行銷活動開始的日期。 在該開始日期時，舊行銷活動會依定義結束，新行銷活動則會開始。

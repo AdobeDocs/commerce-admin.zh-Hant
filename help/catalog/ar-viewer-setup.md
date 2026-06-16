@@ -1,10 +1,24 @@
 ---
-title: '[!DNL AR Viewer] for Adobe Commerce安裝程式'
+title: 用於Adobe Commerce設定的[!DNL AR Viewer]
 description: 瞭解如何使用產品清單的 [!DNL AR Viewer] 擴充功能來管理3D模型資產。
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
@@ -61,4 +75,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如需使用者將3d模型新增至產品的一系列示範影片，請參閱&#x200B;_Adobe Commerce影片和Tutorials_&#x200B;中的[Commerce的AR檢視器](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=zh-Hant)頁面。
+> 如需使用者將3d模型新增至產品的一系列示範影片，請參閱&#x200B;_Adobe Commerce影片和教學課程_&#x200B;中的[Commerce適用的AR檢視器](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=zh-Hant)頁面。

@@ -3,9 +3,22 @@ title: 建立電子郵件提醒
 description: 瞭解如何設定使用現有購物車價格規則的電子郵件提醒規則。
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
+TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1035
 ht-degree: 0%
 
 ---
@@ -57,7 +70,7 @@ ht-degree: 0%
    >
    >如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;欄位設定電子郵件之間的天數。<br/>
    >
-   >**_新_**&#x200B;放棄的購物車&#x200B;**_之後_** **_期間結束後，同一客戶的_**&#x200B;未重新觸發&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;相同的電子郵件提醒。
+   >**_新_**&#x200B;放棄的購物車&#x200B;**_之後_** _[!UICONTROL Repeat Schedule]_&#x200B;期間結束後，同一客戶的&#x200B;**_未重新觸發_**&#x200B;相同的電子郵件提醒。
    >
    >Adobe Commerce as a Cloud Service的實驗功能可多次套用單一規則，如需詳細資訊，請參閱[規則重複性](#rule-repeatability)。
 
@@ -85,7 +98,7 @@ ht-degree: 0%
 
      ![電子郵件提醒 — 標題和說明](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;區段中，輸入&#x200B;**[!UICONTROL Rule Title]**&#x200B;預設存放區檢視&#x200B;**[!UICONTROL Description]**&#x200B;的_&#x200B;和&#x200B;_。 針對多個商店檢視，輸入每個商店檢視的適當標題和說明。
+   - 在&#x200B;_[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;區段中，輸入_&#x200B;預設存放區檢視&#x200B;_的&#x200B;**[!UICONTROL Rule Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。 針對多個商店檢視，輸入每個商店檢視的適當標題和說明。
 
      >[!NOTE]
      >
@@ -93,7 +106,7 @@ ht-degree: 0%
 
      ![標題和說明 — 商店檢視](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}如果您使用[!DNL Adobe Commerce as a Cloud Service]，可以選取[核取方塊來啟用](#rule-repeatability)規則重複性[!UICONTROL Rule Repeatability]。
+1. [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}如果您使用[!DNL Adobe Commerce as a Cloud Service]，可以選取[!UICONTROL Rule Repeatability]核取方塊來啟用[規則重複性](#rule-repeatability)。
 
    >[!IMPORTANT]
    >
@@ -103,7 +116,7 @@ ht-degree: 0%
 
 ## 規則重複性
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 >[!IMPORTANT]
 >
@@ -111,7 +124,7 @@ ht-degree: 0%
 
 規則重複性可讓您針對多個電子郵件提醒重複使用單一規則。 當您想要規則稍後套用至相同客戶時，此功能會很有用。 沒有規則重複性，當客戶清除購物車或完成購買後，規則不再適用。
 
-選取&#x200B;**[!UICONTROL Rule Repeatability]**&#x200B;標籤上的&#x200B;**[!UICONTROL General Information]**&#x200B;核取方塊，可在原始規則觸發器不再套用後，將規則再次套用至使用者。
+選取&#x200B;**[!UICONTROL General Information]**&#x200B;標籤上的&#x200B;**[!UICONTROL Rule Repeatability]**&#x200B;核取方塊，可在原始規則觸發器不再套用後，將規則再次套用至使用者。
 
 ![規則重複性](./assets/rule-repeatability.png){width="600" zoomable="yes"}
 

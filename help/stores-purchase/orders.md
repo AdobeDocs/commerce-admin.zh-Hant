@@ -3,18 +3,31 @@ title: 訂購
 description: 瞭解在Admin中用於尋找訂單的「訂單」工作區及搜尋功能。
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
+TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1150
 ht-degree: 0%
 
 ---
 
 # 訂購
 
-_訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](order-status.md)追蹤其進度和[訂單狀態](order-processing.md)。 要瞭解基本程式，一個簡單的方法是訂單成為[發票](invoices.md)，而發票成為[出貨](shipments.md)。 網格代表程式的第一階段，您可以[更新](order-update.md)現有訂單並建立訂單。
+_訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](order-processing.md)追蹤其進度和[訂單狀態](order-status.md)。 要瞭解基本程式，一個簡單的方法是訂單成為[發票](invoices.md)，而發票成為[出貨](shipments.md)。 網格代表程式的第一階段，您可以[更新](order-update.md)現有訂單並建立訂單。
 
-通常，當客戶從店面完成結帳程式時，就會建立訂單。 不過，如果客戶需要協助，您也可以存取其[購物車](shopping-assisted-cart-manage.md)或[從](customer-account-create-order.md)訂單&#x200B;_網格或直接從其客戶帳戶建立訂單_。
+通常，當客戶從店面完成結帳程式時，就會建立訂單。 不過，如果客戶需要協助，您也可以存取其[購物車](shopping-assisted-cart-manage.md)或[從&#x200B;_訂單_&#x200B;網格或直接從其客戶帳戶建立訂單](customer-account-create-order.md)。
 
 ## 訂單工作區
 
@@ -91,7 +104,7 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 
 | 控制 | 說明 |
 |--- |--- |
-| [!UICONTROL Actions] | 列出可套用至所選訂單的所有動作。 若要將動作套用至訂單或訂單群組，請選取每個訂單第一欄中的核取方塊。 <br/>訂購動作： `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce) |
+| [!UICONTROL Actions] | 列出可套用至所選訂單的所有動作。 若要將動作套用至訂單或訂單群組，請選取每個訂單第一欄中的核取方塊。 <br/>訂購動作： `Cancel` / `Hold` / `Unhold` / `Print Invoices` / `Print Packing Slips` / `Print Credit Memos` / `Print All` / `Print Shipping Labels` / `Move to Archive` ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） |
 | [!UICONTROL Mass Actions] | 可用來選取多個記錄作為動作目標。 在受動作影響的每個記錄的第一欄中選取核取方塊。 選項： `Select All` / `Unselect All` / `Select Visible` / `Unselect Visible` |
 | [!UICONTROL Submit] | 將目前的動作套用至選取的訂單記錄。 |
 | [!UICONTROL Edit] | 以編輯模式開啟訂單。 |
@@ -130,8 +143,8 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 | [!UICONTROL Customer Name] | 下訂單的客戶的名字和姓氏。 |
 | [!UICONTROL Payment Method] | 用於訂單的付款方式。 |
 | [!UICONTROL Total Refunded] | 訂單中要退款給客戶的任何金額。 |
-| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)訂單中要退款至客戶商店貸方的任何金額。 |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (可與Adobe Commerce B2B搭配使用)下訂單的[公司](../b2b/account-companies.md)的名稱。 |
+| [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）訂單中要退款至客戶商店貸方的任何金額。 |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用）下訂單的[公司](../b2b/account-companies.md)的名稱。 |
 
 {style="table-layout:auto"}
 
@@ -149,7 +162,7 @@ _訂單_&#x200B;方格會列出所有目前的訂單，並透過[工作流程](o
 
 ### 篩選搜尋
 
-1. 若要顯示選取的搜尋篩選器，請按一下&#x200B;_篩選器_ ( ![Funnel圖示](../assets/icon-filter-search.png) )索引標籤。
+1. 若要顯示選取的搜尋篩選器，請按一下&#x200B;_篩選器_ （ ![Funnel圖示](../assets/icon-filter-search.png) ）索引標籤。
 
    ![排序篩選器](./assets/order-search-filter.png){width="600" zoomable="yes"}
 

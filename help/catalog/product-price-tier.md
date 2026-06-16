@@ -3,10 +3,26 @@ title: 層級定價
 description: 瞭解如何使用層級定價，從產品清單或產品頁面提供數量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: 892
+ht-degree: 1%
 
 ---
 
@@ -38,7 +54,7 @@ ht-degree: 0%
 
 1. 如果您的商店有多個網站，請選擇套用層級定價的&#x200B;**[!UICONTROL Website]**。
 
-1. 如有必要，請選取&#x200B;**[!UICONTROL Customer Group]**&#x200B;或&#x200B;**[!UICONTROL Shared Catalog]**&#x200B;來限制訂價層的可用性(![Adobe Commerce B2B](../assets/b2b.svg)僅適用於[Adobe Commerce B2B](./b2b/../introduction.md))。
+1. 如有必要，請選取&#x200B;**[!UICONTROL Customer Group]**&#x200B;或&#x200B;**[!UICONTROL Shared Catalog]**&#x200B;來限制訂價層的可用性（![Adobe Commerce B2B](../assets/b2b.svg)僅適用於[Adobe Commerce B2B](./b2b/../introduction.md)）。
 
 1. 針對&#x200B;**[!UICONTROL Qty]**，輸入必須訂購才能收到折扣的數量。
 
@@ -76,7 +92,7 @@ ht-degree: 0%
 
 ## 啟用目錄價格規則的層級訂價
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 在舊版Commerce中，層級定價無法與目錄價格規則搭配使用。 目錄規則忽略層級價格設定，僅從原始基本價格計算折扣。 使用Adobe Commerce as a Cloud Service，您現在可以選擇在目錄價格規則的計算中包含層級定價。
 
@@ -86,14 +102,14 @@ ht-degree: 0%
 
    ![啟用目錄價格規則的層級定價](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
-1. 為您想要以目錄價格規則定位的每個特定客戶群組或共用目錄（例如`1`、`Wholesale`或商家定義的群組）定義數量為`Retail`的層級價格。 `ALL GROUPS`客戶群組和`Default`共用目錄無法用於此目的。 未針對未定義數量為`1`之層級價格的任何群組啟用層級定價。
+1. 為您想要以目錄價格規則定位的每個特定客戶群組或共用目錄（例如`Wholesale`、`Retail`或商家定義的群組）定義數量為`1`的層級價格。 `ALL GROUPS`客戶群組和`Default`共用目錄無法用於此目的。 未針對未定義數量為`1`之層級價格的任何群組啟用層級定價。
 
 1. 視需要定義數量大於`1`的其他層級價格。 當客戶將額外數量的產品加入購物車時，會照常套用這些額外的層級價格。 目錄價格規則不適用於這些額外的層級價格。
 
 若要說明在購買單一產品時，層級訂價如何與型錄價格規則搭配運作，請考量下列範例：
 
 - 產品的標準基本價格為100美元。
-- 已針對數量為`Wholesale`且固定價格為90美元的`1`客戶群組定義層級價格。
+- 已針對數量為`1`且固定價格為90美元的`Wholesale`客戶群組定義層級價格。
 - 型錄價格規則會為`Wholesale`客戶群組提供10%的折扣。
 
 當針對型錄價格規則啟用層級訂價時，系統會使用下列流程來計算最終價格：

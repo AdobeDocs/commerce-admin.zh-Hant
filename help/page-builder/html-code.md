@@ -3,9 +3,21 @@ title: 元素 — HTML程式碼
 description: 瞭解HTML程式碼內容型別，用於在 [!DNL Page Builder] 階段中新增HTML、CSS和JavaScript程式碼片段。
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: 985
 ht-degree: 0%
 
 ---
@@ -76,7 +88,7 @@ ht-degree: 0%
 
    ![HTML程式碼和樣式](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 視需要更新其餘的設定(如需詳細資訊，請參閱[變更HTML程式碼設定](#html-settings))。
+1. 視需要更新其餘的設定（如需詳細資訊，請參閱[變更HTML程式碼設定](#html-settings)）。
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;以套用設定並返回[!DNL Page Builder]工作區。
 
@@ -90,7 +102,7 @@ ht-degree: 0%
 
 1. 在右上角，按一下&#x200B;**[!UICONTROL Save]**&#x200B;箭頭並選擇&#x200B;**[!UICONTROL Save & Close]**。
 
-1. 在格線中尋找頁面，並在&#x200B;**[!UICONTROL View]**&#x200B;欄中選取&#x200B;_[!UICONTROL Actions]_。
+1. 在格線中尋找頁面，並在&#x200B;_[!UICONTROL Actions]_&#x200B;欄中選取&#x200B;**[!UICONTROL View]**。
 
    ![使用新字型系列預覽頁面標題](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 

@@ -3,9 +3,26 @@ title: 贈品登入設定
 description: 瞭解如何為商店客戶設定禮品登入型別。
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -121,7 +138,7 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | [!UICONTROL Text] | 將屬性顯示為文字欄位。 |
-| [!UICONTROL Select] | 以下拉式清單顯示屬性。 按一下&#x200B;**[!UICONTROL Add New Option]**&#x200B;新增更多條件至下拉式清單：<br/>**[!UICONTROL Code]**— 可在內部識別屬性的唯一名稱。<br/>**[!UICONTROL Label]** — 識別客戶帳戶儀表板中屬性的名稱。<br/>**[!UICONTROL Is Default]**— 設定此引數以選取預設條件。<br/>**[!UICONTROL Delete Option]** — 按一下以刪除選項。 |
+| [!UICONTROL Select] | 以下拉式清單顯示屬性。 按一下&#x200B;**[!UICONTROL Add New Option]**&#x200B;新增更多條件至下拉式清單：<br/>**[!UICONTROL Code]**— 可在內部識別屬性的唯一名稱。<br/>**[!UICONTROL Label]**  — 識別客戶帳戶儀表板中屬性的名稱。<br/>**[!UICONTROL Is Default]**— 設定此引數以選取預設條件。<br/>**[!UICONTROL Delete Option]**  — 按一下以刪除選項。 |
 | [!UICONTROL Date] | 將屬性顯示為日期欄位。 選項： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Country] | 將屬性顯示為國家/地區的下拉式清單。 將&#x200B;**[!UICONTROL Show Region]**&#x200B;設為： `Yes` / `No`。 |
 
@@ -131,10 +148,10 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Event Date] | 決定如何在存放區中使用日期屬性。 選項： <br/>**[!UICONTROL Searchable]**— 決定該屬性是否可用於進階搜尋。 選項： `Yes` / `No`。<br/>**[!UICONTROL Is Listed]** — 判斷事件是否包含在存放區中可用的事件清單中。 選項： `Yes` / `No`。 <br/>**[!UICONTROL Date Format]**— 決定事件日期的格式。 選項： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
-| [!UICONTROL Event Country] | 將屬性顯示為國家/地區清單。 選項： <br/>**[!UICONTROL Searchable]**— 決定該屬性是否可用於進階搜尋。 選項： `Yes` / `No`。<br/>**[!UICONTROL Is Listed]** — 判斷事件是否包含在存放區中可用的事件清單中。 選項： `Yes` / `No`。 <br/>**[!UICONTROL Show Region]**— 決定事件的地區。 |
+| [!UICONTROL Event Date] | 決定如何在存放區中使用日期屬性。 選項： <br/>**[!UICONTROL Searchable]**— 決定該屬性是否可用於進階搜尋。 選項： `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**  — 決定事件是否包含在存放區中可用的事件清單中。 選項： `Yes` / `No`。<br/>**[!UICONTROL Date Format]**— 決定事件日期的格式。 選項： `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
+| [!UICONTROL Event Country] | 將屬性顯示為國家/地區清單。 選項： <br/>**[!UICONTROL Searchable]**— 決定該屬性是否可用於進階搜尋。 選項： `Yes` / `No`.<br/>**[!UICONTROL Is Listed]**  — 決定事件是否包含在存放區中可用的事件清單中。 選項： `Yes` / `No`。<br/>**[!UICONTROL Show Region]**— 決定事件的地區。 |
 | [!UICONTROL Event Location] | 與贈品登入相關的事件位置。 <br/>將&#x200B;**[!UICONTROL Is Searcheable]**&#x200B;設為： `Yes` / `No` <br/>將&#x200B;**[!UICONTROL Is Listed]**&#x200B;設為： `Yes` / `No` |
-| [!UICONTROL Role] | 識別贈品收件者的角色。 例如，`Bride`、`Groom`或`Partner`。<br/>**[!UICONTROL Is Searcheable]**— 設定為`Yes`/ `No`<br/>**&#x200B;已列出&#x200B;**— 設定為`Yes` / `No`<br/>**[!UICONTROL Add New Option]** — 按一下以新增更多條件至下拉式功能表：<br/>**代碼** — 可在內部識別屬性的唯一名稱。<br/>**[!UICONTROL Label]**— 識別客戶帳戶儀表板中屬性的名稱。<br/>**[!UICONTROL Is Default]** — 設定此引數以選取預設條件。<br/>**[!UICONTROL Delete Option]**— 按一下以刪除選項。 |
+| [!UICONTROL Role] | 識別贈品收件者的角色。 例如，`Bride`、`Groom`或`Partner`.<br/>**[!UICONTROL Is Searcheable]**— 設定為`Yes`/ `No`<br/>**&#x200B;已列出&#x200B;**— 設定為`Yes` / `No`<br/>**[!UICONTROL Add New Option]** — 按一下以新增更多條件至下拉式功能表：<br/>**代碼** — 可在內部識別屬性的唯一名稱。<br/>**[!UICONTROL Label]**— 識別客戶帳戶儀表板中屬性的名稱。<br/>**[!UICONTROL Is Default]**  — 設定此引數以選取預設條件。<br/>**[!UICONTROL Delete Option]**— 按一下以刪除選項。 |
 
 {style="table-layout:auto"}
 

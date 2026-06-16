@@ -3,20 +3,34 @@ title: 貨到付款(COD)
 description: 瞭解如何將貨到付款設定為商店的離線付款方式。
 exl-id: dcf94734-a66e-4d32-b389-b47c979ceaa9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/xKFjuGpjrF-XfVnNqWR2St8v3D4Lnr74WozkrynBbdo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 336
 ht-degree: 0%
 
 ---
 
 # 貨到付款(COD)
 
-Adobe Commerce和Magento Open Source可讓您接受購買的&#x200B;_貨到付款_ (COD)。 您只能接受特定國家/地區的貨到付款要求，而且您可以微調具有最小和最大訂單總限額的設定。
+Adobe Commerce和Magento Open Source可讓您接受購買時支付的&#x200B;_貨到付款_ (COD)。 您只能接受特定國家/地區的貨到付款要求，而且您可以微調具有最小和最大訂單總限額的設定。
 
 出貨承運商在交貨時收到客戶的付款，然後將其轉給您。 您可以調整承運商服務收取的任何運費和手續費。
 
-**_若要設定貨到付款付款：_**
+**_若要設定貨到付款付款:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

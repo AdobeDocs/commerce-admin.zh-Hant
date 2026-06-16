@@ -3,9 +3,25 @@ title: 建立及刪除產品屬性
 description: 瞭解如何建立和移除產品屬性，這些屬性用於描述目錄中產品的特定特性。
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
+TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: 1273
 ht-degree: 0%
 
 ---
@@ -31,7 +47,7 @@ ht-degree: 0%
    | `Text Field` | 單行文字輸入欄位。 |
    | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
    | `Text Editor` | 屬性位置的完整文字編輯器。 |
-   | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_管理員_&#x200B;使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
+   | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
    | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
    | `Dropdown` | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](product-create-configurable.md)的關鍵元件。 |
    | `Multiple Select` | 顯示接受多個選取專案的下拉式值清單。 |
@@ -66,7 +82,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >不建議在`type`欄位中使用[!UICONTROL Attribute Code]值。 這可能會造成錯誤，因為`type`值已保留供系統使用。
+   >不建議在[!UICONTROL Attribute Code]欄位中使用`type`值。 這可能會造成錯誤，因為`type`值已保留供系統使用。
 
    ![產品屬性 — 進階屬性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -106,7 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用[即時搜尋指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中即時搜尋多面向清單&#x200B;_中的_&#x200B;編輯選項，手動編輯標籤。
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的編輯選項，手動編輯標籤。
 
 ## 步驟4：說明店面屬性
 

@@ -3,9 +3,26 @@ title: 產品設定 — [!UICONTROL Gift Options]
 description: 對於產品，[!UICONTROL Gift Options]設定會判斷是否可包含禮品訊息，或是否可在結帳期間使用禮品包裝選項。
 exl-id: 21597e38-60f5-45e5-8d99-955d088c5c48
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/MIzb2vY-DiVqODkNFmgX3tFLejQFZMtOETUDPoHrt-Y
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 230
 ht-degree: 0%
 
 ---
@@ -26,9 +43,9 @@ ht-degree: 0%
 
    - 視需要為產品設定&#x200B;**[!UICONTROL Allow Gift Message]**。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限[Adobe Commerce](../landing/home.md#product-editions))視產品需求設定&#x200B;**[!UICONTROL Allow Gift Wrapping]**。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限[Adobe Commerce](../landing/home.md#product-editions)）視產品需求設定&#x200B;**[!UICONTROL Allow Gift Wrapping]**。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限[Adobe Commerce](../landing/home.md#product-editions))如果適用，請輸入&#x200B;**[!UICONTROL Price for Gift Wrapping]**。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限[Adobe Commerce](../landing/home.md#product-editions)）如果適用，請輸入&#x200B;**[!UICONTROL Price for Gift Wrapping]**。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 

@@ -3,10 +3,24 @@ title: Adobe Stock整合
 description: 將Adobe Stock與您的 [!DNL Commerce] 執行個體整合，以存取無數媒體資產，以便在您的商店中使用。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -28,7 +42,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 授權Adobe Stock影像需要：
 
-- [Adobe帳戶](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)
+- [Adobe帳戶](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - 與帳戶相關聯的付費[Adobe Stock](https://stock.adobe.com)計畫
 
 ## 整合[!DNL Commerce]與Adobe Stock
@@ -74,7 +88,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 ### 設定Adobe Stock整合
 
-若要在您的[!DNL Commerce]系統管理員中設定系統組態，請使用&#x200B;_上一節_&#x200B;中產生的&#x200B;_API金鑰_&#x200B;和[使用者端密碼](#create-an-adobeio-integration)。
+若要在您的[!DNL Commerce]系統管理員中設定系統組態，請使用[上一節](#create-an-adobeio-integration)中產生的&#x200B;_API金鑰_&#x200B;和&#x200B;_使用者端密碼_。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -92,6 +106,6 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
    ![進階設定 — Adobe Stock整合](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   提供驗證幾秒鐘。 如果您的認證有效，您應該會看到綠色的&#x200B;_連線成功！_&#x200B;訊息。
+   提供驗證幾秒鐘。 如果您的認證有效，您應該會看到綠色的&#x200B;_連線成功！_ 訊息。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。

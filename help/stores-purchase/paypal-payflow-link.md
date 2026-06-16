@@ -3,10 +3,26 @@ title: PayPal Payflow連結
 description: 瞭解如何將PayPal Payflow Link設定為商店上的線上付款解決方案。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: 2195
 ht-degree: 0%
 
 ---
@@ -20,7 +36,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 為了遵循PSD2，PayPal Payflow Link必須與Cardinal Commerce整合。 若要深入瞭解，請參閱[Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)的3D安全。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。為了遵循PSD2，PayPal Payflow Link必須與Cardinal Commerce整合。若要深入瞭解，請參閱[Payflow的3D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
 
 ## 需求
 
@@ -56,11 +72,11 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 在&#x200B;**[!UICONTROL Security Options]**&#x200B;底下，完成下列設定：
 
-     **[!UICONTROL AVS]**： `No`
+     **[!UICONTROL AVS]**: `No`
 
-     **[!UICONTROL CSC]**： `No`
+     **[!UICONTROL CSC]**: `No`
 
-     **[!UICONTROL Enable Secure Token]**： `Yes`
+     **[!UICONTROL Enable Secure Token]**: `Yes`
 
    - 選擇&#x200B;**[!UICONTROL Customize]**，然後選擇&#x200B;**[!UICONTROL Layout C]**。
 
@@ -105,7 +121,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    ![商家國家](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 展開&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如有需要）並按一下&#x200B;**[!UICONTROL Configure]**&#x200B;的&#x200B;**[!UICONTROL Payflow Link]**。
+1. 展開&#x200B;**[!UICONTROL PayPal Payment Gateways]** （如有需要）並按一下&#x200B;**[!UICONTROL Payflow Link]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
 
    ![Payflow連結 — 設定](./assets/payflow-link.png){width="600" zoomable="yes"}
 
@@ -156,7 +172,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 #### 廣告PayPal點數
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal Credit]**。
+1. 展開&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![廣告PayPal點數](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -164,7 +180,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 1. 輸入您的&#x200B;**[!UICONTROL Publisher ID]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
+1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -192,11 +208,11 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 #### 廣告PayPal PayLater
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advertise PayPal PayLater]**。
+1. 展開&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 將&#x200B;**[!UICONTROL Enable PayPal PayLater]**&#x200B;設為`Yes`。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Home Page]**。
+1. 展開&#x200B;**[!UICONTROL Home Page]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![廣告PayPal點數首頁設定](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -268,7 +284,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 ### 步驟4：完成基本設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Link]**。
+1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Link]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![基本設定 — PayPal Payflow連結](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-basic-settings.png){width="600" zoomable="yes"}
 
@@ -287,7 +303,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 ### 步驟5：完成進階設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
+1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![進階設定 — PayPal Payflow連結](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -324,7 +340,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 #### 結算報表設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Settlement Report Settings]**。
+1. 展開&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![結算報表設定 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -367,7 +383,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Frontend Experience Settings]**。
+1. 展開&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![前端體驗設定 — PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -403,7 +419,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**。
+1. 展開&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![基本設定](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -424,7 +440,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 ### 步驟7：完成PayPal Express簽出的進階設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Advanced Settings]**。
+1. 展開&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![進階設定](../configuration-reference/sales/assets/payment-methods-paypal-payflow-link-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 

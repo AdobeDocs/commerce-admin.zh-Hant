@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Checkout]'
-description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Checkout]頁面上的組態設定。
+title: '[!UICONTROL Sales] > [!UICONTROL Checkout]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Checkout]頁面上的組態設定。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 648
 ht-degree: 0%
 
 ---
@@ -28,8 +43,8 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 存放區檢視 | 決定是否要求客戶在購買前同意銷售的[條款及條件](../../stores-purchase/terms-and-conditions.md)。 選項： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 存放區檢視 | 決定結帳時帳單地址的位置。 選項： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 存放區檢視 | 決定結帳期間可出現在&#x200B;_訂單摘要_&#x200B;中的專案數目上限。 預設值為`10`。 |
-| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)決定客戶是否可以使用[地址搜尋](../../stores-purchase/checkout-address-search.md)功能進行送貨及檢閱和付款步驟。 啟用後，請使用「客戶地址數限制」來設定在結帳期間啟用此功能所需的儲存地址數。 選項： `Yes` / `No` |
-| 客戶地址數量限制 | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)啟用位址搜尋時，會決定結帳期間啟用此功能所需的儲存位址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為`10`。 |
+| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）決定客戶是否可以使用[地址搜尋](../../stores-purchase/checkout-address-search.md)功能進行送貨及檢閱和付款步驟。 啟用後，請使用「客戶地址數限制」來設定在結帳期間啟用此功能所需的儲存地址數。 選項： `Yes` / `No` |
+| 客戶地址數量限制 | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）啟用位址搜尋時，會決定結帳期間啟用此功能所需的儲存位址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為`10`。 |
 
 {style="table-layout:auto"}
 

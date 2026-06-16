@@ -3,9 +3,23 @@ title: CSV資料檔案
 description: 瞭解CSV檔案中用於支援資料匯入和匯出的結構。
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: 718
 ht-degree: 0%
 
 ---
@@ -19,7 +33,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->建議您使用支援UTF-8編碼的程式(例如Notepad++)來編輯CSV檔案。 Microsoft® Excel會在CSV檔案的欄標題中插入其他字元，如此可防止將資料匯回Commerce。 如果您使用Mac，可以將資料儲存為CSV (Windows)格式。
+>建議您使用支援UTF-8編碼的程式（例如Notepad++）來編輯CSV檔案。 ® Excel會在CSV檔案的欄標題中插入其他字元，如此可防止將資料匯回Commerce。 如果您使用Mac，可以將資料儲存為CSV (Windows)格式。
 
 CSV檔案具有必須符合資料庫的特定結構。 每個欄標題都與欄所代表欄位的「屬性代碼」相對應。 若要確保Commerce可讀取欄標題，請先將存放區的資料匯出為CSV檔案。 然後您可以編輯資料，並將其重新匯入Commerce。
 

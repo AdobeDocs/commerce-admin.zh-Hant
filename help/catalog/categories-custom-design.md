@@ -3,9 +3,27 @@ title: 類別 — 設計設定
 description: 瞭解如何使用[!UICONTROL Design]設定來定義類別的外觀、所有相關產品頁面和頁面配置。
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 379
 ht-degree: 0%
 
 ---
@@ -24,7 +42,7 @@ _[!UICONTROL Design]_&#x200B;區段可讓您控制類別、所有關聯產品頁
 |--- |--- |
 | [!UICONTROL Use Parent Category Settings] | 允許目前類別從父類別繼承設計設定。 若使用，設計區段中的所有其他欄位將會變為無法使用。 選項： `Yes` / ` No` |
 | [!UICONTROL Theme] | 將自訂主題套用至類別。 |
-| [!UICONTROL Layout] | 將不同的版面配置套用至類別頁面。 選項： <br/>**[!UICONTROL No layout updates]**— 依預設，配置更新不適用於類別頁面。<br/>**[!UICONTROL Empty]** — 用來定義您自己的頁面配置。 （需要瞭解XML。） <br/>**[!UICONTROL 1 column]**— 將一欄式配置套用至類別頁面。<br/>**[!UICONTROL 2 columns with left bar]** — 將具左側欄的雙欄版面配置套用至類別頁面。 <br/>**[!UICONTROL 2 columns with right bar]**— 將帶有右側欄的雙欄版面配置套用至類別頁面。<br/>**[!UICONTROL 3 columns]** — 將三欄式配置套用至類別頁面。<br/>**[!UICONTROL Page -- Full Width]**- （需要[頁面產生器](../page-builder/introduction.md)）將CMS頁面的完整版面配置套用至類別頁面。<br/>**[!UICONTROL Category -- Full Width]** - （需要頁面產生器）將類別頁面的完整版面配置套用至類別頁面。 <br/>**[!UICONTROL Product -- Full Width]**- （需要頁面產生器）將產品頁面的完整版面配置套用至類別頁面。 |
+| [!UICONTROL Layout] | 將不同的版面配置套用至類別頁面。 選項： <br/>**[!UICONTROL No layout updates]**— 依預設，配置更新不適用於類別頁面。<br/>**[!UICONTROL Empty]** — 用來定義您自己的頁面配置。 （需要瞭解XML。） <br/>**[!UICONTROL 1 column]**— 將一欄式配置套用至類別頁面。<br/>**[!UICONTROL 2 columns with left bar]** — 將具左側欄的雙欄版面配置套用至類別頁面。<br/>**[!UICONTROL 2 columns with right bar]**— 將帶有右側欄的雙欄版面配置套用至類別頁面。<br/>**[!UICONTROL 3 columns]** — 套用三欄配置至類別頁面。<br/>**[!UICONTROL Page -- Full Width]**- （需要[頁面產生器](../page-builder/introduction.md)）將CMS頁面的完整版面配置套用至類別頁面。<br/>**[!UICONTROL Category -- Full Width]** - （需要頁面產生器）將類別頁面的完整版面配置套用至類別頁面。<br/>**[!UICONTROL Product -- Full Width]**- （需要頁面產生器）將產品頁面的完整版面配置套用至類別頁面。 |
 | [!UICONTROL Custom Layout Update] | 列出伺服器上可用的自訂配置更新檔案。 選擇您要套用至類別的自訂版面配置更新。 |
 | [!UICONTROL Apply Design to Products] | 選取後，會將自訂設定套用至類別中的所有產品。 |
 

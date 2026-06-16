@@ -3,10 +3,28 @@ title: 開發人員工具
 description: 瞭解進階開發人員工具，這些工具可支援從事自訂專案的開發人員。
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
@@ -15,7 +33,7 @@ ht-degree: 0%
 
 使用進階開發人員工具在前端開發期間決定編譯模式、建立IP位址允許清單及顯示範本路徑提示。 此外也有工具可讓您輕鬆對店面和管理員介面中的文字進行特別變更。
 
-- [動作記錄檔](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)
+- [動作記錄檔](action-log.md) ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）
 - [前端開發工作流程](#frontend-development-workflow)
 - [使用靜態檔案簽章](#static-file-signatures)
 - [資源檔案最佳化](#optimizing-resource-files)
@@ -33,7 +51,7 @@ ht-degree: 0%
 
 ## 前端開發工作流程
 
-前端開發工作流程型別決定在開發期間使用者端或伺服器端上發生的編譯較少。 較少是CSS的擴充功能，具有其他功能和慣例，並可產生精簡的程式碼。 建議在主題開發中使用使用者端較少的編譯。 伺服器端編譯是預設模式。 生產模式下的存放區無法使用開發工作流程選項。
+前端開發工作流程型別決定在開發期間使用者端或伺服器端上發生的編譯較少。較少是CSS的擴充功能，具有其他功能和慣例，並可產生精簡的程式碼。建議在主題開發中使用使用者端較少的編譯。伺服器端編譯是預設模式。生產模式下的存放區無法使用開發工作流程選項。
 請參閱Commerce開發人員檔案中的[使用者端LESS編譯與伺服器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}。
 
 >[!NOTE]
@@ -69,7 +87,7 @@ ht-degree: 0%
 
 如需組態設定的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的&#x200B;[_靜態檔案設定_](../configuration-reference/advanced/developer.md)。
 
-**_若要啟用已簽署的靜態檔案：_**
+**_若要啟用已簽署的靜態檔案:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -105,7 +123,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-**_若要最佳化資源檔：_**
+**_若要最佳化資源檔:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -118,7 +136,7 @@ ht-degree: 0%
 
    ![進階設定 — CSS設定](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[CSS設定(_C)_](../configuration-reference/advanced/developer.md)
+   [_CSS設定_](../configuration-reference/advanced/developer.md)
 
 1. 若要最佳化JavaScript檔案，請展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL JavaScript Settings]**&#x200B;區段，然後執行下列動作：
 
@@ -143,7 +161,7 @@ ht-degree: 0%
 
 如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[允許要求的自訂VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hant)。
 
-**_若要將您的IP位址新增至允許清單：_**
+**_若要將您的IP位址新增至允許清單:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

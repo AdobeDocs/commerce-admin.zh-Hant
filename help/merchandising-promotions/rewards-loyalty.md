@@ -3,9 +3,26 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
+TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -94,7 +111,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 在此步驟中，會指定可為各種客戶活動取得的獎勵點數。 當客戶完成已指定點的動作時，客戶會看到一則訊息，指出已獲得多少點。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**。
+1. 展開&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![客戶組態 — 客戶取得獎勵分數的動作](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -126,7 +143,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 ### 步驟3. 完成電子郵件通知設定
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Email Notification Settings]**。
+1. 展開&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![客戶設定 — 獎勵點數電子郵件通知](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -148,7 +165,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;**[!UICONTROL Edit]**&#x200B;欄中的&#x200B;_[!UICONTROL Action]_。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_客戶資訊_&#x200B;底下，選擇&#x200B;**[!UICONTROL Reward Points]**&#x200B;區段。
 
@@ -180,7 +197,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 | [!UICONTROL Amount] | 增加或減去的金額 |
 | [!UICONTROL Rate] | [獎勵匯率](reward-exchange-rates.md) |
 | [!UICONTROL Website] | 已指派獎勵點歷史記錄的網站 |
-| [!UICONTROL Reason] | 獎勵點數的原因：<br>**[!UICONTROL Making purchases]**— 每次客戶購買時，都能獲得點數。<br>**[!UICONTROL Registering on the site]** — 註冊時累計（一次）。<br>**[!UICONTROL Subscribing to a newsletter]**— 首次訂閱累計（一次）。<br>**[!UICONTROL Sending Invitations]** — 藉由邀請朋友加入網站來取得點數。<br>**[!UICONTROL Converting Invitations to Customer]**— 每發出一次邀請，即主要朋友在網站上註冊時，都能獲得點數。<br>**[!UICONTROL Converting Invitations to Order]** — 每次銷售都會從已傳送的邀請中取得點數。<br>**[!UICONTROL Review Submission]**— 獲得提交產品評論的點數。 |
+| [!UICONTROL Reason] | 獎勵點數的原因：<br>**[!UICONTROL Making purchases]**— 每次客戶購買時，都能獲得點數。<br>**[!UICONTROL Registering on the site]**  — 註冊時累積（一次）。<br>**[!UICONTROL Subscribing to a newsletter]**— 首次訂閱的累積（一次）。<br>**[!UICONTROL Sending Invitations]**  — 邀請朋友加入網站以取得點數。<br>**[!UICONTROL Converting Invitations to Customer]**— 每發出一次邀請，即主要朋友在網站上註冊時，都能獲得點數。<br>**[!UICONTROL Converting Invitations to Order]**  — 每次收到傳送的邀請後即可獲得銷售點數。<br>**[!UICONTROL Review Submission]**— 獲得提交產品評論的點數。 |
 | [!UICONTROL Created] | 獎勵點數更新的日期和時間 |
 | [!UICONTROL Expired] | 過期的獎勵點數 |
 | [!UICONTROL Comment] | 新增或減去點時的註解 |

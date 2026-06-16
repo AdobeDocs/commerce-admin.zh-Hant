@@ -3,9 +3,28 @@ title: Google AdWords
 description: 瞭解如何設定您的Commerce商店以進行Google AdWords轉換追蹤，以測量導致銷售或其他寶貴動作的廣告點選次數。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 659
 ht-degree: 0%
 
 ---
@@ -90,7 +109,7 @@ ht-degree: 0%
       - `2` — 顯示兩行通知，其中包含有關Google追蹤詳細資訊的連結。
       - `3` — 不顯示客戶通知。
 
-   - 為您要用於Google網站統計通知標籤的[輸入](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}十六進位代碼&#x200B;**[!UICONTROL Conversion Color]**。
+   - 為您要用於Google網站統計通知標籤的&#x200B;**[!UICONTROL Conversion Color]**&#x200B;輸入[十六進位代碼](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}。
 
    - 輸入顯示在Google Sites Stat通知上的&#x200B;**[!UICONTROL Conversion Label]**&#x200B;的加密文字。
 
@@ -125,7 +144,7 @@ ht-degree: 0%
    - `Dynamic` — 根據動態訂單金額值判斷已發生轉換。
    - `Constant` — 根據輸入的特定值判斷轉換已經發生。
 
-   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;**[!UICONTROL Value]**&#x200B;的特定&#x200B;_[!UICONTROL Order Amount]_&#x200B;以符合轉換資格。
+   針對&#x200B;_常數_&#x200B;轉換值型別，輸入&#x200B;_[!UICONTROL Order Amount]_&#x200B;的特定&#x200B;**[!UICONTROL Value]**&#x200B;以符合轉換資格。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 

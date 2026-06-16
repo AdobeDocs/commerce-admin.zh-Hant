@@ -3,9 +3,25 @@ title: 已排程的匯入和匯出
 description: 瞭解如何管理排程的資料匯入和匯出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: 2462
 ht-degree: 0%
 
 ---
@@ -159,7 +175,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | 匯入的名稱。 協助您在已建立許多不同排程匯入時加以區分。 |
 | [!UICONTROL Description] | （選擇性）您可以輸入說明。 |
 | [!UICONTROL Entity Type] | 定義要匯入的資料。 |
-| [!UICONTROL Import Behavior] | 定義當要匯入的實體存在於資料庫中時，如何處理複雜資料。 產品的複雜資料包括類別、網站、自訂選項、層級價格、相關產品、向上銷售、交叉銷售及相關產品資料。 客戶的複雜資料包括地址。 選項：<br>**[!UICONTROL Add/Update Complex Data]**— 新的複雜資料會新增或更新到資料庫中現有專案的現有複雜資料。 這是預設值。<br>**[!UICONTROL Add/Update]** — 新資料已新增到資料庫中的現有專案。 產品可更新`sku`以外的所有欄位。 CSV檔案中未列出的任何多個欄位值（例如類別或網站），在匯入後都會保留在資料庫中。<br>**[!UICONTROL Replace]**— 已取代現有實體的現有複雜資料。<br>**[!UICONTROL Delete Entities]** — 如果匯入的實體存在於資料庫中，則會從資料庫中刪除它們。<br>**[!UICONTROL Custom Action]**— 在匯入過程中已自訂現有的複雜實體。 |
+| [!UICONTROL Import Behavior] | 定義當要匯入的實體存在於資料庫中時，如何處理複雜資料。 產品的複雜資料包括類別、網站、自訂選項、層級價格、相關產品、向上銷售、交叉銷售及相關產品資料。 客戶的複雜資料包括地址。 選項：<br>**[!UICONTROL Add/Update Complex Data]**— 新的複雜資料會新增或更新到資料庫中現有專案的現有複雜資料。 這是預設值。<br>**[!UICONTROL Add/Update]**  — 新資料會新增至資料庫中的現有專案。 產品可更新`sku`以外的所有欄位。 匯入後，CSV檔案中未列出的任何多個欄位值（例如類別或網站）會保留在資料庫中。<br>**[!UICONTROL Replace]**— 已取代現有實體的現有複雜資料。<br>**[!UICONTROL Delete Entities]**  — 如果匯入的實體存在於資料庫中，則會從資料庫中刪除它們。<br>**[!UICONTROL Custom Action]**— 在匯入過程中自訂現有的複雜圖元。 |
 | [!UICONTROL Start Time] | 設定匯入的開始小時、分鐘和秒。 |
 | [!UICONTROL Frequency] | 定義匯入的執行頻率。 選項： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | 定義在檔案驗證期間發現錯誤時的系統行為。 選項：<br>**停止匯入** — 如果在驗證期間發現任何錯誤，將不會匯入檔案。 這是預設值。<br>**繼續處理** — 如果在驗證期間發現錯誤，但可以匯入，則會匯入檔案。 |
@@ -318,7 +334,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 | ----- | ----------- |
-| [!UICONTROL Server Type] | 決定匯出檔案的位置。 選項：<br>**本機伺服器** — 將匯出檔案放在部署Commerce的相同伺服器上。 如果已啟用遠端儲存模組，則會將`Local Server`切換至`Remote Storage`。<br>**遠端FTP** — 將匯出檔案放在遠端伺服器上。 憑證和檔案傳輸設定的其他選項也會出現。 |
+| [!UICONTROL Server Type] | 決定匯出檔案的位置。 選項：<br>**本機伺服器** — 將匯出檔案放在部署Commerce的相同伺服器上。 如果已啟用遠端儲存模組，`Local Server`會切換至`Remote Storage`。<br>**遠端FTP** — 將匯出檔案置於遠端伺服器上。 憑證和檔案傳輸設定的其他選項也會出現。 |
 | [!UICONTROL File Directory] | 指定放置匯出檔案的目錄。 如果&#x200B;_[!UICONTROL Server Type]_&#x200B;設定為`Local Server`，請指定相對於Commerce安裝路徑的路徑。 例如，`var/export`或遠端儲存的`import_export/export`。 |
 
 {style="table-layout:auto"}

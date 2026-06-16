@@ -3,16 +3,37 @@ title: '[!DNL Google Analytics]'
 description: 瞭解如何使用 [!DNL Google Analytics] 為您的Commerce網站收集有用的量度。
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Analytics]
 
-[!DNL Google Analytics]可讓您定義額外的自訂維度和量度以進行追蹤，並支援離線和行動應用程式互動，以及存取持續更新。 [!DNL Google Analytics] 4是Google的新一代測量解決方案，正在取代[!DNL Universal Analytics]。 在2023年7月1日，標準Universal Analytics屬性將停止處理新點選。
+[!DNL Google Analytics]可讓您定義額外的自訂維度和量度以進行追蹤，並支援離線和行動應用程式互動，以及存取持續更新。[!DNL Google Analytics] 4是Google的新一代測量解決方案，正在取代[!DNL Universal Analytics]。 在2023年7月1日，標準Universal Analytics屬性將停止處理新點選。
 
 >[!NOTE]
 >
@@ -30,8 +51,8 @@ ht-degree: 0%
 
 如果您尚未設定網站的[!DNL Google Analytics] 4，請遵循下列其中一種方法：
 
-- [第一次設定Analytics資料集合](https://support.google.com/analytics/answer/9304153)
-- [將Google Analytics 4新增至具有 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)的網站
+- [首次設定Analytics資料彙集](https://support.google.com/analytics/answer/9304153)
+- [將Google Analytics 4新增至具有 [!DNL Universal Analytics]的網站](https://support.google.com/analytics/answer/9744165)
 
 ### 步驟2：完成Commerce設定
 
@@ -41,7 +62,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Google API]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Google GTag]**。
+1. 展開&#x200B;**[!UICONTROL Google GTag]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Google Analytics4]**&#x200B;子區段，然後執行下列動作：
 
@@ -91,7 +112,7 @@ ht-degree: 0%
 
 增強型電子商務是[!DNL Google Universal Analytics]的外掛程式，可讓您insight瞭解客戶的購物和購買行為。 您可以使用增強型電子商務產生有關關鍵客戶活動的報表，例如客戶在購物車中新增專案、開始結帳程式或完成購買時。 您也可以識別和分析放棄購物車但不購買的購物者模式。
 
-下列指示顯示如何使用[!DNL Google Tag Manager]設定[!DNL Universal Analytics]以產生增強型電子商務資料和報表。
+下列指示顯示如何使用[!DNL Universal Analytics]設定[!DNL Google Tag Manager]以產生增強型電子商務資料和報表。
 
 ### 步驟1. 註冊Google帳戶
 
@@ -120,7 +141,7 @@ ht-degree: 0%
    |--- |--- |--- |
    | `addToCart` | 自訂事件 |  |
    | `checkout` | 自訂事件 |  |
-   | `checkout only` | 頁面檢視 | 頁面URL符合RegEx /checkout/。* |
+   | `checkout only` | 頁面檢視 | 頁面URL符合RegEx /checkout/.* |
    | `checkoutOption` | 自訂事件 |  |
    | `gtm.dom` | 自訂事件 |  |
    | `productClick` | 自訂事件 |  |
@@ -129,7 +150,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >僅針對內建的Commerce基本付款方法（例如[!UICONTROL Checkout]和`Check / Money Order`）觸發`Cash On Delivery Payment`事件。 `PayPal checkout`和其他外部付款方法不會執行此事件，這些方法使用重新導向以從外部資源結帳。
+   >僅針對內建的Commerce基本付款方法（例如`Check / Money Order`和`Cash On Delivery Payment`）觸發[!UICONTROL Checkout]事件。 `PayPal checkout`和其他外部付款方法不會執行此事件，這些方法使用重新導向以從外部資源結帳。
 
 1. 使用相同的基本設定建立下列Universal Analytics標籤。
 

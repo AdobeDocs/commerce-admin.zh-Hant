@@ -3,9 +3,25 @@ title: 價格顯示設定
 description: 瞭解目錄、購物車、訂單、商業發票以及支援客戶購買體驗的銷退折讓單中稅捐的顯示方式。
 exl-id: 6f97c474-ef6e-4ca6-899d-812c58b993ca
 feature: Checkout, Invoices, Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/XIcN-vl8owiToGhM3Et2euyNWgnJdsgSl6urwJcRdLE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -82,13 +98,13 @@ ht-degree: 0%
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)針對&#x200B;**[!UICONTROL Display Gift Wrapping Prices]**，選擇下列其中一項：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）針對&#x200B;**[!UICONTROL Display Gift Wrapping Prices]**，選擇下列其中一項：
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)針對&#x200B;**[!UICONTROL Display Printed Card Prices]**，選擇下列其中一項：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）針對&#x200B;**[!UICONTROL Display Printed Card Prices]**，選擇下列其中一項：
 
    - `Excluding Tax`
    - `Including Tax`
@@ -124,13 +140,13 @@ ht-degree: 0%
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)針對&#x200B;**[!UICONTROL Display Gift Wrapping Prices]**，選擇下列其中一項：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）針對&#x200B;**[!UICONTROL Display Gift Wrapping Prices]**，選擇下列其中一項：
 
    - `Excluding Tax`
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)針對&#x200B;**[!UICONTROL Display Printed Card Prices]**，選擇下列其中一項：
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）針對&#x200B;**[!UICONTROL Display Printed Card Prices]**，選擇下列其中一項：
 
    - `Excluding Tax`
    - `Including Tax`

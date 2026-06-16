@@ -3,9 +3,24 @@ title: 設定距離優先順序演演算法
 description: 設定組態以比較出貨目的地地址的地點與來源地點，以決定最接近完成出貨的來源。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -30,7 +45,7 @@ ht-degree: 0%
 
 ## 使用Google地圖
 
-您不需要Google帳戶即可開始使用。 此程式包括視需要建立Google帳戶和專案。 此選項需要新增計費帳戶和付款方法至您的Google帳戶，以完成設定並使用演演算法。
+您不需要Google帳戶即可開始使用。此程式包括視需要建立Google帳戶和專案。此選項需要新增計費帳戶和付款方法至您的Google帳戶，以完成設定並使用演演算法。
 不過，我們建議使用Google MAP距離型演演算法，此演演算法較離線計算更進階且更精確。
 
 ### 步驟1：建立Google API金鑰
@@ -89,7 +104,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存[設定來源的](stocks-prioritize-sources.md)優先順序。
+     >使用此演演算法出貨時，如果針對出貨選取的計算模式（駕駛、騎腳踏車或行走）未傳迴路線與資料，則SSA預設為使用Source優先順序。 建議為每個庫存[&#128279;](stocks-prioritize-sources.md)設定來源的優先順序。
 
      | 選項 | 說明 |
      | ----- | ----- |
@@ -128,7 +143,7 @@ ht-degree: 0%
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Catalog]**&#x200B;並選擇&#x200B;**[!UICONTROL Inventory]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_。
+1. 展開&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 取消選取「**[!UICONTROL Use system value]**」核取方塊並將&#x200B;**[!UICONTROL Provider]**&#x200B;設為`Offline Calculation`。
 

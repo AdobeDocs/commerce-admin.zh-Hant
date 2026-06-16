@@ -3,9 +3,22 @@ title: 訪客簽出
 description: 瞭解如何在您的商店啟用訪客結帳功能。
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
+TQID: https://experienceleague.adobe.com/jxrHQ1knuqHBmM1DsVa9NqdV-XNFdQDWjvwW4kHEyYM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: 247
 ht-degree: 0%
 
 ---
@@ -22,11 +35,11 @@ ht-degree: 0%
 
 1. 在左側面板上，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Checkout Options]**。
+1. 展開&#x200B;**[!UICONTROL Checkout Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![在設定頁面上展開的簽出選項](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-如需這些組態設定的詳細說明，請參閱[組態參考指南](../configuration-reference/sales/checkout.md#checkout-options)中的&#x200B;_簽出選項_。
+如需這些組態設定的詳細說明，請參閱&#x200B;_組態參考指南_&#x200B;中的[簽出選項](../configuration-reference/sales/checkout.md#checkout-options)。
 
 1. 如果設定是針對特定存放區檢視，[請選擇組態套用的存放區檢視](../configuration-reference/scope-change.md#set-the-scope)。
 
@@ -40,7 +53,7 @@ ht-degree: 0%
 
 ## 允許已註冊電子郵件的訪客訂單存取權
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 選用的商店層級設定預設為停用，可讓訪客購物者追蹤使用符合註冊客戶帳戶的電子郵件地址所下的訂單。
 

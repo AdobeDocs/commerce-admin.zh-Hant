@@ -3,9 +3,25 @@ title: 獎勵匯率
 description: 瞭解如何設定獎勵匯率，以決定獲得的獎勵點數。
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -26,7 +42,7 @@ ht-degree: 0%
 
 **4**：適用於所有網站和所有客戶群組。
 
-將貨幣轉換為點數時，點數無法劃分。 任何剩餘貨幣都會無條件舍去。 例如，如果$2.00轉換成十點，則以$2.00的群組獲得點數。因此，$7.00的訂單可贏取30點，而剩下的$1.00則會舍入入計算。 訂單的貨幣金額定義為商家收到的金額，或總金額減去運費、稅捐、折扣、商店貸方和禮品卡。 當訂單中沒有未開立商業發票的專案時（所有專案都會付款或取消），即會取得積分。 如果管理員使用者不想讓客戶獲得已取消訂單的獎勵積分，則可以從「管理客戶」頁面手動扣除這些積分。
+將貨幣轉換為點數時，點數無法劃分。 任何剩餘貨幣都會無條件舍去。 例如，如果$2.00轉換成十點，則以$2.00的群組獲得點數。 因此，$7.00的訂單可贏取30點，而剩下的$1.00則會舍入入計算。 訂單的貨幣金額定義為商家收到的金額，或總金額減去運費、稅捐、折扣、商店貸方和禮品卡。 當訂單中沒有未開立商業發票的專案時（所有專案都會付款或取消），即會取得積分。 如果管理員使用者不想讓客戶獲得已取消訂單的獎勵積分，則可以從「管理客戶」頁面手動扣除這些積分。
 
 ## 設定匯率
 

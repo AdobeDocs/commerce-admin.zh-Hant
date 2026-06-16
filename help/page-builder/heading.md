@@ -3,24 +3,38 @@ title: 元素 — 標題
 description: 瞭解標題內容型別，其用於將標題層級從H1到H6的文字容器新增到 [!DNL Page Builder] 階段。
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
 
 # 元素 — 標題
 
-標題層級會建立組織內容的階層，並協助搜尋引擎為每個頁面編制索引。 使用&#x200B;_階段_&#x200B;中的[[!DNL Page Builder] 標題](workspace.md#stage)內容型別，將標題層級從H1到H6的文字容器加入階段。 標題會根據與目前主題關聯的樣式表來格式化。
+標題層級會建立組織內容的階層，並協助搜尋引擎為每個頁面編制索引。 使用[[!DNL Page Builder] 階段](workspace.md#stage)中的&#x200B;_標題_&#x200B;內容型別，將標題層級從H1到H6的文字容器加入階段。 標題會根據與目前主題關聯的樣式表來格式化。
 
-[區段中的](workspace.md)內容標題&#x200B;_[!UICONTROL Content]_&#x200B;欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
+_[!UICONTROL Content]_&#x200B;區段中的[內容標題](workspace.md)欄位可用來新增H1標題至頁面頂端。 但是，此欄位是舊版[!DNL Commerce]的舊版，提供它以支援舊版內容。 此欄位未利用[!DNL Page Builder]的進階功能。 建議您將「內容標題」欄位保留空白，並使用「[!DNL Page Builder]標題」內容型別來新增任何層級的標題至頁面。
 
 下列範例說明當使用Luma主題進行格式化時，內容標題和標題內容型別的顯示方式。
 
 ![店面上的內容標題和標題層級](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-您可以從&#x200B;_面板的_ Elements[!DNL Page Builder]區段將標題拖曳到舞台上的列、欄或索引標籤組。 標題層級和對齊方式可從舞台上的編輯器工具列或使用&#x200B;_設定_ （![設定圖示](./assets/pb-icon-settings.png){width="20"} ）控制項來控制。
+您可以從[!DNL Page Builder]面板的&#x200B;_Elements_&#x200B;區段將標題拖曳到舞台上的列、欄或索引標籤組。 標題層級和對齊方式可從舞台上的編輯器工具列或使用&#x200B;_設定_ （![設定圖示](./assets/pb-icon-settings.png){width="20"} ）控制項來控制。
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 

@@ -3,16 +3,34 @@ title: ' [!DNL Adobe Commerce B2B]簡介'
 description: 了解如何使用整合的 B2B 功能來滿足公司客戶的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 829
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Commerce B2B]簡介
 
-與標準的企業對消費者模式不同，整合式B2B （企業對企業）功能是專為符合擁有企業客戶的賣家(Adobe Commerce商家)需求而設計。 它可容納組織結構複雜的公司，以及擁有各種角色和購買許可權等級的多個使用者。 典型的B2B客戶可能是零售商店的經理，或代表公司進行購買的買家。 在這兩種情況下，交易都會在您的企業與其企業之間進行。 您也可以將產品直接銷售給消費者。 [!DNL Adobe Commerce B2B]是支援B2B和B2C模型的整合式解決方案。
+與標準的企業對消費者模式不同，整合式B2B （企業對企業）功能是專為符合擁有企業客戶的賣家（Adobe Commerce商家）需求而設計。 它可容納組織結構複雜的公司，以及擁有各種角色和購買許可權等級的多個使用者。 典型的B2B客戶可能是零售商店的經理，或代表公司進行購買的買家。 在這兩種情況下，交易都會在您的企業與其企業之間進行。 您也可以將產品直接銷售給消費者。 [!DNL Adobe Commerce B2B]是支援B2B和B2C模型的整合式解決方案。
 
 透過Adobe Commerce商店中的B2B擴充功能[安裝](install.md)和[啟用](enable-basic-features.md)，即可透過客戶特定的目錄和定價，以及目標式內容和促銷活動，提供個人化的購買體驗。
 
@@ -42,7 +60,7 @@ Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source
 
 * [目錄服務](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hant)
 * [即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=zh-Hant)
-* [產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)
+* [產品推薦](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)
 
 ## 共用目錄
 

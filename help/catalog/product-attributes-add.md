@@ -3,9 +3,25 @@ title: 將屬性新增至產品
 description: 瞭解如何將屬性新增至目錄中的產品。
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
+TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -89,7 +105,7 @@ ht-degree: 0%
 
 ## 步驟4：輸入欄位標籤
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Manage titles]**。
+1. 展開&#x200B;**[!UICONTROL Manage titles]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
 1. 輸入要做為欄位標籤的&#x200B;**[!UICONTROL Title]**。
 
@@ -99,11 +115,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用[即時搜尋指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中即時搜尋多面向清單&#x200B;_中的_&#x200B;編輯選項，手動編輯標籤。
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的編輯選項，手動編輯標籤。
 
 ## 步驟5：說明店面屬性
 
-1. 展開![區段的](../assets/icon-display-expand.png)擴充選擇器&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 展開&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![店面屬性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 

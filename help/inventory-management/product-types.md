@@ -1,18 +1,32 @@
 ---
 title: 產品型別
-description: 瞭解 [!DNL Inventory Management] 如何支援所有Adobe Commerce和Magento Open Source產品型別的庫存和訂單管理。
+description: 瞭解 [!DNL Inventory Management] 如何支援所有Adobe Commerce和Magento Open Source產品型別的詳細目錄和訂單管理。
 exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/3F5vZOseQC7ILpL0j-ksjWP-GW7c0gUN9Zy7hylzzHU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 213
 ht-degree: 0%
 
 ---
 
 # 產品型別
 
-[!DNL Inventory Management]支援Adobe Commerce和Magento Open Source中所有產品型別的庫存和訂單管理：簡單、可設定、虛擬、可下載、套件組合和群組。 不同產品型別的來源、庫存和運送選項和需求可能有所不同。
+[!DNL Inventory Management]支援Adobe Commerce和Magento Open Source中所有產品型別的詳細目錄和訂單管理：簡單、可設定、虛擬、可下載、套件組合和群組。 不同產品型別的來源、庫存和運送選項和需求可能有所不同。
 
 - [單一來源商家](merchant-sourcing.md#single-source-merchants)建立並更新產品設定和數量，而不需要其他更新。 所有建立和新匯入的產品都會自動指派給預設Source和預設庫存，如果啟用且有庫存，客戶將立即可用。
 

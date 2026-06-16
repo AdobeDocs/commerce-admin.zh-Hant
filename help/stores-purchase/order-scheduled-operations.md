@@ -3,9 +3,23 @@ title: 排定的訂單作業
 description: 瞭解支援此功能的排程訂單作業和訂單cron設定。
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 284
 ht-degree: 0%
 
 ---
@@ -43,9 +57,9 @@ ht-degree: 0%
 
 藉由排程這些工作，您可以避免在儲存資料時發生鎖定，並縮短處理時間。 啟用後，任何更新只會在排程的cron作業期間發生。 為了獲得最佳結果，應將Cron設定為每分鐘執行一次。
 
-**_若要啟用更新並重新索引：_**
+**_若要啟用更新並重新索引:_**
 
-僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"}啟用[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant#production-mode) (雲端基礎結構上的Adobe Commerce中使用的預設模式)時，請執行以下命令：
+僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}啟用[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant#production-mode) （雲端基礎結構上的Adobe Commerce中使用的預設模式）時，請執行以下命令：
 
 `bin/magento config:set dev/grid/async_indexing 1`
 

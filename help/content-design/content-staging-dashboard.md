@@ -3,10 +3,21 @@ title: 內容中繼儀表板
 description: 使用內容測試儀表板來存取所有使用中和即將來臨的行銷活動的概觀。
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -51,7 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Start Time] | 行銷活動開始的日期。 |
 | [!UICONTROL End Time] | 行銷活動結束的日期。 |
 | [!UICONTROL Description] | 每個行銷活動的額外說明。 |
-| [!UICONTROL Action] | 可套用至個別記錄的動作包括： <br/>**[!UICONTROL View/Edit]**— 以編輯模式開啟行銷活動。<br/>**[!UICONTROL Preview]** — 以預覽模式顯示行銷活動。 |
+| [!UICONTROL Action] | 可套用至個別記錄的動作包括： <br/>**[!UICONTROL View/Edit]**— 在編輯模式下開啟行銷活動。<br/>**[!UICONTROL Preview]**  — 在預覽模式下顯示行銷活動。 |
 
 {style="table-layout:auto"}
 

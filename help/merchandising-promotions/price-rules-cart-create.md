@@ -3,9 +3,26 @@ title: 建立購物車價格規則
 description: 瞭解如何根據購物車或產品屬性建立購物車價格規則。
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
+TQID: https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: 3399
 ht-degree: 0%
 
 ---
@@ -55,7 +72,7 @@ ht-degree: 0%
 
      ![購物車價格規則 — 優惠券設定](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)使用&#x200B;_行事曆_ （![行事曆圖示](../assets/icon-calendar.png)）來選擇促銷的&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期範圍。
+   - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）使用&#x200B;_行事曆_ （![行事曆圖示](../assets/icon-calendar.png)）來選擇促銷的&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期範圍。
 
 1. 輸入數字，以定義此價格規則的&#x200B;**[!UICONTROL Priority]**&#x200B;與其他同時生效之價格規則的「動作」設定相關。
 
@@ -65,9 +82,9 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Save and Continue Edit]**。
 
-   - ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)儲存規則後，購物車價格規則的名稱會顯示在頁面頂端。
+   - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）儲存規則後，購物車價格規則的名稱會顯示在頁面頂端。
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)儲存規則後，購物車價格規則的名稱和[排程變更](price-rule-cart-scheduled-changes.md)方塊會顯示在頁面頂端。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）儲存規則後，購物車價格規則的名稱和[排程變更](price-rule-cart-scheduled-changes.md)方塊會顯示在頁面頂端。
 
      ![購物車價格規則 — 排程變更](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
 
@@ -115,7 +132,7 @@ ht-degree: 0%
 
 1. 當條件的下一部分出現時，請按一下陳述式的元素，以便檢視每個具有變數值的連結的位置。
 
-1. 按一下[更多] (...)連結，然後輸入`100`。
+1. 按一下「更多」(...) 連結，並輸入`100`。
 
    此條件要求購物車的總數量為`101`或以上。
 
@@ -125,7 +142,7 @@ ht-degree: 0%
 
    ![購物車價格規則條件 — 產品屬性類別](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. 在條件的下一部分，按一下&#x200B;_更多_ (**...**)連結以顯示輸入欄位，然後開啟&#x200B;_選擇器_ （![清單圖示](../assets/icon-list-chooser.png)）以顯示類別樹狀結構。
+1. 在條件的下一部分，按一下&#x200B;_更多_ (**...**) 連結以顯示輸入欄位，然後開啟&#x200B;_選擇器_ （![清單圖示](../assets/icon-list-chooser.png)）以顯示類別樹狀結構。
 
 1. 選取您要用作價格規則條件的類別核取方塊，然後按一下![新增圖示](../assets/icon-checkmark-green-circle.png)圖示以接受類別選擇。
 
@@ -198,7 +215,7 @@ ht-degree: 0%
 
    ![選取Real-Time CDP對象條件](./assets/rtcdp-conditions.png){width="300"}
 
-1. 選取&#x200B;_更多_ (**...**)圖示，按一下&#x200B;**[!UICONTROL Open Chooser]**，然後檢視所有可用的Real-Time CDP對象。
+1. 選取&#x200B;_更多_ (**...**) 圖示，按一下「**[!UICONTROL Open Chooser]**」，然後檢視所有可用的Real-Time CDP對象。
 
    ![檢視Real-Time CDP對象](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
@@ -211,7 +228,7 @@ ht-degree: 0%
    | `Name` | 對象名稱，例如`Orders over $50` |
    | `Description` | 對象的說明，例如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指出對象的來源，例如`Experience Platform`。 |
-   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hant)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
+   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
 
    {style="table-layout:auto"}
 
@@ -232,7 +249,7 @@ ht-degree: 0%
    | `Percent of product price discount` | 從原始價格減去百分比，以折扣料號。 折扣適用於購物車中的每個合格專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，所更新價格會比原始價格低10%。 |
    | `Fixed amount discount` | 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，更新後的價格即比原始價格低$10。 |
    | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：在[!UICONTROL Discount Amount]中輸入10，從購物車總計中減去$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計和運費，請使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;選項。 |
-   | `Buy X get Y free` | 定義客戶必須購買的數量X，以免費接收相同產品/變數&#x200B;**的數量Y**。 （[!UICONTROL Discount Amount]為Y。）該相同專案的X+Y總數量必須存在於購物車中/新增到購物車中，才能套用折扣。 |
+   | `Buy X get Y free` | 定義客戶必須購買的數量X，以免費接收相同產品/變數&#x200B;**的數量Y**。 （[!UICONTROL Discount Amount]為Y。） 購物車中必須存在相同專案的X+Y總數量/新增該專案，才能套用折扣。 |
 
    {style="table-layout:auto"}
 
@@ -278,7 +295,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)針對&#x200B;**[!UICONTROL Add Rewards Points]**，輸入每當套用購物車價格規則時，客戶每份訂單可獲得&#x200B;**_次_**&#x200B;的固定點數。
+1. ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）針對&#x200B;**[!UICONTROL Add Rewards Points]**，輸入每當套用購物車價格規則時，客戶每份訂單可獲得&#x200B;**_次_**&#x200B;的固定點數。
 
    如果未啟用獎勵積分，請將此欄位留空。
 
@@ -341,13 +358,13 @@ ht-degree: 0%
 | [!UICONTROL Active] | （必要）決定規則在存放區中是否有效。 選項： `Yes` / `No` |
 | [!UICONTROL Websites] | （必要）識別可使用此規則的網站。 |
 | [!UICONTROL Customer Groups] | （必要）識別規則套用的客戶群組。 |
-| [!UICONTROL Coupon] | （必要）指出優惠券是否與規則相關聯。 選項： <br/>**[!UICONTROL No Coupon]**— 沒有與規則關聯的抵用券。<br/>**[!UICONTROL Specific Coupon]** — 特定優惠券與規則相關聯。 <br/>**[!UICONTROL Coupon Code]**— 出現提示時，輸入客戶必須輸入的「優惠券代碼」，才能利用促銷優惠。<br/>**[!UICONTROL Use Auto Generation]** — 選取核取方塊，自動產生多個可搭配促銷使用的優惠券代碼。 <br/>**[!UICONTROL Auto]**— 顯示&#x200B;_[!UICONTROL Manage Coupon Codes]_&#x200B;區段以定義要產生之優惠券代碼的格式。 |
+| [!UICONTROL Coupon] | （必要）指出優惠券是否與規則相關聯。 選項： <br/>**[!UICONTROL No Coupon]**— 沒有與規則關聯的抵用券。<br/>**[!UICONTROL Specific Coupon]** — 特定優惠券與規則相關聯。<br/>**[!UICONTROL Coupon Code]**— 出現提示時，請輸入客戶必須輸入的「優惠券代碼」，才能利用促銷優惠。<br/>**[!UICONTROL Use Auto Generation]** — 選取核取方塊，自動產生多個可和促銷活動搭配使用的優惠券代碼。<br/>**[!UICONTROL Auto]**— 顯示&#x200B;_[!UICONTROL Manage Coupon Codes]_&#x200B;區段以定義要產生之優惠券代碼的格式。 |
 | [!UICONTROL Uses per Coupon] | 決定抵用券代碼可以使用的次數。 如果沒有限制，則將此欄位留空。 |
 | [!UICONTROL Uses per Customer] | 決定屬於任何選定客戶群組的相同註冊客戶可以使用購物車價格規則的次數。 不適用於身為NOT LOGGED IN客戶群組成員的訪客購物者，或購物但未登入其帳戶的客戶。 若無限制，請留空。 |
 | [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
-| [!UICONTROL Public in RSS Feed] | 判斷促銷活動是否包含在您商店的公開RSS摘要中。 選項：  `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)可以使用抵用券的第一個日期。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (僅限Magento Open Source)可使用抵用券的最後日期。 |
+| [!UICONTROL Public in RSS Feed] | 判斷促銷活動是否包含在您商店的公開RSS摘要中。 選項： `Yes` / `No` |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可以使用抵用券的第一個日期。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可使用抵用券的最後日期。 |
 
 {style="table-layout:auto"}
 
@@ -384,14 +401,14 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。 <br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣套用至小計與運費，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;為Y。） |
+| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。<br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計與運送，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;為Y。） |
 | [!UICONTROL Discount Amount] | （必要）提供的折扣金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 設定在同一次購買中可套用折扣的產品數目上限。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | 設定`Buy X Get Y Free`促銷活動中由`X`代表的產品數目。 此外，定義必須一起將多少項產品批次新增到購物車，才能套用`Fixed amount discount`和`Percent of product price discount`促銷活動。 |
 | [!UICONTROL Apply to Shipping Amount] | 決定是否將折扣分別套用至小計與出貨金額。 否則，只套用至小計。 選項： `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | 決定當此購物車價格規則符合時，是否可將較低優先順序規則（1為最高優先順序）套用至產品。 啟用此選項可防止將多個折扣套用至相同產品。 選項： `Yes` / `No` |
-| [!UICONTROL Free Shipping] | 決定促銷中是否包含免運費，如果包含，則針對哪些專案。 選項： <br/>**[!UICONTROL No]**— 目前規則不提供免運費。<br/>**[!UICONTROL For matching items only]** — 只有購物車中符合規則的特定專案才提供免運費。 <br/>**[!UICONTROL For shipment with matching items]**— 購物車中的所有專案都提供免運費。 必須啟用[免運費](../stores-purchase/shipping-free.md)交貨方式才能使用此選項。 |
-| [!UICONTROL Add Reward Points] | ![Adobe Commerce](../assets/adobe-logo.svg) (僅限Adobe Commerce)指定客戶套用價格規則時獲得的[獎勵點數](rewards-loyalty.md)。 |
+| [!UICONTROL Free Shipping] | 決定促銷中是否包含免運費，如果包含，則針對哪些專案。 選項： <br/>**[!UICONTROL No]**— 目前規則不提供免運費。<br/>**[!UICONTROL For matching items only]** — 只有購物車中符合規則的特定專案才提供免運費。<br/>**[!UICONTROL For shipment with matching items]**— 購物車中的所有專案都提供免運費。 必須啟用[免運費](../stores-purchase/shipping-free.md)交貨方式才能使用此選項。 |
+| [!UICONTROL Add Reward Points] | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）指定客戶套用價格規則時獲得的[獎勵點數](rewards-loyalty.md)。 |
 
 {style="table-layout:auto"}
 

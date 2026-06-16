@@ -1,11 +1,27 @@
 ---
-title: '[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]'
-description: 檢閱Commerce管理員的[!UICONTROL Sales] &amp；gt； [!UICONTROL Sales]頁面上的組態設定。
+title: '[!UICONTROL Sales] > [!UICONTROL Sales]'
+description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Sales]頁面上的組態設定。
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/n6xnRBJsLGouJgUcsf3EPhj5B1ny8RK3mV0bRbJIr30
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: 1238
 ht-degree: 1%
 
 ---
@@ -81,7 +97,7 @@ ht-degree: 1%
 
 ![最小訂購量](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -123,13 +139,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Promotions]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案(Adobe管理的SaaS基礎結構)。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 ![促銷活動設定](./assets/sales-promotions-settings.png)<!-- zoom -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全域 | 當層級價格的數量設定為[時，啟用目錄價格規則](../../catalog/product-price-tier.md)的`1`層級定價。  選項： `Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全域 | 當層級價格的數量設定為`1`時，啟用目錄價格規則[&#128279;](../../catalog/product-price-tier.md)的層級定價。  選項： `Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 
@@ -141,11 +157,11 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Gift Messages on Order Level] | 網站 | 指定是否可以為整個訂單新增禮品訊息。 |
 | [!UICONTROL Allow Gift Messages on Order Items] | 網站 | 指定是否可以為個別訂單專案新增贈品訊息。 |
-| [!UICONTROL Allow Gift Wrapping on Order Level] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定是否可以為整個訂單新增贈品包裝。 |
-| [!UICONTROL Allow Gift Wrapping for Order Items] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定是否可以為個別訂單專案新增贈品包裝。 |
-| [!UICONTROL Allow Gift Receipt] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定是否可以為訂單新增禮品收據。 |
-| [!UICONTROL Allow Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定是否可以為訂單新增列印卡片。 |
-| [!UICONTROL Default Price for Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) (僅限Adobe Commerce)指定列印卡片的預設價格。 |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定是否可以為整個訂單新增贈品包裝。 |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定是否可以為個別訂單專案新增贈品包裝。 |
+| [!UICONTROL Allow Gift Receipt] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定是否可以為訂單新增禮品收據。 |
+| [!UICONTROL Allow Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定是否可以為訂單新增列印卡片。 |
+| [!UICONTROL Default Price for Printed Card] | 網站 | ![Adobe Commerce](../../assets/adobe-logo.svg) （僅限Adobe Commerce）指定列印卡片的預設價格。 |
 
 {style="table-layout:auto"}
 
@@ -158,7 +174,7 @@ ht-degree: 1%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable MAP] | 網站 | 為您的商店啟用最低廣告價格。 選項： `Yes` / `No` |
-| [!UICONTROL Display Actual Price] | 網站 | 決定客戶看到產品實際價格的位置。 選項： <br/>**`In Cart`**— 顯示購物車中的實際產品價格。<br/>**`Before Order Confirmation`** — 在訂單確認前，於結帳程式結束時顯示實際產品價格。 <br/>**`On Gesture`**— 當客戶按一下「價格點選」或「這是什麼？」時，在快顯視窗中顯示實際產品價格。 連結。 |
+| [!UICONTROL Display Actual Price] | 網站 | 決定客戶看到產品實際價格的位置。 選項： <br/>**`In Cart`**— 顯示購物車中的實際產品價格。<br/>**`Before Order Confirmation`** — 在訂單確認前，於結帳程式結束時顯示實際產品價格。<br/>**`On Gesture`**— 當客戶按一下「價格點選」或「這是什麼？」時，在快顯視窗中顯示實際產品價格。 連結。 |
 | [!UICONTROL Default Popup Text Message] | 存放區檢視 | 當客戶從分類清單或產品檢視頁面選取「按一下以取得價格」連結時顯示的文字訊息。 |
 | [!UICONTROL Default "What's This" Text Message] | 存放區檢視 | 客戶按一下「這是什麼？」時顯示的文字訊息。 從產品檢視頁面連結。 |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | 全域 | 製造商建議的零售價(MSRP)。 |
@@ -189,7 +205,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enable Order by SKU on My Account in Storefront] | 網站 | 決定客戶帳戶儀表板中是否提供「依SKU排序」。 選項： <br/>**`Yes, for Everyone`**- Order by SKU索引標籤會出現在所有客戶的帳戶儀表板中。<br/>**`Yes, for Specified Customer Groups`** - Order by SKU索引標籤會顯示在指定群組或共用目錄成員的帳戶儀表板中。 <br/>**`No`**— 客戶帳戶無法使用「依SKU訂購」標籤。 |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | 網站 | 決定客戶帳戶儀表板中是否提供「依SKU排序」。 選項： <br/>**`Yes, for Everyone`**- Order by SKU索引標籤會出現在所有客戶的帳戶儀表板中。<br/>**`Yes, for Specified Customer Groups`** - Order by SKU索引標籤會顯示在指定群組或共用目錄成員的帳戶儀表板中。<br/>**`No`**— 客戶帳戶中不提供Order by SKU索引標籤。 |
 | [!UICONTROL Customer Groups] | 網站 | 決定客戶群組。 選項： `General` / `Retailer` / `Wholesale` |
 
 {style="table-layout:auto"}
@@ -202,7 +218,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 存放區檢視 | 如果付款方法(例如Braintree)已啟用儲存庫，為商店檢視啟用即時購買。 選項： `Yes` / `No` |
+| [!UICONTROL Enabled] | 存放區檢視 | 如果付款方法（例如Braintree）已啟用儲存庫，為商店檢視啟用即時購買。 選項： `Yes` / `No` |
 | [!UICONTROL Button Text] | 存放區檢視 | 指定立即購買按鈕上顯示的文字。 預設文字為`Instant Purchase`。 |
 
 {style="table-layout:auto"}
@@ -226,7 +242,7 @@ ht-degree: 1%
 
 ![訂單、商業發票、出貨、銷退折讓單封存](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[商店與購買體驗指南](../../stores-purchase/order-archive.md#configure-the-order-archive)中的&#x200B;_設定訂單封存_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_商店與購買體驗指南_&#x200B;中的[設定訂單封存](../../stores-purchase/order-archive.md#configure-the-order-archive)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -242,12 +258,12 @@ ht-degree: 1%
 
 ![RMA設定](./assets/sales-rma-settings.png)<!-- zoom -->
 
-如需有關變更這些設定的詳細資訊，請參閱[商店與購買體驗指南](../../stores-purchase/rma-configure.md)中的&#x200B;_設定退貨_。
+如需有關變更這些設定的詳細資訊，請參閱&#x200B;_商店與購買體驗指南_&#x200B;中的[設定退貨](../../stores-purchase/rma-configure.md)。
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Enable RMA on Storefront] | 網站 | 決定客戶是否可以從店面建立和檢視RMA請求。 RMA可同時套用至新訂單與現有訂單。 依預設，店面不會啟用RMA。 選項： `Yes` / `No` |
 | [!UICONTROL Enable RMA on Product Level] | 網站 | 決定產品資訊中「啟用RMA」欄位的預設值。 |
-| [!UICONTROL Use Store Address] | 網站 | 決定用於退回商品出貨的聯絡人名稱與地址。 選項： <br/>**`Yes`**— 使用送貨設定中的[原點](../../stores-purchase/shipping-settings.md#point-of-origin)位址。<br/>**`No`** — 開啟地址表單，以便您輸入替代地址。 |
+| [!UICONTROL Use Store Address] | 網站 | 決定用於退回商品出貨的聯絡人名稱與地址。 選項： <br/>**`Yes`**— 使用送貨設定中的[原點](../../stores-purchase/shipping-settings.md#point-of-origin)位址。<br/>**`No`** — 開啟地址表單，讓您輸入替代地址。 |
 
 {style="table-layout:auto"}

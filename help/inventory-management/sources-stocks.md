@@ -2,9 +2,24 @@
 title: 庫存和來源
 description: 瞭解產品、來源和庫存之間的關係。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +44,7 @@ ht-degree: 0%
 
 [庫存](stocks-manage.md)代表可供銷售至銷售管道（網站）的虛擬彙總產品詳細目錄。 每個存貨都會將您的銷售管道與可用存貨和可銷售數量的來源對應。 根據您的網站組態，庫存可能會指派給一或多個銷售管道和來源。
 
-Sales Channel代表銷售您詳細目錄的實體，包括網站、商店檢視、B2B客戶群組等。 銷售管道只能與一個庫存相關聯。 每個銷售管道只能指派單一庫存，且單一庫存可指派至多個網站。 透過庫存，您可以修改出貨訂單時及[Source選擇演演算法](selection-reservations.md)所使用的來源優先順序。
+銷售管道代表銷售您詳細目錄的實體，包括網站、商店檢視、B2B客戶群組等。 銷售管道只能與一個庫存相關聯。 每個銷售管道只能指派單一庫存，且單一庫存可指派至多個網站。 透過庫存，您可以修改出貨訂單時及[Source選擇演演算法](selection-reservations.md)所使用的來源優先順序。
 
 您一開始會使用指派了預設Source和您網站的「預設庫存」，最適合由單一來源商家使用。 只能將預設Source指派給此庫存。 多來源商家會視需要為自訂來源和網站建立自訂庫存。
 

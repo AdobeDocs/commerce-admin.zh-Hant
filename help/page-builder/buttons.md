@@ -3,9 +3,23 @@ title: 元素 — 按鈕
 description: 瞭解Buttons內容型別，用於在 [!DNL Page Builder] 階段中新增個別按鈕或一組按鈕。
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/-Q-eKvElwVRaCuqHqXfAYmeanp-H-qHXTab0huUhXMM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: 1588
 ht-degree: 0%
 
 ---
@@ -167,7 +181,7 @@ ht-degree: 0%
 
    ![大小相同的棧疊按鈕](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. 使用按鈕容器[的](#change-settings-for-a-button-container)變更設定的說明，視需要更新其餘設定。
+1. 使用按鈕容器[&#128279;](#change-settings-for-a-button-container)的變更設定的說明，視需要更新其餘設定。
 
 1. 完成後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;套用設定並返回[!DNL Page Builder]工作區。
 

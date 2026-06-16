@@ -3,10 +3,28 @@ title: 分層導覽
 description: 瞭解階層式導覽如何讓購物者根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -26,7 +44,7 @@ ht-degree: 0%
 >
 >此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)。
 
-您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇「Mens/Shorts」類別時，初始結果會包含該類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
+您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇Mens/Shorts類別時，初始結果會包括類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
 
 屬性屬性與產品輸入型別結合，決定哪些屬性可用於分層導覽。 階層式導覽僅適用於&#x200B;[_錨點_](categories-display-settings.md)&#x200B;類別，也可以新增至搜尋結果頁面。 每個屬性之存放區擁有者的&#x200B;**目錄輸入型別**&#x200B;屬性必須設定為`Yes/No`、`Dropdown`、`Multiple Select`或`Price`。 若要讓屬性可篩選，必須將每個屬性的&#x200B;**Use in Layered Navigation**&#x200B;屬性設定為`Filterable (with results)`或`Filterable (no results)`。
 
@@ -140,7 +158,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 | $150.00 - $159.99 (1) |   |
 | $180.00 - $189.99 (1) |   |
 | $420.00 - $429.99 (1) |   |
-| 440.00美元 — 449.99美元(1) |   |
+| $440.00 - $449.99 (1) |   |
 | $710.00及以上(1) |   |
 
 {style="table-layout:auto"}
@@ -161,7 +179,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
    ![分層導覽](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   如需這些組態選項的詳細清單，請參閱[組態參考](../configuration-reference/catalog/catalog.md#layered-navigation)中的&#x200B;_分層導覽_。
+   如需這些組態選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[分層導覽](../configuration-reference/catalog/catalog.md#layered-navigation)。
 
 1. 為下列章節中的其中一個方法設定&#x200B;**[!UICONTROL Price Navigation Steps Calculation]**。
 

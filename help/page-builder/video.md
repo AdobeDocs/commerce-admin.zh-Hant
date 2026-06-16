@@ -3,9 +3,24 @@ title: 媒體 — 影片
 description: 瞭解視訊內容型別，其用於將託管於YouTube或Vimeo的視訊新增至 [!DNL Page Builder] 階段。
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/rgFMtNXv6jerPV7rthqTFteR8XlJ1bVc7ziBjwAlAMk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: 947
 ht-degree: 0%
 
 ---
@@ -89,7 +104,7 @@ ht-degree: 0%
 
    如果「自動播放」設定為`Yes`，則視訊會根據原則在播放時設為靜音。 不過，即使使用此設定，行動裝置也無法自動播放您的視訊。 如需這些原則的詳細資訊，請參閱下列開發人員資源：
 
-   - [來自Vimeo的自動播放原則](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
+   - [Vimeo的自動播放原則](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Google (Chrome/YouTube)的自動播放原則](https://developer.chrome.com/blog/autoplay/)
    - [本機視訊的自動播放原則](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 

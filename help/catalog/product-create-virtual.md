@@ -3,9 +3,25 @@ title: 虛擬產品
 description: 瞭解如何建立代表非實體專案的虛擬產品，例如會籍、服務、保固或訂閱。
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 653
 ht-degree: 0%
 
 ---
@@ -69,11 +85,11 @@ ht-degree: 0%
 
 1. 輸入庫存產品的&#x200B;**[!UICONTROL Quantity]**，並執行下列動作：
 
-   - 接受&#x200B;**[!UICONTROL Stock Status]**&#x200B;的預設`In Stock`設定。
+   - 接受`In Stock`的預設&#x200B;**[!UICONTROL Stock Status]**&#x200B;設定。
 
      因為虛擬產品未出貨，所以未使用&#x200B;**[!UICONTROL Weight]**&#x200B;欄位。
 
-   - 接受&#x200B;**[!UICONTROL Visibility]**&#x200B;的預設`Catalog, Search`設定。
+   - 接受`Catalog, Search`的預設&#x200B;**[!UICONTROL Visibility]**&#x200B;設定。
 
    >[!NOTE]
    >
@@ -128,7 +144,7 @@ ht-degree: 0%
 
       - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;**[!UICONTROL Customer View]**&#x200B;管理員&#x200B;_（_&#x200B;功能表箭頭![&#x200B; ）功能表上選擇](../assets/icon-menu-down-arrow-black.png)。
+      - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
 
      該存放區會在新的瀏覽器標籤中開啟。
 

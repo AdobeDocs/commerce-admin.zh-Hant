@@ -1,17 +1,27 @@
 ---
 title: ' [!DNL Page Builder]簡介'
-description: 瞭解 [!DNL Page Builder] 工具，以便在Adobe Commerce和Magento Open Source中輕鬆建立內容。
+description: 瞭解在Adobe Commerce和Magento Open Source中輕鬆建立內容的 [!DNL Page Builder] 工具。
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/9TbyhDXBbSOfTp4umY9jDqMPo5-6RRFC1F7nywAzATo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: 249
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder]簡介
 
-[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面，以增強您的視覺敘事能力，並提高客戶參與度和忠誠度。 以下是許多[!DNL Page Builder]功能中的幾項，這些功能的設計目的是改善品質，並減少製作自訂頁面的時間和費用：
+[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面，以增強您的視覺storytelling並提高客戶參與度和忠誠度。 以下是許多[!DNL Page Builder]功能中的幾項，這些功能的設計目的是改善品質，並減少製作自訂頁面的時間和費用：
 
 - 進階內容工具
 - CMS頁面、產品和類別的完整版面配置
@@ -20,7 +30,7 @@ ht-degree: 0%
 - 各種內容型別
 - 自訂產品屬性輸入型別
 
-[!DNL Page Builder]進階內容工具已在Adobe Commerce 2.3.1版本中匯入。 從2.4.3版開始，Magento Open Source中也提供基本[!DNL Page Builder]功能。 不過，Adobe Commerce中的[!DNL Page Builder]已增強其功能，以便使用&#x200B;_體驗管理_&#x200B;工具的其餘部分。 這些工具可讓商家提供引人入勝的個人化體驗和行銷活動：測試和預覽、個人化內容、產品Recommendations以及即將推出的其他功能。
+[!DNL Page Builder]進階內容工具已在Adobe Commerce 2.3.1版本中匯入。 從2.4.3版開始，Magento Open Source中也提供基本[!DNL Page Builder]功能。 不過，Adobe Commerce中的[!DNL Page Builder]已增強其功能，以便使用&#x200B;_體驗管理_&#x200B;工具的其餘部分。 這些工具可讓商家提供引人入勝的個人化體驗和行銷活動：測試和預覽、個人化內容、產品推薦，以及即將推出的其他功能。
 
 ## 瞭解[!DNL Page Builder]
 
@@ -38,4 +48,4 @@ ht-degree: 0%
 
 觀看此影片以瞭解Page Builder功能：
 
->[!VIDEO](https://video.tv.adobe.com/v/3447905?quality=12&learn=on&captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/3447905?captions=chi_hant&quality=12&learn=on)

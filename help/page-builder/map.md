@@ -3,9 +3,25 @@ title: 媒體 — 地圖
 description: 瞭解用於將對應從 [!DNL Google Maps] 平台新增至 [!DNL Page Builder] 階段的Map內容型別。
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/0Q0wGtAK-MYI949ELjgcM2Omg2ASHCtlJ2T-so1Uoms
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: 1604
 ht-degree: 0%
 
 ---
@@ -60,11 +76,11 @@ ht-degree: 0%
 
 1. 按一下專案下拉式清單，然後選取或建立您要新增API金鑰的專案。
 
-1. 若要設定您的API認證，請依照[檔案中的](https://developers.google.com/maps/documentation/javascript/get-api-key)指示[!DNL Google Maps]操作。
+1. 若要設定您的API認證，請依照[!DNL Google Maps]檔案中的[指示](https://developers.google.com/maps/documentation/javascript/get-api-key)操作。
 
 1. 將API金鑰複製到剪貼簿。
 
-### 步驟2：在[!DNL Google Maps]中設定[!DNL Commerce]
+### 步驟2：在[!DNL Commerce]中設定[!DNL Google Maps]
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -262,7 +278,7 @@ ht-degree: 0%
 
 ### 變更格線大小
 
-格線大小決定與[階段上](column.md)資料行[!DNL Page Builder]相關的地圖大小。 依預設，對應寬度為12欄，最多為16欄。
+格線大小決定與[!DNL Page Builder]階段上[資料行](column.md)相關的地圖大小。 依預設，對應寬度為12欄，最多為16欄。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

@@ -3,10 +3,25 @@ title: 銷售檔案
 description: 瞭解如何設定銷售檔案，以支援Commerce商店的客戶訂單和履行。
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/0SZsaPiyOc4E-0e34IDvWATtKz9HMaeZAIMhKeysvTg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 474
+ht-degree: 1%
 
 ---
 
@@ -22,7 +37,7 @@ ht-degree: 0%
 
 調整標誌大小以符合所需大小的一種方式是建立具有正確尺寸的新空白影像。 然後，貼上您的標誌影像並調整大小以符合高度。 使用大多數的影像編輯程式，您可以按百分比縮放以保留外觀比例，或按住Shift鍵並手動調整影像大小。
 
-**_若要更新標誌：_**
+**_更新標誌:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -71,7 +86,7 @@ ht-degree: 0%
 
 ![銷售組態 — PDF列印輸出](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
-**_若要變更訂單識別碼設定：_**
+**_若要變更訂單ID設定:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -85,7 +100,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-**_若要變更客戶IP位址設定：_**
+**_若要變更客戶IP位址設定:_**
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
