@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 使用命令列重新索引
 
-Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱&#x200B;_組態指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}。
+Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱&#x200B;_組態指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=zh-Hant#reindex){:target="blank"}。
 
 ## 索引觸發事件
 

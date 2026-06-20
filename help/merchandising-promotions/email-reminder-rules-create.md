@@ -106,7 +106,7 @@ ht-degree: 0%
 
      ![標題和說明 — 商店檢視](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}如果您使用[!DNL Adobe Commerce as a Cloud Service]，可以選取[!UICONTROL Rule Repeatability]核取方塊來啟用[規則重複性](#rule-repeatability)。
+1. [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}如果您使用[!DNL Adobe Commerce as a Cloud Service]，可以選取[!UICONTROL Rule Repeatability]核取方塊來啟用[規則重複性](#rule-repeatability)。
 
    >[!IMPORTANT]
    >
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ## 規則重複性
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 >[!IMPORTANT]
 >

@@ -46,11 +46,11 @@ ht-degree: 0%
 
 您需要下列角色和許可權才能設定整合。
 
-- [Commerce cloud專案管理員](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) — 安裝必要的擴充功能，並從管理員或命令列設定Commerce應用程式伺服器。
+- [Commerce cloud專案管理員](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/user-access) — 安裝必要的擴充功能，並從管理員或命令列設定Commerce應用程式伺服器。
 
    - 存取[repo.magento.com](https://repo.magento.com/admin/dashboard)以安裝擴充功能。
 
-     如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+     如需金鑰產生與取得必要許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - [Commerce管理員](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/guide-overview) — 更新存放區設定並管理Commerce使用者帳戶。
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Commerce服務聯結器設定是使用[Adobe Commerce SaaS服務](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices)所需的一次性程式。 如果您已設定其他服務的聯結器，您可以選取「**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**」，從Commerce管理員檢視現有設定。
+>Commerce服務聯結器設定是使用[Adobe Commerce SaaS服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/integration-services/saas#availableservices)所需的一次性程式。 如果您已設定其他服務的聯結器，您可以選取「**[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**」，從Commerce管理員檢視現有設定。
 
 若要在您的Adobe Commerce執行個體與啟用AEM Assets整合的服務之間傳輸資料，請從管理員(**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**)設定Commerce服務聯結器。
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 - 安全雲端儲存空間的資料空間名稱（SaaS識別碼）
 - 布建Commerce和AEM Assets環境的IMS組織ID
 
-如需詳細指示，請觀看[Commerce Services Connector設定影片](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)，請參閱[Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)檔案。
+如需詳細指示，請觀看[Commerce Services Connector設定影片](https://experienceleague.adobe.com/zh-hant/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)，請參閱[Commerce Services Connector](https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/integration-services/saas#organizationid)檔案。
 
 儲存組態時，系統會為您的環境產生SaaS專案和資料庫ID。 若要在Adobe Commerce和AEM Assets之間啟用資產同步，需使用這些值。
 

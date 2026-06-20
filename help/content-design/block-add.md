@@ -2,7 +2,7 @@
 title: 新增內容區塊
 description: 建立可在任何頁面或其他區塊中重複使用的自訂內容區塊。
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/9ToI71n7HPsSKQWgldcHXJQsfEcQOPU-76BXCYMrKdY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

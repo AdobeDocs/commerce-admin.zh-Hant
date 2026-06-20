@@ -55,7 +55,7 @@ Adobe Commerce和Adobe Experience Manager (AEM)皆提供內建功能，可簡化
 
 對於Adobe Commerce商家而言，遠端儲存模組提供簡化的方式，可從Commerce匯出媒體檔案，並將其匯入至AEM Assets。 此模組可讓您在AWS S3等遠端儲存服務上儲存和管理媒體檔案，讓移轉程式更有效率。 若要設定Commerce執行個體的遠端儲存空間，請參閱&#x200B;*Commerce設定指南*&#x200B;中的[設定遠端儲存空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3)。
 
-如果您將媒體檔案儲存在Adobe Commerce外部，請直接將它們上傳到AEM as a Cloud Service支援的[資料來源](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites)之一。
+如果您將媒體檔案儲存在Adobe Commerce外部，請直接將它們上傳到AEM as a Cloud Service支援的[資料來源](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites)之一。
 
 ### 步驟2：建立中繼資料對應的CSV檔案
 
@@ -121,6 +121,6 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 
 >[!MORELIKETHIS]
 >
->[大量匯入工具影片示範](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
->[秘訣、最佳實務和限制](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[使用API上傳或內嵌資產](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[大量匯入工具影片示範](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[秘訣、最佳實務和限制](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+>[使用API上傳或內嵌資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)

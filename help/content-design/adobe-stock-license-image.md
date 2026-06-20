@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **必要條件**
 
-必須安裝並設定[Adobe Stock整合](./adobe-stock.md)，才能使用Adobe Stock授權功能。 授權[Adobe Stock](https://stock.adobe.com)影像需要付費Adobe Stock計畫和[Adobe帳戶](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)。
+必須安裝並設定[Adobe Stock整合](./adobe-stock.md)，才能使用Adobe Stock授權功能。 授權[Adobe Stock](https://stock.adobe.com)影像需要付費Adobe Stock計畫和[Adobe帳戶](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)。
 
 >[!ENDSHADEBOX]
 

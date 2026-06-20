@@ -2,7 +2,7 @@
 title: 建立和管理Widget
 description: 瞭解如何建立及管理Widget，藉以自動更新您商店的內容。
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/f5cIxzZeOxfvqJbVLFPfCmB285I0ovGEbNqAWOFCw4s
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
