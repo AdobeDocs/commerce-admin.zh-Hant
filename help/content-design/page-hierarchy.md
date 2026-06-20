@@ -2,7 +2,7 @@
 title: 頁面階層
 description: 瞭解頁面階層系統如何讓您組織內容頁面，以及新增分頁、導覽和功能表。
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

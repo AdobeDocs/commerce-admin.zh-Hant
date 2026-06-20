@@ -39,7 +39,7 @@ ht-degree: 0%
 
 當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁爬蟲包含指示，以避免為網站編制索引。 在啟動之前，您可以變更指示，允許網站編制索引。
 
-如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
+如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant)。
 
 ![網站地圖格線](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 

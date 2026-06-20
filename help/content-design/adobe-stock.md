@@ -42,7 +42,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 授權Adobe Stock影像需要：
 
-- [Adobe帳戶](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe帳戶](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)
 - 與帳戶相關聯的付費[Adobe Stock](https://stock.adobe.com)計畫
 
 ## 整合[!DNL Commerce]與Adobe Stock
