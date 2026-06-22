@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 259
 ht-degree: 0%
@@ -57,3 +57,4 @@ ht-degree: 0%
 | [!UICONTROL Actions] | 針對指派的來源，按一下&#x200B;**[!UICONTROL Unassign]**，使該來源無法用於產品。 針對未指派的來源，按一下&#x200B;**[!UICONTROL Assign Sources]**&#x200B;讓來源可用於產品。 如需[!UICONTROL Assign Sources]選項的詳細資訊，請參閱[為每個產品指派來源](../inventory-management/sources-assign-per-product.md)。 |
 
 {style="table-layout:auto"}
+

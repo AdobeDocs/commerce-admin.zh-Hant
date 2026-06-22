@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ ht-degree: 0%
 若要控制查詢中搜尋結果應符合的傳回字詞數目下限，請指定&#x200B;**[!UICONTROL Minimum Terms to Match]**&#x200B;的值。 指定此值可確保購物者的最佳結果相關性。 如需接受的值清單，請參閱OpenSearch檔案中的[minimum_should_match引數](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)。
 
 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
+

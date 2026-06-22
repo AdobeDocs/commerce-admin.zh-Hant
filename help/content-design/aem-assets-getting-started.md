@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 298
 ht-degree: 3%
@@ -60,3 +60,4 @@ ht-degree: 3%
 1. [安裝AEM Assets套件](aem-assets-configure-aem.md)。
 1. [安裝Adobe Commerce套件](aem-assets-configure-aem.md)。
 1. [設定整合資產](aem-assets-setup-synchronization.md)。
+

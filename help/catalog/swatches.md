@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1175
 ht-degree: 0%
@@ -186,3 +186,4 @@ ht-degree: 0%
 1. 影像、價格和數量的設定完成後，請按一下右上角的&#x200B;**[!UICONTROL Next]**。
 
    目前的產品變數會出現在設定區段的底部。 如果您對組態感到滿意，請按一下&#x200B;**[!UICONTROL Generate Products]**。
+
