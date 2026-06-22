@@ -3,11 +3,19 @@ title: 用於Adobe Commerce設定的[!DNL AR Viewer]
 description: 瞭解如何使用產品清單的 [!DNL AR Viewer] 擴充功能來管理3D模型資產。
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 313
@@ -39,7 +47,7 @@ ht-degree: 0%
    >
    >新產品3D模型在&#x200B;_所有_&#x200B;市集檢視中&#x200B;_一律_&#x200B;上傳並顯示，即使`All Store Views`範圍未用於上傳。 <br/><br/>若要從特定商店檢視隱藏任何產品3D模型，您必須切換到該商店檢視，選取3D模型的「**[!UICONTROL Hide from Product Page]**」核取方塊，然後按一下「**[!UICONTROL Save]**」。
 
-1. 向下捲動並展開&#x200B;_[!UICONTROL Product 3D Model]_區段。
+1. 向下捲動並展開&#x200B;_[!UICONTROL Product 3D Model]_&#x200B;區段。
 
    ![功能表快顯功能表](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 
