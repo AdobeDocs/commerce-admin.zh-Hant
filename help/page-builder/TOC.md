@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 nudge: true
 source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
 workflow-type: tm+mt
@@ -48,4 +48,4 @@ ht-degree: 6%
    - [產品](products.md)
    - [產品推薦](recommendations.md)
 - [範本](templates.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)

@@ -80,4 +80,4 @@ ht-degree: 4%
    - [工作階段管理](security-session-management.md)
    - [瀏覽器功能偵測](security-browser-capabilities-detection.md)
    - [安全性問題報告](security-issue-reporting.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
