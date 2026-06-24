@@ -24,4 +24,4 @@ ht-degree: 12%
 - [客戶管理](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=zh-Hant)
 - [商店和購買體驗](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=zh-Hant)
 - [管理系統](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=zh-Hant)
-- [設定參考指南](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
+- [設定參考指南](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=zh-Hant)
