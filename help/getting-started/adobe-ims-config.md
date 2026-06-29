@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: 938
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe商業產品之管理員使用者的Adobe Commerce商家。這是選用專案，會根據執行個體來啟用。啟用時，只有管理員使用者工作流程會受到影響。 
+這項整合可支援具有Adobe ID且想要簡化登入Commerce和Adobe商業產品之管理員使用者的Adobe Commerce商家。 這是選用專案，會根據執行個體來啟用。 啟用時，只有管理員使用者工作流程會受到影響。
 
 >[!IMPORTANT]
 >
@@ -85,8 +85,8 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 1. 在新建立的專案頁面上按一下&#x200B;**[!UICONTROL Add API]**。
 1. 選取&#x200B;**[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**。
 1. 選取&#x200B;**[!UICONTROL Oauth 2.0 Web]**。
-1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<commerce_base_url>/`
-1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://<commerce_base_url>/.*`
+1. 指定&#x200B;**[!UICONTROL Redirect URI]**： `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
+1. 指定&#x200B;**[!UICONTROL Redirect URI pattern]**： `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
 
    藉由在點前面加上`\\`來逸出主機名稱中的任何點。 在URL結尾新增萬用字元可支援Adobe Commerce管理員秘密金鑰。
 
