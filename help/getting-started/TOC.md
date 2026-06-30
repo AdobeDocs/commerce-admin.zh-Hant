@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 5254ed25a9cc975bb3acd0b4c2d23f1badfb8558
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
    + [保護您的帳戶](commerce-account-secure.md)
    + [共用您的帳戶](commerce-account-share.md)
    + [轉移帳戶](commerce-account-transfer.md)
+   + [更新系統管理員存取權](commerce-system-admin-account.md)
 + 網站合規性 {#compliance}
    + Adobe Commerce的HIPAA整備程度{#hipaa-ready-service}
       + [概觀](hipaa/overview.md)
