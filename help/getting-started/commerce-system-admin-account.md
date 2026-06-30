@@ -27,7 +27,7 @@ ht-degree: 0%
 
 只有目前的系統管理員可以為Adobe Commerce以外的Adobe產品和服務指派、變更或移除Adobe Admin Console中的系統管理員角色。
 
-若要為其他Adobe產品和服務（包括App Builder）指派新的系統管理員或變更現有管理員角色，現有管理員必須登入Adobe Admin Console並更新組織的管理角色。 請參閱[系統管理員角色](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)。
+若要為其他Adobe產品和服務（包括App Builder）指派新的系統管理員或變更現有管理員角色，現有管理員必須登入Adobe Admin Console並更新組織的管理角色。 請參閱[系統管理員角色](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)。
 
 ## 指派新的系統管理員
 
