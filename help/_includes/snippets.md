@@ -1,7 +1,7 @@
 ---
 title: 代碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,52 +13,52 @@ ht-degree: 0%
 ## 僅供檢視的功能 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce功能" src="../assets/adobe-logo.svg" width="20" height="20" /> 這是僅於Adobe Commerce中提供的專屬功能，無法在Magento Open Source中使用。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
+<tr><td><img alt="Adobe Commerce功能" src="/help/assets/adobe-logo.svg" width="20" height="20" /> 這是僅於Adobe Commerce中提供的專屬功能，無法在Magento Open Source中使用。 （<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
 ## 僅限B2B功能 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B功能" src="../assets/b2b.svg" width="20" height="20" /> 只有<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant">Adobe Commerce B2B</a>才提供專屬功能</td></tr>
+<tr><td><img alt="Adobe Commerce B2B功能" src="/help/assets/b2b.svg" width="20" height="20" /> 只有<a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant">Adobe Commerce B2B</a>才提供專屬功能</td></tr>
 </table>
 
-## CE only feature {#ce-feature}
+## 僅限CE的功能 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source feature" src="../assets/open-source.svg" width="20" height="20" /> Alternative method is required for Magento Open Source (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">Learn more</a>)</td></tr>
+<tr><td><img alt="Magento Open Source功能" src="/help/assets/open-source.svg" width="20" height="20" /> Magento Open Source需要替代方法（<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant#product-editions">深入瞭解</a>）</td></tr>
 </table>
 
-## IMS admin authentication note {#ims-admin-note}
+## IMS管理驗證注意事項 {#ims-admin-note}
 
 >[!NOTE]
 >
->Adobe Commerce merchants who have an Adobe ID and want a streamlined login to Adobe Commerce and Adobe Business products can integrate Commerce Admin authentication with the Adobe IMS authentication workflow. After this integration is enabled for your Commerce store, each Admin user must use their Adobe credentials — not their Commerce account credentials — to log in. See [Integrating Adobe Commerce with Adobe IMS overview](/help/getting-started/adobe-ims-integration-overview.md).
+>擁有Adobe ID且想要簡化登入Adobe Commerce和Adobe業務產品的Adobe Commerce商戶可整合Commerce管理員驗證與Adobe IMS驗證工作流程。 為您的Commerce商店啟用此整合後，每個管理員使用者都必須使用其Adobe憑證（而非其Commerce帳戶憑證）才能登入。 請參閱[整合Adobe Commerce與Adobe IMS概述](/help/getting-started/adobe-ims-integration-overview.md)。
 
-## GTag APIs note {#gtag-api-note}
-
->[!NOTE]
->
->Starting with the 2.4.5 release, the Google services integration is updated to support use of the GTag APIs. GTag is a unified mechanism for integration with Google functionality for web pages and supports the newest capabilities and opportunities for tracking and managing content through Google Services.
-
-## URL rewrite automatic skip note {#url-rewrite-skip}
+## GTag API注意事項 {#gtag-api-note}
 
 >[!NOTE]
 >
->When automatic redirects are enabled and you save a category, all product and category rewrites are generated in real time and stored in rewrite tables by default. This process could result in significant performance issues for categories with many assigned products. The solution is to change this default and skip the generation of category/products URL rewrites of products for category save. In this case, product rewrites are generated only for the canonical product URL. See [Automatic product redirects](/help/merchandising-promotions/url-redirect-product-automatic.md) for more information.
+>自2.4.5版開始，Google服務整合已更新，以支援使用GTag API。 GTag是整合網頁之Google功能的統一機制，可支援透過Google服務追蹤及管理內容的最新功能與機會。
 
-## URL rewrite parameters note {#url-rewrite-params}
+## URL重寫自動略過備註 {#url-rewrite-skip}
+
+>[!NOTE]
+>
+>當啟用自動重新導向且儲存類別時，所有產品和類別重寫都會即時產生，並依預設儲存在重寫表格中。 此程式可能會導致許多指派產品的類別出現重大效能問題。 解決方案是變更此預設值，並跳過產生類別/產品URL重寫產品以儲存類別。 在這種情況下，只會針對標準產品URL產生產品重寫。 如需詳細資訊，請參閱[自動產品重新導向](/help/merchandising-promotions/url-redirect-product-automatic.md)。
+
+## URL重寫引數注意 {#url-rewrite-params}
 
 >[!IMPORTANT]
 >
->In the process of redirection, all GET parameters specified in the URL are removed for security reasons.
+>在重新導向過程中，基於安全性理由，會移除URL中指定的所有GET引數。
 
-## New price rule {#new-price-rule}
+## 新價格規則 {#new-price-rule}
 
 >[!NOTE]
 >
->Price rules are automatically processed with other system rules. Processing frequency depends on the [cron configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant). When you create a price rule, allow enough time for it to get into the system. WHen you are sure it is in the system, test the rule.
+>價格規則會與其他系統規則一起自動處理。 處理頻率取決於[cron組態](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant)。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 確定已在系統中後，請測試規則。
 
-## Configuration settings {#config}
+## 組態設定 {#config}
 
 若要存取商店組態設定，請從&#x200B;_管理員_&#x200B;側邊欄中選擇&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 | 檔案資源 | 說明 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4管理員使用手冊](../landing/home.md) | 在Admin中工作的商戶適用的檔案和資源。 |
+| [Adobe Commerce 2.4管理員使用手冊](/help/landing/home.md) | 在Admin中工作的商戶適用的檔案和資源。 |
 | [Adobe Commerce服務檔案](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=zh-Hant) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
 | [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=zh-Hant) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
 | [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=zh-Hant) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
@@ -95,14 +95,14 @@ ht-degree: 0%
 - [!UICONTROL Enable for Forgot Password]
 - [!UICONTROL Enable for Create New Customer Account]
 - [!UICONTROL Enable for Edit Customer Account]
-- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Create New Company Account] （僅適用於Adobe Commerce B2B）
 - [!UICONTROL Enable for Contact Us]
 - [!UICONTROL Enable for Product Review]
 - [!UICONTROL Enable for Newsletter Subscription]
-- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Gift Card] （僅限Adobe Commerce）
 - [!UICONTROL Enable for Invitation Create Account]
-- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+- [!UICONTROL Enable for Send To Friend] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 - [!UICONTROL Enable for Checkout/Placing Order]
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
-- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+- [!UICONTROL Enable for PayPal PayflowPro payment form] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
