@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 5%
 | [目錄搜尋](search.md) | 檢閱客戶可用於在店面尋找產品的工具，並根據您的產品目錄設定搜尋體驗。 |
 | [類別](categories.md) | 以最佳化店面購物者體驗的方式，建立目錄的基本類別結構。 |
 | [產品](products-list.md) | 從簡單到複雜，使用多個選項、色票、可自訂套件組合來建立產品。 建立可下載的產品，以及適用於服務和其他無形專案的虛擬產品。 |
+| [目錄擴充](catalog-enrichment.md) | 檢閱並將AI建議的改進套用至產品名稱和說明，以便您的目錄在LLM和AI協助的探索中準確呈現。 |
 | [產品屬性](product-attributes.md) | 使用產品選項的輸入控制項建立屬性，並在產品頁面上提供其他資訊。 |
 
 {style="table-layout:auto"}

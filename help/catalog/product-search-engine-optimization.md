@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進
 產品的&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;設定指定了搜尋引擎用來索引產品的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎仍會繼續使用這些關鍵字。 目前的[SEO最佳作法](../merchandising-promotions/seo-overview.md)是在中繼標題和中繼描述中併入高值關鍵字。
 
 每個中繼資料欄位的預設值可根據設定中指定的值自動產生。 每個欄位都包含一個預留位置，並以實際值取代。 如需詳細資訊，請參閱[產品欄位自動產生](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)。
+
+>[!NOTE]
+>
+>目錄擴充有助於改善LLM和AI輔助探索的產品名稱和說明。 它不會取代SEO中繼欄位。 如需詳細資訊，請參閱[目錄擴充](catalog-enrichment.md)。
 
 ## 填妥SEO欄位
 

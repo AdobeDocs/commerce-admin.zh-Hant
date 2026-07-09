@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 產品工作區
 
 所有產品型別的產品工作區基本上相同，不過欄位選擇會根據使用的屬性集而改變。 產品屬性位於表單頂端，其後是產品資訊的可展開區段。 第一次儲存新產品時，_[!UICONTROL Store View]_&#x200B;選擇器會出現在表單的左上方。
+
+>[!NOTE]
+>
+>套用的目錄擴充更新會出現在表單頂端的產品名稱和&#x200B;**[!UICONTROL Content]**&#x200B;區段中。 如需詳細資訊，請參閱[目錄擴充](catalog-enrichment.md)。
 
 ![產品工作區](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
