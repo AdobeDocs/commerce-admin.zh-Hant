@@ -5,26 +5,15 @@ seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 TQID: https://experienceleague.adobe.com/HJiD3cpDixdbHlBXmMhkHpEd40eyjEfNBu3MzEDhBL0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +33,7 @@ ht-degree: 5%
 | [目錄搜尋](search.md) | 檢閱客戶可用於在店面尋找產品的工具，並根據您的產品目錄設定搜尋體驗。 |
 | [類別](categories.md) | 以最佳化店面購物者體驗的方式，建立目錄的基本類別結構。 |
 | [產品](products-list.md) | 從簡單到複雜，使用多個選項、色票、可自訂套件組合來建立產品。 建立可下載的產品，以及適用於服務和其他無形專案的虛擬產品。 |
+| [目錄擴充](catalog-enrichment.md) | 檢閱並將AI建議的改進套用至產品名稱和說明，以便您的目錄在LLM和AI協助的探索中準確呈現。 |
 | [產品屬性](product-attributes.md) | 使用產品選項的輸入控制項建立屬性，並在產品頁面上提供其他資訊。 |
 
 {style="table-layout:auto"}
