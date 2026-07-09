@@ -4,7 +4,7 @@ description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目錄擴充功能由[!DNL Adobe LLM Optimizer]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理LLM Optimizer整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[LLM Optimizer產品檔案](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)。
+>目錄擴充功能由[!DNL Adobe LLM Optimizer]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理LLM Optimizer整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[LLM Optimizer產品檔案](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home)。
 
 ## 運作方式 {#how-it-works}
 
@@ -63,8 +63,8 @@ ht-degree: 0%
 
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
-- [IMS已設定)](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
-- 您有[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- [IMS已設定)](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
+- 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 
 > 如果您沒有IMS組織，請聯絡您的Adobe客戶團隊以布建一個。
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;現在可在您的Commerce執行個體中使用。
 
