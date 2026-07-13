@@ -4,24 +4,15 @@ description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 389b8a74eca24e33e2421920ad9d4231ecd9b001
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1649
 ht-degree: 0%
 
 ---
@@ -32,11 +23,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目錄擴充功能由[!DNL Adobe LLM Optimizer]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理LLM Optimizer整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[LLM Optimizer產品檔案](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home)。
+>目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理LLM Optimizer整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[LLM Optimizer產品檔案](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)。
 
 ## 運作方式 {#how-it-works}
 
-您的[!DNL Adobe Commerce]產品目錄是產品資料的記錄系統：名稱、說明、屬性、定價及詳細目錄。 Adobe Commerce Storefront MCP （模型內容通訊協定）會將即時目錄資料連線到Adobe AI體驗。 目錄代理程式會從此介面使用該介面，讓[!DNL Adobe LLM Optimizer]可以識別產品名稱和完整說明中的間隙、提出改進建議，並將已核准的變更寫回Commerce，以便您可以在Commerce管理員中檢閱這些變更。
+您的[!DNL Adobe Commerce]產品目錄是產品資料的記錄系統：名稱、說明、屬性、定價及詳細目錄。[!DNL Adobe Commerce] Storefront MCP （模型內容通訊協定）將即時目錄資料連線到Adobe AI體驗。 從那裡，目錄代理程式可以識別產品名稱和完整說明中的間隙、提出改進建議，並將已核准的變更寫回Commerce，以便您可以在Commerce管理員中檢閱。
 
 透過目錄擴充，您可以：
 
@@ -63,8 +54,8 @@ ht-degree: 0%
 
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
-- [IMS已設定)](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
-- 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- [IMS已設定](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
+- 您有[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 
 > 如果您沒有IMS組織，請聯絡您的Adobe客戶團隊以布建一個。
 
@@ -81,7 +72,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;現在可在您的Commerce執行個體中使用。
 
@@ -93,7 +84,7 @@ ht-degree: 0%
 
 ### 設定目錄擴充
 
-在「**[!UICONTROL Settings]**」標籤上設定目錄擴充，讓Adobe LLM Optimizer可以連線至您的[!DNL Adobe Commerce]環境，並在Commerce管理員中呈現建議。
+在「**[!UICONTROL Settings]**」索引標籤上設定目錄擴充，讓[!DNL Commerce Catalog Agent]可以連線至您的[!DNL Adobe Commerce]環境，並在Commerce管理員中顯示建議。
 
 1. 在Admin中，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**。
 1. 在頁面頂端的&#x200B;**[!UICONTROL Scope]**&#x200B;清單中，選取您要設定的商店檢視，或保留&#x200B;**[!UICONTROL All Store Views]**&#x200B;以跨商店檢視管理設定。
@@ -107,14 +98,13 @@ ht-degree: 0%
 1. 輸入存放區檢視所需的連線詳細資料。
 
    - **[!UICONTROL Store View URL]**：對應至商店檢視的URL （例如，`https://brand.example.com/fr/`）。
-   - **[!UICONTROL Environment ID]**：連線存取之Adobe Commerce環境的唯一識別碼。
+   - **[!UICONTROL Environment ID]**：連線存取之[!DNL Adobe Commerce]環境的唯一識別碼。
    - **[!UICONTROL Website Code]**、**[!UICONTROL Store Code]**&#x200B;和&#x200B;**[!UICONTROL Store View Code]**： Commerce網站的網站、商店和商店檢視代碼。 這些值必須符合您Commerce管理員中的程式碼。
 
 1. 可選：如果您的環境需要&#x200B;**[!UICONTROL Host Name]**&#x200B;和&#x200B;**[!UICONTROL API Key]**，請輸入。
 
-   - **[!UICONTROL Host Name]**：您的Adobe Commerce執行個體的主機名稱。
-   - **[!UICONTROL Adobe Commerce Endpoint]**：未使用此欄位。
-   - **[!UICONTROL API Key]**：用來安全存取Adobe Commerce API的驗證金鑰。 如果您需要在其他位置複製金鑰，請按一下欄位旁的&#x200B;**[!UICONTROL Copy]**。
+   - **[!UICONTROL Host Name]**： [!DNL Adobe Commerce]執行個體的主機名稱。
+   - **[!UICONTROL API Key]**：用來安全存取[!DNL Adobe Commerce] API的驗證金鑰。 如果您需要在其他位置複製金鑰，請按一下欄位旁的&#x200B;**[!UICONTROL Copy]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -129,13 +119,12 @@ ht-degree: 0%
 | 欄位 | 必填 | 說明 |
 | --- | --- | --- |
 | 存放區檢視URL | 是 | 對應至商店檢視的URL （例如，`https://brand.example.com/fr/`）。 |
-| 環境ID | 是 | 連線存取之Adobe Commerce環境的唯一識別碼。 |
+| 環境ID | 是 | 連線存取之[!DNL Adobe Commerce]環境的唯一識別碼。 |
 | 網站程式碼 | 是 | Commerce網站的網站程式碼。 |
 | 存放區代碼 | 是 | Commerce網站的商店代碼。 |
 | 存放區檢視代碼 | 是 | Commerce網站的商店檢視。 |
-| 主機名稱 | 否 | 您的Adobe Commerce執行個體的主機名稱。 |
-| Adobe Commerce端點 | 否 | 此欄位未使用。 |
-| API金鑰 | 否 | 用來安全存取Adobe Commerce API的驗證金鑰。 將其視為任何生產認證。 |
+| 主機名稱 | 否 | 您的[!DNL Adobe Commerce]執行個體的主機名稱。 |
+| API金鑰 | 否 | 用來安全存取[!DNL Adobe Commerce] API的驗證金鑰。 將其視為任何生產認證。 |
 
 ### 檢閱並套用目錄擴充 {#review-and-apply}
 
@@ -183,7 +172,7 @@ ht-degree: 0%
 
    ![擴充的產品名稱](./assets/enriched-product-name.png)
 
-1. 可選：如果您要保留手動輸入的名稱，請選取&#x200B;**[!UICONTROL Override LLM Optimizer provided Product Name]**。
+1. 可選：如果您要保留手動輸入的名稱，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
    手動覆寫會影響建議與目錄保持同步的方式。 如需詳細資訊，請參閱[管理員中的手動覆寫](#manual-override-in-the-admin)。
 
@@ -193,7 +182,7 @@ ht-degree: 0%
 
    ![豐富產品說明](./assets/enrich-product-description.png)
 
-1. 可選：如果您要保留手動輸入的描述，請選取&#x200B;**[!UICONTROL Override LLM Optimizer provided Description]**。
+1. 可選：如果您要保留手動輸入的描述，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 
 手動覆寫會影響建議與目錄保持同步的方式。 如需詳細資訊，請參閱[管理員中的手動覆寫](#manual-override-in-the-admin)。
 
