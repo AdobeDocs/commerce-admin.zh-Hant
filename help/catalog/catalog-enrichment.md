@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ ht-degree: 0%
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
 - [IMS已設定](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
 - 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- 貴組織已針對基礎AI服務簽署GenAI附加條款，或明確選擇退出。
 
-> 如果您沒有IMS組織，請聯絡您的Adobe客戶團隊以布建一個。
+>[!NOTE]
+>
+>在設定過程中，Commerce會檢查貴組織是否已簽署涵蓋目錄擴充背後之AI服務的GenAI附加條款。 如果您尚未簽署騎士或選擇退出，系統會提示您簽署或更新騎士，然後才能使用目錄擴充。
 
 ## 啟用目錄擴充 {#enable-catalog-enrichment}
 
