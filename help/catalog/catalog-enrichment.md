@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Store View URL]**：對應至商店檢視的URL （例如，`https://brand.example.com/fr/`）。
    - **[!UICONTROL Environment ID]**：連線存取之[!DNL Adobe Commerce]環境的唯一識別碼。
    - **[!UICONTROL Website Code]**、**[!UICONTROL Store Code]**&#x200B;和&#x200B;**[!UICONTROL Store View Code]**： Commerce網站的網站、商店和商店檢視代碼。 這些值必須符合您Commerce管理員中的程式碼。
-
-1. 可選：如果您的環境需要&#x200B;**[!UICONTROL Host Name]**&#x200B;和&#x200B;**[!UICONTROL API Key]**，請輸入。
-
    - **[!UICONTROL Host Name]**： [!DNL Adobe Commerce]執行個體的主機名稱。
-   - **[!UICONTROL API Key]**：用來安全存取[!DNL Adobe Commerce] API的驗證金鑰。 如果您需要在其他位置複製金鑰，請按一下欄位旁的&#x200B;**[!UICONTROL Copy]**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -135,8 +131,7 @@ ht-degree: 0%
 | 網站程式碼 | 是 | Commerce網站的網站程式碼。 |
 | 存放區代碼 | 是 | Commerce網站的商店代碼。 |
 | 存放區檢視代碼 | 是 | Commerce網站的商店檢視。 |
-| 主機名稱 | 否 | 您的[!DNL Adobe Commerce]執行個體的主機名稱。 |
-| API金鑰 | 否 | 用來安全存取[!DNL Adobe Commerce] API的驗證金鑰。 將其視為任何生產認證。 |
+| 主機名稱 | 是 | 您的[!DNL Adobe Commerce]執行個體的主機名稱。 |
 
 ### 檢閱並套用目錄擴充 {#review-and-apply}
 
