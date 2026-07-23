@@ -3,7 +3,6 @@ title: 目錄擴充
 description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI協助的探索，檢閱並將AI建議的改進套用至產品名稱和詳細說明。
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -19,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -240,4 +239,37 @@ ht-degree: 0%
 - 在大量套用標題或說明之前，請先與SEO和品牌團隊協調。
 - 主要目錄匯入後重新同步或重新分析，讓建議反映目前的目錄狀態。
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## 範例
+
+下列範例說明目錄擴充如何將原始技術屬性轉換為以購物者為中心的敘述性產品副本，供LLM用於回答購物問題。
+
+### 範例：具有技術屬性的咖啡產品
+
+咖啡retailer的目錄只儲存中燒咖啡豆產品的技術規格：豆類、產地、加工方法、燒烤等級及高度範圍。 這些欄位會描述產品，但不會將其價值傳達給購物者，因此AI助理在回答「什麼咖啡有流暢、低酸的味道？」這類問題時幾乎無法工作。
+
+目錄擴充會透過技術屬性和原因的互動方式來推斷購物者相關特性：
+
+| 技術屬性 | 推斷的特性 | 推理 |
+| --- | --- | --- |
+| 蜂蜜加工業，Medium烤肉 | 低酸度 | 蜂蜜加工期間留在豆子上的水果粘液會抑制酸度，而中燒烤會分解殘留的酸性化合物。 |
+| 蜂蜜加工業，阿拉比卡，Medium烤肉 | 榛子味 | 來自粘膠的水果糖與阿拉伯的天然堅果音相結合，在中等烘烤時放大。 |
+| 蜂蜜加工業，阿拉比卡 | 豐富奶油口感 | 乾燥期間從粘液吸收的油會增加粘度和身體。 |
+| 蜂蜜加工工藝，海拔900-1200米 | 焦糖底色 | 高海拔的豆子密度更高，糖分更複雜，而且經過蜂蜜加工而加深。 |
+
+目錄擴充會將這些推斷的特徵套用至產品復本：
+
+- **Before**： 「Medium烤咖啡豆 — 阿拉比卡、巴西米納斯吉拉斯、蜂蜜加工、900-1200米」
+- **之後**： 「巴西Minas Gerais種植於900-1200米之間的阿拉比卡豆類，經過蜂蜜加工及中等烘烤，呈現天然甜潤的口感，具有獨特的榛子字型、焦糖底色和低酸度。 始終如一、平易近人的特製咖啡，傾倒咖啡體驗最佳。」
+
+更新的名稱和說明會直接儲存到Commerce目錄中，因此店面、LLM摘要和讀取這些欄位的其他管道都會反映相同的擴充副本。
+
+### 範例：模組化傢俱組態
+
+傢俱retailer銷售模組化組合沙發，其中產品說明僅列出組態程式碼和網狀架構名稱，例如`6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`。 對於回頭的客戶來說，這種速記是可以理解的，但提供給AI助理一些產品如何運作或是什麼使其耐用或舒適的上下文。
+
+目錄擴充功能將組態和網狀架構屬性擴充為敘述性說明，說明每個元件的功用以及對購物者而言重要的原因：
+
+- **Before**：「6個標準座椅+ 6個藍寶石海軍線天鵝絨標準側面」
+- **After**：「此組態包含6組標準座位插入組與6組標準側邊插入組，可互換作為臂或背使用，構成您配置的模組建置組塊。 每張座椅均採用標準泡沫塑膠，並搭配三層高密度塑膠層，既可保持提升度，又可避免下垂。 藍寶石海軍藍絲絨護套既耐用，又豪華，其質感的護絲可為您帶來細膩的光澤和柔軟的毛絨感。 封面是手工縫製的，外觀精準、量身打造，而且可更換機器，因此您的部分可以隨您的空間而改變。」
+
+由於豐富型說明會回寫至Commerce目錄，因此AI機器人可用於抓取產品詳細資料頁面以及任何使用產品目錄資料的下游管道或摘要，而不會變更購物者在該頁面上看到的版面配置或設計。
