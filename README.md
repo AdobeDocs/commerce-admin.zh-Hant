@@ -1,7 +1,7 @@
 ---
-source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
+source-git-commit: 3f4cbfe6fe2ff878022edf80e1781ac5aded0c86
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 ### 鉤子會做什麼
 
-- 自動偵測分階段影像檔案(PNG、JPG、JPEG、GIF、SVG)
-- 執行`image_optim`以壓縮和最佳化影像
+- 自動偵測暫存的影像檔案(`.png`， `.jpeg`， `.jpg`， `.gif`， `.svg`)
+- 執行`image_optim`以壓縮和最佳化點陣影像(`.png`， `.jpeg`， `.jpg`， `.gif`)
 - 自動重新存放最佳化的影像
-- 確保所有認可的影像都已適當最佳化
+- 確保所有認可的點陣化影像都已適當最佳化
+- 根據大小限制檢查分段的SVG，如果從`help/`引用了過大的SVG，則中止認可（否則僅警告）
 
 ### 優點
 
@@ -43,13 +44,13 @@ ht-degree: 0%
 
 ## 關於您對Adobe內容的貢獻
 
-請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
+請參閱[Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 貢獻方式取決於您的身分和您要貢獻的變更型別：
 
 ### 微幅變更
 
-如果您要提出微幅更新，請瀏覽文章，然後按一下文章底部的意見區域，按一下&#x200B;**詳細的意見選項**，然後按一下&#x200B;**建議編輯**，即可前往GitHub的Markdown來源檔案。 使用GitHub UI進行更新。 如需詳細資訊，請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
+如果您要提出微幅更新，請瀏覽文章，然後按一下文章底部的意見區域，按一下&#x200B;**詳細的意見選項**，然後按一下&#x200B;**建議編輯**，即可前往GitHub的Markdown來源檔案。 使用GitHub UI進行更新。 如需詳細資訊，請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 您在本存放庫為檔案和程式碼範例提交的小幅更正或釐清均包含在Adobe使用條款中。
 
@@ -59,13 +60,13 @@ ht-degree: 0%
 
 ### 來自Adobe員工的重大變更
 
-若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://github.com/Adobe-Enterprise-Docs/commerce-admin.zh-Hant`的私人存放庫。
+若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`的私人存放庫。
 
 ## 工具與設定
 
 社群投稿人可以使用GitHub UI進行基本編輯或建立存放庫復本，以做出重大貢獻。
 
-如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 ## 如何使用Markdown將主題格式化
 
