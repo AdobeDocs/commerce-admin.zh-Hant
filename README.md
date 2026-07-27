@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 來自Adobe員工的重大變更
 
-若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`的私人存放庫。
+若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://github.com/Adobe-Enterprise-Docs/commerce-admin.zh-Hant`的私人存放庫。
 
 ## 工具與設定
 
