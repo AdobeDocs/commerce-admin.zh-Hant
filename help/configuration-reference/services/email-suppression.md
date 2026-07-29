@@ -2,7 +2,7 @@
 title: '[!UICONTROL Adobe Services] > [!UICONTROL Email Suppression]'
 description: 檢閱Commerce管理員的[!UICONTROL Adobe Services] &gt； [!UICONTROL Email Suppression]頁面上的組態設定。
 feature: Configuration, Communications
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
