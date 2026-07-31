@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: f398faf7cb1fef1b04926ac6e475fc7bfa67cb9d
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1533
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    在此範例中，使用`My Page Builder Attribute`作為標籤。
 
-1. 將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設為`Page Builder`。
+1. 將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設為`Page Builder`。 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
    建立自訂屬性時，您可以將最適合應用程式的編輯器指定為`Page Builder`或標準WYSIWYG `Text Editor`。
 

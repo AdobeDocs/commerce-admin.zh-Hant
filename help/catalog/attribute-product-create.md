@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ ht-degree: 0%
 
 1. 針對&#x200B;**[!UICONTROL Default Label]**，輸入識別屬性的標籤。
 
-1. 若要判斷資料輸入所使用的輸入控制項型別，請將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設定為下列其中一項：
+1. 將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設定為要用於資料輸入的[輸入控制項](attributes-input-types.md)的型別。
 
-   | 屬性 | 說明 |
-   |--- |--- |
-   | `Text Field` | 單行文字輸入欄位。 |
-   | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
-   | `Text Editor` | 屬性位置的完整文字編輯器。 |
-   | 日期 | 以[偏好的格式](attributes-input-types.md#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](attributes-input-types.md#date-and-time-options)。 |
-   | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
-   | `Dropdown` | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](product-create-configurable.md)的關鍵元件。 |
-   | `Multiple Select` | 顯示接受多個選取專案的下拉式值清單。 |
-   | `Price` | 此輸入型態可用來建立預先定義屬性以外的價格欄位：「價格」、「特殊價格」、「層級價格」及「成本」。 使用的貨幣由您的系統組態決定。 |
-   | `Media Image` | 將額外的影像與產品建立關聯，例如產品標誌、護理指示或食品標籤的成分。 將媒體影像屬性新增至產品的屬性集時，該屬性會變成額外的影像型別，連同基底、小型和縮圖。 媒體影像屬性可以從[店面媒體瀏覽器](catalog-images-video.md#storefront-media-browser)中排除。 |
-   | `Fixed Product Tax` | 可讓您根據地區設定的要求定義[FPT費率](../stores-purchase/fixed-product-tax.md)。 |
-   | `Visual Swatch` | 顯示描述可設定產品顏色、紋理或圖樣的色票。 [視覺色票](swatches.md)可以用十六進位色彩值填滿，或顯示代表選項色彩、材質、紋理或圖樣的上傳影像。 |
-   | `Text Swatch` | 經常用於尺寸的可設定產品選項的文字表示。 [文字色票](swatches.md#text-based-swatches)也可以包含十六進位色彩值。 |
-   | `Page Builder` | 屬性位置處的[頁面產生器](../page-builder/introduction.md)工作區功能齊全，可輕鬆將吸引人的內容新增至產品頁面。 |
-
-   {style="table-layout:auto"}
+   如果屬性用於[可設定的產品](product-create-configurable.md)，請選擇`Dropdown`。 然後，將&#x200B;**[!UICONTROL Required]**&#x200B;設定為`Yes`。
 
 1. 如果您想要在客戶購買產品之前要求選擇選項，請將&#x200B;**[!UICONTROL Values Required]**&#x200B;設為`Yes`。
 
@@ -88,7 +72,7 @@ ht-degree: 0%
 
    可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定。
 
-1. 設定&#x200B;**[!UICONTROL Scope]**&#x200B;以指示在您的[存放區階層](../getting-started/websites-stores-views.md)中可以使用屬性的位置。
+1. 若要指出在您的[存放區階層](../getting-started/websites-stores-views.md)中可以使用屬性的位置，請設定&#x200B;**[!UICONTROL Scope]**。
 
 1. 如果您要防止任何重複值專案，請將&#x200B;**[!UICONTROL Unique Value]**&#x200B;設為`Yes`。
 
@@ -134,7 +118,7 @@ ht-degree: 0%
 
 1. 如果屬性可供搜尋，請將&#x200B;**[!UICONTROL Use in Search]**&#x200B;設為`Yes`。
 
-   - 設定&#x200B;**[!UICONTROL Search Weight]**&#x200B;值以控制專案在搜尋結果中出現的位置： 1 （最低權重）到10 （最高權重）。
+   - 若要控制專案在搜尋結果中的顯示位置，請將&#x200B;**[!UICONTROL Search Weight]**&#x200B;值： 1 （最低權重）設定為10 （最高權重）。
 
    - 視需要設定&#x200B;**[!UICONTROL Visible in Advanced Search]**。 深入瞭解[進階搜尋](search.md#advanced-search)。
 
@@ -191,7 +175,7 @@ ht-degree: 0%
 
 刪除屬性時，該屬性會從任何相關的產品和屬性集中移除。 系統屬性是存放區核心功能的一部分，無法刪除。
 
-在刪除屬性之前，請確定您目錄中的任何產品目前都沒有使用屬性。 若要判斷屬性是否正在使用中，一個簡單的方法是使用[匯出](../systems/data-export.md)工具來檢查產品實體屬性的清單。 如果屬性未包含在清單中，則目錄中的任何產品都不會使用它。
+在刪除屬性之前，請確定目錄中目前沒有任何產品使用它。 若要判斷屬性是否正在使用中，一個簡單的方法是使用[匯出](../systems/data-export.md)工具來檢查產品實體屬性的清單。 如果清單不包含屬性，則目錄中的任何產品都不會使用它。
 
 **_若要刪除屬性:_**
 

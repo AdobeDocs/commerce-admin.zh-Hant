@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # 屬性輸入型別
 
-從「管理員」檢視時，屬性是您在建立產品時完成的欄位。 指定給屬性的輸入型別決定可輸入的資料型別，以及欄位或輸入控制項的格式。 從客戶的觀點來看，屬性會提供有關產品的資訊，而且是購買產品必須完成的選項和資料輸入欄位。
+從「管理員」檢視時，屬性是您在建立產品時完成的欄位。 指定給屬性的輸入型別決定可輸入的資料型別，以及欄位或輸入控制項的格式。 對於客戶而言，屬性會提供有關產品的資訊，而且是購買產品必須完成的選項和資料輸入欄位。
 
 ## 輸入型別
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Fixed Product Tax] | 可讓您根據地區設定的要求定義[FPT費率](../stores-purchase/fixed-product-tax.md)。 |
 | [!UICONTROL Visual Swatch] | 顯示描述可設定產品顏色、紋理或圖樣的色票。 [視覺色票](swatches.md)可以用十六進位色彩值填滿，或顯示代表選項色彩、材質、紋理或圖樣的上傳影像。 |
 | [!UICONTROL Text Swatch] | 經常用於尺寸的可設定產品選項的文字表示。 [文字色票](swatches.md)也可以包含十六進位色彩值。 |
-| [!UICONTROL Page Builder] | 屬性位置的[[!DNL Page Builder]](../page-builder/workspace.md)工作區可讓您輕鬆將吸引人的內容新增至產品頁面。 |
+| [!UICONTROL Page Builder]僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} | 屬性位置的[[!DNL Page Builder]](../page-builder/workspace.md)工作區可讓您輕鬆將吸引人的內容新增至產品頁面。 |
 
 {style="table-layout:auto"}
 

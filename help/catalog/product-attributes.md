@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 0%
@@ -61,7 +61,6 @@ ht-degree: 0%
 ## 未使用的屬性
 
 移除未使用的產品屬性，以獲得更好的建構和更快的索引。
-
 
 >[!NOTE]
 >
