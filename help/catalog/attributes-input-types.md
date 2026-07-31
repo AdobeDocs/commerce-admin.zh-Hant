@@ -4,11 +4,21 @@ description: 瞭解產品屬性可用的輸入型別，這些輸入型別決定�
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
 source-wordcount: 804
@@ -27,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | 單行文字輸入欄位。 |
 | [!UICONTROL Text Area] | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
 | [!UICONTROL Text Editor] | 屬性位置的完整文字編輯器。 |
-| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
+| [!UICONTROL Date] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](#date-and-time-options)。 |
 | [!UICONTROL Date and Time] | 以[偏好的格式](#date-and-time-options)和[時區](../getting-started/store-details.md#locale-options)顯示日期和時間值。 日期與時間可以手動輸入，或從行事曆中選取。 範例格式： MM/DD/YYYY HH:MM |
 | [!UICONTROL Yes/No] | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
 | 下拉式清單 | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |

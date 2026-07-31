@@ -4,11 +4,21 @@ description: 瞭解如何建立和移除產品屬性，這些屬性用於描述�
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
 source-wordcount: 922
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # 建立及刪除產品屬性
 
-您可以在處理產品時或從&#x200B;_[!UICONTROL Product Attributes]_頁面建立屬性。 下列步驟說明如何從_[!UICONTROL Stores]_&#x200B;功能表建立屬性。
+您可以在處理產品時或從&#x200B;_[!UICONTROL Product Attributes]_&#x200B;頁面建立屬性。 下列步驟說明如何從&#x200B;_[!UICONTROL Stores]_&#x200B;功能表建立屬性。
 
 ## 步驟1：說明基本屬性特性
 
@@ -38,7 +48,7 @@ ht-degree: 0%
 
 1. 針對[!UICONTROL Dropdown]和[!UICONTROL Multiple Select]輸入型別，請執行下列動作：
 
-   - 在&#x200B;_[!UICONTROL Manage Options]_底下，按一下&#x200B;**[!UICONTROL Add Option]**。
+   - 在&#x200B;_[!UICONTROL Manage Options]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Add Option]**。
 
    - 輸入您要在清單中顯示的第一個值。
 
@@ -60,7 +70,7 @@ ht-degree: 0%
 
    ![產品屬性 — 進階屬性](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_設定。
+   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定。
 
 1. 若要指出在您的[存放區階層](../getting-started/websites-stores-views.md)中可以使用屬性的位置，請設定&#x200B;**[!UICONTROL Scope]**。
 
@@ -81,8 +91,8 @@ ht-degree: 0%
 
 1. 若要將此屬性新增至[產品清單](products-list.md)，請將下列選項設定為`Yes`。
 
-   - **新增至資料行選項** — 在&#x200B;_[!UICONTROL Products]_清單中包含屬性作為資料行。
-   - **用於篩選選項** — 將篩選控制項新增至&#x200B;_[!UICONTROL Products]_清單中的欄標題。
+   - **新增至資料行選項** — 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中包含屬性作為資料行。
+   - **用於篩選選項** — 將篩選控制項新增至&#x200B;_[!UICONTROL Products]_&#x200B;清單中的欄標題。
 
 ## 步驟3：輸入欄位標籤
 
@@ -96,7 +106,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的[編輯選項，手動編輯標籤。
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的編輯選項，手動編輯標籤。
 
 ## 步驟4：說明店面屬性
 
@@ -104,7 +114,7 @@ ht-degree: 0%
 
    ![產品屬性 — 店面屬性](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_設定。
+   可用的選項取決於&#x200B;_[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;設定。
 
 1. 如果屬性可供搜尋，請將&#x200B;**[!UICONTROL Use in Search]**&#x200B;設為`Yes`。
 
