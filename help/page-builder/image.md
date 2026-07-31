@@ -4,22 +4,13 @@ description: 瞭解用來將JPG、GIF或PNG影像新增至 [!DNL Page Builder] �
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -74,37 +65,37 @@ ht-degree: 0%
    >
    >檔案大小上限為4 MB。 支援的檔案型別為JPG、GIF和PNG。
 
-   - _&#x200B;**上傳新影像**&#x200B;_：使用此方法從您的系統上傳新影像檔案。
+   - _**上傳新影像**_：使用此方法從您的系統上傳新影像檔案。
 
-      - 按一下&#x200B;**[!UICONTROL Upload Image]**。
+     - 按一下&#x200B;**[!UICONTROL Upload Image]**。
 
-      - 找出並選擇影像，將其新增至相簿和目標容器。
+     - 找出並選擇影像，將其新增至相簿和目標容器。
 
      或者，您也可以從系統拖曳影像檔案，並將它拖放到&#x200B;_攝影機_ （ ![攝影機圖示](./assets/pb-icon-camera.png){width="20"} ）圖示上。
 
-   - _&#x200B;**選取現有資產**&#x200B;_：使用此方法從媒體儲存/媒體集選取現有影像資產。
+   - _**選取現有資產**_：使用此方法從媒體儲存/媒體集選取現有影像資產。
 
-      - 按一下&#x200B;**[!UICONTROL Select from Gallery]**。
+     - 按一下&#x200B;**[!UICONTROL Select from Gallery]**。
 
-      - 使用樹狀結構導覽至影像。
+     - 使用樹狀結構導覽至影像。
 
-      - 按一下縮圖並按一下&#x200B;**[!UICONTROL Add Selected]**。
+     - 按一下縮圖並按一下&#x200B;**[!UICONTROL Add Selected]**。
 
-        ![正在新增選取的影像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![正在新增選取的影像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**搜尋並選取Adobe Stock影像**&#x200B;_：使用此方法從Adobe Stock尋找影像。
+   - _**搜尋並選取Adobe Stock影像**_：使用此方法從Adobe Stock尋找影像。
 
      >[!NOTE]
      >
      >此方法需要為您的管理員設定[Adobe Stock整合](../content-design/adobe-stock.md)。
 
-      - 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;並搜尋影像。
+     - 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;並搜尋影像。
 
-      - 將預覽或授權的影像儲存至相簿。
+     - 將預覽或授權的影像儲存至相簿。
 
-        如需使用Adobe Stock資產的詳細資訊，請參閱[使用Adobe Stock影像](../content-design/adobe-stock-manage.md)。
+       如需使用Adobe Stock資產的詳細資訊，請參閱[使用Adobe Stock影像](../content-design/adobe-stock-manage.md)。
 
-      - 選取相簿中的資產縮圖，然後按一下&#x200B;**[!UICONTROL Add Selected]**。
+     - 選取相簿中的資產縮圖，然後按一下&#x200B;**[!UICONTROL Add Selected]**。
 
    影像會顯示在預留位置的目標容器中。 不同於背景影像，您可以將影像移至目前容器內的不同位置或不同容器。
 
@@ -123,21 +114,21 @@ ht-degree: 0%
 
 1. 若要變更目前的&#x200B;**[!UICONTROL Image]**，請執行下列其中一個動作：
 
-   - _&#x200B;**上傳新影像**&#x200B;_：使用此方法從您的系統上傳新影像檔案。
+   - _**上傳新影像**_：使用此方法從您的系統上傳新影像檔案。
 
-      - 按一下&#x200B;**[!UICONTROL Upload Image]**。
+     - 按一下&#x200B;**[!UICONTROL Upload Image]**。
 
-      - 找出並選擇影像，將其新增至相簿和目標容器。
+     - 找出並選擇影像，將其新增至相簿和目標容器。
 
-   - _&#x200B;**選取現有資產**&#x200B;_：使用此方法從媒體儲存/媒體集選取現有影像資產。
+   - _**選取現有資產**_：使用此方法從媒體儲存/媒體集選取現有影像資產。
 
-      - 按一下&#x200B;**[!UICONTROL Select from Gallery]**。
+     - 按一下&#x200B;**[!UICONTROL Select from Gallery]**。
 
-      - 使用樹狀結構導覽至影像。
+     - 使用樹狀結構導覽至影像。
 
-      - 按一下縮圖並按一下&#x200B;**[!UICONTROL Add Selected]**。
+     - 按一下縮圖並按一下&#x200B;**[!UICONTROL Add Selected]**。
 
-        ![正在新增選取的影像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![正在新增選取的影像](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **搜尋並選取Adobe Stock影像**：使用此方法從Adobe Stock尋找影像。
 
@@ -145,13 +136,13 @@ ht-degree: 0%
      >
      >此方法需要為您的管理員設定[Adobe Stock整合](../content-design/adobe-stock.md)。
 
-      - 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;並搜尋影像。
+     - 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**&#x200B;並搜尋影像。
 
-      - 將預覽或授權的影像儲存至相簿。
+     - 將預覽或授權的影像儲存至相簿。
 
-        如需使用Adobe Stock資產的詳細資訊，請參閱[使用Adobe Stock影像](../content-design/adobe-stock-manage.md)。
+       如需使用Adobe Stock資產的詳細資訊，請參閱[使用Adobe Stock影像](../content-design/adobe-stock-manage.md)。
 
-      - 選取相簿中的資產縮圖，然後按一下&#x200B;**[!UICONTROL Add Selected]**。
+     - 選取相簿中的資產縮圖，然後按一下&#x200B;**[!UICONTROL Add Selected]**。
 
 1. 若要新增&#x200B;**[!UICONTROL Mobile Image]**，請使用上一步所述的相同方法，選取要在行動裝置上顯示的影像。
 

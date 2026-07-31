@@ -4,23 +4,13 @@ description: 瞭解在背景執行的Source選擇演演算法和預留系統，�
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+last-update: 2026-06-03
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2181
 ht-degree: 0%
@@ -103,7 +93,7 @@ SSA可擴充至協力廠商支援和自訂演演算法，以建議符合成本�
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}保留功能需要`inventory.reservations.updateSalabilityStatus`訊息佇列消費者持續執行。 若要檢查它是否正在執行，請使用`bin/magento queue:consumers:list`命令。 如果未列出訊息佇列取用者，請啟動它： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}保留功能需要`inventory.reservations.updateSalabilityStatus`訊息佇列消費者持續執行。 若要檢查它是否正在執行，請使用`bin/magento queue:consumers:list`命令。 如果未列出訊息佇列取用者，請啟動它： `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`。
 
 ### 訂單預訂
 
@@ -208,7 +198,7 @@ SSA可擴充至協力廠商支援和自訂演演算法，以建議符合成本�
 
 `inventory_cleanup_reservations` cron作業會執行SQL查詢以清除保留資料庫表格。 預設會每天午夜執行，但您可以設定時間和頻率。 cron作業會執行指令碼，查詢資料庫以尋找數量值總和為0的完整預留序列。 當對同一天（或其他設定時間）產生的指定產品的所有預留獲得補償時，cron工作會一次刪除所有預留量。
 
-`inventory_reservations_cleanup` cron工作與`inventory.reservations.cleanup`訊息佇列取用者不同。 在移除產品後，消費者會非同步刪除產品SKU的預留，而cron工作會清除整個預留表格。 當您啟用存放區組態中的&#x200B;[**與目錄**](../configuration-reference/catalog/inventory.md)&#x200B;庫存同步選項時，需要消費者。 請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant){target="_blank"}。
+`inventory_reservations_cleanup` cron工作與`inventory.reservations.cleanup`訊息佇列取用者不同。 在移除產品後，消費者會非同步刪除產品SKU的預留，而cron工作會清除整個預留表格。 當您啟用存放區組態中的&#x200B;[**與目錄**](../configuration-reference/catalog/inventory.md)&#x200B;庫存同步選項時，需要消費者。 請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"}。
 
 通常，一天內產生的所有初始預留都無法於當天獲得補償。 當客戶在cron工作開始之前下訂單，或使用離線付款方法（例如銀行轉帳）進行購買時，可能會發生這種情況。 補償的預留序列會保留在資料庫中，直到它們都得到補償為止。 此做法不會影響預訂計算，因為每個預訂的總數為0。
 

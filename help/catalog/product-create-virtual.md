@@ -4,22 +4,13 @@ description: 瞭解如何建立代表非實體專案的虛擬產品，例如會�
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 653
 ht-degree: 0%
@@ -30,7 +21,7 @@ ht-degree: 0%
 
 虛擬產品（或數位產品）代表無形的專案，例如會籍、服務、保固，或書籍、音樂、視訊或其他產品的訂閱和數位下載。 虛擬產品可以個別銷售，或包含在[群組產品](product-create-grouped.md)、[可配置產品](product-create-configurable.md)或[組合產品](product-create-bundle.md)產品型別中。
 
-除了缺少&#x200B;_[!UICONTROL Weight]_&#x200B;欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
+除了缺少&#x200B;_[!UICONTROL Weight]_欄位以外，建立虛擬產品和簡單產品的程式是相同的。 下列指示示範使用[產品範本](attribute-sets.md)、必要欄位及基本設定來建立虛擬產品的程式。 當您完成基本功能後，您可以視需要完成其他產品設定。
 
 >[!NOTE]
 >
@@ -132,7 +123,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_&#x200B;選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
+>_[!UICONTROL Is this downloadable product?]_選項預設為停用。 為虛擬產品啟用此功能會使產品[可下載](product-create-downloadable.md#downloadable-product)。
 
 ## 步驟6：發佈產品
 
@@ -142,9 +133,9 @@ ht-degree: 0%
 
    - **方法1：**&#x200B;儲存並預覽
 
-      - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
+     - 按一下右上角的&#x200B;**[!UICONTROL Save]**。
 
-      - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
+     - 若要檢視您商店中的產品，請在&#x200B;_管理員_ （ ![功能表箭頭](../assets/icon-menu-down-arrow-black.png) ）功能表上選擇&#x200B;**[!UICONTROL Customer View]**。
 
      該存放區會在新的瀏覽器標籤中開啟。
 
