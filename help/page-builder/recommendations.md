@@ -4,11 +4,19 @@ description: 瞭解Product Recommendations內容型別，用於新增建議清�
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
 TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2025-03-12
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -52,11 +60,11 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 展開&#x200B;_[!UICONTROL Content]_區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟。
+1. 展開&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;或內容預覽區域內的「[!DNL Page Builder]」工作區以開啟。
 
-1. 在&#x200B;_[!UICONTROL Layout]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**預留位置拖曳到舞台。
+1. 在&#x200B;_[!UICONTROL Layout]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Row]**&#x200B;預留位置拖曳到舞台。
 
-1. 在&#x200B;_[!UICONTROL Add Content]_下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Product Recommendation]**預留位置拖曳至列。
+1. 在&#x200B;_[!UICONTROL Add Content]_&#x200B;下方的[!DNL Page Builder]面板中，將&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;預留位置拖曳至列。
 
    ![正在新增產品推薦內容型別](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -67,7 +75,7 @@ ht-degree: 0%
 
    ![編輯產品推薦](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Selection]_區段中，按一下&#x200B;**[!UICONTROL Select]**。
+1. 在&#x200B;_[!UICONTROL Selection]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Select]**。
 
 1. 在使用中產品推薦清單中，尋找含有您要新增之推薦單位的列，然後按一下最後一欄中的&#x200B;**[!UICONTROL Select]**。
 
@@ -75,7 +83,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Selected]**。
 
-   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Edit Product Recommendation]_頁面的_[!UICONTROL Selection]_&#x200B;區段中。
+   所選產品推薦的名稱會顯示在&#x200B;_[!UICONTROL Edit Product Recommendation]_&#x200B;頁面的&#x200B;_[!UICONTROL Selection]_&#x200B;區段中。
 
 1. 對[進階設定](#advanced-settings)進行任何必要的變更。
 
