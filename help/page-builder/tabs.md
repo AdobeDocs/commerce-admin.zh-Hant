@@ -17,7 +17,8 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -153,11 +154,11 @@ ht-degree: 0%
 
   您可以透過三種方式輸入值：
 
-   - 預先定義的色彩名稱，例如`White`
+  - 預先定義的色彩名稱，例如`White`
 
-   - 顏色的十六進位顏色值，例如`#ffffff`
+  - 顏色的十六進位顏色值，例如`#ffffff`
 
-   - 顏色的rgba值，具有不透明度百分比，例如`rgba(255, 255, 255, 0.75)`
+  - 顏色的rgba值，具有不透明度百分比，例如`rgba(255, 255, 255, 0.75)`
 
   如果要選擇顏色，請按一下&#x200B;_無顏色_&#x200B;方塊左側的色票。
 

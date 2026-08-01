@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ ht-degree: 0%
 
    - 針對&#x200B;**[!UICONTROL File]**&#x200B;和&#x200B;**[!UICONTROL Sample]**&#x200B;檔案，選擇下列其中一種下載分配方法：
 
-      - `Upload File` — 選擇這個方法，將散發檔案上傳到伺服器。 瀏覽至檔案並選取它以上傳。
-      - `URL` — 選擇此方法以從URL存取散發檔案。 輸入下載檔案的完整URL。
+     - `Upload File` — 選擇這個方法，將散發檔案上傳到伺服器。 瀏覽至檔案並選取它以上傳。
+     - `URL` — 選擇此方法以從URL存取散發檔案。 輸入下載檔案的完整URL。
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Shareable]**&#x200B;設定為下列其中一項：
 
-      - `No` — 要求客戶登入其帳戶才能存取下載連結。
+     - `No` — 要求客戶登入其帳戶才能存取下載連結。
 
-      - `Yes` — 透過電子郵件傳送連結，客戶可以與其他人共用。
+     - `Yes` — 透過電子郵件傳送連結，客戶可以與其他人共用。
 
-      - `Use Config` — 使用在[可下載的產品選項](../configuration-reference/catalog/catalog.md)組態中指定的方法。
+     - `Use Config` — 使用在[可下載的產品選項](../configuration-reference/catalog/catalog.md)組態中指定的方法。
 
    - 執行下列任一項作業：
 
-      - 若要限制每位客戶的下載次數，請輸入&#x200B;**[!UICONTROL Max. Downloads]**&#x200B;的最大數量。
-      - 若要允許無限制的下載，請選取「**[!UICONTROL Unlimited]**」核取方塊。
+     - 若要限制每位客戶的下載次數，請輸入&#x200B;**[!UICONTROL Max. Downloads]**&#x200B;的最大數量。
+     - 若要允許無限制的下載，請選取「**[!UICONTROL Unlimited]**」核取方塊。
 
    ![連結詳細資料](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ ht-degree: 0%
 
    - 選擇下列其中一種分配方法：
 
-      - `Upload File` — 選擇這個方法，將散發檔案上傳到伺服器。 瀏覽至檔案並選取它以上傳。
-      - `URL` — 選擇此方法以從URL存取散發檔案。 輸入下載檔案的完整URL。
+     - `Upload File` — 選擇這個方法，將散發檔案上傳到伺服器。 瀏覽至檔案並選取它以上傳。
+     - `URL` — 選擇此方法以從URL存取散發檔案。 輸入下載檔案的完整URL。
 
    - 若要新增其他樣本，請按一下&#x200B;**[!UICONTROL Add Link]**&#x200B;並重複這些步驟。
 
