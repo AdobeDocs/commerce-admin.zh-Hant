@@ -1,8 +1,9 @@
 ---
-title: 資料摘要同步狀態監視
-description: 監視資料匯出同步處理，並識別 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendations]摘要處理的任何問題或延遲。
+title: 在Commerce中監視資料摘要同步狀態
+description: 追蹤匯出。 診斷 [!DNL Catalog Service]、 [!DNL Live Search]、 [!DNL Product Recommendations]和 [!DNL Adobe Commerce Optimizer Connector]的同步處理問題。
 feature: Products, Customers, Data Import/Export
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+role: Admin
+level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
 product_v2:
@@ -21,76 +22,183 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
-source-wordcount: 1689
+source-wordcount: 1664
 ht-degree: 0%
 
 ---
 
+
 # 資料摘要同步狀態監視
 
-Adobe Commerce管理員可以使用Commerce管理員中的資料摘要同步狀態頁面，監控從Adobe Commerce匯出至連線Commerce服務的資料同步狀態。
+[!UICONTROL Data Feed Sync Status]頁面可讓Commerce管理員在管理區域中監視產品和類別資料摘要的匯出健康情況。
 
-![資料摘要同步狀態詳細資訊頁面，內含摘要專案狀態報告](assets/data-feed-sync-status.png)
+## 對象與可用性 {#audience}
 
-此頁面提供資料匯出摘要的健全狀況與效能的即時深入分析，這些摘要會將產品與類別資料從Commerce傳輸至外部服務，例如[!DNL Product Recommendations]、[!DNL Live Search]與[!DNL Catalog Service]。
+擁有下列其中一項服務之有效授權的Commerce商家可以免費使用「資料摘要同步狀態」頁面：
 
-同步狀態頁面僅顯示匯出狀態。 成功狀態表示資料已成功匯出，且最終可在連線的Commerce服務中使用。
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/overview)
 
-監控摘要狀態有助於確保資料一致性，並可迅速解決匯出程式中發生的任何問題。 管理員可以：
+受支援的Commerce服務設定會自動提供資料摘要同步狀態頁面。 在雲端基礎結構或內部部署上的Adobe Commerce上，如果在啟用合格的服務或聯結器後遺失頁面，請遵循下列手動安裝指示。 對於產品管理的SaaS體驗，請勿使用Composer安裝程式。
 
-* **檢視所有資料摘要的同步處理狀態**
-* **識別並疑難排解摘要處理中的錯誤**
-* **存取個別摘要專案的詳細狀態資訊**
+## 存取同步狀態頁面 {#access-data-feed-sync-status-page}
 
-系統會追蹤下列摘要的狀態：
+從管理區域，瀏覽至&#x200B;**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**。
 
-* 產品資訊源
-* 產品屬性摘要
-* 類別摘要
-* 產品覆寫摘要
-* 產品價格摘要
-* 產品系列資訊源
-
-## 驗證資料已成功同步至Commerce服務
-
-請使用下列方法確認資料已成功與連線的Commerce服務同步化：
-
-* 若為雲端或內部部署上的Adobe Commerce，或Adobe Commerce as a Cloud Service部署，請檢查[資料管理儀表板](data-dashboard.md)。
-* 針對雲端上的Adobe Commerce或使用[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/overview)設定的內部部署檢查Commerce Optimizer Studio中的[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)。
-
->[!TIP]
->
->若要深入瞭解資料同步化程式，請參閱&#x200B;*SaaS Data Export指南*&#x200B;中的[&#x200B; Synchronize data with SaaS data export](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/data-synchronization)。
-
-## 安裝擴充功能
-
-擁有下列Commerce服務有效授權的所有Commerce商戶都可使用「資料摘要狀態」頁面：
-
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/guide-overview)
-* [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)具有使用中的授權
+![資料摘要同步狀態頁面摘要資料摘要匯出活動](assets/data-feed-sync-status.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->您不需要在[[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/overview)執行個體上安裝資料摘要狀態延伸。
->如果在Commerce部署中至少啟用下列其中一項服務，則預設可使用此擴充功能：產品建議v6+、即時搜尋v4.1+或目錄服務v1.17+。
+> 此頁面僅報告匯出狀態。 成功狀態表示資料已成功匯出，但無法確認資料是否可用於連線的服務。 如需詳細資訊，請參閱[確認連線服務中的資料](#confirm-data-in-connected-services)。
 
-**需求**
+## 可用的匯出摘要
 
-* PHP 8.1、8.2、8.3或8.4
-* Adobe Commerce 2.4.4+
-* [Adobe Commerce資料匯出擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/manage-extension)，103.4.15版或更新版本
-* 存取[repo.magento.com](https://repo.magento.com)
+您可以從「資料同步狀態」頁面管理的可用匯出摘要清單，視所連線的Commerce服務而定。
 
-  若要產生金鑰並取得必要的許可權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+- **已設定Commerce服務的[!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]：**&#x200B;請參閱&#x200B;_SaaS資料匯出指南_&#x200B;中的[支援的摘要](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)。
 
-* 存取Adobe Commerce應用程式伺服器的命令列。
+- **對於雲端或內部部署上以[!DNL Adobe Commerce Optimizer Connector]：**&#x200B;設定的Adobe Commerce，請參閱&#x200B;_Adobe Commerce Optimizer聯結器指南_&#x200B;中的[支援的摘要](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)。
+
+
+## 資料摘要同步狀態摘要 {#data-feed-sync-status-summary}
+
+摘要方格會列出每個摘要及其匯出計數。
+
+| 欄位 | 說明 |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **摘要名稱** | 實體或實體一部份（產品、產品價格）的摘要索引子。 |
+| **Source記錄** | 需要同步的Commerce記錄數。 可能會超過管理格線計數，因為摘要專案的範圍已設定（例如商店檢視代碼）。 |
+| **已成功傳送記錄** | 從Commerce成功提交至已設定服務端點的摘要專案數。 這不會確認下游擷取或目錄可用性。 如果發生同步錯誤，此數字可能小於來源記錄數。 |
+| **個失敗的記錄** | 無法傳送至連線Commerce服務的記錄數。 |
+| **動作** | 選取&#x200B;**[!UICONTROL Details]**&#x200B;以檢視摘要的同步活動。 |
+
+## 資料摘要同步狀態詳細資料 {#data-feed-sync-status-details}
+
+從摘要頁面中，選取摘要名稱或選取&#x200B;**[!UICONTROL Details]**&#x200B;以檢視每個摘要專案的匯出狀態：
+
+![資料摘要同步狀態詳細資訊頁面，內含摘要專案狀態報告](assets/data-feed-sync-status-details.png){width="600" zoomable="yes"}
+
+| 欄位 | 說明 |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **摘要專案識別碼** | 用於系統用途的自動產生識別碼 |
+| **實體識別碼** | 來源實體的唯一識別碼（產品ID、類別ID等） |
+| **摘要識別碼** | 摘要專案的唯一識別碼。 例如，產品摘要的SKU和商店檢視代碼。 值會依摘要而異。 |
+| **匯出狀態** | 摘要專案的[同步處理狀態](#export-status-types)，具有以顏色編碼的指標 |
+| **上次同步日期** | Commerce最近一次匯出嘗試或提交專案的日期和時間。 此時間戳記無法確認下游可用性。 |
+| **實體是否已刪除？** | 指出實體是否已在Adobe Commerce中刪除。 只有在同步失敗時才會顯示刪除的專案。 |
+| **要求ID** | 同步請求的唯一ID。 在疑難排解實體更新時提供支援服務。 |
+| **錯誤** | 同步化失敗的詳細錯誤資訊 |
+
+您可以使用下列控制項來管理檢視：
+
+- [!UICONTROL Mass Action]為選取的摘要專案排程重新同步
+- [!UICONTROL Filters]和[!UICONTROL Columns]
+- [!UICONTROL Default View]以建立和儲存篩選的檢視，並在檢視之間切換
+
+### 摘要健康狀態指標 {#feed-health-indicators}
+
+| **指標** | **描述** |
+| ------------- | --------------- |
+| 索引器狀態 | <ul><li>**就緒**：索引子是最新的。 不需要重新索引。</li><li>**需要重新索引**： Source資料已變更。 執行重新索引以擷取最近的變更。</li><li>**正在處理**：正在編制索引。</li></ul> |
+| 變更記錄檔待處理專案 | <ul><li>**所有已同步**：沒有擱置的變更要處理。</li><li>待處理專案中的&#x200B;**專案**：等待處理的擱置變更數目。 超過1,000個專案的待處理專案可能表示效能問題。</li></ul> |
+| 索引器模式 | <ul><li>**排程模式** （建議）：索引器會依排程執行，以降低資料遺失的風險。</li><li>**儲存時更新** （即時）：在頁面上顯示為警告。 即時模式不是預期的模式，這增加了負載時資料遺失的風險。</li></ul> |
+
+>[!TIP]
+>
+> 若要深入瞭解索引處理，請參閱[索引管理](index-management.md)主題。
+
+### 匯出狀態型別 {#export-status-types}
+
+| **狀態** | **描述** | **需要動作** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **已提交至服務** | 摘要專案已成功從Commerce提交以供下游處理。 | 無 |
+| **失敗，將重試** | 無法傳送，但系統會嘗試重新傳送。 | 監視解析度 |
+| **失敗，需要注意** | 由於應用程式或資料錯誤而失敗。 | 調查並解決[!UICONTROL Error]欄中的問題 |
+| **正在等待提交** | 在變更記錄檔中偵測到變更，但尚未處理。 | 一般處理狀態 |
+
+## 監視資料摘要狀態
+
+當您更新Commerce資料庫中與產品和類別相關的實體時，資料會根據您的摘要設定傳輸至Commerce服務。 您可以從[!UICONTROL Data Feed Sync Status]摘要頁面監視匯出活動及其目前狀態。
+
+>[!IMPORTANT]
+>
+> 完成資料同步化的時間會依目錄大小、更新資料的量以及外部服務效能而有所不同。
+
+當成功傳送的計數符合摘要的來源計數，且沒有任何專案等待提交或失敗，則Commerce已完成該摘要的匯出。 使用適當的儀表板來[確認下游可用性](#confirm-data-in-connected-services)。
+
+>[!NOTE]
+>
+> Adobe也提供開發人員和系統整合經銷商可用來管理和追蹤同步作業的命令列介面工具和系統記錄檔。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview)。
+
+### 管理失敗的匯出 {#manage-failed-exports}
+
+若要檢閱失敗的匯出並排程重新同步：
+
+1. 從摘要頁面中，尋找含有失敗記錄的摘要。
+1. 選取&#x200B;**[!UICONTROL Details]**。
+1. 檢閱[!UICONTROL Error]欄中的錯誤訊息。
+1. 使用核取方塊選取要重新同步的記錄。
+1. 從[!UICONTROL Mass Action]功能表選取&#x200B;**[!UICONTROL Schedule Resync]**，選取&#x200B;**[!UICONTROL Submit]**，然後確認作業。
+1. 在詳細資訊頁面上監視狀態變更。
+
+系統會自動重試某些故障。
+
+#### 何時手動重新同步 {#resync-feed-items}
+
+在以下情況下手動重新同步：
+
+- 驗證或許可權錯誤（401或403狀態代碼）持續存在
+- 您已修正導致裝載錯誤的資料格式問題
+- 外部服務設定或端點已變更
+- 已部署影響資料匯出的自訂
+
+### 確認連線服務中的資料 {#confirm-data-in-connected-services}
+
+若要在匯出完成之後驗證端對端同步化，請使用下列其中一種方法。 如需此頁面的匯出狀態限制，請參閱上面的[備註](#export-status-scope)。
+
+- 具有Commerce服務的&#x200B;**[!DNL Adobe Commerce as a Cloud Service]：**&#x200B;請檢查適用的[資料管理儀表板](data-dashboard.md)以確認下游可用性。
+- **雲端或內部部署上具有Adobe Commerce Optimizer Connector的Adobe Commerce**：請先檢查Commerce管理員匯出狀態，然後檢查[!DNL Commerce Optimizer Studio]中的[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)
+- **[!DNL Adobe Commerce Optimizer]（獨立）：**&#x200B;資料未從Commerce後端匯出。 使用[!DNL Commerce Optimizer Studio]中的[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)確認資料可用性。
+
+>[!TIP]
+>
+> 若要深入瞭解資料同步化程式，請參閱&#x200B;*SaaS Data Export指南*&#x200B;中的[&#x200B; Synchronize data with SaaS data export](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)。
+
+## 最佳實務 {#best-practices}
+
+- 每日檢閱摘要頁面，瞭解高失敗率的摘要。
+- 每週檢查重要摘要的詳細資訊，例如產品和價格。
+- 每月追蹤匯出成功趨勢，以識別週期性問題。
+
+## 疑難排解常見問題 {#troubleshoot-common-issues}
+
+| 問題 | 症狀 | 該做什麼 |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 高失敗率 | 許多記錄顯示&#x200B;*失敗，需要注意*&#x200B;狀態 | <ul><li>檢查外部服務狀態和設定</li><li>檢視[!UICONTROL Error]欄中的錯誤訊息</li><li>解決基本問題後，請參閱[管理和重新同步失敗的匯出](#manage-failed-exports)</li><li>如有需要，請聯絡外部服務支援</li></ul> |
+| 匯出效能緩慢 | 變更記錄檔待處理量高或狀態更新緩慢 | <ul><li>檢查[摘要健康狀態指示器](#feed-health-indicators)的索引器和待處理狀態</li><li>如果顯示&#x200B;**需要重新索引**，請重新執行索引</li><li>監視外部服務回應時間</li><li>儘可能在非高峰時間排程匯出</li><li>檢閱系統資源與效能</li></ul> |
+| 驗證失敗 | [!UICONTROL Error]欄中有401或403個狀態代碼 | <ul><li>驗證API憑證和權杖</li><li>檢查外部服務帳戶許可權</li><li>續約過期的權杖，或連絡您的服務提供者</li><li>認證還原後，[重新同步受影響的記錄](#manage-failed-exports)</li></ul> |
+| 遺失資料摘要同步處理狀態頁面 | 啟用連線的服務後，**[!UICONTROL Data Feed Sync Status]**&#x200B;未列在&#x200B;**[!UICONTROL System]** > **[!UICONTROL Data Transfer]**&#x200B;下 | <ul><li>若為Commerce as a Cloud Service，請確認已啟用符合資格的服務（請參閱[對象與可用性](#audience)）</li><li>僅適用於Commerce雲端或內部部署，[手動安裝擴充功能](#install-the-extension)</li></ul> |
+
+雲端基礎結構或內部部署上的Adobe Commerce：確認已啟用合格的服務或Adobe Commerce Optimizer聯結器；如果仍然缺少頁面，請按照手動安裝指示操作。
+ACCS或Adobe Commerce Optimizer：請勿手動安裝模組；請使用產品管理的同步處理體驗，或聯絡適當的服務支援團隊。
+
+## 安裝擴充功能 {#install-the-extension}
+
+只有當您啟用合格服務後，管理區域中缺少[!UICONTROL Data Feed Sync Status]頁面時，雲端或內部部署的Adobe Commerce才需要手動安裝。 檢視[對象與可用性](#audience)。
+
+### 先決條件
+
+- Adobe Commerce 2.4.4+。 如需詳細需求，請參閱[系統需求](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/system-requirements)。
+- [Adobe Commerce資料匯出擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/reference/manage-extension)，103.4.15版或更新版本
+- 具有從Adobe Commerce存放庫下載所需套件許可權的驗證金鑰。 若要建立驗證金鑰並取得必要的封裝存取權，請參閱[取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。 如需雲端安裝，請參閱[雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/authentication-keys)。
+- 存取Adobe Commerce應用程式伺服器的命令列。
 
 ### 安裝步驟
 
@@ -102,201 +210,10 @@ composer require magento/module-data-exporter-status
 
 如需詳細的安裝步驟，請參閱下列指南：
 
-* [在雲端基礎結構上的Adobe Commerce上安裝擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-
-* [在內部部署安裝擴充功能Adobe Commerce](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)
-
-## 存取資料摘要狀態頁面
-
-從Commerce管理員，存取Commerce管理員的資料摘要狀態頁面： **[!DNL System]** >資料傳輸> **[!DNL Data Feed Sync Status]**。
-
-![資料摘要同步狀態頁面摘要資料摘要匯出活動](assets/data-feed-sync-status.png)
-
-資料摘要狀態監視提供兩個介面：
-
-* [資料摘要同步狀態摘要頁面](#data-feed-sync-status-summary)列出可用的摘要和目前狀態
-* [資料摘要同步狀態 — 詳細資訊頁面](#data-feed-sync-status-details)會顯示所選摘要的詳細資訊。
-
-## 資料摘要同步狀態摘要
-
-摘要同步狀態摘要頁面提供資料摘要匯出活動的相關資訊，包括下列資訊：
-
-| 欄位 | 說明 |
-|-------|-------------|
-| **摘要名稱** | 負責同步處理特定實體或其零件的摘要索引子名稱，例如產品或產品價格。 |
-| **Source記錄** | 可從Commerce資料庫匯出的記錄數。 由於每個摘要專案都屬於特定範圍（例如商店檢視代碼），此數字可能會大於「Commerce管理員」中顯示的記錄數。 |
-| **已成功傳送記錄** | 成功傳輸至Commerce SaaS以供進一步處理的記錄數。 如果在傳輸期間發生錯誤，則表示已成功傳輸至外部服務的記錄數。 |
-| **個失敗的記錄** | 匯出失敗且需要注意的記錄數。 |
-| **動作** | 選取&#x200B;**[!UICONTROL Details]**&#x200B;以檢視摘要的同步活動。 |
-
-## 資料摘要同步狀態詳細資料
-
-在資料摘要狀態摘要頁面中，按一下摘要名稱或使用[!DNL View Details]動作來存取摘要中個別記錄的詳細資訊。
-
-具有摘要專案狀態報告的![[!UICONTROL Data Feed Sync Status - Details]頁面](assets/data-feed-sync-status-details.png)
-
-詳細資料檢視會提供每個摘要專案的下列資訊：
-
-| 欄位 | 說明 |
-|-------|-------------|
-| **摘要專案識別碼** | 摘要記錄的內部識別碼 |
-| **實體識別碼** | 來源實體ID （產品ID、類別ID等） |
-| **匯出狀態** | 摘要專案的[同步處理狀態](#export-status-types)。 使用顏色編碼指示器之匯出嘗試的目前狀態 |
-| **上次同步日期** | 記錄上次傳送至Commerce服務的時間戳記 |
-| **實體是否已刪除？** | 指示實體或其零件（例如產品或產品價格）是否已在Adobe Commerce中刪除。 只有在同步處理期間發生錯誤時，才會顯示專案。 |
-| **要求ID** | 同步化要求的唯一識別碼。 提供此ID以支援疑難排解特定實體更新時使用。 |
-| **錯誤** | 如果摘要專案同步化失敗，則提供詳細的錯誤資訊。 |
-
-您可以使用下列控制項來管理檢視：
-
-* [!DNL Mass Action]為選取的摘要專案排程重新同步
-* [!DNL Filters]
-* [!DNL Default View]以建立和儲存篩選的檢視，並在檢視之間切換
-* [!DNL Columns]顯示和隱藏資料表中的資料行。
-
-### 摘要健康狀態指標
-
-在每個摘要詳細資訊頁面頂端，重要健康狀態指標提供每個摘要的系統狀態：
-
-#### 索引器狀態
-
-* **有效**：資料已同步化；不需要重新索引。
-* **無效**：原始資料已變更；應該更新索引。
-* **正在處理**：正在編制索引。
-
->[!TIP]
->
->若要深入瞭解索引處理，請參閱[索引管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/tools/index-management)主題。
-
-#### 變更記錄檔待處理專案
-
-* **所有已同步**：沒有擱置的變更要處理
-* 待處理專案中的&#x200B;**專案**：等待處理的擱置變更數目
-
-### 匯出狀態型別
-
-系統提供狀態指示器，幫助您快速識別問題：
-
-#### 狀態類別
-
-| **狀態** | **描述** | **需要動作** |
-|--------|-----------|-------------|
-| **已提交至服務** | 摘要專案已成功匯出至Commerce服務。 | 無 |
-| **失敗，將重試** | 暫時失敗。 系統將自動重試。 | 監視解析度 |
-| **失敗，需要注意** | 由於應用程式或資料錯誤而失敗。 | 調查並解決[!DNL Error]欄中的問題 |
-| **正在等待提交** | 已排入匯出佇列，但尚未處理。 | 一般處理狀態 |
-
-## 監視資料摘要狀態
-
-當您更新Commerce資料庫中與產品和類別相關的實體時，資料會根據您的摘要設定傳輸至Commerce服務。 您可以從資料摘要同步狀態摘要頁面即時監視此程式。
-
->[!IMPORTANT]
->
->完成資料同步化的時間會依目錄大小、更新資料的量以及外部服務效能而有所不同。
-
-當成功傳送的記錄數與來源記錄數相符時，表示同步處理已完成，且所有資料都已成功傳輸。
-
->[!NOTE]
->
->Adobe也提供開發人員和系統整合經銷商可用來管理和追蹤同步作業的命令列介面工具和系統記錄檔。 如需詳細資訊，請參閱[SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/saas-data-export/overview)。
-
-### 管理失敗的匯出
-
-若要檢視匯出失敗的詳細資料，並採取修正動作：
-
-1. 在「摘要同步狀態」頁面中，尋找含有失敗記錄的摘要。
-1. 按一下&#x200B;**[!DNL Details]**。
-
-1. 檢閱特定失敗原因的錯誤訊息。
-
-1. 使用整批動作來排定失敗專案的重新同步作業。
-
-### 重新同步失敗的資料
-
-您可以使用[!DNL Data Feed Sync Status - Details]頁面上的[!DNL Actions]功能表，手動重新同步失敗或有問題的資料摘要。
-
-當系統自動重試某些型別的失敗時，在下列情況下可能需要手動介入：
-
-* 您注意到驗證或許可權錯誤（401、403狀態代碼）。
-* 解決導致裝載錯誤的資料格式問題後。
-* 以下為外部服務設定或端點的更新。
-* 您正在部署會影響資料匯出程式的自訂。
-
-透過主動監控摘要狀態並及時解決故障，您可以維持整個Commerce生態系統的資料一致性和可靠性。
-
-#### 手動重新同步摘要專案
-
-如果您需要重新同步特定摘要專案：
-
-1. **選取記錄**：使用核取方塊來選取需要注意的失敗記錄。
-2. **選擇動作**：從大量動作下拉式清單中選取&#x200B;**[!DNL Schedule Resync]**。
-3. **確認**：按一下&#x200B;**[!DNL Submit]**&#x200B;並確認重新同步作業。
-4. **監視結果**：檢查成功訊息並監視狀態變更。
-
-## 最佳實務
-
-### 定期監視
-
-1. **每日檢查**：每日檢閱概觀頁面，找出任何顯示高失敗率的摘要
-1. **每週深入探討**：檢查重要摘要（產品、價格）的詳細狀態
-1. **每月分析**：追蹤匯出成功率和效能的趨勢
-
-### 疑難排解工作流程
-
-1. **識別問題**：尋找錯誤和高失敗計數
-1. **檢查索引器健康狀況**：確定索引器有效且可管理待處理專案
-1. **檢閱錯誤詳細資料**：按一下失敗記錄即可檢視特定錯誤訊息
-1. **排程重新同步**：使用大量動作重試失敗的匯出
-1. **監視器解析度**：確認重新同步的專案顯示成功狀態
-
-### 修正常見問題
-
-#### 高失敗率
-
-**症狀**：大量記錄顯示「失敗，需要注意」狀態
-
-**可能的原因**：
-
-* 外部服務設定變更
-* 資料格式不相容
-* 驗證或許可權問題
-
-**解決步驟**：
-
-1. 檢查外部服務狀態和設定
-1. 檢閱錯誤訊息以瞭解模式
-1. 驗證驗證認證
-1. 如有需要，請聯絡外部服務支援
-
-#### 匯出效能緩慢
-
-**症狀**：變更記錄檔待處理專案太多，狀態更新緩慢
-
-**可能的原因**：
-
-* 索引器效能問題
-* 高資料量
-* 外部服務速率限制
-
-**解決步驟**：
-
-1. 檢查索引器狀態，如果無效則重新執行
-2. 監視外部服務回應時間
-3. 考慮在非尖峰時段排程匯出
-4. 檢閱系統資源與效能
-
-#### 驗證失敗
-
-**症狀**： 401或403狀態碼
-
-**解決步驟**：
-
-1. 驗證API憑證和權杖
-1. 檢查外部服務帳戶許可權
-1. 更新過期的驗證權杖
-1. 如需存取問題，請連絡您的服務提供者
+- [在雲端基礎結構上安裝Adobe Commerce的擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [在Adobe Commerce內部部署安裝擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
->* [資料管理儀表板](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)
->* [SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/saas-data-export/overview)
+> - [資料管理儀表板](data-dashboard.md)
+> - [SaaS資料匯出指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/overview)

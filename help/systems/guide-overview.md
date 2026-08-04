@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 07a65f4f5eefdc4e146272eca98010c6e9ba1f7f
 workflow-type: tm+mt
 source-wordcount: 430
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 | [管理員帳戶和許可權](permissions.md) | 管理用來授與存放區功能存取權的管理員使用者帳戶和角色。 |
 | [變數](variables-predefined.md) | 變數可讓您輕鬆個人化電子郵件和新聞稿範本，以及其他型別的內容，以支援您的網站和客戶體驗。 |
 | [電子郵件範本](email-templates.md) | 電子郵件範本定義從您的商店傳送之自動化訊息的配置、內容和格式。 這些電子郵件稱為交易式電子郵件，因為每個電子郵件都與特定型別的交易或事件相關聯。 |
-| [資料傳輸](data-transfer.md) | <ul><li>匯入和匯出工具可讓您在單一操作中管理多個記錄。 您不僅可以匯入新專案，還可以更新、取代和刪除現有的產品集。</li><li>檢視從[[!UICONTROL Data Management Dashboard]](data-dashboard.md)傳輸到已連線Commerce服務之實體的資料同步處理狀態。</li><li>監視從[[!UICONTROL Data Export Feed Sync Status]](data-feed-sync-status.md)頁面將資料摘要匯出到Commerce SaaS服務的同步處理狀態。</li></ul> |
+| [資料傳輸](data-transfer.md) | <ul><li>匯入和匯出工具可讓您在單一操作中管理多個記錄。 您不僅可以匯入新專案，還可以更新、取代和刪除現有的產品集。</li><li>檢視從[[!UICONTROL Data Management Dashboard]](data-dashboard.md)傳遞至已連線Commerce服務之實體的資料同步狀態。</li><li>監視從[[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md)頁面將資料摘要匯出到Commerce SaaS服務的同步處理狀態。</li></ul> |
 | [動作記錄檔](action-log.md) | 對於Adobe Commerce，動作記錄會擷取在您商店中工作的管理員使用者所進行的每項變更。 這可讓您追蹤對存放區進行的所有變更。 |
 | 工具 | 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}系統管理員擁有可用的工具集合： [支援工具](support.md)是用來識別您系統中的已知問題。 系統工具提供作業支援，以執行常式[索引](index-management.md)和[快取](cache-management.md)管理、[備份系統](backups.md)、管理[排程的作業](data-scheduled-import-export.md)，以及使用[開發人員工具](developer-tools.md)的組合。 |
 | [整合](integrations.md) | 建立OAuth憑證的位置，並提供第三方整合的重新導向URL。 |
