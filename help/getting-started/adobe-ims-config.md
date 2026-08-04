@@ -3,7 +3,7 @@ title: 使用ID設定Commerce管理整合
 description: 請依照此選擇性程式，將Adobe Commerce管理員使用者帳戶登入與Adobe ID整合。
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -51,8 +51,8 @@ ht-degree: 0%
 
 設定此整合的管理員在啟用模組期間需要下列認證：
 
-* 組織ID （取自[Adobe Admin Console](https://adminconsole.adobe.com/)），長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)。
-* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)。
+* 組織ID （取自[Adobe Admin Console](https://adminconsole.adobe.com/)），長度必須至少為24個字元。 已驗證的使用者必須屬於此IMS組織。 如需尋找組織ID的相關資訊，請參閱[Experience Cloud中的組織](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
+* 2FA應在Adobe Admin Console中的組織層級強制執行，以啟用此模組。 檢查[驗證設定](https://helpx.adobe.com/tw/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)。
 * 使用者端ID
 * 使用者端密碼
 * 從[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)擷取API金鑰後，即可使用使用者端ID和使用者端密碼。
@@ -99,9 +99,9 @@ Commerce管理員使用者必須以Adobe ID建立帳戶才能登入。
 
 >[!TIP]
 >
->您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)。
+>您可以從CSV檔案上傳使用者資訊，以建立多個使用者帳戶。 請參閱[管理多個使用者](https://helpx.adobe.com/tw/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)。
 
-1. 在[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)中，導覽至&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
+1. 在[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)中，導覽至&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Users]**。
 
 1. 按一下&#x200B;**[!UICONTROL Add User]**。
 
@@ -132,4 +132,4 @@ Adobe Commerce會顯示訊息，指出啟用是成功還是失敗。
 
 ## 身分識別與單一登入
 
-請參閱&#x200B;*Enterprise Admin Console*&#x200B;檔案中的[設定身分和單一登入](https://helpx.adobe.com/business/enterprise/set-up-your-organization/set-up-identity.html)，以取得身分設定和SSO設定指示。
+請參閱&#x200B;*Enterprise Admin Console*&#x200B;檔案中的[設定身分和單一登入](https://helpx.adobe.com/tw/business/enterprise/set-up-your-organization/set-up-identity.html)，以取得身分設定和SSO設定指示。
