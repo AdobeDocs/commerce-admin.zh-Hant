@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
+source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年7月29日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>瞭解如何在<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/services/email-suppression">電子郵件隱藏</a>中直接從管理員隱藏自動系統電子郵件的特定類別，例如訂單或行銷通知。</p>
+</td>
+      <td>
+        重大更新，新主題
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年7月9日
 
