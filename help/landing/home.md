@@ -31,11 +31,11 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
-last-update: 2026-07-14
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+last-update: 2026-08-03
+source-git-commit: 7bac99e2b23fb3e1177f7d2ff463a9a5214fd448
 workflow-type: tm+mt
-source-wordcount: 727
-ht-degree: 0%
+source-wordcount: 754
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
    <td valign="top">
    <a href="../getting-started/guide-overview.md"><strong>快速入門</strong></a>
     <div>
-    <em>大多數商家在第一次學習如何與管理員溝通時所遇到的「原因、地點和方式」問題，以及資源和參考資訊。本指南是更進階主題的跳板。</em>
+    <em>大多數商家在第一次學習如何與管理員溝通時所遇到的「原因、地點和方式」問題，以及資源和參考資訊。 本指南是更進階主題的跳板。</em>
     <br> </div>
   </td>
   </tr>
@@ -80,7 +80,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
   <td valign="top">
     <img alt="目錄管理" src="./assets/icon-shop.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../catalog/guide-overview.md"><strong>目錄管理</strong></a>
-    <div><em>建立和管理商店時最重要的領域之一是產品目錄和類別。管理員提供許多工具，用於商店和產品目錄的初始設定。</em>
+    <div><em>建立和管理商店時最重要的領域之一是產品目錄和類別。 管理員提供許多工具，用於商店和產品目錄的初始設定。</em>
     <br></div>
   </td>
     </tr>
