@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>已重新整理<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">資料摘要同步狀態</a>主題，以符合目前的管理員體驗、釐清頁面僅報告匯出狀態，並記錄功能何時可在Commerce服務授權中使用。</p>
+      <td><p>已重新整理<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">資料摘要同步狀態</a>主題，以符合目前的管理員體驗、釐清頁面僅報告匯出狀態，並記錄功能何時可在Commerce服務授權中使用。</p>
 </td>
       <td>
         重大更新
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>瞭解如何在<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">電子郵件隱藏</a>中直接從管理員隱藏自動系統電子郵件的特定類別，例如訂單或行銷通知。</p>
+      <td><p>瞭解如何在<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/services/email-suppression">電子郵件隱藏</a>中直接從管理員隱藏自動系統電子郵件的特定類別，例如訂單或行銷通知。</p>
 </td>
       <td>
         重大更新，新主題
@@ -67,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">目錄擴充</a>，其中包含在Admin中檢閱和套用AI建議的產品名稱和說明更新的指引，並從<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">目錄功能表</a>、<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">指南總覽</a>及相關產品設定主題連結主題。</p>
+      <td><p>新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/catalog-enrichment">目錄擴充</a>，其中包含在Admin中檢閱和套用AI建議的產品名稱和說明更新的指引，並從<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog-menu">目錄功能表</a>、<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/guide-overview">指南總覽</a>及相關產品設定主題連結主題。</p>
 </td>
       <td>
         新主題
@@ -89,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>已新增<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系統管理員存取權</a>，其中包含在Adobe Admin Console中管理系統管理員指派的指引。</p>
+      <td><p>已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">更新系統管理員存取權</a>，其中包含在Adobe Admin Console中管理系統管理員指派的指引。</p>
 </td>
       <td>
         意見反應
