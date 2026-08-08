@@ -1,7 +1,7 @@
 ---
-source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
+source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年8月4日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>已重新整理<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">資料摘要同步狀態</a>主題，以符合目前的管理員體驗、釐清頁面僅報告匯出狀態，並記錄功能何時可在Commerce服務授權中使用。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年7月29日
 
@@ -73,50 +95,6 @@ ht-degree: 2%
         意見反應
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年6月3日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>新增在Adobe Commerce as a Cloud Service中<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">建立自訂優惠券</a>代碼的功能。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年6月2日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>已更新Commerce <a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/import/data-import">資料匯入</a>檔案，提供如何避免在匯入作業期間產生不必要的URL重寫的指引。</p>
-</td>
-      <td>
-        技術意見回饋
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">認可</a></td>
     </tr>
   </tbody>
 </table>
