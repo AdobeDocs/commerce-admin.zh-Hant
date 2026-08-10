@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 0%
 - [部署App Builder應用程式](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [適用於App Builder應用程式的CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Console快速入門
-   - [App Builder快速入門](https://developer.adobe.com/app-builder/docs/getting_started/)
-   - [瞭解專案和工作環境](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builder快速入門](https://developer.adobe.com/app-builder/docs/getting_started/)
+  - [瞭解專案和工作環境](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace]認證
 
@@ -129,7 +129,7 @@ Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買
 
 ### 開放原始碼問題
 
-市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題直接傳送到[社群論壇](https://community.magento.com/)或[聯絡可以協助Magento Open Source的合作夥伴](https://business.adobe.com/tw/products/magento/partners.html)。
+市集支援團隊僅解決與[commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/)和[commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/)網站相關的問題。 請將Magento Open Source的相關問題轉告給可以協助Magento Open Source的[合作夥伴](https://business.adobe.com/tw/products/magento/partners.html)。
 
 ### 退款請求
 

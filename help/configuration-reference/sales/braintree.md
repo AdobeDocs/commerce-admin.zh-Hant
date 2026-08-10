@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -33,9 +33,11 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**Commerce 2.4移轉：**<br/>
->對於2.4.0之前的Adobe Commerce和Magento Open Source版本，建議商戶從[Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)安裝並設定官方Braintree付款整合擴充功能，以取代核心整合。截至2.4.0，擴充功能現已納入核心發行版本。
-><br/><br/>>移轉至Commerce 2.4時，商家需要解除安裝在Marketplace （`paypal/module-braintree`或`gene/module-braintree`）上散佈的擴充功能，並更新任何程式碼自訂，以使用`PayPal_Braintree`名稱空間而非`Magento_Braintree`。Commerce的套件擴充功能中的組態設定和Commerce Marketplace上分散的擴充功能仍持續存在。系統會正常擷取、作廢或退款的付款，連同這些版本的擴充功能一併放置。
-><br/><br/>>如果您要升級至Commerce 2.4.0，而且未在先前的2.3.x版本中使用建議的Commerce Marketplace擴充功能，多位址功能無法與2.4.0版本的Braintree搭配使用。當購物者選取&#x200B;_傳送至多個地址_&#x200B;時，Braintree付款方法未出現。先前建議用於2.3.x的Commerce Marketplace擴充功能有多個位址問題。
+>若是2.4.0之前的Adobe Commerce和Magento Open Source版本，建議商戶從[Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)安裝並設定官方Braintree付款整合擴充功能，以取代核心整合。 截至2.4.0，擴充功能現已納入核心發行版本。
+><br/><br/>
+>移轉至Commerce 2.4時，商家需要解除安裝散佈於市集（`paypal/module-braintree`或`gene/module-braintree`）上的擴充功能，並更新任何程式碼自訂，以使用`PayPal_Braintree`名稱空間而非`Magento_Braintree`。 Commerce的套件擴充功能中的組態設定和Commerce Marketplace上分散的擴充功能仍持續存在。 系統會正常擷取、作廢或退款的付款，連同這些版本的擴充功能一併放置。
+><br/><br/>
+>如果您要升級至Commerce 2.4.0，而且未在先前的2.3.x版本中使用建議的Commerce Marketplace擴充功能，多位址功能在2.4.0版本的Braintree中無法運作。 當購物者選取&#x200B;_傳送至多個地址_&#x200B;時，Braintree付款方法未出現。 先前建議用於2.3.x的Commerce Marketplace擴充功能有多個位址問題。
 
 {{config}}
 

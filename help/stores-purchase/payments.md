@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ Adobe Commerce和Magento Open Source支援多種支付方法和服務。 這包�
 - **Amazon Pay**&#x200B;和&#x200B;**Klarna**： Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含這些廠商開發的擴充功能。 從2.4.4版開始，核心版本不再隨附這些擴充功能，而必須從Commerce Marketplace安裝及更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 
   如果您已啟用並設定這些隨附的擴充功能之一，則必須在2.4.4升級程式中更新composer.json檔案，並管理以後的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
-
-- **Worldpay**、**Eway**、**CyberSource**&#x200B;和&#x200B;**Authorize.Net**：如需從這些付款整合進行安全轉換的詳細資訊，請參閱[DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}。
 
 ## 離線付款方法
 
