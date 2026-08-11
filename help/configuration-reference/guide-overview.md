@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
-source-wordcount: 264
-ht-degree: 0%
+source-wordcount: 624
+ht-degree: 49%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 | **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_&#x200B;組態設定會決定結帳與稅務設定、付款與運送選項、銷售電子郵件與PDF列印輸出，以及Google API設定。 | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
 | **[!UICONTROL Sales Channels]** <br/><br/>安裝[!DNL Amazon Sales Channel]擴充功能時，_[!UICONTROL Sales Channels]_&#x200B;設定會控制與Amazon市集的自動化整合作業。 | - [[!UICONTROL Global Settings]](sales-channels.md) |
 | **[!UICONTROL Services]** <br/><br/> _[!UICONTROL Services]_&#x200B;組態設定決定Commerce API整合設定，包括SOAP和OAuth。 | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
-| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_&#x200B;組態設定決定預設管理員設定、各種系統組態設定、進階模組控制項以及開發人員工具。 | - [[!UICONTROL Admin]](./advanced/admin.md)<br>- [[!UICONTROL System]](./advanced/system.md)<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
+| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_&#x200B;組態設定決定預設管理員設定、各種系統組態設定、進階模組控制項以及開發人員工具。 |  — 僅[[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}<br>- [[!UICONTROL System]](./advanced/system.md)僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}
 

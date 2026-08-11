@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 756e3b7f8c70e0b3fc6f30691a15bd7e20517655
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-管理員[動作](action-log.md)封存會列出伺服器上儲存的CSV記錄檔。 在設定中，您可以指定記錄專案的儲存時間以及封存頻率。 依預設，檔案名稱包含ISO格式的目前日期： `yyyyMMddHH`
+管理員[動作](action-log.md)封存會列出伺服器上儲存的CSV記錄檔。
+
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在設定中，您可以指定記錄專案的儲存時間長度以及封存頻率。 依預設，檔案名稱包含ISO格式的目前日期： `yyyyMMddHH`
 
 >[!NOTE]
 >
 >記錄檔封存需要設定[cron工作](cron.md)。
 
 ## 設定日誌封存
+
+badgePaas： label=&quot;PaaS only&quot; type=&quot;Informative&quot; url=&quot;https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions&quot; tooltip=&quot;僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案。&quot;
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 

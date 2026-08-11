@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ ht-degree: 0%
 ![進階設定 — 管理員動作記錄](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 如需組態設定的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[管理動作記錄檔封存](../configuration-reference/advanced/system.md)。
+
+>[!NOTE]
+>
+>在[!DNL Adobe Commerce as a Cloud Service]平台上，您無法設定動作記錄報告、動作記錄封存和大量動作記錄，但可從[管理]的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;功能表檢閱報告輸出。
 
 ## 設定管理員記錄動作
 
