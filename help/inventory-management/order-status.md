@@ -1,6 +1,6 @@
 ---
 title: 訂單狀態與預留
-description: 瞭解更新存貨（或銷售管道）的可銷售數量及每個來源的庫存量數量的自動預留輸入或變更。
+description: 瞭解開立商業發票、出貨、取消及退款如何更新每個來源的 [!DNL Inventory Management] 預留與庫存量。
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/sBHMsUsdmqiIL3Q3GNXDPAlDkEzCNLeXG0L5-1qhdKA
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 1133
+source-wordcount: 1121
 ht-degree: 0%
 
 ---

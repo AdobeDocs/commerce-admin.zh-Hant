@@ -1,6 +1,6 @@
 ---
 title: 設定 [!DNL Inventory Management] 全域選項
-description: 瞭解如何為網站的產品和庫存設定預設 [!DNL Inventory Management] 設定選項。
+description: 設定所有網站產品庫存選項、臨界值和店面顯示的全域 [!DNL Inventory Management] 目錄設定。
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # 設定[!DNL Inventory Management]全域選項
+
+這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;底下的整個目錄。
 
 設定您網站產品與庫存的預設設定選項。 透過[設定產品選項](product-options.md)，可以覆寫每個產品的部分設定。 若要設定距離優先順序設定，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 

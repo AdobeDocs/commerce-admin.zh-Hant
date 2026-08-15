@@ -1,6 +1,6 @@
 ---
-title: 管理存貨存量
-description: 瞭解如何使用存貨來代表您銷售管道來源的虛擬彙總產品詳細目錄。
+title: 管理庫存
+description: 在「管理員」中管理庫存，以將來源對應至銷售管道、排定履行優先順序，並維持可銷售數量的準確性。
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Add New Stock] | 開啟&#x200B;_[!UICONTROL New Stock]_&#x200B;表單，此表單用於輸入新的存貨存量，以將存貨對應至銷售管道。 |
 
-## 管理Stock欄說明
+## 管理庫存欄說明
 
 | 欄 | 說明 |
 |--|--|

@@ -1,6 +1,6 @@
 ---
 title: 管理存貨數量
-description: 瞭解如何為新產品指派來源和數量或變更現有產品。
+description: 在 [!DNL Inventory Management]中為新產品及現有產品指定來源及每個來源數量的管理程式概觀。
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 管理存貨數量
 
-下列資訊詳細說明如何為新產品指定來源與數量或變更現有產品。
+使用下列准則來指定新產品或現有產品的來源與數量。
 
 建立產品時，請在建立產品期間指定來源和數量。 如需完整指示，請參閱[建立產品](../catalog/product-create.md)。 這些頁面包含單一來源及多重來源資訊，以取得每個來源的來源及數量。
 

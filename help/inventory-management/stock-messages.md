@@ -1,6 +1,6 @@
 ---
 title: 庫存訊息情境
-description: 瞭解控制產品頁面上庫存可用性訊息和目錄頁面上產品清單的組態設定組合。
+description: 設定出現在店面產品頁面和類別產品清單上的 [!DNL Inventory Management] 庫存可用性訊息。
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # 庫存訊息情境
 
-您可以使用組態設定的組合，來控制產品頁面上以及目錄頁面上產品清單中的庫存可用性訊息。
+使用下列區段中的設定，設定庫存可用性訊息在產品頁面和目錄清單上的顯示方式。
 
 ![含有「無庫存」訊息的群組產品](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

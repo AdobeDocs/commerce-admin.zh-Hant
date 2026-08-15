@@ -1,6 +1,6 @@
 ---
 title: 庫存和來源
-description: 瞭解產品、來源和庫存之間的關係。
+description: 瞭解 [!DNL Inventory Management] 中存貨與來源的相關性，因此 [!DNL Commerce] 店面的可銷售數量符合實際盤點。
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
 product_v2:
@@ -17,22 +17,22 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: 788
 ht-degree: 0%
 
 ---
 
 # 庫存和來源
 
-管理您的存貨，無論倉儲位置、產品或服務型別或銷售管道為何。 完成來自多個倉庫、實體店、配送中心及製造商直接出貨的訂單及出貨產品，完成訂單，並著重於平衡的存貨、出貨成本等。
+管理您的存貨，無論倉儲位置、產品或服務型別或銷售管道為何。 完成訂單並從多個地點出貨產品，以完成訂單，並著重於平衡的存貨、出貨成本等。
 
 這些說明包括一家腳踏車公司的產品、來源和庫存，該公司在美國和歐洲擁有多個出貨地點和網站。
 
 ## 來源
 
-[來源](sources-manage.md)是管理產品存貨並運送訂單履行或提供服務的實際地點。 這些地點可包括倉庫、實體店、配送中心和卸貨託運人。 [!DNL Commerce]會使用每個存貨的數量和可銷售數量，並自動管理受管理產品和訂單的存貨金額。 如果您有一個來源，則會將您視為&#x200B;_單一來源_&#x200B;模式。 如果您有多個來源，則會將您視為&#x200B;_多重來源_&#x200B;模式。
+[來源](sources-manage.md)是管理產品存貨並運送訂單履行或提供服務的實際地點。 [!DNL Commerce]會使用每個存貨的數量和可銷售數量，並自動管理受管理產品和訂單的存貨金額。 如果您有一個來源，則會將您視為&#x200B;_單一來源_&#x200B;模式。 如果您有多個來源，則會將您視為&#x200B;_多重來源_&#x200B;模式。
 
 來源在一個倉儲中的存貨範圍內可以有優先權，但不一定在所有倉儲中都有優先權，因為來源可以在不同的存貨中重複使用。 庫存和來源的數量增加了決定履行訂單的最佳倉儲或存放區的複雜性。 例如，您的實體廠區可能提供有限數量的產品，而您的倉庫及主要地點的服務擁有大量庫存，但可用性有限。
 
@@ -76,8 +76,8 @@ ht-degree: 0%
 >
 >「無庫存臨界值」值支援負數與正數。 如果您啟用「延期交貨」，請在產品確實視為無存貨之前，針對可延期交貨的最大產品數量將此值設為負數。
 
-## Inventory management示範
+## 示範
 
-觀看此影片以瞭解Inventory management來源和庫存：
+觀看此影片以瞭解[!DNL Inventory Management]來源和庫存：
 
 >[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

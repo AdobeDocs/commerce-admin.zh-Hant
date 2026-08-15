@@ -1,6 +1,6 @@
 ---
-title: Inventory management簡介
-description: 瞭解如何使用 [!DNL Inventory Management] 功能來管理多個位置的存貨，以便您的 [!DNL Commerce] 存放區能正確反映實際盤點。
+title: ' [!DNL Inventory Management]簡介'
+description: 瞭解如何使用 [!DNL Inventory Management]  for [!DNL Commerce] 來管理各種來源與存貨的存貨、計算可銷售數量、追蹤預訂，以及支援訂單履行。 使用「管理員」來設定設定並產生報表，並使用命令列介面進行設定和背景變更。
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
 product_v2:
@@ -17,23 +17,31 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 125a49f740639bce0ced8063074ca43d627c0eac
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 371
 ht-degree: 0%
 
 ---
 
-# Inventory management簡介
+# [!DNL Inventory Management]簡介
 
-[!DNL Commerce]的[!DNL Inventory Management]提供您管理產品詳細目錄的工具。 擁有單一商店到多個倉庫、商店、取貨地點、卸貨託運人等等的商家，可以使用這些功能來維護銷售數量，並處理出貨以完成訂單。 您可以追蹤存貨數量、為所有網站的客戶提供精確的可銷售存貨量，並根據距離或優先順序的建議出貨。 您也可以針對所有商店和產品，依來源及每項產品全域設定您偏好的產品組態。 這些功能會隨著您的企業成長，讓您只需使用幾個額外設定，就能從單一倉儲或複雜的運送網路工作。
+[!DNL Commerce]的[!DNL Inventory Management]可協助商戶管理一或多個網站以及實體或虛擬產品地點的詳細目錄。 它提供管理介面和命令列介面中的工具，以設定存貨、追蹤庫存量和彙總可銷售數量、在結帳期間保護存貨，以及支援訂單履行。 您可以將[!DNL Inventory Management]用於單一來源或多來源網路，其中包含倉儲、倉庫、取貨地點、卸貨託運人及其他履行地點。
+
+## 使用[!DNL Inventory Management]的方式
+
+- **管理員：**&#x200B;設定詳細目錄選項並產生詳細目錄報告。
+- **命令列介面：**&#x200B;執行安裝程式命令，並在背景套用清查變更。
+- **設定範圍：**&#x200B;全域、每個來源或每個產品設定詳細目錄設定。
+
+## 主要功能
 
 [!DNL Inventory Management]功能包括：
 
-- 不同設定，適用於存貨源自單一來源及多個來源的商家
-- 用於透過指定的來源追蹤可用彙總數量的庫存
+- 不同設定，適用於存貨源自單一來源或多個來源的商家
+- 用於追蹤跨指定來源之彙總可銷售數量的存量
 - 並行簽出保護
-- 出貨比對演演算法
+- 支援根據距離或優先順序的履行建議的出貨比對演演算法
 
 >[!NOTE]
 >
@@ -45,10 +53,10 @@ ht-degree: 0%
 
 使用[!DNL Inventory Management]時，請務必瞭解下列詞語：
 
-[!UICONTROL **來源**]&#x200B;代表儲存及出貨可用產品的實體位置。 這些地點可包括倉庫、實體店、配送中心和卸貨託運人。 （任何位置都可指定為虛擬產品的來源。）
+[!UICONTROL Sources]代表儲存和出貨可用產品的實體位置。 如需範例和圖表，請參閱[庫存和來源](sources-stocks.md)。 （任何位置都可指定為虛擬產品的來源。）
 
-[!UICONTROL **庫存**]&#x200B;將銷售管道（目前僅限於網站）對應至來源地點與庫存量。 一個庫存可以對應到多個銷售管道，但一個銷售管道只能指派給一個庫存。
+[!UICONTROL Stocks]將銷售管道（目前僅限於網站）對應至來源地點與庫存量。 一個庫存可以對應到多個銷售管道，但一個銷售管道只能指派給一個庫存。
 
-[!UICONTROL **Aggregate Salable Quantity**]&#x200B;是可透過銷售管道銷售的虛擬庫存總計。 金額會在所有指定給庫存的來源中計算。
+[!UICONTROL Aggregate Salable Quantity]是可透過銷售管道銷售的虛擬庫存總數。 金額會在所有指定給庫存的來源中計算。
 
-[!UICONTROL **預留**]&#x200B;追蹤客戶將產品加入購物車並完成結帳時，可銷售數量中的扣除專案。 當訂單出貨時，預留會清除並扣除特定來源存貨數量中的出貨金額。
+當客戶新增產品至購物車並完成結帳時，[!UICONTROL Reservations]追蹤從可銷售數量中扣除的專案。 當訂單出貨時，預留會清除並扣除特定來源存貨數量中的出貨金額。

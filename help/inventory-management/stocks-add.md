@@ -1,6 +1,6 @@
 ---
-title: 新增詳細目錄權杖
-description: 瞭解如何新增庫存並將來源對應至銷售管道（網站），提供可銷售數量和產品庫存的直接連結。
+title: 新增存貨量
+description: 在「管理員」中新增自訂存貨、指定網站與來源，以及優先處理可銷售數量與出貨的來源。
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 405
 ht-degree: 0%
 
 ---

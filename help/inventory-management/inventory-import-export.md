@@ -1,6 +1,6 @@
 ---
 title: 匯入及匯出詳細目錄
-description: 使用具有展開 [!DNL Inventory Management] 選項的原生匯入和匯出功能，以透過SKU更新來源和數量。
+description: 使用原生目錄資料傳輸工具，由SKU匯入及匯出 [!DNL Inventory Management] 來源指派及每個來源數量。
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 TQID: https://experienceleague.adobe.com/TrH9Ncak4gPMh-4kejFF0NdCIzjT-xT5-M4eETSQ9FM
@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 0%

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Inventory Management] CLI參考'
-description: 瞭解 [!DNL Inventory Management] 模組提供的管理清查資料和組態設定的命令。
+description: 瞭解用於管理清查資料和組態設定的 [!DNL Inventory Management Commerce] CLI命令。
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: 855
 ht-degree: 0%
 
 ---

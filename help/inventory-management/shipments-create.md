@@ -1,6 +1,6 @@
 ---
 title: 建立多來源出貨
-description: 瞭解多來源商家如何建立並傳送出貨。
+description: 使用「Source選擇演演算法」建議或手動依來源數量，在「管理員」中建立多來源出貨。
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 400
 ht-degree: 0%
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Commerce]個升級'
-description: 瞭解Adobe Commerce和Magento Open Source升級如何影響目錄和 [!DNL Inventory Management] 設定。
+description: 瞭解升級至Adobe Commerce 2.4.x如何影響目錄詳細目錄、庫存和 [!DNL Inventory Management] 模組的行為。
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +41,21 @@ ht-degree: 0%
   >
   >強烈建議不要使用預設Stock和預設Source，因為它們是`CatalogInventory`模組的一部分，而此模組現已棄用。 建議您建立並使用自訂庫存和來源。
 
-   - 存貨提供彙總的虛擬可銷售數量，並預留位置以追蹤購物車與訂單，確保同時結帳。
+  - 存貨提供彙總的虛擬可銷售數量，並預留位置以追蹤購物車與訂單，確保同時結帳。
 
-   - 目錄中的所有現有產品都會指派至預設Source。 在新增來源之前，產品介面不會變更。 如果您只從一個地點出貨產品，則來源沒有其他差異。 您可以為每個出貨地點建立自訂[來源](sources-add.md)和[指派數量](quantities-manage.md)。
+  - 目錄中的所有現有產品都會指派至預設Source。 在新增來源之前，產品介面不會變更。 如果您只從一個地點出貨產品，則來源沒有其他差異。 您可以為每個出貨地點建立自訂[來源](sources-add.md)和[指派數量](quantities-manage.md)。
 
-   - 您可以將來源設定為「取車地點」，並為該來源[指定數量](quantities-manage.md)。
+  - 您可以將來源設定為「取車地點」，並為該來源[指定數量](quantities-manage.md)。
 
-   - 您的網站會指定給「預設庫存」。 您可以建立自訂[庫存](stocks-add.md)，以連線銷售管道（網站）和來源（位置）。
+  - 您的網站會指定給「預設庫存」。 您可以建立自訂[庫存](stocks-add.md)，以連線銷售管道（網站）和來源（位置）。
 
 - 其他[組態選項](configuration.md)新增至您的產品和全域商店。 部分現有設定選項會收到更新的選項和行為：
 
-   - 「通知以下的數量」會傳送通知並從「可銷售數量」中扣除。
+  - 「通知以下的數量」會傳送通知並從「可銷售數量」中扣除。
 
-   - 「無庫存臨界值」支援正數、零數和負數。 啟用「延期交貨」時，會忽略正金額，視為零（或無限）。
+  - 「無庫存臨界值」支援正數、零數和負數。 啟用「延期交貨」時，會忽略正金額，視為零（或無限）。
 
-   - 延期交貨支援零（無限）與負數金額。 啟用時，「通知以下的數量」不會從「可銷售數量」中扣除。
+  - 延期交貨支援零（無限）與負數金額。 啟用時，「通知以下的數量」不會從「可銷售數量」中扣除。
 
 - 「新預留」會追蹤潛在銷售，在訂單出貨時轉換為數量扣減。 您永遠無法直接存取或建立預留。 [!DNL Commerce]透過訂單、出貨及銷退折讓單，在幕後建立和管理預訂。
 

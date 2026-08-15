@@ -1,6 +1,6 @@
 ---
 title: 設定 [!DNL Inventory Management] 產品選項
-description: 瞭解如何設定 [!DNL Inventory Management] 產品組態選項。
+description: 設定每個產品 [!DNL Inventory Management] 和進階庫存選項，以覆寫全域庫存和來源設定。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 916
 ht-degree: 0%
 
 ---

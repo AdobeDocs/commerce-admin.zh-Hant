@@ -1,6 +1,6 @@
 ---
 title: Source演演算法和預訂
-description: 瞭解在背景執行的Source選擇演演算法和預留系統，以保持可銷售數量更新。
+description: 瞭解Source選擇演演算法和預留在 [!DNL Inventory Management]結帳和出貨期間如何保持可銷售數量的準確性。
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 2181
+source-wordcount: 2178
 ht-degree: 0%
 
 ---

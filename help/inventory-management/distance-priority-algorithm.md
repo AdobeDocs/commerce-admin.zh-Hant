@@ -1,6 +1,6 @@
 ---
 title: 設定距離優先順序演演算法
-description: 設定組態以比較出貨目的地地址的地點與來源地點，以決定最接近完成出貨的來源。
+description: 使用Source地圖或離線地理代碼設定距離優先順序Google選擇演演算法，以建議最接近的來源。
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 876
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 使用Google地圖
 
-您不需要Google帳戶即可開始使用。此程式包括視需要建立Google帳戶和專案。此選項需要新增計費帳戶和付款方法至您的Google帳戶，以完成設定並使用演演算法。
+您不需要Google帳戶即可開始使用。 此程式包括視需要建立Google帳戶和專案。 此選項需要新增計費帳戶和付款方法至您的Google帳戶，以完成設定並使用演演算法。
 不過，我們建議使用Google MAP距離型演演算法，此演演算法較離線計算更進階且更精確。
 
 ### 步驟1：建立Google API金鑰

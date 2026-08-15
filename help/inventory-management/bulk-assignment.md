@@ -1,6 +1,6 @@
 ---
 title: 大量存貨來源指定與取消指定
-description: 瞭解如何使用指派來源工具來管理產品的來源指派。
+description: 使用「管理員」中的「指派來源」大量動作，一次指派或取消指派許多產品的 [!DNL Inventory Management] 來源。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-06-28
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 332
 ht-degree: 0%
 
 ---

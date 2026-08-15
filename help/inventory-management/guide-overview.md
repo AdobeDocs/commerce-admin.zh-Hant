@@ -1,6 +1,6 @@
 ---
-title: Inventory management指南 [!DNL Inventory Management] 指南
-description: 適用於Adobe Commerce和Magento Open Source管理員的 [!DNL Inventory Management] 相關完整資訊，包括移轉和設定。
+title: '[!DNL Inventory Management] 指南'
+description: 適用於Adobe Commerce和Magento Open Source中 [!DNL Inventory Management] 庫存、來源、數量、組態、訂單及出貨的管理與CLI指南。
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
@@ -24,48 +24,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 394
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 1%
 
 ---
 
-# [!DNL Inventory Management]指南總覽
+# [!DNL Inventory Management] 概覽
 
-本指南適用於Adobe Commerce和Magento Open Source Admin的管理員。 其中提供啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]組態和功能有基本的瞭解。
+本指南適用於在Adobe Commerce和Magento Open Source中管理多個位置庫存的管理員。 它提供[!DNL Inventory Management]模組的設定和管理程式，並假設對核心[!DNL Commerce]功能有基本的瞭解。
 
-[!DNL Inventory Management]有兩個管理員區域：
-
-- 管理員：使用此區域來存取設定UI和報表。
-- 命令列介面：使用此工具來執行安裝和後端組態工作。
+使用&#x200B;**管理員**&#x200B;進行設定、報告和日常清查工作。 使用&#x200B;**命令列介面**&#x200B;進行安裝、升級和後端設定。
 
 本指南涵蓋：
 
 | 主旨 | 說明 |
 | ------- | ----------- |
-| [簡介](introduction.md) | 您可用來管理多個位置庫存的[!DNL Inventory Management]功能總覽，好讓您的Commerce存放區能正確反映實際盤點。 |
-| [發行說明](release-notes.md) | 檢閱發行說明以取得所有[!DNL Inventory Management]發行版本的相關資訊。 |
-| 詳細目錄基本需知 | 瞭解管理存貨的基本知識： [庫存和來源](sources-stocks.md)、[來源選擇和預訂](selection-reservations.md)、[訂單和預訂狀態](order-status.md)以及[產品型別](product-types.md) |
-| 開始使用 | 瞭解[!DNL Inventory Management]模組以及它如何適合您的Commerce執行個體和商店作業： [Commerce升級](migrate.md)、[模組安裝和更新](install-update.md)、[商家來源型別](merchant-sourcing.md)以及[來源結構變更](expand-restructure.md) |
-| [組態](configuration.md) | 瞭解[!DNL Inventory Management]選項的組態，這些選項決定來源可用性、店面產品和訂單出貨。 |
-| [管理來源](sources-manage.md) | 瞭解來源，以及來源如何定義管理及出貨產品存貨以進行訂單履行或提供服務的實際位置。 |
-| [管理庫存](stocks-manage.md) | 瞭解如何使用存貨來代表您銷售管道來源的虛擬彙總產品詳細目錄。 |
-| [管理數量](quantities-manage.md) | 瞭解如何為新產品指派來源和數量或變更現有產品。 |
-| [管理訂單與出貨](shipments.md) | 瞭解其他[!DNL Inventory Management]功能和選項，用於透過出貨流程管理存貨數量。 |
-| [CLI參考](cli.md) | 瞭解[!DNL Inventory Management]模組提供的命令，以管理清查資料和組態設定。 |
+| [簡介](introduction.md) | 功能、術語，以及[!DNL Inventory Management]如何適合您的商店。 |
+| [發行說明](release-notes.md) | 模組發行版本記錄和已知問題。 |
+| [詳細目錄基本資訊](sources-stocks.md) | [庫存與來源](sources-stocks.md)、[來源選擇與預訂](selection-reservations.md)、[訂單與預訂狀態](order-status.md)與[產品型別](product-types.md)的概念。 |
+| 開始使用 | [Commerce升級](migrate.md)、[安裝和更新](install-update.md)、[商家來源型別](merchant-sourcing.md)和[庫存重組](expand-restructure.md)。 |
+| [組態](configuration.md) | 店面展示和運送的全域、產品和演演算法設定。 |
+| [管理來源](sources-manage.md) | 建立及維護履行地點。 |
+| [管理庫存](stocks-manage.md) | 將來源對應至銷售管道。 |
+| [管理數量](quantities-manage.md) | 指定並更新每個來源的產品數量。 |
+| [管理訂單與出貨](shipments.md) | 履行訂單並管理存貨的出貨。 |
+| [CLI參考](cli.md) | 命令列清查和設定工作。 |
 
 {style="table-layout:auto"}
 
 ## 開發人員資訊
 
-如需模組架構、API和演演算法自訂的詳細資訊，請參閱開發人員檔案中的[[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)。
+存取API、自訂和模組架構的進階資源。 如需API與演演算法自訂的技術詳細資訊，請參閱REST API開發人員檔案中的[[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)。
 
 ## Commerce檔案
+
+尋找商家、雲端和開發人員指南，以協助Adobe Commerce的每個部分。 使用這些資源滿足任何設定或管理需求。
 
 {{docs-links}}
 
 ## 疑難排解與支援
+
+使用支援文章和票證系統快速解決詳細目錄問題。 取得庫存狀態或產品管理的額外說明。
 
 如果您需要本指南未涵蓋的資訊或問題，請使用下列資源：
 

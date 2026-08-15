@@ -1,6 +1,6 @@
 ---
 title: 新增詳細目錄來源
-description: 瞭解如何建立地點的來源，例如倉儲、實體店、配送中心或託運人。
+description: 在管理員中為倉儲、商店、配送中心或其他履行地點新增 [!DNL Inventory Management] 來源。
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 858
 ht-degree: 0%
 
 ---
 
 # 新增來源
 
-使用自訂來源管理多個地點的存貨與訂單履行。 為每個地點（例如倉儲、實體店、配送中心及卸貨託運人）建立來源。 指定來源及更新每個產品的數量
+使用自訂來源管理多個地點的存貨與訂單履行。 為每個地點（例如倉儲、實體店、配送中心及卸貨託運人）建立來源。 指定每個產品的來源與更新數量。
 
 如果編輯預設Source，您可以編輯所有設定，但名稱和程式碼除外。 建議單一來源商家新增與其位置相符的資訊。
 

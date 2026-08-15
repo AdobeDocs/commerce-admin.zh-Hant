@@ -1,6 +1,6 @@
 ---
 title: 管理詳細目錄來源
-description: 瞭解來源，以及來源如何定義管理及出貨產品存貨以進行訂單履行或提供服務的實際位置。
+description: 新增、編輯、啟用和停用儲存及出貨產品詳細目錄的 [!DNL Inventory Management] 來源的管理工作概觀。
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # 管理來源
 
-來源是管理產品存貨並出貨以履行訂單或提供服務的實際地點。 這些地點可包括倉庫、實體店、配送中心、取貨地點及卸貨託運人。 您配置存貨數量給這些來源，[!DNL Commerce]會自動彙總存貨的可銷售產品總數。 對於大型公司，請為所有位置新增多個來源：在不同地理位置（依國家/地區和大陸）、在城市中的位置（根據存貨型別，甚至根據服務）。
+使用此主題來新增、編輯、啟用和停用來源。 有關來源與庫存和可銷售數量的關係，請參閱[庫存與來源](sources-stocks.md)。
 
 建立來源時，建議您提供特定的實體地理位置。 這可讓&#x200B;_距離優先順序演演算法_&#x200B;比較出貨目的地地址的位置與可用的來源位置，以決定最接近完成出貨的來源。 您可以使用Google地圖或使用地理代碼的離線計算。 如需此&#x200B;_距離優先順序演演算法_&#x200B;的詳細資訊，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 

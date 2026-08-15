@@ -1,6 +1,6 @@
 ---
 title: 安裝、更新及移除 [!DNL Inventory Management]
-description: 瞭解如何管理 [!DNL Inventory Management] 中繼資料。
+description: 安裝、啟用、停用、移除或升級 [!DNL Inventory Management] 中繼封裝。
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ ht-degree: 0%
 
 安裝、升級或更新時，預設啟用Admin中的&#x200B;_[!UICONTROL Manage Stock]_&#x200B;選項。 此選項可啟用存貨追蹤和管理，但不會影響模組狀態。 若要停用模組，請參閱下一節。
 
-如需設定的詳細資訊，請參閱[設定Inventory management](configuration.md)。
+如需設定的詳細資訊，請參閱[設定 [!DNL Inventory Management]](configuration.md)。
 
-## 停用Inventory management
+## 停用[!DNL Inventory Management] {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ ht-degree: 0%
 >
 >如果您已安裝OMS Connector模組，請確定您沒有停用`Magento_InventoryMessageBus`模組，此模組為聯結器模組。 需要搭配OMS使用聯結器。
 
-## 移除Inventory management
+## 移除[!DNL Inventory Management] {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 完成此變更後，請執行撰寫器安裝，並自動移除這些Inventory management模組。
 
-## 升級Inventory management
+## 升級[!DNL Inventory Management] {#upgrade-inventory-management}
 
 ### 先前的[!DNL Commerce]版本
 
