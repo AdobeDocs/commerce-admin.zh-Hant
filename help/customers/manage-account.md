@@ -2,16 +2,16 @@
 title: 管理客戶帳戶
 description: 使用[!UICONTROL Customers]網格來尋找任何客戶帳戶，並存取個別客戶帳戶的資訊。
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
+source-git-commit: 'null'
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
 # 管理客戶帳戶
 
-使用&#x200B;_[!UICONTROL Customers]_&#x200B;格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
+使用&#x200B;_[!UICONTROL Customers]_格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
 
 ![所有客戶](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | **[!UICONTROL Confirmed Email]** | 表示是否需要確認電子郵件。 |
 | **[!UICONTROL Account Created In]** | 表示建立客戶帳戶的來源商店檢視。 |
 | **[!UICONTROL Date of Birth]** | 客戶的出生日期。 為了遵循目前的安全性和隱私權最佳實務，請注意任何與儲存客戶完整出生日期（月、日、年）和其他個人識別碼相關的潛在法律和安全風險。 建議您限制客戶完整出生日期的儲存量，並建議使用客戶出生年作為替代方法。 |
-| **[!UICONTROL Tax / VAT Number]** | 如果適用，則為指定給客戶的稅捐編號或[加值稅](../stores-purchase/vat.md)編號。 <br/><br/>此欄位與VAT編號不同。 |
+| **[!UICONTROL Tax / VAT Number]** | 如果適用，則為指定給客戶的稅捐編號或[加值稅](../stores-purchase/vat.md)編號。<br/><br/> 此欄位與「VAT編號」不同。 |
 | **[!UICONTROL Gender]** | 客戶的性別。 |
 | **[!UICONTROL Action]** | 編輯 — 在編輯模式中開啟公司帳戶。 |
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 | **[!UICONTROL Billing Lastname]** | 客戶帳單地址中的姓氏。 |
 | **[!UICONTROL Billing Address]** | 將傳送帳單資訊的地址。 |
 | **[!UICONTROL Shipping Address]** | 訂單的送貨地址。 |
-| **[!UICONTROL VAT Number]** | 與客戶地址相關聯的增值稅編號。 對於在歐盟銷售的[數位商品](../stores-purchase/taxes.md)，VAT是以客戶的帳單地址為基礎。 <br/><br/>此欄位與稅捐/VAT編號不同。 |
+| **[!UICONTROL VAT Number]** | 與客戶地址相關聯的增值稅編號。 對於在歐盟銷售的[數位商品](../stores-purchase/taxes.md)，VAT是以客戶的帳單地址為基礎。<br/><br/> 此欄位與「稅捐/VAT編號」不同。 |
 | **[!UICONTROL Account Lock]** | 表示帳戶的狀態。 作為安全性測量，在太多登入嘗試後，客戶帳戶可能被[鎖定](../customers/password-options.md)。 值： `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | 目前的使用者狀態。 選項： `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | 客戶分類。 選項： `Individual user` / `Company admin` / `Company user` |
