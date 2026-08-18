@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 管理客戶帳戶
 
-使用&#x200B;_[!UICONTROL Customers]_格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
+使用&#x200B;_[!UICONTROL Customers]_&#x200B;格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
 
 ![所有客戶](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
