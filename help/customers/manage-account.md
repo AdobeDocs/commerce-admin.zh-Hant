@@ -2,7 +2,7 @@
 title: 管理客戶帳戶
 description: 使用[!UICONTROL Customers]網格來尋找任何客戶帳戶，並存取個別客戶帳戶的資訊。
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 'null'
+source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 管理客戶帳戶
 
-使用&#x200B;_[!UICONTROL Customers]_&#x200B;格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
+使用&#x200B;_[!UICONTROL Customers]_格線尋找任何客戶帳戶。 您可以使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更[欄配置](../getting-started/admin-grid-controls.md)、儲存檢視以及匯出資料。 網格上方的[動作控制項](../getting-started/admin-actions-control.md)可用來將作業套用至多個客戶記錄。
 
 ![所有客戶](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
