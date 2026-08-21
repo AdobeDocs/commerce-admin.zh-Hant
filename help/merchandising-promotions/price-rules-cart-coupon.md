@@ -4,26 +4,14 @@ description: 瞭解如何將優惠券代碼與購物車價格規則搭配使用�
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +79,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant#run-cron-from-the-command-line)的執行cron。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)的[執行cron。
 
 ### 方法1：建立特定抵用券
 
@@ -124,23 +112,23 @@ ht-degree: 0%
 
      **選項1：**&#x200B;排程新的更新
 
-      - 按一下頁面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
+     - 按一下頁面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
 
-        ![排程更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![排程更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - 輸入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+     - 輸入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-      - 從行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）選擇&#x200B;**開始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果您將日期範圍保留為空白，則規則不會過期。
+     - 從行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）選擇&#x200B;**開始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果您將日期範圍保留為空白，則規則不會過期。
 
-      - 完成時，按一下&#x200B;**[!UICONTROL Save]**。
+     - 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-        ![購物車價格規則 — 排程變更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![購物車價格規則 — 排程變更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **選項2：**&#x200B;指派給現有的更新：
 
-      - 選取&#x200B;**[!UICONTROL Assign to Another Update]**。
+     - 選取&#x200B;**[!UICONTROL Assign to Another Update]**。
 
-      - 在清單中找到更新，然後按一下&#x200B;**[!UICONTROL Select]**。
+     - 在清單中找到更新，然後按一下&#x200B;**[!UICONTROL Select]**。
 
 1. 視需要完成[購物車價格規則](price-rules-cart.md)。
 
@@ -170,9 +158,9 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Code Format]**&#x200B;設定為下列其中一項：
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - （選用）輸入要新增至程式碼開頭的&#x200B;**[!UICONTROL Code Prefix]**。
 
@@ -201,11 +189,11 @@ ht-degree: 0%
 
 ### 方法3：自訂抵用券代碼
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 建立[購物車價格規則](price-rules-cart.md)後，您可以手動將自訂優惠券代碼新增至規則。
 
-1. 在&#x200B;_Admin_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;並選取您要新增自訂優惠券代碼的規則。
+1. 在&#x200B;_Admin_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**並選取您要新增自訂優惠券代碼的規則。
 
 1. 展開&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Add Coupon Code]**。
 
@@ -221,7 +209,7 @@ ht-degree: 0%
 
 若要編輯自訂優惠券代碼或檢視使用詳細資料，請按一下&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 無法編輯或刪除屬於購物車價格規則的主要優惠券代碼。
 
@@ -231,7 +219,7 @@ ht-degree: 0%
 
 如果您有預先定義的優惠券代碼清單，可以從CSV檔案將它們附加至購物車價格規則，而不是分別新增每個代碼。 CSV檔案應該包含一欄和優惠券代碼。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;並選取您要將自訂優惠券代碼匯入其中的規則。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**並選取您要將自訂優惠券代碼匯入其中的規則。
 
 1. 展開&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL Import]**。
 
@@ -260,7 +248,7 @@ ht-degree: 0%
 
    ![匯入優惠券結果](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-若要監視匯入的進度和詳細結果，請按一下&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每個匯入都會顯示為&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;中的單一專案，並選取一個專案。
+若要監視匯入的進度和詳細結果，請按一下&#x200B;**[!UICONTROL View progress in Bulk Actions Log]**，或移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**。 每個匯入都會顯示為&#x200B;**[!UICONTROL Bulk Actions]**中的單一專案，並選取一個專案。
 
 ## 優惠券報告
 
@@ -288,16 +276,16 @@ _優惠券_&#x200B;報告彙總了特定日期範圍內使用的每個優惠券�
 
    - 將&#x200B;**[!UICONTROL Date Used]**&#x200B;設定為下列其中一項：
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _已更新訂單_&#x200B;報告是即時建立的，不需要重新整理。
 
    - 若要定義報告所涵蓋的時間期間，請將&#x200B;**[!UICONTROL Period]**&#x200B;設為下列其中一項：
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - 若要定義報表的日期範圍，請以M/D/YY格式輸入&#x200B;**起始**&#x200B;和&#x200B;**起始**&#x200B;日期。
 
@@ -307,8 +295,8 @@ _優惠券_&#x200B;報告彙總了特定日期範圍內使用的每個優惠券�
 
    - 若要定義報表中包含的抵用券活動，請執行下列任一項作業：
 
-      - 若要納入所有價格規則的所有優惠券活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Any`。
-      - 若要僅包含與特定價格規則相關的活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Specified`並在清單中選取購物車價格規則。
+     - 若要納入所有價格規則的所有優惠券活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Any`。
+     - 若要僅包含與特定價格規則相關的活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Specified`並在清單中選取購物車價格規則。
 
 1. 準備執行報告時，請按一下&#x200B;**[!UICONTROL Show Report]**。
 

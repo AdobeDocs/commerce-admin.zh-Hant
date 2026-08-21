@@ -4,28 +4,14 @@ description: 檢閱Commerce管理員的[!UICONTROL Catalog] &gt； [!UICONTROL C
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3350
+source-wordcount: 3358
 ht-degree: 0%
 
 ---
@@ -38,7 +24,7 @@ ht-degree: 0%
 
 ![產品欄位自動產生](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -53,7 +39,7 @@ ht-degree: 0%
 
 ![產品評論](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -66,7 +52,7 @@ ht-degree: 0%
 
 ![店面](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -75,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 存放區檢視 | 決定網格檢視中預設每頁顯示的產品數目。 |
 | [!UICONTROL Products per Page on List Allowed Values] | 存放區檢視 | 決定清單檢視中顯示的產品數目。 若要提供選項選擇，請輸入多個值，並以逗號分隔。 |
 | [!UICONTROL Products per Page on List Default Value] | 存放區檢視 | 決定清單檢視中預設每頁顯示的產品數目。 |
-| 產品清單排序依據 | 存放區檢視 | 決定搜尋結果清單的排序順序。 選項的選取是由類別的顯示設定和設定為`Used for Sorting in Product Listing`的可用屬性所決定。 預設值設為`Use All Available Attributes`，通常包含最佳值、名稱、價格。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
+| 產品清單排序依據 | 存放區檢視 | 決定搜尋結果清單的排序順序。 選項的選取是由類別的顯示設定和設定為`Used for Sorting in Product Listing`的可用屬性所決定。 預設值設為`Use All Available Attributes`，通常包含最佳值、名稱、價格。 此設定不適用於[!DNL Live Search] [產品清單頁面Widget](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)。 |
 | [!UICONTROL Allow All Products per Page] | 存放區檢視 | 如果設為`Yes`，則在「每頁顯示」控制項中包含`ALL`選項。 |
 | [!UICONTROL Remember Category Pagination] | 全域 | 如果設為`Yes`，目前的類別分頁值會儲存為客戶在[產品清單](../../catalog/navigation-product-listings.md)中從一個類別瀏覽到另一個類別。 儲存此值會使用更多快取儲存空間，並可能影響搜尋引擎為頁面編制索引的方式。 選項： `Yes` / `No` （預設） |
 | [!UICONTROL Use Flat Catalog Category] | 全域 | 啟用[一般類別結構](../../catalog/catalog-flat.md) （不建議使用）。 選項： `Yes` / `No` |
@@ -90,7 +76,7 @@ ht-degree: 0%
 
 ![產品警示](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -106,7 +92,7 @@ ht-degree: 0%
 
 ![產品警示執行設定](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -122,7 +108,7 @@ ht-degree: 0%
 
 ![產品影像預留位置](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -136,11 +122,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 ![最近檢視/比較的產品](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -157,7 +143,7 @@ ht-degree: 0%
 
 ![產品影片](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -172,7 +158,7 @@ ht-degree: 0%
 
 ![價格](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -185,9 +171,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本節中說明的標準搜尋組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)不同。
+>本節中說明的標準搜尋組態與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同。
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
 ![分層導覽 — 自動（均衡價格範圍）](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
@@ -210,7 +196,7 @@ ht-degree: 0%
 
 ![類別許可權](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -226,11 +212,11 @@ ht-degree: 0%
 
 ![搜尋引擎最佳化](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | 存放區檢視 | 決定是否在存放區中實作&#x200B;_常用搜尋詞_。 此設定不適用於使用[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)的存放區。 選項： `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | 存放區檢視 | 決定是否在存放區中實作&#x200B;_常用搜尋詞_。 此設定不適用於使用[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)的存放區。 選項： `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至產品URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Category URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至類別URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Use Categories Path for Product URLs] | 存放區檢視 | 判斷類別路徑是否包含在店面的產品URL中。 這麼做可能會讓多個URL指向相同頁面，因而影響搜尋排名。 若要深入瞭解，請參閱[Canonical meta標籤](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
@@ -247,7 +233,7 @@ ht-degree: 0%
 
 ![類別頂端導覽](./assets/catalog-category-top-navigation.png)<!-- zoom -->
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -257,7 +243,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-您可以使用[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)或Adobe Commerce支援的協力廠商搜尋引擎服務來設定目錄搜尋。 請依照安裝說明操作。
+您可以使用[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)或Adobe Commerce支援的協力廠商搜尋引擎服務來設定目錄搜尋。 請依照安裝說明操作。
 
 ### 具有[!DNL Live Search]的Adobe Commerce
 
@@ -265,7 +251,7 @@ ht-degree: 0%
 
 即時搜尋的![目錄搜尋](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -282,7 +268,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 >[!IMPORTANT]
 >
->- 鑑於Elasticsearch 7於2023年8月宣佈終止支援，Adobe建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=zh-Hant)。
+>- 鑑於Elasticsearch 7於2023年8月宣佈終止支援，Adobe建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 >- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 當版本2.4.6中引入Elasticsearch 8.x支援時，已建立新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
 
 ![目錄搜尋組態選項](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -303,7 +289,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL OpenSearch HTTP Password] | 全域 | 當&#x200B;_啟用Elasticsearch HTTP驗證_&#x200B;設定為`Yes`時，指定OpenSearch或Elasticsearch HTTP驗證的密碼。 |
 | [!UICONTROL OpenSearch Server Timeout] | 全域 | 決定OpenSearch或Elasticsearch伺服器要求逾時前的秒數。 預設值： `15` |
 | [!UICONTROL Test Connection] |  | 驗證OpenSearch或Elasticsearch連線。 |
-| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_&#x200B;與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
+| [!UICONTROL Enable Search Recommendations] | 存放區檢視 | 決定搜尋未傳回任何結果且出現在搜尋結果頁面的`Related search terms`區段下時，是否提供搜尋建議。 選項： `Yes` / `No` <br/>設定為[是]時，會顯示&#x200B;_[!UICONTROL Search Recommendations Count]_與_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;的其他選項。 |
 | [!UICONTROL Search Recommendations Count] | 存放區檢視 | 指定建議所提供的搜尋字詞數目。 依預設，不會顯示超過五個。 |
 | [!UICONTROL Show Results Count for Each Recommendation] | 存放區檢視 | 設定為`Yes`時，為建議的搜尋建議找到的產品數量會顯示在方括弧中。 選項： `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 存放區檢視 | 決定是否顯示搜尋建議是否有常見的拼字錯誤。 啟用後，系統會針對未傳回任何結果且出現在&#x200B;**搜尋結果**&#x200B;頁面的`Did you mean`區段下的任何要求提供搜尋建議。 搜尋建議可能會影響搜尋效能。 設定為`Yes`時，會針對「啟用搜尋建議」和相關欄位顯示其他選項。 選項： `Yes` / `No` |
@@ -315,7 +301,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 ![可下載的產品選項](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -326,7 +312,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 | [!UICONTROL Default Link Title] | 存放區檢視 | 所有可下載標題的預設連結。 |
 | [!UICONTROL Opens Links in New Window] | 網站 | 決定下載連結是否會在新的瀏覽器視窗中開啟。 選項： `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 存放區檢視 | 決定如何將可下載內容的連結傳遞為電子郵件附件或瀏覽器視窗中的內嵌連結。 選項： <br/>**`Attachment`**— 下載連結會以電子郵件附件的形式傳遞。<br/>**`Inline`** — 下載連結會在網頁上以內嵌連結的形式傳遞。 |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 網站 | 決定購買可下載產品的來賓是否必須註冊帳戶並登入以完成結帳程式。 選項： <br/>**`Yes`**— 如果購物車包含可下載的產品，訪客必須註冊帳戶或登入現有帳戶才能完成購買。<br/>**`No`** — 下載連結會以電子郵件內文中的內嵌連結形式傳遞。 <br/> _&#x200B;**注意：**&#x200B;_&#x200B;只有當「可共用」設定為`Yes`時，才能針對下載產品使用訪客簽出。 |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 網站 | 決定購買可下載產品的來賓是否必須註冊帳戶並登入以完成結帳程式。 選項： <br/>**`Yes`**— 如果購物車包含可下載的產品，訪客必須註冊帳戶或登入現有帳戶才能完成購買。<br/>**`No`** — 下載連結會以電子郵件內文中的內嵌連結形式傳遞。 <br/> _**注意：**_&#x200B;只有當「可共用」設定為`Yes`時，才能針對下載產品使用訪客簽出。 |
 
 {style="table-layout:auto"}
 
@@ -334,7 +320,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 ![日期與時間自訂選項](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -351,7 +337,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 ![目錄事件](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -368,7 +354,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 ![規則型產品關係](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

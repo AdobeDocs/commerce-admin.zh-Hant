@@ -4,30 +4,21 @@ description: 設定所有網站產品庫存選項、臨界值和店面顯示的�
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 658
 ht-degree: 1%
 
 ---
 
 # 設定[!DNL Inventory Management]全域選項
 
-這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;底下的整個目錄。
+這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**底下的整個目錄。
 
 設定您網站產品與庫存的預設設定選項。 透過[設定產品選項](product-options.md)，可以覆寫每個產品的部分設定。 若要設定距離優先順序設定，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 
@@ -103,7 +94,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=zh-Hant)。
+     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
 
    - 如果已啟用，請設定&#x200B;**[!UICONTROL Asynchronous batch size]**。 預設批次大小為100。 當大量程式達到此數量時，系統會觸發此事件。
 

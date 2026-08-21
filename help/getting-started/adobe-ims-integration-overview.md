@@ -3,27 +3,17 @@ title: Adobe Identity Management Service (IMS)整合概述
 description: 介紹Adobe Commerce管理員登入與Adobe IMS的選擇性整合
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/O5TJ9TlKRlOrSD-5GRrJC-1DE3XkhQ0IaS-r-OYoJ0Q
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-擁有Adobe Commerce帳戶的Adobe管理員使用者現在可以使用其Adobe ID登入Adobe Commerce。Adobe Identity Management Service (IMS)是Adobe以OAuth 2.0為基礎的身分管理功能，可支援驗證。 將Commerce管理驗證整合至Adobe商務產品的IMS驗證工作流程，可簡化使用其他Adobe產品之使用者的驗證程式。此整合為選用性，且會根據執行個體來啟用。啟用此整合時，只有管理員使用者工作流程會受到影響。 
+擁有Adobe Commerce帳戶的Adobe管理員使用者現在可以使用其Adobe ID登入Adobe Commerce。 Adobe Identity Management Service (IMS)是Adobe以OAuth 2.0為基礎的身分管理功能，可支援驗證。 將Commerce管理驗證整合至Adobe商務產品的IMS驗證工作流程，可簡化使用其他Adobe產品之使用者的驗證程式。 此整合為選用性，且會根據執行個體來啟用。 啟用此整合時，只有管理員使用者工作流程會受到影響。 
 
 Commerce管理員IMS整合所需的模組會封裝在`adobe-ims-metapackage`中，此套件與Adobe Commerce核心發行版本搭配。
 
@@ -40,7 +30,7 @@ Commerce管理員IMS整合所需的模組會封裝在`adobe-ims-metapackage`中�
 
 ## 與IMS整合後管理工作流程和介面的變更
 
-啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_&#x200B;按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
+啟用這項整合後，Commerce管理員使用者在管理員中執行需要重新驗證的例行工作時（例如建立管理員使用者），會體驗到預設Commerce管理員登入和驗證工作流程的變更。 啟用模組需要在Adobe組織層級執行雙因素驗證(2FA)。 預設的管理員登入和2FA已停用，且&#x200B;_[!UICONTROL Sign In with Adobe ID]_按鈕會取代預設的管理員登入表單。 許可權仍由管理員管理。
 
 >[!IMPORTANT]
 >
@@ -65,7 +55,7 @@ Commerce應用程式的使用者帳戶和角色許可權仍由Commerce管理員�
 
 啟用Adobe IMS整合後，管理員使用者必須為需要驗證的Adobe Commerce API端點使用[Adobe IMS OAuth權杖](https://developer.adobe.com/developer-console/docs/guides/authentication/)。 使用者端解決方案會動態取得權杖以供網頁API使用。 在設定這項整合時，REST和SOAP Web API區域會啟用此驗證機制。
 
-請參閱[權杖型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/)，以概略瞭解Web API如何使用Commerce存取權杖，包括IMS存取權杖。
+請參閱[權杖型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token)，以概略瞭解Web API如何使用Commerce存取權杖，包括IMS存取權杖。
 
 ## Commerce工作階段管理和Adobe IMS存取權杖
 

@@ -4,26 +4,15 @@ description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Pay
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/lTYf9W1u7bIxNzypWBj20Eo42VPShCmL-qLwSAmJ8a0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 575
-ht-degree: 1%
+source-wordcount: 590
+ht-degree: 2%
 
 ---
 
@@ -31,7 +20,7 @@ ht-degree: 1%
 
 
 
-Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供強大且安全的付款處理。 若要進一步瞭解，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)。
+Payment Services提供全包式自助服務解決方案，包括沙箱測試和簡單的設定，以提供強大且安全的付款處理。 若要進一步瞭解，請參閱&#x200B;[_付款服務使用手冊_](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)。
 
 若要存取付款服務的組態設定，請在&#x200B;_管理員_&#x200B;側邊欄上移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**，然後按一下&#x200B;**[!UICONTROL Settings]**。
 
@@ -39,7 +28,7 @@ Payment Services提供全包式自助服務解決方案，包括沙箱測試和�
 
 >[!NOTE]
 >
->若要使用舊組態而非[設定](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html?lang=zh-Hant)，請參閱[舊組態](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html?lang=zh-Hant)。
+>若要使用舊組態而非[設定](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/configure-admin)，請參閱[舊組態](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/configure-admin)。
 
 ## [!UICONTROL General]
 
@@ -63,10 +52,10 @@ Payment Services提供全包式自助服務解決方案，包括沙箱測試和�
 |---|---|---|
 | [!UICONTROL Title] | 存放區檢視 | 在結帳期間，在「付款方式」檢視中，新增文字以顯示為此付款選項的標題。 |
 | [!UICONTROL Payment Action] | 網站 | 指定的付款方式的[付款動作](payment-methods.md#payment-actions)。 選項： [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | 網站 | 啟用或停用[3DS安全驗證](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=zh-Hant#3ds)。 選項： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | 網站 | 啟用或停用[3DS安全驗證](https://experienceleague.adobe.com/en/docs/commerce/payment-services/security-compliance/security#3ds)。 選項： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 網站 | 啟用或停用要在結帳頁面上顯示的信用卡欄位。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | 存放區檢視 | 啟用或停用[信用卡存放區](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=zh-Hant)。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 存放區檢視 | 啟用或停用使用保管庫付款方式[&#128279;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=zh-Hant)為管理員中的客戶完成訂單的功能。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | 存放區檢視 | 啟用或停用[信用卡存放區](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 存放區檢視 | 啟用或停用使用保管庫付款方式](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)為管理員[中的客戶完成訂單的功能。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 網站 | 啟用或停用偵錯模式。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
@@ -79,8 +68,8 @@ Payment Services提供全包式自助服務解決方案，包括沙箱測試和�
 |---|---|---|
 | [!UICONTROL Title] | 存放區檢視 | 在結帳期間，在「付款方式」檢視中，新增要顯示為此付款選項標題的文字。 |
 | [!UICONTROL Payment Action] | 網站 | 指定的付款方式的[付款動作](payment-methods.md#payment-actions){target="_blank"}。 選項： [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | 存放區檢視 | 啟用或停用結帳頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | 存放區檢視 | 啟用或停用產品詳細資料頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | 存放區檢視 | 啟用或停用結帳頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | 存放區檢視 | 啟用或停用產品詳細資料頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL  Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | 存放區檢視 | 啟用或停用迷你購物車預覽中的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | 存放區檢視 | 啟用或停用購物車頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | 存放區檢視 | 啟用或停用付款按鈕顯示的稍後付款選項外觀。 選項： [!UICONTROL Yes] / [!UICONTROL No] |

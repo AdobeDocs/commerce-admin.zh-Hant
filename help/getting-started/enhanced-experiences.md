@@ -4,33 +4,15 @@ description: 瞭解旨在協助您最大化客戶參與度、保留率和忠誠�
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
 TQID: https://experienceleague.adobe.com/dvX5iw-uZFfhD8BXiugyXjeZYAPoNM-rcSdnlICZvXo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1776
 ht-degree: 0%
 
 ---
@@ -42,7 +24,7 @@ ht-degree: 0%
 <!-- 
 This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=zh-Hant)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
 -->
@@ -83,7 +65,7 @@ Adobe Commerce和Magento Open Source提供豐富的工具，可依據客戶活�
 
 - **自訂目錄與價目表** — 針對特定公司提供自訂[定價的精選產品選擇](../b2b/catalog-shared-pricing-structure.md)，同時繼續提供一般客戶的一般定價標準目錄。
 
-- **目標市場細分** — 根據屬性[&#128279;](../customers/customer-segments.md) （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅最佳化您的行銷方案。
+- **目標市場細分** — 根據屬性](../customers/customer-segments.md) （例如客戶地址、訂單歷史記錄和購物車內容），以動態內容、促銷活動和橫幅[最佳化您的行銷方案。
 
 - **智慧型購物規則** — 使用價格規則與可在產品或購物車層級觸發的[促銷活動](../merchandising-promotions/introduction.md#promotions)，自訂購物體驗。
 
@@ -111,9 +93,9 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 ## 最佳化業務流程和利潤
 
-- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
+- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
 
-- **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板[&#128279;](admin-dashboard.md)上的此資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
+- **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板](admin-dashboard.md)上的此[資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
 
 - **稅捐** — 使用原生工具管理您的[稅捐](../stores-purchase/taxes.md)，或從[[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"}新增協力廠商副檔名。
 

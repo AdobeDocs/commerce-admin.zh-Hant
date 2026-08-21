@@ -3,27 +3,16 @@ title: 索引管理
 description: 瞭解索引管理，包括觸發重新索引和最佳實務的動作。
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1350
+source-wordcount: 1344
 ht-degree: 0%
 
 ---
@@ -37,7 +26,7 @@ ht-degree: 0%
 索引子可以設定為在儲存時或依排程更新。 除了只支援儲存的Customer Grid外，所有索引都可以使用任一選項。 在儲存時建立索引時，Commerce會在儲存動作時開始重新索引。 「索引管理」頁面會完成更新並排清快取，而重新索引訊息會在一兩分鐘內顯示。 依排程重新索引時，重新索引會根據排程執行，作為cron作業。 如果[cron工作](cron.md)無法更新任何變成無效的索引器，則會顯示系統訊息。 重新索引程式進行期間，您的存放區仍可存取。
 
 >[!NOTE]
-> 使用Live Search、目錄服務或產品推薦的Adobe Commerce商家可選擇使用[SaaS型價格索引器](https://experienceleague.adobe.com/zh-hant/docs/commerce/price-indexer/price-indexing)。
+> 使用Live Search、目錄服務或產品推薦的Adobe Commerce商家可選擇使用[SaaS型價格索引器](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing)。
 
 當需要重新索引時，通知會顯示在頁面頂端。 索引和訊息會根據您採取的重新索引模式和潛在動作清除。 如需有關索引的詳細資訊，請參閱&#x200B;_PHP開發人員指南_&#x200B;中的[應用程式如何實作索引](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)。
 
@@ -61,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->針對使用[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)且已將Elasticsearch設定為全文檢索(`catalogsearch_fulltext`)索引器的存放區：全文檢索索引必須在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時重新執行。
+>針對使用[Adobe Commerce B2B](/help/b2b/introduction.md)且已將Elasticsearch設定為全文檢索(`catalogsearch_fulltext`)索引器的存放區：全文檢索索引必須在大量許可權變更或&#39;permissions&#39;索引器處於&#39;Scheduled&#39;模式時重新執行。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**。
 
@@ -97,7 +86,7 @@ ht-degree: 0%
 
 ## 使用命令列重新索引
 
-Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱&#x200B;_組態指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=zh-Hant#reindex){:target="blank"}。
+Commerce使用命令列提供其他重新索引選項。 如需完整的詳細資料和命令選項，請參閱&#x200B;_組態指南_&#x200B;中的[重新索引](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"}。
 
 ## 索引觸發事件
 

@@ -5,11 +5,11 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
@@ -18,34 +18,34 @@ ht-degree: 6%
 # [!DNL Page Builder]使用手冊 {#page-builder}
 
 - [[!DNL Page Builder]使用手冊](guide-overview.md)
-- [&#x200B; [!DNL Page Builder]簡介](introduction.md)
+- [ [!DNL Page Builder]簡介](introduction.md)
 - [發行說明](release-notes.md)
 - [組態和設定](setup.md)
 - 逐步解說 {#walkthrough}
-   - [第1部分：簡單頁面](1-simple-page.md)
-   - [第2部分：區塊](2-blocks.md)
-   - [第3部分：目錄內容](3-catalog-content.md)
+  - [第1部分：簡單頁面](1-simple-page.md)
+  - [第2部分：區塊](2-blocks.md)
+  - [第3部分：目錄內容](3-catalog-content.md)
 - [Workspace](workspace.md)
 - 版面配置 {#layout}
-   - [列](row.md)
-   - [欄](column.md)
-   - [索引標籤](tabs.md)
+  - [列](row.md)
+  - [欄](column.md)
+  - [索引標籤](tabs.md)
 - 元素 {#elements}
-   - [文字](text.md)
-   - [標題](heading.md)
-   - [按鈕](buttons.md)
-   - [分隔線](divider.md)
-   - [HTML程式碼](html-code.md)
+  - [文字](text.md)
+  - [標題](heading.md)
+  - [按鈕](buttons.md)
+  - [分隔線](divider.md)
+  - [HTML程式碼](html-code.md)
 - 媒體 {#media}
-   - [影像](image.md)
-   - [影片](video.md)
-   - [橫幅](banner.md)
-   - [滑桿](slider.md)
-   - [地圖](map.md)
+  - [影像](image.md)
+  - [影片](video.md)
+  - [橫幅](banner.md)
+  - [滑桿](slider.md)
+  - [地圖](map.md)
 - 新增內容 {#add-content}
-   - [區塊](block.md)
-   - [動態區塊](dynamic-block.md)
-   - [產品](products.md)
-   - [產品推薦](recommendations.md)
+  - [區塊](block.md)
+  - [動態區塊](dynamic-block.md)
+  - [產品](products.md)
+  - [產品推薦](recommendations.md)
 - [範本](templates.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

@@ -3,25 +3,14 @@ title: Commerce銷售與促銷活動簡介
 description: 了解 Commerce 工具如何建立針對性促銷活動和客戶參與機會。
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: 1129
 ht-degree: 1%
 
 ---
@@ -34,7 +23,7 @@ ht-degree: 1%
 
 _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發及產品展示的藝術與科學。 您可能會將[類別導覽](../catalog/navigation-top.md)視為商店的平面圖，將產品的動態呈現視為您可以套用至商店中產品清單的條件。 此外，您可以實作可促進更多產品銷售的程式：
 
-- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [Visual Merchandiser](visual-merchandiser.md) — 一組進階工具，可讓您定位產品，並套用條件來決定哪些產品會出現在類別清單中。
+- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [Visual Merchandiser](visual-merchandiser.md) — 一組進階工具，可讓您定位產品，並套用條件來決定哪些產品會出現在類別清單中。
 
 - [禮品登記處](gift-registries.md) — 讓您的客戶能夠建立特殊場合的禮品登記處，並且邀請他們的朋友和家人從禮品登記處購買他們的禮物。
 
@@ -44,7 +33,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!TIP]
 >
->若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)。
+>若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)。
 
 ## 促銷活動
 
@@ -83,8 +72,9 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
-><br><br>>如果您已啟用並設定套件擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
+><br><br>
+>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 - [電子報](newsletters.md) — 製作電子報、管理您的訂閱者清單、開發內容，並帶動您商店的流量。
 

@@ -3,31 +3,23 @@ title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
 description: 檢閱Commerce管理員的[!UICONTROL Services] &gt； [!UICONTROL Commerce Services Connector]頁面上的組態設定。
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 2%
+source-wordcount: 246
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-若要瞭解如何將您的商店連結至Adobe Commerce服務，請參閱[Commerce服務](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=zh-Hant)。
+若要瞭解如何將您的商店連結至Adobe Commerce服務，請參閱[Commerce服務](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)。
 
 {{config}}
 
@@ -60,7 +52,7 @@ ht-degree: 2%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Project] | 全域 | 將所有SaaS資料空間分組的SaaS專案名稱。 如果沒有任何SaaS專案，則會顯示&#x200B;_建立專案_&#x200B;按鈕。 |
-| [!UICONTROL Data Space] | 全域 | 列出指定SaaS專案中的SaaS資料空間。 SaaS資料空間的數目取決於您的[Commerce授權](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=zh-Hant)：<br />Adobe Commerce — 一個生產資料空間；兩個測試資料空間；<br />Magento Open Source — 一個生產資料空間；無測試資料空間 |
+| [!UICONTROL Data Space] | 全域 | 列出指定SaaS專案中的SaaS資料空間。 SaaS資料空間的數目取決於您的[Commerce授權](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)：<br />Adobe Commerce — 一個生產資料空間；兩個測試資料空間；<br />Magento Open Source — 一個生產資料空間；無測試資料空間 |
 
 {style="table-layout:auto"}
 
