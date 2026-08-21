@@ -4,11 +4,20 @@ description: 瞭解如何建立並列印發票，以支援訂單處理與客戶�
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
@@ -77,7 +86,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當您特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款動作](../configuration-reference/sales/payment-methods.md#payment-actions)設定為`Authorize and Capture` （自動產生發票）時，_[!UICONTROL Invoice]_選項不會出現。 如果下訂單且付款方式的付款動作設為`Authorize`且訂單已開立商業發票，也會發生這種情況。
+   >當您特定[付款方式](../configuration-reference/sales/payment-methods.md)的[付款動作](../configuration-reference/sales/payment-methods.md#payment-actions)設定為`Authorize and Capture` （自動產生發票）時，_[!UICONTROL Invoice]_&#x200B;選項不會出現。 如果下訂單且付款方式的付款動作設為`Authorize`且訂單已開立商業發票，也會發生這種情況。
 
    ![發票銷售訂單](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -137,7 +146,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_格線中，找出發票，然後按一下_&#x200B;動作&#x200B;_欄中的&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;格線中，找出發票，然後按一下_&#x200B;動作&#x200B;_欄中的&#x200B;**[!UICONTROL View]**。
 
 1. 在發票頂端，按一下&#x200B;**[!UICONTROL Print]**&#x200B;以產生發票的PDF。
 
@@ -147,7 +156,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
 
-1. 在&#x200B;_[!UICONTROL Invoices]_網格中，選取要列印之每張商業發票的核取方塊。
+1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;網格中，選取要列印之每張商業發票的核取方塊。
 
 1. 將&#x200B;**[!UICONTROL Actions]**&#x200B;控制項設為`PDF Invoices`。
 

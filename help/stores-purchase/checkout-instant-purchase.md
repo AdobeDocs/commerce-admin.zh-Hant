@@ -4,11 +4,19 @@ description: 瞭解立即購買功能，以及它如何提供註冊客戶帳戶�
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
 TQID: https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 404
@@ -67,7 +75,7 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 
 ### 步驟3：啟用立即購買
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段下，選擇&#x200B;**[!UICONTROL Sales]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段下，選擇&#x200B;**[!UICONTROL Sales]**。
 
 1. 展開&#x200B;**[!UICONTROL Instant Purchase]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 

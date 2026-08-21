@@ -5,11 +5,23 @@ exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 1981
@@ -23,17 +35,17 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 ![儲存產品屬性 — 更新快取訊息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
+_[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
 
 >[!IMPORTANT]
 >
->變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_**未直接編輯**_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
+>變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_&#x200B;**未直接編輯**&#x200B;_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
 
 清除快取後，請一律重新整理瀏覽器，以確保您可以看到最新的檔案。 清除Commerce快取不會清除您的網頁瀏覽器快取。 您可能需要清除瀏覽器快取才能檢視更新的內容。
 
 有關Adobe Commerce快取的其他技術資訊，請參閱&#x200B;_Commerce前端開發指南_&#x200B;中的[快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"}。
 
-執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_頁面：
+執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_&#x200B;頁面：
 
 - 按一下工作區上方訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結。
 - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。
@@ -93,7 +105,7 @@ _[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其�
 
 ## 排清產品影像快取
 
-1. 在&#x200B;_[!UICONTROL Additional Cache Management]_底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**以清除預先產生的產品影像檔案。
+1. 在&#x200B;_[!UICONTROL Additional Cache Management]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;以清除預先產生的產品影像檔案。
 
    `Image cache was cleaned`訊息會顯示在工作區的頂端。
 

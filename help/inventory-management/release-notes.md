@@ -4,11 +4,22 @@ description: 檢閱 [!DNL Inventory Management] 發行說明，瞭解每個社�
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 3542
@@ -133,11 +144,11 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)超過10,000個專案的存貨存貨管理已改善。 以前，績效問題有時會阻止商家在啟動其網站之前編輯管理員中的庫存。<!--- MC-42643-->
 
-![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_&#x200B;區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修正問題](../assets/fix.svg) API更新銷退折讓單後，Adobe Commerce不再建立重複的產品預訂。<!--- MC-41757-->
 
-![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_標籤切換至_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
+![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;標籤切換至&#x200B;_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
 
 ![已修正問題](../assets/fix.svg)可銷售產品數量與庫存產品數量現在已正確同步。 以前，系統不會為取消的訂單重新建立存貨預留補償。<!--- MC-42485-->
 

@@ -6,11 +6,20 @@ role: Admin
 feature: System, Security
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 536
@@ -76,7 +85,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption)的詳細[指南。
+   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)的詳細指南。
 
    ```bash
    bin/magento encryption:key:change
