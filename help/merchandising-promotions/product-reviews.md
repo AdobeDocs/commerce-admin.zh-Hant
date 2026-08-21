@@ -3,7 +3,7 @@ title: 產品評論
 description: 瞭解產品評論如何增強您的商店，並為您的產品帶來更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -37,7 +37,7 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含Yotpo廠商開發的擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br><br>
->如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
+>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 店面的產品評論
 

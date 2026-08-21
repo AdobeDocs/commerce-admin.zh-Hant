@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->價格規則會與其他系統規則一起自動處理。 處理頻率取決於[cron組態](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 確定已在系統中後，請測試規則。
+>價格規則會與其他系統規則一起自動處理。 處理頻率取決於[cron組態](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。 建立價格規則時，請留出足夠的時間讓價格規則進入系統。 確定已在系統中後，請測試規則。
 
 ## 組態設定 {#config}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >自2024年6月起，Adobe Commerce商家將無法再透過目前的UPS整合進行交易。 這是因為原生Adobe Commerce整合使用的United Parcel Service (UPS) API目前不支援必要的OAuth 2.0安全性模型。 若要啟用整合，請[在UPS開發人員平台](https://developer.ups.com/get-started)上建立應用程式，以取得OAuth 2.0所需的認證。 在Commerce UPS送貨設定中使用新認證做為`username`和`password`。 若要深入瞭解安全性模式變更，請參閱[開發人員入口網站存取金鑰移轉指南_](https://developer.ups.com/oauth-developer-guide)。<br/>
 >
->商家應該[套用品質修補程式更新](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27146)至其商店，以便從SOAP API移轉至RESTful API （支援OAuth 2.0驗證通訊協定）。
+>商家應該[套用品質修補程式更新](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27146)至其商店，以便從SOAP API移轉至RESTful API （支援OAuth 2.0驗證通訊協定）。
 
 
 ## 可用檔案 {#docs-links}
@@ -76,9 +76,9 @@ ht-degree: 0%
 | 檔案資源 | 說明 |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4管理員使用手冊](/help/landing/home.md) | 在Admin中工作的商戶適用的檔案和資源。 |
-| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
-| [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
-| [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
+| [Adobe Commerce服務檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/home) | 支援銷售服務集合的檔案，可協助商家將其業務的關鍵元件與商店整合。 |
+| [雲端基礎結構上的Commerce指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/overview) | 在受管理、自動託管式雲端平台上部署Adobe Commerce的逐步程式。 |
+| [Adobe Commerce 2.4作業指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/operational-guides/home) | 有關在雲端和內部部署專案上開發、部署及維護Adobe Commerce的概念、流程、工具和最佳實務的系統檔案。 |
 | [Adobe Commerce 2.4開發人員檔案](https://developer.adobe.com/commerce/docs/) | 以開發人員為中心的檔案，用於自訂Adobe Commerce及與協力廠商系統整合。 |
 
 {style="table-layout:auto"}
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。 如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。 如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 ## reCAPTCHA表單清單 {#recaptcha-forms-list}
 
@@ -101,8 +101,8 @@ ht-degree: 0%
 - [!UICONTROL Enable for Newsletter Subscription]
 - [!UICONTROL Enable for Gift Card] （僅限Adobe Commerce）
 - [!UICONTROL Enable for Invitation Create Account]
-- [!UICONTROL Enable for Send To Friend] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+- [!UICONTROL Enable for Send To Friend] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 - [!UICONTROL Enable for Checkout/Placing Order]
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
-- [!UICONTROL Enable for PayPal PayflowPro payment form] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+- [!UICONTROL Enable for PayPal PayflowPro payment form] — 僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}

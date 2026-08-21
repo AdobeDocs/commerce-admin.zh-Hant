@@ -3,7 +3,7 @@ title: 快取管理
 description: 瞭解如何使用快取管理工具，這些工具可讓您輕鬆改善網站效能。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -121,7 +121,7 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 ## 使用命令列排清
 
-有權存取Commerce應用程式伺服器的系統管理員和開發人員也可使用Commerce CLI從命令列管理快取和快取設定。 請參閱&#x200B;_組態指南_&#x200B;中的[管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
+有權存取Commerce應用程式伺服器的系統管理員和開發人員也可使用Commerce CLI從命令列管理快取和快取設定。 請參閱&#x200B;_組態指南_&#x200B;中的[管理快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
 
 ## 控制項
 
@@ -155,11 +155,11 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 開發人員和系統整合經銷商在自訂或與Adobe Commerce整合時（例如使用GraphQL API開發整合），可使用這些值來設定和管理快取。
 
-[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `cache_type_id`也用於使用Commerce CLI從應用程式伺服器命令列進行快取管理。 例如，` bin/magento cache:status config`會顯示組態快取的目前狀態。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `cache_type_id`也用於使用Commerce CLI從應用程式伺服器命令列進行快取管理。 例如，` bin/magento cache:status config`會顯示組態快取的目前狀態。
 
 >[!NOTE]
 >
->開發人員和系統整合經銷商可以自訂和擴充Commerce快取管理系統，以支援自訂模組和整合。 如需詳細資訊，請參閱&#x200B;_Adobe Commerce設定指南_&#x200B;中的[設定快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)。
+>開發人員和系統整合經銷商可以自訂和擴充Commerce快取管理系統，以支援自訂模組和整合。 如需詳細資訊，請參閱&#x200B;_Adobe Commerce設定指南_&#x200B;中的[設定快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/caching-overview)。
 
 <!-- prettier-ignore -->
 
@@ -202,7 +202,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 - `Sessioned` — 在工作階段瀏覽期間，會為與商店互動的購物者指派工作階段ID。 互動包括比較產品或新增產品至購物車等活動。 在工作階段期間產生的快取頁面僅供該購物者在工作階段期間使用。
 - `Customer` — 已針對使用註冊帳戶登入併購物的客戶建立客戶工作階段。 在會議期間，系統會根據指派的客戶群組，向客戶顯示特殊優惠、促銷和價格。
 
-如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
+如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
 
 **_若要設定整頁快取:_**
 
@@ -221,7 +221,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
 1. 若要設定頁面快取的逾時，請輸入&#x200B;**[!UICONTROL TTL for public content]**。 （預設值為`86400`）
 
-1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
+1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
 
 1. 如果使用Varnish，請依照下列方式完成&#x200B;**[!UICONTROL Varnish Configuration]**&#x200B;區段：
 
@@ -231,7 +231,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
    - **[!UICONTROL Backend port]** — 識別用來產生設定檔的後端連線埠。 預設值為： `8080`。
 
-   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
+   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
 
    - 若要將設定匯出為`varnish.vcl`檔案，請按一下您使用的Varnish版本的按鈕。
 

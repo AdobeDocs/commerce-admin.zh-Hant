@@ -29,13 +29,13 @@ ht-degree: 0%
 
 隨著業務責任變更，您可能需要將您的Adobe Commerce帳戶轉移給新所有者或其他電子郵件地址。 此轉移需要變更與帳戶相關聯的主要使用者電子郵件。
 
-下列資訊說明Adobe Commerce帳戶(MAGEID)的轉移程式。 其中不包含雲端基礎結構專案所有權或[!DNL New Relic]所有權的變更Adobe Commerce。 如需有關雲端專案存取許可權的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理使用者存取許可權](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access)。
+下列資訊說明Adobe Commerce帳戶(MAGEID)的轉移程式。 其中不包含雲端基礎結構專案所有權或[!DNL New Relic]所有權的變更Adobe Commerce。 如需有關雲端專案存取許可權的詳細資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[管理使用者存取許可權](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/project/user-access)。
 
 >[!IMPORTANT]
 >
 >如果新帳戶擁有者使用「共用存取」購買擴充功能，帳戶轉移一開始，這些擴充功能的存取權就會遺失。
 >
->在要求帳戶轉移之前，請確定新擁有者從[他們的 [!DNL Commerce Marketplace] 帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[[!DNL Commerce Marketplace] 團隊](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)要求退款。 擴充功能購買無法轉移到其他帳戶。
+>在要求帳戶轉移之前，請確定新擁有者從[他們的 [!DNL Commerce Marketplace] 帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[[!DNL Commerce Marketplace] 團隊](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)要求退款。 擴充功能購買無法轉移到其他帳戶。
 
 ## 識別您的傳輸型別
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您無法存取目前所有者的電子郵件，請要求您的IT團隊為您公司電子郵件系統中的帳戶電子郵件地址設定電子郵件轉寄。 如果無法設定電子郵件轉寄，請確定新帳戶擁有者擁有Adobe ID，然後[提交支援要求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)，其中包含啟動帳戶轉送所需的全部詳細資料。
+>如果您無法存取目前所有者的電子郵件，請要求您的IT團隊為您公司電子郵件系統中的帳戶電子郵件地址設定電子郵件轉寄。 如果無法設定電子郵件轉寄，請確定新帳戶擁有者擁有Adobe ID，然後[提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)，其中包含啟動帳戶轉送所需的全部詳細資料。
 
 1. 導覽至[account.adobe.com](https://account.adobe.com/)並完成Adobe登入。
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 
 完成[新Adobe ID和電子郵件變更](#new-adobe-id-and-email-change)、[僅電子郵件變更](#email-change)或[Adobe ID帳戶切換](#adobe-id-account-switch)程式後，請完成這些步驟。
 
-1. 作為新擁有者，[提交支援要求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
+1. 作為新擁有者，[提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 
    包含下列詳細資料：
 

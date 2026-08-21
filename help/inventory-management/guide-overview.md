@@ -70,5 +70,5 @@ ht-degree: 1%
 
 如果您需要本指南未涵蓋的資訊或問題，請使用下列資源：
 
-- [安裝詳細目錄後庫存狀態不正確](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票證以接收其他說明。
+- [安裝詳細目錄後庫存狀態不正確](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票證以接收其他說明。

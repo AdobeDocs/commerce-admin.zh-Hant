@@ -2,7 +2,7 @@
 title: 店面配置範例
 description: 檢閱店面頁面版面配置範例，瞭解欄寬、主要內容區域和側邊欄在不同的Adobe Commerce主題中的位置變化。
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

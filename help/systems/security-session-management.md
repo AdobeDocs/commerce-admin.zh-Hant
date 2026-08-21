@@ -4,7 +4,7 @@ description: 瞭解如何設定工作階段管理，以保護管理員和店面�
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -81,7 +81,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce和Magento Open Source可讓您驗證工作階段變數，藉此防範可能的工作階段固定攻擊，或嘗試毒害或劫持使用者工作階段。 「工作階段驗證設定」會決定工作階段變數在每次商店造訪期間的驗證方式，以及工作階段ID是否包含在商店的URL中。
 
-如需技術資訊，請參閱&#x200B;_組態指南_&#x200B;中的[使用工作階段存放區的Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session)。
+如需技術資訊，請參閱&#x200B;_組態指南_&#x200B;中的[使用工作階段存放區的Redis](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/redis-session)。
 
 ![一般設定 — Web工作階段驗證](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請參閱[產品可用性](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)，以取得可用Adobe Commerce版本所支援B2B Commerce擴充功能版本的資訊。
+>請參閱[產品可用性](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/product-availability)，以取得可用Adobe Commerce版本所支援B2B Commerce擴充功能版本的資訊。
 
 ## B2B v1.5.3
 
@@ -308,7 +308,7 @@ B2B v1.5.1版本包含品質改良和錯誤修正。
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p3+和2.4.6-p8+安全性修補程式發行版本。
 與Adobe Commerce版本2.4.8-beta1、2.4.7至2.4.7-p2、2.4.6至2.4.6-p7相容。
 
-Adobe Commerce B2B 1.5.0版也與PHP 8.3相容，並支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+Adobe Commerce B2B 1.5.0版也與PHP 8.3相容，並支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
@@ -487,13 +487,13 @@ B2B v1.4.2版本包含品質改良與錯誤修正。
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。 如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+目前不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+>Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。 如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B版本的相容性。 此外，B2B 1.4.2+目前不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/concepts/application-server)。
 
 ### B2B v1.4.1
 
 *2023年8月7日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
+[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
 
 B2B v1.4.1版本包含品質改良和錯誤修正。
 
@@ -511,7 +511,7 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 *2023年6月13日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
+[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
 
 此發行版本包含B2B議價報價和多個錯誤修正的新功能和增強功能。
 
@@ -537,7 +537,7 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 #### 已知問題
 
-如果您在[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)版上安裝或升級B2B 1.4.0，會發生下列錯誤：
+如果您在[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)版上安裝或升級B2B 1.4.0，會發生下列錯誤：
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -549,7 +549,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-您可以修正此問題，方法是為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全性套件新增手動相依性。 如需指示，請參閱[Adobe Commerce知識庫](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)。
+您可以修正此問題，方法是為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全性套件新增手動相依性。 如需指示，請參閱[Adobe Commerce知識庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)。
 
 ### B2B v1.3.5-p13
 
@@ -617,7 +617,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->將Commerce從2.4.6升級至[最新版本](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions#2.4.6)後，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
+>將Commerce從2.4.6升級至[最新版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/versions#2.4.6)後，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
 
 - 新增對Adobe Commerce 2.4.6的支援。
 
@@ -843,7 +843,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - &#x200B;<!--- MC-41260--> 按一下公司使用者建立之訂單的&#x200B;**[!UICONTROL Return]**&#x200B;按鈕，現在會如預期將管理使用者重新導向至「建立退貨」頁面。 之前，管理員會重新導向至「訂單歷史記錄」頁面。
 
-- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} <!--- MC-40798-->在`bin/magento setup:upgrade`期間執行`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply`方法時，Adobe Commerce不再因記憶體不足錯誤而失敗。 以往，Adobe Commerce在初始化許可權時並未使用批次大小進行集合，而是載入所有公司角色的集合。
+- 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} <!--- MC-40798-->在`bin/magento setup:upgrade`期間執行`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply`方法時，Adobe Commerce不再因記憶體不足錯誤而失敗。 以往，Adobe Commerce在初始化許可權時並未使用批次大小進行集合，而是載入所有公司角色的集合。
 
 - &#x200B;<!--- MC-40551--> 公司使用者現在可以編輯和更新客戶自訂屬性值。 以前，這些屬性無法與建立和編輯使用者表單正確繫結。 公司使用者可以輸入不同的屬性值，但Adobe Commerce未正確儲存這些值。
 
@@ -987,7 +987,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 當採購員建立採購單，然後導覽至結帳頁面時，Adobe Commerce有時會顯示404錯誤。 當採購員先前使用線上付款方式建立不同的採購單，而未完成先前的採購就瀏覽至結帳頁面時，就會發生此錯誤。 採購員仍然可以下採購單。 **_因應措施_**：無。<!--- B2B-1605-->
 
-- 在採購單結帳期間，即使買方在最後結帳期間變更付款方式，特定付款方式的折扣仍會持續存在。 因此，客戶可獲得無權享有的折扣。 發生此問題是因為儘管付款方式有所變更，原始付款方式的購物車規則仍會套用。 **_因應措施_**：無。 請參閱[Adobe Commerce 2.4.2 B2B已知問題：付款方式變更後，線上採購單的折扣仍會保留](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _知識庫_&#x200B;文章。<!-- B2B-1012 -->
+- 在採購單結帳期間，即使買方在最後結帳期間變更付款方式，特定付款方式的折扣仍會持續存在。 因此，客戶可獲得無權享有的折扣。 發生此問題是因為儘管付款方式有所變更，原始付款方式的購物車規則仍會套用。 **_因應措施_**：無。 請參閱[Adobe Commerce 2.4.2 B2B已知問題：付款方式變更後，線上採購單的折扣仍會保留](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _知識庫_&#x200B;文章。<!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput`查詢會傳回已刪除的請購單清單的詳細資料，而非其餘的請購單清單。<!--- MC-39894-->
 
@@ -1117,7 +1117,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 已新增修正，以允許商店管理員將產品新增至不在共用目錄中的訂單。 以前，新增不在目錄中的專案時，會出現錯誤訊息。
 
-- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}先前，執行命令`php bin/magento indexer:set-dimensions-mode catalog_product_price website`然後嘗試建立共用目錄之後，會發生錯誤。 此問題已修正。
+- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}先前，執行命令`php bin/magento indexer:set-dimensions-mode catalog_product_price website`然後嘗試建立共用目錄之後，會發生錯誤。 此問題已修正。
 
 - 新增公司並將公司管理員指派至非預設網站時，會傳送錯誤的網站ID，進而導致錯誤。 此問題已修正。
 

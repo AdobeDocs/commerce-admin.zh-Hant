@@ -4,7 +4,7 @@ description: 瞭解如何設定瀏覽器功能偵測，以及在需要變更客�
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: https://experienceleague.adobe.com/zPxdplYIYblw6-tsDvxEmvKfAx-2M6opb6qjX7YL1I4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -36,7 +36,7 @@ ht-degree: 0%
 - 如果瀏覽器的隱私權設定不允許Cookie，您可以設定系統自動將其重新導向至[啟用Cookie](../content-design/pages.md#enable-cookies)頁面，該頁面說明如何在大部分的瀏覽器中進行建議的設定。
 - 如果瀏覽器的隱私權設定不允許JavaScript，您可以設定系統在每個頁面的標頭上方顯示以下訊息。
 
-如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#supported-browsers)。
+如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[支援的瀏覽器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/system-requirements#supported-browsers)。
 
 ## 設定瀏覽器功能偵測
 

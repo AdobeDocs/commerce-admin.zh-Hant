@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如需為買家建立報價的賣家影片示範，請參閱&#x200B;_Commerce影片和教學課程_&#x200B;中的[銷售代表啟動報價](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)。
+>如需為買家建立報價的賣家影片示範，請參閱&#x200B;_Commerce影片和教學課程_&#x200B;中的[銷售代表啟動報價](https://experienceleague.adobe.com/zh-hant/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)。
 
 ### 從報價格線建立報價
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如需明細專案折扣運作方式的影片示範，請參閱&#x200B;_Commerce影片和教學課程_&#x200B;中的[銷售代表將折扣套用至報價明細專案](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)。
+   >如需明細專案折扣運作方式的影片示範，請參閱&#x200B;_Commerce影片和教學課程_&#x200B;中的[銷售代表將折扣套用至報價明細專案](https://experienceleague.adobe.com/zh-hant/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)。
 
 1. 視需要套用報價層級折扣：
 

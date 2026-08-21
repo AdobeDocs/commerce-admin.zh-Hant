@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要深入瞭解，請參閱[!DNL Commerce]開發人員檔案中的[多個網站或商店](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
+>若要深入瞭解，請參閱[!DNL Commerce]開發人員檔案中的[多個網站或商店](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
 
 ## 網站
 
