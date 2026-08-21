@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: 331
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 IMS整合停用後，Commerce部署會還原為預設的Commerce驗證工作流程和密碼原則。 啟用或停用此整合時，只會影響管理員使用者工作流程。
 
-如需Commerce管理員登入的概觀，請參閱[您的管理員帳戶](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=zh-Hant)。
+如需Commerce管理員登入的概觀，請參閱[您的管理員帳戶](/help/getting-started/admin-signin.md)。
 
 ## 步驟1：停用整合
 
@@ -58,7 +58,7 @@ Admin Adobe IMS integration is disabled.
 
 * 記得先前已有的Commerce密碼（亦即在IMS整合之前建立的Commerce密碼）的Commerce管理員使用者，可使用此密碼登入管理員。
 
-* 沒有既有Commerce密碼或忘記密碼的Commerce管理員使用者必須建立新密碼。 若要建立新密碼，管理員使用者可以使用Commerce登入頁面上的[!UICONTROL Forgot your password?]功能來建立新密碼。 請參閱[重設客戶密碼](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=zh-Hant)。 Commerce不接受空白的密碼欄位。
+* 沒有既有Commerce密碼或忘記密碼的Commerce管理員使用者必須建立新密碼。 若要建立新密碼，管理員使用者可以使用Commerce登入頁面上的[!UICONTROL Forgot your password?]功能來建立新密碼。 請參閱[重設客戶密碼](/help/customers/password-reset.md)。 Commerce不接受空白的密碼欄位。
 
 ## 停用整合後
 

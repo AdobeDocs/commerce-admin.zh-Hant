@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->不再建議使用平面型錄作為最佳實務。 據悉，繼續使用此功能會導致效能降低和其他索引問題。 [說明中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hant)提供詳細的說明和解決方案。<br/><br/>受影響的版本包括：<br/> — 雲端基礎結構上的Adobe Commerce、2.3.x和更高版本<br/>- Adobe Commerce （內部部署）、2.3.x和更高版本<br/>- Magento Open Source、2.3.x和更高版本<br/><br/>在任何發行版本中，某些擴充功能僅適用於平面表格，因此如果您停用平面表格，就會產生風險。 如果您知道有些擴充功能使用一般目錄索引子，則將這些值設定為`No`時，您必須注意這項風險。
+>不再建議使用平面型錄作為最佳實務。 據悉，繼續使用此功能會導致效能降低和其他索引問題。 [說明中心](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons)提供詳細的說明和解決方案。<br/><br/>受影響的版本包括：<br/> — 雲端基礎結構上的Adobe Commerce、2.3.x和更高版本<br/>- Adobe Commerce （內部部署）、2.3.x和更高版本<br/>- Magento Open Source、2.3.x和更高版本<br/><br/>在任何發行版本中，某些擴充功能僅適用於平面表格，因此如果您停用平面表格，就會產生風險。 如果您知道有些擴充功能使用一般目錄索引子，則將這些值設定為`No`時，您必須注意這項風險。
 
 Commerce通常會根據實體屬性值(EAV)模型，將目錄資料儲存在多個表格中。 由於產品屬性儲存在許多表格中，因此SQL查詢有時很長且複雜。
 

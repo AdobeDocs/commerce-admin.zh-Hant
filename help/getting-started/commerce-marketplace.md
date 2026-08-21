@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1425
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -47,19 +47,19 @@ ht-degree: 0%
 ### Commerce資源
 
 - [設定Adobe Commerce的I/O事件](https://developer.adobe.com/commerce/extensibility/events/)
-- [為Adobe Commerce設定事件](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [為Adobe Commerce設定事件](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 - [設定Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [將擴充功能轉換為應用程式](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder資源
 
 - [Commerce App Builder概觀](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [為Adobe Developer App Builder設定API網格](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [部署App Builder應用程式](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [適用於App Builder應用程式的CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [為Adobe Developer App Builder設定API網格](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+- [部署App Builder應用程式](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [適用於App Builder應用程式的CI/CD](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - App Builder/Developer Console快速入門
-  - [App Builder快速入門](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [瞭解專案和工作環境](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builder快速入門](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [瞭解專案和工作環境](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace]認證
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)或[升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)和[擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
+>從Adobe Commerce和Magento Open Source 2.4.0開始，Web安裝精靈已移除，您必須使用命令列[安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/advanced)或[升級](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)您的執行個體。 此需求也包含[模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/modules/upgrade)和[擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 Commerce的&#x200B;_內部部署_&#x200B;安裝中，[!DNL Marketplace]次購買的安裝程式與[Adobe雲端架構](https://www.adobe.com/commerce/magento/enterprise.html)上託管的安裝不同。
 

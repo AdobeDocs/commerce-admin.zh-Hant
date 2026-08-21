@@ -22,9 +22,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1709
+source-wordcount: 1774
 ht-degree: 0%
 
 ---
@@ -45,14 +45,14 @@ ht-degree: 0%
 
 您可以部署您的Adobe Commerce或Magento Open Source執行個體，以便在&#x200B;_生產_&#x200B;或&#x200B;_開發人員模式_&#x200B;中執行。 只有在&#x200B;_開發人員模式_&#x200B;中執行存放區時，才能存取專為開發人員設計的工具與組態設定。
 
-只有具有適當許可權的使用者才能從伺服器的命令列變更操作模式。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中的[設定作業模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=zh-Hant)。
+只有具有適當許可權的使用者才能從伺服器的命令列變更操作模式。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中的[設定作業模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/set-mode)。
 
 商家檔案中的大部分主題適用於以生產模式執行的Commerce執行個體。 不過，下列組態設定和工具僅可在安裝以開發人員模式執行時使用。
 
 ## 前端開發工作流程
 
-前端開發工作流程型別決定在開發期間使用者端或伺服器端上發生的編譯較少。較少是CSS的擴充功能，具有其他功能和慣例，並可產生精簡的程式碼。建議在主題開發中使用使用者端較少的編譯。伺服器端編譯是預設模式。生產模式下的存放區無法使用開發工作流程選項。
-請參閱Commerce開發人員檔案中的[使用者端LESS編譯與伺服器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}。
+前端開發工作流程型別決定在開發期間使用者端或伺服器端上發生的編譯較少。 較少是CSS的擴充功能，具有其他功能和慣例，並可產生精簡的程式碼。 建議在主題開發中使用使用者端較少的編譯。 伺服器端編譯是預設模式。 生產模式下的存放區無法使用開發工作流程選項。
+請參閱Commerce開發人員檔案中的[使用者端LESS編譯與伺服器端](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"}。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 將數位簽章新增至靜態檔案的URL，讓瀏覽器可偵測何時有較新版本的檔案可用。 可使用數位簽名追蹤的靜態檔案包括JavaScript、CSS、影像和字型。 簽章會直接附加至基底URL之後的路徑。 如果檔案的簽章與瀏覽器快取中儲存的簽章不同，則會使用較新版本的檔案。
 
-請參閱Commerce開發人員檔案中的[靜態內容簽署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=zh-Hant){:target="_blank"}。
+請參閱Commerce開發人員檔案中的[靜態內容簽署](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}。
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 依預設，Adobe Commerce和Magento Open Source不會合併、捆綁或最小化檔案，而專案開發人員應決定應使用哪些檔案最佳化方法。
 
-如需詳細資訊，請參閱[效能最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[效能最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/overview)。
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ ht-degree: 0%
 >
 >開發人員使用者端限制只能在[開發人員模式](../systems/developer-tools.md#operation-modes)中設定。
 
-如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[允許要求的自訂VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=zh-Hant)。
+如需技術資訊，請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[允許要求的自訂VCL](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)。
 
 **_若要將您的IP位址新增至允許清單:_**
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 >
 >範本路徑提示只能在[開發人員模式](../systems/developer-tools.md#operation-modes)中編輯。
 
-請參閱Commerce開發人員檔案中的[尋找範本、版面配置和樣式](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"}。
+請參閱Commerce開發人員檔案中的[尋找範本、版面配置和樣式](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"}。
 
 ![店面範例 — 範本路徑提示](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 當您的網站處於開發狀態時，您可能會在`robots.txt`檔案中為網頁爬蟲包含指示，以避免為網站編制索引。 在啟動之前，您可以變更指示，允許網站編制索引。
 
-如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant)。
+如需技術資訊，請參閱雲端基礎結構指南上的&#x200B;_Commerce_&#x200B;中的[新增Sitemap和robots.txt](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)。
 
 ![網站地圖格線](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
    
 >[!NOTE]
 >
->如果您的網站使用[Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=zh-Hant)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
+>如果您的網站使用[Apache](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/web-server/apache)網頁伺服器引擎，您應該更新網站根目錄中的[`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)檔案，將任何其他Sitemap要求導向適當的位置。
 
 ## 欄說明
 
@@ -152,13 +152,13 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Frequency]**&#x200B;設定為下列其中一項：
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - 針對&#x200B;**[!UICONTROL Priority]**，請輸入介於`0.0`到`1.0`之間的值。 零的優先順序最低。
 
@@ -206,16 +206,16 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Generation Method]**&#x200B;設定為下列其中一項：
 
-      - `Standard` — 處理記憶體中的所有資料。
-      - `Batch` — 對大型目錄使用記憶體最佳化處理。 此選項從2.4.9版開始可用。
+     - `Standard` — 處理記憶體中的所有資料。
+     - `Batch` — 對大型目錄使用記憶體最佳化處理。 此選項從2.4.9版開始可用。
 
    - 將&#x200B;**[!UICONTROL Start Time]**&#x200B;設定為您要更新Sitemap的時、分、秒。
 
    - 將&#x200B;**[!UICONTROL Frequency]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - 針對&#x200B;**[!UICONTROL Error Email Recipient]**，輸入在Sitemap更新期間發生錯誤時接收通知之人員的電子郵件地址。
 

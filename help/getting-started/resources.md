@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe提供豐富的商務和技術資源、自助工具及服務，協助您邁
 
 | 生態系統資源 | 說明 |
 | ------------------ | ----------- |
-| [產品檔案](https://experienceleague.adobe.com/docs/commerce.html?lang=zh-Hant) | 商家、設計人員和開發人員可以使用此檔案深入瞭解insight如何運用[!DNL Commerce]的強大功能來發展業務。 |
+| [產品檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce) | 商家、設計人員和開發人員可以使用此檔案深入瞭解insight如何運用[!DNL Commerce]的強大功能來發展業務。 |
 | [Commerce資源庫](https://business.adobe.com/tw/resources/commerce.html) | 存取Ebooks、Commerce白皮書和網路研討會，以獲得專業的insight和線上業務資源，協助開發及改善您的商店。 |
 | [Adobe產品安全性事件回應](https://helpx.adobe.com/tw/security.html) | 加入安全性警示登入，以取得潛在弱點和[安全性最佳實務](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf)的最新資訊。 |
 | [部落格](https://business.adobe.com/tw/blog/?ch_Products=Commerce) | 請參閱部落格以取得新功能、趨勢、最佳實務、即將舉辦的活動等的最新資訊。 |

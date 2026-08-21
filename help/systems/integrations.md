@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # 整合
 
-在Commerce管理員中定義整合，會建立OAuth憑證的位置和重新導向URL，用於第三方整合，並識別整合所需的可用API資源。 如需整合註冊程式的詳細資訊，請參閱Commerce開發人員檔案中的[OAuth型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。
+在Commerce管理員中定義整合，會建立OAuth憑證的位置和重新導向URL，用於第三方整合，並識別整合所需的可用API資源。 如需整合註冊程式的詳細資訊，請參閱Commerce開發人員檔案中的[OAuth型驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。
 
 ![整合](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Resource Access]**&#x200B;設定為下列其中一項：
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - 對於自訂存取，請選取每個所需資源的核取方塊。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 
-如需詳細資訊，請參閱Commerce開發人員檔案中的[限制匿名網頁API的存取](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/)。
+如需詳細資訊，請參閱Commerce開發人員檔案中的[限制匿名網頁API的存取](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security)。
 
 ## 刪除整合
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 11091
+source-wordcount: 11212
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請參閱[產品可用性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hant)，以取得可用Adobe Commerce版本所支援B2B Commerce擴充功能版本的資訊。
+>請參閱[產品可用性](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/product-availability)，以取得可用Adobe Commerce版本所支援B2B Commerce擴充功能版本的資訊。
 
 ## B2B v1.5.3
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.9、2.4.8。
 
-B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26-05](https://helpx.adobe.com/tw/security/products/magento/apsb26-05.html)中記錄的安全性修正。
+B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中記錄的安全性修正。
 
 ### 可轉讓報價
 
@@ -192,7 +192,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p5、2.4.7-p10和2.4.6-p15安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p10、2.4.6至2.4.6-p15相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB26-49](https://helpx.adobe.com/tw/security/products/magento/apsb26-49.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html)中記錄的安全性修正。
 
 ## B2B v1.5.2-p4
 
@@ -201,7 +201,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p4、2.4.7-p9和2.4.6-p14安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p9、2.4.6至2.4.6-p14相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB26-05](https://helpx.adobe.com/tw/security/products/magento/apsb26-05.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中記錄的安全性修正。
 
 ## B2B v1.5.2-p3
 
@@ -210,7 +210,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p3、2.4.7-p8和2.4.6-p13安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p7、2.4.6至2.4.6-p12相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ## B2B v1.5.2-p2
 
@@ -219,7 +219,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p2、2.4.7-p7和2.4.6-p12安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p6、2.4.6至2.4.6-p11相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-71](https://helpx.adobe.com/tw/security/products/magento/apsb25-71.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中記錄的安全性修正。
 
 ## B2B v1.5.2-p1
 
@@ -228,7 +228,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p1、2.4.7-p6和2.4.6-p11安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p5、2.4.6至2.4.6-p10相容。
 
-![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-50](https://helpx.adobe.com/tw/security/products/magento/apsb25-50.html)中記錄的安全性修正。
+![已修正問題](../assets/fix.svg)包含[安全性公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中記錄的安全性修正。
 
 ## B2B 1.5.2
 
@@ -326,7 +326,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - **大規模管理公司組態**<!--B2B-2849--> — 現在從&#x200B;*[!UICONTROL Companies]*&#x200B;或&#x200B;*[!UICONTROL Company Hierarchy]*&#x200B;網格管理公司時，可使用&#x200B;*[!UICONTROL Change company setting]*&#x200B;大量動作，快速變更所選公司的公司組態設定。 例如，如果您為一組公司建立新的共用目錄，您可以在單一動作中變更共用目錄組態，而非個別編輯每個公司。
 
-- API開發人員可以使用新的公司關係REST API端點`/V1/company/{parentId}/relations`來建立、檢視及移除公司指派。 請參閱&#x200B;*Web API開發人員指南*&#x200B;中的[管理公司物件](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)。
+- API開發人員可以使用新的公司關係REST API端點`/V1/company/{parentId}/relations`來建立、檢視及移除公司指派。 請參閱&#x200B;*Web API開發人員指南*&#x200B;中的[管理公司物件](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object)。
 
 #### 公司帳戶
 
@@ -391,7 +391,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p8+和2.4.6-p13+安全性修補程式發行版本。
 
-- 包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -401,7 +401,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p7+和2.4.6-p12+安全性修補程式發行版本。
 
-- 包含[安全性公告APSB25-71](https://helpx.adobe.com/tw/security/products/magento/apsb25-71.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -411,7 +411,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p6+和2.4.6-p11+安全性修補程式發行版本。
 
-- 包含[安全性公告APSB25-50](https://helpx.adobe.com/tw/security/products/magento/apsb25-50.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -423,7 +423,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - 新增與Adobe Commerce 2.4.7-p5+和2.4.6-p10+安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB25-26](https://helpx.adobe.com/tw/security/products/magento/apsb25-26.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -435,7 +435,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - 新增與Adobe Commerce 2.4.7-p4+和2.4.6-p9+安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB25-08](https://helpx.adobe.com/tw/security/products/magento/apsb25-08.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -447,7 +447,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - 新增與Adobe Commerce 2.4.7-p3+和2.4.6-p8+安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB24-73](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+- 包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -461,7 +461,7 @@ B2B v1.5.0版本包含新功能、品質改善和錯誤修正。
 
 - 新增與Adobe Commerce 2.4.7-p2+和2.4.6-p7+安全性修補程式版本的相容性。
 
-- 包含安全性公告[APSB24-73](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+- 包含安全性公告[APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 {{b2b-compatibility}}
 
@@ -493,7 +493,7 @@ B2B v1.4.2版本包含品質改良與錯誤修正。
 
 *2023年8月7日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hant)。 與Adobe Commerce 2.4.7-beta1相容。
+[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
 
 B2B v1.4.1版本包含品質改良和錯誤修正。
 
@@ -505,13 +505,13 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 - &#x200B;<!--ACP2E-1793-->可設定產品的色票選取器現在會如預期般顯示在請購單清單專案設定頁面中。 之前，色票選取器會在請購單清單專案設定頁面中顯示為下拉式欄位。
 
-- &#x200B;<!--ACP2E-1968-->使用[公司GraphQL查詢](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)傳回公司詳細資料時，現在可順利傳回結果，而不會發生錯誤。
+- &#x200B;<!--ACP2E-1968-->使用[公司GraphQL查詢](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company#return-the-company-structure)傳回公司詳細資料時，現在可順利傳回結果，而不會發生錯誤。
 
 ### B2B v1.4.0
 
 *2023年6月13日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hant)。 與Adobe Commerce 2.4.7-beta1相容。
+[!BADGE 支援]{type=Informative tooltip="支援"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)。 與Adobe Commerce 2.4.7-beta1相容。
 
 此發行版本包含B2B議價報價和多個錯誤修正的新功能和增強功能。
 
@@ -537,7 +537,7 @@ B2B v1.4.1版本包含品質改良和錯誤修正。
 
 #### 已知問題
 
-如果您在[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=zh-Hant)版上安裝或升級B2B 1.4.0，會發生下列錯誤：
+如果您在[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)版上安裝或升級B2B 1.4.0，會發生下列錯誤：
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -549,7 +549,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-您可以修正此問題，方法是為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全性套件新增手動相依性。 如需指示，請參閱[Adobe Commerce知識庫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=zh-Hant)。
+您可以修正此問題，方法是為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的B2B安全性套件新增手動相依性。 如需指示，請參閱[Adobe Commerce知識庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)。
 
 ### B2B v1.3.5-p13
 
@@ -557,7 +557,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.6-p13+安全性修補程式發行版本。
 
-- 包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ### B2B v1.3.5-p12
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.6-p12+安全性修補程式發行版本。
 
-- 包含[安全性公告APSB25-71](https://helpx.adobe.com/tw/security/products/magento/apsb25-71.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中記錄的安全性修正。
 
 ### B2B v1.3.5-p10
 
@@ -575,7 +575,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增與Adobe Commerce 2.4.6-p10安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB25-26](https://helpx.adobe.com/tw/security/products/magento/apsb25-26.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中記錄的安全性修正。
 
 ### B2B v1.3.5-p9
 
@@ -585,7 +585,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增與Adobe Commerce 2.4.6-p9安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB25-08](https://helpx.adobe.com/tw/security/products/magento/apsb25-08.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中記錄的安全性修正。
 
 ### B2B v1.3.5-p8
 
@@ -595,7 +595,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增與Adobe Commerce 2.4.6-p8安全性修補程式版本的相容性。
 
-- 包含[安全性公告APSB24-73](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+- 包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 ### B2B v1.3.5-p7
 
@@ -617,7 +617,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->將Commerce從2.4.6升級至[最新版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=zh-Hant#2.4.6)後，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
+>將Commerce從2.4.6升級至[最新版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/versions#2.4.6)後，請務必更新至支援的B2B 1.3.5修補程式版本。 或者，請將B2B擴充功能從1.3.5版升級至1.4.0版或更新版本，以取得最新功能。
 
 - 新增對Adobe Commerce 2.4.6的支援。
 
@@ -647,7 +647,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.5-p16 （延伸支援）
 
-- 包含[安全性公告APSB26-05](https://helpx.adobe.com/tw/security/products/magento/apsb26-05.html)中記錄的安全性修正。
+- 包含[安全性公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p15
 
@@ -655,7 +655,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-- 包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p14
 
@@ -663,7 +663,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-- 包含[安全性公告APSB25-71](https://helpx.adobe.com/tw/security/products/magento/apsb25-71.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p13
 
@@ -673,7 +673,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增對Adobe Commerce 2.4.5-p12的支援。
 
-- 包含[安全性公告APSB25-50](https://helpx.adobe.com/tw/security/products/magento/apsb25-50.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p12
 
@@ -683,7 +683,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增對Adobe Commerce 2.4.5-p12的支援。
 
-- 包含[安全性公告APSB25-26](https://helpx.adobe.com/tw/security/products/magento/apsb25-26.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p11
 
@@ -693,7 +693,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增對Adobe Commerce 2.4.5-p11的支援。
 
-- 包含[安全性公告APSB25-08](https://helpx.adobe.com/tw/security/products/magento/apsb25-08.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)中記錄的安全性修正。
 
 ### B2B v1.3.4-p10
 
@@ -703,7 +703,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增對Adobe Commerce 2.4.5-p10的支援。
 
-- 包含[安全性公告APSB24-73](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)中記錄的安全性修正。
+- 包含[安全性公告APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)中記錄的安全性修正。
 
 ### B2B v1.3.4
 
@@ -745,7 +745,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.4-p17 （延伸支援）
 
-- 包含[安全性公告APSB26-05](https://helpx.adobe.com/tw/security/products/magento/apsb26-05.html)中記錄的安全性修正。
+- 包含[安全性公告APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)中記錄的安全性修正。
 
 ### B2B v1.3.3-p16
 
@@ -753,7 +753,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-- 包含[安全性公告APSB25-94](https://helpx.adobe.com/tw/security/products/magento/apsb25-94.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)中記錄的安全性修正。
 
 ### B2B v1.3.3-p15
 
@@ -761,7 +761,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.0和更新版本
 
-- 包含[安全性公告APSB25-71](https://helpx.adobe.com/tw/security/products/magento/apsb25-71.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)中記錄的安全性修正。
 
 ### B2B v1.3.3-p14
 
@@ -771,7 +771,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 新增對Adobe Commerce 2.4.5-p12的支援。
 
-- 包含[安全性公告APSB25-50](https://helpx.adobe.com/tw/security/products/magento/apsb25-50.html)中記錄的安全性修正。
+- 包含[安全性公告APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)中記錄的安全性修正。
 
 ### B2B v1.3.3
 
@@ -987,7 +987,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 當採購員建立採購單，然後導覽至結帳頁面時，Adobe Commerce有時會顯示404錯誤。 當採購員先前使用線上付款方式建立不同的採購單，而未完成先前的採購就瀏覽至結帳頁面時，就會發生此錯誤。 採購員仍然可以下採購單。 **_因應措施_**：無。<!--- B2B-1605-->
 
-- 在採購單結帳期間，即使買方在最後結帳期間變更付款方式，特定付款方式的折扣仍會持續存在。 因此，客戶可獲得無權享有的折扣。 發生此問題是因為儘管付款方式有所變更，原始付款方式的購物車規則仍會套用。 **_因應措施_**：無。 請參閱[Adobe Commerce 2.4.2 B2B已知問題：付款方式變更後，線上採購單的折扣仍會保留](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=zh-Hant) _知識庫_&#x200B;文章。<!-- B2B-1012 -->
+- 在採購單結帳期間，即使買方在最後結帳期間變更付款方式，特定付款方式的折扣仍會持續存在。 因此，客戶可獲得無權享有的折扣。 發生此問題是因為儘管付款方式有所變更，原始付款方式的購物車規則仍會套用。 **_因應措施_**：無。 請參閱[Adobe Commerce 2.4.2 B2B已知問題：付款方式變更後，線上採購單的折扣仍會保留](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _知識庫_&#x200B;文章。<!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput`查詢會傳回已刪除的請購單清單的詳細資料，而非其餘的請購單清單。<!--- MC-39894-->
 

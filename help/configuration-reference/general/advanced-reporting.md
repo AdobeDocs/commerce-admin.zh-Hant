@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 1%
+source-wordcount: 132
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=zh-Hant#advanced-reporting){:target="_blank"}。
+_[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"}。
 
 ![進階報告](./assets/advanced-reporting.png)<!-- zoom -->
 

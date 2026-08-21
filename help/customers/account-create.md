@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 | **[!UICONTROL Reset]** | 將客戶表單中未儲存的變更重設為先前的值。 |
 | **[!UICONTROL Create Order]** | 建立客戶的訂單。 |
 | **[!UICONTROL Reset Password]** | 透過電子郵件傳送[重設密碼](../customers/password-reset.md)連結給客戶。 |
-| **[!UICONTROL Force Sign-in]** | 撤銷與客戶帳戶相關聯的OAuth存取權杖。 此函式只能用於已指派OAuth權杖做為Web API [整合](../systems/integrations.md)一部分的客戶帳戶。 若要深入瞭解，請參閱開發人員檔案中的[OAuth驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。 |
+| **[!UICONTROL Force Sign-in]** | 撤銷與客戶帳戶相關聯的OAuth存取權杖。 此函式只能用於已指派OAuth權杖做為Web API [整合](../systems/integrations.md)一部分的客戶帳戶。 若要深入瞭解，請參閱開發人員檔案中的[OAuth驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。 |
 | **[!UICONTROL Manage Shopping Cart]** | 允許管理員管理客戶的購物車。 |
 | **[!UICONTROL Save and Continue Edit]** | 儲存變更並保持客戶設定檔開啟。 |
 | **[!UICONTROL Save Customer]** | 儲存變更並關閉客戶設定檔。 |

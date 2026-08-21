@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1131
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Commerce]帳戶是您管理部署在雲端基礎結構或內部部署之Adobe Commerce專案的Adobe Commerce服務的中央存取點。 從帳戶控制面板，您可以檢視訂閱、管理Commerce服務API金鑰、檢閱歷史帳單資訊，並與您組織中的其他使用者共同作業。
 
-如果您需要[提交您的第一個票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)或管理您的Adobe Commerce關係（而不是在特定店面中工作），請從建立或存取您的[!DNL Commerce]帳戶開始。
+如果您需要[提交您的第一個票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)或管理您的Adobe Commerce關係（而不是在特定店面中工作），請從建立或存取您的[!DNL Commerce]帳戶開始。
 
 您可以從[!DNL Commerce]網站存取您的[!DNL Commerce]帳戶。 從帳戶儀表板，您可以檢視與您購買的產品和服務相關的資訊，並提供[共用存取權](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)給其他使用者。 有些資訊（例如Commerce Services API金鑰）僅對授權擁有者可見。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 您的[!DNL Commerce]帳戶登入與商店管理員登入不同。 您通常會對每個系統使用不同的認證，而且每個系統的存取許可權都是獨立管理的。
 
-但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在&#x200B;*Commerce的IMS整合指南*&#x200B;中設定Commerce與Adobe ID的管理員整合](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/ims/adobe-ims-config)。
+但是，想要簡化Adobe Commerce和Adobe商業產品登入流程的使用者可以設定其Adobe ID登入商店管理員： [在&#x200B;*Commerce的IMS整合指南*&#x200B;中設定Commerce與Adobe ID的管理員整合](/help/getting-started/adobe-ims-config.md)。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 「共用存取權」可讓您授予受信任的使用者（例如同事、合作夥伴或管理員）許可權，以代表您管理您的Adobe Commerce關係，而不需要使用您的個人登入。 這包括允許其他人開啟及追蹤支援案例。
 
-如需設定共用帳戶的詳細步驟，請參閱Adobe Commerce快速入門手冊的[共用Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)一節。
+如需設定共用帳戶的詳細步驟，請參閱Adobe Commerce快速入門手冊的[共用Commerce帳戶](/help/getting-started/commerce-account-share.md)一節。
 
 如需提交Commerce支援案例的詳細說明，請參閱[Adobe Commerce說明中心使用手冊](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)。
 

@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 ![編輯客戶頁面上的客戶同意延伸屬性設定](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/)變動將`allow_remote_shopping_assistance`輸入設定為`true`。
+若要透過GraphQL為現有的客戶帳戶設定此許可權，請使用[`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2)或[`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2)變動將`allow_remote_shopping_assistance`輸入設定為`true`。
 
 >[!ENDTABS]
 

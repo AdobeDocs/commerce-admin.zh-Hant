@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1776
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Adobe Commerce和Magento Open Source提供多種工具，協助您量身打造�
 
 ## 最佳化業務流程和利潤
 
-- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=zh-Hant)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
+- **[!DNL Advanced Reporting]** — 利用[Business Intelligence](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/getting-started)支援的動態產品、訂單和客戶報告，快速獲得有價值的深入分析。
 
 - **儀表板快照** — 瞭解您網站上感興趣的內容，對最大化您的行銷預算至關重要。 使用您儀表板[&#128279;](admin-dashboard.md)上的此資訊，決定您應向忠實客戶交叉銷售及追加銷售哪些產品，或要銷售哪些產品。
 

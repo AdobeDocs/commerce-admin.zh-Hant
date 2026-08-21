@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]安裝在Adobe Commerce和Magento Open Source的2.3.x和2.4.x版本中，並依預設啟用所有功能。 啟用這些詳細目錄功能不需要額外的步驟。 從v2.1.x或2.2.x升級可能需要額外的步驟。 請參閱[升級Inventory management](#upgrade-inventory-management)。
 
-建議根據[快速入門內部部署安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=zh-Hant){target="_blank"}進行安裝。 使用中繼安裝以接收所有[!DNL Inventory Management]模組。
+建議根據[快速入門內部部署安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer){target="_blank"}進行安裝。 使用中繼安裝以接收所有[!DNL Inventory Management]模組。
 
 `composer.json`中繼封裝中的下列行安裝[!DNL Inventory Management]：
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 * 加速從2.0.x、2.1.x、2.2.x或2.3.x移轉至2.4.x的商戶升級流程。
 * 使用自訂或第三方存貨及訂單管理系統模組。
 
-請參閱&#x200B;_安裝指南_&#x200B;中的[啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hant)頁面，瞭解如何停用適用模組的相關資訊。
+請參閱&#x200B;_安裝指南_&#x200B;中的[啟用或停用模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/manage-modules)頁面，瞭解如何停用適用模組的相關資訊。
 
 完成時，系統會在`<Magento_installation_directory>/app/etc/config.php`中提供模組和值的清單，開頭為：
 
@@ -253,5 +253,5 @@ ht-degree: 0%
 
 請參閱下列指南，以取得有關Commerce升級的詳細資訊：
 
-* [Commerce更新指南](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=zh-Hant){target="_blank"}
-* [啟用或停用模組](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=zh-Hant){target="_blank"}
+* [Commerce更新指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [啟用或停用模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}

@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 ### 步驟2：以XML撰寫版面更新
 
-1. 以XML撰寫配置指示以[參考CMS區塊](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/)。
+1. 以XML撰寫配置指示以[參考CMS區塊](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage)。
 
-1. 將[配置指示](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/)儲存在伺服器上的配置資料夾中，其中儲存主題的XML檔案。
+1. 將[配置指示](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions)儲存在伺服器上的配置資料夾中，其中儲存主題的XML檔案。
 
    例如：
 

@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant#run-cron-from-the-command-line)的執行cron。
+>[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}在您建立優惠券之前，請使用`bin/magento cron:run`命令確認cron正在執行。 如需詳細資訊，請參閱&#x200B;_組態指南_&#x200B;中命令列[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)的執行cron。
 
 ### 方法1：建立特定抵用券
 
@@ -124,23 +124,23 @@ ht-degree: 0%
 
      **選項1：**&#x200B;排程新的更新
 
-      - 按一下頁面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
+     - 按一下頁面右上角的&#x200B;**[!UICONTROL Schedule New Update]**。
 
-        ![排程更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![排程更新](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - 輸入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
+     - 輸入&#x200B;**[!UICONTROL Update Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 
-      - 從行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）選擇&#x200B;**開始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果您將日期範圍保留為空白，則規則不會過期。
+     - 從行事曆（ ![行事曆圖示](../assets/icon-calendar.png) ）選擇&#x200B;**開始日期**&#x200B;和&#x200B;**[!UICONTROL End Date]**。 如果您將日期範圍保留為空白，則規則不會過期。
 
-      - 完成時，按一下&#x200B;**[!UICONTROL Save]**。
+     - 完成時，按一下&#x200B;**[!UICONTROL Save]**。
 
-        ![購物車價格規則 — 排程變更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![購物車價格規則 — 排程變更](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **選項2：**&#x200B;指派給現有的更新：
 
-      - 選取&#x200B;**[!UICONTROL Assign to Another Update]**。
+     - 選取&#x200B;**[!UICONTROL Assign to Another Update]**。
 
-      - 在清單中找到更新，然後按一下&#x200B;**[!UICONTROL Select]**。
+     - 在清單中找到更新，然後按一下&#x200B;**[!UICONTROL Select]**。
 
 1. 視需要完成[購物車價格規則](price-rules-cart.md)。
 
@@ -170,9 +170,9 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Code Format]**&#x200B;設定為下列其中一項：
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - （選用）輸入要新增至程式碼開頭的&#x200B;**[!UICONTROL Code Prefix]**。
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 若要編輯自訂優惠券代碼或檢視使用詳細資料，請按一下&#x200B;**[!UICONTROL Actions]**&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 無法編輯或刪除屬於購物車價格規則的主要優惠券代碼。
 
@@ -288,16 +288,16 @@ _優惠券_&#x200B;報告彙總了特定日期範圍內使用的每個優惠券�
 
    - 將&#x200B;**[!UICONTROL Date Used]**&#x200B;設定為下列其中一項：
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _已更新訂單_&#x200B;報告是即時建立的，不需要重新整理。
 
    - 若要定義報告所涵蓋的時間期間，請將&#x200B;**[!UICONTROL Period]**&#x200B;設為下列其中一項：
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - 若要定義報表的日期範圍，請以M/D/YY格式輸入&#x200B;**起始**&#x200B;和&#x200B;**起始**&#x200B;日期。
 
@@ -307,8 +307,8 @@ _優惠券_&#x200B;報告彙總了特定日期範圍內使用的每個優惠券�
 
    - 若要定義報表中包含的抵用券活動，請執行下列任一項作業：
 
-      - 若要納入所有價格規則的所有優惠券活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Any`。
-      - 若要僅包含與特定價格規則相關的活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Specified`並在清單中選取購物車價格規則。
+     - 若要納入所有價格規則的所有優惠券活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Any`。
+     - 若要僅包含與特定價格規則相關的活動，請將&#x200B;**[!UICONTROL Cart Price Rule]**&#x200B;設為`Specified`並在清單中選取購物車價格規則。
 
 1. 準備執行報告時，請按一下&#x200B;**[!UICONTROL Show Report]**。
 

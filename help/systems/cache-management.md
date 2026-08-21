@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1975
+source-wordcount: 1981
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 清除快取後，請一律重新整理瀏覽器，以確保您可以看到最新的檔案。 清除Commerce快取不會清除您的網頁瀏覽器快取。 您可能需要清除瀏覽器快取才能檢視更新的內容。
 
-有關Adobe Commerce快取的其他技術資訊，請參閱&#x200B;_Commerce前端開發指南_&#x200B;中的[快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"}。
+有關Adobe Commerce快取的其他技術資訊，請參閱&#x200B;_Commerce前端開發指南_&#x200B;中的[快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"}。
 
 執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_&#x200B;頁面：
 
@@ -72,19 +72,19 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 - [!UICONTROL Clean Cache Actions]
 
-   - [!UICONTROL Flush Cache Storage]
-   - [!UICONTROL Flush Magento Cache]
+  - [!UICONTROL Flush Cache Storage]
+  - [!UICONTROL Flush Magento Cache]
 
 - [!UICONTROL Cache Type Management]
 
-   - [!UICONTROL Toggle Cache Type]
-   - [!UICONTROL Refresh Cache Type]
+  - [!UICONTROL Toggle Cache Type]
+  - [!UICONTROL Refresh Cache Type]
 
 - [!UICONTROL Additional Cache Management]
 
-   - [!UICONTROL Catalog Images Cache]
-   - [!UICONTROL Flush Js/Css]
-   - [!UICONTROL Flush Static Files]
+  - [!UICONTROL Catalog Images Cache]
+  - [!UICONTROL Flush Js/Css]
+  - [!UICONTROL Flush Static Files]
 
 ## 重新整理特定快取
 
@@ -174,13 +174,13 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 | [!UICONTROL Reflections] | 清除API介面反射資料，這些資料通常會在執行階段產生。 | `REFLECTION` | `reflection` |
 | `Database DDL operations` | 資料庫結構描述。 如有必要，Commerce會自動清除此快取，但第三方開發人員可將任何資料放入快取的任何區段中。 在自訂變更資料庫結構描述後，清除或排清此快取型別。 （換言之，這些是Commerce本身沒有進行的更新。） 自動更新資料庫結構描述的一種方法是使用magento setup:db-schema:upgrade命令。 | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | 程式碼編譯的結果。 | `COMPILED_CONFIG` | `compiled_config` |
-| [!UICONTROL Webhooks Response Cache] | 快取對webhook請求的回應。 如需詳細資訊，請參閱Commerce開發人員檔案中的[Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2)。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL Webhooks Response Cache] | 快取對webhook請求的回應。 如需詳細資訊，請參閱Commerce開發人員檔案中的[Webhooks指南](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes#enhancements-2)。 | `WEBHOOKS_RESPONSE` | `webhooks_response` |
 | [!UICONTROL EAV types and attributes] | 快取實體型別宣告以取得與實體屬性值(EAV)屬性相關的中繼資料。 屬性包括存放區標籤、相關PHP程式碼的連結、屬性呈現、搜尋設定等。 您通常不需要清除或排清此快取型別。 | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | 顯示在使用者介面中的臨時通知。 | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 快取客戶、GraphQL頁面、CMS區塊和產品媒體收藏館實體的CMS查詢解析器的結果。 讓此快取保持啟用，以改善GraphQL效能。 | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 整合設定檔。 變更或新增整合後，請清除或排清此快取。 | `INTEGRATION` | `config_integration` |
 | [!UICONTROL Integrations API Configuration] | 已編譯的整合API設定以進行存放區整合。 | `INTEGRATION_API_CONFIG` | `config_integration_api` |
-| [!UICONTROL Admin UI SDK Cache] | 將自訂內容快取給管理員。 請參閱&#x200B;_管理員UI SDK指南_&#x200B;中的[管理員設定和測試](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/)。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Admin UI SDK Cache] | 將自訂內容快取給管理員。 請參閱&#x200B;_管理員UI SDK指南_&#x200B;中的[管理員設定和測試](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration)。 | `ADMIN_UI_SDK` | `admin_ui_sdk` |
 | [!UICONTROL Page Cache] | 全頁快取。 | `FPC` | `full_page` |
 | [!UICONTROL Target Rule] | 目標規則索引 | `TARGET_RULE` | `target_rule` |
 | [!UICONTROL Web Services Configuration] | 快取Web API結構。 | `WEBSERVICE` | `config_webservice` |
@@ -202,7 +202,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 - `Sessioned` — 在工作階段瀏覽期間，會為與商店互動的購物者指派工作階段ID。 互動包括比較產品或新增產品至購物車等活動。 在工作階段期間產生的快取頁面僅供該購物者在工作階段期間使用。
 - `Customer` — 已針對使用註冊帳戶登入併購物的客戶建立客戶工作階段。 在會議期間，系統會根據指派的客戶群組，向客戶顯示特殊優惠、促銷和價格。
 
-如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=zh-Hant){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=zh-Hant){:target="_blank"}。
+如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
 
 **_若要設定整頁快取:_**
 
@@ -221,7 +221,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
 1. 若要設定頁面快取的逾時，請輸入&#x200B;**[!UICONTROL TTL for public content]**。 （預設值為`86400`）
 
-1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
+1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
 
 1. 如果使用Varnish，請依照下列方式完成&#x200B;**[!UICONTROL Varnish Configuration]**&#x200B;區段：
 
@@ -231,7 +231,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
    - **[!UICONTROL Backend port]** — 識別用來產生設定檔的後端連線埠。 預設值為： `8080`。
 
-   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html)。
+   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
 
    - 若要將設定匯出為`varnish.vcl`檔案，請按一下您使用的Varnish版本的按鈕。
 

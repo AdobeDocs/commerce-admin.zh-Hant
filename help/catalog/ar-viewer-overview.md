@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 247
+source-wordcount: 248
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 本指南中的資訊提供Adobe Commerce中[!DNL AR Viewer]上線體驗的概觀，以及[!DNL AR Viewer]如何讓使用者受益，以及在歷程中要遵循的最佳實務。
 
-由Pixar所開發，[Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank}是第一個開放原始碼軟體，可以強有力且可縮放地交換可能由許多不同資產、來源和動畫所組成的3D場景，同時促進高度合作的工作流程。 此USD用於`.USDZ`個檔案中。 此`.USDZ`檔案會將AR和3D內容傳送至使用者的裝置。
+由Pixar所開發，[Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank}是第一個開放原始碼軟體，可以強有力且可縮放地交換3D場景，其中可能包含許多不同的資產、來源和動畫，同時促進高度合作的工作流程。 此USD已在`.USDZ`個檔案中使用。 此`.USDZ`檔案會將AR和3D內容傳送至使用者的裝置。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## [!DNL AR Viewer]需求
 
-[!DNL AR Viewer]與[!DNL Magento Open Source]和Adobe Commerce都相容。 請參閱[生命週期原則](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=zh-Hant){target=_blank}，以取得支援版本的詳細資訊。
+[!DNL AR Viewer]與[!DNL Magento Open Source]和Adobe Commerce都相容。 請參閱[生命週期原則](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/planning/lifecycle-policy){target=_blank}，以取得支援版本的詳細資訊。
 
 如需詳細資訊，請參閱[安裝 [!DNL AR Viewer] 擴充功能](../catalog/ar-viewer-setup.md)。
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->如果您已建立其他資料庫實體來儲存[!DNL Page Builder]內容，則&#x200B;_必須_&#x200B;將這些實體新增至`etc/di.xml`。 若未更新，則儲存在您實體中的[!DNL Page Builder]內容不會更新，這可能會導致資料遺失和顯示問題。 例如，如果您已建立儲存[!DNL Page Builder]內容的部落格實體，則必須將您的部落格實體新增至`etc/di.xml`檔案作為`UpgradableEntitiesPool`型別，以便升級程式庫可以更新您部落格中使用的[!DNL Page Builder]內容型別。 如需有關使用升級程式庫的詳細資訊與指示，請參閱&#x200B;_Page Builder開發人員指南_&#x200B;中的[升級內容型別](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)。
+>如果您已建立其他資料庫實體來儲存[!DNL Page Builder]內容，則&#x200B;_必須_&#x200B;將這些實體新增至`etc/di.xml`。 若未更新，則儲存在您實體中的[!DNL Page Builder]內容不會更新，這可能會導致資料遺失和顯示問題。 例如，如果您已建立儲存[!DNL Page Builder]內容的部落格實體，則必須將您的部落格實體新增至`etc/di.xml`檔案作為`UpgradableEntitiesPool`型別，以便升級程式庫可以更新您部落格中使用的[!DNL Page Builder]內容型別。 如需有關使用升級程式庫的詳細資訊與指示，請參閱&#x200B;_Page Builder開發人員指南_&#x200B;中的[升級內容型別](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types)。
 
-![新](../assets/new.svg) **新增外觀的檔案** — 現在已發佈關於[新增現有或自訂內容型別的外觀](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)的開發人員資訊。
+![新](../assets/new.svg) **新增外觀的檔案** — 現在已發佈關於[新增現有或自訂內容型別的外觀](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances)的開發人員資訊。
 
 ![已修正問題](../assets/fix.svg) **各種修正**
 

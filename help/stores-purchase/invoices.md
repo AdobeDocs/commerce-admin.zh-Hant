@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ ht-degree: 0%
 
    - 加入追蹤編號：
 
-      - 按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
-      - 輸入追蹤資訊： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
+     - 按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
+     - 輸入追蹤資訊： _[!UICONTROL Carrier]_、_[!UICONTROL Title]_&#x200B;和&#x200B;_[!UICONTROL Number]_
 
      ![建立Fedex出貨](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - 選擇性地產生部份商業發票：
 
-      - 在&#x200B;_發票專案_&#x200B;區段中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;欄以僅包含發票上的特定專案。
-      - 然後，按一下&#x200B;**[!UICONTROL Update Qty's]**。
+     - 在&#x200B;_發票專案_&#x200B;區段中，更新&#x200B;**[!UICONTROL Qty to Invoice]**&#x200B;欄以僅包含發票上的特定專案。
+     - 然後，按一下&#x200B;**[!UICONTROL Update Qty's]**。
 
-        ![個專案至發票](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![個專案至發票](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. 如果訂單使用線上付款方式，請將&#x200B;**[!UICONTROL Amount]**&#x200B;設為適當的選項。
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 為了針對部份擷取與特殊付款案例提供商戶更大的彈性，「商業發票API」支援使用擴充屬性自訂擷取金額。
 
-建立商業發票時，您可以進行REST呼叫來擷取自訂金額。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST端點，並在承載的`extension_attributes.custom_capture_amount`欄位中指定自訂金額。
+建立商業發票時，您可以進行REST呼叫來擷取自訂金額。  使用[`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST端點，並在承載的`extension_attributes.custom_capture_amount`欄位中指定自訂金額。
 
 >[!NOTE]
 >

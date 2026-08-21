@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 - 清除Adobe Commerce或Magento Open Source安裝的Web Cache和Cookie也有所幫助。 Google等驗證者會使用產生的Cookie來儲存存取權和持續時間。 清除您特定瀏覽器和商店網域的Cookie。
 - 封鎖Cookie會使某些驗證者（例如[!DNL Google Authenticator]）無法完成驗證程式。 新增規則至瀏覽器，允許為Adobe Commerce安裝提供Cookie。
 
-若要從命令列重設驗證者，以及更進階的疑難排解資訊，請參閱開發人員檔案中的[雙因素驗證](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)。
+若要從命令列重設驗證者，以及更進階的疑難排解資訊，請參閱開發人員檔案中的[雙因素驗證](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication)。
 
 **_重設使用者帳戶的驗證者:_**
 

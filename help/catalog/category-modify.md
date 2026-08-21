@@ -1,6 +1,6 @@
 ---
 title: 修改類別
-description: 瞭解如何移動或刪除類別。
+description: 瞭解如何將類別移至類別樹狀結構中新的位置或從目錄中刪除它，以及如何在執行操作時避免產品連結失效。
 exl-id: 7acc2cee-3e95-4d55-864e-6c62ae08eb91
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/uLJicknHwUzTRYgirA-nePB75bdjkLUhaHJzM3DZ0lY
@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 233
 ht-degree: 0%
 
 ---

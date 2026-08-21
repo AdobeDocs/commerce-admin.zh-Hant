@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 536
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您嘗試完成這些步驟但發生問題，請參閱[疑難排解加密金鑰輪換： CVE-2024-34102](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102)知識庫文章。
+>如果您嘗試完成這些步驟但發生問題，請參閱[疑難排解加密金鑰輪換： CVE-2024-34102](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27134)知識庫文章。
 
 Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他敏感資料。 產業標準[!DNL ChaCha20-Poly1305]演演算法搭配256位元金鑰使用，以加密所有需要加密的資料。 這包括信用卡資料和整合（付款和運送模組）密碼。 此外，強式安全雜湊演演算法(SHA-256)可用來雜湊所有不需要解密的資料。
 
 初始安裝期間，系統會提示您讓Commerce產生加密金鑰，或輸入您自己的金鑰。 加密金鑰工具可讓您視需要變更金鑰。 應定期變更加密金鑰以提高安全性，並且隨時可能危及原始金鑰。
 
-如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[進階內部部署](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=zh-Hant)以及&#x200B;_PHP開發人員指南_&#x200B;中的[資料重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption/)。
+如需技術資訊，請參閱&#x200B;_安裝指南_&#x200B;中的[進階內部部署](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/advanced)以及&#x200B;_PHP開發人員指南_&#x200B;中的[資料重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption)。
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption/)的詳細指南。
+   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)的詳細指南。
 
    ```bash
    bin/magento encryption:key:change

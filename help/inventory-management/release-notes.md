@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 3540
+source-wordcount: 3542
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是開放給貢獻者的Magento Open Source社群工程特殊專案。 若要參與並貢獻內容，請參閱[GitHub專案](https://github.com/magento/inventory)存放庫和[Wiki](https://github.com/magento/inventory/wiki)以開始使用。 若要討論專案，請加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)管道（[自我註冊](https://opensource.magento.com/slack)）。
 
-支援及相容發行的[發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant){target="_blank"}。
+支援及相容發行的[發行排程](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/planning/schedule){target="_blank"}。
 
 ## v1.2.7
 
@@ -278,13 +278,13 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![新](../assets/new.svg) **新增大量部分存貨移轉端點** — 目前的大量移轉端點會將所有指派的數量從來源移至目的地來源。 新的`/rest/V1/inventory/bulk-partial-source-transfer`端點可讓商家以大量作業將部分存貨從來源轉移到來源。 若要轉移特定數量的數量，請輸入具有`sku`、`qty`、`origin_source_code`和`destination_source_code`的端點要求。 傳輸確認來源已指派給`sku`、有足夠數量可供傳輸，以此類推。 請參閱REST API檔案中的[詳細目錄大量動作](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"}。<!-- https://github.com/magento/inventory/pull/2117 -->
+![新](../assets/new.svg) **新增大量部分存貨移轉端點** — 目前的大量移轉端點會將所有指派的數量從來源移至目的地來源。 新的`/rest/V1/inventory/bulk-partial-source-transfer`端點可讓商家以大量作業將部分存貨從來源轉移到來源。 若要轉移特定數量的數量，請輸入具有`sku`、`qty`、`origin_source_code`和`destination_source_code`的端點要求。 傳輸確認來源已指派給`sku`、有足夠數量可供傳輸，以此類推。 請參閱REST API檔案中的[詳細目錄大量動作](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"}。<!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![新](../assets/new.svg) **新增的保留專案CLI** — 新命令為您提供偵測和解決保留專案不一致問題的選項。 當訂單提交並變更狀態時，[!DNL Inventory Management]會透過報酬預留產生初始預留和更新。 這些命令會依訂單ID、SKU和庫存ID傳回偵測到的不一致清單，並建立要解決的預留量。 如需詳細資訊，請參閱[CLI參考](cli.md)。<!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![新](../assets/new.svg) **來源和SSA選項的效能改善** — 在出貨期間排序和選取來源導致來源數量高的存貨效能降低。 此版次在複查及選取出貨的SSA選項時，大幅改善可用來源清單與排序的效能。<!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![新](../assets/new.svg) **已新增Inventory management的GraphQL支援** — 此版本會安裝新的`magento/module-inventory-graph-ql`模組。 GraphQL [ProductInterface屬性](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"}現在包含[!DNL Inventory Management]支援的`only_x_left_in_stock`和`stock_status`屬性。<!-- https://github.com/magento/inventory/pull/2124 -->
+![新](../assets/new.svg) **已新增Inventory management的GraphQL支援** — 此版本會安裝新的`magento/module-inventory-graph-ql`模組。 GraphQL [ProductInterface屬性](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"}現在包含[!DNL Inventory Management]支援的`only_x_left_in_stock`和`stock_status`屬性。<!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![新](../assets/new.svg) **指派來源的簡化UI** — 產品頁面中的「指派的來源」表格已簡化內容，以便更輕鬆更新，並且在顯示許多來源時提高效能。 依來源名稱列出所有來源（將游標停留在`source_code`上）。
 
@@ -294,7 +294,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （模組版本： `inventory-composer-metapackage = 1.1.0`）受到支援，並且與Adobe Commerce 2.3.0版、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。[!DNL Inventory Management] 1.1.1僅以套件名稱更新的形式發行，支援2.3.1版，並與2.3.0版Adobe Commerce、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=zh-Hant){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修正問題](../assets/fix.svg)已解決預設庫存的效能問題，以大幅提升許多作業的效能。 改良功能可提升單一來源模式、「移轉存貨至Source」、「店麵類別」頁面及「可銷售數量」計算的效能。
 

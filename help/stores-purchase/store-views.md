@@ -1,6 +1,6 @@
 ---
 title: 存放區檢視
-description: 瞭解如何新增及編輯商店檢視。
+description: 瞭解如何在Adobe Commerce中新增及編輯商店檢視，讓購物者使用店面標題中的語言選擇器切換地區設定。
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 300
 ht-degree: 0%
 
 ---

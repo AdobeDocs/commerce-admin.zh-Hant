@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 
   下列付款方式可用於提供對已儲存信用卡資訊的安全存取：
 
-   - [Braintree信用卡](braintree.md) （若啟用3D Secure，即刻購買無法與Braintree信用卡搭配使用。）
-   - [已啟用PayPal的Braintree](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Braintree信用卡](braintree.md) （若啟用3D Secure，即刻購買無法與Braintree信用卡搭配使用。）
+  - [已啟用PayPal的Braintree](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## 在店面立即購買
 
@@ -71,7 +71,7 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 瞭解如何設定Braintree或付款服務的付款方式及啟用儲存機制：
 
 - [Braintree](braintree.md)
-- [付款服務檔案](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=zh-Hant)
+- [付款服務檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview)
 
 ### 步驟3：啟用立即購買
 

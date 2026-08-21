@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Catalog]功能表
 
-[!UICONTROL Catalog]功能表可讓您輕鬆存取產品建立、類別和庫存管理工具、共用目錄（適用於[B2B存放區](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=zh-Hant)中的自訂訂定價）以及目錄擴充（適用於AI輔助探索）。
+[!UICONTROL Catalog]功能表可讓您輕鬆存取產品建立、類別和庫存管理工具、共用目錄（適用於[B2B存放區](/help/b2b/introduction.md)中的自訂訂定價）以及目錄擴充（適用於AI輔助探索）。
 
 >[!BEGINTABS]
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-對於已安裝並啟用Adobe Commerce B2B的商店，[共用目錄](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=zh-Hant)可讓您為不同的公司提供自訂價格。
+對於已安裝並啟用Adobe Commerce B2B的商店，[共用目錄](/help/b2b/catalog-shared.md)可讓您為不同的公司提供自訂價格。
 
 ![共用的目錄產品](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 

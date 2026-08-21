@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # 設定管理員安全性
 
-建議您採取多方面的方法來保護商店的安全。 您可以透過使用不容易猜測的[自訂管理員URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)開始，而不是使用明顯的「管理員」或「後端」。 根據預設，用來[登入](../getting-started/admin-signin.md)管理員的密碼長度必須是7個或7個以上的字元，且包含字母和數字。 您可以設定最低密碼長度要求，以根據貴組織的需求增強安全性。 根據[最佳作法](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=zh-Hant)，請只使用包含字母、數字和符號組合的強式管理員密碼。 Adobe Commerce和Magento Open Source不允許重複使用最近四個指派給帳戶的密碼。
+建議您採取多方面的方法來保護商店的安全。 您可以透過使用不容易猜測的[自訂管理員URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)開始，而不是使用明顯的「管理員」或「後端」。 根據預設，用來[登入](../getting-started/admin-signin.md)管理員的密碼長度必須是7個或7個以上的字元，且包含字母和數字。 您可以設定最低密碼長度要求，以根據貴組織的需求增強安全性。 根據[最佳作法](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)，請只使用包含字母、數字和符號組合的強式管理員密碼。 Adobe Commerce和Magento Open Source不允許重複使用最近四個指派給帳戶的密碼。
 
 管理員安全性設定可讓您：
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >已啟用[!DNL Adobe Identity Management Services] (IMS)驗證的存放區已停用原生Adobe Commerce和Magento Open Source 2FA。 使用其Adobe憑證登入其Commerce執行個體的管理員使用者，不需要重新驗證許多管理員工作。 當管理員使用者登入目前的工作階段時，驗證會由Adobe IMS處理。 請參閱[[!DNL Adobe Identity Management Service] (IMS)整合概述](../getting-started/adobe-ims-integration-overview.md)。
 
-如需技術資訊，請參閱開發人員檔案中的[安全性概觀](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"}。
+如需技術資訊，請參閱開發人員檔案中的[安全性概觀](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"}。
 
 ![管理安全性](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Password Change]**&#x200B;設定為下列其中一項：
 
-      - `Forced` — 要求系統管理員使用者在設定帳戶之後變更密碼。
-      - `Recommended` — 建議管理員使用者在設定帳戶後變更密碼。
+     - `Forced` — 要求系統管理員使用者在設定帳戶之後變更密碼。
+     - `Recommended` — 建議管理員使用者在設定帳戶後變更密碼。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 

@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 # 設定目錄搜尋
 
-目錄搜尋設定有兩種變體。 第一個方法說明安裝[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)時可用的設定。 第二個方法說明具有[OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=zh-Hant){:target="_blank"}的原生Adobe Commerce的組態設定。
+目錄搜尋設定有兩種變體。 第一個方法說明安裝[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)時可用的設定。 第二個方法說明具有[OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview){:target="_blank"}的原生Adobe Commerce的組態設定。
 
 >[!NOTE]
 >
->對於雲端基礎結構專案，請參閱&#x200B;[_雲端基礎結構上的Commerce指南_](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/opensearch)中的其他指示。
+>對於雲端基礎結構專案，請參閱&#x200B;[_雲端基礎結構上的Commerce指南_](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/service/opensearch)中的其他指示。
 
 ## 方法1：具有[!DNL Live Search]的Adobe Commerce
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    預設值為`100`。 輸入值`0`會在第二次輸入時快取所有搜尋字詞和結果。
 
-1. 若要變更[店面快顯視窗](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=zh-Hant)中可傳回結果的行數上限，請輸入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
+1. 若要變更[店面快顯視窗](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)中可傳回結果的行數上限，請輸入其他&#x200B;**[!UICONTROL Autocomplete Limit]**&#x200B;值。
 
    限制行數可以改善搜尋的效能，並減少傳回清單的大小。 預設值為`8`行。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 由於2023年8月有[!DNL Elasticsearch 7]個支援終止公告，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=zh-Hant)。
+>- 由於2023年8月有[!DNL Elasticsearch 7]個支援終止公告，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 >- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 當版本2.4.6中引入Elasticsearch 8.x支援時，已建立新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
 
 ### 步驟1：設定一般搜尋選項

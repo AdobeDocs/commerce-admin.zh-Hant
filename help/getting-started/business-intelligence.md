@@ -29,9 +29,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1221
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## [!DNL Commerce Intelligence]帳戶
 
-當您透過Adobe啟用[!DNL Commerce Intelligence]帳戶時，您將可存取五個包含約70個報表的控制面板。 這些報表旨在提供有關您資料的深入分析，並回答諸如「我的訂單每月增長如何？」、「誰是我最忠實的客戶？」及「我的優惠券策略有效嗎？」等問題。 如需此工具集的詳細資訊，請參閱[Commerce Intelligence使用手冊](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hant)。
+當您透過Adobe啟用[!DNL Commerce Intelligence]帳戶時，您將可存取五個包含約70個報表的控制面板。 這些報表旨在提供有關您資料的深入分析，並回答諸如「我的訂單每月增長如何？」、「誰是我最忠實的客戶？」及「我的優惠券策略有效嗎？」等問題。 如需此工具集的詳細資訊，請參閱[Commerce Intelligence使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/guide-overview)。
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 在存放區URL的[!DNL Commerce]設定中，**[!UICONTROL Use Secure URLs on Storefront]**&#x200B;和&#x200B;**[!UICONTROL Use Secure URLs in Admin]**&#x200B;必須設定為`Yes`。
 
-* 已建立[[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=zh-Hant)，且已安裝伺服器上正在執行cron工作。
+* 已建立[[!DNL Commerce] crontab](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)，且已安裝伺服器上正在執行cron工作。
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 0%
 
    * 確認&#x200B;**[!UICONTROL Advanced Reporting Service]**&#x200B;已設為`Enable` （預設設定）。
 
-   * 根據24小時時鐘，將&#x200B;**[!UICONTROL Time of day to send data]**&#x200B;設定為小時、分鐘和秒，您希望服務從您的商店接收更新的資料。 依預設，資料會在凌晨2:00傳送。
+   * 根據24小時時鐘，將&#x200B;**[!UICONTROL Time of day to send data]**&#x200B;設定為小時、分鐘和秒，您希望服務從您的商店接收更新的資料。 預設情況下，資料會在凌晨2:00傳送。
 
    * 在&#x200B;**[!UICONTROL Industry Data]**&#x200B;底下，選擇最能描述您業務的&#x200B;**[!UICONTROL Industry]**。
 

@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: 184
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ CSV檔案有`downloadable_links`和`downloadable_samples`的個別資料行。
 
   ![範例資料 — 可下載的產品，包含可下載的範例](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-如需有關啟用及管理遠端儲存模組的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定遠端儲存](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=zh-Hant)。
+如需有關啟用及管理遠端儲存模組的詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定遠端儲存](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)。

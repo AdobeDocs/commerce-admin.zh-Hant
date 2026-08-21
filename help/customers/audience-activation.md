@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 1976
 ht-degree: 1%
 
 ---
@@ -43,9 +43,9 @@ ht-degree: 1%
 ![修正](../assets/fix.svg) — 修正和改良
 ![錯誤](../assets/bug.svg) — 已知問題
 
-請參閱[即將發行的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant)，瞭解發行排程和支援。
+請參閱[即將發行的版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/planning/schedule)，瞭解發行排程和支援。
 
-請參閱開發人員檔案以[瞭解產品相容性](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=zh-Hant)。
+請參閱開發人員檔案以[瞭解產品相容性](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/product-availability)。
 
 ## 支援的服務更新
 
@@ -179,7 +179,7 @@ _2023年3月31日_
 以下工作同時適用於Luma和Headless店面實施。 若要在Adobe Commerce中啟用對象，您必須：
 
 - 安裝Adobe Commerce 2.4.4版或更高版本
-- 在Real-Time CDP中[啟動](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hant) Adobe Commerce作為目的地
+- 在Real-Time CDP中[啟動](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-commerce) Adobe Commerce作為目的地
 - 在Admin中[安裝](#install-the-extension) [!DNL Audience Activation]擴充功能
 - 在Admin中[設定](#configure-the-extension) [!DNL Audience Activation]擴充功能
 
@@ -197,23 +197,23 @@ composer require magento/audiences
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**。
 
-1. [登入](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=zh-Hant#organizationid)您的Adobe帳戶並選取您的組織ID。
+1. [登入](https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/integration-services/saas#organizationid)您的Adobe帳戶並選取您的組織ID。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**。
 
-1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;欄位中，貼上您[啟用](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hant#parameters) Adobe Commerce時建立的資料串流識別碼，作為Real-Time CDP中的目的地。
+1. 在&#x200B;**[!UICONTROL Datastream ID]**&#x200B;欄位中，貼上您[啟用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters) Adobe Commerce時建立的資料串流識別碼，作為Real-Time CDP中的目的地。
 
-   此資料流會將資料從您的Commerce網站傳送至Real-Time CDP，以判斷購物者是否屬於受眾。 如果您尚未建立資料流，請在Experience Platform中[建立](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#create)資料流，[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=zh-Hant)將其新增至Real-Time CDP中的Commerce目的地，以及在Admin中的[[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hant#data-collection)擴充功能。
+   此資料流會將資料從您的Commerce網站傳送至Real-Time CDP，以判斷購物者是否屬於受眾。 如果您尚未建立資料流，請在Experience Platform中[建立](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#create)資料流，[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)將其新增至Real-Time CDP中的Commerce目的地，以及在Admin中的[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/connect-data#data-collection)擴充功能。
 
    >[!NOTE]
    >
-   >當您指定資料串流ID時，就會[將其與[!DNL Data Connection]擴充功能中的特定網站](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hant#data-collection)建立關聯。 如果您的Commerce商店有多個網站，請在Real-Time CDP中為每個網站[建立目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=zh-Hant)，並為每個網站使用不同的資料串流ID。
+   >當您指定資料串流ID時，就會[將其與[!DNL Data Connection]擴充功能中的特定網站](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/connect-data#data-collection)建立關聯。 如果您的Commerce商店有多個網站，請在Real-Time CDP中為每個網站[建立目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination)，並為每個網站使用不同的資料串流ID。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
 1. 展開&#x200B;**[!UICONTROL Services]**&#x200B;並選取&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 
-1. [新增](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=zh-Hant#add-service-account-and-credential-details)服務帳戶與認證詳細資料。
+1. [新增](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details)服務帳戶與認證詳細資料。
 
 ## 在Commerce中的何處使用Real-Time CDP受眾
 
@@ -229,7 +229,7 @@ composer require magento/audiences
 
 ## Real-Time CDP受眾控制面板
 
-您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，檢視可在Adobe Commerce執行個體中個人化的所有[作用中](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=zh-Hant)對象。
+您可以使用&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，檢視可在Adobe Commerce執行個體中個人化的所有[作用中](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)對象。
 
 若要存取&#x200B;**Real-Time CDP Audiences**&#x200B;儀表板，請前往&#x200B;_管理員_&#x200B;側邊欄，然後前往&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**。
 
@@ -259,7 +259,7 @@ composer require magento/audiences
 
 ### 購物車價格規則和相關產品規則
 
-針對購物車價格規則和相關產品規則，Headless店面會透過[Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=zh-Hant)與Experience Platform通訊。 此架構提供使用GraphQL實作的伺服器端API。 對象資訊（例如購物者的區段）會透過名為`aep-segments-membership`的GraphQL標題引數傳遞至Commerce。
+針對購物車價格規則和相關產品規則，Headless店面會透過[Commerce integration framework (CIF)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento)與Experience Platform通訊。 此架構提供使用GraphQL實作的伺服器端API。 對象資訊（例如購物者的區段）會透過名為`aep-segments-membership`的GraphQL標題引數傳遞至Commerce。
 
 整體架構如下：
 
@@ -267,7 +267,7 @@ composer require magento/audiences
 
 在您[安裝](#install-the-extension)並[設定](#configure-the-extension)擴充功能後，Experience Platform Web SDK會以區段會籍的形式包含對象資訊。
 
-若要從SDK擷取這些區段會籍，請參閱此[程式碼片段](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=zh-Hant#example-response-for-custom-personalization-with-attributes)。
+若要從SDK擷取這些區段會籍，請參閱此[程式碼片段](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes)。
 
 擷取區段後，您可以在GraphQL標題中將這些區段傳遞至Commerce。 例如：
 
@@ -353,14 +353,14 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 }
 ```
 
-在[開發人員檔案](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/)中進一步瞭解`dynamicBlocks` GraphQL查詢。
+在[開發人員檔案](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks)中進一步瞭解`dynamicBlocks` GraphQL查詢。
 
 ## 使用Adobe Experience Platform Mobile SDK擷取對象
 
 您可以使用Adobe Experience Platform Mobile SDK擷取Real-Time CDP對象。
 
 1. [安裝](#install-the-extension) Audience Activation擴充功能。
-1. [為您的行動Commerce網站](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=zh-Hant)安裝並設定SDK。
+1. [為您的行動Commerce網站](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/mobile-sdk-epc)安裝並設定SDK。
 
 >[!IMPORTANT]
 >
@@ -448,5 +448,5 @@ bin/magento audiences:config:status
 1. 開啟認證，然後選取&#x200B;**[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**。
 1. 新增包含&#x200B;**[!UICONTROL Manage destinations]**&#x200B;許可權的角色。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
-1. [在主控台中重新產生](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#generate-access-token)存取權杖。
-1. 使用[Target連線API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections)驗證Token是否提供有效的回應。
+1. [在主控台中重新產生](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token)存取權杖。
+1. 使用[Target連線API](https://developer.adobe.com/experience-platform-apis/references/destinations#tag/Target-connections/operation/getTargetConnections)驗證Token是否提供有效的回應。

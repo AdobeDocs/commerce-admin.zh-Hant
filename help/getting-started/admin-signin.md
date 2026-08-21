@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: 1193
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 為確保管理員的安全，請以管理員存取權定期稽核使用者和角色。
 
-此外，請考慮[更新Admin Base URL設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/advanced/admin#admin-base-url)以將預設`/admin`端點變更為自訂路徑。 設定自訂路徑可提供下列安全性優點：
+此外，請考慮[更新Admin Base URL設定](/help/configuration-reference/advanced/admin.md#admin-base-url)以將預設`/admin`端點變更為自訂路徑。 設定自訂路徑可提供下列安全性優點：
 
 **增強式安全性**：預設的「管理員」路徑是眾所周知的，且經常是惡意行為者嘗試暴力攻擊的目標。 將其變更為唯一的自訂值，可大幅降低未經授權存取嘗試的風險。
 
@@ -196,4 +196,4 @@ _[!UICONTROL Sign In]_&#x200B;頁面會顯示您已登出的訊息。 每當您�
 
 >[!NOTE]
 >
->如果懷疑發生入侵，請務必移除所有未知的管理員使用者，並重設所有管理員密碼，並檢閱[安全性行動計畫](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security)以取得進一步的步驟。
+>如果懷疑發生入侵，請務必移除所有未知的管理員使用者，並重設所有管理員密碼，並檢閱[安全性行動計畫](/help/systems/security.md)以取得進一步的步驟。

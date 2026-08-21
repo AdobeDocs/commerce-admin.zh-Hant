@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: 1129
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!TIP]
 >
->若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)。
+>若要瞭解產品推薦以及如何提供您所需的insight和控制功能，讓您的購買者獲得最佳體驗，請參閱[產品推薦使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)。
 
 ## 促銷活動
 
@@ -83,8 +83,9 @@ _銷售_&#x200B;是零售中使用的術語，用於描述樓層平面圖開發�
 
 >[!NOTE]
 >
->Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
-><br><br>>如果您已啟用並設定套件擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=zh-Hant)。
+>Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由供應商開發並用來與dotdigital Engagement Cloud整合的dotdigital擴充功能。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
+><br><br>
+>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 - [電子報](newsletters.md) — 製作電子報、管理您的訂閱者清單、開發內容，並帶動您商店的流量。
 

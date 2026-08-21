@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 657
+source-wordcount: 658
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=zh-Hant)。
+     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
 
    - 如果已啟用，請設定&#x200B;**[!UICONTROL Asynchronous batch size]**。 預設批次大小為100。 當大量程式達到此數量時，系統會觸發此事件。
 

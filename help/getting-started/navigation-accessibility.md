@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 有些造訪您網站的訪客會依賴鍵盤控制項來瀏覽（而非滑鼠），有些則可能會使用觸控或語音指令。 雖然鍵盤導覽控制項會因瀏覽器和平台而異，但Tab鍵通常用於在頁面上的欄位、連結和按鈕之間移動焦點。 若要深入瞭解，請參閱[鍵盤快速鍵](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}。
 
-如需協助工具的詳細資訊，請參閱開發人員檔案中的[協助工具准則](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"}。
+如需協助工具的詳細資訊，請參閱開發人員檔案中的[協助工具准則](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"}。
 
 ## Windows
 

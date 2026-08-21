@@ -17,16 +17,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: 437
 ht-degree: 0%
 
 ---
 
 # 使用內容傳遞網路
 
-內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN （請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant)）。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
+內容傳遞網路(CDN)可用來儲存媒體檔案。 雲端基礎結構上的Adobe Commerce包含Fastly CDN （請參閱&#x200B;_雲端基礎結構上的Commerce指南_&#x200B;中的[Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/cdn/fastly)）。 _內部部署_&#x200B;安裝的Commerce執行個體不包含與任何特定CDN的整合，您可以使用您選擇的CDN。
 
 設定CDN後，您必須從管理員完成設定。 您可以在全域或網站層級進行變更。 當CDN用於媒體儲存時，Commerce存放區頁面上的所有媒體路徑都會變更為設定中指定的CDN路徑。
 

@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;設定定義特定客戶群組或共用�
 
 進階定價資料會與產品頁面同步。 例如，如果您更新層級價格數量，系統會更新產品頁面上的值。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （僅適用於[Adobe Commerce B2B](./b2b/../introduction.md)）如果您使用共用目錄，進階定價資料會與產品頁面和共用目錄同步。 例如，如果您更新層級價格數量，則系統會更新共用目錄和產品頁面上的值。 共用目錄中所指示的任何自訂訂訂價格都會優先於客戶群組定價。 另請參閱&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[設定共用目錄定價和結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=zh-Hant)。
+![Adobe Commerce B2B](../assets/b2b.svg) （僅適用於[Adobe Commerce B2B](./b2b/../introduction.md)）如果您使用共用目錄，進階定價資料會與產品頁面和共用目錄同步。 例如，如果您更新層級價格數量，則系統會更新共用目錄和產品頁面上的值。 共用目錄中所指示的任何自訂訂訂價格都會優先於客戶群組定價。 另請參閱&#x200B;_Adobe Commerce B2B指南_&#x200B;中的[設定共用目錄定價和結構](/help/b2b/catalog-shared-pricing-structure.md)。
 
 ![進階價格](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

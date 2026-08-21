@@ -19,9 +19,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2024-01-31
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 當組態中的&#x200B;_最大寬度_&#x200B;和&#x200B;_最大高度_&#x200B;值變更時，它會更新先前插入的所有現有最佳化影像。
 
-Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=zh-Hant)。
+Media Gallery Image Optimization需要執行`media.gallery.renditions.update`佇列取用者，以便在設定變更時重新產生最佳化影像。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

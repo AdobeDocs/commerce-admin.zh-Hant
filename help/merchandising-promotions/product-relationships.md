@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 由Adobe AI支援的產品推薦
 
-![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [由Adobe AI支援的產品建議](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=zh-Hant)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [由Adobe AI支援的產品建議](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/overview)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。

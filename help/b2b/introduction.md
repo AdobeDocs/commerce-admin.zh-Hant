@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度�
 
 Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source提供延伸功能。 支援B2B工作流程的服務包括：
 
-* [目錄服務](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=zh-Hant)
-* [即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=zh-Hant)
-* [產品推薦](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=zh-Hant)
+* [目錄服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)
+* [即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)
+* [產品推薦](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
 
 ## 共用目錄
 

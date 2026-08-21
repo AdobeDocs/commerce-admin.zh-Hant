@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 函式 | 說明 |
 | --- | --- |
 | 重設密碼 | 密碼重設電子郵件會直接傳送至客戶的電子郵件帳戶。 存放區管理員無法取得客戶密碼的存取權。 |
-| 強制登入 | 撤銷與客戶帳戶相關聯的OAuth存取權杖。 這只能用於已指派OAuth權杖的客戶帳戶，做為網頁API [整合](../systems/integrations.md)的一部分。 若要深入瞭解，請參閱開發人員檔案中的[OAuth驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)。 <br/><br/>從店面或管理員建立的標準客戶帳戶沒有OAuth權杖。 |
+| 強制登入 | 撤銷與客戶帳戶相關聯的OAuth存取權杖。 這只能用於已指派OAuth權杖的客戶帳戶，做為網頁API [整合](../systems/integrations.md)的一部分。 若要深入瞭解，請參閱開發人員檔案中的[OAuth驗證](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)。 <br/><br/>從店面或管理員建立的標準客戶帳戶沒有OAuth權杖。 |
 
 {style="table-layout:auto"}
 

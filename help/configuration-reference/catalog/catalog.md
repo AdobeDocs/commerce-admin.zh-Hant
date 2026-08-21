@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3350
+source-wordcount: 3358
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本節中說明的標準搜尋組態與[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)不同。
+>本節中說明的標準搜尋組態與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同。
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | 存放區檢視 | 決定是否在存放區中實作&#x200B;_常用搜尋詞_。 此設定不適用於使用[即時搜尋](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)的存放區。 選項： `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | 存放區檢視 | 決定是否在存放區中實作&#x200B;_常用搜尋詞_。 此設定不適用於使用[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)的存放區。 選項： `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至產品URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Category URL Suffix] | 存放區檢視 | 決定是否將尾碼（例如html或htm）套用至類別URL。 若使用，請勿在尾碼前加上句號，因為它會自動套用。 |
 | [!UICONTROL Use Categories Path for Product URLs] | 存放區檢視 | 判斷類別路徑是否包含在店面的產品URL中。 這麼做可能會讓多個URL指向相同頁面，因而影響搜尋排名。 若要深入瞭解，請參閱[Canonical meta標籤](../../merchandising-promotions/meta-data.md#canonical-meta-tag)。 |
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-您可以使用[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=zh-Hant)或Adobe Commerce支援的協力廠商搜尋引擎服務來設定目錄搜尋。 請依照安裝說明操作。
+您可以使用[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)或Adobe Commerce支援的協力廠商搜尋引擎服務來設定目錄搜尋。 請依照安裝說明操作。
 
 ### 具有[!DNL Live Search]的Adobe Commerce
 
@@ -282,7 +282,7 @@ Adobe Commerce支援OpenSearch和Elasticsearch。 Adobe Commerce版本2.3.7-p3�
 
 >[!IMPORTANT]
 >
->- 鑑於Elasticsearch 7於2023年8月宣佈終止支援，Adobe建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=zh-Hant)。
+>- 鑑於Elasticsearch 7於2023年8月宣佈終止支援，Adobe建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 >- 在2.4.4和2.4.3-p2版中，所有標示為Elasticsearch的欄位也適用於OpenSearch。 當版本2.4.6中引入Elasticsearch 8.x支援時，已建立新標籤以區分Elasticsearch和OpenSearch設定。 不過，兩者的設定選項是相同的。
 
 ![目錄搜尋組態選項](./assets/catalog-search-opensearch.png){zoomable="yes"}

@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 1. 請參閱下列主題，瞭解每個版本的適用資料流程圖表和資料庫實體對應：
 
-   - [個人資訊參考(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant)
-   - [個人資訊參考(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hant)
+   - [個人資訊參考(2.x)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [個人資訊參考(1.x)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![圖表](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
    - **刪除要求**
 
-      - 商店託管於Adobe Commerce Cloud的商戶應聯絡Adobe支援，尋求刪除個人資訊的協助。 如需詳細資訊，請連絡您的Adobe技術客戶經理或客戶支援。
-      - 在內部部署Adobe Commerce或Magento Open Source安裝的商戶必須實作自己的流程和指令碼，才能在收到要求時刪除個人資訊。
+     - 商店託管於Adobe Commerce Cloud的商戶應聯絡Adobe支援，尋求刪除個人資訊的協助。 如需詳細資訊，請連絡您的Adobe技術客戶經理或客戶支援。
+     - 在內部部署Adobe Commerce或Magento Open Source安裝的商戶必須實作自己的流程和指令碼，才能在收到要求時刪除個人資訊。
 
 #### 步驟5：撰寫必要客戶通知的內容
 
@@ -186,12 +186,12 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
    - **如何提交個人資訊收集與使用要求**：個人提交要求說明您揭露所收集有關個人的個人資訊，包括：
 
-      - 您收集到的消費者相關特定個人資訊片段
-      - 您收集到的消費者相關個人資訊類別
-      - 收集個人資訊的來源類別
-      - 您為商業目的而出售或披露之消費者的個人資訊類別
-      - 為商業目的而出售或披露個人資訊的第三方類別
-      - 您的企業收集和/或銷售個人資訊的原因
+     - 您收集到的消費者相關特定個人資訊片段
+     - 您收集到的消費者相關個人資訊類別
+     - 收集個人資訊的來源類別
+     - 您為商業目的而出售或披露之消費者的個人資訊類別
+     - 為商業目的而出售或披露個人資訊的第三方類別
+     - 您的企業收集和/或銷售個人資訊的原因
 
 1. 將內容傳送給團隊，如果可能的話，也傳送給您的法律顧問以供檢閱。
 
@@ -215,9 +215,9 @@ CCPA適用於在加州經營且符合下列任一條件的營利性企業：
 
 - **同意年齡**：如果您收集或使用未成年人的個人資訊，可能會受到下列規定的約束：
 
-   - **未成年人&lt; 13**： 13歲以下的未成年人必須獲得家長授權，才能選擇加入個人資訊的出售。
+  - **未成年人&lt; 13**： 13歲以下的未成年人必須獲得家長授權，才能選擇加入個人資訊的出售。
 
-   - **13至16歲的未成年人**：年齡在13歲或16歲以下的未成年人可以選擇加入個人資訊的出售，前提是企業建立合理的程式來記錄此動作。 必須在公司的[隱私權原則](privacy-policy.md)中說明此程式。 當企業收到這個年齡範圍的未成年人提出的請求時，必須告知他們稍後可以選擇退出的權利，並解釋如何這樣做。
+  - **13至16歲的未成年人**：年齡在13歲或16歲以下的未成年人可以選擇加入個人資訊的出售，前提是企業建立合理的程式來記錄此動作。 必須在公司的[隱私權原則](privacy-policy.md)中說明此程式。 當企業收到這個年齡範圍的未成年人提出的請求時，必須告知他們稍後可以選擇退出的權利，並解釋如何這樣做。
 
   >[!IMPORTANT]
   >

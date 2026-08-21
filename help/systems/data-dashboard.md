@@ -21,9 +21,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
 | 欄位 | 說明 |
 |--- |--- |
 | 範圍 | 同步資料的特定網站。 |
-| [!DNL Product Recommendations] | 顯示[!DNL Product Recommendations]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
-| [!DNL Live Search] | 顯示[!DNL Live Search]的同步處理狀態、已同步的產品數目，以及[可顯示](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/catalog/inventory#stock-options)已同步產品的表格。 |
+| [!DNL Product Recommendations] | 顯示[!DNL Product Recommendations]的同步處理狀態、已同步的產品數目，以及[可顯示](/help/configuration-reference/catalog/inventory.md#stock-options)已同步產品的表格。 |
+| [!DNL Live Search] | 顯示[!DNL Live Search]的同步處理狀態、已同步的產品數目，以及[可顯示](/help/configuration-reference/catalog/inventory.md#stock-options)已同步產品的表格。 |
 | [!DNL Catalog Service] | 顯示[!DNL Catalog Service]的同步狀態、已同步的產品數目以及已同步產品的表格。 |
 | 設定 | 開啟對話方塊，您可以[手動重新同步目錄資料](#resync-catalog-data)。 |
 | 同步狀態 | 顯示過去三小時內已從Commerce資料庫傳輸至任何SaaS服務的產品數量。 如果您不經常更新目錄，此值通常為零。 如果同步正在進行中，請按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;以取得更新的計數。 |

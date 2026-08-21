@@ -1,6 +1,6 @@
 ---
 title: 商店本地化
-description: 瞭解如何將商店或商店檢視本地化。
+description: 瞭解如何透過變更其地區設定來本地化商店或商店檢視，以交換用於導覽、標籤、按鈕和連結的翻譯表格。
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 步驟1：安裝語言套件
 
-請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱&#x200B;_擴充功能指南_&#x200B;中的[一般CLI安裝](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=zh-Hant)。
+請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱&#x200B;_擴充功能指南_&#x200B;中的[一般CLI安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 ## 步驟2：建立該語言的存放區檢視
 

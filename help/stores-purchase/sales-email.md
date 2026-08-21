@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 0%
+source-wordcount: 454
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
    - `Disable` — 在事件觸發時傳送銷售電子郵件。
    - `Enable` — 以預先決定的固定間隔傳送銷售電子郵件。
 
-   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=zh-Hant)。
+   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
 
 ## 步驟3. 完成每封銷售電子郵件訊息的詳細資料
 
