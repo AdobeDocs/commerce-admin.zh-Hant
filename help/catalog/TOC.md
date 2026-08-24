@@ -4,7 +4,7 @@ user-guide-description: Adobe Commerce與Magento Open Source管理員及電子�
 breadcrumb-title: 目錄管理
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -99,4 +99,4 @@ ht-degree: 1%
     + [建立和刪除屬性](attribute-product-create.md)
     + [大量更新](bulk-product-attribute-update.md)
     + [屬性集](attribute-sets.md)
-+ [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
