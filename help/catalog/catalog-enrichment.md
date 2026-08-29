@@ -63,7 +63,7 @@ ht-degree: 0%
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
 - [IMS已設定](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
-- 您有[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 - 貴組織已針對基礎AI服務簽署GenAI附加條款，或明確選擇退出。
 
 >[!NOTE]
