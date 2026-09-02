@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: 9d91acc3bebbdaeab13c80ba4b2b3e418e13e42b
 workflow-type: tm+mt
-source-wordcount: 11212
+source-wordcount: 11201
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ B2B v1.5.3版本包含品質改善、錯誤修正，以及[安全性公告APSB26
 
 *2026年5月12日*
 
-[!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.8-p5、2.4.7-p10和2.4.6-p15安全性修補程式發行版本。
+[!BADGE 支援]{type=Informative tooltip="支援"} Adobe Commerce 2.4.7-p10和2.4.6-p15安全性修補程式發行版本。
 與Adobe Commerce版本2.4.7至2.4.7-p10、2.4.6至2.4.6-p15相容。
 
 ![已修正問題](../assets/fix.svg)包含[安全性公告APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html)中記錄的安全性修正。
