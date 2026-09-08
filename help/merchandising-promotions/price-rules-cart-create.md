@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # 建立購物車價格規則
 
@@ -73,6 +74,7 @@ ht-degree: 0%
      ![購物車價格規則 — 優惠券設定](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）使用&#x200B;_行事曆_ （![行事曆圖示](../assets/icon-calendar.png)）來選擇促銷的&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期範圍。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce as a Cloud Service）使用&#x200B;_行事曆_ （![行事曆圖示](../assets/icon-calendar.png)）來選擇促銷的&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期及時間範圍。
 
 1. 輸入數字，以定義此價格規則的&#x200B;**[!UICONTROL Priority]**&#x200B;與其他同時生效之價格規則的「動作」設定相關。
 
@@ -250,6 +252,7 @@ ht-degree: 0%
    | `Fixed amount discount` | 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，更新後的價格即比原始價格低$10。 |
    | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：在[!UICONTROL Discount Amount]中輸入10，從購物車總計中減去$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計和運費，請使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;選項。 |
    | `Buy X get Y free` | 定義客戶必須購買的數量X，以免費接收相同產品/變數&#x200B;**的數量Y**。 （[!UICONTROL Discount Amount]為Y。） 購物車中必須存在相同專案的X+Y總數量/新增該專案，才能套用折扣。 |
+   | `Free Gift` | 當符合規則條件時，將免費禮品新增至購物車。 選取免費產品及要新增至購物車的數量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)這是僅在Adobe Commerce中提供的專屬功能，在Magento Open Source中無法使用。 （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支援此功能。 可透過[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)存取，並可在Edge Delivery Services (EDS)店面取得。 |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ ht-degree: 0%
 | [!UICONTROL Uses per Customer] | 決定屬於任何選定客戶群組的相同註冊客戶可以使用購物車價格規則的次數。 不適用於身為NOT LOGGED IN客戶群組成員的訪客購物者，或購物但未登入其帳戶的客戶。 若無限制，請留空。 |
 | [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | 判斷促銷活動是否包含在您商店的公開RSS摘要中。 選項： `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可以使用抵用券的第一個日期。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可使用抵用券的最後日期。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可以使用抵用券的第一個日期。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）可以使用抵用券的日期和時間。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）可使用抵用券的最後日期。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）可以使用抵用券的最後日期和時間。 |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ ht-degree: 0%
 
 | 欄位 | 說明 |
 |--- |--- |
-| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。<br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計與運送，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;為Y。） |
+| [!UICONTROL Apply] | 決定套用至購買的計算型別。 選項： <br/>**[!UICONTROL Percent of product price discount]**— 從原始價格減去百分比，以折扣料號。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，所更新價格會比原始價格低10%。<br/>**[!UICONTROL Fixed amount discount]**— 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`，更新後的價格即比原始價格低$10。<br/>**[!UICONTROL Fixed amount discount for whole cart]**— 從購物車小計中減去固定金額，以折扣整個購物車。 例如：在&#x200B;_[!UICONTROL Discount Amount]_&#x200B;中輸入`10`以從購物車小計中扣除$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計與運送，請參閱_套用至運費金額&#x200B;_。<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**— 定義客戶必須購買才能免費接收數量的數量。 （_[!UICONTROL Discount Amount]_&#x200B;是Y。） <br/>**[!UICONTROL Free Gift]**— 當符合規則條件時，將免費的禮品加入購物車。 選取免費產品及要新增至購物車的數量。 ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）。 Luma店面不支援此功能。 可透過[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)存取，並可在Edge Delivery Services (EDS)店面取得。 |
 | [!UICONTROL Discount Amount] | （必要）提供的折扣金額。 |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 設定在同一次購買中可套用折扣的產品數目上限。 |
 | [!UICONTROL Discount Qty Step (Buy X)] | 設定`Buy X Get Y Free`促銷活動中由`X`代表的產品數目。 此外，定義必須一起將多少項產品批次新增到購物車，才能套用`Fixed amount discount`和`Percent of product price discount`促銷活動。 |

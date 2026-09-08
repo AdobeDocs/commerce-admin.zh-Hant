@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | 全域 | 決定料號是否可以數量遞增方式出售。 選項： `Yes` / `No` |
 | [!UICONTROL Qty Increments] | 全域 | 建立構成數量增量的產品數量。 |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | 全域 | 決定是否自動將銷退折讓單中包含的料號退回存貨。 選項： `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![每個Source的可用性（店面）](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | 存放區檢視 | 如果設為`Yes`，店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}查詢會傳回該店舖銷售管道的每個來源庫存。 選項： `Yes` / `No`。 預設： `No`，因為查詢會公開哪些來源存放SKU。 停用時，查詢傳回錯誤。 在來源數量達到[股票期權](#stock-options)區段中設定的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，查詢傳回的確切數量會維持遮罩狀態。 |
 
 {style="table-layout:auto"}
 
