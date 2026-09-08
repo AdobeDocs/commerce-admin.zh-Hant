@@ -5,9 +5,9 @@ breadcrumb-title: 銷售與促銷
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [購物車價格規則概觀](price-rules-cart.md)
     - [建立購物車價格規則](price-rules-cart-create.md)
     - [優惠券代碼](price-rules-cart-coupon.md)
+    - [免費贈品促銷活動](price-rules-cart-free-gift.md)
     - [購物車價格規則的排程變更](price-rule-cart-scheduled-changes.md)
     - [範例：免運費促銷活動](price-rules-cart-free-shipping.md)
     - [範例：購買此項可免費取得](price-rules-cart-buy-this-get-that.md)
@@ -87,4 +88,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
