@@ -230,7 +230,7 @@ ht-degree: 0%
    | `Name` | 對象名稱，例如`Orders over $50` |
    | `Description` | 對象的說明，例如`People who placed an order over $50 in the last month.`。 |
    | `Source` | 指出對象的來源，例如`Experience Platform`。 |
-   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
+   | `Website` | 指出您已連結至包含對象之資料流的網站。 當您透過[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/connect-data)擴充功能將Commerce執行個體連結至Experience Platform時，就會建立此連結。 |
 
    {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ ht-degree: 0%
    | `Fixed amount discount` | 從購物車中每個合格專案的原始價格減去固定金額，以折扣專案。 例如：在[!UICONTROL Discount Amount]中輸入`10`，更新後的價格即比原始價格低$10。 |
    | 整個購物車的固定金額折扣 | 從購物車總計中減去固定金額，即可折扣整個購物車。 例如：在[!UICONTROL Discount Amount]中輸入10，從購物車總計中減去$10。 依預設，折扣僅適用於購物車小計。 若要將折扣分別套用至小計和運費，請使用&#x200B;_[!UICONTROL Apply to Shipping Amount]_&#x200B;選項。 |
    | `Buy X get Y free` | 定義客戶必須購買的數量X，以免費接收相同產品/變數&#x200B;**的數量Y**。 （[!UICONTROL Discount Amount]為Y。） 購物車中必須存在相同專案的X+Y總數量/新增該專案，才能套用折扣。 |
-   | `Free Gift` | 當符合規則條件時，將免費禮品新增至購物車。 選取免費產品及要新增至購物車的數量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)這是僅在Adobe Commerce中提供的專屬功能，在Magento Open Source中無法使用。 （[深入瞭解](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支援此功能。 可透過[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)存取，並可在Edge Delivery Services (EDS)店面取得。 |
+   | `Free Gift` | 當符合規則條件時，將免費禮品新增至購物車。 選取免費產品及要新增至購物車的數量。 <br/><br/>**注意：** ![Adobe Commerce](../assets/adobe-logo.svg)這是僅在Adobe Commerce中提供的專屬功能，在Magento Open Source中無法使用。 （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home#product-editions)） <br/><br/>Luma店面不支援此功能。 可透過[GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)存取，並可在Edge Delivery Services (EDS)店面取得。 |
 
    {style="table-layout:auto"}
 
