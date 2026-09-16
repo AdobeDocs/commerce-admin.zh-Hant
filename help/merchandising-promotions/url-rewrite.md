@@ -7,29 +7,40 @@ badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.a
 TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '1003'
 ht-degree: 0%
-
 ---
-
 # URL重新寫入
 
 >[!TIP]
@@ -37,6 +48,8 @@ ht-degree: 0%
 >如需Adobe Commerce as a Cloud Service的相關資訊，請參閱Commerce Storefront檔案中的[SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)
 
 URL重寫工具可讓您變更與產品、類別或CMS頁面相關聯的任何URL。 當您建立URL重新寫入時，Commerce會自動建立永久重新導向(301)，因此任何指向舊URL的連結都會重新導向至新位址。
+
+當來源是購物者輸入的查詢而不是現有的URL時，請使用搜尋字詞重新導向。 如需詳細指引，請參閱[搜尋字詞重新導向與店面路由](search-term-redirects.md)。
 
 >[!NOTE]
 >
@@ -142,7 +155,7 @@ Commerce在內部使用ID型URL，但您可以為客戶建立SEO友善URL：
 >
 >本節說明Web伺服器層級URL重新寫入，此重新寫入與URL重新寫入工具功能不同。 網頁伺服器重寫處理技術URL格式（例如移除`index.php`），而URL重寫工具則管理內容變更的重新導向。
 
-啟用Web伺服器重寫是初始Commerce設定的一部分，通常在安裝期間進行設定。啟用後，網頁伺服器（Apache或Nginx）會自動從URL中移除檔案名稱`index.php`，建立更乾淨、SEO友善的位址。
+啟用Web伺服器重寫是初始Commerce設定的一部分，通常在安裝期間進行設定。 啟用後，網頁伺服器（Apache或Nginx）會自動從URL中移除檔案名稱`index.php`，建立更乾淨、SEO友善的位址。
 下列範例顯示URL在啟用Web伺服器重寫與未啟用重寫情況下的顯示方式：
 
 **沒有Web伺服器重寫的URL**
