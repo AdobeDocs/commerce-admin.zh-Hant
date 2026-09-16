@@ -5,13 +5,11 @@ breadcrumb-title: 銷售與促銷
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: ef07733f89af030f047576770655f6599b370351
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Commerce銷售和促銷指南 {#marketing}
 
@@ -74,6 +72,7 @@ ht-degree: 1%
     - [建立電子郵件提醒](email-reminder-rules-create.md)
 - 搜尋引擎最佳化 {#seo}
   - [SEO概述和最佳作法](seo-overview.md)
+  - [搜尋字詞重新導向和店面路由](search-term-redirects.md)
   - [Meta資料](meta-data.md)
   - [網站地圖](sitemap-xml.md)
   - URL重新寫入 {#url-rewrites}
@@ -88,4 +87,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
