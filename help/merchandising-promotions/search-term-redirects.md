@@ -46,7 +46,7 @@ ht-degree: 0%
 | 需求 | 建議的功能 |
 | --- | --- |
 | 從標準[!DNL Adobe Commerce]搜尋傳送特定查詢至頁面 | 在[管理搜尋字詞](../catalog/search-terms.md)中設定搜尋字詞（如果支援）。 |
-| 變更搜尋結果中的產品排名或可見度 | 使用[!DNL Live Search] [同義字](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms)或[銷售規則](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)。 |
+| 變更搜尋結果中的產品排名或可見度 | 使用[!DNL Live Search] [同義字](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/synonyms/synonyms)或[銷售規則](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/rules/rules-add)。 |
 | 重新導向舊產品、類別或CMS URL | 使用Commerce [URL Rewrite](url-rewrite.md)工具套用至您的部署。 |
 | 重新導向[!DNL Edge Delivery Services]路徑 | 使用店面或CDN路由。 |
 | 店面移轉後保留舊版URL | 建立並測試舊版到新的URL重新導向對應。 |
@@ -83,13 +83,13 @@ ht-degree: 0%
 
 當您需要變更搜尋關聯性、產品排名或產品可見性時，請使用[!DNL Live Search]。 當不同的字詞應該傳回類似的產品時，請使用同義詞。 當產品必須以不同方式提升、掩埋或排名時，請使用銷售規則。
 
-不應將[!DNL Live Search]搜尋行為視為每個原生Commerce搜尋字詞設定的卸除式取代。 當查詢必須導覽到內容或行銷活動頁面時，在接收請求的店面或邊緣路由層中實作重新導向。 如需詳細資訊，請參閱[[!DNL Live Search] 檔案](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)。
+不應將[!DNL Live Search]搜尋行為視為每個原生Commerce搜尋字詞設定的卸除式取代。 當查詢必須導覽到內容或行銷活動頁面時，在接收請求的店面或邊緣路由層中實作重新導向。 如需詳細資訊，請參閱[[!DNL Live Search] 檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)。
 
 ## Edge Delivery Services
 
 對於由[!DNL Edge Delivery Services]提供支援的店面，請在店面或邊緣路由層管理重新導向。 請勿假設[!DNL Adobe Commerce]管理員URL重寫控制每個要求。
 
-當您使用檔案編寫時，請在網站的重新導向組態中維護重新導向對應。 對於在請求到達來源之前必須執行的重新導向，請使用適當的CDN或邊緣設定。 如需相關的SEO指引，請參閱[Commerce店面的SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)。
+當您使用檔案編寫時，請在網站的重新導向組態中維護重新導向對應。 對於在請求到達來源之前必須執行的重新導向，請使用適當的CDN或邊緣設定。 如需相關的SEO指引，請參閱[Commerce店面的SEO指引](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=zh-Hant)。
 
 ## 從Luma移轉
 
