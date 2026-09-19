@@ -1,14 +1,13 @@
 ---
-title: '[!UICONTROL Catalog] &amp；gt； [!UICONTROL Product File Attributes]'
-description: 檢閱Commerce管理員的[!UICONTROL Catalog] &amp；gt； [!UICONTROL Product File Attributes]頁面上的組態設定。
+title: '[!UICONTROL Catalog] > [!UICONTROL Product File Attributes]'
+description: 檢閱Commerce管理員的[!UICONTROL Catalog] &gt； [!UICONTROL Product File Attributes]頁面上的組態設定。
 feature: Configuration, Catalog Management
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+exl-id: 2cf3644a-9269-436c-9264-985a9bc74c24
+source-git-commit: cd54a8c1b6ccf52497bda61919b5bb69c895d960
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
-
+source-wordcount: '79'
+ht-degree: 10%
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Product File Attributes]
 
 {{config}}
