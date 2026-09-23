@@ -56,7 +56,7 @@ ht-degree: 0%
 
    - 如果此詳細目錄來源已可供使用，請將&#x200B;**[!UICONTROL Is Enabled]**&#x200B;設為`Yes`。
 
-   - 若要將此來源的庫存公開至店面，請將&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;設定為`Yes`。 僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+   - 若要將此來源的庫存公開至店面，請將&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;設定為`Yes`。 僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
      此選項預設為`No`。 如果您將其設為`Yes`，則來源最多可能需要查詢快取存留期才能顯示在結果中。 如果您接著將此選項設為`No`，會立即從查詢結果中移除來源。
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | （必要）可識別管理員使用者之詳細目錄來源的唯一名稱。 |
 | [!UICONTROL Code] | （必要）系統用來識別詳細目錄來源的唯一英數字元代碼。 以大寫或小寫字元和/或數字（不含空格）輸入代碼。 如有需要，可使用連字型大小或底線，而非空格。 建立來源後無法編輯程式碼。 這是您為庫存指派來源，以及匯出和/或匯入產品資料時使用的唯一ID。 |
 | [!UICONTROL Is Enabled] | 決定存貨來源是否可供使用。 選項：是/否 |
-| [!UICONTROL Visible on Storefront]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 決定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查詢是否可傳回此存貨來源的存貨資訊。 |
+| [!UICONTROL Visible on Storefront]僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 決定店面[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL查詢是否可傳回此存貨來源的存貨資訊。 |
 | [!UICONTROL Description] | 存貨來源地點的簡短說明。 包含對您的管理員使用者有所幫助的詳細資料。 |
 | [!UICONTROL Latitude] | 指定GPS詳細目錄來源的緯度座標。 以數字輸入值，視需要加上加號或減號。 不允許使用度符號和字母。 例如：Latitude 32.7555 |
 | [!UICONTROL Longitude] | 指定GPS詳細目錄來源的經度座標。 以數字輸入值，視需要加上加號或減號。 不允許使用度符號和字母。 例如： `-97.3308` |
