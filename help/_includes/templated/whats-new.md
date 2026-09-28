@@ -1,15 +1,36 @@
 ---
-source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
+source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 2%
-
 ---
 # 新功能範本
 
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年9月23日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/sources/sources-add">新增來源</a>以包含Adobe Commerce as a Cloud Service的新「店面可見」切換按鈕。 現在，每個詳細目錄來源都可以個別標示為店面是否可見。 預設會隱藏來源。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年8月31日
 
@@ -51,28 +72,6 @@ ht-degree: 2%
         重大更新
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年7月29日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>瞭解如何在<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/services/email-suppression">電子郵件隱藏</a>中直接從管理員隱藏自動系統電子郵件的特定類別，例如訂單或行銷通知。</p>
-</td>
-      <td>
-        重大更新，新主題
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">認可</a></td>
     </tr>
   </tbody>
 </table>
