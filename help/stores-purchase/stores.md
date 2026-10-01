@@ -6,25 +6,32 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: '1295'
 ht-degree: 0%
-
 ---
-
 # 存放區和網站結構
 
 安裝Adobe Commerce或Magento Open Source時，會建立包含主要網站、商店和商店檢視的階層。 您可以視需要建立其他網站、商店和商店檢視。 例如，除了您的主要網站之外，您可能有其他網站具有不同的網域。 在每個網站內，您可以有多個商店，而在每個商店內，有不同的商店檢視。 許多安裝專案都有一個網站和一個商店，但透過多個商店檢視支援不同語言。
@@ -154,6 +161,12 @@ Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定�
      程式碼必須以小寫(a-z)字母開頭，並且可以包含字母(a-z)、數字(0-9)和底線(_)符號的任何組合。
 
    - **[!UICONTROL Sort Order]** — _（選擇性）_&#x200B;輸入數字，以決定此網站與其他網站一起列出的順序。 若要讓此網站出現在清單頂端，請輸入零(`0`)。
+
+   - **[!UICONTROL Sync prices and price books]** — _（選擇性）_&#x200B;如果已安裝[!DNL Adobe Commerce Optimizer Connector]，請在&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**&#x200B;區段中選取此選項，將此網站的價格和價格簿同步至[!DNL Adobe Commerce Optimizer]。 如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]，資料也會同步處理可用的B2B共用目錄。 請參閱[管理目錄檢視](../b2b/catalog-views-manage.md)。
+
+     ![建立網站 — Adobe Commerce Optimizer匯出工具設定](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+     在初始同步後變更此設定會觸發完全重新索引。 請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出設定](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
 
 1. 按一下&#x200B;**[!UICONTROL Save Web Site]**。
 

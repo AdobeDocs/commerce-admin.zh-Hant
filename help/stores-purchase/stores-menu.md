@@ -5,25 +5,32 @@ exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: '430'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Stores]功能表
 
 _[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在Adobe Commerce或Magento Open Source安裝中參考的設定。 這些功能包括設定商店階層、組態、銷售和訂單設定、稅捐與貨幣、產品屬性、產品稽核評等及客戶群組。
@@ -73,3 +80,11 @@ _[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在Ado
 ### [!UICONTROL Other Settings]
 
 管理[獎勵匯率](../merchandising-promotions/reward-exchange-rates.md)、[贈品包裝](cart-configuration.md#gift-wrap)及[贈品登記簿](../merchandising-promotions/gift-registries.md)的其他設定。
+
+## [!DNL Adobe Commerce Optimizer]整合
+
+安裝[!DNL Adobe Commerce Optimizer Connector]後，您可以同步網站並將檢視資料儲存到[!DNL Adobe Commerce Optimizer]。 網站範圍控制[價格同步](stores.md#step-1-create-a-website) （價格與價格簿）。 存放區檢視範圍控制[產品同步](store-views.md#add-a-store-view) （產品和產品屬性）。
+
+如需[!UICONTROL All Stores]格線上顯示的同步狀態指示器，請參閱[Adobe Commerce Optimizer同步狀態](store-views.md#optimizer-sync-status)。 如需聯結器設定和組態行為，請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出組態](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
+
+如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]，資料也會同步處理可用的B2B共用目錄。 請參閱[管理目錄檢視](../b2b/catalog-views-manage.md)。

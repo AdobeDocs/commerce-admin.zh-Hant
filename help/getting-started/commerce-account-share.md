@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -141,7 +141,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    > 如果未顯示&#x200B;**[!UICONTROL Delete]**，請檢查&#x200B;**[!UICONTROL Share Name]**&#x200B;是否包含命名模式`Cloud Shared Access from MAG0XYZ`。 如果帳戶具有[命名模式且無法刪除](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)，這是因為共用存取權是由API建立，而非直接從[Commerce帳戶](https://account.magento.com/)建立。
-   > 
+   >
    > 如果無法刪除，只要讓帳戶擁有者修改共用存取帳戶，並在[授予帳戶許可權]底下，取消勾選每個專案。 在該更新後，使用者將無法再存取任何帳戶資源。
    > ![影像](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -150,11 +150,10 @@ ht-degree: 0%
 
 1. 提示確認時，按一下&#x200B;**[!UICONTROL Delete User]**。
 
->[!NOTE]
->
->您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
+   >[!NOTE]
+   >
+   >您無法在此介面中從MAG[XYZ ]_刪除共用名稱為_&#x200B;雲端共用存取的使用者。 請參閱[如何刪除透過雲端專案被授予共用存取許可權的使用者？](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users)。
 
 ## 相關閱讀
 
 [共用存取疑難排解](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-

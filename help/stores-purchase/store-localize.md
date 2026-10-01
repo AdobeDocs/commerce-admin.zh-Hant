@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # 商店本地化
 
 在您商店的所有頁面中，大多數看似以硬式編碼撰寫的文字，可以透過變更檢視的地區設定來立即變更為不同的語言。 變更地區設定實際上並不會逐字翻譯文字，而只是參照不同的翻譯表格，提供整個存放區使用的介面文字。 可變更的文字包含導覽標題、標籤、按鈕和連結，例如&#x200B;_我的購物車_&#x200B;和&#x200B;_我的帳戶_。 您也可以使用[內嵌翻譯](../configuration-reference/advanced/developer.md)工具來修改介面中的文字。
@@ -68,6 +73,8 @@ ht-degree: 0%
    如果有多種語言可供使用，請務必選擇適合特定地區或方言的語言。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
+
+   如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]，儲存顯示地區設定變更會使目錄檢視同步索引器失效。 排程索引子稍後會在[!DNL Adobe Commerce Optimizer]中重新專案受影響的目錄檢視。 目錄檢視裝載一律使用`sources[].locale`的存放區檢視代碼，而非`general/locale/code`中設定的顯示地區設定。 請參閱[管理目錄檢視](../b2b/catalog-views-manage.md)。
 
    在您變更地區設定的語言之後，您建立的其餘內容，包括產品名稱和說明、類別、[CMS](../content-design/page-translate.md)頁面和區塊，必須針對每個商店檢視分別翻譯。
 
