@@ -43,13 +43,13 @@ ht-degree: 0%
 ---
 # 管理您的共用目錄
 
-_[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存取權，包括產品選擇、自訂定價、類別許可權和目錄詳細資訊。 此頁面類似於標準管理員工作區，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
+_[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需的工具存取權，包括產品選擇、自訂定價、類別許可權和目錄詳細資訊。 此頁面類似於標準管理員工作區，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
 
 如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能，頁面也會提供聯結器將資料從每個共用目錄同步到[!DNL Adobe Commerce Optimizer]時所建立的[!DNL Adobe Commerce Optimizer]目錄檢視的存取權，以及可保護B2B店面體驗之目錄檢視的限制存取金鑰。
 
 ## 更新產品選擇
 
-任何共用目錄中的產品選取可以輕易地從共用目錄格線的&#x200B;_[!UICONTROL Action]_欄更新。 您所做的變更對任何關聯公司帳戶的成員可見。 此程式與選擇新[目錄結構](catalog-shared-pricing-structure.md)的產品相同，只是無法變更組態範圍。
+任何共用目錄中的產品選取可以輕易地從共用目錄格線的&#x200B;_[!UICONTROL Action]_&#x200B;欄更新。 您所做的變更對任何關聯公司帳戶的成員可見。 此程式與選擇新[目錄結構](catalog-shared-pricing-structure.md)的產品相同，只是無法變更組態範圍。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
@@ -61,7 +61,7 @@ _[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存�
 
    您可以略過第一個專案，因為共用目錄第一次儲存後就無法變更其範圍。
 
-如果您使用特定產品，_[!UICONTROL Products In Shared Catalog]_區段會列出該產品可用的每個共用目錄。 若要深入瞭解，請參閱[將產品新增至共用目錄](catalog-shared-product-add.md)。
+如果您使用特定產品，_[!UICONTROL Products In Shared Catalog]_&#x200B;區段會列出該產品可用的每個共用目錄。 若要深入瞭解，請參閱[將產品新增至共用目錄](catalog-shared-product-add.md)。
 
 ![共用目錄中的產品](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -73,7 +73,7 @@ _[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存�
 
 1. 對於網格中您要更新的共用目錄，請移至&#x200B;**[!UICONTROL Action]**&#x200B;欄並選取&#x200B;**[!UICONTROL Set Pricing and Structure]**。
 
-1. 在&#x200B;_[!UICONTROL Catalog Structure]_頁面上，按一下&#x200B;**[!UICONTROL Configure]**並執行下列任一項作業：
+1. 在&#x200B;_[!UICONTROL Catalog Structure]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Configure]**&#x200B;並執行下列任一項作業：
 
    - 在頁面頂端的進度指示器中，按一下&#x200B;**[!UICONTROL Pricing]**。
    - 按一下右上角的&#x200B;**[!UICONTROL Next]**。
@@ -86,7 +86,7 @@ _[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存�
 
 >[!NOTE]
 >
->**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，指派的客戶群組的每個&#x200B;_[!UICONTROL Display Product Prices]_和_[!UICONTROL Add to Cart]_&#x200B;的[類別許可權](../catalog/category-permissions.md)都會設定為`Allow`。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
+>**[B2B 1.3.0](release-notes.md#b2b-v130)和更新版本** — 當您建立共用目錄時，指派的客戶群組的每個&#x200B;_[!UICONTROL Display Product Prices]_&#x200B;和_[!UICONTROL Add to Cart]_&#x200B;的[類別許可權](../catalog/category-permissions.md)都會設定為`Allow`。 以前，即使目錄許可權設為`Allow`，這些設定也會自動設為`Deny`。
 
 >[!IMPORTANT]
 >
@@ -136,13 +136,13 @@ _[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存�
 
 ## 管理目錄檢視設定
 
-安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能後，共用目錄的&#x200B;_[!UICONTROL Catalog Views]_區段會列出從共用目錄投影的[!DNL Adobe Commerce Optimizer]目錄檢視，並可讓您管理保護這些檢視的受限制存取金鑰。
+安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能後，共用目錄的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;區段會列出從共用目錄投影的[!DNL Adobe Commerce Optimizer]目錄檢視，並可讓您管理保護這些檢視的受限制存取金鑰。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**。
 
 1. 針對您要檢閱的共用目錄，請移至&#x200B;**[!UICONTROL Action]**&#x200B;欄並選取&#x200B;**[!UICONTROL General Settings]**。
 
-1. 在&#x200B;_[!UICONTROL Shared Catalog Information]_面板中，選取&#x200B;**[!UICONTROL Catalog Views]**。
+1. 在&#x200B;_[!UICONTROL Shared Catalog Information]_&#x200B;面板中，選取&#x200B;**[!UICONTROL Catalog Views]**。
 
 若要深入瞭解目錄檢視和編輯限制存取金鑰，請參閱[管理目錄檢視組態](catalog-views-manage.md)。
 
@@ -155,7 +155,7 @@ _[!UICONTROL Shared Catalogs]_頁面提供管理共用目錄所需的工具存�
 | [!UICONTROL Back] | 返回「共用目錄」頁面而不儲存新的共用目錄。 |
 | [!UICONTROL Delete] | 刪除目錄，並將任何關聯公司及其成員重新指派給公用共用目錄。 |
 | [!UICONTROL Reset] | 清除任何未儲存變更的形式，並還原原始目錄詳細資訊。 |
-| [!UICONTROL Duplicate] | 建立目錄](catalog-shared-create.md)的[重複復本。 對於自訂型錄，原始的訂價模型與結構，但不包含公司關聯。 如果公用共用目錄重複，則重複的目錄型別會變更為`custom`。 也會以與重複目錄相同的名稱建立對應的客戶群組。 依照預設，重複的目錄為原始目錄的&#x200B;_重複_。 |
+| [!UICONTROL Duplicate] | 建立目錄[&#128279;](catalog-shared-create.md)的重複復本。 對於自訂型錄，原始的訂價模型與結構，但不包含公司關聯。 如果公用共用目錄重複，則重複的目錄型別會變更為`custom`。 也會以與重複目錄相同的名稱建立對應的客戶群組。 依照預設，重複的目錄為原始目錄的&#x200B;_重複_。 |
 | [!UICONTROL Save and Continue Edit] | 儲存所有變更，並保持表單在編輯模式中開啟。 |
 | [!UICONTROL Save] | 儲存變更、關閉表單，然後返回「共用目錄」頁面。 |
 
