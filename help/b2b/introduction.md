@@ -67,10 +67,10 @@ Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度�
 
 Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source提供延伸功能。 支援B2B工作流程的服務包括：
 
-* [目錄服務](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [產品推薦](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer聯結器](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [目錄服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)
+* [即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)
+* [產品推薦](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer聯結器](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/overview)
 
 [!DNL Adobe Commerce Optimizer Connector]將目錄和定價資料從Adobe Commerce同步到[!DNL Adobe Commerce Optimizer]，以支援AI驅動的產品探索、建議和Headless店面，而Adobe Commerce則維持記錄系統。
 
@@ -78,7 +78,7 @@ Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source
 >
 >針對B2B商家，[!DNL Adobe Commerce Optimizer Connector for B2B]會將您共用的目錄自動同步至[!DNL Adobe Commerce Optimizer]，做為受保護的目錄檢視，以受限制的存取金鑰保護，因此合約特定的產品分類和定價在兩個系統之間保持同步。
 
-如需詳細資訊，請參閱[[!DNL Adobe Commerce Optimizer Connector] 整合指南](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)。
+如需詳細資訊，請參閱[[!DNL Adobe Commerce Optimizer Connector] 整合指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/overview)。
 
 ## 共用目錄
 

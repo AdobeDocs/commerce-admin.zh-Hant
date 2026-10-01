@@ -72,7 +72,7 @@ ht-degree: 0%
 
    ![建立存放區檢視 — Adobe Commerce Optimizer匯出工具設定](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   在初始同步後變更此設定會觸發完全重新索引。 請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出設定](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
+   在初始同步後變更此設定會觸發完全重新索引。 請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出設定](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
 
 1. 按一下&#x200B;**[!UICONTROL Save Store View]**。
 

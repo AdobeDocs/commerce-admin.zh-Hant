@@ -39,13 +39,13 @@ _[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在Ado
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 ![管理員 — 儲存功能表](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 ![管理員 — 儲存功能表](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -85,6 +85,6 @@ _[!UICONTROL Stores]_&#x200B;功能表可讓您存取不太常使用，但在Ado
 
 安裝[!DNL Adobe Commerce Optimizer Connector]後，您可以同步網站並將檢視資料儲存到[!DNL Adobe Commerce Optimizer]。 網站範圍控制[價格同步](stores.md#step-1-create-a-website) （價格與價格簿）。 存放區檢視範圍控制[產品同步](store-views.md#add-a-store-view) （產品和產品屬性）。
 
-如需[!UICONTROL All Stores]格線上顯示的同步狀態指示器，請參閱[Adobe Commerce Optimizer同步狀態](store-views.md#optimizer-sync-status)。 如需聯結器設定和組態行為，請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出組態](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
+如需[!UICONTROL All Stores]格線上顯示的同步狀態指示器，請參閱[Adobe Commerce Optimizer同步狀態](store-views.md#optimizer-sync-status)。 如需聯結器設定和組態行為，請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出組態](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
 
 如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]，資料也會同步處理可用的B2B共用目錄。 請參閱[管理目錄檢視](../b2b/catalog-views-manage.md)。
