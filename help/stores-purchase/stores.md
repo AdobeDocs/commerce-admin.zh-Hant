@@ -6,25 +6,32 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: '1295'
 ht-degree: 0%
-
 ---
-
 # 存放區和網站結構
 
 安裝Adobe Commerce或Magento Open Source時，會建立包含主要網站、商店和商店檢視的階層。 您可以視需要建立其他網站、商店和商店檢視。 例如，除了您的主要網站之外，您可能有其他網站具有不同的網域。 在每個網站內，您可以有多個商店，而在每個商店內，有不同的商店檢視。 許多安裝專案都有一個網站和一個商店，但透過多個商店檢視支援不同語言。
@@ -48,7 +55,7 @@ ht-degree: 0%
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 每個商店都有不同的路徑，但共用一個網域。 |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 每個存放區有主要網域的不同子網域。 |
 
-Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺服器的命令列設定。 Adobe Commerce [設定指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供設定伺服器環境的詳細指示。
+Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺服器的命令列設定。 Adobe Commerce [設定指南](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供設定伺服器環境的詳細指示。
 
 ### 步驟1：選擇商店網域
 
@@ -100,7 +107,7 @@ Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄中，按一下&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Web]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Web]**。
 
 1. 在左上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您為新商店建立的檢視。
 
@@ -120,20 +127,20 @@ Adobe Commerce的多重存放區安裝必須從管理員設定，也必須從伺
 
 ### 步驟5：設定伺服器
 
-若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
+若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
 
 如需設定網頁伺服器的說明，請參閱下列資源：
 
-- [使用NGNX設定多個網站](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [使用Apache設定多個網站](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [使用NGNX設定多個網站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [使用Apache設定多個網站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。
+若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。
 
 ## 新增網站
 
 您可使用同一個Adobe Commerce或Magento Open Source安裝，在同一網域或不同網域中設定多個網站。 根據預設，位於相同網站下的存放區具有相同的IP位址和網域、使用相同的安全性憑證，以及共用單一結帳程式。 如果您希望每個存放區在自己的網域下都有專屬的結帳程式，每個存放區都必須有不同的IP位址和個別的安全性憑證。
 
-Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定，也從伺服器的命令列設定。 Commerce [設定指南](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供設定伺服器環境的詳細指示。
+Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定，也從伺服器的命令列設定。 Commerce [設定指南](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)提供設定伺服器環境的詳細指示。
 
 ![範圍 — 網站](./assets/scope-multisite.svg){width="550"}
 
@@ -155,6 +162,12 @@ Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定�
 
    - **[!UICONTROL Sort Order]** — _（選擇性）_&#x200B;輸入數字，以決定此網站與其他網站一起列出的順序。 若要讓此網站出現在清單頂端，請輸入零(`0`)。
 
+   - **[!UICONTROL Sync prices and price books]** — _（選擇性）_&#x200B;如果已安裝[!DNL Adobe Commerce Optimizer Connector]，請在&#x200B;**[!UICONTROL Adobe Commerce Optimizer exporter settings]**&#x200B;區段中選取此選項，將此網站的價格和價格簿同步至[!DNL Adobe Commerce Optimizer]。 如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]，資料也會同步處理可用的B2B共用目錄。 請參閱[管理目錄檢視](../b2b/catalog-views-manage.md)。
+
+     ![建立網站 — Adobe Commerce Optimizer匯出工具設定](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+     在初始同步後變更此設定會觸發完全重新索引。 請參閱&#x200B;*Commerce聯結器指南*&#x200B;中的[自訂Adobe Commerce Optimizer範圍匯出設定](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)。
+
 1. 按一下&#x200B;**[!UICONTROL Save Web Site]**。
 
 1. 設定新網站所需的每個[商店](#add-stores)和[商店檢視](store-views.md)。
@@ -167,11 +180,11 @@ Adobe Commerce或Magento Open Source的多網站安裝必須從管理員設定�
 
 ### 步驟3：設定伺服器
 
-若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
+若要設定伺服器以支援多個網站，請參閱&#x200B;_設定指南_&#x200B;中的[多個網站或商店](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)。
 
 如需設定Web伺服器的說明，請參閱下列教學課程：
 
-- [使用NGNX設定多個網站](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [使用Apache設定多個網站](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [使用NGNX設定多個網站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [使用Apache設定多個網站](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。
+若為雲端基礎結構上的Adobe Commerce，請參閱[設定多個網站或商店](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)。

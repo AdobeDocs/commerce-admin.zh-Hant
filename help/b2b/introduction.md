@@ -1,33 +1,42 @@
 ---
-title: ' [!DNL Adobe Commerce B2B]簡介'
+title: '[!DNL Adobe Commerce B2B]簡介'
 description: 了解如何使用整合的 B2B 功能來滿足公司客戶的需求。
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # [!DNL Adobe Commerce B2B]簡介
 
 與標準的企業對消費者模式不同，整合式B2B （企業對企業）功能是專為符合擁有企業客戶的賣家（Adobe Commerce商家）需求而設計。 它可容納組織結構複雜的公司，以及擁有各種角色和購買許可權等級的多個使用者。 典型的B2B客戶可能是零售商店的經理，或代表公司進行購買的買家。 在這兩種情況下，交易都會在您的企業與其企業之間進行。 您也可以將產品直接銷售給消費者。 [!DNL Adobe Commerce B2B]是支援B2B和B2C模型的整合式解決方案。
@@ -58,15 +67,28 @@ Company帳戶元件是B2B內的主要實體，所有其他功能在某種程度�
 
 Adobe Commerce服務是託管服務，可為Adobe Commerce和Magento Open Source提供延伸功能。 支援B2B工作流程的服務包括：
 
-* [目錄服務](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/guide-overview)
-* [即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)
-* [產品推薦](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/guide-overview)
+* [目錄服務](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
+* [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
+* [產品推薦](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer聯結器](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+
+[!DNL Adobe Commerce Optimizer Connector]將目錄和定價資料從Adobe Commerce同步到[!DNL Adobe Commerce Optimizer]，以支援AI驅動的產品探索、建議和Headless店面，而Adobe Commerce則維持記錄系統。
+
+>[!NOTE]
+>
+>針對B2B商家，[!DNL Adobe Commerce Optimizer Connector for B2B]會將您共用的目錄自動同步至[!DNL Adobe Commerce Optimizer]，做為受保護的目錄檢視，以受限制的存取金鑰保護，因此合約特定的產品分類和定價在兩個系統之間保持同步。
+
+如需詳細資訊，請參閱[[!DNL Adobe Commerce Optimizer Connector] 整合指南](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)。
 
 ## 共用目錄
 
 共用目錄是訂價層級，可在一或多個網站上為不同公司設定每個產品的自訂價格。 透過使用共用目錄，您可以針對不同的客戶群組套用不同的定價層級來銷售產品。 共用目錄支援僅適用於設定為支援公司帳戶的Commerce存放區。
 
 如需詳細資訊，請參閱[使用共用目錄](catalog-shared.md)。
+
+>[!NOTE]
+>
+>如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能，每個自訂共用目錄也會投影到[!DNL Adobe Commerce Optimizer]中，做為一或多個目錄檢視 — 共用目錄中的每個存放區檢視一個。 如需詳細資訊，請參閱[管理目錄檢視組態](catalog-views-manage.md)和[目錄檢視同步狀態監視](/help/systems/catalog-view-sync-status.md)。
 
 ## 快速訂購
 

@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] 指南'
-description: ' [!DNL Adobe Commerce B2B] 管理員的完整資訊，包括安裝和組態。'
+description: '[!DNL Adobe Commerce B2B]管理員的完整資訊，包括安裝和組態。'
 breadcrumb-title: 指南概觀
 seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,32 +9,45 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: 9ce6906c107bd91a980e9e522e454452b7fca6f8
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce B2B指南
 
 本指南適用於在Adobe Commerce管理員中工作的管理員。 它提供安裝和啟用此模組的詳細資訊，包括其功能的設定和管理。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
@@ -42,7 +55,7 @@ ht-degree: 0%
 存放區管理員有兩個區域：
 
 - 管理員：使用此區域來存取設定UI和報表。
-- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}命令列介面：使用此工具執行安裝和後端組態工作。
+- [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}命令列介面：使用此工具執行安裝和後端組態工作。
 
 本指南涵蓋：
 
@@ -50,11 +63,11 @@ ht-degree: 0%
 | ------- | ----------- |
 | [簡介](introduction.md) | [!DNL Adobe Commerce B2B]提供哪些功能？ |
 | [發行說明](release-notes.md) | 檢閱每個[!DNL Adobe Commerce B2B]版本中提供的更新。 |
-| [安裝](install.md) | 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}安裝[!DNL Adobe Commerce B2B]擴充功能。 |
+| [安裝](install.md) | 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}安裝[!DNL Adobe Commerce B2B]擴充功能。 |
 | [啟用基本B2B功能](enable-basic-features.md) | 安裝[!DNL Adobe Commerce B2B]之後，您必須啟用要啟用商店的功能。 |
 | [公司帳戶](account-companies.md) | 瞭解公司帳戶，以及這些帳戶如何提供主要建置區塊，以支援您商店中的B2B購買者。 |
 | [公司管理](manage-companies.md) | 瞭解B2B Commerce網站管理員如何建立公司階層，以簡化對屬於相同企業之多家公司的管理。 |
-| [共用目錄](catalog-shared.md) | 瞭解如何使用共用目錄，以不同公司的自訂定價來維護閘道目錄。 |
+| [共用目錄](catalog-shared.md) | 瞭解如何使用共用目錄，以不同公司的自訂定價來維護私人目錄。 針對擁有[!DNL Adobe Commerce Optimizer Connector for B2B]的客戶，瞭解如何將B2B共用目錄同步至[!DNL Adobe Commerce Optimizer]作為私人目錄檢視，以使用進階銷售功能強化店面體驗。 |
 | [快速訂單](quick-order.md) | 瞭解快速訂購功能並為您的客戶啟用。 |
 | [個採購單](purchase-order-flow.md) | 瞭解可讓公司追蹤並控制其支出的採購單工作流程。 |
 | [個引號](quotes.md) | 瞭解報價工作流程，以及如何為公司帳戶提供此服務。 |
@@ -74,5 +87,5 @@ ht-degree: 0%
 
 如果您需要本指南未涵蓋的資訊或問題，請使用下列資源：
 
-- [Adobe Commerce支援知識庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/overview)
-- [支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票證以接收其他說明。
+- [Adobe Commerce支援知識庫](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
+- [支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) — 提交票證以接收其他說明。

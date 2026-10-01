@@ -5,13 +5,11 @@ breadcrumb-title: 設定參考
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # 設定參考指南 {#config}
 
@@ -78,11 +76,14 @@ ht-degree: 2%
 - [Sales Channel](./sales-channels.md)
 - 服務 {#services}
   - [Web API](./services/magento-web-api.md)
-  - [Commerce服務](./services/saas.md)
+  - [Commerce服務聯結器](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [電子郵件隱藏](./services/email-suppression.md)
+  - [ACO目錄檢視](./services/aco-catalog-view.md)
+  - [ACO目錄檢視同步](./services/aco-catalog-view-sync.md)
+  - [ACO受限制的存取金鑰](./services/aco-restricted-access-keys.md)
 - 進階 {#advanced}
   - [管理員](./advanced/admin.md)
   - [系統](./advanced/system.md)
   - [開發人員](./advanced/developer.md)
-- [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
+- [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

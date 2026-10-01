@@ -1,18 +1,16 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce B2B] 指南'
-user-guide-description: 瞭解如何使用Adobe Commerce提供的整合B2B功能，
+user-guide-description: 瞭解如何使用Adobe Commerce的整合B2B功能，例如公司帳戶和共用目錄管理。
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # [!DNL Adobe Commerce B2B] 指南 {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [設定型錄訂價與結構](catalog-shared-pricing-structure.md)
     + [將公司指派至目錄](catalog-shared-assign-companies.md)
   + [管理共用目錄](catalog-shared-manage.md)
+  + [管理目錄檢視設定](catalog-views-manage.md)
 + [快速訂購](quick-order.md)
 + 採購單 {#purchase-orders}
   + [公司的採購單](purchase-order-flow.md)
@@ -69,4 +68,4 @@ ht-degree: 5%
 + 參考 {#reference}
   + [與舊版不相容的變更](backward-incompatible-changes.md)
   + [封裝](packages.md)
-+ [返回管理員使用手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)
++ [返回管理員使用手冊](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
