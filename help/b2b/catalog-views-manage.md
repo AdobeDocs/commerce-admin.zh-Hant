@@ -54,7 +54,7 @@ ht-degree: 0%
 
 若要設定權杖存留期或停用權杖發行，請參閱[服務> ACO目錄檢視](/help/configuration-reference/services/aco-catalog-view.md)。
 
-您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_標籤或關聯公司的_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
+您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;標籤或關聯公司的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
 
 若要監視與[!DNL Adobe Commerce Optimizer]的共用目錄資料同步處理，請參閱[目錄檢視同步處理狀態監視](/help/systems/catalog-view-sync-status.md)。
 
