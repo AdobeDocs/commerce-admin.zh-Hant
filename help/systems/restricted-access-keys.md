@@ -42,11 +42,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於在非B2B案例中用來管理私人目錄（例如合作夥伴入口網站）的手動建立金鑰，請從[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理金鑰。
+>對於在非B2B案例中用來管理私人目錄（例如合作夥伴入口網站）的手動建立金鑰，請從[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理金鑰。
 
 ## 對象與可用性 {#audience}
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端基礎結構上的Adobe Commerce和內部部署專案。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端基礎結構上的Adobe Commerce和內部部署專案。"}
 
 使用B2B共用目錄與[!DNL Adobe Commerce Optimizer Connector for B2B]的Adobe Commerce on Cloud Infrastructure和內部部署商家可以使用[!UICONTROL Restricted Access Keys]頁面。 聯結器會自動安裝和啟用頁面。
 
@@ -120,5 +120,5 @@ Commerce會產生新的金鑰組並儲存私密金鑰。 「限制存取金鑰�
 > - [目錄檢視同步狀態監視](catalog-view-sync-status.md) — 監視並調解這些金鑰保護的目錄檢視
 > - [服務> ACO限制存取金鑰](../configuration-reference/services/aco-restricted-access-keys.md) — 設定預設金鑰有效期
 > - [服務> ACO目錄檢視](../configuration-reference/services/aco-catalog-view.md) — 設定店面存取權杖存留期，並啟用或停用發佈
-> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中管理受限制的存取金鑰](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — 瞭解這些金鑰如何融入B2B共用目錄同步
-> - *Adobe Commerce Optimizer指南*&#x200B;中的[受限制的存取金鑰](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B使用案例的手動的ACO Studio金鑰流程
+> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中管理受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — 瞭解這些金鑰如何融入B2B共用目錄同步
+> - *Adobe Commerce Optimizer指南*&#x200B;中的[受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B使用案例的手動的ACO Studio金鑰流程
