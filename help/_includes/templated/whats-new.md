@@ -1,14 +1,36 @@
 ---
-source-git-commit: 8dae6d26d1c63c95388b082a931361b580eeaf22
+source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '389'
+ht-degree: 1%
 ---
 # 新功能範本
 
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年10月1日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>已新增B2B的Adobe Commerce Optimizer Connector檔案：<br /> — 已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">目錄檢視同步狀態</a>和<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">受限制的存取金鑰</a>管理頁面，以監視和修復B2B與Adobe Commerce Optimizer的共用目錄同步。<br /> — 已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO受限制的存取金鑰</a>設定參考頁面。<br /> — 已新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">管理目錄檢視設定</a>，連結自<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">管理共用目錄</a>和<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/companies/account-company-manage">管理公司帳戶</a>。<br /> — 已記錄儲存存放區<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/site-store/store-localize">儲存本地化</a>中檢視的區域設定現在會觸發連線的B2B共用目錄的目錄檢視重新索引。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年9月23日
 
