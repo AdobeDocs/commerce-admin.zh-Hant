@@ -190,6 +190,6 @@ ht-degree: 0%
 > - [資料摘要同步處理狀態](data-feed-sync-status.md)
 > - [服務> ACO目錄檢視同步處理](../configuration-reference/services/aco-catalog-view-sync.md) — 設定刪除與建立寬限期，以及漂移調解器
 > - [受限制的存取金鑰管理](restricted-access-keys.md) — 管理此頁面顯示其到期的金鑰
-> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中監視B2B共用目錄的目錄檢視同步處理](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中監視B2B共用目錄的目錄檢視同步處理](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
 > - [私人目錄檢視](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/private-catalog-view)
 > - [受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys)
