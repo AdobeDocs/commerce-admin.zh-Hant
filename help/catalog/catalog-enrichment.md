@@ -8,23 +8,30 @@ autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: 5764bcc6545c1696353ac445716061b009a7c106
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: '2182'
 ht-degree: 0%
-
 ---
-
 # 目錄擴充
 
 目錄擴充是原生[!DNL Adobe Commerce]功能，可協助您改善產品名稱和詳細說明，以便當購物者使用LLM和AI助理進行產品研究和探索時，能更準確地呈現您的目錄。
@@ -91,7 +98,7 @@ ht-degree: 0%
 
 安裝目錄擴充和目錄服務擴充功能後，「管理員」中的&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下會提供目錄擴充功能。
 
-![目錄擴充](./assets/catalog-enrichment-menu.png)
+![目錄擴充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### 設定目錄擴充
 
@@ -104,7 +111,7 @@ ht-degree: 0%
 
    提供您的[!DNL Adobe Commerce]環境詳細資訊，以啟用目錄LLM Optimizer服務和稽核工作流程。
 
-   目錄擴充設定索引標籤上的![Commerce設定](./assets/catalog-enrichment-commerce-config.png)
+   目錄擴充設定索引標籤上的![Commerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 輸入存放區檢視所需的連線詳細資料。
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 - **[!UICONTROL Fixed Suggestions]**：您已經套用或解析的專案。
 - **[!UICONTROL Ignored Suggestions]**：您刻意從動作中排除的專案。
 
-![目錄擴充](./assets/agentic-opportunities.png)
+![目錄擴充](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### 部署已核准的建議 {#review-deploy-catalog}
 
@@ -176,7 +183,7 @@ ht-degree: 0%
 
    產品表單會顯示擴充的產品名稱及/或說明。
 
-   ![擴充的產品名稱](./assets/enriched-product-name.png)
+   ![擴充的產品名稱](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. 可選：如果您要保留手動輸入的名稱，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
@@ -186,7 +193,7 @@ ht-degree: 0%
 
    當您套用說明變更時，就會顯示擴充說明。
 
-   ![豐富產品說明](./assets/enrich-product-description.png)
+   ![豐富產品說明](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 可選：如果您要保留手動輸入的描述，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 
