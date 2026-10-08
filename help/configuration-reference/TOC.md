@@ -5,9 +5,9 @@ breadcrumb-title: 設定參考
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
+source-git-commit: 64df962f11de1b79e72dc31d7bc3cc0cc4b832f0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '186'
 ht-degree: 2%
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 2%
   - [儲存電子郵件地址](./general/store-email-addresses.md)
   - [連絡人](./general/contacts.md)
   - [報表](./general/reports.md)
+  - [大量API](./general/bulk-api.md)
   - [內容管理](./general/content-management.md)
   - [進階報告](./general/advanced-reporting.md)
 - 目錄 {#catalog}
