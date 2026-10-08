@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱&#x200B;_安裝指南_&#x200B;中的[PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+>在設定Google reCAPTCHA之前，您必須確定您的`PHP.ini`檔案包含下列設定： `allow_url_fopen = 1`。 這可能需要開發人員協助。 請參閱&#x200B;_安裝指南_&#x200B;中的[PHP設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 {{config}}
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## [!UICONTROL reCAPTCHA Enterprise]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 ![reCAPTCHA v3 Enterprise](./assets/recaptcha-storefront-v3-enterprise.png)<!-- zoom -->
 
@@ -152,6 +152,6 @@ ht-degree: 0%
 | [!UICONTROL Enable for Wishlist Sharing] | 網站 | 指定客戶[共用願望清單](../../stores-purchase/wishlist-storefront.md#share-the-wish-list)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證郵件和電子郵件提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
 | [!UICONTROL Enable for Coupon Codes] | 網站 | 指定當客戶輸入[優惠券代碼](../../merchandising-promotions/price-rules-cart-coupon.md)時所使用的reCAPTCHA型別。 選項：<br/>**`No`**- （預設）不會驗證優惠券代碼提交。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
 | [!UICONTROL Enable for PayPal Payflow Pro payment form] | 網站 | 指定當客戶使用[PayPal Payflow Pro](../../stores-purchase/paypal-payflow-pro.md)支付購買費用時，所使用的reCAPTCHA型別。 選項： <br/>**`No`**- （預設）無法驗證密碼重設要求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
-| [!UICONTROL Enable for Presigned Upload] | 網站 | [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}決定是否使用reCAPTCHA來驗證[`initiateUpload` GraphQL突變的要求](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)，這會產生店面檔案上傳的預先簽署URL。 啟用時，每個請求都必須在`X-ReCaptcha`標頭中包含有效的reCAPTCHA權杖。 具有遺失或無效權杖的請求會失敗，並且不會發出上傳URL。 選項： <br/>**`No`**- （預設）無法驗證上傳要求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
+| [!UICONTROL Enable for Presigned Upload] | 網站 | [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}決定是否使用reCAPTCHA來驗證[`initiateUpload` GraphQL突變的要求](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)，這會產生店面檔案上傳的預先簽署URL。 啟用時，每個請求都必須在`X-ReCaptcha`標頭中包含有效的reCAPTCHA權杖。 具有遺失或無效權杖的請求會失敗，並且不會發出上傳URL。 選項： <br/>**`No`**- （預設）無法驗證上傳要求。<br />**`reCAPTCHA v2 ("I am not a robot")`**  — 要求使用者選取&#x200B;_我不是自動機制_&#x200B;核取方塊。<br />**`Invisible reCAPTCHA v2`**— 在背景驗證使用者行為，不需要根據分數進行互動。<br/>**`Invisible reCAPTCHA v3`** - （建議）根據互動分數，在背景驗證使用者行為。 |
 
 {style="table-layout:auto"}
