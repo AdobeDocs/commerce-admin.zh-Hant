@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # 建立型錄價格規則
 
 請依照這些指示，在符合一組條件時，對特定產品套用折扣。 目錄價格規則折扣在產品放入購物車之前生效。
@@ -37,7 +46,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add New Rule]**。
 
-   _[!UICONTROL Rule Information]_&#x200B;區段包含&#x200B;**[!UICONTROL Conditions]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;的可擴充區段。
+   _[!UICONTROL Rule Information]_區段包含&#x200B;**[!UICONTROL Conditions]**和&#x200B;**[!UICONTROL Actions]**的可擴充區段。
 
    ![目錄價格規則 — 資訊](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -58,13 +67,17 @@ ht-degree: 0%
    - 可供選取的選項取決於&#x200B;_客戶_ > _客戶群組_&#x200B;中建立和管理的客戶群組。
    - 若要選擇多個群組，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
 
-1. ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）輸入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期，以判斷價格規則何時生效。
+1. 設定價格規則的排程：
 
-   您可以輸入日期或使用&#x200B;**[!UICONTROL Calendar]** （![行事曆圖示](../assets/icon-calendar.png)）來選擇日期。 若將日期保留為空白，則會在儲存價格規則時啟用規則。
+   - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）輸入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期，以判斷價格規則何時生效。
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）輸入&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期與時間，以決定價格規則的開始與結束時間。
+
+   您可以輸入值或使用&#x200B;**[!UICONTROL Calendar]** （![行事曆圖示](../assets/icon-calendar.png)）來選擇值。
 
    >[!NOTE]
    >
-   >`From`和`To`欄位已從Adobe Commerce的目錄價格規則設定頁面中移除，且無法直接在目錄價格規則上修改。 您必須建立排定的更新，以設定啟用價格規則的排程。
+   >對於雲端上的Adobe Commerce和內部部署專案，`From`和`To`欄位在目錄價格規則設定頁面上無法使用。 您必須建立[排程更新](#step-5-schedule-the-rule)，以設定啟用價格規則的排程。
 
 1. 輸入數字以建立此規則與其他規則相關的&#x200B;**[!UICONTROL Priority]**。
 
@@ -224,13 +237,15 @@ ht-degree: 0%
 
 1. 更新規則的屬性：
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
+   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）按一下「**[!UICONTROL Edit]**」以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
 
-   - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_&#x200B;頁面。
+   - ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）按一下清單中的規則以顯示&#x200B;_[!UICONTROL Rule Information]_頁面。
 
 1. 測試規則以確保其正常運作。
 
    價格規則每晚都會與其他系統規則一起自動處理。 建立價格規則時，請先留出足夠的時間讓規則進入系統，然後再測試規則，確保規則正常運作。 新增規則後，Commerce會據此重新計算價格和優先順序。
+
+   在[!DNL Adobe Commerce as a Cloud Service]中，Commerce會每分鐘檢查是否有作用中規則達到其開始或結束時間，並更新受影響產品的價格。
 
 ## 目錄價格規則示範
 
@@ -250,8 +265,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Groups] | （必要）識別規則套用的客戶群組。 |
 | [!UICONTROL Priority] | 表示此規則相對於其他規則的優先順序的數字。 從最高到最低的優先順序為`0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）判斷此規則在存放區中是否有效。 選項： `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）指定價格規則生效的第一天。 如果保留為空白，價格規則會在儲存時生效。 |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）指定價格規則生效的最後一天。 如果保留為空白，價格規則會無限期繼續。 |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）指定價格規則生效的第一天。 如果保留為空白，價格規則會在儲存時生效。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）指定價格規則生效的日期和時間。 如果保留為空白，價格規則會在儲存時生效。 |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）指定價格規則生效的最後一天。 如果保留為空白，價格規則會無限期繼續。<br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）指定價格規則結束的日期和時間。 如果保留為空白，價格規則會無限期繼續。 |
 
 {style="table-layout:auto"}
 
