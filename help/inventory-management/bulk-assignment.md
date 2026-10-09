@@ -1,35 +1,45 @@
 ---
 title: 大量存貨來源指定與取消指定
-description: 使用「管理員」中的「指派來源」大量動作，一次指派或取消指派許多產品的 [!DNL Inventory Management] 來源。
+description: 使用[管理員]中的[指派來源]大量動作，一次指派或取消指派許多產品的[!DNL Inventory Management]來源。
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
+last-update: 2023-06-28
+TQID: 'https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2023-06-28
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # 大量來源指派和取消指派
 
 使用&#x200B;_指派來源_&#x200B;工具新增一或多個來源至您的產品。 此工具有助於建立自訂來源並指派給您的預設庫存或自訂庫存，以及準備新的位置和庫存。
 
-新增自訂來源後，您可以透過管理員或使用[匯入功能](inventory-import-export.md)，為每個產品[&#128279;](quantities-assign-per-product.md)或多個產品新增存貨數量。
+新增自訂來源後，您可以透過管理員或使用[匯入功能](inventory-import-export.md)，為每個產品](quantities-assign-per-product.md)或多個產品新增[存貨數量。
 
 ![新增所選產品的詳細目錄來源](assets/inventory-bulk-assign-sources.gif)
 

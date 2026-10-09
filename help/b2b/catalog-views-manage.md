@@ -2,6 +2,7 @@
 title: 管理目錄檢視設定
 description: 瞭解如何檢閱為B2B共用目錄建立的Adobe Commerce Optimizer目錄檢視，並指派可保護它們的受限制存取金鑰。
 feature: B2B, Companies, Catalog Management
+last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -10,20 +11,29 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -54,7 +64,7 @@ ht-degree: 0%
 
 若要設定權杖存留期或停用權杖發行，請參閱[服務> ACO目錄檢視](/help/configuration-reference/services/aco-catalog-view.md)。
 
-您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;標籤或關聯公司的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
+您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_標籤或關聯公司的_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
 
 若要監視與[!DNL Adobe Commerce Optimizer]的共用目錄資料同步處理，請參閱[目錄檢視同步處理狀態監視](/help/systems/catalog-view-sync-status.md)。
 

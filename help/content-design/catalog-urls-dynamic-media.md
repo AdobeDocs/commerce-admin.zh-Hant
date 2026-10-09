@@ -3,28 +3,37 @@ title: 動態媒體URL
 description: 瞭解如何使用動態媒體URL作為影像或其他媒體資產的相對參照。
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/nml-pHTHdSPcvIVnRwlyjJPhEo2PWdTEKfkn2AFKjvA
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+last-update: 2026-05-12
+TQID: 'https://experienceleague.adobe.com/nml-pHTHdSPcvIVnRwlyjJPhEo2PWdTEKfkn2AFKjvA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-05-12
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 # 動態媒體URL
 
 動態媒體URL是影像或其他媒體資產的相對參照。 啟用後，動態媒體URL可用於直接連結至您伺服器上的資產，或連結至儲存在[內容傳遞網路](media-storage-content-delivery-network.md)上的檔案。 使用動態媒體URL可能會影響目錄效能，而且可以將[編輯器](editor.md#configure-the-editor)設定為使用靜態或動態媒體URL。
@@ -43,7 +52,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL Content Management]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL Content Management]**。
 
 1. 展開&#x200B;**[!UICONTROL WYSIWYG Options]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -51,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->TinyMCE已被Hugerte取代，成為Magento 2.4.6及更新版本中的預設WYSIWYG編輯器。
+>TinyMCE已由Hugerte取代，成為Magento 2.4.6及更新版本中的預設WYSIWYG編輯器。
 
 1. 將&#x200B;**[!UICONTROL Use Static URLs for Media Content in WYSIWYG]**&#x200B;設定為下列其中一項：
 
