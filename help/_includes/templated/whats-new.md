@@ -1,7 +1,7 @@
 ---
-source-git-commit: 95b00d779518fffb4346403f2849ab9dd3d6053d
+source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '448'
 ht-degree: 1%
 ---
 # 新功能範本
@@ -9,6 +9,28 @@ ht-degree: 1%
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年10月8日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>已針對10月Adobe Commerce as a Cloud Service發行更新Adobe Commerce管理檔案：<br /> — 已將不可設定的「每個大量要求的實體數上限」欄位新增至Adobe Commerce as a Cloud Service的<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/config/general/bulk-api">設定參考</a>。<br /> — 您現在可以要求Google在<a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL突變</a>上進行reCAPTCHA驗證，以保護預先簽署的檔案上傳。<br /> — 您現在可以設定<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">目錄價格規則</a>的每日時間，以在Commerce管理中開始或結束。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月1日
 
@@ -72,28 +94,6 @@ ht-degree: 1%
         技術
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年8月4日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>已重新整理<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">資料摘要同步狀態</a>主題，以符合目前的管理員體驗、釐清頁面僅報告匯出狀態，並記錄功能何時可在Commerce服務授權中使用。</p>
-</td>
-      <td>
-        重大更新
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">認可</a></td>
     </tr>
   </tbody>
 </table>
