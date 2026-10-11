@@ -3,14 +3,30 @@ title: 媒體儲存空間
 description: 瞭解媒體儲存如何協助您整理及存取伺服器上儲存的Commerce媒體檔案。
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # 媒體儲存空間
 
 媒體儲存可協助您組織並存取伺服器上儲存的媒體檔案。 檔案位置的路徑由[基底URL](../stores-purchase/store-urls.md)組態決定。 處理頁面和靜態區塊時，可以從編輯器存取媒體儲存體中的檔案。 通常，媒體儲存裝置與[!DNL Commerce]程式檔案位於同一伺服器的檔案系統中。
@@ -29,15 +45,15 @@ ht-degree: 0%
 
    ![插入影像圖示](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_&#x200B;對話方塊。
+   此動作會開啟&#x200B;_[!UICONTROL Insert/edit image]_對話方塊。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
 1. 在左側的目錄樹狀結構中，執行下列任一項作業：
 
    - 導覽至您要儲存上傳影像的資料夾。
 
-   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。**&#x200B;**
+   - 導覽至您要建立資料夾的位置，然後按一下[建立資料夾]。****
 
      若要新增資料夾，請輸入資料夾名稱並按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -55,7 +71,7 @@ ht-degree: 0%
 
    - 按一下&#x200B;**[!UICONTROL Search Adobe Stock]**。
 
-   - 從Adobe Stock新增預覽或授權的影像(請參閱[使用Adobe Stock影像](adobe-stock-manage.md))。
+   - 從Adobe Stock新增預覽或授權的影像（請參閱[使用Adobe Stock影像](adobe-stock-manage.md)）。
 
 影像會上傳至伺服器上目前的媒體儲存資料夾。
 
@@ -69,7 +85,7 @@ ht-degree: 0%
 
 1. 在[編輯器](editor.md)工具列上，按一下&#x200B;_插入影像_&#x200B;圖示。
 
-1. 在&#x200B;_[!UICONTROL Source]_&#x200B;之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
+1. 在&#x200B;_[!UICONTROL Source]_之後，按一下_&#x200B;搜尋&#x200B;_圖示（![搜尋圖示](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}）。
 
    ![選取搜尋圖示](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -83,4 +99,4 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Insert Image]**。
 
-   ![插入影像(HTML模式)](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}
+   ![插入影像（HTML模式）](./assets/editor-html-mode-insert-image.png){width="600" zoomable="yes"}
