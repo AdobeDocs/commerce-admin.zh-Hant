@@ -155,7 +155,7 @@ ht-degree: 1%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全域 | 當層級價格的數量設定為`1`時，啟用目錄價格規則](../../catalog/product-price-tier.md)的[層級定價。  選項： `Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 全域 | 當層級價格的數量設定為`1`時，啟用目錄價格規則[&#128279;](../../catalog/product-price-tier.md)的層級定價。  選項： `Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 

@@ -43,7 +43,7 @@ ht-degree: 5%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"}。
+_[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"}。
 
 ![進階報告](./assets/advanced-reporting.png)<!-- zoom -->
 

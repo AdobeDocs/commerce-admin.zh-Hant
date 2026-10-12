@@ -65,7 +65,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。<br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_**&#x200B;注意：**_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
+| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。<br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
 | [!UICONTROL Tax Calculation Based On] | 網站 | 決定稅捐的計算是根據送貨地址、帳單地址或送貨來源。 選項： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 網站 | 決定型錄價格是否包含或排除稅捐。 選項： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 網站 | 決定出貨價格是否包含稅捐。 選項： `Excluding Tax` / `Including Tax` |

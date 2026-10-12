@@ -232,7 +232,7 @@ PayPal提供各種支付解決方案，滿足各種規模的企業需求，並�
 
 >[!NOTE]
 >
->請勿選取&#x200B;_[!UICONTROL Not Capture]_選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
+>請勿選取&#x200B;_[!UICONTROL Not Capture]_&#x200B;選項，除非您確定稍後將透過Commerce擷取付款。 您必須先使用「擷取」按鈕擷取付款，才能建立銷退折讓單。
 
 ## [!UICONTROL Purchase Order]
 

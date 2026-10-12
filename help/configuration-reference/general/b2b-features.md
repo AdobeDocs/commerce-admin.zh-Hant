@@ -66,7 +66,7 @@ ht-degree: 3%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | 網站 | 啟用後，即可使用自訂定價建立組織目錄，這些目錄可在全球範圍內使用，或僅限特定公司使用。 選項： `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | 網站 | 當&#x200B;_[!UICONTROL Enable Shared Catalog]_欄位設為`Yes`時，此選項可供使用。 啟用時，只有指派給共用目錄的產品才會儲存在價格索引中。 未指派給共用目錄的產品不會顯示在店面上。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | 網站 | 當&#x200B;_[!UICONTROL Enable Shared Catalog]_&#x200B;欄位設為`Yes`時，此選項可供使用。 啟用時，只有指派給共用目錄的產品才會儲存在價格索引中。 未指派給共用目錄的產品不會顯示在店面上。 選項： `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 網站 | 啟用後，可讓公司買家從購物車提交詢價。 選項： `Yes` / `No` |
 
 {style="table-layout:auto"}

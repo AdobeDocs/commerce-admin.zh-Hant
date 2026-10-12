@@ -77,7 +77,7 @@ Payment Services提供全包式自助服務解決方案，包括沙箱測試和�
 | [!UICONTROL 3DS Secure authentication] | 網站 | 啟用或停用[3DS安全驗證](https://experienceleague.adobe.com/en/docs/commerce/payment-services/security-compliance/security#3ds)。 選項： [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 網站 | 啟用或停用要在結帳頁面上顯示的信用卡欄位。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 存放區檢視 | 啟用或停用[信用卡存放區](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 存放區檢視 | 啟用或停用使用保管庫付款方式](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)為管理員[中的客戶完成訂單的功能。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 存放區檢視 | 啟用或停用使用保管庫付款方式[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)為管理員中的客戶完成訂單的功能。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 網站 | 啟用或停用偵錯模式。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
@@ -90,8 +90,8 @@ Payment Services提供全包式自助服務解決方案，包括沙箱測試和�
 |---|---|---|
 | [!UICONTROL Title] | 存放區檢視 | 在結帳期間，在「付款方式」檢視中，新增要顯示為此付款選項標題的文字。 |
 | [!UICONTROL Payment Action] | 網站 | 指定的付款方式的[付款動作](payment-methods.md#payment-actions){target="_blank"}。 選項： [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | 存放區檢視 | 啟用或停用結帳頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | 存放區檢視 | 啟用或停用產品詳細資料頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | 存放區檢視 | 啟用或停用結帳頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | 存放區檢視 | 啟用或停用產品詳細資料頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | 存放區檢視 | 啟用或停用迷你購物車預覽中的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | 存放區檢視 | 啟用或停用購物車頁面上的[!DNL PayPal Smart Buttons]。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | 存放區檢視 | 啟用或停用付款按鈕顯示的稍後付款選項外觀。 選項： [!UICONTROL Yes] / [!UICONTROL No] |
