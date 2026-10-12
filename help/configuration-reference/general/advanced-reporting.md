@@ -3,41 +3,51 @@ title: '[!UICONTROL General] > [!UICONTROL Advanced Reporting]'
 description: 檢閱Commerce管理員的[!UICONTROL General] &gt； [!UICONTROL Advanced Reporting]頁面上的組態設定。
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/6As8e-RnZECeC2-Pt5dtjTA0N66WPTuRHzeBn8cMqyo
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/6As8e-RnZECeC2-Pt5dtjTA0N66WPTuRHzeBn8cMqyo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 132
+source-wordcount: '132'
 ht-degree: 5%
-
 ---
-
 # [!UICONTROL General] > [!UICONTROL Advanced Reporting]
 
 {{config}}
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"}。
+_[!DNL Advanced Reporting]_是雲端型服務，由[Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started){:target="_blank"}提供技術支援。 如需詳細資訊，請參閱_&#x200B;快速入門手冊&#x200B;_中的[進階報告](/help/getting-started/business-intelligence.md#advanced-reporting){:target="_blank"}。
 
 ![進階報告](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

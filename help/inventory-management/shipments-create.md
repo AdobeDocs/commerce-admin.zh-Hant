@@ -3,28 +3,39 @@ title: 建立多來源出貨
 description: 使用「Source選擇演演算法」建議或手動依來源數量，在「管理員」中建立多來源出貨。
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+TQID: 'https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: '400'
 ht-degree: 0%
-
 ---
-
 # 建立多來源出貨
 
 透過[!DNL Inventory Management]，傳送一或多項出貨，因為您有詳細目錄。 若要視需要產生額外出貨，請使用建議的或手動輸入的數量與來源，重複這些指示。 這些指示詳細說明多來源商戶如何傳送出貨。 單一來源商戶傳送出貨時沒有這些額外步驟（請參閱核心使用手冊中的[建立出貨](../stores-purchase/shipments.md#create-a-shipment){target="_blank"}）。
@@ -58,7 +69,7 @@ ht-degree: 0%
 
      >[!IMPORTANT]
      >
-     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存[&#128279;](stocks-prioritize-sources.md)的來源設定優先順序。
+     >當針對出貨使用距離優先順序演演算法時，對於選取的[計算模式](distance-priority-algorithm.md) （駕駛、騎腳踏車或行走）而言，路線與資料未傳回，則SSA會預設為Source優先順序。 建議您也針對每個庫存](stocks-prioritize-sources.md)的來源設定[優先順序。
 
 
    - 針對&#x200B;**[!UICONTROL Select a Source to Ship from]**，選取要傳送出貨的來源。
@@ -69,9 +80,9 @@ ht-degree: 0%
 
      ![選取Source並輸入數量](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. 檢閱&#x200B;_[!UICONTROL New Shipment]_&#x200B;頁面，並視需要輸入任何其他變更。
+1. 檢閱&#x200B;_[!UICONTROL New Shipment]_頁面，並視需要輸入任何其他變更。
 
-   _[!UICONTROL Inventory]_&#x200B;區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
+   _[!UICONTROL Inventory]_區段會顯示來源、產品出貨、訂購數量總計以及要出貨的數量。
 
    ![出貨的詳細存貨資訊，例如部份出貨](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

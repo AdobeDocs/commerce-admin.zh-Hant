@@ -1,31 +1,43 @@
 ---
 title: 商家來源型別
-description: 比較單一來源和多來源商家模式，以選擇如何在 [!DNL Inventory Management]中指定來源、存貨及數量。
+description: 比較單一來源和多來源商家模式，以選擇如何在[!DNL Inventory Management]中指定來源、庫存和數量。
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
+TQID: 'https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # 商家來源型別
 
 [!DNL Commerce]支援所有規模企業的[!DNL Inventory Management]，包括單一商店與網站、商店、倉庫及託運人的國際網路。 根據您業務中的位置或來源數量，使用Adobe Commerce或Magento Open Source的所有商戶可分為兩種型別。

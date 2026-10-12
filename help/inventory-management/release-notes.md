@@ -1,32 +1,45 @@
 ---
 title: '[!DNL Inventory Management]發行說明'
-description: 檢閱 [!DNL Inventory Management] 發行說明，瞭解每個社群工程模組版本的新功能、修正和已知問題。
+description: 檢閱[!DNL Inventory Management]發行說明，瞭解每個社群工程模組版本的新功能、修正和已知問題。
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+TQID: 'https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3542
+source-wordcount: '3543'
 ht-degree: 0%
-
 ---
-
 # [!DNL Inventory Management]發行說明
 
 這些發行說明說明[!DNL Inventory Management]的發行版本，包括：
@@ -37,11 +50,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]是開放給貢獻者的Magento Open Source社群工程特殊專案。 若要參與並貢獻內容，請參閱[GitHub專案](https://github.com/magento/inventory)存放庫和[Wiki](https://github.com/magento/inventory/wiki)以開始使用。 若要討論專案，請加入[Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY)管道（[自我註冊](https://opensource.magento.com/slack)）。
 
-支援及相容發行的[發行排程](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/planning/schedule){target="_blank"}。
+支援及相容發行的[發行排程](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule){target="_blank"}。
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
+[!DNL Inventory Management] 1.2.7發行說明包含在[core 2.4.7發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)中。
 
 ## v1.2.6
 
@@ -133,7 +146,7 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)購物車與結帳動作的效能已改善，例如在有許多（約10,000個）詳細目錄來源的部署中將產品加入購物車。<!--- MC-42570-->
 
-![已修正問題](../assets/fix.svg) [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `bin/magento inventory:reservation:list-inconsistencies`命令現在會正確處理具有部分出貨的訂單，即使資料庫遺漏預留且快取已清除亦然。 先前，當這個命令以預先清除的快取執行時，Commerce會顯示下列錯誤： `Area code is not set`。<!--- MC-42142-->
+![已修正問題](../assets/fix.svg) [!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `bin/magento inventory:reservation:list-inconsistencies`命令現在會正確處理具有部分出貨的訂單，即使資料庫遺漏預留且快取已清除亦然。 先前，當這個命令以預先清除的快取執行時，Commerce會顯示下列錯誤： `Area code is not set`。<!--- MC-42142-->
 
 
 ![已修正問題](../assets/fix.svg)當子項共用時，群組產品子產品的增量索引不再導致其他群組產品的索引不正確。<!--- MC-41963-->
@@ -144,11 +157,11 @@ Inventory management 1.2.4 （模組版本： `magento/inventory-metapackage = 1
 
 ![已修正問題](../assets/fix.svg)超過10,000個專案的存貨存貨管理已改善。 以前，績效問題有時會阻止商家在啟動其網站之前編輯管理員中的庫存。<!--- MC-42643-->
 
-![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_&#x200B;區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![已修正問題](../assets/fix.svg) Admin中的&#x200B;**[!UICONTROL User Roles]**&#x200B;頁面已更新，為管理員提供傳遞方法設定的受限制許可權存取權。 _送貨方法_&#x200B;區段已重新命名為&#x200B;_[!UICONTROL Delivery methods]_，且_[!UICONTROL In-Store Pickup]_&#x200B;已移至&#x200B;_[!UICONTROL Delivery methods]_區段下方。 [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![已修正問題](../assets/fix.svg) API更新銷退折讓單後，Adobe Commerce不再建立重複的產品預訂。<!--- MC-41757-->
 
-![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_&#x200B;標籤切換至&#x200B;_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
+![已修正問題](../assets/fix.svg)在結帳工作流程中，從&#x200B;_[!UICONTROL Pick up in Store]_標籤切換至_[!UICONTROL Shipping]_&#x200B;標籤時，若只有店內收取傳遞可用，將不再觸發JavaScript錯誤。<!--- MC-42808-->
 
 ![已修正問題](../assets/fix.svg)可銷售產品數量與庫存產品數量現在已正確同步。 以前，系統不會為取消的訂單重新建立存貨預留補償。<!--- MC-42485-->
 
@@ -294,7 +307,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0 （模組版本： `inventory-composer-metapackage = 1.1.0`）受到支援，並且與Adobe Commerce 2.3.0版、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。[!DNL Inventory Management] 1.1.1僅以套件名稱更新的形式發行，支援2.3.1版，並與2.3.0版Adobe Commerce、雲端基礎結構上的Adobe Commerce以及Magento Open Source程式碼基底相容。
 
-![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
+![已修正問題](../assets/fix.svg) **新增對單一和多來源模式Elasticsearch的支援** — 您現在可以設定並使用具有自訂庫存的Elasticsearch。 如需安裝資訊，請參閱[設定Elasticsearch服務](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}。<!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![已修正問題](../assets/fix.svg)已解決預設庫存的效能問題，以大幅提升許多作業的效能。 改良功能可提升單一來源模式、「移轉存貨至Source」、「店麵類別」頁面及「可銷售數量」計算的效能。
 

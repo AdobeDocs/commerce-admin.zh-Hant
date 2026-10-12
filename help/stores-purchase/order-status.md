@@ -3,36 +3,44 @@ title: 訂單狀態
 description: 瞭解預先定義的訂單狀態，以及如何定義自訂訂單狀態以符合您的營運需求。
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # 訂單狀態
 
 所有訂單的訂單狀態都與訂單處理[工作流程](order-processing.md)中的階段相關聯。\
-順序狀態與順序狀態之間的差異在於&#x200B;**[!UICONTROL order states]**&#x200B;是以程式設計方式使用。 他們不是
+順序狀態與順序狀態之間的差異在於&#x200B;**[!UICONTROL order states]**是以程式設計方式使用。 他們不是
 對客戶或管理員使用者可見。 它們決定訂單的流程，以及訂單可能執行的作業。
 以特定狀態訂購。\
-**[!UICONTROL Order statuses]**&#x200B;可用來將訂單狀態傳達給客戶和管理員。
-您可以建立其他訂單狀態，以符合您的營運需求。方便顯示訂單狀態
-Adobe Commerce外部的進度，例如訂單撿料與交貨進度。它們對訂單沒有影響
+**[!UICONTROL Order statuses]**可用來將訂單狀態傳達給客戶和管理員。
+您可以建立其他訂單狀態，以符合您的營運需求。 方便顯示訂單狀態
+Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對訂單沒有影響
 處理工作流程。\
 每個訂單狀態都與一個訂單狀態相關聯。 您的商店有一組預先定義的訂單狀態和
 順序狀態設定。
@@ -90,13 +98,13 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。它們對訂
 
    ![建立新訂單狀態](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. 更新&#x200B;_[!UICONTROL Order Status Information]_&#x200B;區段：
+1. 更新&#x200B;_[!UICONTROL Order Status Information]_區段：
 
    - 輸入&#x200B;**[!UICONTROL Status Code]**&#x200B;以供內部參考。 第一個字元必須是字母(a-z)，其餘字元可以是字母和數字(0-9)的任意組合。 請使用底線字元，而非空格。
 
    - 針對&#x200B;**[!UICONTROL Status Label]**，在管理員和店面中輸入可識別狀態設定的標籤。
 
-1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_&#x200B;區段中，輸入不同存放區檢視所需的任何標籤。
+1. 在&#x200B;_[!UICONTROL Store View Specific Labels]_區段中，輸入不同存放區檢視所需的任何標籤。
 
 1. 按一下&#x200B;**[!UICONTROL Save Status]**。
 
@@ -130,7 +138,7 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。它們對訂
 
 ### 編輯現有訂單狀態
 
-1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;格線中，以編輯模式開啟狀態記錄。
+1. 在&#x200B;_[!UICONTROL Order Status]_格線中，以編輯模式開啟狀態記錄。
 
 1. 視需要更新狀態設定。
 
@@ -142,15 +150,15 @@ Adobe Commerce外部的進度，例如訂單撿料與交貨進度。它們對訂
 >
 >如果狀態正在使用中，則無法從狀態中取消指派狀態設定。
 
-1. 在&#x200B;_[!UICONTROL Order Status]_&#x200B;網格中，尋找要取消指派的訂單狀態記錄。
+1. 在&#x200B;_[!UICONTROL Order Status]_網格中，尋找要取消指派的訂單狀態記錄。
 
-1. 在列最右邊的&#x200B;_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Unassign]**&#x200B;連結。
+1. 在列最右邊的&#x200B;_[!UICONTROL Action]_欄中，按一下&#x200B;**[!UICONTROL Unassign]**連結。
 
    工作區的頂端會顯示訊息，指出訂單狀態已取消指派。 雖然訂單狀態標籤仍會顯示在清單中，但已不再指派給狀態。 無法刪除訂單狀態設定。
 
 >[!NOTE]
 >
->如果預設訂單狀態是從訂單狀態取消指派，_&#x200B;**另一個**&#x200B;_&#x200B;訂單狀態是&#x200B;_&#x200B;**自動設定**&#x200B;_&#x200B;為此訂單狀態的預設值。
+>如果預設訂單狀態是從訂單狀態取消指派，_**另一個**_&#x200B;訂單狀態是&#x200B;_**自動設定**_&#x200B;為此訂單狀態的預設值。
 
 ## 通知
 

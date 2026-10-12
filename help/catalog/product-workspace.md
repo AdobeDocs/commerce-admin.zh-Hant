@@ -3,31 +3,45 @@ title: 產品工作區
 description: 瞭解產品工作區中可用的設定和控制項。
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco
+TQID: 'https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 # 產品工作區
 
-所有產品型別的產品工作區基本上相同，不過欄位選擇會根據使用的屬性集而改變。 產品屬性位於表單頂端，其後是產品資訊的可展開區段。 第一次儲存新產品時，_[!UICONTROL Store View]_&#x200B;選擇器會出現在表單的左上方。
+所有產品型別的產品工作區基本上相同，不過欄位選擇會根據使用的屬性集而改變。 產品屬性位於表單頂端，其後是產品資訊的可展開區段。 第一次儲存新產品時，_[!UICONTROL Store View]_選擇器會出現在表單的左上方。
 
 >[!NOTE]
 >
@@ -58,7 +72,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save]功能表
 
-_[!UICONTROL Save]_&#x200B;功能表包含數個選項，可讓您儲存並繼續、儲存並建立產品、儲存並複製產品，或儲存並關閉。
+_[!UICONTROL Save]_功能表包含數個選項，可讓您儲存並繼續、儲存並建立產品、儲存並複製產品，或儲存並關閉。
 
 ![儲存功能表](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -67,7 +81,7 @@ _[!UICONTROL Save]_&#x200B;功能表包含數個選項，可讓您儲存並繼�
 | [!UICONTROL Save] | 儲存目前的產品並繼續運作。 |
 | [!UICONTROL Save & New] | 儲存並關閉目前的產品，然後根據相同的產品型別和範本開始新產品。 |
 | [!UICONTROL Save & Duplicate] | 儲存並關閉目前的產品，然後開啟新的重複復本。 |
-| [!UICONTROL Save & Close] | 儲存目前的產品並返回&#x200B;_[!UICONTROL Products]_&#x200B;工作區。 |
+| [!UICONTROL Save & Close] | 儲存目前的產品並返回&#x200B;_[!UICONTROL Products]_工作區。 |
 
 {style="table-layout:auto"}
 

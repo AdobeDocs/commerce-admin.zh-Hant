@@ -4,30 +4,40 @@ description: 瞭解用於存取您的管理員和店面的Commerce URL和帳戶�
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/8IGacP581jwpVtFnCFXRrG5vuIwCJaAUnbliitMHuf8
+TQID: 'https://experienceleague.adobe.com/8IGacP581jwpVtFnCFXRrG5vuIwCJaAUnbliitMHuf8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 subfeature_v2:
   - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+    internal-label: Login credentials and URLs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # 登入憑證和URL
 
 繼續進行設定之前，請確定您具備存取存放區管理員和Commerce帳戶所需的資訊。
@@ -59,6 +69,6 @@ ht-degree: 0%
 
 ## 範例資料
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
-Adobe提供範例資料集，其中包含超過250項產品（其中約200項為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。
+Adobe提供範例資料集，其中包含超過250項產品（其中約200項為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。

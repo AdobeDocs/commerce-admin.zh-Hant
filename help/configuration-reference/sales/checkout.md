@@ -3,28 +3,37 @@ title: '[!UICONTROL Sales] > [!UICONTROL Checkout]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Checkout]頁面上的組態設定。
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-TQID: https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE
+TQID: 'https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 0%
-
+source-wordcount: '652'
+ht-degree: 1%
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Checkout]
 
 {{config}}
@@ -33,7 +42,7 @@ ht-degree: 0%
 
 ![簽出選項](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,11 +61,11 @@ ht-degree: 0%
 
 ![購物車](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格[&#128279;](../../stores-purchase/cart-configuration.md#quote-lifetime)的期限（天）。 |
+| [!UICONTROL Quote Lifetime (days)] | 網站 | 決定報價價格](../../stores-purchase/cart-configuration.md#quote-lifetime)的[期限（天）。 |
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | 存放區檢視 | 決定產品加入購物車後，[購物車頁面是否立即顯示](../../stores-purchase/cart-configuration.md#redirect-to-cart)。 選項： `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | 存放區檢視 | 決定觸發呼叫前購物車中的專案數。 預設值： `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | 存放區檢視 | 表示購物車中是否顯示[交叉銷售專案](../../catalog/related-products-up-sells-cross-sells.md#cross-sells)，提供額外的銷售選項給客戶。 選項： `Yes` （預設） / `No` |
@@ -71,7 +80,7 @@ ht-degree: 0%
 
 ![我的購物車連結](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -83,7 +92,7 @@ ht-degree: 0%
 
 ![迷你購物車](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
@@ -97,7 +106,7 @@ ht-degree: 0%
 
 ![付款失敗的電子郵件](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |

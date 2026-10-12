@@ -3,30 +3,40 @@ title: PayPal Payflow連結
 description: 瞭解如何將PayPal Payflow Link設定為商店上的線上付款解決方案。
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/D1D-n-a2etNBXIfMLNd1islIKLKQ1xzMcH2n2bVhTAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2195
+source-wordcount: '2257'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow連結
 
 PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有個人PayPal帳戶，並可在PayPal託管的表單中輸入其信用卡資訊。 這些資訊絕不會儲存在您的Adobe Commerce或Magento Open Source伺服器上。 「付款流程連結」無法用於從「管理員」建立的訂單。
@@ -36,7 +46,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。為了遵循PSD2，PayPal Payflow Link必須與Cardinal Commerce整合。若要深入瞭解，請參閱[Payflow的3D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 為了遵循PSD2，PayPal Payflow Link必須與Cardinal Commerce整合。 若要深入瞭解，請參閱[Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/)的3D安全。
 
 ## 需求
 
@@ -92,10 +102,10 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 完成&#x200B;_新增使用者_&#x200B;表單下列區段中的必要欄位：
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - 按一下&#x200B;**[!UICONTROL Update]**。
 
@@ -115,7 +125,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 1. 如果您的Commerce安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
@@ -310,7 +320,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 按住Ctrl鍵，並選取清單中客戶可在您商店購買產品的國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 按住Ctrl鍵，並選取清單中客戶可在您商店購買產品的國家/地區。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -348,8 +358,8 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 如果您已註冊PayPal安全FTP伺服器，請輸入下列SFTP登入認證：
 
-      - 登入
-      - 密碼
+     - 登入
+     - 密碼
 
    - 若要在您的網站上使用「快速簽出」功能上線之前執行測試報告，請將&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;設為`Yes`。
 
@@ -367,13 +377,13 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 將&#x200B;**[!UICONTROL Schedule]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal會保留每個報表45天。
 
@@ -381,7 +391,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
 #### 前端體驗設定
 
-使用&#x200B;_[!UICONTROL Frontend Experience Settings]_&#x200B;來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
+使用&#x200B;_[!UICONTROL Frontend Experience Settings]_來選擇要在您的網站上顯示的PayPal標誌，以及自訂PayPal商家頁面的外觀。
 
 1. 展開&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -401,9 +411,9 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 輸入您要套用至PayPal商家頁面的&#x200B;**[!UICONTROL Page Style]**&#x200B;名稱：
 
-      - `paypal` — 使用PayPal頁面樣式。
-      - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
-      - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
+     - `paypal` — 使用PayPal頁面樣式。
+     - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
+     - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
 
    - 針對&#x200B;**[!UICONTROL Header Image URL]**，輸入您要顯示在付款頁面左上角的影像URL。 檔案大小上限為750畫素寬x 90畫素高。
 
@@ -413,9 +423,9 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 
    - 若要設定頁面的顏色，請針對下列各項，輸入6個字元的十六進位代碼（不含`#`符號）：
 
-      - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
-      - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
-      - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
+     - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
+     - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
+     - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 
@@ -436,7 +446,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
    - `Authorization` — 核准購買並保留資金。 此金額必須等到商戶擷取&#x200B;_到_&#x200B;後才會撤回。
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
 
 ### 步驟7：完成PayPal Express簽出的進階設定
 
@@ -449,7 +459,7 @@ PayPal Payflow Link僅適用於美國和加拿大的商家。 客戶不需擁有
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 

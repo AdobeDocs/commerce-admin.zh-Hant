@@ -1,33 +1,44 @@
 ---
-title: 設定 [!DNL Inventory Management] 產品選項
-description: 設定每個產品 [!DNL Inventory Management] 和進階庫存選項，以覆寫全域庫存和來源設定。
+title: 設定[!DNL Inventory Management]產品選項
+description: 設定每個產品[!DNL Inventory Management]和進階詳細目錄選項，以覆寫全域庫存和來源設定。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+TQID: 'https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 設定[!DNL Inventory Management]產品選項
 
-這些設定只會套用至已編輯的產品，並覆寫全球網站層級的所有設定。 在編輯產品時，透過&#x200B;_[!UICONTROL Sources]_&#x200B;區段和&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;頁面修改這些設定。
+這些設定只會套用至已編輯的產品，並覆寫全球網站層級的所有設定。 在編輯產品時，透過&#x200B;_[!UICONTROL Sources]_區段和_[!UICONTROL Advanced Inventory]_&#x200B;頁面修改這些設定。
 
 - 依來源設定產品選項
 - 設定進階詳細目錄的產品選項
@@ -53,7 +64,7 @@ ht-degree: 0%
      `Select to use Default` - [!DNL Commerce]會檢查產品進階詳細目錄選項中的組態設定。
      `Clear to Modify` — 輸入「通知數量」的值，覆寫「進階清查」與「商店」組態設定。
 
-   產品![&#128279;](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}的來源區段
+   產品](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}的![來源區段
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Done]**，然後按&#x200B;**[!UICONTROL Save]**。
 
@@ -66,8 +77,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 全域 | 產品在目錄中啟用或停用。 |
 | [!UICONTROL Source Item Status] | 全域 | 決定產品目前的可用性。 選項：<br />`In Stock` — 讓產品可供購買。<br />`Out of Stock`  — 除非已啟用「延期交貨」，否則會防止產品可供購買，並從目錄中移除清單。 |
 | [!UICONTROL Qty] | 全域 | 每個來源或地點的庫存量。 |
-| [!UICONTROL Notify Quantity] | 全域 | 如果未選取&#x200B;_[!UICONTROL Notify Quantity Use Default]_，則此特定來源的&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;金額。 |
-| [!UICONTROL Notify Quantity Use Default] | 全域 | 表示要在產品&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;中使用&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;的預設設定，或在商店設定中使用全域設定。 |
+| [!UICONTROL Notify Quantity] | 全域 | 如果未選取&#x200B;_[!UICONTROL Notify Quantity Use Default]_，則此特定來源的_[!UICONTROL Notify for Quantity Below]_&#x200B;金額。 |
+| [!UICONTROL Notify Quantity Use Default] | 全域 | 表示要在產品&#x200B;_[!UICONTROL Advanced Inventory]_中使用_[!UICONTROL Notify for Quantity Below]_&#x200B;的預設設定，或在商店設定中使用全域設定。 |
 
 ## 進階產品選項
 
@@ -89,9 +100,9 @@ ht-degree: 0%
 
    | 值 | 說明 |
    | ----- | ----- |
-   | 正數 | 停用&#x200B;_[!UICONTROL Backorders]_&#x200B;後，請輸入正值。 |
-   | 零 | 啟用&#x200B;_[!UICONTROL Backorders]_&#x200B;後，輸入`0`可允許無限延交訂單。 |
-   | 負數金額 | 啟用&#x200B;_[!UICONTROL Backorders]_&#x200B;後，建議輸入負值。 此金額會新增至「可銷售數量」。 例如，輸入`-50`以允許此金額以下的訂單。 |
+   | 正數 | 停用&#x200B;_[!UICONTROL Backorders]_後，請輸入正值。 |
+   | 零 | 啟用&#x200B;_[!UICONTROL Backorders]_後，輸入`0`可允許無限延交訂單。 |
+   | 負數金額 | 啟用&#x200B;_[!UICONTROL Backorders]_後，建議輸入負值。 此金額會新增至「可銷售數量」。 例如，輸入`-50`以允許此金額以下的訂單。 |
 
 1. 輸入&#x200B;**[!UICONTROL Minimum Qty Allowed in Shopping Cart]**。
 

@@ -3,35 +3,44 @@ title: '[!UICONTROL Sales] > [!UICONTROL Tax]'
 description: 檢閱Commerce管理員的[!UICONTROL Sales] &gt； [!UICONTROL Tax]頁面上的組態設定。
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
+TQID: 'https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: '1316'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Tax]
 
 >[!NOTE]
 >
 >Adobe Commerce和Magento Open Source版本2.4.0到2.4.3包含由Vertex廠商開發的擴充功能，可用來與[!UICONTROL Vertex Cloud]整合。 從2.4.4版開始，此擴充功能不再與核心版本搭配，必須從Commerce Marketplace安裝和更新。 此Marketplace也可讓您存取擴充功能開發人員提供的目前檔案。
 ><br><br>
->如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組與擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/modules/upgrade)。
+>如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組與擴充功能](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 {{config}}
 
@@ -56,7 +65,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。<br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_&#x200B;**&#x200B;注意：**&#x200B;_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
+| [!UICONTROL Tax Calculation Method Based On] | 網站 | 決定用於計算訂單稅捐的方法。 選項：<br/>**`Unit Price`**— 稅捐計算是以每個產品的單價為基礎。<br/>**`Row Total`** — 稅捐計算是以明細專案總計為基礎。<br/>**`Total`**— 稅捐計算是以訂單總計為基礎。<br/><br/>_**&#x200B;注意：**_如果從Marketplace安裝稅捐計算延伸模組，例如&#x200B;_Vertex Cloud_，則延伸模組服務會列為選項。 |
 | [!UICONTROL Tax Calculation Based On] | 網站 | 決定稅捐的計算是根據送貨地址、帳單地址或送貨來源。 選項： `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 網站 | 決定型錄價格是否包含或排除稅捐。 選項： `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 網站 | 決定出貨價格是否包含稅捐。 選項： `Excluding Tax` / `Including Tax` |

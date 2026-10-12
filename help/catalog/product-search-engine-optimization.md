@@ -3,34 +3,47 @@ title: 產品設定 — [!UICONTROL Search Engine Optimization]
 description: 對於產品，[!UICONTROL Search Engine Optimization]設定會設定URL索引鍵和搜尋引擎用來索引產品的中繼資料。
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
-TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
+TQID: 'https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 0%
-
 ---
-
 # 產品設定 — [!UICONTROL Search Engine Optimization]
 
 _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進搜尋引擎索引頁面的方式。
 
-產品的&#x200B;_[!UICONTROL Search Engine Optimization]_&#x200B;設定指定了搜尋引擎用來索引產品的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎仍會繼續使用這些關鍵字。 目前的[SEO最佳作法](../merchandising-promotions/seo-overview.md)是在中繼標題和中繼描述中併入高值關鍵字。
+產品的&#x200B;_[!UICONTROL Search Engine Optimization]_設定指定了搜尋引擎用來索引產品的[URL索引鍵](catalog-urls.md)和[中繼資料](../merchandising-promotions/meta-data.md)欄位。 雖然有些搜尋引擎會忽略中繼關鍵字，但其他搜尋引擎仍會繼續使用這些關鍵字。 目前的[SEO最佳作法](../merchandising-promotions/seo-overview.md)是在中繼標題和中繼描述中併入高值關鍵字。
 
 每個中繼資料欄位的預設值可根據設定中指定的值自動產生。 每個欄位都包含一個預留位置，並以實際值取代。 如需詳細資訊，請參閱[產品欄位自動產生](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)。
 
@@ -42,7 +55,7 @@ _搜尋引擎最佳化_ (SEO)是微調網站的內容與呈現方式，以改進
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Search Engine Optimization]_&#x200B;區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Search Engine Optimization]_區段。
 
 ![搜尋引擎最佳化](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 

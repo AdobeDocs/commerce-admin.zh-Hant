@@ -3,28 +3,37 @@ title: 購物車設定
 description: 瞭解您可以設定的購物車功能，以支援商店中的購買體驗。
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # 購物車設定
 
 購物車設定會決定購物車如何為商店客戶運作，包括何時將客戶重新導向購物車頁面，以及哪些影像用於產品縮圖。 您也可以在結帳程式開始之前，要求訂單達到最小數量、指定報價的天數保持有效，以及在&#x200B;_訂單總計_&#x200B;區段中指定專案順序。
@@ -51,7 +60,7 @@ ht-degree: 0%
 
 ## 迷你購物車
 
-_迷你購物車_會顯示購物車中的專案摘要。此功能預設為啟用，當您按一下頁面頂端的「購物車」連結時，就會顯示。
+_迷你購物車_會顯示購物車中的專案摘要。 此功能預設為啟用，當您按一下頁面頂端的「購物車」連結時，就會顯示。
 連結可以設定為顯示購物車中不同產品（或SKU）的數量，或所有專案的總數量。
 
 ![購物者顯示產品頁面的購物車側邊欄](./assets/storefront-mini-cart-watch.png){width="700" zoomable="yes"}
@@ -66,7 +75,7 @@ _迷你購物車_會顯示購物車中的專案摘要。此功能預設為啟用
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
-1. 展開&#x200B;_[!UICONTROL Mini Cart]_&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 展開&#x200B;_[!UICONTROL Mini Cart]_區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![設定迷你購物車](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -176,13 +185,13 @@ _迷你購物車_會顯示購物車中的專案摘要。此功能預設為啟用
 
    - 將&#x200B;**[!UICONTROL Include Discount Amount]**&#x200B;設定為下列其中一項：
 
-      - `Yes` — 要求小計符合包含任何折扣的最小金額。 以$50為最小值的範例來說，如果購物車包含$60的上方並套用25%的折扣，則結果小計為$45，且購物車不符合最小值。
-      - `No` — 要求小計符合不含任何折扣的最小金額。
+     - `Yes` — 要求小計符合包含任何折扣的最小金額。 以$50為最小值的範例來說，如果購物車包含$60的上方並套用25%的折扣，則結果小計為$45，且購物車不符合最小值。
+     - `No` — 要求小計符合不含任何折扣的最小金額。
 
    - 將&#x200B;**[!UICONTROL Include Tax to Amount]**&#x200B;設定為下列其中一項：
 
-      - `Yes` — 需要小計符合含稅的最小金額。
-      - `No` — 需要小計以符合不含稅的最小金額。
+     - `Yes` — 需要小計符合含稅的最小金額。
+     - `No` — 需要小計以符合不含稅的最小金額。
 
 1. 選擇性地自訂最低訂單金額訊息設定：
 
@@ -198,9 +207,9 @@ _迷你購物車_會顯示購物車中的專案摘要。此功能預設為啟用
 
    - 選擇性地自訂最低訂單金額訊息設定：
 
-      - **[!UICONTROL Multi-address Description Message]** — 輸入您要用來自訂訊息的文字，此訊息會針對不符合最低數目的多重地址訂單，顯示在購物車的最上方。
+     - **[!UICONTROL Multi-address Description Message]** — 輸入您要用來自訂訊息的文字，此訊息會針對不符合最低數目的多重地址訂單，顯示在購物車的最上方。
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** — 針對不符合最小值的多個地址訂單，輸入您要用來自訂購物車錯誤訊息的文字，在方塊中輸入文字。
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** — 針對不符合最小值的多個地址訂單，輸入您要用來自訂購物車錯誤訊息的文字，在方塊中輸入文字。
 
      將訊息說明欄位保留空白可使用預設訊息。
 
@@ -336,7 +345,7 @@ _迷你購物車_會顯示購物車中的專案摘要。此功能預設為啟用
 
 1. 若要上傳贈品包裝的縮圖&#x200B;**[!UICONTROL Image]**，請按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並從您的目錄中選取要上傳的檔案。
 
-   儲存記錄後，_[!UICONTROL Gift Wrapping Information]_&#x200B;中會顯示影像縮圖。
+   儲存記錄後，_[!UICONTROL Gift Wrapping Information]_中會顯示影像縮圖。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
