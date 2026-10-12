@@ -3,27 +3,35 @@ title: 訂單狀態
 description: 瞭解預先定義的訂單狀態，以及如何定義自訂訂單狀態以符合您的營運需求。
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: '1237'
 ht-degree: 0%
-
 ---
-
 # 訂單狀態
 
 所有訂單的訂單狀態都與訂單處理[工作流程](order-processing.md)中的階段相關聯。\
@@ -31,8 +39,8 @@ ht-degree: 0%
 對客戶或管理員使用者可見。 它們決定訂單的流程，以及訂單可能執行的作業。
 以特定狀態訂購。\
 **[!UICONTROL Order statuses]**&#x200B;可用來將訂單狀態傳達給客戶和管理員。
-您可以建立其他訂單狀態，以符合您的營運需求。方便顯示訂單狀態
-Adobe Commerce外部的進度，例如訂單撿料與交貨進度。它們對訂單沒有影響
+您可以建立其他訂單狀態，以符合您的營運需求。 方便顯示訂單狀態
+Adobe Commerce外部的進度，例如訂單撿料與交貨進度。 它們對訂單沒有影響
 處理工作流程。\
 每個訂單狀態都與一個訂單狀態相關聯。 您的商店有一組預先定義的訂單狀態和
 順序狀態設定。

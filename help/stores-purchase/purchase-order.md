@@ -3,28 +3,40 @@ title: 採購單
 description: 瞭解如何將訂購單設定為商店的離線付款方式。
 exl-id: 493c1b59-2155-449f-a08a-eb1aa2af9b3e
 feature: Purchase Orders
-TQID: https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY
+TQID: 'https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 0%
-
 ---
-
 # 採購單
 
 _採購單_ （採購單）可讓商業客戶參考採購單編號來支付授權採購的費用。 採購單已由進行採購的公司預先授權並簽發。 結帳時，客戶選擇「採購單」作為付款方式。 收到您的商業發票後，公司即會在應付帳款系統中處理付款，並支付採購費用。

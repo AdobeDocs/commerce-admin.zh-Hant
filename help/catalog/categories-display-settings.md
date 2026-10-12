@@ -3,30 +3,40 @@ title: 類別 — 顯示設定
 description: 瞭解如何使用[!UICONTROL Display]設定來定義哪些內容元素會出現在類別頁面上，以及產品出現的順序。
 exl-id: bb3a1b00-ba56-4113-8208-860963612333
 feature: Catalog Management, Categories, Page Content
-TQID: https://experienceleague.adobe.com/t5UfvWvJ7R-kZb5kyMwpzwI2gfs3x3g1amlfWzQcAsw
+TQID: 'https://experienceleague.adobe.com/t5UfvWvJ7R-kZb5kyMwpzwI2gfs3x3g1amlfWzQcAsw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 247
+source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # 類別 — 顯示設定
 
 顯示設定可決定哪些內容元素會出現在類別頁面上，以及產品出現的順序。 您可以啟用CMS區塊、設定類別的錨點狀態，以及從&#x200B;_[!UICONTROL Display Settings]_&#x200B;索引標籤管理排序選項。 如需如何在店面中反映類別的範例，請參閱[目錄導覽](navigation.md)。

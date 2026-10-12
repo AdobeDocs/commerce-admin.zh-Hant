@@ -3,27 +3,35 @@ title: 店內傳遞
 description: 瞭解如何為商店設定店內傳遞選項。
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
+TQID: 'https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '645'
 ht-degree: 0%
-
 ---
-
 # 店內傳遞
 
 使用店內送貨方式時，客戶可選取在結帳期間作為取貨地點的來源。
@@ -59,8 +67,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**在店面，搜尋結果會依距離（半徑）篩選，以顯示相關結果：**<br><br>
->如果客戶有送貨地址，則計算距離（半徑）的基準位置是從送貨地址取得的。<br><br>
->如果客戶沒有送貨地址，則計算距離的基準地點是從[預設稅捐目的地計算](../configuration-reference/sales/tax.md#default-tax-destination-calculation)設定中取得。這些設定是按商店檢視設定的，您必須設定「預設稅捐目的地計算」設定，以確保取貨商店搜尋正常運作。
+>如果客戶有送貨地址，則計算距離（半徑）的基準地點會取自送貨地址。<br><br>
+>如果客戶沒有送貨地址，則計算距離的基準地點是從[預設稅捐目的地計算](../configuration-reference/sales/tax.md#default-tax-destination-calculation)設定中取得。 這些設定是按商店檢視設定的，您必須設定「預設稅捐目的地計算」設定，以確保取貨商店搜尋正常運作。
 
 ## 設定店內傳遞
 

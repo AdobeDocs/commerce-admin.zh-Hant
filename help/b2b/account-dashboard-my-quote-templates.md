@@ -3,29 +3,46 @@ title: '[!UICONTROL My Quote Templates]'
 description: 瞭解店面帳戶儀表板中提供的客戶報價範本體驗。
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+TQID: 'https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 973
+source-wordcount: '973'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Quote Templates]
 
 如果已啟用報價，客戶帳戶儀表板的&#x200B;_[!UICONTROL My Quotes Template]_&#x200B;區段會列出與客戶帳戶相關聯的所有報價範本。 視其許可權而定，只有代表公司進行採購的採購員才能請求報價範本，並協商重複產生訂單的報價定價與條款。
@@ -46,29 +63,29 @@ ht-degree: 0%
 
 - 與管理報價範本相關的動作：
 
-   - 取消範本
-   - 傳送給賣家進行檢閱
-   - 接受報價範本
-   - 變更報價範本到期日
-   - 新增送貨地址
-   - 管理參考檔案連結
+  - 取消範本
+  - 傳送給賣家進行檢閱
+  - 接受報價範本
+  - 變更報價範本到期日
+  - 新增送貨地址
+  - 管理參考檔案連結
 
 - 在議價處理期間更新報價樣版明細的作業：
 
-   - 複查料號訂價與更新。
-   - 如果已設定報價範本的數量臨界值，請調整最小值和最大值。
-   - 從[!UICONTROL Comments]和[!UICONTROL History]區段追蹤交涉程式。
-   - 對於仍在複查的樣版，採購員可以移除料號來修改報價樣版。
-   - 在條列專案與報價層級加入備註，與賣家溝通及協商。
-   - 新增、編輯或移除外部合約與協定的參考檔案連結。
+  - 複查料號訂價與更新。
+  - 如果已設定報價範本的數量臨界值，請調整最小值和最大值。
+  - 從[!UICONTROL Comments]和[!UICONTROL History]區段追蹤交涉程式。
+  - 對於仍在複查的樣版，採購員可以移除料號來修改報價樣版。
+  - 在條列專案與報價層級加入備註，與賣家溝通及協商。
+  - 新增、編輯或移除外部合約與協定的參考檔案連結。
 
   進行變更後，買方會將範本傳回給賣方進行稽核。
 
 - 交涉期間的一般動作：
 
-   - 將報價範本傳送給賣家以供檢閱
-   - 接受報價範本
-   - 取消以結束議價並關閉報價單
+  - 將報價範本傳送給賣家以供檢閱
+  - 接受報價範本
+  - 取消以結束議價並關閉報價單
 
 下列範例顯示買方已更新並傳回給賣方進行複查的報價範本。
 

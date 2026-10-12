@@ -3,30 +3,44 @@ title: 銷退折讓單
 description: 瞭解銷退折讓單，以及如何使用銷退折讓單發出部分或全部退款。
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-TQID: https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4
+TQID: 'https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # 銷退折讓單
 
 _銷退折讓單_&#x200B;是一份檔案，會顯示客戶應支付的全部或部分退款金額。 金額可用於購買或退款給客戶。 您可以列印單一訂單的銷退折讓單，或將多個訂單的銷退折讓單列印成批次。 必須先為訂單產生銷退折讓單，才能列印銷退折讓單。 _銷退折讓單_&#x200B;頁面列出已核發給客戶的銷退折讓單。
@@ -40,9 +54,9 @@ _銷退折讓單_&#x200B;是一份檔案，會顯示客戶應支付的全部或�
 您可以用三種方式退款：
 
 - 帳戶銷退折讓 — 使用銷退折讓帳戶支付的訂單可以退款為帳戶銷退折讓：
-   - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [商店點數](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用） [帳戶付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
-   - ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用） [公司點數](../b2b/credit-company.md)
+  - ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [商店點數](../customers/store-credit-using.md)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用） [帳戶付款](../b2b/enable-basic-features.md#configure-payment-on-account) （離線方法）
+  - ![Adobe Commerce B2B](../assets/b2b.svg) （可與Adobe Commerce B2B搭配使用） [公司點數](../b2b/credit-company.md)
 - [線上退款](payments.md#online-payment-methods) — 信用卡透過付款閘道（例如PayPal或Braintree）支付的訂單，會透過付款處理程式線上退款。
 - [離線退款](payments.md#offline-payment-methods) — 以「貨到付款」（[貨到付款](cash-on-delivery.md)）或[支票或匯票](check-money-order.md)支付的訂單會離線退款。
 

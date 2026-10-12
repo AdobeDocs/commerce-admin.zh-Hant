@@ -4,28 +4,36 @@ description: 瞭解用於為公司帳戶傳送通訊的電子郵件選項和範�
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # 設定公司電子郵件選項
 
 依預設，指派為公司主要連絡人的[銷售代表](account-company-manage.md)會設定為許多傳送給公司的自動化電子郵件訊息的寄件者。
@@ -48,8 +56,8 @@ ht-degree: 0%
 
    - 若要判斷通知復本的傳送方式，請將&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;設定為下列其中一項：
 
-      - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
-      - `Separate Email` — 以個別電子郵件的形式傳送復本。
+     - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
+     - `Separate Email` — 以個別電子郵件的形式傳送復本。
 
    - 如果您已準備要使用的電子郵件範本而非預設值，請將&#x200B;**[!UICONTROL Default Company Registration Email]**&#x200B;設定為範本的名稱。 依預設，會使用`Company Registration Request`範本。
 
@@ -77,8 +85,8 @@ ht-degree: 0%
 
    - 若要判斷通知復本的傳送方式，請將&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;設定為下列其中一項：
 
-      - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
-      - `Separate Email` — 以個別電子郵件的形式傳送復本。
+     - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
+     - `Separate Email` — 以個別電子郵件的形式傳送復本。
 
    - 如果您有準備好的電子郵件範本，當公司狀態從`Pending Approval`變更為`Active`時，會使用這個範本，而非預設值，請將&#x200B;**[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;設定為該範本。 依預設，會使用`Company Status Active 1`範本。
 
@@ -100,16 +108,16 @@ ht-degree: 0%
 
    - 若要判斷通知復本的傳送方式，請將&#x200B;**[!UICONTROL Send Email Copy Method]**&#x200B;設定為下列其中一項：
 
-      - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
-      - `Separate Email` — 以個別電子郵件的形式傳送復本。
+     - `Bcc` — 在傳送給客戶的同一封電子郵件的標頭中包含收件者，以傳送&#x200B;_不公開的禮貌副本_。 客戶看不到密件副本收件者。
+     - `Separate Email` — 以個別電子郵件的形式傳送復本。
 
    - 如果您已準備要使用的電子郵件範本而非預設值，請為傳送給公司管理員的下列每個通知選擇範本。
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![客戶組態 — 公司信用電子郵件](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

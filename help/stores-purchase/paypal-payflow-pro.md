@@ -4,29 +4,39 @@ description: 瞭解如何將PayPal Payflow Pro設定為商店上的線上支付�
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ
+TQID: 'https://experienceleague.adobe.com/Ihjp0mA-r63ONIWgCpZFxi4rdt9cVowqPX1VyD4SRaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2264
+source-wordcount: '2328'
 ht-degree: 0%
-
 ---
-
 # PayPal Payflow Pro
 
 PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、加拿大、澳洲和紐西蘭的客戶。 與其他PayPal付款方式不同，商戶每月收取固定費用，另加每項交易的固定費用（無論數量為何）。
@@ -36,7 +46,7 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。為了遵循PSD2，PayPal Payflow Pro必須與協力廠商外掛程式整合。若要深入瞭解，請參閱[Payflow的3D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 為了遵循PSD2，PayPal Payflow Pro必須與協力廠商外掛程式整合。 若要深入瞭解，請參閱[Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)的3D安全。
 
 ## 需求
 
@@ -75,9 +85,9 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 在&#x200B;**[!UICONTROL Security Options]**&#x200B;底下，完成下列設定：
 
-      - **[!UICONTROL AVS]**: `No`
-      - **[!UICONTROL CSC]**: `No`
-      - **[!UICONTROL Enable Secure Token]**: `Yes`
+     - **[!UICONTROL AVS]**: `No`
+     - **[!UICONTROL CSC]**: `No`
+     - **[!UICONTROL Enable Secure Token]**: `Yes`
 
    - 選擇&#x200B;**[!UICONTROL Customize]**，然後選擇&#x200B;**[!UICONTROL Layout C]**。
 
@@ -105,10 +115,10 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 完成&#x200B;_[!UICONTROL Add User]_&#x200B;表單下列區段中的必填欄位：
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - 按一下&#x200B;**[!UICONTROL Update]**。
 
@@ -381,8 +391,8 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 如果您已註冊PayPal安全FTP伺服器，請輸入下列SFTP登入認證：
 
-      - 登入
-      - 密碼
+     - 登入
+     - 密碼
 
    - 若要在您的網站上使用「快速簽出」功能上線之前執行測試報告，請將&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;設為`Yes`。
 
@@ -400,13 +410,13 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 將&#x200B;**[!UICONTROL Schedule]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal會保留每個報表45天。
 
@@ -434,9 +444,9 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 輸入您要套用至PayPal商家頁面的&#x200B;**[!UICONTROL Page Style]**&#x200B;名稱：
 
-      - `paypal` — 使用PayPal頁面樣式。
-      - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
-      - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
+     - `paypal` — 使用PayPal頁面樣式。
+     - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
+     - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
 
    - 針對&#x200B;**[!UICONTROL Header Image URL]**，輸入您要顯示在付款頁面左上角的影像URL。 檔案大小上限為750畫素寬x 90畫素高。
 
@@ -446,9 +456,9 @@ PayPal Payflow Pro閘道（先前稱為&#x200B;_Verisign_）適用於美國、�
 
    - 若要設定頁面的顏色，請針對下列各項，輸入6個字元的十六進位代碼（不含`#`符號）：
 
-      - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
-      - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
-      - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
+     - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
+     - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
+     - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 

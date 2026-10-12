@@ -3,30 +3,46 @@ title: 交涉報價
 description: 瞭解報價議價工作流程，以及如何與購買者合作進行購買。
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # 交涉報價
 
 如果組態中啟用了[B2B報價單](configure-quotes.md)，則價格議價可由公司授權採購員或銷售代表啟動。
@@ -93,11 +109,11 @@ ht-degree: 0%
   [!UICONTROL Configure]選項僅適用於可設定產品的條列專案
 
 - 在&#x200B;**[!UICONTROL Action]**&#x200B;功能表中，選取動作以更新專案：
-   - **折扣專案**，以百分比、固定金額或偏好訂價的形式套用折扣。
-您可以選擇鎖定折扣金額，以防止進一步折扣。如果未鎖定折扣，
-明細專案折扣與任何報價層次折扣都會套用至產品價格。
-   - **給購買者留下備註**，為購買者提供專案的額外資訊
-   - **移除**&#x200B;以從報價移除專案。
+  - **折扣專案**，以百分比、固定金額或偏好訂價的形式套用折扣。
+    您可以選擇鎖定折扣金額，以防止進一步折扣。 如果未鎖定折扣，
+    明細專案折扣與任何報價層次折扣都會套用至產品價格。
+  - **給購買者留下備註**，為購買者提供專案的額外資訊
+  - **移除**&#x200B;以從報價移除專案。
 
 ### 套用變更和更新
 
@@ -139,9 +155,9 @@ ht-degree: 0%
 
    - 在&#x200B;_[!UICONTROL Negotiated Price]_&#x200B;區段的&#x200B;_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
 
-      - `Percentage Discount`：百分比折扣會以特定百分比降低原始價格。
-      - `Amount Discount`：金額折扣會套用固定價格折扣。
-      - `Proposed Price`：提議的價格折扣會將最終價格設定為特定金額，而不考慮原始價格。
+     - `Percentage Discount`：百分比折扣會以特定百分比降低原始價格。
+     - `Amount Discount`：金額折扣會套用固定價格折扣。
+     - `Proposed Price`：提議的價格折扣會將最終價格設定為特定金額，而不考慮原始價格。
 
    - 以百分比或統一價格輸入金額。
 
@@ -149,9 +165,9 @@ ht-degree: 0%
 
    - 您可以將折扣套用至每個明細專案或整個報價單：
 
-      - **條列專案折扣**：條列專案折扣套用至購物車中的個別專案。 折扣可以是`percentage`、特定`amount`或`proposed price`。
-      - **購物車層級折扣**：購物車層級折扣套用至整個購物車。 折扣可以是`percentage`或特定的`amount`，並套用至購物車總值。
-      - **購物車與明細專案折扣的組合**：在某些情況下，折扣可同時套用至購物車與明細專案層次。 先套用明細專案折扣，然後套用剩餘總計的購物車層級折扣。
+     - **條列專案折扣**：條列專案折扣套用至購物車中的個別專案。 折扣可以是`percentage`、特定`amount`或`proposed price`。
+     - **購物車層級折扣**：購物車層級折扣套用至整個購物車。 折扣可以是`percentage`或特定的`amount`，並套用至購物車總值。
+     - **購物車與明細專案折扣的組合**：在某些情況下，折扣可同時套用至購物車與明細專案層次。 先套用明細專案折扣，然後套用剩餘總計的購物車層級折扣。
 
 1. 傳送或儲存報價：
 

@@ -3,30 +3,43 @@ title: 贈品登入設定
 description: 瞭解如何為商店客戶設定禮品登入型別。
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+TQID: 'https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # 贈品登入設定
 
 {{ee-feature}}
@@ -89,13 +102,13 @@ ht-degree: 0%
 
      有些輸入型別具有其他屬性。 例如，「事件位置」有其他屬性可讓事件可供搜尋，並包含在商店的禮品註冊公開清單中。
 
-      - 將&#x200B;**[!UICONTROL Attribute Group]**&#x200B;設定為禮品登入中要顯示屬性的區段。
+     - 將&#x200B;**[!UICONTROL Attribute Group]**&#x200B;設定為禮品登入中要顯示屬性的區段。
 
-      - 針對&#x200B;**[!UICONTROL Label]**，輸入名稱以識別登入中的資料專案欄位。
+     - 針對&#x200B;**[!UICONTROL Label]**，輸入名稱以識別登入中的資料專案欄位。
 
-      - 如果客戶必須選取或在欄位中輸入值，請將&#x200B;**[!UICONTROL Is Required]**&#x200B;設為`Yes`。
+     - 如果客戶必須選取或在欄位中輸入值，請將&#x200B;**[!UICONTROL Is Required]**&#x200B;設為`Yes`。
 
-      - 針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字，以決定此禮品註冊與其他可能在此商店中可用的禮品註冊一起列出時的顯示順序。
+     - 針對&#x200B;**[!UICONTROL Sort Order]**，輸入數字，以決定此禮品註冊與其他可能在此商店中可用的禮品註冊一起列出時的顯示順序。
 
 1. 若要新增其他選項，請按一下&#x200B;**新增選項**。
 

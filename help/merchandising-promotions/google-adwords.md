@@ -3,32 +3,47 @@ title: Google AdWords
 description: 瞭解如何設定您的Commerce商店以進行Google AdWords轉換追蹤，以測量導致銷售或其他寶貴動作的廣告點選次數。
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 [Google AdWords](https://www.google.com/adwords/)是一項服務，您可以在Google搜尋結果和Google顯示網路的公司頁面上放置廣告。 AdWords儀表板包含管理行銷活動、追蹤回應和測量結果的工具。
@@ -53,8 +68,8 @@ ht-degree: 0%
 
    - 按一下「**[!UICONTROL Value]**」，並指派值給轉換（如果適用）。 例如：
 
-      - 如果您在每次銷售上賺取$5，請選擇`Each time it happens`並指派值`$5`。
-      - 如果每次銷售的值不盡相同，則將此值留空。
+     - 如果您在每次銷售上賺取$5，請選擇`Each time it happens`並指派值`$5`。
+     - 如果每次銷售的值不盡相同，則將此值留空。
 
      若要完成，請按一下&#x200B;**[!UICONTROL Done]**。
 
@@ -105,9 +120,9 @@ ht-degree: 0%
 
    - 輸入要在轉換頁面上用於Google Sites統計通知的&#x200B;**[!UICONTROL Conversion Format]**。
 
-      - `1` — 顯示單行通知，內含連結，可連結至Google追蹤的詳細資訊。
-      - `2` — 顯示兩行通知，其中包含有關Google追蹤詳細資訊的連結。
-      - `3` — 不顯示客戶通知。
+     - `1` — 顯示單行通知，內含連結，可連結至Google追蹤的詳細資訊。
+     - `2` — 顯示兩行通知，其中包含有關Google追蹤詳細資訊的連結。
+     - `3` — 不顯示客戶通知。
 
    - 為您要用於Google網站統計通知標籤的&#x200B;**[!UICONTROL Conversion Color]**&#x200B;輸入[十六進位代碼](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}。
 

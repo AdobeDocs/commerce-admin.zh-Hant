@@ -1,33 +1,49 @@
 ---
 title: 資料管理控制面板
-description: 瞭解如何存取 [!DNL Catalog Service]、 [!DNL Live Search]和 [!DNL Product Recommendation]的資料串流的深入分析。
+description: 瞭解如何存取[!DNL Catalog Service]、[!DNL Live Search]和[!DNL Product Recommendation]的資料串流的深入分析。
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
+TQID: 'https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # 資料管理控制面板
 
 資料管理儀表板提供從Commerce資料庫傳輸到Commerce SaaS服務之產品資料的同步狀態概觀。 使用者可以方便地監視產品同步狀態，並從統一的儀表板起始資料重新同步。 此功能可為您的店面提供寶貴的產品資料可用性深入分析，確保可及時向購物者顯示。

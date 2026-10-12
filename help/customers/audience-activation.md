@@ -6,29 +6,45 @@ feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+TQID: 'https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Personalization
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1976
+source-wordcount: '1976'
 ht-degree: 1%
-
 ---
-
 # [!DNL Audience Activation]
 
 [!DNL Audience Activation]擴充功能可讓您在Adobe Commerce中啟用Real-Time CDP對象，以在購物車中建立唯一優惠方案。 這些優惠和獎勵包括常見的電子商務銷售技巧，例如&#x200B;_購買2獲得1免費_、針對該客戶的主圖橫幅，以及通過各種優惠修改產品價格。 在Real-Time CDP中建立的受眾是以來自各種企業系統的資料為基礎，例如企業資源規劃(ERP)、客戶關係管理(CRM)、銷售點和行銷系統。 由於客戶區段資訊會持續更新，因此當客戶在您的商店購物時，他們可能會與區段建立關聯或解除關聯。

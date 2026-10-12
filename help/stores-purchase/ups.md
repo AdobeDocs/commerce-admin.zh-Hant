@@ -3,29 +3,39 @@ title: 聯合包裹服務(UPS)
 description: 瞭解如何將UPS設定為您的商店的運送業者。
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ
+TQID: 'https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: '1025'
 ht-degree: 0%
-
 ---
-
 # 聯合包裹服務(UPS)
 
 United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服務對象超過220個國家。
@@ -72,12 +82,12 @@ United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服�
 
    - 將&#x200B;**[!UICONTROL Live Account]**&#x200B;設定為下列其中一項：
 
-      - `Yes` — 以生產模式執行UPS，並提供UPS作為送貨方式給您的客戶。 請務必在閘道URL和追蹤URL底下使用正確的端點。
-      - `No` — 在測試模式下執行UPS。 請務必在閘道URL和追蹤URL底下使用正確的端點。
+     - `Yes` — 以生產模式執行UPS，並提供UPS作為送貨方式給您的客戶。 請務必在閘道URL和追蹤URL底下使用正確的端點。
+     - `No` — 在測試模式下執行UPS。 請務必在閘道URL和追蹤URL底下使用正確的端點。
 
    >[!NOTE]
    >
-   >標準United Parcel Service型別已排定淘汰。對於新組態，請使用預設`United Parcel Service REST`型別。REST型別也需要產生[送貨標籤](shipping-labels.md).<br/>
+   >標準United Parcel Service型別已排定淘汰。 對於新組態，請使用預設`United Parcel Service REST`型別。 REST型別也需要產生[送貨標籤](shipping-labels.md)。<br/>
    >在2.4.7版本中，**[!UICONTROL UPS Type]**&#x200B;已移除，因為`UPS`和`UPS XML`型別已排定棄用，而`UPS REST`為預設值。 原生Adobe Commerce整合所使用的United Parcel Service (UPS) API暫時被取代，因為它目前不支援OAuth 2.0安全性模型。
 
    >[!IMPORTANT]

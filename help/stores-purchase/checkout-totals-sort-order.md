@@ -3,26 +3,33 @@ title: 簽出總計排序順序
 description: 瞭解顯示的結帳總計，以及如何設定訂單摘要上的結帳總計排序順序。
 exl-id: 2b1345e3-6ad3-472a-af3e-3f7b24577b13
 feature: Checkout, Configuration
-TQID: https://experienceleague.adobe.com/cXt3dbS5Jd8baKFk8K8HP1Cypk1oMS85iCq-WZ8cIgg
+TQID: 'https://experienceleague.adobe.com/cXt3dbS5Jd8baKFk8K8HP1Cypk1oMS85iCq-WZ8cIgg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: '257'
 ht-degree: 0%
-
 ---
-
 # 簽出總計排序順序
 
 在訂單複查期間，總計會顯示在訂單底部，其中包含折扣、運費、商店退款及稅捐的任何調整。 每個料號的順序會決定計算順序，並在組態中依指定給每個料號的編號來設定。 例如，「小計」是區段中的第一個專案，且被指派值10。 「總量」會顯示於最後，且會指定值100。 在總計區段中的所有其他專案都會被指定這些值之間的值。

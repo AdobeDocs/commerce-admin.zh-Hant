@@ -3,26 +3,35 @@ title: 出貨訂單
 description: 瞭解如何完成處理訂單的送貨資訊，並檢視送貨與追蹤資訊。
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+TQID: 'https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 出貨訂單
 
 已付款但正在等候出貨的訂單具有`Processing`狀態。 出貨記錄包含與訂單相關之履行處理的詳細歷史記錄。 在訂單完成之前，可以出貨一部分。
@@ -43,11 +52,11 @@ ht-degree: 0%
 
    - 執行下列任一項作業：
 
-      - 選取&#x200B;**[!UICONTROL Carrier]**&#x200B;並輸入追蹤&#x200B;**[!UICONTROL Number]**。
+     - 選取&#x200B;**[!UICONTROL Carrier]**&#x200B;並輸入追蹤&#x200B;**[!UICONTROL Number]**。
 
-      - 將&#x200B;**[!UICONTROL Carrier]**&#x200B;設為`Custom Value`，輸入自訂電信業者的&#x200B;**[!UICONTROL Title]**，然後輸入追蹤&#x200B;**[!UICONTROL Number]**。
+     - 將&#x200B;**[!UICONTROL Carrier]**&#x200B;設為`Custom Value`，輸入自訂電信業者的&#x200B;**[!UICONTROL Title]**，然後輸入追蹤&#x200B;**[!UICONTROL Number]**。
 
-      - [檢視追蹤資訊](#track-the-shipment)。
+     - [檢視追蹤資訊](#track-the-shipment)。
 
 1. 若要進行部份出貨，請向下捲動至「要出貨的料號」區段，然後為每個料號輸入&#x200B;**[!UICONTROL Qty to Ship]**。
 

@@ -3,27 +3,35 @@ title: 稅金
 description: 瞭解如何設定您的商店，以根據地區設定的要求計算稅捐。
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # 稅金
 
 設定您的商店，以根據地區設定的要求計算稅捐。 您可以為產品與客戶群組設定[稅捐類別](tax-class.md)，並建立結合產品與客戶類別、稅捐地區與稅率的[稅捐規則](tax-rules.md)。 Commerce也提供固定產品稅捐、複合稅捐的組態設定，以及跨國境價格的顯示。 如果您必須收取[增值稅](vat.md)，您可以將商店設定為自動計算適當金額並進行驗證。

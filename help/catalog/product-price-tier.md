@@ -3,29 +3,39 @@ title: 層級定價
 description: 瞭解如何使用層級定價，從產品清單或產品頁面提供數量折扣。
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # 層級定價
 
 層級定價可讓您從店面的產品清單或產品頁面提供數量折扣。 折扣可套用至特定商店檢視或客戶群組或共用目錄。
@@ -108,17 +118,17 @@ ht-degree: 1%
 
 若要說明在購買單一產品時，層級訂價如何與型錄價格規則搭配運作，請考量下列範例：
 
-- 產品的標準基本價格為100美元。
-- 已針對數量為`1`且固定價格為90美元的`Wholesale`客戶群組定義層級價格。
+- 產品的標準基本價格為100 USD。
+- 已針對數量為`1`且固定價格為90 USD的`Wholesale`客戶群組定義層級價格。
 - 型錄價格規則會為`Wholesale`客戶群組提供10%的折扣。
 
 當針對型錄價格規則啟用層級訂價時，系統會使用下列流程來計算最終價格：
 
-1. 在客戶登入之前，產品價格會顯示為100美元（標準基本價格）。
+1. 在客戶登入之前，產品價格會顯示為100 USD （標準基本價格）。
 
 1. 客戶以`Wholesale`群組成員身分登入後，產品價格會調整為90 USD （`Wholesale`群組的層級價格）。
 
-1. 套用目錄價格規則，在90美元的層級價格上提供10%的折扣，最終價格為81美元。
+1. 套用目錄價格規則，在90 USD的層級價格上提供10%的折扣，最終價格為81 USD。
 
 當型錄價格規則啟用層級訂價，而型錄價格規則為所有客戶群組提供10%折扣時，下表會摘要價格計算：
 

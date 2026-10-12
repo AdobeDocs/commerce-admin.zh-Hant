@@ -1,30 +1,41 @@
 ---
-title: 設定 [!DNL Inventory Management] 產品選項
-description: 設定每個產品 [!DNL Inventory Management] 和進階庫存選項，以覆寫全域庫存和來源設定。
+title: 設定[!DNL Inventory Management]產品選項
+description: 設定每個產品[!DNL Inventory Management]和進階詳細目錄選項，以覆寫全域庫存和來源設定。
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+TQID: 'https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 設定[!DNL Inventory Management]產品選項
 
 這些設定只會套用至已編輯的產品，並覆寫全球網站層級的所有設定。 在編輯產品時，透過&#x200B;_[!UICONTROL Sources]_&#x200B;區段和&#x200B;_[!UICONTROL Advanced Inventory]_&#x200B;頁面修改這些設定。

@@ -4,24 +4,33 @@ description: 為確保您擁有合法存取權並消除Adobe Stock浮水印，�
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY
+TQID: 'https://experienceleague.adobe.com/xtEpqNy5Nrv8la7SUXpM0Dg-v1rRAxLOGoTcmsQ0jmY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # 授權Adobe Stock影像
 
 您想要用於生產Adobe Commerce和Magento Open Source商店的Adobe Stock資產應該獲得授權。 此授權確保您擁有合法存取影像的許可權，並消除所有[影像預覽](./adobe-stock-save-preview.md)上出現的Adobe Stock浮水印。 若要授權影像或儲存已獲得授權的影像，您必須登入您的Adobe帳戶。

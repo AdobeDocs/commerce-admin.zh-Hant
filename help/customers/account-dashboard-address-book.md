@@ -3,26 +3,35 @@ title: 客戶通訊錄
 description: 通訊錄包含客戶的預設帳單和送貨地址，以及他們經常使用的任何其他地址。
 exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY
+TQID: 'https://experienceleague.adobe.com/LHQDgcdHs3-T0d-0yGdkrmP0l7z-noSm6sbIPuseBTY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 0%
-
 ---
-
 # 客戶通訊錄
 
 保持通訊錄為最新狀態的客戶，可加速結帳程式。 通訊錄包含客戶的預設帳單和送貨地址，以及他們經常使用的任何其他地址。 從格線存取及維護其他位址專案相當容易。 每個客戶通訊錄可以管理超過3,000個通訊錄專案，而不會影響效能。

@@ -4,24 +4,33 @@ description: 瞭解如何為您的Adobe Commerce或Magento Open Source商店安�
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
+TQID: 'https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # 安裝新主題
 
 第一次安裝[!DNL Commerce]時，存放區的設計元素是以預設的`Magento Blank`主題為基礎。 如果您已安裝範例資料，也可使用&#x200B;_Luma_&#x200B;主題。 您可以修改佈景主題、新增其他人建立的佈景主題，或建立您自己的佈景主題。 [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md)包含越來越多您可以安裝以變更商店外觀的主題。 若要瞭解如何建立或修改主題，請參閱&#x200B;[_前端開發指南_](https://developer.adobe.com/commerce/frontend-core/guide/)。

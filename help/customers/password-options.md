@@ -3,29 +3,39 @@ title: 客戶密碼選項
 description: 客戶密碼選項會決定商店中各種面向客戶的功能的安全性等級。
 exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
 feature: Customers, Configuration, Security
-TQID: https://experienceleague.adobe.com/ttWsiKhuvquDE2oQRWLF9rTDTZ64BHkKD0Lbv-EDnHs
+TQID: 'https://experienceleague.adobe.com/ttWsiKhuvquDE2oQRWLF9rTDTZ64BHkKD0Lbv-EDnHs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 客戶密碼選項
 
 客戶密碼選項決定用於密碼重設請求的安全性等級、用於客戶通知的電子郵件範本，以及密碼復原連結的存留期。 您可以允許客戶變更自己的密碼，或要求只有商店管理員才能這麼做。
@@ -73,10 +83,10 @@ ht-degree: 0%
 
    - 針對&#x200B;**[!UICONTROL Number of Required Character Classes]**，根據下列字元類別，輸入密碼中必須包含的不同字元型別數目：
 
-      - `Lowercase`
-      - `Uppercase`
-      - `Numeric`
-      - `Special Characters`
+     - `Lowercase`
+     - `Uppercase`
+     - `Numeric`
+     - `Special Characters`
 
    - 針對&#x200B;**[!UICONTROL Maximum Login Failures to Lockout Account]**，輸入鎖定客戶帳戶之前的失敗登入嘗試次數。 對於不限次數的嘗試，請輸入零(`0`)。
 

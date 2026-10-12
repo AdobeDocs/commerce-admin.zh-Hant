@@ -4,30 +4,41 @@ description: 瞭解如何在商店上將PayPal Payments Advanced設定為線上�
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8
+TQID: 'https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2175
+source-wordcount: '2239'
 ht-degree: 0%
-
 ---
-
 # PayPal付款進階
 
 [PayPal Payments Advanced](https://developer.paypal.com/docs/payflow/gs-ppa-hosted-pages/)是符合[PCI規範](../getting-started/compliance-pci.md)的解決方案，可讓您的客戶以扣款或信用卡付款，而不需離開您的網站。 其中包含可自訂的內嵌簽出頁面，以建立順暢且安全的簽出體驗。
@@ -37,7 +48,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。為了遵循PSD2，PayPal Payments Advanced必須與協力廠商外掛程式整合。若要深入瞭解，請參閱[Payflow的3D安全](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 為了遵循PSD2，PayPal Payments Advanced必須與協力廠商外掛程式整合。 若要深入瞭解，請參閱[Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/)的3D安全。
 
 >[!NOTE]
 >
@@ -364,8 +375,8 @@ ht-degree: 0%
 
    - 如果您已註冊PayPal的安全FTP伺服器，請輸入下列SFTP登入認證：
 
-      - 登入
-      - 密碼
+     - 登入
+     - 密碼
 
    - 若要在上線前執行測試報告，請將&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;設為`Yes`。
 
@@ -383,13 +394,13 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Schedule]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal會保留每個報表45天。
 
@@ -417,9 +428,9 @@ ht-degree: 0%
 
    - 輸入您要套用至PayPal商家頁面的&#x200B;**[!UICONTROL Page Style]**&#x200B;名稱：
 
-      - `paypal` — 使用PayPal頁面樣式。
-      - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
-      - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
+     - `paypal` — 使用PayPal頁面樣式。
+     - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
+     - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
 
    - 針對&#x200B;**[!UICONTROL Header Image URL]**，輸入您要顯示在付款頁面左上角的影像URL。 檔案大小上限為750畫素寬x 90畫素高。
 
@@ -429,9 +440,9 @@ ht-degree: 0%
 
    - 若要設定頁面的顏色，請針對下列各項，輸入6個字元的十六進位代碼（不含`#`符號）：
 
-      - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
-      - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
-      - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
+     - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
+     - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
+     - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
 
 ### 步驟6：完成PayPal Express結帳的基本設定
 

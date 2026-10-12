@@ -2,14 +2,25 @@
 title: 頁面配置
 description: 瞭解頁面配置區段以及如何設定預設配置。
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # 頁面配置
 
 商店中每個頁面的版面配置都包含定義頁面頁首、頁尾和內容區域的不同區段或容器。 視版面配置而定，每個頁面可能會有一欄、兩欄、三欄或更多欄。 您可以將該配置視為頁面的&#x200B;_平面圖_，並指派特定配置作為CMS、產品和類別頁面的預設值。

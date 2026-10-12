@@ -3,29 +3,39 @@ title: 屬性輸入型別
 description: 瞭解產品屬性可用的輸入型別，這些輸入型別決定可輸入的資料型別以及欄位或輸入控制項的格式。
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
+TQID: 'https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 0%
-
 ---
-
 # 屬性輸入型別
 
 從「管理員」檢視時，屬性是您在建立產品時完成的欄位。 指定給屬性的輸入型別決定可輸入的資料型別，以及欄位或輸入控制項的格式。 對於客戶而言，屬性會提供有關產品的資訊，而且是購買產品必須完成的選項和資料輸入欄位。

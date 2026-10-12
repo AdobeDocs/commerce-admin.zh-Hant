@@ -3,36 +3,47 @@ title: '[!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal 
 description: 檢閱Commerce Admin [!UICONTROL Sales] &gt； [!UICONTROL Payment Methods]頁面上[!UICONTROL PayPal Payments Standard]區段中的組態設定。
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-TQID: https://experienceleague.adobe.com/ug4g3aE3n-2wOikBNn97TD4-WBEjq0RJI1Gj1C0lDIc
+TQID: 'https://experienceleague.adobe.com/ug4g3aE3n-2wOikBNn97TD4-WBEjq0RJI1Gj1C0lDIc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1267
-ht-degree: 0%
-
+source-wordcount: '1318'
+ht-degree: 1%
 ---
-
 # [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
 
 >[!IMPORTANT]
 >
 >**PSD2需求：**<br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的付款。[!DNL PayPal Payments Standard]不需採取任何動作即可符合PSD2，因為所有要求都由PayPal處理。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../../getting-started/compliance-payment-services-directive.md)要求的付款。 [!DNL PayPal Payments Standard]不需採取任何動作即可符合PSD2，因為所有要求都由PayPal處理。
 
 {{config}}
 

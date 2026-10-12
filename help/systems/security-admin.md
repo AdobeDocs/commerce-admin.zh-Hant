@@ -5,32 +5,46 @@ exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
+TQID: 'https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # 設定管理員安全性
 
 建議您採取多方面的方法來保護商店的安全。 您可以透過使用不容易猜測的[自訂管理員URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)開始，而不是使用明顯的「管理員」或「後端」。 根據預設，用來[登入](../getting-started/admin-signin.md)管理員的密碼長度必須是7個或7個以上的字元，且包含字母和數字。 您可以設定最低密碼長度要求，以根據貴組織的需求增強安全性。 根據[最佳作法](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)，請只使用包含字母、數字和符號組合的強式管理員密碼。 Adobe Commerce和Magento Open Source不允許重複使用最近四個指派給帳戶的密碼。

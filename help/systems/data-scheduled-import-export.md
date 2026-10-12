@@ -3,29 +3,43 @@ title: 已排程的匯入和匯出
 description: 瞭解如何管理排程的資料匯入和匯出操作。
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # 已排程的匯入和匯出
 
 {{ee-feature}}
@@ -82,20 +96,20 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]** — 設定為下列其中一項：
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — 設定為下列其中一項：
 
-      - `Add/Update Complex Data` — 將新的複雜資料新增或更新至資料庫中現有專案的現有複雜資料。 這是預設值。
-      - `Replace` — 覆寫資料庫中現有實體的現有複數。
-      - `Delete Entities` — 刪除資料庫中的現有專案。
-      - `Custom Action` — 自訂資料庫中的現有實體。
+     - `Add/Update Complex Data` — 將新的複雜資料新增或更新至資料庫中現有專案的現有複雜資料。 這是預設值。
+     - `Replace` — 覆寫資料庫中現有實體的現有複數。
+     - `Delete Entities` — 刪除資料庫中的現有專案。
+     - `Custom Action` — 自訂資料庫中的現有實體。
 
      >[!NOTE]
      >
@@ -233,12 +247,12 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為下列其中一項：
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
      頁面底部的&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;區段已更新，以反映選取的實體型別。
 
@@ -246,9 +260,9 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Frequency]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. 若要啟用排定的匯出，請將&#x200B;**[!UICONTROL Status]**&#x200B;設為`Enabled`。
 

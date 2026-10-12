@@ -3,24 +3,33 @@ title: 隱藏稅捐計算
 description: 瞭解當折扣內嵌稅捐時，如何設定隱藏的稅捐計算。
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 1%
-
 ---
-
 # 隱藏稅捐計算
 
 _隱藏稅捐_&#x200B;是折扣金額的VAT金額。 當以下所有條件都為真時，為非零：
@@ -41,12 +50,12 @@ _隱藏稅捐_&#x200B;是折扣金額的VAT金額。 當以下所有條件都為
 
 ### 預期結果無效
 
-- 不含折扣的稅後料號價格=100美元
-- 不含折扣的稅前料號價格=100/1.2=83.33美元
-- 折扣=83.33 \ *0.1=8.33美元
-- 稅金=(83.33-8.33) \ *0.2=**15美元（無效）**
-- 不含稅款的訂單總計=83.33-8.33=**75 USD （無效）**
-- 含稅訂單總計=75+15=**90美元（無效）**
+- 不含折扣的稅後專案價格=100 USD
+- 不含折扣的稅前專案價格=100/1.2=83.33 USD
+- 折扣=83.33 \ *0.1=8.33 USD
+- 稅金=(83.33-8.33) \ *0.2=**15 USD （無效）**
+- 排除稅款的訂單總計=83.33-8.33=**75 USD （無效）**
+- 含稅訂單總計=75+15=**90 USD （無效）**
 
 ### 購物車中的有效實際結果
 
