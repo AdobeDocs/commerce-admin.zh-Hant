@@ -88,13 +88,13 @@ ht-degree: 0%
 
 [!UICONTROL Customers grid]會針對指派給使用者的每個公司顯示個別的列。 下列欄會更新。
 
-- _[!UICONTROL Customer Type]_欄會更新以顯示指派給使用者的角色。
+- _[!UICONTROL Customer Type]_&#x200B;欄會更新以顯示指派給使用者的角色。
 
-  如果這是第一次將客戶指派給公司，_[!UICONTROL Customer Type]_欄會從_[!UICONTROL Individual user]_&#x200B;更新為&#x200B;_[!UICONTROL Company User]_。
+  如果這是第一次將客戶指派給公司，_[!UICONTROL Customer Type]_&#x200B;欄會從&#x200B;_[!UICONTROL Individual user]_&#x200B;更新為&#x200B;_[!UICONTROL Company User]_。
 
-- _[!UICONTROL Group]_欄會變更為指派給公司的客戶群組（或共用目錄）名稱。
+- _[!UICONTROL Group]_&#x200B;欄會變更為指派給公司的客戶群組（或共用目錄）名稱。
 
-- _[!UICONTROL Company]_欄顯示現在與客戶設定檔相關聯的公司名稱。
+- _[!UICONTROL Company]_&#x200B;欄顯示現在與客戶設定檔相關聯的公司名稱。
 
 ## 將使用者指派給一或多個公司帳戶
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Account Information]**。
 
@@ -112,11 +112,11 @@ ht-degree: 0%
 
 ## 從使用者帳戶移除公司指派
 
-從使用者設定檔中移除公司會撤銷該公司的使用者存取權。 使用者資料仍可在「管理員」中存取。 如果您移除所有公司指派，_[!UICONTROL Customer Type]_會變更為&#x200B;*[!UICONTROL Individual user]*並停用該帳戶的B2B功能。
+從使用者設定檔中移除公司會撤銷該公司的使用者存取權。 使用者資料仍可在「管理員」中存取。 如果您移除所有公司指派，_[!UICONTROL Customer Type]_&#x200B;會變更為&#x200B;*[!UICONTROL Individual user]*&#x200B;並停用該帳戶的B2B功能。
 
 1. 從「管理員」的「客戶」格線中，編輯要更新的客戶設定檔。
 
-1. 在*[!UICONTROL Account Information]區段中，按一下公司名稱標籤中的&#x200B;**[!UICONTROL X]**，從&#x200B;**[!UICONTROL Associate to Company]**&#x200B;欄位中移除指派的公司。
+1. 在&#x200B;*[!UICONTROL Account Information]區段中，按一下公司名稱標籤中的&#x200B;**[!UICONTROL X]**，從&#x200B;**[!UICONTROL Associate to Company]**&#x200B;欄位中移除指派的公司。
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**&#x200B;套用變更。
 

@@ -94,7 +94,7 @@ Adobe Commerce和Magento Open Source使用加密金鑰來保護密碼和其他�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密](https://developer.adobe.com/commerce/php/development/security/data-encryption)的詳細[指南。
+   如果您看到此輸出，請執行下列CLI命令，並確定它完成時沒有錯誤。 如果您需要重新加密某些系統設定值或付款欄位，請參閱&#x200B;_PHP開發指南_&#x200B;中有關重新加密[&#128279;](https://developer.adobe.com/commerce/php/development/security/data-encryption)的詳細指南。
 
    ```bash
    bin/magento encryption:key:change

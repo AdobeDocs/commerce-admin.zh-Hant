@@ -52,17 +52,17 @@ Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網�
 
 ![儲存產品屬性 — 更新快取訊息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
+_[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
 
 >[!IMPORTANT]
 >
->變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_**未直接編輯**_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
+>變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_&#x200B;**未直接編輯**&#x200B;_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
 
 清除快取後，請一律重新整理瀏覽器，以確保您可以看到最新的檔案。 清除Commerce快取不會清除您的網頁瀏覽器快取。 您可能需要清除瀏覽器快取才能檢視更新的內容。
 
 有關Adobe Commerce快取的其他技術資訊，請參閱&#x200B;_Commerce前端開發指南_&#x200B;中的[快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"}。
 
-執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_頁面：
+執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_&#x200B;頁面：
 
 - 按一下工作區上方訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結。
 - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。
@@ -122,7 +122,7 @@ _[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其�
 
 ## 排清產品影像快取
 
-1. 在&#x200B;_[!UICONTROL Additional Cache Management]_底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**以清除預先產生的產品影像檔案。
+1. 在&#x200B;_[!UICONTROL Additional Cache Management]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;以清除預先產生的產品影像檔案。
 
    `Image cache was cleaned`訊息會顯示在工作區的頂端。
 

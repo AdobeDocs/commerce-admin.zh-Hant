@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[!DNL Adobe Commerce as a Cloud Service]平台上，您無法設定動作記錄報告、動作記錄封存和大量動作記錄，但可從[管理]的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_功能表檢閱報告輸出。
+>在[!DNL Adobe Commerce as a Cloud Service]平台上，您無法設定動作記錄報告、動作記錄封存和大量動作記錄，但可從[管理]的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;功能表檢閱報告輸出。
 
 ## 設定管理員記錄動作
 

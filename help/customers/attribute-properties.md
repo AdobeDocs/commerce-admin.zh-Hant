@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >**捷徑：**&#x200B;若要只完成必要欄位，請向下捲動至&#x200B;_[!UICONTROL Storefront Properties]_，輸入_[!UICONTROL Sort Order]_，然後儲存。
+   >**捷徑：**&#x200B;若要只完成必要欄位，請向下捲動至&#x200B;_[!UICONTROL Storefront Properties]_，輸入&#x200B;_[!UICONTROL Sort Order]_，然後儲存。
 
 1. 完成資料專案屬性：
 
@@ -77,7 +77,7 @@ ht-degree: 0%
      | `Text Field` | 單行文字欄位。 |
      | `Text Area` | 用於輸入文欄位落（如產品說明）的多行輸入欄位。 您可以使用WYSIWYG編輯器來格式化包含HTML標籤的文字，或直接在文字中輸入標籤。 |
      | `Multiple Line` | 為屬性建立多個文字行，類似於多行街道地址。 個別資料輸入行的數量可以是2到20。 使用`Default Value`指定欄位的初始值。 |
-     | `Date` | 以偏好的日期格式和時區顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](../catalog/attributes-input-types.md#date-and-time-options)。 |
+     | `Date` | 以偏好的日期格式和時區顯示日期值。 日期值可從清單或行事曆中選取（ ![行事曆圖示](../assets/icon-calendar.png) ）。 <br/><br/>**_注意:_**&#x200B;根據您的系統組態，_&#x200B;管理員_使用者可以直接在欄位中輸入日期，或從行事曆或清單中選取日期。 如需有關指定日期和時間值的資訊，請參閱[日期和時間選項](../catalog/attributes-input-types.md#date-and-time-options)。 |
      | `Yes/No` | 顯示含有預先定義選項`Yes`和`No`的下拉式清單。 |
      | `Dropdown` | 顯示只接受單一選取專案的下拉式值清單。 下拉式清單輸入型別是[可設定產品](../catalog/product-create-configurable.md)的關鍵元件。 |
      | `Multiple Select` | 接受多個選取值的下拉式清單。 |

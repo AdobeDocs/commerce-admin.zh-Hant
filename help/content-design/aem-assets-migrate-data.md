@@ -78,7 +78,7 @@ Adobe Commerce和Adobe Experience Manager (AEM)皆提供內建功能，可簡化
 - 啟用Adobe Commerce與AEM Assets之間的正確同步
 - 在移轉後維護資產和產品之間的關係
 
-對於您計畫移轉的每個媒體檔案，請為Commerce資產](aem-assets-configure-aem.md)的[AEM Assets中繼資料設定檔中包含的中繼資料欄位提供值，如下表所述。
+對於您計畫移轉的每個媒體檔案，請為Commerce資產[&#128279;](aem-assets-configure-aem.md)的AEM Assets中繼資料設定檔中包含的中繼資料欄位提供值，如下表所述。
 
 | 中繼資料 | 說明 | 值 |
 |-------|-------------|--------|

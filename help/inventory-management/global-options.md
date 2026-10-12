@@ -36,7 +36,7 @@ ht-degree: 1%
 ---
 # 設定[!DNL Inventory Management]全域選項
 
-這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**底下的整個目錄。
+這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;底下的整個目錄。
 
 設定您網站產品與庫存的預設設定選項。 透過[設定產品選項](product-options.md)，可以覆寫每個產品的部分設定。 若要設定距離優先順序設定，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >`sourceAvailability`查詢預設為停用，因為它會公開哪些來源存放SKU。 在來源數量達到&#x200B;_[!UICONTROL Stock Options]_區段中設定的&#x200B;**[!UICONTROL Only X left Threshold]**之前，確切數量會維持遮罩狀態。 每個詳細目錄來源都有預設為關閉的&#x200B;**[!UICONTROL Visible on Storefront]**旗標。 在商家啟用來源庫存之前，不會傳回來源庫存。 若要進行設定，請前往&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，編輯來源，然後開啟&#x200B;**[!UICONTROL Visible on Storefront]**。
+   >`sourceAvailability`查詢預設為停用，因為它會公開哪些來源存放SKU。 在來源數量達到&#x200B;_[!UICONTROL Stock Options]_&#x200B;區段中設定的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，確切數量會維持遮罩狀態。 每個詳細目錄來源都有預設為關閉的&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;旗標。 在商家啟用來源庫存之前，不會傳回來源庫存。 若要進行設定，請前往&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，編輯來源，然後開啟&#x200B;**[!UICONTROL Visible on Storefront]**。
 
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Admin bulk operations]**&#x200B;區段並設定選項：

@@ -187,7 +187,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 若要深入瞭解資料同步化程式，請參閱&#x200B;*SaaS Data Export指南*&#x200B;中的[ Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)。
+> 若要深入瞭解資料同步化程式，請參閱&#x200B;*SaaS Data Export指南*&#x200B;中的[&#x200B; Synchronize data with SaaS data export](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)。
 
 ## 最佳實務 {#best-practices}
 

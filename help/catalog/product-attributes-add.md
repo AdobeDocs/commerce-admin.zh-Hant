@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ![屬性屬性](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Attribute Properties]_底下，輸入&#x200B;**[!UICONTROL Attribute Label]**以識別屬性。
+1. 在&#x200B;_[!UICONTROL Attribute Properties]_&#x200B;底下，輸入&#x200B;**[!UICONTROL Attribute Label]**&#x200B;以識別屬性。
 
 1. 將&#x200B;**[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;設定為要用於資料輸入的[輸入控制項](attributes-input-types.md)的型別。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 1. 如果您想要將屬性加入為Products格線中的資料行，請將&#x200B;**[!UICONTROL Add to Column Options]**&#x200B;設為`Yes`。
 
-1. 如果您想要能夠依此資料行篩選&#x200B;_[!UICONTROL Products]_網格，請將&#x200B;**[!UICONTROL Use in Filter Options]**設為`Yes`。
+1. 如果您想要能夠依此資料行篩選&#x200B;_[!UICONTROL Products]_&#x200B;網格，請將&#x200B;**[!UICONTROL Use in Filter Options]**&#x200B;設為`Yes`。
 
 ## 步驟4：輸入欄位標籤
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的[編輯選項，手動編輯標籤。
+   > 如果您打算在「即時搜尋」中將此屬性當做多面向使用，則必須指定商店特定標籤。 若沒有它，屬性名稱可能無法正確顯示在Facet設定頁面上。 若要更新設定，請使用&#x200B;_即時搜尋指南_&#x200B;中即時搜尋多面向清單[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)中的編輯選項，手動編輯標籤。
 
 ## 步驟5：說明店面屬性
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當&#x200B;_[!UICONTROL Use in Search]_設定設為`No`時，不會顯示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
+   >當&#x200B;_[!UICONTROL Use in Search]_&#x200B;設定設為`No`時，不會顯示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定，且產品屬性不會用於具有任何[!UICONTROL Use in Layered Navigation]設定值的搜尋。
 
 1. 若要在搜尋結果頁面的階層式導覽中使用屬性，請將&#x200B;**[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;設為`Yes`，並在&#x200B;**[!UICONTROL Position]**&#x200B;欄位中輸入數字。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_欄位預設為灰色，您必須先儲存屬性，才能修改此設定。
+   >_[!UICONTROL Position]_&#x200B;欄位預設為灰色，您必須先儲存屬性，才能修改此設定。
 
 1. 若要在價格規則中使用屬性，請將&#x200B;**[!UICONTROL Use for Promo Rule Conditions]**&#x200B;設為`Yes`。
 

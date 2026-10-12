@@ -40,7 +40,7 @@ _郵件傳送設定_&#x200B;可讓您將傳回的電子郵件或回覆傳送至�
 
 >[!IMPORTANT]
 >
->**安全性通知**&#x200B;所有商戶應立即設定其郵件傳送設定，以防範最近發現的潛在遠端程式碼執行攻擊。 在此問題解決之前，強烈建議您避免使用[!DNL Sendmail]進行電子郵件通訊。 在&#x200B;_[!UICONTROL Mail Sending Settings]_中，確定_[!UICONTROL Set Return Path]_&#x200B;已設為`No`。
+>**安全性通知**&#x200B;所有商戶應立即設定其郵件傳送設定，以防範最近發現的潛在遠端程式碼執行攻擊。 在此問題解決之前，強烈建議您避免使用[!DNL Sendmail]進行電子郵件通訊。 在&#x200B;_[!UICONTROL Mail Sending Settings]_&#x200B;中，確定&#x200B;_[!UICONTROL Set Return Path]_&#x200B;已設為`No`。
 
 如需組態設定的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)。
 

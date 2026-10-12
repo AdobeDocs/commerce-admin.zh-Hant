@@ -49,7 +49,7 @@ _快速訂購_&#x200B;功能可讓知道要訂購產品的產品名稱或SKU的�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板的&#x200B;_[!UICONTROL General]_區段中，選擇&#x200B;**[!UICONTROL B2B Features]**。
+1. 在左側面板的&#x200B;_[!UICONTROL General]_&#x200B;區段中，選擇&#x200B;**[!UICONTROL B2B Features]**。
 
 1. 將&#x200B;**[!UICONTROL Enable Quick Order]**&#x200B;設為`Yes`。
 
@@ -121,7 +121,7 @@ _快速訂購_&#x200B;功能可讓知道要訂購產品的產品名稱或SKU的�
 
 ### 方法3：上傳產品清單
 
-1. 在&#x200B;_[!UICONTROL Add from File]_區段中，按一下&#x200B;**[!UICONTROL Download Sample]**以下載訂單範本。
+1. 在&#x200B;_[!UICONTROL Add from File]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Download Sample]**&#x200B;以下載訂單範本。
 
    ![從檔案新增](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

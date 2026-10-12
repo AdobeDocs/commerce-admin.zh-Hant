@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 在管理員側邊欄上，前往&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Quotes]**。
 
-   新要求會出現在&#x200B;_[!UICONTROL Quotes]_格線中。
+   新要求會出現在&#x200B;_[!UICONTROL Quotes]_&#x200B;格線中。
 
 1. 在&#x200B;_動作_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
 
@@ -74,13 +74,13 @@ ht-degree: 0%
 
 ## 步驟2：修改報價
 
-1. 在&#x200B;_[!UICONTROL Quote & Account Information]_底下，按一下_&#x200B;行事曆&#x200B;_（![行事曆圖示](../assets/icon-calendar.png)）圖示。
+1. 在&#x200B;_[!UICONTROL Quote & Account Information]_&#x200B;底下，按一下_&#x200B;行事曆&#x200B;_（![行事曆圖示](../assets/icon-calendar.png)）圖示。
 
    ![報價和帳戶資訊](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. 選擇報價的&#x200B;**[!UICONTROL Expiration Date]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Quote Totals]_區段，並視需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Quote Totals]_&#x200B;區段，並視需要更新&#x200B;**[!UICONTROL Negotiated Price]**。
 
    ![更新議價價格](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 ### 套用行專案更新
 
-如有需要，在&#x200B;_[!UICONTROL Items Quoted]_區段中套用行專案變更。
+如有需要，在&#x200B;_[!UICONTROL Items Quoted]_&#x200B;區段中套用行專案變更。
 
 ![套用行專案更新](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 1. 輸入&#x200B;**[!UICONTROL Proposed Shipping Price]**。
 
-   _[!UICONTROL Quote Totals]_已更新，以反映建議的運費。
+   _[!UICONTROL Quote Totals]_&#x200B;已更新，以反映建議的運費。
 
 ### 附加支援檔案
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 ## 步驟3：更新報價層級資訊，並傳送您的回覆
 
-1. 在&#x200B;_[!UICONTROL Comments]_標籤的_[!UICONTROL Negotiation]_&#x200B;區段中，於&#x200B;**[!UICONTROL Add your comment]**&#x200B;區段中輸入您的回覆。
+1. 在&#x200B;_[!UICONTROL Comments]_&#x200B;標籤的&#x200B;_[!UICONTROL Negotiation]_&#x200B;區段中，於&#x200B;**[!UICONTROL Add your comment]**&#x200B;區段中輸入您的回覆。
 
 1. 若要加入支援檔案，請按一下&#x200B;**[!UICONTROL Attach file]**&#x200B;並從您的目錄中選取檔案。
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 1. 若要將折扣套用至報價單，請執行下列步驟：
 
-   - 在&#x200B;_[!UICONTROL Negotiated Price]_區段的_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
+   - 在&#x200B;_[!UICONTROL Negotiated Price]_&#x200B;區段的&#x200B;_[!UICONTROL Quote Totals]_&#x200B;底下，選擇下列其中一個折扣型別：
 
      - `Percentage Discount`：百分比折扣會以特定百分比降低原始價格。
      - `Amount Discount`：金額折扣會套用固定價格折扣。
@@ -193,7 +193,7 @@ ht-degree: 0%
 
 | 按鈕 | 說明 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 返回&#x200B;_[!UICONTROL Quotes]_頁面而不儲存變更。 |
+| [!UICONTROL Back] | 返回&#x200B;_[!UICONTROL Quotes]_&#x200B;頁面而不儲存變更。 |
 | [!UICONTROL Print] | 將報價傳送至印表機或儲存為PDF檔案。 |
 | [!UICONTROL Create Copy] | 建立並開啟目前報價的復本，在原始名稱后面附加`(copy)`。 編輯[!UICONTROL Name]欄位以重新命名新報價。 將新的報價單儲存為草稿，或傳送給客戶來處理它。 |
 | 建立範本 | 根據目前的報價建立報價範本。 報價樣版可讓買方與賣家就可套用至多個報價的合約與訂價條款達成一致意見，藉此簡化報價議價。 . 在協定上，採購員可以從範本產生預先核准的連結式報價供後續訂單使用，而不需重新啟動詢價流程。 |
