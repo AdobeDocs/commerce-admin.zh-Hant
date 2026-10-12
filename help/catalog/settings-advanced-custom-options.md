@@ -3,28 +3,37 @@ title: 產品設定 — [!UICONTROL Customizable Options]
 description: 對於產品，[!UICONTROL Customizable Options]設定可讓您提供包含文字、選取和日期輸入型別的選項選擇。
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+TQID: 'https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # 產品設定 — [!UICONTROL Customizable Options]
 
 將可自訂選項新增至產品是提供包含文字、選擇和日期輸入型別之選項選項的簡單方法。 如果您的清查需求很簡單，可自訂選項就是很好的解決方案。 但是，因為它們是根據單一SKU的變化，所以無法用於管理庫存或作為價格規則條件的基礎。 如果您有多個具有相同選項的產品，您可以設定一個產品並將選項匯入至其他產品。
@@ -45,7 +54,7 @@ ht-degree: 0%
 
 1. 在編輯模式中開啟產品。
 
-1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Customizable Options]_&#x200B;區段。
+1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Customizable Options]_區段。
 
 1. 按一下&#x200B;**[!UICONTROL Add Option]**。
 
@@ -67,12 +76,12 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Price Type]**&#x200B;設定為下列其中一項：
 
-      - `Fixed` — 變數的價格與基本產品的價格不同，有固定的金額，例如$1。
-      - `Percentage` — 變化價格與基本產品的價格有百分比差異，例如10%。
+     - `Fixed` — 變數的價格與基本產品的價格不同，有固定的金額，例如$1。
+     - `Percentage` — 變化價格與基本產品的價格有百分比差異，例如10%。
 
    - （選用）為選項輸入&#x200B;**[!UICONTROL SKU]**。 選項SKU是新增至產品SKU的字尾。
 
-   - 如果&#x200B;_[!UICONTROL Option Type]_&#x200B;是`File`，請設定檔案的引數。 針對&#x200B;**[!UICONTROL Compatible File Extensions]**，以逗號分隔值（例如`png, jpg, gif`）輸入有效的副檔名。 針對&#x200B;**[!UICONTROL Maximum Image Size]**，輸入影像大小上限（畫素）。 如果是文字專案，請輸入&#x200B;**[!UICONTROL Maximum Characters]**&#x200B;的最大值。
+   - 如果&#x200B;_[!UICONTROL Option Type]_是`File`，請設定檔案的引數。 針對&#x200B;**[!UICONTROL Compatible File Extensions]**，以逗號分隔值（例如`png, jpg, gif`）輸入有效的副檔名。 針對&#x200B;**[!UICONTROL Maximum Image Size]**，輸入影像大小上限（畫素）。 如果是文字專案，請輸入&#x200B;**[!UICONTROL Maximum Characters]**的最大值。
 
    ![新增自訂選項的值](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

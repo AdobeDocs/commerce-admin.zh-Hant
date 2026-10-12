@@ -3,27 +3,35 @@ title: 出貨承運商設定
 description: 瞭解您商店所提供的商業運送帳戶支援。
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # 出貨承運商設定
 
 如果您有商業帳戶與支援的電信業者，您可以在結帳時方便客戶選擇該電信業者。 費率會自動下載，因此您不需要查詢資訊。
@@ -38,10 +46,10 @@ ht-degree: 0%
 
 - 針對您要提供的每個電信業者服務進行設定。
 
-   - [**UPS**](ups.md) - United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服務對象超過220個國家。
-   - [**USPS**](usps.md) — 美國郵政服務(USPS)是美國政府的獨立郵遞服務。 USPS提供國內及國際的陸運及空運服務。
-   - [**FedEx**](fedex.md) - FedEx提供國內及國際的陸運及空運服務，服務對象超過220個國家。
-   - [**DHL**](dhl.md) - DHL提供整合式國際服務，以及客製化且以客戶為中心的解決方案，用於管理及運送信件、貨物及資訊。
+  - [**UPS**](ups.md) - United Parcel Service (UPS)提供國內及國際的陸運及空運服務，服務對象超過220個國家。
+  - [**USPS**](usps.md) — 美國郵政服務(USPS)是美國政府的獨立郵遞服務。 USPS提供國內及國際的陸運及空運服務。
+  - [**FedEx**](fedex.md) - FedEx提供國內及國際的陸運及空運服務，服務對象超過220個國家。
+  - [**DHL**](dhl.md) - DHL提供整合式國際服務，以及客製化且以客戶為中心的解決方案，用於管理及運送信件、貨物及資訊。
 
 ## 維度權數
 
@@ -65,11 +73,11 @@ Adobe Commerce版本2.4.6、2.4.7和2.4.8使用舊版網站工具API，與USPS�
 
 若要避免USPS送貨服務中斷，請升級至最新版本的Adobe Commerce，或採取下列動作：
 
-- 套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)以新增與USPS REST API整合的支援。
+- 套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)以新增與USPS REST API整合的支援。
 
 - 更新Commerce USPS設定以使用REST API：
 
-   - [USPS出貨承運商設定](usps.md)
+  - [USPS出貨承運商設定](usps.md)
 
-   - [送貨標籤設定](shipping-label-create.md)
+  - [送貨標籤設定](shipping-label-create.md)
 

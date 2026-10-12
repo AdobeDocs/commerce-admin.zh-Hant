@@ -3,28 +3,37 @@ title: 產品色票
 description: 瞭解如何為可設定的產品清單定義色票。
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
+TQID: 'https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # 產品色票
 
 客戶對選擇顏色有很高的期望，產品描述必須準確呈現每種可用的顏色、圖樣或紋理。 例如，下列範例中的褲子不提供紅色、綠色和藍色。 相反地，它們只能以紅色、綠色和藍色的特定色調提供，這些可能是此產品所獨有的。
@@ -35,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->透過在Admin的[!UICONTROL Attribute Edit]頁面上將&#x200B;_[!UICONTROL Update Product Preview Image]_&#x200B;選項值設定為`No`，可將色票屬性設定為選取色票時，不顯示對應的簡單產品影像。
+>透過在Admin的[!UICONTROL Attribute Edit]頁面上將&#x200B;_[!UICONTROL Update Product Preview Image]_選項值設定為`No`，可將色票屬性設定為選取色票時，不顯示對應的簡單產品影像。
 
 ## 文字色票
 
@@ -45,7 +54,7 @@ ht-degree: 0%
 
 ## 分層導覽中的色票
 
-如果color屬性的&#x200B;_[!UICONTROL Use in Layered Navigation]_&#x200B;屬性設定為`Yes`，則也可以在階層導覽中使用色票。 下列範例顯示分層導覽中的文字和彩色影像色票。
+如果color屬性的&#x200B;_[!UICONTROL Use in Layered Navigation]_屬性設定為`Yes`，則也可以在階層導覽中使用色票。 下列範例顯示分層導覽中的文字和彩色影像色票。
 
 ![色票以分層導覽方式顯示](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -73,7 +82,7 @@ ht-degree: 0%
 
 1. 若您偏好在產品顯示頁面上選取色票時，不顯示對應的簡單產品影像，請將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;設為`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;下，按一下&#x200B;**[!UICONTROL Add Swatch]**&#x200B;並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch (Values of Your Attribute)]_下，按一下&#x200B;**[!UICONTROL Add Swatch]**並執行下列動作：
 
    ![管理色票值](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -121,9 +130,9 @@ ht-degree: 0%
 
 1. 若您偏好在產品顯示頁面上選取色票時，不顯示對應的簡單產品影像，請將&#x200B;**[!UICONTROL Update Product Preview Image]**&#x200B;設為`No`。
 
-1. 在&#x200B;_[!UICONTROL Manage Swatch]_（您屬性的值）底下，按一下&#x200B;**[!UICONTROL Add Swatch]**&#x200B;並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Manage Swatch]_（您屬性的值）底下，按一下&#x200B;**[!UICONTROL Add Swatch]**並執行下列動作：
 
-   - 在&#x200B;_[!UICONTROL Swatch]_&#x200B;欄中，按一下新色票以顯示功能表並選擇&#x200B;**[!UICONTROL Upload a file]**。
+   - 在&#x200B;_[!UICONTROL Swatch]_欄中，按一下新色票以顯示功能表並選擇&#x200B;**[!UICONTROL Upload a file]**。
 
    - 導覽至您準備的色票檔案，然後選擇要上傳的檔案。
 

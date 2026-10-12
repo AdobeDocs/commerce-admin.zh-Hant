@@ -3,30 +3,45 @@ title: 獎勵和忠誠計畫
 description: 瞭解可用於促進客戶參與及提升客戶忠誠度的獎勵點數系統。
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+TQID: 'https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
 # 獎勵和忠誠計畫
 
 {{ee-feature}}
@@ -165,7 +180,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
 
-1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在格線中尋找客戶，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在&#x200B;_客戶資訊_&#x200B;底下，選擇&#x200B;**[!UICONTROL Reward Points]**&#x200B;區段。
 
@@ -185,7 +200,7 @@ Adobe Commerce中的&#x200B;_獎勵點數_&#x200B;系統可讓您實作獨特的
 
 1. 按一下&#x200B;**[!UICONTROL Save Customer]**。
 
-與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_&#x200B;區塊中。
+與獎勵點數相關的所有動作都會顯示在店面其帳戶中客戶的&#x200B;_[!UICONTROL Reward Points History]_區塊中。
 
 ## 欄位說明
 

@@ -3,29 +3,41 @@ title: 社群媒體和RSS摘要
 description: 瞭解如何新增社群媒體和其他RSS摘要整合，以建立品牌和產品知名度。
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+TQID: 'https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # 社群媒體和RSS摘要
 
 許多商家使用社群媒體和其他數位工具來建立品牌和產品知名度。 您可以安裝Marketplace擴充功能或新增外掛程式至內容頁面，將商店與社交網路整合。 使用RSS摘要將您的產品資訊發佈到購物彙總網站，甚至將其包含在您的電子報中。 客戶可以訂閱您的RSS摘要，瞭解新產品和促銷活動。
@@ -111,7 +123,7 @@ ht-degree: 0%
 
    - 在&#x200B;**[!UICONTROL Sort Order]**&#x200B;欄位中輸入數字，以決定區塊順序（如果指派給該區塊，使其出現在頁面上與其他內容元素相同的位置）。 頂端位置是零。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並將&#x200B;**[!UICONTROL Display On]**&#x200B;設定為您要顯示區塊的類別、產品或頁面。
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並將&#x200B;**[!UICONTROL Display On]**設定為您要顯示區塊的類別、產品或頁面。
 
    例如，如果您選擇`All Pages`，並將區塊放置在頁首或頁尾中，區塊會出現在商店每個頁面的相同位置。
 
@@ -133,7 +145,7 @@ ht-degree: 0%
 
 1. 出現提示時，請依照工作區頂端的指示，更新索引和頁面快取。
 
-   Widget現在出現在&#x200B;_[!UICONTROL Widgets]_&#x200B;清單中。
+   Widget現在出現在&#x200B;_[!UICONTROL Widgets]_清單中。
 
 ### 步驟4. 驗證在存放區中的位置
 

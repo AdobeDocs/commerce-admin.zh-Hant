@@ -1,16 +1,32 @@
 ---
 title: 主題
-description: 瞭解 [!DNL Commerce] 佈景主題，包括版面配置檔案、範本檔案、翻譯檔案，以及定義商店外觀的外觀。
+description: 瞭解[!DNL Commerce]個主題，包括版面配置檔案、範本檔案、翻譯檔案，以及定義商店外觀的外觀。
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案(Adobe管理的PaaS基礎結構)和內部部署專案的Adobe Commerce 。"
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '462'
 ht-degree: 0%
-
 ---
-
 # 主題
 
 佈景主題是決定商店視覺呈現方式的檔案集合。 第一次安裝[!DNL Commerce]時，商店的設計元素是以&#x200B;_預設_&#x200B;主題為基礎。 除了[!DNL Commerce]安裝隨附的初始預設主題之外，還有各種可用的主題可供您使用&#x200B;_as_&#x200B;或視需要加以修改。
@@ -51,9 +67,9 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
-1. 在&#x200B;_[!UICONTROL Default Theme]_&#x200B;底下，將&#x200B;**[!UICONTROL Applied Theme]**&#x200B;設定為您要用於目前檢視的檢視。
+1. 在&#x200B;_[!UICONTROL Default Theme]_底下，將&#x200B;**[!UICONTROL Applied Theme]**設定為您要用於目前檢視的檢視。
 
    ![套用的佈景主題](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -63,7 +79,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Design Rule]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Add New User Agent Rule]**。
+1. 在&#x200B;_[!UICONTROL Design Rule]_底下，按一下&#x200B;**[!UICONTROL Add New User Agent Rule]**。
 
    ![設計規則](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

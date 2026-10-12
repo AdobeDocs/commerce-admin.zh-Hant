@@ -3,31 +3,45 @@ title: 類別URL重寫
 description: 瞭解如何使用類別URL重寫來將連結重新導向至Commerce商店中另一個類別的URL。
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/pIcBllfXpvaTiAJJFL8kpeU62krmeC1LJ4xKf-9Kr08
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/pIcBllfXpvaTiAJJFL8kpeU62krmeC1LJ4xKf-9Kr08'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: '712'
 ht-degree: 0%
-
 ---
-
 # 類別URL重寫
 
 如果從目錄中移除類別，您可以使用類別重寫將連結重新導向至商店中其他類別的URL。 從&#x200B;_目標_ / _原始要求_&#x200B;或&#x200B;_重新導向至_ / _重新導向自_。 雖然使用者可能仍會從搜尋引擎或過時的連結導覽至先前的頁面，但重新導向會導致您的商店切換至新目標。
@@ -62,7 +76,7 @@ ht-degree: 0%
 
    - 按一下右上角的&#x200B;**[!UICONTROL Delete]**。 出現提示時，按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。
 
-1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_&#x200B;頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
+1. 當您返回&#x200B;_[!UICONTROL URL Rewrites]_頁面時，請按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
 
 1. 將&#x200B;**[!UICONTROL Create URL Rewrite]**&#x200B;設為`For category`，然後在樹狀結構中選擇重新導向目的地的目標類別。
 
@@ -80,8 +94,8 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Redirect]**&#x200B;設定為下列其中一項：
 
-      - `Temporary (302)`
-      - `Permanent (301)`
+     - `Temporary (302)`
+     - `Permanent (301)`
 
    - 如需參考，請輸入重寫的簡短說明。
 

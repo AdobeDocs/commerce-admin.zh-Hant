@@ -3,28 +3,37 @@ title: 自訂電子郵件範本
 description: 瞭解如何為每個網站、商店或商店檢視自訂電子郵件範本。
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+TQID: 'https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: '1314'
 ht-degree: 0%
-
 ---
-
 # 自訂電子郵件範本
 
 Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件範本。 內文內容的範本會與頁首和頁尾範本結合，以建立完整的訊息。 內容使用HTML和CSS格式化，可以透過新增[變數](variables-predefined.md)輕鬆編輯和自訂。 您可以為每個網站、商店或商店檢視自訂電子郵件範本。 如果使用自訂範本，請務必更新[系統組態](email-templates.md#configure-email-templates)，以確保使用正確的範本。 若要瞭解如何在自訂電子郵件範本時使用條件陳述式，請參閱[開發人員檔案](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)。
@@ -47,7 +56,7 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 | [!UICONTROL Insert Variable] | 在範本的游標位置插入變數。 |
 | [!UICONTROL Template Subject] | 範本主旨會顯示在「主旨」欄中，可用來排序和篩選清單中的範本。 |
 | [!UICONTROL Template Content] | HTML中的範本內容。 |
-| [!UICONTROL Template Styles] | 可在&#x200B;_[!UICONTROL Template Styles]_&#x200B;方塊中輸入格式化範本所需的任何CSS樣式宣告。 |
+| [!UICONTROL Template Styles] | 可在&#x200B;_[!UICONTROL Template Styles]_方塊中輸入格式化範本所需的任何CSS樣式宣告。 |
 
 {style="table-layout:auto"}
 
@@ -75,7 +84,7 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 
 1. 輸入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以協助組織範本。
 
-   在網格中，範本清單可依&#x200B;_[!UICONTROL Subject]_&#x200B;欄排序和篩選。
+   在網格中，範本清單可依&#x200B;_[!UICONTROL Subject]_欄排序和篩選。
 
    ![電子郵件範本標頭資訊](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -109,7 +118,7 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Transactional Emails]**&#x200B;區段。
 
@@ -141,7 +150,7 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 
 1. 輸入&#x200B;**[!UICONTROL Template Subject]**&#x200B;以協助組織範本。
 
-   在格線中，範本可依&#x200B;_[!UICONTROL Subject]_&#x200B;欄進行排序和篩選。
+   在格線中，範本可依&#x200B;_[!UICONTROL Subject]_欄進行排序和篩選。
 
    ![電子郵件範本頁尾 — 資訊](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -165,7 +174,7 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 在網格中，尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Transactional Emails]**&#x200B;區段。
 
@@ -229,11 +238,11 @@ Commerce包含系統所傳送之每則訊息的正文區段的預設電子郵件
 
    >[!NOTE]
    >
-   >只有在&#x200B;_[!UICONTROL Template Styles]_&#x200B;中有`{{template config_path="design/email/header_template"}}`時，才會將自訂樣式套用至電子郵件。 若要在沒有預設頁首範本的情況下使用自訂CSS，您必須在`<style>` HTML標籤內在此處提供它們。
+   >只有在&#x200B;_[!UICONTROL Template Styles]_中有`{{template config_path="design/email/header_template"}}`時，才會將自訂樣式套用至電子郵件。 若要在沒有預設頁首範本的情況下使用自訂CSS，您必須在`<style>` HTML標籤內在此處提供它們。
 
 ### 步驟3. 更新設定
 
-_[!UICONTROL Currently Used For]_&#x200B;階層連結軌跡會顯示範本的使用位置。 在此範例中，範本設定位於&#x200B;_[!UICONTROL Customer Configuration]_&#x200B;頁面、_[!UICONTROL Create New Account Options]_&#x200B;區段和&#x200B;_[!UICONTROL Default Welcome Email]_&#x200B;欄位中。
+_[!UICONTROL Currently Used For]_階層連結軌跡會顯示範本的使用位置。 在此範例中，範本設定位於_[!UICONTROL Customer Configuration]_&#x200B;頁面、_[!UICONTROL Create New Account Options]_區段和_[!UICONTROL Default Welcome Email]_&#x200B;欄位中。
 
 - 頁面 — [!UICONTROL Customer Configuration]
 - 區段 — [!UICONTROL Create New Account Options]

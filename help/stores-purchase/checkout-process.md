@@ -3,30 +3,40 @@ title: 結帳程式與選項
 description: 瞭解Adobe Commerce和Magento Open Source結帳程式如何收集完成交易所需的資訊，以及「結帳」頁面如何引導客戶完成程式的每個步驟。
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+TQID: 'https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # 結帳程式與選項
 
 當結帳程式開始時，交易會轉移到安全的加密通道。 瀏覽器位址列中出現掛鎖符號，且URL從`http`變更為`https`。
@@ -53,9 +63,9 @@ ht-degree: 0%
 
 #### 新增地址
 
-1. 在&#x200B;_[!UICONTROL Shipping Address]_&#x200B;區段底部，客戶按一下&#x200B;**[!UICONTROL + New Address]**。
+1. 在&#x200B;_[!UICONTROL Shipping Address]_區段底部，客戶按一下&#x200B;**[!UICONTROL + New Address]**。
 
-1. 完成&#x200B;_[!UICONTROL Shipping Address]_&#x200B;表單。
+1. 完成&#x200B;_[!UICONTROL Shipping Address]_表單。
 
    依預設，客戶的名字和姓氏最初會顯示在表單中。
 
@@ -165,7 +175,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 存放區檢視 | 決定是否要求客戶在購買前同意銷售的[條款及條件](terms-and-conditions.md)。 選項： `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 存放區檢視 | 決定結帳時帳單地址的位置。 選項： `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 存放區檢視 | 決定結帳時可顯示在「訂單摘要」中的專案最大數量。 預設值為`10`。 |
-| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）判斷客戶是否可以使用[地址搜尋](checkout-address-search.md)功能進行&#x200B;_送貨_，以及&#x200B;_檢閱與付款_&#x200B;步驟。 啟用此功能時，請使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_&#x200B;設定在結帳期間啟用此功能所需的儲存位址數目。 選項： `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）判斷客戶是否可以使用[地址搜尋](checkout-address-search.md)功能進行&#x200B;_送貨_，以及&#x200B;_檢閱與付款_&#x200B;步驟。 啟用此功能時，請使用&#x200B;_[!UICONTROL Number of Customer Addresses Limit]_設定在結帳期間啟用此功能所需的儲存位址數目。 選項： `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | 網站 | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）當地址搜尋為&#x200B;**[!UICONTROL Enabled]**&#x200B;時，會決定結帳期間啟用此功能所需的儲存地址數量。 當客戶的儲存地址數目符合或超過此數目時，僅會在&#x200B;_送貨_&#x200B;和&#x200B;_檢閱與付款_&#x200B;步驟中轉譯預設地址。 客戶可使用搜尋功能來變更選取的地址。 預設值為10。 |
 
 {style="table-layout:auto"}

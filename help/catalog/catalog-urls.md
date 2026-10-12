@@ -3,32 +3,46 @@ title: 目錄和產品URL
 description: 瞭解目錄產品的URL格式型別，以及如何進行設定。
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 目錄和產品URL
 
 您指派給產品和類別的URL在決定搜尋引擎為您的網站編制索引的效果方面扮演了主要角色。 開始建立目錄之前，請先考慮可用的選項。 若要檢視目前的URL格式，請前往店面並導覽至目錄中的任何產品。 URL的格式取決於您用來尋找頁面的目前組態設定和方法。
@@ -56,7 +70,7 @@ URL索引鍵是說明產品或類別的靜態URL的一部分。 當您建立產�
 
 >[!NOTE]
 >
->根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如，`ñ`會自動取代為`n`。 可透過將&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;組態選項設定為`No`來停用此行為。 請參閱[設定目錄URL](#configure-catalog-urls)。
+>根據預設，帶重音的特殊字元會在URL鍵中自動取代為其一般不帶重音的版本。 例如，`ñ`會自動取代為`n`。 可透過將&#x200B;_[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_組態選項設定為`No`來停用此行為。 請參閱[設定目錄URL](#configure-catalog-urls)。
 
 URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨連字型大小以分隔字詞。 URL索引鍵的開頭或結尾不允許使用連字型大小。 設計良好的「方便搜尋引擎」URL索引鍵可能包含產品名稱和關鍵字，以改進搜尋引擎編制索引的方式。 URL金鑰可設定為在URL金鑰變更時建立自動重新導向。
 
@@ -132,7 +146,7 @@ URL索引鍵應由小寫字元組成，並在這些字元之間加上非尾隨�
 | 欄位 | [領域](../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 全域 | 如果啟用了網頁伺服器重寫，則啟用此設定會在URL中插入目前檢視的存放區代碼。 選項： `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**&#x200B;請勿針對多商店設定使用自動重新導向至基底URL。 |
+| [!UICONTROL Auto-redirect to Base URL] | 全域 | （針對單一商店設定）如果您的網站上有中斷的連結，這會將流量重新導向至基本URL，而非具有「404找不到頁面」訊息的頁面。 選項： `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_重要！_**請勿針對多商店設定使用自動重新導向至基底URL。 |
 | [!UICONTROL Catalog media URL format] | 全域 | 定義指派給產品和類別的URL格式。 選項： <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**— 將轉換的檔案名稱定義為唯一的雜湊值。<br />**[!UICONTROL Image optimization based on query parameters]**  — 根據查詢引數定義[影像最佳化](../content-design/media-gallery-image-optimization.md)程式。 |
 
 {style="table-layout:auto"}

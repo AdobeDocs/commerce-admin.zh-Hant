@@ -3,32 +3,44 @@ title: 在編輯器中插入變數
 description: 在WYSIWYG編輯器中，將預先定義或自訂變數新增至您的內容。
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: '178'
 ht-degree: 0%
-
 ---
-
 # 在編輯器中插入變數
 
 您的存放區包含許多預先定義的[變數](../systems/variables-predefined.md)，這些變數可併入頁面內容和其他通訊中。 此外，您也可以包含您自己的[自訂變數](../systems/variables-custom.md)，這些變數是您的特定需求。
 
 1. 在編輯模式中開啟頁面、區塊或動態區塊。
 
-1. 移至&#x200B;_[!UICONTROL Content]_&#x200B;區段，然後按一下任何支援編輯器的元素。
+1. 移至&#x200B;_[!UICONTROL Content]_區段，然後按一下任何支援編輯器的元素。
 
 1. 將游標放在您要變數出現的位置，然後按一下&#x200B;_插入變數_&#x200B;圖示。
 

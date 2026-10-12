@@ -3,30 +3,42 @@ title: 設定事件
 description: 瞭解如何在店面側邊欄中完成基本設定，以啟用事件並設定事件區塊。
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/nALbSUw8Agac54QLSV4bdCLPse53VywtlMiydvL1L8w
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/nALbSUw8Agac54QLSV4bdCLPse53VywtlMiydvL1L8w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # 設定事件
 
 {{ee-feature}}
@@ -105,6 +117,6 @@ ht-degree: 0%
 
 ### 限制銷售
 
-依預設，在即將發生或已關閉的事件中出現的產品不可用於一般銷售，且&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按鈕未出現在產品清單或產品頁面上。
+依預設，在即將發生或已關閉的事件中出現的產品不可用於一般銷售，且&#x200B;_[!UICONTROL Add to Cart]_按鈕未出現在產品清單或產品頁面上。
 
-若要還原已關閉事件的&#x200B;_[!UICONTROL Add to Cart]_&#x200B;按鈕，必須刪除該事件（請參閱[更新事件](event-create.md#update-events)）。 不過，如果產品與另一個沒有銷售限制的類別相關聯，則產品頁面上會提供此按鈕。 同樣地，如果產品與沒有銷售限制的其他類別相關聯，則股票代號區塊不會出現在產品頁面上。
+若要還原已關閉事件的&#x200B;_[!UICONTROL Add to Cart]_按鈕，必須刪除該事件（請參閱[更新事件](event-create.md#update-events)）。 不過，如果產品與另一個沒有銷售限制的類別相關聯，則產品頁面上會提供此按鈕。 同樣地，如果產品與沒有銷售限制的其他類別相關聯，則股票代號區塊不會出現在產品頁面上。

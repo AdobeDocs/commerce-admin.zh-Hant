@@ -18,6 +18,12 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 ## 對象與可用性 {#audience}
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端基礎結構上的Adobe Commerce和內部部署專案。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端基礎結構上的Adobe Commerce和內部部署專案。"}
 
 使用B2B共用目錄與[!DNL Adobe Commerce Optimizer Connector for B2B]整合的Adobe Commerce on Cloud Infrastructure和內部部署商家可以使用[!UICONTROL Catalog View Sync Status]頁面。 頁面會在聯結器擴充功能安裝後自動安裝及啟用。
 
@@ -190,6 +196,6 @@ ht-degree: 0%
 > - [資料摘要同步處理狀態](data-feed-sync-status.md)
 > - [服務> ACO目錄檢視同步處理](../configuration-reference/services/aco-catalog-view-sync.md) — 設定刪除與建立寬限期，以及漂移調解器
 > - [受限制的存取金鑰管理](restricted-access-keys.md) — 管理此頁面顯示其到期的金鑰
-> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中監視B2B共用目錄的目錄檢視同步處理](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [私人目錄檢視](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/private-catalog-view)
-> - [受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中監視B2B共用目錄的目錄檢視同步處理](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - [私人目錄檢視](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [受限制的存取金鑰](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

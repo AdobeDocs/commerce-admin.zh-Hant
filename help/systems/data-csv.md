@@ -3,27 +3,39 @@ title: CSV資料檔案
 description: 瞭解CSV檔案中用於支援資料匯入和匯出的結構。
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+TQID: 'https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: '718'
 ht-degree: 0%
-
 ---
-
 # CSV資料檔案
 
 以逗號分隔值(CSV)檔案格式是資料傳輸操作的基礎，並且受到所有試算表和資料庫應用程式的支援。 匯入和匯出支援下列檔案型別：
@@ -45,7 +57,7 @@ CSV檔案具有必須符合資料庫的特定結構。 每個欄標題都與欄�
 
 表格的第一列包含每個屬性的名稱，這些名稱會作為欄標題。 其餘的列則說明個別產品記錄。 任何以SKU欄中的值開頭的列都是新產品記錄的開始。 單一產品可能包含數個列，其中包含多個影像或產品選項的相關資訊。 SKU欄中有值的下一列會開始新產品。
 
-類別欄包含指派產品的每個類別的路徑。 路徑包含根類別，並在每個層級之間加上正斜線(`/`)。 依預設，逗號`,`字元可用來分隔不同的類別路徑。 （您可以使用&#x200B;_[!UICONTROL Multiple value separator]_&#x200B;選項指定不同的分隔字元。） 例如：
+類別欄包含指派產品的每個類別的路徑。 路徑包含根類別，並在每個層級之間加上正斜線(`/`)。 依預設，逗號`,`字元可用來分隔不同的類別路徑。 （您可以使用&#x200B;_[!UICONTROL Multiple value separator]_選項指定不同的分隔字元。） 例如：
 
 `Default Category/Gear,Default Category/Gear/Bags`
 

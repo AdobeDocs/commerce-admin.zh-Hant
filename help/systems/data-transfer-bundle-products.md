@@ -3,27 +3,37 @@ title: 匯入套件組合產品
 description: 檢閱匯入套件產品的產品資料範例。
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
+TQID: 'https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 # 匯入套件組合產品
 
 套件產品提供多種商品，客戶可選擇購買哪些商品。 組成組合的所有專案都會以[簡單產品](../catalog/product-create-simple.md)或[虛擬產品](../catalog/product-create-virtual.md)的形式存在於目錄中。 通常，套件組合產品會從管理員建立和更新。 不過，您也可以匯入資料以建立組合產品，或者可以匯出現有的組合產品、編輯資料並將它們匯回目錄中。 Sprite Yoga Companion Kit是範例資料中的組合產品，用於下列範例。
@@ -69,7 +79,7 @@ ht-degree: 0%
 
 1. 向下捲動至區段底部，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
-1. 在&#x200B;_[!UICONTROL File name]_&#x200B;格線的&#x200B;_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
+1. 在&#x200B;_[!UICONTROL File name]_格線的_[!UICONTROL Action]_&#x200B;欄中，按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇`Download`。
 
    檔案會顯示在瀏覽器使用的下載位置。
 
@@ -97,7 +107,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
 
 1. 將&#x200B;**[!UICONTROL Import Behavior]**&#x200B;設為`Replace`。
 

@@ -3,49 +3,66 @@ title: 快取管理
 description: 瞭解如何使用快取管理工具，這些工具可讓您輕鬆改善網站效能。
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: '1981'
 ht-degree: 0%
-
 ---
-
 # 快取管理
 
 Adobe Commerce和Magento Open Source快取管理系統可讓您輕鬆改善網站的效能。 每當快取需要重新整理時，就會顯示通知，其中包含指向[!UICONTROL Cache Management]頁面的連結以完成重新整理。
 
 ![儲存產品屬性 — 更新快取訊息](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
+_[!UICONTROL Cache Management]_頁面會顯示每個主要快取的狀態及其關聯的標籤。 右上角的大按鈕可用來清除快取，或是包含所有快取儲存體。 在頁面底部，額外的按鈕可讓您清除目錄產品影像快取和JavaScript/CSS快取。
 
 >[!IMPORTANT]
 >
->變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_&#x200B;**未直接編輯**&#x200B;_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
+>變更目錄實體時，可能會影響其他頁面，並同時讓多個快取失效。 檢閱快取管理頁面時，您可能會看到需要重新整理的無效專案，而這些專案是&#x200B;_**未直接編輯**_。 例如，當您編輯目錄中指派給任何類別的任何產品，或變更任何相關的產品規則時，就會發生此失效。
 
 清除快取後，請一律重新整理瀏覽器，以確保您可以看到最新的檔案。 清除Commerce快取不會清除您的網頁瀏覽器快取。 您可能需要清除瀏覽器快取才能檢視更新的內容。
 
 有關Adobe Commerce快取的其他技術資訊，請參閱&#x200B;_Commerce前端開發指南_&#x200B;中的[快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching){:target="_blank"}。
 
-執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_&#x200B;頁面：
+執行下列任一項作業來存取&#x200B;_[!UICONTROL Cache Management]_頁面：
 
 - 按一下工作區上方訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結。
 - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**。
@@ -105,7 +122,7 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 ## 排清產品影像快取
 
-1. 在&#x200B;_[!UICONTROL Additional Cache Management]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;以清除預先產生的產品影像檔案。
+1. 在&#x200B;_[!UICONTROL Additional Cache Management]_底下，按一下&#x200B;**[!UICONTROL Flush Catalog Images Cache]**以清除預先產生的產品影像檔案。
 
    `Image cache was cleaned`訊息會顯示在工作區的頂端。
 
@@ -121,7 +138,7 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 ## 使用命令列排清
 
-有權存取Commerce應用程式伺服器的系統管理員和開發人員也可使用Commerce CLI從命令列管理快取和快取設定。 請參閱&#x200B;_組態指南_&#x200B;中的[管理快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
+有權存取Commerce應用程式伺服器的系統管理員和開發人員也可使用Commerce CLI從命令列管理快取和快取設定。 請參閱&#x200B;_組態指南_&#x200B;中的[管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}。
 
 ## 控制項
 
@@ -155,11 +172,11 @@ _[!UICONTROL Cache Management]_&#x200B;頁面會顯示每個主要快取的狀�
 
 開發人員和系統整合經銷商在自訂或與Adobe Commerce整合時（例如使用GraphQL API開發整合），可使用這些值來設定和管理快取。
 
-[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `cache_type_id`也用於使用Commerce CLI從應用程式伺服器命令列進行快取管理。 例如，` bin/magento cache:status config`會顯示組態快取的目前狀態。
+[!BADGE 僅限PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} `cache_type_id`也用於使用Commerce CLI從應用程式伺服器命令列進行快取管理。 例如，` bin/magento cache:status config`會顯示組態快取的目前狀態。
 
 >[!NOTE]
 >
->開發人員和系統整合經銷商可以自訂和擴充Commerce快取管理系統，以支援自訂模組和整合。 如需詳細資訊，請參閱&#x200B;_Adobe Commerce設定指南_&#x200B;中的[設定快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/caching-overview)。
+>開發人員和系統整合經銷商可以自訂和擴充Commerce快取管理系統，以支援自訂模組和整合。 如需詳細資訊，請參閱&#x200B;_Adobe Commerce設定指南_&#x200B;中的[設定快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)。
 
 <!-- prettier-ignore -->
 
@@ -202,7 +219,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 - `Sessioned` — 在工作階段瀏覽期間，會為與商店互動的購物者指派工作階段ID。 互動包括比較產品或新增產品至購物車等活動。 在工作階段期間產生的快取頁面僅供該購物者在工作階段期間使用。
 - `Customer` — 已針對使用註冊帳戶登入併購物的客戶建立客戶工作階段。 在會議期間，系統會根據指派的客戶群組，向客戶顯示特殊優惠、促銷和價格。
 
-如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
+如需技術資訊，請參閱&#x200B;_設定指南_&#x200B;中的[設定及使用清漆](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish){:target="_blank"}和[使用Commerce頁面的Redis和預設快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache){:target="_blank"}。
 
 **_若要設定整頁快取:_**
 
@@ -221,7 +238,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
 1. 若要設定頁面快取的逾時，請輸入&#x200B;**[!UICONTROL TTL for public content]**。 （預設值為`86400`）
 
-1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
+1. 若要指定在[`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP端點上要處理的[配置控制代碼](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)的最大數量，請輸入&#x200B;**[!UICONTROL Handles param size]**。 限制大小可以改善安全性和效能。 （預設值為`100`）
 
 1. 如果使用Varnish，請依照下列方式完成&#x200B;**[!UICONTROL Varnish Configuration]**&#x200B;區段：
 
@@ -231,7 +248,7 @@ Adobe Commerce和Magento Open Source會使用伺服器上的全頁快取，快�
 
    - **[!UICONTROL Backend port]** — 識別用來產生設定檔的後端連線埠。 預設值為： `8080`。
 
-   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
+   - **[!UICONTROL Grace period]** — 指定用來作為產生設定檔之寬限期的秒數。 請參閱&#x200B;_組態指南_&#x200B;中的[進階清漆組態](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish-advanced)。
 
    - 若要將設定匯出為`varnish.vcl`檔案，請按一下您使用的Varnish版本的按鈕。
 

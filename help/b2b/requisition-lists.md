@@ -3,29 +3,42 @@ title: 請購單清單
 description: 瞭解請購單清單，以及如何使用它們輕鬆將經常訂購的產品新增至購物車。
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-TQID: https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ
+TQID: 'https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 # 請購單清單
 
 使用請購單清單可節省購買經常訂購產品的時間，因為會直接從清單將料號新增至購物車。 購買者可以維護多個清單，專注於不同廠商、購買者、團隊、行銷活動的產品，或簡化其工作流程的任何其他產品。 登入的使用者可以使用請購單清單功能。
@@ -47,7 +60,7 @@ ht-degree: 0%
 
 1. 在其帳戶的側邊欄中，選擇&#x200B;**[!UICONTROL My Requisition Lists]**。
 
-1. 在&#x200B;_[!UICONTROL Requisition Lists]_&#x200B;頁面上，按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
+1. 在&#x200B;_[!UICONTROL Requisition Lists]_頁面上，按一下&#x200B;**[!UICONTROL Create New Requisition List]**。
 
 1. 輸入&#x200B;**[!UICONTROL Requisition List Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
 

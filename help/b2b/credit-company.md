@@ -4,33 +4,48 @@ description: 瞭解公司信用額度、設定引數及處理分期付款的相�
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-TQID: https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc
+TQID: 'https://experienceleague.adobe.com/JKyFAE5sOsIyOsM-L73i8fMt8nEeoY2-ZcE321jXjSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: '1228'
 ht-degree: 0%
-
 ---
-
 # 管理公司評價
 
 公司信用可讓B2B企業根據預先核准的信用額度進行購買，而不需要立即付款。 當啟用[帳戶付款](../b2b/enable-basic-features.md#configure-payment-on-account)時，公司可以購買最高信用額度，並從帳戶儀表板檢視其信用狀態。
@@ -94,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Operation] | 與交易相關聯的活動型別。 值： <br/>**[!UICONTROL Allocated]**— 指派給公司的評分。<br/>**[!UICONTROL Updated]** — 變更已套用至下列其中一個欄位： [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**— 已下訂單。<br/>**[!UICONTROL Reimbursed]** — 未償還餘額已償還。<br/>**[!UICONTROL Refunded]**— 銷退折讓單金額已退款。<br/>**[!UICONTROL Reverted]** — 訂單已取消，金額已傳回至貸方餘額。 |
 | [!UICONTROL Amount] | 與下列交易型別相關的交易金額： `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>對於購買金額，金額會以商店的顯示貨幣和信用貨幣設定的格式顯示，之後會加上目前的轉換率（如果適用）。 例如：<br/>EUR 20,000.00 ($22,400.00) <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 已償還的金額，減去使用「掛帳付款」方式下所有訂單的到期總額。 數量可能會顯示為正數或負數。<br/>**[!UICONTROL Positive value]**— 預付款以正值表示。<br/>**[!UICONTROL Negative value]** — 應付金額以負值表示。 |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;與_[!UICONTROL Outstanding Balance]_&#x200B;的總和。 如果公司已超過信用額度，金額會顯示為負值。 |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_與_[!UICONTROL Outstanding Balance]_&#x200B;的總和。 如果公司已超過信用額度，金額會顯示為負值。 |
 | [!UICONTROL Credit Limit] | 給予公司的信用額度。 |
 | [!UICONTROL Updated By] | 起始作業人員的姓名。 |
 | [!UICONTROL Custom Reference Number] | 與交易相關聯的自訂參考編號。 |
@@ -187,8 +202,8 @@ ht-degree: 0%
 
 ## 最佳實務
 
-* &#x200B;
-   * **信用政策管理** — 管理公司信用時，請依據客戶付款記錄與業務關係，建立設定信用額度的明確政策。 定期複查未結餘額與付款模式，以評估風險，並一律以詳細的稽核理由來記錄信用設定的變更。
+* 
+  * **信用政策管理** — 管理公司信用時，請依據客戶付款記錄與業務關係，建立設定信用額度的明確政策。 定期複查未結餘額與付款模式，以評估風險，並一律以詳細的稽核理由來記錄信用設定的變更。
 
 迅速處理付款，以維持正確的餘額，並確保信用幣別設定與每個公司的主要業務營運一致。
 

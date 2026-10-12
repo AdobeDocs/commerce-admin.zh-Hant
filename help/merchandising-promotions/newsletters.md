@@ -3,28 +3,39 @@ title: 電子報和訂閱
 description: 瞭解電子報，以及如何啟用這項功能作為低成本的促銷工具。
 exl-id: ad4488c2-1b8b-4326-8486-743c75c5b9a6
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ
+TQID: 'https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 314
+source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 電子報和訂閱
 
 發行定期電子報被認為是功能最強大、最經濟實惠的行銷工具之一。 Commerce可讓您發佈和發佈電子報給已訂閱的客戶，另外還提供工具來製作您的電子報、建立和管理您的訂閱者清單、開發內容，以及將流量帶入您的商店。 您也可以使用[頁面階層](../content-design/page-hierarchy.md)來建立過去問題的封存。
@@ -45,7 +56,7 @@ ht-degree: 0%
 
 1. 若要啟用存放區檢視範圍的電子報，請將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-啟用Newsletter功能後，_[!UICONTROL Subscription Options]_&#x200B;區段隨即顯示。
+啟用Newsletter功能後，_[!UICONTROL Subscription Options]_區段隨即顯示。
 
 ## 設定訂閱選項
 
@@ -61,9 +72,9 @@ ht-degree: 0%
 
    - 確認傳送給訂閱者的下列每封電子郵件訊息的電子郵件範本和寄件者：
 
-      - [!UICONTROL Success email]
-      - [!UICONTROL Confirmation email]
-      - [!UICONTROL Unsubscribe email]
+     - [!UICONTROL Success email]
+     - [!UICONTROL Confirmation email]
+     - [!UICONTROL Unsubscribe email]
 
    - 若要使用雙重加入程式來確認訂閱，請將&#x200B;**[!UICONTROL Need to Confirm]**&#x200B;設為`Yes`。
 

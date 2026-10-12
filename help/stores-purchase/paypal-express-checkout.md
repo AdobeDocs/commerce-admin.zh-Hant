@@ -3,31 +3,42 @@ title: PayPal Express簽出
 description: 瞭解如何將PayPal Express Checkout設定為商店上的線上付款解決方案。
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # PayPal Express簽出
 
 PayPal Express Checkout讓您的客戶能夠透過信用卡或透過其個人PayPal帳戶的安全性付款，有助於提高銷售額。 結帳時，系統會將客戶重新導向安全的PayPal網站，以完成付款資訊。 然後，客戶會回到您的商店，以完成剩餘的結帳程式。 選擇「快速結帳」會將您熟悉的PayPal按鈕新增至商店，據報會增加銷售額。
@@ -35,9 +46,9 @@ PayPal Express Checkout讓您的客戶能夠透過信用卡或透過其個人Pay
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。PayPal Express Checkout不需要採取任何動作即可符合PSD2，因為所有要求都由PayPal處理。
+>自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 PayPal Express Checkout不需要採取任何動作即可符合PSD2，因為所有要求都由PayPal處理。
 
-目前擁有PayPal帳戶的客戶可以按一下&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，在單一步驟中完成購買。 Express Checkout可作為獨立使用，或搭配其中一個PayPal多合一解決方案使用。 如果您已線上上接受信用卡，您可以提供「快速結帳」作為額外選項，以吸引偏好使用PayPal付款的新客戶。
+目前擁有PayPal帳戶的客戶可以按一下&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，在單一步驟中完成購買。 Express Checkout可作為獨立使用，或搭配其中一個PayPal多合一解決方案使用。 如果您已線上上接受信用卡，您可以提供「快速結帳」作為額外選項，以吸引偏好使用PayPal付款的新客戶。
 
 >[!NOTE]
 >
@@ -52,7 +63,7 @@ PayPal Express Checkout讓您的客戶能夠透過信用卡或透過其個人Pay
 
 與其他付款方式不同，PayPal Express結帳可讓客戶在一般結帳工作流程的開頭從產品頁面、迷你購物車和購物車結帳。
 
-1. **客戶下訂單** — 客戶按一下/點選&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕。
+1. **客戶下訂單** — 客戶按一下/點選&#x200B;_[!UICONTROL Check out with PayPal]_按鈕。
 1. **客戶被重新導向至PayPal網站** — 客戶被重新導向至PayPal網站以完成交易。
 1. **客戶登入其PayPal帳戶** — 客戶必須登入其PayPal帳戶才能完成交易。 付款系統使用來自其PayPal帳戶的帳單和送貨資訊。
 1. **客戶回到結帳頁面** — 客戶被重新導向回到您商店中的結帳頁面以檢閱訂單。
@@ -111,13 +122,13 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
 1. 如果您的安裝有多個網站、商店或檢視，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為您要套用此設定的商店檢視。
 
-1. 在&#x200B;_[!UICONTROL Merchant Location]_&#x200B;區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
+1. 在&#x200B;_[!UICONTROL Merchant Location]_區段中，選取您的企業所在的&#x200B;**[!UICONTROL Merchant Country]**。
 
    此設定會決定要選取顯示在設定中的PayPal解決方案。
 
    ![商家國家](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Recommended Solutions]_&#x200B;底下，按一下&#x200B;**[!UICONTROL PayPal Express Checkout]**&#x200B;的&#x200B;**[!UICONTROL Configure]**。
+1. 在&#x200B;_[!UICONTROL Recommended Solutions]_底下，按一下&#x200B;**[!UICONTROL PayPal Express Checkout]**的&#x200B;**[!UICONTROL Configure]**。
 
    ![設定PayPal Express簽出](./assets/paypal-express-checkout.png){width="600"}
 
@@ -329,11 +340,11 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
    - `Sale` — 已授權並立即從客戶帳戶中取用購買的金額。
    - `Order` - PayPal的客戶餘額、銀行帳戶或信用卡未擷取或授權訂單金額。 「訂單」付款動作代表PayPal付款系統與商家之間的協定。 它可讓商家在長達29天的期間內，從客戶採購員帳戶抓取一或多項最高至訂購總金額的金額。 在訂購資金後，商家可以在接下來的29天期間內隨時抓取資金。 擷取訂單金額只能透過建立一張或多張商業發票從Commerce管理員完成。
 
-1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_&#x200B;按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;設為`Yes`。
+1. 若要在產品頁面上顯示&#x200B;_[!UICONTROL Check out with PayPal]_按鈕，請將&#x200B;**[!UICONTROL Display on Product Details Page]**設為`Yes`。
 
 1. 如果付款動作設為`Order`，請完成下列作業
 
-   - **[!UICONTROL Authorization Honor Period (days)]** — 決定主要授權保持有效的時間。 該值應等於您PayPal商家帳戶中的對應值。 您的PayPal商家帳戶中的預設值為`3`。 若要增加此數目，您必須聯絡PayPal。 授權在美國太平洋時間最後一天的晚上11:49失效。
+   - **[!UICONTROL Authorization Honor Period (days)]** — 決定主要授權保持有效的時間。 該值應等於您PayPal商家帳戶中的對應值。 您的PayPal商家帳戶中的預設值為`3`。 若要增加此數目，您必須聯絡PayPal。 授權在美國太平洋時間最後一天的晚上11點49分失效。
 
    - **[!UICONTROL Order Valid Period (days)]** — 決定訂單的有效時間。 訂單無效時，您將無法再為其建立商業發票。 指定等於您PayPal商家帳戶中「訂單有效期間」值的值。 您的PayPal商家帳戶中的預設值為`29`。 若要變更此號碼，您必須連絡PayPal。
 
@@ -350,7 +361,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個專案。
 
 1. 若要將與付款系統的通訊寫入記錄檔，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -427,7 +438,7 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 1. 將&#x200B;**[!UICONTROL Payment Applicable From]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中所指定之所有國家/地區的客戶可以使用此付款方式。
-   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個國家/地區。
+   - `Specific Countries` — 選擇此選項後，_[!UICONTROL Payment from Specific Countries]_清單會出現。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)並按一下每個國家/地區。
 
 1. 若要在記錄檔中記錄與付款系統的通訊，請將&#x200B;**[!UICONTROL Debug Mode]**&#x200B;設為`Yes`。
 
@@ -451,8 +462,8 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
    - 如果您已註冊PayPal安全FTP伺服器，請輸入下列SFTP登入認證：
 
-      - 登入
-      - 密碼
+     - 登入
+     - 密碼
 
    - 若要在您的網站上以Express Checkout在&#x200B;_上線_&#x200B;之前執行測試報告，請將&#x200B;**[!UICONTROL Sandbox Mode]**&#x200B;設為`Yes`。
 
@@ -470,13 +481,13 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
    - 將&#x200B;**[!UICONTROL Schedule]**&#x200B;設定為下列其中一項：
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal會保留每個報表45天。
 
@@ -504,9 +515,9 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
    - 輸入您要套用至PayPal商家頁面的&#x200B;**[!UICONTROL Page Style]**&#x200B;名稱：
 
-      - `paypal` — 使用PayPal頁面樣式。
-      - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
-      - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
+     - `paypal` — 使用PayPal頁面樣式。
+     - `primary` — 使用您在帳戶設定檔中識別為&#x200B;_主要_&#x200B;樣式的頁面樣式。
+     - `your_custom_value` — 使用帳戶設定檔中指定的自訂付款頁面樣式。
 
    - 針對&#x200B;**[!UICONTROL Header Image URL]**，輸入您要顯示在付款頁面左上角的影像URL。 檔案大小上限為750畫素寬x 90畫素高。
 
@@ -516,9 +527,9 @@ PayPal的&#x200B;_In-Context Checkout_&#x200B;讓線上付款變得前所未有�
 
    - 若要設定頁面的顏色，請針對下列各項，輸入6個字元的十六進位代碼（不含`#`符號）：
 
-      - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
-      - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
-      - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
+     - **[!UICONTROL Header Background Color]** — 結帳頁面標頭的背景顏色。
+     - **[!UICONTROL Header Border Color]** — 標頭周圍兩畫素框線的色彩。
+     - **[!UICONTROL Page Background Color]** — 結帳頁面及頁首與付款表單周圍的背景顏色。
 
 #### 自訂智慧按鈕
 

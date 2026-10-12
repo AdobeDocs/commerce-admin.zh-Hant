@@ -3,29 +3,41 @@ title: 建立訂單
 description: 瞭解如何在Commerce管理員中為客戶建立訂單。
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
+TQID: 'https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '376'
 ht-degree: 0%
-
 ---
-
 # 建立訂單
 
-如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_&#x200B;表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
+如需協助的註冊客戶，您可以直接向Admin建立整份訂單。 _[!UICONTROL Create New Order]_表單包含正常結帳程式所需的所有資訊，以及客戶帳戶儀表板的活動摘要。
 
 ![建立客戶的訂單](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -108,11 +120,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [[!UICONTROL [自訂訂單屬性]]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [！UICONTROL [自訂訂單屬性]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->請參閱[Payment Services指南](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
+>請參閱[Payment Services指南](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)，以取得有關安裝及設定Payment Services擴充功能時支援此功能的付款方法的詳細資訊。
 
 ## 步驟3：提交訂單
 

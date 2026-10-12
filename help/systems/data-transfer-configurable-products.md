@@ -3,28 +3,39 @@ title: 匯入可設定的產品
 description: 檢閱為可設定產品匯入產品資料的範例。
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # 匯入可設定的產品
 
 要瞭解可設定產品資料的結構方式，最佳方式是匯出可設定產品及其變數，並在試算表中檢查資料。
@@ -40,10 +51,10 @@ ht-degree: 0%
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) — 用於產品變數的任何屬性的輸入型別必須是下列其中一項：
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
@@ -83,7 +94,7 @@ ht-degree: 0%
 
    - 將&#x200B;**[!UICONTROL Export File Format]**&#x200B;設為`CSV`。
 
-1. 在&#x200B;_[!UICONTROL Entity Attributes]_&#x200B;底下，向下捲動或使用屬性標籤篩選來尋找&#x200B;**[!UICONTROL SKU]**&#x200B;屬性，並執行下列動作：
+1. 在&#x200B;_[!UICONTROL Entity Attributes]_底下，向下捲動或使用屬性標籤篩選來尋找&#x200B;**[!UICONTROL SKU]**屬性，並執行下列動作：
 
    - 輸入您選擇要匯出的可設定產品的SKU，然後按一下&#x200B;**[!UICONTROL Continue]**。
 
@@ -97,8 +108,8 @@ ht-degree: 0%
 
    - 捲動至工作表的最右側，以尋找下列欄。
 
-      - `configurable_variations` — 定義可設定產品記錄與每個變數之間的一對多關係。
-      - `configurable_variation_labels` — 定義識別每個變數的標籤。
+     - `configurable_variations` — 定義可設定產品記錄與每個變數之間的一對多關係。
+     - `configurable_variation_labels` — 定義識別每個變數的標籤。
 
      在此範例中，資料可以在CG和CH欄中找到。 根據變異數，`configurable_variations`欄中的資料字串可能會很長。 資料會用作關聯產品變數的索引，其結構如下：
 
@@ -167,13 +178,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**。
 
-1. 在&#x200B;_[!UICONTROL Import Settings]_&#x200B;底下，將&#x200B;**[!UICONTROL Entity Type]**&#x200B;設定為`Products`。
+1. 在&#x200B;_[!UICONTROL Import Settings]_底下，將&#x200B;**[!UICONTROL Entity Type]**設定為`Products`。
 
-1. 在&#x200B;_[!UICONTROL Import Behavior]_&#x200B;底下，將&#x200B;**[!UICONTROL Import Behavior]**&#x200B;設定為`Add/Update`。
+1. 在&#x200B;_[!UICONTROL Import Behavior]_底下，將&#x200B;**[!UICONTROL Import Behavior]**設定為`Add/Update`。
 
    ![資料匯入行為](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL File to Import]_&#x200B;下，按一下&#x200B;**[!UICONTROL Choose File]**&#x200B;並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
+1. 在&#x200B;_[!UICONTROL File to Import]_下，按一下&#x200B;**[!UICONTROL Choose File]**並導覽至您準備匯入的CSV檔案，然後選擇該檔案。
 
    ![資料匯入檔案](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

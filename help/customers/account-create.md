@@ -3,7 +3,7 @@ title: 建立個別客戶帳戶
 description: 訪客可輕鬆建立個別客戶帳戶以管理其購買。
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +148,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >儲存客戶帳戶後，完整的選項集會顯示在左側面板和頁面頂端的功能表中。 _[!UICONTROL Customer View]_&#x200B;索引標籤會顯示帳戶的摘要。
+   >儲存客戶帳戶後，完整的選項集會顯示在左側面板和頁面頂端的功能表中。 _[!UICONTROL Customer View]_索引標籤會顯示帳戶的摘要。
 
    ![客戶檢視](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +179,7 @@ ht-degree: 0%
 
    否則，請按一下&#x200B;**[!UICONTROL Save and Continue Edit]**&#x200B;並重複上述步驟以新增其他地址。
 
-   新地址會顯示在[!UICONTROL Addresses]頁面中，並在完整清單上方選取&#x200B;_[!UICONTROL Default Billing]_&#x200B;和_[!UICONTROL Default Shipping]_&#x200B;個地址。
+   新地址會顯示在[!UICONTROL Addresses]頁面中，並在完整清單上方選取&#x200B;_[!UICONTROL Default Billing]_和_[!UICONTROL Default Shipping]_&#x200B;個地址。
 
    ![位址檢視](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -185,7 +189,7 @@ ht-degree: 0%
 
 1. 在網格中尋找新的客戶帳戶。
 
-1. 按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在頁面頂端的功能表列中，按一下&#x200B;**[!UICONTROL Reset Password]**。
 
@@ -197,7 +201,7 @@ ht-degree: 0%
 
 | 按鈕 | 說明 |
 |--- |--- |
-| **[!UICONTROL Back]** | 返回&#x200B;_[!UICONTROL Customers]_&#x200B;頁面而不儲存變更。 |
+| **[!UICONTROL Back]** | 返回&#x200B;_[!UICONTROL Customers]_頁面而不儲存變更。 |
 | **[!UICONTROL Delete Customer]** | 刪除目前的客戶。 不會移除與客戶關聯的已完成訂單。 |
 | **[!UICONTROL Reset]** | 將客戶表單中未儲存的變更重設為先前的值。 |
 | **[!UICONTROL Create Order]** | 建立客戶的訂單。 |

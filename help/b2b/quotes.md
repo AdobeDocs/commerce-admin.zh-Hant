@@ -3,37 +3,49 @@ title: 可協商的報價
 description: 瞭解報價工作流程，以及如何為公司帳戶提供此服務。
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+TQID: 'https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: '1273'
 ht-degree: 0%
-
 ---
-
 # 可協商的報價
 
 買方與賣方使用「報價單」來管理新增訂單料號的議價流程、更新數量、請求與套用折扣等等，直到達成一致為止。 報價議價處理可由授權的公司採購員或公司銷售代表起始。
 
-在Admin![&#128279;](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中報價清單檢視
+在Admin](./assets/quotes-admin-list-view-intro.png){width="700" zoomable="yes"}中![報價清單檢視
 
 建立報價之後，當買方或賣方提交報價以供複查時，議價處理就會開始。 _報價單_&#x200B;格線列出每個收到的報價單，並保留買賣雙方之間的通訊記錄。 使用標準[工作區控制項](../getting-started/admin-workspace.md)來篩選清單、變更欄配置、儲存檢視及匯出資料。
 
@@ -49,8 +61,8 @@ ht-degree: 0%
 
 - [已安裝Adobe Commerce B2B擴充功能](install.md)
 - [已設定的B2B功能](enable-basic-features.md)
-   - 啟用公司帳戶
-   - 啟用B2B報價
+  - 啟用公司帳戶
+  - 啟用B2B報價
 
 ## 報價工作流程
 
@@ -161,7 +173,7 @@ ht-degree: 0%
 
 1. 選取您想要拒絕的每個未結報價請求。
 
-1. 將&#x200B;_[!UICONTROL Actions]_&#x200B;控制項設為`Declined`。
+1. 將&#x200B;_[!UICONTROL Actions]_控制項設為`Declined`。
 
 1. 出現提示時，輸入報價遭拒絕的原因，然後按一下&#x200B;**[!UICONTROL Confirm]**。
 

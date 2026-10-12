@@ -3,28 +3,37 @@ title: 依SKU排序
 description: 瞭解如何設定您的商店，方便客戶透過SKU訂購。
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-TQID: https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ
+TQID: 'https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # 依SKU排序
 
 {{ee-feature}}
@@ -58,11 +67,11 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （僅限Adobe Commerce B2B） _&#x200B;**若要啟用Order by SKU功能，請停用Quick Order功能：**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg) （僅限Adobe Commerce B2B） _**若要啟用Order by SKU功能，請停用Quick Order功能：**_
 
 1. 前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左面板&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL B2B Features]**
+1. 在左面板&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL B2B Features]**
 
 1. 展開&#x200B;**[!UICONTROL B2B Features]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -90,7 +99,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 1. 根據偏好設定新增個別專案：
 
-   _&#x200B;**依SKU新增每個專案：**&#x200B;_
+   _**依SKU新增每個專案：**_
 
    - 輸入要訂購的專案的&#x200B;**[!UICONTROL SKU]**&#x200B;與&#x200B;**[!UICONTROL Qty]**。
 
@@ -98,7 +107,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
    - 按一下&#x200B;**[!UICONTROL Add to Cart]**。
 
-   _&#x200B;**上傳包含多個專案的CSV檔案：**&#x200B;_
+   _**上傳包含多個專案的CSV檔案：**_
 
    - 準備包含`SKU`與`Qty`欄的[匯入資料CSV](../systems/data-csv.md) （逗號分隔值）檔案。
 

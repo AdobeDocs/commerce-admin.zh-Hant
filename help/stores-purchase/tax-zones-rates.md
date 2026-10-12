@@ -3,26 +3,33 @@ title: 稅捐區與稅率
 description: 瞭解如何針對您收稅和匯款的每個地理區域定義稅率。
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 # 稅捐區與稅率
 
 稅率通常適用於在特定地理區域內發生的交易。 使用&#x200B;_稅捐區與稅率_&#x200B;工具，針對您收稅與匯款的每個地理區域指定稅率。 因為每個稅捐區和稅率都有唯一識別碼，所以您可以針對特定地理區域使用多種稅率（例如不徵收食物或藥品稅捐但會徵收其他專案稅捐的區域）。
@@ -69,7 +76,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
 
-1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_&#x200B;格線中尋找稅率，並以編輯模式開啟記錄。
+1. 在&#x200B;_[!UICONTROL Tax Zones and Rates]_格線中尋找稅率，並以編輯模式開啟記錄。
 
    如果清單中有許多費率，請使用[篩選器控制項](../getting-started/admin-grid-controls.md)來尋找您需要的費率。
 

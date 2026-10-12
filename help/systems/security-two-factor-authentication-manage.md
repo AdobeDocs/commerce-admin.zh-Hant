@@ -4,32 +4,43 @@ description: 瞭解如何為管理員使用者管理雙因素驗證及重設驗�
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 0%
-
 ---
-
 # 管理雙因素驗證
 
 無法以雙因素驗證(2FA)登入&#x200B;_Admin_&#x200B;的使用者可以嘗試同步處理或疑難排解問題。 您也可以重設與帳戶關聯的驗證者。 重設時，使用者必須再次登入並重新設定必要的驗證者。
@@ -53,11 +64,11 @@ ht-degree: 0%
 
 1. 選取使用者，並在編輯模式下開啟帳戶。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Current User Identity Verification]_&#x200B;區段並輸入您的密碼。
+1. 向下捲動至&#x200B;_[!UICONTROL Current User Identity Verification]_區段並輸入您的密碼。
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 2FA]**。
 
-1. 在&#x200B;_[!UICONTROL Configuration reset]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Reset]**&#x200B;與&#x200B;**[!UICONTROL OK]**&#x200B;以確認。
+1. 在&#x200B;_[!UICONTROL Configuration reset]_區段中，按一下&#x200B;**[!UICONTROL Reset]**與&#x200B;**[!UICONTROL OK]**以確認。
 
    ![使用者帳戶 — 啟用2FA](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

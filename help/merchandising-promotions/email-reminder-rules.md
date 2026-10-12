@@ -3,28 +3,39 @@ title: 電子郵件提醒
 description: 瞭解在滿足特定條件時會自動傳送給客戶的電子郵件提醒。
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/13-faUDGh5J3Ry8Dr6ZnMKcBcF9VuHm4fGHS-MGzoyc
+TQID: 'https://experienceleague.adobe.com/13-faUDGh5J3Ry8Dr6ZnMKcBcF9VuHm4fGHS-MGzoyc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '560'
 ht-degree: 0%
-
 ---
-
 # 電子郵件提醒
 
 {{ee-feature}}
@@ -35,7 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;欄位設定電子郵件之間的天數。
+>如果客戶有多個相符的放棄購物車、希望清單或兩者的組合，則只會為該客戶觸發一次電子郵件提醒。 若要再次觸發相同的電子郵件提醒，請使用&#x200B;_[!UICONTROL Repeat Schedule]_欄位設定電子郵件之間的天數。
 
 ![電子郵件提醒](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -55,11 +66,11 @@ ht-degree: 0%
 
    - 若要設定檢查符合自動電子郵件提醒資格的新客戶的頻率，請將&#x200B;**[!UICONTROL Frequency]**&#x200B;設定為下列其中一項：
 
-      - `Minute Intervals`
-      - `Hourly`
-      - `Daily`
+     - `Minute Intervals`
+     - `Hourly`
+     - `Daily`
 
-   - 根據&#x200B;_[!UICONTROL Frequency]_&#x200B;設定設定適當的&#x200B;**[!UICONTROL Interval]**。
+   - 根據&#x200B;_[!UICONTROL Frequency]_設定設定適當的&#x200B;**[!UICONTROL Interval]**。
 
    - 將&#x200B;**[!UICONTROL Start Time]**&#x200B;設定為根據24小時時鐘傳送電子郵件的時、分、秒。
 

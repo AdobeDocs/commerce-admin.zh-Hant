@@ -3,28 +3,39 @@ title: 銷售電子郵件
 description: 瞭解如何設定銷售電子郵件，以支援與客戶就其訂單進行通訊。
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
-TQID: https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg
+TQID: 'https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: '454'
 ht-degree: 3%
-
 ---
-
 # 銷售電子郵件
 
 與訂單相關的事件會觸發數個電子郵件訊息，而且設定類似。 請確定您識別顯示為訊息寄件者的商店聯絡人、要使用的電子郵件範本，以及任何要接收訊息復本的人。 銷售電子郵件可在事件觸發時或依預定間隔傳送。
@@ -50,7 +61,7 @@ ht-degree: 3%
    - `Disable` — 在事件觸發時傳送銷售電子郵件。
    - `Enable` — 以預先決定的固定間隔傳送銷售電子郵件。
 
-   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
+   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
 
 ## 步驟3. 完成每封銷售電子郵件訊息的詳細資料
 

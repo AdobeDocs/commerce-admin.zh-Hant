@@ -3,35 +3,44 @@ title: 設定電子郵件通訊
 description: 瞭解如何設定電子郵件通訊，包括傳回電子郵件或回覆特定電子郵件地址的路由。
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # 設定電子郵件通訊
 
 _郵件傳送設定_&#x200B;可讓您將傳回的電子郵件或回覆傳送至特定地址。 如果您的商店是在SMTP或Windows伺服器上執行，您可以驗證主機和連線埠設定。
 
 >[!IMPORTANT]
 >
->**安全性通知**&#x200B;所有商戶應立即設定其郵件傳送設定，以防範最近發現的潛在遠端程式碼執行攻擊。 在此問題解決之前，強烈建議您避免使用[!DNL Sendmail]進行電子郵件通訊。 在&#x200B;_[!UICONTROL Mail Sending Settings]_&#x200B;中，確定&#x200B;_[!UICONTROL Set Return Path]_&#x200B;已設為`No`。
+>**安全性通知**&#x200B;所有商戶應立即設定其郵件傳送設定，以防範最近發現的潛在遠端程式碼執行攻擊。 在此問題解決之前，強烈建議您避免使用[!DNL Sendmail]進行電子郵件通訊。 在&#x200B;_[!UICONTROL Mail Sending Settings]_中，確定_[!UICONTROL Set Return Path]_&#x200B;已設為`No`。
 
 如需組態設定的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)。
 
@@ -51,22 +60,22 @@ _郵件傳送設定_&#x200B;可讓您將傳回的電子郵件或回覆傳送至�
 
    - 如果是在SMTP或Windows伺服器上執行，請確認下列設定：
 
-      - **[!UICONTROL Host]** - `localhost`或其他
+     - **[!UICONTROL Host]** - `localhost`或其他
 
-      - **[!UICONTROL Port (25)]** - `25`或其他
+     - **[!UICONTROL Port (25)]** - `25`或其他
 
    - 針對&#x200B;**[!UICONTROL Set Return Path]**，選擇下列其中一個選項：
 
-      - `No` - （建議的安全性測量）路由傳回預設商店電子郵件地址的電子郵件。
-      - `Yes` — 路由傳回預設商店電子郵件地址的電子郵件。
-      - `Specified` — 路由傳回電子郵件至&#x200B;**[!UICONTROL Return Path Email]**&#x200B;中指定的電子郵件地址。
+     - `No` - （建議的安全性測量）路由傳回預設商店電子郵件地址的電子郵件。
+     - `Yes` — 路由傳回預設商店電子郵件地址的電子郵件。
+     - `Specified` — 路由傳回電子郵件至&#x200B;**[!UICONTROL Return Path Email]**&#x200B;中指定的電子郵件地址。
 
    - 如果在SMTP伺服器上執行，請設定連線：
 
-      - **[!UICONTROL Username]** — 輸入SMTP伺服器的登入使用者名稱。
-      - **[!UICONTROL Password]** — 輸入SMTP伺服器登入的密碼。
-      - **[!UICONTROL Auth]** — 選擇SMTP伺服器連線的驗證型別： `NONE`、`PLAIN`或`LOGIN`
-      - **[!UICONTROL SSL]** — 選擇伺服器安全性憑證的驗證型別： `SSL`或`TLS`
+     - **[!UICONTROL Username]** — 輸入SMTP伺服器的登入使用者名稱。
+     - **[!UICONTROL Password]** — 輸入SMTP伺服器登入的密碼。
+     - **[!UICONTROL Auth]** — 選擇SMTP伺服器連線的驗證型別： `NONE`、`PLAIN`或`LOGIN`
+     - **[!UICONTROL SSL]** — 選擇伺服器安全性憑證的驗證型別： `SSL`或`TLS`
 
      ![進階設定 — 郵件傳送設定](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

@@ -3,28 +3,42 @@ title: 為購物者提供協助
 description: 當您使用登入作為客戶功能時，您可以檢視客戶看到的內容並代表他們進行更新。
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
+TQID: 'https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: '1189'
 ht-degree: 0%
-
 ---
-
 # 為購物者提供協助
 
 有時候，客戶需要協助處理訂單。 存放區管理員可以使用&#x200B;_以客戶身分登入_，讓他們檢視客戶看到的內容並進行更新以協助他們。
@@ -35,9 +49,9 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
-為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_&#x200B;按鈕會出現在多個頁面中：
+為&#x200B;_管理員_&#x200B;使用者啟用時，_[!UICONTROL Login as Customer]_按鈕會出現在多個頁面中：
 
 * [客戶編輯頁面](../customers/update-account.md)
 * [訂單檢視頁面](../stores-purchase/order-processing.md)
@@ -49,7 +63,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 在Adobe Commerce as a Cloud Service中，「以客戶身分登入」功能會使用&#x200B;**一次性代碼(OTC)**&#x200B;工作流程，而非直接登入。 管理員會為客戶產生短暫的單次使用程式碼。 接著，您就可以透過GraphQL將此程式碼交換為客戶存取權杖，讓無密碼登入成為銷售商協助購物情境的客戶工作流程。
 
@@ -116,7 +130,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 1. 客戶前往&#x200B;**[!UICONTROL Account Information]**&#x200B;頁面。
 
@@ -128,7 +142,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 客戶必須將`login_as_customer_assistance_allowed`擴充功能屬性設定為&#x200B;**2**。 這可以在Admin的&#x200B;**編輯客戶**&#x200B;頁面上設定，或是在建立或編輯客戶時透過GraphQL設定。
 
@@ -148,7 +162,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > [!UICONTROL _所有客戶_]。
 
@@ -164,7 +178,7 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 >[!NOTE]
 >
@@ -192,7 +206,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->根據預設，產生的一次性程式碼OTC的有效期為60秒，且僅使用一次即可失效。 可透過提交[支援票證](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)來設定TTL。
+>根據預設，產生的一次性程式碼OTC的有效期為60秒，且僅使用一次即可失效。 可透過提交[支援票證](https://experienceleague.adobe.com/home?support-tab=home#support)來設定TTL。
 
 產生一次性程式碼後，您可以導覽至您的店面並使用以下憑證登入，以使用它：
 
@@ -214,7 +228,7 @@ _以客戶身分登入_&#x200B;可讓您檢視網站，就像客戶一樣，並�
 
 >[!WARNING]
 >
->以客戶&#x200B;_身分登入_&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
+>以客戶&#x200B;_]身分登入[!UICONTROL _&#x200B;時執行的任何動作（例如新增/移除產品）都會套用至實際客戶的訂單。 在店面，當您`logged in as customer_name`提供特殊狀態的提醒時，會顯示橫幅。
 
 ## 以客戶記錄身分登入
 

@@ -3,26 +3,35 @@ title: 貨幣設定
 description: 瞭解如何設定基本貨幣的範圍，以及如何指定您接受的貨幣以及價格顯示時要使用的貨幣。
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # 貨幣設定
 
 在設定個別貨幣匯率之前，您必須先設定[基本貨幣](../configuration-reference/general/currency-setup.md)的範圍。 預設為全域，會將基本貨幣設定套用至整個[存放區階層](../getting-started/websites-stores-views.md)。 如果您已安裝多站台Adobe Commerce或Magento Open Source，您可以將範圍設定為網站層級，以管理多個基本貨幣。
@@ -83,31 +92,31 @@ ht-degree: 0%
 
    - 連線到[fixer.io服務](https://fixer.io/):_(_T)
 
-      - 展開&#x200B;**[!UICONTROL Fixer.io]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+     - 展開&#x200B;**[!UICONTROL Fixer.io]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-      - 輸入您的fixer.io **[!UICONTROL API key]**。
+     - 輸入您的fixer.io **[!UICONTROL API key]**。
 
-      - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
+     - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
 
      ![一般設定 — 貨幣設定 — Fixer.io選項](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - 連線到[[!DNL Fixer Api (APILayer)] 服務](https://apilayer.com/):_(_T)
 
-      - 展開&#x200B;**[!UICONTROL Fixer Api (APILayer)]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+     - 展開&#x200B;**[!UICONTROL Fixer Api (APILayer)]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-      - 輸入您的[!DNL APILayer] **[!UICONTROL API key]**。
+     - 輸入您的[!DNL APILayer] **[!UICONTROL API key]**。
 
-      - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
+     - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
 
      ![一般設定 — 貨幣設定 — Fixer API (APILayer)選項](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - 連線到[[!DNL Currency Convertor API] 服務](https://free.currencyconverterapi.com/):_(_T)
 
-      - 展開&#x200B;**[!UICONTROL Currency Convertor API]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+     - 展開&#x200B;**[!UICONTROL Currency Convertor API]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
-      - 輸入您的貨幣轉換器&#x200B;**[!UICONTROL API key]**。
+     - 輸入您的貨幣轉換器&#x200B;**[!UICONTROL API key]**。
 
-      - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
+     - 針對&#x200B;**[!UICONTROL Connection Timeout in Seconds]**，輸入連線逾時前允許閒置的秒數。
 
      ![一般設定 — 貨幣設定 — 貨幣轉換器API選項](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Frequency]** — 若要決定更新費率的頻率，請設定為下列其中一項：
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — 輸入在匯入過程中發生錯誤時接收電子郵件通知之人員的電子郵件地址。
 
@@ -157,13 +166,13 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
 
-   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_&#x200B;清單中。
+   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_清單中。
 
 1. 視需要變更清單中的設定：
 
    - 為您要使用的每種貨幣輸入自訂符號，或選取每種貨幣的&#x200B;**[!UICONTROL Use Standard]**&#x200B;核取方塊。
 
-   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;核取方塊並輸入您要使用的符號。
+   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_核取方塊並輸入您要使用的符號。
 
    >[!NOTE]
    >

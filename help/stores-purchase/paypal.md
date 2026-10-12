@@ -3,31 +3,42 @@ title: PayPal支付解決方案
 description: 瞭解您商店可用的PayPal支付解決方案整合。
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: '1288'
 ht-degree: 0%
-
 ---
-
 # PayPal支付解決方案
 
 PayPal是全球線上支付的領先業者，也是客戶線上付款的快速安全方式。 可用的PayPal解決方案選擇因商家所在地而異。 PayPal Express Checkout和PayPal Payments Standard適用於全球各地。 若要瞭解更多資訊，請參閱[依國家/地區的PayPal解決方案](#paypal-solutions-by-country)。
@@ -35,7 +46,7 @@ PayPal是全球線上支付的領先業者，也是客戶線上付款的快速�
 >[!IMPORTANT]
 >
 >**PSD2需求：** <br/>
->自2019年9月14日起，歐洲銀行可能會拒絕不符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。大部分的PayPal解決方案都不需要採取任何動作來遵守PSD2，因為這些要求是由PayPal處理。
+>自2019年9月14日起，歐洲銀行可能會拒絕未符合[PSD2](../getting-started/compliance-payment-services-directive.md)要求的付款。 大部分的PayPal解決方案都不需要採取任何動作來遵守PSD2，因為這些要求是由PayPal處理。
 
 ## PayPal企業帳戶
 
@@ -120,7 +131,7 @@ PayPal詐騙管理篩選器可讓您更輕鬆地偵測及回應詐騙交易，�
 | 動作 | 結果 |
 | --- | --- |
 | [!UICONTROL Review] | 可疑的訂單在下單時會收到&#x200B;_付款稽核_&#x200B;狀態。 您可以在管理員或PayPal端檢閱訂單並核准或取消付款。 當您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**&#x200B;時，不會建立訂單的新交易。 <br/><br/>如果您在PayPal網站上變更交易狀態，則必須按一下管理員訂單頁面中的&#x200B;**[!UICONTROL Get Payment Update]**&#x200B;以套用變更。 如果您按一下&#x200B;**[!UICONTROL Accept Payment]**&#x200B;或&#x200B;**[!UICONTROL Deny Payment]**，則會套用PayPal網站所做的變更。 |
-| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員付款，請按一下頁面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 訂單狀態變更為`Canceled`，交易已還原，並在客戶帳戶上核發資金。 對應的資訊已新增至訂單檢視的&#x200B;_[!UICONTROL Comments History]_&#x200B;區段中。 |
+| [!UICONTROL Deny] | 客戶無法下懷疑的訂單，因為PayPal已拒絕對應的交易。 <br/><br/>若要拒絕管理員付款，請按一下頁面右上角的&#x200B;**[!UICONTROL Deny Payment]**。 訂單狀態變更為`Canceled`，交易已還原，並在客戶帳戶上核發資金。 對應的資訊已新增至訂單檢視的&#x200B;_[!UICONTROL Comments History]_區段中。 |
 | [!UICONTROL Flag] | 可疑的訂單在放置時取得狀態`Processing`。 對應的交易會在商家帳戶交易清單中標示旗標。 |
 
 {style="table-layout:auto"}

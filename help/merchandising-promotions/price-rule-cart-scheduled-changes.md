@@ -3,26 +3,39 @@ title: 購物車價格規則的排程變更
 description: 瞭解如何在行銷活動中依排程套用購物車價格規則，並搭配其他內容變更分組。
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/S4sSXY-SSMabdW-rkaqr-cMexe0q1-k6AbTNvb7pR14
+TQID: 'https://experienceleague.adobe.com/S4sSXY-SSMabdW-rkaqr-cMexe0q1-k6AbTNvb7pR14'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # 購物車價格規則的排程變更
 
 {{ee-feature}}
@@ -39,7 +52,7 @@ ht-degree: 0%
 >
 >所有排定的更新都會連續套用。 這表示任何實體在某個時間點只能有一個排程更新。 任何排定的更新都會套用至其時間範圍內的所有存放區檢視。 因此，一個實體無法同時擁有不同存放區檢視的不同排程更新。 所有存放區檢視中的所有實體屬性值（不受目前排程更新影響）都是從預設值取得，而不是從先前的排程更新取得。
 
-如果在相同促銷活動中執行多個價格規則，則價格規則的&#x200B;_[!UICONTROL Priority]_&#x200B;設定會決定哪一個規則優先。 若要深入瞭解，請參閱[內容暫存](../content-design/content-staging.md)。
+如果在相同促銷活動中執行多個價格規則，則價格規則的&#x200B;_[!UICONTROL Priority]_設定會決定哪一個規則優先。 若要深入瞭解，請參閱[內容暫存](../content-design/content-staging.md)。
 
 >[!NOTE]
 >
@@ -53,7 +66,7 @@ ht-degree: 0%
 
 - 如果包含價格規則的促銷活動最初建立時沒有結束日期，則之後無法編輯促銷活動以包含結束日期。 建議您在建立行銷活動時新增結束日期，或建立現有行銷活動的重複版本，並根據需要新增結束日期至重複。
 - 使用已排程的更新來啟用具有結束日期的購物車價格規則時，請務必將此規則設為最初停用。 已啟用的規則不會遵循結束日期。
-- 優惠券未與購物車價格規則連結。 排定的更新未提供&#x200B;_[!UICONTROL Rule Information]_&#x200B;索引標籤上&#x200B;_[!UICONTROL Coupon]_、_[!UICONTROL Coupon Code]_、_[!UICONTROL Uses per Coupon]_&#x200B;和&#x200B;_[!UICONTROL Uses per Customer]_&#x200B;欄位的存取權。 此外，_[!UICONTROL Manage Coupon Codes]_&#x200B;標籤中的所有設定都無法使用。
+- 優惠券未與購物車價格規則連結。 排定的更新未提供&#x200B;_[!UICONTROL Rule Information]_索引標籤上_[!UICONTROL Coupon]_、_[!UICONTROL Coupon Code]_、_[!UICONTROL Uses per Coupon]_&#x200B;和&#x200B;_[!UICONTROL Uses per Customer]_欄位的存取權。 此外，_[!UICONTROL Manage Coupon Codes]_&#x200B;標籤中的所有設定都無法使用。
 
 >[!IMPORTANT]
 >

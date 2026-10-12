@@ -3,31 +3,42 @@ title: 頂端導覽
 description: 瞭解如何定義存放區的主要功能表，其功能類似於不同部門的目錄。
 exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
-TQID: https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk
+TQID: 'https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # 頂端導覽
 
 商店的主功能表就像商店中不同部門的目錄。 每個選項代表不同的產品類別。 上層導覽的位置和呈現方式可能依主題而異，但其運作方式基本上相同。
@@ -86,7 +97,7 @@ ht-degree: 0%
 
    ![類別頂端導覽](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   由於上層導覽的深度具有全域[設定範圍](../getting-started/websites-stores-views.md#scope-settings)，因此此設定會套用至Commerce安裝中的所有網站、商店和商店檢視。 _[!UICONTROL Category Top Navigation]_&#x200B;設定區段只有在左上角的&#x200B;_[!UICONTROL Store View]_&#x200B;設定為`Default Config`時才能使用。
+   由於上層導覽的深度具有全域[設定範圍](../getting-started/websites-stores-views.md#scope-settings)，因此此設定會套用至Commerce安裝中的所有網站、商店和商店檢視。 _[!UICONTROL Category Top Navigation]_設定區段只有在左上角的_[!UICONTROL Store View]_&#x200B;設定為`Default Config`時才能使用。
 
    如需這些選項的詳細清單，請參閱&#x200B;_組態參考_&#x200B;中的[類別頂端導覽](../configuration-reference/catalog/catalog.md#layered-navigation)。
 

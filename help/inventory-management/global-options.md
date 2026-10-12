@@ -1,33 +1,42 @@
 ---
-title: 設定 [!DNL Inventory Management] 全域選項
-description: 設定所有網站產品庫存選項、臨界值和店面顯示的全域 [!DNL Inventory Management] 目錄設定。
+title: 設定[!DNL Inventory Management]全域選項
+description: 針對所有網站的產品庫存選項、臨界值和店面顯示，設定全域[!DNL Inventory Management]目錄設定。
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+TQID: 'https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '759'
 ht-degree: 1%
-
 ---
-
 # 設定[!DNL Inventory Management]全域選項
 
-這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;底下的整個目錄。
+這些全域設定會套用至您在&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**底下的整個目錄。
 
 設定您網站產品與庫存的預設設定選項。 透過[設定產品選項](product-options.md)，可以覆寫每個產品的部分設定。 若要設定距離優先順序設定，請參閱[設定距離優先順序演演算法](distance-priority-algorithm.md)。
 
@@ -97,7 +106,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >`sourceAvailability`查詢預設為停用，因為它會公開哪些來源存放SKU。 在來源數量達到&#x200B;_[!UICONTROL Stock Options]_&#x200B;區段中設定的&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;之前，確切數量會維持遮罩狀態。 每個詳細目錄來源都有預設為關閉的&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;旗標。 在商家啟用來源庫存之前，不會傳回來源庫存。 若要進行設定，請前往&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，編輯來源，然後開啟&#x200B;**[!UICONTROL Visible on Storefront]**。
+   >`sourceAvailability`查詢預設為停用，因為它會公開哪些來源存放SKU。 在來源數量達到&#x200B;_[!UICONTROL Stock Options]_區段中設定的&#x200B;**[!UICONTROL Only X left Threshold]**之前，確切數量會維持遮罩狀態。 每個詳細目錄來源都有預設為關閉的&#x200B;**[!UICONTROL Visible on Storefront]**旗標。 在商家啟用來源庫存之前，不會傳回來源庫存。 若要進行設定，請前往&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**，編輯來源，然後開啟&#x200B;**[!UICONTROL Visible on Storefront]**。
 
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Admin bulk operations]**&#x200B;區段並設定選項：
@@ -110,7 +119,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
+     >若要設定並支援&#x200B;_非同步佇列管理員_，您必須使用命令列發出命令。 此步驟可能需要開發人員協助。 請參閱&#x200B;_設定指南_&#x200B;中的[開始訊息佇列消費者](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues)。
 
    - 如果已啟用，請設定&#x200B;**[!UICONTROL Asynchronous batch size]**。 預設批次大小為100。 當大量程式達到此數量時，系統會觸發此事件。
 

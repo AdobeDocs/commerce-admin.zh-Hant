@@ -3,34 +3,45 @@ title: 搜尋結果
 description: 瞭解如何設定產品如何符合在快速搜尋方塊或進階搜尋表單中輸入的搜尋條件。
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
+TQID: 'https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 949
+source-wordcount: '949'
 ht-degree: 3%
-
 ---
-
 # 搜尋結果
 
 >[!NOTE]
 >
->此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同的標準搜尋功能。
+>此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同的標準搜尋功能。
 
 _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進階搜尋」表單中所輸入搜尋條件的產品。 目錄中的每個產品清單基本上都有相同的控制項。 唯一的差異是其中一個是搜尋查詢的結果，另一個差異是[導覽](navigation.md)的結果。
 
@@ -46,7 +57,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 >[!IMPORTANT]
 >
->鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用於擴充搜尋結果的關鍵字對應
 
@@ -61,7 +72,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟1：建立屬性
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
+1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Attribute]**。
 1. 在&#x200B;_選取屬性_&#x200B;頁面上按一下&#x200B;**[!UICONTROL Create New Attribute]**。
 1. 依照下列步驟完成屬性特性：
@@ -88,7 +99,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟2：對應第一個產品
 
-1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_&#x200B;區段。
+1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入要對應至此產品的SKU `MH01`。
 
    您可以在「搜尋關鍵字」欄位中輸入多個以空格分隔的SKU。 在此範例中，僅輸入一個。
@@ -100,7 +111,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟3：對應第二個產品
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
+1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
 1. 向下捲動並展開&#x200B;**[!UICONTROL Attributes]**&#x200B;區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入其他產品`MJ03`的SKU。
 1. 按一下&#x200B;**[!UICONTROL Save]**。

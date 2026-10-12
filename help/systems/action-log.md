@@ -3,29 +3,40 @@ title: 動作記錄
 description: 瞭解動作記錄檔以及如何設定記錄動作，協助您追蹤對存放區所做的所有變更。
 exl-id: a482adfe-a63f-428b-b078-7542a1e2ecee
 feature: Logs, Configuration
-TQID: https://experienceleague.adobe.com/UtJhP452hJXDyEyjxrknuF4WPoLza-UcnuWxP6ILtq8
+TQID: 'https://experienceleague.adobe.com/UtJhP452hJXDyEyjxrknuF4WPoLza-UcnuWxP6ILtq8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # 動作記錄
 
 {{ee-feature}}
@@ -44,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[!DNL Adobe Commerce as a Cloud Service]平台上，您無法設定動作記錄報告、動作記錄封存和大量動作記錄，但可從[管理]的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;功能表檢閱報告輸出。
+>在[!DNL Adobe Commerce as a Cloud Service]平台上，您無法設定動作記錄報告、動作記錄封存和大量動作記錄，但可從[管理]的&#x200B;**[!UICONTROL System]** > _[!UICONTROL Action Logs]_功能表檢閱報告輸出。
 
 ## 設定管理員記錄動作
 

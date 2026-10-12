@@ -3,25 +3,34 @@ title: 內容中繼儀表板
 description: 使用內容測試儀表板來存取所有使用中和即將來臨的行銷活動的概觀。
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-TQID: https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+TQID: 'https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '452'
 ht-degree: 0%
-
 ---
-
 # 內容中繼儀表板
 
 {{ee-feature}}
@@ -84,10 +93,10 @@ ht-degree: 0%
 
 1. 在顯示的清單或時間軸中尋找促銷活動，並開啟它以存取詳細資訊：
 
-   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
+   - 若要顯示清單，請按一下&#x200B;**[!UICONTROL Select]**，然後在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View/Edit]**。
    - 若要顯示時間表，請按一下以顯示摘要，然後按一下&#x200B;**[!UICONTROL View/Edit]**。
 
-1. 視需要更新&#x200B;_[!UICONTROL General]_&#x200B;區段中的任何設定。
+1. 視需要更新&#x200B;_[!UICONTROL General]_區段中的任何設定。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png)包含要編輯之專案的任何區段。
 

@@ -3,30 +3,40 @@ title: 出貨
 description: 瞭解如何建立商業發票的出貨記錄，以及如何取消出貨。
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
-TQID: https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho
+TQID: 'https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 0%
-
+source-wordcount: '951'
+ht-degree: 1%
 ---
-
 # 出貨
 
-_[!UICONTROL Shipments]_&#x200B;方格列出已準備出貨的所有商業發票的出貨記錄。 當訂單為[開立商業發票](invoices.md)或更新版本時，便可以產生出貨記錄。
+_[!UICONTROL Shipments]_方格列出已準備出貨的所有商業發票的出貨記錄。 當訂單為[開立商業發票](invoices.md)或更新版本時，便可以產生出貨記錄。
 
 Adobe Commerce和Magento Open Source支援部分及完整的訂單出貨，並可從[Inventory management](../inventory-management/introduction.md)和協力廠商擴充功能取得其他選項。
 
@@ -91,7 +101,7 @@ Adobe Commerce和Magento Open Source支援部分及完整的訂單出貨，並�
 
 1. 按一下&#x200B;**[!UICONTROL Ship]**。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;區塊並按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
+1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_區塊並按一下&#x200B;**[!UICONTROL Add Tracking Number]**。
 
 1. 設定&#x200B;**[!UICONTROL Carrier]**：
 
@@ -112,7 +122,7 @@ Adobe Commerce和Magento Open Source支援部分及完整的訂單出貨，並�
 
 1. 在編輯模式中尋找並開啟出貨。
 
-1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_&#x200B;區塊。
+1. 向下捲動至&#x200B;_[!UICONTROL Payment & Shipping Method]_區塊。
 
 1. 選取&#x200B;**[!UICONTROL Carrier]**。
 
@@ -148,7 +158,7 @@ Adobe Commerce和Magento Open Source支援部分及完整的訂單出貨，並�
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在&#x200B;_[!UICONTROL Sales]_&#x200B;下，選取&#x200B;**[!UICONTROL Sales Email]**。
+1. 在&#x200B;_[!UICONTROL Sales]_下，選取&#x200B;**[!UICONTROL Sales Email]**。
 
 1. 展開&#x200B;**出貨備註**&#x200B;區段，並視需要修改設定：
 
@@ -180,7 +190,7 @@ Adobe Commerce和Magento Open Source支援部分及完整的訂單出貨，並�
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Shipments]**。
 
-   如果可以取消出貨，_[!UICONTROL Cancel Shipment]_&#x200B;會在頂端按鈕列顯示為選項。
+   如果可以取消出貨，_[!UICONTROL Cancel Shipment]_會在頂端按鈕列顯示為選項。
 
 1. 按一下&#x200B;**[!UICONTROL Cancel Shipment]**。
 
