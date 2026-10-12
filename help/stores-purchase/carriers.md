@@ -73,7 +73,7 @@ Adobe Commerce版本2.4.6、2.4.7和2.4.8使用舊版網站工具API，與USPS�
 
 若要避免USPS送貨服務中斷，請升級至最新版本的Adobe Commerce，或採取下列動作：
 
-- 套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)以新增與USPS REST API整合的支援。
+- 套用[USPS REST API移轉品質修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)以新增與USPS REST API整合的支援。
 
 - 更新Commerce USPS設定以使用REST API：
 

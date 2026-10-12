@@ -4,7 +4,7 @@ description: 瞭解如何使用媒體資料庫來儲存您的[!DNL Commerce]媒�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/QUhPGliOg0grz9UcLAcWWiPd5Zh4pIvB-n-QeORilfg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

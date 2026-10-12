@@ -4,7 +4,7 @@ description: 瞭解如何設定OAuth憑證和重新導向URL以進行協力廠�
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/YeUr7tTCbBIZE93Clfyy-sBxxliuO9rj-SSKhXpMmjU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

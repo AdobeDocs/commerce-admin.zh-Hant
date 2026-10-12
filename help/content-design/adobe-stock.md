@@ -3,7 +3,7 @@ title: Adobe Stock整合
 description: 將Adobe Stock與您的[!DNL Commerce]執行個體整合，以存取您商店中使用的無數媒體資產。
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -54,7 +54,7 @@ Adobe Stock服務可讓企業針對其所有創意專案，存取數百萬張高
 
 授權Adobe Stock影像需要：
 
-- [Adobe帳戶](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe帳戶](https://helpx.adobe.com/tw/manage-account/using/access-adobe-id-account.html)
 - 與帳戶相關聯的付費[Adobe Stock](https://stock.adobe.com)計畫
 
 ## 整合[!DNL Commerce]與Adobe Stock
