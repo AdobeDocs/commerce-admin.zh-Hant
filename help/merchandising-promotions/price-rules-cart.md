@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: c855fa4ca30318b8b0256ce67649d3204b3de814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '515'
 ht-degree: 0%
 ---
 # 購物車價格規則
@@ -77,8 +77,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 使用此選項來根據規則狀態（`Active`或`Inactive`）篩選清單。 |
 | [!UICONTROL Web Site] | 使用此選項可依據針對規則定義的網站來篩選清單。 |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce）按一下「**[!UICONTROL Edit]**」以顯示「_[!UICONTROL Rule Information]_」頁面並更新規則設定（類似於建立規則）。 |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_）根據建立規則時定義的規則開始日期來篩選清單。 |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source）使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時定義的規則結束日期來篩選清單。 |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source和Adobe Commerce as a Cloud Service）使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時定義的規則開始日期來篩選清單。 <br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）使用動態行事曆欄位（「收件者：」和「寄件者：」），根據規則的開始日期和時間篩選清單。 |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) （僅限Magento Open Source和Adobe Commerce as a Cloud Service）使用動態行事曆欄位（_[!UICONTROL To:]_&#x200B;和_[!UICONTROL From:]_），根據建立規則時定義的規則結束日期來篩選清單。 <br><br>![Adobe Commerce](../assets/adobe-logo.svg) （僅限[!DNL Adobe Commerce as a Cloud Service]）使用動態行事曆欄位（「收件者：」和「寄件者：」），根據規則的結束日期和時間篩選清單。 |
 
 {style="table-layout:auto"}
 
