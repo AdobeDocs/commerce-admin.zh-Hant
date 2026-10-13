@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
@@ -441,3 +441,5 @@ _[!UICONTROL Companies]_&#x200B;頁面列出所有目前的公司帳戶，無論
 | [!UICONTROL Payment Methods] | （僅限管理員）在指定特定付款方式時，系統才會啟用。 若要選取多種付款方式，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。 |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->

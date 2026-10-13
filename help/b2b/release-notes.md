@@ -44,7 +44,8 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+last-update: 2026-10-13
+source-git-commit: 64a830dd0fc15cbe1c87e5a98f953e253c5db2bd
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +61,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >請參閱[產品可用性](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/product-availability)，以取得可用Adobe Commerce版本所支援B2B Commerce擴充功能版本的資訊。
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1163,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 - 在多網站部署中，Adobe Commerce在升級至B2B 1.2.0期間擲回例外狀況。 當`setup:upgrade`執行時，`PurchaseOrder`模組上會發生此錯誤： `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`。 **因應措施**：將`B2B-716 Add NonTransactionableInterface`介面安裝到`InitPurchaseOrderSalesSequence`資料修補程式Hotfix，現在可從`magento.com`的&#x200B;**我的帳戶** > **下載**&#x200B;區段取得。
 - 如果折扣代碼在核准採購單(PO)之前過期，則PO會繼續顯示折扣金額，但是一旦核准了PO，訂單就會以非折扣總計下單。 **因應措施**：安裝此問題的`B2B-709 Purchase Order Discount patch` Hotfix，您現在可從`magento.com`的&#x200B;**我的帳戶** > **下載**&#x200B;區段取得此修正程式。
 - 如果採購單中的料號無庫存，或採購單轉換為實際訂單時數量不足，則會發生錯誤。 如果啟用延期交貨，則會正常處理訂單。
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

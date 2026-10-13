@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2429'
 ht-degree: 0%
 ---
 # 目錄擴充
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe LLM Optimizer]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理LLM Optimizer整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[LLM Optimizer產品檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/home)。
+>目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理Adobe Brand Visibility整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[[!DNL Adobe Brand Visibility] 產品檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/home)。
 
 ## 運作方式 {#how-it-works}
 
@@ -81,13 +81,25 @@ ht-degree: 0%
 
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
-- [IMS已設定](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/organizations)。
+- 存取目錄擴充功能的Commerce管理員使用者已透過Adobe IMS登入。 檢視[IMS登入與組織需求](#ims-sign-in-requirements)。
 - 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 - 貴組織已針對基礎AI服務簽署GenAI附加條款，或明確選擇退出。
 
 >[!NOTE]
 >
 >在設定過程中，Commerce會檢查貴組織是否已簽署涵蓋目錄擴充背後之AI服務的GenAI附加條款。 如果您尚未簽署騎士或選擇退出，系統會提示您簽署或更新騎士，然後才能使用目錄擴充。
+
+### IMS登入和組織需求 {#ims-sign-in-requirements}
+
+目錄擴充使用登入的Commerce管理員使用者的Adobe IMS存取權杖來連線至[!DNL Adobe Brand Visibility]。 僅使用Commerce使用者名稱和密碼的原生Commerce管理員登入不會產生此Token，因此存取目錄擴充的管理員使用者必須透過Adobe IMS登入。
+
+若要支援IMS登入，您的Commerce執行個體必須啟用Commerce管理與Adobe ID的整合。 請參閱[使用Adobe ID設定Commerce管理整合](/help/getting-started/adobe-ims-config.md)。
+
+>[!IMPORTANT]
+>
+>啟用Commerce管理與Adobe ID的整合是一項執行個體範圍的變更。 啟用後，每位管理員使用者都必須透過Adobe IMS進行驗證，原生Commerce使用者名稱和密碼登入將不再可用。 啟用這項整合之前，請先檢閱[Adobe Identity Management Service (IMS)整合總覽](/help/getting-started/adobe-ims-integration-overview.md)。
+
+與您的Commerce執行個體相關聯的Adobe IMS組織，通常與持有您[!DNL Adobe Brand Visibility]權益的IMS組織不同。 啟用Commerce與Adobe ID管理整合本身並不會授與品牌可見度軟體權利檔案的存取權，而且不需要兩個組織相同。 與您的Adobe管理員或帳戶團隊合作，確認在您的設定中需要哪些IMS組織成員資格和帳戶存取目錄擴充。
 
 ## 啟用目錄擴充 {#enable-catalog-enrichment}
 
@@ -112,16 +124,18 @@ ht-degree: 0%
 
 ![目錄擴充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### 設定目錄擴充
+### 設定目錄擴充 {#configure-catalog-enrichment}
 
 在「**[!UICONTROL Settings]**」索引標籤上設定目錄擴充，讓[!DNL Commerce Catalog Agent]可以連線至您的[!DNL Adobe Commerce]環境，並在Commerce管理員中顯示建議。
+
+此標籤上的欄位會識別目錄擴充所連線的Commerce環境和存放區檢視。 它們與持有您[!DNL Adobe Brand Visibility]權益的Adobe IMS組織不同。 檢視[IMS登入與組織需求](#ims-sign-in-requirements)。
 
 1. 在Admin中，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**。
 1. 在頁面頂端的&#x200B;**[!UICONTROL Scope]**&#x200B;清單中，選取您要設定的商店檢視，或保留&#x200B;**[!UICONTROL All Store Views]**&#x200B;以跨商店檢視管理設定。
 1. 開啟&#x200B;**[!UICONTROL Settings]**&#x200B;標籤。
 1. 在&#x200B;**[!UICONTROL Commerce Configuration]**&#x200B;中，展開標示其URL的存放區檢視面板。
 
-   提供您的[!DNL Adobe Commerce]環境詳細資訊，以啟用目錄LLM Optimizer服務和稽核工作流程。
+   提供您的[!DNL Adobe Commerce]環境詳細資訊，以啟用目錄Adobe Brand Visibility服務和稽核工作流程。
 
    目錄擴充設定索引標籤上的![Commerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 

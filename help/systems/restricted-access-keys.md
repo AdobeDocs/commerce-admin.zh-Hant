@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -128,3 +128,5 @@ Commerce會產生新的金鑰組並儲存私密金鑰。 「限制存取金鑰�
 > - [服務> ACO目錄檢視](../configuration-reference/services/aco-catalog-view.md) — 設定店面存取權杖存留期，並啟用或停用發佈
 > - [在&#x200B;*Adobe Commerce Optimizer Connector指南*&#x200B;中管理受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} — 瞭解這些金鑰如何融入B2B共用目錄同步
 > - *Adobe Commerce Optimizer指南*&#x200B;中的[受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 非B2B使用案例的手動的ACO Studio金鑰流程
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
