@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 若要設定權杖存留期或停用權杖發行，請參閱[服務> ACO目錄檢視](/help/configuration-reference/services/aco-catalog-view.md)。
 
-您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;標籤或關聯公司的&#x200B;_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
+您可以檢閱這些目錄檢視，並從共用目錄的&#x200B;_[!UICONTROL Catalog Views]_標籤或關聯公司的_[!UICONTROL Catalog Views]_&#x200B;區段管理其指派的金鑰，兩者都會列出相同的目錄檢視和目前的金鑰指派。 請參閱[編輯受限制的存取金鑰](#edit-restricted-access-keys)，以取得每個位置的確切導覽路徑。
 
 若要監視與[!DNL Adobe Commerce Optimizer]的共用目錄資料同步處理，請參閱[目錄檢視同步處理狀態監視](/help/systems/catalog-view-sync-status.md)。
 
@@ -85,3 +85,5 @@ ht-degree: 0%
 > - [目錄檢視同步處理狀態監視](/help/systems/catalog-view-sync-status.md)
 > - [管理您的共用目錄](catalog-shared-manage.md)
 > - [管理公司帳戶](account-company-manage.md)
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
