@@ -3,11 +3,9 @@ title: 存貨 — 指定來源與數量
 description: 關於建立目錄產品時指定來源與數量的「重複使用」區段。
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # 存貨 — 指定來源與數量
 
 針對使用[[!DNL Inventory Management]](../inventory-management/introduction.md)的多重來源商家，向下捲動至&#x200B;**來源**&#x200B;區段，並指派來源與數量：
