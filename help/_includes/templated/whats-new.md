@@ -1,7 +1,7 @@
 ---
-source-git-commit: 104cd926fa6ec987613694d0960b66cfc30dfc1b
+source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '549'
 ht-degree: 1%
 ---
 # 新功能範本
@@ -9,6 +9,36 @@ ht-degree: 1%
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年10月13日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>已將Adobe Commerce B2B 1.5.4-alpha1已修正問題的詳細資料新增至<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes">B2B發行說明</a>，並按元件分組，並提供可用的GitHub參考。</p>
+</td>
+      <td>
+        發行說明
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">認可</a></td>
+    </tr>
+    <tr>
+      <td><p>已更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/catalog-enrichment">目錄擴充</a>，其中包含透過Adobe IMS登入目錄擴充的指引，釐清Commerce IMS組織與擁有Adobe Brand Visibility權利的組織之間的區別，並更新熒幕擷取畫面。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月8日
 
