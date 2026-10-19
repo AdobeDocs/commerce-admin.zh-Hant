@@ -3,6 +3,7 @@ title: 目錄擴充
 description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI協助的探索，檢閱並將AI建議的改進套用至產品名稱和詳細說明。
 role: Admin, User, Leader
 recommendations: noCatalog
+touch: true
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
