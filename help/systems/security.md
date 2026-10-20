@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. **清除**：請聘請[合格的顧問](https://solutionpartners.adobe.com/s/directory/?partner_type=1)或線上服務，清除網站上的所有惡意程式碼。 有些Commerce社群成員建議[[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal)。 檢查`/media`資料夾中是否有剩餘的可執行程式碼。 移除所有未知的管理員使用者並重設所有管理員密碼。
 
-1. **保護**：使用最新版本保持您的Commerce安裝最新狀態。 如果您使用較舊的版本，請在所有可用的安全性修補程式時套用。 檢閱並遵循[Commerce安全性最佳實務](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)。 訂閱[Commerce安全性警示](https://www.adobe.com/subscription/adbeSecurityNotifications.html)。
+1. **保護**：使用最新版本保持您的Commerce安裝最新狀態。 如果您使用較舊的版本，請在所有可用的安全性修補程式時套用。 檢閱並遵循[Commerce安全性最佳實務](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)。 訂閱[Commerce安全性警示](https://www.adobe.com/tw/subscription/adbeSecurityNotifications.html)。
 
 1. **報告**：如果您認為已在Commerce中發現特定漏洞，[請開啟Adobe的問題](https://hackerone.com/adobe?type=team)並包含技術詳細資料。
 

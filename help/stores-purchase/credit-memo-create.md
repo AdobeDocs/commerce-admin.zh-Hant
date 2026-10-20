@@ -305,7 +305,7 @@ ht-degree: 0%
 
 ## 列印銷退折讓單
 
-若要列印或檢視完成的銷退折讓單，您必須安裝PDF讀取程式。 您可以免費下載[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
+若要列印或檢視完成的銷退折讓單，您必須安裝PDF讀取程式。 您可以免費下載[Adobe Reader](https://www.adobe.com/tw/acrobat/pdf-reader.html "取得Adobe Reader")。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**。
 

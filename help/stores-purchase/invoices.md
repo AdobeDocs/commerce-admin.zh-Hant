@@ -86,7 +86,7 @@ ht-degree: 0%
 >
 >對於使用`Gift Card`、`Store Credit`、`Reward Points`或其他離線付款方式所下的訂單，不會自動建立發票。
 
-必須先產生訂單的商業發票，然後才能列印。 若要檢視或列印PDF，請先下載並安裝PDF讀取器，例如[Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
+必須先產生訂單的商業發票，然後才能列印。 若要檢視或列印PDF，請先下載並安裝PDF讀取器，例如[Adobe Acrobat Reader](https://www.adobe.com/tw/acrobat/pdf-reader.html "取得Adobe Reader")。
 
 **_若要開立訂單發票:_**
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->若要檢視或列印PDF，您必須擁有PDF讀取器。 您可以免費下載[Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "取得Adobe Reader")。
+>若要檢視或列印PDF，您必須擁有PDF讀取器。 您可以免費下載[Adobe Reader](https://www.adobe.com/tw/acrobat/pdf-reader.html "取得Adobe Reader")。
 
 ### 列印單一發票
 
