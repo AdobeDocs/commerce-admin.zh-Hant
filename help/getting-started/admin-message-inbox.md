@@ -1,35 +1,45 @@
 ---
 title: 管理員訊息收件匣
-description: 瞭解管理員訊息收件匣，此收件匣提供來自Adobe和 [!DNL Commerce] 系統的重要且實用的訊息。
+description: 瞭解管理員訊息收件匣，此收件匣提供來自Adobe和[!DNL Commerce]系統的重要且實用的訊息。
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 TQID: https://experienceleague.adobe.com/3RgVAR8efVGsjazQsH8-3Ohfw1h8SDuqLyCDzMYAAng
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '434'
 ht-degree: 0%
-
 ---
-
 # 管理員訊息收件匣
+
+>[!NOTE]
+>
+>如需Adobe Commerce Unified Experience頂端導覽列中的Adobe as a Cloud Service通知、要求和產品公告，請參閱[檢視通知](admin-unified-experience.md#view-notifications)。 本主題說明Commerce管理員訊息收件匣，而非Adobe Unified Experience介面中的通知面板。
 
 您的商店會定期接收來自Adobe的訊息。 這些訊息依重要性分級，可能指涉系統更新、修補程式、新版本、排程維護或即將到來的事件。 標題中的鈴鐺圖示表示收件匣中未讀取的訊息數。
 
 ![管理員 — 傳入訊息](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_&#x200B;頁面列出所有依日期排名的訊息。_[!UICONTROL Action]_&#x200B;命令可用來將個別郵件標示為已讀取、檢視更多詳細資訊，或從收件匣移除郵件。
+_[!UICONTROL Notifications]_頁面列出所有依日期排名的訊息。_[!UICONTROL Action]_&#x200B;命令可用來將個別郵件標示為已讀取、檢視更多詳細資訊，或從收件匣移除郵件。
 
 此設定會決定收件匣更新的頻率，以及傳遞訊息的方式。 如果您的商店管理員有安全URL，則必須透過HTTPS傳送通知。
 

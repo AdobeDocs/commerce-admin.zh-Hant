@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 登入憑證和URL
@@ -54,6 +54,10 @@ ht-degree: 0%
 
 ## 管理員URL
 
+>[!NOTE]
+>
+>若為Adobe Commerce as a Cloud Service，請從Commerce Cloud Manager取得您的管理員連結。 請參閱[選擇管理介面](admin-unified-experience.md#classic-ui)以取得存取選項和URL格式。 以下以安裝為基礎的URL範例不適用於Adobe Commerce as a Cloud Service。
+
 您的商店[Admin](admin.md)的位址是在安裝期間設定的。 預設位址與您的商店相同，但結尾是`/admin`。 雖然本指南中的範例使用預設目錄，但最佳實務是從商店專屬的位置執行管理員。
 
 - `http://mydomain.com/admin`
@@ -69,6 +73,6 @@ ht-degree: 0%
 
 ## 範例資料
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
-Adobe提供範例資料集，其中包含超過250項產品（其中約200項為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。
+Adobe提供範例資料集，其中包含超過250項產品（其中約200項為可設定產品）、類別、促銷價格規則、CMS頁面、橫幅等的範例商店。 範例資料使用店面上的&#x200B;_Luma_&#x200B;主題。 [安裝此範例資料](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)是選擇性的，但有助於測試和開發電子商務業務的自訂專案。

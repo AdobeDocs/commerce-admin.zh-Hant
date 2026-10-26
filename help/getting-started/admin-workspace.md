@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # 管理工具和工作區
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 Admin工作區可讓您存取所有用於執行存放區的工具、資料和內容。 預設啟動頁面可在設定中設定。 許多「管理」頁面都有列出區段資料的網格，內含一組搜尋、排序、篩選、選取和套用動作的工具。 依預設，[儀表板](admin-dashboard.md)是管理員的啟動頁面。 不過，您可以選擇在登入時作為啟動頁面顯示的任何其他頁面。 您可以按一下管理員側邊欄中的標誌，以返回管理員啟動頁面。
 
@@ -63,7 +72,7 @@ Admin工作區可讓您存取所有用於執行存放區的工具、資料和內
 
 ## 變更管理員啟動頁面
 
-[儀表板](admin-workspace.md#the-dashboard)是Admin的預設啟動頁面，不過您可以設定不同的啟動頁面。
+控制面板是Admin的預設啟動頁面，不過您可以設定不同的啟動頁面。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
