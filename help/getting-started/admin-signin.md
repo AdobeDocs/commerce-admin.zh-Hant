@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # 您的管理員帳戶
+
+>[!NOTE]
+>
+>對於Adobe Commerce as a Cloud Service，請透過Adobe Experience Cloud登入，並從Commerce Cloud Manager開啟執行個體。 如需存取資訊，請參閱[Adobe Unified Experience中的Commerce管理員](admin-unified-experience.md#open-the-commerce-admin)；若要管理Adobe Commerce as a Cloud Service使用者和角色，請參閱[使用者管理](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/user-management)。 以下以安裝為基礎的帳戶和本機登入指示並未說明Adobe Commerce as a Cloud Service登入流程。
 
 主要Admin帳戶最初是在安裝期間設定，可能包含初始預留位置資訊或範例資料資訊。 此帳戶的指定擁有者可以個人化使用者名稱和密碼，並隨時更新名字、姓氏和電子郵件地址。 此帳戶預設為擁有所有許可權的&#x200B;_超級使用者_，通常會建立業務所需的管理員使用者帳戶。
 

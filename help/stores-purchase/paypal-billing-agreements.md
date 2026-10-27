@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 ### 檢視帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 ### 取消帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 ### 刪除帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 

@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_封存_&#x200B;動作會顯示在工作區的頂端。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Sales]**。
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ## 手動封存訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 若要選取網格上的順序，請選取第一欄中的核取方塊。
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
    - 在&#x200B;_[!UICONTROL Orders]_&#x200B;格線上方的按鈕列中，按一下&#x200B;**[!UICONTROL Go to Archive]**。
 
-   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**。
+   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ ht-degree: 0%
 >
 >根據[!UICONTROL Archive Orders Purchased]設定中設定的天數，從封存訂單還原的訂單會再次封存（請參閱[設定訂單封存](#configure-the-order-archive)）。 系統會根據訂單的[!UICONTROL Updated At]日期計算天數，當從封存中移動訂單時，日期會變更。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Go to Archive]**。
 
@@ -187,6 +187,6 @@ ht-degree: 0%
 
 ## 匯出已封存的訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在動作功能表中，按一下&#x200B;**[!UICONTROL Export]**&#x200B;並選取所需的格式。

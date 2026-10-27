@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -51,7 +51,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 ## 依SKU設定訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Sales]**。
 
@@ -69,7 +69,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 ![Adobe Commerce B2B](../assets/b2b.svg) （僅限Adobe Commerce B2B） _&#x200B;**若要啟用Order by SKU功能，請停用Quick Order功能：**&#x200B;_
 
-1. 前往&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 前往&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左面板&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL B2B Features]**
 

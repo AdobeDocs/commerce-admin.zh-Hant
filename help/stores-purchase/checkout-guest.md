@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # 訪客簽出
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **_停用來賓簽出:_**
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板上，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Checkout]**。
 
@@ -66,4 +66,4 @@ ht-degree: 0%
 
 啟用後，仍可存取透過已註冊電子郵件下單的訪客結帳訂單，同時也會出現在客戶的訂單歷史記錄中。
 
-若要啟用此功能，請瀏覽至&#x200B;**商店** >設定> **組態** >銷售> **銷售** > **訪客簽出**，並將&#x200B;**允許註冊電子郵件的訪客訂單存取**&#x200B;設定設為`Yes`。
+若要啟用此功能，請瀏覽至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]**，並將&#x200B;**[!UICONTROL Allow Guest Order Access for Registered Emails]**&#x200B;設定設為`Yes`。

@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # 發票
 
 商業發票是訂單付款記錄的記錄。 單一訂單可以[建立](#create-an-invoice)多張發票，每張發票可包含您指定的購買產品數目或數目。 您也可以建立[可列印的PDF發票](#print-invoices)作為客戶的銷售檔案。
 
-在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _作業_ > **發票**&#x200B;以開啟&#x200B;_發票_&#x200B;格線，並存取您建立的發票。
+在&#x200B;_Admin_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**&#x200B;以開啟&#x200B;_發票_&#x200B;格線，並存取您建立的發票。
 
 ![發票方格](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 **_若要開立訂單發票:_**
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在網格中尋找狀態為`Processing`的銷售訂單。 接著，執行下列動作：
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 ### 列印單一發票
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**。
 
 1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;格線中，找出發票，然後按一下_&#x200B;動作&#x200B;_欄中的&#x200B;**[!UICONTROL View]**。
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ### 列印多張商業發票
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Invoices]**。
 
 1. 在&#x200B;_[!UICONTROL Invoices]_&#x200B;網格中，選取要列印之每張商業發票的核取方塊。
 

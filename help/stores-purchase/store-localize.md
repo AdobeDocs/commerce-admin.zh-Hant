@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 步驟2：建立該語言的存放區檢視
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Store View]**。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 步驟3：變更存放區檢視的地區設定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉式清單中，選取要設定的存放區檢視，然後在提示時按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ### 步驟2：翻譯欄位標籤
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 在清單中，找到要翻譯的屬性，並在編輯模式下開啟。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ### 步驟4：翻譯產品屬性和屬性選項
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 選取要翻譯的屬性。
 

@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 登入憑證和URL
@@ -53,6 +53,10 @@ ht-degree: 0%
 如果您還沒有網域，您的商店URL會包含一系列四個數字，每個數字以&#x200B;_點狀四_&#x200B;標籤法以句點分隔。
 
 ## 管理員URL
+
+>[!NOTE]
+>
+>若為Adobe Commerce as a Cloud Service，請從Commerce Cloud Manager取得您的管理員連結。 請參閱[選擇管理介面](admin-unified-experience.md#classic-ui)以取得存取選項和URL格式。 以下以安裝為基礎的URL範例不適用於Adobe Commerce as a Cloud Service。
 
 您的商店[Admin](admin.md)的位址是在安裝期間設定的。 預設位址與您的商店相同，但結尾是`/admin`。 雖然本指南中的範例使用預設目錄，但最佳實務是從商店專屬的位置執行管理員。
 

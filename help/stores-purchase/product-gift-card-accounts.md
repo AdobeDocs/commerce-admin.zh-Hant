@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 步驟1：設定電子郵件通知
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Gift Cards]**。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 1. 若要尋找目前訂單的禮品卡帳戶號碼，請執行下列步驟：
 
-   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
    - 尋找清單中的順序，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL View]**。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
    數字在&#x200B;**[!UICONTROL Gift Card Accounts]**&#x200B;下的&#x200B;_[!UICONTROL Product]_&#x200B;欄中。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 在格線中尋找禮品卡帳戶，並在編輯模式中開啟。
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 建立禮品卡帳戶
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Gift Card Account]**。
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 ## 檢視禮卡帳戶歷史記錄
 
-1. 前往&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 前往&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 在編輯模式中開啟禮品卡。
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 ## 刪除禮品卡帳戶
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**。
 
 1. 選取要刪除的禮品卡帳戶，並在編輯模式中開啟。
 

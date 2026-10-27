@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 設定Cookie期限
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;[!UICONTROL **商店**] > _[!UICONTROL Settings]_>[!UICONTROL **設定**]。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;[!UICONTROL **商店**] > [!UICONTROL **設定**]。
 
 1. 如果您有多個商店，請將右上角的&#x200B;**[!UICONTROL Store View]**&#x200B;選擇器設定為套用設定的商店。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 為了更輕鬆登入，**[!UICONTROL Remember Me]**&#x200B;功能可讓使用者帳戶持有人避免在每次進入店面時輸入其認證。 基於安全考量，預設會停用持續性功能。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Persistent Shopping Cart]**。
 

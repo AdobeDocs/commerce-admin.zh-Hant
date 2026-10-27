@@ -1,19 +1,17 @@
 ---
 user-guide-title: Adobe Commerce管理員快速入門手冊
-user-guide-description: 如果您是Adobe Commerce或Magento Open Source管理員的新手，請探索 [!DNL Commerce] 生態系統的資源、依照客戶歷程探索您的商店，並瞭解重要的管理員功能。
+user-guide-description: 如果您是Adobe Commerce或Magento Open Source管理員的新手，請探索[!DNL Commerce]生態系統的資源、依照客戶歷程探索您的商店，並瞭解重要的管理員功能。
 breadcrumb-title: 快速入門
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Commerce管理員快速入門手冊 {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [協助工具](navigation-accessibility.md)
 + 管理員 {#admin}
   + [管理員是什麼？](admin.md)
+  + [統一體驗管理](admin-unified-experience.md)
   + [您的管理員使用者帳戶](admin-signin.md)
   + Adobe Identity Management服務(IMS)整合 {#ims}
     + [IMS整合總覽](adobe-ims-integration-overview.md)

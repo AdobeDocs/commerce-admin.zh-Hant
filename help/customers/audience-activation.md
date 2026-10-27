@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ composer require magento/audiences
    >
    >當您指定資料串流ID時，就會[將其與[!DNL Data Connection]擴充功能中的特定網站](https://experienceleague.adobe.com/zh-hant/docs/commerce/data-connection/fundamentals/connect-data#data-collection)建立關聯。 如果您的Commerce商店有多個網站，請在Real-Time CDP中為每個網站[建立目的地](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/destinations/ui/connect-destination)，並為每個網站使用不同的資料串流ID。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 展開&#x200B;**[!UICONTROL Services]**&#x200B;並選取&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 
@@ -448,7 +448,7 @@ bin/magento audiences:config:status
 ### 設定中選取的驗證型別不正確
 
 1. 開啟您的Commerce執行個體。
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 1. 展開&#x200B;**[!UICONTROL Services]**&#x200B;並選取&#x200B;**[!UICONTROL [!DNL Data Connection]]**。
 1. 確定您在&#x200B;**[!UICONTROL Authentication Type]**&#x200B;欄位中指定的伺服器對伺服器授權方法正確。 Adobe建議使用&#x200B;**OAuth**。 [JWT已過時](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console)，目前所有的憑證將於2026年3月1日到期。
 
