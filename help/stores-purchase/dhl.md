@@ -166,7 +166,7 @@ DHL提供整合式國際服務，以及客製化的、以客戶為中心的解�
 1. 若要建立記錄檔，其中包含從您的商店發出的DHL運送詳細資料，請將&#x200B;**[!UICONTROL Debug]**&#x200B;設為`Yes`。
 
 1. DHL提供&#x200B;**[!UICONTROL sandbox mode]**&#x200B;選項。 如果您使用沙箱模式，請將&#x200B;**[!UICONTROL sandbox mode]**&#x200B;設為`Yes`。
-如果您使用即時模式，請將**[!UICONTROL sandbox mode]**&#x200B;設為`No`。
+如果您使用即時模式，請將&#x200B;**[!UICONTROL sandbox mode]**&#x200B;設為`No`。
 
    >[!NOTE]
    >

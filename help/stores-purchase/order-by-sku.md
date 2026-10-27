@@ -67,11 +67,11 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
-![Adobe Commerce B2B](../assets/b2b.svg) （僅限Adobe Commerce B2B） _**若要啟用Order by SKU功能，請停用Quick Order功能：**_
+![Adobe Commerce B2B](../assets/b2b.svg) （僅限Adobe Commerce B2B） _&#x200B;**若要啟用Order by SKU功能，請停用Quick Order功能：**&#x200B;_
 
 1. 前往&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
-1. 在左面板&#x200B;_[!UICONTROL General]_下，選擇&#x200B;**[!UICONTROL B2B Features]**
+1. 在左面板&#x200B;_[!UICONTROL General]_&#x200B;下，選擇&#x200B;**[!UICONTROL B2B Features]**
 
 1. 展開&#x200B;**[!UICONTROL B2B Features]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
@@ -99,7 +99,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
 1. 根據偏好設定新增個別專案：
 
-   _**依SKU新增每個專案：**_
+   _&#x200B;**依SKU新增每個專案：**&#x200B;_
 
    - 輸入要訂購的專案的&#x200B;**[!UICONTROL SKU]**&#x200B;與&#x200B;**[!UICONTROL Qty]**。
 
@@ -107,7 +107,7 @@ _Order by SKU_&#x200B;是[Widget](../content-design/widgets.md)，可在商店�
 
    - 按一下&#x200B;**[!UICONTROL Add to Cart]**。
 
-   _**上傳包含多個專案的CSV檔案：**_
+   _&#x200B;**上傳包含多個專案的CSV檔案：**&#x200B;_
 
    - 準備包含`SKU`與`Qty`欄的[匯入資料CSV](../systems/data-csv.md) （逗號分隔值）檔案。
 

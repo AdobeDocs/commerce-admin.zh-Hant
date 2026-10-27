@@ -1,6 +1,6 @@
 ---
 title: 客戶現已上線
-description: '[!UICONTROL Customers ]功能表上的_Now Online_選項會列出您商店中目前線上上的所有客戶和訪客。'
+description: '[!UICONTROL Customers &#x200B;]功能表上的_Now Online_選項會列出您商店中目前線上上的所有客戶和訪客。'
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:
