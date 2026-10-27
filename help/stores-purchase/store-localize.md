@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 ## 步驟1：安裝語言套件
 
-請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱&#x200B;_擴充功能指南_&#x200B;中的[一般CLI安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/extensions)。
+請依照標準指示安裝語言套件擴充功能。 如需有關安裝擴充功能的詳細資訊，請參閱&#x200B;_擴充功能指南_&#x200B;中的[一般CLI安裝](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)。
 
 ## 步驟2：建立該語言的存放區檢視
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create Store View]**。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 步驟3：變更存放區檢視的地區設定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在&#x200B;**[!UICONTROL Scope]**&#x200B;下拉式清單中，選取要設定的存放區檢視，然後在提示時按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 ### 步驟2：翻譯欄位標籤
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 在清單中，找到要翻譯的屬性，並在編輯模式下開啟。
 
 1. 在左側面板中選擇&#x200B;**[!UICONTROL Manage Labels]**。
 
-1. 在&#x200B;_[!UICONTROL Manage Titles]_&#x200B;區段中，輸入每個商店檢視的轉譯標籤。
+1. 在&#x200B;_[!UICONTROL Manage Titles]_區段中，輸入每個商店檢視的轉譯標籤。
 
    ![輸入翻譯的標籤](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 1. 如需&#x200B;_基本資訊_，請翻譯&#x200B;**[!UICONTROL Category Name]**。
 
-1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_&#x200B;區段並翻譯&#x200B;**[!UICONTROL Description]**。
+1. 展開![擴充選擇器](../assets/icon-display-expand.png) _[!UICONTROL Content]_區段並翻譯&#x200B;**[!UICONTROL Description]**。
 
 1. 展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Search Engine Optimization Settings]**&#x200B;區段並翻譯下列欄位：
 
@@ -132,7 +132,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_&#x200B;區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
+1. 在&#x200B;_[!UICONTROL Search Engine Optimization Settings]_區段下，執行下列動作以翻譯&#x200B;**[!UICONTROL URL Key]**：
 
    - 清除欄位右側的&#x200B;**[!UICONTROL Use Default Value]**&#x200B;核取方塊。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ### 步驟4：翻譯產品屬性和屬性選項
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Product]**。
 
 1. 選取要翻譯的屬性。
 

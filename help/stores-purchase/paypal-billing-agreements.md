@@ -3,7 +3,7 @@ title: PayPal帳單協定
 description: 瞭解如何在商店中支援PayPal帳單協定和支付方式。
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 ## 管理帳單協定
 
-_[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間的所有帳單協定。 商戶可以依客戶或帳單協定資訊來篩選記錄，包括帳單協定參考識別碼、狀態和建立日期。 每個記錄都包含帳單協定的一般資訊，以及所有將其用作付款方式的銷售訂單。 您可以檢視、取消或刪除客戶帳單協定。 取消的帳單協定只能由存放區管理員刪除。
+_[!UICONTROL Billing Agreements]_頁面列出您商店與其客戶之間的所有帳單協定。 商戶可以依客戶或帳單協定資訊來篩選記錄，包括帳單協定參考識別碼、狀態和建立日期。 每個記錄都包含帳單協定的一般資訊，以及所有將其用作付款方式的銷售訂單。 您可以檢視、取消或刪除客戶帳單協定。 取消的帳單協定只能由存放區管理員刪除。
 
 ### 檢視帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
-每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_&#x200B;和_[!UICONTROL Related Orders]_。
+每個帳單協定頁面都包含兩個標籤： _[!UICONTROL General Information]_和_[!UICONTROL Related Orders]_。
 
 #### 一般資訊
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 ### 取消帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;頁面列出您商店與其客戶之間
 
 ### 刪除帳單協定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**。
 
 1. 在清單中尋找帳單協定，然後按一下以開啟它。
 

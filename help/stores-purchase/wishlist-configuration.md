@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 啟用希望清單功能
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Wish List]**。
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Widget]**。
 
-1. 在&#x200B;_[!UICONTROL Settings]_&#x200B;索引標籤中，執行下列動作：
+1. 在&#x200B;_[!UICONTROL Settings]_索引標籤中，執行下列動作：
 
    - 將&#x200B;**[!UICONTROL Type]**&#x200B;設為`Wish List Search`。
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
      `0` =第一個（預設）、`1` =第二個、`2` =第三個，依此類推。
 
-1. 在&#x200B;_[!UICONTROL Layout Updates]_&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;並將&#x200B;**[!UICONTROL Display on]**&#x200B;設定為下列其中一項：
+1. 在&#x200B;_[!UICONTROL Layout Updates]_區段中，按一下&#x200B;**[!UICONTROL Add Layout Update]**並將&#x200B;**[!UICONTROL Display on]**設定為下列其中一項：
 
    - _[!UICONTROL Categories]_
 

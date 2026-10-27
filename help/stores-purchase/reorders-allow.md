@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 啟用後，可以直接從客戶帳戶或&#x200B;_Admin_&#x200B;中的原始訂單進行重新排序。 依預設會啟用重新排序。
 
-在Admin![&#128279;](./assets/customer-reorder.png){width="700" zoomable="yes"}中客戶重新排序連結
+在Admin](./assets/customer-reorder.png){width="700" zoomable="yes"}中![客戶重新排序連結
 
 ## 為訂單啟用重新排序的條件
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 設定以允許客戶重新訂購
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並在下方選擇&#x200B;**[!UICONTROL Sales]**。
 

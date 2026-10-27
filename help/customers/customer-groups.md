@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # 客戶群組
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 將客戶群組與特定折扣建立關聯
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，前往&#x200B;**[!UICONTROL Marketing]** > _促銷活動_ > **[!UICONTROL Cart Price Rules]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**。
 
 1. 選取您想要為套用折扣建立群組關聯的購物車價格規則，或[建立價格規則](../merchandising-promotions/price-rules-catalog.md)。
 

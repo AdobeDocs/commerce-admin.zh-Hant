@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->只有在封存已啟用[時](../configuration-reference/sales/sales.md)，_[!UICONTROL Archive]_&#x200B;選項才會出現在[[!UICONTROL Sales]功能表](sales-menu.md)中。
+>只有在封存已啟用[時](../configuration-reference/sales/sales.md)，_[!UICONTROL Archive]_選項才會出現在[[!UICONTROL Sales]功能表](sales-menu.md)中。
 
 ## 設定訂單封存
 
 您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_封存_&#x200B;動作會顯示在工作區的頂端。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Sales]**。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 檢視封存的檔案
 
-1. 在&#x200B;_[!UICONTROL Archive]_&#x200B;下的&#x200B;_[!UICONTROL Sales]_&#x200B;功能表中，選擇下列任一項：
+1. 在&#x200B;_[!UICONTROL Archive]_下的_[!UICONTROL Sales]_&#x200B;功能表中，選擇下列任一項：
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -135,11 +135,11 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Export]**。
 
-您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_[!UICONTROL Archive]_&#x200B;命令會顯示在工作區的頂端。
+您可以設定商店，在設定的天數後，將訂單、商業發票、出貨及銷退折讓單存檔。 您可以將工單及其相關檔案移轉至存檔，或將它們還原成先前的狀態。 封存的訂單不會被刪除，管理員仍可繼續使用。 封存的資料可匯出至CSV檔案，並在試算表中開啟。 啟用時，_[!UICONTROL Archive]_命令會顯示在工作區的頂端。
 
 ## 手動封存訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 若要選取網格上的順序，請選取第一欄中的核取方塊。
 
@@ -155,13 +155,13 @@ ht-degree: 0%
 
 1. 使用下列其中一種方法開啟封存檢視：
 
-   - 在&#x200B;_[!UICONTROL Orders]_&#x200B;格線上方的按鈕列中，按一下&#x200B;**[!UICONTROL Go to Archive]**。
+   - 在&#x200B;_[!UICONTROL Orders]_格線上方的按鈕列中，按一下&#x200B;**[!UICONTROL Go to Archive]**。
 
-   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**。
+   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
    >[!NOTE]
    >
-   >與「訂單」頁面一樣，已封存訂單頁面的標題為&#x200B;_[!UICONTROL Orders]_。 唯一明顯的差異是按鈕列中的&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;選項。 頁面的URL也表示您處於順序封存中。
+   >與「訂單」頁面一樣，已封存訂單頁面的標題為&#x200B;_[!UICONTROL Orders]_。 唯一明顯的差異是按鈕列中的_[!UICONTROL Return to Orders Management]_&#x200B;選項。 頁面的URL也表示您處於順序封存中。
 
 1. 在&#x200B;_動作_&#x200B;資料行中，按一下&#x200B;**[!UICONTROL View]**。
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 >
 >根據[!UICONTROL Archive Orders Purchased]設定中設定的天數，從封存訂單還原的訂單會再次封存（請參閱[設定訂單封存](#configure-the-order-archive)）。 系統會根據訂單的[!UICONTROL Updated At]日期計算天數，當從封存中移動訂單時，日期會變更。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在按鈕列中按一下&#x200B;**[!UICONTROL Go to Archive]**。
 
@@ -187,6 +187,6 @@ ht-degree: 0%
 
 ## 匯出已封存的訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在動作功能表中，按一下&#x200B;**[!UICONTROL Export]**&#x200B;並選取所需的格式。

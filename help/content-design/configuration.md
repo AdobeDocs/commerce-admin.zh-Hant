@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '413'
 ht-degree: 0%
 ---
 # 設計設定
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**。
 
-1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要設定的存放區檢視，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
    頁面會顯示商店檢視的目前設計設定。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    如果未指定主題，則會使用系統預設主題。 有些協力廠商擴充功能會修改系統預設主題。
 
-1. [!BADGE 僅PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}如果主題僅用於特定裝置，請設定&#x200B;**[!UICONTROL User Agent Rules]**。
+1. [!BADGE 僅PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}如果主題僅用於特定裝置，請設定&#x200B;**[!UICONTROL User Agent Rules]**。
 
    ![使用者代理程式規則](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -68,16 +68,14 @@ ht-degree: 0%
    >
    >您可以為要指定的裝置新增任意數量的規則。 搜尋字串會依照輸入順序進行比對。
 
-1. 在&#x200B;_[!UICONTROL Other Settings]_&#x200B;底下，展開每個區段，然後依照連結主題中的指示，視需要編輯設定。
+1. 在&#x200B;_[!UICONTROL Other Settings]_底下，展開每個區段，然後依照連結主題中的指示，視需要編輯設定。
 
-   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
-   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL HTML Head]](page-setup.md#html-head)
-   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Header]](page-setup.md#header)
-   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Footer]](page-setup.md#footer)
-   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
+   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
+   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL HTML Head]](page-setup.md#html-head)
+   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Header]](page-setup.md#header)
+   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Footer]](page-setup.md#footer)
+   - 僅[!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
-
-   ![影響設計的其他設定](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Configuration]**。

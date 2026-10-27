@@ -21,20 +21,20 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 ---
 # 新客戶帳戶選項
 
-在設定的&#x200B;_[!UICONTROL Create New Account Options]_&#x200B;區段中，基本帳戶選項與更多與VAT ID驗證和自訂整合相關的進階選項結合。 下列指示僅涵蓋最常使用的選項。 若要瞭解自動客戶群組指派，請參閱[VAT驗證](../stores-purchase/vat.md)。
+在設定的&#x200B;_[!UICONTROL Create New Account Options]_區段中，基本帳戶選項與更多與VAT ID驗證和自訂整合相關的進階選項結合。 下列指示僅涵蓋最常使用的選項。 若要瞭解自動客戶群組指派，請參閱[VAT驗證](../stores-purchase/vat.md)。
 
 ![建立新帳戶選項](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
 ## 設定基本客戶帳戶選項
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Customer Configuration]**。
 

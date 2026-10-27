@@ -4,7 +4,6 @@ description: 有關 Adobe Commerce 和 Magento Open Source 管理員和電子商
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Adobe Commerce內容和設計手冊
 
-本指南適用於Adobe Commerce和Magento Open Source Admin中的內容設計人員和銷售商。 它提供有關內容和設計功能的詳細資訊，包括建置基本內容元件。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
+本指南主要適用於在Adobe Commerce和Magento Open Source專案中工作的內容設計人員和銷售商。 它提供有關內容和設計功能的詳細資訊，包括建置基本內容元件。 它假定您對核心[!DNL Commerce]設定和功能有基本的瞭解。
+
+在Adobe Commerce as a Cloud Service中，[店面](https://experienceleague.adobe.com/en/tools/commerce-storefront/)內建了設計考量。 不過，管理員仍可設定產品影像浮水印和異動電子郵件。
 
 本指南涵蓋：
 

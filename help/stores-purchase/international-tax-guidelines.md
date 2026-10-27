@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### 步驟1：完成稅捐計算設定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 若為多站台組態，請將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為組態目標的網站和商店。
 
@@ -370,13 +370,13 @@ ht-degree: 0%
 
 ### 步驟4：設定德國的商店檢視
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL All Stores]**。
 
 1. 在預設網站下，建立&#x200B;**[!UICONTROL Germany]**&#x200B;的商店檢視。
 
 1. 接著，執行下列動作：
 
-   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+   - 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
    - 在左上角，將&#x200B;**[!UICONTROL Default Config]**&#x200B;設定為法文商店。
 
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 ### 步驟6：設定德國的稅捐設定
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在右上角，將&#x200B;**[!UICONTROL Store View]**&#x200B;設定為德文商店的檢視，然後按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。
 

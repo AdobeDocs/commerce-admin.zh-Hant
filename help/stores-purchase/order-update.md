@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -114,7 +114,7 @@ ht-degree: 1%
 
 ## 編輯待處理訂單
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
 
 1. 在&#x200B;**[!UICONTROL Action]**&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**，以編輯訂單。
 
@@ -146,9 +146,9 @@ ht-degree: 1%
 
 取消訂單會將其狀態從`Pending`變更為`Canceled`。
 
-1. 在&#x200B;_[!UICONTROL Orders]_&#x200B;格線中，找到要取消的擱置訂單。
+1. 在&#x200B;_[!UICONTROL Orders]_格線中，找到要取消的擱置訂單。
 
-1. 在&#x200B;_[!UICONTROL Action]_&#x200B;欄中按一下&#x200B;**[!UICONTROL View]**。
+1. 在&#x200B;_[!UICONTROL Action]_欄中按一下&#x200B;**[!UICONTROL View]**。
 
 1. 按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;取消訂單。
 

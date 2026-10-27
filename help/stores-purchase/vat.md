@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 建立稅捐規則的處理從新增稅率開始。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**。
 
    ![設定客戶稅捐類別](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ### 步驟2：設定產品稅捐類別
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**。
 
 1. 按一下&#x200B;**[!UICONTROL Add New Tax Rule]**。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ### 步驟3：設定稅捐區與稅率
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**。
 
    在此範例中，您可以移除美國稅率，或維持原狀。
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 稅捐規則是客戶稅捐類別、產品稅捐類別與稅率的組合。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**。
 
 1. 新增稅捐規則，如下所示：
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 ### 步驟5：將稅捐類別套用至產品
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
 1. 在編輯模式中開啟目錄中的產品。
 
@@ -308,7 +308,7 @@ _VAT ID驗證_&#x200B;會根據商家與客戶地區設定，自動計算在歐�
 
 #### 步驟3：啟用並設定VAT ID驗證
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 如有必要，請設定組態的&#x200B;**[!UICONTROL Store View]**。
 

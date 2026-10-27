@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -70,7 +70,7 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 
 ### 步驟1：開啟設定頁面
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 ### 步驟2：設定付款方式儲存庫
 
@@ -79,11 +79,11 @@ _即時購買_&#x200B;可讓客戶使用儲存在帳戶中的資訊，加速結�
 瞭解如何設定Braintree或付款服務的付款方式及啟用儲存機制：
 
 - [Braintree](braintree.md)
-- [付款服務檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce/payment-services/guide-overview)
+- [付款服務檔案](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### 步驟3：啟用立即購買
 
-1. 在左側面板的&#x200B;_[!UICONTROL Sales]_&#x200B;區段下，選擇&#x200B;**[!UICONTROL Sales]**。
+1. 在左側面板的&#x200B;_[!UICONTROL Sales]_區段下，選擇&#x200B;**[!UICONTROL Sales]**。
 
 1. 展開&#x200B;**[!UICONTROL Instant Purchase]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
 

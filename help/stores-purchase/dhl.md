@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 1%
@@ -38,7 +38,7 @@ DHL提供整合式國際服務，以及客製化的、以客戶為中心的解�
 
 ## 步驟1：啟用DHL
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Delivery Methods]**。
 
@@ -166,7 +166,7 @@ DHL提供整合式國際服務，以及客製化的、以客戶為中心的解�
 1. 若要建立記錄檔，其中包含從您的商店發出的DHL運送詳細資料，請將&#x200B;**[!UICONTROL Debug]**&#x200B;設為`Yes`。
 
 1. DHL提供&#x200B;**[!UICONTROL sandbox mode]**&#x200B;選項。 如果您使用沙箱模式，請將&#x200B;**[!UICONTROL sandbox mode]**&#x200B;設為`Yes`。
-如果您使用即時模式，請將&#x200B;**[!UICONTROL sandbox mode]**&#x200B;設為`No`。
+如果您使用即時模式，請將**[!UICONTROL sandbox mode]**&#x200B;設為`No`。
 
    >[!NOTE]
    >

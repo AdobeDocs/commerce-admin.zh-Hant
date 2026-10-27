@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -45,11 +45,11 @@ _採購單_ （採購單）可讓商業客戶參考採購單編號來支付授�
 
 **_若要依採購單設定付款:_**
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Payment Methods]**。
 
-1. 在&#x200B;_[!UICONTROL Other Payment Methods]_&#x200B;底下，展開&#x200B;**[!UICONTROL Purchase Order]**&#x200B;區段的![擴充選擇器](../assets/icon-display-expand.png)。
+1. 在&#x200B;_[!UICONTROL Other Payment Methods]_底下，展開&#x200B;**[!UICONTROL Purchase Order]**區段的![擴充選擇器](../assets/icon-display-expand.png)。
 
    ![採購單](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ _採購單_ （採購單）可讓商業客戶參考採購單編號來支付授�
 1. 將&#x200B;**[!UICONTROL Payment from Applicable Countries]**&#x200B;設定為下列其中一項：
 
    - `All Allowed Countries` — 來自您商店組態中指定的所有[國家/地區](../getting-started/store-details.md#country-options)的客戶都可以使用此付款方式。
-   - `Specific Countries` — 選取此選項後，_[!UICONTROL Payment from Specific Countries]_&#x200B;清單就會顯示。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
+   - `Specific Countries` — 選取此選項後，_[!UICONTROL Payment from Specific Countries]_清單就會顯示。 若要選取多個國家/地區，請按住Ctrl鍵(PC)或Command鍵(Mac)，然後按一下每個選項。
 
 1. 將&#x200B;**[!UICONTROL Minimum Order Total]**&#x200B;與&#x200B;**[!UICONTROL Maximum Order Total]**&#x200B;設為符合此付款方式所需的金額。
 

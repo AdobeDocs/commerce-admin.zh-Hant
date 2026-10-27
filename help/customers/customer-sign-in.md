@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 您可以設定商店，讓客戶在登入後重新導向至帳戶儀表板，或讓客戶繼續購物。
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Customers]**&#x200B;並選擇&#x200B;**[!UICONTROL Customer Configuration]**。
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 登出客戶帳戶
 
-1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_&#x200B;旁的右上角，客戶按一下&#x200B;**[!UICONTROL v]**&#x200B;功能表選取器。
+1. 在&#x200B;_[!UICONTROL Welcome, Customer Name!]_旁的右上角，客戶按一下&#x200B;**[!UICONTROL v]**功能表選取器。
 
 1. 選擇&#x200B;**[!UICONTROL Sign Out]**。
 

@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 步驟1：選擇接受的幣別
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左上角，將&#x200B;**[!UICONTROL Scope]**&#x200B;設定為套用設定的存放區檢視。
 
@@ -164,15 +164,15 @@ ht-degree: 0%
 
 ![貨幣符號](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**。
 
-   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_&#x200B;清單中。
+   為商店啟用的每種貨幣都會顯示在&#x200B;_[!UICONTROL Currency]_清單中。
 
 1. 視需要變更清單中的設定：
 
    - 為您要使用的每種貨幣輸入自訂符號，或選取每種貨幣的&#x200B;**[!UICONTROL Use Standard]**&#x200B;核取方塊。
 
-   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_&#x200B;核取方塊並輸入您要使用的符號。
+   - 若要覆寫預設符號，請清除&#x200B;_[!UICONTROL Use Standard]_核取方塊並輸入您要使用的符號。
 
    >[!NOTE]
    >

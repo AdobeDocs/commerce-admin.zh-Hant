@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 3%
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 ## 步驟2. 選擇傳輸型別
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]**。
 
 1. 在左側面板中，展開&#x200B;**[!UICONTROL Sales]**&#x200B;並選擇&#x200B;**[!UICONTROL Sales Emails]**。
 
@@ -61,7 +61,7 @@ ht-degree: 3%
    - `Disable` — 在事件觸發時傳送銷售電子郵件。
    - `Enable` — 以預先決定的固定間隔傳送銷售電子郵件。
 
-   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
+   Adobe Commerce支援建議啟用非同步傳送，以改善下單效能。 請參閱Adobe Commerce支援知識庫中的[訂單處理的設定最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration)。
 
 ## 步驟3. 完成每封銷售電子郵件訊息的詳細資料
 
