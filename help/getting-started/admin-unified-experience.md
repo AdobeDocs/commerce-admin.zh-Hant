@@ -4,7 +4,7 @@ description: 瞭解Adobe Commerce as a Cloud Service客戶如何在Adobe Unified
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe Unified Experience中的Commerce管理員
@@ -55,20 +55,24 @@ Adobe Unified Experience介面提供跨Adobe產品使用的共用頂端導覽、
 登入流程可讓您在Commerce執行個體之間移動，而不需分別登入每個執行個體。
 您可以在Adobe產品和Commerce執行個體之間移動，不需要進一步的登入提示。
 
-如需存取程式，請參閱&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[存取執行個體](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+如需存取程式，請參閱&#x200B;_Adobe Commerce as a Cloud Service指南_&#x200B;中的[存取執行個體](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}。
+<!--
 
 >[!BEGINTABS]
 
->[!TAB 從Commerce Cloud Manager開啟管理員]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![開啟管理員](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![開啟管理員](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 在操作中檢視它]
+<!--
+>[!TAB See it in action]
 
-![從Commerce Cloud Manager開啟管理員](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
+-->
 ### 選擇管理員介面 {#classic-ui}
 
 針對Unified Experience中Commerce Admin的初始版本，Adobe Commerce as a Cloud Service支援兩個Commerce管理體驗，即Adobe Unified Experience和Classic UI。
@@ -82,7 +86,7 @@ Unified Experience和Classic UI的連結可在Commerce Cloud Manager的執行個
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 在Unified Experience中開啟「管理員」。 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 開啟先前的管理介面。 |
 
-![插圖顯示Commerce Cloud Manager執行個體詳細資訊，其中顯示管理員URL (Unified Shell UI)和管理員URL （傳統UI）連結](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![插圖顯示Commerce Cloud Manager執行個體詳細資訊，其中顯示管理員URL (Unified Shell UI)和管理員URL （傳統UI）連結](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _根據執行個體清單熒幕擷圖和更新的執行個體詳細資料設計圖例。 顯示的URL使用暫存主機。_
 
@@ -172,7 +176,7 @@ Admin內沒有介面開關。 使用Commerce Cloud Manager或儲存的管理員U
 
 >[!ENDTABS]
 
-如需Adobe Commerce as a Cloud Service使用者和角色管理的相關資訊，請參閱[使用者管理](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/user-management){target="_blank"}。
+如需Adobe Commerce as a Cloud Service使用者和角色管理的相關資訊，請參閱[使用者管理](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}。
 
 ### 切換Commerce執行個體
 
@@ -278,4 +282,4 @@ Commerce管理員中的頁面會重新整理外觀，以符合Adobe Unified Expe
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise介面與管理指南](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise介面與管理指南](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
