@@ -73,6 +73,7 @@ Adobe Unified Experience介面提供跨Adobe產品使用的共用頂端導覽、
 >[!ENDTABS]
 
 -->
+
 ### 選擇管理員介面 {#classic-ui}
 
 針對Unified Experience中Commerce Admin的初始版本，Adobe Commerce as a Cloud Service支援兩個Commerce管理體驗，即Adobe Unified Experience和Classic UI。
