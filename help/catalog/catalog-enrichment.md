@@ -4,7 +4,7 @@ description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # 目錄擴充
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理Adobe Brand Visibility整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[[!DNL Adobe Brand Visibility] 產品檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/home)。
+>目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理Adobe Brand Visibility整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[[!DNL Adobe Brand Visibility] 產品檔案](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)。
 
 ## 運作方式 {#how-it-works}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
 - 存取目錄擴充功能的Commerce管理員使用者已透過Adobe IMS登入。 檢視[IMS登入與組織需求](#ims-sign-in-requirements)。
-- 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- 您有[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 - 貴組織已針對基礎AI服務簽署GenAI附加條款，或明確選擇退出。
 
 >[!NOTE]
@@ -115,7 +115,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;現在可在您的Commerce執行個體中使用。
 
@@ -263,6 +263,7 @@ ht-degree: 0%
 
 ## 限制和考量事項 {#limits}
 
+- 擴充目前僅支援英文產品內容。
 - 擴充僅適用於產品名稱和詳細說明。 它不會變更PDP配置、Widget或其他頁面層級的店面內容。
 - 大型目錄和高的URL計數可能會影響分析完成的速度，以及同時出現的建議數量。
 - 有意義的建議假設與LLM相關的機器人可以存取您關心的產品URL。 機器人規則、驗證、地理封鎖和重度個人化可能會減少涵蓋範圍。
