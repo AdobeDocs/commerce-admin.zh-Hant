@@ -121,7 +121,7 @@ _客戶檢視_&#x200B;索引標籤列出有關客戶的資訊，包括&#x200B;**
 
 [商店點數](../customers/store-credit.md)索引標籤顯示已還原至客戶帳戶的金額，管理員可以管理此值。
 
-[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當使用者角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;資源時，**[!UICONTROL Customer View]**&#x200B;索引標籤上的[!UICONTROL Store Credit]索引標籤和&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才會出現。 請參閱[儲存信用角色資源](../customers/store-credit-using.md#store-credit-role-resources)。
+[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當使用者角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;資源時，**[!UICONTROL Customer View]**&#x200B;索引標籤上的[!UICONTROL Store Credit]索引標籤和&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才會出現。 請參閱[儲存信用角色資源](../customers/store-credit-using.md#store-credit-role-resources)。
 
 ### [!UICONTROL Newsletter]
 

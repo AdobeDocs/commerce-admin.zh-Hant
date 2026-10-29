@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 儲存信用角色資源
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
 
 下列資源決定哪些管理員使用者可以變更客戶的商店信用餘額，以及哪些使用者可以將商店信用套用至訂單。 如需將資源指派給使用者角色的資訊，請參閱[角色資源](../systems/permissions-user-roles.md#role-resources)。
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![將商店信用餘額套用至訂單](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當您的使用者角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;資源時，**[!UICONTROL Use Store Credit]**&#x200B;核取方塊才會出現。 請參閱[儲存信用角色資源](#store-credit-role-resources)。
+[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當您的使用者角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;資源時，**[!UICONTROL Use Store Credit]**&#x200B;核取方塊才會出現。 請參閱[儲存信用角色資源](#store-credit-role-resources)。
 
 ## 結帳時套用商店評價
 
