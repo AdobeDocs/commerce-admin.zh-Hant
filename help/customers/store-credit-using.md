@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # 套用商店點數
@@ -42,6 +42,18 @@ ht-degree: 0%
 
 ![客戶信用餘額與歷史記錄](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## 儲存信用角色資源
+
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}
+
+下列資源決定哪些管理員使用者可以變更客戶的商店信用餘額，以及哪些使用者可以將商店信用套用至訂單。 如需將資源指派給使用者角色的資訊，請參閱[角色資源](../systems/permissions-user-roles.md#role-resources)。
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]**&#x200B;可讓使用者檢視及更新商店信用餘額。 若沒有它，**[!UICONTROL Customer View]**&#x200B;標籤上的&#x200B;**[!UICONTROL Store Credit]**&#x200B;標籤和&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;將不可見。 使用者仍然可以對客戶帳戶進行其他編輯。
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]**&#x200B;允許使用者在[建立訂單](../stores-purchase/customer-account-create-order.md)時套用商店點數。 若沒有此核取方塊，**[!UICONTROL Use Store Credit]**&#x200B;核取方塊將不可見。
+
+使用REST API的管理員使用者和整合需要&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;資源，才能將商店點數套用至購物車，或針對已套用商店點數的購物車下訂單。 如需詳細資訊，請參閱[商店點數](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)。
+
 ## 檢視貸方餘額
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**。
@@ -50,7 +62,7 @@ ht-degree: 0%
 
 1. 在&#x200B;_動作_&#x200B;資料行中，按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 捲動&#x200B;_[!UICONTROL Customer View]_&#x200B;頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
+1. 捲動&#x200B;_[!UICONTROL Customer View]_頁面並在底部檢視&#x200B;**[!UICONTROL Store Credit Balance]**。
 
 ![儲存信用餘額](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -82,19 +94,21 @@ ht-degree: 0%
 
 ![將商店信用餘額套用至訂單](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
+[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當您的使用者角色包含&#x200B;**[!UICONTROL Can Spend Store Credit]**&#x200B;資源時，**[!UICONTROL Use Store Credit]**&#x200B;核取方塊才會出現。 請參閱[儲存信用角色資源](#store-credit-role-resources)。
+
 ## 結帳時套用商店評價
 
 如果地點有貸方餘額，客戶可以在將訂單放在店面之前，將商店貸方沖銷至訂單餘額。
 
 1. 客戶檢視可用的商店信用金額。
 
-   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_&#x200B;下方。
+   在&#x200B;_檢閱與付款_&#x200B;步驟期間，可用的金額會顯示在&#x200B;_[!UICONTROL Store Credit]_下方。
 
 1. 若要將金額套用至訂單，請按一下&#x200B;**[!UICONTROL Use Store Credit]**。
 
    >[!INFO]
    >
-   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_&#x200B;中。
+   >會重新計算訂單總計，且套用的商店點數金額會顯示在&#x200B;_[!UICONTROL Order Summary]_中。
 
    ![套用至訂單的貸方餘額](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
