@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 更新客戶設定檔
 
 _[!UICONTROL Customer Information]_&#x200B;頁面的左側面板包含有關客戶活動、地址、訂單統計資料、最近訂單、購物車內容、產品評論和電子報訂閱的資訊。
@@ -122,6 +120,8 @@ _客戶檢視_&#x200B;索引標籤列出有關客戶的資訊，包括&#x200B;**
 {{ee-feature}}
 
 [商店點數](../customers/store-credit.md)索引標籤顯示已還原至客戶帳戶的金額，管理員可以管理此值。
+
+[!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service專案（Adobe管理的SaaS基礎結構）。"}只有當使用者角色包含&#x200B;**[!UICONTROL Manage Store Credit Balances]**&#x200B;資源時，**[!UICONTROL Customer View]**&#x200B;索引標籤上的[!UICONTROL Store Credit]索引標籤和&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;才會出現。 請參閱[儲存信用角色資源](../customers/store-credit-using.md#store-credit-role-resources)。
 
 ### [!UICONTROL Newsletter]
 

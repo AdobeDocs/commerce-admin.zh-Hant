@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # 目錄擴充
@@ -263,6 +263,7 @@ ht-degree: 0%
 
 ## 限制和考量事項 {#limits}
 
+- 擴充目前僅支援英文產品內容。
 - 擴充僅適用於產品名稱和詳細說明。 它不會變更PDP配置、Widget或其他頁面層級的店面內容。
 - 大型目錄和高的URL計數可能會影響分析完成的速度，以及同時出現的建議數量。
 - 有意義的建議假設與LLM相關的機器人可以存取您關心的產品URL。 機器人規則、驗證、地理封鎖和重度個人化可能會減少涵蓋範圍。
