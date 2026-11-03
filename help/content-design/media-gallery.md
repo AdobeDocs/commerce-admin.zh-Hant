@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 8d9a194292793ed0d4d350b4d2102f3bb9fdd4ea
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '335'
 ht-degree: 0%
 ---
 # [!DNL Media Gallery]
 
-透過Adobe Commerce或Magento Open Source 2.4，商家可以使用新的&#x200B;_增強型_ [!DNL Media Gallery]來整理和管理伺服器上的媒體檔案。 此新[!DNL Media Gallery]包含與現有媒體儲存相同的功能，但包含改良的使用者介面以及與[Adobe Stock](https://stock.adobe.com)更緊密的整合。
+商家可以使用[!DNL Media Gallery]來組織和管理伺服器上的媒體檔案。
 
 ![顯示在媒體集格線中的影像](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >新增至&#x200B;[_[!UICONTROL Images and Videos]_&#x200B;產品區段](../catalog/product-image.md#upload-an-image)的產品影像不是由[!DNL Media Gallery]管理。 只有在&#x200B;_[!UICONTROL Content]_&#x200B;產品區段欄位中使用的影像，才會顯示在新的[!DNL Media Gallery]中並經過篩選。
 
-## 啟用新[!DNL Media Gallery]
+## 驗證[!DNL Media Gallery]組態 {#enable-the-new-media-gallery}
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -53,7 +53,11 @@ ht-degree: 0%
 
    ![進階設定 — [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. 將&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;設為`No`。
+1. 確認&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;已設定為`No`。
+
+   >[!IMPORTANT]
+   >
+   >啟用&#x200B;**[!UICONTROL Old Media Gallery]**&#x200B;的選項已過時。 確定此設定一律設為`No`。
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
