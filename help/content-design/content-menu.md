@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當[[!DNL Media Gallery]](media-gallery.md)啟用時，_[!UICONTROL Media]_區段會以單一選項顯示，以存取[!DNL Media Gallery]。 如果沒有看見此選項，請確認&#x200B;**[!UICONTROL Enable Old Media Gallery]**選項已設定為`No`。 如需詳細資訊，請參閱[驗證 [!DNL Media Gallery] 組態](media-gallery.md#enable-the-new-media-gallery)。
+>當[[!DNL Media Gallery]](media-gallery.md)啟用時，_[!UICONTROL Media]_&#x200B;區段會以單一選項顯示，以存取[!DNL Media Gallery]。 如果沒有看見此選項，請確認&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;選項已設定為`No`。 如需詳細資訊，請參閱[驗證 [!DNL Media Gallery] 組態](media-gallery.md#enable-the-new-media-gallery)。
 
 >[!BEGINTABS]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能表中的&#x200B;_[!UICONTROL Banners]_選項在2.3.1中已過時，現已移除。 其功能已由動態區塊取代。
+>此功能表中的&#x200B;_[!UICONTROL Banners]_&#x200B;選項在2.3.1中已過時，現已移除。 其功能已由動態區塊取代。
 
 ## [!UICONTROL Design] {#design-features}
 
