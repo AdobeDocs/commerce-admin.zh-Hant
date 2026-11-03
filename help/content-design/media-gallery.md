@@ -3,7 +3,7 @@ title: '[!DNL Media Gallery]'
 description: 使用「媒體集」來組織和管理伺服器上的媒體檔案。
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -28,22 +28,22 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 8d9a194292793ed0d4d350b4d2102f3bb9fdd4ea
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '335'
 ht-degree: 0%
 ---
 # [!DNL Media Gallery]
 
-透過Adobe Commerce或Magento Open Source 2.4，商家可以使用新的&#x200B;_增強型_ [!DNL Media Gallery]來整理和管理伺服器上的媒體檔案。 此新[!DNL Media Gallery]包含與現有媒體儲存相同的功能，但包含改良的使用者介面以及與[Adobe Stock](https://stock.adobe.com)更緊密的整合。
+商家可以使用[!DNL Media Gallery]來組織和管理伺服器上的媒體檔案。
 
 ![顯示在媒體集格線中的影像](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->新增至&#x200B;[_[!UICONTROL Images and Videos]_&#x200B;產品區段](../catalog/product-image.md#upload-an-image)的產品影像不是由[!DNL Media Gallery]管理。 只有在&#x200B;_[!UICONTROL Content]_&#x200B;產品區段欄位中使用的影像，才會顯示在新的[!DNL Media Gallery]中並經過篩選。
+>新增至&#x200B;[_[!UICONTROL Images and Videos]_產品區段](../catalog/product-image.md#upload-an-image)的產品影像不是由[!DNL Media Gallery]管理。 只有在_[!UICONTROL Content]_&#x200B;產品區段欄位中使用的影像，才會顯示在新的[!DNL Media Gallery]中並經過篩選。
 
-## 啟用新[!DNL Media Gallery]
+## 驗證[!DNL Media Gallery]組態 {#enable-the-new-media-gallery}
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -53,17 +53,21 @@ ht-degree: 0%
 
    ![進階設定 — [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. 將&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;設為`No`。
+1. 確認&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;已設定為`No`。
+
+   >[!IMPORTANT]
+   >
+   >啟用&#x200B;**[!UICONTROL Old Media Gallery]**&#x200B;的選項已過時。 確定此設定一律設為`No`。
 
 1. 按一下&#x200B;**[!UICONTROL Save Config]**。
 
 1. 出現提示時，請按一下系統訊息中的&#x200B;**[!UICONTROL Cache Management]**&#x200B;連結，然後重新整理無效的快取。
 
-   [[!UICONTROL Content]功能表](/help/content-design/content-menu.md)現在會顯示新的&#x200B;_[!UICONTROL Media Gallery]_&#x200B;選項。
+   [[!UICONTROL Content]功能表](/help/content-design/content-menu.md)現在會顯示新的&#x200B;_[!UICONTROL Media Gallery]_選項。
 
 >[!NOTE]
 >
->新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
+>新[!DNL Media Gallery]的完整功能需要啟動`media.gallery.synchronization`和`media.content.synchronization`佇列使用者以進行初始同步。 如需詳細資訊，請參閱&#x200B;_設定指南_&#x200B;中的[管理訊息佇列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
 
 ## 存取新的[!DNL Media Gallery]
 
@@ -79,7 +83,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL Add a New Page]**。
 
-   若要編輯現有頁面，您可以使用&#x200B;_[!UICONTROL Action]_&#x200B;欄按一下&#x200B;**[!UICONTROL Select]**&#x200B;並選擇&#x200B;**[!UICONTROL Edit]**。
+   若要編輯現有頁面，您可以使用&#x200B;_[!UICONTROL Action]_欄按一下&#x200B;**[!UICONTROL Select]**並選擇&#x200B;**[!UICONTROL Edit]**。
 
 1. 展開![展開選取器](../assets/icon-display-expand.png) **[!UICONTROL Content]**&#x200B;區段，然後執行下列動作：
 
