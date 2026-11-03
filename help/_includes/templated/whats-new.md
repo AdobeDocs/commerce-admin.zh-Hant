@@ -1,7 +1,7 @@
 ---
-source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
+source-git-commit: 9d0d0360b2e92c08c280a824951ef8968f0f4f78
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '755'
 ht-degree: 1%
 ---
 # 新功能範本
@@ -9,6 +9,94 @@ ht-degree: 1%
 ## 新增功能
 
 本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+
+### 2026年11月2
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/catalog-enrichment">目錄擴充</a>以包含發行說明、新的功能表導覽和安裝步驟。</p>
+</td>
+      <td>
+        發行說明
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f">認可</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026年10月29日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>新增<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources">存放區信用角色資源</a>，以控制哪些管理員使用者可以管理存放區信用。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676">認可</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026年10月27日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>更新Unified Shell介面的管理員使用手冊： <br /> — 修訂導覽指示，並更新整個指南中的熒幕擷取畫面，包括<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/tools/admin-menu">僅SaaS應用程式管理專案的「管理員側欄</a>」參考。<br /> — 釐清Adobe Commerce as a Cloud Service的<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/guide-overview">內容和設計功能</a>，包括產品影像浮水印和異動電子郵件。</p>
+</td>
+      <td>
+        重大更新
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5">認可</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026年10月26日
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>說明</th>
+      <th>型別</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>新增適用於Commerce as a Cloud Service客戶的新Adobe管理介面 — Commerce Unified Experience</a>中<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/admin-unified-experience">Adobe Commerce管理員的檔案。 本檔案說明更新的Commerce管理員導覽功能表，以及如何使用Adobe Unified Experience介面、切換組織、產品和執行個體，以及使用共用導覽、說明、通知和帳戶控制項。</p>
+</td>
+      <td>
+        新主題
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61">認可</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026年10月13日
 
@@ -102,28 +190,6 @@ ht-degree: 1%
         重大更新
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">認可</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026年8月31日
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>說明</th>
-      <th>型別</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>已從<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>的支援版本清單中移除Adobe Commerce 2.4.8-p5。 2.4.8客戶應該改用B2B 1.5.3版。</p>
-</td>
-      <td>
-        技術
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">認可</a></td>
     </tr>
   </tbody>
 </table>
