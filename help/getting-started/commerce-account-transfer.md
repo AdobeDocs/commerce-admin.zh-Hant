@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # 轉移Adobe Commerce帳戶
@@ -44,7 +44,11 @@ ht-degree: 0%
 >
 >如果新帳戶擁有者使用「共用存取」購買擴充功能，帳戶轉移一開始，這些擴充功能的存取權就會遺失。
 >
+>開始帳戶轉移之前，請先檢閱Marketplace擴充功能。 擴充功能和存取金鑰會與影像ID建立關聯。 傳輸開始時，將無法存取「共用存取」下購買的擴充功能。 標準帳戶轉帳程式不會將擴充功能的購買轉帳到其他帳戶；您可能需要申請退款，並根據預定帳戶重新購買擴充功能。 如果您的轉讓屬於授權重組的一部分，請聯絡Adobe Commerce支援以確認是否適用單獨的轉讓流程。
+>
 >在要求帳戶轉移之前，請確定新擁有者從[他們的 [!DNL Commerce Marketplace] 帳戶](https://commercemarketplace.adobe.com/sales/order/history/)擷取購買的訂單ID，並向[[!DNL Commerce Marketplace] 團隊](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)要求退款。 擴充功能購買無法轉移到其他帳戶。
+>
+>此外，計畫為接收MAGE ID產生新的存取金鑰，並更新您的部署所使用的Composer認證。 在開始帳戶轉移之前，請先完成適用的擴充功能和主要步驟。
 
 ## 識別您的傳輸型別
 
@@ -193,6 +197,12 @@ ht-degree: 0%
 1. 完成[電子郵件驗證步驟](#verify-an-adobe-id-email-change)。
 
 新擁有者驗證電子郵件地址後，請繼續[最後步驟](#final-steps)，以便Adobe Commerce支援可以更新帳戶記錄，例如[[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/)設定檔。
+
+## 需要協助處理您的帳戶轉帳?**
+
+如果上述傳輸型別均不符合您的情況，或您無法存取目前所有者的電子郵件地址，請提交Adobe Commerce支援票證。
+
+在您的請求中，說明哪種傳輸型別不適用，以及目前所有者的電子郵件是否可供存取。 包括目前和新擁有者的MAGEID、Adobe ID和相關電子郵件地址（如果已知）。 Adobe支援可檢閱您的情況，並就後續步驟為您提供建議。
 
 ## 最後步驟
 
