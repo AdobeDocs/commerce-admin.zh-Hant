@@ -53,7 +53,7 @@ ht-degree: 0%
 
 觀看此影片以示範如何使用[!DNL Columns]容器來調整您的頁面配置：
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507541?captions=chi_hant&quality=12&learn=on)
 
 ## 欄工具箱
 
