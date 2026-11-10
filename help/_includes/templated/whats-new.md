@@ -1,14 +1,14 @@
 ---
-source-git-commit: 12ddff93f620d02c70dc2d1b0c45fb47f9614115
+source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 0%
 ---
 # 新功能範本
 
 ## 新增功能
 
-本節包含過去60天所做的變更。 我們將從此清單中排除所有微幅更新，例如複製編輯。
+本節包含過去60天所做的變更。 微幅更新（例如複製編輯）會從此清單中排除。
 
 | 說明 | 型別 | 日期/來源 |
 | --- | --- | --- |
