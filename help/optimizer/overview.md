@@ -89,7 +89,7 @@ Commerce Foundation依然是產品和價格的真實來源，並繼續管理購�
 <!--
 Watch the following video for a high-level overview of [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450474?captions=chi_hant)
 -->
 
 ## 確認執行個體使用CCDM
