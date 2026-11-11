@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同的標準搜尋功能。
+>此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同的標準搜尋功能。
 >
 >對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱銷售服務中的[搜尋比對和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
@@ -59,7 +59,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 >[!IMPORTANT]
 >
->鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用於擴充搜尋結果的關鍵字對應
 

@@ -56,8 +56,8 @@ ht-degree: 3%
 | [共用目錄](../b2b/enable-basic-features.md) | 共用目錄可讓商家為不同的公司提供策劃的產品分類和自訂定價。 需要Adobe Commerce B2B授權和設定，包括公司帳戶和共用目錄功能。 |
 | [目錄擴充](catalog-enrichment.md) | 檢閱並將AI建議的改進套用至產品名稱和說明，以便您的目錄在LLM和AI協助的探索中準確呈現。 |
 | [產品屬性](product-attributes.md) | 使用產品選項的輸入控制項建立屬性，並在產品頁面上提供其他資訊。 |
-| [目錄檢視](../optimizer/setup/catalog-view.md) [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 針對使用銷售服務與可撰寫目錄資料模型(CCDM)的Commerce部署，結合每個品牌、地區、業務單位或頻道的目錄來源、目錄層、原則和價格簿，以定義使用者端可擷取的產品和定價。 選擇性地限制目錄檢視，使其成為私人檢視。 |
-| [原則](../optimizer/setup/policies.md)僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 針對使用CCDM的Commerce部署，定義資料存取篩選器，以控制每個目錄檢視傳送哪些產品，因此正確的內容會傳送至正確的目的地。 |
+| [目錄檢視](../optimizer/setup/catalog-view.md) [!BADGE 僅限SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 針對使用銷售服務與可撰寫目錄資料模型(CCDM)的Commerce部署，結合每個品牌、地區、業務單位或頻道的目錄來源、目錄層、原則和價格簿，以定義使用者端可擷取的產品和定價。 選擇性地限制目錄檢視，使其成為私人檢視。 |
+| [原則](../optimizer/setup/policies.md)僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"} | 針對使用CCDM的Commerce部署，定義資料存取篩選器，以控制每個目錄檢視傳送哪些產品，因此正確的內容會傳送至正確的目的地。 |
 
 {style="table-layout:auto"}
 

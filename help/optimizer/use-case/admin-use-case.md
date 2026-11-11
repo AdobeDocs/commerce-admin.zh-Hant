@@ -4,7 +4,7 @@ description: 瞭解如何使用[!DNL Adobe Commerce Optimizer]目錄檢視和原
 role: Admin, Developer
 feature: Personalization, Integration
 hide: true
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
 product_v2:

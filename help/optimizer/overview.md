@@ -2,7 +2,7 @@
 title: Merchandising Services概述
 description: 瞭解為布建CCDM的Adobe Commerce as a Cloud Service執行個體提供的目錄設定、銷售、報告和監視工具。
 recommendations: noCatalog
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Commerce Foundation依然是產品和價格的真實來源，並繼續管理購�
 
 - **商機** — 檢閱產品績效、購物者行為和搜尋趨勢，以找出銷售改善的領域。
 - **建議** — 在Commerce管理中建立和管理建議單位。 Recommendations會使用目錄資料和彙總的購物者行為來建議相關產品，例如「也檢視過此產品的客戶」。
-- **銷售規則** — 控制產品如何促銷和排名。 規則可套用至所有目錄檢視或針對特定檢視量身打造。 請參閱[建立銷售規則](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)。
+- **銷售規則** — 控制產品如何促銷和排名。 規則可套用至所有目錄檢視或針對特定檢視量身打造。 請參閱[建立銷售規則](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)。
 - **Facet** — 設定購物者用來依品牌、大小或價格等屬性縮小產品結果的篩選器。
 - **同義字** — 關聯對等搜尋字詞，以協助購物者找到使用相同概念之不同字詞的產品。
 - **設定** — 設定搜尋和銷售選項，包括價格層面、語言和進階搜尋。

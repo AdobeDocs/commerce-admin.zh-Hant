@@ -3,7 +3,7 @@ title: 目錄檢視
 description: 瞭解什麼是目錄檢視，以及如何建立檢視，以依業務結構、原則和定價組織您的產品目錄。
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -127,7 +127,7 @@ Commerce Foundation依然是產品和價格的真實來源。 產品與價格資
 
 ## 相關內容
 
-- [Adobe Commerce as a Cloud Service快速入門](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started)
+- [Adobe Commerce as a Cloud Service快速入門](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/getting-started)
 - [Adobe Commerce B2B共用目錄概觀](../../b2b/catalog-shared.md)
-- [Adobe Commerce as a Cloud Service發行說明](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+- [Adobe Commerce as a Cloud Service發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce/cloud-service/release-notes)
 - [目錄同步](data-sync.md)
