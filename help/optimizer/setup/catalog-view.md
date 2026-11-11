@@ -81,7 +81,7 @@ Commerce Foundation依然是產品和價格的真實來源。 產品與價格資
 設定B2B關係之後：
 
 1. 確認[同步處理](data-sync.md)已完成。
-2. 檢閱在[Unified Experience中的Commerce Admin ](../../getting-started/admin-unified-experience.md)中產生的目錄檢視、[原則](policies.md)和[價格手冊](pricebooks.md)。
+2. 檢閱在[Unified Experience中的Commerce Admin &#x200B;](../../getting-started/admin-unified-experience.md)中產生的目錄檢視、[原則](policies.md)和[價格手冊](pricebooks.md)。
 3. 確認店面會顯示公司的預期產品分類與定價。
 4. 測試加入購物車、購物車和結帳，以確認產品可用性和交易定價符合預期的B2B設定。
 

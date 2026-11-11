@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。 本節說明可能與[!DNL Live Search]不同的標準搜尋功能。
 >
->如果您的Adobe Commerce as a Cloud Service執行個體已布建可撰寫目錄資料模型(CCDM)，您可使用CCDM ](/help/optimizer/overview.md)在[銷售服務中設定搜尋設定、Facet、同義字和銷售規則。
+>如果您的Adobe Commerce as a Cloud Service執行個體已布建可撰寫目錄資料模型(CCDM)，您可使用CCDM [&#128279;](/help/optimizer/overview.md)在銷售服務中設定搜尋設定、Facet、同義字和銷售規則。
 
 研究顯示，使用搜尋的人比只依賴導覽的客戶更可能購買。 事實上，根據一些研究，使用搜尋的人購買的可能性幾乎是兩倍。
 
