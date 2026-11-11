@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] &gt； ACO目錄檢視同步'
 description: 檢閱Commerce管理員的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View Sync]頁面上的組態設定。
 feature: Configuration, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
 使用這些設定來控制[!DNL Adobe Commerce Optimizer Connector for B2B]如何將B2B共用目錄組態（目錄檢視、原則、價格手冊和金鑰）同步至[!DNL Adobe Commerce Optimizer]，以及如何解決兩個系統之間的組態差異。 請參閱[目錄檢視同步狀態監視](../../systems/catalog-view-sync-status.md)以監視這些設定的結果。
+
+>[!NOTE]
+>
+>此頁面適用於聯結器。 以Composable Catalog Data Model (CCDM)布建的執行個體會以原生方式同步資料，而不會使用聯結器。 請參閱[CCDM](/help/optimizer/overview.md)的銷售服務。
 
 {{config}}
 

@@ -34,16 +34,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 分層導覽
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>
+>對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱Merchandising Services中的[Facet](/help/optimizer/merchandising/facets/overview.md)。
 
 分層導覽可讓您根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。 分層導覽通常顯示在搜尋結果和類別頁面的左側欄，有時也會顯示在首頁上。 標準導覽包含&#x200B;_Shop By_&#x200B;類別與價格範圍清單。 您可以設定分層導覽的顯示方式，包括產品計數和價格範圍。
 
@@ -53,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)。
+>此主題中描述的可篩選屬性需求與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同。 若要深入瞭解，請參閱[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)。
 
 您可以使用分層導覽，依類別或屬性搜尋產品。 例如，當購物者從頂端導覽選擇Mens/Shorts類別時，初始結果會包括類別中的所有產品。 您可選擇特定樣式、氣候、顏色、材質、圖樣或價格（或值的組合），進一步篩選清單。 可篩選屬性會顯示在展開區段中，其中列出每個屬性值。 作為選項，具有相符結果的產品清單可以設定為包含具有或不具有相符結果的產品。
 
@@ -91,7 +93,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->- 如果&#x200B;_[!UICONTROL Use in Search]_&#x200B;設定設為`No`，則不會顯示&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定。在此情況下，無論[!UICONTROL Use in Layered Navigation]設定為何，都不會在搜尋中使用產品屬性。
+>- 如果&#x200B;_[!UICONTROL Use in Search]_設定設為`No`，則不會顯示_[!UICONTROL Use in Search Results Layered Navigation]_&#x200B;設定。在此情況下，無論[!UICONTROL Use in Layered Navigation]設定為何，都不會在搜尋中使用產品屬性。
 >
 >- [!UICONTROL Position]欄位預設為灰色。 您必須先儲存屬性，才能修改此設定。
 
@@ -127,7 +129,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 1. 瀏覽或使用篩選搜尋來尋找清單中的屬性，並在編輯模式下開啟它。
 
-1. 在&#x200B;_[!UICONTROL Attribute Information]_&#x200B;底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
+1. 在&#x200B;_[!UICONTROL Attribute Information]_底下，按一下&#x200B;**[!UICONTROL Storefront Properties]**。
 
 1. 針對&#x200B;**[!UICONTROL Layered Navigation]**，請選擇`Filterable (with results)`。
 
@@ -139,7 +141,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的價格導覽組態與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 價格導覽可用於在分層導覽中依價格範圍分配產品。 您也可以以間隔分割每個範圍。 有幾種方式可以計算價格導覽：
 
@@ -178,7 +180,7 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!IMPORTANT]
 >
->若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;值。 對於&#x200B;_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
+>若要依據&#x200B;_價格篩選器_&#x200B;在階層式導覽中正確顯示產品及其價格，請確定[銷售稅組態](../configuration-reference/sales/tax.md)中顯示的價格設定具有相同的值（`Excluding Tax` **或** `Including Tax`）。 對於&#x200B;_[!UICONTROL Calculation Settings]_，請檢查&#x200B;**[!UICONTROL Catalog Prices]**值。 對於_[!UICONTROL Price Display Settings]_，請檢查&#x200B;**[!UICONTROL Display Product Prices in Catalog]**&#x200B;值。 如果這些值不同，分層導覽中的價格篩選器可能無法正確依價格篩選及排序產品。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -234,15 +236,15 @@ _範例：顯示可篩選的色票值，但沒有結果_
 
 >[!NOTE]
 >
->本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
 
 階層式導覽組態會決定產品計數是否顯示在每個屬性後面的括弧中，以及價格導覽中使用的步驟計算大小。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
-1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_&#x200B;區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
+1. 在左側面板中，展開&#x200B;_[!UICONTROL Catalog]_區段並在下方選擇&#x200B;**[!UICONTROL Catalog]**。
 
-1. 展開&#x200B;_[!UICONTROL Layered Navigation]_&#x200B;區段。
+1. 展開&#x200B;_[!UICONTROL Layered Navigation]_區段。
 
    >[!NOTE]
    >

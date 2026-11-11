@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 產品關係
 
 您可以定義產品之間關係的性質，藉此在其他頁面上促銷目錄中的產品。 這些關係有助於根據買家對類似或相關產品的興趣來鎖定他們。
+
+{{ccdm-merchandising-note}}
 
 ## 在產品設定中定義
 
@@ -64,4 +66,4 @@ ht-degree: 0%
 
 ## 由Adobe AI支援的產品推薦
 
-![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [由Adobe AI支援的產品建議](https://experienceleague.adobe.com/zh-hant/docs/commerce/product-recommendations/overview)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。
+![Adobe Commerce](../assets/adobe-logo.svg) （僅限Adobe Commerce） [由Adobe AI支援的產品建議](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)透過人工智慧和機器學習演演算法，對彙總的訪客資料執行深入分析，簡化定義產品關係的程式。 此資料與您的Adobe Commerce目錄結合後，可為購物者提供極為引人入勝、相關且個人化的體驗。

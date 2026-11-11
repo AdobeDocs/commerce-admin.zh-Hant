@@ -1,8 +1,8 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] &gt； ACO限制存取金鑰'
 description: 檢閱Commerce管理員的[!UICONTROL Services] &gt； [!UICONTROL ACO Restricted Access Keys]頁面上的組態設定。
 feature: Configuration, Security
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 使用此設定可控制[!DNL Adobe Commerce Optimizer Connector for B2B]套用至其為B2B共用目錄檢視所設定的受限制存取金鑰的預設到期期間。 若要建立、指派和刪除這些金鑰，請參閱[限制存取金鑰管理](../../systems/restricted-access-keys.md)。
+
+>[!NOTE]
+>
+>此頁面適用於聯結器。 以Composable Catalog Data Model (CCDM)布建的執行個體會以原生方式同步資料，而不會使用聯結器。 請參閱[CCDM](/help/optimizer/overview.md)的銷售服務。
 
 {{config}}
 

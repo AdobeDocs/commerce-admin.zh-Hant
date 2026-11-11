@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 目錄搜尋概觀
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。 本節說明可能與[!DNL Live Search]不同的標準搜尋功能。
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)提供快速、超級相關且直覺式的搜尋體驗，Adobe Commerce可免費使用。 本節說明可能與[!DNL Live Search]不同的標準搜尋功能。
+>
+>如果您的Adobe Commerce as a Cloud Service執行個體已布建可撰寫目錄資料模型(CCDM)，您可使用CCDM ](/help/optimizer/overview.md)在[銷售服務中設定搜尋設定、Facet、同義字和銷售規則。
 
 研究顯示，使用搜尋的人比只依賴導覽的客戶更可能購買。 事實上，根據一些研究，使用搜尋的人購買的可能性幾乎是兩倍。
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->安裝[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)且啟用[[!DNL Storefront Popover]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-storefront/storefront-popover) Widget時，搜尋方塊會在彈出視窗中傳回「鍵入時搜尋」。
+>安裝[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)且啟用[[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) Widget時，搜尋方塊會在彈出視窗中傳回「鍵入時搜尋」。
 
 商店標題中的搜尋方塊可協助訪客在目錄中尋找產品。 搜尋文字可以是完整或部分產品名稱，或是描述產品的任何其他字詞或片語。 使用者用來尋找產品的搜尋詞語，可由管理員加以管理。
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此處說明的進階表單搜尋功能不適用於[[!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)。
+>此處說明的進階表單搜尋功能不適用於[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)。
 
 進階搜尋可讓購物者根據在表單中輸入的值來搜尋目錄。 由於表單包含多個欄位，因此單一搜尋可包含數個引數。 結果會列出目錄中符合條件的所有產品。 進階搜尋的連結位於商店的頁尾。
 

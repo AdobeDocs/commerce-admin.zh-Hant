@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 搜尋結果
 
 >[!NOTE]
 >
->此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同的標準搜尋功能。
+>此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)不同的標準搜尋功能。
+>
+>對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱銷售服務中的[搜尋比對和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
 _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進階搜尋」表單中所輸入搜尋條件的產品。 目錄中的每個產品清單基本上都有相同的控制項。 唯一的差異是其中一個是搜尋查詢的結果，另一個差異是[導覽](navigation.md)的結果。
 
@@ -57,7 +59,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 >[!IMPORTANT]
 >
->鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
+>鑑於Elasticsearch 7於2023年8月宣佈終止支援，建議所有Adobe Commerce客戶移轉至OpenSearch 2.x搜尋引擎。 如需在產品升級期間移轉搜尋引擎的相關資訊，請參閱&#x200B;_升級指南_&#x200B;中的[移轉至OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)。
 
 ## 用於擴充搜尋結果的關鍵字對應
 
@@ -72,7 +74,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟1：建立屬性
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
+1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Montana Wind Jacket` (MJ03)。
 1. 按一下右上角的&#x200B;**[!UICONTROL Add Attribute]**。
 1. 在&#x200B;_選取屬性_&#x200B;頁面上按一下&#x200B;**[!UICONTROL Create New Attribute]**。
 1. 依照下列步驟完成屬性特性：
@@ -99,7 +101,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟2：對應第一個產品
 
-1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_&#x200B;區段。
+1. 在產品設定頁面上，向下捲動並展開&#x200B;_[!UICONTROL Attributes]_區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入要對應至此產品的SKU `MH01`。
 
    您可以在「搜尋關鍵字」欄位中輸入多個以空格分隔的SKU。 在此範例中，僅輸入一個。
@@ -111,7 +113,7 @@ _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進�
 
 ### 步驟3：對應第二個產品
 
-1. 在&#x200B;_[!UICONTROL Products]_&#x200B;清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
+1. 在&#x200B;_[!UICONTROL Products]_清單中，以編輯模式開啟`Chaz Kangaroo Hoodie` (MH01)。
 1. 向下捲動並展開&#x200B;**[!UICONTROL Attributes]**&#x200B;區段。
 1. 在&#x200B;**[!UICONTROL Search Keywords]**&#x200B;欄位中，輸入其他產品`MJ03`的SKU。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
