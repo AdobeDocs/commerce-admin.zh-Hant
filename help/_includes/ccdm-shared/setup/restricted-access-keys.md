@@ -1,7 +1,7 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1633'
 ht-degree: 0%
 ---
 # 受限制的存取金鑰
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 >[!BEGINTABS]
 
->[!TAB 「Adobe Commerce管理員」]
+>[!TAB Adobe Commerce管理員]
 
 客戶透過CCDM使用Adobe Commerce as a Cloud Service，或透過聯結器連線至Adobe Commerce的Adobe Commerce Optimizer，可以從Commerce管理員產生RSA金鑰組。 請參閱[管理受限制的存取金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)。
 
->[!TAB 「Adobe Commerce Optimizer Studio （手動金鑰管理）」]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 使用Adobe Commerce Optimizer Studio的客戶必須產生和管理自己的RSA金鑰組，然後將公開金鑰新增到系統中。 這是具有第三方後端的Adobe Commerce Optimizer的必要工作流程。 使用聯結器的客戶也可以使用此工作流程，而不使用Commerce管理員。
 
@@ -132,11 +132,11 @@ openssl rsa -in private-key.pem -pubout -out public-key.pem
 
 >[!BEGINTABS]
 
->[!TAB 「Adobe Commerce管理員」]
+>[!TAB Adobe Commerce管理員]
 
 請參閱[鍵選取與輪換](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation)。 這適用於具有CDM的Adobe Commerce as a Cloud Service，以及透過Adobe Commerce Optimizer聯結器與Adobe Commerce Optimizer整合的Adobe Commerce專案。
 
->[!TAB 「Adobe Commerce Optimizer Studio （手動金鑰管理）」]
+>[!TAB Adobe Commerce Optimizer Studio]
 
 具有第三方後端的Adobe Commerce Optimizer需要此程式。 使用聯結器的客戶也可以改用它，而不使用Commerce管理員。
 
