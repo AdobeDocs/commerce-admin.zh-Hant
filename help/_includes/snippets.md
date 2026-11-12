@@ -1,9 +1,9 @@
 ---
 title: 代碼片段
 description: 重複使用附註和視覺元素，以記下套用至特定版本的功能或頁面
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # 代碼片段
@@ -85,6 +85,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B 1.4.2+版相容於PHP 8.2。 如果您將Commerce執行個體升級至2.4.7+版，請確定執行個體使用PHP 8.2版，以保持與Adobe Commerce B2B發行版本的相容性。 此外，B2B 1.4.2+版本不支援[GraphQL應用程式伺服器](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/concepts/application-server)。
+
+## CCDM銷售服務注意事項 {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>如果您的Adobe Commerce as a Cloud Service執行個體已布建可撰寫目錄資料模型(CCDM)，您可以在Merchandising Services中管理目錄檢視、原則、銷售和報告。 請參閱[CCDM](/help/optimizer/overview.md)的銷售服務。
 
 ## reCAPTCHA表單清單 {#recaptcha-forms-list}
 

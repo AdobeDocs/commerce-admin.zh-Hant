@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ ht-degree: 0%
 任何用作[可設定產品](product-create-configurable.md)之選項下拉式清單的屬性，都必須具備下列屬性：
 
 | 屬性 | 值 |
-|----------|------ |
+| ---------- | ------ |
 | 存放區所有者的目錄輸入型別 | 下拉式清單 |
 | 範圍 | 全域 |
 

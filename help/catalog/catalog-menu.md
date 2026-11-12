@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog]功能表
 
 [!UICONTROL Catalog]功能表可讓您輕鬆存取產品建立、類別和庫存管理工具、共用目錄（適用於[B2B存放區](/help/b2b/introduction.md)中的自訂訂定價）以及目錄擴充（適用於AI輔助探索）。
@@ -50,6 +48,8 @@ ht-degree: 0%
 ![目錄功能表](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 在&#x200B;_管理員_&#x200B;側邊欄上，按一下&#x200B;**[!UICONTROL Catalog]**。
 

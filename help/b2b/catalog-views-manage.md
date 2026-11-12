@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # 管理目錄檢視設定
+
+>[!NOTE]
+>
+>本主題說明如何使用B2B的Commerce Connector進行Adobe Commerce Optimizer部署的目錄檢視實作。 如果您使用Adobe Commerce as a Cloud Service搭配銷售服務及可撰寫的目錄資料模型(CCDM)，請參閱&#x200B;_使用CCDM的銷售服務指南_&#x200B;中的設定[目錄檢視](../optimizer/setup/catalog-view.md)。
 
 安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能後，[目錄檢視]頁面會列出為自訂共用目錄建立的[!DNL Adobe Commerce Optimizer] [目錄檢視投影](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"}。  _投影_&#x200B;是聯結器將共用目錄資料同步到[!DNL Adobe Commerce Optimizer]時建立的目錄檢視。 聯結器會為共用目錄中的每個存放區檢視建立個別的投影，因此共用目錄可以有多個目錄檢視。 在店面體驗中，這些目錄檢視僅供指派給相關共用目錄的公司存取。
 

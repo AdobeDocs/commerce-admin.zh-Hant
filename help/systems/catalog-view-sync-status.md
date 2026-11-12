@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >若要追蹤目錄資料摘要的同步處理狀態，請使用[[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md)頁面。
+>
+>此頁面適用於聯結器建立的目錄檢視。 若是以Composable Catalog Data Model (CCDM)布建的執行個體，請參閱Merchandising Services中的[Catalog sync](/help/optimizer/setup/data-sync.md)。
 
 ## 對象與可用性 {#audience}
 

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL System]功能表'
-description: Commerce管理員包括[!UICONTROL System]功能表，可讓您存取匯入和匯出資料、系統快取和索引管理、管理員存取和許可權管理、備份、系統通知和自訂變數的工具。
+description: '[!UICONTROL System]功能表提供資料匯入與匯出工具、快取與索引管理、許可權、備份與通知的存取權。'
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL System]功能表
 
 [!UICONTROL System]功能表包含匯入及匯出資料、管理系統快取與索引、管理許可權、備份、系統通知及自訂變數的工具。
@@ -54,6 +52,8 @@ ht-degree: 0%
 ![系統功能表](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_顯示[!UICONTROL System]功能表:_**
 

@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 搜尋結果
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >此頁面說明可能與[即時搜尋](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/overview)不同的標準搜尋功能。
+>
+>對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱銷售服務中的[搜尋比對和排名](/help/optimizer/manage-results/search-relevance-matching.md)。
 
 _搜尋結果_&#x200B;清單包含所有符合「快速搜尋」方塊或「進階搜尋」表單中所輸入搜尋條件的產品。 目錄中的每個產品清單基本上都有相同的控制項。 唯一的差異是其中一個是搜尋查詢的結果，另一個差異是[導覽](navigation.md)的結果。
 

@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 分層導覽
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >本節中說明的標準分層導覽與具有[Facet](https://experienceleague.adobe.com/zh-hant/docs/commerce/live-search/live-search-admin/facets/facets)的「即時搜尋」篩選導覽不同。
+>
+>對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱Merchandising Services中的[Facet](/help/optimizer/merchandising/facets/overview.md)。
 
 分層導覽可讓您根據類別、價格範圍或任何其他可用屬性輕鬆尋找產品。 分層導覽通常顯示在搜尋結果和類別頁面的左側欄，有時也會顯示在首頁上。 標準導覽包含&#x200B;_Shop By_&#x200B;類別與價格範圍清單。 您可以設定分層導覽的顯示方式，包括產品計數和價格範圍。
 

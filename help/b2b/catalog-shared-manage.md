@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # 管理您的共用目錄
 
 _[!UICONTROL Shared Catalogs]_&#x200B;頁面提供管理共用目錄所需的工具存取權，包括產品選擇、自訂定價、類別許可權和目錄詳細資訊。 此頁面類似於標準管理員工作區，具有篩選器和動作控制項。 網格會列出所有共用目錄，包括預設的公用共用目錄，以及您設定的所有自訂目錄。
 
-如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能，頁面也會提供聯結器將資料從每個共用目錄同步到[!DNL Adobe Commerce Optimizer]時所建立的[!DNL Adobe Commerce Optimizer]目錄檢視的存取權，以及可保護B2B店面體驗之目錄檢視的限制存取金鑰。
+如果已安裝[!DNL Adobe Commerce Optimizer Connector for B2B]擴充功能，頁面也會提供聯結器將資料從每個共用目錄同步到[!DNL Adobe Commerce Optimizer]時所建立的[!DNL Adobe Commerce Optimizer]目錄檢視的存取權，以及可保護B2B店面體驗之目錄檢視的限制存取金鑰。 對於以可撰寫目錄資料模型(CCDM)布建的執行個體，原生同步會從共用目錄產生目錄檢視。 檢視[B2B目錄檢視](/help/optimizer/setup/catalog-view.md#b2b-catalog-views)。
 
 ## 更新產品選擇
 

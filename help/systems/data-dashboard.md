@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # 資料管理控制面板
@@ -51,6 +51,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >如果您已安裝[Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/zh-hant/docs/commerce/aco-optimizer-connector/overview)以將目錄資料匯出至Adobe Commerce Optimizer，請在Commerce Optimizer Studio中使用[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)來驗證資料同步是否成功，而不是使用「資料管理控制面板」。
+>
+>若是以Composable Catalog Data Model (CCDM)布建的執行個體，請參閱Merchandising Services中的[Catalog sync](/help/optimizer/setup/data-sync.md)。
 
 ## 客群
 

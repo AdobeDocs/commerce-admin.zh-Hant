@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >對於在非B2B案例中用來管理私人目錄（例如合作夥伴入口網站）的手動建立金鑰，請從[[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}管理金鑰。
+>
+>對於以可撰寫目錄資料模型(CCDM)布建的執行個體，請參閱Merchandising Services中的[限制存取金鑰](/help/optimizer/setup/restricted-access-keys.md)。
 
 ## 對象與可用性 {#audience}
 

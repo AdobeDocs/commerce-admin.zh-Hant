@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informational url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>此功能集是專為符合客戶主要是公司的賣家（商家）需求所設計，可能具有複雜的組織結構，以及擁有各種角色和購買許可權等級的多個員工。</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>此[!DNL Inventory Management]功能可讓擁有單一商店的商家前往多個倉庫、商店、取貨地點、卸貨託運人等。 使用這些功能來維護銷售數量，並處理出貨以完成訂單。</em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="銷售服務" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>可撰寫目錄資料模型(CCDM)的銷售服務</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"}
+    <div><em>在Commerce Admin中設定目錄檢視與原則、管理銷售規則與建議、檢閱店面效能，以及監視目錄同步處理。</em></div>
   </td>
 </tr>
 <tr>

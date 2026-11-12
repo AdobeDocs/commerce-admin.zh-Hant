@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt； ACO目錄檢視'
-description: 在Adobe Commerce Optimizer管理員的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View]頁面上檢閱和更新Commerce組態設定。
+description: 在Adobe Commerce Optimizer管理員的[!UICONTROL Services] &gt； [!UICONTROL ACO Catalog View]頁面上檢閱和更新Commerce設定。
 feature: Configuration, Security
 badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 使用這些設定來控制[!DNL Adobe Commerce Optimizer Connector for B2B]所核發的存取權杖。 店面會使用這些權杖，向填入了從管理員中設定的自訂共用目錄同步之資料的Commerce Optimizer私人目錄檢視進行驗證。
+
+>[!NOTE]
+>
+>此頁面適用於聯結器。 以Composable Catalog Data Model (CCDM)布建的執行個體會以原生方式同步資料，而不會使用聯結器。 請參閱[CCDM](/help/optimizer/overview.md)的銷售服務。
 
 {{config}}
 

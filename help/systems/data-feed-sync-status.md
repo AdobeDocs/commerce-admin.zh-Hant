@@ -1,6 +1,6 @@
 ---
 title: 在Commerce中監視資料摘要同步狀態
-description: 追蹤匯出。 診斷[!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]和[!DNL Adobe Commerce Optimizer Connector]的同步處理問題。
+description: 追蹤[!DNL Catalog Service]、[!DNL Live Search]、[!DNL Product Recommendations]和[!DNL Adobe Commerce Optimizer Connector]的匯出和同步處理問題。
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -179,9 +179,10 @@ ht-degree: 0%
 
 ### 確認連線服務中的資料 {#confirm-data-in-connected-services}
 
-若要在匯出完成之後驗證端對端同步化，請使用下列其中一種方法。 如需此頁面的匯出狀態限制，請參閱上面的[備註](#export-status-scope)。
+若要在匯出完成之後驗證端對端同步化，請使用下列其中一種方法。 如需此頁面的匯出狀態限制，請參閱上面的[備註](#access-data-feed-sync-status-page)。
 
 - 具有Commerce服務的&#x200B;**[!DNL Adobe Commerce as a Cloud Service]：**&#x200B;請檢查適用的[資料管理儀表板](data-dashboard.md)以確認下游可用性。
+- **[!DNL Adobe Commerce as a Cloud Service]已布建CCDM：**&#x200B;以原生方式同步產品與價格資料。 使用Merchandising Services中的[目錄同步](/help/optimizer/setup/data-sync.md)以確認資料可用性。
 - **雲端或內部部署上具有Adobe Commerce Optimizer Connector的Adobe Commerce**：請先檢查Commerce管理員匯出狀態，然後檢查[!DNL Commerce Optimizer Studio]中的[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)
 - **[!DNL Adobe Commerce Optimizer]（獨立）：**&#x200B;資料未從Commerce後端匯出。 使用[!DNL Commerce Optimizer Studio]中的[資料同步頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/data-sync)確認資料可用性。
 
