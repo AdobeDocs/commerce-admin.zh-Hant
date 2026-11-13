@@ -1,7 +1,7 @@
 ---
 title: 銷售設定
 description: 設定[!DNL Adobe Commerce Optimizer]的設定。
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 TQID: 'https://experienceleague.adobe.com/mkvRlke8kOz0hVD3dYwU24FXwtQrDP5fOWrm3OSJlZA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

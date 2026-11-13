@@ -1,7 +1,7 @@
 ---
 title: Facet概述
 description: 瞭解[!DNL Adobe Commerce Optimizer]中的Facet以及如何改善搜尋結果。
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 autotag-review: '2026-11-02T19:19:12.765Z'
 TQID: 'https://experienceleague.adobe.com/NXCHSa954r05U4fKFDVTZTcU4wrHX7AlxP7jYxFaO8s'
 product_v2:
