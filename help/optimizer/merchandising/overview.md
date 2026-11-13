@@ -2,7 +2,7 @@
 title: 使用可撰寫目錄資料模型進行銷售
 description: 瞭解[!DNL Adobe Commerce Optimizer]中的銷售功能。
 recommendations: noCatalog
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 autotag-review: '2026-11-02T19:18:09.501Z'
 TQID: 'https://experienceleague.adobe.com/LMKEDmMUyq3PHXG-xoCeBrkbN9yX71fE3ZkstDKTHjw'
 product_v2:
@@ -30,7 +30,8 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%

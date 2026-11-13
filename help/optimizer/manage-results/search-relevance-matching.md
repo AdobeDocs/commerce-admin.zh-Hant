@@ -3,7 +3,7 @@ title: 搜尋比對和排名
 description: 瞭解[!DNL Adobe Commerce Optimizer]如何為精確、接近、相同欄位和跨欄位相符專案排名，以及排名如何與權重和銷售規則搭配運作。
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 hide: true
 autotag-review: '2026-11-02T19:17:14.019Z'
 TQID: 'https://experienceleague.adobe.com/9pCrz4vA-A9qR8NpuhylRBFmBc1-wIgi3yG1w-dybTg'
@@ -32,7 +32,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
