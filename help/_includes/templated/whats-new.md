@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 新功能範本
@@ -12,6 +12,7 @@ ht-degree: 0%
 
 | 說明 | 型別 | 日期/來源 |
 | --- | --- | --- |
+| 新增Adobe Commerce as a Cloud Service可撰寫目錄資料模型(CCDM)的銷售服務檔案： <br/> — 新增[銷售服務總覽](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/merchandising-with-ccdm/overview)和[依角色的銷售服務工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm)參考。<br/> — 新增[目錄檢視](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view)和[價格手冊](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks)主題。<br/> — 新增指示CCDM使用者使用銷售服務的搜尋、建議、目錄同步和聯結器主題的附註。 | 重大更新，新主題 | [2026年11月11日](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | 更新[目錄擴充](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/products/catalog-enrichment)以包含發行說明、新的功能表導覽和安裝步驟。 | 發行說明 | [2026年11月2日](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | 新增[存放區信用角色資源](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)，以控制哪些管理員使用者可以管理存放區信用。 | 重大更新 | [2026年10月29日](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | 更新Unified Shell介面的管理員使用手冊： <br/> — 修訂導覽指示，並更新整個指南中的熒幕擷取畫面，包括[僅SaaS應用程式管理專案的「管理員側欄](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/admin/tools/admin-menu)」參考。<br/> — 釐清Adobe Commerce as a Cloud Service的[內容和設計功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/guide-overview)，包括產品影像浮水印和異動電子郵件。 | 重大更新 | [2026年10月27日](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
