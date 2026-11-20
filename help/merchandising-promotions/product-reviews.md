@@ -3,7 +3,6 @@ title: 產品評論
 description: 瞭解產品評論如何增強您的商店，並為您的產品帶來更多可信度。
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # 產品評論
@@ -52,6 +51,12 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 >如果您已啟用並設定隨附的擴充功能，則必須在2.4.4升級程式中更新composer.json檔案，並管理後續的擴充功能更新。 如需詳細資訊，請參閱&#x200B;_升級指南_&#x200B;中的[升級模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/modules/upgrade)。
 
 ## 店面的產品評論
+
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+
+>[!NOTE]
+>
+>本節說明雲端基礎結構和Adobe Commerce內部部署上Adobe Commerce中Luma商店的產品評論。 Adobe Commerce as a Cloud Service不包含Luma店面，因此在「管理員」中啟用產品評論時，不會將評論功能新增至您的店面。 相反地，您需要使用[`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL查詢來擷取評論，並使用[`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review)變異來建立評論。
 
 啟用原生產品評論功能時，客戶可以為目錄中的任何產品撰寫評論。 您可以按一下，從產品頁面撰寫評論：
 
@@ -83,11 +88,11 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 
 ## 啟用產品評論功能
 
-Commerce產品評論功能預設為啟用。
+根據預設，在雲端基礎結構和Adobe Commerce內部部署上的Adobe Commerce中，會啟用Commerce產品稽核功能。 Adobe Commerce as a Cloud Service預設會停用此功能。
 
 >[!NOTE]
 >
->若要將這些欄位設為`No`並停用Commerce產品評論，您必須清除&#x200B;**使用系統值**&#x200B;核取方塊。
+>若要變更這些欄位的預設值，您必須先清除&#x200B;**[!UICONTROL Use system value]**&#x200B;核取方塊。
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**。
 
@@ -99,11 +104,11 @@ Commerce產品評論功能預設為啟用。
 
 1. 將&#x200B;**[!UICONTROL Enabled]**&#x200B;設為`Yes`。
 
-   這是啟用產品評論的預設設定。
+   此設定會啟用產品評論。
 
 1. 將&#x200B;**[!UICONTROL Allow Guests to Write Reviews]**&#x200B;設為`Yes`。
 
-   此預設設定可判斷客戶是否必須在您的商店開立帳戶才能撰寫產品評論。
+   此設定決定客戶是否必須在您的商店開立帳戶才能撰寫產品評論。
 
 1. 完成時，按一下&#x200B;**[!UICONTROL Save Config]**。
 

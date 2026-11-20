@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 存放區檢視 | 啟用產品評論。 選項： `Yes` / `No` |
+| [!UICONTROL Enabled] | 存放區檢視 | 啟用產品評論。 選項： `Yes` / `No`<br/>在雲端基礎結構和Adobe Commerce內部部署上的Adobe Commerce中，預設值為`Yes`，在Adobe Commerce as a Cloud Service中，預設值為`No`。 |
 | [!UICONTROL Allow Guests to Write Reviews] | 網站 | 決定客戶是否必須在您的商店開立帳戶才能撰寫產品評論。 |
 
 {style="table-layout:auto"}
@@ -127,8 +125,8 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | 全域 | 選擇產品警報的傳送頻率。 選項： `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Start Time] | 全域 | 選擇產品警示程式在一天中的開始時間。 此時間應在執行任何價格或存貨更新之後。 |
 | [!UICONTROL Error Email Recipient] | 全域 | 識別當產品警示程式發生錯誤時，應接收電子郵件通知之人員（通常是商店管理員）的電子郵件地址。 |
-| [!UICONTROL Error Email Sender] | 全域 | 選取電子郵件為`from`的角色。 |
-| [!UICONTROL Error Email Template] | 全域 | 選取用於產品警示錯誤通知的電子郵件範本。 |
+| [!UICONTROL Error Email Sender] | 全域 | Select電子郵件為`from`的角色。 |
+| [!UICONTROL Error Email Template] | 全域 | Select用於產品警報錯誤通知的電子郵件範本。 |
 
 {style="table-layout:auto"}
 
