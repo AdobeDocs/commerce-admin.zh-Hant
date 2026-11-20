@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # [!UICONTROL Marketing]功能表
@@ -39,13 +39,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 ![Commerce管理員 — 行銷功能表](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 ![Commerce管理員 — 行銷功能表](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Private Sales]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 {{ee-feature}}
 
@@ -84,7 +84,5 @@ ht-degree: 0%
 分析[搜尋詞](../catalog/search-terms.md)和[同義字](../catalog/search-terms.md#search-synonyms)以協助客戶尋找商店中的產品、管理[中繼資料](meta-data.md)以及建立[網站地圖](sitemap-xml.md)。 使用[重新導向](url-rewrite.md)管理URL變更並避免連結損毀。
 
 ### [!UICONTROL User Content]
-
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 合併使用者產生的[產品評論](product-reviews.md)，以建立社群意識並提高銷售量。

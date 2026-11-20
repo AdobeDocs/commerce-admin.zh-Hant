@@ -3,7 +3,6 @@ title: 稽核產品評論
 description: 瞭解如何稽核產品評論，以確保提交的評論適合公開展示您的商店。
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,9 +29,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '392'
 ht-degree: 0%
 ---
 # 稽核產品評論
@@ -45,15 +44,15 @@ ht-degree: 0%
 
 1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Catalog]** > **[!UICONTROL Products]**。
 
-1. 尋找您要檢視的產品，然後按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**。
+1. 尋找您要檢視的產品，然後按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**。
 
 1. 在產品頁面上，向下捲動並展開![擴充選擇器](../assets/icon-display-expand.png) **[!UICONTROL Product Reviews]**&#x200B;區段。
 
-   在此格線中，您也可以按一下&#x200B;_[!UICONTROL Action]_&#x200B;欄中的&#x200B;**[!UICONTROL Edit]**&#x200B;連結來變更特定檢閱。
+   在此格線中，您也可以按一下&#x200B;_[!UICONTROL Action]_欄中的&#x200B;**[!UICONTROL Edit]**連結來變更特定檢閱。
 
 ## 更新稽核狀態
 
-1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;或&#x200B;**[!UICONTROL All Reviews]**。
+1. 在&#x200B;_管理員_&#x200B;側邊欄上，移至&#x200B;**[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**或&#x200B;**[!UICONTROL All Reviews]**。
 
 1. 在清單中，按一下暫止的檢閱，即可檢視詳細資料並視需要編輯。
 
@@ -61,7 +60,7 @@ ht-degree: 0%
 
    - 若要核准擱置的評論，請選取`Approved`。
 
-   - 若要拒絕稽核，請選取`Not Approved`。 未核准的評論從&#x200B;_[!UICONTROL Pending Reviews]_&#x200B;頁面的清單中消失。
+   - 若要拒絕稽核，請選取`Not Approved`。 未核准的評論從&#x200B;_[!UICONTROL Pending Reviews]_頁面的清單中消失。
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 1. 如有需要，請變更&#x200B;**[!UICONTROL Detailed Rating]**、**[!UICONTROL Nickname]**&#x200B;和&#x200B;**[!UICONTROL Summary of Review]**&#x200B;的值。
 
-   若要變更可供檢閱的存放區檢視，請在&#x200B;_[!UICONTROL Visibility]_&#x200B;欄中選擇所需的存放區檢視。
+   若要變更可供檢閱的存放區檢視，請在&#x200B;_[!UICONTROL Visibility]_欄中選擇所需的存放區檢視。
 
    ![編輯評論頁面](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -85,7 +84,7 @@ ht-degree: 0%
 
 1. 選取要更新的稽核。
 
-1. 使用左上角的&#x200B;_[!UICONTROL Action]_&#x200B;選取器以套用動作。
+1. 使用左上角的&#x200B;_[!UICONTROL Action]_選取器以套用動作。
 
 1. 按一下&#x200B;**[!UICONTROL Submit]**
 
