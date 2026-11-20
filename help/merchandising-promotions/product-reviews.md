@@ -76,7 +76,7 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 
 ### [!UICONTROL My Product Reviews]
 
-客戶帳戶儀表板的&#x200B;_[!UICONTROL My Product Reviews]_區段會列出客戶提交並核准發佈的所有評論。 每個稽核摘要都包含提交稽核的日期、產品頁面的連結和稽核詳細資訊。
+客戶帳戶儀表板的&#x200B;_[!UICONTROL My Product Reviews]_&#x200B;區段會列出客戶提交並核准發佈的所有評論。 每個稽核摘要都包含提交稽核的日期、產品頁面的連結和稽核詳細資訊。
 
 ![我的產品評論](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -124,7 +124,7 @@ Commerce包含原生產品檢閱功能，可由管理員管理。 您也可以�
 
    ![管理員 — 評等](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. 在&#x200B;_[!UICONTROL Rating Title]_區段中，輸入新評等的&#x200B;**[!UICONTROL Default Value]**。
+1. 在&#x200B;_[!UICONTROL Rating Title]_&#x200B;區段中，輸入新評等的&#x200B;**[!UICONTROL Default Value]**。
 
    如果適用，也請輸入每個商店檢視的翻譯。
 
