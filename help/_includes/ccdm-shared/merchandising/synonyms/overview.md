@@ -1,9 +1,19 @@
 ---
-source-git-commit: f8c71cde74b1024bf32dc2b26d4aea94d60d3db9
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/synonyms/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 同義字
 
 同義字會擴充搜尋查詢，以納入購物者可能使用的與目錄中不同的字詞。 您不想因為某人正在尋找「沙發」，而您的產品卻被列為「沙發」而失去銷售機會。 輸入客戶可能會用來尋找您的產品的所有可能字詞，擷取廣泛的搜尋字詞。

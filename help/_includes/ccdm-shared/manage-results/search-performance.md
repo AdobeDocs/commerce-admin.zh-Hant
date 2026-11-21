@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/search-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 搜尋效能
 
 *搜尋效能*&#x200B;頁面可讓insight掌握購物者使用的搜尋辭彙。 此資訊可用於識別趨勢、增加點進和提高轉換率。 「搜尋效能」頁面提供特定日期範圍的搜尋測量結果快照，包括下列報表：

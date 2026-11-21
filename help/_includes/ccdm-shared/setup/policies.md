@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/policies.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 原則
 
 原則會定義套用至目錄檢視中產品的篩選器。 他們協助量身打造返回店面或頻道的產品組合。 這可確保將正確的內容傳送到正確的目的地。 例如，實體商店、市場和Google、Facebook和Instagram等廣告頻道。
@@ -95,7 +105,7 @@ AC-Policy-Vehicle: UNIVERSAL,veh-bolt-mammoth-limited-2025
 
    1. **屬性** — 輸入目錄中的屬性。 例如，「part_category」。 此名稱必須與目錄中屬性的名稱完全相符。
    1. **運運算元** — 選擇運運算元。 例如，**IN**。 &#x200B;
-   1. **值Source** — 選取&#x200B;**靜態**。 &#x200B;
+   1. **值Source** - Select **靜態**。 &#x200B;
    1. **值** — 輸入您先前指定之屬性定義的值。 例如，輸入「制動器」來建立制動零件的篩選器。
    1. 若要儲存值，請按&#x200B;**Enter**。
 
