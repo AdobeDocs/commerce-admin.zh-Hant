@@ -1,9 +1,19 @@
 ---
-source-git-commit: 94c7929de24bee75e72927fb81692f4a2145c487
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hant/blob/main/help/_includes/ccdm-shared/setup/restricted-access-keys.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 受限制的存取金鑰
 
 受限制的存取金鑰可讓授權的使用者端應用程式存取[私人目錄檢視](private-catalog-view.md) — 只有從指派的金鑰中攜帶有效已簽署權杖的請求才能擷取目錄資料。 所有其他請求都遭到拒絕，包括來自無法明確存取此目錄檢視的購物者的請求，以及探索Adobe Commerce Merchandising Services API的指令碼。

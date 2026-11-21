@@ -1,9 +1,19 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hant/blob/main/help/_includes/ccdm-shared/setup/private-catalog-view.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 私人目錄檢視
 
 依預設，[目錄檢視](catalog-view.md)是公用的。 限制對目錄檢視的存取，以便只有具有有效簽署權杖的請求才能擷取其資料。

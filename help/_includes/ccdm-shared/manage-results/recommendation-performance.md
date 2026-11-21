@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hant/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Recommendations效能
 
 「Recommendations效能」頁面會顯示已設定建議的清單，以及可幫助您評估其效能的關鍵測量結果。 您可以設定檢視以顯示過去一天、一週或月的量度。 這些見解會顯示每個建議單位被檢視或點按的頻率，可幫助您評估效能並識別最佳化機會。
@@ -102,5 +112,5 @@ ht-degree: 0%
 **範例：在所有檢視選取範圍下具有包含篩選器的建議**
 
 - **所有檢視**&#x200B;建議包含SKU：SKU_ABC、SKU_CDE、SKU_XYZ。
-- **目錄檢視： Kingsbluff**&#x200B;無法銷售SKU_ABC或SKU_CDE。 **顯示：**&#x200B;只有SKU_XYZ，前提是它滿足所有其他已啟用的篩選器。
-- **目錄檢視： Arkbridge**&#x200B;無法銷售任何包含的SKU。 **顯示：**&#x200B;沒有建議單位，因為沒有SKU同時滿足包含篩選和目錄檢視的可用性。
+- **目錄檢視： Kingsbluff**&#x200B;無法銷售SKU_ABC或SKU_CDE。 **顯示：** SKU_XYZ加上任何對Kingsbluff有效的其他SKU。
+- **目錄檢視： Arkbridge**&#x200B;無法銷售任何包含的SKU。 **顯示：**&#x200B;只有Arkbridge允許的SKU。 如果沒有可用專案，建議單位就不會顯示在該店面。

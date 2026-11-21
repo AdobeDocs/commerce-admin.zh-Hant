@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hant/blob/main/help/_includes/ccdm-shared/merchandising/recommendations/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Recommendations簡介
 
 Recommendations是強大的行銷工具，可用來增加轉換次數、增加收入及刺激購物者參與。 Recommendations由[Adobe AI](https://business.adobe.com/tw/ai.html)提供技術支援，其使用人工智慧和機器學習演演算法來對彙總的訪客資料執行深入分析。 此資料與您的Adobe Commerce目錄結合後，會產生極為引人入勝、相關且個人化的體驗。

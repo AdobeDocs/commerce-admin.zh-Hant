@@ -1,18 +1,30 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '1154'
+ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.zh-Hant/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 銷售規則Workspace
 
-*銷售規則*&#x200B;工作區會列出目前選擇的規則及其狀態，並提供您建立和管理規則所需工具的存取權。 您可以將規則範圍設定為所有[目錄檢視](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/catalog-view) （全域）或單一目錄檢視。 請參閱[選取目錄檢視](#select-catalog-view)，瞭解如何依目錄檢視進行篩選，以及依每個目錄檢視建立規則。 您可以從工作區中執行下列作業：
+*銷售規則*&#x200B;工作區會列出目前選擇的規則及其狀態，並提供您建立和管理規則所需工具的存取權。 您可以將規則範圍設定為所有[目錄檢視](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/setup/catalog-view) （全域）或單一目錄檢視。 請參閱[Select目錄檢視](#select-catalog-view)，瞭解如何依目錄檢視進行篩選，以及依每個目錄檢視建立規則。 您可以從工作區中執行下列作業：
 
 - 搜尋規則
 - 檢視規則詳細資料
 - 啟用/停用規則
 - 刪除規則
 - 存取規則編輯器
+
+工作區也包含&#x200B;**[搜尋隱藏規則](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**。 使用相同的規則管理控制項來編輯、排程、啟用或停用這些規則。 若要設定查詢條件和發佈變更，請參閱[建立和管理搜尋隱藏規則](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules)。 搜尋隱藏規則不會顯示預覽。
 
 ![銷售規則Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -50,6 +62,14 @@ ht-degree: 1%
    - 編輯規則
    - 刪除規則
    - 啟用/停用規則
+
+## 啟用或停用規則 {#enable-disable-rule}
+
+1. 在&#x200B;*銷售規則*&#x200B;工作區中尋找規則。
+1. 開啟&#x200B;**更多** (...) 功能表並選取&#x200B;**啟用規則**&#x200B;或&#x200B;**停用規則**。 您也可以在詳細資料面板中使用&#x200B;**已啟用**&#x200B;控制項。
+1. 確認已更新的狀態。 具有未來開始日期的已啟用規則會一直排程到該日期。
+
+對於&#x200B;**搜尋隱藏規則**，停用規則會停止該規則封鎖符合的查詢，而不會刪除其條件。 其他作用中隱藏規則仍可封鎖這些查詢。 若要變更規則的條件或日期，請選取&#x200B;**編輯**，檢閱變更，然後按一下&#x200B;**儲存並發佈**。
 
 ## 欄說明
 
@@ -114,6 +134,6 @@ ht-degree: 1%
    您建立的規則會限定所選目錄檢視的範圍。
 1. 在[規則編輯器](add.md)中建置您的規則。
 
-   在編輯器中，定義條件、事件和詳細資訊。 此規則僅適用於該目錄檢視中的搜尋結果。
+   在編輯器中，定義套用至規則型別的條件、事件和詳細資訊。 搜尋隱藏規則使用查詢條件，僅封鎖所選目錄檢視中的結果。 它們不會透過類別導覽、銷售頁面、建議或直接產品URL變更產品可見性。
 
 規則建立後，您無法變更其目錄檢視（範圍）。 若要將類似的邏輯套用至其他目錄檢視，請先建立新規則並選取該目錄檢視，然後再建立。
