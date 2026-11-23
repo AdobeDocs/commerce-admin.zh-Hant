@@ -2,7 +2,7 @@
 title: 銷售規則最佳實務
 description: 瞭解針對搜尋、預設清單和類別頁面實作銷售規則的最佳實務。
 role: Admin, Developer
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 autotag-review: '2026-11-02T19:36:32.517Z'
 TQID: 'https://experienceleague.adobe.com/P8Zd1gS1pwK1tFO--Ghhb-x69L-PndxfSm-PIimEkyM'
 product_v2:

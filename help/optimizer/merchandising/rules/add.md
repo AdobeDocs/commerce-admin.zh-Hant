@@ -1,7 +1,7 @@
 ---
 title: 建立和管理規則
 description: 瞭解如何建立和管理搜尋、預設產品清單和類別頁面的銷售規則。
-badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
+badgeSaas: label="僅限SaaS" type="Positive" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"
 autotag-review: '2026-11-02T19:36:19.490Z'
 TQID: 'https://experienceleague.adobe.com/n7WvI0yju-qRiFtTxaCxr5xp3xzNUn-ywytltWiTveM'
 product_v2:
