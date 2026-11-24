@@ -4,7 +4,7 @@ description: 使用[!DNL Adobe Commerce]產品詳細資料頁面擴充功能來�
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ PDP擴充頁面會開啟至&#x200B;**[!UICONTROL Optimizations]**&#x200B;標籤�
 
 檢閱建議並選取要最佳化的產品頁面後，按一下&#x200B;**部署最佳化**，以使用Edge的「最佳化」發佈擴充。 **部署至Edge**&#x200B;確認對話方塊會顯示選取的產品URL、最佳化型別和正在套用的擴充。 部署後，確認畫面會確認哪些產品頁面已成功最佳化。
 
-最佳化是透過[在Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)最佳化，專門傳遞給AI使用者代理程式。 人類訪客會繼續看見您現有的店面體驗，就像之前一樣，不會變更PDP設計、頁面效能或品牌體驗。
+最佳化是透過[在Edge](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)最佳化，專門傳遞給AI使用者代理程式。 人類訪客會繼續看見您現有的店面體驗，就像之前一樣，不會變更PDP設計、頁面效能或品牌體驗。
 
 ## 限制和考量事項 {#limits}
 
@@ -137,7 +137,7 @@ PDP擴充頁面會開啟至&#x200B;**[!UICONTROL Optimizations]**&#x200B;標籤�
 - 擴充會組織目錄中已經存在的事實；不會新增產品資訊。
 - PDP擴充工作流程不會變更店面。
 - PDP擴充作業和目錄擴充作業具有不同的用途和工作流程。
-- PDP最佳化使用[在Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)最佳化。
+- PDP最佳化使用[在Edge](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)最佳化。
 
 ## 最佳實務 {#best-practices}
 
