@@ -4,7 +4,7 @@ description: 使用Adobe Commerce中的原生目錄擴充功能，針對LLM和AI
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # 目錄擴充
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理Adobe Brand Visibility整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[[!DNL Adobe Brand Visibility] 產品檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/home)。
+>目錄擴充功能由[!DNL Commerce Catalog Agent]和[!DNL Adobe Brand Visibility]幕後提供技術支援。 您使用擴充作為Commerce目錄工作流程的一部分。 您沒有另外管理Adobe Brand Visibility整合，以套用核准的名稱和說明更新。 如需Commerce外部更廣泛的LLM監視和最佳化，請參閱[[!DNL Adobe Brand Visibility] 產品檔案](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)。
 
 ## 運作方式 {#how-it-works}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 - 您的店面可由LLM導向和代理程式機器人抓取，其中目錄感知建議需要抓取涵蓋範圍。
 - 必要的Commerce服務和目錄連線已啟用且狀況良好。 請參閱[啟用目錄擴充](#enable-catalog-enrichment)以瞭解更多資訊。
 - 存取目錄擴充功能的Commerce管理員使用者已透過Adobe IMS登入。 檢視[IMS登入與組織需求](#ims-sign-in-requirements)。
-- 您有[Adobe Admin Console](https://helpx.adobe.com/tw/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
+- 您有[Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)的存取權。
 - 貴組織已針對基礎AI服務簽署GenAI附加條款，或明確選擇退出。
 
 >[!NOTE]
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    `setup:upgrade`啟用擴充功能、建立其資料庫表格並授與管理員許可權。 之後清除快取，讓許可權生效。 在生產模式中，也執行`bin/magento setup:di:compile`和`bin/magento setup:static-content:deploy`。
 
-1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
+1. 如果您尚未安裝目錄服務，請[安裝](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)。
 
    **[!UICONTROL Catalog enrichment]**&#x200B;現在可在您的Commerce執行個體中使用。
 
@@ -130,7 +130,9 @@ ht-degree: 0%
 
 安裝目錄擴充和目錄服務擴充功能後，「管理員」中的&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下會提供目錄擴充功能。
 
-![目錄擴充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]**&#x200B;功能表也列出&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**。 產品詳細資料頁面擴充功能處於測試版，尚未正式發佈。
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Commerce Configuration]**&#x200B;中，展開標示其URL的存放區檢視面板。
 
    提供您的[!DNL Adobe Commerce]環境詳細資訊，以啟用目錄Adobe Brand Visibility服務和稽核工作流程。
-
-   目錄擴充設定索引標籤上的![Commerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 輸入存放區檢視所需的連線詳細資料。
 
@@ -187,8 +187,6 @@ ht-degree: 0%
 - **[!UICONTROL Fixed Suggestions]**：您已經套用或解析的專案。
 - **[!UICONTROL Ignored Suggestions]**：您刻意從動作中排除的專案。
 
-![目錄擴充](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 部署已核准的建議 {#review-deploy-catalog}
 
 若要部署已核准的建議，請執行下列動作：
@@ -221,8 +219,6 @@ ht-degree: 0%
 
    產品表單會顯示擴充的產品名稱及/或說明。
 
-   ![擴充的產品名稱](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. 可選：如果您要保留手動輸入的名稱，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
    手動覆寫會影響建議與目錄保持同步的方式。 如需詳細資訊，請參閱[管理員中的手動覆寫](#manual-override-in-the-admin)。
@@ -230,8 +226,6 @@ ht-degree: 0%
 1. 展開&#x200B;**[!UICONTROL Content]**&#x200B;區段並找出說明欄位。
 
    當您套用說明變更時，就會顯示擴充說明。
-
-   ![豐富產品說明](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 可選：如果您要保留手動輸入的描述，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 

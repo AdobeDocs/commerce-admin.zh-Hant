@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # [!UICONTROL Catalog]功能表
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 ![目錄功能表](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
+僅[!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於Adobe Commerce as a Cloud Service和Adobe Commerce Optimizer專案（Adobe管理的SaaS基礎結構）。"}
 
 ![目錄功能表](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -73,8 +73,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog enrichment]
 
-僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
+僅[!BADGE 個PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"}
 
 使用[目錄擴充](catalog-enrichment.md)來檢閱並套用AI建議的產品名稱和完整說明的改進，以便您的目錄在LLM和AI輔助探索中正確呈現。
-
-![目錄擴充](./assets/agentic-opportunities.png)

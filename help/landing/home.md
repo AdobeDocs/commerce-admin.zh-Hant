@@ -48,12 +48,12 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
-# &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
 
 歡迎使用全球領先的數位商務平台的新一代。 Adobe Commerce為線上商戶提供無與倫比的彈性，掌控其線上商店的外觀、內容和功能。 管理員擁有強大的行銷、搜尋引擎最佳化和產品管理工具，讓您能夠建立符合獨特業務需求的網站。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 Adobe Commerce是敏捷的B2B和B2C商業平台，可讓商家和品牌透過線上和實體空間以客戶為中心的數位商業體驗來加速收入。 從中型到受管雲端，SLA保證最靈活的部署模式，使其成為中型及企業組織的首選。 Adobe Commerce可啟用API優先的整合和完全可自訂的擴充功能，以及一組最豐富的企業級商務體驗功能，從行銷到銷售與履行。 Adobe Commerce是以開放原始程式碼為基礎所打造，提供其他商業平台所沒有的彈性和擴充性。
 
-如需Adobe Commerce包含的進階功能清單，請參閱&#x200B;_發行資訊_&#x200B;中的[Commerce功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/features)。
+如需Adobe Commerce包含的進階功能清單，請參閱&#x200B;_發行資訊_&#x200B;中的[Commerce功能](https://experienceleague.adobe.com/en/docs/commerce-operations/release/features)。
 
 ## Magento Open Source程式碼基底
 
@@ -110,7 +110,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
     <img alt="銷售服務" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
   </td>
   <td valign="top">
-    <a href="../optimizer/overview.md"><strong>可撰寫目錄資料模型(CCDM)的銷售服務</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"}
+    <a href="../optimizer/overview.md"><strong>可撰寫目錄資料模型(CCDM)的銷售服務</strong></a> [！BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於以CCDM布建的Adobe Commerce as a Cloud Service執行個體（Adobe管理的SaaS基礎結構）。"}
     <div><em>在Commerce Admin中設定目錄檢視與原則、管理銷售規則與建議、檢閱店面效能，以及監視目錄同步處理。</em></div>
   </td>
 </tr>
@@ -123,6 +123,13 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 </tr>
 <tr>
     <td valign="top">
+       <img alt="AI產品探索" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI產品探索</strong></a>
+    <div><em>瞭解[!DNL Adobe Commerce]目錄擴充和PDP擴充如何解決結構化產品資料與以購物者為中心的復本之間的差距，以探索AI產品。</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
        <img alt="內容和設計" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../content-design/guide-overview.md"> <strong>內容與設計</strong></a>
     <div><em>您的內容會定義客戶在存取您的商店時看到的頁面和元素。 為您的頁面定義基本元素，例如文字和影像，以及更進階的元素，提供互動式與動態內容來增強購物體驗。</em></div>
@@ -131,7 +138,7 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
 <tr>
     <td valign="top">
        <img alt="頁面產生器" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce。"}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [！BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce。"}
     <div><em>[!DNL Page Builder]可讓您使用自訂版面輕鬆建立內容豐富的頁面。 這些功能旨在改善品質，並減少製作自訂頁面的時間和費用。</em></div>
   </td>
 </tr>
