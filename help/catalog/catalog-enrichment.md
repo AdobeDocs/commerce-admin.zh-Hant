@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # 目錄擴充
@@ -130,7 +130,9 @@ ht-degree: 0%
 
 安裝目錄擴充和目錄服務擴充功能後，「管理員」中的&#x200B;**[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**&#x200B;下會提供目錄擴充功能。
 
-![目錄擴充](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]**&#x200B;功能表也列出&#x200B;**[!UICONTROL Product Details Page Enrichment (Beta)]**。 產品詳細資料頁面擴充功能處於測試版，尚未正式發佈。
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Commerce Configuration]**&#x200B;中，展開標示其URL的存放區檢視面板。
 
    提供您的[!DNL Adobe Commerce]環境詳細資訊，以啟用目錄Adobe Brand Visibility服務和稽核工作流程。
-
-   目錄擴充設定索引標籤上的![Commerce設定](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 輸入存放區檢視所需的連線詳細資料。
 
@@ -187,8 +187,6 @@ ht-degree: 0%
 - **[!UICONTROL Fixed Suggestions]**：您已經套用或解析的專案。
 - **[!UICONTROL Ignored Suggestions]**：您刻意從動作中排除的專案。
 
-![目錄擴充](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 部署已核准的建議 {#review-deploy-catalog}
 
 若要部署已核准的建議，請執行下列動作：
@@ -221,8 +219,6 @@ ht-degree: 0%
 
    產品表單會顯示擴充的產品名稱及/或說明。
 
-   ![擴充的產品名稱](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. 可選：如果您要保留手動輸入的名稱，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Product Name]**。
 
    手動覆寫會影響建議與目錄保持同步的方式。 如需詳細資訊，請參閱[管理員中的手動覆寫](#manual-override-in-the-admin)。
@@ -230,8 +226,6 @@ ht-degree: 0%
 1. 展開&#x200B;**[!UICONTROL Content]**&#x200B;區段並找出說明欄位。
 
    當您套用說明變更時，就會顯示擴充說明。
-
-   ![豐富產品說明](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 可選：如果您要保留手動輸入的描述，請選取&#x200B;**[!UICONTROL Override Catalog Agent provided Description]**。
 

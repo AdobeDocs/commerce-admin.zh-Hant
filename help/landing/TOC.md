@@ -4,10 +4,10 @@ user-guide-description: Adobe Commerce 和 Magento Open Source 商家使用 Admi
 title: Adobe Commerce管理員使用手冊
 feature: Admin Workspace
 nudge: true
-source-git-commit: a6a5a899ba60097bd6baf2a5de14063a0af2f313
+source-git-commit: 9d7a4f4e98fe2d2d51261d96a2e072c28925babd
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 11%
+source-wordcount: '186'
+ht-degree: 10%
 ---
 # Adobe Commerce管理員使用手冊 {#user-guides}
 
@@ -18,6 +18,7 @@ ht-degree: 11%
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/guide-overview)
 - [使用CCDM的銷售服務](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [銷售與促銷](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/guide-overview)
+- [AI產品探索](https://experienceleague.adobe.com/en/docs/commerce-admin/ai-product-discovery/guide-overview)
 - [內容和設計](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/page-builder/guide-overview)
 - [客戶管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/customers/guide-overview)

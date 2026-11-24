@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![管理檔案](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Source是Adobe正式貢獻的程式碼基底，並確保轉換至Ad
        <img alt="銷售與促銷" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>銷售與促銷活動</strong></a>
     <div><em>建立目標性的促銷活動和客戶參與機會，將購物者變成購買者。 透過支援購買後活動並為回頭的客戶提供特別折扣來管理客戶關係。 瞭解支援您的SEO方案的最佳實務和技術。</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="AI產品探索" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI產品探索</strong></a>
+    <div><em>瞭解[!DNL Adobe Commerce]目錄擴充和PDP擴充如何解決結構化產品資料與以購物者為中心的復本之間的差距，以探索AI產品。</em></div>
   </td>
 </tr>
 <tr>
