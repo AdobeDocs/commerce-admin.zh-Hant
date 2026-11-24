@@ -69,8 +69,8 @@ ht-degree: 1%
 1. 描述&#x200B;**品牌色調**。 請參閱[設定品牌色調](#set-brand-tone)以取得指引。
 1. 設定必要和排除的片語
 
-   新增&#x200B;**[!UICONTROL Must include]**片語。
-   新增**[!UICONTROL Never use]**&#x200B;片語。
+   新增&#x200B;**[!UICONTROL Must include]**&#x200B;片語。
+   新增&#x200B;**[!UICONTROL Never use]**&#x200B;片語。
 
 1. 按一下&#x200B;**[!UICONTROL Save as draft]**&#x200B;稍後完成，或按一下&#x200B;**[!UICONTROL Publish rule]**&#x200B;讓規則可在建立目錄擴充規則時供選取。 按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;離開而不儲存。
 

@@ -29,7 +29,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 
 >[!BEGINTABS]
 
->雲端基礎結構或內部部署上的[!TAB Commerce]
+>[!TAB 雲端基礎結構或內部部署上的 Commerce]
 
 針對雲端基礎結構或內部部署上的[!DNL Adobe Commerce]，您安裝共用擴充擴充功能，這會啟用目錄擴充和PDP擴充。
 
@@ -81,7 +81,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 
 針對[!DNL Adobe Commerce as a Cloud Service]，在帳戶布建期間會為您處理[!DNL Catalog Service]的安裝、目錄擴充和PDP擴充。
 
-完成所有部署](#all-deployments)的[需求，這些需求適用於您計畫使用的工作流程。
+完成所有部署[&#128279;](#all-deployments)的需求，這些需求適用於您計畫使用的工作流程。
 
 <!-- TBD (SME): Confirm whether merchants on Adobe Commerce as a Cloud Service should verify catalog data on the Data Management Dashboard, and whether the IMS and Admin Console requirements apply. -->
 
