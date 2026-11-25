@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # 建立公司帳戶
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >若要支援此方法（允許客戶從店面註冊其公司），請確定已啟用[B2B功能](enable-basic-features.md)。
+
+針對使用`createCompany` GraphQL突變的店面，在[公司設定](../configuration-reference/customers/company-configuration.md#general)中啟用&#x200B;**[!UICONTROL Allow Company Configuration on Storefront Registration]**&#x200B;時，可以在註冊期間提交公司通訊錄設定。 此設定預設為停用，不會自行啟用公司的通訊錄。
 
 1. 在店面標題的右上角，客戶按一下&#x200B;**[!UICONTROL Create an Account]**&#x200B;並選擇&#x200B;**[!UICONTROL Create New Company Account]**。
 
@@ -254,6 +256,10 @@ ht-degree: 0%
 
    * 如果您想要允許公司員工從其帳戶建立並使用採購單，請將&#x200B;**[!UICONTROL Enable Purchase Orders]**&#x200B;設為`Yes`。
 
+   * 若要啟用共用的公司通訊錄，請將&#x200B;**[!UICONTROL Enable Company Address Book]**&#x200B;設為`Yes`。 此設定預設為`No`。
+
+   * 若要在啟用公司通訊錄時，允許在結帳時提供暫時運送地址，請將&#x200B;**[!UICONTROL Allow Custom Shipping Address]**&#x200B;設為`Yes`。 此設定預設為`No`。
+
    * 若要變更公司可用的&#x200B;**[!UICONTROL Applicable Payment Methods]**，請清除「**[!UICONTROL Use config settings]**」核取方塊並選擇下列其中一項：
 
      | 選項 | 說明 |
@@ -304,6 +310,8 @@ ht-degree: 0%
 * **[管理公司使用者](account-company-users.md)** — 新增員工並指派角色
 * **[設定採購單](purchase-order-flow.md)** — 視需要設定核准工作流程
 * **[檢閱信用設定](credit-company.md)** — 瞭解並管理公司信用（若已啟用）
+
+為支援的店面啟用公司通訊錄時，公司使用者可以在結帳時使用公司地址，而不是其個人通訊錄。 帳單需要現有的公司地址。 除非允許自訂送貨地址，否則送貨需要公司地址；取貨地點免除。 公司角色可以授予個別許可權，以新增、編輯、刪除和設定預設公司地址。 公司可以有不同的預設帳單和送貨地址。
 
 ## 常見問題和疑難排解
 
@@ -462,6 +470,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Group] | （僅限管理員）顯示指派給公司的[客戶群組](../customers/customer-groups.md)或[共用目錄](catalog-shared.md)。 |
 | [!UICONTROL Allow Quotes] | （僅限管理員）決定公司成員是否可以代表公司準備及提交可協商的報價。 |
 | [!UICONTROL Enable Purchase Orders] | （僅限管理員）決定公司成員是否可以代表公司提交訂單作為[採購單](account-dashboard-my-purchase-orders.md)。 |
+| [!UICONTROL Enable Company Address Book] | （僅限管理員）在支援的店面流程中啟用公司的公司地址。 選項： `Yes` / `No` （預設）。 |
+| [!UICONTROL Allow Custom Shipping Address] | （僅限管理員）啟用公司通訊錄時，允許在結帳時使用暫時運送地址。 帳單仍需要現有的公司地址。 選項： `Yes` / `No` （預設）。 |
 | 適用的付款方法 | （僅限管理員）指出適用於公司購買的付款方法。 選項： `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | （僅限管理員）如果您啟用特定付款方法，系統就會啟用。 若要讓公司帳戶可使用多種付款方法，請按住Ctrl鍵(PC)或Command鍵(Mac)並選取每個選項。 |
 | [!UICONTROL Applicable Shipping Methods] | （僅限管理員）指出可供公司購買的送貨方法。 選項： `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |

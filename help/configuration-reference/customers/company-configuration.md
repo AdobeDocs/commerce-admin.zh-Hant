@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ ht-degree: 3%
 | 欄位 | [領域](../../getting-started/websites-stores-views.md#scope-settings) | 說明 |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 網站 | 決定您商店的訪客是否可以選擇為公司帳戶或個人帳戶[註冊](../../customers/customer-sign-in.md)。 選項： `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | 網站 | 決定`createCompany` GraphQL突變在店面註冊期間是否接受公司設定，包括公司通訊錄設定。 當&#x200B;**[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;設定為`Yes`時，此選項可供使用。 它不會為每個公司啟用通訊錄。 選項： `Yes` / `No` （預設） |
 
 {style="table-layout:auto"}
 
