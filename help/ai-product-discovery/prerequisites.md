@@ -2,9 +2,9 @@
 title: AI產品探索必要條件
 description: 檢閱目錄擴充和PDP擴充的需求，並在雲端基礎結構或內部部署上的Adobe Commerce上安裝共用擴充功能。
 role: Admin, Developer
-source-git-commit: 9e234eb68fe34171d9e5cf95e8cdab5c31825492
+source-git-commit: 591fca4f18862d289fb233997e8848cb4692d1e7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 ---
 # 先決條件
@@ -18,11 +18,10 @@ ht-degree: 0%
 | 在Edge最佳化 | PDP擴充 | 必填。 Edge最佳化可將擴充的產品資料傳遞給AI代理程式。 請參閱[在Edge最佳化指南](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)。 |
 | 記錄轉送 | 兩個工作流程 | 選填。 根據代理流量啟用擴充建議。 如果沒有它，您仍然可以手動選取產品或產品頁面。 請參閱[記錄轉送指南](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。 |
 | 可編目店面 | 目錄擴充 | 對於抓取型建議是必要的。 LLM導向和代理程式機器人必須能夠存取您的產品頁面。 |
-| [!DNL Adobe Admin Console]存取權 | 目錄擴充 | 必填。 在設定期間，[!DNL Adobe Commerce]會檢查您的組織是否已簽署GenAI附加程式或選擇退出基礎的AI服務。 |
+| [!DNL Adobe Admin Console]存取權 | 兩個工作流程 | 必填。 在設定期間，[!DNL Adobe Commerce]會檢查您組織的GenAI騎士狀態。 除非您的組織選擇退出GenAI附加服務，否則您具有存取權。 |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## 設定您的Commerce平台 {#set-up}
